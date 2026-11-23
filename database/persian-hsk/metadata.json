@@ -1,0 +1,99 @@
+{
+  "dataset": "persian-hsk",
+  "title_fa": "پایگاه داده آموزشی فارسی هانیو شوییپینگ کائوشی (HSK 3.0) — سطوح ۱ تا ۳",
+  "title_en": "Persian-localized NEW HSK 3.0 dataset (levels 1-3)",
+  "version": "1.0.0",
+  "generated_date": "2026-11-06",
+  "target_cefr": "Pre-A1 تا A2",
+  "source": {
+    "repository": "https://github.com/chelsea6502/hsk-2025-data",
+    "original_data_from": "chinesetest.cn (سایت رسمی کنفوسیوس آزمون هانیو)",
+    "syllabus": "NEW HSK 3.0 (2025)",
+    "license_status": "مخزن منبع فایل LICENSE ندارد و هیچ مجوز صریحی برای استفاده اعلام نکرده است؛ بر اساس قوانین پیش‌فرض کپی‌رایت، حقوق برای نویسنده محفوظ است. داده پایه (فهرست رسمی واژگان و نکات دستوری HSK منتشرشده در chinesetest.cn) سرفصل رسمی آموزشی دولتی چین است؛ با این حال پیش از انتشار تجاری، کسب اجازه از نویسنده مخزن توصیه می‌شود. جزئیات در validation/validation-report.json.",
+    "source_files": ["vocabulary.tsv", "grammar.tsv", "hanzi_recognition.tsv", "hanzi_writing.tsv"],
+    "encoding": "UTF-8 (with BOM)"
+  },
+  "external_references": {
+    "unihan": {
+      "name": "Unicode Han Database (Unihan), UCD 16.0",
+      "url": "https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip",
+      "used_for": "پین‌یین کاراکترها (kMandarin)، بن/radical (kRSUnicode)، شمارش خطوط (kTotalStrokes)",
+      "license": "Unicode License Agreement - Data Files and Software"
+    }
+  },
+  "levels_in_scope": ["HSK1", "HSK2", "HSK3"],
+  "counts": {
+    "vocabulary": { "HSK1": 300, "HSK2": 200, "HSK3": 500, "total": 1000 },
+    "grammar": { "HSK1": 70, "HSK2": 78, "HSK3": 96, "total": 244 },
+    "hanzi_recognition": { "HSK1": 246, "HSK2": 125, "HSK3": 284, "total": 655 },
+    "hanzi_writing": { "HSK1": 0, "HSK2": 100, "HSK3": 150, "total": 250 }
+  },
+  "id_scheme": {
+    "vocabulary": "v-{sort:05d} — sort شماره رسمی ردیف در vocabulary.tsv است (۱ تا ۱۱۰۰۰، یکتا)",
+    "grammar": "g-hsk{n}-{###} — شماره‌گذاری ترتیبی داخل هر سطح مطابق ترتیب سورس؛ نگاشت به ردیف سورس در فیلد source_row",
+    "hanzi_recognition": "rec-hsk{n}-{###} — مرتب الفبایی پین‌یین داخل سطح",
+    "hanzi_writing": "wri-hsk{n}-{###} — مرتب الفبایی پین‌یین داخل سطح"
+  },
+  "schemas": {
+    "vocabulary": {
+      "id": "string — شناسه پایدار",
+      "level": "HSK1|HSK2|HSK3",
+      "also_levels": "سطوح بالاتری که این واژه در فهرست آن‌ها هم هست (از نشانه‌گذاری سورس مثل 一级（三级）)",
+      "chinese": "متن اصلی چینی (حفظ مو‌به‌مو)",
+      "pinyin": "پین‌یین اصلی با اعراب (حفظ مو‌به‌مو)",
+      "part_of_speech_fa": "نقش دستوری به فارسی (از واژه‌نامه)",
+      "part_of_speech_zh": "نقش دستوری اصلی سورس (cixing)",
+      "meaning_fa": "معنای فارسی",
+      "meaning_en": "معنای انگلیسی",
+      "explanation_fa": "توضیح کوتاه آموزشی فارسی (تفکیک معانی چندگانه)",
+      "examples": "[{chinese, pinyin, translation_fa}] — جمله‌های نمونه طبیعی",
+      "verified": "true/false — فیلدهایی که نیاز به بازبینی دارند علامت خورده‌اند"
+    },
+    "grammar": {
+      "id": "string",
+      "level": "HSK1|HSK2|HSK3",
+      "grammar_name": "نام/ساختار اصلی دستوری (از سورس)",
+      "title_fa": "عنوان فارسی درس",
+      "grammar_type_zh / category_zh / detail_zh": "متادیتای دسته‌بندی سورس (حفظ شده)",
+      "explanation_fa": "توضیح فارسی برای زبان‌آموز مبتدی",
+      "structure": "الگوی ساختاری",
+      "usage_fa": "قواعد کاربرد",
+      "restrictions_fa": "محدودیت‌ها و نکات مهم",
+      "common_mistakes_fa": "خطاهای رایج فارسی‌زبانان",
+      "examples": "[{chinese, pinyin, translation_fa}] — ترجمه مثال‌های رسمی سورس (cases)",
+      "source_row": "ردیف در grammar.tsv (برای ردیابی)"
+    },
+    "hanzi_recognition": {
+      "id": "string",
+      "level": "HSK1|HSK2|HSK3",
+      "character": "کاراکتر چینی",
+      "pinyin": "پین‌یین (از واژگان رسمی یا Unihan)",
+      "pinyin_source": "منبع پین‌یین: vocabulary | unihan_kMandarin",
+      "meaning_fa": "معنای فارسی",
+      "common_usage_fa": "کاربرد رایج",
+      "example_words": "[{chinese, pinyin, meaning_fa}] — واژه‌های نمونه",
+      "role_explanation_fa": "نقش کاراکتر در واژه‌سازی"
+    },
+    "hanzi_writing": {
+      "id": "string",
+      "level": "HSK2|HSK3",
+      "character": "کاراکتر چینی",
+      "pinyin": "پین‌یین",
+      "meaning_fa": "معنای فارسی",
+      "radical_zh / radical_fa": "بن کاراکتر (نویسه و نام فارسی — از واژه‌نامه، خودکار)",
+      "radical_index": "شماره بن کانگ‌شی (از Unihan kRSUnicode)",
+      "stroke_count": "شمارش خطوط مطابق استاندارد سرزمین اصلی چین (笔顺规范) — برای ۱۸ کاراکتر با Unihan اختلاف دارد (Unihan شمارش سنتی/کانگشی می‌دهد، مثلاً 辶=۴ خط سنتی در برابر ۳ خط مدرن)",
+      "stroke_count_unihan_traditional": "شمارش خط سنتی Unihan (فقط برای همان ۱۸ کاراکتر؛ بقیه این فیلد را ندارند)",
+      "stroke_order_data": "مسیرهای ترتیب خط در stroke-data/{unicode-hex}.json (منبع: makemeahanzi/ARPHIC PUBLIC LICENSE، سازگار با hanzi-writer)",
+      "example_words": "واژه‌های رایج",
+      "writing_note_fa": "نکته نوشتاری"
+    }
+  },
+  "cumulative_vs_level_specific": "واژگان هر سطح «جدیدِ همان سطح» است (ساختار سورس). جمع انباشته: HSK1=300، HSK2=500، HSK3=1000. برای کارت‌های انباشته، also_levels و فیلتر سطح استفاده شود.",
+  "integrity_notes": {
+    "homograph_digit_suffix": "پسوند عددی در واژه‌ها (مثل 本1/本2) نشانه‌گذاری رسمی سیلابس برای معانی مجزای یک نگاشت است — حذف نشده و در chinese حفظ شده است.",
+    "polyphone_entries": "واژه‌های چندخوانی (مثل 得 de/dé/děi) ردیف‌های مجزای رسمی‌اند، تکرار نیستند.",
+    "grammar_empty_content": "۷ نقطه دستوری سورس content خالی دارند و نامشان در grammarDetail است؛ در شناسه‌ها با content_was_empty مشخص شده‌اند.",
+    "empty_cixing": "۱۶ واژه نقش دستوری خالی دارند (عبارات ثابت مثل 你好) → part_of_speech_fa = عبارت."
+  }
+}

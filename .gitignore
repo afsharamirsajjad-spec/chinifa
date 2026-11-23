@@ -1,0 +1,68 @@
+# Node / Dependencies / Binaries
+node_modules/
+package-lock.json
+tools/node/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.admin.bak*
+*.bak
+dump_*.py
+inspect_*.py
+verify_*.py
+update_app_drill.py
+
+# Keystores & Secrets (Security Best Practice)
+*.keystore
+*.jks
+
+# Build, Large Binaries & Zip Archives
+extracted/
+*.apk
+*.aab
+*.idsig
+*.zip
+*.docx
+*.log
+
+# Debug Screenshots & Chrome Profiles & Tool Caches
+*.png
+temp_*
+vocab_full_dom.html
+ui-preview/
+*chrome_temp*
+*chrome_test*
+*chrome_verify*
+tools/chrome_*
+tools/attic/
+tools/beautified/
+tools/fa_tmp/
+tools/fa_content_chunks/
+tools/fa_content_done/
+tools/vercel-upstream/
+tools/_tmp_work/
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary & Agent logs
+.gemini/
+
+# Scratch and one-off test scripts in tools
+tools/test_*
+tools/trace_*
+tools/walk_*
+tools/*.txt
+tools/update_*
+tools/check_*
+tools/inspect_*
+tools/dump_*

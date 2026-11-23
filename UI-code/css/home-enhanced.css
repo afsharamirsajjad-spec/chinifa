@@ -1,0 +1,1213 @@
+/* ============================================================
+   home-enhanced.css — جایگزینی کامل صفحه خانه و نوار پایین (کان‌چینی)
+   شامل: نقشه جامع ۱۵ درس در ۵ ایستگاه + نوار ۶ گزینه‌ای با آیکون‌های سه‌بعدی
+   ============================================================ */
+
+:root {
+  --primary-emerald: #09976B;
+  --primary-light: #E3F6EE;
+  --card-bg: rgba(255, 255, 255, 0.94);
+  --card-border: rgba(255, 255, 255, 0.85);
+  --card-shadow: 0 14px 34px rgba(15, 23, 42, 0.14), 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+/* ════════════════════════════════════════════════════════════
+   صفحه هوم (Roadmap Container)
+   ════════════════════════════════════════════════════════════ */
+.hm.hm--jr {
+  background: #E8DCFA !important;
+  padding: 0 !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  position: relative;
+  height: 100% !important;
+}
+
+.kan-home-roadmap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 220px !important;
+}
+
+/* هدر بالای هوم */
+.kan-home-top-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 60;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 8px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+}
+
+.kan-chip-cluster {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.kan-chip-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #1E293B;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+.kan-chip-btn:active {
+  transform: scale(0.95);
+}
+
+.kan-chip-pro {
+  background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+  border-color: #F59E0B;
+  color: #92400E;
+}
+
+.kan-chip-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.kan-level-chip {
+  background: #E3F6EE;
+  border: 1.5px solid #09976B;
+  color: #09976B;
+}
+
+/* ════════════════════════════════════════════════════════════
+   ایستگاه‌ها (Stations)
+   ════════════════════════════════════════════════════════════ */
+.station-section {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0px;
+  overflow: visible;
+}
+
+.station-full-bg-art {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.station-content-layer {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  padding-bottom: 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.08) 35%, rgba(255, 255, 255, 0.22) 100%);
+}
+
+.station-top-header-area {
+  position: relative;
+  width: 100%;
+  height: 205px;
+}
+
+/* پاپ‌آپ معرفی شهرها (در بالا با فاصله تنفس عالی) */
+.dragon-dialogue-bubble {
+  position: absolute;
+  top: 18px;
+  right: 14px;
+  width: 54%;
+  background: var(--card-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 20px;
+  padding: 10px 14px;
+  box-shadow: var(--card-shadow);
+  border: 1.5px solid var(--card-border);
+  animation: floatSpeech 3.6s ease-in-out infinite;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.bubble-left {
+  right: auto;
+  left: 14px;
+}
+
+@keyframes floatSpeech {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.speech-title {
+  font-size: 13.5px;
+  font-weight: 900;
+  color: #0F172A;
+  margin-bottom: 3px;
+  line-height: 1.35;
+}
+
+.speech-sub {
+  font-size: 11px;
+  color: #475569;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+/* نوار عنوان ایستگاه */
+.station-title-strip {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  padding: 10px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 18px;
+  margin: 12px 14px 16px;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+}
+
+.station-name {
+  font-family: var(--f) !important;
+  font-size: 14px !important;
+  font-weight: 900 !important;
+  color: #0F172A !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0 !important;
+}
+
+.station-pin-svg {
+  width: 17px;
+  height: 17px;
+  fill: #10B981;
+}
+
+.station-pill-tag {
+  font-family: var(--f) !important;
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  color: #059669 !important;
+  background: #D1FAE5 !important;
+  padding: 4px 10px !important;
+  border-radius: 12px !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* ردیف درس‌ها */
+.station-nodes-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 14px;
+  position: relative;
+}
+
+.roadmap-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+}
+
+.roadmap-row.alt {
+  flex-direction: row-reverse;
+}
+
+.pedestal-stage {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.pedestal-base {
+  width: 82px;
+  height: 28px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #E2E8F0 100%);
+  border-radius: 50%;
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.22);
+  border-top: 3px solid #34D399;
+}
+
+.mascot-on-pedestal {
+  position: absolute;
+  bottom: 12px;
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  animation: mascotBob 3.5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes mascotBob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.lesson-card-item {
+  flex: 1;
+  background: var(--card-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 22px;
+  border: 1.5px solid var(--card-border);
+  box-shadow: var(--card-shadow);
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.lesson-card-item:hover, .lesson-card-item:active {
+  transform: translateY(-2px) scale(1.02);
+}
+
+.card-topline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.card-num-text {
+  font-size: 11px;
+  font-weight: 800;
+  color: #64748B;
+}
+
+.card-status-label {
+  font-size: 10.5px;
+  font-weight: 800;
+  color: #059669;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.status-indicator-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #10B981;
+}
+
+.card-title-fa {
+  font-size: 14.5px;
+  font-weight: 900;
+  color: #0F172A;
+  margin-bottom: 2px;
+  line-height: 1.35;
+}
+
+.card-hanzi-line {
+  font-size: 12px;
+  font-weight: 700;
+  color: #475569;
+}
+
+.play-action-circle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 6px 18px rgba(16, 185, 129, 0.4);
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.play-action-circle svg {
+  width: 20px;
+  height: 20px;
+  fill: #FFFFFF;
+  margin-right: -2px;
+}
+
+/* کادر بررسی ایستگاه / مدال و کاپ */
+.milestone-review-box {
+  background: var(--card-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 24px;
+  padding: 14px 18px;
+  margin: 22px 14px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1.5px solid var(--card-border);
+  box-shadow: var(--card-shadow);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.milestone-review-box:active {
+  transform: scale(0.98);
+}
+
+.milestone-tag {
+  font-size: 11px;
+  font-weight: 800;
+  color: #D97706;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 3px;
+}
+
+.mini-3d-star {
+  width: 14px;
+  height: 14px;
+}
+
+.milestone-title-text {
+  font-size: 15px;
+  font-weight: 900;
+  color: #0F172A;
+  margin-bottom: 2px;
+}
+
+.milestone-sub-text {
+  font-size: 12px;
+  color: #64748B;
+  font-weight: 700;
+}
+
+.milestone-icon-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.milestone-3d-art {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 12px rgba(245, 158, 11, 0.35));
+}
+
+.grand-trophy {
+  width: 52px;
+  height: 52px;
+}
+
+.chevron-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #F1F5F9;
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+  font-weight: 900;
+  color: #475569;
+}
+
+/* ════════════════════════════════════════════════════════════
+   ۲. نوار پایین مینیمال، مدرن و هماهنگ با دیزاین سیستم
+   طراحی فلت-گلس با آیکون‌های وکتور تمیز، انیمیشن نرم و بدون آشفتگی بصری
+   ════════════════════════════════════════════════════════════ */
+.tabbar {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  min-height: 60px !important;
+  height: auto !important;
+  background: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border-top: 1px solid rgba(226, 232, 240, 0.85) !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-bottom: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: 0 -4px 20px rgba(15, 23, 42, 0.04) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+  padding: 6px 8px calc(var(--sab, 0px) + 8px) !important;
+  z-index: 45 !important;
+  pointer-events: auto !important;
+  box-sizing: border-box !important;
+}
+
+.tabbar[hidden] {
+  display: none !important;
+}
+
+.kan-tab-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 4px 0;
+  position: relative;
+  flex: 1;
+  height: 100%;
+  color: #94A3B8;
+  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.kan-tab-btn:active {
+  transform: scale(0.92);
+}
+
+.kan-tab-icon-pill {
+  width: 44px;
+  height: 28px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: transparent;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.kan-tab-btn .i {
+  color: #94A3B8;
+  transition: all 0.22s ease;
+}
+
+.kan-tab-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: #94A3B8;
+  transition: all 0.22s ease;
+  letter-spacing: -0.15px;
+  white-space: nowrap;
+  line-height: 1.2;
+}
+
+/* تب فعال — استایل مینیمال با کپسول نعنایی ملایم و رنگ سبز اختصاصی */
+.kan-tab-btn.active {
+  color: #0FA968;
+}
+
+.kan-tab-btn.active .kan-tab-icon-pill {
+  background: rgba(15, 169, 104, 0.12);
+  color: #0FA968;
+}
+
+.kan-tab-btn.active .i {
+  color: #0FA968;
+  transform: translateY(-0.5px);
+}
+
+.kan-tab-btn.active .kan-tab-label {
+  color: #0FA968;
+  font-weight: 700;
+  font-size: 10.5px;
+}
+
+.kan-streak-badge {
+  background: #EF4444;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  display: inline-grid;
+  place-items: center;
+  font-weight: 800;
+}
+
+.kan-level-badge {
+  background: #09976B;
+  color: #fff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: inline-grid;
+  place-items: center;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   چینش بهینه کارت‌های درس برای باز بودن کامل اژدهای پس‌زمینه
+   ════════════════════════════════════════════════════════════ */
+.station-nodes-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  position: relative;
+  z-index: 5;
+}
+
+.roadmap-row {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+/* در ایستگاه ۱: اژدها در بالا-چپ روی ابر است -> کارت‌ها در سمت راست قرار می‌گیرند */
+.roadmap-row.align-right {
+  justify-content: flex-end;
+}
+.roadmap-row.align-right .lesson-card-item {
+  width: 82%;
+  max-width: 290px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* در ایستگاه‌های ۲، ۳ و ۴: اژدهای کتاب‌خوان/خطاط/برفی در پایین-راست قرار دارند -> کارت‌ها در سمت چپ قرار می‌گیرند */
+.roadmap-row.align-left {
+  justify-content: flex-start;
+}
+.roadmap-row.align-left .lesson-card-item {
+  width: 82%;
+  max-width: 290px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* در ایستگاه ۵: اژدهای فارغ‌التحصیلی و جام در پایین-وسط قرار دارند -> کارت‌ها در پله‌های بالایی */
+.roadmap-row.align-center {
+  justify-content: center;
+}
+.roadmap-row.align-center .lesson-card-item {
+  width: 86%;
+  max-width: 310px;
+}
+
+/* چیدمان کادر آزمون / مرور فصول ۲، ۳ و ۴ در سمت چپ جهت باز بودن اژدهای پایین-راست */
+.flow-st-2 ~ .milestone-review-box,
+.flow-st-3 ~ .milestone-review-box,
+.flow-st-4 ~ .milestone-review-box {
+  max-width: 290px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* استایل درس‌های قفل‌شده */
+.lesson-card-item.lesson-card--locked {
+  background: rgba(255, 255, 255, 0.72) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1.5px solid rgba(226, 232, 240, 0.85) !important;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06) !important;
+  opacity: 0.92;
+}
+
+.lesson-card-item.lesson-card--locked:hover {
+  transform: translateY(-1px);
+}
+
+.text--muted {
+  color: #64748B !important;
+}
+
+.card-status-label.status--locked {
+  background: rgba(148, 163, 184, 0.16);
+  color: #64748B;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card-lock-svg {
+  width: 13px;
+  height: 13px;
+  fill: #64748B;
+}
+
+.lock-action-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #E2E8F0 0%, #CBD5E1 100%);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  box-shadow: 0 3px 8px rgba(15, 23, 42, 0.12);
+  border: 1.5px solid #FFFFFF;
+}
+
+.lock-action-circle svg {
+  width: 18px;
+  height: 18px;
+  fill: #64748B;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   HOME SCREEN VISUAL POLISH & 60FPS HARDWARE ACCELERATION
+   ════════════════════════════════════════════════════════════ */
+
+/* CSS Containment: Prevents layout recalculation of offscreen stations during scroll */
+/* Station rendering: mobile-safe containment without content-visibility skipping */
+.station-section {
+  position: relative !important;
+  width: 100% !important;
+  overflow: visible !important;
+  display: block !important;
+}
+
+/* Header Glassmorphism Upgrade */
+.kan-home-top-bar {
+  background: rgba(255, 255, 255, 0.90) !important;
+  backdrop-filter: blur(24px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(190%) !important;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.75) !important;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.05) !important;
+}
+
+/* Pro Chip */
+.kan-chip-pro {
+  background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%) !important;
+  border: 1px solid #FCD34D !important;
+  color: #B45309 !important;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.15) !important;
+  font-weight: 800 !important;
+}
+
+/* Streak Chip ("امروز") */
+.kan-chip-streak {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(226, 232, 240, 0.9) !important;
+  color: #1E293B !important;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05) !important;
+}
+
+.kan-streak-badge {
+  background: linear-gradient(135deg, #EF4444 0%, #DC2626 100%) !important;
+  box-shadow: 0 2px 6px rgba(239, 68, 68, 0.35) !important;
+}
+
+/* Level Chip ("HSK 1") */
+.kan-level-chip {
+  background: rgba(16, 185, 129, 0.08) !important;
+  border: 1.5px solid #10B981 !important;
+  color: #047857 !important;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.12) !important;
+}
+
+.kan-level-badge {
+  background: #0FA968 !important;
+  box-shadow: 0 2px 6px rgba(15, 169, 104, 0.35) !important;
+}
+
+/* GPU Accelerated Dragon Speech Bubble */
+.dragon-dialogue-bubble {
+  transform: translate3d(0, 0, 0) !important;
+  backface-visibility: hidden !important;
+  will-change: transform !important;
+  border-radius: 20px !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.95) !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12), 0 2px 6px rgba(0,0,0,0.03) !important;
+}
+
+@keyframes floatSpeech {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(0, -5px, 0); }
+}
+
+/* Station Title Strip */
+.station-title-strip {
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.06) !important;
+}
+
+/* Active Lesson Card (Emerald Halo & Elevation) */
+.lesson-card--active {
+  background: rgba(255, 255, 255, 0.98) !important;
+  border: 1.5px solid rgba(16, 185, 129, 0.65) !important;
+  box-shadow: 0 12px 32px rgba(16, 185, 129, 0.16), 0 3px 8px rgba(0, 0, 0, 0.04) !important;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+.lesson-card--active .play-action-circle {
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%) !important;
+  box-shadow: 0 6px 18px rgba(16, 185, 129, 0.42) !important;
+}
+
+/* Locked Lesson Cards */
+.lesson-card--locked {
+  background: rgba(255, 255, 255, 0.88) !important;
+  border: 1.5px solid rgba(226, 232, 240, 0.8) !important;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04) !important;
+  opacity: 0.94;
+}
+
+.card-lock-svg {
+  fill: #64748B !important;
+}
+
+/* Milestone Review Box */
+.milestone-review-box {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08) !important;
+}
+
+/* Refined Bottom Navigation Bar */
+.tabbar {
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(24px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(190%) !important;
+  border-top: 1px solid rgba(226, 232, 240, 0.85) !important;
+  box-shadow: 0 -4px 20px rgba(15, 23, 42, 0.05) !important;
+}
+
+.kan-tab-btn {
+  color: #64748B !important;
+  font-weight: 700 !important;
+}
+
+.kan-tab-btn .kan-tab-icon-pill {
+  width: 46px !important;
+  height: 28px !important;
+  border-radius: 14px !important;
+  transition: all 0.22s cubic-bezier(0.2, 0.8, 0.2, 1) !important;
+}
+
+.kan-tab-btn .kan-tab-label {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+  transition: color 0.2s ease !important;
+}
+
+.kan-tab-btn.active {
+  color: #059669 !important;
+}
+
+.kan-tab-btn.active .kan-tab-icon-pill {
+  background: rgba(16, 185, 129, 0.12) !important;
+  color: #059669 !important;
+  transform: translateY(-1px) scale(1.04) !important;
+}
+
+.kan-tab-btn.active .kan-tab-label {
+  color: #059669 !important;
+  font-weight: 800 !important;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   chinifa App Splash Screen (لودینگ اختصاصی با اژدها و افکت متن)
+   ════════════════════════════════════════════════════════════ */
+.chinifa-splash {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 999999 !important;
+  background: radial-gradient(circle at 50% 38%, #10B981 0%, #059669 45%, #064E3B 100%) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  pointer-events: auto !important;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.chinifa-splash.is-out {
+  opacity: 0 !important;
+  transform: scale(1.04) !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+}
+
+.chinifa-splash-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.chinifa-splash-clouds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 240px;
+  background: url(../art/clouds.webp) repeat-x center top / 340px auto;
+  opacity: 0.3;
+  animation: cloudDrift 24s linear infinite;
+}
+
+@keyframes cloudDrift {
+  from { background-position: 0 0; }
+  to { background-position: 340px 0; }
+}
+
+.chinifa-splash-rays {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  width: 540px;
+  height: 540px;
+  margin-left: -270px;
+  margin-top: -270px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(from 0deg, rgba(255, 255, 255, 0.09) 0 12deg, transparent 12deg 24deg);
+  animation: splashRaySpin 22s linear infinite;
+}
+
+@keyframes splashRaySpin {
+  to { transform: rotate(360deg); }
+}
+
+.chinifa-splash-center {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* اژدهای اصلی چی‌نی‌فا در صفحه اسپلش با ظاهر پایدار و بدون پرش */
+.chinifa-mascot-container {
+  position: relative !important;
+  width: 200px !important;
+  height: 246px !important;
+  margin-bottom: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  opacity: 1 !important;
+  animation: splashDragonFloat 2.6s ease-in-out infinite alternate !important;
+}
+
+@keyframes splashDragonFloat {
+  0% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-7px) scale(1.02); }
+  100% { transform: translateY(0) scale(1); }
+}
+
+.chinifa-splash-glow {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  width: 240px !important;
+  height: 240px !important;
+  margin-left: -120px !important;
+  margin-top: -120px !important;
+  border-radius: 50% !important;
+  background: radial-gradient(circle, rgba(254, 240, 138, 0.55) 0%, rgba(16, 185, 129, 0) 70%) !important;
+  animation: splashGlowPulse 2.2s ease-in-out infinite alternate !important;
+  pointer-events: none !important;
+}
+
+@keyframes splashGlowPulse {
+  from { transform: scale(0.9); opacity: 0.6; }
+  to { transform: scale(1.18); opacity: 1; }
+}
+
+.chinifa-splash-dragon-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.38)) !important;
+  pointer-events: none !important;
+  display: block !important;
+  opacity: 1 !important;
+}
+
+/* عنوان و زیرعنوان کلمه chinifa - نمایش فوری و پایدار بدون محو بودن */
+.chinifa-splash-title {
+  display: block !important;
+  direction: ltr !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif !important;
+  font-size: 52px !important;
+  font-weight: 900 !important;
+  letter-spacing: -1.5px !important;
+  line-height: 1 !important;
+  color: #FFFFFF !important;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.35), 0 0 24px rgba(254, 240, 138, 0.7) !important;
+  opacity: 1 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center !important;
+}
+
+.chinifa-splash-sub {
+  margin-top: 10px !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: rgba(255, 255, 255, 0.94) !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35) !important;
+  letter-spacing: 0.3px !important;
+  opacity: 1 !important;
+  text-align: center !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   استایل‌های کارت درس صفر (پیش‌نیاز اختیاری با دکمه رد کردن)
+   ══════════════════════════════════════════════════════════════════════ */
+.lesson0-banner-box {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(240, 253, 244, 0.98) 100%) !important;
+  border: 2px solid #10B981 !important;
+  border-radius: 20px !important;
+  padding: 16px 18px !important;
+  margin: 12px 16px 20px 16px !important;
+  box-shadow: 0 10px 25px rgba(16, 185, 129, 0.18), 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+  position: relative !important;
+  z-index: 10 !important;
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.lesson0-banner-box.is-done-box {
+  border-color: #059669 !important;
+  background: linear-gradient(135deg, #ECFDF5 0%, #F0FDF4 100%) !important;
+}
+
+.l0-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 10px !important;
+}
+
+.l0-tag {
+  background: #DCFCE7 !important;
+  color: #15803D !important;
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  padding: 4px 10px !important;
+  border-radius: 999px !important;
+  border: 1px solid rgba(21, 128, 61, 0.2) !important;
+}
+
+.l0-skip-btn {
+  background: transparent !important;
+  border: none !important;
+  color: #64748B !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  padding: 4px 8px !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.l0-skip-btn:hover {
+  background: rgba(226, 232, 240, 0.8) !important;
+  color: #0F172A !important;
+}
+
+.l0-title {
+  font-size: 17px !important;
+  font-weight: 900 !important;
+  color: #0F172A !important;
+  margin-bottom: 4px !important;
+  letter-spacing: -0.3px !important;
+}
+
+.l0-desc {
+  font-size: 13px !important;
+  color: #475569 !important;
+  line-height: 1.5 !important;
+  margin-bottom: 14px !important;
+}
+
+.l0-actions {
+  display: flex !important;
+  gap: 10px !important;
+}
+
+.l0-start-btn {
+  flex: 1 !important;
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%) !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 10px 16px !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35) !important;
+  transition: transform 0.15s ease !important;
+}
+
+.l0-start-btn:active {
+  transform: scale(0.97) !important;
+}
+
+.l0-start-btn svg {
+  width: 18px !important;
+  height: 18px !important;
+  fill: currentColor !important;
+}
+
+/* آیکون و وضعیت درس تکمیل شده */
+.play-action--done {
+  background: #059669 !important;
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.35) !important;
+}
+
+.status--done {
+  color: #059669 !important;
+  font-weight: 800 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   استایل‌های بخش تمرین تلفظ با میکروفون زنده (Interactive Speak & Mic)
+   ══════════════════════════════════════════════════════════════════════ */
+.u-mic-container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 18px 0 10px 0 !important;
+  position: relative !important;
+}
+
+.u-mic-btn {
+  width: 74px !important;
+  height: 74px !important;
+  border-radius: 50% !important;
+  border: 3px solid #10B981 !important;
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%) !important;
+  color: #FFFFFF !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.4) !important;
+  position: relative !important;
+  z-index: 2 !important;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+.u-mic-btn:active {
+  transform: scale(0.92) !important;
+}
+
+.u-mic-btn.is-active {
+  background: linear-gradient(135deg, #EF4444 0%, #DC2626 100%) !important;
+  border-color: #F87171 !important;
+  box-shadow: 0 8px 28px rgba(239, 68, 68, 0.5) !important;
+  animation: micActivePulse 1s ease-in-out infinite alternate !important;
+}
+
+@keyframes micActivePulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+
+.u-mic-pulse-ring {
+  position: absolute !important;
+  width: 104px !important;
+  height: 104px !important;
+  border-radius: 50% !important;
+  background: rgba(239, 68, 68, 0.25) !important;
+  animation: pulseRingExpand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) infinite !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+}
+
+@keyframes pulseRingExpand {
+  0% { transform: scale(0.7); opacity: 0.9; }
+  100% { transform: scale(1.4); opacity: 0; }
+}
+
+.u-mic-btn.is-success {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+  border-color: #34D399 !important;
+  box-shadow: 0 8px 24px rgba(5, 150, 105, 0.4) !important;
+}
+
+.u-mic-status-text {
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+  margin-top: 12px !important;
+}
+
+.u-mic-sub-text {
+  font-size: 12.5px !important;
+  color: #64748B !important;
+  margin-top: 4px !important;
+}
+
+.u-speak-score-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background: #ECFDF5 !important;
+  color: #059669 !important;
+  font-size: 14.5px !important;
+  font-weight: 900 !important;
+  padding: 6px 14px !important;
+  border-radius: 999px !important;
+  border: 1.5px solid #10B981 !important;
+  margin-top: 10px !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15) !important;
+}
+
+.u-speak-heard-text {
+  font-size: 13px !important;
+  color: #334155 !important;
+  margin-top: 6px !important;
+  font-weight: 600 !important;
+}
+
+.u-speak-retry-link {
+  margin-top: 6px !important;
+}
+
+.u-speak-retry-link .u-btn-link {
+  background: none !important;
+  border: none !important;
+  color: #10B981 !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  text-decoration: underline !important;
+}

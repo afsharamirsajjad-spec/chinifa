@@ -1,0 +1,115 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/auth/google/available",
+      "destination": "/api/auth?action=google-available"
+    },
+    {
+      "source": "/api/password/forgot",
+      "destination": "/api/auth?action=forgot"
+    },
+    {
+      "source": "/api/delete-account",
+      "destination": "/api/auth?action=delete-account"
+    },
+    {
+      "source": "/api/account/email",
+      "destination": "/api/auth?action=set-email"
+    },
+    {
+      "source": "/api/change-password",
+      "destination": "/api/auth?action=change-password"
+    },
+    {
+      "source": "/api/logout-everywhere",
+      "destination": "/api/auth?action=logout-everywhere"
+    },
+    {
+      "source": "/api/logout",
+      "destination": "/api/auth?action=logout"
+    },
+    {
+      "source": "/api/session",
+      "destination": "/api/auth?action=session"
+    },
+    {
+      "source": "/api/login",
+      "destination": "/api/auth?action=login"
+    },
+    {
+      "source": "/api/register",
+      "destination": "/api/auth?action=register"
+    },
+    {
+      "source": "/api/progress",
+      "destination": "/api/progress"
+    },
+    {
+      "source": "/api/stories",
+      "destination": "/content/stories.json"
+    },
+    {
+      "source": "/api/stories/:id",
+      "destination": "/content/pods/:id.json"
+    },
+    {
+      "source": "/api/podcast",
+      "destination": "/content/podcast.json"
+    },
+    {
+      "source": "/api/podcast/:id",
+      "destination": "/content/pods/:id.json"
+    },
+    {
+      "source": "/api/feed",
+      "destination": "/content/feed.json"
+    },
+    {
+      "source": "/api/wordlists",
+      "destination": "/content/api/wordlists.json"
+    },
+    {
+      "source": "/api/cc",
+      "destination": "/content/api/cc.json"
+    },
+    {
+      "source": "/api/dict",
+      "destination": "/content/api/dict.json"
+    },
+    {
+      "source": "/api/pinyin",
+      "destination": "/content/api/pinyin.json"
+    },
+    {
+      "source": "/api/popups",
+      "destination": "/content/api/popups.json"
+    },
+    {
+      "source": "/api/banner",
+      "destination": "/content/api/banner.json"
+    },
+    {
+      "source": "/api/app-version",
+      "destination": "/content/api/app-version.json"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "content-type, authorization"
+        }
+      ]
+    }
+  ]
+}

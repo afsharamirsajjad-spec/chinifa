@@ -1,0 +1,6896 @@
+{
+ "id": "rest",
+ "name": "Restaurant Chinese",
+ "words": [
+  {
+   "ch": "菜单",
+   "py": "càidān",
+   "en": "menu",
+   "ex": [
+    {
+     "ch": "请给我看一下菜单。",
+     "en": "Please show me the menu.",
+     "py": "qǐng gěi wǒ kàn yíxià càidān",
+     "seg": [
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "给",
+       "gěi"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "看",
+       "kàn"
+      ],
+      [
+       "一下",
+       "yíxià"
+      ],
+      [
+       "菜单",
+       "càidān"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "服务员",
+   "py": "fúwùyuán",
+   "en": "waiter; server",
+   "ex": [
+    {
+     "ch": "服务员，请给我一杯水。",
+     "en": "Waiter, please give me a glass of water.",
+     "py": "fúwùyuán qǐng gěi wǒ yì bēi shuǐ",
+     "seg": [
+      [
+       "服务员",
+       "fúwùyuán"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "给",
+       "gěi"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "杯",
+       "bēi"
+      ],
+      [
+       "水",
+       "shuǐ"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "点菜",
+   "py": "diǎncài",
+   "en": "to order dishes (in a restaurant)",
+   "ex": [
+    {
+     "ch": "我们先点菜吧。",
+     "en": "Let's order dishes first.",
+     "py": "wǒmen xiān diǎncài ba",
+     "seg": [
+      [
+       "我们",
+       "wǒmen"
+      ],
+      [
+       "先",
+       "xiān"
+      ],
+      [
+       "点菜",
+       "diǎncài"
+      ],
+      [
+       "吧",
+       "ba"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "几位",
+   "py": "jǐ wèi",
+   "en": "how many people? (asking a party size)",
+   "ex": [
+    {
+     "ch": "请问你们几位？",
+     "en": "How many people are in your party?",
+     "py": "qǐngwèn nǐ men jǐ wèi",
+     "seg": [
+      [
+       "请问",
+       "qǐngwèn"
+      ],
+      [
+       "你",
+       "nǐ"
+      ],
+      [
+       "们",
+       "men"
+      ],
+      [
+       "几位",
+       "jǐ wèi"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "座位",
+   "py": "zuòwèi",
+   "en": "seat",
+   "ex": [
+    {
+     "ch": "上车以后，他把靠窗的座位让给了一位老人。",
+     "en": "After boarding the bus, he gave his window seat to an elderly person.",
+     "py": "shàngchē yǐ hòu tā bǎ kào chuāng de zuòwèi ràng gěi le yí wèi lǎo rén",
+     "seg": [
+      [
+       "上车",
+       "shàngchē"
+      ],
+      [
+       "以",
+       "yǐ"
+      ],
+      [
+       "后",
+       "hòu"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "他",
+       "tā"
+      ],
+      [
+       "把",
+       "bǎ"
+      ],
+      [
+       "靠窗",
+       "kào chuāng"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "座位",
+       "zuòwèi"
+      ],
+      [
+       "让",
+       "ràng"
+      ],
+      [
+       "给",
+       "gěi"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "一",
+       "yí"
+      ],
+      [
+       "位",
+       "wèi"
+      ],
+      [
+       "老",
+       "lǎo"
+      ],
+      [
+       "人",
+       "rén"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "米饭",
+   "py": "mǐfàn",
+   "en": "cooked rice",
+   "ex": [
+    {
+     "ch": "我吃米饭。",
+     "en": "I eat rice.",
+     "py": "wǒ chī mǐfàn",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "米饭",
+       "mǐfàn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "面条",
+   "py": "miàntiáo",
+   "en": "noodles",
+   "ex": [
+    {
+     "ch": "我中午吃面条。",
+     "en": "I eat noodles for lunch.",
+     "py": "wǒ zhōngwǔ chī miàntiáo",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "中午",
+       "zhōngwǔ"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "面条",
+       "miàntiáo"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "汤",
+   "py": "tāng",
+   "en": "soup",
+   "ex": [
+    {
+     "ch": "这碗汤有点儿咸，你可以再加一点儿水。",
+     "en": "This soup is a bit salty—you can add a little more water.",
+     "py": "zhè wǎn tāng yǒu diǎn ér xián nǐ kěyǐ zài jiā yìdiǎnr shuǐ",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "碗",
+       "wǎn"
+      ],
+      [
+       "汤",
+       "tāng"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "儿",
+       "ér"
+      ],
+      [
+       "咸",
+       "xián"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "你",
+       "nǐ"
+      ],
+      [
+       "可以",
+       "kěyǐ"
+      ],
+      [
+       "再",
+       "zài"
+      ],
+      [
+       "加",
+       "jiā"
+      ],
+      [
+       "一点儿",
+       "yìdiǎnr"
+      ],
+      [
+       "水",
+       "shuǐ"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "菜",
+   "py": "cài",
+   "en": "dish; vegetable",
+   "ex": [
+    {
+     "ch": "我们点了三个菜。",
+     "en": "We ordered three dishes.",
+     "py": "wǒmen diǎn le sān gè cài",
+     "seg": [
+      [
+       "我们",
+       "wǒmen"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "三",
+       "sān"
+      ],
+      [
+       "个",
+       "gè"
+      ],
+      [
+       "菜",
+       "cài"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "肉",
+   "py": "ròu",
+   "en": "meat; flesh",
+   "ex": [
+    {
+     "ch": "这个菜里有肉吗？",
+     "en": "Is there meat in this dish?",
+     "py": "zhège cài lǐ yǒu ròu ma",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "菜",
+       "cài"
+      ],
+      [
+       "里",
+       "lǐ"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "肉",
+       "ròu"
+      ],
+      [
+       "吗",
+       "ma"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "猪肉",
+   "py": "zhūròu",
+   "en": "pork",
+   "ex": [
+    {
+     "ch": "我不吃猪肉。",
+     "en": "I don't eat pork.",
+     "py": "wǒ bù chī zhūròu",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "不",
+       "bù"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "猪肉",
+       "zhūròu"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "牛肉",
+   "py": "niúròu",
+   "en": "beef",
+   "ex": [
+    {
+     "ch": "牛肉面很热。",
+     "en": "The beef noodles are hot.",
+     "py": "niúròu miàn hěn rè",
+     "seg": [
+      [
+       "牛肉",
+       "niúròu"
+      ],
+      [
+       "面",
+       "miàn"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "热",
+       "rè"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "鸡肉",
+   "py": "jīròu",
+   "en": "chicken meat",
+   "ex": [
+    {
+     "ch": "鸡肉饭好了。",
+     "en": "The chicken rice is ready.",
+     "py": "jīròu fàn hǎo le",
+     "seg": [
+      [
+       "鸡肉",
+       "jīròu"
+      ],
+      [
+       "饭",
+       "fàn"
+      ],
+      [
+       "好",
+       "hǎo"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "鱼",
+   "py": "yú",
+   "en": "fish",
+   "ex": [
+    {
+     "ch": "我喜欢吃鱼。",
+     "en": "I like eating fish.",
+     "py": "wǒ xǐhuan chī yú",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "喜欢",
+       "xǐhuan"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "鱼",
+       "yú"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "虾",
+   "py": "xiā",
+   "en": "shrimp; prawn",
+   "ex": [
+    {
+     "ch": "这盘虾很新鲜。",
+     "en": "This plate of shrimp is very fresh.",
+     "py": "zhè pán xiā hěn xīnxiān",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "盘",
+       "pán"
+      ],
+      [
+       "虾",
+       "xiā"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "新鲜",
+       "xīnxiān"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "青菜",
+   "py": "qīngcài",
+   "en": "green vegetables; Chinese cabbage",
+   "ex": [
+    {
+     "ch": "请再来一盘青菜。",
+     "en": "Please bring one more plate of green vegetables.",
+     "py": "qǐng zài lái yì pán qīngcài",
+     "seg": [
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "再",
+       "zài"
+      ],
+      [
+       "来",
+       "lái"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "盘",
+       "pán"
+      ],
+      [
+       "青菜",
+       "qīngcài"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "鸡蛋",
+   "py": "jīdàn",
+   "en": "egg",
+   "ex": [
+    {
+     "ch": "我早上吃鸡蛋。",
+     "en": "I eat eggs for breakfast.",
+     "py": "wǒ zǎoshang chī jīdàn",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "早上",
+       "zǎoshang"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "鸡蛋",
+       "jīdàn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "豆腐",
+   "py": "dòufu",
+   "en": "soft food made from soy milk",
+   "ex": [
+    {
+     "ch": "她用嫩豆腐、鸡蛋和葱花做了清淡可口的蒸豆腐。",
+     "en": "She made light and tasty steamed tofu using soft tofu, eggs, and scallions.",
+     "py": "tā yòng nèn dòufu jīdàn hé cōng huā zuò le qīngdàn kěkǒu de zhēng dòufu",
+     "seg": [
+      [
+       "她",
+       "tā"
+      ],
+      [
+       "用",
+       "yòng"
+      ],
+      [
+       "嫩",
+       "nèn"
+      ],
+      [
+       "豆腐",
+       "dòufu"
+      ],
+      [
+       "、",
+       ""
+      ],
+      [
+       "鸡蛋",
+       "jīdàn"
+      ],
+      [
+       "和",
+       "hé"
+      ],
+      [
+       "葱",
+       "cōng"
+      ],
+      [
+       "花",
+       "huā"
+      ],
+      [
+       "做",
+       "zuò"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "清淡",
+       "qīngdàn"
+      ],
+      [
+       "可口",
+       "kěkǒu"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "蒸",
+       "zhēng"
+      ],
+      [
+       "豆腐",
+       "dòufu"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "辣",
+   "py": "là",
+   "en": "spicy",
+   "ex": [
+    {
+     "ch": "这碗面太辣了，我喝了半杯水才好一点。",
+     "en": "This bowl of noodles was so spicy that I drank half a glass of water before it eased.",
+     "py": "zhè wǎn miàn tài là le wǒ hē le bàn bēi shuǐ cái hǎo yì diǎn",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "碗",
+       "wǎn"
+      ],
+      [
+       "面",
+       "miàn"
+      ],
+      [
+       "太",
+       "tài"
+      ],
+      [
+       "辣",
+       "là"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "半",
+       "bàn"
+      ],
+      [
+       "杯",
+       "bēi"
+      ],
+      [
+       "水",
+       "shuǐ"
+      ],
+      [
+       "才",
+       "cái"
+      ],
+      [
+       "好",
+       "hǎo"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "不辣",
+   "py": "bú là",
+   "en": "not spicy",
+   "ex": [
+    {
+     "ch": "这个汤不辣，可以喝。",
+     "en": "This soup is not spicy, so you can drink it.",
+     "py": "zhège tāng bú là kěyǐ hē",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "汤",
+       "tāng"
+      ],
+      [
+       "不辣",
+       "bú là"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "可以",
+       "kěyǐ"
+      ],
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "咸",
+   "py": "xián",
+   "en": "salty",
+   "ex": [
+    {
+     "ch": "这碗汤太咸了，少放点盐。",
+     "en": "This soup is too salty; use less salt.",
+     "py": "zhè wǎn tāng tài xián le shǎo fàng diǎn yán",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "碗",
+       "wǎn"
+      ],
+      [
+       "汤",
+       "tāng"
+      ],
+      [
+       "太",
+       "tài"
+      ],
+      [
+       "咸",
+       "xián"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "少",
+       "shǎo"
+      ],
+      [
+       "放",
+       "fàng"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "盐",
+       "yán"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "甜",
+   "py": "tián",
+   "en": "sweet",
+   "ex": [
+    {
+     "ch": "这个蛋糕很甜。",
+     "en": "This cake is very sweet.",
+     "py": "zhège dàngāo hěn tián",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "蛋糕",
+       "dàngāo"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "甜",
+       "tián"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "酸",
+   "py": "suān",
+   "en": "sour",
+   "ex": [
+    {
+     "ch": "这个苹果有点酸，我想加点糖。",
+     "en": "This apple is a bit sour, so I'd like to add some sugar.",
+     "py": "zhège píngguǒ yǒu diǎn suān wǒ xiǎng jiā diǎn táng",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "苹果",
+       "píngguǒ"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "酸",
+       "suān"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "加",
+       "jiā"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "糖",
+       "táng"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "好吃",
+   "py": "hǎochī",
+   "en": "tasty",
+   "ex": [
+    {
+     "ch": "这个菜很好吃。",
+     "en": "This dish tastes delicious.",
+     "py": "zhège cài hěn hǎochī",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "菜",
+       "cài"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "好吃",
+       "hǎochī"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "饿",
+   "py": "è",
+   "en": "to be hungry; hungry",
+   "ex": [
+    {
+     "ch": "我饿了，想吃饭。",
+     "en": "I'm hungry and want to eat.",
+     "py": "wǒ è le xiǎng chī fàn",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "饿",
+       "è"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "饭",
+       "fàn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "饱",
+   "py": "bǎo",
+   "en": "to eat till full; satisfied",
+   "ex": [
+    {
+     "ch": "我吃饱了。",
+     "en": "I'm full.",
+     "py": "wǒ chī bǎo le",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "饱",
+       "bǎo"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "渴",
+   "py": "kě",
+   "en": "thirsty",
+   "ex": [
+    {
+     "ch": "我渴了，想喝水。",
+     "en": "I'm thirsty and want some water.",
+     "py": "wǒ kě le xiǎng hē shuǐ",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "渴",
+       "kě"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "水",
+       "shuǐ"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "水",
+   "py": "shuǐ",
+   "en": "water",
+   "ex": [
+    {
+     "ch": "我想喝水。",
+     "en": "I want to drink water.",
+     "py": "wǒ xiǎng hē shuǐ",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "水",
+       "shuǐ"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "茶",
+   "py": "chá",
+   "en": "tea",
+   "ex": [
+    {
+     "ch": "妈妈喜欢喝茶。",
+     "en": "Mom likes drinking tea.",
+     "py": "māma xǐhuan hē chá",
+     "seg": [
+      [
+       "妈妈",
+       "māma"
+      ],
+      [
+       "喜欢",
+       "xǐhuan"
+      ],
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "茶",
+       "chá"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "啤酒",
+   "py": "píjiǔ",
+   "en": "beer",
+   "ex": [
+    {
+     "ch": "爸爸不喝啤酒。",
+     "en": "My father doesn’t drink beer.",
+     "py": "bàba bù hē píjiǔ",
+     "seg": [
+      [
+       "爸爸",
+       "bàba"
+      ],
+      [
+       "不",
+       "bù"
+      ],
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "啤酒",
+       "píjiǔ"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "果汁",
+   "py": "guǒzhī",
+   "en": "fruit juice",
+   "ex": [
+    {
+     "ch": "天气太热了，我想喝一杯冰果汁。",
+     "en": "It’s so hot today—I’d like a glass of iced fruit juice.",
+     "py": "tiānqì tài rè le wǒ xiǎng hē yì bēi bīng guǒzhī",
+     "seg": [
+      [
+       "天气",
+       "tiānqì"
+      ],
+      [
+       "太",
+       "tài"
+      ],
+      [
+       "热",
+       "rè"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "杯",
+       "bēi"
+      ],
+      [
+       "冰",
+       "bīng"
+      ],
+      [
+       "果汁",
+       "guǒzhī"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "冰",
+   "py": "bīng",
+   "en": "ice; to chill sth",
+   "ex": [
+    {
+     "ch": "请把可乐冰一下。",
+     "en": "Please chill the cola.",
+     "py": "qǐng bǎ kělè bīng yíxià",
+     "seg": [
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "把",
+       "bǎ"
+      ],
+      [
+       "可乐",
+       "kělè"
+      ],
+      [
+       "冰",
+       "bīng"
+      ],
+      [
+       "一下",
+       "yíxià"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "热",
+   "py": "rè",
+   "en": "hot",
+   "ex": [
+    {
+     "ch": "今天太热了。",
+     "en": "It's too hot today.",
+     "py": "jīntiān tài rè le",
+     "seg": [
+      [
+       "今天",
+       "jīntiān"
+      ],
+      [
+       "太",
+       "tài"
+      ],
+      [
+       "热",
+       "rè"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "筷子",
+   "py": "kuàizi",
+   "en": "chopsticks",
+   "ex": [
+    {
+     "ch": "中国人常用筷子吃饭。",
+     "en": "Chinese people usually eat with chopsticks.",
+     "py": "Zhōngguó rén cháng yòng kuàizi chī fàn",
+     "seg": [
+      [
+       "中国",
+       "Zhōngguó"
+      ],
+      [
+       "人",
+       "rén"
+      ],
+      [
+       "常",
+       "cháng"
+      ],
+      [
+       "用",
+       "yòng"
+      ],
+      [
+       "筷子",
+       "kuàizi"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "饭",
+       "fàn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "勺子",
+   "py": "sháozi",
+   "en": "spoon",
+   "ex": [
+    {
+     "ch": "喝汤的时候，请用这个小勺子，不要直接端着碗喝。",
+     "en": "Please use this small spoon when having soup—don’t drink directly from the bowl.",
+     "py": "hē tāng de shíhou qǐng yòng zhège xiǎo sháozi bú yào zhíjiē duān zhe wǎn hē",
+     "seg": [
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "汤",
+       "tāng"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "时候",
+       "shíhou"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "用",
+       "yòng"
+      ],
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "小",
+       "xiǎo"
+      ],
+      [
+       "勺子",
+       "sháozi"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "不要",
+       "bú yào"
+      ],
+      [
+       "直接",
+       "zhíjiē"
+      ],
+      [
+       "端",
+       "duān"
+      ],
+      [
+       "着",
+       "zhe"
+      ],
+      [
+       "碗",
+       "wǎn"
+      ],
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "杯子",
+   "py": "bēizi",
+   "en": "cup; glass",
+   "ex": [
+    {
+     "ch": "这个杯子很大。",
+     "en": "This cup is very large.",
+     "py": "zhège bēizi hěn dà",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "杯子",
+       "bēizi"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "大",
+       "dà"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "盘子",
+   "py": "pánzi",
+   "en": "plate; tray",
+   "ex": [
+    {
+     "ch": "盘子太烫了，别用手直接拿。",
+     "en": "The plate is too hot, so don't pick it up with your bare hands.",
+     "py": "pánzi tài tàng le bié yòng shǒu zhíjiē ná",
+     "seg": [
+      [
+       "盘子",
+       "pánzi"
+      ],
+      [
+       "太",
+       "tài"
+      ],
+      [
+       "烫",
+       "tàng"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "别",
+       "bié"
+      ],
+      [
+       "用",
+       "yòng"
+      ],
+      [
+       "手",
+       "shǒu"
+      ],
+      [
+       "直接",
+       "zhíjiē"
+      ],
+      [
+       "拿",
+       "ná"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "碗",
+   "py": "wǎn",
+   "en": "bowl; cup",
+   "ex": [
+    {
+     "ch": "妈妈把热汤倒进碗里给我喝。",
+     "en": "Mum poured the hot soup into a bowl for me.",
+     "py": "māma bǎ rè tāng dào jìn wǎn lǐ gěi wǒ hē",
+     "seg": [
+      [
+       "妈妈",
+       "māma"
+      ],
+      [
+       "把",
+       "bǎ"
+      ],
+      [
+       "热",
+       "rè"
+      ],
+      [
+       "汤",
+       "tāng"
+      ],
+      [
+       "倒",
+       "dào"
+      ],
+      [
+       "进",
+       "jìn"
+      ],
+      [
+       "碗",
+       "wǎn"
+      ],
+      [
+       "里",
+       "lǐ"
+      ],
+      [
+       "给",
+       "gěi"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "一份",
+   "py": "yí fèn",
+   "en": "one portion; one serving",
+   "ex": [
+    {
+     "ch": "我要一份炒饭。",
+     "en": "I want one portion of fried rice.",
+     "py": "wǒ yào yí fèn chǎofàn",
+     "seg": [
+      [
+       "我要",
+       "wǒ yào"
+      ],
+      [
+       "一份",
+       "yí fèn"
+      ],
+      [
+       "炒饭",
+       "chǎofàn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "两份",
+   "py": "liǎng fèn",
+   "en": "two portions; two servings",
+   "ex": [
+    {
+     "ch": "我们点两份饺子吧。",
+     "en": "Let's order two portions of dumplings.",
+     "py": "wǒmen diǎn liǎng fèn jiǎozi ba",
+     "seg": [
+      [
+       "我们",
+       "wǒmen"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "两份",
+       "liǎng fèn"
+      ],
+      [
+       "饺子",
+       "jiǎozi"
+      ],
+      [
+       "吧",
+       "ba"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "加",
+   "py": "jiā",
+   "en": "to add; (math.) plus",
+   "ex": [
+    {
+     "ch": "面里可以加鸡蛋吗？",
+     "en": "Can you add an egg to the noodles?",
+     "py": "miàn lǐ kěyǐ jiā jīdàn ma",
+     "seg": [
+      [
+       "面",
+       "miàn"
+      ],
+      [
+       "里",
+       "lǐ"
+      ],
+      [
+       "可以",
+       "kěyǐ"
+      ],
+      [
+       "加",
+       "jiā"
+      ],
+      [
+       "鸡蛋",
+       "jīdàn"
+      ],
+      [
+       "吗",
+       "ma"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "少",
+   "py": "shǎo",
+   "en": "few; little",
+   "ex": [
+    {
+     "ch": "今天来的人很少。",
+     "en": "Very few people came today.",
+     "py": "jīntiān lái de rén hěn shǎo",
+     "seg": [
+      [
+       "今天",
+       "jīntiān"
+      ],
+      [
+       "来",
+       "lái"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "人",
+       "rén"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "少",
+       "shǎo"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "多",
+   "py": "duō",
+   "en": "many; much",
+   "ex": [
+    {
+     "ch": "这个月我学了很多新汉字。",
+     "en": "I learned a lot of new characters this month.",
+     "py": "zhège yuè wǒ xué le hěn duō xīn hàn zì",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "月",
+       "yuè"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "学",
+       "xué"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "多",
+       "duō"
+      ],
+      [
+       "新",
+       "xīn"
+      ],
+      [
+       "汉",
+       "hàn"
+      ],
+      [
+       "字",
+       "zì"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "打包",
+   "py": "dǎbāo",
+   "en": "wrap leftover food to take home",
+   "ex": [
+    {
+     "ch": "聚餐结束时，小李主动帮大家把没吃完的菜打包带走。",
+     "en": "At the end of the group dinner, Xiao Li volunteered to pack up the leftover food for everyone.",
+     "py": "jù cān jiéshù shí xiǎo lǐ zhǔdòng bāng dàjiā bǎ méi chī wán de cài dǎbāo dài zǒu",
+     "seg": [
+      [
+       "聚",
+       "jù"
+      ],
+      [
+       "餐",
+       "cān"
+      ],
+      [
+       "结束",
+       "jiéshù"
+      ],
+      [
+       "时",
+       "shí"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "小",
+       "xiǎo"
+      ],
+      [
+       "李",
+       "lǐ"
+      ],
+      [
+       "主动",
+       "zhǔdòng"
+      ],
+      [
+       "帮",
+       "bāng"
+      ],
+      [
+       "大家",
+       "dàjiā"
+      ],
+      [
+       "把",
+       "bǎ"
+      ],
+      [
+       "没",
+       "méi"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "完",
+       "wán"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "菜",
+       "cài"
+      ],
+      [
+       "打包",
+       "dǎbāo"
+      ],
+      [
+       "带",
+       "dài"
+      ],
+      [
+       "走",
+       "zǒu"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "外卖",
+   "py": "wàimài",
+   "en": "(of a restaurant) to provide a takeout or home delivery meal; takeout (business)",
+   "ex": [
+    {
+     "ch": "这家店有外卖吗？",
+     "en": "Does this restaurant have takeout?",
+     "py": "zhè jiā diàn yǒu wàimài ma",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "家",
+       "jiā"
+      ],
+      [
+       "店",
+       "diàn"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "外卖",
+       "wàimài"
+      ],
+      [
+       "吗",
+       "ma"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "买单",
+   "py": "mǎidān",
+   "en": "to pay the bill; to pick up the tab",
+   "ex": [
+    {
+     "ch": "服务员，我们要买单。",
+     "en": "Waiter, we want to pay the bill.",
+     "py": "fúwùyuán wǒmen yào mǎidān",
+     "seg": [
+      [
+       "服务员",
+       "fúwùyuán"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "我们",
+       "wǒmen"
+      ],
+      [
+       "要",
+       "yào"
+      ],
+      [
+       "买单",
+       "mǎidān"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "结账",
+   "py": "jiézhàng",
+   "en": "to pay for goods or services",
+   "ex": [
+    {
+     "ch": "我们吃完晚饭后在餐厅前台结账，用手机扫码付款。",
+     "en": "After dinner, we paid the bill at the restaurant front desk by scanning a QR code with our phones.",
+     "py": "wǒmen chī wán wǎnfàn hòu zài cāntīng qiántái jiézhàng yòng shǒujī sǎo mǎ fùkuǎn",
+     "seg": [
+      [
+       "我们",
+       "wǒmen"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "完",
+       "wán"
+      ],
+      [
+       "晚饭",
+       "wǎnfàn"
+      ],
+      [
+       "后",
+       "hòu"
+      ],
+      [
+       "在",
+       "zài"
+      ],
+      [
+       "餐厅",
+       "cāntīng"
+      ],
+      [
+       "前台",
+       "qiántái"
+      ],
+      [
+       "结账",
+       "jiézhàng"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "用",
+       "yòng"
+      ],
+      [
+       "手机",
+       "shǒujī"
+      ],
+      [
+       "扫码",
+       "sǎo mǎ"
+      ],
+      [
+       "付款",
+       "fùkuǎn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "发票",
+   "py": "fāpiào",
+   "en": "official receipt for payment",
+   "ex": [
+    {
+     "ch": "结账时请给我开发票，公司报销需要。",
+     "en": "Please issue me an invoice when I check out—I need it for company reimbursement.",
+     "py": "jiézhàng shí qǐng gěi wǒ kāifā piào gōngsī bàoxiāo xūyào",
+     "seg": [
+      [
+       "结账",
+       "jiézhàng"
+      ],
+      [
+       "时",
+       "shí"
+      ],
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "给",
+       "gěi"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "开发",
+       "kāifā"
+      ],
+      [
+       "票",
+       "piào"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "公司",
+       "gōngsī"
+      ],
+      [
+       "报销",
+       "bàoxiāo"
+      ],
+      [
+       "需要",
+       "xūyào"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "找钱",
+   "py": "zhǎoqián",
+   "en": "to give change",
+   "ex": [
+    {
+     "ch": "请等一下，我找钱。",
+     "en": "Please wait a moment, I’ll give you change.",
+     "py": "qǐng děng yíxià wǒ zhǎoqián",
+     "seg": [
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "等一下",
+       "děng yíxià"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "找钱",
+       "zhǎoqián"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "现金",
+   "py": "xiànjīn",
+   "en": "cash",
+   "ex": [
+    {
+     "ch": "这家小店不能刷卡，只能用现金付款。",
+     "en": "This small shop doesn’t accept card payments—you can only pay in cash.",
+     "py": "zhè jiā xiǎo diàn bù néng shuākǎ zhī néng yòng xiànjīn fùkuǎn",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "家",
+       "jiā"
+      ],
+      [
+       "小",
+       "xiǎo"
+      ],
+      [
+       "店",
+       "diàn"
+      ],
+      [
+       "不",
+       "bù"
+      ],
+      [
+       "能",
+       "néng"
+      ],
+      [
+       "刷卡",
+       "shuākǎ"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "只",
+       "zhī"
+      ],
+      [
+       "能",
+       "néng"
+      ],
+      [
+       "用",
+       "yòng"
+      ],
+      [
+       "现金",
+       "xiànjīn"
+      ],
+      [
+       "付款",
+       "fùkuǎn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "刷卡",
+   "py": "shuākǎ",
+   "en": "to use a credit card (or swipe card, smart card etc)",
+   "ex": [
+    {
+     "ch": "我可以刷卡吗？",
+     "en": "Can I pay by card?",
+     "py": "wǒ kěyǐ shuākǎ ma",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "可以",
+       "kěyǐ"
+      ],
+      [
+       "刷卡",
+       "shuākǎ"
+      ],
+      [
+       "吗",
+       "ma"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "老板",
+   "py": "lǎobǎn",
+   "en": "person in charge of a business",
+   "ex": [
+    {
+     "ch": "老板批准了我的年假申请，还祝我旅途愉快。",
+     "en": "My boss approved my annual leave request and wished me a pleasant trip.",
+     "py": "lǎobǎn pīzhǔn le wǒ de niánjià shēnqǐng hái zhù wǒ lǚ tú yúkuài",
+     "seg": [
+      [
+       "老板",
+       "lǎobǎn"
+      ],
+      [
+       "批准",
+       "pīzhǔn"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "年假",
+       "niánjià"
+      ],
+      [
+       "申请",
+       "shēnqǐng"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "还",
+       "hái"
+      ],
+      [
+       "祝",
+       "zhù"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "旅",
+       "lǚ"
+      ],
+      [
+       "途",
+       "tú"
+      ],
+      [
+       "愉快",
+       "yúkuài"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "早餐",
+   "py": "zǎocān",
+   "en": "breakfast",
+   "ex": [
+    {
+     "ch": "早餐有包子吗？",
+     "en": "Are there buns for breakfast?",
+     "py": "zǎocān yǒu bāozi ma",
+     "seg": [
+      [
+       "早餐",
+       "zǎocān"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "包子",
+       "bāozi"
+      ],
+      [
+       "吗",
+       "ma"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "午饭",
+   "py": "wǔfàn",
+   "en": "lunch",
+   "ex": [
+    {
+     "ch": "午饭我想吃面。",
+     "en": "I want to eat noodles for lunch.",
+     "py": "wǔfàn wǒ xiǎng chī miàn",
+     "seg": [
+      [
+       "午饭",
+       "wǔfàn"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "面",
+       "miàn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "晚饭",
+   "py": "wǎnfàn",
+   "en": "evening meal; dinner",
+   "ex": [
+    {
+     "ch": "晚饭我们吃火锅。",
+     "en": "We are having hot pot for dinner.",
+     "py": "wǎnfàn wǒmen chī huǒguō",
+     "seg": [
+      [
+       "晚饭",
+       "wǎnfàn"
+      ],
+      [
+       "我们",
+       "wǒmen"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "火锅",
+       "huǒguō"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "味道",
+   "py": "wèidào",
+   "en": "taste",
+   "ex": [
+    {
+     "ch": "这道菜味道不错，就是稍微有点儿辣。",
+     "en": "This dish tastes good, though it’s slightly spicy.",
+     "py": "zhè dào cài wèidào bú cuò jiù shì shāowēi yǒu diǎn ér là",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "道",
+       "dào"
+      ],
+      [
+       "菜",
+       "cài"
+      ],
+      [
+       "味道",
+       "wèidào"
+      ],
+      [
+       "不",
+       "bú"
+      ],
+      [
+       "错",
+       "cuò"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "就",
+       "jiù"
+      ],
+      [
+       "是",
+       "shì"
+      ],
+      [
+       "稍微",
+       "shāowēi"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "儿",
+       "ér"
+      ],
+      [
+       "辣",
+       "là"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "干净",
+   "py": "gānjìng",
+   "en": "neat and tidy; clean",
+   "ex": [
+    {
+     "ch": "这个房间很干净。",
+     "en": "This room is very clean.",
+     "py": "zhège fángjiān hěn gānjìng",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "房间",
+       "fángjiān"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "干净",
+       "gānjìng"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "等一下",
+   "py": "děng yíxià",
+   "en": "wait a moment",
+   "ex": [
+    {
+     "ch": "请等一下，菜马上好。",
+     "en": "Please wait a moment; the food will be ready soon.",
+     "py": "qǐng děng yíxià cài mǎshàng hǎo",
+     "seg": [
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "等一下",
+       "děng yíxià"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "菜",
+       "cài"
+      ],
+      [
+       "马上",
+       "mǎshàng"
+      ],
+      [
+       "好",
+       "hǎo"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "炒饭",
+   "py": "chǎofàn",
+   "en": "fried rice",
+   "ex": [
+    {
+     "ch": "这份炒饭不太咸。",
+     "en": "This fried rice is not too salty.",
+     "py": "zhè fèn chǎofàn bú tài xián",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "份",
+       "fèn"
+      ],
+      [
+       "炒饭",
+       "chǎofàn"
+      ],
+      [
+       "不",
+       "bú"
+      ],
+      [
+       "太",
+       "tài"
+      ],
+      [
+       "咸",
+       "xián"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "炒面",
+   "py": "chǎomiàn",
+   "en": "fried noodles",
+   "ex": [
+    {
+     "ch": "炒面里有鸡蛋吗？",
+     "en": "Are there eggs in the fried noodles?",
+     "py": "chǎomiàn lǐ yǒu jīdàn ma",
+     "seg": [
+      [
+       "炒面",
+       "chǎomiàn"
+      ],
+      [
+       "里",
+       "lǐ"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "鸡蛋",
+       "jīdàn"
+      ],
+      [
+       "吗",
+       "ma"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "米粉",
+   "py": "mǐfěn",
+   "en": "rice noodles",
+   "ex": [
+    {
+     "ch": "我想要一碗米粉。",
+     "en": "I would like a bowl of rice noodles.",
+     "py": "wǒ xiǎng yào yì wǎn mǐfěn",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "要",
+       "yào"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "碗",
+       "wǎn"
+      ],
+      [
+       "米粉",
+       "mǐfěn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "饺子",
+   "py": "jiǎozi",
+   "en": "dumpling",
+   "ex": [
+    {
+     "ch": "春节的时候，很多中国家庭都会一起包饺子、吃饺子。",
+     "en": "During the Spring Festival, many Chinese families make and eat dumplings together.",
+     "py": "chūn jié de shíhou hěn duō Zhōngguó jiātíng dōu huì yìqǐ bāo jiǎozi chī jiǎozi",
+     "seg": [
+      [
+       "春",
+       "chūn"
+      ],
+      [
+       "节",
+       "jié"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "时候",
+       "shíhou"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "多",
+       "duō"
+      ],
+      [
+       "中国",
+       "Zhōngguó"
+      ],
+      [
+       "家庭",
+       "jiātíng"
+      ],
+      [
+       "都",
+       "dōu"
+      ],
+      [
+       "会",
+       "huì"
+      ],
+      [
+       "一起",
+       "yìqǐ"
+      ],
+      [
+       "包",
+       "bāo"
+      ],
+      [
+       "饺子",
+       "jiǎozi"
+      ],
+      [
+       "、",
+       ""
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "饺子",
+       "jiǎozi"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "包子",
+   "py": "bāozi",
+   "en": "steamed stuffed bun",
+   "ex": [
+    {
+     "ch": "早上我在学校门口买了两个热包子，还给同学带了一杯豆浆。",
+     "en": "This morning I bought two hot steamed buns at the school gate and brought a cup of soy milk for my classmate.",
+     "py": "zǎoshang wǒ zài xuéxiào ménkǒu mǎi le liǎng gè rè bāozi hái gěi tóngxué dài le yì bēi dòu jiāng",
+     "seg": [
+      [
+       "早上",
+       "zǎoshang"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "在",
+       "zài"
+      ],
+      [
+       "学校",
+       "xuéxiào"
+      ],
+      [
+       "门口",
+       "ménkǒu"
+      ],
+      [
+       "买",
+       "mǎi"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "两",
+       "liǎng"
+      ],
+      [
+       "个",
+       "gè"
+      ],
+      [
+       "热",
+       "rè"
+      ],
+      [
+       "包子",
+       "bāozi"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "还",
+       "hái"
+      ],
+      [
+       "给",
+       "gěi"
+      ],
+      [
+       "同学",
+       "tóngxué"
+      ],
+      [
+       "带",
+       "dài"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "杯",
+       "bēi"
+      ],
+      [
+       "豆",
+       "dòu"
+      ],
+      [
+       "浆",
+       "jiāng"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "火锅",
+   "py": "huǒguō",
+   "en": "hotpot",
+   "ex": [
+    {
+     "ch": "今晚我们吃火锅吧！",
+     "en": "Let’s eat hotpot tonight!",
+     "py": "jīn wǎn wǒmen chī huǒguō ba",
+     "seg": [
+      [
+       "今",
+       "jīn"
+      ],
+      [
+       "晚",
+       "wǎn"
+      ],
+      [
+       "我们",
+       "wǒmen"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "火锅",
+       "huǒguō"
+      ],
+      [
+       "吧",
+       "ba"
+      ],
+      [
+       "！",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "烧烤",
+   "py": "shāokǎo",
+   "en": "barbecue; grilled food",
+   "ex": [
+    {
+     "ch": "这家烧烤很香。",
+     "en": "The barbecue here smells great.",
+     "py": "zhè jiā shāokǎo hěn xiāng",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "家",
+       "jiā"
+      ],
+      [
+       "烧烤",
+       "shāokǎo"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "香",
+       "xiāng"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "粥",
+   "py": "zhōu",
+   "en": "soft cooked rice or grain dish",
+   "ex": [
+    {
+     "ch": "清晨厨房飘着小米粥的清香。",
+     "en": "The kitchen smelled of fragrant millet porridge early in the morning.",
+     "py": "qīngchén chúfáng piāo zhe xiǎo mǐ zhōu de qīng xiāng",
+     "seg": [
+      [
+       "清晨",
+       "qīngchén"
+      ],
+      [
+       "厨房",
+       "chúfáng"
+      ],
+      [
+       "飘",
+       "piāo"
+      ],
+      [
+       "着",
+       "zhe"
+      ],
+      [
+       "小",
+       "xiǎo"
+      ],
+      [
+       "米",
+       "mǐ"
+      ],
+      [
+       "粥",
+       "zhōu"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "清",
+       "qīng"
+      ],
+      [
+       "香",
+       "xiāng"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "春卷",
+   "py": "chūnjuǎn",
+   "en": "spring roll",
+   "ex": [
+    {
+     "ch": "请给我两个春卷。",
+     "en": "Please give me two spring rolls.",
+     "py": "qǐng gěi wǒ liǎng gè chūnjuǎn",
+     "seg": [
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "给",
+       "gěi"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "两",
+       "liǎng"
+      ],
+      [
+       "个",
+       "gè"
+      ],
+      [
+       "春卷",
+       "chūnjuǎn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "沙拉",
+   "py": "shālā",
+   "en": "salad",
+   "ex": [
+    {
+     "ch": "我想要一份沙拉。",
+     "en": "I’d like a salad.",
+     "py": "wǒ xiǎng yào yí fèn shālā",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "要",
+       "yào"
+      ],
+      [
+       "一份",
+       "yí fèn"
+      ],
+      [
+       "沙拉",
+       "shālā"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "三明治",
+   "py": "sānmíngzhì",
+   "en": "sandwich",
+   "ex": [
+    {
+     "ch": "这个三明治多少钱？",
+     "en": "How much is this sandwich?",
+     "py": "zhège sānmíngzhì duōshao qián",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "三明治",
+       "sānmíngzhì"
+      ],
+      [
+       "多少钱",
+       "duōshao qián"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "面包",
+   "py": "miànbāo",
+   "en": "bread",
+   "ex": [
+    {
+     "ch": "这个面包是刚做好的。",
+     "en": "This bread was just made.",
+     "py": "zhège miànbāo shì gāng zuò hǎo de",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "面包",
+       "miànbāo"
+      ],
+      [
+       "是",
+       "shì"
+      ],
+      [
+       "刚",
+       "gāng"
+      ],
+      [
+       "做",
+       "zuò"
+      ],
+      [
+       "好",
+       "hǎo"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "炒",
+   "py": "chǎo",
+   "en": "stir-fry food",
+   "ex": [
+    {
+     "ch": "她用铁锅炒青菜，只放一点盐和蒜末。",
+     "en": "She stir-fried greens in an iron wok with just a little salt and garlic.",
+     "py": "tā yòng tiě guō chǎo qīngcài zhī fàng yì diǎn yán hé suàn mò",
+     "seg": [
+      [
+       "她",
+       "tā"
+      ],
+      [
+       "用",
+       "yòng"
+      ],
+      [
+       "铁",
+       "tiě"
+      ],
+      [
+       "锅",
+       "guō"
+      ],
+      [
+       "炒",
+       "chǎo"
+      ],
+      [
+       "青菜",
+       "qīngcài"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "只",
+       "zhī"
+      ],
+      [
+       "放",
+       "fàng"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "盐",
+       "yán"
+      ],
+      [
+       "和",
+       "hé"
+      ],
+      [
+       "蒜",
+       "suàn"
+      ],
+      [
+       "末",
+       "mò"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "炸",
+   "py": "zhá",
+   "en": "to deep-fry",
+   "ex": [
+    {
+     "ch": "鸡肉可以炸吗？",
+     "en": "Can the chicken be deep-fried?",
+     "py": "jīròu kěyǐ zhá ma",
+     "seg": [
+      [
+       "鸡肉",
+       "jīròu"
+      ],
+      [
+       "可以",
+       "kěyǐ"
+      ],
+      [
+       "炸",
+       "zhá"
+      ],
+      [
+       "吗",
+       "ma"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "蒸",
+   "py": "zhēng",
+   "en": "to steam",
+   "ex": [
+    {
+     "ch": "这条鱼要蒸多久？",
+     "en": "How long should this fish be steamed?",
+     "py": "zhè tiáo yú yào zhēng duōjiǔ",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "条",
+       "tiáo"
+      ],
+      [
+       "鱼",
+       "yú"
+      ],
+      [
+       "要",
+       "yào"
+      ],
+      [
+       "蒸",
+       "zhēng"
+      ],
+      [
+       "多久",
+       "duōjiǔ"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "煮",
+   "py": "zhǔ",
+   "en": "cook in boiling liquid",
+   "ex": [
+    {
+     "ch": "奶奶教我煮毛豆时加少许盐和八角，味道更香。",
+     "en": "My grandmother taught me to boil soybeans with a little salt and star anise for extra flavor.",
+     "py": "nǎinai jiāo wǒ zhǔ máo dòu shí jiā shǎo xǔ yán hé bā jiǎo wèidào gèng xiāng",
+     "seg": [
+      [
+       "奶奶",
+       "nǎinai"
+      ],
+      [
+       "教",
+       "jiāo"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "煮",
+       "zhǔ"
+      ],
+      [
+       "毛",
+       "máo"
+      ],
+      [
+       "豆",
+       "dòu"
+      ],
+      [
+       "时",
+       "shí"
+      ],
+      [
+       "加",
+       "jiā"
+      ],
+      [
+       "少",
+       "shǎo"
+      ],
+      [
+       "许",
+       "xǔ"
+      ],
+      [
+       "盐",
+       "yán"
+      ],
+      [
+       "和",
+       "hé"
+      ],
+      [
+       "八",
+       "bā"
+      ],
+      [
+       "角",
+       "jiǎo"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "味道",
+       "wèidào"
+      ],
+      [
+       "更",
+       "gèng"
+      ],
+      [
+       "香",
+       "xiāng"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "烤",
+   "py": "kǎo",
+   "en": "to roast; to grill",
+   "ex": [
+    {
+     "ch": "请把鸡肉烤熟。",
+     "en": "Please grill the chicken well.",
+     "py": "qǐng bǎ jīròu kǎo shú",
+     "seg": [
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "把",
+       "bǎ"
+      ],
+      [
+       "鸡肉",
+       "jīròu"
+      ],
+      [
+       "烤",
+       "kǎo"
+      ],
+      [
+       "熟",
+       "shú"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "煎",
+   "py": "jiān",
+   "en": "to cook slowly in oil",
+   "ex": [
+    {
+     "ch": "妈妈教我用小火煎豆腐，等一面金黄定型后再翻面，这样不易碎。",
+     "en": "Mom taught me to pan-fry tofu over low heat until one side turns golden and sets, then flip it carefully to prevent breaking.",
+     "py": "māma jiāo wǒ yòng xiǎo huǒ jiān dòufu děng yí miàn jīn huáng dìng xíng hòu zài fān miàn zhè yàng bú yì suì",
+     "seg": [
+      [
+       "妈妈",
+       "māma"
+      ],
+      [
+       "教",
+       "jiāo"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "用",
+       "yòng"
+      ],
+      [
+       "小",
+       "xiǎo"
+      ],
+      [
+       "火",
+       "huǒ"
+      ],
+      [
+       "煎",
+       "jiān"
+      ],
+      [
+       "豆腐",
+       "dòufu"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "等",
+       "děng"
+      ],
+      [
+       "一",
+       "yí"
+      ],
+      [
+       "面",
+       "miàn"
+      ],
+      [
+       "金",
+       "jīn"
+      ],
+      [
+       "黄",
+       "huáng"
+      ],
+      [
+       "定",
+       "dìng"
+      ],
+      [
+       "型",
+       "xíng"
+      ],
+      [
+       "后",
+       "hòu"
+      ],
+      [
+       "再",
+       "zài"
+      ],
+      [
+       "翻",
+       "fān"
+      ],
+      [
+       "面",
+       "miàn"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "样",
+       "yàng"
+      ],
+      [
+       "不",
+       "bú"
+      ],
+      [
+       "易",
+       "yì"
+      ],
+      [
+       "碎",
+       "suì"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "凉拌",
+   "py": "liángbàn",
+   "en": "served cold with dressing",
+   "ex": [
+    {
+     "ch": "这个凉拌黄瓜很清口。",
+     "en": "This cold cucumber dish tastes fresh.",
+     "py": "zhège liángbàn huángguā hěn qīng kǒu",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "凉拌",
+       "liángbàn"
+      ],
+      [
+       "黄瓜",
+       "huángguā"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "清",
+       "qīng"
+      ],
+      [
+       "口",
+       "kǒu"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "葱",
+   "py": "cōng",
+   "en": "spring onion",
+   "ex": [
+    {
+     "ch": "汤里别放太多葱。",
+     "en": "Don’t put too much spring onion in the soup.",
+     "py": "tāng lǐ bié fàng tài duō cōng",
+     "seg": [
+      [
+       "汤",
+       "tāng"
+      ],
+      [
+       "里",
+       "lǐ"
+      ],
+      [
+       "别",
+       "bié"
+      ],
+      [
+       "放",
+       "fàng"
+      ],
+      [
+       "太",
+       "tài"
+      ],
+      [
+       "多",
+       "duō"
+      ],
+      [
+       "葱",
+       "cōng"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "姜",
+   "py": "jiāng",
+   "en": "ginger",
+   "ex": [
+    {
+     "ch": "这鱼有一点姜味。",
+     "en": "This fish has a little ginger taste.",
+     "py": "zhè yú yǒu yì diǎn jiāng wèi",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "鱼",
+       "yú"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "姜",
+       "jiāng"
+      ],
+      [
+       "味",
+       "wèi"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "蒜",
+   "py": "suàn",
+   "en": "garlic",
+   "ex": [
+    {
+     "ch": "我想要蒜香面。",
+     "en": "I’d like garlic-flavored noodles.",
+     "py": "wǒ xiǎng yào suàn xiāng miàn",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "要",
+       "yào"
+      ],
+      [
+       "蒜",
+       "suàn"
+      ],
+      [
+       "香",
+       "xiāng"
+      ],
+      [
+       "面",
+       "miàn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "辣椒",
+   "py": "làjiāo",
+   "en": "spicy red pepper used in cooking",
+   "ex": [
+    {
+     "ch": "厨师往汤里加了两勺剁碎的辣椒，顿时香气扑鼻又微辣提神。",
+     "en": "The chef added two spoonfuls of chopped chili to the soup, instantly filling the air with fragrance and a gentle, invigorating heat.",
+     "py": "chú shī wǎng tāng lǐ jiā le liǎng sháo duò suì de làjiāo dùnshí xiāng qì pū bí yòu wēi là tí shén",
+     "seg": [
+      [
+       "厨",
+       "chú"
+      ],
+      [
+       "师",
+       "shī"
+      ],
+      [
+       "往",
+       "wǎng"
+      ],
+      [
+       "汤",
+       "tāng"
+      ],
+      [
+       "里",
+       "lǐ"
+      ],
+      [
+       "加",
+       "jiā"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "两",
+       "liǎng"
+      ],
+      [
+       "勺",
+       "sháo"
+      ],
+      [
+       "剁",
+       "duò"
+      ],
+      [
+       "碎",
+       "suì"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "辣椒",
+       "làjiāo"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "顿时",
+       "dùnshí"
+      ],
+      [
+       "香",
+       "xiāng"
+      ],
+      [
+       "气",
+       "qì"
+      ],
+      [
+       "扑",
+       "pū"
+      ],
+      [
+       "鼻",
+       "bí"
+      ],
+      [
+       "又",
+       "yòu"
+      ],
+      [
+       "微",
+       "wēi"
+      ],
+      [
+       "辣",
+       "là"
+      ],
+      [
+       "提",
+       "tí"
+      ],
+      [
+       "神",
+       "shén"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "酱油",
+   "py": "jiàngyóu",
+   "en": "salty fermented soybean sauce",
+   "ex": [
+    {
+     "ch": "炒青菜时加一勺酱油提鲜，味道立刻不一样。",
+     "en": "Adding a spoonful of soy sauce while stir-frying greens enhances the flavor instantly.",
+     "py": "chǎo qīngcài shí jiā yì sháo jiàngyóu tí xiān wèidào lìkè bú yíyàng",
+     "seg": [
+      [
+       "炒",
+       "chǎo"
+      ],
+      [
+       "青菜",
+       "qīngcài"
+      ],
+      [
+       "时",
+       "shí"
+      ],
+      [
+       "加",
+       "jiā"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "勺",
+       "sháo"
+      ],
+      [
+       "酱油",
+       "jiàngyóu"
+      ],
+      [
+       "提",
+       "tí"
+      ],
+      [
+       "鲜",
+       "xiān"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "味道",
+       "wèidào"
+      ],
+      [
+       "立刻",
+       "lìkè"
+      ],
+      [
+       "不",
+       "bú"
+      ],
+      [
+       "一样",
+       "yíyàng"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "醋",
+   "py": "cù",
+   "en": "sour liquid used in cooking",
+   "ex": [
+    {
+     "ch": "这道凉拌菜必须加一点醋才够爽口。",
+     "en": "A little vinegar is essential to make this cold dish refreshing.",
+     "py": "zhè dào liángbàn cài bìxū jiā yì diǎn cù cái gòu shuǎng kǒu",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "道",
+       "dào"
+      ],
+      [
+       "凉拌",
+       "liángbàn"
+      ],
+      [
+       "菜",
+       "cài"
+      ],
+      [
+       "必须",
+       "bìxū"
+      ],
+      [
+       "加",
+       "jiā"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "醋",
+       "cù"
+      ],
+      [
+       "才",
+       "cái"
+      ],
+      [
+       "够",
+       "gòu"
+      ],
+      [
+       "爽",
+       "shuǎng"
+      ],
+      [
+       "口",
+       "kǒu"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "盐",
+   "py": "yán",
+   "en": "salt",
+   "ex": [
+    {
+     "ch": "这道菜盐放多了，所以吃起来有点儿咸。",
+     "en": "Too much salt was added to this dish, so it tastes a bit salty.",
+     "py": "zhè dào cài yán fàng duō le suǒ yǐ chī qǐ lái yǒu diǎn ér xián",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "道",
+       "dào"
+      ],
+      [
+       "菜",
+       "cài"
+      ],
+      [
+       "盐",
+       "yán"
+      ],
+      [
+       "放",
+       "fàng"
+      ],
+      [
+       "多",
+       "duō"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "所",
+       "suǒ"
+      ],
+      [
+       "以",
+       "yǐ"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "起",
+       "qǐ"
+      ],
+      [
+       "来",
+       "lái"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "儿",
+       "ér"
+      ],
+      [
+       "咸",
+       "xián"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "糖",
+   "py": "táng",
+   "en": "sugar; candy",
+   "ex": [
+    {
+     "ch": "医生说他不能吃太多糖，对牙齿不好。",
+     "en": "The doctor said he shouldn’t eat too much sugar—it’s bad for his teeth.",
+     "py": "yīshēng shuō tā bù néng chī tài duō táng duì yáchǐ bù hǎo",
+     "seg": [
+      [
+       "医生",
+       "yīshēng"
+      ],
+      [
+       "说",
+       "shuō"
+      ],
+      [
+       "他",
+       "tā"
+      ],
+      [
+       "不",
+       "bù"
+      ],
+      [
+       "能",
+       "néng"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "太",
+       "tài"
+      ],
+      [
+       "多",
+       "duō"
+      ],
+      [
+       "糖",
+       "táng"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "对",
+       "duì"
+      ],
+      [
+       "牙齿",
+       "yáchǐ"
+      ],
+      [
+       "不",
+       "bù"
+      ],
+      [
+       "好",
+       "hǎo"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "油",
+   "py": "yóu",
+   "en": "cooking oil",
+   "ex": [
+    {
+     "ch": "这个菜油太多了。",
+     "en": "This dish has too much oil.",
+     "py": "zhège cài yóu tài duō le",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "菜",
+       "cài"
+      ],
+      [
+       "油",
+       "yóu"
+      ],
+      [
+       "太",
+       "tài"
+      ],
+      [
+       "多",
+       "duō"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "胡椒",
+   "py": "hújiāo",
+   "en": "pepper",
+   "ex": [
+    {
+     "ch": "请给我一点胡椒。",
+     "en": "Please give me a little pepper.",
+     "py": "qǐng gěi wǒ yì diǎn hújiāo",
+     "seg": [
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "给",
+       "gěi"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "胡椒",
+       "hújiāo"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "香菜",
+   "py": "xiāngcài",
+   "en": "coriander",
+   "ex": [
+    {
+     "ch": "不要香菜，谢谢。",
+     "en": "No coriander, thank you.",
+     "py": "bú yào xiāngcài xièxie",
+     "seg": [
+      [
+       "不要",
+       "bú yào"
+      ],
+      [
+       "香菜",
+       "xiāngcài"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "谢谢",
+       "xièxie"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "花生",
+   "py": "huāshēng",
+   "en": "an edible legume grown underground",
+   "ex": [
+    {
+     "ch": "他边看球赛边剥花生，壳堆满了整个茶几。",
+     "en": "He peeled peanuts while watching the football match, and their shells piled up across the entire coffee table.",
+     "py": "tā biān kàn qiú sài biān bāo huāshēng ké duī mǎn le zhěnggè chá jǐ",
+     "seg": [
+      [
+       "他",
+       "tā"
+      ],
+      [
+       "边",
+       "biān"
+      ],
+      [
+       "看",
+       "kàn"
+      ],
+      [
+       "球",
+       "qiú"
+      ],
+      [
+       "赛",
+       "sài"
+      ],
+      [
+       "边",
+       "biān"
+      ],
+      [
+       "剥",
+       "bāo"
+      ],
+      [
+       "花生",
+       "huāshēng"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "壳",
+       "ké"
+      ],
+      [
+       "堆",
+       "duī"
+      ],
+      [
+       "满",
+       "mǎn"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "整个",
+       "zhěnggè"
+      ],
+      [
+       "茶",
+       "chá"
+      ],
+      [
+       "几",
+       "jǐ"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "白菜",
+   "py": "báicài",
+   "en": "Chinese cabbage",
+   "ex": [
+    {
+     "ch": "白菜饺子还有吗？",
+     "en": "Do you still have Chinese cabbage dumplings?",
+     "py": "báicài jiǎozi hái yǒu ma",
+     "seg": [
+      [
+       "白菜",
+       "báicài"
+      ],
+      [
+       "饺子",
+       "jiǎozi"
+      ],
+      [
+       "还",
+       "hái"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "吗",
+       "ma"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "土豆",
+   "py": "tǔdòu",
+   "en": "starchy edible tuber",
+   "ex": [
+    {
+     "ch": "我用土豆做了咖喱，味道很香。",
+     "en": "I made curry with potatoes—it tasted delicious.",
+     "py": "wǒ yòng tǔdòu zuò le kā lí wèidào hěn xiāng",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "用",
+       "yòng"
+      ],
+      [
+       "土豆",
+       "tǔdòu"
+      ],
+      [
+       "做",
+       "zuò"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "咖",
+       "kā"
+      ],
+      [
+       "喱",
+       "lí"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "味道",
+       "wèidào"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "香",
+       "xiāng"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "西红柿",
+   "py": "xīhóngshì",
+   "en": "tomato",
+   "ex": [
+    {
+     "ch": "我今天做了西红柿鸡蛋面，味道还不错。",
+     "en": "I made tomato and egg noodles today, and they tasted quite good.",
+     "py": "wǒ jīntiān zuò le xīhóngshì jīdàn miàn wèidào hái bú cuò",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "今天",
+       "jīntiān"
+      ],
+      [
+       "做",
+       "zuò"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "西红柿",
+       "xīhóngshì"
+      ],
+      [
+       "鸡蛋",
+       "jīdàn"
+      ],
+      [
+       "面",
+       "miàn"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "味道",
+       "wèidào"
+      ],
+      [
+       "还",
+       "hái"
+      ],
+      [
+       "不",
+       "bú"
+      ],
+      [
+       "错",
+       "cuò"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "黄瓜",
+   "py": "huángguā",
+   "en": "cucumber",
+   "ex": [
+    {
+     "ch": "这盘黄瓜很脆。",
+     "en": "This plate of cucumber is crunchy.",
+     "py": "zhè pán huángguā hěn cuì",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "盘",
+       "pán"
+      ],
+      [
+       "黄瓜",
+       "huángguā"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "脆",
+       "cuì"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "胡萝卜",
+   "py": "húluóbo",
+   "en": "carrot",
+   "ex": [
+    {
+     "ch": "汤里有胡萝卜。",
+     "en": "There is carrot in the soup.",
+     "py": "tāng lǐ yǒu húluóbo",
+     "seg": [
+      [
+       "汤",
+       "tāng"
+      ],
+      [
+       "里",
+       "lǐ"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "胡萝卜",
+       "húluóbo"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "蘑菇",
+   "py": "mógū",
+   "en": "mushroom",
+   "ex": [
+    {
+     "ch": "我想加点蘑菇。",
+     "en": "I want to add some mushrooms.",
+     "py": "wǒ xiǎng jiā diǎn mógū",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "加",
+       "jiā"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "蘑菇",
+       "mógū"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "洋葱",
+   "py": "yángcōng",
+   "en": "onion",
+   "ex": [
+    {
+     "ch": "不要放洋葱。",
+     "en": "Don’t add onion.",
+     "py": "bú yào fàng yángcōng",
+     "seg": [
+      [
+       "不要",
+       "bú yào"
+      ],
+      [
+       "放",
+       "fàng"
+      ],
+      [
+       "洋葱",
+       "yángcōng"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "茄子",
+   "py": "qiézi",
+   "en": "aubergine; eggplant",
+   "ex": [
+    {
+     "ch": "茄子炒得很香。",
+     "en": "The eggplant is stir-fried very fragrant.",
+     "py": "qiézi chǎo de hěn xiāng",
+     "seg": [
+      [
+       "茄子",
+       "qiézi"
+      ],
+      [
+       "炒",
+       "chǎo"
+      ],
+      [
+       "得",
+       "de"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "香",
+       "xiāng"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "苹果",
+   "py": "píngguǒ",
+   "en": "apple",
+   "ex": [
+    {
+     "ch": "这些苹果很新鲜。",
+     "en": "These apples are very fresh.",
+     "py": "zhè xiē píngguǒ hěn xīnxiān",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "些",
+       "xiē"
+      ],
+      [
+       "苹果",
+       "píngguǒ"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "新鲜",
+       "xīnxiān"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "香蕉",
+   "py": "xiāngjiāo",
+   "en": "banana",
+   "ex": [
+    {
+     "ch": "他每天早上吃一根香蕉。",
+     "en": "He eats a banana every morning.",
+     "py": "tā měi tiān zǎoshang chī yì gēn xiāngjiāo",
+     "seg": [
+      [
+       "他",
+       "tā"
+      ],
+      [
+       "每",
+       "měi"
+      ],
+      [
+       "天",
+       "tiān"
+      ],
+      [
+       "早上",
+       "zǎoshang"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "根",
+       "gēn"
+      ],
+      [
+       "香蕉",
+       "xiāngjiāo"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "西瓜",
+   "py": "xīguā",
+   "en": "watermelon",
+   "ex": [
+    {
+     "ch": "夏天我喜欢吃西瓜。",
+     "en": "I like eating watermelon in summer.",
+     "py": "xià tiān wǒ xǐhuan chī xīguā",
+     "seg": [
+      [
+       "夏",
+       "xià"
+      ],
+      [
+       "天",
+       "tiān"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "喜欢",
+       "xǐhuan"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "西瓜",
+       "xīguā"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "芒果",
+   "py": "mángguǒ",
+   "en": "mango",
+   "ex": [
+    {
+     "ch": "饭后吃芒果吧。",
+     "en": "Let’s eat mango after the meal.",
+     "py": "fàn hòu chī mángguǒ ba",
+     "seg": [
+      [
+       "饭",
+       "fàn"
+      ],
+      [
+       "后",
+       "hòu"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "芒果",
+       "mángguǒ"
+      ],
+      [
+       "吧",
+       "ba"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "菠萝",
+   "py": "bōluó",
+   "en": "pineapple",
+   "ex": [
+    {
+     "ch": "菠萝汁有点甜。",
+     "en": "The pineapple juice is a little sweet.",
+     "py": "bōluó zhī yǒu diǎn tián",
+     "seg": [
+      [
+       "菠萝",
+       "bōluó"
+      ],
+      [
+       "汁",
+       "zhī"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "甜",
+       "tián"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "椰子",
+   "py": "yēzi",
+   "en": "coconut",
+   "ex": [
+    {
+     "ch": "这个椰子很新鲜。",
+     "en": "This coconut is very fresh.",
+     "py": "zhège yēzi hěn xīnxiān",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "椰子",
+       "yēzi"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "新鲜",
+       "xīnxiān"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "榴莲",
+   "py": "liúlián",
+   "en": "durian",
+   "ex": [
+    {
+     "ch": "这个榴莲很甜。",
+     "en": "This durian is very sweet.",
+     "py": "zhège liúlián hěn tián",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "榴莲",
+       "liúlián"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "甜",
+       "tián"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "龙眼",
+   "py": "lóngyǎn",
+   "en": "longan",
+   "ex": [
+    {
+     "ch": "饭后有龙眼吗？",
+     "en": "Do you have longan after the meal?",
+     "py": "fàn hòu yǒu lóngyǎn ma",
+     "seg": [
+      [
+       "饭",
+       "fàn"
+      ],
+      [
+       "后",
+       "hòu"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "龙眼",
+       "lóngyǎn"
+      ],
+      [
+       "吗",
+       "ma"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "木瓜",
+   "py": "mùguā",
+   "en": "papaya",
+   "ex": [
+    {
+     "ch": "我要一盘木瓜。",
+     "en": "I want a plate of papaya.",
+     "py": "wǒ yào yì pán mùguā",
+     "seg": [
+      [
+       "我要",
+       "wǒ yào"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "盘",
+       "pán"
+      ],
+      [
+       "木瓜",
+       "mùguā"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "可乐",
+   "py": "kělè",
+   "en": "cola",
+   "ex": [
+    {
+     "ch": "请给我一杯可乐。",
+     "en": "Please give me a glass of cola.",
+     "py": "qǐng gěi wǒ yì bēi kělè",
+     "seg": [
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "给",
+       "gěi"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "杯",
+       "bēi"
+      ],
+      [
+       "可乐",
+       "kělè"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "咖啡",
+   "py": "kāfēi",
+   "en": "coffee",
+   "ex": [
+    {
+     "ch": "爸爸喜欢喝咖啡。",
+     "en": "Dad likes drinking coffee.",
+     "py": "bàba xǐhuan hē kāfēi",
+     "seg": [
+      [
+       "爸爸",
+       "bàba"
+      ],
+      [
+       "喜欢",
+       "xǐhuan"
+      ],
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "咖啡",
+       "kāfēi"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "牛奶",
+   "py": "niúnǎi",
+   "en": "milk",
+   "ex": [
+    {
+     "ch": "我喜欢喝牛奶。",
+     "en": "I like drinking milk.",
+     "py": "wǒ xǐhuan hē niúnǎi",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "喜欢",
+       "xǐhuan"
+      ],
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "牛奶",
+       "niúnǎi"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "冰块",
+   "py": "bīngkuài",
+   "en": "ice cubes",
+   "ex": [
+    {
+     "ch": "水里不要冰块。",
+     "en": "No ice cubes in the water.",
+     "py": "shuǐ lǐ bú yào bīngkuài",
+     "seg": [
+      [
+       "水",
+       "shuǐ"
+      ],
+      [
+       "里",
+       "lǐ"
+      ],
+      [
+       "不要",
+       "bú yào"
+      ],
+      [
+       "冰块",
+       "bīngkuài"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "白酒",
+   "py": "báijiǔ",
+   "en": "Chinese white spirit",
+   "ex": [
+    {
+     "ch": "他点了一瓶白酒。",
+     "en": "He ordered a bottle of Chinese white spirit.",
+     "py": "tā diǎn le yì píng báijiǔ",
+     "seg": [
+      [
+       "他",
+       "tā"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "瓶",
+       "píng"
+      ],
+      [
+       "白酒",
+       "báijiǔ"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "螃蟹",
+   "py": "pángxiè",
+   "en": "crab",
+   "ex": [
+    {
+     "ch": "这只螃蟹很新鲜。",
+     "en": "This crab is very fresh.",
+     "py": "zhè zhī pángxiè hěn xīnxiān",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "只",
+       "zhī"
+      ],
+      [
+       "螃蟹",
+       "pángxiè"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "新鲜",
+       "xīnxiān"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "鱿鱼",
+   "py": "yóuyú",
+   "en": "squid",
+   "ex": [
+    {
+     "ch": "烤鱿鱼有点辣。",
+     "en": "The grilled squid is a little spicy.",
+     "py": "kǎo yóuyú yǒu diǎn là",
+     "seg": [
+      [
+       "烤",
+       "kǎo"
+      ],
+      [
+       "鱿鱼",
+       "yóuyú"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "辣",
+       "là"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "上菜",
+   "py": "shàngcài",
+   "en": "to serve the dishes",
+   "ex": [
+    {
+     "ch": "服务员正在上菜。",
+     "en": "The waiter is serving the dishes.",
+     "py": "fúwùyuán zhèngzài shàngcài",
+     "seg": [
+      [
+       "服务员",
+       "fúwùyuán"
+      ],
+      [
+       "正在",
+       "zhèngzài"
+      ],
+      [
+       "上菜",
+       "shàngcài"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "加饭",
+   "py": "jiā fàn",
+   "en": "more rice, please",
+   "ex": [
+    {
+     "ch": "请帮我加饭。",
+     "en": "Please give me more rice.",
+     "py": "qǐng bāng wǒ jiā fàn",
+     "seg": [
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "帮我",
+       "bāng wǒ"
+      ],
+      [
+       "加饭",
+       "jiā fàn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "续杯",
+   "py": "xùbēi",
+   "en": "a refill",
+   "ex": [
+    {
+     "ch": "我的茶可以续杯吗？",
+     "en": "Can I get a refill for my tea?",
+     "py": "wǒ de chá kěyǐ xùbēi ma",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "茶",
+       "chá"
+      ],
+      [
+       "可以",
+       "kěyǐ"
+      ],
+      [
+       "续杯",
+       "xùbēi"
+      ],
+      [
+       "吗",
+       "ma"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "预定",
+   "py": "yùdìng",
+   "en": "to book in advance",
+   "ex": [
+    {
+     "ch": "我想预定一桌。",
+     "en": "I’d like to book a table.",
+     "py": "wǒ xiǎng yùdìng yì zhuō",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "预定",
+       "yùdìng"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "桌",
+       "zhuō"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "包间",
+   "py": "bāojiān",
+   "en": "private dining room",
+   "ex": [
+    {
+     "ch": "我们要一个包间。",
+     "en": "We want a private room.",
+     "py": "wǒmen yào yí gè bāojiān",
+     "seg": [
+      [
+       "我们",
+       "wǒmen"
+      ],
+      [
+       "要",
+       "yào"
+      ],
+      [
+       "一",
+       "yí"
+      ],
+      [
+       "个",
+       "gè"
+      ],
+      [
+       "包间",
+       "bāojiān"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "大厅",
+   "py": "dàtīng",
+   "en": "main dining hall",
+   "ex": [
+    {
+     "ch": "大厅还有空桌吗？",
+     "en": "Are there any free tables in the main hall?",
+     "py": "dàtīng hái yǒu kòng zhuō ma",
+     "seg": [
+      [
+       "大厅",
+       "dàtīng"
+      ],
+      [
+       "还",
+       "hái"
+      ],
+      [
+       "有空",
+       "yǒu kòng"
+      ],
+      [
+       "桌",
+       "zhuō"
+      ],
+      [
+       "吗",
+       "ma"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "洗手间",
+   "py": "xǐshǒujiān",
+   "en": "bathroom; restroom",
+   "ex": [
+    {
+     "ch": "洗手间在哪儿？",
+     "en": "Where is the restroom?",
+     "py": "xǐshǒujiān zài nǎr",
+     "seg": [
+      [
+       "洗手间",
+       "xǐshǒujiān"
+      ],
+      [
+       "在",
+       "zài"
+      ],
+      [
+       "哪儿",
+       "nǎr"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "纸巾",
+   "py": "zhǐjīn",
+   "en": "tissue; napkin",
+   "ex": [
+    {
+     "ch": "桌上没有纸巾。",
+     "en": "There are no tissues on the table.",
+     "py": "zhuō shàng méiyǒu zhǐjīn",
+     "seg": [
+      [
+       "桌",
+       "zhuō"
+      ],
+      [
+       "上",
+       "shàng"
+      ],
+      [
+       "没有",
+       "méiyǒu"
+      ],
+      [
+       "纸巾",
+       "zhǐjīn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "吸管",
+   "py": "xīguǎn",
+   "en": "drinking straw",
+   "ex": [
+    {
+     "ch": "请给我一根吸管。",
+     "en": "Please give me a straw.",
+     "py": "qǐng gěi wǒ yì gēn xīguǎn",
+     "seg": [
+      [
+       "请",
+       "qǐng"
+      ],
+      [
+       "给",
+       "gěi"
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "根",
+       "gēn"
+      ],
+      [
+       "吸管",
+       "xīguǎn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "新鲜",
+   "py": "xīnxiān",
+   "en": "fresh; freshness",
+   "ex": [
+    {
+     "ch": "这个水果很新鲜。",
+     "en": "This fruit is very fresh.",
+     "py": "zhège shuǐguǒ hěn xīnxiān",
+     "seg": [
+      [
+       "这个",
+       "zhège"
+      ],
+      [
+       "水果",
+       "shuǐguǒ"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "新鲜",
+       "xīnxiān"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "熟",
+   "py": "shú",
+   "en": "cooked; done",
+   "ex": [
+    {
+     "ch": "这碗面还没熟。",
+     "en": "This bowl of noodles is not cooked yet.",
+     "py": "zhè wǎn miàn hái méi shú",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "碗",
+       "wǎn"
+      ],
+      [
+       "面",
+       "miàn"
+      ],
+      [
+       "还",
+       "hái"
+      ],
+      [
+       "没",
+       "méi"
+      ],
+      [
+       "熟",
+       "shú"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "生",
+   "py": "shēng",
+   "en": "raw; uncooked",
+   "ex": [
+    {
+     "ch": "我不要吃生肉。",
+     "en": "I don’t want to eat raw meat.",
+     "py": "wǒ bú yào chī shēng ròu",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "不要",
+       "bú yào"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "生",
+       "shēng"
+      ],
+      [
+       "肉",
+       "ròu"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "油腻",
+   "py": "yóunì",
+   "en": "greasy; oily",
+   "ex": [
+    {
+     "ch": "这道红烧肉色泽油亮，但入口不油腻，肥瘦比例恰到好处。",
+     "en": "This braised pork dish looks glossy but isn’t greasy—the fat-to-meat ratio is just right.",
+     "py": "zhè dào hóng shāo ròu sè zé yóu liàng dàn rùkǒu bú yóunì féi shòu bǐlì qiàdàohǎochù",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "道",
+       "dào"
+      ],
+      [
+       "红",
+       "hóng"
+      ],
+      [
+       "烧",
+       "shāo"
+      ],
+      [
+       "肉",
+       "ròu"
+      ],
+      [
+       "色",
+       "sè"
+      ],
+      [
+       "泽",
+       "zé"
+      ],
+      [
+       "油",
+       "yóu"
+      ],
+      [
+       "亮",
+       "liàng"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "但",
+       "dàn"
+      ],
+      [
+       "入口",
+       "rùkǒu"
+      ],
+      [
+       "不",
+       "bú"
+      ],
+      [
+       "油腻",
+       "yóunì"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "肥",
+       "féi"
+      ],
+      [
+       "瘦",
+       "shòu"
+      ],
+      [
+       "比例",
+       "bǐlì"
+      ],
+      [
+       "恰到好处",
+       "qiàdàohǎochù"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "清淡",
+   "py": "qīngdàn",
+   "en": "light and not oily",
+   "ex": [
+    {
+     "ch": "医生建议他术后多吃清淡的食物。",
+     "en": "The doctor advised him to eat light, bland food after surgery.",
+     "py": "yīshēng jiànyì tā shù hòu duō chī qīngdàn de shíwù",
+     "seg": [
+      [
+       "医生",
+       "yīshēng"
+      ],
+      [
+       "建议",
+       "jiànyì"
+      ],
+      [
+       "他",
+       "tā"
+      ],
+      [
+       "术",
+       "shù"
+      ],
+      [
+       "后",
+       "hòu"
+      ],
+      [
+       "多",
+       "duō"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "清淡",
+       "qīngdàn"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "食物",
+       "shíwù"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "香",
+   "py": "xiāng",
+   "en": "fragrant; tasty",
+   "ex": [
+    {
+     "ch": "妈妈做的米饭很香，大家都爱吃。",
+     "en": "The rice Mum cooks smells lovely, and everyone enjoys it.",
+     "py": "māma zuò de mǐfàn hěn xiāng dàjiā dōu ài chī",
+     "seg": [
+      [
+       "妈妈",
+       "māma"
+      ],
+      [
+       "做",
+       "zuò"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "米饭",
+       "mǐfàn"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "香",
+       "xiāng"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "大家",
+       "dàjiā"
+      ],
+      [
+       "都",
+       "dōu"
+      ],
+      [
+       "爱",
+       "ài"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "吃",
+   "py": "chī",
+   "en": "to eat",
+   "alt": null,
+   "ex": [
+    {
+     "ch": "我想吃米饭。",
+     "en": "I want to eat rice.",
+     "py": "wǒ xiǎng chī mǐfàn",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "米饭",
+       "mǐfàn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "饭店",
+   "py": "fàndiàn",
+   "en": "restaurant; hotel",
+   "alt": null,
+   "ex": [
+    {
+     "ch": "我们去饭店吃饭。",
+     "en": "We go to a restaurant to eat.",
+     "py": "wǒmen qù fàndiàn chī fàn",
+     "seg": [
+      [
+       "我们",
+       "wǒmen"
+      ],
+      [
+       "去",
+       "qù"
+      ],
+      [
+       "饭店",
+       "fàndiàn"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "饭",
+       "fàn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "喝",
+   "py": "hē",
+   "en": "to drink",
+   "alt": null,
+   "ex": [
+    {
+     "ch": "你想喝水吗？",
+     "en": "Do you want to drink water?",
+     "py": "nǐ xiǎng hē shuǐ ma",
+     "seg": [
+      [
+       "你",
+       "nǐ"
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "喝",
+       "hē"
+      ],
+      [
+       "水",
+       "shuǐ"
+      ],
+      [
+       "吗",
+       "ma"
+      ],
+      [
+       "？",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "水果",
+   "py": "shuǐguǒ",
+   "en": "fruit",
+   "alt": null,
+   "ex": [
+    {
+     "ch": "我买水果。",
+     "en": "I buy fruit.",
+     "py": "wǒ mǎi shuǐguǒ",
+     "seg": [
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "买",
+       "mǎi"
+      ],
+      [
+       "水果",
+       "shuǐguǒ"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "羊肉",
+   "py": "yángròu",
+   "en": "lamb; mutton",
+   "ex": [
+    {
+     "ch": "这家店的羊肉很有名。",
+     "en": "This restaurant is famous for its lamb.",
+     "py": "zhè jiā diàn de yángròu hěn yǒumíng",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "家",
+       "jiā"
+      ],
+      [
+       "店",
+       "diàn"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "羊肉",
+       "yángròu"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "有名",
+       "yǒumíng"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "蛋糕",
+   "py": "dàngāo",
+   "en": "cake",
+   "ex": [
+    {
+     "ch": "生日的时候我们吃蛋糕。",
+     "en": "We eat cake on birthdays.",
+     "py": "shēngrì de shíhou wǒmen chī dàngāo",
+     "seg": [
+      [
+       "生日",
+       "shēngrì"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "时候",
+       "shíhou"
+      ],
+      [
+       "我们",
+       "wǒmen"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "蛋糕",
+       "dàngāo"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "米",
+   "py": "mǐ",
+   "en": "rice; meter",
+   "ex": [
+    {
+     "ch": "他身高一米八。",
+     "en": "He is 1.8 meters tall.",
+     "py": "tā shēn gāo yì mǐ bā",
+     "seg": [
+      [
+       "他",
+       "tā"
+      ],
+      [
+       "身",
+       "shēn"
+      ],
+      [
+       "高",
+       "gāo"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "米",
+       "mǐ"
+      ],
+      [
+       "八",
+       "bā"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "饼干",
+   "py": "bǐnggān",
+   "en": "biscuit; cracker",
+   "ex": [
+    {
+     "ch": "孩子有点儿饿了，我给他买了一包饼干和一瓶矿泉水。",
+     "en": "The child was a little hungry, so I bought him a pack of biscuits and a bottle of mineral water.",
+     "py": "háizi yǒu diǎn ér è le wǒ gěi tā mǎi le yì bāo bǐnggān hé yì píng kuàngquánshuǐ",
+     "seg": [
+      [
+       "孩子",
+       "háizi"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "点",
+       "diǎn"
+      ],
+      [
+       "儿",
+       "ér"
+      ],
+      [
+       "饿",
+       "è"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "我",
+       "wǒ"
+      ],
+      [
+       "给",
+       "gěi"
+      ],
+      [
+       "他",
+       "tā"
+      ],
+      [
+       "买",
+       "mǎi"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "包",
+       "bāo"
+      ],
+      [
+       "饼干",
+       "bǐnggān"
+      ],
+      [
+       "和",
+       "hé"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "瓶",
+       "píng"
+      ],
+      [
+       "矿泉水",
+       "kuàngquánshuǐ"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "厨房",
+   "py": "chúfáng",
+   "en": "kitchen",
+   "ex": [
+    {
+     "ch": "妈妈正在厨房里做晚饭。",
+     "en": "Mum is in the kitchen making dinner.",
+     "py": "māma zhèngzài chúfáng lǐ zuò wǎnfàn",
+     "seg": [
+      [
+       "妈妈",
+       "māma"
+      ],
+      [
+       "正在",
+       "zhèngzài"
+      ],
+      [
+       "厨房",
+       "chúfáng"
+      ],
+      [
+       "里",
+       "lǐ"
+      ],
+      [
+       "做",
+       "zuò"
+      ],
+      [
+       "晚饭",
+       "wǎnfàn"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "烤鸭",
+   "py": "kǎoyā",
+   "en": "roast duck",
+   "ex": [
+    {
+     "ch": "来北京旅游的人，很多都想尝一尝北京烤鸭。",
+     "en": "Many visitors to Beijing want to try Peking duck.",
+     "py": "lái Běijīng lǚyóu de rén hěn duō dōu xiǎng cháng yì cháng Běijīng kǎoyā",
+     "seg": [
+      [
+       "来",
+       "lái"
+      ],
+      [
+       "北京",
+       "Běijīng"
+      ],
+      [
+       "旅游",
+       "lǚyóu"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "人",
+       "rén"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "多",
+       "duō"
+      ],
+      [
+       "都",
+       "dōu"
+      ],
+      [
+       "想",
+       "xiǎng"
+      ],
+      [
+       "尝",
+       "cháng"
+      ],
+      [
+       "一",
+       "yì"
+      ],
+      [
+       "尝",
+       "cháng"
+      ],
+      [
+       "北京",
+       "Běijīng"
+      ],
+      [
+       "烤鸭",
+       "kǎoyā"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "葡萄",
+   "py": "pútao",
+   "en": "grape",
+   "ex": [
+    {
+     "ch": "这种葡萄很甜，孩子们一会儿就吃完了一大盘。",
+     "en": "These grapes are very sweet—the children finished a whole plate in no time.",
+     "py": "zhè zhǒng pútao hěn tián háizi men yíhuìr jiù chī wán le yí dà pán",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "种",
+       "zhǒng"
+      ],
+      [
+       "葡萄",
+       "pútao"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "甜",
+       "tián"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "孩子",
+       "háizi"
+      ],
+      [
+       "们",
+       "men"
+      ],
+      [
+       "一会儿",
+       "yíhuìr"
+      ],
+      [
+       "就",
+       "jiù"
+      ],
+      [
+       "吃",
+       "chī"
+      ],
+      [
+       "完",
+       "wán"
+      ],
+      [
+       "了",
+       "le"
+      ],
+      [
+       "一",
+       "yí"
+      ],
+      [
+       "大",
+       "dà"
+      ],
+      [
+       "盘",
+       "pán"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "小吃",
+   "py": "xiǎochī",
+   "en": "snack",
+   "ex": [
+    {
+     "ch": "这条街有很多有名的小吃，晚上特别热闹。",
+     "en": "This street has many famous snacks and gets especially lively at night.",
+     "py": "zhè tiáo jiē yǒu hěn duō yǒumíng de xiǎochī wǎnshang tèbié rènao",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "条",
+       "tiáo"
+      ],
+      [
+       "街",
+       "jiē"
+      ],
+      [
+       "有",
+       "yǒu"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "多",
+       "duō"
+      ],
+      [
+       "有名",
+       "yǒumíng"
+      ],
+      [
+       "的",
+       "de"
+      ],
+      [
+       "小吃",
+       "xiǎochī"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "晚上",
+       "wǎnshang"
+      ],
+      [
+       "特别",
+       "tèbié"
+      ],
+      [
+       "热闹",
+       "rènao"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ch": "座",
+   "py": "zuò",
+   "en": "measure word for buildings/mountains",
+   "ex": [
+    {
+     "ch": "这座城市不大，但是历史很长，游客也很多。",
+     "en": "This city isn’t large, but it has a long history and attracts many tourists.",
+     "py": "zhè zuò chéngshì bú dà dàn shì lìshǐ hěn cháng yóu kè yě hěn duō",
+     "seg": [
+      [
+       "这",
+       "zhè"
+      ],
+      [
+       "座",
+       "zuò"
+      ],
+      [
+       "城市",
+       "chéngshì"
+      ],
+      [
+       "不",
+       "bú"
+      ],
+      [
+       "大",
+       "dà"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "但",
+       "dàn"
+      ],
+      [
+       "是",
+       "shì"
+      ],
+      [
+       "历史",
+       "lìshǐ"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "长",
+       "cháng"
+      ],
+      [
+       "，",
+       ""
+      ],
+      [
+       "游",
+       "yóu"
+      ],
+      [
+       "客",
+       "kè"
+      ],
+      [
+       "也",
+       "yě"
+      ],
+      [
+       "很",
+       "hěn"
+      ],
+      [
+       "多",
+       "duō"
+      ],
+      [
+       "。",
+       ""
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

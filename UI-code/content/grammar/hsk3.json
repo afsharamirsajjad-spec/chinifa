@@ -1,0 +1,1739 @@
+{
+  "id": "hsk3",
+  "level": "HSK 3",
+  "note": "Original explanations and examples, written for this app. Examples use HSK 1–3 words only (checked by E:/mineru/app-integration/grammar_check.py).",
+  "points": [
+    {
+      "id": "bei",
+      "mark": "被",
+      "title": "被 · done to it (passive)",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "被 starts with the thing that was affected, then says who did it.",
+      "pattern": "Thing / person + 被 + (doer) + verb + result / 了",
+      "explain": "The sentence opens with what was affected: 我的蛋糕被弟弟吃了 (my cake got eaten by my brother). The doer comes right after 被 and can be left out when it doesn't matter. Like 把, the verb can't stand alone — it needs a result or 了. 被 is mostly used for things you're not happy about.",
+      "examples": [
+        {
+          "ch": "我的蛋糕被弟弟吃了。",
+          "py": "wǒ de dàngāo bèi dìdi chī le.",
+          "en": "My cake got eaten by my little brother."
+        },
+        {
+          "ch": "我的伞被朋友借走了。",
+          "py": "wǒ de sǎn bèi péngyou jièzǒu le.",
+          "en": "A friend has borrowed my umbrella."
+        },
+        {
+          "ch": "他被老师叫到办公室去了。",
+          "py": "tā bèi lǎoshī jiào dào bàngōngshì qù le.",
+          "en": "He got called to the office by the teacher."
+        }
+      ],
+      "mistake": "✗ 我的蛋糕被弟弟吃。 → ✓ 我的蛋糕被弟弟吃了。 The verb needs 了 or a result.",
+      "compare": [
+        {
+          "w": "被",
+          "gloss": "affected thing first",
+          "ex": "蛋糕被弟弟吃了"
+        },
+        {
+          "w": "把",
+          "gloss": "doer first",
+          "ex": "弟弟把蛋糕吃了"
+        }
+      ],
+      "titleFa": "被‏ · بر آن انجام شده (مجهول)",
+      "oneLineFa": "被‏ با چیزِ تحت تأثیر شروع می‌کند، سپس می‌گوید چه کسی آن را کرده.",
+      "explainFa": "جمله با چیزی آغاز می‌شود که تحت تأثیر قرار گرفته: 我的蛋糕被弟弟吃了‏ (کیک من را برادرم خورد). انجام‌دهنده درست بعد از 被‏ می‌آید و وقتی مهم نیست می‌تواند حذف شود. مانند 把‏، فعل نمی‌تواند تنها بماند — به یک نتیجه یا 了‏ نیاز دارد. 被‏ بیشتر برای چیزهایی به کار می‌رود که از آن‌ها خشنود نیستی.",
+      "mistakeFa": "✗ 我的蛋糕被弟弟吃‏。 → ✓ 我的蛋糕被弟弟吃了‏。 فعل به 了‏ یا یک نتیجه نیاز دارد."
+    },
+    {
+      "id": "rang-cause",
+      "mark": "让",
+      "title": "让 · makes someone feel",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "Something 让 someone + a feeling: it causes that feeling or state.",
+      "pattern": "Thing / event + 让 / 叫 / 使 + person + feeling / state",
+      "explain": "In HSK 2, one person 让 another do something. Here the cause is an event or a thing, and what follows is how someone feels: 这个新闻让我很难过. 叫 means the same in speech. 使 is the written form — fine in a book, stiff in a chat.",
+      "examples": [
+        {
+          "ch": "这个新闻让我很难过。",
+          "py": "zhège xīnwén ràng wǒ hěn nánguò.",
+          "en": "This news makes me sad."
+        },
+        {
+          "ch": "你的礼物让她非常高兴。",
+          "py": "nǐ de lǐwù ràng tā fēicháng gāoxìng.",
+          "en": "Your present made her really happy."
+        },
+        {
+          "ch": "这件事情真叫人着急。",
+          "py": "zhè jiàn shìqing zhēn jiào rén zháojí.",
+          "en": "This is really worrying."
+        }
+      ],
+      "mistake": "✗ 这个新闻做我很难过。 → ✓ 这个新闻让我很难过。 \"Make\" here is 让, never 做.",
+      "compare": [
+        {
+          "w": "让",
+          "gloss": "makes someone feel",
+          "ex": "他让我很生气"
+        },
+        {
+          "w": "做",
+          "gloss": "makes a thing",
+          "ex": "妈妈做蛋糕"
+        }
+      ],
+      "titleFa": "让‏ · احساسی در کسی ایجاد می‌کند",
+      "oneLineFa": "چیزی 让‏ کسی + یک احساس: آن احساس یا حالت را ایجاد می‌کند.",
+      "explainFa": "در HSK 2، یک نفر به دیگری 让‏ می‌دهد که کاری انجام دهد. اینجا اما علت، یک رویداد یا یک چیز است و آنچه بعدش می‌آید، احساس کسی است: 这个新闻让我很难过‏. 叫‏ در گفتار همین معنی را می‌دهد. 使‏ شکل نوشتاری است — در کتاب مناسب است، اما در گفتگو خشک و رسمی به نظر می‌رسد.",
+      "mistakeFa": "✗ 这个新闻做我很难过‏。 → ✓ 这个新闻让我很难过‏。 «ایجاد کردن» در اینجا با 让‏ بیان می‌شود، هرگز با 做‏ نه."
+    },
+    {
+      "id": "gen-yiyang",
+      "mark": "一样",
+      "title": "跟……一样 · the same as",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "A 跟 B 一样: A and B are the same. Add an adjective to say in what way.",
+      "pattern": "A + 跟 + B + (不) 一样 (+ adjective)",
+      "explain": "一样 on its own means \"the same\": 我的手机跟你的一样. Put an adjective after it for \"as … as\": 妹妹跟妈妈一样漂亮. For \"different\", 不 goes right before 一样. 和 can take the place of 跟.",
+      "examples": [
+        {
+          "ch": "我的手机跟你的一样。",
+          "py": "wǒ de shǒujī gēn nǐ de yíyàng.",
+          "en": "My phone is the same as yours."
+        },
+        {
+          "ch": "妹妹跟妈妈一样漂亮。",
+          "py": "mèimei gēn māma yíyàng piàoliang.",
+          "en": "My little sister is as pretty as Mum."
+        },
+        {
+          "ch": "这里的天气跟北京不一样。",
+          "py": "zhèlǐ de tiānqì gēn Běijīng bù yíyàng.",
+          "en": "The weather here isn't like Beijing's."
+        }
+      ],
+      "mistake": "✗ 我不跟他一样。 → ✓ 我跟他不一样。 不 goes before 一样.",
+      "compare": [
+        {
+          "w": "跟……一样",
+          "gloss": "the same as",
+          "ex": "我跟你一样高"
+        },
+        {
+          "w": "比",
+          "gloss": "more than",
+          "ex": "我比你高"
+        }
+      ],
+      "titleFa": "跟‏……一样‏ · یکسان با",
+      "oneLineFa": "A 跟‏ B 一样‏: A و B یکسان‌اند. صفت اضافه کن تا بگویی از چه نظر.",
+      "explainFa": "一样‏ به‌تنهایی یعنی «یکسان»: 我的手机跟你的一样‏. برای «همان‌قدر … که» یک صفت بعدش بیاور: 妹妹跟妈妈一样漂亮‏. برای «متفاوت»، 不‏ درست پیش از 一样‏ می‌آید. 和‏ می‌تواند جای 跟‏ را بگیرد.",
+      "mistakeFa": "✗ 我不跟他一样‏。 → ✓ 我跟他不一样‏。 不‏ پیش از 一样‏ می‌آید."
+    },
+    {
+      "id": "meiyou-bi",
+      "mark": "没有",
+      "title": "没有 · not as … as",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "A 没有 B + adjective: A doesn't come up to B.",
+      "pattern": "A + 没有 + B + adjective",
+      "explain": "This is the everyday way to say \"less … than\": 今天没有昨天冷 (today isn't as cold as yesterday). It is the opposite of 比 — 比 says A is more, 没有 says A falls short. As with 比, no 很 before the adjective. You'll often hear 那么 added: 没有他那么高.",
+      "examples": [
+        {
+          "ch": "今天没有昨天冷。",
+          "py": "jīntiān méiyǒu zuótiān lěng.",
+          "en": "Today isn't as cold as yesterday."
+        },
+        {
+          "ch": "我的汉语没有你好。",
+          "py": "wǒ de Hànyǔ méiyǒu nǐ hǎo.",
+          "en": "My Chinese isn't as good as yours."
+        },
+        {
+          "ch": "坐公共汽车没有坐地铁快。",
+          "py": "zuò gōnggòng qìchē méiyǒu zuò dìtiě kuài.",
+          "en": "The bus isn't as fast as the underground."
+        }
+      ],
+      "mistake": "✗ 我没有他很高。 → ✓ 我没有他高。 No 很, just like with 比.",
+      "compare": [
+        {
+          "w": "没有",
+          "gloss": "less than",
+          "ex": "今天没有昨天冷"
+        },
+        {
+          "w": "比",
+          "gloss": "more than",
+          "ex": "今天比昨天冷"
+        }
+      ],
+      "titleFa": "没有‏ · به اندازهٔ … نیست",
+      "oneLineFa": "A 没有‏ B + صفت: A به پای B نمی‌رسد.",
+      "explainFa": "این شیوهٔ روزمرهٔ گفتن «کمتر … از» است: 今天没有昨天冷‏ (امروز به اندازهٔ دیروز سرد نیست). متضاد 比‏ است — 比‏ می‌گوید A بیشتر است، 没有‏ می‌گوید A کم می‌آورد. مثل 比‏، پیش از صفت 很‏ نمی‌آید. اغلب 那么‏ هم اضافه می‌شود: 没有他那么高‏.",
+      "mistakeFa": "✗ 我没有他很高‏。 → ✓ 我没有他高‏。 很‏ نه، درست مثل 比‏."
+    },
+    {
+      "id": "geng-hai",
+      "mark": "更",
+      "title": "比……更 / 还 · even more",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "更 or 还 before the adjective: B is already so, and A is even more so.",
+      "pattern": "A + 比 + B + 更 / 还 + adjective",
+      "explain": "A plain 比 sentence says A is more. 更 or 还 adds \"even\": 这个饭店比那个还贵 — that one is pricey, and this one even more so. 还 sounds a little more surprised. These two are the only words allowed before the adjective in a 比 sentence; 很 and 非常 still aren't.",
+      "examples": [
+        {
+          "ch": "今天比昨天更冷。",
+          "py": "jīntiān bǐ zuótiān gèng lěng.",
+          "en": "Today is even colder than yesterday."
+        },
+        {
+          "ch": "坐地铁比坐出租车更方便。",
+          "py": "zuò dìtiě bǐ zuò chūzūchē gèng fāngbiàn.",
+          "en": "The underground is even handier than a taxi."
+        },
+        {
+          "ch": "这个饭店比那个还贵。",
+          "py": "zhège fàndiàn bǐ nàge hái guì.",
+          "en": "This restaurant is even pricier than that one."
+        }
+      ],
+      "mistake": "✗ 今天比昨天非常冷。 → ✓ 今天比昨天更冷。 Only 更 or 还 can go before the adjective.",
+      "compare": [
+        {
+          "w": "更",
+          "gloss": "even more, comparing",
+          "ex": "今天比昨天更冷"
+        },
+        {
+          "w": "非常",
+          "gloss": "very, not comparing",
+          "ex": "今天非常冷"
+        }
+      ],
+      "titleFa": "比‏……更‏ / 还‏ · حتی بیشتر",
+      "oneLineFa": "更‏ یا 还‏ پیش از صفت: B از قبل همین‌گونه است و A حتی بیشتر.",
+      "explainFa": "جملهٔ سادهٔ 比‏ می‌گوید A بیشتر است. 更‏ یا 还‏ معنای «حتی» می‌افزاید: 这个饭店比那个还贵‏ — آن یکی گران است، و این یکی حتی بیشتر. 还‏ کمی حس شگفتی بیشتری می‌دهد. این دو تنها واژه‌هایی‌اند که در جملهٔ 比‏ می‌توانند پیش از صفت بیایند؛ 很‏ و 非常‏ همچنان نه.",
+      "mistakeFa": "✗ 今天比昨天非常冷‏。 → ✓ 今天比昨天更冷‏。 فقط 更‏ یا 还‏ می‌توانند پیش از صفت بیایند."
+    },
+    {
+      "id": "zhe-exist",
+      "mark": "着",
+      "title": "Place + V 着 · what's there, and how",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "Place first, then verb + 着, then the thing: it says what is there and in what position.",
+      "pattern": "Place + verb + 着 + number + measure + thing",
+      "explain": "It works like 有 with a picture added: 桌子上有一本书 just says a book is there; 桌子上放着一本书 shows it lying there. Common verbs are 放 (put), 站 (stand), 坐 (sit), 写 (write) and 住 (live). The thing at the end is new information, so it usually has a number: 一个, 两本, 很多.",
+      "examples": [
+        {
+          "ch": "桌子上放着一本词典。",
+          "py": "zhuōzi shang fàngzhe yì běn cídiǎn.",
+          "en": "There's a dictionary lying on the table."
+        },
+        {
+          "ch": "门口站着一个人。",
+          "py": "ménkǒu zhànzhe yí ge rén.",
+          "en": "Someone is standing at the door."
+        },
+        {
+          "ch": "黑板上写着很多字。",
+          "py": "hēibǎn shang xiězhe hěn duō zì.",
+          "en": "There are lots of characters written on the board."
+        }
+      ],
+      "mistake": "✗ 一本书放着桌子上。 → ✓ 桌子上放着一本书。 The place comes first.",
+      "compare": [
+        {
+          "w": "放着",
+          "gloss": "how it's there",
+          "ex": "桌子上放着书"
+        },
+        {
+          "w": "有",
+          "gloss": "just that it's there",
+          "ex": "桌子上有书"
+        }
+      ],
+      "titleFa": "مکان + فعل 着‏ · چه چیزی آنجاست، و چگونه",
+      "oneLineFa": "اول مکان، بعد فعل + 着‏، بعد چیز: می‌گوید چه چیزی آنجاست و در چه وضعیتی.",
+      "explainFa": "مثل 有‏ کار می‌کند، اما یک تصویر هم می‌دهد: 桌子上有一本书‏ فقط می‌گوید کتابی آنجاست؛ 桌子上放着一本书‏ نشان می‌دهد که همان‌جا قرار گرفته است. فعل‌های پرکاربرد: 放‏ (گذاشتن)، 站‏ (ایستادن)، 坐‏ (نشستن)، 写‏ (نوشتن) و 住‏ (ساکن بودن). چیزِ پایان جمله اطلاعات تازه است، پس معمولاً عدد دارد: 一个‏، 两本‏، 很多‏.",
+      "mistakeFa": "✗ 一本书放着桌子上‏。 → ✓ 桌子上放着一本书‏。 مکان اول می‌آید."
+    },
+    {
+      "id": "zhe-manner",
+      "mark": "着",
+      "title": "V 着 V · doing it this way",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "V1 + 着 + V2: the first verb says how, or in what position, you do the second.",
+      "pattern": "Subject + V1 + 着 (+ object) + V2",
+      "explain": "The 着 verb is the background and the second verb is the news: 站着工作 (work standing up), 走着去 (go on foot). 了 and 过 go with the second verb, not the first. Compare 一边……一边……, where both actions matter the same.",
+      "examples": [
+        {
+          "ch": "我们走着去吧，不远。",
+          "py": "wǒmen zǒuzhe qù ba, bù yuǎn.",
+          "en": "Let's walk there, it isn't far."
+        },
+        {
+          "ch": "他喜欢站着工作。",
+          "py": "tā xǐhuan zhànzhe gōngzuò.",
+          "en": "He likes to work standing up."
+        },
+        {
+          "ch": "他带着孩子去公园了。",
+          "py": "tā dàizhe háizi qù gōngyuán le.",
+          "en": "He took the kids to the park."
+        }
+      ],
+      "mistake": "✗ 他工作站着。 → ✓ 他站着工作。 The 着 verb comes first.",
+      "compare": [
+        {
+          "w": "……着……",
+          "gloss": "how it's done",
+          "ex": "站着工作"
+        },
+        {
+          "w": "一边……一边",
+          "gloss": "two things at once",
+          "ex": "一边吃一边看"
+        }
+      ],
+      "titleFa": "فعل 着‏ فعل · این‌گونه انجام دادن",
+      "oneLineFa": "فعل۱ + 着‏ + فعل۲: فعل اول می‌گوید دومی را چگونه، یا در چه وضعیتی، انجام می‌دهید.",
+      "explainFa": "فعلِ دارای 着‏ پس‌زمینه است و فعل دوم خبر اصلی است: 站着工作‏ (ایستاده کار کردن)، 走着去‏ (پیاده رفتن). 了‏ و 过‏ با فعل دوم می‌آیند، نه با فعل اول. با 一边‏……一边‏…… مقایسه کنید که در آن هر دو کار اهمیت یکسانی دارند.",
+      "mistakeFa": "✗ 他工作站着‏。 → ✓ 他站着工作‏。 فعلِ دارای 着‏ اول می‌آید."
+    },
+    {
+      "id": "you-you",
+      "mark": "又",
+      "title": "又……又…… · both … and …",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "又 A 又 B: two qualities, or two actions, at the same time.",
+      "pattern": "Subject + 又 + A + 又 + B",
+      "explain": "Stack two things of the same kind: 又便宜又好吃 (cheap and tasty), 又累又饿 (tired and hungry). Both usually lean the same way — two good things or two bad ones. Drop 很 inside the pattern.",
+      "examples": [
+        {
+          "ch": "这家饭店的菜又便宜又好吃。",
+          "py": "zhè jiā fàndiàn de cài yòu piányi yòu hǎochī.",
+          "en": "The food at this restaurant is cheap and tasty."
+        },
+        {
+          "ch": "我又累又饿。",
+          "py": "wǒ yòu lèi yòu è.",
+          "en": "I'm tired and hungry."
+        },
+        {
+          "ch": "她又会唱歌又会跳舞。",
+          "py": "tā yòu huì chàng gē yòu huì tiàowǔ.",
+          "en": "She can sing and dance."
+        }
+      ],
+      "mistake": "✗ 又很便宜又很好吃 → ✓ 又便宜又好吃. No 很 after 又.",
+      "compare": [
+        {
+          "w": "又……又",
+          "gloss": "two descriptions",
+          "ex": "又便宜又好吃"
+        },
+        {
+          "w": "一边……一边",
+          "gloss": "two actions at once",
+          "ex": "一边走一边说"
+        }
+      ],
+      "titleFa": "又‏……又‏…… · هم … هم …",
+      "oneLineFa": "又‏ A 又‏ B: دو ویژگی، یا دو کار، هم‌زمان.",
+      "explainFa": "دو چیز از یک جنس را کنار هم می‌چیند: 又便宜又好吃‏ (ارزان و خوشمزه)، 又累又饿‏ (خسته و گرسنه). هر دو معمولاً هم‌جهت‌اند — دو چیز خوب یا دو چیز بد. 很‏ درون این ساختار حذف می‌شود.",
+      "mistakeFa": "✗ 又很便宜又很好吃‏ → ✓ 又便宜又好吃‏. بعد از 又‏، هیچ 很‏ نمی‌آید."
+    },
+    {
+      "id": "yibian",
+      "mark": "一边",
+      "title": "一边……一边…… · while",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "一边 A 一边 B: doing two things at the same time.",
+      "pattern": "Subject + 一边 + verb + 一边 + verb",
+      "explain": "Both actions are going on at once: 一边吃东西一边看电视. The subject comes once, before the first 一边. It is for actions only — to stack two descriptions, use 又……又…….",
+      "examples": [
+        {
+          "ch": "他一边吃东西一边看电视。",
+          "py": "tā yìbiān chī dōngxi yìbiān kàn diànshì.",
+          "en": "He eats while watching TV."
+        },
+        {
+          "ch": "我们一边走一边聊天吧。",
+          "py": "wǒmen yìbiān zǒu yìbiān liáotiān ba.",
+          "en": "Let's chat as we walk."
+        },
+        {
+          "ch": "她一边听音乐一边做作业。",
+          "py": "tā yìbiān tīng yīnyuè yìbiān zuò zuòyè.",
+          "en": "She does her homework with music on."
+        }
+      ],
+      "mistake": "✗ 他一边高一边瘦。 → ✓ 他又高又瘦。 一边 is for actions, not descriptions.",
+      "compare": [
+        {
+          "w": "一边……一边",
+          "gloss": "two actions",
+          "ex": "一边吃一边看"
+        },
+        {
+          "w": "又……又",
+          "gloss": "two descriptions",
+          "ex": "又高又瘦"
+        }
+      ],
+      "titleFa": "一边‏……一边‏…… · در حالی که",
+      "oneLineFa": "一边‏ A 一边‏ B: انجام دو کار هم‌زمان.",
+      "explainFa": "هر دو کار هم‌زمان در جریان‌اند: 一边吃东西一边看电视‏. نهاد یک‌بار، قبل از نخستین 一边‏ می‌آید. فقط برای کارهاست — برای کنار هم نشاندن دو توصیف، از 又‏……又‏…… استفاده کنید.",
+      "mistakeFa": "✗ 他一边高一边瘦‏。 → ✓ 他又高又瘦‏。 一边‏ برای کارهاست، نه توصیف‌ها."
+    },
+    {
+      "id": "xian-ranhou",
+      "mark": "先",
+      "title": "先……再……然后…… · first, next, then",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "Put steps in order: 先 for the first, 再 for the next, 然后 for what follows.",
+      "pattern": "Subject + 先 + step 1，再 + step 2，然后 + step 3",
+      "explain": "先 and 再 go after the subject, right before the verb: 你先休息，再工作. 然后 starts its own clause: 然后我们回家. 再 is for steps still to come; for steps already done, use 然后: 我先去了超市，然后回家了.",
+      "examples": [
+        {
+          "ch": "你先休息一下，再做作业。",
+          "py": "nǐ xiān xiūxi yíxià, zài zuò zuòyè.",
+          "en": "Have a rest first, then do your homework."
+        },
+        {
+          "ch": "我们先去超市，然后回家。",
+          "py": "wǒmen xiān qù chāoshì, ránhòu huí jiā.",
+          "en": "We'll go to the supermarket first, then home."
+        },
+        {
+          "ch": "早上我先跑步，再洗澡，然后上班。",
+          "py": "zǎoshang wǒ xiān pǎobù, zài xǐzǎo, ránhòu shàngbān.",
+          "en": "In the morning I go for a run, then shower, then go to work."
+        }
+      ],
+      "mistake": "✗ 你休息先。 → ✓ 你先休息。 先 goes before the verb.",
+      "compare": [
+        {
+          "w": "先……再",
+          "gloss": "steps still ahead",
+          "ex": "先休息再工作"
+        },
+        {
+          "w": "然后",
+          "gloss": "past or future",
+          "ex": "然后回家了"
+        }
+      ],
+      "titleFa": "先‏……再‏……然后‏…… · اول، بعد، سپس",
+      "oneLineFa": "گام‌ها را به ترتیب بچینید: 先‏ برای اولی، 再‏ برای بعدی، 然后‏ برای ادامهٔ ماجرا.",
+      "explainFa": "先‏ و 再‏ بعد از نهاد، درست قبل از فعل می‌آیند: 你先休息‏，再工作‏. 然后‏ جملهٔ خودش را آغاز می‌کند: 然后我们回家‏. 再‏ برای گام‌هایی است که هنوز پیش‌روست؛ برای گام‌هایی که انجام شده‌اند از 然后‏ استفاده کنید: 我先去了超市‏，然后回家了‏.",
+      "mistakeFa": "✗ 你休息先‏。 → ✓ 你先休息‏。 先‏ قبل از فعل می‌آید."
+    },
+    {
+      "id": "yue",
+      "mark": "越",
+      "title": "越来越 · more and more",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "越来越 + adjective: it keeps growing. 越 A 越 B: the more A, the more B.",
+      "pattern": "越来越 + adjective · 越 + verb + 越 + adjective / verb",
+      "explain": "越来越 shows a change over time: 天气越来越冷了. 越 A 越 B ties two changes together: 越听越喜欢 (the more I listen, the more I like it). No 很 or 非常 — 越 already does that job.",
+      "examples": [
+        {
+          "ch": "天气越来越冷了。",
+          "py": "tiānqì yuè lái yuè lěng le.",
+          "en": "It's getting colder and colder."
+        },
+        {
+          "ch": "你的汉语越来越好了。",
+          "py": "nǐ de Hànyǔ yuè lái yuè hǎo le.",
+          "en": "Your Chinese is getting better and better."
+        },
+        {
+          "ch": "这个故事我越听越喜欢。",
+          "py": "zhège gùshi wǒ yuè tīng yuè xǐhuan.",
+          "en": "The more I hear this story, the more I like it."
+        }
+      ],
+      "mistake": "✗ 越来越很冷 → ✓ 越来越冷. No 很 after 越.",
+      "compare": [
+        {
+          "w": "越来越",
+          "gloss": "changing over time",
+          "ex": "天气越来越冷"
+        },
+        {
+          "w": "更",
+          "gloss": "more than another",
+          "ex": "今天更冷"
+        }
+      ],
+      "titleFa": "越来越‏ · هرچه بیشتر",
+      "oneLineFa": "越来越‏ + صفت: مدام بیشتر می‌شود. 越‏ A 越‏ B: هرچه بیشتر A، بیشتر B.",
+      "explainFa": "越来越‏ تغییری در گذر زمان را نشان می‌دهد: 天气越来越冷了‏. 越‏ A 越‏ B دو تغییر را به هم گره می‌زند: 越听越喜欢‏ (هرچه بیشتر گوش می‌دهم، بیشتر دوستش دارم). نه 很‏ و نه 非常‏ — خودِ 越‏ همین کار را می‌کند.",
+      "mistakeFa": "✗ 越来越很冷‏ → ✓ 越来越冷‏. بعد از 越‏، هیچ 很‏ نمی‌آید."
+    },
+    {
+      "id": "chule",
+      "mark": "除了",
+      "title": "除了……以外 · apart from",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "除了 X 以外: with 都 it means \"except X\"; with 还 / 也 it means \"as well as X\".",
+      "pattern": "除了 + X + (以外)，… 都 / 还 / 也 + verb",
+      "explain": "The second half decides the meaning. With 都, X is left out: 除了他以外，我们都去了 (all of us but him). With 还 or 也, X is included and there's more: 除了茶，我还喜欢咖啡. 以外 can be dropped.",
+      "examples": [
+        {
+          "ch": "除了他以外，我们都去了。",
+          "py": "chúle tā yǐwài, wǒmen dōu qù le.",
+          "en": "All of us went except him."
+        },
+        {
+          "ch": "除了苹果，我还买了香蕉。",
+          "py": "chúle píngguǒ, wǒ hái mǎile xiāngjiāo.",
+          "en": "I bought bananas as well as apples."
+        },
+        {
+          "ch": "除了周末以外，他每天都上班。",
+          "py": "chúle zhōumò yǐwài, tā měi tiān dōu shàngbān.",
+          "en": "He works every day except at weekends."
+        }
+      ],
+      "mistake": "✗ 除了他，我们去了。 → ✓ 除了他，我们都去了。 Add 都 (all the others) or 还 (as well).",
+      "compare": [
+        {
+          "w": "除了……都",
+          "gloss": "leaves it out",
+          "ex": "除了他，我们都去了"
+        },
+        {
+          "w": "除了……还",
+          "gloss": "adds more",
+          "ex": "除了茶，还有咖啡"
+        }
+      ],
+      "titleFa": "除了‏……以外‏ · به‌جز",
+      "oneLineFa": "除了‏ X 以外‏: با 都‏ یعنی «به‌جز X»؛ با 还‏ / 也‏ یعنی «علاوه بر X».",
+      "explainFa": "نیمهٔ دوم جمله معنا را تعیین می‌کند. با 都‏، «X» مستثنا می‌شود: 除了他以外‏，我们都去了‏ (همهٔ ما جز او رفتیم). با 还‏ یا 也‏، «X» هم داخل است و چیز دیگری هم در میان است: 除了茶‏，我还喜欢咖啡‏. 以外‏ را می‌توان حذف کرد.",
+      "mistakeFa": "✗ 除了他‏，我们去了‏。 → ✓ 除了他‏，我们都去了‏。 都‏ را اضافه کن (همهٔ بقیه) یا 还‏ (همچنان)."
+    },
+    {
+      "id": "ruguo",
+      "mark": "如果",
+      "title": "如果……的话 · if",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "如果 opens the \"if\" part; 就 often opens the result.",
+      "pattern": "如果 + condition + (的话)，(subject +) 就 + result",
+      "explain": "The condition always comes first. Mark it with 如果 at the front, 的话 at the end, or both. In the second half, 就 goes after the subject and before the verb: 如果下雨，我们就不去了.",
+      "examples": [
+        {
+          "ch": "如果明天下雨，我们就不去了。",
+          "py": "rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù le.",
+          "en": "If it rains tomorrow, we won't go."
+        },
+        {
+          "ch": "如果你累了的话，就休息一下。",
+          "py": "rúguǒ nǐ lèi le dehuà, jiù xiūxi yíxià.",
+          "en": "If you're tired, take a break."
+        },
+        {
+          "ch": "你有时间的话，来我家玩吧。",
+          "py": "nǐ yǒu shíjiān dehuà, lái wǒ jiā wán ba.",
+          "en": "Come over to my place if you have time."
+        }
+      ],
+      "mistake": "✗ 我们就不去了，如果下雨。 → ✓ 如果下雨，我们就不去了。 The \"if\" part comes first.",
+      "compare": [
+        {
+          "w": "如果",
+          "gloss": "if, maybe not",
+          "ex": "如果下雨"
+        },
+        {
+          "w": "……的时候",
+          "gloss": "when it does",
+          "ex": "下雨的时候"
+        }
+      ],
+      "titleFa": "如果‏……的话‏ · اگر",
+      "oneLineFa": "如果‏ بخشِ «اگر» را آغاز می‌کند؛ 就‏ اغلب نتیجه را آغاز می‌کند.",
+      "explainFa": "شرط همیشه اول می‌آید. آن را با 如果‏ در ابتدا، 的话‏ در انتها، یا هر دو نشانه‌گذاری کنید. در نیمهٔ دوم، 就‏ بعد از نهاد و قبل از فعل می‌آید: 如果下雨‏，我们就不去了‏.",
+      "mistakeFa": "✗ 我们就不去了‏，如果下雨‏。 → ✓ 如果下雨‏，我们就不去了‏。 بخش «اگر» اول می‌آید."
+    },
+    {
+      "id": "zhiyao",
+      "mark": "只要",
+      "title": "只要……就…… · as long as",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "只要 A，就 B: A is all it takes for B to happen.",
+      "pattern": "只要 + condition，(subject +) 就 + result",
+      "explain": "只要 makes the condition sound easy and enough: 只要你喜欢，我就买. 就 sits after the subject of the second half. Compare 只有……才……, where the condition is the only way.",
+      "examples": [
+        {
+          "ch": "只要每天练习，就能说好汉语。",
+          "py": "zhǐyào měi tiān liànxí, jiù néng shuōhǎo Hànyǔ.",
+          "en": "As long as you practise every day, you'll speak Chinese well."
+        },
+        {
+          "ch": "只要你喜欢，我就买。",
+          "py": "zhǐyào nǐ xǐhuan, wǒ jiù mǎi.",
+          "en": "If you like it, I'll buy it — simple as that."
+        },
+        {
+          "ch": "只要不下雨，我们就去爬山。",
+          "py": "zhǐyào bú xià yǔ, wǒmen jiù qù páshān.",
+          "en": "As long as it doesn't rain, we'll go hiking."
+        }
+      ],
+      "mistake": "✗ 只要你喜欢，就我买。 → ✓ 只要你喜欢，我就买。 就 goes after the subject.",
+      "compare": [
+        {
+          "w": "只要……就",
+          "gloss": "this is enough",
+          "ex": "只要努力就能提高"
+        },
+        {
+          "w": "只有……才",
+          "gloss": "nothing else works",
+          "ex": "只有努力才能提高"
+        }
+      ],
+      "titleFa": "只要‏……就‏…… · به شرطی که",
+      "oneLineFa": "只要‏ A，就‏ B: برای اینکه B اتفاق بیفتد، همین A کافی است.",
+      "explainFa": "只要‏ شرط را آسان و کافی نشان می‌دهد: 只要你喜欢‏，我就买‏. 就‏ بعد از نهادِ نیمهٔ دوم می‌آید. با 只有‏……才‏…… مقایسه کنید که در آن شرط، تنها راه است.",
+      "mistakeFa": "✗ 只要你喜欢‏，就我买‏。 → ✓ 只要你喜欢‏，我就买‏。 就‏ بعد از نهاد می‌آید."
+    },
+    {
+      "id": "zhiyou",
+      "mark": "只有",
+      "title": "只有……才…… · only if",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "只有 A，才 B: A is the only way — without it, no B.",
+      "pattern": "只有 + the one condition，(subject +) 才 + result",
+      "explain": "只有 names the one thing that works: 只有多练习，才能说得好. The second half takes 才, not 就. Put simply: 只要……就…… = this is enough; 只有……才…… = nothing else will do.",
+      "examples": [
+        {
+          "ch": "只有多练习，才能说得好。",
+          "py": "zhǐyǒu duō liànxí, cái néng shuō de hǎo.",
+          "en": "Only lots of practice will get you speaking well."
+        },
+        {
+          "ch": "只有周末，我才有时间。",
+          "py": "zhǐyǒu zhōumò, wǒ cái yǒu shíjiān.",
+          "en": "I only have time at the weekend."
+        },
+        {
+          "ch": "只有经理才能决定。",
+          "py": "zhǐyǒu jīnglǐ cái néng juédìng.",
+          "en": "Only the manager can decide."
+        }
+      ],
+      "mistake": "✗ 只有多练习，就能说好。 → ✓ 只有多练习，才能说好。 只有 pairs with 才.",
+      "compare": [
+        {
+          "w": "只有……才",
+          "gloss": "the only way",
+          "ex": "只有多练习才能说好"
+        },
+        {
+          "w": "只要……就",
+          "gloss": "enough on its own",
+          "ex": "只要多练习就能说好"
+        }
+      ],
+      "titleFa": "只有‏……才‏…… · تنها اگر",
+      "oneLineFa": "只有‏ A，才‏ B: A تنها راه است — بدون آن، خبری از B نیست.",
+      "explainFa": "只有‏ همان یک چیزِ جواب‌ده را نام می‌برد: 只有多练习‏，才能说得好‏. نیمهٔ دوم 才‏ می‌گیرد، نه 就‏. ساده بگوییم: 只要‏……就‏…… = همین کافی است؛ 只有‏……才‏…… = هیچ چیز دیگری جواب نمی‌دهد.",
+      "mistakeFa": "✗ 只有多练习‏，就能说好‏。 → ✓ 只有多练习‏，才能说好‏。 只有‏ با 才‏ جفت می‌شود."
+    },
+    {
+      "id": "yi-ye-bu",
+      "mark": "一",
+      "title": "一……也不 · not a single one",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "一 + measure + 也 / 都 + 不 / 没有: not even one, not at all.",
+      "pattern": "一 + measure (+ noun) + 也 / 都 + 不 / 没有 + verb",
+      "explain": "This is a strong \"none at all\". The 一 phrase moves in front of the verb: 我一个人也不认识 (I don't know a single person). 一点儿 works the same way: 一点儿也不累. It only goes with 不 or 没有 — never in a positive sentence.",
+      "examples": [
+        {
+          "ch": "我一个人也不认识。",
+          "py": "wǒ yí ge rén yě bú rènshi.",
+          "en": "I don't know a single person here."
+        },
+        {
+          "ch": "他今天一口水也没有喝。",
+          "py": "tā jīntiān yì kǒu shuǐ yě méiyǒu hē.",
+          "en": "He hasn't had a sip of water all day."
+        },
+        {
+          "ch": "我一点儿也不累。",
+          "py": "wǒ yìdiǎnr yě bú lèi.",
+          "en": "I'm not tired at all."
+        }
+      ],
+      "mistake": "✗ 我不认识一个人。 → ✓ 我一个人也不认识。 The 一 phrase goes before the verb.",
+      "compare": [
+        {
+          "w": "一点儿也不",
+          "gloss": "not at all",
+          "ex": "一点儿也不累"
+        },
+        {
+          "w": "不太",
+          "gloss": "not very",
+          "ex": "不太累"
+        }
+      ],
+      "titleFa": "一‏……也不‏ · حتی یکی هم نه",
+      "oneLineFa": "一‏ + شمارنده + 也‏ / 都‏ + 不‏ / 没有‏: حتی یکی هم نه، اصلاً هیچ.",
+      "explainFa": "این یک «اصلاً هیچ» قوی است. عبارتِ با 一‏ به قبل از فعل منتقل می‌شود: 我一个人也不认识‏ (حتی یک نفر را هم نمی‌شناسم). 一点儿‏ هم همین‌گونه کار می‌کند: 一点儿也不累‏. فقط با 不‏ یا 没有‏ می‌آید — هرگز در جملهٔ مثبت نه.",
+      "mistakeFa": "✗ 我不认识一个人‏。 → ✓ 我一个人也不认识‏。 عبارتِ 一‏ قبل از فعل می‌آید."
+    },
+    {
+      "id": "ganxingqu",
+      "mark": "兴趣",
+      "title": "对……感兴趣 · interested in",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "对 + something + 感兴趣: to be interested in it.",
+      "pattern": "Person + 对 + thing + (很 / 不) + 感兴趣",
+      "explain": "What you're interested in goes after 对 and before 感兴趣 — never after it. 很, 非常 or 不 sit just before 感兴趣: 他对数学不感兴趣. Ask with 你对什么感兴趣？",
+      "examples": [
+        {
+          "ch": "我对中国文化很感兴趣。",
+          "py": "wǒ duì Zhōngguó wénhuà hěn gǎn xìngqù.",
+          "en": "I'm very interested in Chinese culture."
+        },
+        {
+          "ch": "他对数学不感兴趣。",
+          "py": "tā duì shùxué bù gǎn xìngqù.",
+          "en": "He's not interested in maths."
+        },
+        {
+          "ch": "你对什么感兴趣？",
+          "py": "nǐ duì shénme gǎn xìngqù?",
+          "en": "What are you interested in?"
+        }
+      ],
+      "mistake": "✗ 我感兴趣音乐。 → ✓ 我对音乐感兴趣。",
+      "compare": [
+        {
+          "w": "对……感兴趣",
+          "gloss": "topic goes first",
+          "ex": "我对音乐感兴趣"
+        },
+        {
+          "w": "喜欢",
+          "gloss": "object goes after",
+          "ex": "我喜欢音乐"
+        }
+      ],
+      "titleFa": "对‏……感兴趣‏ · علاقه‌مند به",
+      "oneLineFa": "对‏ + چیزی + 感兴趣‏: به آن علاقه‌مند بودن.",
+      "explainFa": "آنچه به آن علاقه داری بعد از 对‏ و پیش از 感兴趣‏ می‌آید — هرگز بعد از آن نه. 很‏، 非常‏ یا 不‏ درست پیش از 感兴趣‏ می‌نشینند: 他对数学不感兴趣‏. با 你对什么感兴趣‏？ می‌پرسند.",
+      "mistakeFa": "✗ 我感兴趣音乐。 → ✓ 我对音乐感兴趣。"
+    },
+    {
+      "id": "guanyu",
+      "mark": "关于",
+      "title": "关于 · about (a topic)",
+      "level": "HSK 3",
+      "cat": "Structure",
+      "oneLine": "关于 + topic says what a book, a story or a talk is about.",
+      "pattern": "关于 + topic + 的 + noun · 关于 + topic，…",
+      "explain": "Before a noun it needs 的: 关于熊猫的故事 (a story about pandas). At the start of a sentence it sets the topic: 关于这个问题，我们明天再说. Don't mix it up with 对: 对 is who or what is affected (对身体好); 关于 is what it's about.",
+      "examples": [
+        {
+          "ch": "我想买一本关于中国历史的书。",
+          "py": "wǒ xiǎng mǎi yì běn guānyú Zhōngguó lìshǐ de shū.",
+          "en": "I'd like to buy a book on Chinese history."
+        },
+        {
+          "ch": "关于这个问题，我们明天再说。",
+          "py": "guānyú zhège wèntí, wǒmen míngtiān zài shuō.",
+          "en": "Let's talk about this question tomorrow."
+        },
+        {
+          "ch": "这是一个关于熊猫的故事。",
+          "py": "zhè shì yí ge guānyú xióngmāo de gùshi.",
+          "en": "This is a story about pandas."
+        }
+      ],
+      "mistake": "✗ 这是一本书关于中国。 → ✓ 这是一本关于中国的书。 The 关于 part goes before the noun.",
+      "compare": [
+        {
+          "w": "关于",
+          "gloss": "what it's about",
+          "ex": "关于中国的书"
+        },
+        {
+          "w": "对",
+          "gloss": "who it affects",
+          "ex": "对身体好"
+        }
+      ],
+      "titleFa": "关于‏ · دربارهٔ (یک موضوع)",
+      "oneLineFa": "关于‏ + موضوع می‌گوید یک کتاب، داستان یا سخنرانی دربارهٔ چیست.",
+      "explainFa": "پیش از اسم به 的‏ نیاز دارد: 关于熊猫的故事‏ (داستانی دربارهٔ پانداها). در آغاز جمله موضوع را مطرح می‌کند: 关于这个问题‏，我们明天再说‏. آن را با 对‏ اشتباه نگیر: 对‏ می‌گوید چه کسی یا چه چیزی متأثر می‌شود (对身体好‏)؛ 关于‏ می‌گوید دربارهٔ چیست.",
+      "mistakeFa": "✗ 这是一本书关于中国‏。 → ✓ 这是一本关于中国的书‏。 بخشِ 关于‏ پیش از اسم می‌آید."
+    },
+    {
+      "id": "dir-simple",
+      "mark": "来",
+      "title": "V 来 / 去 · towards me, away from me",
+      "level": "HSK 3",
+      "cat": "Complements",
+      "oneLine": "来 after a verb points towards the speaker; 去 points away.",
+      "pattern": "Verb + 来 / 去 · Verb + place + 来 / 去",
+      "explain": "Picture where you're standing: 进来 = come in (to where I am), 进去 = go in (away from me). A place goes between the verb and 来 / 去: 上楼去, 回家来. A thing can go in the same spot: 带照相机来.",
+      "examples": [
+        {
+          "ch": "你进来吧。",
+          "py": "nǐ jìnlai ba.",
+          "en": "Come on in."
+        },
+        {
+          "ch": "他上楼去了。",
+          "py": "tā shàng lóu qù le.",
+          "en": "He's gone upstairs."
+        },
+        {
+          "ch": "明天你带照相机来。",
+          "py": "míngtiān nǐ dài zhàoxiàngjī lái.",
+          "en": "Bring your camera tomorrow."
+        }
+      ],
+      "mistake": "✗ 他上去楼了。 → ✓ 他上楼去了。 The place goes before 来 / 去.",
+      "compare": [
+        {
+          "w": "进来",
+          "gloss": "towards me",
+          "ex": "请进来"
+        },
+        {
+          "w": "进去",
+          "gloss": "away from me",
+          "ex": "你进去吧"
+        }
+      ],
+      "titleFa": "فعل 来‏ / 去‏ · به سمت من، دور از من",
+      "oneLineFa": "来‏ بعد از فعل به سوی گوینده اشاره می‌کند؛ 去‏ به بیرون.",
+      "explainFa": "به جاییت فکر کن که ایستاده‌ای: 进来‏ = بیا درون (به جایی که من هستم)، 进去‏ = برو درون (دور از من). مکان بین فعل و 来‏ / 去‏ می‌آید: 上楼去‏، 回家来‏. یک چیز هم می‌تواند در همان جای بیاید: 带照相机来‏.",
+      "mistakeFa": "✗ 他上去楼了‏。 → ✓ 他上楼去了‏。 مکان پیش از 来‏ / 去‏ می‌آید."
+    },
+    {
+      "id": "dir-compound",
+      "mark": "上来",
+      "title": "V 上来 / 下去 · which way, and here or there",
+      "level": "HSK 3",
+      "cat": "Complements",
+      "oneLine": "Two direction words after a verb: first which way (上, 下, 进, 出, 回, 过), then 来 or 去.",
+      "pattern": "Verb + 上 / 下 / 进 / 出 / 回 / 过 + 来 / 去",
+      "explain": "The middle word gives the direction, the last word says towards you (来) or away (去): 走上来 = walk up here, 拿出来 = take out. A place goes before the final 来 / 去: 走进教室来. With 把, the thing comes first: 把护照拿出来.",
+      "examples": [
+        {
+          "ch": "他们从楼下走上来了。",
+          "py": "tāmen cóng lóuxià zǒu shànglai le.",
+          "en": "They came up from downstairs."
+        },
+        {
+          "ch": "请把你的护照拿出来。",
+          "py": "qǐng bǎ nǐ de hùzhào ná chūlai.",
+          "en": "Please take out your passport."
+        },
+        {
+          "ch": "老师走进教室来了。",
+          "py": "lǎoshī zǒu jìn jiàoshì lái le.",
+          "en": "The teacher walked into the classroom."
+        }
+      ],
+      "mistake": "✗ 老师走进来教室。 → ✓ 老师走进教室来。 The place goes before 来.",
+      "compare": [
+        {
+          "w": "上来",
+          "gloss": "up to me",
+          "ex": "快上来吧"
+        },
+        {
+          "w": "上去",
+          "gloss": "up, away from me",
+          "ex": "你先上去"
+        }
+      ],
+      "titleFa": "فعل 上来‏ / 下去‏ · کدام سمت، و این‌جا یا آن‌جا",
+      "oneLineFa": "دو واژهٔ جهت بعد از فعل: اول کدام سمت (上‏، 下‏، 进‏، 出‏، 回‏، 过‏)، سپس 来‏ یا 去‏.",
+      "explainFa": "واژهٔ میانی جهت را می‌دهد و واژهٔ آخر می‌گوید به سوی تو (来‏) یا دور از تو (去‏): 走上来‏ = به این‌جا بالا بیا، 拿出来‏ = بیرون بیاور. مکان پیش از 来‏ / 去‏ِ پایانی می‌آید: 走进教室来‏. با 把‏، چیز اول می‌آید: 把护照拿出来‏.",
+      "mistakeFa": "✗ 老师走进来教室‏。 → ✓ 老师走进教室来‏。 مکان پیش از 来‏ می‌آید."
+    },
+    {
+      "id": "dir-extended",
+      "mark": "起来",
+      "title": "起来 / 下去 / 出来 · start, go on, figure out",
+      "level": "HSK 3",
+      "cat": "Complements",
+      "oneLine": "These direction words also have meanings that aren't about moving: start, keep going, find out.",
+      "pattern": "Adjective / verb + 起来 · Verb + 下去 · Verb + 出来",
+      "explain": "起来 = something starts: 热起来了 (it's getting hot), 笑起来 (burst out laughing). 下去 = carry on: 说下去 (go on talking). 出来 = tell or recognise: 听出来 (tell by the sound), 看出来 (tell by looking). None of these is about going up, down or out.",
+      "examples": [
+        {
+          "ch": "天气热起来了。",
+          "py": "tiānqì rè qǐlai le.",
+          "en": "It's starting to get hot."
+        },
+        {
+          "ch": "你说下去，我在听。",
+          "py": "nǐ shuō xiàqu, wǒ zài tīng.",
+          "en": "Go on, I'm listening."
+        },
+        {
+          "ch": "我听出来了，是你！",
+          "py": "wǒ tīng chūlai le, shì nǐ!",
+          "en": "I know that voice — it's you!"
+        }
+      ],
+      "mistake": "✗ 天气起来热了。 → ✓ 天气热起来了。 起来 comes after the adjective.",
+      "compare": [
+        {
+          "w": "起来",
+          "gloss": "starts to happen",
+          "ex": "天气热起来了"
+        },
+        {
+          "w": "下去",
+          "gloss": "keeps on going",
+          "ex": "请说下去"
+        }
+      ],
+      "titleFa": "起来‏ / 下去‏ / 出来‏ · شروع، ادامه، پی بردن",
+      "oneLineFa": "این واژه‌های جهت معناهایی هم دارند که به جابه‌جایی ربطی ندارند: آغاز، ادامه، فهمیدن.",
+      "explainFa": "起来‏ = چیزی آغاز می‌شود: 热起来了‏ (هوا دارد گرم می‌شود)، 笑起来‏ (ترکید به خنده). 下去‏ = ادامه دادن: 说下去‏ (سخن را ادامه بده). 出来‏ = فهمیدن یا تشخیص دادن: 听出来‏ (از روی صدا فهمیدن)، 看出来‏ (از روی دیدن فهمیدن). هیچ‌یک دربارهٔ بالا رفتن، پایین رفتن یا بیرون رفتن نیست.",
+      "mistakeFa": "✗ 天气起来热了‏。 → ✓ 天气热起来了‏。 起来‏ بعد از صفت می‌آید."
+    },
+    {
+      "id": "potential",
+      "mark": "得",
+      "title": "V 得 / 不 + result · can or can't manage",
+      "level": "HSK 3",
+      "cat": "Complements",
+      "oneLine": "Put 得 or 不 between a verb and its result to say whether it can be done: 听得懂 / 听不懂.",
+      "pattern": "Verb + 得 / 不 + result or direction",
+      "explain": "听懂 = understood; 听得懂 = able to understand; 听不懂 = unable to. The 不 form is the one you'll hear most: 看不清楚 (can't see it clearly), 吃不完 (can't finish it). Don't use 不能 for this — the 不 goes inside.",
+      "examples": [
+        {
+          "ch": "你听得懂中文吗？",
+          "py": "nǐ tīng de dǒng Zhōngwén ma?",
+          "en": "Can you understand Chinese?"
+        },
+        {
+          "ch": "字太小了，我看不清楚。",
+          "py": "zì tài xiǎo le, wǒ kàn bu qīngchu.",
+          "en": "The characters are too small, I can't make them out."
+        },
+        {
+          "ch": "菜太多了，我们吃不完。",
+          "py": "cài tài duō le, wǒmen chī bu wán.",
+          "en": "There's too much food, we can't finish it."
+        }
+      ],
+      "mistake": "✗ 我不能听懂。 → ✓ 我听不懂。 不 goes between the verb and the result.",
+      "compare": [
+        {
+          "w": "听不懂",
+          "gloss": "can't manage it",
+          "ex": "我听不懂"
+        },
+        {
+          "w": "不能",
+          "gloss": "not allowed",
+          "ex": "你不能进去"
+        }
+      ],
+      "titleFa": "V 得‏ / 不‏ + نتیجه · توانستن یا نتوانستن",
+      "oneLineFa": "得‏ یا 不‏ را بین فعل و نتیجه‌اش بگذارید تا بگویید انجامش ممکن است یا نه: 听得懂‏ / 听不懂‏.",
+      "explainFa": "听懂‏ = فهمید؛ 听得懂‏ = می‌تواند بفهمد؛ 听不懂‏ = نمی‌تواند بفهمد. شکلِ 不‏ همان است که بیشتر می‌شنوید: 看不清楚‏ (نمی‌تواند واضح ببیند), 吃不完‏ (نمی‌تواند تمامش کند). برای این معنی 不能‏ به کار نبرید — 不‏ داخل می‌رود.",
+      "mistakeFa": "✗ 我不能听懂‏。 → ✓ 我听不懂‏。 不‏ بین فعل و نتیجه می‌آید."
+    },
+    {
+      "id": "de-state",
+      "mark": "得",
+      "title": "V 得 + phrase · so … that",
+      "level": "HSK 3",
+      "cat": "Complements",
+      "oneLine": "After 得, a whole phrase can show how far something went: 累得不想说话.",
+      "pattern": "Verb / adjective + 得 + phrase (what it led to)",
+      "explain": "In HSK 2, 得 was followed by one adjective: 走得很快. Here a whole phrase follows — usually a result you could see or hear: 难过得哭了 (so upset she cried). It paints a picture instead of giving a score.",
+      "examples": [
+        {
+          "ch": "我累得不想说话。",
+          "py": "wǒ lèi de bù xiǎng shuōhuà.",
+          "en": "I'm so tired I don't want to talk."
+        },
+        {
+          "ch": "她难过得哭了。",
+          "py": "tā nánguò de kū le.",
+          "en": "She was so upset she cried."
+        },
+        {
+          "ch": "他说得大家都笑了。",
+          "py": "tā shuō de dàjiā dōu xiào le.",
+          "en": "The way he told it had everyone laughing."
+        }
+      ],
+      "mistake": "✗ 我很累得不想说话。 → ✓ 我累得不想说话。 No 很 before the word with 得.",
+      "compare": [
+        {
+          "w": "得",
+          "gloss": "a result follows",
+          "ex": "高兴得哭了"
+        },
+        {
+          "w": "地",
+          "gloss": "how, before a verb",
+          "ex": "高兴地说"
+        }
+      ],
+      "titleFa": "فعل 得‏ + عبارت · آن‌قدر … که",
+      "oneLineFa": "بعد از 得‏، یک عبارت کامل می‌تواند نشان دهد کار تا کجا کشید: 累得不想说话‏.",
+      "explainFa": "در HSK 2 بعد از 得‏ یک صفت می‌آمد: 走得很快‏. اینجا یک عبارت کامل می‌آید — معمولاً نتیجه‌ای که می‌توان دید یا شنید: 难过得哭了‏ (آن‌قدر ناراحت شد که گریست). به‌جای نمره دادن، تصویر می‌سازد.",
+      "mistakeFa": "✗ 我很累得不想说话‏。 → ✓ 我累得不想说话‏。 هیچ 很‏ پیش از کلمه‌ای که 得‏ می‌گیرد نمی‌آید."
+    },
+    {
+      "id": "duration",
+      "mark": "多久",
+      "title": "学了三年 · for how long",
+      "level": "HSK 3",
+      "cat": "Complements",
+      "oneLine": "How long something lasts goes after the verb: 住了两年 = lived there for two years.",
+      "pattern": "Verb + (了) + length of time · Verb + object + verb + (了) + length",
+      "explain": "A point in time (三点, 昨天) goes before the verb; a length of time goes after it. With an object, say the verb twice — 等你等了半个小时 — or put the time before the object: 看了两个小时电视. A second 了 at the very end means it's still going: 我在这儿工作了三年了.",
+      "examples": [
+        {
+          "ch": "你在北京住了多久？",
+          "py": "nǐ zài Běijīng zhùle duō jiǔ?",
+          "en": "How long did you live in Beijing?"
+        },
+        {
+          "ch": "我等你等了半个小时。",
+          "py": "wǒ děng nǐ děngle bàn ge xiǎoshí.",
+          "en": "I waited half an hour for you."
+        },
+        {
+          "ch": "我在这儿工作了三年了。",
+          "py": "wǒ zài zhèr gōngzuòle sān nián le.",
+          "en": "I've been working here for three years now."
+        }
+      ],
+      "mistake": "✗ 我两年在北京住了。 → ✓ 我在北京住了两年。 The length goes after the verb.",
+      "compare": [
+        {
+          "w": "两个小时",
+          "gloss": "how long, after verb",
+          "ex": "我等了两个小时"
+        },
+        {
+          "w": "两点",
+          "gloss": "what time, before verb",
+          "ex": "我两点到"
+        }
+      ],
+      "titleFa": "学了三年‏ · به چه مدت",
+      "oneLineFa": "مدتِ چیزی بعد از فعل می‌آید: 住了两年‏ = دو سال آنجا زندگی کرد.",
+      "explainFa": "نقطه‌ای از زمان (三点‏، 昨天‏) پیش از فعل می‌آید؛ مدتِ زمان بعد از آن. با مفعول، فعل را دو بار بگو — 等你等了半个小时‏ — یا زمان را پیش از مفعول بیاور: 看了两个小时电视‏. 了‏ِ دوم در انتهای جمله یعنی هنوز ادامه دارد: 我在这儿工作了三年了‏.",
+      "mistakeFa": "✗ 我两年在北京住了‏。 → ✓ 我在北京住了两年‏。 مدت بعد از فعل می‌آید."
+    },
+    {
+      "id": "jile",
+      "mark": "极了",
+      "title": "……极了 · extremely",
+      "level": "HSK 3",
+      "cat": "Complements",
+      "oneLine": "Adjective + 极了: as much as it gets.",
+      "pattern": "Adjective / feeling verb + 极了",
+      "explain": "极了 comes after the word: 好极了 (excellent). It is already the strongest, so don't add 很 or 非常. It's lively and spoken — good for reactions: 这个蛋糕好吃极了！",
+      "examples": [
+        {
+          "ch": "这个蛋糕好吃极了！",
+          "py": "zhège dàngāo hǎochī jí le!",
+          "en": "This cake is absolutely delicious!"
+        },
+        {
+          "ch": "今天热极了。",
+          "py": "jīntiān rè jí le.",
+          "en": "It's incredibly hot today."
+        },
+        {
+          "ch": "听到这个新闻，他高兴极了。",
+          "py": "tīngdào zhège xīnwén, tā gāoxìng jí le.",
+          "en": "He was thrilled to hear the news."
+        }
+      ],
+      "mistake": "✗ 今天非常热极了。 → ✓ 今天热极了。 Don't double up.",
+      "compare": [
+        {
+          "w": "极了",
+          "gloss": "comes after, lively",
+          "ex": "好吃极了"
+        },
+        {
+          "w": "非常",
+          "gloss": "comes before, plain",
+          "ex": "非常好吃"
+        }
+      ],
+      "titleFa": "……极了‏ · فوق‌العاده",
+      "oneLineFa": "صفت + 极了‏: تا آخرین حد.",
+      "explainFa": "极了‏ بعد از واژه می‌آید: 好极了‏ (عالی). خودش قوی‌ترین درجه است، پس 很‏ یا 非常‏ اضافه نکنید. زنده و گفتاری است — برای واکنش‌ها مناسب است: 这个蛋糕好吃极了‏！",
+      "mistakeFa": "✗ 今天非常热极了‏。 → ✓ 今天热极了‏。 دو بار نکنید."
+    },
+    {
+      "id": "haishi-huozhe",
+      "mark": "还是",
+      "title": "还是 / 或者 · or",
+      "level": "HSK 3",
+      "cat": "Confusables",
+      "oneLine": "还是 asks someone to choose; 或者 lists options in a statement.",
+      "pattern": "A + 还是 + B？ · A + 或者 + B",
+      "explain": "In a question that offers a choice, use 还是: 你喝茶还是喝咖啡？ In a statement — \"either is fine\", \"this or that\" — use 或者: 星期六或者星期天都可以. A 还是 question never takes 吗.",
+      "examples": [
+        {
+          "ch": "你喝茶还是喝咖啡？",
+          "py": "nǐ hē chá háishi hē kāfēi?",
+          "en": "Would you like tea or coffee?"
+        },
+        {
+          "ch": "我们坐地铁还是坐出租车？",
+          "py": "wǒmen zuò dìtiě háishi zuò chūzūchē?",
+          "en": "Shall we take the underground or a taxi?"
+        },
+        {
+          "ch": "星期六或者星期天都可以。",
+          "py": "xīngqīliù huòzhě xīngqītiān dōu kěyǐ.",
+          "en": "Saturday or Sunday — either is fine."
+        }
+      ],
+      "mistake": "✗ 你喝茶或者咖啡？ (asking someone to choose) → ✓ 你喝茶还是咖啡？",
+      "compare": [
+        {
+          "w": "还是",
+          "gloss": "or? asking to choose",
+          "ex": "茶还是咖啡",
+          "py": "háishi"
+        },
+        {
+          "w": "或者",
+          "gloss": "or, either is fine",
+          "ex": "今天或者明天",
+          "py": "huòzhě"
+        }
+      ],
+      "titleFa": "还是‏ / 或者‏ · یا",
+      "oneLineFa": "还是‏ از کسی می‌خواهد انتخاب کند؛ 或者‏ گزینه‌ها را در جملهٔ خبری فهرست می‌کند.",
+      "explainFa": "در پرسشی که انتخاب پیشنهاد می‌دهد از 还是‏ استفاده کنید: 你喝茶还是喝咖啡‏？ در جملهٔ خبری — «هر کدام خوب است»، «این یا آن» — از 或者‏ استفاده کنید: 星期六或者星期天都可以‏. پرسشِ 还是‏ هرگز 吗‏ نمی‌گیرد.",
+      "mistakeFa": "✗ 你喝茶或者咖啡‏？ (از کسی می‌خواهید انتخاب کند) → ✓ 你喝茶还是咖啡‏？"
+    },
+    {
+      "id": "you-zai",
+      "mark": "又",
+      "title": "又 / 再 · again: done or still to come",
+      "level": "HSK 3",
+      "cat": "Confusables",
+      "oneLine": "又 is a repeat that has already happened; 再 is a repeat still to come.",
+      "pattern": "又 + verb + 了 (it happened) · 再 + verb (not yet)",
+      "explain": "他今天又迟到了 — he was late again (it happened). 你能再说一次吗？ — say it again (you haven't yet). The one exception: something that comes round on its own can take 又 in the future: 明天又是星期一了.",
+      "examples": [
+        {
+          "ch": "他今天又迟到了。",
+          "py": "tā jīntiān yòu chídào le.",
+          "en": "He was late again today."
+        },
+        {
+          "ch": "你能再说一次吗？",
+          "py": "nǐ néng zài shuō yí cì ma?",
+          "en": "Could you say that again?"
+        },
+        {
+          "ch": "明天又是星期一了。",
+          "py": "míngtiān yòu shì xīngqīyī le.",
+          "en": "Tomorrow's Monday again."
+        }
+      ],
+      "mistake": "✗ 我明天又来。 (a plan) → ✓ 我明天再来。 又 is for what has already happened.",
+      "compare": [
+        {
+          "w": "又",
+          "gloss": "again, it happened",
+          "ex": "他又迟到了",
+          "py": "yòu"
+        },
+        {
+          "w": "再",
+          "gloss": "again, not yet",
+          "ex": "请再说一次",
+          "py": "zài"
+        }
+      ],
+      "titleFa": "又‏ / 再‏ · دوباره: انجام‌شده یا در پیش‌رو",
+      "oneLineFa": "又‏ تکراری است که اتفاق افتاده؛ 再‏ تکراری است که هنوز پیش‌روست.",
+      "explainFa": "他今天又迟到了‏ — دوباره دیر کرده است (اتفاق افتاده). 你能再说一次吗‏？ — دوباره بگو (هنوز اتفاق نیفتاده). یک استثنا هست: چیزی که خودبه‌خود سر می‌رسد می‌تواند در آینده هم 又‏ بگیرد: 明天又是星期一了‏.",
+      "mistakeFa": "✗ 我明天又来‏。 (یک برنامه) → ✓ 我明天再来‏。 又‏ برای چیزی است که از قبل اتفاق افتاده."
+    },
+    {
+      "id": "cai-jiu",
+      "mark": "才",
+      "title": "才 / 就 · later or sooner than expected",
+      "level": "HSK 3",
+      "cat": "Confusables",
+      "oneLine": "才 says later or harder than expected; 就 says sooner or easier.",
+      "pattern": "Time + 就 + verb + 了 · Time + 才 + verb",
+      "explain": "我十分钟就到了 — I got there in only ten minutes. 他七点半才来 — he didn't turn up till half past seven. Both go after the time word, before the verb. About the past, 就 takes 了 but 才 doesn't.",
+      "examples": [
+        {
+          "ch": "我十分钟就到了。",
+          "py": "wǒ shí fēnzhōng jiù dào le.",
+          "en": "I got there in just ten minutes."
+        },
+        {
+          "ch": "电影七点开始，他七点半才来。",
+          "py": "diànyǐng qī diǎn kāishǐ, tā qī diǎn bàn cái lái.",
+          "en": "The film started at seven, and he only turned up at half past."
+        },
+        {
+          "ch": "我昨天晚上十二点才睡觉。",
+          "py": "wǒ zuótiān wǎnshang shí'èr diǎn cái shuìjiào.",
+          "en": "I didn't get to bed till midnight last night."
+        }
+      ],
+      "mistake": "✗ 他十点才来了。 → ✓ 他十点才来。 才 doesn't take 了.",
+      "compare": [
+        {
+          "w": "才",
+          "gloss": "later than expected",
+          "ex": "他十点才来",
+          "py": "cái"
+        },
+        {
+          "w": "就",
+          "gloss": "sooner than expected",
+          "ex": "他八点就来了",
+          "py": "jiù"
+        }
+      ],
+      "titleFa": "才‏ / 就‏ · دیرتر یا زودتر از انتظار",
+      "oneLineFa": "才‏ یعنی دیرتر یا سخت‌تر از انتظار؛ 就‏ یعنی زودتر یا آسان‌تر.",
+      "explainFa": "我十分钟就到了‏ — تنها در ده دقیقه رسیدم. 他七点半才来‏ — تا ساعت هفت و نیم نیامد. هر دو بعد از قید زمان و پیش از فعل می‌آیند. دربارهٔ گذشته، 就‏ 了‏ می‌گیرد اما 才‏ نه.",
+      "mistakeFa": "✗ 他十点才来了‏。 → ✓ 他十点才来‏。 才‏ 了‏ نمی‌گیرد."
+    },
+    {
+      "id": "gang",
+      "mark": "刚",
+      "title": "刚 / 刚才 · just",
+      "level": "HSK 3",
+      "cat": "Confusables",
+      "oneLine": "刚 = just (right before the verb); 刚才 = a moment ago (a time word).",
+      "pattern": "Subject + 刚 + verb · 刚才 + (subject) + verb",
+      "explain": "刚 only goes right before the verb: 我刚到家. 刚才 is a time word, so it can open the sentence and be followed by 不 or 没有: 刚才你去哪儿了？ 刚 can also mean \"only recently\" over a longer time: 他刚来北京一个月.",
+      "examples": [
+        {
+          "ch": "我刚到家。",
+          "py": "wǒ gāng dào jiā.",
+          "en": "I've just got home."
+        },
+        {
+          "ch": "刚才你去哪儿了？",
+          "py": "gāngcái nǐ qù nǎr le?",
+          "en": "Where did you go just now?"
+        },
+        {
+          "ch": "他刚来北京一个月。",
+          "py": "tā gāng lái Běijīng yí ge yuè.",
+          "en": "He only came to Beijing a month ago."
+        }
+      ],
+      "mistake": "✗ 刚我没有听清楚。 → ✓ 刚才我没有听清楚。 Only 刚才 can open the sentence.",
+      "compare": [
+        {
+          "w": "刚",
+          "gloss": "just, before a verb",
+          "ex": "我刚到家",
+          "py": "gāng"
+        },
+        {
+          "w": "刚才",
+          "gloss": "a moment ago",
+          "ex": "刚才你去哪儿了",
+          "py": "gāngcái"
+        }
+      ],
+      "titleFa": "刚‏ / 刚才‏ · به‌تازگی",
+      "oneLineFa": "刚‏ = به‌تازگی (درست پیش از فعل)؛ 刚才‏ = لحظه‌ای پیش (قید زمان).",
+      "explainFa": "刚‏ فقط درست پیش از فعل می‌آید: 我刚到家‏. 刚才‏ قید زمان است، پس می‌تواند جمله را آغاز کند و بعدش 不‏ یا 没有‏ بیاید: 刚才你去哪儿了‏？ 刚‏ می‌تواند در بازه‌ای بلندتر معنای «به‌تازگی» هم بدهد: 他刚来北京一个月‏.",
+      "mistakeFa": "✗ 刚我没有听清楚‏。 → ✓ 刚才我没有听清楚‏。 فقط 刚才‏ می‌تواند جمله را آغاز کند."
+    },
+    {
+      "id": "hui-guess",
+      "mark": "会",
+      "title": "会 · will (I expect)",
+      "level": "HSK 3",
+      "cat": "Verbs",
+      "oneLine": "会 + verb can also predict: you expect it to happen.",
+      "pattern": "Subject + (time) + 会 / 不会 + verb (+ 的)",
+      "explain": "Besides \"can\" (a learned skill), 会 says what you think will happen: 明天会下雨吗？ A 的 at the end makes it sound sure and reassuring: 你会喜欢的. 可能 is a weaker guess.",
+      "examples": [
+        {
+          "ch": "明天会下雨吗？",
+          "py": "míngtiān huì xià yǔ ma?",
+          "en": "Will it rain tomorrow?"
+        },
+        {
+          "ch": "别担心，你会喜欢的。",
+          "py": "bié dānxīn, nǐ huì xǐhuan de.",
+          "en": "Don't worry, you'll like it."
+        },
+        {
+          "ch": "已经十点了，他不会来了。",
+          "py": "yǐjīng shí diǎn le, tā bú huì lái le.",
+          "en": "It's ten already — he won't come now."
+        }
+      ],
+      "mistake": "✗ 他会明天来。 → ✓ 他明天会来。 The time comes before 会.",
+      "compare": [
+        {
+          "w": "会",
+          "gloss": "I expect so",
+          "ex": "明天会下雨"
+        },
+        {
+          "w": "可能",
+          "gloss": "maybe, less sure",
+          "ex": "明天可能下雨"
+        }
+      ],
+      "titleFa": "会‏ · خواهد شد (انتظار دارم)",
+      "oneLineFa": "会‏ + فعل می‌تواند پیش‌بینی هم باشد: انتظار دارید اتفاق بیفتد.",
+      "explainFa": "علاوه بر «بلد بودن» (مهارت آموخته‌شده)، 会‏ می‌گوید فکر می‌کنید چه اتفاقی خواهد افتاد: 明天会下雨吗‏？ یک 的‏ در پایان، جمله را مطمئن و دلگرم‌کننده می‌کند: 你会喜欢的‏. 可能‏ حدسی کم‌اطمینان‌تر است.",
+      "mistakeFa": "✗ 他会明天来‏。 → ✓ 他明天会来‏。 زمان پیش از 会‏ می‌آید."
+    },
+    {
+      "id": "adj-redup",
+      "mark": "高高",
+      "title": "高高的 · doubling an adjective",
+      "level": "HSK 3",
+      "cat": "Verbs",
+      "oneLine": "Say an adjective twice to paint a picture: 高高的 = nice and tall.",
+      "pattern": "AA + 的 · AABB + 的 · AA + 地 + verb",
+      "explain": "One-syllable adjectives double as AA: 高高的. Two-syllable ones double as AABB: 干干净净. The doubled form is already vivid, so it takes no 很 and no 不. Before a verb it takes 地: 慢慢地说.",
+      "examples": [
+        {
+          "ch": "他个子高高的。",
+          "py": "tā gèzi gāogāo de.",
+          "en": "He's nice and tall."
+        },
+        {
+          "ch": "你慢慢地说，别着急。",
+          "py": "nǐ mànmàn de shuō, bié zháojí.",
+          "en": "Take your time, there's no rush."
+        },
+        {
+          "ch": "房间打扫得干干净净的。",
+          "py": "fángjiān dǎsǎo de gāngānjìngjìng de.",
+          "en": "The room has been cleaned till it's spotless."
+        }
+      ],
+      "mistake": "✗ 他个子很高高的。 → ✓ 他个子高高的。 No 很 with a doubled adjective.",
+      "compare": [
+        {
+          "w": "高高的",
+          "gloss": "a vivid picture",
+          "ex": "个子高高的"
+        },
+        {
+          "w": "很高",
+          "gloss": "a plain description",
+          "ex": "个子很高"
+        }
+      ],
+      "titleFa": "高高的‏ · مضاعف کردن صفت",
+      "oneLineFa": "صفت را دو بار بگو تا تصویر شکل بگیرد: 高高的‏ = خوش‌قد و بلند.",
+      "explainFa": "صفت‌های یک‌هجایی به شکل AA مضاعف می‌شوند: 高高的‏. صفت‌های دوهجایی به شکل AABB: 干干净净‏. شکل مضاعف خودش زنده و تصویری است، پس نه 很‏ می‌گیرد و نه 不‏. پیش از فعل با 地‏ می‌آید: 慢慢地说‏.",
+      "mistakeFa": "✗ 他个子很高高的‏。 → ✓ 他个子高高的‏。 با صفتِ مضاعف‌شده 很‏ نمی‌آید."
+    },
+    {
+      "id": "verb-abab",
+      "mark": "复习",
+      "title": "复习复习 · doubling a two-syllable verb",
+      "level": "HSK 3",
+      "cat": "Verbs",
+      "oneLine": "A two-syllable verb doubles as a whole word, ABAB: 复习复习 = go over it a bit.",
+      "pattern": "AB + AB (+ object)",
+      "explain": "It means the same as 看看: do it a little, casually, give it a go. One-syllable verbs can have 一 in the middle (看一看), but two-syllable verbs can't. Adjectives double the other way, AABB. Compare the verb 打扫打扫, \"give it a clean\", with the adjective 干干净净, \"spotless\".",
+      "examples": [
+        {
+          "ch": "明天考试，我们复习复习吧。",
+          "py": "míngtiān kǎoshì, wǒmen fùxí fùxí ba.",
+          "en": "There's a test tomorrow — let's go over things."
+        },
+        {
+          "ch": "周末我们把房间打扫打扫。",
+          "py": "zhōumò wǒmen bǎ fángjiān dǎsǎo dǎsǎo.",
+          "en": "Let's give the room a clean at the weekend."
+        },
+        {
+          "ch": "你应该多锻炼锻炼身体。",
+          "py": "nǐ yīnggāi duō duànliàn duànliàn shēntǐ.",
+          "en": "You should get a bit more exercise."
+        }
+      ],
+      "mistake": "✗ 复习一复习 → ✓ 复习复习 / 复习一下. No 一 inside a two-syllable verb.",
+      "compare": [
+        {
+          "w": "复习复习",
+          "gloss": "ABAB, nothing between",
+          "ex": "你复习复习吧"
+        },
+        {
+          "w": "看一看",
+          "gloss": "one syllable only",
+          "ex": "你看一看吧"
+        }
+      ],
+      "titleFa": "复习复习‏ · تکرار فعل دوهجایی",
+      "oneLineFa": "فعل دوهجایی به‌صورت یک واژهٔ کامل تکرار می‌شود، ABAB: 复习复习‏ = کمی مرور کردن.",
+      "explainFa": "همان معنی 看看‏ را می‌دهد: کمی و بی‌تکلف انجامش بده، امتحانش کن. فعل‌های یک‌هجایی می‌توانند در میانشان 一‏ داشته باشند (看一看‏)، اما فعل‌های دوهجایی نمی‌توانند. صفت‌ها برعکس تکرار می‌شوند، به شکل AABB. فعل 打扫打扫‏ («یک تمیزکاری بده») را با صفت 干干净净‏ («کاملاً تمیز») مقایسه کنید.",
+      "mistakeFa": "✗ 复习一复习‏ → ✓ 复习复习‏ / 复习一下‏. در فعل دوهجایی، 一‏ در میان نمی‌آید."
+    },
+    {
+      "id": "any-wh",
+      "mark": "谁都",
+      "title": "谁都 / 什么都 · anyone, anything",
+      "level": "HSK 3",
+      "cat": "Questions",
+      "oneLine": "A question word + 都 / 也 means \"any … at all\": 谁都知道 = everybody knows.",
+      "pattern": "谁 / 什么 / 哪儿 + 都 / 也 + (不 / 没有) + verb",
+      "explain": "Here 谁, 什么 and 哪儿 aren't asking anything. With 都 they mean everyone, everything, everywhere; add 不 or 没有 and it becomes no one, nothing, nowhere: 我什么也不想吃. The question word and 都 / 也 both come before the verb.",
+      "examples": [
+        {
+          "ch": "这件事情谁都知道。",
+          "py": "zhè jiàn shìqing shéi dōu zhīdào.",
+          "en": "Everybody knows about this."
+        },
+        {
+          "ch": "我今天什么也不想吃。",
+          "py": "wǒ jīntiān shénme yě bù xiǎng chī.",
+          "en": "I don't feel like eating anything today."
+        },
+        {
+          "ch": "周末我哪儿都没有去。",
+          "py": "zhōumò wǒ nǎr dōu méiyǒu qù.",
+          "en": "I didn't go anywhere at the weekend."
+        }
+      ],
+      "mistake": "✗ 我不想吃什么都。 → ✓ 我什么都不想吃。 The question word and 都 go before the verb.",
+      "compare": [
+        {
+          "w": "什么都",
+          "gloss": "everything, anything",
+          "ex": "我什么都吃"
+        },
+        {
+          "w": "什么",
+          "gloss": "what? (asking)",
+          "ex": "你想吃什么"
+        }
+      ],
+      "titleFa": "谁都‏ / 什么都‏ · هر کسی، هر چیزی",
+      "oneLineFa": "واژهٔ پرسشی + 都‏ / 也‏ یعنی «هر چه، هر که باشد»: 谁都知道‏ = همه می‌دانند.",
+      "explainFa": "اینجا 谁‏، 什么‏ و 哪儿‏ چیزی نمی‌پرسند. با 都‏ معنای «همهٔ آدم‌ها، همه‌چیز، همه‌جا» می‌دهند؛ اگر 不‏ یا 没有‏ اضافه شود معنایش می‌شود «هیچ‌کس، هیچ‌چیز، هیچ‌جا»: 我什么也不想吃‏. واژهٔ پرسشی و 都‏ / 也‏ هر دو پیش از فعل می‌آیند.",
+      "mistakeFa": "✗ 我不想吃什么都‏。 → ✓ 我什么都不想吃‏。 واژهٔ پرسشی و 都‏ پیش از فعل می‌آیند."
+    },
+    {
+      "id": "neng-rhet",
+      "mark": "能",
+      "title": "能……吗 · how could …?",
+      "level": "HSK 3",
+      "cat": "Questions",
+      "oneLine": "能……吗 can be a question that already knows its answer, asked to make a point.",
+      "pattern": "…，Subject + 能 / 能不 + verb + 吗？",
+      "explain": "The speaker isn't really asking. 我能不生气吗？ means \"of course I'm angry\". 两万块的手机，我能买吗？ means \"there's no way I can buy that\". A positive question means no; a negative one means yes.",
+      "examples": [
+        {
+          "ch": "他又迟到了，我能不生气吗？",
+          "py": "tā yòu chídào le, wǒ néng bù shēngqì ma?",
+          "en": "He's late again — how could I not be angry?"
+        },
+        {
+          "ch": "两万块的手机，我能买吗？",
+          "py": "liǎng wàn kuài de shǒujī, wǒ néng mǎi ma?",
+          "en": "A 20,000-yuan phone? How could I buy that?"
+        },
+        {
+          "ch": "他是你哥哥，你能不帮助他吗？",
+          "py": "tā shì nǐ gēge, nǐ néng bù bāngzhù tā ma?",
+          "en": "He's your brother — how can you not help him?"
+        }
+      ],
+      "mistake": "Answer the meaning, not the words: to 我能不生气吗？ don't reply 能 or 不能 — say 别生气了.",
+      "compare": [
+        {
+          "w": "能不……吗",
+          "gloss": "of course (not asking)",
+          "ex": "我能不生气吗"
+        },
+        {
+          "w": "能……吗",
+          "gloss": "a real question",
+          "ex": "我能进去吗"
+        }
+      ],
+      "titleFa": "能‏……吗‏ · چطور ممکن …؟",
+      "oneLineFa": "能‏……吗‏ می‌تواند پرسشی باشد که پاسخش را از قبل می‌داند و فقط برای رساندن یک نکته پرسیده می‌شود.",
+      "explainFa": "گوینده واقعاً نمی‌پرسد. 我能不生气吗‏？ یعنی «معلوم است که عصبانی‌ام». 两万块的手机‏，我能买吗‏？ یعنی «هیچ جور نمی‌توانم بخرمش». پرسش مثبت یعنی نه؛ پرسش منفی یعنی بله.",
+      "mistakeFa": "به معنی جواب بدهید، نه به واژه‌ها: به 我能不生气吗‏？ با 能‏ یا 不能‏ جواب ندهید — بگویید 别生气了‏."
+    },
+    {
+      "id": "ne-where",
+      "mark": "呢",
+      "title": "……呢？ · where is …?",
+      "level": "HSK 3",
+      "cat": "Questions",
+      "oneLine": "A noun + 呢, with nothing said before it, asks where it is.",
+      "pattern": "Noun / person + 呢？",
+      "explain": "When someone or something should be here and isn't, say its name + 呢: 我的护照呢？ It means the same as 在哪儿, but is shorter and more natural. After you've said something about yourself, 你呢 bounces the question back instead — the situation tells you which.",
+      "examples": [
+        {
+          "ch": "我的护照呢？",
+          "py": "wǒ de hùzhào ne?",
+          "en": "Where's my passport?"
+        },
+        {
+          "ch": "你爸爸呢？他不在家吗？",
+          "py": "nǐ bàba ne? tā bú zài jiā ma?",
+          "en": "Where's your dad? Isn't he home?"
+        },
+        {
+          "ch": "服务员呢？我们要点菜。",
+          "py": "fúwùyuán ne? wǒmen yào diǎn cài.",
+          "en": "Where's the waiter? We'd like to order."
+        }
+      ],
+      "mistake": "✗ 我的护照呢在哪儿？ → ✓ 我的护照呢？ or 我的护照在哪儿？ Use one or the other.",
+      "compare": [
+        {
+          "w": "……呢",
+          "gloss": "where is it?",
+          "ex": "我的护照呢"
+        },
+        {
+          "w": "你呢",
+          "gloss": "and you?",
+          "ex": "我是学生，你呢"
+        }
+      ],
+      "titleFa": "……呢‏？ · … کجاست؟",
+      "oneLineFa": "اسم + 呢‏، بدون هیچ چیزِ گفته‌شده قبلش، می‌پرسد کجاست.",
+      "explainFa": "وقتی کسی یا چیزی باید اینجا باشد و نیست، نامش + 呢‏ را بگویید: 我的护照呢‏？ همان معنی 在哪儿‏ را می‌دهد، اما کوتاه‌تر و طبیعی‌تر است. وقتی چیزی دربارهٔ خودتان گفته‌اید، 你呢‏ به جایش پرسش را به طرف مقابل پس می‌فرستد — وضعیت به شما می‌گوید کدام را به کار ببرید.",
+      "mistakeFa": "✗ 我的护照呢在哪儿‏？ → ✓ 我的护照呢‏？ یا 我的护照在哪儿‏？ یکی از این دو را به کار ببرید."
+    },
+    {
+      "id": "le-change",
+      "mark": "了",
+      "title": "……了 · it's different now",
+      "level": "HSK 3",
+      "cat": "Aspect",
+      "oneLine": "了 at the end of a sentence says something has changed: a new state, a new stage or a new plan.",
+      "pattern": "Sentence + 了 · 不 + verb + 了 (not any more)",
+      "explain": "Sentence-final 了 compares now with before: 天气不热了 (it isn't hot any more). 不……了 is also how you change a plan: 我不去了. With 会 or 能 it's a new ability: 我妹妹会游泳了. It's about change, not the past.",
+      "examples": [
+        {
+          "ch": "我不去了，我有点儿累。",
+          "py": "wǒ bú qù le, wǒ yǒudiǎnr lèi.",
+          "en": "I'm not going after all — I'm a bit tired."
+        },
+        {
+          "ch": "我妹妹会游泳了。",
+          "py": "wǒ mèimei huì yóuyǒng le.",
+          "en": "My little sister can swim now."
+        },
+        {
+          "ch": "现在是秋天了，天气不热了。",
+          "py": "xiànzài shì qiūtiān le, tiānqì bú rè le.",
+          "en": "It's autumn now, and it isn't hot any more."
+        }
+      ],
+      "mistake": "✗ 我不喝咖啡。 (meaning you've given it up) → ✓ 我不喝咖啡了。 Without 了 it's just a habit.",
+      "compare": [
+        {
+          "w": "不……了",
+          "gloss": "not any more",
+          "ex": "我不喝咖啡了"
+        },
+        {
+          "w": "不",
+          "gloss": "just a habit",
+          "ex": "我不喝咖啡"
+        }
+      ],
+      "titleFa": "……了‏ · حالا دیگر فرق کرده",
+      "oneLineFa": "了‏ در پایان جمله می‌گوید چیزی عوض شده: حالت تازه، مرحلهٔ تازه یا برنامهٔ تازه.",
+      "explainFa": "了‏ در پایان جمله، حال را با قبل مقایسه می‌کند: 天气不热了‏ (دیگر گرم نیست). 不‏……了‏ تغییر برنامه هم هست: 我不去了‏. با 会‏ یا 能‏ یک توانایی جدید است: 我妹妹会游泳了‏. موضوع تغییر است، نه گذشته.",
+      "mistakeFa": "✗ 我不喝咖啡‏。 (یعنی آن را کنار گذاشته‌اید) → ✓ 我不喝咖啡了‏。 بدون 了‏ فقط یک عادت است."
+    },
+    {
+      "id": "clock-ban",
+      "mark": "半",
+      "title": "半 / 刻 / 差 · half past, quarter, to",
+      "level": "HSK 3",
+      "cat": "Numbers & time",
+      "oneLine": "半 = half past, 一刻 = quarter past, 差 = minutes to the hour.",
+      "pattern": "Number + 点 + 半 / 一刻 / 三刻 · 差 + minutes + number + 点",
+      "explain": "三点半 = 3:30, 三点一刻 = 3:15, 三点三刻 = 3:45. With 差 the minutes come first: 差五分九点 = five to nine. Reading the numbers straight always works too: 八点五十五.",
+      "examples": [
+        {
+          "ch": "现在两点半。",
+          "py": "xiànzài liǎng diǎn bàn.",
+          "en": "It's half past two."
+        },
+        {
+          "ch": "我们八点一刻见面吧。",
+          "py": "wǒmen bā diǎn yí kè jiànmiàn ba.",
+          "en": "Let's meet at quarter past eight."
+        },
+        {
+          "ch": "现在差五分九点。",
+          "py": "xiànzài chà wǔ fēn jiǔ diǎn.",
+          "en": "It's five to nine."
+        }
+      ],
+      "mistake": "✗ 二点半 → ✓ 两点半. Two o'clock is 两点.",
+      "compare": [
+        {
+          "w": "三点半",
+          "gloss": "half past three",
+          "ex": "下午三点半"
+        },
+        {
+          "w": "三个半小时",
+          "gloss": "a length of time",
+          "ex": "等了三个半小时"
+        }
+      ],
+      "titleFa": "半‏ / 刻‏ / 差‏ · و نیم، و ربع، به ساعت",
+      "oneLineFa": "半‏ = و نیم، 一刻‏ = و ربع، 差‏ = دقیقه‌های مانده به ساعت.",
+      "explainFa": "三点半‏ = ۳:۳۰، 三点一刻‏ = ۳:۱۵، 三点三刻‏ = ۳:۴۵. با 差‏ دقیقه‌ها اول می‌آیند: 差五分九点‏ = پنج دقیقه به نه. خواندن مستقیم اعداد همیشه جواب می‌دهد: 八点五十五‏.",
+      "mistakeFa": "✗ 二点半‏ → ✓ 两点半‏. ساعت دو می‌شود 两点‏."
+    },
+    {
+      "id": "zuoyou",
+      "mark": "左右",
+      "title": "左右 · about, around",
+      "level": "HSK 3",
+      "cat": "Numbers & time",
+      "oneLine": "Amount + 左右: roughly that much, a little more or a little less.",
+      "pattern": "Number + measure (+ noun) + 左右",
+      "explain": "左右 goes after the whole amount: 十块钱左右, 十一点左右. It can be a bit over or a bit under — unlike 多 (HSK 2), which means \"and a bit more\": 十多块. Use one or the other, not both.",
+      "examples": [
+        {
+          "ch": "这个西瓜十块钱左右。",
+          "py": "zhège xīguā shí kuài qián zuǒyòu.",
+          "en": "This watermelon is about ten yuan."
+        },
+        {
+          "ch": "我晚上十一点左右睡觉。",
+          "py": "wǒ wǎnshang shíyī diǎn zuǒyòu shuìjiào.",
+          "en": "I go to bed around eleven."
+        },
+        {
+          "ch": "从我家到公司要半个小时左右。",
+          "py": "cóng wǒ jiā dào gōngsī yào bàn ge xiǎoshí zuǒyòu.",
+          "en": "It takes about half an hour from my place to the office."
+        }
+      ],
+      "mistake": "✗ 左右十一点 → ✓ 十一点左右. 左右 comes after the amount.",
+      "compare": [
+        {
+          "w": "左右",
+          "gloss": "over or under",
+          "ex": "十块钱左右"
+        },
+        {
+          "w": "多",
+          "gloss": "a bit more",
+          "ex": "十多块钱"
+        }
+      ],
+      "titleFa": "左右‏ · حدود، تقریباً",
+      "oneLineFa": "مقدار + 左右‏: تقریباً همان‌قدر، کمی بیشتر یا کمی کمتر.",
+      "explainFa": "左右‏ بعد از کلِ مقدار می‌آید: 十块钱左右‏، 十一点左右‏. می‌تواند کمی بیشتر یا کمی کمتر باشد — برخلاف 多‏ (HSK 2) که یعنی «و کمی بیشتر»: 十多块‏. یکی از این دو را به‌کار ببرید، نه هر دو را.",
+      "mistakeFa": "✗ 左右十一点‏ → ✓ 十一点左右‏. 左右‏ بعد از مقدار می‌آید."
+    },
+    {
+      "id": "de-de-de",
+      "mark": "的",
+      "title": "的 / 得 / 地 · three de's",
+      "level": "HSK 3",
+      "cat": "Confusables",
+      "oneLine": "的 comes before a noun, 得 after a verb, 地 before a verb.",
+      "pattern": "description + 的 + noun · verb + 得 + how it went · description + 地 + verb",
+      "explain": "All three are read de. 的 joins a description to a thing: 漂亮的衣服. 得 follows a verb and says how it went: 他跑得很快. 地 comes before a verb and says how it is done: 他慢慢地走. Look at the word that follows: a noun takes 的, a verb takes 地, and if the verb came first, it is 得.",
+      "examples": [
+        {
+          "ch": "这是我新买的手机。",
+          "py": "zhè shì wǒ xīn mǎi de shǒujī.",
+          "en": "This is the phone I just bought."
+        },
+        {
+          "ch": "她汉语说得很好。",
+          "py": "tā Hànyǔ shuō de hěn hǎo.",
+          "en": "She speaks Chinese very well."
+        },
+        {
+          "ch": "孩子们高兴地唱歌。",
+          "py": "háizimen gāoxìng de chàng gē.",
+          "en": "The children sing happily."
+        }
+      ],
+      "mistake": "✗ 他跑的很快。 → ✓ 他跑得很快。 After a verb, how it went takes 得.",
+      "compare": [
+        {
+          "w": "的",
+          "gloss": "before a noun",
+          "ex": "漂亮的衣服",
+          "py": "de"
+        },
+        {
+          "w": "得",
+          "gloss": "after a verb: how it went",
+          "ex": "跑得很快",
+          "py": "de"
+        },
+        {
+          "w": "地",
+          "gloss": "before a verb: how",
+          "ex": "慢慢地走",
+          "py": "de"
+        }
+      ],
+      "titleFa": "的‏ / 得‏ / 地‏ · سه «de»",
+      "oneLineFa": "的‏ پیش از اسم می‌آید، 得‏ بعد از فعل، 地‏ پیش از فعل.",
+      "explainFa": "هر سه «de» خوانده می‌شوند. 的‏ توصیف را به چیزی می‌چسباند: 漂亮的衣服‏. 得‏ بعد از فعل می‌آید و می‌گوید کار چطور پیش رفت: 他跑得很快‏. 地‏ پیش از فعل می‌آید و می‌گوید کار چگونه انجام می‌شود: 他慢慢地走‏. به کلمهٔ بعدی نگاه کن: اسم 的‏ می‌گیرد، فعل 地‏ می‌گیرد، و اگر فعل جلوتر آمده باشد، 得‏ است.",
+      "mistakeFa": "✗ 他跑的很快‏。 → ✓ 他跑得很快‏。 بعد از فعل، «چطور پیش رفت» با 得‏ می‌آید."
+    }
+  ]
+}

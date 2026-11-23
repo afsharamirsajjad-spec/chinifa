@@ -1,0 +1,1363 @@
+{
+  "id": "hsk1",
+  "level": "HSK 1",
+  "note": "Original explanations and examples, written for this app. Examples use HSK 1 words only (checked by E:/mineru/app-integration/grammar_check.py). km lines need a native speaker's review before release.",
+  "kmReviewed": false,
+  "points": [
+    {
+      "id": "shi",
+      "mark": "是",
+      "title": "是 · A is B",
+      "level": "HSK 1",
+      "cat": "Structure",
+      "oneLine": "是 links two nouns: who or what something is.",
+      "pattern": "A + 是 + B · A + 不是 + B",
+      "explain": "是 joins a person or thing to what it is — a name, a job, a nationality. To say no, put 不 in front: 不是. It is only for nouns; with adjectives Chinese uses 很 instead (see 很 · adjectives).",
+      "examples": [
+        {
+          "ch": "我是老师。",
+          "py": "wǒ shì lǎoshī.",
+          "en": "I am a teacher.",
+          "fa": "من معلم هستم."
+        },
+        {
+          "ch": "他是我朋友。",
+          "py": "tā shì wǒ péngyou.",
+          "en": "He is my friend.",
+          "fa": "او دوست من است."
+        },
+        {
+          "ch": "她不是医生，她是学生。",
+          "py": "tā bú shì yīshēng, tā shì xuésheng.",
+          "en": "She isn't a doctor, she's a student.",
+          "fa": "او پزشک نیست، او دانش‌آموز است."
+        }
+      ],
+      "mistake": "✗ 我是很高兴。 → ✓ 我很高兴。 Adjectives do not take 是.",
+      "compare": [
+        {
+          "w": "是",
+          "gloss": "before a noun",
+          "glossFa": "قبل از اسم (بیان هویت)",
+          "ex": "我是老师"
+        },
+        {
+          "w": "很",
+          "gloss": "before an adjective",
+          "glossFa": "قبل از صفت (بیان حالت)",
+          "ex": "我很高兴"
+        }
+      ],
+      "titleFa": "是‏ · A است B",
+      "oneLineFa": "是‏ دو اسم را به هم وصل می‌کند: اینکه کسی یا چیزی چیست.",
+      "explainFa": "是‏ یک شخص یا چیز را به آنچه هست وصل می‌کند — نام، شغل، ملیت. برای نفی، 不‏ را قبلش بیاورید: 不是‏. فقط برای اسم‌هاست؛ با صفت‌ها چینی به‌جایش از 很‏ استفاده می‌کند (ببینید: 很‏ · صفت‌ها).",
+      "mistakeFa": "✗ 我是很高兴‏。 → ✓ 我很高兴‏。 صفت‌ها 是‏ نمی‌گیرند."
+    },
+    {
+      "id": "hen-adj",
+      "mark": "很",
+      "title": "很 · adjectives need no 是",
+      "level": "HSK 1",
+      "cat": "Structure",
+      "oneLine": "Say 我很忙, not 我是忙 — an adjective is the whole predicate.",
+      "pattern": "Subject + 很 + adjective",
+      "explain": "In Chinese an adjective can be the verb of the sentence by itself. A plain adjective sounds like a comparison (今天冷 — colder than something), so a light 很 is added. Here 很 is weak; it does not always mean \"very\".",
+      "examples": [
+        {
+          "ch": "今天很冷。",
+          "py": "jīntiān hěn lěng.",
+          "en": "It's cold today.",
+          "fa": "امروز خیلی سرد است."
+        },
+        {
+          "ch": "这个杯子很漂亮。",
+          "py": "zhège bēizi hěn piàoliang.",
+          "en": "This cup is pretty.",
+          "fa": "این فنجان خیلی زیباست."
+        },
+        {
+          "ch": "我妈妈很高兴。",
+          "py": "wǒ māma hěn gāoxìng.",
+          "en": "My mum is happy.",
+          "fa": "مادرم خیلی خوشحال است."
+        }
+      ],
+      "mistake": "✗ 天气是热。 → ✓ 天气很热。",
+      "compare": [
+        {
+          "w": "很",
+          "gloss": "describes a quality",
+          "glossFa": "توصیف ویژگی یا صفت",
+          "ex": "天气很热"
+        },
+        {
+          "w": "是",
+          "gloss": "says what it is",
+          "glossFa": "بیان هویت یا ماهیت",
+          "ex": "他是医生"
+        }
+      ],
+      "titleFa": "很‏ · صفت‌ها 是‏ نمی‌خواهند",
+      "oneLineFa": "بگویید 我很忙‏، نه 我是忙‏ — صفت، کل گزاره است.",
+      "explainFa": "در چینی یک صفت می‌تواند خودش فعل جمله باشد. صفتِ تنها شبیه مقایسه به نظر می‌رسد (今天冷‏ — سردتر از چیزی)، پس یک 很‏ِ سبک اضافه می‌شود. اینجا 很‏ ضعیف است؛ همیشه به معنی «خیلی» نیست.",
+      "mistakeFa": "✗ 天气是热。 → ✓ 天气很热。"
+    },
+    {
+      "id": "noun-pred",
+      "mark": "号",
+      "title": "Dates, ages, prices · no verb needed",
+      "level": "HSK 1",
+      "cat": "Structure",
+      "oneLine": "今天星期一 — dates, ages and prices can follow the subject directly.",
+      "pattern": "Subject + date / age / price",
+      "explain": "When you say what day it is, how old someone is or how much something costs, the number phrase can be the predicate on its own. 是 is allowed but usually left out. In the negative it comes back: 今天不是星期一.",
+      "examples": [
+        {
+          "ch": "今天星期三。",
+          "py": "jīntiān xīngqīsān.",
+          "en": "Today is Wednesday.",
+          "fa": "امروز چهارشنبه است."
+        },
+        {
+          "ch": "我女儿五岁。",
+          "py": "wǒ nǚ'ér wǔ suì.",
+          "en": "My daughter is five.",
+          "fa": "دخترم پنج‌ساله است."
+        },
+        {
+          "ch": "这本书三十块。",
+          "py": "zhè běn shū sānshí kuài.",
+          "en": "This book is thirty yuan.",
+          "fa": "این کتاب سی یوان است."
+        }
+      ],
+      "mistake": "✗ 今天不星期三。 → ✓ 今天不是星期三。 The negative needs 不是.",
+      "compare": [
+        {
+          "w": "今天三号",
+          "gloss": "no verb needed",
+          "glossFa": "در حالت مثبت فعل لازم نیست",
+          "ex": "我女儿五岁"
+        },
+        {
+          "w": "不是",
+          "gloss": "negative needs a verb",
+          "glossFa": "در حالت منفی به فعل نیاز دارد",
+          "ex": "今天不是三号"
+        }
+      ],
+      "titleFa": "تاریخ‌ها، سن‌ها، قیمت‌ها · فعل لازم نیست",
+      "oneLineFa": "今天星期一‏ — تاریخ‌ها، سن‌ها و قیمت‌ها می‌توانند مستقیم بعد از نهاد بیایند.",
+      "explainFa": "وقتی می‌گویید چه روزی است، کسی چند سال دارد یا چیزی چند می‌ارزد، عبارت عددی می‌تواند به‌تنهایی گزاره باشد. 是‏ مجاز است اما معمولاً حذف می‌شود. در منفی برمی‌گردد: 今天不是星期一‏.",
+      "mistakeFa": "✗ 今天不星期三‏。 → ✓ 今天不是星期三‏。 منفی 不是‏ می‌خواهد."
+    },
+    {
+      "id": "you",
+      "mark": "有",
+      "title": "有 · have, there is",
+      "level": "HSK 1",
+      "cat": "Verbs",
+      "oneLine": "有 means \"to have\", and with a place first it means \"there is\".",
+      "pattern": "Person + 有 + thing · Place + 有 + thing",
+      "explain": "有 does two jobs. With a person first it is possession: 我有一个儿子. With a place first it says what is there: 桌子上有一本书. The negative is always 没有 — never 不有.",
+      "examples": [
+        {
+          "ch": "我有一个女儿。",
+          "py": "wǒ yǒu yí ge nǚ'ér.",
+          "en": "I have a daughter.",
+          "fa": "من یک دختر دارم."
+        },
+        {
+          "ch": "桌子上有一个杯子。",
+          "py": "zhuōzi shang yǒu yí ge bēizi.",
+          "en": "There is a cup on the table.",
+          "fa": "روی میز یک فنجان است."
+        },
+        {
+          "ch": "商店里没有苹果。",
+          "py": "shāngdiàn li méiyǒu píngguǒ.",
+          "en": "The shop has no apples.",
+          "fa": "در فروشگاه سیب وجود ندارد."
+        }
+      ],
+      "mistake": "✗ 我不有钱。 → ✓ 我没有钱。",
+      "compare": [
+        {
+          "w": "有",
+          "gloss": "what is there",
+          "glossFa": "چیزی که وجود دارد / داشتن",
+          "ex": "桌子上有书"
+        },
+        {
+          "w": "在",
+          "gloss": "where it is",
+          "glossFa": "جایی که قرار دارد (مکان)",
+          "ex": "书在桌子上"
+        }
+      ],
+      "titleFa": "有‏ · داشتن، وجود داشتن",
+      "oneLineFa": "有‏ یعنی «داشتن»، و وقتی اول مکان بیاید یعنی «وجود دارد».",
+      "explainFa": "有‏ دو نقش دارد. وقتی اول شخص بیاید، ملکیت است: 我有一个儿子‏. وقتی اول مکان بیاید، می‌گوید چه چیزی آنجاست: 桌子上有一本书‏. منفی همیشه 没有‏ است — هرگز 不有‏ نه.",
+      "mistakeFa": "✗ 我不有钱。 → ✓ 我没有钱。"
+    },
+    {
+      "id": "shenme",
+      "mark": "什么",
+      "title": "什么 · what",
+      "level": "HSK 1",
+      "cat": "Questions",
+      "oneLine": "Put 什么 where the answer will go. The word order stays the same.",
+      "pattern": "Subject + verb + 什么 (+ noun)？",
+      "explain": "Chinese questions keep statement word order: the question word sits exactly where the answer goes. 你叫什么名字？ → 我叫李月. 什么 can also go before a noun: 什么书 (what book).",
+      "examples": [
+        {
+          "ch": "你叫什么名字？",
+          "py": "nǐ jiào shénme míngzi?",
+          "en": "What's your name?",
+          "fa": "اسمت چیست؟"
+        },
+        {
+          "ch": "你想喝什么？",
+          "py": "nǐ xiǎng hē shénme?",
+          "en": "What would you like to drink?",
+          "fa": "دوست داری چه چیزی بنوشی؟"
+        },
+        {
+          "ch": "这是什么？",
+          "py": "zhè shì shénme?",
+          "en": "What is this?",
+          "fa": "این چیست؟"
+        }
+      ],
+      "mistake": "✗ 什么你想吃？ → ✓ 你想吃什么？ Do not move the question word to the front.",
+      "compare": [
+        {
+          "w": "什么",
+          "gloss": "what kind",
+          "glossFa": "چه چیزی / چه نوعی",
+          "ex": "你看什么书"
+        },
+        {
+          "w": "哪",
+          "gloss": "which one",
+          "glossFa": "کدام‌یک",
+          "ex": "你看哪本书"
+        }
+      ],
+      "titleFa": "什么‏ · چه چیزی",
+      "oneLineFa": "什么‏ را همان‌جا بگذارید که پاسخ قرار می‌گیرد؛ ترتیب کلمات همان می‌ماند.",
+      "explainFa": "پرسش‌های چینی ترتیب جملهٔ خبری را حفظ می‌کنند: واژهٔ پرسشی دقیقاً همان‌جا می‌نشیند که پاسخ می‌نشیند. 你叫什么名字‏？ → 我叫李月‏. 什么‏ می‌تواند قبل از اسم هم بیاید: 什么书‏ (چه کتابی).",
+      "mistakeFa": "✗ 什么你想吃‏？ → ✓ 你想吃什么‏？ واژهٔ پرسشی را به اول جمله نیاورید."
+    },
+    {
+      "id": "shei",
+      "mark": "谁",
+      "title": "谁 · who",
+      "level": "HSK 1",
+      "cat": "Questions",
+      "oneLine": "谁 asks about a person, in the same slot as the answer.",
+      "pattern": "谁 + verb …？ · … + 是 + 谁？",
+      "explain": "谁 can be the subject (谁是老师？) or come after the verb (他是谁？). As with every question word, no 吗 at the end.",
+      "examples": [
+        {
+          "ch": "他是谁？",
+          "py": "tā shì shéi?",
+          "en": "Who is he?",
+          "fa": "او کیست؟"
+        },
+        {
+          "ch": "谁是你的汉语老师？",
+          "py": "shéi shì nǐ de Hànyǔ lǎoshī?",
+          "en": "Who is your Chinese teacher?",
+          "fa": "چه کسی معلم زبان چینی توست؟"
+        },
+        {
+          "ch": "这是谁的书？",
+          "py": "zhè shì shéi de shū?",
+          "en": "Whose book is this?",
+          "fa": "این کتاب چه کسی است؟"
+        }
+      ],
+      "mistake": "✗ 他是谁吗？ → ✓ 他是谁？",
+      "compare": [
+        {
+          "w": "谁",
+          "gloss": "which person",
+          "glossFa": "چه کسی (اشخاص)",
+          "ex": "他是谁"
+        },
+        {
+          "w": "什么",
+          "gloss": "which thing",
+          "glossFa": "چه چیزی (اشیاء)",
+          "ex": "这是什么"
+        }
+      ],
+      "titleFa": "谁‏ · چه کسی",
+      "oneLineFa": "谁‏ دربارهٔ یک نفر می‌پرسد، درست در جایگاهی که پاسخ می‌نشیند.",
+      "explainFa": "谁‏ می‌تواند نهاد باشد (谁是老师‏？) یا بعد از فعل بیاید (他是谁‏？). مثل هر واژهٔ پرسشی دیگر، در پایان 吗‏ نمی‌آید.",
+      "mistakeFa": "✗ 他是谁吗？ → ✓ 他是谁？"
+    },
+    {
+      "id": "nin-men",
+      "mark": "们",
+      "title": "您 and 们 · polite you, more than one",
+      "level": "HSK 1",
+      "cat": "Structure",
+      "oneLine": "您 is a polite 你. Add 们 to 我, 你, 他 or 她 when there is more than one person.",
+      "pattern": "我 / 你 / 他 / 她 + 们",
+      "explain": "我们 = we, 你们 = you (more than one), 他们 / 她们 = they. Say 您 to a teacher, an older person or a customer: 您好！ To greet a group, say 你们好！ People nouns can take 们 too (老师们, 学生们), but not when a number comes before them: 三个学生, not 三个学生们.",
+      "examples": [
+        {
+          "ch": "您好！",
+          "py": "nín hǎo!",
+          "en": "Hello! (polite)",
+          "fa": "سلام! (محترمانه)"
+        },
+        {
+          "ch": "你们好！",
+          "py": "nǐmen hǎo!",
+          "en": "Hello, all of you!",
+          "fa": "سلام به همگی شما!"
+        },
+        {
+          "ch": "我们是学生。",
+          "py": "wǒmen shì xuésheng.",
+          "en": "We are students.",
+          "fa": "ما دانش‌آموز هستیم."
+        }
+      ],
+      "mistake": "✗ 我有三个朋友们。 → ✓ 我有三个朋友。",
+      "compare": [
+        {
+          "w": "你",
+          "gloss": "you",
+          "glossFa": "تو (عادی و دوستانه)",
+          "ex": "你好"
+        },
+        {
+          "w": "您",
+          "gloss": "you (polite)",
+          "glossFa": "شما (مؤدبانه و رسمی)",
+          "ex": "您好"
+        }
+      ],
+      "titleFa": "您‏ و 们‏ · شما مؤدبانه، بیش از یک نفر",
+      "oneLineFa": "您‏ یک 你‏ مودبانه است. وقتی بیش از یک نفر است، 们‏ را به 我‏، 你‏، 他‏ یا 她‏ اضافه کنید.",
+      "explainFa": "我们‏ = ما، 你们‏ = شما (بیش از یک نفر)، 他们‏ / 她们‏ = آن‌ها. به معلم، فرد مسن‌تر یا مشتری 您‏ بگویید: 您好‏！ برای سلام به یک گروه بگویید 你们好‏！ اسم‌های اشخاص هم می‌توانند 们‏ بگیرند (老师们‏, 学生们‏)، اما وقتی عدد پیش از آن‌ها می‌آید نه: 三个学生‏، نه 三个学生们‏.",
+      "mistakeFa": "✗ 我有三个朋友们。 → ✓ 我有三个朋友。"
+    },
+    {
+      "id": "na-nar",
+      "mark": "哪",
+      "title": "哪 / 哪儿 · which, where",
+      "level": "HSK 1",
+      "cat": "Questions",
+      "oneLine": "哪 + measure word = which one; 哪儿 = where.",
+      "pattern": "哪 + (number) + measure + noun · 在 + 哪儿",
+      "explain": "哪 picks one from a group and needs a measure word or noun after it: 哪个, 哪本书, 哪国人. 哪儿 asks for a place and usually goes with 在 or 去: 你在哪儿？ 你去哪儿？ Say them apart: 哪 nǎ, 那 nà (that).",
+      "examples": [
+        {
+          "ch": "你想买哪本书？",
+          "py": "nǐ xiǎng mǎi nǎ běn shū?",
+          "en": "Which book do you want to buy?",
+          "fa": "کدام کتاب را می‌خواهی بخری؟"
+        },
+        {
+          "ch": "你喜欢哪个？",
+          "py": "nǐ xǐhuan nǎge?",
+          "en": "Which one do you like?",
+          "fa": "از کدام‌یک خوشت می‌آید؟"
+        },
+        {
+          "ch": "你的狗在哪儿？",
+          "py": "nǐ de gǒu zài nǎr?",
+          "en": "Where is your dog?",
+          "fa": "سگ تو کجاست؟"
+        }
+      ],
+      "mistake": "✗ 你住在哪？ is heard, but 哪 alone is incomplete — ✓ 你住在哪儿？",
+      "compare": [
+        {
+          "w": "哪儿",
+          "gloss": "where? (asking)",
+          "glossFa": "کجا؟ (پرسش)",
+          "ex": "你在哪儿"
+        },
+        {
+          "w": "那儿",
+          "gloss": "there (pointing)",
+          "glossFa": "آنجا (اشاره)",
+          "ex": "我在那儿"
+        }
+      ],
+      "titleFa": "哪‏ / 哪儿‏ · کدام، کجا",
+      "oneLineFa": "哪‏ + واژهٔ شمارش = کدام‌یک؛ 哪儿‏ = کجا.",
+      "explainFa": "哪‏ یکی را از میان یک گروه برمی‌گزیند و بعدش واژهٔ شمارش یا اسم می‌خواهد: 哪个‏, 哪本书‏, 哪国人‏. 哪儿‏ دربارهٔ مکان می‌پرسد و معمولاً با 在‏ یا 去‏ می‌آید: 你在哪儿‏？ 你去哪儿‏？ این دو را از هم تشخیص دهید: 哪‏ nǎ, 那‏ nà (آن).",
+      "mistakeFa": "✗ 你住在哪‏？ شنیده می‌شود، اما 哪‏ به‌تنهایی ناقص است — ✓ 你住在哪儿‏？"
+    },
+    {
+      "id": "ji-duoshao",
+      "mark": "几",
+      "title": "几 vs 多少 · how many",
+      "level": "HSK 1",
+      "cat": "Confusables",
+      "oneLine": "几 expects a small number and needs a measure word; 多少 is for any amount.",
+      "pattern": "几 + measure + noun · 多少 (+ measure) + noun",
+      "explain": "Use 几 when you expect under ten, and for dates, times and ages: 几点, 几号, 几岁. Use 多少 for bigger or unknown amounts, and always for prices: 多少钱. 几 must have a measure word (几个人); 多少 may drop it (多少人).",
+      "examples": [
+        {
+          "ch": "现在几点？",
+          "py": "xiànzài jǐ diǎn?",
+          "en": "What time is it now?",
+          "fa": "الان ساعت چند است؟"
+        },
+        {
+          "ch": "你家有几个人？",
+          "py": "nǐ jiā yǒu jǐ ge rén?",
+          "en": "How many people are in your family?",
+          "fa": "خانواده‌ات چند نفر هستند؟"
+        },
+        {
+          "ch": "这个杯子多少钱？",
+          "py": "zhège bēizi duōshao qián?",
+          "en": "How much is this cup?",
+          "fa": "این فنجان چقدر قیمت دارد؟"
+        }
+      ],
+      "mistake": "✗ 这个几钱？ → ✓ 这个多少钱？",
+      "compare": [
+        {
+          "w": "几",
+          "gloss": "small numbers",
+          "glossFa": "تعداد کم (معمولاً زیر ۱۰)",
+          "ex": "几个人",
+          "py": "jǐ"
+        },
+        {
+          "w": "多少",
+          "gloss": "any amount, prices",
+          "glossFa": "هر مقدار یا قیمت کالا",
+          "ex": "多少钱",
+          "py": "duōshao"
+        }
+      ],
+      "titleFa": "几‏ vs 多少‏ · چند",
+      "oneLineFa": "几‏ انتظار عدد کوچک دارد و واژهٔ شمارش می‌خواهد؛ 多少‏ برای هر مقداری است.",
+      "explainFa": "几‏ را وقتی به کار ببرید که انتظار زیر ده را دارید، و برای تاریخ‌ها، ساعت‌ها و سن: 几点‏, 几号‏, 几岁‏. 多少‏ برای مقدارهای بیشتر یا نامعلوم است و همیشه برای قیمت‌ها: 多少钱‏. 几‏ باید واژهٔ شمارش داشته باشد (几个人‏)؛ 多少‏ می‌تواند آن را حذف کند (多少人‏).",
+      "mistakeFa": "✗ 这个几钱？ → ✓ 这个多少钱？"
+    },
+    {
+      "id": "duoda",
+      "mark": "多大",
+      "title": "多大 / 几岁 · asking age",
+      "level": "HSK 1",
+      "cat": "Questions",
+      "oneLine": "几岁 for a child, 多大 for an adult.",
+      "pattern": "… + 几岁了？ · … + 多大了？",
+      "explain": "Asking a child, use 几岁 (the answer is a small number). Asking a grown-up, use 多大, which is more natural and polite. 了 at the end is common: age is something that changes.",
+      "examples": [
+        {
+          "ch": "你女儿几岁了？",
+          "py": "nǐ nǚ'ér jǐ suì le?",
+          "en": "How old is your daughter?",
+          "fa": "دخترت چند سال دارد؟"
+        },
+        {
+          "ch": "你今年多大了？",
+          "py": "nǐ jīnnián duō dà le?",
+          "en": "How old are you this year?",
+          "fa": "امسال چندساله می‌شوی؟"
+        },
+        {
+          "ch": "我儿子九岁了。",
+          "py": "wǒ érzi jiǔ suì le.",
+          "en": "My son is nine now.",
+          "fa": "پسرم اکنون ۹ ساله است."
+        }
+      ],
+      "mistake": "Asking an older person 你几岁？ sounds like talking to a child — ✓ 你多大了？",
+      "compare": [
+        {
+          "w": "多大",
+          "gloss": "asking an adult",
+          "glossFa": "پرسیدن سن نوجوانان و بزرگسالان",
+          "ex": "你多大了"
+        },
+        {
+          "w": "几岁",
+          "gloss": "asking a child",
+          "glossFa": "پرسیدن سن کودکان (زیر ۱۰ سال)",
+          "ex": "你女儿几岁了"
+        }
+      ],
+      "titleFa": "多大‏ / 几岁‏ · پرسیدن سن",
+      "oneLineFa": "几岁‏ برای کودک، 多大‏ برای بزرگسال.",
+      "explainFa": "از کودک با 几岁‏ بپرس (پاسخ، عددی کوچک است). از بزرگ‌تر با 多大‏ بپرس؛ طبیعی‌تر و مؤدبانه‌تر است. 了‏ در پایان رایج است: سن چیزی است که تغییر می‌کند.",
+      "mistakeFa": "از فرد بزرگ‌تر پرسیدنِ 你几岁‏？ شبیه صحبت با کودک است — ✓ 你多大了‏？"
+    },
+    {
+      "id": "zenme",
+      "mark": "怎么",
+      "title": "怎么 · how (to do)",
+      "level": "HSK 1",
+      "cat": "Questions",
+      "oneLine": "怎么 + verb asks for the way to do something.",
+      "pattern": "怎么 + verb？",
+      "explain": "怎么 goes directly before the verb: 怎么去 (how to get there), 怎么写 (how to write it), 怎么读 (how to read it). It is the question to ask when you are stuck.",
+      "examples": [
+        {
+          "ch": "这个字怎么读？",
+          "py": "zhège zì zěnme dú?",
+          "en": "How do you read this character?",
+          "fa": "این نویسه چطور خوانده می‌شود؟"
+        },
+        {
+          "ch": "你怎么去学校？",
+          "py": "nǐ zěnme qù xuéxiào?",
+          "en": "How do you get to school?",
+          "fa": "چطور به مدرسه می‌روی؟"
+        },
+        {
+          "ch": "“谢谢”汉语怎么说？",
+          "py": "\"xièxie\" Hànyǔ zěnme shuō?",
+          "en": "How do you say \"thank you\" in Chinese?",
+          "fa": "«متشکرم» به زبان چینی چطور گفته می‌شود؟"
+        }
+      ],
+      "mistake": "✗ 你去学校怎么？ → ✓ 你怎么去学校？",
+      "compare": [
+        {
+          "w": "怎么",
+          "gloss": "how to do it",
+          "glossFa": "روش و چگونگی انجام کار",
+          "ex": "怎么去"
+        },
+        {
+          "w": "怎么样",
+          "gloss": "how is it",
+          "glossFa": "چطور است (کیفیت/نظرخواهی)",
+          "ex": "天气怎么样"
+        }
+      ],
+      "titleFa": "怎么‏ · چطور (انجام دادن)",
+      "oneLineFa": "怎么‏ + فعل، راه انجام کاری را می‌پرسد.",
+      "explainFa": "怎么‏ درست قبل از فعل می‌آید: 怎么去‏ (چطور برویم)، 怎么写‏ (چطور بنویسیم)، 怎么读‏ (چطور بخوانیم). این همان پرسشی است که وقتی گیر کرده‌اید می‌پرسید.",
+      "mistakeFa": "✗ 你去学校怎么？ → ✓ 你怎么去学校？"
+    },
+    {
+      "id": "zenmeyang",
+      "mark": "怎么样",
+      "title": "怎么样 · how is it, how about",
+      "level": "HSK 1",
+      "cat": "Questions",
+      "oneLine": "At the end of a sentence: asking how something is, or suggesting a plan.",
+      "pattern": "Thing + 怎么样？ · Suggestion，怎么样？",
+      "explain": "怎么样 asks for an opinion or condition: 天气怎么样？ After a suggestion it means \"how about it?\": 我们去看电影，怎么样？ Unlike 怎么, it is not followed by a verb.",
+      "examples": [
+        {
+          "ch": "明天天气怎么样？",
+          "py": "míngtiān tiānqì zěnmeyàng?",
+          "en": "What will the weather be like tomorrow?",
+          "fa": "هوای فردا چطور است؟"
+        },
+        {
+          "ch": "这个饭店怎么样？",
+          "py": "zhège fàndiàn zěnmeyàng?",
+          "en": "How is this restaurant?",
+          "fa": "این رستوران چطور است؟"
+        },
+        {
+          "ch": "我们下午去商店，怎么样？",
+          "py": "wǒmen xiàwǔ qù shāngdiàn, zěnmeyàng?",
+          "en": "Let's go to the shop this afternoon — how about it?",
+          "fa": "بعدازظهر برویم فروشگاه، نظرت چیست؟"
+        }
+      ],
+      "mistake": "✗ 你怎么样去？ → ✓ 你怎么去？ Use 怎么 before a verb.",
+      "compare": [
+        {
+          "w": "怎么样",
+          "gloss": "asks an opinion",
+          "glossFa": "نظرخواهی درباره کیفیت",
+          "ex": "这个怎么样"
+        },
+        {
+          "w": "怎么",
+          "gloss": "asks the way",
+          "glossFa": "پرسیدن شیوه و راه انجام",
+          "ex": "这个字怎么写"
+        }
+      ],
+      "titleFa": "怎么样‏ · چطور است، نظرت چیست",
+      "oneLineFa": "در پایان جمله: می‌پرسد اوضاع چطور است، یا برنامه‌ای را پیشنهاد می‌دهد.",
+      "explainFa": "怎么样‏ نظر یا وضعیت را می‌پرسد: 天气怎么样‏？ بعد از یک پیشنهاد یعنی «چه‌طوره؟»: 我们去看电影‏，怎么样‏？ برخلاف 怎么‏، بعد از آن فعل نمی‌آید.",
+      "mistakeFa": "✗ 你怎么样去‏？ → ✓ 你怎么去‏？ قبل از فعل از 怎么‏ استفاده کنید."
+    },
+    {
+      "id": "ne",
+      "mark": "呢",
+      "title": "呢 · and you?",
+      "level": "HSK 1",
+      "cat": "Questions",
+      "oneLine": "Noun + 呢 bounces the last question back: 我很好，你呢？",
+      "pattern": "…，Noun / pronoun + 呢？",
+      "explain": "After you have said something about yourself, 你呢？ asks the same thing about the other person without repeating the whole question. With a thing, 呢 can ask where it is: 我的书呢？ (Where's my book?)",
+      "examples": [
+        {
+          "ch": "我是中国人，你呢？",
+          "py": "wǒ shì Zhōngguó rén, nǐ ne?",
+          "en": "I'm Chinese. And you?",
+          "fa": "من چینی هستم، تو چطور؟"
+        },
+        {
+          "ch": "我喝茶，你呢？",
+          "py": "wǒ hē chá, nǐ ne?",
+          "en": "I'll have tea. What about you?",
+          "fa": "من چای می‌نوشم، تو چطور؟"
+        },
+        {
+          "ch": "我的衣服呢？",
+          "py": "wǒ de yīfu ne?",
+          "en": "Where are my clothes?",
+          "fa": "لباس‌های من کجاست؟"
+        }
+      ],
+      "mistake": "✗ 你呢吗？ → ✓ 你呢？ 呢 already makes it a question.",
+      "compare": [
+        {
+          "w": "呢",
+          "gloss": "and you?",
+          "glossFa": "تو چطور؟ / پس کجاست؟",
+          "ex": "我很好，你呢"
+        },
+        {
+          "w": "吗",
+          "gloss": "a yes-no question",
+          "glossFa": "آیا؟ (پرسش بله/خیر)",
+          "ex": "你好吗"
+        }
+      ],
+      "titleFa": "呢‏ · و شما؟",
+      "oneLineFa": "اسم + 呢‏ پرسش قبلی را به طرف مقابل برمی‌گرداند: 我很好‏，你呢‏？",
+      "explainFa": "وقتی چیزی دربارهٔ خودتان گفته‌اید، 你呢‏？ همان چیز را دربارهٔ طرف مقابل می‌پرسد، بدون تکرار کل پرسش. با یک شیء، 呢‏ می‌تواند بپرسد کجاست: 我的书呢‏？ (کتابم کجاست؟)",
+      "mistakeFa": "✗ 你呢吗‏？ → ✓ 你呢‏？ 呢‏ خودش پرسش می‌سازد."
+    },
+    {
+      "id": "hui",
+      "mark": "会",
+      "title": "会 · can (a learned skill)",
+      "level": "HSK 1",
+      "cat": "Verbs",
+      "oneLine": "会 + verb: you learned how to do it.",
+      "pattern": "Subject + 会 / 不会 + verb",
+      "explain": "会 is for abilities you had to learn: languages, cooking, writing, driving. For being able right now, or being allowed, use 能 instead.",
+      "examples": [
+        {
+          "ch": "我会说汉语。",
+          "py": "wǒ huì shuō Hànyǔ.",
+          "en": "I can speak Chinese.",
+          "fa": "من بلدم چینی صحبت کنم."
+        },
+        {
+          "ch": "我妈妈会做中国菜。",
+          "py": "wǒ māma huì zuò Zhōngguó cài.",
+          "en": "My mum can cook Chinese food.",
+          "fa": "مادرم بلد است غذای چینی درست کند."
+        },
+        {
+          "ch": "你会写这个字吗？",
+          "py": "nǐ huì xiě zhège zì ma?",
+          "en": "Can you write this character?",
+          "fa": "بلدی این نویسه را بنویسی؟"
+        }
+      ],
+      "mistake": "✗ 我会说汉语很好。 → ✓ 我会说汉语。 (How well is a later pattern: 说得很好.)",
+      "compare": [
+        {
+          "w": "会",
+          "gloss": "a learned skill",
+          "glossFa": "مهارت آموخته‌شده",
+          "ex": "我会说汉语"
+        },
+        {
+          "w": "能",
+          "gloss": "possible or allowed",
+          "glossFa": "امکان داشتن یا مجاز بودن",
+          "ex": "我今天不能来"
+        }
+      ],
+      "titleFa": "会‏ · بلد بودن (مهارت آموخته‌شده)",
+      "oneLineFa": "会‏ + فعل: یاد گرفته‌اید چطور انجامش دهید.",
+      "explainFa": "会‏ برای توانایی‌هایی است که باید یاد می‌گرفتید: زبان‌ها، آشپزی، نوشتن، رانندگی. برای توانستن همین حالا یا اجازه داشتن، به جایش 能‏ به کار ببرید.",
+      "mistakeFa": "✗ 我会说汉语很好‏。 → ✓ 我会说汉语‏。 (چقدر خوب را الگوی بعدی می‌گوید: 说得很好‏.)"
+    },
+    {
+      "id": "neng",
+      "mark": "能",
+      "title": "能 · can (possible, allowed)",
+      "level": "HSK 1",
+      "cat": "Verbs",
+      "oneLine": "能 + verb: it is possible, or you may.",
+      "pattern": "Subject + 能 / 不能 + verb",
+      "explain": "Use 能 when circumstances allow it (today I can come) or when asking permission (can I sit here?). Compare: 我会开车 (I know how to drive) vs 我今天不能开车 (I can't drive today).",
+      "examples": [
+        {
+          "ch": "我能坐这儿吗？",
+          "py": "wǒ néng zuò zhèr ma?",
+          "en": "May I sit here?",
+          "fa": "می‌توانم اینجا بنشینم؟"
+        },
+        {
+          "ch": "明天你能来吗？",
+          "py": "míngtiān nǐ néng lái ma?",
+          "en": "Can you come tomorrow?",
+          "fa": "فردا می‌توانی بیایی؟"
+        },
+        {
+          "ch": "我今天不能喝茶。",
+          "py": "wǒ jīntiān bù néng hē chá.",
+          "en": "I can't drink tea today.",
+          "fa": "امروز نمی‌توانم چای بنوشم."
+        }
+      ],
+      "mistake": "✗ 我能说汉语 for a skill → ✓ 我会说汉语.",
+      "compare": [
+        {
+          "w": "能",
+          "gloss": "possible or allowed",
+          "glossFa": "امکان داشتن / اجازه داشتن",
+          "ex": "我能坐这儿吗"
+        },
+        {
+          "w": "会",
+          "gloss": "a learned skill",
+          "glossFa": "مهارت یادگرفته‌شده",
+          "ex": "我会做菜"
+        }
+      ],
+      "titleFa": "能‏ · توانستن (ممکن، مجاز)",
+      "oneLineFa": "能‏ + فعل: ممکن است، یا اجازه دارید.",
+      "explainFa": "能‏ را وقتی به کار ببرید که شرایط اجازه دهد (امروز می‌توانم بیایم) یا هنگام درخواست اجازه (می‌توانم اینجا بنشینم؟). مقایسه کنید: 我会开车‏ (رانندگی بلدم) در برابر 我今天不能开车‏ (امروز نمی‌توانم رانندگی کنم).",
+      "mistakeFa": "✗ 我能说汉语‏ برای مهارت → ✓ 我会说汉语‏."
+    },
+    {
+      "id": "qing",
+      "mark": "请",
+      "title": "请 · please",
+      "level": "HSK 1",
+      "cat": "Verbs",
+      "oneLine": "请 + verb turns an instruction into a polite request.",
+      "pattern": "请 + (person) + verb",
+      "explain": "Put 请 first: 请坐 (please sit), 请喝茶 (please have some tea). 请 can also mean \"to invite / to treat\": 我请你喝茶 (the tea is on me).",
+      "examples": [
+        {
+          "ch": "请坐。",
+          "py": "qǐng zuò.",
+          "en": "Please sit down.",
+          "fa": "لطفاً بفرمایید بنشینید."
+        },
+        {
+          "ch": "请喝茶。",
+          "py": "qǐng hē chá.",
+          "en": "Please have some tea.",
+          "fa": "لطفاً چای میل کنید."
+        },
+        {
+          "ch": "我请你喝茶。",
+          "py": "wǒ qǐng nǐ hē chá.",
+          "en": "The tea is on me.",
+          "fa": "من شما را به یک چای مهمان می‌کنم."
+        }
+      ],
+      "mistake": "✗ 坐请。 → ✓ 请坐。",
+      "titleFa": "请‏ · لطفاً",
+      "oneLineFa": "请‏ + فعل، یک دستور را به درخواستی مؤدبانه تبدیل می‌کند.",
+      "explainFa": "请‏ را در ابتدای جمله بگذارید: 请坐‏ (لطفاً بنشینید)، 请喝茶‏ (لطفاً چای میل کنید). 请‏ همچنین می‌تواند معنی «دعوت کردن / مهمان کردن» بدهد: 我请你喝茶‏ (چای مهمانِ من است).",
+      "mistakeFa": "✗ 坐请。 → ✓ 请坐。"
+    },
+    {
+      "id": "qu-do",
+      "mark": "去",
+      "title": "去 + place + do · going to do something",
+      "level": "HSK 1",
+      "cat": "Structure",
+      "oneLine": "Chinese lines the actions up in the order they happen.",
+      "pattern": "Subject + 去 / 来 + place + verb (+ object)",
+      "explain": "First you go somewhere, then you do something there, and the sentence says it in that order: 我去商店买东西. No word for \"to\" or \"in order to\" is needed.",
+      "examples": [
+        {
+          "ch": "我去商店买水果。",
+          "py": "wǒ qù shāngdiàn mǎi shuǐguǒ.",
+          "en": "I'm going to the shop to buy fruit.",
+          "fa": "می‌روم فروشگاه تا میوه بخرم."
+        },
+        {
+          "ch": "他来中国学习汉语。",
+          "py": "tā lái Zhōngguó xuéxí Hànyǔ.",
+          "en": "He came to China to study Chinese.",
+          "fa": "او به چین آمد تا زبان چینی بخواند."
+        },
+        {
+          "ch": "我们去商店买东西吧。",
+          "py": "wǒmen qù shāngdiàn mǎi dōngxi ba.",
+          "en": "Let's go to the shop and buy some things.",
+          "fa": "بیا برویم فروشگاه تا خرید کنیم."
+        }
+      ],
+      "mistake": "✗ 我买水果去商店。 → ✓ 我去商店买水果。",
+      "compare": [
+        {
+          "w": "去",
+          "gloss": "away from here",
+          "glossFa": "رفتن (دور شدن از گوینده)",
+          "ex": "去商店买书"
+        },
+        {
+          "w": "来",
+          "gloss": "towards here",
+          "glossFa": "آمدن (نزدیک شدن به گوینده)",
+          "ex": "来我家喝茶"
+        }
+      ],
+      "titleFa": "去‏ + مکان + کار · رفتن برای انجام کاری",
+      "oneLineFa": "زبان چینی کارها را به همان ترتیبی که اتفاق می‌افتند کنار هم می‌چیند.",
+      "explainFa": "ابتدا جایی می‌روید، سپس آنجا کاری انجام می‌دهید، و جمله همین ترتیب را بازمی‌گوید: 我去商店买东西‏. نیازی به واژه‌ای برای «به» یا «برای اینکه» نیست.",
+      "mistakeFa": "✗ 我买水果去商店。 → ✓ 我去商店买水果。"
+    },
+    {
+      "id": "time-first",
+      "mark": "今天",
+      "title": "When and where come before the verb",
+      "level": "HSK 1",
+      "cat": "Structure",
+      "oneLine": "Time goes before the verb (or at the very front), never at the end.",
+      "pattern": "Subject + time + 在 + place + verb · Time + subject + verb",
+      "explain": "English puts time last (\"I work tomorrow\"); Chinese puts it early: 我明天工作 or 明天我工作. When you have both, time comes before place: 我明天在家学习.",
+      "examples": [
+        {
+          "ch": "我明天去北京。",
+          "py": "wǒ míngtiān qù Běijīng.",
+          "en": "I'm going to Beijing tomorrow.",
+          "fa": "من فردا به پکن می‌روم."
+        },
+        {
+          "ch": "下午我在家看书。",
+          "py": "xiàwǔ wǒ zài jiā kàn shū.",
+          "en": "In the afternoon I read at home.",
+          "fa": "بعدازظهر در خانه کتاب می‌خوانم."
+        },
+        {
+          "ch": "他中午十二点回家。",
+          "py": "tā zhōngwǔ shí'èr diǎn huí jiā.",
+          "en": "He goes home at twelve noon.",
+          "fa": "او ساعت دوازده ظهر به خانه برمی‌گردد."
+        }
+      ],
+      "mistake": "✗ 我去北京明天。 → ✓ 我明天去北京。",
+      "titleFa": "زمان و مکان قبل از فعل می‌آیند",
+      "oneLineFa": "زمان قبل از فعل می‌آید (یا در ابتدای جمله)، هرگز در آخر نمی‌آید.",
+      "explainFa": "انگلیسی زمان را در آخر جمله می‌گذارد («فردا کار می‌کنم»)؛ چینی آن را در ابتدای جمله می‌گذارد: 我明天工作‏ یا 明天我工作‏. وقتی هم زمان و هم مکان دارید، زمان قبل از مکان می‌آید: 我明天在家学习‏.",
+      "mistakeFa": "✗ 我去北京明天。 → ✓ 我明天去北京。"
+    },
+    {
+      "id": "bu-mei",
+      "mark": "不",
+      "title": "不 vs 没 · two kinds of no",
+      "level": "HSK 1",
+      "cat": "Confusables",
+      "oneLine": "不 for habits, wishes and the future; 没 for what did not happen, and for 有.",
+      "pattern": "不 + verb / adjective · 没 (有) + verb · 没有 + noun",
+      "explain": "不 says \"don't / won't / not\": 我不喝茶. 没 says \"didn't / haven't\": 我没有喝茶 (I didn't have any tea; 有 is often dropped: 没喝). 有 only ever takes 没: 没有. Adjectives take 不: 不冷. Note the tone: 不 is bú before a fourth tone (不是, 不去).",
+      "examples": [
+        {
+          "ch": "我不喜欢下雨。",
+          "py": "wǒ bù xǐhuan xià yǔ.",
+          "en": "I don't like rain.",
+          "fa": "من از باران باریدن خوشم نمی‌آید."
+        },
+        {
+          "ch": "昨天我没有去学校。",
+          "py": "zuótiān wǒ méiyǒu qù xuéxiào.",
+          "en": "I didn't go to school yesterday.",
+          "fa": "دیروز به مدرسه نرفتم."
+        },
+        {
+          "ch": "今天不冷。",
+          "py": "jīntiān bù lěng.",
+          "en": "It isn't cold today.",
+          "fa": "امروز سرد نیست."
+        }
+      ],
+      "mistake": "✗ 昨天我不去学校。 → ✓ 昨天我没(有)去学校。",
+      "compare": [
+        {
+          "w": "不",
+          "gloss": "don't, won't",
+          "glossFa": "منفی کردن حال، آینده یا عادت",
+          "ex": "明天我不去",
+          "py": "bù"
+        },
+        {
+          "w": "没",
+          "gloss": "didn't, haven't",
+          "glossFa": "منفی کردن گذشته یا نداشتن",
+          "ex": "昨天我没有去",
+          "py": "méi"
+        }
+      ],
+      "titleFa": "不‏ در برابر 没‏ · دو نوع «نه»",
+      "oneLineFa": "不‏ برای عادت‌ها، خواسته‌ها و آینده؛ 没‏ برای آنچه رخ نداد، و برای 有‏.",
+      "explainFa": "不‏ می‌گوید «نکن / نخواهم / نه»: 我不喝茶‏. 没‏ می‌گوید «نکردم / نکرده‌ام»: 我没有喝茶‏ (چای ننوشیدم؛ 有‏ اغلب حذف می‌شود: 没喝‏). 有‏ فقط 没‏ می‌گیرد: 没有‏. صفت‌ها 不‏ می‌گیرند: 不冷‏. به تُن دقت کن: 不‏ پیش از تُن چهارم bú تلفظ می‌شود (不是‏، 不去‏).",
+      "mistakeFa": "✗ 昨天我不去学校。 → ✓ 昨天我没(有)去学校。"
+    },
+    {
+      "id": "tai-le",
+      "mark": "太",
+      "title": "太……了 · too, so",
+      "level": "HSK 1",
+      "cat": "Adverbs",
+      "oneLine": "太 + adjective + 了 = too much, or (happily) so much.",
+      "pattern": "太 + adjective + 了",
+      "explain": "太……了 can complain (太贵了, too expensive) or exclaim (太好了, great!). The 了 at the end is part of the pattern. In the negative the 了 drops: 不太冷 (not very cold).",
+      "examples": [
+        {
+          "ch": "太好了！",
+          "py": "tài hǎo le!",
+          "en": "Great!",
+          "fa": "عالی شد! (خیلی خوب شد!)"
+        },
+        {
+          "ch": "今天太热了。",
+          "py": "jīntiān tài rè le.",
+          "en": "It's too hot today.",
+          "fa": "امروز خیلی گرم است."
+        },
+        {
+          "ch": "这个不太大。",
+          "py": "zhège bú tài dà.",
+          "en": "This one isn't very big.",
+          "fa": "این یکی خیلی بزرگ نیست."
+        }
+      ],
+      "mistake": "✗ 不太冷了。 → ✓ 不太冷。",
+      "compare": [
+        {
+          "w": "太……了",
+          "gloss": "too much, or wow",
+          "glossFa": "بسیار زیاد یا ابراز شگفتی",
+          "ex": "太冷了"
+        },
+        {
+          "w": "很",
+          "gloss": "just describing",
+          "glossFa": "توصیف ساده درجه صفت",
+          "ex": "今天很冷"
+        }
+      ],
+      "titleFa": "太‏……了‏ · خیلی، این‌قدر",
+      "oneLineFa": "太‏ + صفت + 了‏ = زیادی، یا (با خوشحالی) فوق‌العاده.",
+      "explainFa": "太‏……了‏ می‌تواند گلایه باشد (太贵了‏، خیلی گران است) یا تعجب و تحسین (太好了‏، عالی!). 了‏ِ پایان جمله بخشی از ساختار است. در منفی، 了‏ حذف می‌شود: 不太冷‏ (خیلی سرد نیست).",
+      "mistakeFa": "✗ 不太冷了。 → ✓ 不太冷。"
+    },
+    {
+      "id": "dou",
+      "mark": "都",
+      "title": "都 · all, both",
+      "level": "HSK 1",
+      "cat": "Adverbs",
+      "oneLine": "都 goes after the group and before the verb.",
+      "pattern": "Group (plural subject) + 都 + verb",
+      "explain": "都 looks back at everything mentioned before it: 我们都是学生 (we are all students). It must stand before the verb, never at the end of the sentence. With 不: 都不 = none of them; 不都 = not all.",
+      "examples": [
+        {
+          "ch": "我们都是学生。",
+          "py": "wǒmen dōu shì xuésheng.",
+          "en": "We are all students.",
+          "fa": "ما همگی دانش‌آموز هستیم."
+        },
+        {
+          "ch": "爸爸妈妈都喜欢喝茶。",
+          "py": "bàba māma dōu xǐhuan hē chá.",
+          "en": "Mum and dad both like tea.",
+          "fa": "پدر و مادرم هردو چای دوست دارند."
+        },
+        {
+          "ch": "这些衣服都很漂亮。",
+          "py": "zhèxiē yīfu dōu hěn piàoliang.",
+          "en": "These clothes are all pretty.",
+          "fa": "همه این لباس‌ها خیلی زیبا هستند."
+        }
+      ],
+      "mistake": "✗ 我们是学生都。 → ✓ 我们都是学生。",
+      "compare": [
+        {
+          "w": "都不",
+          "gloss": "none of them",
+          "glossFa": "هیچ‌کدام (نفی کامل)",
+          "ex": "他们都不是老师"
+        },
+        {
+          "w": "不都",
+          "gloss": "not all of them",
+          "glossFa": "نه همه‌شان (نفی جزئی)",
+          "ex": "他们不都是老师"
+        }
+      ],
+      "titleFa": "都‏ · همه، هر دو",
+      "oneLineFa": "都‏ بعد از گروه و پیش از فعل می‌آید.",
+      "explainFa": "都‏ به همهٔ چیزهای پیش از خود برمی‌گردد: 我们都是学生‏ (همهٔ ما دانش‌آموزیم). باید پیش از فعل بیاید، هرگز در پایان جمله نه. با 不‏: 都不‏ = هیچ‌کدامشان؛ 不都‏ = نه همه‌شان.",
+      "mistakeFa": "✗ 我们是学生都。 → ✓ 我们都是学生。"
+    },
+    {
+      "id": "he",
+      "mark": "和",
+      "title": "和 · and (between nouns)",
+      "level": "HSK 1",
+      "cat": "Structure",
+      "oneLine": "和 joins nouns and people, not sentences.",
+      "pattern": "Noun + 和 + noun",
+      "explain": "和 links two things or people: 爸爸和妈妈, 茶和水. It does not join two sentences — for \"and then\" Chinese just puts the sentences side by side.",
+      "examples": [
+        {
+          "ch": "我和我朋友去北京。",
+          "py": "wǒ hé wǒ péngyou qù Běijīng.",
+          "en": "My friend and I are going to Beijing.",
+          "fa": "من و دوستم به پکن می‌رویم."
+        },
+        {
+          "ch": "我想买苹果和水。",
+          "py": "wǒ xiǎng mǎi píngguǒ hé shuǐ.",
+          "en": "I want to buy apples and water.",
+          "fa": "می‌خواهم سیب و آب بخرم."
+        },
+        {
+          "ch": "桌子和椅子都在这儿。",
+          "py": "zhuōzi hé yǐzi dōu zài zhèr.",
+          "en": "The table and the chairs are both here.",
+          "fa": "میز و صندلی‌ها هر دو این‌جا هستند."
+        }
+      ],
+      "mistake": "✗ 我喝茶和他喝水。 → ✓ 我喝茶，他喝水。",
+      "titleFa": "和‏ · و (بین اسم‌ها)",
+      "oneLineFa": "和‏ اسم‌ها و افراد را به هم وصل می‌کند، نه جمله‌ها.",
+      "explainFa": "و دو چیز یا دو نفر را به هم پیوند می‌دهد: 爸爸和妈妈‏, 茶和水‏. دو جمله را به هم وصل نمی‌کند — برای «و بعد» چینی جمله‌ها را ساده کنار هم می‌گذارد.",
+      "mistakeFa": "✗ 我喝茶和他喝水。 → ✓ 我喝茶，他喝水。"
+    },
+    {
+      "id": "measure",
+      "mark": "个",
+      "title": "Measure words · 一个人",
+      "level": "HSK 1",
+      "cat": "Numbers & time",
+      "oneLine": "Between a number (or 这 / 那) and a noun there is always a measure word.",
+      "pattern": "Number / 这 / 那 + measure + noun",
+      "explain": "You cannot say 一书 — it must be 一本书. 个 is the general one and works for people and many things; 本 is for books, 块 for money. 这 and 那 take a measure word too: 这个, 那本书.",
+      "examples": [
+        {
+          "ch": "我有三个朋友。",
+          "py": "wǒ yǒu sān ge péngyou.",
+          "en": "I have three friends.",
+          "fa": "من سه تا دوست دارم."
+        },
+        {
+          "ch": "我想买两本书。",
+          "py": "wǒ xiǎng mǎi liǎng běn shū.",
+          "en": "I want to buy two books.",
+          "fa": "می‌خواهم دو جلد کتاب بخرم."
+        },
+        {
+          "ch": "那个人是我老师。",
+          "py": "nàge rén shì wǒ lǎoshī.",
+          "en": "That person is my teacher.",
+          "fa": "آن شخص معلم من است."
+        }
+      ],
+      "mistake": "✗ 我有三朋友。 → ✓ 我有三个朋友。 And 两, not 二, before a measure word: 两本书.",
+      "titleFa": "واژه‌های شمارش · 一个人‏",
+      "oneLineFa": "بین عدد (یا 这‏ / 那‏) و اسم همیشه یک واژهٔ شمارش هست.",
+      "explainFa": "نمی‌توانید بگویید 一书‏ — باید 一本书‏ باشد. 个‏ واژهٔ عمومی است و برای افراد و چیزهای فراوان به کار می‌رود؛ 本‏ برای کتاب‌ها است، 块‏ برای پول. 这‏ و 那‏ هم واژهٔ شمارش می‌گیرند: 这个‏, 那本书‏.",
+      "mistakeFa": "✗ 我有三朋友‏。 → ✓ 我有三个朋友‏。 و پیش از واژهٔ شمارش 两‏ می‌آید، نه 二‏: 两本书‏."
+    },
+    {
+      "id": "numbers",
+      "mark": "十",
+      "title": "Numbers to 99",
+      "level": "HSK 1",
+      "cat": "Numbers & time",
+      "oneLine": "Build numbers like a sum: 三十五 is three-ten-five.",
+      "pattern": "tens digit + 十 + units digit",
+      "explain": "Only ten words are needed up to 99. 十一 = 11, 二十 = 20, 九十九 = 99. When counting things, 2 becomes 两 before a measure word (两个), but stays 二 inside bigger numbers (十二, 二十).",
+      "examples": [
+        {
+          "ch": "我儿子十二岁。",
+          "py": "wǒ érzi shí'èr suì.",
+          "en": "My son is twelve.",
+          "fa": "پسرم دوازده‌ساله است."
+        },
+        {
+          "ch": "我们学校有八十个老师。",
+          "py": "wǒmen xuéxiào yǒu bāshí ge lǎoshī.",
+          "en": "Our school has eighty teachers.",
+          "fa": "مدرسه ما هشتاد تا معلم دارد."
+        },
+        {
+          "ch": "这个杯子九十九块。",
+          "py": "zhège bēizi jiǔshíjiǔ kuài.",
+          "en": "This cup is ninety-nine yuan.",
+          "fa": "این فنجان نود و نه یوان است."
+        }
+      ],
+      "mistake": "✗ 我有二个儿子。 → ✓ 我有两个儿子。",
+      "compare": [
+        {
+          "w": "二",
+          "gloss": "inside a number",
+          "glossFa": "در ترکیب اعداد و شمارش ساده",
+          "ex": "二十二"
+        },
+        {
+          "w": "两",
+          "gloss": "before a measure word",
+          "glossFa": "قبل از واژه شمارش (دو تا)",
+          "ex": "两个人"
+        }
+      ],
+      "titleFa": "اعداد تا 99",
+      "oneLineFa": "اعداد را مثل یک جمع بسازید: 三十五‏ یعنی سه-ده-پنج.",
+      "explainFa": "تا 99 فقط ده واژه لازم است. 十一‏ = 11, 二十‏ = 20, 九十九‏ = 99. هنگام شمردن چیزها، 2 پیش از واژهٔ شمارش 两‏ می‌شود (两个‏)، اما داخل اعداد بزرگ‌تر 二‏ می‌ماند (十二‏, 二十‏).",
+      "mistakeFa": "✗ 我有二个儿子。 → ✓ 我有两个儿子。"
+    },
+    {
+      "id": "money",
+      "mark": "块",
+      "title": "Prices · 多少钱",
+      "level": "HSK 1",
+      "cat": "Numbers & time",
+      "oneLine": "Number + 块 (+ 钱) — the everyday way to say a price.",
+      "pattern": "Thing + number + 块 (钱)",
+      "explain": "In speech a yuan is 块. Ask with 多少钱 and answer with the number and 块; 钱 at the end is optional. You will see 元 written on price tags — it is read 块 when spoken.",
+      "examples": [
+        {
+          "ch": "这个多少钱？",
+          "py": "zhège duōshao qián?",
+          "en": "How much is this?",
+          "fa": "قیمت این چقدر است؟"
+        },
+        {
+          "ch": "苹果五块钱。",
+          "py": "píngguǒ wǔ kuài qián.",
+          "en": "The apples are five yuan.",
+          "fa": "سیب‌ها پنج یوان هستند."
+        },
+        {
+          "ch": "我没有钱，我不买了。",
+          "py": "wǒ méiyǒu qián, wǒ bù mǎi le.",
+          "en": "I have no money, I won't buy it.",
+          "fa": "پول ندارم، دیگر نمی‌خرم."
+        }
+      ],
+      "mistake": "✗ 这个是多少钱吗？ → ✓ 这个多少钱？",
+      "titleFa": "قیمت‌ها · 多少钱‏",
+      "oneLineFa": "عدد + 块‏ (+ 钱‏) — شیوهٔ روزمرهٔ گفتن قیمت.",
+      "explainFa": "در گفتگو، یوان می‌شود 块‏. با 多少钱‏ بپرسید و با عدد و 块‏ پاسخ دهید؛ 钱‏ در پایان اختیاری است. روی برچسب‌های قیمت 元‏ را نوشته می‌بینید — اما در گفتار 块‏ خوانده می‌شود.",
+      "mistakeFa": "✗ 这个是多少钱吗？ → ✓ 这个多少钱？"
+    },
+    {
+      "id": "dates",
+      "mark": "月",
+      "title": "Dates · 年 月 号 星期",
+      "level": "HSK 1",
+      "cat": "Numbers & time",
+      "oneLine": "Big to small: year, month, day, weekday.",
+      "pattern": "… 年 + … 月 + … 号 + 星期 …",
+      "explain": "Chinese dates run from largest to smallest: 二〇二六年九月十号星期四. Months and weekdays are numbered: 一月 = January, 星期一 = Monday; Sunday is 星期天. Ask with 几: 几月几号？ 星期几？",
+      "examples": [
+        {
+          "ch": "今天几月几号？",
+          "py": "jīntiān jǐ yuè jǐ hào?",
+          "en": "What's the date today?",
+          "fa": "امروز چندمین ماه و چندم ماه است؟"
+        },
+        {
+          "ch": "明天星期几？",
+          "py": "míngtiān xīngqī jǐ?",
+          "en": "What day is it tomorrow?",
+          "fa": "فردا چندشنبه است؟"
+        },
+        {
+          "ch": "我九月一号去中国。",
+          "py": "wǒ jiǔ yuè yī hào qù Zhōngguó.",
+          "en": "I go to China on the first of September.",
+          "fa": "من اول سپتامبر به چین می‌روم."
+        }
+      ],
+      "mistake": "✗ 号十月九 → ✓ 九月十号. Month before day.",
+      "compare": [
+        {
+          "w": "一月",
+          "gloss": "January, a name",
+          "glossFa": "ماه ژانویه (نام ماه اول)",
+          "ex": "一月很冷"
+        },
+        {
+          "w": "一个月",
+          "gloss": "one month long",
+          "glossFa": "به مدت یک ماه (طول دوره)",
+          "ex": "我住了一个月"
+        }
+      ],
+      "titleFa": "تاریخ‌ها · 年‏ 月‏ 号‏ 星期‏",
+      "oneLineFa": "از بزرگ به کوچک: سال، ماه، روز، روز هفته.",
+      "explainFa": "تاریخ‌های چینی از بزرگ به کوچک می‌روند: 二‏〇二六年九月十号星期四‏. ماه‌ها و روزهای هفته شماره‌ای‌اند: 一月‏ = ژانویه، 星期一‏ = دوشنبه؛ یکشنبه 星期天‏ است. با 几‏ می‌پرسند: 几月几号‏？ 星期几‏？",
+      "mistakeFa": "✗ 号十月九‏ → ✓ 九月十号‏. ماه پیش از روز می‌آید."
+    },
+    {
+      "id": "clock",
+      "mark": "点",
+      "title": "Telling the time · 点 and 分钟",
+      "level": "HSK 1",
+      "cat": "Numbers & time",
+      "oneLine": "Number + 点 is the hour; add 上午 / 下午 for a.m. and p.m.",
+      "pattern": "(上午 / 中午 / 下午) + number + 点",
+      "explain": "三点 = three o'clock. The part of the day goes first: 下午三点. For a length of time use 分钟: 十分钟 (ten minutes). Ask the time with 几点.",
+      "examples": [
+        {
+          "ch": "现在上午十点。",
+          "py": "xiànzài shàngwǔ shí diǎn.",
+          "en": "It's ten in the morning.",
+          "fa": "الان ساعت ده صبح است."
+        },
+        {
+          "ch": "我们下午三点去。",
+          "py": "wǒmen xiàwǔ sān diǎn qù.",
+          "en": "We go at three in the afternoon.",
+          "fa": "ما ساعت سه بعدازظهر می‌رویم."
+        },
+        {
+          "ch": "请等五分钟。",
+          "py": "qǐng děng wǔ fēnzhōng.",
+          "en": "Please wait five minutes.",
+          "fa": "لطفاً پنج دقیقه صبر کنید."
+        }
+      ],
+      "mistake": "✗ 三点下午 → ✓ 下午三点.",
+      "compare": [
+        {
+          "w": "点",
+          "gloss": "what time",
+          "glossFa": "ساعت (لحظه زمانی)",
+          "ex": "下午三点"
+        },
+        {
+          "w": "分钟",
+          "gloss": "how long",
+          "glossFa": "دقیقه (طول مدت زمان)",
+          "ex": "看了十分钟"
+        }
+      ],
+      "titleFa": "گفتن ساعت · 点‏ و 分钟‏",
+      "oneLineFa": "عدد + 点‏ ساعت را می‌سازد؛ 上午‏ / 下午‏ را برای پیش‌ازظهر و بعدازظهر اضافه کن.",
+      "explainFa": "三点‏ = ساعت سه. بخشِ روز اول می‌آید: 下午三点‏. برای مدت زمان از 分钟‏ استفاده کن: 十分钟‏ (ده دقیقه). ساعت را با 几点‏ می‌پرسند.",
+      "mistakeFa": "✗ 三点下午 → ✓ 下午三点."
+    },
+    {
+      "id": "shi-de",
+      "mark": "的",
+      "title": "是……的 · when, where, how it happened",
+      "level": "HSK 1",
+      "cat": "Structure",
+      "oneLine": "For something already done, 是……的 puts the spotlight on the when, where or how.",
+      "pattern": "Subject + 是 + time / place / way + verb + 的",
+      "explain": "Both people know it happened; the question is about the details. 你是怎么来的？ — 我是坐飞机来的. 是 is often dropped in speech, 的 is not.",
+      "examples": [
+        {
+          "ch": "你是怎么来的？",
+          "py": "nǐ shì zěnme lái de?",
+          "en": "How did you get here?",
+          "fa": "چطور (با چه وسیله‌ای) آمدی؟"
+        },
+        {
+          "ch": "我是坐飞机来的。",
+          "py": "wǒ shì zuò fēijī lái de.",
+          "en": "I came by plane.",
+          "fa": "من با هواپیما آمدم."
+        },
+        {
+          "ch": "这本书是在北京买的。",
+          "py": "zhè běn shū shì zài Běijīng mǎi de.",
+          "en": "This book was bought in Beijing.",
+          "fa": "این کتاب در پکن خریداری شده است."
+        }
+      ],
+      "mistake": "✗ 我是坐飞机来。 → ✓ 我是坐飞机来的。 Don't drop the 的.",
+      "compare": [
+        {
+          "w": "是……的",
+          "gloss": "asks how, when, where",
+          "glossFa": "تأکید بر زمان، مکان یا روش انجام",
+          "ex": "你是怎么来的"
+        },
+        {
+          "w": "了",
+          "gloss": "just says it happened",
+          "glossFa": "صرفاً بیان وقوع رویداد",
+          "ex": "他来了"
+        }
+      ],
+      "titleFa": "是‏……的‏ · چه وقت، کجا، چگونه اتفاق افتاد",
+      "oneLineFa": "برای کاری که انجام شده، 是‏……的‏ بر چه وقت، کجا یا چگونه بودنش تأکید می‌کند.",
+      "explainFa": "هر دو طرف می‌دانند که اتفاق افتاده؛ پرسش دربارهٔ جزئیات است. 你是怎么来的‏？ — 我是坐飞机来的‏. 是‏ در گفتار اغلب حذف می‌شود، اما 的‏ حذف نمی‌شود.",
+      "mistakeFa": "✗ 我是坐飞机来‏。 → ✓ 我是坐飞机来的‏。 的‏ را حذف نکنید."
+    },
+    {
+      "id": "ba-particle",
+      "mark": "吧",
+      "title": "吧 · let's, I suppose",
+      "level": "HSK 1",
+      "cat": "Particles",
+      "oneLine": "吧 softens: a suggestion (let's), or a guess you want confirmed.",
+      "pattern": "Suggestion + 吧 · Guess + 吧？",
+      "explain": "我们走吧 = let's go. 你是老师吧？ = you're a teacher, right? 吧 is gentler than 吗: you already expect the answer to be yes.",
+      "examples": [
+        {
+          "ch": "我们回家吧。",
+          "py": "wǒmen huí jiā ba.",
+          "en": "Let's go home.",
+          "fa": "بیا برویم خانه."
+        },
+        {
+          "ch": "你是中国人吧？",
+          "py": "nǐ shì Zhōngguó rén ba?",
+          "en": "You're Chinese, aren't you?",
+          "fa": "اهل چین هستی، درسته؟"
+        },
+        {
+          "ch": "明天再说吧。",
+          "py": "míngtiān zài shuō ba.",
+          "en": "Let's talk about it tomorrow.",
+          "fa": "بگذار فردا درباره‌اش صحبت کنیم."
+        }
+      ],
+      "mistake": "吧 in a real yes/no question sounds like guessing — to ask neutrally, use 吗.",
+      "compare": [
+        {
+          "w": "吧",
+          "gloss": "I expect yes",
+          "glossFa": "پیشنهاد یا حدس قریب به یقین",
+          "ex": "你是老师吧"
+        },
+        {
+          "w": "吗",
+          "gloss": "a yes-no question",
+          "glossFa": "سؤال ساده بله یا خیر",
+          "ex": "你是老师吗"
+        }
+      ],
+      "titleFa": "吧‏ · برویم، به‌گمانم",
+      "oneLineFa": "吧‏ جمله را ملایم می‌کند: یک پیشنهاد (برویم)، یا حدسی که می‌خواهی تأییدش را بگیری.",
+      "explainFa": "我们走吧‏ = برویم. 你是老师吧‏？ = تو معلمی، این‌طور نیست؟ 吧‏ ملایم‌تر از 吗‏ است: پاسخ مثبت را از قبل انتظار داری.",
+      "mistakeFa": "吧‏ در پرسش بله/خیرِ واقعی حسِ حدس زدن می‌دهد — برای پرسش بی‌طرف از 吗‏ استفاده کن."
+    }
+  ]
+}

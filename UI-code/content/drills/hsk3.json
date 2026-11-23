@@ -1,0 +1,3324 @@
+{
+  "lessons": {
+    "10": {
+      "grammar": [
+        "zhe-manner"
+      ],
+      "lines": {
+        "zhe-manner": 3
+      },
+      "words": {
+        "向": {
+          "en": {
+            "en": "towards",
+            "zh": "朝着（某个方向）",
+            "pt": "em direção a, para",
+            "fr": "vers",
+            "es": "hacia",
+            "vi": "về phía, hướng về"
+          }
+        },
+        "中间": {
+          "en": {
+            "en": "middle; in the middle (of)",
+            "zh": "当中的位置",
+            "pt": "meio; no meio (de)",
+            "fr": "milieu ; au milieu (de)",
+            "es": "medio; en medio (de)",
+            "vi": "ở giữa"
+          }
+        }
+      }
+    },
+    "11": {
+      "groups": [
+        {
+          "id": "food",
+          "words": [
+            "香蕉",
+            "面包",
+            "饮料"
+          ],
+          "title": {
+            "en": "Food and drink",
+            "zh": "吃的和喝的",
+            "pt": "Comida e bebida",
+            "fr": "À manger et à boire",
+            "es": "Comida y bebida",
+            "vi": "Đồ ăn, thức uống",
+            "fa": "吃的和喝的"
+          },
+          "note": {
+            "en": "面包 is bread and 面条 is noodles: both start with 面, so check the second character.",
+            "zh": "「面包」和「面条」第一个字都是「面」，要看第二个字才分得清。",
+            "pt": "面包 é pão e 面条 é macarrão: os dois começam com 面, então olhe o segundo caractere.",
+            "fr": "面包, c'est le pain, et 面条, les nouilles : les deux commencent par 面, regardez le second caractère.",
+            "es": "面包 es pan y 面条 son fideos: los dos empiezan con 面, así que fíjate en el segundo carácter.",
+            "vi": "面包 là bánh mì, 面条 là mì sợi: cả hai đều bắt đầu bằng 面, nên hãy nhìn chữ thứ hai.",
+            "fa": "「面包」和「面条」第一个字都是「面」，要看第二个字才分得清。"
+          },
+          "table": true,
+          "extra": [
+            "面条"
+          ]
+        }
+      ],
+      "grammar": [],
+      "cards": [
+        {
+          "title": {
+            "en": "一共 + amount · in all",
+            "zh": "一共 + 总数",
+            "pt": "一共 + total · ao todo",
+            "fr": "一共 + total · en tout",
+            "es": "一共 + total · en total",
+            "vi": "一共 + tổng số · tất cả",
+            "fa": "一共 + amount · in all"
+          },
+          "mark": "一共",
+          "blocks": [
+            "一共",
+            {
+              "en": "amount",
+              "zh": "数目",
+              "pt": "quantidade",
+              "fr": "quantité",
+              "es": "cantidad",
+              "vi": "số lượng",
+              "fa": "数目"
+            }
+          ],
+          "line": 3,
+          "example": {
+            "ch": "一共多少钱？",
+            "py": "yígòng duōshao qián?",
+            "en": {
+              "en": "How much is it in all?",
+              "zh": "一共多少钱？",
+              "pt": "Quanto dá ao todo?",
+              "fr": "Ça fait combien en tout ?",
+              "es": "¿Cuánto es en total?",
+              "vi": "Tất cả bao nhiêu tiền?",
+              "fa": "一共多少钱？"
+            }
+          },
+          "note": {
+            "en": "一共 goes before the total, or before the verb if there is one: 我们一共买了三个.",
+            "zh": "「一共」放在总数前面；句子里有动词时，放在动词前面：我们一共买了三个。",
+            "pt": "一共 vem antes do total, ou antes do verbo, se houver um: 我们一共买了三个.",
+            "fr": "一共 se place devant le total, ou devant le verbe s'il y en a un : 我们一共买了三个.",
+            "es": "一共 va antes del total, o antes del verbo si hay uno: 我们一共买了三个.",
+            "vi": "一共 đứng trước tổng số, hoặc trước động từ nếu có: 我们一共买了三个.",
+            "fa": "「一共」放在总数前面；句子里有动词时，放在动词前面：我们一共买了三个。"
+          }
+        }
+      ]
+    },
+    "12": {
+      "groups": [
+        {
+          "id": "money",
+          "words": [
+            "元",
+            "块",
+            "角"
+          ],
+          "title": {
+            "en": "Chinese money",
+            "zh": "钱的单位",
+            "pt": "O dinheiro chinês",
+            "fr": "La monnaie chinoise",
+            "es": "El dinero chino",
+            "vi": "Tiền Trung Quốc",
+            "fa": "钱的单位"
+          },
+          "note": {
+            "en": "Prices say 元, but people say 块; ten 角 make one 元.",
+            "zh": "价钱上写「元」，说话时常说「块」；十角就是一元。",
+            "pt": "Nos preços aparece 元, mas na conversa se diz 块; dez 角 fazem um 元.",
+            "fr": "Les prix indiquent 元, mais à l'oral on dit 块 ; dix 角 font un 元.",
+            "es": "En los precios aparece 元, pero al hablar se dice 块; diez 角 son un 元.",
+            "vi": "Trên giá ghi 元, nhưng khi nói người ta hay nói 块; mười 角 là một 元.",
+            "fa": "价钱上写「元」，说话时常说「块」；十角就是一元。"
+          },
+          "table": false
+        },
+        {
+          "id": "lend-return",
+          "words": [
+            "借",
+            "还"
+          ],
+          "title": {
+            "en": "Lend and pay back",
+            "zh": "借和还",
+            "pt": "Emprestar e devolver",
+            "fr": "Prêter et rendre",
+            "es": "Prestar y devolver",
+            "vi": "Cho mượn và trả lại",
+            "fa": "借和还"
+          },
+          "note": {
+            "en": "借 can mean lend or borrow; 还 is read huán when it means give back: 明天还你.",
+            "zh": "「借」可以是借给别人，也可以是向别人借；「还」读 huán 的时候是还回去：明天还你。",
+            "pt": "借 pode ser emprestar ou pegar emprestado; 还 se lê huán quando é devolver: 明天还你.",
+            "fr": "借 veut dire prêter ou emprunter ; 还 se lit huán quand il veut dire rendre : 明天还你.",
+            "es": "借 puede ser prestar o pedir prestado; 还 se lee huán cuando significa devolver: 明天还你.",
+            "vi": "借 có thể là cho mượn hoặc đi mượn; 还 đọc là huán khi có nghĩa là trả lại: 明天还你.",
+            "fa": "「借」可以是借给别人，也可以是向别人借；「还」读 huán 的时候是还回去：明天还你。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "verb-redup"
+      ],
+      "lines": {
+        "verb-redup": 3
+      }
+    },
+    "13": {
+      "groups": [
+        {
+          "id": "kitchen",
+          "words": [
+            "冰箱",
+            "碗",
+            "盘子"
+          ],
+          "title": {
+            "en": "In the kitchen",
+            "zh": "厨房里",
+            "pt": "Na cozinha",
+            "fr": "Dans la cuisine",
+            "es": "En la cocina",
+            "vi": "Trong bếp",
+            "fa": "厨房里"
+          },
+          "note": {
+            "en": "碗 is a bowl, and it also counts bowls of food: 一碗米饭 is a bowl of rice.",
+            "zh": "「碗」是吃饭用的碗，也能用来数：一碗米饭。",
+            "pt": "碗 é tigela e também serve para contar: 一碗米饭 é uma tigela de arroz.",
+            "fr": "碗, c'est un bol, et il sert aussi à compter : 一碗米饭, un bol de riz.",
+            "es": "碗 es un tazón y también sirve para contar: 一碗米饭 es un tazón de arroz.",
+            "vi": "碗 là cái bát, và cũng dùng để đếm: 一碗米饭 là một bát cơm.",
+            "fa": "「碗」是吃饭用的碗，也能用来数：一碗米饭。"
+          },
+          "table": true,
+          "extra": [
+            "杯子"
+          ]
+        }
+      ],
+      "lines": {
+        "zhe-exist": 0
+      },
+      "words": {
+        "冰箱": {
+          "en": {
+            "en": "fridge",
+            "zh": "冷藏食物的电器",
+            "pt": "geladeira",
+            "fr": "réfrigérateur, frigo",
+            "es": "refrigerador",
+            "vi": "tủ lạnh"
+          }
+        }
+      }
+    },
+    "14": {
+      "groups": [
+        {
+          "id": "hungry-full",
+          "words": [
+            "饿",
+            "饱",
+            "渴"
+          ],
+          "title": {
+            "en": "Hungry, full, thirsty",
+            "zh": "饿、饱、渴",
+            "pt": "Com fome, satisfeito, com sede",
+            "fr": "Avoir faim, être rassasié, avoir soif",
+            "es": "Con hambre, lleno, con sed",
+            "vi": "Đói, no, khát",
+            "fa": "饿、饱、渴"
+          },
+          "note": {
+            "en": "饿 and 饱 are opposites, and all three work without 是: 我饿了, 我饱了, 我很渴.",
+            "zh": "「饿」和「饱」意思相反；这三个词前面都不用「是」：我饿了、我饱了、我很渴。",
+            "pt": "饿 e 饱 são opostos, e os três dispensam 是: 我饿了, 我饱了, 我很渴.",
+            "fr": "饿 et 饱 sont des contraires, et les trois se passent de 是 : 我饿了, 我饱了, 我很渴.",
+            "es": "饿 y 饱 son opuestos, y los tres van sin 是: 我饿了, 我饱了, 我很渴.",
+            "vi": "饿 và 饱 trái nghĩa nhau, và cả ba đều không cần 是: 我饿了, 我饱了, 我很渴.",
+            "fa": "「饿」和「饱」意思相反；这三个词前面都不用「是」：我饿了、我饱了、我很渴。"
+          },
+          "table": true,
+          "extra": [
+            "喝",
+            "包"
+          ]
+        }
+      ],
+      "lines": {
+        "jile": 0
+      },
+      "words": {
+        "饱": {
+          "en": {
+            "en": "full (after eating)",
+            "zh": "吃够了，不想再吃",
+            "pt": "satisfeito (depois de comer)",
+            "fr": "rassasié",
+            "es": "lleno (después de comer)",
+            "vi": "no (sau khi ăn)"
+          }
+        }
+      }
+    },
+    "15": {
+      "groups": [
+        {
+          "id": "restaurant",
+          "words": [
+            "菜单",
+            "面条",
+            "筷子"
+          ],
+          "title": {
+            "en": "At the restaurant",
+            "zh": "在饭店",
+            "pt": "No restaurante",
+            "fr": "Au restaurant",
+            "es": "En el restaurante",
+            "vi": "Ở nhà hàng",
+            "fa": "在饭店"
+          },
+          "note": {
+            "en": "筷子 come in pairs, so you ask for 一双筷子.",
+            "zh": "筷子是两根一起用的，所以说「一双筷子」。",
+            "pt": "筷子 vêm em pares, por isso se pede 一双筷子.",
+            "fr": "Les 筷子 vont par paires, on demande donc 一双筷子.",
+            "es": "Los 筷子 vienen en pares, por eso se pide 一双筷子.",
+            "vi": "筷子 đi theo đôi, nên ta nói 一双筷子.",
+            "fa": "筷子是两根一起用的，所以说「一双筷子」。"
+          },
+          "table": true,
+          "extra": [
+            "面包",
+            "盘子"
+          ]
+        }
+      ],
+      "lines": {
+        "haishi-huozhe": 0
+      }
+    },
+    "16": {
+      "groups": [
+        {
+          "id": "clean",
+          "words": [
+            "打扫",
+            "干净"
+          ],
+          "title": {
+            "en": "Clean: the job and the result",
+            "zh": "打扫和干净",
+            "pt": "Limpar: a ação e o resultado",
+            "fr": "Nettoyer : l'action et le résultat",
+            "es": "Limpiar: la acción y el resultado",
+            "vi": "Dọn dẹp: việc làm và kết quả",
+            "fa": "打扫和干净"
+          },
+          "note": {
+            "en": "打扫 is the work of cleaning and 干净 is how it ends up: 把桌子打扫干净.",
+            "zh": "「打扫」是动作，「干净」是结果：把桌子打扫干净。",
+            "pt": "打扫 é o trabalho de limpar e 干净 é como fica no fim: 把桌子打扫干净.",
+            "fr": "打扫, c'est le travail de nettoyage, et 干净, le résultat : 把桌子打扫干净.",
+            "es": "打扫 es el trabajo de limpiar y 干净 es cómo queda al final: 把桌子打扫干净.",
+            "vi": "打扫 là việc dọn dẹp, còn 干净 là kết quả sạch sẽ: 把桌子打扫干净.",
+            "fa": "「打扫」是动作，「干净」是结果：把桌子打扫干净。"
+          },
+          "table": false
+        },
+        {
+          "id": "open-close",
+          "words": [
+            "开",
+            "关"
+          ],
+          "title": {
+            "en": "Open or close, on or off",
+            "zh": "开和关",
+            "pt": "Abrir e fechar, ligar e desligar",
+            "fr": "Ouvrir, fermer, allumer, éteindre",
+            "es": "Abrir y cerrar, prender y apagar",
+            "vi": "Mở và đóng, bật và tắt",
+            "fa": "开和关"
+          },
+          "note": {
+            "en": "开 opens or turns on, 关 closes or turns off: 开空调, 关门.",
+            "zh": "「开」是打开，「关」是关上：开空调、关门。",
+            "pt": "开 abre ou liga, 关 fecha ou desliga: 开空调, 关门.",
+            "fr": "开 ouvre ou allume, 关 ferme ou éteint : 开空调, 关门.",
+            "es": "开 abre o prende, 关 cierra o apaga: 开空调, 关门.",
+            "vi": "开 là mở hoặc bật, 关 là đóng hoặc tắt: 开空调, 关门.",
+            "fa": "「开」是打开，「关」是关上：开空调、关门。"
+          },
+          "table": false
+        }
+      ],
+      "lines": {
+        "ba": 1
+      },
+      "words": {
+        "干净": {
+          "en": {
+            "en": "clean (not dirty)",
+            "zh": "没有脏东西",
+            "pt": "limpo",
+            "fr": "propre",
+            "es": "limpio",
+            "vi": "sạch sẽ"
+          }
+        }
+      }
+    },
+    "17": {
+      "groups": [
+        {
+          "id": "bathroom",
+          "words": [
+            "洗手间",
+            "刷牙",
+            "洗澡"
+          ],
+          "title": {
+            "en": "In the bathroom",
+            "zh": "在洗手间",
+            "pt": "No banheiro",
+            "fr": "Dans la salle de bain",
+            "es": "En el baño",
+            "vi": "Trong phòng tắm",
+            "fa": "在洗手间"
+          },
+          "note": {
+            "en": "洗手间 and 洗澡 both start with 洗, to wash: 洗手间 is literally the wash-hands room.",
+            "zh": "「洗手间」和「洗澡」都有「洗」字：洗手间就是洗手的房间。",
+            "pt": "洗手间 e 洗澡 começam com 洗, lavar: 洗手间 é, ao pé da letra, a sala de lavar as mãos.",
+            "fr": "洗手间 et 洗澡 commencent par 洗, laver : 洗手间, c'est mot à mot la pièce où l'on se lave les mains.",
+            "es": "洗手间 y 洗澡 empiezan con 洗, lavar: 洗手间 es, literalmente, el cuarto para lavarse las manos.",
+            "vi": "洗手间 và 洗澡 đều bắt đầu bằng 洗 (rửa): 洗手间 nghĩa đen là phòng rửa tay.",
+            "fa": "「洗手间」和「洗澡」都有「洗」字：洗手间就是洗手的房间。"
+          },
+          "table": true,
+          "extra": [
+            "房间"
+          ]
+        }
+      ],
+      "grammar": [
+        "mei"
+      ],
+      "lines": {
+        "mei": 2
+      }
+    },
+    "18": {
+      "groups": [
+        {
+          "id": "illness",
+          "words": [
+            "感冒",
+            "发烧",
+            "疼"
+          ],
+          "title": {
+            "en": "Feeling ill",
+            "zh": "生病的时候",
+            "pt": "Quando você fica doente",
+            "fr": "Quand on est malade",
+            "es": "Cuando te enfermas",
+            "vi": "Khi bị ốm",
+            "fa": "生病的时候"
+          },
+          "note": {
+            "en": "Say where it hurts before 疼: 这里疼 means it hurts here.",
+            "zh": "哪儿疼，就把哪儿放在「疼」前面：这里疼。",
+            "pt": "O lugar que dói vem antes de 疼: 这里疼 quer dizer 'dói aqui'.",
+            "fr": "L'endroit qui fait mal se place avant 疼 : 这里疼 veut dire « j'ai mal ici ».",
+            "es": "El lugar que duele va antes de 疼: 这里疼 quiere decir «me duele aquí».",
+            "vi": "Chỗ đau đứng trước 疼: 这里疼 nghĩa là 'đau ở đây'.",
+            "fa": "哪儿疼，就把哪儿放在「疼」前面：这里疼。"
+          },
+          "table": true,
+          "extra": [
+            "发现"
+          ]
+        }
+      ],
+      "lines": {
+        "le-change": 0
+      },
+      "words": {
+        "检查": {
+          "en": {
+            "en": "to examine; to check",
+            "zh": "仔细查看有没有问题",
+            "pt": "examinar, verificar",
+            "fr": "examiner, vérifier",
+            "es": "examinar, revisar",
+            "vi": "khám, kiểm tra"
+          }
+        }
+      }
+    },
+    "19": {
+      "groups": [
+        {
+          "id": "face",
+          "words": [
+            "头发",
+            "鼻子",
+            "耳朵",
+            "嘴",
+            "脸"
+          ],
+          "title": {
+            "en": "Your head and face",
+            "zh": "头和脸",
+            "pt": "Cabeça e rosto",
+            "fr": "La tête et le visage",
+            "es": "La cabeza y la cara",
+            "vi": "Đầu và mặt",
+            "fa": "头和脸"
+          },
+          "note": {
+            "en": "头发, 鼻子 and 耳朵 end in a light syllable with no tone: tóufa, bízi, ěrduo.",
+            "zh": "「头发」「鼻子」「耳朵」的第二个字都读轻声：tóufa、bízi、ěrduo。",
+            "pt": "头发, 鼻子 e 耳朵 terminam numa sílaba leve, sem tom: tóufa, bízi, ěrduo.",
+            "fr": "头发, 鼻子 et 耳朵 finissent par une syllabe légère, sans ton : tóufa, bízi, ěrduo.",
+            "es": "头发, 鼻子 y 耳朵 terminan en una sílaba suave, sin tono: tóufa, bízi, ěrduo.",
+            "vi": "头发, 鼻子 và 耳朵 kết thúc bằng một âm nhẹ, không mang thanh điệu: tóufa, bízi, ěrduo.",
+            "fa": "「头发」「鼻子」「耳朵」的第二个字都读轻声：tóufa、bízi、ěrduo。"
+          },
+          "table": true,
+          "extra": [
+            "最",
+            "两"
+          ]
+        }
+      ],
+      "grammar": [
+        "adj-redup"
+      ],
+      "lines": {
+        "adj-redup": 1
+      }
+    },
+    "20": {
+      "groups": [
+        {
+          "id": "fat-thin",
+          "words": [
+            "胖",
+            "瘦"
+          ],
+          "title": {
+            "en": "Fat and thin",
+            "zh": "胖和瘦",
+            "pt": "Gordo e magro",
+            "fr": "Gros et mince",
+            "es": "Gordo y flaco",
+            "vi": "Béo và gầy",
+            "fa": "胖和瘦"
+          },
+          "note": {
+            "en": "胖 is fat and 瘦 is thin: 我胖了 means I've put on weight, 我瘦了 that I've lost some.",
+            "zh": "「胖」和「瘦」意思相反：「我胖了」是长胖了，「我瘦了」是变瘦了。",
+            "pt": "胖 é gordo e 瘦 é magro: 我胖了 é 'engordei' e 我瘦了, 'emagreci'.",
+            "fr": "胖, c'est gros, et 瘦, mince : 我胖了 veut dire « j'ai grossi », 我瘦了 « j'ai maigri ».",
+            "es": "胖 es gordo y 瘦 es flaco: 我胖了 es «engordé» y 我瘦了, «adelgacé».",
+            "vi": "胖 là béo, 瘦 là gầy: 我胖了 là 'tôi béo lên', 我瘦了 là 'tôi gầy đi'.",
+            "fa": "「胖」和「瘦」意思相反：「我胖了」是长胖了，「我瘦了」是变瘦了。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "le-change"
+      ],
+      "lines": {
+        "le-change": 0
+      },
+      "words": {
+        "健康": {
+          "en": {
+            "en": "healthy; health",
+            "zh": "身体好；对身体有好处",
+            "pt": "saudável; saúde",
+            "fr": "sain ; santé",
+            "es": "saludable; salud",
+            "vi": "khỏe mạnh; sức khỏe"
+          }
+        }
+      }
+    },
+    "21": {
+      "groups": [
+        {
+          "id": "school",
+          "words": [
+            "校长",
+            "年级",
+            "班",
+            "黑板"
+          ],
+          "title": {
+            "en": "At school",
+            "zh": "在学校",
+            "pt": "Na escola",
+            "fr": "À l'école",
+            "es": "En la escuela",
+            "vi": "Ở trường",
+            "fa": "در مدرسه"
+          },
+          "note": {
+            "en": "年级 is your year at school and 班 is your class in it: 三年级二班 is year 3, class 2.",
+            "zh": "「年级」是第几年，「班」是这个年级里的哪个班：三年级二班。",
+            "pt": "年级 é o ano escolar e 班 é a turma dentro dele: 三年级二班 é o 3º ano, turma 2.",
+            "fr": "年级, c'est l'année d'études, et 班, la classe dans cette année : 三年级二班, c'est la classe 2 de 3e année.",
+            "es": "年级 es el año escolar y 班 es la clase dentro de ese año: 三年级二班 es tercer año, clase 2.",
+            "vi": "年级 là khối lớp, còn 班 là lớp trong khối đó: 三年级二班 là lớp 2 của khối 3.",
+            "fa": "「年级」是第几年，「班」是这个年级里的哪个班：三年级二班。"
+          },
+          "table": true,
+          "extra": [
+            "年轻",
+            "搬"
+          ]
+        }
+      ],
+      "grammar": [],
+      "cards": [
+        {
+          "title": {
+            "en": "教 + who + what",
+            "zh": "教 + 谁 + 什么",
+            "pt": "教 + quem + o quê",
+            "fr": "教 + qui + quoi",
+            "es": "教 + quién + qué",
+            "vi": "教 + ai + cái gì",
+            "fa": "教 + 谁 + 什么"
+          },
+          "mark": "教",
+          "blocks": [
+            "教",
+            {
+              "en": "who",
+              "zh": "谁",
+              "pt": "quem",
+              "fr": "qui",
+              "es": "quién",
+              "vi": "ai",
+              "fa": "谁"
+            },
+            {
+              "en": "what",
+              "zh": "什么",
+              "pt": "o quê",
+              "fr": "quoi",
+              "es": "qué",
+              "vi": "cái gì",
+              "fa": "什么"
+            }
+          ],
+          "line": 3,
+          "example": {
+            "ch": "她教我们数学。",
+            "py": "tā jiāo wǒmen shùxué.",
+            "en": {
+              "en": "She teaches us maths.",
+              "zh": "她教我们数学。",
+              "pt": "Ela ensina matemática para a gente.",
+              "fr": "Elle nous apprend les maths.",
+              "es": "Ella nos enseña matemáticas.",
+              "vi": "Cô ấy dạy chúng tôi môn toán.",
+              "fa": "她教我们数学。"
+            }
+          },
+          "note": {
+            "en": "教 and 借 can take two objects, who first and then what: 教你们汉语, 借你一百元.",
+            "zh": "「教」和「借」后面可以带两个宾语，先说谁，再说什么：教你们汉语、借你一百元。",
+            "pt": "教 e 借 podem levar dois complementos, primeiro quem e depois o quê: 教你们汉语, 借你一百元.",
+            "fr": "教 et 借 peuvent avoir deux compléments, d'abord qui, puis quoi : 教你们汉语, 借你一百元.",
+            "es": "教 y 借 pueden llevar dos complementos, primero a quién y luego qué: 教你们汉语, 借你一百元.",
+            "vi": "教 và 借 có thể có hai tân ngữ, trước là ai, sau là cái gì: 教你们汉语, 借你一百元.",
+            "fa": "「教」和「借」后面可以带两个宾语，先说谁，再说什么：教你们汉语、借你一百元。"
+          }
+        }
+      ],
+      "words": {
+        "校长": {
+          "en": {
+            "en": "principal; head teacher",
+            "zh": "学校的负责人",
+            "pt": "diretor (da escola)",
+            "fr": "directeur (d'école)",
+            "es": "director (de escuela)",
+            "vi": "hiệu trưởng"
+          }
+        },
+        "班": {
+          "en": {
+            "en": "class (at school)",
+            "zh": "班级",
+            "pt": "turma",
+            "fr": "classe",
+            "es": "clase, grupo (en la escuela)",
+            "vi": "lớp"
+          }
+        }
+      }
+    },
+    "22": {
+      "groups": [
+        {
+          "id": "easy-hard",
+          "words": [
+            "容易",
+            "难"
+          ],
+          "title": {
+            "en": "Easy or hard",
+            "zh": "容易和难",
+            "pt": "Fácil ou difícil",
+            "fr": "Facile ou difficile",
+            "es": "Fácil o difícil",
+            "vi": "Dễ hay khó",
+            "fa": "容易和难"
+          },
+          "note": {
+            "en": "容易 and 难 are opposites, and 难 (hard) sounds just like 南 (south): nán.",
+            "zh": "「容易」和「难」意思相反；「难」和「南」读音一样，都读 nán。",
+            "pt": "容易 e 难 são opostos, e 难 (difícil) soa igual a 南 (sul): nán.",
+            "fr": "容易 et 难 sont des contraires, et 难 (difficile) se prononce comme 南 (sud) : nán.",
+            "es": "容易 y 难 son opuestos, y 难 (difícil) suena igual que 南 (sur): nán.",
+            "vi": "容易 và 难 trái nghĩa nhau, và 难 (khó) đọc giống hệt 南 (nam): nán.",
+            "fa": "「容易」和「难」意思相反；「难」和「南」读音一样，都读 nán。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "potential"
+      ],
+      "lines": {
+        "potential": 2
+      }
+    },
+    "23": {
+      "groups": [
+        {
+          "id": "chinese",
+          "words": [
+            "汉语",
+            "中文",
+            "普通话"
+          ],
+          "title": {
+            "en": "Words for Chinese",
+            "zh": "汉语、中文、普通话",
+            "pt": "Nomes do chinês",
+            "fr": "Dire « chinois »",
+            "es": "Nombres del chino",
+            "vi": "Các cách gọi tiếng Trung",
+            "fa": "汉语、中文、普通话"
+          },
+          "note": {
+            "en": "汉语 and 中文 both mean the Chinese language; 普通话 is Mandarin, the standard spoken form.",
+            "zh": "「汉语」和「中文」说的都是这门语言；「普通话」是标准的汉语口语。",
+            "pt": "汉语 e 中文 significam a língua chinesa; 普通话 é o mandarim, a forma falada padrão.",
+            "fr": "汉语 et 中文 désignent la langue chinoise ; 普通话, c'est le mandarin, la forme parlée standard.",
+            "es": "汉语 y 中文 significan la lengua china; 普通话 es el mandarín, la forma hablada estándar.",
+            "vi": "汉语 và 中文 đều là tiếng Trung; 普通话 là tiếng phổ thông, cách nói chuẩn.",
+            "fa": "「汉语」和「中文」说的都是这门语言；「普通话」是标准的汉语口语。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "hen-adj"
+      ],
+      "lines": {
+        "hen-adj": 4
+      }
+    },
+    "24": {
+      "lines": {
+        "geng-hai": 3
+      },
+      "words": {
+        "成绩": {
+          "en": {
+            "en": "grade; results (at school)",
+            "zh": "考试或学习的分数",
+            "pt": "nota, resultado",
+            "fr": "note, résultats",
+            "es": "calificación, nota",
+            "vi": "điểm số, kết quả học tập"
+          }
+        },
+        "提高": {
+          "en": {
+            "en": "to improve; to raise",
+            "zh": "变得比原来高、好",
+            "pt": "melhorar, aumentar",
+            "fr": "améliorer, augmenter",
+            "es": "mejorar, subir",
+            "vi": "nâng cao, tăng lên"
+          }
+        }
+      }
+    },
+    "25": {
+      "grammar": [],
+      "cards": [
+        {
+          "title": {
+            "en": "以前的 + noun · from the past",
+            "zh": "以前的 / 过去的 + 名词",
+            "pt": "以前的 + substantivo · do passado",
+            "fr": "以前的 + nom · d'autrefois",
+            "es": "以前的 + sustantivo · del pasado",
+            "vi": "以前的 + danh từ · ngày xưa",
+            "fa": "以前的 + noun · from the past"
+          },
+          "mark": "的",
+          "blocks": [
+            "以前 / 过去",
+            "的",
+            {
+              "en": "noun",
+              "zh": "名词",
+              "pt": "substantivo",
+              "fr": "nom",
+              "es": "sustantivo",
+              "vi": "danh từ",
+              "fa": "名词"
+            }
+          ],
+          "line": 1,
+          "example": {
+            "ch": "我以前的学校",
+            "py": "wǒ yǐqián de xuéxiào",
+            "en": {
+              "en": "my old school",
+              "zh": "我以前的学校",
+              "pt": "minha antiga escola",
+              "fr": "mon ancienne école",
+              "es": "mi antigua escuela",
+              "vi": "trường cũ của tôi",
+              "fa": "我以前的学校"
+            }
+          },
+          "note": {
+            "en": "Put 以前的 or 过去的 before a noun; if the noun is clear, you can leave it out: 我的衣服就是过去的.",
+            "zh": "「以前的」「过去的」放在名词前面；名词清楚的时候可以不说：我的衣服就是过去的。",
+            "pt": "Coloque 以前的 ou 过去的 antes do substantivo; se ele já estiver claro, pode deixá-lo de fora: 我的衣服就是过去的.",
+            "fr": "Placez 以前的 ou 过去的 devant le nom ; si le nom est évident, on peut l'omettre : 我的衣服就是过去的.",
+            "es": "Pon 以前的 o 过去的 antes del sustantivo; si ya está claro, puedes omitirlo: 我的衣服就是过去的.",
+            "vi": "Đặt 以前的 hoặc 过去的 trước danh từ; khi đã rõ thì có thể bỏ danh từ đi: 我的衣服就是过去的.",
+            "fa": "「以前的」「过去的」放在名词前面；名词清楚的时候可以不说：我的衣服就是过去的。"
+          }
+        }
+      ]
+    },
+    "26": {
+      "groups": [
+        {
+          "id": "schoolwork",
+          "words": [
+            "作业",
+            "练习",
+            "复习"
+          ],
+          "title": {
+            "en": "Schoolwork",
+            "zh": "作业、练习、复习",
+            "pt": "Dever de casa e estudo",
+            "fr": "Le travail scolaire",
+            "es": "Tareas y estudio",
+            "vi": "Bài vở",
+            "fa": "作业、练习、复习"
+          },
+          "note": {
+            "en": "练习 and 复习 end in 习 like 学习: 练习 is to practise, 复习 is to go over what you learned.",
+            "zh": "「练习」「复习」和「学习」一样都有「习」：练习是多练，复习是把学过的再学一遍。",
+            "pt": "练习 e 复习 terminam em 习, como 学习: 练习 é praticar e 复习 é revisar o que você já aprendeu.",
+            "fr": "练习 et 复习 finissent par 习, comme 学习 : 练习, c'est s'entraîner, 复习, revoir ce qu'on a appris.",
+            "es": "练习 y 复习 terminan en 习, como 学习: 练习 es practicar y 复习 es repasar lo aprendido.",
+            "vi": "练习 và 复习 đều có chữ 习 giống 学习: 练习 là luyện tập, 复习 là ôn lại bài đã học.",
+            "fa": "「练习」「复习」和「学习」一样都有「习」：练习是多练，复习是把学过的再学一遍。"
+          },
+          "table": true,
+          "extra": [
+            "学习"
+          ]
+        }
+      ],
+      "grammar": [
+        "cai-jiu"
+      ],
+      "lines": {
+        "cai-jiu": 3
+      },
+      "words": {
+        "努力": {
+          "en": {
+            "en": "hard-working; to work hard",
+            "zh": "用心、尽力地做",
+            "pt": "esforçado; se esforçar",
+            "fr": "travailleur ; faire des efforts",
+            "es": "esforzado; esforzarse",
+            "vi": "chăm chỉ, cố gắng"
+          }
+        },
+        "复习": {
+          "en": {
+            "en": "to review (what you learned)",
+            "zh": "把学过的再学一遍",
+            "pt": "revisar (a matéria)",
+            "fr": "réviser (ses leçons)",
+            "es": "repasar (lo aprendido)",
+            "vi": "ôn tập, ôn bài"
+          }
+        }
+      }
+    },
+    "27": {
+      "groups": [
+        {
+          "id": "worry",
+          "words": [
+            "担心",
+            "害怕",
+            "放心"
+          ],
+          "title": {
+            "en": "Worried, scared, at ease",
+            "zh": "担心、害怕、放心",
+            "pt": "Preocupado, com medo, tranquilo",
+            "fr": "Inquiet, effrayé, rassuré",
+            "es": "Preocupado, con miedo, tranquilo",
+            "vi": "Lo lắng, sợ, yên tâm",
+            "fa": "担心、害怕、放心"
+          },
+          "note": {
+            "en": "担心 and 放心 are opposites: 别担心 and 放心吧 both mean don't worry.",
+            "zh": "「担心」和「放心」意思相反：「别担心」和「放心吧」都是叫人不要担心。",
+            "pt": "担心 e 放心 são opostos: 别担心 e 放心吧 querem dizer 'não se preocupe'.",
+            "fr": "担心 et 放心 sont des contraires : 别担心 et 放心吧 veulent dire « ne t'inquiète pas ».",
+            "es": "担心 y 放心 son opuestos: 别担心 y 放心吧 quieren decir «no te preocupes».",
+            "vi": "担心 và 放心 trái nghĩa nhau: 别担心 và 放心吧 đều có nghĩa là 'đừng lo'.",
+            "fa": "「担心」和「放心」意思相反：「别担心」和「放心吧」都是叫人不要担心。"
+          },
+          "table": true,
+          "extra": [
+            "关心",
+            "小心"
+          ]
+        }
+      ],
+      "grammar": [
+        "yi-ye-bu"
+      ],
+      "lines": {
+        "yi-ye-bu": 1
+      },
+      "words": {
+        "聪明": {
+          "en": {
+            "en": "clever; smart",
+            "zh": "脑子好，学得快",
+            "pt": "inteligente, esperto",
+            "fr": "intelligent, malin",
+            "es": "inteligente, listo",
+            "vi": "thông minh"
+          }
+        }
+      }
+    },
+    "28": {
+      "grammar": [
+        "guanyu"
+      ],
+      "lines": {
+        "guanyu": 0
+      },
+      "words": {
+        "关于": {
+          "en": {
+            "en": "about (a topic)",
+            "zh": "说到（某个话题）",
+            "pt": "sobre (um assunto)",
+            "fr": "sur, à propos de",
+            "es": "sobre, acerca de",
+            "vi": "về (một chủ đề)"
+          }
+        },
+        "段": {
+          "en": {
+            "en": "section; passage (measure word)",
+            "zh": "量词，用于文章或故事的一部分",
+            "pt": "trecho, parte (classificador)",
+            "fr": "passage, partie (classificateur)",
+            "es": "fragmento, parte (clasificador)",
+            "vi": "đoạn (lượng từ)"
+          }
+        }
+      }
+    },
+    "29": {
+      "groups": [
+        {
+          "id": "hobbies",
+          "words": [
+            "音乐",
+            "游戏",
+            "画"
+          ],
+          "title": {
+            "en": "Hobbies",
+            "zh": "爱好",
+            "pt": "Passatempos",
+            "fr": "Les loisirs",
+            "es": "Pasatiempos",
+            "vi": "Sở thích",
+            "fa": "爱好"
+          },
+          "note": {
+            "en": "画 is both the verb and the picture, so 画画 means to draw pictures.",
+            "zh": "「画」既是动作也是名词，所以「画画」就是画一张画的意思。",
+            "pt": "画 é o verbo e também o desenho, por isso 画画 é desenhar.",
+            "fr": "画 est à la fois le verbe et le dessin, donc 画画 veut dire dessiner.",
+            "es": "画 es el verbo y también el dibujo, por eso 画画 es dibujar.",
+            "vi": "画 vừa là động từ (vẽ) vừa là danh từ (bức tranh), nên 画画 là vẽ tranh.",
+            "fa": "「画」既是动作也是名词，所以「画画」就是画一张画的意思。"
+          },
+          "table": true,
+          "extra": [
+            "游泳"
+          ]
+        }
+      ],
+      "grammar": [
+        "ganxingqu"
+      ],
+      "lines": {
+        "ganxingqu": 1
+      },
+      "words": {
+        "爱好": {
+          "en": {
+            "en": "hobby",
+            "zh": "喜欢做的事",
+            "pt": "passatempo, hobby",
+            "fr": "loisir, passe-temps",
+            "es": "pasatiempo, afición",
+            "vi": "sở thích"
+          }
+        }
+      }
+    },
+    "30": {
+      "groups": [
+        {
+          "id": "leg-foot",
+          "words": [
+            "腿",
+            "脚"
+          ],
+          "title": {
+            "en": "Leg and foot",
+            "zh": "腿和脚",
+            "pt": "Perna e pé",
+            "fr": "La jambe et le pied",
+            "es": "Pierna y pie",
+            "vi": "Chân và bàn chân",
+            "fa": "腿和脚"
+          },
+          "note": {
+            "en": "腿 is the whole leg and 脚 is the foot at the end of it.",
+            "zh": "「腿」是整条腿，「脚」是腿下面着地的部分。",
+            "pt": "腿 é a perna inteira e 脚 é o pé, na ponta dela.",
+            "fr": "腿, c'est toute la jambe, et 脚, le pied au bout.",
+            "es": "腿 es toda la pierna y 脚 es el pie, al final de ella.",
+            "vi": "腿 là phần chân từ hông trở xuống, còn 脚 là bàn chân.",
+            "fa": "「腿」是整条腿，「脚」是腿下面着地的部分。"
+          },
+          "table": false
+        }
+      ],
+      "lines": {
+        "yue": 3
+      }
+    },
+    "31": {
+      "grammar": [
+        "verb-abab",
+        "haishi-huozhe"
+      ],
+      "groups": [
+        {
+          "id": "weekend-plans",
+          "words": [
+            "周末",
+            "打算",
+            "爬山"
+          ],
+          "title": {
+            "en": "Weekend plans",
+            "zh": "周末的打算",
+            "pt": "Planos de fim de semana",
+            "fr": "Projets du week-end",
+            "es": "Planes de fin de semana",
+            "vi": "Kế hoạch cuối tuần",
+            "fa": "周末的打算"
+          },
+          "note": {
+            "en": "周末 is the weekend, 打算 is what you plan to do, and 爬山 is one thing you might do: go hiking (literally climb a mountain). 打算 goes before the action: 我打算休息 is I plan to rest.",
+            "zh": "「周末」是星期六和星期天，「打算」是想做什么，「爬山」是周末可以做的一件事。「打算」放在要做的事前面：我打算休息。",
+            "pt": "周末 é o fim de semana, 打算 é o que você pretende fazer e 爬山 é uma das opções: fazer uma caminhada na montanha (literalmente subir uma montanha). 打算 vem antes da ação: 我打算休息 é eu pretendo descansar.",
+            "fr": "周末, c'est le week-end, 打算, ce qu'on compte faire, et 爬山, une des possibilités : faire de la randonnée en montagne (littéralement grimper une montagne). 打算 se place devant l'action : 我打算休息, je compte me reposer.",
+            "es": "周末 es el fin de semana, 打算 es lo que piensas hacer y 爬山 es una de las opciones: hacer senderismo en la montaña (literalmente subir una montaña). 打算 va antes de la acción: 我打算休息 es pienso descansar.",
+            "vi": "周末 là cuối tuần, 打算 là dự định làm gì, còn 爬山 là một việc có thể làm: đi leo núi. 打算 đứng trước việc định làm: 我打算休息 là tôi định nghỉ ngơi.",
+            "fa": "「周末」是星期六和星期天，「打算」是想做什么，「爬山」是周末可以做的一件事。「打算」放在要做的事前面：我打算休息。"
+          },
+          "table": true,
+          "after": 0,
+          "extra": [
+            "休息"
+          ]
+        },
+        {
+          "id": "agree-or-not",
+          "words": [
+            "或者",
+            "同意"
+          ],
+          "title": {
+            "en": "Suggesting and agreeing",
+            "zh": "提议和同意",
+            "pt": "Sugerir e concordar",
+            "fr": "Proposer et être d'accord",
+            "es": "Proponer y estar de acuerdo",
+            "vi": "Đề nghị và đồng ý",
+            "fa": "提议和同意"
+          },
+          "note": {
+            "en": "或者 joins two options you suggest; 同意 is to agree, and 不同意 is to disagree. Lines 4 and 5 are the question and the answer: 你同意吗？ 我不同意。",
+            "zh": "「或者」连接你提的两个选择；「同意」是答应，「不同意」是不答应。第 4、5 句就是一问一答：你同意吗？我不同意。",
+            "pt": "或者 liga duas opções que você sugere; 同意 é concordar, e 不同意 é não concordar. As falas 4 e 5 são pergunta e resposta: 你同意吗？ 我不同意。",
+            "fr": "或者 relie deux options que l'on propose ; 同意, c'est être d'accord, et 不同意, ne pas être d'accord. Les répliques 4 et 5 sont la question et la réponse : 你同意吗？ 我不同意。",
+            "es": "或者 une dos opciones que propones; 同意 es estar de acuerdo, y 不同意 es no estarlo. Las líneas 4 y 5 son la pregunta y la respuesta: 你同意吗？ 我不同意。",
+            "vi": "或者 nối hai lựa chọn bạn đề nghị; 同意 là đồng ý, 不同意 là không đồng ý. Câu 4 và 5 là một hỏi một đáp: 你同意吗？ 我不同意。",
+            "fa": "「或者」连接你提的两个选择；「同意」是答应，「不同意」是不答应。第 4、5 句就是一问一答：你同意吗？我不同意。"
+          },
+          "table": true,
+          "after": 0
+        }
+      ],
+      "lines": {
+        "verb-abab": 1,
+        "haishi-huozhe": 2
+      }
+    },
+    "32": {
+      "groups": [
+        {
+          "id": "flying",
+          "words": [
+            "飞机",
+            "航班",
+            "起飞",
+            "降落"
+          ],
+          "title": {
+            "en": "Flying",
+            "zh": "坐飞机",
+            "pt": "De avião",
+            "fr": "En avion",
+            "es": "En avión",
+            "vi": "Đi máy bay",
+            "fa": "坐飞机"
+          },
+          "note": {
+            "en": "飞机 is the plane itself; 航班 is the flight, with its number and time; 起飞 goes up, 降落 comes down.",
+            "zh": "「飞机」说的是飞机这个东西，「航班」是几点从哪儿飞的那一班；「起飞」是飞上去，「降落」是飞下来。",
+            "pt": "飞机 é o avião em si; 航班 é o voo, com número e horário; 起飞 é subir, 降落 é descer.",
+            "fr": "飞机, c'est l'avion lui-même ; 航班, le vol, avec son numéro et son horaire ; 起飞 monte, 降落 descend.",
+            "es": "飞机 es el avión en sí; 航班 es el vuelo, con su número y su hora; 起飞 es subir y 降落, bajar.",
+            "vi": "飞机 là chiếc máy bay, 航班 là chuyến bay có số hiệu và giờ bay; 起飞 là bay lên, 降落 là hạ xuống.",
+            "fa": "「飞机」说的是飞机这个东西，「航班」是几点从哪儿飞的那一班；「起飞」是飞上去，「降落」是飞下来。"
+          },
+          "table": true,
+          "extra": [
+            "上班",
+            "起床"
+          ]
+        }
+      ],
+      "lines": {
+        "ne-where": 2
+      }
+    },
+    "33": {
+      "grammar": [],
+      "groups": [
+        {
+          "id": "at-the-river",
+          "words": [
+            "黄河",
+            "船",
+            "太阳"
+          ],
+          "title": {
+            "en": "At the Yellow River",
+            "zh": "黄河边看到的",
+            "fa": "黄河边看到的"
+          },
+          "note": {
+            "en": "黄河 is the Yellow River: 黄 is yellow, 河 is river. A boat and the river are both counted with 条. 太阳 is the sun, counted with 个.",
+            "zh": "「黄河」就是黄色的河：黄是黄色，河是大河。船和河都用「条」来数。太阳用「个」。",
+            "fa": "「黄河」就是黄色的河：黄是黄色，河是大河。船和河都用「条」来数。太阳用「个」。"
+          },
+          "table": true,
+          "after": 0
+        }
+      ],
+      "cards": [
+        {
+          "title": {
+            "en": "一百多块 · over a hundred",
+            "zh": "一百多块 · 比一百多一点",
+            "fa": "一百多块 · over a hundred"
+          },
+          "mark": "多",
+          "blocks": [
+            {
+              "en": "round number",
+              "zh": "整数",
+              "fa": "整数"
+            },
+            "多",
+            {
+              "en": "measure word",
+              "zh": "量词",
+              "fa": "量词"
+            }
+          ],
+          "line": 3,
+          "after": 0,
+          "example": {
+            "ch": "坐船要一百多块。",
+            "py": "zuò chuán yào yìbǎi duō kuài.",
+            "en": {
+              "en": "The boat costs over a hundred yuan.",
+              "zh": "坐船要一百多块。",
+              "fa": "坐船要一百多块。"
+            }
+          },
+          "note": {
+            "en": "多 after a round number means a bit more than that: 一百多块 is over a hundred yuan, 十多个人 more than ten people. With a number that is not round, 多 goes after the measure word: 三块多, 两个多小时.",
+            "zh": "整数后面加「多」，表示比这个数多一点：一百多块、十多个人。数字不是整数时，多放在量词后面：三块多、两个多小时。",
+            "fa": "整数后面加「多」，表示比这个数多一点：一百多块、十多个人。数字不是整数时，多放在量词后面：三块多、两个多小时。"
+          }
+        }
+      ],
+      "words": {
+        "条": {
+          "py": "tiáo",
+          "en": {
+            "en": "measure word for long things: a boat, a river",
+            "zh": "量词，用于长条形的东西：一条船、一条河"
+          }
+        },
+        "几乎": {
+          "py": "jīhū",
+          "en": {
+            "en": "almost, nearly; goes before the verb: 几乎下去了",
+            "zh": "差一点就……，放在动词前面：几乎下去了"
+          }
+        }
+      }
+    },
+    "34": {
+      "grammar": [],
+      "groups": [
+        {
+          "id": "a-place",
+          "words": [
+            "城市",
+            "地方",
+            "有名"
+          ],
+          "title": {
+            "en": "A place and what it is like",
+            "zh": "一个地方，什么样",
+            "fa": "一个地方，什么样"
+          },
+          "note": {
+            "en": "城市 is a city and 地方 any place; 有名 means famous, well known.",
+            "zh": "「城市」是城市，「地方」什么地方都可以说；「有名」是很多人都知道。",
+            "fa": "「城市」是城市，「地方」什么地方都可以说；「有名」是很多人都知道。"
+          },
+          "table": true,
+          "after": 0
+        }
+      ],
+      "cards": [
+        {
+          "title": {
+            "en": "V 过 · have done it before",
+            "zh": "V 过 · 以前做过",
+            "fa": "V 过 · have done it before"
+          },
+          "mark": "过",
+          "line": 0,
+          "after": 0,
+          "blocks": [
+            "Subject",
+            "Verb",
+            "过",
+            "Object"
+          ],
+          "example": {
+            "ch": "你来过这个城市吗？",
+            "py": "nǐ lái guo zhège chéngshì ma?",
+            "en": {
+              "en": "Have you been to this city before?",
+              "zh": "你来过这个城市吗？",
+              "fa": "你来过这个城市吗？"
+            }
+          },
+          "note": {
+            "en": "过 right after a verb says this has happened at some time before. For the negative put 没 in front: 没来过, I have not been there.",
+            "zh": "动词后面加「过」，表示以前有过这件事。否定说「没」：没来过。",
+            "fa": "动词后面加「过」，表示以前有过这件事。否定说「没」：没来过。"
+          }
+        },
+        {
+          "title": {
+            "en": "像 · looks like",
+            "zh": "像 · 看起来一样",
+            "fa": "像 · looks like"
+          },
+          "mark": "像",
+          "line": 3,
+          "after": 0,
+          "blocks": [
+            "A",
+            "很像",
+            "B"
+          ],
+          "example": {
+            "ch": "那个人很像我妈妈。",
+            "py": "nàge rén hěn xiàng wǒ māma.",
+            "en": {
+              "en": "That person looks a lot like my mom.",
+              "zh": "那个人很像我妈妈。",
+              "fa": "那个人很像我妈妈。"
+            }
+          },
+          "note": {
+            "en": "A 像 B means A looks like B. In the reply 不是像，就是你妈妈, 就是 means it really is her, not either-or.",
+            "zh": "「A 像 B」是 A 看起来跟 B 一样。回答里的「不是像，就是你妈妈」，「就是」是「正是她本人」，不是「不是……就是……」的二选一。",
+            "fa": "「A 像 B」是 A 看起来跟 B 一样。回答里的「不是像，就是你妈妈」，「就是」是「正是她本人」，不是「不是……就是……」的二选一。"
+          }
+        }
+      ],
+      "words": {
+        "过": {
+          "py": "guo",
+          "en": {
+            "en": "particle: have done before",
+            "zh": "助词，表示以前做过"
+          }
+        },
+        "像": {
+          "py": "xiàng",
+          "en": {
+            "en": "to look like, resemble",
+            "zh": "看起来差不多一样"
+          }
+        },
+        "地方": {
+          "py": "dìfang",
+          "en": {
+            "en": "place",
+            "zh": "地点"
+          }
+        }
+      }
+    },
+    "35": {
+      "grammar": [
+        "neng-rhet"
+      ],
+      "lines": {
+        "neng-rhet": 3
+      },
+      "words": {
+        "客人": {
+          "en": {
+            "en": "guest",
+            "zh": "来做客或住店的人",
+            "pt": "hóspede, convidado",
+            "fr": "client, invité",
+            "es": "huésped, invitado",
+            "vi": "khách"
+          }
+        }
+      }
+    },
+    "36": {
+      "groups": [
+        {
+          "id": "plants",
+          "words": [
+            "树",
+            "花",
+            "草"
+          ],
+          "title": {
+            "en": "Trees, flowers, grass",
+            "zh": "树、花、草",
+            "pt": "Árvores, flores e grama",
+            "fr": "Arbres, fleurs, herbe",
+            "es": "Árboles, flores y pasto",
+            "vi": "Cây, hoa, cỏ",
+            "fa": "树、花、草"
+          },
+          "note": {
+            "en": "花 and 草 have the same top, the sign for plants; look at the part below to tell them apart.",
+            "zh": "「花」和「草」上面一样，要看下面才能分清。",
+            "pt": "花 e 草 têm a mesma parte de cima, o sinal das plantas; olhe a parte de baixo para diferenciar os dois.",
+            "fr": "花 et 草 ont le même élément en haut, le signe des plantes ; regardez la partie du bas pour les distinguer.",
+            "es": "花 y 草 tienen la misma parte de arriba, el signo de las plantas; mira la parte de abajo para distinguirlos.",
+            "vi": "花 và 草 có phần trên giống nhau, dấu hiệu của cây cỏ; nhìn phần bên dưới để phân biệt.",
+            "fa": "「花」和「草」上面一样，要看下面才能分清。"
+          },
+          "table": true,
+          "extra": [
+            "菜",
+            "茶"
+          ]
+        }
+      ],
+      "grammar": [
+        "de-degree"
+      ],
+      "lines": {
+        "de-degree": 3
+      }
+    },
+    "37": {
+      "groups": [
+        {
+          "id": "animals",
+          "words": [
+            "鸟",
+            "马",
+            "熊猫"
+          ],
+          "title": {
+            "en": "Animals at the zoo",
+            "zh": "鸟、马、熊猫",
+            "pt": "Animais do zoológico",
+            "fr": "Les animaux du zoo",
+            "es": "Animales del zoológico",
+            "vi": "Động vật ở sở thú",
+            "fa": "鸟、马、熊猫"
+          },
+          "note": {
+            "en": "Count birds and pandas with 只: 一只鸟, 两只熊猫.",
+            "zh": "鸟和熊猫都用「只」：一只鸟、两只熊猫。",
+            "pt": "Pássaros e pandas se contam com 只: 一只鸟, 两只熊猫.",
+            "fr": "Les oiseaux et les pandas se comptent avec 只 : 一只鸟, 两只熊猫.",
+            "es": "Los pájaros y los pandas se cuentan con 只: 一只鸟, 两只熊猫.",
+            "vi": "Chim và gấu trúc đếm bằng 只: 一只鸟, 两只熊猫.",
+            "fa": "鸟和熊猫都用「只」：一只鸟、两只熊猫。"
+          },
+          "table": true,
+          "extra": [
+            "吗",
+            "猫"
+          ]
+        }
+      ],
+      "lines": {
+        "ne-where": 2
+      }
+    },
+    "38": {
+      "groups": [
+        {
+          "id": "seasons",
+          "words": [
+            "春",
+            "夏",
+            "秋",
+            "冬"
+          ],
+          "title": {
+            "en": "The four seasons",
+            "zh": "一年四季",
+            "pt": "As quatro estações",
+            "fr": "Les quatre saisons",
+            "es": "Las cuatro estaciones",
+            "vi": "Bốn mùa",
+            "fa": "一年四季"
+          },
+          "note": {
+            "en": "In speech, add 天: 春天, 夏天, 秋天, 冬天; alone they appear in sets like 春夏秋冬.",
+            "zh": "说话的时候要加「天」：春天、夏天、秋天、冬天；一个字的说法多用在「春夏秋冬」里。",
+            "pt": "Na fala, junte 天: 春天, 夏天, 秋天, 冬天; sozinhos, aparecem em séries como 春夏秋冬.",
+            "fr": "À l'oral, on ajoute 天 : 春天, 夏天, 秋天, 冬天 ; seuls, ils servent dans des séries comme 春夏秋冬.",
+            "es": "Al hablar, se añade 天: 春天, 夏天, 秋天, 冬天; solos aparecen en series como 春夏秋冬.",
+            "vi": "Khi nói, thêm 天: 春天, 夏天, 秋天, 冬天; đứng một mình thì thường gặp trong cụm như 春夏秋冬.",
+            "fa": "说话的时候要加「天」：春天、夏天、秋天、冬天；一个字的说法多用在「春夏秋冬」里。"
+          },
+          "table": true,
+          "extra": [
+            "下",
+            "东"
+          ]
+        }
+      ],
+      "grammar": [
+        "ne"
+      ],
+      "lines": {
+        "ne": 3
+      },
+      "cards": [
+        {
+          "title": {
+            "en": "不……也不…… · neither … nor …",
+            "zh": "不……也不……",
+            "pt": "不……也不…… · nem … nem …",
+            "fr": "不……也不…… · ni … ni …",
+            "es": "不……也不…… · ni … ni …",
+            "vi": "不……也不…… · không … cũng không …",
+            "fa": "不……也不…… · neither … nor …"
+          },
+          "mark": "也不",
+          "blocks": [
+            "不",
+            {
+              "en": "adjective",
+              "zh": "形容词",
+              "pt": "adjetivo",
+              "fr": "adjectif",
+              "es": "adjetivo",
+              "vi": "tính từ",
+              "fa": "形容词"
+            },
+            "也不",
+            {
+              "en": "adjective",
+              "zh": "形容词",
+              "pt": "adjetivo",
+              "fr": "adjectif",
+              "es": "adjetivo",
+              "vi": "tính từ",
+              "fa": "形容词"
+            }
+          ],
+          "line": 2,
+          "example": {
+            "ch": "不大也不小。",
+            "py": "bú dà yě bù xiǎo.",
+            "en": {
+              "en": "Neither big nor small.",
+              "zh": "不大也不小。",
+              "pt": "Nem grande nem pequeno.",
+              "fr": "Ni grand ni petit.",
+              "es": "Ni grande ni pequeño.",
+              "vi": "Không to cũng không nhỏ.",
+              "fa": "不大也不小。"
+            }
+          },
+          "note": {
+            "en": "With two opposites, 不 A 也不 B means in the middle, and often just right.",
+            "zh": "用「冷」「热」这样意思相反的两个词，说的是在中间，常常就是正好、很舒服。",
+            "pt": "Com dois opostos, 不 A 也不 B quer dizer no meio, e muitas vezes na medida certa.",
+            "fr": "Avec deux contraires, 不 A 也不 B veut dire entre les deux, et souvent juste comme il faut.",
+            "es": "Con dos opuestos, 不 A 也不 B quiere decir en el medio, y muchas veces justo como debe ser.",
+            "vi": "Với hai từ trái nghĩa, 不 A 也不 B nghĩa là ở giữa, thường là vừa phải, dễ chịu.",
+            "fa": "用「冷」「热」这样意思相反的两个词，说的是在中间，常常就是正好、很舒服。"
+          }
+        }
+      ],
+      "words": {
+        "季节": {
+          "en": {
+            "en": "season",
+            "zh": "季节（春、夏、秋、冬）",
+            "pt": "estação do ano",
+            "fr": "saison",
+            "es": "estación del año",
+            "vi": "mùa"
+          }
+        }
+      }
+    },
+    "39": {
+      "groups": [
+        {
+          "id": "weather",
+          "words": [
+            "刮风",
+            "下雨"
+          ],
+          "title": {
+            "en": "Wind and rain",
+            "zh": "刮风、下雨",
+            "pt": "Vento e chuva",
+            "fr": "Le vent et la pluie",
+            "es": "Viento y lluvia",
+            "vi": "Gió và mưa",
+            "fa": "刮风、下雨"
+          },
+          "note": {
+            "en": "刮风 is “the wind blows” and 下雨 “rain falls”; a strong wind or heavy rain is 大: 风很大.",
+            "zh": "「刮」和「下」是动词：刮风、下雨；风、雨的大小用「大」来说：风很大。",
+            "pt": "刮风 é “o vento sopra” e 下雨, “a chuva cai”; vento ou chuva forte se diz com 大: 风很大.",
+            "fr": "刮风, c'est « le vent souffle », et 下雨, « la pluie tombe » ; un vent fort ou une forte pluie, c'est 大 : 风很大.",
+            "es": "刮风 es “sopla el viento” y 下雨, “cae la lluvia”; el viento o la lluvia fuerte se dicen con 大: 风很大.",
+            "vi": "刮风 là “gió thổi”, 下雨 là “mưa rơi”; gió mạnh hay mưa to đều dùng 大: 风很大.",
+            "fa": "「刮」和「下」是动词：刮风、下雨；风、雨的大小用「大」来说：风很大。"
+          },
+          "table": false
+        }
+      ],
+      "lines": {
+        "bei": 2
+      }
+    },
+    "40": {
+      "grammar": [
+        "duration"
+      ],
+      "lines": {
+        "duration": 1
+      },
+      "groups": [
+        {
+          "id": "waiting-for-taxi",
+          "words": [
+            "司机",
+            "辆",
+            "骑"
+          ],
+          "title": {
+            "en": "Waiting for the taxi",
+            "zh": "等出租车",
+            "fa": "等出租车"
+          },
+          "note": {
+            "en": "辆 is the measure word for vehicles: 一辆出租车; in 那辆 the noun is dropped, that one. A 司机 is the person who drives it. 骑车 here is riding a bike, not the taxi: 骑 is sitting on top of something.",
+            "zh": "「辆」是车的量词：一辆出租车；「那辆」就是那一辆车，名词可以省掉。「司机」是开车的人。「骑车」是骑自行车，这里的车指自行车，「骑」是坐在上面。",
+            "fa": "「辆」是车的量词：一辆出租车；「那辆」就是那一辆车，名词可以省掉。「司机」是开车的人。「骑车」是骑自行车，这里的车指自行车，「骑」是坐在上面。"
+          },
+          "table": false,
+          "after": 0,
+          "extra": [
+            "出租车"
+          ]
+        },
+        {
+          "id": "how-long",
+          "words": [
+            "久",
+            "一会儿"
+          ],
+          "title": {
+            "en": "A long time, a moment",
+            "zh": "很久、一会儿",
+            "fa": "很久、一会儿"
+          },
+          "note": {
+            "en": "久 is a long time (很久, 多久); 一会儿 is a little while. Both go after the verb: 等了很久, 再等一会儿. 半个小时 is half an hour: 半 takes 个 before 小时.",
+            "zh": "「久」是时间长（很久、多久），「一会儿」是很短的时间。都放在动词后面：等了很久、再等一会儿。半个小时就是半小时，「半」后面要加「个」。",
+            "fa": "「久」是时间长（很久、多久），「一会儿」是很短的时间。都放在动词后面：等了很久、再等一会儿。半个小时就是半小时，「半」后面要加「个」。"
+          },
+          "table": true,
+          "after": 0,
+          "extra": [
+            "小时"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "title": {
+            "en": "还不 / 还要 · still",
+            "zh": "还不 / 还要 · 到现在还",
+            "fa": "还不 / 还要 · still"
+          },
+          "mark": "还",
+          "line": 0,
+          "after": 0,
+          "blocks": [
+            "Subject",
+            "还",
+            {
+              "en": "不 + Verb / 要 + amount",
+              "zh": "不 + 动词 / 要 + 数量",
+              "fa": "不 + 动词 / 要 + 数量"
+            }
+          ],
+          "example": {
+            "ch": "出租车怎么还不来？",
+            "py": "chūzūchē zěnme hái bù lái?",
+            "en": {
+              "en": "Why hasn't the taxi come yet?",
+              "zh": "出租车怎么还不来？",
+              "fa": "出租车怎么还不来？"
+            }
+          },
+          "note": {
+            "en": "还 before 不 means still not, not yet: 还不来, still has not come. 还要 plus an amount means that much more is still needed: 还要半个小时, another half hour.",
+            "zh": "「还」放在「不」前面，是到现在还没有：还不来。「还要」加数量，是还需要这么多：还要半个小时。",
+            "fa": "「还」放在「不」前面，是到现在还没有：还不来。「还要」加数量，是还需要这么多：还要半个小时。"
+          }
+        },
+        {
+          "title": {
+            "en": "Two 了 · still going",
+            "zh": "两个了 · 还在等",
+            "fa": "Two 了 · still going"
+          },
+          "mark": "了",
+          "line": 1,
+          "after": 0,
+          "blocks": [
+            {
+              "en": "Verb + 了 + time",
+              "zh": "动词 + 了 + 时长",
+              "fa": "动词 + 了 + 时长"
+            },
+            {
+              "en": "了 at the end",
+              "zh": "句末的了",
+              "fa": "句末的了"
+            }
+          ],
+          "example": {
+            "ch": "我们等了二十分钟了。",
+            "py": "wǒmen děng le èrshí fēnzhōng le.",
+            "en": {
+              "en": "We have been waiting for twenty minutes.",
+              "zh": "我们等了二十分钟了。",
+              "fa": "我们等了二十分钟了。"
+            }
+          },
+          "note": {
+            "en": "The second 了, at the end of the sentence, says the waiting is still going on: twenty minutes so far, and counting. Without it, 等了二十分钟 is finished: waited twenty minutes.",
+            "zh": "句末的第二个「了」说明还在等：到现在二十分钟，还没停。没有它，「等了二十分钟」就是已经等完了。",
+            "fa": "句末的第二个「了」说明还在等：到现在二十分钟，还没停。没有它，「等了二十分钟」就是已经等完了。"
+          }
+        }
+      ]
+    },
+    "41": {
+      "groups": [
+        {
+          "id": "family",
+          "words": [
+            "爷爷",
+            "奶奶",
+            "爸爸",
+            "妈妈"
+          ],
+          "title": {
+            "en": "The family",
+            "zh": "家里人",
+            "pt": "A família",
+            "fr": "La famille",
+            "es": "La familia",
+            "vi": "Gia đình",
+            "fa": "家里人"
+          },
+          "note": {
+            "en": "爷爷 and 奶奶 are 爸爸's father and mother.",
+            "zh": "爷爷、奶奶就是爸爸的爸爸和妈妈。",
+            "pt": "爷爷 e 奶奶 são o pai e a mãe do 爸爸.",
+            "fr": "爷爷 et 奶奶 sont le père et la mère de 爸爸.",
+            "es": "爷爷 y 奶奶 son el padre y la madre de 爸爸.",
+            "vi": "爷爷 và 奶奶 là bố và mẹ của 爸爸.",
+            "fa": "爷爷、奶奶就是爸爸的爸爸和妈妈。"
+          },
+          "table": true,
+          "extra": [
+            "姐姐"
+          ]
+        }
+      ],
+      "grammar": [
+        "gen-yiyang"
+      ],
+      "lines": {
+        "gen-yiyang": 2
+      },
+      "words": {
+        "长": {
+          "en": {
+            "en": "to grow; 长得: to look (in appearance)",
+            "zh": "生长；长得：样子看起来",
+            "pt": "crescer; 长得: ter a aparência (física)",
+            "fr": "grandir ; 长得 : avoir l'air (physique)",
+            "es": "crecer; 长得: tener aspecto (físico)",
+            "vi": "lớn lên; 长得: trông (về ngoại hình)"
+          }
+        }
+      }
+    },
+    "42": {
+      "groups": [
+        {
+          "id": "uncle-auntie",
+          "words": [
+            "叔叔",
+            "阿姨"
+          ],
+          "title": {
+            "en": "Uncle and auntie",
+            "zh": "叔叔、阿姨",
+            "pt": "Tio e tia",
+            "fr": "Oncle et tante",
+            "es": "Tío y tía",
+            "vi": "Chú và cô",
+            "fa": "叔叔、阿姨"
+          },
+          "note": {
+            "en": "Children call men about their parents' age 叔叔 and women 阿姨, family or not.",
+            "zh": "孩子叫爸爸妈妈那么大的男人「叔叔」、女人「阿姨」，不是家里人也一样。",
+            "pt": "As crianças chamam de 叔叔 os homens da idade dos pais, e de 阿姨 as mulheres, sejam da família ou não.",
+            "fr": "Les enfants appellent 叔叔 les hommes de l'âge de leurs parents, et 阿姨 les femmes, de la famille ou non.",
+            "es": "Los niños llaman 叔叔 a los hombres de la edad de sus padres y 阿姨 a las mujeres, sean familia o no.",
+            "vi": "Trẻ em gọi đàn ông trạc tuổi bố mẹ là 叔叔, phụ nữ là 阿姨, dù có là họ hàng hay không.",
+            "fa": "孩子叫爸爸妈妈那么大的男人「叔叔」、女人「阿姨」，不是家里人也一样。"
+          },
+          "table": false
+        },
+        {
+          "id": "tall-short",
+          "words": [
+            "高",
+            "矮"
+          ],
+          "title": {
+            "en": "Tall and short",
+            "zh": "高和矮",
+            "pt": "Alto e baixo",
+            "fr": "Grand et petit",
+            "es": "Alto y bajo",
+            "vi": "Cao và thấp",
+            "fa": "高和矮"
+          },
+          "note": {
+            "en": "高 and 矮 are tall and short, for height (people, trees); short in length is another word: 短.",
+            "zh": "「高」「矮」说的是高低，人和树都能用；东西长短不说「矮」，要用「短」。",
+            "pt": "高 e 矮 são alto e baixo, para altura (pessoas, árvores); curto, de comprimento, é outra palavra: 短.",
+            "fr": "高 et 矮, c'est grand et petit en hauteur (personnes, arbres) ; court, en longueur, est un autre mot : 短.",
+            "es": "高 y 矮 son alto y bajo, para la altura (personas, árboles); corto, de largo, es otra palabra: 短.",
+            "vi": "高 và 矮 là cao và thấp, nói về chiều cao (người, cây); ngắn, nói về chiều dài, là một từ khác: 短.",
+            "fa": "「高」「矮」说的是高低，人和树都能用；东西长短不说「矮」，要用「短」。"
+          },
+          "table": false
+        }
+      ],
+      "lines": {
+        "meiyou-bi": 2
+      },
+      "words": {
+        "米": {
+          "en": {
+            "en": "metre",
+            "zh": "米（长度单位）",
+            "pt": "metro",
+            "fr": "mètre",
+            "es": "metro",
+            "vi": "mét"
+          }
+        },
+        "矮": {
+          "en": {
+            "en": "short (in height)",
+            "zh": "个子不高",
+            "pt": "baixo (de altura)",
+            "fr": "petit (de taille)",
+            "es": "bajo (de estatura)",
+            "vi": "thấp, lùn"
+          }
+        },
+        "可爱": {
+          "en": {
+            "en": "cute",
+            "zh": "让人喜欢的",
+            "pt": "fofo, uma gracinha",
+            "fr": "mignon",
+            "es": "lindo, tierno",
+            "vi": "dễ thương"
+          }
+        }
+      }
+    },
+    "43": {
+      "groups": [
+        {
+          "id": "clothes",
+          "words": [
+            "衬衫",
+            "裤子",
+            "裙子",
+            "皮鞋"
+          ],
+          "title": {
+            "en": "Clothes",
+            "zh": "衣服",
+            "pt": "Roupas",
+            "fr": "Les vêtements",
+            "es": "La ropa",
+            "vi": "Quần áo",
+            "fa": "衣服"
+          },
+          "note": {
+            "en": "Each takes a measure word: 一件衬衫, 一条裤子, 一条裙子, 一双皮鞋.",
+            "zh": "说一件、一条还是一双，要看是什么：一件衬衫、一条裤子、一条裙子、一双皮鞋。",
+            "pt": "Cada peça tem seu classificador: 一件衬衫, 一条裤子, 一条裙子, 一双皮鞋.",
+            "fr": "Chacun a son classificateur : 一件衬衫, 一条裤子, 一条裙子, 一双皮鞋.",
+            "es": "Cada prenda tiene su clasificador: 一件衬衫, 一条裤子, 一条裙子, 一双皮鞋.",
+            "vi": "Mỗi thứ đi với một lượng từ: 一件衬衫, 一条裤子, 一条裙子, 一双皮鞋.",
+            "fa": "说一件、一条还是一双，要看是什么：一件衬衫、一条裤子、一条裙子、一双皮鞋。"
+          },
+          "table": true,
+          "extra": [
+            "衣服"
+          ]
+        }
+      ],
+      "lines": {
+        "you-you": 2
+      }
+    },
+    "44": {
+      "groups": [
+        {
+          "id": "colours",
+          "words": [
+            "绿",
+            "黑"
+          ],
+          "title": {
+            "en": "Green and black",
+            "zh": "绿和黑",
+            "pt": "Verde e preto",
+            "fr": "Vert et noir",
+            "es": "Verde y negro",
+            "vi": "Xanh lá và đen",
+            "fa": "绿和黑"
+          },
+          "note": {
+            "en": "Put 的 after a colour for “the … one”: 绿的 is the green one, 黑的 the black one.",
+            "zh": "颜色后面加「的」，说的就是那个颜色的东西：绿的、黑的。",
+            "pt": "Coloque 的 depois da cor para dizer “o …”: 绿的 é o verde, 黑的, o preto.",
+            "fr": "Ajoutez 的 après une couleur pour dire « le … » : 绿的, c'est le vert, et 黑的, le noir.",
+            "es": "Agrega 的 después de un color para decir “el …”: 绿的 es el verde, y 黑的, el negro.",
+            "vi": "Thêm 的 sau màu để nói “cái màu …”: 绿的 là cái màu xanh lá, 黑的 là cái màu đen.",
+            "fa": "颜色后面加「的」，说的就是那个颜色的东西：绿的、黑的。"
+          },
+          "table": false
+        }
+      ],
+      "lines": {
+        "gen-yiyang": 4
+      }
+    },
+    "45": {
+      "lines": {
+        "you-you": 4
+      },
+      "cards": [
+        {
+          "title": {
+            "en": "多么……啊 · how …",
+            "zh": "多么……啊",
+            "pt": "多么……啊 · como é …",
+            "fr": "多么……啊 · comme c'est …",
+            "es": "多么……啊 · qué …",
+            "vi": "多么……啊 · … biết bao",
+            "fa": "多么……啊 · how …"
+          },
+          "mark": "多么",
+          "blocks": [
+            "多么",
+            {
+              "en": "adjective",
+              "zh": "形容词",
+              "pt": "adjetivo",
+              "fr": "adjectif",
+              "es": "adjetivo",
+              "vi": "tính từ",
+              "fa": "形容词"
+            },
+            "啊"
+          ],
+          "line": 3,
+          "example": {
+            "ch": "今天天气多么好啊！",
+            "py": "jīntiān tiānqì duōme hǎo a!",
+            "en": {
+              "en": "What lovely weather today!",
+              "zh": "今天天气多么好啊！",
+              "pt": "Que tempo bom hoje!",
+              "fr": "Qu'il fait beau aujourd'hui !",
+              "es": "¡Qué buen tiempo hace hoy!",
+              "vi": "Hôm nay trời đẹp biết bao!",
+              "fa": "今天天气多么好啊！"
+            }
+          },
+          "note": {
+            "en": "多么……啊 is an exclamation about what you feel; to ask how tall or how far, use 多: 你多高？",
+            "zh": "「多么……啊」不是在问问题，是在说「真……」；问问题用「多」：你多高？",
+            "pt": "多么……啊 é uma exclamação sobre o que você sente; para perguntar a altura ou a distância, use 多: 你多高？",
+            "fr": "多么……啊 est une exclamation sur ce qu'on ressent ; pour demander une taille ou une distance, on dit 多 : 你多高？",
+            "es": "多么……啊 es una exclamación sobre lo que sientes; para preguntar la altura o la distancia, usa 多: 你多高？",
+            "vi": "多么……啊 là câu cảm thán về điều mình cảm thấy; muốn hỏi cao bao nhiêu, xa bao nhiêu thì dùng 多: 你多高？",
+            "fa": "「多么……啊」不是在问问题，是在说「真……」；问问题用「多」：你多高？"
+          }
+        }
+      ]
+    },
+    "46": {
+      "groups": [
+        {
+          "id": "old",
+          "words": [
+            "老",
+            "旧"
+          ],
+          "title": {
+            "en": "Two kinds of “old”",
+            "zh": "老和旧",
+            "pt": "Dois tipos de “velho”",
+            "fr": "Deux sortes de « vieux »",
+            "es": "Dos clases de “viejo”",
+            "vi": "Già và cũ",
+            "fa": "老和旧"
+          },
+          "note": {
+            "en": "老 is old in years, like a person (你不老); 旧 is old as in not new (旧帽子).",
+            "zh": "「老」是不年轻了，像人：你不老；「旧」是不新了，像东西：旧帽子。",
+            "pt": "老 é velho em idade, como uma pessoa (你不老); 旧 é velho no sentido de não ser novo (旧帽子).",
+            "fr": "老, c'est vieux en âge, comme une personne (你不老) ; 旧, c'est vieux au sens de pas neuf (旧帽子).",
+            "es": "老 es viejo en años, como una persona (你不老); 旧 es viejo en el sentido de no nuevo (旧帽子).",
+            "vi": "老 là già, nói về tuổi, như người (你不老); 旧 là cũ, nói đồ vật không còn mới (旧帽子).",
+            "fa": "「老」是不年轻了，像人：你不老；「旧」是不新了，像东西：旧帽子。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "yibian",
+        "you-zai"
+      ],
+      "lines": {
+        "yibian": 0,
+        "you-zai": 2
+      }
+    },
+    "47": {
+      "groups": [
+        {
+          "id": "meet-marry",
+          "words": [
+            "见面",
+            "结婚"
+          ],
+          "title": {
+            "en": "Meet and marry",
+            "zh": "见面、结婚",
+            "pt": "Encontrar-se e casar",
+            "fr": "Se voir, se marier",
+            "es": "Verse y casarse",
+            "vi": "Gặp mặt và kết hôn",
+            "fa": "见面、结婚"
+          },
+          "note": {
+            "en": "Put the person first with 和: 和他结婚, not 结婚他; 过 and 一次 go in the middle: 见过一次面.",
+            "zh": "人要用「和」放在前面：和他结婚，不说「结婚他」；「过」「一次」放在中间：见过一次面。",
+            "pt": "A pessoa vem antes, com 和: 和他结婚, não 结婚他; 过 e 一次 ficam no meio: 见过一次面.",
+            "fr": "La personne vient avant, avec 和 : 和他结婚, pas 结婚他 ; 过 et 一次 se glissent au milieu : 见过一次面.",
+            "es": "La persona va antes, con 和: 和他结婚, no 结婚他; 过 y 一次 van en medio: 见过一次面.",
+            "vi": "Người kia đứng trước, đi với 和: 和他结婚, không nói 结婚他; 过 và 一次 chen vào giữa: 见过一次面.",
+            "fa": "人要用「和」放在前面：和他结婚，不说「结婚他」；「过」「一次」放在中间：见过一次面。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "shi-de"
+      ],
+      "lines": {
+        "shi-de": 0
+      },
+      "words": {
+        "愿意": {
+          "en": {
+            "en": "to be willing (to)",
+            "zh": "心里同意去做",
+            "pt": "estar disposto a, querer",
+            "fr": "vouloir bien, accepter",
+            "es": "estar dispuesto a, querer",
+            "vi": "sẵn lòng, bằng lòng"
+          }
+        }
+      }
+    },
+    "48": {
+      "groups": [
+        {
+          "id": "care",
+          "words": [
+            "照顾",
+            "关心"
+          ],
+          "title": {
+            "en": "Two kinds of care",
+            "zh": "照顾和关心",
+            "pt": "Cuidar e se importar",
+            "fr": "S'occuper ou se soucier",
+            "es": "Cuidar y preocuparse",
+            "vi": "Chăm sóc và quan tâm",
+            "fa": "照顾和关心"
+          },
+          "note": {
+            "en": "照顾 is looking after someone, doing things for them; 关心 is caring about someone, thinking of them.",
+            "zh": "「照顾」是在身边帮他做事，「关心」是心里想着他。",
+            "pt": "照顾 é cuidar de alguém, fazendo coisas por ele; 关心 é se importar com alguém, pensar nele.",
+            "fr": "照顾, c'est s'occuper de quelqu'un, faire des choses pour lui ; 关心, c'est se soucier de lui, penser à lui.",
+            "es": "照顾 es cuidar a alguien, hacer cosas por él; 关心 es preocuparse por alguien, pensar en él.",
+            "vi": "照顾 là chăm sóc, ở bên làm giúp người ta; 关心 là quan tâm, luôn nghĩ đến người ta.",
+            "fa": "「照顾」是在身边帮他做事，「关心」是心里想着他。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [],
+      "cards": [
+        {
+          "title": {
+            "en": "为了 · in order to",
+            "zh": "为了……，……",
+            "pt": "为了 · para (um objetivo)",
+            "fr": "为了 · pour (un but)",
+            "es": "为了 · para (un fin)",
+            "vi": "为了 · để (mục đích)",
+            "fa": "为了 · in order to"
+          },
+          "mark": "为了",
+          "blocks": [
+            "为了",
+            {
+              "en": "goal",
+              "zh": "要做到的事",
+              "pt": "objetivo",
+              "fr": "but",
+              "es": "objetivo",
+              "vi": "mục đích",
+              "fa": "要做到的事"
+            },
+            {
+              "en": "what you do",
+              "zh": "做什么",
+              "pt": "o que você faz",
+              "fr": "ce qu'on fait",
+              "es": "lo que haces",
+              "vi": "việc mình làm",
+              "fa": "做什么"
+            }
+          ],
+          "line": 3,
+          "example": {
+            "ch": "为了健康，他每天跑步。",
+            "py": "wèile jiànkāng, tā měitiān pǎobù.",
+            "en": {
+              "en": "He runs every day to stay healthy.",
+              "zh": "为了健康，他每天跑步。",
+              "pt": "Ele corre todos os dias para ter saúde.",
+              "fr": "Il court tous les jours pour sa santé.",
+              "es": "Corre todos los días para estar sano.",
+              "vi": "Để khỏe mạnh, ngày nào anh ấy cũng chạy bộ.",
+              "fa": "为了健康，他每天跑步。"
+            }
+          },
+          "note": {
+            "en": "为了 gives the goal you are working towards; 因为 gives the reason, what caused it.",
+            "zh": "「为了」说要做到什么，「因为」说为什么。",
+            "pt": "为了 traz o objetivo que você quer alcançar; 因为 traz o motivo, a causa.",
+            "fr": "为了 donne le but visé ; 因为 donne la raison, ce qui a causé la chose.",
+            "es": "为了 da el objetivo que quieres lograr; 因为 da el motivo, la causa.",
+            "vi": "为了 nói mục đích muốn đạt tới; 因为 nói lý do, nguyên nhân.",
+            "fa": "「为了」说要做到什么，「因为」说为什么。"
+          }
+        }
+      ],
+      "words": {
+        "关心": {
+          "en": {
+            "en": "to care about (sb)",
+            "zh": "把别人放在心上",
+            "pt": "se importar com (alguém)",
+            "fr": "se soucier de (qqn)",
+            "es": "preocuparse por (alguien)",
+            "vi": "quan tâm (đến ai)"
+          }
+        }
+      }
+    },
+    "49": {
+      "groups": [
+        {
+          "id": "feelings",
+          "words": [
+            "高兴",
+            "生气",
+            "难过"
+          ],
+          "title": {
+            "en": "Feelings",
+            "zh": "高兴、生气、难过",
+            "pt": "Sentimentos",
+            "fr": "Les émotions",
+            "es": "Los sentimientos",
+            "vi": "Cảm xúc",
+            "fa": "高兴、生气、难过"
+          },
+          "note": {
+            "en": "Use them like adjectives, with 很: 我很高兴, 你让我很生气.",
+            "zh": "跟「好」「大」一样，前面可以加「很」：我很高兴，你让我很生气。",
+            "pt": "Use como adjetivos, com 很: 我很高兴, 你让我很生气.",
+            "fr": "On les emploie comme des adjectifs, avec 很 : 我很高兴, 你让我很生气.",
+            "es": "Se usan como adjetivos, con 很: 我很高兴, 你让我很生气.",
+            "vi": "Dùng như tính từ, có 很 phía trước: 我很高兴, 你让我很生气.",
+            "fa": "跟「好」「大」一样，前面可以加「很」：我很高兴，你让我很生气。"
+          },
+          "table": true,
+          "extra": [
+            "生日"
+          ]
+        }
+      ],
+      "lines": {
+        "rang-cause": 2
+      },
+      "words": {
+        "难过": {
+          "en": {
+            "en": "sad",
+            "zh": "伤心，心里不好受",
+            "pt": "triste",
+            "fr": "triste",
+            "es": "triste",
+            "vi": "buồn"
+          }
+        }
+      }
+    },
+    "50": {
+      "grammar": [
+        "h4-yi-jiu"
+      ],
+      "lines": {
+        "h4-yi-jiu": 5
+      },
+      "words": {
+        "别的": {
+          "py": "bié de",
+          "en": {
+            "en": "other, another",
+            "zh": "另外的",
+            "pt": "outro",
+            "fr": "autre",
+            "es": "otro",
+            "vi": "khác"
+          }
+        }
+      },
+      "groups": [
+        {
+          "id": "fixing-a-problem",
+          "words": [
+            "关系",
+            "办法",
+            "试",
+            "解决"
+          ],
+          "title": {
+            "en": "Fixing a problem",
+            "zh": "解决问题",
+            "pt": "Resolver um problema",
+            "fr": "Régler un problème",
+            "es": "Resolver un problema",
+            "vi": "Giải quyết vấn đề",
+            "fa": "解决问题"
+          },
+          "note": {
+            "en": "关系 here is how two people get on; when it goes wrong you look for a 办法, 试 it, and the problem is 解决 (solved). 声音 (voice) is only in the dialogue, not in this table.",
+            "zh": "「关系」在这里是两个人处得怎么样；出了问题，就要想「办法」，去「试」，问题才能「解决」。「声音」只在对话里出现，不进这张表。",
+            "pt": "关系 aqui é a relação entre duas pessoas; quando ela dá errado, procura-se um 办法, 试 (tenta-se), e o problema fica 解决 (resolvido). 声音 (voz) aparece só no diálogo, não nesta tabela.",
+            "fr": "关系, ici, c'est la relation entre deux personnes ; quand ça va mal, on cherche un 办法, on 试 (essaie), et le problème est 解决 (réglé). 声音 (la voix) n'apparaît que dans le dialogue, pas dans ce tableau.",
+            "es": "关系 aquí es la relación entre dos personas; cuando va mal, se busca un 办法, se 试 (prueba), y el problema queda 解决 (resuelto). 声音 (voz) aparece solo en el diálogo, no en esta tabla.",
+            "vi": "关系 ở đây là quan hệ giữa hai người; khi có chuyện, phải tìm 办法, 试 (thử), thì vấn đề mới 解决 (được giải quyết). 声音 (giọng) chỉ có trong hội thoại, không vào bảng này.",
+            "fa": "「关系」在这里是两个人处得怎么样；出了问题，就要想「办法」，去「试」，问题才能「解决」。「声音」只在对话里出现，不进这张表。"
+          },
+          "table": true,
+          "after": 0
+        }
+      ]
+    },
+    "51": {
+      "groups": [
+        {
+          "id": "xian",
+          "words": [
+            "出现",
+            "发现"
+          ],
+          "title": {
+            "en": "出现 or 发现",
+            "zh": "出现和发现",
+            "pt": "出现 ou 发现",
+            "fr": "出现 ou 发现",
+            "es": "出现 o 发现",
+            "vi": "出现 hay 发现",
+            "fa": "出现和发现"
+          },
+          "note": {
+            "en": "Both end in 现: 出现 is to appear, show up; 发现 is to find or notice something.",
+            "zh": "都有「现」：「出现」是出来、让人看到，「发现」是看到了、知道了一件事。",
+            "pt": "Os dois terminam em 现: 出现 é aparecer, surgir; 发现 é descobrir ou perceber algo.",
+            "fr": "Les deux finissent par 现 : 出现, c'est apparaître ; 发现, c'est découvrir ou remarquer quelque chose.",
+            "es": "Los dos terminan en 现: 出现 es aparecer, salir; 发现 es descubrir o notar algo.",
+            "vi": "Cả hai đều có 现: 出现 là xuất hiện, hiện ra; 发现 là phát hiện, nhận ra điều gì đó.",
+            "fa": "都有「现」：「出现」是出来、让人看到，「发现」是看到了、知道了一件事。"
+          },
+          "table": false
+        }
+      ],
+      "lines": {
+        "any-wh": 5
+      }
+    },
+    "52": {
+      "groups": [
+        {
+          "id": "yao",
+          "words": [
+            "重要",
+            "主要"
+          ],
+          "title": {
+            "en": "重要 or 主要",
+            "zh": "重要和主要",
+            "pt": "重要 ou 主要",
+            "fr": "重要 ou 主要",
+            "es": "重要 o 主要",
+            "vi": "重要 hay 主要",
+            "fa": "重要和主要"
+          },
+          "note": {
+            "en": "Both end in 要: 重要 is important (这次会议很重要), 主要 is main (主要是什么问题).",
+            "zh": "都有「要」，意思不一样：这次会议很重要；主要是什么问题？",
+            "pt": "Os dois terminam em 要: 重要 é importante (这次会议很重要), 主要 é principal (主要是什么问题).",
+            "fr": "Les deux finissent par 要 : 重要, c'est important (这次会议很重要) ; 主要, principal (主要是什么问题).",
+            "es": "Los dos terminan en 要: 重要 es importante (这次会议很重要) y 主要, principal (主要是什么问题).",
+            "vi": "Cả hai đều có 要: 重要 là quan trọng (这次会议很重要), 主要 là chính, chủ yếu (主要是什么问题).",
+            "fa": "都有「要」，意思不一样：这次会议很重要；主要是什么问题？"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "prep",
+        "mei"
+      ],
+      "lines": {
+        "prep": 1,
+        "mei": 4
+      }
+    },
+    "53": {
+      "groups": [
+        {
+          "id": "choose",
+          "words": [
+            "决定",
+            "选择"
+          ],
+          "title": {
+            "en": "决定 or 选择",
+            "zh": "决定和选择",
+            "pt": "决定 ou 选择",
+            "fr": "决定 ou 选择",
+            "es": "决定 o 选择",
+            "vi": "决定 hay 选择",
+            "fa": "决定和选择"
+          },
+          "note": {
+            "en": "选择 is picking one of several; 决定 is making up your mind what to do.",
+            "zh": "「选择」是从几个里面拿一个，「决定」是想好了要怎么做。",
+            "pt": "选择 é escolher um entre vários; 决定 é decidir o que fazer.",
+            "fr": "选择, c'est choisir parmi plusieurs ; 决定, c'est décider ce qu'on va faire.",
+            "es": "选择 es elegir uno entre varios; 决定 es decidir qué hacer.",
+            "vi": "选择 là chọn một trong nhiều thứ; 决定 là quyết định sẽ làm gì.",
+            "fa": "「选择」是从几个里面拿一个，「决定」是想好了要怎么做。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "ruguo"
+      ],
+      "lines": {
+        "ruguo": 2
+      }
+    },
+    "54": {
+      "grammar": [
+        "chule"
+      ],
+      "lines": {
+        "chule": 4
+      },
+      "words": {
+        "除了": {
+          "en": {
+            "en": "except, apart from",
+            "zh": "不算在内",
+            "pt": "exceto, tirando",
+            "fr": "sauf, à part",
+            "es": "excepto, menos",
+            "vi": "trừ, ngoài … ra"
+          }
+        }
+      }
+    },
+    "55": {
+      "groups": [
+        {
+          "id": "always",
+          "words": [
+            "总是",
+            "一直"
+          ],
+          "title": {
+            "en": "Two ways to say always",
+            "zh": "总是和一直",
+            "pt": "Dois jeitos de dizer sempre",
+            "fr": "Deux façons de dire toujours",
+            "es": "Dos formas de decir siempre",
+            "vi": "Hai cách nói “luôn”",
+            "fa": "总是和一直"
+          },
+          "note": {
+            "en": "总是 is every time, again and again (我总是说不好); 一直 is all along, without a break (一直在练习).",
+            "zh": "「总是」是每次都这样，「一直」是从以前到现在都这样。",
+            "pt": "总是 é toda vez, de novo e de novo (我总是说不好); 一直 é o tempo todo, sem parar (一直在练习).",
+            "fr": "总是, c'est à chaque fois (我总是说不好) ; 一直, c'est tout le temps, sans arrêt (一直在练习).",
+            "es": "总是 es cada vez, una y otra vez (我总是说不好); 一直 es todo el tiempo, sin parar (一直在练习).",
+            "vi": "总是 là lần nào cũng thế (我总是说不好); 一直 là liên tục, không ngừng (一直在练习).",
+            "fa": "「总是」是每次都这样，「一直」是从以前到现在都这样。"
+          },
+          "table": false
+        }
+      ],
+      "lines": {
+        "zhiyao": 3
+      },
+      "words": {
+        "一直": {
+          "en": {
+            "en": "all along, the whole time",
+            "zh": "从以前到现在没有停",
+            "pt": "o tempo todo, sempre",
+            "fr": "tout le temps, sans arrêt",
+            "es": "todo el tiempo, siempre",
+            "vi": "suốt, liên tục"
+          }
+        }
+      }
+    },
+    "56": {
+      "grammar": [],
+      "cards": [
+        {
+          "title": {
+            "en": "是……的 · who did it",
+            "zh": "是……的 · 是谁做的",
+            "pt": "是……的 · quem fez",
+            "fr": "是……的 · qui l'a fait",
+            "es": "是……的 · quién lo hizo",
+            "vi": "是……的 · ai đã làm",
+            "fa": "是……的 · چه کسی did it"
+          },
+          "mark": "是",
+          "blocks": [
+            "是",
+            {
+              "en": "who",
+              "zh": "谁",
+              "pt": "quem",
+              "fr": "qui",
+              "es": "quién",
+              "vi": "ai",
+              "fa": "谁"
+            },
+            {
+              "en": "verb",
+              "zh": "动词",
+              "pt": "verbo",
+              "fr": "verbe",
+              "es": "verbo",
+              "vi": "động từ",
+              "fa": "动词"
+            },
+            "的"
+          ],
+          "line": 2,
+          "example": {
+            "ch": "这个蛋糕是妈妈做的。",
+            "py": "zhège dàngāo shì māma zuò de.",
+            "en": {
+              "en": "Mom made this cake.",
+              "zh": "这个蛋糕是妈妈做的。",
+              "pt": "Foi a mamãe que fez este bolo.",
+              "fr": "C'est maman qui a fait ce gâteau.",
+              "es": "Este pastel lo hizo mamá.",
+              "vi": "Cái bánh này là mẹ làm.",
+              "fa": "这个蛋糕是妈妈做的。"
+            }
+          },
+          "note": {
+            "en": "When it is already done, put the person between 是 and the verb, with 的 at the end, to say who did it.",
+            "zh": "事情已经做了，想说是谁做的，就把人放在「是」和动词中间，最后加「的」。",
+            "pt": "Quando já está feito, ponha a pessoa entre 是 e o verbo, com 的 no fim, para dizer quem fez.",
+            "fr": "Quand c'est déjà fait, placez la personne entre 是 et le verbe, avec 的 à la fin, pour dire qui l'a fait.",
+            "es": "Cuando ya está hecho, pon a la persona entre 是 y el verbo, con 的 al final, para decir quién lo hizo.",
+            "vi": "Khi việc đã xong, đặt người làm giữa 是 và động từ, thêm 的 ở cuối, để nói ai đã làm.",
+            "fa": "事情已经做了，想说是谁做的，就把人放在「是」和动词中间，最后加「的」。"
+          }
+        }
+      ],
+      "words": {
+        "种": {
+          "py": "zhòng",
+          "en": {
+            "en": "to plant",
+            "zh": "种植（花、树）",
+            "pt": "plantar",
+            "fr": "planter",
+            "es": "plantar, sembrar",
+            "vi": "trồng"
+          }
+        },
+        "遇到": {
+          "en": {
+            "en": "to run into",
+            "zh": "（没想到）碰见",
+            "pt": "encontrar por acaso",
+            "fr": "croiser, tomber sur",
+            "es": "encontrarse con",
+            "vi": "tình cờ gặp"
+          }
+        }
+      }
+    },
+    "57": {
+      "groups": [
+        {
+          "id": "big-numbers",
+          "words": [
+            "千",
+            "万"
+          ],
+          "title": {
+            "en": "Thousand and ten thousand",
+            "zh": "千和万",
+            "pt": "Mil e dez mil",
+            "fr": "Mille et dix mille",
+            "es": "Mil y diez mil",
+            "vi": "Nghìn và vạn",
+            "fa": "千和万"
+          },
+          "note": {
+            "en": "千 is 1,000 and 万 is 10,000, so 10,000 is 一万, not 十千, and 100,000 is 十万.",
+            "zh": "「千」是 1,000，「万」是 10,000：10,000 说「一万」，不说「十千」；100,000 是「十万」。",
+            "pt": "千 é 1.000 e 万 é 10.000; então 10.000 é 一万, não 十千, e 100.000 é 十万.",
+            "fr": "千, c'est 1 000, et 万, 10 000 : 10 000 se dit donc 一万, pas 十千, et 100 000, 十万.",
+            "es": "千 es 1000 y 万 es 10 000, así que 10 000 es 一万, no 十千, y 100 000 es 十万.",
+            "vi": "千 là 1.000, 万 là 10.000, nên 10.000 là 一万 chứ không phải 十千, còn 100.000 là 十万.",
+            "fa": "「千」是 1,000，「万」是 10,000：10,000 说「一万」，不说「十千」；100,000 是「十万」。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "rang-jiao",
+        "zhiyou"
+      ],
+      "lines": {
+        "rang-jiao": 1,
+        "zhiyou": 5
+      },
+      "words": {
+        "口": {
+          "en": {
+            "en": "mouthful (measure word)",
+            "zh": "量词：一口水",
+            "pt": "gole (classificador)",
+            "fr": "gorgée (classificateur)",
+            "es": "sorbo, trago (clasificador)",
+            "vi": "ngụm (lượng từ)"
+          }
+        }
+      }
+    },
+    "58": {
+      "groups": [
+        {
+          "id": "world",
+          "words": [
+            "中国",
+            "国家",
+            "世界"
+          ],
+          "title": {
+            "en": "From China to the world",
+            "zh": "中国、国家、世界",
+            "pt": "Da China ao mundo",
+            "fr": "De la Chine au monde",
+            "es": "De China al mundo",
+            "vi": "Từ Trung Quốc ra thế giới",
+            "fa": "中国、国家、世界"
+          },
+          "note": {
+            "en": "国 means country: 中国 is China, 国家 a country, and 世界 the whole world.",
+            "zh": "「国」就是国家：中国是一个国家，世界上有很多国家。",
+            "pt": "国 quer dizer país: 中国 é a China, 国家 é um país, e 世界 é o mundo inteiro.",
+            "fr": "国 veut dire pays : 中国, c'est la Chine, 国家, un pays, et 世界, le monde entier.",
+            "es": "国 significa país: 中国 es China, 国家 es un país y 世界, el mundo entero.",
+            "vi": "国 là nước: 中国 là Trung Quốc, 国家 là quốc gia, còn 世界 là cả thế giới.",
+            "fa": "「国」就是国家：中国是一个国家，世界上有很多国家。"
+          },
+          "table": true,
+          "extra": [
+            "大家"
+          ]
+        }
+      ],
+      "grammar": [
+        "qu-do"
+      ],
+      "lines": {
+        "qu-do": 0
+      },
+      "cards": [
+        {
+          "title": {
+            "en": "为 + person · for someone",
+            "zh": "为 + 人",
+            "pt": "为 + pessoa · por alguém",
+            "fr": "为 + personne · pour quelqu'un",
+            "es": "为 + persona · por alguien",
+            "vi": "为 + người · vì ai",
+            "fa": "为 + person · for someone"
+          },
+          "mark": "为",
+          "blocks": [
+            "为",
+            {
+              "en": "someone",
+              "zh": "谁",
+              "pt": "alguém",
+              "fr": "quelqu'un",
+              "es": "alguien",
+              "vi": "ai đó",
+              "fa": "谁"
+            },
+            {
+              "en": "feeling",
+              "zh": "高兴、担心……",
+              "pt": "sentimento",
+              "fr": "sentiment",
+              "es": "sentimiento",
+              "vi": "cảm xúc",
+              "fa": "高兴、担心……"
+            }
+          ],
+          "line": 5,
+          "example": {
+            "ch": "别为我担心。",
+            "py": "bié wèi wǒ dānxīn.",
+            "en": {
+              "en": "Don't worry about me.",
+              "zh": "别为我担心。",
+              "pt": "Não se preocupe comigo.",
+              "fr": "Ne t'inquiète pas pour moi.",
+              "es": "No te preocupes por mí.",
+              "vi": "Đừng lo cho tôi.",
+              "fa": "别为我担心。"
+            }
+          },
+          "note": {
+            "en": "为 + a person + a feeling says who you feel it for: 为你高兴, happy for you.",
+            "zh": "「为」后面先说人，再说你怎么样：为你高兴、为他担心。",
+            "pt": "为 + pessoa + sentimento diz por quem você sente isso: 为你高兴, feliz por você.",
+            "fr": "为 + personne + sentiment dit pour qui on le ressent : 为你高兴, heureux pour toi.",
+            "es": "为 + persona + sentimiento dice por quién lo sientes: 为你高兴, feliz por ti.",
+            "vi": "为 + người + cảm xúc cho biết mình thấy vậy vì ai: 为你高兴, mừng cho bạn.",
+            "fa": "「为」后面先说人，再说你怎么样：为你高兴、为他担心。"
+          }
+        }
+      ],
+      "words": {
+        "为": {
+          "en": {
+            "en": "for (someone)",
+            "zh": "替（某人）",
+            "pt": "por (alguém)",
+            "fr": "pour (quelqu'un)",
+            "es": "por (alguien)",
+            "vi": "cho, vì (ai)"
+          }
+        }
+      }
+    },
+    "59": {
+      "grammar": [],
+      "cards": [
+        {
+          "title": {
+            "en": "不但……而且…… · not only … but also",
+            "zh": "不但……而且……",
+            "pt": "不但……而且…… · não só … como também",
+            "fr": "不但……而且…… · non seulement … mais aussi",
+            "es": "不但……而且…… · no solo … sino también",
+            "vi": "不但……而且…… · không những … mà còn",
+            "fa": "不但……而且…… · not only … but also"
+          },
+          "mark": "不但",
+          "blocks": [
+            "不但",
+            {
+              "en": "one thing",
+              "zh": "一件事",
+              "pt": "uma coisa",
+              "fr": "une chose",
+              "es": "una cosa",
+              "vi": "một điều",
+              "fa": "一件事"
+            },
+            "而且",
+            {
+              "en": "one thing more",
+              "zh": "还有一件事",
+              "pt": "mais uma coisa",
+              "fr": "une chose de plus",
+              "es": "una cosa más",
+              "vi": "thêm một điều",
+              "fa": "还有一件事"
+            }
+          ],
+          "line": 2,
+          "example": {
+            "ch": "这个菜不但便宜，而且好吃。",
+            "py": "zhège cài búdàn piányi, érqiě hǎochī.",
+            "en": {
+              "en": "This dish is not only cheap but also tasty.",
+              "zh": "这个菜不但便宜，而且好吃。",
+              "pt": "Este prato não só é barato, como também é gostoso.",
+              "fr": "Ce plat est non seulement pas cher, mais aussi bon.",
+              "es": "Este plato no solo es barato, sino también rico.",
+              "vi": "Món này không những rẻ mà còn ngon.",
+              "fa": "这个菜不但便宜，而且好吃。"
+            }
+          },
+          "note": {
+            "en": "With one subject, it goes before 不但 (你不但……), and 而且 adds one more point.",
+            "zh": "只有一个主语的时候，主语放在「不但」前面：你不但……，而且……。",
+            "pt": "Com um só sujeito, ele vem antes de 不但 (你不但……), e 而且 acrescenta mais um ponto.",
+            "fr": "Avec un seul sujet, il se place avant 不但 (你不但……), et 而且 ajoute un point de plus.",
+            "es": "Con un solo sujeto, este va antes de 不但 (你不但……), y 而且 añade un punto más.",
+            "vi": "Khi chỉ có một chủ ngữ, chủ ngữ đứng trước 不但 (你不但……), còn 而且 thêm một ý nữa.",
+            "fa": "只有一个主语的时候，主语放在「不但」前面：你不但……，而且……。"
+          }
+        }
+      ],
+      "words": {
+        "比较": {
+          "en": {
+            "en": "fairly, relatively",
+            "zh": "相对来说，还算",
+            "pt": "relativamente, bem",
+            "fr": "assez, plutôt",
+            "es": "bastante, relativamente",
+            "vi": "khá, tương đối"
+          }
+        }
+      }
+    },
+    "60": {
+      "grammar": [
+        "adj-redup"
+      ],
+      "lines": {
+        "adj-redup": 3
+      },
+      "words": {
+        "蓝": {
+          "py": "lán",
+          "en": {
+            "en": "blue: 蓝蓝的天 is a blue, blue sky",
+            "zh": "蓝色：蓝蓝的天"
+          }
+        },
+        "作用": {
+          "py": "zuòyòng",
+          "en": {
+            "en": "use, effect: 有作用 is to be of use, like 有用",
+            "zh": "用处、效果：有作用，和「有用」差不多"
+          }
+        },
+        "帮忙": {
+          "py": "bāngmáng",
+          "en": {
+            "en": "to help out; it splits: 帮我的忙, 帮了很多忙",
+            "zh": "出手帮人；可以拆开说：帮我的忙、帮了很多忙"
+          }
+        }
+      },
+      "cards": [
+        {
+          "title": {
+            "en": "马上就要……了 · about to",
+            "zh": "马上就要……了 · 很快就",
+            "fa": "马上就要……了 · about to"
+          },
+          "note": {
+            "en": "要……了 (lesson 8, 地铁要离开了) says something is going to happen. 马上就 in front makes it very soon.",
+            "zh": "「要……了」第 8 课见过（地铁要离开了），说一件事将要发生；前面加「马上就」表示很快就要。",
+            "fa": "「要……了」第 8 课见过（地铁要离开了），说一件事将要发生；前面加「马上就」表示很快就要。"
+          },
+          "mark": "就要",
+          "blocks": [
+            "Subject",
+            "马上就要",
+            "Verb",
+            "了"
+          ],
+          "line": 0,
+          "after": 0,
+          "example": {
+            "ch": "我马上就要去留学了。",
+            "py": "wǒ mǎshàng jiù yào qù liúxué le",
+            "en": {
+              "en": "I am about to go abroad to study.",
+              "zh": "我马上就要去留学了。",
+              "fa": "我马上就要去留学了。"
+            }
+          }
+        }
+      ]
+    },
+    "01": {
+      "groups": [
+        {
+          "id": "building",
+          "words": [
+            "楼",
+            "层",
+            "电梯"
+          ],
+          "title": {
+            "en": "In the building",
+            "zh": "在楼里",
+            "pt": "No prédio",
+            "fr": "Dans l'immeuble",
+            "es": "En el edificio",
+            "vi": "Trong tòa nhà",
+            "fa": "在楼里"
+          },
+          "note": {
+            "en": "楼 is the building and 层 counts its floors, so 这个楼有几层 asks how many floors it has.",
+            "zh": "「楼」是楼房，「层」用来数楼有几层，所以「这个楼有几层」是问这座楼一共有多少层。",
+            "pt": "楼 é o prédio e 层 conta os andares, então 这个楼有几层 pergunta quantos andares ele tem.",
+            "fr": "楼, c'est l'immeuble, et 层 compte ses étages : 这个楼有几层 demande combien d'étages il a.",
+            "es": "楼 es el edificio y 层 cuenta sus pisos, así que 这个楼有几层 pregunta cuántos pisos tiene.",
+            "vi": "楼 là tòa nhà, còn 层 dùng để đếm tầng, nên 这个楼有几层 là hỏi tòa nhà có mấy tầng.",
+            "fa": "「楼」是楼房，「层」用来数楼有几层，所以「这个楼有几层」是问这座楼一共有多少层。"
+          },
+          "table": true,
+          "extra": [
+            "电视"
+          ]
+        }
+      ],
+      "grammar": [
+        "dir-compound"
+      ],
+      "lines": {
+        "dir-compound": 5
+      }
+    },
+    "02": {
+      "grammar": [
+        "ne-where"
+      ],
+      "lines": {
+        "ne-where": 4
+      },
+      "words": {
+        "阿姨": {
+          "en": {
+            "en": "auntie (polite word for an older woman)",
+            "zh": "对年长女性的客气称呼",
+            "pt": "tia (jeito educado de chamar uma senhora)",
+            "fr": "tata (façon polie d'appeler une dame)",
+            "es": "tía (forma cariñosa de llamar a una señora)",
+            "vi": "cô, dì (cách gọi lịch sự với phụ nữ lớn tuổi)"
+          }
+        },
+        "热情": {
+          "en": {
+            "en": "warm and friendly",
+            "zh": "对人热心、友好",
+            "pt": "caloroso, acolhedor",
+            "fr": "chaleureux, accueillant",
+            "es": "cálido, amable",
+            "vi": "nhiệt tình, niềm nở"
+          }
+        },
+        "附近": {
+          "en": {
+            "en": "nearby",
+            "zh": "离这里不远的地方",
+            "pt": "por perto, nas redondezas",
+            "fr": "à proximité, dans le coin",
+            "es": "cerca, por aquí cerca",
+            "vi": "gần đây, quanh đây"
+          }
+        }
+      }
+    },
+    "03": {
+      "groups": [
+        {
+          "id": "office",
+          "words": [
+            "办公室",
+            "经理",
+            "同事"
+          ],
+          "title": {
+            "en": "At the office",
+            "zh": "在办公室",
+            "pt": "No escritório",
+            "fr": "Au bureau",
+            "es": "En la oficina",
+            "vi": "Ở văn phòng",
+            "fa": "在办公室"
+          },
+          "note": {
+            "en": "同事 is someone you work with, the way 同学 is someone you study with.",
+            "zh": "一起工作的人叫「同事」，就像一起学习的人叫「同学」。",
+            "pt": "同事 é alguém que trabalha com você, assim como 同学 é alguém que estuda com você.",
+            "fr": "同事, c'est quelqu'un avec qui vous travaillez, comme 同学 est quelqu'un avec qui vous étudiez.",
+            "es": "同事 es alguien con quien trabajas, igual que 同学 es alguien con quien estudias.",
+            "vi": "同事 là người làm việc cùng bạn, cũng như 同学 là người học cùng bạn.",
+            "fa": "一起工作的人叫「同事」，就像一起学习的人叫「同学」。"
+          },
+          "table": true,
+          "extra": [
+            "同学"
+          ]
+        }
+      ],
+      "grammar": [],
+      "cards": [
+        {
+          "title": {
+            "en": "这位 · a polite 'this person'",
+            "zh": "这位 / 那位 · 客气的说法",
+            "pt": "这位 · um jeito educado de dizer 'esta pessoa'",
+            "fr": "这位 · « cette personne », poliment",
+            "es": "这位 · una forma cortés de decir «esta persona»",
+            "vi": "这位 · cách nói lịch sự 'người này'",
+            "fa": "这位 · a polite 'this person'"
+          },
+          "mark": "位",
+          "blocks": [
+            "这 / 那",
+            "位",
+            {
+              "en": "teacher, guest…",
+              "zh": "老师、客人……",
+              "pt": "professor, convidado…",
+              "fr": "professeur, invité…",
+              "es": "profesor, invitado…",
+              "vi": "thầy cô, khách…",
+              "fa": "老师、客人……"
+            }
+          ],
+          "line": 4,
+          "example": {
+            "ch": "那位老师是谁？",
+            "py": "nà wèi lǎoshī shì shéi?",
+            "en": {
+              "en": "Who is that teacher?",
+              "zh": "那位老师是谁？",
+              "pt": "Quem é aquele professor?",
+              "fr": "Qui est ce professeur ?",
+              "es": "¿Quién es ese profesor?",
+              "vi": "Thầy giáo kia là ai?",
+              "fa": "那位老师是谁？"
+            }
+          },
+          "note": {
+            "en": "位 is a polite 个 for people: 这位 is a respectful way to say 'this person'.",
+            "zh": "「位」是说人时更客气的量词，比「个」有礼貌：「这位」就是客气地说「这个人」。",
+            "pt": "位 é um 个 educado para pessoas: 这位 é um jeito respeitoso de dizer 'esta pessoa'.",
+            "fr": "位 est un 个 poli pour les personnes : 这位 est une façon respectueuse de dire « cette personne ».",
+            "es": "位 es un 个 cortés para personas: 这位 es una forma respetuosa de decir «esta persona».",
+            "vi": "位 là một 个 lịch sự dùng cho người: 这位 là cách nói tôn trọng 'người này'.",
+            "fa": "「位」是说人时更客气的量词，比「个」有礼貌：「这位」就是客气地说「这个人」。"
+          }
+        }
+      ],
+      "words": {
+        "位": {
+          "en": {
+            "en": "(polite measure word for people)",
+            "zh": "用于人的量词，比「个」客气",
+            "pt": "(classificador educado para pessoas)",
+            "fr": "(classificateur poli pour les personnes)",
+            "es": "(clasificador cortés para personas)",
+            "vi": "(lượng từ lịch sự dùng cho người)"
+          }
+        }
+      }
+    },
+    "05": {
+      "groups": [
+        {
+          "id": "clock",
+          "words": [
+            "点",
+            "分",
+            "刻",
+            "半",
+            "差"
+          ],
+          "title": {
+            "en": "Telling the time",
+            "zh": "时间怎么说",
+            "pt": "Dizer as horas",
+            "fr": "Dire l'heure",
+            "es": "Decir la hora",
+            "vi": "Nói giờ",
+            "fa": "گفتن ساعت و زمان"
+          },
+          "note": {
+            "en": "一刻 is 15 分 and 半 is 30 分; 差 works like 'to': 差五分十点 is five to ten.",
+            "zh": "「一刻」是十五分钟，「半」是三十分钟；「差」是说还差几分钟：差五分十点就是九点五十五。",
+            "pt": "一刻 são 15 分 e 半 são 30 分; 差 funciona como 'para': 差五分十点 é cinco para as dez.",
+            "fr": "一刻 vaut 15 分 et 半 vaut 30 分 ; 差 marche comme « moins » : 差五分十点, c'est dix heures moins cinq.",
+            "es": "一刻 son 15 分 y 半 son 30 分; 差 funciona como «menos»: 差五分十点 son las diez menos cinco.",
+            "vi": "一刻 là 15 分, 半 là 30 分; 差 giống chữ 'kém': 差五分十点 là mười giờ kém năm.",
+            "fa": "「一刻」是十五分钟，「半」是三十分钟；「差」是说还差几分钟：差五分十点就是九点五十五。"
+          },
+          "table": true,
+          "extra": [
+            "课",
+            "茶"
+          ]
+        }
+      ],
+      "grammar": [
+        "clock-ban"
+      ],
+      "lines": {
+        "clock-ban": 5
+      },
+      "words": {
+        "分": {
+          "en": {
+            "en": "minute",
+            "zh": "分钟",
+            "pt": "minuto",
+            "fr": "minute",
+            "es": "minuto",
+            "vi": "phút"
+          }
+        },
+        "差": {
+          "en": {
+            "en": "short of; to (before the hour)",
+            "zh": "离整点还少（几分钟）",
+            "pt": "faltar (minutos para a hora)",
+            "fr": "moins (avant l'heure pile)",
+            "es": "faltar (minutos para la hora)",
+            "vi": "kém (trước giờ chẵn)"
+          }
+        }
+      }
+    },
+    "06": {
+      "grammar": [],
+      "cards": [
+        {
+          "title": {
+            "en": "一定 + verb · for sure",
+            "zh": "一定 + 动词",
+            "pt": "一定 + verbo · com certeza",
+            "fr": "一定 + verbe · à coup sûr",
+            "es": "一定 + verbo · seguro",
+            "vi": "一定 + động từ · nhất định",
+            "fa": "一定 + verb · for sure"
+          },
+          "mark": "一定",
+          "blocks": [
+            {
+              "en": "who",
+              "zh": "谁",
+              "pt": "quem",
+              "fr": "qui",
+              "es": "quién",
+              "vi": "ai",
+              "fa": "谁"
+            },
+            "一定",
+            {
+              "en": "verb",
+              "zh": "动词",
+              "pt": "verbo",
+              "fr": "verbe",
+              "es": "verbo",
+              "vi": "động từ",
+              "fa": "动词"
+            }
+          ],
+          "line": 5,
+          "example": {
+            "ch": "我明天一定来。",
+            "py": "wǒ míngtiān yídìng lái.",
+            "en": {
+              "en": "I'll definitely come tomorrow.",
+              "zh": "我明天一定来。",
+              "pt": "Amanhã eu venho, com certeza.",
+              "fr": "Demain, je viens à coup sûr.",
+              "es": "Mañana vengo, seguro.",
+              "vi": "Ngày mai tôi nhất định sẽ đến.",
+              "fa": "我明天一定来。"
+            }
+          },
+          "note": {
+            "en": "一定 says it will surely happen, so 我一定认真做 is a promise; 必须 says it has to be done.",
+            "zh": "「一定」是说肯定会做到，所以「我一定认真做」是一个保证；「必须」是说非做不可。",
+            "pt": "一定 diz que vai acontecer com certeza, por isso 我一定认真做 é uma promessa; 必须 diz que é obrigatório.",
+            "fr": "一定 dit que ça se fera à coup sûr, donc 我一定认真做 est une promesse ; 必须 dit que c'est obligatoire.",
+            "es": "一定 dice que pasará seguro, así que 我一定认真做 es una promesa; 必须 dice que es obligatorio.",
+            "vi": "一定 nói việc đó chắc chắn sẽ làm, nên 我一定认真做 là một lời hứa; 必须 nói việc đó bắt buộc phải làm.",
+            "fa": "「一定」是说肯定会做到，所以「我一定认真做」是一个保证；「必须」是说非做不可。"
+          }
+        }
+      ],
+      "words": {
+        "要求": {
+          "en": {
+            "en": "requirement; request",
+            "zh": "希望别人做到的事",
+            "pt": "exigência, pedido",
+            "fr": "exigence, demande",
+            "es": "requisito, exigencia",
+            "vi": "yêu cầu"
+          }
+        }
+      }
+    },
+    "07": {
+      "groups": [
+        {
+          "id": "remember-forget",
+          "words": [
+            "记得",
+            "忘记"
+          ],
+          "title": {
+            "en": "Remember or forget",
+            "zh": "记得和忘记",
+            "pt": "Lembrar ou esquecer",
+            "fr": "Se souvenir ou oublier",
+            "es": "Recordar u olvidar",
+            "vi": "Nhớ hay quên",
+            "fa": "记得和忘记"
+          },
+          "note": {
+            "en": "Both have 记 in them: 记得 is to remember, 忘记 is to forget.",
+            "zh": "两个词里都有「记」：「记得」是还记着，「忘记」是忘了。",
+            "pt": "Os dois têm 记: 记得 é lembrar, 忘记 é esquecer.",
+            "fr": "Les deux contiennent 记 : 记得, c'est se souvenir, 忘记, c'est oublier.",
+            "es": "Los dos llevan 记: 记得 es recordar y 忘记 es olvidar.",
+            "vi": "Cả hai đều có chữ 记: 记得 là nhớ, 忘记 là quên.",
+            "fa": "两个词里都有「记」：「记得」是还记着，「忘记」是忘了。"
+          },
+          "table": false
+        },
+        {
+          "id": "hold-bring",
+          "words": [
+            "拿",
+            "带"
+          ],
+          "title": {
+            "en": "Hold it or take it along",
+            "zh": "拿和带",
+            "pt": "Segurar ou levar junto",
+            "fr": "Tenir ou emporter",
+            "es": "Agarrar o llevar",
+            "vi": "Cầm hay mang theo",
+            "fa": "拿和带"
+          },
+          "note": {
+            "en": "拿 is having it in your hand; 带 is taking it with you somewhere: 别忘记带回家.",
+            "zh": "「拿」是东西在手里，「带」是走的时候把东西一起带走：别忘记带回家。",
+            "pt": "拿 é ter na mão; 带 é levar com você para algum lugar: 别忘记带回家.",
+            "fr": "拿, c'est l'avoir en main ; 带, c'est l'emporter avec soi quelque part : 别忘记带回家.",
+            "es": "拿 es tenerlo en la mano; 带 es llevarlo contigo a algún lugar: 别忘记带回家.",
+            "vi": "拿 là cầm trên tay; 带 là mang theo bên mình đến nơi nào đó: 别忘记带回家.",
+            "fa": "「拿」是东西在手里，「带」是走的时候把东西一起带走：别忘记带回家。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "zhe"
+      ],
+      "lines": {
+        "zhe": 1
+      }
+    },
+    "08": {
+      "grammar": [
+        "le-change"
+      ],
+      "lines": {
+        "le-change": 4
+      },
+      "words": {
+        "站": {
+          "py": "zhàn",
+          "en": {
+            "en": "station, stop",
+            "zh": "车站",
+            "pt": "estação, parada",
+            "fr": "station, arrêt",
+            "es": "estación, parada",
+            "vi": "ga, trạm"
+          }
+        }
+      },
+      "groups": [
+        {
+          "id": "subway",
+          "words": [
+            "地铁",
+            "站",
+            "经过",
+            "离开"
+          ],
+          "title": {
+            "en": "Taking the subway",
+            "zh": "坐地铁",
+            "pt": "Andar de metrô",
+            "fr": "Prendre le métro",
+            "es": "Tomar el metro",
+            "vi": "Đi tàu điện ngầm",
+            "fa": "坐地铁"
+          },
+          "note": {
+            "en": "地铁站 is a subway station: 站 here is a stop, not to stand. The train 经过, passes, a place and then 离开, leaves.",
+            "zh": "「地铁站」的「站」是车站，不是站着。地铁「经过」一个地方，然后「离开」。",
+            "pt": "地铁站 é a estação de metrô: 站 aqui é parada, não ficar de pé. O trem 经过, passa por um lugar, e depois 离开, vai embora.",
+            "fr": "地铁站, c'est la station de métro : 站 veut dire ici arrêt, pas rester debout. Le train 经过, passe par un endroit, puis 离开, s'en va.",
+            "es": "地铁站 es la estación de metro: 站 aquí es parada, no estar de pie. El tren 经过, pasa por un lugar, y luego 离开, se va.",
+            "vi": "地铁站 là ga tàu điện ngầm: 站 ở đây là trạm, không phải đứng. Tàu 经过, đi qua một nơi, rồi 离开, rời đi.",
+            "fa": "「地铁站」的「站」是车站，不是站着。地铁「经过」一个地方，然后「离开」。"
+          },
+          "table": true,
+          "after": 0,
+          "extra": [
+            "方便"
+          ]
+        }
+      ]
+    },
+    "09": {
+      "groups": [
+        {
+          "id": "directions",
+          "words": [
+            "东",
+            "西",
+            "南",
+            "北方"
+          ],
+          "title": {
+            "en": "The four directions",
+            "zh": "四个方向",
+            "pt": "Os pontos cardeais",
+            "fr": "Les points cardinaux",
+            "es": "Los puntos cardinales",
+            "vi": "Bốn phương hướng",
+            "fa": "四个方向"
+          },
+          "note": {
+            "en": "Put 东 and 西 together and you get 东西 (dōngxi), 'thing'.",
+            "zh": "「东」和「西」放在一起，读 dōngxi，就是「东西」（物品）。",
+            "pt": "Juntando 东 e 西, você tem 东西 (dōngxi), 'coisa'.",
+            "fr": "Mettez 东 et 西 ensemble et vous obtenez 东西 (dōngxi), « chose ».",
+            "es": "Junta 东 y 西 y tienes 东西 (dōngxi), «cosa».",
+            "vi": "Ghép 东 với 西 lại thành 东西 (dōngxi), nghĩa là 'đồ vật'.",
+            "fa": "「东」和「西」放在一起，读 dōngxi，就是「东西」（物品）。"
+          },
+          "table": true,
+          "extra": [
+            "四",
+            "北京"
+          ]
+        }
+      ],
+      "grammar": [
+        "prep"
+      ],
+      "lines": {
+        "prep": 3
+      }
+    }
+  }
+}

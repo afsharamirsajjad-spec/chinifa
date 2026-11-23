@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; media-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https://chinifa.app https://chinify.app https://kanchinese.app https://*.kanchinese.app https://*.vercel.app https://www.gstatic.com;  object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="theme-color" content="#0FA968">
+<!-- Added to the home screen on an iPhone, this is what opens it without
+     Safari's address bar around it â€” the manifest's display:standalone is
+     enough on iOS 16.4 and up and nothing at all below it. The translucent
+     bar is the one that matches viewport-fit=cover above: the page already
+     pads itself off the notch with --sat. -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="chinifa">
+<title>chinifa · آموزش زبان چینی</title>
+<!-- The smallest that does each job. Both of these pointed at the 512px icon,
+     which is 249 KB, twice, on the first screen of an app built for phones on
+     patchy 2G â€” a tab favicon is drawn at 32 px and a touch icon at 180. The
+     manifest still names the big ones; those are fetched when somebody installs
+     the app, not when they open it. -->
+<link rel="icon" sizes="108x108" href="icons/icon-108.png">
+<link rel="apple-touch-icon" sizes="192x192" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preload" href="css/fonts/NotoSansSC-chinifa.woff2" as="font" type="font/woff2" crossorigin>
+<script>try{var _st=JSON.parse(localStorage.getItem('chinifa.v1')||'{}');if(_st.accent)document.documentElement.setAttribute('data-accent',_st.accent);}catch(e){}</script>
+<link rel="stylesheet" href="css/app.css?v=31">
+<link rel="stylesheet" href="css/app-fa.css?v=36">
+<link rel="stylesheet" href="css/home-enhanced.css?v=6">
+<link rel="stylesheet" href="css/subtasks-enhanced.css?v=2">
+<link rel="stylesheet" href="css/library.css">
+<style id="chinifa-splash-critical-css">
+#chinifa-splash {
+  position: absolute;
+  inset: 0;
+  z-index: 999999;
+  background: radial-gradient(circle at 50% 38%, #10B981 0%, #059669 45%, #064E3B 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+#chinifa-splash.is-out {
+  opacity: 0 !important;
+  transform: scale(1.03) !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+}
+.chinifa-mascot-container {
+  position: relative;
+  width: 200px;
+  height: 246px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+.chinifa-splash-dragon-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.38));
+  display: block;
+}
+.chinifa-splash-title {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  font-size: 52px;
+  font-weight: 900;
+  letter-spacing: -1.5px;
+  line-height: 1;
+  color: #FFFFFF;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.35), 0 0 24px rgba(254, 240, 138, 0.7);
+  opacity: 1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.chinifa-splash-sub {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.94);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  letter-spacing: 0.3px;
+  opacity: 1;
+  text-align: center;
+}
+</style>
+<script src="js/vendor/hanzi-writer.min.js"></script>
+</head>
+<body>
+  <div class="stage">
+    <div class="device" id="device">
+      <!-- Chinifa Splash Screen with Stable Dragon Mascot & Title -->
+      <div id="chinifa-splash" class="chinifa-splash" aria-hidden="true">
+        <div class="chinifa-splash-bg">
+          <div class="chinifa-splash-clouds"></div>
+          <div class="chinifa-splash-rays"></div>
+        </div>
+        <div class="chinifa-splash-center">
+          <!-- اژدهای اصلی چی‌نی‌فا با تصویر کامل و درخشش ملایم -->
+          <div class="chinifa-mascot-container">
+            <div class="chinifa-splash-glow"></div>
+            <img class="chinifa-splash-dragon-img" src="art/splash_dragon_mascot.png" alt="chinifa dragon" decoding="async">
+          </div>
+          <div class="chinifa-splash-title" dir="ltr">chinifa</div>
+          <div class="chinifa-splash-sub">آموزش هوشمند زبان چینی 🌸</div>
+        </div>
+      </div>
+      <script>
+        (function() {
+          var s = document.getElementById('chinifa-splash');
+          if (!s) return;
+          var dismissed = false;
+          var minDuration = 2400; // نمایش پایدار و دلنشین اسپلش برای حداقل ۲.۴ ثانیه
+          var startTime = Date.now();
+
+          window.__dismissSplash = function(force) {
+            if (dismissed || !s) return;
+            var elapsed = Date.now() - startTime;
+            if (!force && elapsed < minDuration) {
+              setTimeout(function() { window.__dismissSplash(true); }, minDuration - elapsed);
+              return;
+            }
+            dismissed = true;
+            try { s.style.pointerEvents = 'none'; } catch(e) {}
+            s.classList.add('is-out');
+            setTimeout(function() {
+              try {
+                if (s) {
+                  s.style.display = 'none';
+                  if (s.parentNode) s.parentNode.removeChild(s);
+                }
+              } catch(e) {}
+            }, 360);
+          };
+
+          // لمس یا کلیک فوری برای عبور کاربر در صورت تمایل
+          s.addEventListener('click', function() { window.__dismissSplash(true); });
+          s.addEventListener('touchstart', function() { window.__dismissSplash(true); }, { passive: true });
+
+          // پخش افکت صوتی صعود و درخشش اژدهای چی‌نی‌فا
+          try {
+            var snd = new Audio('art/sfx/gold-shine.mp3');
+            snd.volume = 0.45;
+            snd.play().catch(function() {});
+          } catch(e) {}
+
+          // بستن خودکار اسپلش پس از سپری شدن زمان کافی
+          setTimeout(function() {
+            window.__dismissSplash(false);
+          }, minDuration);
+
+          // گارد ایمنی نهایی در صورت هرگونه کندی دستگاه
+          setTimeout(function() {
+            window.__dismissSplash(true);
+          }, 6000);
+        })();
+      </script>
+      <div class="device__notch" aria-hidden="true"></div>
+      <div class="app" id="app">
+        <main class="screen-host" id="screen-host" aria-live="polite"></main>
+        <!-- æ–­ç½‘æ—¶é¡¶ä¸Šçš„ä¸€æ¡ç¥ç€è‰²ç»†æ¡ï¼ˆFigma 243:1709ï¼‰ã€‚å®ƒä¸ç›–ä½é¡µé¢ï¼š
+             UI.netPaint é‡å‡ºå®ƒçš„é«˜åº¦å†™è¿› #app çš„ --netbarï¼Œé¡µé¢æ•´ä½“å¾€ä¸‹è®©ã€‚ -->
+        <div class="netbar" id="netbar" role="status" style="display:none !important;" hidden></div>
+        <nav class="tabbar" id="tabbar" aria-label="Main"></nav>
+        <div class="layer" id="layer"></div>
+        <div class="toast-host" id="toast-host" aria-live="assertive"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/build.js"></script>
+  <script src="js/config.js?v=34"></script>
+  <script src="js/native.js"></script>
+  <script src="js/tokens.js"></script>
+  <script src="js/i18n-fa.js?v=31"></script>
+  <script src="js/i18n.js?v=29"></script>
+  <script src="js/data.js?v=2"></script>
+  <script src="js/char-gloss.js"></script>
+  <script src="js/store.js?v=29"></script>
+  <script src="js/sync.js?v=34"></script>
+  <script src="js/track.js"></script>
+  <script src="js/syllables-data.js"></script>
+  <script src="js/audio.js?v=36"></script>
+  <script src="js/lookup.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/prefetch.js"></script>
+  <script src="js/offline.js"></script>
+  <script src="js/notify.js"></script>
+  <script src="js/update.js"></script>
+  <script src="js/billing.js"></script>
+  <script src="js/trad.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/tones.js"></script>
+  <script src="js/gestures.js"></script>
+  <script src="js/screens-onboard.js?v=29"></script>
+  <script src="js/pinyin-data.js"></script>
+  <script src="js/inline-py.js"></script>
+  <script src="js/screens-learn.js"></script>
+  <script src="js/peek.js"></script>
+  <script src="js/speak.js"></script>
+  <script src="js/lcfx.js"></script>
+  <script src="js/endpages.js"></script>
+  <script src="js/mistakes.js"></script>
+  <script src="js/record.js"></script>
+  <script src="js/myprogress.js?v=3"></script>
+  <script src="js/register.js"></script>
+  <script src="js/journey.js?v=29"></script>
+  <script src="js/gold.js"></script>
+  <script src="js/jump.js"></script>
+  <script src="js/wheel.js"></script>
+  <script src="js/goals.js"></script>
+  <script src="js/homenotes.js"></script>
+  <script src="js/tomorrow.js"></script>
+  <script src="js/celebrate.js"></script>
+  <script src="js/report.js"></script>
+  <script src="js/tonecheck.js"></script>
+  <script src="js/stories.js?v=33"></script>
+  <script src="js/screens-extra.js?v=29"></script>
+  <script src="js/qrcode.js"></script>
+  <script src="js/screens-progress.js"></script>
+  <script src="js/stroke-data.js"></script>
+  <script src="js/screens-pinyin.js"></script>
+  <script src="js/pinyin-course.js?v=33"></script>
+  <script src="js/worksheet.js"></script>
+  <script src="js/screens-strokes.js"></script>
+  <script src="js/screens-vocab.js"></script>
+  <script src="js/screens-library.js"></script>
+  <script src="js/explore.js?v=33"></script>
+  <script src="js/screens-me.js?v=31"></script>
+  <script src="js/screens-tools.js"></script>
+  <script src="js/screens-pay.js"></script>
+  <script src="js/invite.js"></script>
+  <script src="js/town.js"></script>
+  <script src="js/stack.js"></script>
+  <script src="js/games.js"></script>
+  <script src="js/popups.js"></script>
+  <script src="js/series.js"></script>
+  <script src="js/work.js"></script>
+  <script src="js/podcast.js?v=34"></script>
+  <script src="js/measure-data.js"></script>
+  <script src="js/measure.js"></script>
+  <script src="js/numbers.js"></script>
+  <script src="js/unit-course.js?v=37"></script>
+  <script src="js/hsk2-units.js?v=1"></script>
+  <script src="js/hsk3-units.js?v=1"></script>
+  <script src="js/hsk4-units.js?v=1"></script>
+  <script src="js/hsk5-units.js?v=1"></script>
+  <script src="js/app.js?v=29"></script>
+  <script src="js/home-enhanced.js?v=11"></script>
+  <script src="js/subtasks-enhanced.js?v=3"></script>
+</body>
+</html>

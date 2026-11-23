@@ -1,0 +1,1526 @@
+{
+  "id": "h2-51",
+  "level": 2,
+  "no": 51,
+  "title": "谁的会议室？",
+  "title_py": "shéi de huì yì shì?",
+  "title_en": "Whose meeting room?",
+  "title_tr": {
+    "vi": "Phòng họp của ai?",
+    "pt": "De quem é a sala de reunião?",
+    "es": "¿De quién es la sala de reuniones?",
+    "fr": "À qui est la salle de réunion ?",
+    "am": "የማን ስብሰባ አዳራሽ?",
+    "fa": "اتاق جلسه مال کیست؟"
+  },
+  "topic": "work",
+  "free": false,
+  "sub": "w_meeting",
+  "cover": "https://media.kanchinese.app/review/stories/h2-51.jpg",
+  "duration": 84.92,
+  "lines": [
+    {
+      "text": "上海的一家公司要来跟周经理的公司开会。他们只在电话里谈过，还没见过面。",
+      "py": "shàng hǎi de yì jiā gōng sī yào lái gēn Zhōu jīng lǐ de gōng sī kāi huì. tā men zhǐ zài diàn huà lǐ tán guò, hái méi jiàn guò miàn.",
+      "en": "A company from Shanghai is coming for a meeting with Manager Zhou's company. They've only talked on the phone and have never met.",
+      "tr": {
+        "vi": "Một công ty ở Thượng Hải sắp đến họp với công ty của giám đốc Chu. Hai bên mới chỉ nói chuyện qua điện thoại, chưa gặp mặt bao giờ.",
+        "pt": "Uma empresa de Xangai vem fazer uma reunião com a empresa da gerente Zhou. Eles só conversaram por telefone e nunca se viram.",
+        "es": "Una empresa de Shanghái va a venir a reunirse con la empresa de la gerente Zhou. Solo han hablado por teléfono y todavía no se conocen.",
+        "fr": "Une entreprise de Shanghai vient pour une réunion avec l'entreprise de la directrice Zhou. Ils se sont seulement parlé au téléphone, ils ne se sont jamais vus.",
+        "am": "ከሻንግሃይ አንድ ድርጅት ከሥራ አስኪያጅ ጆው ድርጅት ጋር ሊሰበሰብ ነው። እስካሁን በስልክ ብቻ ተነጋግረዋል፤ ተገናኝተው አያውቁም።"
+      },
+      "start": 2.404,
+      "end": 10.444,
+      "tokens": [
+        [
+          "上海",
+          "shàng hǎi",
+          "Shanghai municipality (short name 沪)",
+          ""
+        ],
+        [
+          "的",
+          "de",
+          "of; ~'s (possessive particle)",
+          ""
+        ],
+        [
+          "一家",
+          "yī jiā",
+          "the whole family; the same family",
+          ""
+        ],
+        [
+          "公司",
+          "gōng sī",
+          "company; firm; corporation",
+          ""
+        ],
+        [
+          "要",
+          "yào",
+          "to want; to need; to ask for; will; shall; about to",
+          ""
+        ],
+        [
+          "来",
+          "lái",
+          "(prefix) the coming ...; the next ... (as in 来世); to come",
+          ""
+        ],
+        [
+          "跟",
+          "gēn",
+          "heel; to follow closely; to go with",
+          ""
+        ],
+        [
+          "周",
+          "zhōu",
+          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+          ""
+        ],
+        [
+          "经理",
+          "jīng lǐ",
+          "manager; director",
+          ""
+        ],
+        [
+          "的",
+          "de",
+          "of; ~'s (possessive particle)",
+          ""
+        ],
+        [
+          "公司",
+          "gōng sī",
+          "company; firm; corporation",
+          ""
+        ],
+        [
+          "开会",
+          "kāi huì",
+          "to hold a meeting; to attend a meeting",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "他们",
+          "tā men",
+          "they; them",
+          ""
+        ],
+        [
+          "只",
+          "zhī",
+          "grain that has begun to ripen",
+          ""
+        ],
+        [
+          "在",
+          "zài",
+          "to exist; to be alive; (of sb or sth) to be (located) at",
+          ""
+        ],
+        [
+          "电话",
+          "diàn huà",
+          "phone call; phone number; telephone",
+          ""
+        ],
+        [
+          "里",
+          "lǐ",
+          "lining; interior; inside",
+          ""
+        ],
+        [
+          "谈",
+          "tán",
+          "to talk; to speak; to converse",
+          ""
+        ],
+        [
+          "过",
+          "guo",
+          "(experienced action marker)",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "还",
+          "hái",
+          "still; still in progress; still more",
+          ""
+        ],
+        [
+          "没",
+          "méi",
+          "(negative prefix for verbs) have not; not",
+          ""
+        ],
+        [
+          "见",
+          "jiàn",
+          "to meet; to see; to appear (to be sth)",
+          ""
+        ],
+        [
+          "过",
+          "guo",
+          "(experienced action marker)",
+          ""
+        ],
+        [
+          "面",
+          "miàn",
+          "face; side; surface",
+          ""
+        ],
+        [
+          "。"
+        ]
+      ]
+    },
+    {
+      "text": "周经理说：“十点在二号会议室开会。杰克、小雨，你们早一点儿去准备。”",
+      "py": "Zhōu jīng lǐ shuō: “shí diǎn zài èr hào huì yì shì kāi huì. Jié kè, Xiǎo yǔ, nǐ men zǎo yì diǎn r qù zhǔn bèi.”",
+      "en": "Manager Zhou says, \"The meeting is at ten in meeting room two. Jack, Xiaoyu, go a bit early and get it ready.\"",
+      "tr": {
+        "vi": "Giám đốc Chu nói: “Mười giờ họp ở phòng họp số hai. Jack, Tiểu Vũ, hai em đến sớm một chút để chuẩn bị.”",
+        "pt": "A gerente Zhou diz: “A reunião é às dez, na sala de reuniões dois. Jack, Xiaoyu, vão um pouco mais cedo para preparar tudo.”",
+        "es": "La gerente Zhou dice: «La reunión es a las diez en la sala dos. Jack, Xiaoyu, vayan un poco antes para prepararla».",
+        "fr": "La directrice Zhou dit : « La réunion est à dix heures, dans la salle de réunion numéro deux. Jack, Xiaoyu, allez-y un peu en avance pour tout préparer. »",
+        "am": "ሥራ አስኪያጅ ጆው «ስብሰባው 10:00 ላይ በ2 ቁጥር አዳራሽ ነው። ጃክ፣ ሺያውዩ፣ ቀደም ብላችሁ ሄዳችሁ አዘጋጁ» አለች።"
+      },
+      "start": 11.144,
+      "end": 18.224,
+      "tokens": [
+        [
+          "周",
+          "zhōu",
+          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+          ""
+        ],
+        [
+          "经理",
+          "jīng lǐ",
+          "manager; director",
+          ""
+        ],
+        [
+          "说",
+          "shuō",
+          "to speak; to talk; to say; to explain; to comment",
+          ""
+        ],
+        [
+          "："
+        ],
+        [
+          "“"
+        ],
+        [
+          "十",
+          "shí",
+          "ten; 10",
+          ""
+        ],
+        [
+          "点",
+          "diǎn",
+          "a small amount; a bit; (after a verb or adjective) a bit more",
+          ""
+        ],
+        [
+          "在",
+          "zài",
+          "to exist; to be alive; (of sb or sth) to be (located) at",
+          ""
+        ],
+        [
+          "二号",
+          "èr hào",
+          "2nd day of the month",
+          ""
+        ],
+        [
+          "会议室",
+          "huì yì shì",
+          "meeting room; conference room",
+          ""
+        ],
+        [
+          "开会",
+          "kāi huì",
+          "to hold a meeting; to attend a meeting",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "杰克",
+          "jié kè",
+          "Jack (name)",
+          ""
+        ],
+        [
+          "、"
+        ],
+        [
+          "小雨",
+          "xiǎo yǔ",
+          "light rain; drizzle",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "你们",
+          "nǐ men",
+          "you (plural)",
+          ""
+        ],
+        [
+          "早",
+          "zǎo",
+          "early; morning; Good morning!",
+          ""
+        ],
+        [
+          "一点儿",
+          "yī diǎn r",
+          "a little",
+          ""
+        ],
+        [
+          "去",
+          "qù",
+          "to get rid of; to go; to go to (a place)",
+          ""
+        ],
+        [
+          "准备",
+          "zhǔn bèi",
+          "preparation; to prepare; to intend",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "”"
+        ]
+      ]
+    },
+    {
+      "text": "九点五十，杰克和小雨走进二号会议室，看见里面已经坐着两个人。",
+      "py": "jiǔ diǎn wǔ shí, Jié kè hé Xiǎo yǔ zǒu jìn èr hào huì yì shì, kàn jiàn lǐ miàn yǐ jīng zuò zhe liǎng gè rén.",
+      "en": "At ten to ten, Jack and Xiaoyu walk into meeting room two and see two people already sitting there.",
+      "tr": {
+        "vi": "Mười giờ kém mười, Jack và Tiểu Vũ bước vào phòng họp số hai, thấy bên trong đã có hai người ngồi.",
+        "pt": "Às dez para as dez, Jack e a Xiaoyu entram na sala dois e veem duas pessoas já sentadas lá dentro.",
+        "es": "A las diez para las diez, Jack y Xiaoyu entran a la sala dos y ven que ya hay dos personas sentadas.",
+        "fr": "À dix heures moins dix, Jack et Xiaoyu entrent dans la salle numéro deux et voient deux personnes déjà assises.",
+        "am": "9:50 ላይ ጃክ እና ሺያውዩ ወደ 2 ቁጥር አዳራሽ ሲገቡ ሁለት ሰዎች ቀድመው ተቀምጠው አዩ።"
+      },
+      "start": 18.924,
+      "end": 26.508,
+      "tokens": [
+        [
+          "九",
+          "jiǔ",
+          "nine; 9",
+          ""
+        ],
+        [
+          "点",
+          "diǎn",
+          "classifier for small amounts; to touch briefly; to tap",
+          ""
+        ],
+        [
+          "五十",
+          "wǔ shí",
+          "fifty",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "杰克",
+          "jié kè",
+          "Jack (name)",
+          ""
+        ],
+        [
+          "和",
+          "hé",
+          "(joining two nouns) and; together with; with; (math.) sum",
+          ""
+        ],
+        [
+          "小雨",
+          "xiǎo yǔ",
+          "light rain; drizzle",
+          ""
+        ],
+        [
+          "走进",
+          "zǒu jìn",
+          "to enter; to step into",
+          ""
+        ],
+        [
+          "二号",
+          "èr hào",
+          "2nd day of the month",
+          ""
+        ],
+        [
+          "会议室",
+          "huì yì shì",
+          "meeting room; conference room",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "看见",
+          "kàn jiàn",
+          "to see; to catch sight of",
+          ""
+        ],
+        [
+          "里面",
+          "lǐ miàn",
+          "inside; interior; also pr.",
+          ""
+        ],
+        [
+          "已经",
+          "yǐ jīng",
+          "already",
+          ""
+        ],
+        [
+          "坐",
+          "zuò",
+          "to sit; to take a seat; to take (a bus, airplane etc)",
+          ""
+        ],
+        [
+          "着",
+          "zhe",
+          "aspect particle indicating action in progress or ongoing state",
+          ""
+        ],
+        [
+          "两",
+          "liǎng",
+          "two; both; some",
+          ""
+        ],
+        [
+          "个人",
+          "gè rén",
+          "an individual; oneself; (attributive) personal; one's own",
+          ""
+        ],
+        [
+          "。"
+        ]
+      ]
+    },
+    {
+      "text": "杰克客气地说：“不好意思，十点我们要用这个会议室。”",
+      "py": "Jié kè kè qì de shuō: “bù hǎo yì sī, shí diǎn wǒ men yào yòng zhè ge huì yì shì.”",
+      "en": "Jack says politely, \"Excuse me, we need this meeting room at ten.\"",
+      "tr": {
+        "vi": "Jack lịch sự nói: “Xin lỗi, mười giờ chúng tôi cần dùng phòng họp này.”",
+        "pt": "Jack diz com educação: “Com licença, às dez vamos usar esta sala.”",
+        "es": "Jack dice con cortesía: «Disculpen, a las diez necesitamos esta sala».",
+        "fr": "Jack dit poliment : « Excusez-moi, nous avons besoin de cette salle à dix heures. »",
+        "am": "ጃክ በትሕትና «ይቅርታ፣ 10:00 ላይ ይሄን አዳራሽ እንፈልገዋለን» አለ።"
+      },
+      "start": 27.208,
+      "end": 32.68,
+      "tokens": [
+        [
+          "杰克",
+          "jié kè",
+          "Jack (name)",
+          ""
+        ],
+        [
+          "客气",
+          "kè qi",
+          "polite; courteous; formal",
+          ""
+        ],
+        [
+          "地",
+          "de",
+          "-ly",
+          ""
+        ],
+        [
+          "说",
+          "shuō",
+          "to speak; to talk; to say; to explain; to comment",
+          ""
+        ],
+        [
+          "："
+        ],
+        [
+          "“"
+        ],
+        [
+          "不好意思",
+          "bù hǎo yì si",
+          "to feel embarrassed; to find it embarrassing",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "十",
+          "shí",
+          "ten; 10",
+          ""
+        ],
+        [
+          "点",
+          "diǎn",
+          "classifier for small amounts; to touch briefly; to tap",
+          ""
+        ],
+        [
+          "我们",
+          "wǒ men",
+          "we; us; ourselves; our",
+          ""
+        ],
+        [
+          "要",
+          "yào",
+          "to want; to need; to ask for; need to; should",
+          ""
+        ],
+        [
+          "用",
+          "yòng",
+          "to need; to have to (usu. used in the negative or in questions)",
+          ""
+        ],
+        [
+          "这个",
+          "zhè ge",
+          "(pronoun) this; (adjective) this",
+          ""
+        ],
+        [
+          "会议室",
+          "huì yì shì",
+          "meeting room; conference room",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "”"
+        ]
+      ]
+    },
+    {
+      "text": "一个男人说：“我们十点也在这儿开会，我们在等人。”",
+      "py": "yí gè nán rén shuō: “wǒ men shí diǎn yě zài zhè r kāi huì, wǒ men zài děng rén.”",
+      "en": "One of the men says, \"We've got a meeting in here at ten too. We're waiting for someone.\"",
+      "tr": {
+        "vi": "Một người đàn ông nói: “Mười giờ chúng tôi cũng họp ở đây, chúng tôi đang chờ người.”",
+        "pt": "Um dos homens diz: “Nós também temos uma reunião aqui às dez. Estamos esperando uma pessoa.”",
+        "es": "Uno de los hombres dice: «Nosotros también tenemos una reunión aquí a las diez. Estamos esperando a alguien».",
+        "fr": "L'un des hommes dit : « Nous aussi, nous avons une réunion ici à dix heures. Nous attendons quelqu'un. »",
+        "am": "አንደኛው ሰው «እኛም 10:00 ላይ እዚህ ስብሰባ አለን፤ ሰው እየጠበቅን ነው» አለ።"
+      },
+      "start": 33.38,
+      "end": 38.372,
+      "tokens": [
+        [
+          "一个",
+          "yī ge",
+          "a; an; one; the whole (afternoon, summer vacation etc)",
+          ""
+        ],
+        [
+          "男人",
+          "nán rén",
+          "men; a man; a male",
+          ""
+        ],
+        [
+          "说",
+          "shuō",
+          "to speak; to talk; to say; to explain; to comment",
+          ""
+        ],
+        [
+          "："
+        ],
+        [
+          "“"
+        ],
+        [
+          "我们",
+          "wǒ men",
+          "we; us; ourselves; our",
+          ""
+        ],
+        [
+          "十",
+          "shí",
+          "ten; 10",
+          ""
+        ],
+        [
+          "点",
+          "diǎn",
+          "classifier for small amounts; to touch briefly; to tap",
+          ""
+        ],
+        [
+          "也",
+          "yě",
+          "also; too; as well; (not ...) either",
+          ""
+        ],
+        [
+          "在",
+          "zài",
+          "to exist; to be alive; (of sb or sth) to be (located) at",
+          ""
+        ],
+        [
+          "这儿",
+          "zhè r",
+          "here",
+          ""
+        ],
+        [
+          "开会",
+          "kāi huì",
+          "to hold a meeting; to attend a meeting",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "我们",
+          "wǒ men",
+          "we; us; ourselves; our",
+          ""
+        ],
+        [
+          "在",
+          "zài",
+          "to exist; to be alive; (of sb or sth) to be (located) at",
+          ""
+        ],
+        [
+          "等",
+          "děng",
+          "to wait for; to await; by the time; when; till",
+          ""
+        ],
+        [
+          "人",
+          "rén",
+          "person; people",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "”"
+        ]
+      ]
+    },
+    {
+      "text": "小雨说：“可是我们很早就说好了，今天有很重要的客人。”",
+      "py": "Xiǎo yǔ shuō: “kě shì wǒ men hěn zǎo jiù shuō hǎo le, jīn tiān yǒu hěn zhòng yào de kè rén.”",
+      "en": "Xiaoyu says, \"But we booked it ages ago. We've got some very important guests today.\"",
+      "tr": {
+        "vi": "Tiểu Vũ nói: “Nhưng chúng tôi đã đặt từ lâu rồi, hôm nay có khách rất quan trọng.”",
+        "pt": "A Xiaoyu diz: “Mas nós combinamos isso faz tempo. Hoje temos clientes muito importantes.”",
+        "es": "Xiaoyu dice: «Pero nosotros la reservamos hace mucho. Hoy vienen unos clientes muy importantes».",
+        "fr": "Xiaoyu dit : « Mais nous l'avons réservée il y a longtemps. Nous avons des invités très importants aujourd'hui. »",
+        "am": "ሺያውዩ «እኛ ግን ቀደም ብለን ይዘነዋል፤ ዛሬ በጣም አስፈላጊ እንግዶች አሉን» አለች።"
+      },
+      "start": 39.072,
+      "end": 45.216,
+      "tokens": [
+        [
+          "小雨",
+          "xiǎo yǔ",
+          "light rain; drizzle",
+          ""
+        ],
+        [
+          "说",
+          "shuō",
+          "to speak; to talk; to say; to explain; to comment",
+          ""
+        ],
+        [
+          "："
+        ],
+        [
+          "“"
+        ],
+        [
+          "可是",
+          "kě shì",
+          "but; however; (used for emphasis) indeed",
+          ""
+        ],
+        [
+          "我们",
+          "wǒ men",
+          "we; us; ourselves; our",
+          ""
+        ],
+        [
+          "很",
+          "hěn",
+          "very; quite",
+          ""
+        ],
+        [
+          "早就",
+          "zǎo jiù",
+          "already at an earlier time",
+          ""
+        ],
+        [
+          "说好",
+          "shuō hǎo",
+          "to come to an agreement; to complete negotiations",
+          ""
+        ],
+        [
+          "了",
+          "le",
+          "(completed action marker)",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "今天",
+          "jīn tiān",
+          "today; the present time; now",
+          ""
+        ],
+        [
+          "有",
+          "yǒu",
+          "to have; there is",
+          ""
+        ],
+        [
+          "很",
+          "hěn",
+          "very; quite",
+          ""
+        ],
+        [
+          "重要",
+          "zhòng yào",
+          "important; significant; major",
+          ""
+        ],
+        [
+          "的",
+          "de",
+          "of; ~'s (possessive particle)",
+          ""
+        ],
+        [
+          "客人",
+          "kè rén",
+          "guest; visitor; customer",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "”"
+        ]
+      ]
+    },
+    {
+      "text": "另一个男人说：“我们今天的会也很重要。”",
+      "py": "lìng yí gè nán rén shuō: “wǒ men jīn tiān de huì yě hěn zhòng yào.”",
+      "en": "The other man says, \"Our meeting today is very important too.\"",
+      "tr": {
+        "vi": "Người đàn ông kia nói: “Cuộc họp hôm nay của chúng tôi cũng rất quan trọng.”",
+        "pt": "O outro homem diz: “Nossa reunião de hoje também é muito importante.”",
+        "es": "El otro hombre dice: «Nuestra reunión de hoy también es muy importante».",
+        "fr": "L'autre homme dit : « Notre réunion d'aujourd'hui est très importante, elle aussi. »",
+        "am": "ሌላኛው ሰው «የእኛም የዛሬ ስብሰባ በጣም አስፈላጊ ነው» አለ።"
+      },
+      "start": 45.916,
+      "end": 49.996,
+      "tokens": [
+        [
+          "另一",
+          "lìng yī",
+          "another ...; the other ...",
+          ""
+        ],
+        [
+          "个",
+          "gè",
+          "(classifier used before a noun that has no specific classifier)",
+          ""
+        ],
+        [
+          "男人",
+          "nán rén",
+          "a man; a male; men",
+          ""
+        ],
+        [
+          "说",
+          "shuō",
+          "to speak; to talk; to say; to explain; to comment",
+          ""
+        ],
+        [
+          "："
+        ],
+        [
+          "“"
+        ],
+        [
+          "我们",
+          "wǒ men",
+          "we; us; ourselves; our",
+          ""
+        ],
+        [
+          "今天",
+          "jīn tiān",
+          "today; the present time; now",
+          ""
+        ],
+        [
+          "的",
+          "de",
+          "of; ~'s (possessive particle)",
+          ""
+        ],
+        [
+          "会",
+          "huì",
+          "to meet; to get together; meeting; gathering",
+          ""
+        ],
+        [
+          "也",
+          "yě",
+          "also; too; as well; (not ...) either",
+          ""
+        ],
+        [
+          "很",
+          "hěn",
+          "very; quite",
+          ""
+        ],
+        [
+          "重要",
+          "zhòng yào",
+          "important; significant; major",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "”"
+        ]
+      ]
+    },
+    {
+      "text": "杰克有点儿着急：“我们的客人马上就要从上海来了！”",
+      "py": "Jié kè yǒu diǎn r zháo jí: “wǒ men de kè rén mǎ shàng jiù yào cóng shàng hǎi lái le!”",
+      "en": "Jack is getting a little anxious. \"Our guests from Shanghai will be here any minute!\"",
+      "tr": {
+        "vi": "Jack bắt đầu sốt ruột: “Khách của chúng tôi từ Thượng Hải sắp đến rồi!”",
+        "pt": "Jack fica um pouco aflito: “Nossos clientes de Xangai vão chegar a qualquer momento!”",
+        "es": "Jack se empieza a poner nervioso: «¡Nuestros clientes de Shanghái están por llegar!».",
+        "fr": "Jack commence à s'inquiéter : « Nos invités vont arriver de Shanghai d'une minute à l'autre ! »",
+        "am": "ጃክ ትንሽ ተጨነቀ። «እንግዶቻችን ከሻንግሃይ አሁን ይደርሳሉ!»"
+      },
+      "start": 50.696,
+      "end": 56.168,
+      "tokens": [
+        [
+          "杰克",
+          "jié kè",
+          "Jack (name)",
+          ""
+        ],
+        [
+          "有点儿",
+          "yǒu diǎn r",
+          "a little; slightly; somewhat",
+          ""
+        ],
+        [
+          "着急",
+          "zháo jí",
+          "to worry; to feel anxious",
+          ""
+        ],
+        [
+          "："
+        ],
+        [
+          "“"
+        ],
+        [
+          "我们",
+          "wǒ men",
+          "we; us; ourselves; our",
+          ""
+        ],
+        [
+          "的",
+          "de",
+          "of; ~'s (possessive particle)",
+          ""
+        ],
+        [
+          "客人",
+          "kè rén",
+          "guest; visitor; customer",
+          ""
+        ],
+        [
+          "马上",
+          "mǎ shàng",
+          "at once; right away; immediately",
+          ""
+        ],
+        [
+          "就要",
+          "jiù yào",
+          "will; shall; to be going to",
+          ""
+        ],
+        [
+          "从",
+          "cóng",
+          "from; through; via; (bound form) to follow",
+          ""
+        ],
+        [
+          "上海",
+          "shàng hǎi",
+          "Shanghai municipality (short name 沪)",
+          ""
+        ],
+        [
+          "来",
+          "lái",
+          "to come; (used as a substitute for a more specific verb)",
+          ""
+        ],
+        [
+          "了",
+          "le",
+          "(completed action marker)",
+          ""
+        ],
+        [
+          "！"
+        ],
+        [
+          "”"
+        ]
+      ]
+    },
+    {
+      "text": "两个男人看了看对方，笑了。",
+      "py": "liǎng gè nán rén kàn le kàn duì fāng, xiào le.",
+      "en": "The two men look at each other and laugh.",
+      "tr": {
+        "vi": "Hai người đàn ông nhìn nhau rồi cười.",
+        "pt": "Os dois homens se olham e riem.",
+        "es": "Los dos hombres se miran y se ríen.",
+        "fr": "Les deux hommes se regardent et rient.",
+        "am": "ሁለቱ ሰዎች እርስ በርሳቸው ተያዩና ሳቁ።"
+      },
+      "start": 56.868,
+      "end": 60.468,
+      "tokens": [
+        [
+          "两",
+          "liǎng",
+          "two; both; some",
+          ""
+        ],
+        [
+          "个",
+          "gè",
+          "(classifier used before a noun that has no specific classifier)",
+          ""
+        ],
+        [
+          "男人",
+          "nán rén",
+          "men; a man; a male",
+          ""
+        ],
+        [
+          "看",
+          "kàn",
+          "to see; to look at; to look after; to read",
+          ""
+        ],
+        [
+          "了",
+          "le",
+          "(completed action marker)",
+          ""
+        ],
+        [
+          "看",
+          "kàn",
+          "to see; to look at; to look after; to read",
+          ""
+        ],
+        [
+          "对方",
+          "duì fāng",
+          "the other person; the other side; the other party",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "笑",
+          "xiào",
+          "to laugh; to smile; to laugh at",
+          ""
+        ],
+        [
+          "了",
+          "le",
+          "(completed action marker)",
+          ""
+        ],
+        [
+          "。"
+        ]
+      ]
+    },
+    {
+      "text": "“我们就是从上海来的。”",
+      "py": "“wǒ men jiù shì cóng shàng hǎi lái de.”",
+      "en": "\"We're from Shanghai.\"",
+      "tr": {
+        "vi": "“Chúng tôi chính là từ Thượng Hải đến đây.”",
+        "pt": "“Somos nós que viemos de Xangai.”",
+        "es": "«Nosotros somos los que venimos de Shanghái».",
+        "fr": "« C'est nous qui venons de Shanghai. »",
+        "am": "«ከሻንግሃይ የመጣነው እኛ ነን።»"
+      },
+      "start": 61.168,
+      "end": 63.568,
+      "tokens": [
+        [
+          "“"
+        ],
+        [
+          "我们",
+          "wǒ men",
+          "we; us; ourselves; our",
+          ""
+        ],
+        [
+          "就是",
+          "jiù shì",
+          "exactly; precisely; only; simply; just",
+          ""
+        ],
+        [
+          "从",
+          "cóng",
+          "from; through; via; (bound form) to follow",
+          ""
+        ],
+        [
+          "上海",
+          "shàng hǎi",
+          "Shanghai municipality (short name 沪)",
+          ""
+        ],
+        [
+          "来",
+          "lái",
+          "to come; (used as a substitute for a more specific verb)",
+          ""
+        ],
+        [
+          "的",
+          "de",
+          "of; ~'s (possessive particle)",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "”"
+        ]
+      ]
+    },
+    {
+      "text": "杰克和小雨一下子不知道说什么好。",
+      "py": "Jié kè hé Xiǎo yǔ yí xià zi bù zhī dào shuō shén me hǎo.",
+      "en": "For a moment, Jack and Xiaoyu don't know what to say.",
+      "tr": {
+        "vi": "Jack và Tiểu Vũ nhất thời không biết nói gì.",
+        "pt": "Por um momento, Jack e a Xiaoyu não sabem o que dizer.",
+        "es": "Por un momento, Jack y Xiaoyu no saben qué decir.",
+        "fr": "Pendant un instant, Jack et Xiaoyu ne savent pas quoi dire.",
+        "am": "ጃክ እና ሺያውዩ ለጊዜው ምን እንደሚሉ ጠፋባቸው።"
+      },
+      "start": 64.268,
+      "end": 67.868,
+      "tokens": [
+        [
+          "杰克",
+          "jié kè",
+          "Jack (name)",
+          ""
+        ],
+        [
+          "和",
+          "hé",
+          "(joining two nouns) and; together with; with; (math.) sum",
+          ""
+        ],
+        [
+          "小雨",
+          "xiǎo yǔ",
+          "light rain; drizzle",
+          ""
+        ],
+        [
+          "一下子",
+          "yī xià zi",
+          "(following a verb) for a moment; briefly; once; one time",
+          ""
+        ],
+        [
+          "不知",
+          "bù zhī",
+          "not to know; unaware; unknowingly",
+          ""
+        ],
+        [
+          "道",
+          "dào",
+          "to say (introducing a direct quotation, as in a novel)",
+          ""
+        ],
+        [
+          "说",
+          "shuō",
+          "to speak; to talk; to say; to explain; to comment",
+          ""
+        ],
+        [
+          "什么",
+          "shén me",
+          "what?; something; anything",
+          ""
+        ],
+        [
+          "好",
+          "hǎo",
+          "good; appropriate; proper; all right!",
+          ""
+        ],
+        [
+          "。"
+        ]
+      ]
+    },
+    {
+      "text": "这时候，周经理拿着茶走了进来：“你们已经认识了？太好了！”",
+      "py": "zhè shí hou, Zhōu jīng lǐ ná zhe chá zǒu le jìn lái: “nǐ men yǐ jīng rèn shi le? tài hǎo le!”",
+      "en": "Just then, Manager Zhou walks in carrying tea. \"You've already met? Wonderful!\"",
+      "tr": {
+        "vi": "Đúng lúc đó, giám đốc Chu bưng trà bước vào: “Mọi người quen nhau rồi à? Tốt quá!”",
+        "pt": "Nesse momento, a gerente Zhou entra com o chá: “Vocês já se conheceram? Que ótimo!”",
+        "es": "En ese momento, entra la gerente Zhou con el té: «¿Ya se conocieron? ¡Qué bien!».",
+        "fr": "À ce moment-là, la directrice Zhou entre avec du thé : « Vous vous connaissez déjà ? Parfait ! »",
+        "am": "በዚያን ጊዜ ሥራ አስኪያጅ ጆው ሻይ ይዛ ገባች። «ተዋውቃችኋል? በጣም ጥሩ!»"
+      },
+      "start": 68.568,
+      "end": 75,
+      "tokens": [
+        [
+          "这时",
+          "zhè shí",
+          "at this time; at this moment",
+          ""
+        ],
+        [
+          "候",
+          "hòu",
+          "to wait; to inquire after; to watch",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "周",
+          "zhōu",
+          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+          ""
+        ],
+        [
+          "经理",
+          "jīng lǐ",
+          "manager; director",
+          ""
+        ],
+        [
+          "拿",
+          "ná",
+          "to hold; to seize; to catch",
+          ""
+        ],
+        [
+          "着",
+          "zhe",
+          "aspect particle indicating action in progress or ongoing state",
+          ""
+        ],
+        [
+          "茶",
+          "chá",
+          "tea; tea plant",
+          ""
+        ],
+        [
+          "走",
+          "zǒu",
+          "to walk; to go; to run",
+          ""
+        ],
+        [
+          "了",
+          "le",
+          "(completed action marker)",
+          ""
+        ],
+        [
+          "进来",
+          "jìn lái",
+          "to come in",
+          ""
+        ],
+        [
+          "："
+        ],
+        [
+          "“"
+        ],
+        [
+          "你们",
+          "nǐ men",
+          "you (plural)",
+          ""
+        ],
+        [
+          "已经",
+          "yǐ jīng",
+          "already",
+          ""
+        ],
+        [
+          "认识",
+          "rèn shi",
+          "to know; to recognize; to be familiar with",
+          ""
+        ],
+        [
+          "了",
+          "le",
+          "(completed action marker)",
+          ""
+        ],
+        [
+          "？"
+        ],
+        [
+          "太好了",
+          "tài hǎo le",
+          "very good",
+          ""
+        ],
+        [
+          "！"
+        ],
+        [
+          "”"
+        ]
+      ]
+    },
+    {
+      "text": "那天的会开得很好。走的时候，一位客人对杰克说：“下次我们来，你可别再请我们出去了！”",
+      "py": "nà tiān de huì kāi de hěn hǎo. zǒu de shí hou, yí wèi kè rén duì Jié kè shuō: “xià cì wǒ men lái, nǐ kě bié zài qǐng wǒ men chū qù le!”",
+      "en": "The meeting that day goes very well. As they leave, one of the guests says to Jack, \"Next time we come, don't try to send us out again!\"",
+      "tr": {
+        "vi": "Cuộc họp hôm đó rất suôn sẻ. Lúc về, một vị khách nói với Jack: “Lần sau chúng tôi đến, anh đừng mời chúng tôi ra ngoài nữa nhé!”",
+        "pt": "A reunião daquele dia vai muito bem. Na saída, um dos clientes diz a Jack: “Da próxima vez que a gente vier, não vá nos mandar sair de novo!”",
+        "es": "La reunión de ese día sale muy bien. Al despedirse, uno de los clientes le dice a Jack: «¡La próxima vez que vengamos, no nos vuelvas a sacar de la sala!».",
+        "fr": "Ce jour-là, la réunion se passe très bien. En partant, un des invités dit à Jack : « La prochaine fois qu'on vient, ne nous faites plus sortir ! »",
+        "am": "የዚያን ቀን ስብሰባ በጣም ጥሩ ነበር። ሲሄዱ አንዱ እንግዳ ጃክን «በሚቀጥለው ስንመጣ እንደገና እንድንወጣ እንዳትጠይቀን!» አለው።"
+      },
+      "start": 75.7,
+      "end": 84.22,
+      "tokens": [
+        [
+          "那天",
+          "nà tiān",
+          "that day; the other day",
+          ""
+        ],
+        [
+          "的",
+          "de",
+          "of; ~'s (possessive particle)",
+          ""
+        ],
+        [
+          "会",
+          "huì",
+          "to meet; to get together; meeting; gathering",
+          ""
+        ],
+        [
+          "开",
+          "kāi",
+          "to write out (a prescription, check, invoice etc)",
+          ""
+        ],
+        [
+          "得很",
+          "de hěn",
+          "(after an adjective) very",
+          ""
+        ],
+        [
+          "好",
+          "hǎo",
+          "good; appropriate; proper; all right!",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "走",
+          "zǒu",
+          "to leave; to walk; to go",
+          ""
+        ],
+        [
+          "的",
+          "de",
+          "of; ~'s (possessive particle)",
+          ""
+        ],
+        [
+          "时候",
+          "shí hou",
+          "time; length of time; moment",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "一",
+          "yī",
+          "also pr. for greater clarity when spelling out numbers digit by digit",
+          ""
+        ],
+        [
+          "位",
+          "wèi",
+          "classifier for people (honorific)",
+          ""
+        ],
+        [
+          "客人",
+          "kè rén",
+          "guest; visitor; customer",
+          ""
+        ],
+        [
+          "对",
+          "duì",
+          "right; correct; towards; at; for; concerning; regarding",
+          ""
+        ],
+        [
+          "杰克",
+          "jié kè",
+          "Jack (name)",
+          ""
+        ],
+        [
+          "说",
+          "shuō",
+          "to speak; to talk; to say; to explain; to comment",
+          ""
+        ],
+        [
+          "："
+        ],
+        [
+          "“"
+        ],
+        [
+          "下次",
+          "xià cì",
+          "next time",
+          ""
+        ],
+        [
+          "我们",
+          "wǒ men",
+          "we; us; ourselves; our",
+          ""
+        ],
+        [
+          "来",
+          "lái",
+          "to come; for the past (amount of time)",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "你",
+          "nǐ",
+          "you (informal, as opposed to courteous 您)",
+          ""
+        ],
+        [
+          "可",
+          "kě",
+          "(particle used for emphasis) certainly; very",
+          ""
+        ],
+        [
+          "别",
+          "bié",
+          "to leave; to part (from); don't ...!",
+          ""
+        ],
+        [
+          "再",
+          "zài",
+          "again; once more; re-; further; beyond this point of time",
+          ""
+        ],
+        [
+          "请",
+          "qǐng",
+          "to ask; to invite; please (do sth)",
+          ""
+        ],
+        [
+          "我们",
+          "wǒ men",
+          "we; us; ourselves; our",
+          ""
+        ],
+        [
+          "出去",
+          "chū qù",
+          "to go out",
+          ""
+        ],
+        [
+          "了",
+          "le",
+          "(completed action marker)",
+          ""
+        ],
+        [
+          "！"
+        ],
+        [
+          "”"
+        ]
+      ]
+    }
+  ],
+  "chars": 279,
+  "first": "上海的一家公司要来跟周经理的公司开会。他们只在电话里谈过，还没见过面。",
+  "newWords": [
+    {
+      "w": "会议室",
+      "py": "huì yì shì",
+      "en": "meeting room"
+    },
+    {
+      "w": "客气",
+      "py": "kè qi",
+      "en": "polite"
+    },
+    {
+      "w": "重要",
+      "py": "zhòngyào",
+      "en": "important"
+    },
+    {
+      "w": "准备",
+      "py": "zhǔnbèi",
+      "en": "to prepare"
+    }
+  ],
+  "story": true,
+  "audio": "https://media.kanchinese.app/review/stories/h2-51.mp3?v=1791721083"
+}

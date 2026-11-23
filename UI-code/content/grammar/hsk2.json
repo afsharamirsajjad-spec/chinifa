@@ -1,0 +1,1762 @@
+{
+  "id": "hsk2",
+  "level": "HSK 2",
+  "note": "Original explanations and examples, written for this app. Examples use HSK 1–2 words only (checked by E:/mineru/app-integration/grammar_check.py). km lines need a native speaker's review before release.",
+  "kmReviewed": false,
+  "points": [
+    {
+      "id": "keneng",
+      "mark": "可能",
+      "title": "可能 · maybe",
+      "level": "HSK 2",
+      "cat": "Verbs",
+      "oneLine": "可能 before the verb: you think it will happen, but you are not sure.",
+      "pattern": "Subject + 可能 + verb / adjective",
+      "explain": "可能 sits before the verb, like 会 and 能. It can also open the sentence: 可能他不来了. It is a guess, not a promise — for \"I can\" use 能 or 会.",
+      "examples": [
+        {
+          "ch": "明天可能下雨。",
+          "py": "míngtiān kěnéng xià yǔ.",
+          "en": "It might rain tomorrow.",
+          "km": "ថ្ងៃស្អែកប្រហែលជាភ្លៀង។"
+        },
+        {
+          "ch": "他可能不来了。",
+          "py": "tā kěnéng bù lái le.",
+          "en": "He's probably not coming.",
+          "km": "គាត់ប្រហែលជាមិនមកទេ។"
+        },
+        {
+          "ch": "这个手机可能很贵。",
+          "py": "zhège shǒujī kěnéng hěn guì.",
+          "en": "This phone might be expensive.",
+          "km": "ទូរស័ព្ទនេះប្រហែលជាថ្លៃ។"
+        }
+      ],
+      "mistake": "✗ 他来可能。 → ✓ 他可能来。",
+      "compare": [
+        {
+          "w": "可能",
+          "gloss": "a guess",
+          "ex": "他可能不来"
+        },
+        {
+          "w": "能",
+          "gloss": "able or allowed",
+          "ex": "他不能来"
+        }
+      ],
+      "titleFa": "可能‏ · شاید",
+      "oneLineFa": "可能‏ پیش از فعل: فکر می‌کنید اتفاق می‌افتد، اما مطمئن نیستید.",
+      "explainFa": "可能‏ پیش از فعل می‌نشیند، مثل 会‏ و 能‏. می‌تواند جمله را هم شروع کند: 可能他不来了‏. حدس است، نه قول — برای «می‌توانم» از 能‏ یا 会‏ استفاده کنید.",
+      "mistakeFa": "✗ 他来可能。 → ✓ 他可能来。"
+    },
+    {
+      "id": "verb-redup",
+      "mark": "看看",
+      "title": "看看 · doubling a verb",
+      "level": "HSK 2",
+      "cat": "Verbs",
+      "oneLine": "Say the verb twice to make it quick, casual and polite: 看看 = have a look.",
+      "pattern": "V + V · V + 一 + V · AB + AB",
+      "explain": "A doubled verb means doing it briefly or trying it, and it softens a request. One-syllable verbs: 看看, 想想 (also 看一看). Two-syllable verbs repeat as a whole: 休息休息, 介绍介绍. The second copy is said lightly.",
+      "examples": [
+        {
+          "ch": "你看看这件衣服。",
+          "py": "nǐ kànkan zhè jiàn yīfu.",
+          "en": "Have a look at this top.",
+          "km": "សូមមើលអាវនេះបន្តិច។"
+        },
+        {
+          "ch": "我们休息休息吧。",
+          "py": "wǒmen xiūxi xiūxi ba.",
+          "en": "Let's take a little rest.",
+          "km": "តោះយើងសម្រាកបន្តិច។"
+        },
+        {
+          "ch": "你想想，明天去哪儿？",
+          "py": "nǐ xiǎngxiang, míngtiān qù nǎr?",
+          "en": "Think about it — where shall we go tomorrow?",
+          "km": "សូមគិតមើល ថ្ងៃស្អែកទៅណា?"
+        }
+      ],
+      "mistake": "✗ 休休息息 → ✓ 休息休息. Two-syllable verbs repeat as ABAB.",
+      "compare": [
+        {
+          "w": "休息休息",
+          "gloss": "verbs double ABAB",
+          "ex": "你休息休息吧"
+        },
+        {
+          "w": "高高兴兴",
+          "gloss": "adjectives double AABB",
+          "ex": "玩得高高兴兴的"
+        }
+      ],
+      "titleFa": "看看‏ · تکرار فعل",
+      "oneLineFa": "فعل را دوبار بگویید تا سریع، بی‌تکلف و مؤدبانه شود: 看看‏ = نگاهی انداختن.",
+      "explainFa": "فعلِ تکرارشده یعنی کوتاه انجام دادن یا امتحان کردن، و درخواست را نرم‌تر می‌کند. فعل‌های یک‌هجایی: 看看‏، 想想‏ (و همچنین 看一看‏). فعل‌های دوهجایی به‌صورت کامل تکرار می‌شوند: 休息休息‏، 介绍介绍‏. کپی دوم سبک و آسان تلفظ می‌شود.",
+      "mistakeFa": "✗ 休休息息‏ → ✓ 休息休息‏. فعل‌های دوهجایی به شکل ABAB تکرار می‌شوند."
+    },
+    {
+      "id": "rang-jiao",
+      "mark": "让",
+      "title": "让 / 叫 · make someone do",
+      "level": "HSK 2",
+      "cat": "Verbs",
+      "oneLine": "A 让 B + verb: A gets, lets or tells B to do something.",
+      "pattern": "A + 让 / 叫 + B + verb",
+      "explain": "B does two jobs: it is the person 让 acts on, and the one who does the next verb. 让 is the neutral word; 叫 is the same in speech. To say A doesn't let B, put 不 before 让: 妈妈不让我去.",
+      "examples": [
+        {
+          "ch": "妈妈让我早上起床跑步。",
+          "py": "māma ràng wǒ zǎoshang qǐchuáng pǎobù.",
+          "en": "Mum makes me get up and run in the morning.",
+          "km": "ម្ដាយឱ្យខ្ញុំក្រោកពីដំណេករត់ហាត់ប្រាណពេលព្រឹក។"
+        },
+        {
+          "ch": "老师让我们写字。",
+          "py": "lǎoshī ràng wǒmen xiě zì.",
+          "en": "The teacher has us write characters.",
+          "km": "គ្រូឱ្យយើងសរសេរអក្សរ។"
+        },
+        {
+          "ch": "医生叫他多休息。",
+          "py": "yīshēng jiào tā duō xiūxi.",
+          "en": "The doctor told him to rest more.",
+          "km": "គ្រូពេទ្យប្រាប់គាត់ឱ្យសម្រាកឱ្យបានច្រើន។"
+        }
+      ],
+      "mistake": "✗ 妈妈让我不去。 → ✓ 妈妈不让我去。 The 不 goes before 让.",
+      "compare": [
+        {
+          "w": "让",
+          "gloss": "tell or let",
+          "ex": "妈妈让我回家"
+        },
+        {
+          "w": "请",
+          "gloss": "invite politely",
+          "ex": "我请你喝咖啡"
+        }
+      ],
+      "titleFa": "让‏ / 叫‏ · وادار کردن کسی به کاری",
+      "oneLineFa": "A 让‏ B + فعل: A به B اجازه می‌دهد، می‌گذارد یا می‌گوید که کاری انجام دهد.",
+      "explainFa": "B دو نقش دارد: هم کسی است که 让‏ بر او اثر می‌کند و هم کسی که فعل بعدی را انجام می‌دهد. 让‏ واژهٔ معمول و بی‌طرف است؛ 叫‏ در گفتار همین معنی را دارد. برای گفتن اینکه A اجازه نمی‌دهد B کاری بکند، 不‏ را قبل از 让‏ بگذارید: 妈妈不让我去‏.",
+      "mistakeFa": "✗ 妈妈让我不去‏。 → ✓ 妈妈不让我去‏。 不‏ قبل از 让‏ می‌آید."
+    },
+    {
+      "id": "zhe",
+      "mark": "着",
+      "title": "着 · a state that stays",
+      "level": "HSK 2",
+      "cat": "Aspect",
+      "oneLine": "V + 着 describes how something is and stays: the door is open, he is wearing red.",
+      "pattern": "Verb + 着 · 没 (有) + verb + 着",
+      "explain": "着 is not \"doing right now\" (that is 在). It paints a lasting state: 门开着 (the door is open), 他穿着红衣服 (he has red on). It also links two actions done together: 笑着说 (said with a smile).",
+      "examples": [
+        {
+          "ch": "门开着。",
+          "py": "mén kāizhe.",
+          "en": "The door is open.",
+          "km": "ទ្វារបើកចំហ។"
+        },
+        {
+          "ch": "他穿着红衣服。",
+          "py": "tā chuānzhe hóng yīfu.",
+          "en": "He's wearing red clothes.",
+          "km": "គាត់ស្លៀកពាក់អាវក្រហម។"
+        },
+        {
+          "ch": "她笑着说：\"谢谢！\"",
+          "py": "tā xiàozhe shuō: \"xièxie!\"",
+          "en": "She said with a smile, \"Thank you!\"",
+          "km": "នាងញញឹមនិយាយថា \"អរគុណ!\""
+        }
+      ],
+      "mistake": "✗ 门在开着。 → ✓ 门开着。 着 is a state, 在 is an action in progress.",
+      "compare": [
+        {
+          "w": "着",
+          "gloss": "a lasting state",
+          "ex": "门开着"
+        },
+        {
+          "w": "在",
+          "gloss": "an action in progress",
+          "ex": "他在开门"
+        }
+      ],
+      "titleFa": "着‏ · حالتی که می‌ماند",
+      "oneLineFa": "فعل + 着‏ نشان می‌دهد چیزی چگونه هست و می‌ماند: در باز است، او لباس قرمز پوشیده است.",
+      "explainFa": "着‏ یعنی «همین حالا در حال انجام دادن» نیست (آن 在‏ است). حالتی پایدار را ترسیم می‌کند: 门开着‏ (در باز است)، 他穿着红衣服‏ (لباس قرمز بر تن دارد). دو کنش را که با هم انجام می‌شوند هم به هم پیوند می‌زند: 笑着说‏ (با لبخند گفت).",
+      "mistakeFa": "✗ 门在开着‏。 → ✓ 门开着‏。 着‏ حالت است، 在‏ کنشی در جریان."
+    },
+    {
+      "id": "guo",
+      "mark": "过",
+      "title": "过 · have ever done",
+      "level": "HSK 2",
+      "cat": "Aspect",
+      "oneLine": "V + 过 = at some time in your life, you have done it.",
+      "pattern": "Verb + 过 · 没 (有) + verb + 过",
+      "explain": "过 is about experience, not when. 我去过北京 means I have been (at some point). The negative is 没有 + verb + 过, and the 过 stays: 我没有去过.",
+      "examples": [
+        {
+          "ch": "我去过北京。",
+          "py": "wǒ qùguo Běijīng.",
+          "en": "I've been to Beijing.",
+          "km": "ខ្ញុំធ្លាប់ទៅប៉េកាំង។"
+        },
+        {
+          "ch": "你吃过羊肉吗？",
+          "py": "nǐ chīguo yángròu ma?",
+          "en": "Have you ever eaten lamb?",
+          "km": "តើអ្នកធ្លាប់ញ៉ាំសាច់ចៀមទេ?"
+        },
+        {
+          "ch": "我没有看过这个电影。",
+          "py": "wǒ méiyǒu kànguo zhège diànyǐng.",
+          "en": "I haven't seen this film.",
+          "km": "ខ្ញុំមិនធ្លាប់មើលកុននេះទេ។"
+        }
+      ],
+      "mistake": "✗ 我不去过北京。 → ✓ 我没(有)去过北京。",
+      "compare": [
+        {
+          "w": "过",
+          "gloss": "ever, at some point",
+          "ex": "我去过北京"
+        },
+        {
+          "w": "了",
+          "gloss": "did it this time",
+          "ex": "他昨天去了北京"
+        }
+      ],
+      "titleFa": "过‏ · تا به حال انجام دادن",
+      "oneLineFa": "فعل + 过‏ = در مقطعی از زندگی‌ات آن را انجام داده‌ای.",
+      "explainFa": "过‏ دربارهٔ تجربه است، نه زمان. 我去过北京‏ یعنی رفته‌ام (در مقطعی از زندگی). صورت منفی، 没有‏ + فعل + 过‏ است و 过‏ سر جایش می‌ماند: 我没有去过‏.",
+      "mistakeFa": "✗ 我不去过北京。 → ✓ 我没(有)去过北京。"
+    },
+    {
+      "id": "yao-le",
+      "mark": "要",
+      "title": "要……了 · about to",
+      "level": "HSK 2",
+      "cat": "Aspect",
+      "oneLine": "(快 / 就) 要 + verb + 了: it is going to happen very soon.",
+      "pattern": "(快 / 就) 要 + verb + 了",
+      "explain": "要……了 says something is just about to happen; 快要 makes it sound very near. When you name the time, use 就要, not 快要: 明天就要考试了.",
+      "examples": [
+        {
+          "ch": "电影要开始了。",
+          "py": "diànyǐng yào kāishǐ le.",
+          "en": "The film is about to start.",
+          "km": "កុនជិតចាប់ផ្ដើមហើយ។"
+        },
+        {
+          "ch": "快要下雨了。",
+          "py": "kuài yào xià yǔ le.",
+          "en": "It's going to rain soon.",
+          "km": "ជិតភ្លៀងហើយ។"
+        },
+        {
+          "ch": "明天就要考试了。",
+          "py": "míngtiān jiù yào kǎoshì le.",
+          "en": "The exam is tomorrow.",
+          "km": "ថ្ងៃស្អែកនឹងប្រឡងហើយ។"
+        }
+      ],
+      "mistake": "✗ 明天快要考试了。 → ✓ 明天就要考试了。 With a time word, use 就要.",
+      "compare": [
+        {
+          "w": "快要……了",
+          "gloss": "very soon",
+          "ex": "快要下雨了"
+        },
+        {
+          "w": "就要……了",
+          "gloss": "with a time word",
+          "ex": "明天就要考试了"
+        }
+      ],
+      "titleFa": "要‏……了‏ · در آستانهٔ وقوع",
+      "oneLineFa": "(快‏ / 就‏) 要‏ + فعل + 了‏: خیلی زود اتفاق خواهد افتاد.",
+      "explainFa": "要‏……了‏ می‌گوید چیزی در آستانهٔ وقوع است؛ 快要‏ آن را خیلی نزدیک نشان می‌دهد. وقتی زمان را نام می‌برید، از 就要‏ استفاده کنید، نه 快要‏: 明天就要考试了‏.",
+      "mistakeFa": "✗ 明天快要考试了‏。 → ✓ 明天就要考试了‏。 با واژهٔ زمان، از 就要‏ استفاده کنید."
+    },
+    {
+      "id": "yijing",
+      "mark": "已经",
+      "title": "已经……了 · already",
+      "level": "HSK 2",
+      "cat": "Aspect",
+      "oneLine": "已经 + verb + 了: it has already happened, sooner than someone thought.",
+      "pattern": "已经 + verb / time + 了",
+      "explain": "已经 goes before the verb and nearly always has 了 at the end. It also works with times and ages: 已经十点了 (it's already ten).",
+      "examples": [
+        {
+          "ch": "我已经起床了。",
+          "py": "wǒ yǐjīng qǐchuáng le.",
+          "en": "I'm already up.",
+          "km": "ខ្ញុំក្រោកពីដំណេករួចហើយ។"
+        },
+        {
+          "ch": "已经十点了。",
+          "py": "yǐjīng shí diǎn le.",
+          "en": "It's already ten o'clock.",
+          "km": "ម៉ោងដប់ហើយ។"
+        },
+        {
+          "ch": "他已经知道了。",
+          "py": "tā yǐjīng zhīdào le.",
+          "en": "He already knows.",
+          "km": "គាត់ដឹងរួចហើយ។"
+        }
+      ],
+      "mistake": "✗ 我已经起床。 → ✓ 我已经起床了。",
+      "compare": [
+        {
+          "w": "已经……了",
+          "gloss": "done by now",
+          "ex": "我已经起床了"
+        },
+        {
+          "w": "过",
+          "gloss": "done at some point",
+          "ex": "我看过这本书"
+        }
+      ],
+      "titleFa": "已经‏……了‏ · از قبل",
+      "oneLineFa": "已经‏ + فعل + 了‏: از قبل اتفاق افتاده، زودتر از آنچه کسی انتظار داشت.",
+      "explainFa": "已经‏ قبل از فعل می‌آید و تقریباً همیشه 了‏ در انتها دارد. با زمان‌ها و سن هم به‌کار می‌رود: 已经十点了‏ (از قبل ساعت ده است).",
+      "mistakeFa": "✗ 我已经起床。 → ✓ 我已经起床了。"
+    },
+    {
+      "id": "result",
+      "mark": "完",
+      "title": "Result complements · 完 / 到 / 懂",
+      "level": "HSK 2",
+      "cat": "Complements",
+      "oneLine": "A second verb after the first says whether it worked: 看 (look) → 看完 (finish reading).",
+      "pattern": "Verb + 完 / 到 / 懂 / 好 / 错 (+ 了)",
+      "explain": "Chinese splits \"look\" and \"see\", \"listen\" and \"understand\": 听 is the effort, 听懂 is the success. 完 = finished, 到 = reached / got it, 懂 = understood, 错 = got it wrong. The negative is 没(有) + verb + result: 没有听懂.",
+      "examples": [
+        {
+          "ch": "我看完这本书了。",
+          "py": "wǒ kànwán zhè běn shū le.",
+          "en": "I've finished reading this book.",
+          "km": "ខ្ញុំអានសៀវភៅនេះចប់ហើយ។"
+        },
+        {
+          "ch": "你听懂了吗？",
+          "py": "nǐ tīngdǒng le ma?",
+          "en": "Did you understand?",
+          "km": "តើអ្នកស្ដាប់យល់ទេ?"
+        },
+        {
+          "ch": "我找到我的手机了。",
+          "py": "wǒ zhǎodào wǒ de shǒujī le.",
+          "en": "I found my phone.",
+          "km": "ខ្ញុំរកឃើញទូរស័ព្ទរបស់ខ្ញុំហើយ។"
+        }
+      ],
+      "mistake": "✗ 我不听懂。 → ✓ 我没(有)听懂。",
+      "compare": [
+        {
+          "w": "听懂",
+          "gloss": "got it",
+          "ex": "我听懂了"
+        },
+        {
+          "w": "听",
+          "gloss": "just the effort",
+          "ex": "我在听"
+        }
+      ],
+      "titleFa": "متمم نتیجه · 完‏ / 到‏ / 懂‏",
+      "oneLineFa": "فعل دومی که بعد از فعل اول می‌آید نشان می‌دهد که کار به نتیجه رسیده یا نه: 看‏ (نگاه کردن) → 看完‏ (خواندن تا آخر).",
+      "explainFa": "چینی «نگاه کردن» را از «دیدن» و «شنیدن» را از «فهمیدن» جدا می‌کند: 听‏ تلاش است، 听懂‏ رسیدن به نتیجه. 完‏ = تمام کردن، 到‏ = رسیدن / گرفتن، 懂‏ = فهمیدن، 错‏ = اشتباه گرفتن. منفی‌اش به شکل 没‏(有‏) + فعل + نتیجه است: 没有听懂‏.",
+      "mistakeFa": "✗ 我不听懂。 → ✓ 我没(有)听懂。"
+    },
+    {
+      "id": "de-degree",
+      "mark": "得",
+      "title": "V 得 + adjective · how well",
+      "level": "HSK 2",
+      "cat": "Complements",
+      "oneLine": "After 得 comes how it is done: 走得很快 = walks fast.",
+      "pattern": "Verb + 得 + (很) adjective · Verb + object + verb + 得 + adjective",
+      "explain": "得 links an action to a description of it. With an object, say the verb twice: 写字写得很好. The negative goes after 得: 说得不好.",
+      "examples": [
+        {
+          "ch": "他走得很快。",
+          "py": "tā zǒu de hěn kuài.",
+          "en": "He walks fast.",
+          "km": "គាត់ដើរលឿន។"
+        },
+        {
+          "ch": "你说得很好。",
+          "py": "nǐ shuō de hěn hǎo.",
+          "en": "You speak very well.",
+          "km": "អ្នកនិយាយបានល្អណាស់។"
+        },
+        {
+          "ch": "他写字写得很漂亮。",
+          "py": "tā xiě zì xiě de hěn piàoliang.",
+          "en": "His handwriting is beautiful.",
+          "km": "គាត់សរសេរអក្សរស្អាតណាស់។"
+        }
+      ],
+      "mistake": "✗ 他写字得很好。 → ✓ 他写字写得很好。 Repeat the verb before 得.",
+      "compare": [
+        {
+          "w": "得",
+          "gloss": "after a verb",
+          "ex": "说得很好"
+        },
+        {
+          "w": "的",
+          "gloss": "before a noun",
+          "ex": "很好的朋友"
+        }
+      ],
+      "titleFa": "فعل 得‏ + صفت · چقدر خوب",
+      "oneLineFa": "بعد از 得‏ می‌آید که کار چگونه انجام می‌شود: 走得很快‏ = تند می‌رود.",
+      "explainFa": "得‏ کنش را به توصیفِ آن پیوند می‌زند. با مفعول، فعل را دو بار بگو: 写字写得很好‏. منفی‌سازی بعد از 得‏ می‌آید: 说得不好‏.",
+      "mistakeFa": "✗ 他写字得很好‏。 → ✓ 他写字写得很好‏。 فعل را پیش از 得‏ تکرار کن."
+    },
+    {
+      "id": "ci",
+      "mark": "次",
+      "title": "次 · how many times",
+      "level": "HSK 2",
+      "cat": "Complements",
+      "oneLine": "Number + 次 after the verb counts the times you did it.",
+      "pattern": "Verb + (了 / 过) + number + 次 (+ object)",
+      "explain": "次 comes after the verb, not before it. A place can follow 次 (去过两次北京); a person as object comes before it (见过他两次).",
+      "examples": [
+        {
+          "ch": "我去过两次北京。",
+          "py": "wǒ qùguo liǎng cì Běijīng.",
+          "en": "I've been to Beijing twice.",
+          "km": "ខ្ញុំធ្លាប់ទៅប៉េកាំងពីរដង។"
+        },
+        {
+          "ch": "这个电影我看了三次。",
+          "py": "zhège diànyǐng wǒ kànle sān cì.",
+          "en": "I've watched this film three times.",
+          "km": "កុននេះខ្ញុំមើលបីដងហើយ។"
+        },
+        {
+          "ch": "请再说一次。",
+          "py": "qǐng zài shuō yí cì.",
+          "en": "Please say it once more.",
+          "km": "សូមនិយាយម្ដងទៀត។"
+        }
+      ],
+      "mistake": "✗ 我两次去过北京。 → ✓ 我去过两次北京。",
+      "compare": [
+        {
+          "w": "两次",
+          "gloss": "how many times",
+          "ex": "我去过两次"
+        },
+        {
+          "w": "第二次",
+          "gloss": "which time",
+          "ex": "我第二次去北京"
+        }
+      ],
+      "titleFa": "次‏ · چند بار",
+      "oneLineFa": "عدد + 次‏ بعد از فعل می‌شمارد که آن کار را چند بار کرده‌ای.",
+      "explainFa": "次‏ بعد از فعل می‌آید، نه پیش از آن. می‌تواند مکان بعد از 次‏ بیاید (去过两次北京‏)؛ اما شخص به‌عنوان مفعول پیش از آن می‌آید (见过他两次‏).",
+      "mistakeFa": "✗ 我两次去过北京。 → ✓ 我去过两次北京。"
+    },
+    {
+      "id": "de-phrase",
+      "mark": "的",
+      "title": "红的 · the red one",
+      "level": "HSK 2",
+      "cat": "Structure",
+      "oneLine": "Drop the noun after 的 when it is obvious: 红的 = the red one, 我的 = mine.",
+      "pattern": "Describer + 的 (noun left out)",
+      "explain": "When everyone knows what you are talking about, keep the describer and 的 and leave the noun out. This is how you pick things in a shop: 我要大的.",
+      "examples": [
+        {
+          "ch": "我要红的。",
+          "py": "wǒ yào hóng de.",
+          "en": "I'll take the red one.",
+          "km": "ខ្ញុំយកមួយពណ៌ក្រហម។"
+        },
+        {
+          "ch": "这本书是我的。",
+          "py": "zhè běn shū shì wǒ de.",
+          "en": "This book is mine.",
+          "km": "សៀវភៅនេះជារបស់ខ្ញុំ។"
+        },
+        {
+          "ch": "大的太贵了，我买小的。",
+          "py": "dà de tài guì le, wǒ mǎi xiǎo de.",
+          "en": "The big one is too expensive, I'll buy the small one.",
+          "km": "មួយធំថ្លៃពេក ខ្ញុំទិញមួយតូច។"
+        }
+      ],
+      "mistake": "✗ 这本书是我。 → ✓ 这本书是我的。",
+      "compare": [
+        {
+          "w": "大的",
+          "gloss": "the big one",
+          "ex": "我要大的"
+        },
+        {
+          "w": "很大",
+          "gloss": "describing it",
+          "ex": "这个房间很大"
+        }
+      ],
+      "titleFa": "红的‏ · آن قرمز",
+      "oneLineFa": "اسم بعد از 的‏ را وقتی بدیهی است حذف کن: 红的‏ = آن قرمز، 我的‏ = مال من.",
+      "explainFa": "وقتی همه می‌دانند دربارهٔ چه حرف می‌زنی، توصیف‌کننده و 的‏ را نگه دار و اسم را حذف کن. همین‌طور است که در مغازه چیزها را برمی‌گزینی: 我要大的‏.",
+      "mistakeFa": "✗ 这本书是我。 → ✓ 这本书是我的。"
+    },
+    {
+      "id": "verb-attr",
+      "mark": "的",
+      "title": "我买的书 · the book I bought",
+      "level": "HSK 2",
+      "cat": "Structure",
+      "oneLine": "A whole description + 的 goes in front of the noun.",
+      "pattern": "Description (with a verb) + 的 + noun",
+      "explain": "English puts \"that I bought\" after the noun; Chinese puts it before, joined by 的: 我昨天买的书. However long the description is, it all comes first.",
+      "examples": [
+        {
+          "ch": "这是我昨天买的书。",
+          "py": "zhè shì wǒ zuótiān mǎi de shū.",
+          "en": "This is the book I bought yesterday.",
+          "km": "នេះជាសៀវភៅដែលខ្ញុំទិញម្សិលមិញ។"
+        },
+        {
+          "ch": "穿红衣服的人是我姐姐。",
+          "py": "chuān hóng yīfu de rén shì wǒ jiějie.",
+          "en": "The person in red is my older sister.",
+          "km": "មនុស្សស្លៀកអាវក្រហមជាបងស្រីខ្ញុំ។"
+        },
+        {
+          "ch": "你说的问题我知道了。",
+          "py": "nǐ shuō de wèntí wǒ zhīdào le.",
+          "en": "I know about the problem you mentioned.",
+          "km": "បញ្ហាដែលអ្នកនិយាយ ខ្ញុំដឹងហើយ។"
+        }
+      ],
+      "mistake": "✗ 书我昨天买的 (as \"the book I bought\") → ✓ 我昨天买的书.",
+      "compare": [
+        {
+          "w": "买的书",
+          "gloss": "names the thing",
+          "ex": "我昨天买的书"
+        },
+        {
+          "w": "买了书",
+          "gloss": "tells what happened",
+          "ex": "我昨天买了书"
+        }
+      ],
+      "titleFa": "我买的书‏ · کتابی که خریدم",
+      "oneLineFa": "کل توصیف + 的‏ قبل از اسم می‌آید.",
+      "explainFa": "انگلیسی «که خریدم» را بعد از اسم می‌گذارد؛ چینی آن را قبل از اسم می‌گذارد و با 的‏ وصل می‌کند: 我昨天买的书‏. هرقدر توصیف بلند باشد، همه‌اش اول می‌آید.",
+      "mistakeFa": "✗ 书我昨天买的‏ (به عنوان «کتابی که خریدم») → ✓ 我昨天买的书‏."
+    },
+    {
+      "id": "bi",
+      "mark": "比",
+      "title": "比 · A is more … than B",
+      "level": "HSK 2",
+      "cat": "Structure",
+      "oneLine": "A 比 B + adjective. No 很 in front of the adjective.",
+      "pattern": "A + 比 + B + adjective",
+      "explain": "比 compares two things. The adjective stands alone — 很 and 非常 cannot go before it, because 比 already says \"more\". To say not more, use 不比 or (in HSK 3) 没有.",
+      "examples": [
+        {
+          "ch": "哥哥比我高。",
+          "py": "gēge bǐ wǒ gāo.",
+          "en": "My older brother is taller than me.",
+          "km": "បងប្រុសខ្ពស់ជាងខ្ញុំ។"
+        },
+        {
+          "ch": "今天比昨天冷。",
+          "py": "jīntiān bǐ zuótiān lěng.",
+          "en": "Today is colder than yesterday.",
+          "km": "ថ្ងៃនេះត្រជាក់ជាងម្សិលមិញ។"
+        },
+        {
+          "ch": "坐出租车比坐公共汽车快。",
+          "py": "zuò chūzūchē bǐ zuò gōnggòng qìchē kuài.",
+          "en": "A taxi is faster than the bus.",
+          "km": "ជិះតាក់ស៊ីលឿនជាងជិះឡានក្រុង។"
+        }
+      ],
+      "mistake": "✗ 哥哥比我很高。 → ✓ 哥哥比我高。",
+      "compare": [
+        {
+          "w": "比",
+          "gloss": "comparing two things",
+          "ex": "哥哥比我高"
+        },
+        {
+          "w": "很",
+          "gloss": "just describing",
+          "ex": "哥哥很高"
+        }
+      ],
+      "titleFa": "比‏ · A بیشتر از B است",
+      "oneLineFa": "A 比‏ B + صفت. هیچ 很‏ پیش از صفت نمی‌آید.",
+      "explainFa": "比‏ دو چیز را مقایسه می‌کند. صفت تنها می‌ایستد — 很‏ و 非常‏ نمی‌توانند پیش از آن بیایند، چون 比‏ خودش معنای «بیشتر» را می‌رساند. برای «بیشتر نیست» از 不比‏ یا (در HSK 3) 没有‏ استفاده کن.",
+      "mistakeFa": "✗ 哥哥比我很高。 → ✓ 哥哥比我高。"
+    },
+    {
+      "id": "bi-more",
+      "mark": "比",
+      "title": "比……一点儿 / 多了 · by how much",
+      "level": "HSK 2",
+      "cat": "Structure",
+      "oneLine": "The difference goes after the adjective: a bit, much, or an exact amount.",
+      "pattern": "A + 比 + B + adjective + 一点儿 / 多了 / amount",
+      "explain": "Add how big the gap is after the adjective: 一点儿 (a little), 多了 (a lot), or a number: 大三岁 (three years older). The amount never goes before the adjective.",
+      "examples": [
+        {
+          "ch": "这个比那个便宜一点儿。",
+          "py": "zhège bǐ nàge piányi yìdiǎnr.",
+          "en": "This one is a bit cheaper than that one.",
+          "km": "មួយនេះថោកជាងមួយនោះបន្តិច។"
+        },
+        {
+          "ch": "他比我大三岁。",
+          "py": "tā bǐ wǒ dà sān suì.",
+          "en": "He's three years older than me.",
+          "km": "គាត់ចាស់ជាងខ្ញុំបីឆ្នាំ។"
+        },
+        {
+          "ch": "今天比昨天热多了。",
+          "py": "jīntiān bǐ zuótiān rè duō le.",
+          "en": "Today is much hotter than yesterday.",
+          "km": "ថ្ងៃនេះក្ដៅជាងម្សិលមិញច្រើន។"
+        }
+      ],
+      "mistake": "✗ 他比我三岁大。 → ✓ 他比我大三岁。",
+      "compare": [
+        {
+          "w": "一点儿",
+          "gloss": "a bit more",
+          "ex": "比我高一点儿"
+        },
+        {
+          "w": "有点儿",
+          "gloss": "a bit too",
+          "ex": "有点儿贵"
+        }
+      ],
+      "titleFa": "比‏……一点儿‏ / 多了‏ · به چه اندازه",
+      "oneLineFa": "میزان اختلاف بعد از صفت می‌آید: کمی، خیلی، یا یک مقدار دقیق.",
+      "explainFa": "اندازهٔ فاصله را بعد از صفت بیاور: 一点儿‏ (کمی)، 多了‏ (خیلی)، یا یک عدد: 大三岁‏ (سه سال بزرگ‌تر). این مقدار هرگز پیش از صفت نمی‌آید.",
+      "mistakeFa": "✗ 他比我三岁大。 → ✓ 他比我大三岁。"
+    },
+    {
+      "id": "yinwei",
+      "mark": "因为",
+      "title": "因为……所以…… · because … so",
+      "level": "HSK 2",
+      "cat": "Structure",
+      "oneLine": "Reason first, result second — and using both words is normal.",
+      "pattern": "因为 + reason，所以 + result",
+      "explain": "English uses \"because\" or \"so\", never both. Chinese happily uses both. Either one may be dropped. 因为 can also come second, to give the reason afterwards: 他很累，因为……",
+      "examples": [
+        {
+          "ch": "因为下雨，所以我们没有去。",
+          "py": "yīnwèi xià yǔ, suǒyǐ wǒmen méiyǒu qù.",
+          "en": "It was raining, so we didn't go.",
+          "km": "ដោយសារភ្លៀង ដូច្នេះយើងមិនបានទៅទេ។"
+        },
+        {
+          "ch": "因为我生病了，所以今天没有上班。",
+          "py": "yīnwèi wǒ shēngbìng le, suǒyǐ jīntiān méiyǒu shàngbān.",
+          "en": "I'm ill, so I didn't go to work today.",
+          "km": "ដោយសារខ្ញុំឈឺ ដូច្នេះថ្ងៃនេះខ្ញុំមិនបានទៅធ្វើការទេ។"
+        },
+        {
+          "ch": "他很累，因为他晚上没有睡觉。",
+          "py": "tā hěn lèi, yīnwèi tā wǎnshang méiyǒu shuìjiào.",
+          "en": "He's tired because he didn't sleep last night.",
+          "km": "គាត់ហត់ ព្រោះយប់មិញគាត់មិនបានដេកទេ។"
+        }
+      ],
+      "mistake": "✗ 所以我们没有去，因为下雨。 → ✓ 因为下雨，所以我们没有去。 所以 always comes with the result, after the reason.",
+      "compare": [
+        {
+          "w": "因为",
+          "gloss": "gives the reason",
+          "ex": "因为下雨"
+        },
+        {
+          "w": "所以",
+          "gloss": "gives the result",
+          "ex": "所以我没有去"
+        }
+      ],
+      "titleFa": "因为‏……所以‏…… · چون … پس",
+      "oneLineFa": "اول دلیل، بعد نتیجه — و به‌کار بردن هر دو واژه کاملاً عادی است.",
+      "explainFa": "انگلیسی «چون» یا «پس» را به‌کار می‌برد، هرگز هر دو را با هم؛ چینی بی‌دغدغه هر دو را به‌کار می‌برد. هرکدام را هم می‌توان حذف کرد. 因为‏ می‌تواند دوم بیاید تا دلیل را بعداً بیان کند: 他很累‏，因为‏……",
+      "mistakeFa": "✗ 所以我们没有去‏，因为下雨‏。 → ✓ 因为下雨‏，所以我们没有去‏。 所以‏ همیشه همراه نتیجه می‌آید، بعد از دلیل."
+    },
+    {
+      "id": "suiran",
+      "mark": "虽然",
+      "title": "虽然……但是…… · although",
+      "level": "HSK 2",
+      "cat": "Structure",
+      "oneLine": "虽然 opens the first half, 但是 the second — both together.",
+      "pattern": "虽然 + fact，但是 + contrast",
+      "explain": "In English \"although … but\" is a mistake; in Chinese 虽然……但是 is exactly right. 虽然 may be dropped, 但是 usually stays.",
+      "examples": [
+        {
+          "ch": "虽然这件衣服很贵，但是很漂亮。",
+          "py": "suīrán zhè jiàn yīfu hěn guì, dànshì hěn piàoliang.",
+          "en": "This top is expensive, but it's very pretty.",
+          "km": "ទោះបីអាវនេះថ្លៃ ក៏វាស្អាតណាស់ដែរ។"
+        },
+        {
+          "ch": "虽然他很忙，但是每天都跑步。",
+          "py": "suīrán tā hěn máng, dànshì měi tiān dōu pǎobù.",
+          "en": "Although he's busy, he runs every day.",
+          "km": "ទោះបីគាត់រវល់ ក៏គាត់រត់ហាត់ប្រាណរាល់ថ្ងៃដែរ។"
+        },
+        {
+          "ch": "虽然今天下雪，但是不太冷。",
+          "py": "suīrán jīntiān xià xuě, dànshì bú tài lěng.",
+          "en": "It's snowing today, but it isn't very cold.",
+          "km": "ទោះបីថ្ងៃនេះធ្លាក់ព្រិល ក៏មិនសូវត្រជាក់ដែរ។"
+        }
+      ],
+      "mistake": "✗ 虽然很贵，很漂亮。 → ✓ 虽然很贵，但是很漂亮。 Keep 但是.",
+      "compare": [
+        {
+          "w": "虽然……但是",
+          "gloss": "a contrast",
+          "ex": "虽然很贵，但是很好"
+        },
+        {
+          "w": "因为……所以",
+          "gloss": "a result",
+          "ex": "因为很贵，所以不买"
+        }
+      ],
+      "titleFa": "虽然‏……但是‏…… · اگرچه",
+      "oneLineFa": "虽然‏ نیمهٔ اول را آغاز می‌کند، 但是‏ نیمهٔ دوم را — هر دو با هم.",
+      "explainFa": "در انگلیسی «اگرچه … اما» اشتباه است؛ در چینی 虽然‏……但是‏ کاملاً درست است. 虽然‏ را می‌توان حذف کرد، اما 但是‏ معمولاً می‌ماند.",
+      "mistakeFa": "✗ 虽然很贵‏，很漂亮‏。 → ✓ 虽然很贵‏，但是很漂亮‏。 但是‏ را نگه دارید."
+    },
+    {
+      "id": "li",
+      "mark": "离",
+      "title": "离 · how far from",
+      "level": "HSK 2",
+      "cat": "Structure",
+      "oneLine": "A 离 B + 近 / 远: the distance between A and B.",
+      "pattern": "A + 离 + B + (很) 近 / 远",
+      "explain": "离 measures the gap between two places (or two times). It is not \"from\" in the sense of leaving — that is 从.",
+      "examples": [
+        {
+          "ch": "我家离公司很近。",
+          "py": "wǒ jiā lí gōngsī hěn jìn.",
+          "en": "My home is close to the office.",
+          "km": "ផ្ទះខ្ញុំនៅជិតក្រុមហ៊ុន។"
+        },
+        {
+          "ch": "机场离这儿远吗？",
+          "py": "jīchǎng lí zhèr yuǎn ma?",
+          "en": "Is the airport far from here?",
+          "km": "តើអាកាសយានដ្ឋាននៅឆ្ងាយពីទីនេះទេ?"
+        },
+        {
+          "ch": "学校离火车站不远。",
+          "py": "xuéxiào lí huǒchēzhàn bù yuǎn.",
+          "en": "The school isn't far from the station.",
+          "km": "សាលារៀននៅមិនឆ្ងាយពីស្ថានីយរថភ្លើងទេ។"
+        }
+      ],
+      "mistake": "✗ 我家从公司很近。 → ✓ 我家离公司很近。",
+      "compare": [
+        {
+          "w": "离",
+          "gloss": "distance between",
+          "ex": "我家离公司很近"
+        },
+        {
+          "w": "从",
+          "gloss": "starting point",
+          "ex": "从公司回家"
+        }
+      ],
+      "titleFa": "离‏ · چقدر دور از",
+      "oneLineFa": "A 离‏ B + 近‏ / 远‏: فاصلهٔ بین A و B.",
+      "explainFa": "离‏ فاصلهٔ بین دو مکان (یا دو زمان) را اندازه می‌گیرد. «از» به معنی برخاستن و رفتن نیست — آن 从‏ است.",
+      "mistakeFa": "✗ 我家从公司很近。 → ✓ 我家离公司很近。"
+    },
+    {
+      "id": "prep",
+      "mark": "从",
+      "title": "从 / 往 / 对 · from, towards, to",
+      "level": "HSK 2",
+      "cat": "Structure",
+      "oneLine": "These little words and their place or person go before the verb.",
+      "pattern": "从 + place + verb · 往 + direction + verb · 对 + person / thing + …",
+      "explain": "从 = from (where it starts), 往 = towards (which way), 对 = to / for (who it affects). All three sit before the verb, never at the end of the sentence.",
+      "examples": [
+        {
+          "ch": "我从北京来。",
+          "py": "wǒ cóng Běijīng lái.",
+          "en": "I come from Beijing.",
+          "km": "ខ្ញុំមកពីប៉េកាំង។"
+        },
+        {
+          "ch": "你往左边走，医院就在那儿。",
+          "py": "nǐ wǎng zuǒbian zǒu, yīyuàn jiù zài nàr.",
+          "en": "Go left — the hospital is right there.",
+          "km": "អ្នកដើរទៅខាងឆ្វេង មន្ទីរពេទ្យនៅទីនោះ។"
+        },
+        {
+          "ch": "运动对身体很好。",
+          "py": "yùndòng duì shēntǐ hěn hǎo.",
+          "en": "Exercise is good for your health.",
+          "km": "ការហាត់ប្រាណល្អសម្រាប់សុខភាព។"
+        }
+      ],
+      "mistake": "✗ 我来从北京。 → ✓ 我从北京来。",
+      "compare": [
+        {
+          "w": "从",
+          "gloss": "where it starts",
+          "ex": "从北京来"
+        },
+        {
+          "w": "往",
+          "gloss": "which way",
+          "ex": "往右边走"
+        }
+      ],
+      "titleFa": "从‏ / 往‏ / 对‏ · از، به‌سوی، به",
+      "oneLineFa": "این واژه‌های کوچک، همراه با مکان یا شخص‌شان، قبل از فعل می‌آیند.",
+      "explainFa": "从‏ = از (نقطهٔ شروع)، 往‏ = به‌سوی (در چه جهتی)، 对‏ = به / برای (بر چه کسی اثر می‌گذارد). هر سه قبل از فعل می‌آیند و هرگز در پایان جمله نمی‌آیند.",
+      "mistakeFa": "✗ 我来从北京。 → ✓ 我从北京来。"
+    },
+    {
+      "id": "di",
+      "mark": "第",
+      "title": "第 · first, second, third",
+      "level": "HSK 2",
+      "cat": "Numbers & time",
+      "oneLine": "第 + number turns a count into an order: 第二 = second.",
+      "pattern": "第 + number + measure + noun",
+      "explain": "Put 第 before the number and keep the measure word: 第一次 (the first time), 第二个房间 (the second room). Compare 两次 (twice) with 第二次 (the second time).",
+      "examples": [
+        {
+          "ch": "这是我第一次来中国。",
+          "py": "zhè shì wǒ dì yī cì lái Zhōngguó.",
+          "en": "This is my first time in China.",
+          "km": "នេះជាលើកទីមួយដែលខ្ញុំមកប្រទេសចិន។"
+        },
+        {
+          "ch": "左边第二个房间是我的。",
+          "py": "zuǒbian dì èr ge fángjiān shì wǒ de.",
+          "en": "The second room on the left is mine.",
+          "km": "បន្ទប់ទីពីរនៅខាងឆ្វេងជារបស់ខ្ញុំ។"
+        },
+        {
+          "ch": "这是我第三次去北京。",
+          "py": "zhè shì wǒ dì sān cì qù Běijīng.",
+          "en": "This is my third trip to Beijing.",
+          "km": "នេះជាលើកទីបីដែលខ្ញុំទៅប៉េកាំង។"
+        }
+      ],
+      "mistake": "✗ 二次 (for \"the second time\") → ✓ 第二次. 两次 means \"twice\".",
+      "compare": [
+        {
+          "w": "第二次",
+          "gloss": "which time",
+          "ex": "这是第二次"
+        },
+        {
+          "w": "两次",
+          "gloss": "how many times",
+          "ex": "我看了两次"
+        }
+      ],
+      "titleFa": "第‏ · اول، دوم، سوم",
+      "oneLineFa": "第‏ + عدد، شمارش را به ترتیب بدل می‌کند: 第二‏ = دوم.",
+      "explainFa": "第‏ را پیش از عدد بگذار و کلمهٔ شمارش را نگه دار: 第一次‏ (بار اول)، 第二个房间‏ (اتاق دوم). 两次‏ (دو بار) را با 第二次‏ (بار دوم) مقایسه کن.",
+      "mistakeFa": "✗ 二次‏ (برای «بار دوم») → ✓ 第二次‏. 两次‏ یعنی «دو بار»."
+    },
+    {
+      "id": "zui",
+      "mark": "最",
+      "title": "最 · the most",
+      "level": "HSK 2",
+      "cat": "Adverbs",
+      "oneLine": "最 before an adjective or a verb like 喜欢: the most, the best.",
+      "pattern": "最 + adjective · 最 + 喜欢 / 想 …",
+      "explain": "最 goes straight before the word it strengthens: 最高 (tallest), 最喜欢 (like best). It never follows the verb.",
+      "examples": [
+        {
+          "ch": "我最喜欢喝咖啡。",
+          "py": "wǒ zuì xǐhuan hē kāfēi.",
+          "en": "Coffee is my favourite drink.",
+          "km": "ខ្ញុំចូលចិត្តផឹកកាហ្វេជាងគេ។"
+        },
+        {
+          "ch": "他是我们学校最高的学生。",
+          "py": "tā shì wǒmen xuéxiào zuì gāo de xuésheng.",
+          "en": "He's the tallest student in our school.",
+          "km": "គាត់ជាសិស្សខ្ពស់ជាងគេនៅសាលាយើង។"
+        },
+        {
+          "ch": "这个房间最便宜。",
+          "py": "zhège fángjiān zuì piányi.",
+          "en": "This room is the cheapest.",
+          "km": "បន្ទប់នេះថោកជាងគេ។"
+        }
+      ],
+      "mistake": "✗ 我喜欢最咖啡。 → ✓ 我最喜欢咖啡。",
+      "compare": [
+        {
+          "w": "最",
+          "gloss": "most of all",
+          "ex": "他最高"
+        },
+        {
+          "w": "非常",
+          "gloss": "very, no ranking",
+          "ex": "他非常高"
+        }
+      ],
+      "titleFa": "最‏ · بیشترین",
+      "oneLineFa": "最‏ قبل از صفت یا فعلی مثل 喜欢‏: بیشترین، بهترین.",
+      "explainFa": "最‏ درست قبل از واژه‌ای که تقویت می‌کند می‌آید: 最高‏ (بلندترین)، 最喜欢‏ (بیش از همه دوست داشتن). هرگز بعد از فعل نمی‌آید.",
+      "mistakeFa": "✗ 我喜欢最咖啡。 → ✓ 我最喜欢咖啡。"
+    },
+    {
+      "id": "zhen",
+      "mark": "真",
+      "title": "真 · really!",
+      "level": "HSK 2",
+      "cat": "Adverbs",
+      "oneLine": "真 + adjective is an exclamation — you are telling someone how you feel.",
+      "pattern": "(Subject +) 真 + adjective！",
+      "explain": "很 describes; 真 exclaims. 今天真冷！ is a reaction, not a weather report. For that reason 真 does not go inside a description before a noun: say 很漂亮的衣服, not 真漂亮的衣服.",
+      "examples": [
+        {
+          "ch": "你的妻子真漂亮。",
+          "py": "nǐ de qīzi zhēn piàoliang.",
+          "en": "Your wife is really beautiful.",
+          "km": "ប្រពន្ធរបស់អ្នកស្អាតមែនទែន។"
+        },
+        {
+          "ch": "今天真冷！",
+          "py": "jīntiān zhēn lěng!",
+          "en": "It's so cold today!",
+          "km": "ថ្ងៃនេះត្រជាក់មែនទែន!"
+        },
+        {
+          "ch": "这个西瓜真好吃。",
+          "py": "zhège xīguā zhēn hǎochī.",
+          "en": "This watermelon is really good.",
+          "km": "ឪឡឹកនេះឆ្ញាញ់មែនទែន។"
+        }
+      ],
+      "mistake": "✗ 我买了一件真漂亮的衣服。 → ✓ 我买了一件很漂亮的衣服。",
+      "compare": [
+        {
+          "w": "真",
+          "gloss": "an exclamation",
+          "ex": "今天真冷"
+        },
+        {
+          "w": "很",
+          "gloss": "a plain description",
+          "ex": "很漂亮的衣服"
+        }
+      ],
+      "titleFa": "真‏ · واقعاً!",
+      "oneLineFa": "真‏ + صفت یک جملهٔ تعجبی است — دارید به دیگری می‌گویید چه حسی دارید.",
+      "explainFa": "很‏ توصیف می‌کند؛ 真‏ تعجب و تحسین می‌کند. 今天真冷‏！ یک واکنش است، نه گزارش هوا. به همین دلیل 真‏ درون توصیفِ قبل از اسم جایی ندارد: بگویید 很漂亮的衣服‏، نه 真漂亮的衣服‏.",
+      "mistakeFa": "✗ 我买了一件真漂亮的衣服。 → ✓ 我买了一件很漂亮的衣服。"
+    },
+    {
+      "id": "jiu",
+      "mark": "就",
+      "title": "就 · right away, as early as",
+      "level": "HSK 2",
+      "cat": "Adverbs",
+      "oneLine": "就 says sooner, earlier or more exactly than you might think.",
+      "pattern": "(time) + 就 + verb (+ 了)",
+      "explain": "我就来 = I'm coming right now. 他六点就起床了 = he was up as early as six. 就在前面 = it's right there ahead. About the past, 就 usually has 了.",
+      "examples": [
+        {
+          "ch": "你等一下，我就来。",
+          "py": "nǐ děng yíxià, wǒ jiù lái.",
+          "en": "Hang on, I'm coming right away.",
+          "km": "ចាំបន្តិច ខ្ញុំមកឥឡូវហ្នឹង។"
+        },
+        {
+          "ch": "他六点就起床了。",
+          "py": "tā liù diǎn jiù qǐchuáng le.",
+          "en": "He was up as early as six.",
+          "km": "គាត់ក្រោកពីដំណេកតាំងពីម៉ោងប្រាំមួយ។"
+        },
+        {
+          "ch": "医院就在前面。",
+          "py": "yīyuàn jiù zài qiánmian.",
+          "en": "The hospital is just ahead.",
+          "km": "មន្ទីរពេទ្យនៅខាងមុខនេះហើយ។"
+        }
+      ],
+      "mistake": "✗ 他六点就起床。 (about yesterday) → ✓ 他六点就起床了。",
+      "titleFa": "就‏ · بلافاصله، همین‌قدر زود",
+      "oneLineFa": "就‏ می‌گوید چیزی زودتر، جلوتر یا دقیق‌تر از آنچه تصور می‌شود رخ می‌دهد.",
+      "explainFa": "我就来‏ = همین حالا می‌آیم. 他六点就起床了‏ = همان ساعت شش بیدار شده بود. 就在前面‏ = همین‌جا جلوتر است. دربارهٔ گذشته، 就‏ معمولاً 了‏ دارد.",
+      "mistakeFa": "✗ 他六点就起床‏。 (دربارهٔ دیروز) → ✓ 他六点就起床了‏。"
+    },
+    {
+      "id": "hai",
+      "mark": "还",
+      "title": "还 · still, more, not yet",
+      "level": "HSK 2",
+      "cat": "Adverbs",
+      "oneLine": "还 = still (continuing) or also / more; 还没有 = not yet.",
+      "pattern": "还 + verb · 还 + 想 / 要 … · 还没有 + verb",
+      "explain": "他还在睡觉 — he is still sleeping. 我还想要一个 — I'd like one more. 还没有起床 — hasn't got up yet. 还 goes before 在, 想, 没有 and the verb.",
+      "examples": [
+        {
+          "ch": "他还在睡觉。",
+          "py": "tā hái zài shuìjiào.",
+          "en": "He's still asleep.",
+          "km": "គាត់នៅតែដេក។"
+        },
+        {
+          "ch": "我还想吃一个苹果。",
+          "py": "wǒ hái xiǎng chī yí ge píngguǒ.",
+          "en": "I'd like another apple.",
+          "km": "ខ្ញុំចង់ញ៉ាំផ្លែប៉ោមមួយទៀត។"
+        },
+        {
+          "ch": "十点了，你还没有起床？",
+          "py": "shí diǎn le, nǐ hái méiyǒu qǐchuáng?",
+          "en": "It's ten and you're still not up?",
+          "km": "ម៉ោងដប់ហើយ អ្នកនៅមិនទាន់ក្រោកទៀត?"
+        }
+      ],
+      "mistake": "✗ 他在还睡觉。 → ✓ 他还在睡觉。",
+      "compare": [
+        {
+          "w": "还",
+          "gloss": "one more, still",
+          "ex": "我还想要一个"
+        },
+        {
+          "w": "也",
+          "gloss": "me too",
+          "ex": "我也想要一个"
+        }
+      ],
+      "titleFa": "还‏ · هنوز، بیشتر، هنوز نه",
+      "oneLineFa": "还‏ = هنوز (ادامهٔ حالت) یا همچنین / بیشتر؛ 还没有‏ = هنوز نه.",
+      "explainFa": "他还在睡觉‏ — هنوز خواب است. 我还想要一个‏ — یکی دیگر می‌خواهم. 还没有起床‏ — هنوز بیدار نشده است. 还‏ پیش از 在‏، 想‏، 没有‏ و فعل می‌آید.",
+      "mistakeFa": "✗ 他在还睡觉。 → ✓ 他还在睡觉。"
+    },
+    {
+      "id": "zai-again",
+      "mark": "再",
+      "title": "再 · again, then",
+      "level": "HSK 2",
+      "cat": "Adverbs",
+      "oneLine": "再 is for a repeat or a next step that has not happened yet.",
+      "pattern": "再 + verb (future)",
+      "explain": "明天再来 = come again tomorrow; 休息一下再工作 = rest, then work. 再 always points forward. A repeat that has already happened uses 又 (HSK 3): 他昨天又来了.",
+      "examples": [
+        {
+          "ch": "明天再来吧。",
+          "py": "míngtiān zài lái ba.",
+          "en": "Come again tomorrow.",
+          "km": "ថ្ងៃស្អែកមកម្ដងទៀតចុះ។"
+        },
+        {
+          "ch": "我想再看看。",
+          "py": "wǒ xiǎng zài kànkan.",
+          "en": "I'd like to look a bit more.",
+          "km": "ខ្ញុំចង់មើលម្ដងទៀតបន្តិច។"
+        },
+        {
+          "ch": "你休息一下，再工作吧。",
+          "py": "nǐ xiūxi yíxià, zài gōngzuò ba.",
+          "en": "Take a short break, then get back to work.",
+          "km": "សម្រាកបន្តិច ចាំធ្វើការបន្ត។"
+        }
+      ],
+      "mistake": "✗ 他昨天再来了。 → ✓ 他昨天又来了。 (又 is HSK 3.)",
+      "titleFa": "再‏ · دوباره، سپس",
+      "oneLineFa": "再‏ برای تکرار یا گام بعدی است که هنوز اتفاق نیفتاده.",
+      "explainFa": "明天再来‏ = فردا دوباره بیا؛ 休息一下再工作‏ = استراحت کن، بعد کار کن. 再‏ همیشه به آینده اشاره می‌کند. تکراری که از قبل اتفاق افتاده از 又‏ استفاده می‌کند (HSK 3): 他昨天又来了‏.",
+      "mistakeFa": "✗ 他昨天再来了‏。 → ✓ 他昨天又来了‏。 (又‏ در سطح HSK 3 است.)"
+    },
+    {
+      "id": "youdianr",
+      "mark": "有点",
+      "title": "有点儿 · a bit (too)",
+      "level": "HSK 2",
+      "cat": "Adverbs",
+      "oneLine": "有点儿 + adjective: a little, usually a little too much for your liking.",
+      "pattern": "有点儿 + adjective · adjective + 一点儿",
+      "explain": "有点儿 goes before the adjective and sounds like a mild complaint: 有点儿贵 (a bit pricey). 一点儿 goes after the adjective and is used when comparing or asking: 便宜一点儿 (a bit cheaper). Don't swap them.",
+      "examples": [
+        {
+          "ch": "这件衣服有点儿贵。",
+          "py": "zhè jiàn yīfu yǒudiǎnr guì.",
+          "en": "This top is a bit expensive.",
+          "km": "អាវនេះថ្លៃបន្តិច។"
+        },
+        {
+          "ch": "我今天有点儿累。",
+          "py": "wǒ jīntiān yǒudiǎnr lèi.",
+          "en": "I'm a bit tired today.",
+          "km": "ថ្ងៃនេះខ្ញុំហត់បន្តិច។"
+        },
+        {
+          "ch": "有点儿贵，便宜一点儿吧。",
+          "py": "yǒudiǎnr guì, piányi yìdiǎnr ba.",
+          "en": "It's a bit pricey — can you make it cheaper?",
+          "km": "ថ្លៃបន្តិច ចុះថ្លៃបន្តិចមក។"
+        }
+      ],
+      "mistake": "✗ 这件衣服一点儿贵。 → ✓ 这件衣服有点儿贵。",
+      "compare": [
+        {
+          "w": "有点儿",
+          "gloss": "a bit too",
+          "ex": "有点儿贵"
+        },
+        {
+          "w": "一点儿",
+          "gloss": "a bit more",
+          "ex": "便宜一点儿"
+        }
+      ],
+      "titleFa": "有点儿‏ · کمی (زیادی)",
+      "oneLineFa": "有点儿‏ + صفت: کمی؛ معمولاً کمی بیشتر از حدی که دوست دارید.",
+      "explainFa": "有点儿‏ قبل از صفت می‌آید و حس گلایهٔ ملایم می‌دهد: 有点儿贵‏ (کمی گران). 一点儿‏ بعد از صفت می‌آید و در مقایسه یا درخواست به‌کار می‌رود: 便宜一点儿‏ (کمی ارزان‌تر). جایشان را عوض نکنید.",
+      "mistakeFa": "✗ 这件衣服一点儿贵。 → ✓ 这件衣服有点儿贵。"
+    },
+    {
+      "id": "mei",
+      "mark": "每",
+      "title": "每 · every",
+      "level": "HSK 2",
+      "cat": "Adverbs",
+      "oneLine": "每 + measure + noun, and 都 before the verb.",
+      "pattern": "每 + (measure) + noun + 都 + verb",
+      "explain": "每 needs a measure word (每个人, 每本书), except with time words like 天 and 年 (每天, 每年). The sentence almost always has 都 before the verb.",
+      "examples": [
+        {
+          "ch": "每个人都有手机。",
+          "py": "měi ge rén dōu yǒu shǒujī.",
+          "en": "Everyone has a phone.",
+          "km": "មនុស្សគ្រប់គ្នាមានទូរស័ព្ទ។"
+        },
+        {
+          "ch": "他每个星期都去游泳。",
+          "py": "tā měi ge xīngqī dōu qù yóuyǒng.",
+          "en": "He goes swimming every week.",
+          "km": "គាត់ទៅហែលទឹករៀងរាល់សប្ដាហ៍។"
+        },
+        {
+          "ch": "我每天晚上十一点睡觉。",
+          "py": "wǒ měi tiān wǎnshang shíyī diǎn shuìjiào.",
+          "en": "I go to bed at eleven every night.",
+          "km": "ខ្ញុំដេកម៉ោងដប់មួយរៀងរាល់យប់។"
+        }
+      ],
+      "mistake": "✗ 每个人有手机。 → ✓ 每个人都有手机。",
+      "titleFa": "每‏ · هر",
+      "oneLineFa": "每‏ + واژهٔ شمارش + اسم، و 都‏ پیش از فعل.",
+      "explainFa": "每‏ واژهٔ شمارش می‌خواهد (每个人‏, 每本书‏)، جز با واژه‌های زمان مثل 天‏ و 年‏ (每天‏, 每年‏). جمله تقریباً همیشه 都‏ پیش از فعل دارد.",
+      "mistakeFa": "✗ 每个人有手机。 → ✓ 每个人都有手机。"
+    },
+    {
+      "id": "shibushi",
+      "mark": "是",
+      "title": "是不是 · right?",
+      "level": "HSK 2",
+      "cat": "Questions",
+      "oneLine": "是不是 asks someone to confirm what you already suspect.",
+      "pattern": "Subject + 是不是 + … ？ · … ，是不是？",
+      "explain": "Put 是不是 before the part you are checking, or at the end. The same yes-no shape works with other verbs: 去不去, 好不好. Never add 吗 — the question is already there.",
+      "examples": [
+        {
+          "ch": "你是不是生病了？",
+          "py": "nǐ shì bu shì shēngbìng le?",
+          "en": "Are you ill?",
+          "km": "តើអ្នកឈឺមែនទេ?"
+        },
+        {
+          "ch": "他是不是你哥哥？",
+          "py": "tā shì bu shì nǐ gēge?",
+          "en": "Is he your older brother?",
+          "km": "តើគាត់ជាបងប្រុសរបស់អ្នកមែនទេ?"
+        },
+        {
+          "ch": "明天是不是要考试？",
+          "py": "míngtiān shì bu shì yào kǎoshì?",
+          "en": "We have an exam tomorrow, don't we?",
+          "km": "តើថ្ងៃស្អែកត្រូវប្រឡងមែនទេ?"
+        }
+      ],
+      "mistake": "✗ 你是不是生病了吗？ → drop the 吗.",
+      "compare": [
+        {
+          "w": "是不是",
+          "gloss": "checking a guess",
+          "ex": "你是不是生病了"
+        },
+        {
+          "w": "吗",
+          "gloss": "a plain question",
+          "ex": "你生病了吗"
+        }
+      ],
+      "titleFa": "是不是‏ · درست است؟",
+      "oneLineFa": "是不是‏ از دیگری می‌خواهد حدسِ شما را تأیید کند.",
+      "explainFa": "是不是‏ را قبل از بخشی که درستی‌اش را بررسی می‌کنید، یا در پایان جمله بگذارید. همین شکل بله/خیر با فعل‌های دیگر هم کار می‌کند: 去不去‏، 好不好‏. هرگز 吗‏ اضافه نکنید — پرسش از قبل در جمله هست.",
+      "mistakeFa": "✗ 你是不是生病了吗‏？ → 吗‏ را حذف کنید."
+    },
+    {
+      "id": "duo-adj",
+      "mark": "多",
+      "title": "多 + adjective · how tall, how far",
+      "level": "HSK 2",
+      "cat": "Questions",
+      "oneLine": "多 + 高 / 远 / 长 / 大 asks for a measurement.",
+      "pattern": "(有) 多 + adjective？",
+      "explain": "Use the \"big\" adjective to ask neutrally: 多高 (how tall), 多远 (how far), 多长时间 (how long). 有 can go in front: 你有多高？",
+      "examples": [
+        {
+          "ch": "你多高？",
+          "py": "nǐ duō gāo?",
+          "en": "How tall are you?",
+          "km": "តើអ្នកកម្ពស់ប៉ុន្មាន?"
+        },
+        {
+          "ch": "你家离学校多远？",
+          "py": "nǐ jiā lí xuéxiào duō yuǎn?",
+          "en": "How far is your home from school?",
+          "km": "តើផ្ទះអ្នកនៅឆ្ងាយពីសាលាប៉ុណ្ណា?"
+        },
+        {
+          "ch": "从这儿到机场要多长时间？",
+          "py": "cóng zhèr dào jīchǎng yào duō cháng shíjiān?",
+          "en": "How long does it take from here to the airport?",
+          "km": "តើពីទីនេះទៅអាកាសយានដ្ឋានចំណាយពេលប៉ុន្មាន?"
+        }
+      ],
+      "mistake": "✗ 你多少高？ → ✓ 你多高？",
+      "compare": [
+        {
+          "w": "多",
+          "gloss": "how tall, how far",
+          "ex": "你有多高"
+        },
+        {
+          "w": "多少",
+          "gloss": "how many, how much",
+          "ex": "多少钱"
+        }
+      ],
+      "titleFa": "多‏ + صفت · چقدر بلند، چقدر دور",
+      "oneLineFa": "多‏ + 高‏ / 远‏ / 长‏ / 大‏ برای پرسیدن یک اندازه است.",
+      "explainFa": "برای پرسش بی‌طرف از صفتِ «بزرگ» استفاده کن: 多高‏ (چقدر بلند)، 多远‏ (چقدر دور)، 多长时间‏ (چه مدت). 有‏ می‌تواند جلویش بیاید: 你有多高‏？",
+      "mistakeFa": "✗ 你多少高？ → ✓ 你多高？"
+    },
+    {
+      "id": "haoma",
+      "mark": "好吗",
+      "title": "……，好吗？ · OK?",
+      "level": "HSK 2",
+      "cat": "Questions",
+      "oneLine": "Put 好吗 after a suggestion or request to ask the other person to agree.",
+      "pattern": "Request / suggestion，好吗？",
+      "explain": "好吗 turns a request into a gentle question. The answer is 好 / 好的 (or 不行 to refuse). 可以吗 works the same way when asking permission.",
+      "examples": [
+        {
+          "ch": "我们一起去，好吗？",
+          "py": "wǒmen yìqǐ qù, hǎo ma?",
+          "en": "Let's go together, OK?",
+          "km": "យើងទៅជាមួយគ្នា បានទេ?"
+        },
+        {
+          "ch": "你明天给我打电话，好吗？",
+          "py": "nǐ míngtiān gěi wǒ dǎ diànhuà, hǎo ma?",
+          "en": "Give me a call tomorrow, OK?",
+          "km": "ថ្ងៃស្អែកអ្នកតេមកខ្ញុំ បានទេ?"
+        },
+        {
+          "ch": "别看电视了，好吗？",
+          "py": "bié kàn diànshì le, hǎo ma?",
+          "en": "Stop watching TV, OK?",
+          "km": "ឈប់មើលទូរទស្សន៍បានទេ?"
+        }
+      ],
+      "mistake": "✗ 好吗，我们一起去？ → ✓ 我们一起去，好吗？",
+      "compare": [
+        {
+          "w": "好吗",
+          "gloss": "asking for OK",
+          "ex": "我们走，好吗"
+        },
+        {
+          "w": "好吧",
+          "gloss": "OK then (agreeing)",
+          "ex": "好吧，我去"
+        }
+      ],
+      "titleFa": "……，好吗‏？ · باشه؟",
+      "oneLineFa": "好吗‏ را بعد از پیشنهاد یا درخواست بگذارید تا تأیید طرف مقابل را بگیرید.",
+      "explainFa": "好吗‏ درخواست را به پرسشی ملایم تبدیل می‌کند. پاسخ، 好‏ / 好的‏ است (برای رد کردن، 不行‏). 可以吗‏ هم برای درخواست اجازه به همین شکل عمل می‌کند.",
+      "mistakeFa": "✗ 好吗，我们一起去？ → ✓ 我们一起去，好吗？"
+    },
+    {
+      "id": "bushi-ma",
+      "mark": "不是",
+      "title": "不是……吗 · isn't it?",
+      "level": "HSK 2",
+      "cat": "Questions",
+      "oneLine": "不是……吗 means \"surely …\" — you believed it and are surprised or reminding.",
+      "pattern": "Subject + 不是 + … + 吗？",
+      "explain": "This is not a real question. 你不是会游泳吗？ means \"but you can swim, can't you?\" — the speaker thought so and something doesn't fit.",
+      "examples": [
+        {
+          "ch": "你不是会游泳吗？",
+          "py": "nǐ bú shì huì yóuyǒng ma?",
+          "en": "But you can swim, can't you?",
+          "km": "អ្នកចេះហែលទឹកមិនមែនទេឬ?"
+        },
+        {
+          "ch": "今天不是星期六吗？",
+          "py": "jīntiān bú shì xīngqīliù ma?",
+          "en": "Isn't today Saturday?",
+          "km": "ថ្ងៃនេះមិនមែនជាថ្ងៃសៅរ៍ទេឬ?"
+        },
+        {
+          "ch": "他不是你朋友吗？",
+          "py": "tā bú shì nǐ péngyou ma?",
+          "en": "Isn't he your friend?",
+          "km": "គាត់មិនមែនជាមិត្តរបស់អ្នកទេឬ?"
+        }
+      ],
+      "mistake": "Answer the fact, not the grammar: to 你不是会游泳吗？ say 我会 (I can) or 我不会 (I can't).",
+      "compare": [
+        {
+          "w": "不是……吗",
+          "gloss": "I thought so!",
+          "ex": "你不是会游泳吗"
+        },
+        {
+          "w": "是不是",
+          "gloss": "just checking",
+          "ex": "你是不是会游泳"
+        }
+      ],
+      "titleFa": "不是‏……吗‏ · مگر نه این‌طور است؟",
+      "oneLineFa": "不是‏……吗‏ یعنی «مگر نه اینکه …» — به آن باور داشتی و حالا شگفت‌زده‌ای یا یادآوری می‌کنی.",
+      "explainFa": "این یک پرسش واقعی نیست. 你不是会游泳吗‏？ یعنی «اما تو شنا بلدی، مگر نه؟» — گوینده چنین باوری داشته و چیزی با آن جور درنمی‌آید.",
+      "mistakeFa": "به واقعیت پاسخ بده، نه به گرامر: در جواب 你不是会游泳吗‏？ بگو 我会‏ (بلدم) یا 我不会‏ (بلد نیستم)."
+    },
+    {
+      "id": "zenme-why",
+      "mark": "怎么",
+      "title": "怎么 · how come?",
+      "level": "HSK 2",
+      "cat": "Questions",
+      "oneLine": "怎么 + (not) verb asks why, with surprise.",
+      "pattern": "Subject + 怎么 + (不 / 没有 / 还) + verb？",
+      "explain": "Before a verb, 怎么 can mean \"how come\" rather than \"how\": 你怎么没有来？ It sounds surprised. 为什么 is the neutral \"why\".",
+      "examples": [
+        {
+          "ch": "你怎么还没有睡觉？",
+          "py": "nǐ zěnme hái méiyǒu shuìjiào?",
+          "en": "How come you're still up?",
+          "km": "ម៉េចក៏អ្នកនៅមិនទាន់ដេក?"
+        },
+        {
+          "ch": "他今天怎么没有来？",
+          "py": "tā jīntiān zěnme méiyǒu lái?",
+          "en": "How come he didn't come today?",
+          "km": "ម៉េចក៏ថ្ងៃនេះគាត់មិនមក?"
+        },
+        {
+          "ch": "你怎么知道我的名字？",
+          "py": "nǐ zěnme zhīdào wǒ de míngzi?",
+          "en": "How do you know my name?",
+          "km": "ម៉េចក៏អ្នកដឹងឈ្មោះខ្ញុំ?"
+        }
+      ],
+      "mistake": "✗ 怎么你没有来？ is heard, but ✓ 你怎么没有来？ keeps 怎么 before the verb.",
+      "compare": [
+        {
+          "w": "怎么",
+          "gloss": "how come (surprised)",
+          "ex": "你怎么没有来"
+        },
+        {
+          "w": "为什么",
+          "gloss": "why (neutral)",
+          "ex": "你为什么没有来"
+        }
+      ],
+      "titleFa": "怎么‏ · مگر چرا؟",
+      "oneLineFa": "怎么‏ + فعلِ منفی می‌پرسد «چرا»، با حس تعجب.",
+      "explainFa": "قبل از فعل، 怎么‏ می‌تواند به جای «چطور» معنی «مگر چرا» بدهد: 你怎么没有来‏？ حس تعجب می‌دهد. 为什么‏ «چرا»ی خنثی است.",
+      "mistakeFa": "✗ 怎么你没有来‏？ شنیده می‌شود، اما ✓ 你怎么没有来‏？ 怎么‏ را قبل از فعل نگه می‌دارد."
+    },
+    {
+      "id": "yixia",
+      "mark": "一下",
+      "title": "一下 · a quick …",
+      "level": "HSK 2",
+      "cat": "Particles",
+      "oneLine": "Verb + 一下 = do it briefly; it makes a request sound light.",
+      "pattern": "Verb + 一下 (+ object)",
+      "explain": "等一下 (wait a moment), 看一下 (take a look), 介绍一下 (let me introduce). It softens the verb the same way doubling does (看看).",
+      "examples": [
+        {
+          "ch": "请等一下。",
+          "py": "qǐng děng yíxià.",
+          "en": "Please wait a moment.",
+          "km": "សូមចាំបន្តិច។"
+        },
+        {
+          "ch": "我介绍一下，这是我妻子。",
+          "py": "wǒ jièshào yíxià, zhè shì wǒ qīzi.",
+          "en": "Let me introduce — this is my wife.",
+          "km": "ខ្ញុំសូមណែនាំ នេះជាប្រពន្ធរបស់ខ្ញុំ។"
+        },
+        {
+          "ch": "你看一下这个题。",
+          "py": "nǐ kàn yíxià zhège tí.",
+          "en": "Have a look at this question.",
+          "km": "សូមមើលលំហាត់នេះបន្តិច។"
+        }
+      ],
+      "mistake": "✗ 一下等。 → ✓ 等一下。",
+      "compare": [
+        {
+          "w": "一下",
+          "gloss": "a quick action",
+          "ex": "等一下"
+        },
+        {
+          "w": "一点儿",
+          "gloss": "a small amount",
+          "ex": "吃一点儿"
+        }
+      ],
+      "titleFa": "一下‏ · یک … سریع",
+      "oneLineFa": "فعل + 一下‏ = کوتاه انجام دادن؛ درخواست را سبک و ساده نشان می‌دهد.",
+      "explainFa": "等一下‏ (یک لحظه صبر کن)، 看一下‏ (نگاهی بینداز)، 介绍一下‏ (اجازه بده معرفی کنم). فعل را همان‌طور نرم می‌کند که تکرارِ فعل نرم می‌کند (看看‏).",
+      "mistakeFa": "✗ 一下等。 → ✓ 等一下。"
+    },
+    {
+      "id": "bie",
+      "mark": "别",
+      "title": "别 / 不要 · don't",
+      "level": "HSK 2",
+      "cat": "Particles",
+      "oneLine": "别 / 不要 + verb = don't; add 了 at the end = stop doing it.",
+      "pattern": "别 / 不要 + verb (+ 了)",
+      "explain": "别说话 = don't talk. 别说话了 = stop talking (you already are). 不要 means the same and sounds a little more formal. Plain 不 cannot give an order.",
+      "examples": [
+        {
+          "ch": "别说话了！",
+          "py": "bié shuōhuà le!",
+          "en": "Stop talking!",
+          "km": "ឈប់និយាយទៅ!"
+        },
+        {
+          "ch": "不要看电视了，快睡觉吧。",
+          "py": "bú yào kàn diànshì le, kuài shuìjiào ba.",
+          "en": "Stop watching TV and go to sleep.",
+          "km": "ឈប់មើលទូរទស្សន៍ទៅ ឆាប់ដេកទៅ។"
+        },
+        {
+          "ch": "别等我了，你走吧。",
+          "py": "bié děng wǒ le, nǐ zǒu ba.",
+          "en": "Don't wait for me, go ahead.",
+          "km": "កុំចាំខ្ញុំអី អ្នកទៅចុះ។"
+        }
+      ],
+      "mistake": "✗ 不说话！ (as an order) → ✓ 别说话！",
+      "compare": [
+        {
+          "w": "别",
+          "gloss": "an order: don't",
+          "ex": "别说话"
+        },
+        {
+          "w": "不",
+          "gloss": "a fact: not",
+          "ex": "他不说话"
+        }
+      ],
+      "titleFa": "别‏ / 不要‏ · نکن",
+      "oneLineFa": "别‏ / 不要‏ + فعل = نکن؛ اگر در پایان 了‏ اضافه کنی = دست از آن کار بردار.",
+      "explainFa": "别说话‏ = حرف نزن. 别说话了‏ = دست از حرف زدن بردار (هم‌اکنون داری حرف می‌زنی). 不要‏ همان معنا را دارد و کمی رسمی‌تر به نظر می‌رسد. 不‏ به‌تنهایی نمی‌تواند دستور بدهد.",
+      "mistakeFa": "✗ 不说话‏！ (به‌عنوان دستور) → ✓ 别说话‏！"
+    },
+    {
+      "id": "deshihou",
+      "mark": "时候",
+      "title": "……的时候 · when",
+      "level": "HSK 2",
+      "cat": "Numbers & time",
+      "oneLine": "What was happening + 的时候, then the main sentence.",
+      "pattern": "Clause + 的时候，main clause",
+      "explain": "English \"when\" comes first in its clause; Chinese 的时候 comes last: 我在中国的时候 = when I was in China. The 的时候 part goes before the main sentence.",
+      "examples": [
+        {
+          "ch": "我在中国的时候，每天都说汉语。",
+          "py": "wǒ zài Zhōngguó de shíhou, měi tiān dōu shuō Hànyǔ.",
+          "en": "When I was in China I spoke Chinese every day.",
+          "km": "ពេលខ្ញុំនៅប្រទេសចិន ខ្ញុំនិយាយភាសាចិនរាល់ថ្ងៃ។"
+        },
+        {
+          "ch": "你睡觉的时候，别玩手机。",
+          "py": "nǐ shuìjiào de shíhou, bié wán shǒujī.",
+          "en": "Don't play on your phone when you go to bed.",
+          "km": "ពេលអ្នកដេក កុំលេងទូរស័ព្ទ។"
+        },
+        {
+          "ch": "我小的时候很喜欢唱歌。",
+          "py": "wǒ xiǎo de shíhou hěn xǐhuan chàng gē.",
+          "en": "When I was little I loved singing.",
+          "km": "ពេលខ្ញុំនៅតូច ខ្ញុំចូលចិត្តច្រៀងណាស់។"
+        }
+      ],
+      "mistake": "✗ 的时候我在中国 → ✓ 我在中国的时候",
+      "compare": [
+        {
+          "w": "……的时候",
+          "gloss": "when, a moment",
+          "ex": "我在中国的时候"
+        },
+        {
+          "w": "时间",
+          "gloss": "time you have",
+          "ex": "我没有时间"
+        }
+      ],
+      "titleFa": "……的时候‏ · وقتی",
+      "oneLineFa": "آنچه در جریان بود + 的时候‏، سپس جملهٔ اصلی.",
+      "explainFa": "«when» انگلیسی اولِ جملهٔ خودش می‌آید؛ اما 的时候‏ چینی در آخر می‌آید: 我在中国的时候‏ = وقتی در چین بودم. بخش 的时候‏ پیش از جملهٔ اصلی می‌آید.",
+      "mistakeFa": "✗ 的时候我在中国 → ✓ 我在中国的时候"
+    },
+    {
+      "id": "approx",
+      "mark": "多",
+      "title": "十几 / 两千多 · about, over",
+      "level": "HSK 2",
+      "cat": "Numbers & time",
+      "oneLine": "几 after 十 means 11–19-ish; 多 after a round number means \"and a bit more\".",
+      "pattern": "十几 + measure · round number + 多 + measure · 一个多 + noun",
+      "explain": "十几个 = a dozen or so. 二十多个 = twenty-odd. With money and time, 多 can come after the measure word for numbers under ten: 一个多小时 (over an hour), 五块多 (five-something).",
+      "examples": [
+        {
+          "ch": "我有十几个中国朋友。",
+          "py": "wǒ yǒu shí jǐ ge Zhōngguó péngyou.",
+          "en": "I have a dozen or so Chinese friends.",
+          "km": "ខ្ញុំមានមិត្តចិនជាងដប់នាក់។"
+        },
+        {
+          "ch": "这个手机两千多块。",
+          "py": "zhège shǒujī liǎng qiān duō kuài.",
+          "en": "This phone costs over two thousand yuan.",
+          "km": "ទូរស័ព្ទនេះតម្លៃជាងពីរពាន់យាន់។"
+        },
+        {
+          "ch": "他们等了一个多小时。",
+          "py": "tāmen děngle yí ge duō xiǎoshí.",
+          "en": "They waited over an hour.",
+          "km": "ពួកគេចាំជាងមួយម៉ោង។"
+        }
+      ],
+      "mistake": "✗ 两千块多 → ✓ 两千多块",
+      "compare": [
+        {
+          "w": "十几",
+          "gloss": "eleven to nineteen",
+          "ex": "十几个人"
+        },
+        {
+          "w": "几十",
+          "gloss": "several dozen",
+          "ex": "几十个人"
+        }
+      ],
+      "titleFa": "十几‏ / 两千多‏ · حدوداً، بیش از",
+      "oneLineFa": "几‏ بعد از 十‏ یعنی حدود ۱۱ تا ۱۹؛ 多‏ بعد از عدد گرد یعنی «و کمی بیشتر».",
+      "explainFa": "十几个‏ = حدودِ ده‌چند. 二十多个‏ = بیست و چند. در پول و زمان، وقتی عدد زیر ده است، 多‏ می‌تواند بعد از کلمهٔ شمارش بیاید: 一个多小时‏ (بیش از یک ساعت)، 五块多‏ (پنج و چندی).",
+      "mistakeFa": "✗ 两千块多 → ✓ 两千多块"
+    },
+    {
+      "id": "mw-redup",
+      "mark": "个个",
+      "title": "个个 / 天天 · every single one",
+      "level": "HSK 2",
+      "cat": "Numbers & time",
+      "oneLine": "A doubled measure word (or 天, 年) means each and every one — usually with 都.",
+      "pattern": "Measure + measure + 都 + …",
+      "explain": "个个 = every one of them, 天天 = every single day, 年年 = every year. It sits at the front, as the subject or time, not after the verb.",
+      "examples": [
+        {
+          "ch": "这些孩子个个都很高兴。",
+          "py": "zhèxiē háizi gègè dōu hěn gāoxìng.",
+          "en": "Every one of these children is happy.",
+          "km": "ក្មេងទាំងនេះសប្បាយចិត្តគ្រប់គ្នា។"
+        },
+        {
+          "ch": "他天天都去跑步。",
+          "py": "tā tiāntiān dōu qù pǎobù.",
+          "en": "He goes running every single day.",
+          "km": "គាត់ទៅរត់រាល់ថ្ងៃ។"
+        },
+        {
+          "ch": "这些苹果个个都很大。",
+          "py": "zhèxiē píngguǒ gègè dōu hěn dà.",
+          "en": "Every one of these apples is big.",
+          "km": "ផ្លែប៉ោមទាំងនេះធំទាំងអស់។"
+        }
+      ],
+      "mistake": "✗ 我喜欢个个。 → ✓ 个个我都喜欢 / 我每个都喜欢。",
+      "compare": [
+        {
+          "w": "个个",
+          "gloss": "every single one",
+          "ex": "个个都很好"
+        },
+        {
+          "w": "每个",
+          "gloss": "each one",
+          "ex": "每个人都来了"
+        }
+      ],
+      "titleFa": "个个‏ / 天天‏ · تک‌تکِ همه",
+      "oneLineFa": "واژهٔ شمارش تکرارشده (یا 天‏, 年‏) یعنی تک‌تکِ همه — معمولاً با 都‏.",
+      "explainFa": "个个‏ = همهٔ آن‌ها, 天天‏ = تک‌تکِ روزها, 年年‏ = هر سال. در ابتدای جمله می‌نشیند، به‌عنوان نهاد یا زمان، نه بعد از فعل.",
+      "mistakeFa": "✗ 我喜欢个个。 → ✓ 个个我都喜欢 / 我每个都喜欢。"
+    },
+    {
+      "id": "er-liang",
+      "mark": "两",
+      "title": "二 / 两 · two: the number, or two of something",
+      "level": "HSK 2",
+      "cat": "Confusables",
+      "oneLine": "二 is the number you count and read out; 两 is two of something, before a measure word.",
+      "pattern": "两 + measure word + noun · 二 in counting, dates, 第二",
+      "explain": "Counting, dates, phone numbers and \"the second\" all use 二: 一、二、三, 二月, 第二. Before a measure word it is 两: 两个人, 两本书, and the hour 两点. Inside a bigger number 二 stays: 十二, 二十二.",
+      "examples": [
+        {
+          "ch": "我有两个哥哥。",
+          "py": "wǒ yǒu liǎng gè gēge.",
+          "en": "I have two older brothers."
+        },
+        {
+          "ch": "今天是二月十二号。",
+          "py": "jīntiān shì èr yuè shí'èr hào.",
+          "en": "Today is the twelfth of February."
+        },
+        {
+          "ch": "现在两点半。",
+          "py": "xiànzài liǎng diǎn bàn.",
+          "en": "It's half past two."
+        }
+      ],
+      "mistake": "✗ 我买了二本书。 → ✓ 我买了两本书。 Before a measure word, two is 两.",
+      "compare": [
+        {
+          "w": "二",
+          "gloss": "the number, counting",
+          "ex": "第二天",
+          "py": "èr"
+        },
+        {
+          "w": "两",
+          "gloss": "two of something",
+          "ex": "两个人",
+          "py": "liǎng"
+        }
+      ],
+      "titleFa": "二‏ / 两‏ · دو: عدد، یا دو تا از چیزی",
+      "oneLineFa": "二‏ عددی است که می‌شمریم و می‌خوانیم؛ 两‏ «دو تا از چیزی» است، پیش از کلمهٔ شمارش.",
+      "explainFa": "شمردن، تاریخ‌ها، شماره تلفن‌ها و «دومِ ترتیبی» همه از 二‏ بهره می‌برند: 一‏、二‏、三‏، 二月‏، 第二‏. پیش از کلمهٔ شمارش، 两‏ می‌آید: 两个人‏، 两本书‏، و ساعت، 两点‏. درون عدد بزرگ‌تر، 二‏ می‌ماند: 十二‏، 二十二‏.",
+      "mistakeFa": "✗ 我买了二本书‏。 → ✓ 我买了两本书‏。 پیش از کلمهٔ شمارش، «دو» می‌شود 两‏."
+    },
+    {
+      "id": "hui-neng-keyi",
+      "mark": "会",
+      "title": "会 / 能 / 可以 · can: learned, able, allowed",
+      "level": "HSK 2",
+      "cat": "Confusables",
+      "oneLine": "会 is a skill you learned; 能 is being able to, this time; 可以 is being allowed.",
+      "pattern": "会 / 能 / 可以 + verb",
+      "explain": "我会游泳 — I know how to swim; I learned it. 我今天能去游泳 — today I am able to; I am free and not ill. 这里可以游泳 — swimming is allowed here. To ask permission, 可以 is the usual word: 我可以进来吗？ No is 不可以 or 不行, and 不能 is common too.",
+      "examples": [
+        {
+          "ch": "我会说一点儿汉语。",
+          "py": "wǒ huì shuō yìdiǎnr Hànyǔ.",
+          "en": "I can speak a little Chinese."
+        },
+        {
+          "ch": "我感冒了，今天不能去上课。",
+          "py": "wǒ gǎnmào le, jīntiān bù néng qù shàngkè.",
+          "en": "I have a cold, so I can't go to class today."
+        },
+        {
+          "ch": "这里可以拍照吗？",
+          "py": "zhèlǐ kěyǐ pāizhào ma?",
+          "en": "Can I take photos here?"
+        }
+      ],
+      "mistake": "✗ 我能说汉语，我学了两年了。 → ✓ 我会说汉语，我学了两年了。 A skill you learned takes 会.",
+      "compare": [
+        {
+          "w": "会",
+          "gloss": "learned how",
+          "ex": "我会游泳",
+          "py": "huì"
+        },
+        {
+          "w": "能",
+          "gloss": "able, this time",
+          "ex": "明天能来",
+          "py": "néng"
+        },
+        {
+          "w": "可以",
+          "gloss": "allowed",
+          "ex": "可以进来吗",
+          "py": "kěyǐ"
+        }
+      ],
+      "titleFa": "会‏ / 能‏ / 可以‏ · توانستن: آموخته، قادر، مجاز",
+      "oneLineFa": "会‏ مهارت آموخته‌شده است؛ 能‏ توانستن همین بار است؛ 可以‏ اجازه داشتن است.",
+      "explainFa": "我会游泳‏ — شنا بلدم؛ آموخته‌ام. 我今天能去游泳‏ — امروز می‌توانم بروم؛ وقت دارم و مریض نیستم. 这里可以游泳‏ — اینجا شنا کردن مجاز است. برای درخواست اجازه، 可以‏ واژهٔ معمول است: 我可以进来吗‏？ جواب منفی 不可以‏ یا 不行‏ است و 不能‏ هم رایج است.",
+      "mistakeFa": "✗ 我能说汉语‏，我学了两年了‏。 → ✓ 我会说汉语‏，我学了两年了‏。 مهارتی که آموخته‌اید 会‏ می‌گیرد."
+    }
+  ]
+}

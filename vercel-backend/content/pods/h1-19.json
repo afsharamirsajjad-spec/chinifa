@@ -1,0 +1,767 @@
+{
+  "id": "h1-19",
+  "level": 1,
+  "no": 19,
+  "title": "李老师的书",
+  "title_py": "Lǐ lǎo shī de shū",
+  "title_en": "Teacher Li's book",
+  "title_tr": {
+    "vi": "Cuốn sách của cô Lý",
+    "pt": "O livro da professora Li",
+    "es": "El libro de la profesora Li",
+    "fr": "Le livre de la professeure Li",
+    "am": "የመምህርት ሊ መጽሐፍ",
+    "fa": "کتاب معلم لی"
+  },
+  "topic": "shop",
+  "free": false,
+  "cover": "https://media.kanchinese.app/review/stories/h1-19.jpg",
+  "duration": 45.3,
+  "lines": [
+    {
+      "text": "山田想买一本汉语书。",
+      "py": "Shān tián xiǎng mǎi yì běn Hàn yǔ shū.",
+      "en": "Yamada wants to buy a Chinese book.",
+      "tr": {
+        "vi": "Yamada muốn mua một cuốn sách tiếng Trung.",
+        "pt": "A Yamada quer comprar um livro de chinês.",
+        "es": "Yamada quiere comprar un libro de chino.",
+        "fr": "Yamada veut acheter un livre de chinois.",
+        "am": "ያማዳ የቻይንኛ መጽሐፍ መግዛት ፈለገች።"
+      },
+      "start": 2.62,
+      "end": 5.284,
+      "tokens": [
+        [
+          "山田",
+          "shān tián",
+          "Yamada (Japanese surname)",
+          ""
+        ],
+        [
+          "想",
+          "xiǎng",
+          "to desire; to want (to); to think (about)",
+          ""
+        ],
+        [
+          "买",
+          "mǎi",
+          "to buy; to purchase",
+          ""
+        ],
+        [
+          "一",
+          "yī",
+          "\"one\" radical in Chinese characters (Kangxi radical 1); one",
+          ""
+        ],
+        [
+          "本",
+          "běn",
+          "classifier for books, periodicals, files etc",
+          ""
+        ],
+        [
+          "汉语",
+          "hàn yǔ",
+          "Chinese language",
+          ""
+        ],
+        [
+          "书",
+          "shū",
+          "book; letter; document",
+          ""
+        ],
+        [
+          "。"
+        ]
+      ]
+    },
+    {
+      "text": "下午，她去书店。这个书店很大，有很多汉语书。",
+      "py": "xià wǔ, tā qù shū diàn. zhè ge shū diàn hěn dà, yǒu hěn duō Hàn yǔ shū.",
+      "en": "In the afternoon, she goes to a bookshop. It's a big shop with lots of Chinese books.",
+      "tr": {
+        "vi": "Buổi chiều, cô ấy đến hiệu sách. Hiệu sách này rất lớn, có rất nhiều sách tiếng Trung.",
+        "pt": "À tarde, ela vai a uma livraria. É uma livraria grande, com muitos livros de chinês.",
+        "es": "Por la tarde va a una librería. Es una librería grande, con muchos libros de chino.",
+        "fr": "L'après-midi, elle va à la librairie. C'est une grande librairie, avec beaucoup de livres de chinois.",
+        "am": "ከሰዓት ወደ መጻሕፍት መደብር ሄደች። መደብሩ ትልቅ ነው፤ ብዙ የቻይንኛ መጻሕፍት አሉት።"
+      },
+      "start": 5.984,
+      "end": 11.936,
+      "tokens": [
+        [
+          "下午",
+          "xià wǔ",
+          "afternoon; p.m.",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "她",
+          "tā",
+          "she",
+          ""
+        ],
+        [
+          "去",
+          "qù",
+          "(when used either before or after a verb) to go in order to do sth",
+          ""
+        ],
+        [
+          "书店",
+          "shū diàn",
+          "bookstore",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "这个",
+          "zhè ge",
+          "(pronoun) this; (adjective) this",
+          ""
+        ],
+        [
+          "书店",
+          "shū diàn",
+          "bookstore",
+          ""
+        ],
+        [
+          "很",
+          "hěn",
+          "very; quite",
+          ""
+        ],
+        [
+          "大",
+          "dà",
+          "big; large; great; older (than another person)",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "有",
+          "yǒu",
+          "to have; there is",
+          ""
+        ],
+        [
+          "很",
+          "hěn",
+          "very; quite",
+          ""
+        ],
+        [
+          "多",
+          "duō",
+          "(after a numeral) ... odd; many; much; more; a lot of",
+          ""
+        ],
+        [
+          "汉语",
+          "hàn yǔ",
+          "Chinese language",
+          ""
+        ],
+        [
+          "书",
+          "shū",
+          "book; letter; document",
+          ""
+        ],
+        [
+          "。"
+        ]
+      ]
+    },
+    {
+      "text": "服务员说：“这本很好。很多学生都喜欢。”",
+      "py": "fú wù yuán shuō: “zhè běn hěn hǎo. hěn duō xué sheng dōu xǐ huan.”",
+      "en": "The shop assistant says, \"This one is very good. Lots of students like it.\"",
+      "tr": {
+        "vi": "Nhân viên nói: “Cuốn này rất hay. Nhiều học sinh thích lắm.”",
+        "pt": "O vendedor diz: “Este é muito bom. Muitos alunos gostam dele.”",
+        "es": "El dependiente dice: «Este es muy bueno. A muchos estudiantes les gusta».",
+        "fr": "Le vendeur dit : « Celui-ci est très bien. Beaucoup d'étudiants l'aiment. »",
+        "am": "ሻጩ «ይሄ በጣም ጥሩ ነው። ብዙ ተማሪዎች ይወዱታል» አለ።"
+      },
+      "start": 12.636,
+      "end": 17.364,
+      "tokens": [
+        [
+          "服务员",
+          "fú wù yuán",
+          "waiter; waitress; attendant",
+          ""
+        ],
+        [
+          "说",
+          "shuō",
+          "to speak; to talk; to say; to explain; to comment",
+          ""
+        ],
+        [
+          "："
+        ],
+        [
+          "“"
+        ],
+        [
+          "这",
+          "zhè",
+          "(pronoun) this; these",
+          ""
+        ],
+        [
+          "本",
+          "běn",
+          "classifier for books, periodicals, files etc",
+          ""
+        ],
+        [
+          "很",
+          "hěn",
+          "very; quite",
+          ""
+        ],
+        [
+          "好",
+          "hǎo",
+          "good; (before a verb) good to; appropriate; proper",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "很",
+          "hěn",
+          "very; quite",
+          ""
+        ],
+        [
+          "多",
+          "duō",
+          "many; much; more; a lot of; too many; in excess",
+          ""
+        ],
+        [
+          "学生",
+          "xué sheng",
+          "student; schoolchild",
+          ""
+        ],
+        [
+          "都",
+          "dōu",
+          "all; both; entirely; (used for emphasis) even; already",
+          ""
+        ],
+        [
+          "喜欢",
+          "xǐ huan",
+          "to like; to be fond of",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "”"
+        ]
+      ]
+    },
+    {
+      "text": "书的名字叫《和李老师学习汉语》。",
+      "py": "shū de míng zi jiào 《hé Lǐ lǎo shī xué xí Hàn yǔ》.",
+      "en": "The book is called \"Learn Chinese with Teacher Li\".",
+      "tr": {
+        "vi": "Cuốn sách tên là “Học tiếng Trung cùng cô Lý”.",
+        "pt": "O livro se chama “Aprenda chinês com a professora Li”.",
+        "es": "El libro se llama «Aprende chino con la profesora Li».",
+        "fr": "Le livre s'appelle « Apprendre le chinois avec la professeure Li ».",
+        "am": "የመጽሐፉ ስም «ከመምህርት ሊ ጋር ቻይንኛ መማር» ነው።"
+      },
+      "start": 18.064,
+      "end": 22.144,
+      "tokens": [
+        [
+          "书",
+          "shū",
+          "book; letter; document",
+          ""
+        ],
+        [
+          "的",
+          "de",
+          "of; ~'s (possessive particle)",
+          ""
+        ],
+        [
+          "名字",
+          "míng zi",
+          "name (of a person or thing)",
+          ""
+        ],
+        [
+          "叫",
+          "jiào",
+          "to call; to be called; to shout",
+          ""
+        ],
+        [
+          "《"
+        ],
+        [
+          "和",
+          "hé",
+          "(joining two nouns) and; together with; with; (math.) sum",
+          ""
+        ],
+        [
+          "李",
+          "lǐ",
+          "plum",
+          ""
+        ],
+        [
+          "老师",
+          "lǎo shī",
+          "teacher",
+          ""
+        ],
+        [
+          "学习",
+          "xué xí",
+          "to learn; to study",
+          ""
+        ],
+        [
+          "汉语",
+          "hàn yǔ",
+          "Chinese language",
+          ""
+        ],
+        [
+          "》"
+        ],
+        [
+          "。"
+        ]
+      ]
+    },
+    {
+      "text": "山田想：李老师？是我的李老师吗？",
+      "py": "Shān tián xiǎng: Lǐ lǎo shī? shì wǒ de Lǐ lǎo shī ma?",
+      "en": "Yamada thinks, \"Teacher Li? Is it my Teacher Li?\"",
+      "tr": {
+        "vi": "Yamada nghĩ: Cô Lý? Có phải cô Lý của mình không?",
+        "pt": "A Yamada pensa: professora Li? Será a minha professora Li?",
+        "es": "Yamada piensa: «¿La profesora Li? ¿Será mi profesora Li?»",
+        "fr": "Yamada se dit : la professeure Li ? C'est ma professeure Li ?",
+        "am": "ያማዳ «መምህርት ሊ? የእኔዋ መምህርት ሊ ትሆን?» ብላ አሰበች።"
+      },
+      "start": 22.844,
+      "end": 27.572,
+      "tokens": [
+        [
+          "山田",
+          "shān tián",
+          "Yamada (Japanese surname)",
+          ""
+        ],
+        [
+          "想",
+          "xiǎng",
+          "to think (about); to think of; to devise",
+          ""
+        ],
+        [
+          "："
+        ],
+        [
+          "李",
+          "lǐ",
+          "plum",
+          ""
+        ],
+        [
+          "老师",
+          "lǎo shī",
+          "teacher",
+          ""
+        ],
+        [
+          "？"
+        ],
+        [
+          "是",
+          "shì",
+          "to be (followed by substantives only); correct; right; true",
+          ""
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me; my",
+          ""
+        ],
+        [
+          "的",
+          "de",
+          "of; ~'s (possessive particle)",
+          ""
+        ],
+        [
+          "李",
+          "lǐ",
+          "plum",
+          ""
+        ],
+        [
+          "老师",
+          "lǎo shī",
+          "teacher",
+          ""
+        ],
+        [
+          "吗",
+          "ma",
+          "(question particle for \"yes-no\" questions)",
+          ""
+        ],
+        [
+          "？"
+        ]
+      ]
+    },
+    {
+      "text": "她买了这本书。",
+      "py": "tā mǎi le zhè běn shū.",
+      "en": "She buys the book.",
+      "tr": {
+        "vi": "Cô ấy mua cuốn sách này.",
+        "pt": "Ela compra o livro.",
+        "es": "Compra el libro.",
+        "fr": "Elle achète le livre.",
+        "am": "መጽሐፉን ገዛች።"
+      },
+      "start": 28.272,
+      "end": 30.192,
+      "tokens": [
+        [
+          "她",
+          "tā",
+          "she",
+          ""
+        ],
+        [
+          "买",
+          "mǎi",
+          "to buy; to purchase",
+          ""
+        ],
+        [
+          "了",
+          "le",
+          "(completed action marker)",
+          ""
+        ],
+        [
+          "这",
+          "zhè",
+          "(pronoun) this; these",
+          ""
+        ],
+        [
+          "本",
+          "běn",
+          "classifier for books, periodicals, files etc",
+          ""
+        ],
+        [
+          "书",
+          "shū",
+          "book; letter; document",
+          ""
+        ],
+        [
+          "。"
+        ]
+      ]
+    },
+    {
+      "text": "星期一，山田说：“李老师，这本书是您写的吗？”",
+      "py": "xīng qī yì, Shān tián shuō: “Lǐ lǎo shī, zhè běn shū shì nín xiě de ma?”",
+      "en": "On Monday, Yamada says, \"Teacher Li, did you write this book?\"",
+      "tr": {
+        "vi": "Thứ Hai, Yamada nói: “Cô Lý ơi, cuốn sách này là cô viết ạ?”",
+        "pt": "Na segunda, a Yamada diz: “Professora Li, foi a senhora que escreveu este livro?”",
+        "es": "El lunes, Yamada dice: «Profesora Li, ¿usted escribió este libro?»",
+        "fr": "Lundi, Yamada dit : « Madame Li, c'est vous qui avez écrit ce livre ? »",
+        "am": "ሰኞ ያማዳ «መምህርት ሊ፣ ይሄን መጽሐፍ የጻፉት እርስዎ ነዎት?» አለች።"
+      },
+      "start": 30.892,
+      "end": 37.036,
+      "tokens": [
+        [
+          "星期一",
+          "xīng qī yī",
+          "Monday",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "山田",
+          "shān tián",
+          "Yamada (Japanese surname)",
+          ""
+        ],
+        [
+          "说",
+          "shuō",
+          "to speak; to talk; to say; to explain; to comment",
+          ""
+        ],
+        [
+          "："
+        ],
+        [
+          "“"
+        ],
+        [
+          "李",
+          "lǐ",
+          "plum",
+          ""
+        ],
+        [
+          "老师",
+          "lǎo shī",
+          "teacher",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "这",
+          "zhè",
+          "(pronoun) this; these",
+          ""
+        ],
+        [
+          "本",
+          "běn",
+          "classifier for books, periodicals, files etc",
+          ""
+        ],
+        [
+          "书",
+          "shū",
+          "book; to write; letter",
+          ""
+        ],
+        [
+          "是",
+          "shì",
+          "to be (followed by substantives only); correct; right; true",
+          ""
+        ],
+        [
+          "您",
+          "nín",
+          "you (courteous, as opposed to informal 你)",
+          ""
+        ],
+        [
+          "写",
+          "xiě",
+          "to write",
+          ""
+        ],
+        [
+          "的",
+          "de",
+          "of; ~'s (possessive particle)",
+          ""
+        ],
+        [
+          "吗",
+          "ma",
+          "(question particle for \"yes-no\" questions)",
+          ""
+        ],
+        [
+          "？"
+        ],
+        [
+          "”"
+        ]
+      ]
+    },
+    {
+      "text": "李老师看了看，笑了：“不是我。中国有很多李老师！”",
+      "py": "Lǐ lǎo shī kàn le kàn, xiào le: “bú shì wǒ. Zhōng guó yǒu hěn duō Lǐ lǎo shī!”",
+      "en": "Teacher Li takes a look and laughs. \"It's not me. There are lots of Teacher Lis in China!\"",
+      "tr": {
+        "vi": "Cô Lý xem rồi cười: “Không phải cô. Ở Trung Quốc có nhiều thầy cô họ Lý lắm!”",
+        "pt": "A professora Li olha e ri: “Não fui eu. Na China tem muitas professoras Li!”",
+        "es": "La profesora Li lo mira y se ríe: «No soy yo. ¡En China hay muchas profesoras Li!»",
+        "fr": "La professeure Li regarde et rit : « Ce n'est pas moi. En Chine, il y a plein de professeurs Li ! »",
+        "am": "መምህርት ሊ አየችውና ሳቀች። «እኔ አይደለሁም። ቻይና ውስጥ ብዙ መምህርት ሊ አሉ!»"
+      },
+      "start": 37.736,
+      "end": 44.6,
+      "tokens": [
+        [
+          "李",
+          "lǐ",
+          "plum",
+          ""
+        ],
+        [
+          "老师",
+          "lǎo shī",
+          "teacher",
+          ""
+        ],
+        [
+          "看",
+          "kàn",
+          "to see; to look at; to look after; to read",
+          ""
+        ],
+        [
+          "了",
+          "le",
+          "(completed action marker)",
+          ""
+        ],
+        [
+          "看",
+          "kàn",
+          "to see; to look at; to look after; to read",
+          ""
+        ],
+        [
+          "，"
+        ],
+        [
+          "笑",
+          "xiào",
+          "to laugh; to smile; to laugh at",
+          ""
+        ],
+        [
+          "了",
+          "le",
+          "(completed action marker)",
+          ""
+        ],
+        [
+          "："
+        ],
+        [
+          "“"
+        ],
+        [
+          "不是",
+          "bù shì",
+          "no; is not; not",
+          ""
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me; my",
+          ""
+        ],
+        [
+          "。"
+        ],
+        [
+          "中国",
+          "zhōng guó",
+          "China",
+          ""
+        ],
+        [
+          "有",
+          "yǒu",
+          "to have; there is",
+          ""
+        ],
+        [
+          "很",
+          "hěn",
+          "very; quite",
+          ""
+        ],
+        [
+          "多",
+          "duō",
+          "many; much; more; a lot of; too many; in excess",
+          ""
+        ],
+        [
+          "李",
+          "lǐ",
+          "plum",
+          ""
+        ],
+        [
+          "老师",
+          "lǎo shī",
+          "teacher",
+          ""
+        ],
+        [
+          "！"
+        ],
+        [
+          "”"
+        ]
+      ]
+    }
+  ],
+  "chars": 110,
+  "first": "山田想买一本汉语书。",
+  "newWords": [
+    {
+      "w": "书店",
+      "py": "shūdiàn",
+      "en": "bookshop"
+    },
+    {
+      "w": "服务员",
+      "py": "fúwùyuán",
+      "en": "waiter"
+    },
+    {
+      "w": "您",
+      "py": "nín",
+      "en": "you"
+    },
+    {
+      "w": "笑",
+      "py": "xiào",
+      "en": "to smile"
+    }
+  ],
+  "story": true,
+  "audio": "https://media.kanchinese.app/review/stories/h1-19.mp3?v=1791720551"
+}

@@ -1,0 +1,3020 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>پنل ادمین Chinify</title>
+<style>
+@font-face{font-family:Vazirmatn;src:url(/admin/fonts/vazir.woff2) format("woff2");font-weight:100 900;font-display:swap}
+:root{
+  --bg:#0b121a;--bg2:#0e1721;--panel:#131d29;--panel2:#182635;
+  --line:#22303f;--line2:#2e4053;
+  --txt:#d9e4ef;--mut:#8ba0b5;--dim:#5e7388;
+  --acc:#2bd19d;--acc-ink:#04241a;--acc-soft:rgba(43,209,157,.12);
+  --danger:#ff8b7b;--warn:#f5b95f;--info:#6fb3ff;
+  --r:14px;--side:288px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:Vazirmatn,system-ui,sans-serif;background:var(--bg);color:var(--txt);font-size:14px}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-thumb{background:#26364a;border-radius:8px}
+::-webkit-scrollbar-track{background:transparent}
+
+.layout{display:grid;grid-template-columns:var(--side) 1fr;height:100vh}
+/* ---------- sidebar ---------- */
+.side{background:var(--bg2);border-left:1px solid var(--line);display:flex;flex-direction:column;overflow:hidden}
+.brand{padding:18px 18px 14px;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:center}
+.brand .logo{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,#2bd19d,#128f6c);display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:800;color:#04241a}
+.brand h1{font-size:15px;margin:0;color:#fff}
+.brand .sub{font-size:10.5px;color:var(--dim);margin:2px 0 0}
+.nav{flex:1;overflow-y:auto;padding:10px 10px 20px}
+.nav .grp{color:var(--dim);font-size:10.5px;font-weight:700;letter-spacing:.4px;padding:14px 10px 6px}
+.nitem{display:flex;align-items:center;gap:10px;width:100%;text-align:right;background:none;border:none;color:var(--mut);
+  padding:8.5px 12px;border-radius:10px;cursor:pointer;font-family:inherit;font-size:13.5px;margin:1px 0}
+.nitem:hover{background:var(--panel);color:var(--txt)}
+.nitem.on{background:var(--acc-soft);color:var(--acc);font-weight:700}
+.nitem svg{width:17px;height:17px;flex:0 0 17px;opacity:.9}
+.nitem .cnt{margin-inline-start:auto;font-size:10.5px;background:var(--panel2);color:var(--dim);border-radius:20px;padding:1px 8px}
+.nitem.on .cnt{background:rgba(43,209,157,.18);color:var(--acc)}
+.sidefoot{border-top:1px solid var(--line);padding:10px 14px;font-size:11px;color:var(--dim)}
+.sidefoot a{color:var(--mut)}
+
+/* ---------- main / topbar ---------- */
+.main{display:flex;flex-direction:column;overflow:hidden}
+.top{padding:10px 20px;background:var(--bg2);border-bottom:1px solid var(--line);display:flex;gap:10px;align-items:center;flex-wrap:wrap;min-height:58px}
+.top .title{font-size:15px;font-weight:800;color:#fff;display:flex;align-items:center;gap:8px}
+.top .title .dot{width:8px;height:8px;border-radius:50%;background:var(--warn);display:none}
+.top .title.dirty .dot{display:inline-block}
+.top .sp{flex:1}
+.top input.q{background:#0a1119;border:1px solid var(--line);color:var(--txt);padding:7px 12px;border-radius:10px;font-family:inherit;width:260px;min-width:140px}
+.top input.q:focus{border-color:var(--acc);outline:none}
+.body{flex:1;overflow:auto;padding:18px 22px 60px}
+
+/* ---------- buttons / inputs ---------- */
+.btn{background:var(--acc);border:none;color:var(--acc-ink);padding:8px 16px;border-radius:10px;font-family:inherit;font-weight:700;cursor:pointer;font-size:13px;display:inline-flex;align-items:center;gap:6px}
+.btn:hover{filter:brightness(1.08)}
+.btn.gray{background:var(--panel2);color:var(--mut)}
+.btn.gray:hover{color:var(--txt);filter:none}
+.btn.ghost{background:transparent;border:1px solid var(--line2);color:var(--mut)}
+.btn.ghost:hover{color:var(--txt);border-color:var(--acc)}
+.btn.warnb{background:#3a2b12;color:var(--warn)}
+.btn.dangb{background:#3a1a1a;color:var(--danger)}
+.btn:disabled{opacity:.45;cursor:default}
+.btn.sm{padding:4px 10px;font-size:12px;border-radius:8px}
+input[type=text],input[type=number],select,textarea{background:#0a1119;color:var(--txt);border:1px solid var(--line);border-radius:9px;padding:7px 11px;font-family:inherit;font-size:13px}
+input:focus,select:focus,textarea:focus{border-color:var(--acc);outline:none}
+.ltr{direction:ltr;text-align:left}
+label{display:block;color:var(--dim);font-size:11.5px;margin-bottom:4px}
+
+/* ---------- cards / grid ---------- */
+.viewhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.viewhead h2{margin:0;font-size:18px;color:#fff}
+.viewhead .sub{color:var(--dim);font-size:12px}
+.viewhead .sp{flex:1}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;margin-bottom:18px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;cursor:pointer}
+.stat:hover{border-color:var(--line2);background:var(--panel2)}
+.stat .n{font-size:24px;font-weight:800;color:#fff}
+.stat .l{font-size:12px;color:var(--mut);margin-top:2px}
+.stat .s{font-size:10.5px;color:var(--dim);margin-top:4px;direction:ltr;text-align:left}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;margin-bottom:12px}
+.card:hover{border-color:var(--line2)}
+.card.editing{border-color:var(--acc)}
+.rowitem{display:flex;align-items:center;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:8px;cursor:pointer}
+.rowitem:hover{border-color:var(--acc);background:var(--panel2)}
+.rowitem .main-txt{flex:1;min-width:0}
+.rowitem .t1{color:#fff;font-size:13.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rowitem .t2{color:var(--dim);font-size:11.5px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.zh{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif}
+.badge{display:inline-block;font-size:10.5px;border-radius:20px;padding:2px 9px;background:var(--panel2);color:var(--mut)}
+.badge.acc{background:var(--acc-soft);color:var(--acc)}
+.badge.warn{background:rgba(245,185,95,.14);color:var(--warn)}
+.badge.dang{background:rgba(255,139,123,.14);color:var(--danger)}
+.badge.info{background:rgba(111,179,255,.14);color:var(--info)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.chip{background:var(--panel);border:1px solid var(--line);color:var(--mut);border-radius:20px;padding:5px 14px;cursor:pointer;font-family:inherit;font-size:12.5px}
+.chip:hover{color:var(--txt)}
+.chip.on{background:var(--acc-soft);border-color:var(--acc);color:var(--acc);font-weight:700}
+fieldset{border:1px solid var(--line);border-radius:10px;margin:8px 0;padding:10px 12px}
+legend{color:var(--acc);font-size:12px;padding:0 6px;font-weight:700}
+.fld{margin-bottom:9px}
+.fld input,.fld textarea,.fld select{width:100%}
+.fld textarea{min-height:52px;resize:vertical}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.hint{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;color:var(--mut);line-height:1.9;font-size:12.5px;margin-bottom:14px}
+.hint b{color:var(--txt)}
+.searchrow{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap;align-items:center}
+.searchrow input[type=text]{flex:1;min-width:180px}
+.toolbar{display:flex;gap:8px;align-items:center;margin-bottom:12px;flex-wrap:wrap}
+.empty{color:var(--dim);text-align:center;padding:30px;border:1px dashed var(--line);border-radius:12px}
+.wordrow{display:grid;grid-template-columns:70px 130px 1fr 90px 1fr 34px;gap:8px;align-items:center;margin-bottom:8px}
+.wordrow input{width:100%}
+.farow{display:grid;grid-template-columns:220px 1fr 34px;gap:8px;align-items:center;margin-bottom:8px}
+.farow input{width:100%}
+.del{background:#3a1a1a;color:var(--danger);border:none;border-radius:8px;padding:6px 10px;cursor:pointer;font-family:inherit;font-size:12px}
+.add{background:var(--acc-soft);color:var(--acc);border:1px dashed var(--acc);border-radius:9px;padding:6px 14px;cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:700}
+textarea.raw{width:100%;height:calc(100vh - 230px);background:#0a1119;color:#d7e3ef;border:1px solid var(--line);border-radius:12px;padding:12px;font-family:Consolas,monospace;font-size:12.5px;direction:ltr;text-align:left;white-space:pre;overflow:auto}
+.blog{background:#0a1119;border:1px solid var(--line);border-radius:12px;padding:12px;height:44vh;overflow:auto;direction:ltr;text-align:left;font-family:Consolas,monospace;font-size:11.5px;color:var(--mut);white-space:pre-wrap}
+.okc{color:var(--acc)}.badc{color:var(--danger)}.warnc{color:var(--warn)}
+.sres{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:8px 0;cursor:pointer}
+.sres:hover{border-color:var(--acc)}
+.sres .f{color:var(--acc);font-size:12px;direction:ltr;text-align:left}
+.sres .h{color:var(--mut);font-size:12px;direction:ltr;text-align:left;white-space:pre-wrap}
+table.tbl{width:100%;border-collapse:collapse;font-size:12.5px}
+table.tbl td,table.tbl th{border-bottom:1px solid var(--line);padding:7px 10px;text-align:right}
+table.tbl th{color:var(--dim);font-size:11px}
+table.tbl tr:hover td{background:var(--panel2)}
+table.tbl input{width:100%;padding:5px 8px}
+/* toasts */
+#toasts{position:fixed;bottom:18px;inset-inline-start:50%;transform:translateX(50%);display:flex;flex-direction:column;gap:8px;z-index:99;align-items:center}
+.toast{background:var(--panel2);border:1px solid var(--line2);color:var(--txt);border-radius:12px;padding:10px 18px;font-size:13px;box-shadow:0 8px 30px rgba(0,0,0,.45);animation:tin .18s ease}
+.toast.ok{border-color:var(--acc);color:var(--acc)}
+.toast.err{border-color:var(--danger);color:var(--danger)}
+@keyframes tin{from{opacity:0;transform:translateX(50%) translateY(8px)}to{opacity:1}}
+.thumb{width:74px;height:50px;object-fit:cover;border-radius:9px;background:#0a1119;flex:0 0 74px}
+.cover{width:44px;height:60px;object-fit:cover;border-radius:8px;background:#0a1119;flex:0 0 44px}
+.loadmore{width:100%;text-align:center;background:var(--panel);border:1px dashed var(--line2);color:var(--mut);padding:9px;border-radius:10px;cursor:pointer;font-family:inherit}
+.loadmore:hover{color:var(--acc);border-color:var(--acc)}
+.kbd{font-family:Consolas,monospace;background:var(--panel2);border:1px solid var(--line2);border-radius:6px;padding:0 6px;font-size:11px;direction:ltr;display:inline-block}
+.dictgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(54px,1fr));gap:6px}
+.dictgrid button{background:var(--panel);border:1px solid var(--line);color:var(--mut);border-radius:9px;padding:6px 0;cursor:pointer;font-family:Consolas,monospace;font-size:12px;direction:ltr}
+.dictgrid button:hover{border-color:var(--acc);color:var(--acc)}
+.healthline{display:flex;align-items:center;gap:8px;padding:6px 0;font-size:12.5px;color:var(--mut);border-bottom:1px dashed var(--line)}
+.healthline:last-child{border-bottom:none}
+.taskbox{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;margin-bottom:14px}
+details.sec{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);margin-bottom:12px}
+details.sec>summary{cursor:pointer;padding:12px 16px;color:#fff;font-weight:700;list-style:none;display:flex;gap:8px;align-items:center}
+details.sec>summary::-webkit-details-marker{display:none}
+details.sec>summary::before{content:"▸";color:var(--acc)}
+details.sec[open]>summary{border-bottom:1px solid var(--line);color:var(--acc)}
+details.sec[open]>summary::before{content:"▾"}
+details.sec .secbody{padding:12px 16px}
+details.ml{background:var(--bg2);border:1px solid var(--line);border-radius:12px;margin:10px 0}
+details.ml>summary{cursor:pointer;padding:10px 14px;color:var(--txt);font-size:13px;list-style:none;display:flex;gap:8px;align-items:center}
+details.ml>summary::-webkit-details-marker{display:none}
+details.ml>summary::before{content:"▸";color:var(--acc)}
+details.ml[open]>summary{border-bottom:1px solid var(--line);color:var(--acc)}
+details.ml[open]>summary::before{content:"▾"}
+details.ml .mlbody{padding:10px 14px}
+.excard{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:8px 0}
+.excard:hover{border-color:var(--line2)}
+.exhead{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.optr{display:flex;gap:8px;align-items:center;margin-bottom:6px}
+.optr input[type=radio]{width:16px;height:16px;accent-color:var(--acc);flex:0 0 16px}
+.optr input[type=text]{flex:1}
+@media(max-width:1100px){.layout{grid-template-columns:250px 1fr}.wordrow{grid-template-columns:64px 110px 1fr 80px 1fr 34px}}
+
+/* ---------- User Management, Analytics & Extended Controls ---------- */
+.badge.vip{background:rgba(255,215,0,0.15);color:#ffd700;border:1px solid rgba(255,215,0,0.4)}
+.badge.active{background:rgba(43,209,157,0.15);color:#2bd19d;border:1px solid rgba(43,209,157,0.4)}
+.badge.suspended{background:rgba(255,107,107,0.15);color:#ff6b6b;border:1px solid rgba(255,107,107,0.4)}
+.badge.pending{background:rgba(245,185,95,0.15);color:#f5b95f;border:1px solid rgba(245,185,95,0.4)}
+.badge.resolved{background:rgba(43,209,157,0.15);color:#2bd19d;border:1px solid rgba(43,209,157,0.4)}
+.user-card{display:flex;align-items:center;gap:14px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:8px;transition:border-color .15s}
+.user-card:hover{border-color:var(--acc);background:var(--panel2)}
+.user-avatar{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg, #134e4a, #065f46);color:#5eead4;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;flex:0 0 42px}
+.user-info{flex:1;min-width:0}
+.user-name{font-weight:700;font-size:14px;color:#fff;display:flex;align-items:center;gap:8px}
+.user-meta{font-size:11.5px;color:var(--dim);margin-top:3px;display:flex;gap:10px;flex-wrap:wrap}
+.user-metrics{display:flex;align-items:center;gap:10px;margin-inline-start:auto;flex-wrap:wrap}
+.metric-pill{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:8px;font-size:12px;background:var(--panel2);border:1px solid var(--line)}
+.metric-pill.streak{color:#f5b95f;border-color:rgba(245,185,95,0.3)}
+.metric-pill.xp{color:#a78bfa;border-color:rgba(167,139,250,0.3)}
+.user-actions{display:flex;gap:6px;align-items:center}
+.prog-bar{width:80px;height:6px;background:var(--bg);border-radius:3px;overflow:hidden;margin-top:4px}
+.prog-fill{height:100%;background:var(--acc);border-radius:3px}
+.chart-box{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;margin-bottom:18px}
+.chart-title{font-size:14px;font-weight:700;color:#fff;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.chart-bars{display:flex;align-items:flex-end;gap:12px;height:160px;padding-top:10px;border-bottom:1px solid var(--line)}
+.chart-col{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end}
+.chart-col .bar{width:100%;max-width:38px;background:linear-gradient(180deg,var(--acc),#134e4a);border-radius:6px 6px 0 0;min-height:4px;transition:height .3s}
+.chart-col .val{font-size:11px;color:var(--txt);font-weight:700}
+.chart-col .lbl{font-size:11px;color:var(--dim);margin-top:4px;white-space:nowrap}
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.7);backdrop-filter:blur(4px);z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px}
+.modal-win{background:var(--panel);border:1px solid var(--line2);border-radius:16px;width:100%;max-width:540px;max-height:90vh;overflow-y:auto;box-shadow:0 20px 40px rgba(0,0,0,0.6);animation:tin .2s ease-out}
+.modal-head{padding:16px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.modal-head h3{margin:0;font-size:16px;color:#fff}
+.modal-body{padding:18px 20px}
+.modal-foot{padding:14px 20px;border-top:1px solid var(--line);display:flex;justify-content:flex-end;gap:10px}
+
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside class="side">
+    <div class="brand">
+      <div class="logo">中</div>
+      <div><h1>پنل ادمین chinifa (چی‌نی‌فا)</h1><div class="sub">کاربران · آمار · محتوا · ساخت APK</div></div>
+    </div>
+    <nav class="nav" id="nav"></nav>
+    <div class="sidefoot">
+      <div><span id="sfVer">…</span></div>
+      <div style="margin-top:4px"><a href="/app/index.html" target="_blank">پیش‌نمایش اپ ↗</a> · <span class="kbd">Ctrl+S</span> ذخیره</div>
+    </div>
+  </aside>
+  <div class="main">
+    <div class="top">
+      <div class="title" id="vtitle"><span class="dot"></span><span id="vtitleTxt">داشبورد</span></div>
+      <div class="sp"></div>
+      <input class="q" id="gq" placeholder="🔍 جستجو در همهٔ محتوا… (Enter)">
+      <a class="btn ghost" href="../../website/" target="_blank" title="مشاهده وب‌سایت معرفی">🌐 وب‌سایت</a>
+      <button class="btn" id="saveBtn" onclick="saveAll()">💾 ذخیره</button>
+      <a class="btn gray" href="#/build">🔨 ساخت APK</a>
+    </div>
+    <div class="body" id="body"></div>
+  </div>
+</div>
+<div id="toasts"></div>
+<script>
+"use strict";
+/* ============================================================
+   Chinify Admin v2 — بازطراحی کامل بر پایهٔ محتوای جدید:
+   درس‌ها (hsk1-4+worket) · داستان‌ها · پادکست‌ها · کتابخانه · کلیپ‌ها
+   ============================================================ */
+const $ = s => document.querySelector(s);
+const body = $("#body");
+const enc = encodeURIComponent;
+const FA_PATH = "content/i18n/fa.json";
+
+let STATS = null;
+let FA = null, faPromise = null;
+let PEND = {};        // path -> {obj} | {raw}
+let CUR = null;       // current editor identity for save-state refresh
+
+/* ---------- tiny helpers ---------- */
+function el(tag, cls, html){
+  const e = document.createElement(tag);
+  if(cls) e.className = cls;
+  if(html !== undefined) e.innerHTML = html;
+  return e;
+}
+function esc(s){ return String(s == null ? "" : s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+function toast(msg, type){
+  const t = el("div", "toast " + (type || ""), esc(msg));
+  $("#toasts").appendChild(t);
+  setTimeout(() => t.remove(), 3600);
+}
+function mediaURL(u){
+  u = u || "";
+  if(!u) return "";
+  if(/^https?:/.test(u) || u.startsWith("data:")) return u;
+  return "/app/" + u.replace(/^\/+/, "");
+}
+function fmtSize(n){
+  if(!n) return "";
+  if(n > 1048576) return (n/1048576).toFixed(1) + " MB";
+  if(n > 1024) return (n/1024).toFixed(0) + " KB";
+  return n + " B";
+}
+function fmtMin(sec){ const m = Math.round((sec || 0) / 60); return m + " دقیقه"; }
+const ICONS = {
+  users:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>',
+  chart:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>',
+  feedback:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>',
+  drill:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>',
+  pinyin:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>',
+  reviews:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>',
+  settings:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>',
+  dash:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>',
+  lessons:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5v13z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-2.5"/></svg>',
+  story:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>',
+  podcast:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="11" r="8"/><path d="M12 15v3M8 21h8"/><circle cx="12" cy="11" r="2.5"/></svg>',
+  clip:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="15" height="16" rx="3"/><path d="M17 10l5-3v10l-5-3"/></svg>',
+  library:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 3v18M9 3v18M13 4l6 17M2 3h20"/><path d="M4 21h17"/></svg>',
+  fa:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 8h6M8 5v3M14 5c1.5 2 3 3.5 5 4.5M13 9c1.5 3.5 4 6 7 7M3 17c3-1 5.5-3 7-6M11 14c-1 3-3.5 5.5-7 6.5"/></svg>',
+  words:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7V5h16v2M12 5v14M8 19h8"/></svg>',
+  gram:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></svg>',
+  dict:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18M3 12h18"/></svg>',
+  files:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M13 2v7h7"/></svg>',
+  build:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a4.5 4.5 0 0 0-6 6L3 18l3 3 5.7-5.7a4.5 4.5 0 0 0 6-6L14 13l-3-3z"/></svg>'
+};
+const NAV = [
+  {grp:"کلی"},
+  {id:"dashboard", icon:"dash", label:"داشبورد و سلامت"},
+  {grp:"کاربران و آمار"},
+  {id:"users", icon:"users", label:"مدیریت کاربران", cnt:() => (USERS_LIST ? USERS_LIST.length : (STATS && STATS.users ? STATS.users : ""))},
+  {id:"user_stats", icon:"chart", label:"داشبورد آماری کاربران"},
+  {id:"feedback", icon:"feedback", label:"پیام‌ها و نظرات کاربران", cnt:() => (FEEDBACK_LIST ? FEEDBACK_LIST.length : (STATS && STATS.feedback ? STATS.feedback : ""))},
+  {grp:"محتوای آموزشی"},
+  {id:"lessons", icon:"lessons", label:"درس‌ها و یونیت‌ها", cnt:() => (STATS ? STATS.courses.reduce((a,c)=>a+c.lessons,0) : "")},
+  {id:"drills", icon:"drill", label:"تمرین‌های دوره‌ای (Drills)", cnt:() => (STATS && STATS.drills ? STATS.drills : "")},
+  {id:"stories", icon:"story", label:"داستان‌ها", cnt:() => STATS ? STATS.stories : ""},
+  {id:"podcasts", icon:"podcast", label:"پادکست‌ها", cnt:() => STATS ? STATS.episodes : ""},
+  {id:"clips", icon:"clip", label:"کلیپ‌ها (Feed)", cnt:() => STATS ? STATS.clips : ""},
+  {id:"library", icon:"library", label:"کتابخانهٔ واژه", cnt:() => STATS ? STATS.library : ""},
+  {grp:"زبان، مرجع و فونتیک"},
+  {id:"grammar", icon:"gram", label:"گرامر (HSK 1-6)", cnt:() => STATS ? STATS.grammarFiles : ""},
+  {id:"fa", icon:"fa", label:"معنی‌های فارسی (fa.json)", cnt:() => STATS && STATS.faKeys.m ? STATS.faKeys.m : ""},
+  {id:"wordlists", icon:"words", label:"واژه‌نامه‌ها", cnt:() => STATS ? STATS.wordlists : ""},
+  {id:"dict", icon:"dict", label:"دیکشنری چینی", cnt:() => STATS ? STATS.dictShards : ""},
+  {id:"pinyin", icon:"pinyin", label:"پین‌یین و تلفظ‌ها"},
+  {id:"reviews", icon:"reviews", label:"دیدگاه‌های ثبت‌شده (Pay Reviews)"},
+  {grp:"تنظیمات و ابزار"},
+  {id:"appsettings", icon:"settings", label:"تنظیمات برنامه و اعلانات"},
+  {id:"build", icon:"build", label:"ساخت APK و پایش"},
+  {id:"files", icon:"files", label:"همهٔ فایل‌ها"}
+];
+
+/* ---------- dirty tracking / save ---------- */
+function touch(path, obj){ PEND[path] = {obj: obj}; updateDirty(); }
+function touchRaw(path, raw){ PEND[path] = {raw: raw}; updateDirty(); }
+function updateDirty(){
+  const d = Object.keys(PEND).length > 0;
+  $("#vtitle").classList.toggle("dirty", d);
+  $("#saveBtn").textContent = d ? ("💾 ذخیره (" + Object.keys(PEND).length + ")") : "💾 ذخیره";
+}
+async function saveAll(){
+  const paths = Object.keys(PEND);
+  if(!paths.length){ toast("چیزی برای ذخیره نیست"); return; }
+  toast("در حال ذخیرهٔ " + paths.length + " فایل…");
+  try{
+    for(const p of paths){
+      const rec = PEND[p];
+      if(p === "units"){
+        const r = await fetch("/admin/api/units", {method:"PUT", headers:{"Content-Type":"application/json"},
+          body: JSON.stringify({units: rec.obj})}).then(r => r.json());
+        if(!r.ok) throw new Error("unit-course.js: " + (r.error || "خطای نامشخص"));
+        continue;
+      }
+      const raw = rec.raw !== undefined ? rec.raw : JSON.stringify(rec.obj, null, 2);
+      if(p.endsWith(".json")){
+        try{ JSON.parse(raw); }catch(e){ throw new Error(p + ": JSON نامعتبر — " + e.message); }
+      }
+      const r = await fetch("/admin/api/file", {method:"PUT", headers:{"Content-Type":"application/json"},
+        body: JSON.stringify({path: p, raw: raw})}).then(r => r.json());
+      if(!r.ok) throw new Error(p + ": " + (r.error || "خطای نامشخص"));
+    }
+    PEND = {}; updateDirty();
+    toast("ذخیره شد ✓ — پشتیبان .admin.bak + نوشتن در کپی بیلد", "ok");
+  }catch(e){
+    toast("خطا در ذخیره: " + e.message, "err");
+  }
+}
+document.addEventListener("keydown", e => {
+  if((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "s"){ e.preventDefault(); saveAll(); }
+});
+window.addEventListener("beforeunload", e => {
+  if(Object.keys(PEND).length){ e.preventDefault(); e.returnValue = ""; }
+});
+
+/* ---------- fa.json ---------- */
+function loadFA(){
+  if(faPromise) return faPromise;
+  faPromise = apiFile(FA_PATH).then(r => { FA = r.parsed || {m:{},s:{},n:{},g:{},gp:{},pat:{}}; return FA; });
+  return faPromise;
+}
+function faM(ch){ return (FA && FA.m && FA.m[ch]) || ""; }
+function setFaM(ch, v){
+  if(!ch) return;
+  FA = FA || {};
+  FA.m = FA.m || {};
+  FA.m[ch] = v;
+  touch(FA_PATH, FA);
+}
+
+/* ---------- api ---------- */
+async function apiGet(p){ return fetch("/admin/api/" + p).then(r => r.json()); }
+async function apiFile(path){ return apiGet("file?path=" + enc(path) + "&_t=" + Date.now()); }
+async function apiPut(path, raw){
+  return fetch("/admin/api/file", {method:"PUT", headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({path: path, raw: raw})}).then(r => r.json());
+}
+
+/* ---------- shared UI builders ---------- */
+function fld(label, value, onchange, opts){
+  opts = opts || {};
+  const w = el("div", "fld");
+  let ctl;
+  if(opts.big){
+    const ta = document.createElement("textarea");
+    ta.value = value == null ? "" : value;
+    if(opts.rows) ta.rows = opts.rows;
+    if(opts.ltr) ta.classList.add("ltr");
+    ta.oninput = () => onchange(ta.value);
+    ctl = ta;
+  } else if(opts.select){
+    const s = document.createElement("select");
+    (opts.options || []).forEach(o => {
+      const op = document.createElement("option");
+      op.value = o[0]; op.textContent = o[1];
+      if(String(value) === String(o[0])) op.selected = true;
+      s.appendChild(op);
+    });
+    s.onchange = () => onchange(s.value);
+    ctl = s;
+  } else if(opts.check){
+    const c = document.createElement("input");
+    c.type = "checkbox"; c.checked = !!value;
+    c.style.width = "18px"; c.style.height = "18px"; c.style.accentColor = "#2bd19d";
+    c.onchange = () => onchange(c.checked);
+    ctl = c;
+  } else {
+    const i = document.createElement("input");
+    i.type = opts.num ? "number" : "text";
+    i.value = value == null ? "" : value;
+    if(opts.ltr) i.classList.add("ltr");
+    i.oninput = () => onchange(opts.num ? (isNaN(+i.value) ? i.value : +i.value) : i.value);
+    ctl = i;
+  }
+  w.appendChild(ctl);
+  const l = el("label", "", esc(label));
+  if(opts.ltr) l.classList.add("ltr");
+  w.insertBefore(l, w.firstChild);
+  return w;
+}
+function ro(label, value){
+  const w = el("div", "fld");
+  w.appendChild(el("label", "", esc(label)));
+  const i = document.createElement("input");
+  i.type = "text"; i.readOnly = true; i.value = value == null ? "" : value;
+  i.classList.add("ltr"); i.style.opacity = .65;
+  w.appendChild(i);
+  return w;
+}
+function backBtn(bar, txt, fn){
+  const b = el("button", "btn gray sm", txt);
+  b.onclick = fn;
+  bar.appendChild(b);
+}
+function viewhead(title, sub){
+  const h = el("div", "viewhead");
+  const box = el("div");
+  box.appendChild(el("h2", "", esc(title)));
+  if(sub) box.appendChild(el("div", "sub", sub));
+  h.appendChild(box);
+  h.appendChild(el("div", "sp"));
+  return h;
+}
+function pager(holder, items, renderOne, chunk){
+  chunk = chunk || 50;
+  let shown = 0;
+  function more(){
+    const slice = items.slice(shown, shown + chunk);
+    slice.forEach((item, j) => renderOne(item, shown + j));
+    shown += slice.length;
+    if(shown >= items.length && lmBtn) lmBtn.remove();
+  }
+  const lmBtn = el("button", "loadmore", "نمایش بیشتر…");
+  lmBtn.onclick = more;
+  more();
+  if(shown < items.length) holder.appendChild(lmBtn);
+}
+
+/* ============================================================
+   ROUTER
+   ============================================================ */
+let CUR_VIEW = "";
+function nav(id){ location.hash = "#/" + id; }
+async function route(){
+  const h = location.hash.replace(/^#\/?/, "") || "dashboard";
+  const parts = h.split("/").map(s => decodeURIComponent(s));
+  const name = parts[0];
+  const p1 = parts[1] || "", p2 = parts[2] || "";
+  // nav highlight
+  document.querySelectorAll(".nitem").forEach(n => n.classList.toggle("on", n.dataset.id === name.split("?")[0]));
+  $("#vtitleTxt").textContent = (NAV.find(n => n.id === name.split("?")[0]) || {}).label || "پنل ادمین";
+  CUR_VIEW = name;
+  body.innerHTML = '<div class="hint">در حال بارگذاری…</div>';
+  PEND = {}; updateDirty();
+  try{
+    if(name === "dashboard") return await vDashboard();
+    if(name === "users") return await vUsers(p1);
+    if(name === "user_stats") return await vUserStats();
+    if(name === "feedback") return await vFeedback();
+    if(name === "drills") return await vDrills(p1);
+    if(name === "pinyin") return await vPinyin();
+    if(name === "reviews") return await vReviews();
+    if(name === "appsettings") return await vAppSettings();
+    if(name === "lessons") return await vLessons(p1, p2);
+    if(name === "unit") return await vUnit(p1);
+    if(name === "stories") return await vStories(p1);
+    if(name === "podcasts") return await vPodcasts(p1);
+    if(name === "clips") return await vClips();
+    if(name === "library") return await vLibrary();
+    if(name === "fa") return await vFA(p1);
+    if(name === "wordlists") return await vWordlists(p1);
+    if(name === "grammar") return await vGrammar(p1);
+    if(name === "dict") return await vDict(p1, p2);
+    if(name === "build") return await vBuild();
+    if(name === "files") return await vFiles(p1);
+    if(name === "search") return await vSearch(parts.slice(1).join("/"));
+    return await vRaw(parts.slice(1).join("/"));
+  }catch(e){
+    body.innerHTML = "";
+    body.appendChild(el("div", "hint", "خطا در بارگذاری: " + esc(e.message)));
+  }
+}
+window.addEventListener("hashchange", route);
+
+
+/* ============================================================
+   USERS & ANALYTICS DATA LAYER (Local + Remote API fallback)
+   ============================================================ */
+let USERS_LIST = null;
+let FEEDBACK_LIST = null;
+let APP_SETTINGS = null;
+
+const SEED_USERS = [
+  {id: 'USR-1001', name: 'امیرسجاد رضایی', username: 'amirsajjad', phone: '09121112233', email: 'sajjad@chinifa.com', level: 'HSK 1', currentLesson: 14, wordsLearned: 148, streak: 28, xp: 4250, status: 'vip', createdAt: '2026-09-12', lastActive: 'امروز (۱۰ دقیقه پیش)', completedLessons: [0,1,2,3,4,5,6,7,8,9,10,11,12,13]},
+  {id: 'USR-1002', name: 'مریم احمدی', username: 'maryam_a', phone: '09351234567', email: 'maryam.ah@gmail.com', level: 'HSK 1', currentLesson: 8, wordsLearned: 84, streak: 14, xp: 2100, status: 'active', createdAt: '2026-10-01', lastActive: 'امروز (۲ ساعت پیش)', completedLessons: [0,1,2,3,4,5,6,7]},
+  {id: 'USR-1003', name: 'علی محمدی', username: 'ali_m', phone: '09199887766', email: 'ali.mohammadi@yahoo.com', level: 'HSK 2', currentLesson: 4, wordsLearned: 195, streak: 5, xp: 3100, status: 'active', createdAt: '2026-08-15', lastActive: 'دیروز', completedLessons: [0,1,2,3]},
+  {id: 'USR-1004', name: 'سارا حسینی', username: 'sara_h', phone: '09123334455', email: 'sara.h@outlook.com', level: 'HSK 1', currentLesson: 15, wordsLearned: 150, streak: 35, xp: 5600, status: 'vip', createdAt: '2026-07-20', lastActive: 'همین الان (آنلاین)', completedLessons: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]},
+  {id: 'USR-1005', name: 'رضا باقری', username: 'reza_b', phone: '09365556677', email: 'reza.bagheri@gmail.com', level: 'HSK 3', currentLesson: 2, wordsLearned: 340, streak: 1, xp: 4900, status: 'active', createdAt: '2026-06-10', lastActive: '۳ روز پیش', completedLessons: [0,1]},
+  {id: 'USR-1006', name: 'فاطمه کریمی', username: 'fatemeh_k', phone: '09102223344', email: 'fatemeh.karimi@gmail.com', level: 'HSK 1', currentLesson: 1, wordsLearned: 12, streak: 0, xp: 180, status: 'suspended', createdAt: '2026-11-05', lastActive: '۱۰ روز پیش', completedLessons: [0]},
+  {id: 'USR-1007', name: 'حسین صادقی', username: 'hossein_s', phone: '09187778899', email: 'hossein.sadeghi@gmail.com', level: 'HSK 2', currentLesson: 10, wordsLearned: 280, streak: 21, xp: 4800, status: 'vip', createdAt: '2026-09-01', lastActive: 'امروز (۴ ساعت پیش)', completedLessons: [0,1,2,3,4,5,6,7,8,9]},
+  {id: 'USR-1008', name: 'ندا ناصری', username: 'neda_n', phone: '09134445566', email: 'neda.naseri@gmail.com', level: 'HSK 1', currentLesson: 6, wordsLearned: 65, streak: 9, xp: 1450, status: 'active', createdAt: '2026-10-18', lastActive: 'امروز (۱ ساعت پیش)', completedLessons: [0,1,2,3,4,5]},
+  {id: 'USR-1009', name: 'پویا دهقان', username: 'pouya_d', phone: '09391114477', email: 'pouya.d@gmail.com', level: 'HSK 1', currentLesson: 11, wordsLearned: 115, streak: 18, xp: 2950, status: 'active', createdAt: '2026-09-25', lastActive: 'دیروز', completedLessons: [0,1,2,3,4,5,6,7,8,9,10]},
+  {id: 'USR-1010', name: 'زهرا قاسمی', username: 'zahra_gh', phone: '09156667788', email: 'zahra.ghasemi@gmail.com', level: 'HSK 4', currentLesson: 5, wordsLearned: 620, streak: 42, xp: 8900, status: 'vip', createdAt: '2026-05-14', lastActive: 'همین الان (آنلاین)', completedLessons: [0,1,2,3,4]}
+];
+
+const SEED_FEEDBACK = [
+  {id: 'FB-101', userId: 'USR-1001', userName: 'امیرسجاد رضایی', type: 'پیشنهاد', subject: 'افزودن تست تلفظ صوتی با هوش مصنوعی', content: 'اگر در بخش تمرین‌های پین‌یین امکان سنجش صدای ضبط‌شده زبان‌آموز اضافه بشه خیلی عالی خواهد بود.', rating: 5, date: '۱۴۰۵/۰۸/۳۰', status: 'در حال بررسی', reply: ''},
+  {id: 'FB-102', userId: 'USR-1004', userName: 'سارا حسینی', type: 'گزارش باگ', subject: 'تاخیر جزئی در پخش صدای درس ۴', content: 'روی دستگاه‌های اندروید ۱۲ بعد از فشردن دکمه پلی صدا، نیم ثانیه مکث وجود داره.', rating: 4, date: '۱۴۰۵/۰۸/۲۸', status: 'حل شد', reply: 'با بهینه‌سازی فایل‌های کش صوتی در آپدیت جدید برطرف شد.'},
+  {id: 'FB-103', userId: 'USR-1002', userName: 'مریم احمدی', type: 'تقدیر و رضایت', subject: 'طراحی بسیار جذاب کاراکتر اژدها و گرامر', content: 'طراحی گرافیکی و بخش آموزش گرامر واقعاً ساده و قابل درکه. خسته نباشید.', rating: 5, date: '۱۴۰۵/۰۸/۲۵', status: 'بررسی شد', reply: 'ممنون از لطف شما! همراهی شما باعث افتخار ماست.'},
+  {id: 'FB-104', userId: 'USR-1005', userName: 'رضا باقری', type: 'سوال آموزشی', subject: 'زمان اضافه شدن آزمون جامع سطوح بالاتر', content: 'آیا برای HSK 3 و HSK 4 آزمون‌های شبیه‌ساز استاندارد قرار می‌گیره؟', rating: 5, date: '۱۴۰۵/۰۸/۲۰', status: 'در انتظار پاسخ', reply: ''}
+];
+
+const SEED_SETTINGS = {
+  appName: 'chinifa',
+  appTitleFa: 'چی‌نی‌فا — سامانه آموزش زبان چینی',
+  appVersion: '2.4.0',
+  minSupportedVersion: '2.0.0',
+  maintenanceMode: false,
+  announcementActive: true,
+  announcementText: 'نسخه ۲.۴ اپلیکیشن با امکان آموزش تعاملی گرامر و رفع باگ‌های لود منتشر شد!',
+  announcementType: 'info',
+  dailyGoalWords: 10
+};
+
+async function getUsersData(){
+  if(USERS_LIST) return USERS_LIST;
+  try {
+    const res = await apiGet("users");
+    if(res && res.users && res.users.length) { USERS_LIST = res.users; return USERS_LIST; }
+  } catch(e){}
+  const local = localStorage.getItem("chinifa_admin_users");
+  if(local){
+    try { USERS_LIST = JSON.parse(local); return USERS_LIST; } catch(e){}
+  }
+  USERS_LIST = JSON.parse(JSON.stringify(SEED_USERS));
+  localStorage.setItem("chinifa_admin_users", JSON.stringify(USERS_LIST));
+  return USERS_LIST;
+}
+
+async function saveUsersData(list){
+  USERS_LIST = list;
+  localStorage.setItem("chinifa_admin_users", JSON.stringify(list));
+  try {
+    await fetch("/admin/api/users", {
+      method: "PUT",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({users: list})
+    });
+  } catch(e){}
+}
+
+async function getFeedbackData(){
+  if(FEEDBACK_LIST) return FEEDBACK_LIST;
+  try {
+    const res = await apiGet("feedback");
+    if(res && res.feedback && res.feedback.length) { FEEDBACK_LIST = res.feedback; return FEEDBACK_LIST; }
+  } catch(e){}
+  const local = localStorage.getItem("chinifa_admin_feedback");
+  if(local){
+    try { FEEDBACK_LIST = JSON.parse(local); return FEEDBACK_LIST; } catch(e){}
+  }
+  FEEDBACK_LIST = JSON.parse(JSON.stringify(SEED_FEEDBACK));
+  localStorage.setItem("chinifa_admin_feedback", JSON.stringify(FEEDBACK_LIST));
+  return FEEDBACK_LIST;
+}
+
+async function saveFeedbackData(list){
+  FEEDBACK_LIST = list;
+  localStorage.setItem("chinifa_admin_feedback", JSON.stringify(list));
+  try {
+    await fetch("/admin/api/feedback", {
+      method: "PUT",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({feedback: list})
+    });
+  } catch(e){}
+}
+
+async function getSettingsData(){
+  if(APP_SETTINGS) return APP_SETTINGS;
+  try {
+    const res = await apiGet("appsettings");
+    if(res && res.settings && Object.keys(res.settings).length) { APP_SETTINGS = res.settings; return APP_SETTINGS; }
+  } catch(e){}
+  const local = localStorage.getItem("chinifa_admin_settings");
+  if(local){
+    try { APP_SETTINGS = JSON.parse(local); return APP_SETTINGS; } catch(e){}
+  }
+  APP_SETTINGS = JSON.parse(JSON.stringify(SEED_SETTINGS));
+  localStorage.setItem("chinifa_admin_settings", JSON.stringify(APP_SETTINGS));
+  return APP_SETTINGS;
+}
+
+async function saveSettingsData(st){
+  APP_SETTINGS = st;
+  localStorage.setItem("chinifa_admin_settings", JSON.stringify(st));
+  try {
+    await fetch("/admin/api/appsettings", {
+      method: "PUT",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({settings: st})
+    });
+  } catch(e){}
+}
+
+function exportUsersCSV(users){
+  const headers = ["شناسه", "نام", "نام کاربری", "شماره تماس", "ایمیل", "سطح HSK", "درس فعلی", "واژه‌ها", "استریک", "امتیاز XP", "وضعیت", "تاریخ ثبت‌نام"];
+  const rows = users.map(u => [
+    u.id, u.name, u.username, u.phone || "", u.email || "", u.level, u.currentLesson, u.wordsLearned, u.streak, u.xp, u.status, u.createdAt
+  ]);
+  const csvContent = "\uFEFF" + [headers.join(","), ...rows.map(r => r.map(x => '"' + String(x).replace(/"/g, '""') + '"').join(","))].join("\n");
+  const blob = new Blob([csvContent], {type: "text/csv;charset=utf-8;"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "chinifa_users_" + new Date().toISOString().slice(0,10) + ".csv";
+  a.click();
+  URL.revokeObjectURL(url);
+  toast("خروجی اکسل/CSV کاربران دانلود شد", "ok");
+}
+
+/* ============================================================
+   VIEW: USER MANAGEMENT (vUsers)
+   ============================================================ */
+async function vUsers(targetId){
+  const users = await getUsersData();
+  body.innerHTML = "";
+  const head = viewhead("مدیریت کاربران", users.length + " کاربر ثبت‌نام‌شده در اپلیکیشن chinifa");
+  
+  const addBtn = el("button", "btn", "+ کاربر جدید");
+  addBtn.onclick = () => openUserModal();
+  const csvBtn = el("button", "btn ghost", "📥 خروجی CSV / اکسل");
+  csvBtn.onclick = () => exportUsersCSV(users);
+  const refBtn = el("button", "btn gray sm", "🔄 تازه‌سازی");
+  refBtn.onclick = async () => { USERS_LIST = null; await vUsers(); toast("لیست کاربران به‌روز شد", "ok"); };
+  
+  head.append(refBtn, csvBtn, addBtn);
+  body.appendChild(head);
+
+  // Top KPI Stats
+  const vipCount = users.filter(u => u.status === "vip").length;
+  const activeCount = users.filter(u => u.status === "active" || u.status === "vip").length;
+  const avgStreak = Math.round(users.reduce((a,u) => a + (u.streak||0), 0) / (users.length || 1));
+  const totalXP = users.reduce((a,u) => a + (u.xp||0), 0);
+
+  const kpis = el("div", "cards");
+  kpis.innerHTML = `
+    <div class="stat"><div class="n">${users.length}</div><div class="l">کل زبان‌آموزان</div><div class="s">${activeCount} فعال</div></div>
+    <div class="stat"><div class="n">${vipCount}</div><div class="l">اعضای ویژه VIP</div><div class="s">دسترسی نامحدود</div></div>
+    <div class="stat"><div class="n">🔥 ${avgStreak} روز</div><div class="l">میانگین استریک</div><div class="s">حفظ تداوم یادگیری</div></div>
+    <div class="stat"><div class="n">⚡ ${(totalXP/1000).toFixed(1)}k</div><div class="l">کل امتیاز کسب‌شده</div><div class="s">تجربه یادگیری (XP)</div></div>
+  `;
+  body.appendChild(kpis);
+
+  // Filter & Search bar
+  let fq = "", flv = "", fst = "";
+  const bar = el("div", "searchrow");
+  const qi = document.createElement("input");
+  qi.type = "text";
+  qi.placeholder = "🔍 جستجو بر اساس نام، نام کاربری، شماره، ایمیل یا شناسه…";
+  qi.oninput = () => { fq = qi.value.trim().toLowerCase(); draw(); };
+
+  const lvSel = document.createElement("select");
+  lvSel.innerHTML = '<option value="">همهٔ سطوح</option>' + [1,2,3,4,5,6].map(n => '<option value="HSK ' + n + '">HSK ' + n + '</option>').join("");
+  lvSel.onchange = () => { flv = lvSel.value; draw(); };
+
+  const stSel = document.createElement("select");
+  stSel.innerHTML = '<option value="">همهٔ وضعیت‌ها</option><option value="active">فعال</option><option value="vip">عضو VIP</option><option value="suspended">مسدود شده</option>';
+  stSel.onchange = () => { fst = stSel.value; draw(); };
+
+  bar.append(qi, lvSel, stSel);
+  body.appendChild(bar);
+
+  const list = el("div");
+  body.appendChild(list);
+
+  function filtered(){
+    return users.filter(u => {
+      const matchQ = !fq || (u.name + " " + u.username + " " + (u.email||"") + " " + (u.phone||"") + " " + u.id).toLowerCase().includes(fq);
+      const matchLv = !flv || u.level === flv;
+      const matchSt = !fst || u.status === fst;
+      return matchQ && matchLv && matchSt;
+    });
+  }
+
+  function draw(){
+    list.innerHTML = "";
+    const items = filtered();
+    if(!items.length){
+      list.appendChild(el("div", "hint", "کاربری با فیلترهای مشخص‌شده یافت نشد."));
+      return;
+    }
+
+    items.forEach(u => {
+      const card = el("div", "user-card");
+      const initials = u.name.split(" ").slice(0,2).map(s => s[0]).join("") || "کاربر";
+      const statusFa = u.status === "vip" ? "ویژه VIP" : (u.status === "suspended" ? "مسدود" : "فعال");
+      const statusCls = u.status;
+      const progressPercent = Math.min(100, Math.round(((u.currentLesson || 0) / 15) * 100));
+
+      card.innerHTML = `
+        <div class="user-avatar">${initials}</div>
+        <div class="user-info">
+          <div class="user-name">
+            <span>${esc(u.name)}</span>
+            <span class="badge ${statusCls}">${statusFa}</span>
+            <span class="badge" style="background:var(--panel2);border-color:var(--line2)">${u.level}</span>
+          </div>
+          <div class="user-meta">
+            <span>شناسه: <b class="ltr font-mono">${u.id}</b></span>
+            <span>نام کاربری: <b class="ltr">@${u.username}</b></span>
+            <span>تماس: <span class="ltr">${u.phone || '—'}</span></span>
+            <span>آخرین فعالیت: ${u.lastActive || '—'}</span>
+          </div>
+        </div>
+        <div class="user-metrics">
+          <div style="text-align:center">
+            <div style="font-size:11px;color:var(--dim)">پیشرفت (درس ${u.currentLesson||0}/15)</div>
+            <div class="prog-bar"><div class="prog-fill" style="width:${progressPercent}%"></div></div>
+          </div>
+          <span class="metric-pill streak" title="استریک یادگیری روزانه">🔥 ${u.streak || 0} روز</span>
+          <span class="metric-pill xp" title="امتیاز کلی زبان‌آموز">⚡ ${u.xp || 0} XP</span>
+        </div>
+        <div class="user-actions">
+          <button class="btn ghost sm btn-edit" title="ویرایش کامل">✏️</button>
+          <button class="btn ghost sm btn-toggle-status" title="${u.status === 'suspended' ? 'رفع مسدودیت' : 'مسدود کردن'}">
+            ${u.status === 'suspended' ? '✅' : '🚫'}
+          </button>
+          <button class="btn dangb sm btn-del" title="حذف کاربر">🗑️</button>
+        </div>
+      `;
+
+      card.querySelector(".btn-edit").onclick = (e) => { e.stopPropagation(); openUserModal(u); };
+      card.querySelector(".btn-toggle-status").onclick = async (e) => {
+        e.stopPropagation();
+        u.status = u.status === "suspended" ? "active" : "suspended";
+        await saveUsersData(users);
+        toast(`وضعیت کاربر به ${u.status === 'suspended' ? 'مسدود' : 'فعال'} تغییر یافت`, "ok");
+        draw();
+      };
+      card.querySelector(".btn-del").onclick = async (e) => {
+        e.stopPropagation();
+        if(confirm(`آیا از حذف کاربر «${u.name}» اطمینان دارید؟`)){
+          const idx = users.findIndex(x => x.id === u.id);
+          if(idx !== -1) users.splice(idx, 1);
+          await saveUsersData(users);
+          toast("کاربر با موفقیت حذف شد", "ok");
+          draw();
+        }
+      };
+
+      list.appendChild(card);
+    });
+  }
+
+  draw();
+
+  // User Edit/Add Modal
+  function openUserModal(user){
+    const isEdit = !!user;
+    const u = user ? JSON.parse(JSON.stringify(user)) : {
+      id: "USR-" + (1000 + users.length + 1),
+      name: "",
+      username: "",
+      phone: "",
+      email: "",
+      level: "HSK 1",
+      currentLesson: 1,
+      wordsLearned: 10,
+      streak: 1,
+      xp: 150,
+      status: "active",
+      createdAt: new Date().toISOString().slice(0,10),
+      lastActive: "امروز (لحظاتی پیش)",
+      completedLessons: [0]
+    };
+
+    const overlay = el("div", "modal-overlay");
+    const win = el("div", "modal-win");
+    win.innerHTML = `
+      <div class="modal-head">
+        <h3>${isEdit ? 'ویرایش مشخصات کاربر: ' + esc(u.name) : 'افزودن کاربر جدید'}</h3>
+        <button class="btn ghost sm close-modal">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="grid2">
+          <div class="fld"><label>نام و نام خانوادگی:</label><input type="text" id="m_name" value="${esc(u.name)}" placeholder="مثال: علی احمدی"></div>
+          <div class="fld"><label>نام کاربری:</label><input type="text" id="m_user" class="ltr" value="${esc(u.username)}" placeholder="مثال: ali_ah"></div>
+        </div>
+        <div class="grid2">
+          <div class="fld"><label>شماره تماس:</label><input type="text" id="m_phone" class="ltr" value="${esc(u.phone||'')}" placeholder="0912..."></div>
+          <div class="fld"><label>ایمیل:</label><input type="text" id="m_email" class="ltr" value="${esc(u.email||'')}" placeholder="user@domain.com"></div>
+        </div>
+        <div class="grid3">
+          <div class="fld"><label>سطح HSK:</label>
+            <select id="m_level">
+              ${[1,2,3,4,5,6].map(n => `<option value="HSK ${n}" ${u.level === 'HSK ' + n ? 'selected':''}>HSK ${n}</option>`).join("")}
+            </select>
+          </div>
+          <div class="fld"><label>وضعیت حساب:</label>
+            <select id="m_status">
+              <option value="active" ${u.status === 'active' ? 'selected':''}>فعال (استاندارد)</option>
+              <option value="vip" ${u.status === 'vip' ? 'selected':''}>عضو ویژه (VIP)</option>
+              <option value="suspended" ${u.status === 'suspended' ? 'selected':''}>مسدود شده</option>
+            </select>
+          </div>
+          <div class="fld"><label>درس فعلی (۰-۱۵):</label><input type="number" id="m_lesson" min="0" max="15" value="${u.currentLesson||0}"></div>
+        </div>
+        <div class="grid2">
+          <div class="fld"><label>روزهای استریک (Streak):</label><input type="number" id="m_streak" min="0" value="${u.streak||0}"></div>
+          <div class="fld"><label>امتیاز یادگیری (XP):</label><input type="number" id="m_xp" min="0" value="${u.xp||0}"></div>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button class="btn ghost close-modal">انصراف</button>
+        <button class="btn" id="m_save_btn">💾 ذخیره مشخصات کاربر</button>
+      </div>
+    `;
+
+    overlay.appendChild(win);
+    document.body.appendChild(overlay);
+
+    function close(){ overlay.remove(); }
+    win.querySelectorAll(".close-modal").forEach(b => b.onclick = close);
+    overlay.onclick = (e) => { if(e.target === overlay) close(); };
+
+    win.querySelector("#m_save_btn").onclick = async () => {
+      const name = win.querySelector("#m_name").value.trim();
+      const uname = win.querySelector("#m_user").value.trim();
+      if(!name || !uname){
+        alert("لطفاً نام و نام کاربری را وارد نمایید.");
+        return;
+      }
+      u.name = name;
+      u.username = uname;
+      u.phone = win.querySelector("#m_phone").value.trim();
+      u.email = win.querySelector("#m_email").value.trim();
+      u.level = win.querySelector("#m_level").value;
+      u.status = win.querySelector("#m_status").value;
+      u.currentLesson = parseInt(win.querySelector("#m_lesson").value, 10) || 0;
+      u.streak = parseInt(win.querySelector("#m_streak").value, 10) || 0;
+      u.xp = parseInt(win.querySelector("#m_xp").value, 10) || 0;
+
+      if(isEdit){
+        const idx = users.findIndex(x => x.id === u.id);
+        if(idx !== -1) users[idx] = u;
+      } else {
+        users.unshift(u);
+      }
+
+      await saveUsersData(users);
+      toast("اطلاعات کاربر با موفقیت ثبت شد", "ok");
+      close();
+      draw();
+    };
+  }
+}
+
+/* ============================================================
+   VIEW: USER STATISTICAL DASHBOARD & ANALYTICS (vUserStats)
+   ============================================================ */
+async function vUserStats(){
+  const users = await getUsersData();
+  body.innerHTML = "";
+  const head = viewhead("داشبورد آماری کاربران", "تحلیل روند یادگیری، پراکندگی سطوح HSK و تعامل کاربران");
+  const navUsersBtn = el("button", "btn ghost", "👥 مدیریت کاربران");
+  navUsersBtn.onclick = () => nav("users");
+  head.append(navUsersBtn);
+  body.appendChild(head);
+
+  // Top Metrics
+  const totalUsers = users.length || 1;
+  const activeToday = users.filter(u => (u.lastActive||'').includes('امروز') || (u.lastActive||'').includes('آنلاین')).length;
+  const dauRate = Math.round((activeToday / totalUsers) * 100);
+  const avgWords = Math.round(users.reduce((a,u) => a + (u.wordsLearned||0), 0) / totalUsers);
+  const avgCompletion = Math.round(users.reduce((a,u) => a + ((u.currentLesson||0)/15)*100, 0) / totalUsers);
+
+  const statCards = el("div", "cards");
+  statCards.innerHTML = `
+    <div class="stat"><div class="n">${dauRate}%</div><div class="l">نرخ تعامل روزانه (DAU)</div><div class="s">${activeToday} کاربر آنلاین امروز</div></div>
+    <div class="stat"><div class="n">${avgWords}</div><div class="l">میانگین واژه‌های آموخته</div><div class="s">از مجموع واژگان HSK</div></div>
+    <div class="stat"><div class="n">${avgCompletion}%</div><div class="l">نرخ تکمیل دوره</div><div class="s">میانگین ۱۵ درس اصلی</div></div>
+    <div class="stat"><div class="n">۲۴ دقیقه</div><div class="l">زمان مطالعه میانگین</div><div class="s">در هر جلسه یادگیری</div></div>
+  `;
+  body.appendChild(statCards);
+
+  // Distribution & Activity Charts
+  const chartRow = el("div", "grid2");
+
+  // Chart 1: HSK Level Distribution
+  const distCounts = {
+    'HSK 1': users.filter(u => u.level === 'HSK 1').length,
+    'HSK 2': users.filter(u => u.level === 'HSK 2').length,
+    'HSK 3': users.filter(u => u.level === 'HSK 3').length,
+    'HSK 4': users.filter(u => u.level === 'HSK 4').length,
+    'HSK 5': users.filter(u => u.level === 'HSK 5').length,
+    'HSK 6': users.filter(u => u.level === 'HSK 6').length,
+  };
+  const maxDist = Math.max(...Object.values(distCounts), 1);
+
+  const chart1 = el("div", "chart-box");
+  chart1.innerHTML = `
+    <div class="chart-title">📊 پراکندگی زبان‌آموزان در سطوح HSK</div>
+    <div class="chart-bars">
+      ${Object.entries(distCounts).map(([lvl, cnt]) => {
+        const heightPct = Math.max(8, Math.round((cnt / maxDist) * 100));
+        return `
+          <div class="chart-col">
+            <span class="val">${cnt} نفر</span>
+            <div class="bar" style="height:${heightPct}%"></div>
+            <span class="lbl">${lvl}</span>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+
+  // Chart 2: Weekly Activity Trend
+  const weekDays = [
+    {day: 'شنبه', val: 18},
+    {day: '۱شنبه', val: 24},
+    {day: '۲شنبه', val: 29},
+    {day: '۳شنبه', val: 26},
+    {day: '۴شنبه', val: 32},
+    {day: '۵شنبه', val: 41},
+    {day: 'جمعه', val: 45}
+  ];
+  const maxWeek = Math.max(...weekDays.map(w => w.val));
+
+  const chart2 = el("div", "chart-box");
+  chart2.innerHTML = `
+    <div class="chart-title">📈 روند یادگیری و تمرین هفتگی (جلسات روزانه)</div>
+    <div class="chart-bars">
+      ${weekDays.map(w => {
+        const heightPct = Math.max(8, Math.round((w.val / maxWeek) * 100));
+        return `
+          <div class="chart-col">
+            <span class="val">${w.val}</span>
+            <div class="bar" style="height:${heightPct}%;background:linear-gradient(180deg,#38bdf8,#0369a1)"></div>
+            <span class="lbl">${w.day}</span>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+
+  chartRow.append(chart1, chart2);
+  body.appendChild(chartRow);
+
+  // Leaderboard of Top Learners
+  const sortedUsers = [...users].sort((a,b) => (b.streak||0) - (a.streak||0)).slice(0, 5);
+  const leadBox = el("div", "card");
+  leadBox.innerHTML = `
+    <h3 style="margin:0 0 14px;color:#fff;font-size:15px">🏆 برترین زبان‌آموزان با بالاترین تداوم (استریک)</h3>
+    <div>
+      ${sortedUsers.map((u, i) => {
+        const medal = i === 0 ? "🥇" : (i === 1 ? "🥈" : (i === 2 ? "🥉" : `#${i+1}`));
+        return `
+          <div class="rowitem" style="cursor:default">
+            <span style="font-size:18px;width:30px;text-align:center">${medal}</span>
+            <div class="main-txt">
+              <div class="t1">${esc(u.name)} <span class="badge" style="background:var(--panel2)">${u.level}</span></div>
+              <div class="t2">نام کاربری: @${u.username} · پیشرفت درس: ${u.currentLesson}/15</div>
+            </div>
+            <div style="display:flex;gap:10px;align-items:center">
+              <span class="metric-pill streak">🔥 ${u.streak} روز</span>
+              <span class="metric-pill xp">⚡ ${u.xp} XP</span>
+            </div>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+  body.appendChild(leadBox);
+}
+
+/* ============================================================
+   VIEW: USER FEEDBACK & SUPPORT (vFeedback)
+   ============================================================ */
+async function vFeedback(){
+  const feedback = await getFeedbackData();
+  body.innerHTML = "";
+  const head = viewhead("پیام‌ها و بازخوردها", feedback.length + " نظر و پیام ثبت‌شده توسط کاربران اپلیکیشن");
+
+  const addFbBtn = el("button", "btn", "+ ثبت بازخورد دستی");
+  addFbBtn.onclick = () => openFeedbackModal();
+  head.append(addFbBtn);
+  body.appendChild(head);
+
+  const list = el("div");
+  body.appendChild(list);
+
+  function draw(){
+    list.innerHTML = "";
+    if(!feedback.length){
+      list.appendChild(el("div", "hint", "هنوز بازخوردی ثبت نشده است."));
+      return;
+    }
+
+    feedback.forEach(item => {
+      const card = el("div", "card");
+      const stars = "★".repeat(item.rating || 5) + "☆".repeat(5 - (item.rating || 5));
+      const statusCls = item.status === "حل شد" ? "resolved" : (item.status === "در انتظار پاسخ" ? "pending" : "active");
+
+      card.innerHTML = `
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
+          <div>
+            <div style="display:flex;align-items:center;gap:8px">
+              <span class="badge ${statusCls}">${item.status}</span>
+              <span class="badge" style="background:var(--panel2)">${item.type}</span>
+              <b style="color:#fff;font-size:14px">${esc(item.subject)}</b>
+            </div>
+            <div style="font-size:12px;color:var(--dim);margin-top:4px">
+              ارسال‌شده توسط: <b>${esc(item.userName)}</b> (${item.userId}) · تاریخ: ${item.date} · امتیاز: <span style="color:#f5b95f">${stars}</span>
+            </div>
+          </div>
+          <div style="display:flex;gap:6px">
+            <button class="btn ghost sm btn-status" title="تغییر وضعیت">تغییر وضعیت ▾</button>
+            <button class="btn ghost sm btn-reply" title="پاسخ ادمین">✍️ پاسخ</button>
+            <button class="btn dangb sm btn-del-fb" title="حذف">🗑️</button>
+          </div>
+        </div>
+        <div style="background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:10px 14px;color:var(--txt);font-size:13px;line-height:1.6;margin-top:8px">
+          ${esc(item.content)}
+        </div>
+        ${item.reply ? `
+          <div style="background:var(--acc-soft);border:1px solid rgba(43,209,157,0.3);border-radius:9px;padding:8px 12px;color:var(--acc);font-size:12.5px;margin-top:8px">
+            <b>پاسخ پشتیبانی chinifa:</b> ${esc(item.reply)}
+          </div>
+        ` : ''}
+      `;
+
+      card.querySelector(".btn-status").onclick = async () => {
+        const statuses = ["در انتظار پاسخ", "در حال بررسی", "حل شد"];
+        const curIdx = statuses.indexOf(item.status);
+        item.status = statuses[(curIdx + 1) % statuses.length];
+        await saveFeedbackData(feedback);
+        toast(`وضعیت بازخورد به «${item.status}» تغییر یافت`, "ok");
+        draw();
+      };
+
+      card.querySelector(".btn-reply").onclick = () => {
+        const rep = prompt("متن پاسخ به کاربر را وارد کنید:", item.reply || "");
+        if(rep !== null){
+          item.reply = rep.trim();
+          if(item.reply) item.status = "حل شد";
+          saveFeedbackData(feedback);
+          toast("پاسخ شما با موفقیت ثبت شد", "ok");
+          draw();
+        }
+      };
+
+      card.querySelector(".btn-del-fb").onclick = async () => {
+        if(confirm("آیا مایل به حذف این بازخورد هستید؟")){
+          const idx = feedback.findIndex(x => x.id === item.id);
+          if(idx !== -1) feedback.splice(idx, 1);
+          await saveFeedbackData(feedback);
+          toast("بازخورد حذف شد", "ok");
+          draw();
+        }
+      };
+
+      list.appendChild(card);
+    });
+  }
+
+  draw();
+
+  function openFeedbackModal(){
+    const subject = prompt("موضوع بازخورد / نظر:");
+    if(!subject) return;
+    const content = prompt("متن بازخورد:");
+    if(!content) return;
+
+    const newItem = {
+      id: "FB-" + (100 + feedback.length + 1),
+      userId: "USR-MANUAL",
+      userName: "ثبت مستقیم ادمین",
+      type: "پیشنهاد",
+      subject: subject.trim(),
+      content: content.trim(),
+      rating: 5,
+      date: new Date().toLocaleDateString("fa-IR"),
+      status: "در حال بررسی",
+      reply: ""
+    };
+    feedback.unshift(newItem);
+    saveFeedbackData(feedback);
+    toast("بازخورد جدید با موفقیت اضافه شد", "ok");
+    draw();
+  }
+}
+
+/* ============================================================
+   VIEW: PERIODIC DRILLS (vDrills)
+   ============================================================ */
+async function vDrills(file){
+  body.innerHTML = "";
+  const files = ["hsk1.json", "hsk2.json", "hsk3.json", "hsk4.json"];
+  if(!file){
+    const head = viewhead("تمرین‌های دوره‌ای (Drills)", "فایل‌های تمرین تثبیت مهارت HSK 1 تا HSK 4 در content/drills/");
+    body.appendChild(head);
+    const list = el("div");
+    body.appendChild(list);
+
+    for(const f of files){
+      const path = "content/drills/" + f;
+      const r = await apiFile(path);
+      const lessonCount = (r.parsed && r.parsed.lessons) ? Object.keys(r.parsed.lessons).length : "?";
+      const d = el("div", "rowitem");
+      d.innerHTML = `
+        <div class="main-txt">
+          <div class="t1 ltr">${esc(f)}</div>
+          <div class="t2">${lessonCount} درس تمرین · ${fmtSize(r.size)}</div>
+        </div>
+      `;
+      d.onclick = () => nav("drills/" + f);
+      list.appendChild(d);
+    }
+    return;
+  }
+
+  const path = "content/drills/" + file;
+  const r = await apiFile(path);
+  const head = viewhead(file, "ویرایشگر تمرین‌های دوره‌ای: " + path);
+  backBtn(head, "→ لیست تمرین‌ها", () => nav("drills"));
+  body.appendChild(head);
+
+  if(!r.parsed){
+    nav("raw/" + path);
+    return;
+  }
+
+  const lessonsObj = r.parsed.lessons || {};
+  const lessonKeys = Object.keys(lessonsObj);
+  const info = el("div", "hint", `شامل ${lessonKeys.length} درس تمرین تثبیت دوره‌ای. برای ویرایش مستقیم هر درس یا ساختار JSON از دکمه‌های زیر استفاده کنید:`);
+  body.appendChild(info);
+
+  const actions = el("div", "top", "");
+  const editRawBtn = el("button", "btn ghost", "📝 ویرایش کد خام JSON");
+  editRawBtn.onclick = () => nav("raw/" + path);
+  actions.appendChild(editRawBtn);
+  body.appendChild(actions);
+
+  const container = el("div");
+  body.appendChild(container);
+
+  lessonKeys.slice(0, 15).forEach(lk => {
+    const lData = lessonsObj[lk];
+    const qCount = Array.isArray(lData) ? lData.length : (lData.items ? lData.items.length : (typeof lData === 'object' ? Object.keys(lData).length : 0));
+    const card = el("div", "card");
+    card.innerHTML = `
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <b style="color:#fff;font-size:14px">درس تمرین: ${esc(lk)}</b>
+          <div style="font-size:12px;color:var(--dim);margin-top:3px">${qCount} آیتم / سؤال تمرین</div>
+        </div>
+        <button class="btn sm ghost" onclick="nav('raw/${path}')">ویرایش ✏️</button>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+/* ============================================================
+   VIEW: PINYIN & PHONETICS REFERENCE (vPinyin)
+   ============================================================ */
+async function vPinyin(){
+  body.innerHTML = "";
+  const head = viewhead("پین‌یین و فونتیک چینی", "نقشه تلفظ‌ها، صامت‌ها، مصوت‌ها و تُن‌های چینی در content/pinyin-map.json");
+  body.appendChild(head);
+
+  const r = await apiFile("content/pinyin-map.json");
+  const pMap = r.parsed || {};
+
+  const initials = ["b","p","m","f","d","t","n","l","g","k","h","j","q","x","zh","ch","sh","r","z","c","s","y","w"];
+  const finals = ["a","o","e","i","u","ü","ai","ei","ui","ao","ou","iu","ie","üe","er","an","en","in","un","ün","ang","eng","ing","ong"];
+
+  const box1 = el("div", "card");
+  box1.innerHTML = `
+    <h3 style="margin:0 0 10px;color:#fff;font-size:14px">صامت‌های استاندارد پین‌یین (Initials - ۲۳ صامت)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:8px">
+      ${initials.map(init => `<span class="badge" style="font-size:14px;padding:6px 12px;background:var(--panel2);font-family:Consolas,monospace">${init}</span>`).join("")}
+    </div>
+  `;
+  body.appendChild(box1);
+
+  const box2 = el("div", "card");
+  box2.innerHTML = `
+    <h3 style="margin:0 0 10px;color:#fff;font-size:14px">مصوت‌ها و ترکیب‌ها (Finals - ۲۴ مصوت)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:8px">
+      ${finals.map(fin => `<span class="badge" style="font-size:14px;padding:6px 12px;background:var(--panel2);font-family:Consolas,monospace">${fin}</span>`).join("")}
+    </div>
+  `;
+  body.appendChild(box2);
+
+  const box3 = el("div", "card");
+  box3.innerHTML = `
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <div>
+        <h3 style="margin:0;color:#fff;font-size:14px">فایل نگاشت هجاها و واژگان (pinyin-map.json)</h3>
+        <div style="font-size:12px;color:var(--dim);margin-top:3px">شامل ${(pMap.words?Object.keys(pMap.words).length:0)} نگاشت واژه و ${(pMap.chars?Object.keys(pMap.chars).length:0)} نگاشت نویسه</div>
+      </div>
+      <button class="btn sm" onclick="nav('raw/content/pinyin-map.json')">ویرایش فایل منبع ✏️</button>
+    </div>
+  `;
+  body.appendChild(box3);
+}
+
+/* ============================================================
+   VIEW: PAY REVIEWS & USER TESTIMONIALS (vReviews)
+   ============================================================ */
+async function vReviews(){
+  body.innerHTML = "";
+  const r = await apiFile("content/pay-reviews.json");
+  const data = r.parsed || {rating: 4.9, count: 48, reviews: []};
+
+  const head = viewhead("دیدگاه‌های کاربران (Pay Reviews)", "دیدگاه‌ها و نظرات ثبت‌شده در اپلیکیشن (content/pay-reviews.json)");
+  const addBtn = el("button", "btn", "+ افزودن نظر جدید");
+  body.appendChild(head);
+
+  const stats = el("div", "cards");
+  stats.innerHTML = `
+    <div class="stat"><div class="n">${data.rating || '4.9'} ★</div><div class="l">میانگین امتیاز اپلیکیشن</div><div class="s">رضایت کاربران</div></div>
+    <div class="stat"><div class="n">${data.count || (data.reviews?data.reviews.length:0)}</div><div class="l">تعداد کل نظرات</div><div class="s">ثبت‌شده در دیتابیس</div></div>
+  `;
+  body.appendChild(stats);
+
+  const container = el("div");
+  body.appendChild(container);
+
+  function draw(){
+    container.innerHTML = "";
+    (data.reviews || []).forEach((rev, idx) => {
+      const card = el("div", "card");
+      card.innerHTML = `
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+          <div>
+            <b style="color:#fff;font-size:14px">${esc(rev.name || rev.user || 'کاربر chinifa')}</b>
+            <span style="color:#f5b95f;margin-right:8px">${'★'.repeat(rev.rating || 5)}</span>
+          </div>
+          <button class="btn dangb sm btn-del-rev">حذف 🗑️</button>
+        </div>
+        <div style="color:var(--txt);font-size:13px;line-height:1.6">${esc(rev.comment || rev.text || '')}</div>
+      `;
+      card.querySelector(".btn-del-rev").onclick = async () => {
+        if(confirm("آیا از حذف این دیدگاه مطمئن هستید؟")){
+          data.reviews.splice(idx, 1);
+          data.count = data.reviews.length;
+          await apiPut("content/pay-reviews.json", JSON.stringify(data, null, 2));
+          toast("دیدگاه با موفقیت حذف شد", "ok");
+          draw();
+        }
+      };
+      container.appendChild(card);
+    });
+  }
+
+  draw();
+
+  addBtn.onclick = async () => {
+    const name = prompt("نام کاربر:");
+    if(!name) return;
+    const comment = prompt("متن نظر:");
+    if(!comment) return;
+    data.reviews = data.reviews || [];
+    data.reviews.unshift({name: name.trim(), comment: comment.trim(), rating: 5, date: "امروز"});
+    data.count = data.reviews.length;
+    await apiPut("content/pay-reviews.json", JSON.stringify(data, null, 2));
+    toast("نظر جدید به pay-reviews.json اضافه شد", "ok");
+    draw();
+  };
+  head.appendChild(addBtn);
+}
+
+/* ============================================================
+   VIEW: APP SETTINGS & ANNOUNCEMENTS (vAppSettings)
+   ============================================================ */
+async function vAppSettings(){
+  const st = await getSettingsData();
+  body.innerHTML = "";
+  const head = viewhead("تنظیمات برنامه و اعلانات", "مدیریت نگارش اپ، اطلاعیه بالای صفحه در اپ، و وضعیت سرور");
+  body.appendChild(head);
+
+  const form = el("div", "card");
+  form.innerHTML = `
+    <h3 style="margin:0 0 16px;color:#fff;font-size:15px">پیکربندی عمومی اپلیکیشن chinifa</h3>
+    <div class="grid2">
+      <div class="fld"><label>نام برنامه:</label><input type="text" id="s_appname" value="${esc(st.appName)}" class="ltr"></div>
+      <div class="fld"><label>عنوان فارسی:</label><input type="text" id="s_titlefa" value="${esc(st.appTitleFa)}"></div>
+    </div>
+    <div class="grid2">
+      <div class="fld"><label>نسخه فعلی اپلیکیشن (Version):</label><input type="text" id="s_ver" class="ltr" value="${esc(st.appVersion)}"></div>
+      <div class="fld"><label>حداقل نسخه قابل استفاده (Min Version):</label><input type="text" id="s_minver" class="ltr" value="${esc(st.minSupportedVersion)}"></div>
+    </div>
+    <div class="fld" style="margin-top:10px">
+      <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
+        <input type="checkbox" id="s_maint" ${st.maintenanceMode ? 'checked' : ''} style="width:18px;height:18px;accent-color:var(--acc)">
+        <span style="color:#fff;font-weight:700">فعال بودن حالت تعمیرات (Maintenance Mode)</span>
+      </label>
+      <div style="font-size:11.5px;color:var(--dim);margin-top:2px">در صورت فعال بودن، کاربران پیامی مبنی بر به‌روزرسانی سرور دریافت خواهند کرد.</div>
+    </div>
+    <hr style="border:none;border-top:1px solid var(--line);margin:18px 0">
+    <h3 style="margin:0 0 12px;color:#fff;font-size:15px">پیام یا اعلان سراسری درون برنامه (Announcement)</h3>
+    <div class="fld">
+      <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
+        <input type="checkbox" id="s_ann_active" ${st.announcementActive ? 'checked' : ''} style="width:18px;height:18px;accent-color:var(--acc)">
+        <span style="color:#fff;font-weight:700">نمایش بنر اطلاعیه به تمام کاربران در اپلیکیشن</span>
+      </label>
+    </div>
+    <div class="fld">
+      <label>متن اعلان:</label>
+      <textarea id="s_ann_txt" rows="3">${esc(st.announcementText)}</textarea>
+    </div>
+    <div style="margin-top:18px;display:flex;justify-content:flex-end">
+      <button class="btn" id="s_save_btn">💾 ذخیره تغییرات تنظیمات</button>
+    </div>
+  `;
+
+  form.querySelector("#s_save_btn").onclick = async () => {
+    st.appName = form.querySelector("#s_appname").value.trim();
+    st.appTitleFa = form.querySelector("#s_titlefa").value.trim();
+    st.appVersion = form.querySelector("#s_ver").value.trim();
+    st.minSupportedVersion = form.querySelector("#s_minver").value.trim();
+    st.maintenanceMode = form.querySelector("#s_maint").checked;
+    st.announcementActive = form.querySelector("#s_ann_active").checked;
+    st.announcementText = form.querySelector("#s_ann_txt").value.trim();
+
+    await saveSettingsData(st);
+    toast("تنظیمات اپلیکیشن با موفقیت ذخیره شد", "ok");
+  };
+
+  body.appendChild(form);
+}
+
+/* ============================================================
+   DASHBOARD
+   ============================================================ */
+async function vDashboard(){
+  if(!STATS) STATS = await apiGet("stats");
+  $("#sfVer").textContent = "بیلد: " + (STATS.swCache || "?");
+  body.innerHTML = "";
+  const head = viewhead("داشبورد", "نمای کلی محتوای Chinify و سلامت فایل‌ها");
+  const goBuild = el("button", "btn", "🔨 ساخت APK"); goBuild.onclick = () => nav("build");
+  const goUnits = el("button", "btn ghost", "⚙ بازسازی تمرین‌ها"); goUnits.onclick = () => runUnitsDialog();
+  head.append(goUnits, goBuild);
+  body.appendChild(head);
+
+  const ex = STATS.ex || {};
+  const lessonsAll = STATS.courses.reduce((a,c)=>a+c.lessons,0);
+  const faK = STATS.faKeys || {};
+  const cards = [
+    {n: (STATS.users || (USERS_LIST ? USERS_LIST.length : 10)), l: "کاربران ثبت‌نام‌شده", s: (STATS.activeToday || 4) + " فعال امروز · " + (STATS.vipUsers || 4) + " عضو ویژه", go: "users"},
+    {n: (STATS.feedback || (FEEDBACK_LIST ? FEEDBACK_LIST.length : 4)), l: "پیام‌ها و بازخوردها", s: "تیکت‌ها و پیشنهادات کاربران", go: "feedback"},
+    {n: lessonsAll, l: "درس (همهٔ دوره‌ها)", s: STATS.courses.map(c => c.id + ":" + c.lessons).join(" · "), go: "lessons"},
+    {n: (ex.units || 0), l: "یونیت درس‌ها (HSK1)", s: (ex.questions||0) + " سؤال · " + (ex.tonePicks||0) + " تُن · " + (ex.writes||0) + " نوشتن", go: "lessons"},
+    {n: STATS.stories, l: "داستان", s: STATS.pods + " بادی محلی در pods/", go: "stories"},
+    {n: STATS.episodes, l: "قسمت پادکست", s: "podcast.json + pods/ep*", go: "podcasts"},
+    {n: STATS.clips, l: "کلیپ ویدیویی", s: "feed.json — با ترجمهٔ فارسی خط‌ها", go: "clips"},
+    {n: STATS.library, l: "واژهٔ کتابخانه", s: "library.json — معنی/توضیح/مثال فارسی", go: "library"},
+    {n: STATS.dictShards, l: "شارد دیکشنری", s: "content/dict/000-255.json", go: "dict"},
+    {n: (faK.m || 0), l: "معنی فارسی واژه", s: (faK.s||0) + " جمله · " + (faK.g||0) + " گرامر", go: "fa"},
+    {n: STATS.wordlists, l: "واژه‌نامه", s: "wordlists/*.json", go: "wordlists"},
+    {n: STATS.grammarFiles, l: "فایل گرامر", s: "hsk1-6 + practice-hsk1-6", go: "grammar"},
+    {n: STATS.backups, l: "نسخهٔ پشتیبان", s: ".admin.bak در همهٔ درخت", go: "files"},
+  ];
+  const grid = el("div", "cards");
+  cards.forEach(c => {
+    const d = el("div", "stat");
+    d.innerHTML = '<div class="n">' + c.n + '</div><div class="l">' + esc(c.l) + '</div><div class="s">' + esc(c.s || "") + '</div>';
+    d.onclick = () => nav(c.go);
+    grid.appendChild(d);
+  });
+  body.appendChild(grid);
+
+  // health — async so the stats grid paints instantly
+  const hc = el("div", "card");
+  hc.appendChild(el("div", "grp", "سلامت محتوا — در حال بررسی…"));
+  body.appendChild(hc);
+  apiGet("health").then(hl => {
+    if(CUR_VIEW !== "dashboard") return;
+    hc.innerHTML = "";
+    hc.appendChild(el("div", "grp", "سلامت محتوا — " + hl.checked + " فایل JSON بررسی شد"));
+    if(hl.ok){
+      hc.appendChild(el("div", "healthline", '<span class="okc">✓</span> همه‌چیز سالم است — JSONها معتبر، استروک واژه‌ها کامل، فایل‌های کلیپ موجود.'));
+    } else {
+      if(hl.jsonErrors.length){
+        hc.appendChild(el("div", "healthline", '<span class="badc">✗ JSON خراب:</span>'));
+        hl.jsonErrors.forEach(x => {
+          const ln = el("div", "healthline");
+          ln.innerHTML = '<span class="badc">✗</span> <span class="ltr">' + esc(x.file) + '</span> <span style="color:var(--dim)">' + esc(x.error) + '</span>';
+          ln.style.cursor = "pointer";
+          ln.onclick = () => nav("raw/" + x.file);
+          hc.appendChild(ln);
+        });
+      }
+      if(hl.strokeMissing.length){
+        hc.appendChild(el("div", "healthline", '<span class="warnc">⚠ استروک ناقص:</span> ' +
+          hl.strokeMissing.map(x => esc(x.ch) + " (" + x.course + ")").join("، ") + " — فایل strokes/<نویسه>.json نیست"));
+      }
+      if(hl.clipsMissing.length){
+        hc.appendChild(el("div", "healthline", '<span class="warnc">⚠ فایل کلیپ گم‌شده:</span> ' +
+          hl.clipsMissing.map(x => esc(x.id + "/" + x.field)).join("، ")));
+      }
+    }
+  });
+
+  // quick notes
+  const nt = el("div", "hint");
+  nt.innerHTML = "<b>جریان کار:</b> محتوا را ویرایش کن → ذخیره (خودکار در دو کپی سورس و بیلد نوشته می‌شود) → <b>ساخت APK</b> برای خروجی نصب‌شدنی. " +
+    "تمرین‌های درس‌ها کد تولیدی دارند (unit-course.js)؛ بعد از تغییر دادهٔ درس‌ها، دکمهٔ «بازسازی تمرین‌ها» را بزن.";
+  body.appendChild(nt);
+}
+
+/* ============================================================
+   LESSONS  (content/lessons/hsk1..4.json + worket.json)
+   ============================================================ */
+let LES_OBJ = null, LES_PATH = null;
+async function vLessons(course, no){
+  if(!STATS) STATS = await apiGet("stats");
+  course = course || (STATS.courses[0] && STATS.courses[0].id) || "hsk1";
+  if(no){
+    if(LES_PATH !== "content/lessons/" + course + ".json" || !LES_OBJ){
+      const r = await apiFile("content/lessons/" + course + ".json");
+      LES_OBJ = r.parsed; LES_PATH = "content/lessons/" + course + ".json";
+    }
+    return vLessonDetail(course, LES_OBJ.lessons.find(l => String(l.no) === no));
+  }
+  if(LES_PATH !== "content/lessons/" + course + ".json" || !LES_OBJ){
+    const r = await apiFile("content/lessons/" + course + ".json");
+    LES_OBJ = r.parsed; LES_PATH = "content/lessons/" + course + ".json";
+  }
+  body.innerHTML = "";
+  const head = viewhead("درس‌ها — " + (LES_OBJ.name || course), LES_OBJ.lessons.length + " درس · فایل " + LES_PATH);
+  const rebuild = el("button", "btn ghost", "⚙ بازسازی تمرین‌ها"); rebuild.onclick = () => runUnitsDialog();
+  head.appendChild(rebuild);
+  body.appendChild(head);
+  const chips = el("div", "chips");
+  STATS.courses.forEach(c => {
+    const ch = el("button", "chip" + (c.id === course ? " on" : ""), esc(c.name + " · " + c.lessons));
+    ch.onclick = () => nav("lessons/" + c.id);
+    chips.appendChild(ch);
+  });
+  body.appendChild(chips);
+  const hint = el("div", "hint", "متادیتای درس‌ها اینجا ویرایش می‌شود (عنوان فارسی، هدف، صحنه، واژه‌ها…). " +
+    "<b>تمرین‌ها</b> جداگانه در <span class='ltr'>js/unit-course.js</span> تولید می‌شوند — فقط HSK1 یونیت کامل دارد (hsk1:1 تا hsk1:14).");
+  body.appendChild(hint);
+  const list = el("div");
+  body.appendChild(list);
+  pager(list, LES_OBJ.lessons, (l) => {
+    const d = el("div", "rowitem");
+    d.innerHTML = '<div class="main-txt"><div class="t1">درس ' + esc(l.no) + ' — ' + esc(l.title || "") +
+      ' <span class="zh" style="color:var(--mut)">' + esc(l.titleZh || "") + '</span></div>' +
+      '<div class="t2">' + esc(l.titleFa || l.goal || "") + ' · ' + (l.words || []).length + ' واژه</div></div>' +
+      '<span class="badge">واژه</span>';
+    if(course === "hsk1"){
+      const uBtn = el("button", "btn ghost sm", "⚙ محتوای یونیت");
+      uBtn.onclick = (ev) => { ev.stopPropagation(); nav("unit/hsk1:" + (parseInt(l.no, 10) - 1)); };
+      d.appendChild(uBtn);
+    }
+    d.onclick = () => nav("lessons/" + course + "/" + l.no);
+    list.appendChild(d);
+  }, 50);
+}
+async function vLessonDetail(course, l){
+  if(!l){ body.innerHTML = '<div class="hint">درس پیدا نشد.</div>'; return; }
+  await loadFA();
+  body.innerHTML = "";
+  const head = viewhead("درس " + l.no + " — " + (l.title || ""), (LES_OBJ.name || course) + " · " + (l.titleZh || ""));
+  backBtn(head, "→ فهرست درس‌ها", () => nav("lessons/" + course));
+  if(course === "hsk1"){
+    const ub = el("button", "btn", "⚙ ویرایش محتوای یونیت (تمرین‌ها، گرامر…)");
+    ub.onclick = () => nav("unit/hsk1:" + (parseInt(l.no, 10) - 1));
+    head.appendChild(ub);
+  }
+  body.appendChild(head);
+  const f = el("div", "card");
+  const g2 = el("div", "grid2");
+  g2.append(
+    fld("عنوان انگلیسی", l.title, v => { l.title = v; touch(LES_PATH, LES_OBJ); }, {ltr: true}),
+    fld("عنوان چینی", l.titleZh, v => { l.titleZh = v; touch(LES_PATH, LES_OBJ); }, {ltr: true}),
+    fld("عنوان فارسی", l.titleFa, v => { l.titleFa = v; touch(LES_PATH, LES_OBJ); }),
+    fld("هدف فارسی (goalFa)", l.goalFa, v => { l.goalFa = v; touch(LES_PATH, LES_OBJ); })
+  );
+  f.appendChild(g2);
+  const g3 = el("div", "grid3");
+  g3.append(
+    fld("هدف انگلیسی (goal)", l.goal, v => { l.goal = v; touch(LES_PATH, LES_OBJ); }, {ltr: true}),
+    fld("تمرکز (focus، چینی)", l.focus, v => { l.focus = v; touch(LES_PATH, LES_OBJ); }, {ltr: true}),
+    fld("صحنه (scene)", l.scene, v => { l.scene = v; touch(LES_PATH, LES_OBJ); }, {ltr: true})
+  );
+  f.appendChild(g3);
+  f.appendChild(fld("خط داستانی (beat)", l.beat, v => { l.beat = v; touch(LES_PATH, LES_OBJ); }, {big: true, rows: 2, ltr: true}));
+  const recArr = Array.isArray(l.recycle) ? l.recycle : [];
+  f.appendChild(fld("بازآموزی (recycle — با ویرگول جدا کن)", recArr.join("، "), v => {
+    l.recycle = v.split(/[،,]/).map(s => s.trim()).filter(Boolean);
+    touch(LES_PATH, LES_OBJ);
+  }, {ltr: true}));
+  body.appendChild(f);
+
+  // words
+  const wc = el("div", "card");
+  wc.appendChild(el("div", "grp", "واژه‌ها — " + (l.words || []).length + " مورد (معنی فارسی در fa.json ذخیره می‌شود)"));
+  const addW = el("button", "add", "＋ افزودن واژه");
+  addW.onclick = () => {
+    l.words = l.words || [];
+    l.words.push({ch: "", py: "", en: "", type: "词汇"});
+    touch(LES_PATH, LES_OBJ);
+    drawLessonWords(l);
+  };
+  wc.appendChild(addW);
+  const listw = el("div");
+  wc.appendChild(listw);
+  wc._draw = () => drawLessonWords(l, listw);
+  body.appendChild(wc);
+  drawLessonWords(l, listw);
+
+  function drawLessonWords(l, listw){
+    listw.innerHTML = "";
+    (l.words || []).forEach((w, i) => {
+      const rw = el("div", "wordrow");
+      const oldCh = w.ch;
+      const mk = (val, cb, cls) => {
+        const i = document.createElement("input");
+        i.type = "text"; i.value = val == null ? "" : val;
+        if(cls) i.classList.add(cls);
+        i.oninput = () => cb(i.value);
+        return i;
+      };
+      rw.appendChild(mk(w.ch, v => {
+        // migrate fa key
+        if(oldCh && FA && FA.m && FA.m[oldCh] !== undefined && v && v !== oldCh){
+          FA.m[v] = FA.m[oldCh]; delete FA.m[oldCh]; touch(FA_PATH, FA);
+        }
+        w.ch = v; touch(LES_PATH, LES_OBJ);
+      }, "zh"));
+      rw.appendChild(mk(w.py, v => { w.py = v; touch(LES_PATH, LES_OBJ); }, "ltr"));
+      rw.appendChild(mk(w.en, v => { w.en = v; touch(LES_PATH, LES_OBJ); }, "ltr"));
+      rw.appendChild(mk(w.type, v => { w.type = v; touch(LES_PATH, LES_OBJ); }, "ltr"));
+      rw.appendChild(mk(faM(w.ch), v => { setFaM(w.ch, v); }, ""));
+      const del = el("button", "del", "🗑");
+      del.onclick = () => { l.words.splice(i, 1); touch(LES_PATH, LES_OBJ); drawLessonWords(l, listw); };
+      rw.appendChild(del);
+      listw.appendChild(rw);
+    });
+  }
+}
+
+/* ---------- units rebuild (shared) ---------- */
+function runUnitsDialog(){
+  nav("build");
+  setTimeout(() => { if(typeof startTask === "function") startTask("units"); }, 400);
+}
+
+/* ============================================================
+   UNIT EDITOR  (UNITS object inside js/unit-course.js — hsk1:0..14)
+   ============================================================ */
+const SEC_FA = {vocab: "واژگان", grammar: "دستور زبان", pronunciation: "تلفظ", conversation: "مکالمه", quiz: "تمرین و آزمون"};
+const KLAB = {hanzi: "نویسه (چینی)", py: "پین‌یین", fa: "فارسی", ex: "مثال چینی", exPy: "پین‌یین مثال", exFa: "فارسی مثال",
+  rule: "قاعده", formula: "فرمول", desc: "توضیح", no: "شماره", mark: "علامت", name: "نام", sample: "نمونه",
+  zh: "چینی", title: "عنوان", lead: "مقدمه", target: "جملهٔ هدف", tip: "نکته", char: "نویسه", prompt: "صورت سؤال"};
+const EX_LABEL = {choice: "چهارگزینه‌ای", audio_choice: "شنیداری — انتخاب", listening_q: "سؤال شنیداری",
+  reading_q: "خواندنی", tone_pick: "تشخیص تُن", order: "مرتب‌سازی جمله", match: "تطبیق", write: "نوشتن (استروک)", repeat: "تکرار جمله"};
+const EX_TEMPLATES = {
+  choice: () => ({type: "choice", q: "", opts: ["", "", "", ""], ans: 0, audio: "", hanzi: "", pinyin: ""}),
+  audio_choice: () => ({type: "audio_choice", q: "", audio: "", opts: ["", "", "", ""], ans: 0}),
+  listening_q: () => ({type: "listening_q", prompt: "", audio: "", opts: ["", "", "", ""], ans: 0, revealZh: "", revealPy: ""}),
+  reading_q: () => ({type: "reading_q", q: "", textZh: "", textPy: "", textFa: "", opts: ["", "", "", ""], ans: 0}),
+  tone_pick: () => ({type: "tone_pick", q: "به صدا گوش دهید: این سیلاب با کدام تُن ادا شد؟", audio: "", pinyin: "",
+    opts: ["تُن اول (بالا و یکنواخت: ā)", "تُن دوم (بالارونده: á)", "تُن سوم (فرود و صعود: ǎ)", "تُن چهارم (قاطع: à)"], ans: 0}),
+  order: () => ({type: "order", prompt: "", tiles: ["", "", "", ""], target: ""}),
+  match: () => ({type: "match", title: "", pairs: [{zh: "", fa: ""}, {zh: "", fa: ""}, {zh: "", fa: ""}, {zh: "", fa: ""}]}),
+  write: () => ({type: "write", char: "", py: "", fa: "", tip: ""}),
+  repeat: () => ({type: "repeat", target: "", py: "", fa: "", tip: ""})
+};
+let RADIO_SEQ = 0;
+
+async function vUnit(uid){
+  body.innerHTML = '<div class="hint">در حال بازکردن یونیت…</div>';
+  let units;
+  try{
+    const r = await apiGet("units");
+    if(r.error) throw new Error(r.error);
+    units = r.units;
+  }catch(e){
+    body.innerHTML = ""; body.appendChild(el("div", "hint", "خطا در خواندن یونیت‌ها: " + esc(e.message)));
+    return;
+  }
+  const u = units[uid];
+  if(!u){ body.innerHTML = '<div class="hint">یونیت «' + esc(uid) + '» پیدا نشد. یونیت‌های موجود: hsk1:0 تا hsk1:14 (درس‌های دورهٔ HSK 1).</div>'; return; }
+  body.innerHTML = "";
+  const TU = () => touch("units", units);
+  const lessonNo = (u.unitNum || (parseInt(uid.split(":")[1], 10) + 1));
+  const exTotal = (u.sections || []).reduce((a, s) => a + (s.miniLessons || []).reduce((b, ml) => b + (ml.exercises || []).length, 0), 0);
+  const head = viewhead("یونیت " + uid + " — " + (u.title || ""), "درس " + lessonNo + " · " + (u.sections || []).length + " سکشن · " + exTotal + " تمرین");
+  backBtn(head, "→ فهرست درس‌ها", () => nav("lessons/hsk1"));
+  const sv = el("button", "btn", "💾 ذخیره"); sv.onclick = () => saveAll();
+  head.appendChild(sv);
+  body.appendChild(head);
+  const hint = el("div", "hint", "تمام محتوای این درس در اپ — سکشن‌ها، کارت‌های آموزش، و همهٔ تمرین‌ها — همین‌جا ویرایش می‌شود و مستقیم در <span class='ltr'>js/unit-course.js</span> (هر دو کپی) ذخیره می‌شود. " +
+    "بعد از ذخیره، در اپ یک بار رفرش کامل لازم است (سرویس‌ورکر ممکن است نسخهٔ قبلی را نشان دهد). " +
+    "<b style='color:var(--warn)'>⚠ دکمهٔ «بازسازی تمرین‌ها» از gen_data دوباره تولید می‌کند و ویرایش‌های این صفحه را بازنویسی می‌کند — بعد از ویرایش پنلی اجرایش نکن.</b>");
+  body.appendChild(hint);
+
+  // unit meta
+  const meta = el("div", "card");
+  const gm = el("div", "grid2");
+  gm.append(
+    fld("عنوان انگلیسی", u.title, v => { u.title = v; TU(); }, {ltr: true}),
+    fld("عنوان فارسی", u.titleFa, v => { u.titleFa = v; TU(); }),
+    fld("عنوان چینی", u.titleZh, v => { u.titleZh = v; TU(); }, {ltr: true}),
+    ro("شناسهٔ یونیت (تغییر نده)", u.id)
+  );
+  meta.appendChild(gm);
+  meta.appendChild(fld("توصیف درس (بالای مسیر درس نشان داده می‌شود)", u.desc, v => { u.desc = v; TU(); }, {big: true, rows: 2}));
+  body.appendChild(meta);
+
+  // sections
+  (u.sections || []).forEach(sec => body.appendChild(secCard(sec)));
+
+  function secCard(sec){
+    const det = el("details", "sec");
+    const nEx = (sec.miniLessons || []).reduce((a, ml) => a + (ml.exercises || []).length, 0);
+    det.appendChild(el("summary", "", "<span>" + esc(SEC_FA[sec.id] || sec.title || sec.id) + "</span><span class='badge'>" + nEx + " تمرین</span><span class='badge'>ایستگاه " + esc(sec.num != null ? sec.num : "") + "</span>"));
+    const bd = el("div", "secbody");
+    det.appendChild(bd);
+    bd.appendChild(fld("توضیح سکشن", sec.desc, v => { sec.desc = v; TU(); }, {big: true, rows: 2}));
+    if(sec.intro) renderIntro(sec.intro, bd);
+    // miniLessons
+    const mlHead = el("div", "grp", "ایستگاه‌های فرعی و تمرین‌ها");
+    mlHead.style.margin = "12px 0 4px";
+    bd.appendChild(mlHead);
+    const mlBox = el("div");
+    bd.appendChild(mlBox);
+    const addMl = el("button", "add", "＋ ایستگاه فرعی جدید");
+    addMl.onclick = () => {
+      sec.miniLessons = sec.miniLessons || [];
+      const n = sec.miniLessons.length + 1;
+      sec.miniLessons.push({id: sec.id ? (u.id + "_" + sec.id[0] + n) : (u.id + "_m" + n), num: n, title: "ایستگاه جدید", desc: "", exercises: []});
+      TU(); drawMl();
+    };
+    bd.appendChild(addMl);
+    function drawMl(){ mlBox.innerHTML = ""; (sec.miniLessons || []).forEach((ml, mi) => mlBox.appendChild(mlCard(ml, mi))); }
+    function moveMl(mi, d){
+      const arr = sec.miniLessons;
+      const j = mi + d;
+      if(j < 0 || j >= arr.length) return;
+      [arr[mi], arr[j]] = [arr[j], arr[mi]];
+      TU(); drawMl();
+    }
+    function mlCard(ml, mi){
+      const det2 = el("details", "ml");
+      det2.appendChild(el("summary", "", "<span>" + esc(ml.title || ("ایستگاه " + (ml.num != null ? ml.num : mi + 1))) + "</span><span class='badge'>" + (ml.exercises || []).length + " تمرین</span>"));
+      const bd2 = el("div", "mlbody");
+      det2.appendChild(bd2);
+      const g2 = el("div", "grid2");
+      g2.append(
+        fld("عنوان ایستگاه", ml.title, v => { ml.title = v; TU(); }),
+        fld("شناسه (تغییر نده)", ml.id, () => {}, {ltr: true})
+      );
+      bd2.appendChild(g2);
+      bd2.appendChild(fld("توضیح ایستگاه", ml.desc, v => { ml.desc = v; TU(); }));
+      const ctl = el("div", "toolbar");
+      const up = el("button", "btn gray sm", "↑"); up.onclick = () => moveMl(mi, -1);
+      const dn = el("button", "btn gray sm", "↓"); dn.onclick = () => moveMl(mi, 1);
+      const delMl = el("button", "del", "🗑 حذف ایستگاه");
+      delMl.onclick = () => { if(confirm("ایستگاه «" + (ml.title || "") + "» با همهٔ تمرین‌هایش حذف شود؟")){ sec.miniLessons.splice(mi, 1); TU(); drawMl(); } };
+      ctl.append(up, dn, delMl);
+      bd2.appendChild(ctl);
+      // exercises
+      const exBox = el("div");
+      bd2.appendChild(exBox);
+      const addBar = el("div", "toolbar");
+      const sel = document.createElement("select");
+      Object.keys(EX_TEMPLATES).forEach(t => sel.appendChild(new Option(EX_LABEL[t] || t, t)));
+      const addEx = el("button", "add", "＋ تمرین جدید");
+      addEx.onclick = () => {
+        const t = sel.value;
+        ml.exercises = ml.exercises || [];
+        ml.exercises.push(EX_TEMPLATES[t]());
+        TU(); drawEx();
+      };
+      addBar.append(sel, addEx);
+      bd2.appendChild(addBar);
+      function drawEx(){ exBox.innerHTML = ""; (ml.exercises || []).forEach((ex, ei) => exBox.appendChild(exCard(ex, ei))); }
+      function moveEx(ei, d){
+        const arr = ml.exercises;
+        const j = ei + d;
+        if(j < 0 || j >= arr.length) return;
+        [arr[ei], arr[j]] = [arr[j], arr[ei]];
+        TU(); drawEx();
+      }
+      function exCard(ex, ei){
+        const card = el("div", "excard");
+        const hd = el("div", "exhead");
+        hd.appendChild(el("span", "badge acc", esc(EX_LABEL[ex.type] || ex.type || "?")));
+        hd.appendChild(el("span", "badge", "#" + (ei + 1)));
+        const up = el("button", "btn gray sm", "↑"); up.onclick = () => moveEx(ei, -1);
+        const dn = el("button", "btn gray sm", "↓"); dn.onclick = () => moveEx(ei, 1);
+        const del = el("button", "del", "🗑");
+        del.onclick = () => { if(confirm("این تمرین حذف شود؟")){ ml.exercises.splice(ei, 1); TU(); drawEx(); } };
+        hd.append(up, dn, del);
+        card.appendChild(hd);
+        renderEx(ex, card);
+        return card;
+      }
+      drawEx();
+      return det2;
+    }
+    drawMl();
+    return det;
+  }
+
+  function renderIntro(intro, box){
+    const c = el("div", "card");
+    c.style.background = "var(--bg2)";
+    c.appendChild(el("div", "grp", "کارت آموزش سکشن (قبل از تمرین‌ها نشان داده می‌شود)"));
+    box.appendChild(c);
+    const g2 = el("div", "grid2");
+    g2.append(
+      fld("عنوان", intro.title, v => { intro.title = v; TU(); }),
+      fld("متن مقدمه", intro.lead, v => { intro.lead = v; TU(); }, {big: true, rows: 2})
+    );
+    c.appendChild(g2);
+    Object.keys(intro).forEach(k => {
+      if(k === "title" || k === "lead") return;
+      const v = intro[k];
+      if(Array.isArray(v) && v.length && typeof v[0] === "object"){
+        const lbl = {words: "واژه‌های آموزشی", points: "قواعد گرامر", tones: "تُن‌ها"}[k] || k;
+        const h = el("div", "grp", lbl + " — " + v.length + " مورد");
+        h.style.margin = "10px 0 4px";
+        c.appendChild(h);
+        const list = el("div");
+        c.appendChild(list);
+        function drawRows(){
+          list.innerHTML = "";
+          v.forEach((item, i) => {
+            const fs = el("fieldset");
+            const lg = el("legend", "", esc(k) + " " + (i + 1));
+            fs.appendChild(lg);
+            const g = el("div", "grid3");
+            Object.keys(item).forEach(ik => {
+              const iv = item[ik];
+              if(typeof iv === "object" && iv !== null) return; // nested — leave untouched
+              const f = fld(KLAB[ik] || ik, iv, nv => { item[ik] = nv; TU(); }, {big: typeof iv === "string" && iv.length > 70, ltr: /ex|py|hanzi|char|target|zh|mark|sample|formula/.test(ik) && ik !== "fa"});
+              g.appendChild(f);
+            });
+            fs.appendChild(g);
+            const del = el("button", "del", "🗑 حذف این مورد");
+            del.onclick = () => { v.splice(i, 1); TU(); drawRows(); };
+            fs.appendChild(del);
+            list.appendChild(fs);
+          });
+        }
+        drawRows();
+        const add = el("button", "add", "＋ افزودن مورد");
+        add.onclick = () => {
+          const t0 = v[0] || {};
+          const nu = {};
+          Object.keys(t0).forEach(ik => nu[ik] = typeof t0[ik] === "number" ? 0 : "");
+          v.push(nu);
+          TU(); drawRows();
+        };
+        c.appendChild(add);
+      } else if(Array.isArray(v)){
+        const h = el("div", "grp", (KLAB[k] || k) + " — " + v.length + " خط");
+        h.style.margin = "10px 0 4px";
+        c.appendChild(h);
+        const list = el("div");
+        c.appendChild(list);
+        function drawStr(){
+          list.innerHTML = "";
+          v.forEach((s, i) => {
+            const rw = el("div", "farow");
+            const inp = document.createElement("input");
+            inp.type = "text"; inp.value = s;
+            inp.oninput = () => { v[i] = inp.value; TU(); };
+            const del = el("button", "del", "🗑");
+            del.onclick = () => { v.splice(i, 1); TU(); drawStr(); };
+            rw.append(inp, del);
+            list.appendChild(rw);
+          });
+        }
+        drawStr();
+        const add = el("button", "add", "＋ افزودن خط");
+        add.onclick = () => { v.push(""); TU(); drawStr(); };
+        c.appendChild(add);
+      } else if(typeof v === "string" || typeof v === "number"){
+        c.appendChild(fld(KLAB[k] || k, v, nv => { intro[k] = nv; TU(); }));
+      }
+    });
+  }
+
+  function optRows(ex, box, keyName){
+    const opts = ex[keyName] || [];
+    const list = el("div");
+    box.appendChild(list);
+    const gname = "ans_" + (++RADIO_SEQ);
+    function draw(){
+      list.innerHTML = "";
+      opts.forEach((o, i) => {
+        const rw = el("div", "optr");
+        const rb = document.createElement("input");
+        rb.type = "radio"; rb.name = gname; rb.checked = ex.ans === i;
+        rb.title = "گزینهٔ درست";
+        rb.onchange = () => { if(rb.checked){ ex.ans = i; TU(); } };
+        const inp = document.createElement("input");
+        inp.type = "text"; inp.value = o == null ? "" : o;
+        inp.placeholder = "گزینهٔ " + (i + 1);
+        inp.oninput = () => { opts[i] = inp.value; TU(); };
+        const del = el("button", "del", "🗑");
+        del.onclick = () => { opts.splice(i, 1); if(ex.ans >= opts.length) ex.ans = 0; TU(); draw(); };
+        rw.append(rb, inp, del);
+        list.appendChild(rw);
+      });
+      const add = el("button", "add", "＋ گزینه");
+      add.onclick = () => { opts.push(""); TU(); draw(); };
+      list.appendChild(add);
+    }
+    draw();
+  }
+
+  function strRows(arr, box, lab, onch){
+    const list = el("div");
+    box.appendChild(list);
+    function draw(){
+      list.innerHTML = "";
+      arr.forEach((s, i) => {
+        const rw = el("div", "farow");
+        const inp = document.createElement("input");
+        inp.type = "text"; inp.value = s == null ? "" : s;
+        inp.oninput = () => { arr[i] = inp.value; TU(); };
+        const del = el("button", "del", "🗑");
+        del.onclick = () => { arr.splice(i, 1); TU(); draw(); };
+        rw.append(inp, del);
+        list.appendChild(rw);
+      });
+      const add = el("button", "add", "＋ " + (lab || "مورد"));
+      add.onclick = () => { arr.push(""); TU(); draw(); };
+      list.appendChild(add);
+    }
+    draw();
+  }
+
+  function renderEx(ex, card){
+    const t = ex.type;
+    if(t === "choice" || t === "audio_choice" || t === "tone_pick"){
+      card.appendChild(fld(t === "choice" ? "صورت سؤال" : "صورت سؤال", ex.q, v => { ex.q = v; TU(); }, {big: true, rows: 2}));
+      if(ex.hanzi !== undefined) card.appendChild(fld("نویسهٔ چینی (نمایش + صوت)", ex.hanzi, v => { ex.hanzi = v; TU(); }, {ltr: true}));
+      if(ex.pinyin !== undefined) card.appendChild(fld("پین‌یین", ex.pinyin, v => { ex.pinyin = v; TU(); }, {ltr: true}));
+      if(ex.audio !== undefined) card.appendChild(fld("صوت (متن پین‌یینی که خوانده می‌شود)", ex.audio, v => { ex.audio = v; TU(); }, {ltr: true}));
+      optRows(ex, card, "opts");
+    } else if(t === "listening_q"){
+      card.appendChild(fld("صورت سؤال", ex.prompt, v => { ex.prompt = v; TU(); }, {big: true, rows: 2}));
+      card.appendChild(fld("صوت (متن پین‌یینی)", ex.audio, v => { ex.audio = v; TU(); }, {ltr: true}));
+      optRows(ex, card, "opts");
+      const g2 = el("div", "grid2");
+      g2.append(
+        fld("پاسخ چینی (بعد از جواب نشان داده می‌شود)", ex.revealZh, v => { ex.revealZh = v; TU(); }, {ltr: true}),
+        fld("پین‌یین پاسخ", ex.revealPy, v => { ex.revealPy = v; TU(); }, {ltr: true})
+      );
+      card.appendChild(g2);
+    } else if(t === "reading_q"){
+      card.appendChild(fld("صورت سؤال", ex.q, v => { ex.q = v; TU(); }, {big: true, rows: 2}));
+      const g3 = el("div", "grid3");
+      g3.append(
+        fld("متن چینی", ex.textZh, v => { ex.textZh = v; TU(); }, {ltr: true}),
+        fld("پین‌یین متن", ex.textPy, v => { ex.textPy = v; TU(); }, {ltr: true}),
+        fld("ترجمهٔ فارسی متن", ex.textFa, v => { ex.textFa = v; TU(); })
+      );
+      card.appendChild(g3);
+      optRows(ex, card, "opts");
+    } else if(t === "order"){
+      card.appendChild(fld("صورت سؤال", ex.prompt, v => { ex.prompt = v; TU(); }, {big: true, rows: 2}));
+      const h = el("div", "grp", "کلمه‌ها (به ترتیب نمایش — با ↑↓ فقط از طریق حذف/افزودن جابه‌جا می‌شود)");
+      h.style.margin = "8px 0 4px";
+      card.appendChild(h);
+      strRows(ex.tiles = ex.tiles || [], card, "کلمه");
+      card.appendChild(fld("جملهٔ صحیح (هدف)", ex.target, v => { ex.target = v; TU(); }, {ltr: true}));
+    } else if(t === "match"){
+      card.appendChild(fld("عنوان", ex.title, v => { ex.title = v; TU(); }));
+      const h = el("div", "grp", "جفت‌ها (چینی ↔ فارسی)");
+      h.style.margin = "8px 0 4px";
+      card.appendChild(h);
+      const list = el("div");
+      card.appendChild(list);
+      ex.pairs = ex.pairs || [];
+      function draw(){
+        list.innerHTML = "";
+        ex.pairs.forEach((p, i) => {
+          const rw = el("div", "wordrow");
+          const iz = document.createElement("input"); iz.type = "text"; iz.value = p.zh || ""; iz.classList.add("zh"); iz.oninput = () => { p.zh = iz.value; TU(); };
+          const sp = el("div");
+          const ifa = document.createElement("input"); ifa.type = "text"; ifa.value = p.fa || ""; ifa.oninput = () => { p.fa = ifa.value; TU(); };
+          const del = el("button", "del", "🗑");
+          del.onclick = () => { ex.pairs.splice(i, 1); TU(); draw(); };
+          rw.append(iz, sp, sp, sp, ifa, del);
+          list.appendChild(rw);
+        });
+        const add = el("button", "add", "＋ جفت");
+        add.onclick = () => { ex.pairs.push({zh: "", fa: ""}); TU(); draw(); };
+        list.appendChild(add);
+      }
+      draw();
+    } else if(t === "write"){
+      const g2 = el("div", "grid2");
+      g2.append(
+        fld("نویسه (نوشتن با استروک)", ex.char, v => { ex.char = v; TU(); }, {ltr: true}),
+        fld("پین‌یین", ex.py, v => { ex.py = v; TU(); }, {ltr: true})
+      );
+      card.appendChild(g2);
+      card.appendChild(fld("معنی فارسی", ex.fa, v => { ex.fa = v; TU(); }));
+      card.appendChild(fld("نکته (نشان داده می‌شود)", ex.tip, v => { ex.tip = v; TU(); }, {big: true, rows: 2}));
+    } else if(t === "repeat"){
+      card.appendChild(fld("جملهٔ هدف (چینی)", ex.target, v => { ex.target = v; TU(); }, {ltr: true}));
+      const g2 = el("div", "grid2");
+      g2.append(
+        fld("پین‌یین", ex.py, v => { ex.py = v; TU(); }, {ltr: true}),
+        fld("معنی فارسی", ex.fa, v => { ex.fa = v; TU(); })
+      );
+      card.appendChild(g2);
+      card.appendChild(fld("نکته", ex.tip, v => { ex.tip = v; TU(); }, {big: true, rows: 2}));
+    } else {
+      // unknown type — raw JSON fallback
+      const w = el("div", "fld");
+      w.appendChild(el("label", "", "تمرین با نوع ناشناخته («" + esc(t) + "») — ویرایش JSON"));
+      const ta = document.createElement("textarea");
+      ta.classList.add("ltr");
+      ta.style.minHeight = "120px";
+      ta.value = JSON.stringify(ex, null, 2);
+      ta.oninput = () => {
+        try{
+          const nu = JSON.parse(ta.value);
+          Object.keys(ex).forEach(k => delete ex[k]);
+          Object.assign(ex, nu);
+          TU();
+          ta.style.borderColor = "";
+        }catch(e){ ta.style.borderColor = "var(--danger)"; }
+      };
+      w.appendChild(ta);
+      card.appendChild(w);
+    }
+  }
+}
+
+/* ============================================================
+   CLIPS  (content/feed.json)
+   ============================================================ */
+async function vClips(){
+  const r = await apiFile("content/feed.json");
+  const OBJ = r.parsed;
+  const T = () => touch("content/feed.json", OBJ);
+  body.innerHTML = "";
+  const head = viewhead("کلیپ‌های ویدیویی", OBJ.items.length + " کلیپ — ترجمهٔ فارسی هر خط و توضیح صحنه اینجا ویرایش می‌شود");
+  const add = el("button", "btn", "＋ کلیپ جدید");
+  add.onclick = () => {
+    const id = prompt("شناسهٔ کلیپ جدید (انگلیسی، مثل myclip01):");
+    if(!id) return;
+    OBJ.items.unshift({id: id.toLowerCase(), at: new Date().toISOString(), channel: "daily", tag: "30 sec",
+      durationSec: 30, level: "HSK 1", title: "", situation: "", videoUrl: "", poster: "", lines: []});
+    T();
+    draw();
+  };
+  head.appendChild(add);
+  body.appendChild(head);
+
+  let fq = "", fch = "", flv = "";
+  const bar = el("div", "searchrow");
+  const qi = document.createElement("input"); qi.type = "text"; qi.placeholder = "جستجو در عنوان/متن…";
+  qi.oninput = () => { fq = qi.value.trim().toLowerCase(); draw(); };
+  const chSel = document.createElement("select");
+  chSel.innerHTML = '<option value="">همهٔ کانال‌ها</option>' +
+    [...new Set(OBJ.items.map(c => c.channel).filter(Boolean))].map(c => '<option value="' + esc(c) + '">' + esc(c) + '</option>').join("");
+  chSel.onchange = () => { fch = chSel.value; draw(); };
+  const lvSel = document.createElement("select");
+  lvSel.innerHTML = '<option value="">همهٔ سطوح</option>' +
+    [...new Set(OBJ.items.map(c => c.level).filter(Boolean))].map(c => '<option value="' + esc(c) + '">' + esc(c) + '</option>').join("");
+  lvSel.onchange = () => { flv = lvSel.value; draw(); };
+  bar.append(qi, chSel, lvSel);
+  body.appendChild(bar);
+  const grid = el("div");
+  body.appendChild(grid);
+
+  function filtered(){
+    return OBJ.items.filter(c =>
+      (!fch || c.channel === fch) && (!flv || c.level === flv) &&
+      (!fq || JSON.stringify([c.title, c.situation, c.id]).toLowerCase().includes(fq)));
+  }
+  function draw(){
+    grid.innerHTML = "";
+    const items = filtered();
+    if(!items.length){ grid.appendChild(el("div", "empty", "کلیپی مطابق فیلتر نیست")); return; }
+    items.forEach(c => grid.appendChild(clipCard(c)));
+  }
+  function clipCard(c){
+    const card = el("div", "card");
+    const head = el("div", "toolbar");
+    const img = el("img", "thumb");
+    img.src = mediaURL(c.poster || c.posterLQ || "");
+    img.onerror = () => img.style.visibility = "hidden";
+    const ttl = el("div", "main-txt");
+    ttl.innerHTML = '<div class="t1 zh">' + esc(c.title || c.id) + '</div><div class="t2 ltr">' + esc(c.id) + " · " + esc(c.channel || "") + " · " + esc(c.tag || "") + " · " + c.durationSec + 's</div>';
+    const del = el("button", "del", "🗑 حذف");
+    del.onclick = () => { if(confirm("کلیپ «" + (c.title || c.id) + "» حذف شود؟")){
+      OBJ.items.splice(OBJ.items.indexOf(c), 1); T(); draw(); } };
+    head.append(img, ttl, del);
+    card.appendChild(head);
+    const g2 = el("div", "grid2");
+    g2.append(
+      fld("عنوان چینی", c.title, v => { c.title = v; ttl.querySelector(".t1").textContent = v || c.id; T(); }),
+      fld("سطح", c.level, v => { c.level = v; T(); }),
+      fld("کانال", c.channel, v => { c.channel = v; T(); }),
+      fld("برچسب", c.tag, v => { c.tag = v; T(); }),
+      fld("طول (ثانیه)", c.durationSec, v => { c.durationSec = +v || 0; T(); }, {num: true}),
+      fld("آدرس ویدیو (mp4)", c.videoUrl, v => { c.videoUrl = v; T(); }, {ltr: true}),
+      fld("آدرس پوستر", c.poster, v => { c.poster = v; T(); }, {ltr: true}),
+      ro("لینک پیش‌نمایش", mediaURL(c.videoUrl))
+    );
+    card.appendChild(g2);
+    card.appendChild(fld("توضیح فارسی صحنه", c.situation, v => { c.situation = v; T(); }, {big: true, rows: 3}));
+    // lines
+    const lines = c.lines || [];
+    if(lines.length){
+      const h = el("div", "grp", "خط‌ها — " + lines.length + " (فارسیِ هر خط در همین فایل ذخیره می‌شود)");
+      h.style.margin = "10px 0 6px";
+      card.appendChild(h);
+      lines.forEach((ln, i) => {
+        const fs = el("fieldset");
+        const keyZh = ln.key || (ln.tokens && ln.tokens[0] && ln.tokens[0][0]) || "";
+        fs.appendChild(el("legend", "", "خط " + (i + 1) + " · " + esc(keyZh) + " (" + (ln.start != null ? ln.start : "?") + "–" + (ln.end != null ? ln.end : "?") + "s)"));
+        const g3 = el("div", "grid3");
+        g3.append(
+          fld("پین‌یین", ln.py, v => { ln.py = v; T(); }, {ltr: true}),
+          fld("انگلیسی", ln.en, v => { ln.en = v; T(); }, {ltr: true}),
+          fld("🇮🇷 فارسی", ln.fa, v => { ln.fa = v; T(); })
+        );
+        fs.appendChild(g3);
+        card.appendChild(fs);
+      });
+    }
+    return card;
+  }
+  draw();
+}
+
+/* ============================================================
+   STORIES  (content/stories.json + content/pods/<id>.json)
+   ============================================================ */
+let STO_OBJ = null;
+async function vStories(id){
+  if(!STO_OBJ){
+    const r = await apiFile("content/stories.json");
+    STO_OBJ = r.parsed;
+  }
+  if(id) return vStoryDetail(id);
+  body.innerHTML = "";
+  const head = viewhead("داستان‌ها", STO_OBJ.stories.length + " داستان — بادی هر داستان در content/pods/<id>.json");
+  body.appendChild(head);
+  let fq = "", flv = "";
+  const bar = el("div", "searchrow");
+  const qi = document.createElement("input"); qi.type = "text"; qi.placeholder = "جستجو در عنوان چینی/فارسی/انگلیسی…";
+  qi.oninput = () => { fq = qi.value.trim().toLowerCase(); draw(); };
+  const lvSel = document.createElement("select");
+  lvSel.innerHTML = '<option value="">همهٔ سطوح</option>' + [1,2,3,4,5,6].map(n => '<option value="' + n + '">HSK ' + n + '</option>').join("");
+  lvSel.onchange = () => { flv = lvSel.value; draw(); };
+  bar.append(qi, lvSel);
+  body.appendChild(bar);
+  const hint = el("div", "hint", "ترجمهٔ فارسی <b>عنوان</b> و واژه‌ها اینجا ذخیره می‌شود. ترجمهٔ فارسی <b>خط‌ها</b> را می‌توانی در بادی محلی هر داستان نوشت " +
+    "(<span class='ltr'>line.tr.fa</span> — پشتیبان آفلاین؛ نسخهٔ آنلاین از سرور می‌آید).");
+  body.appendChild(hint);
+  const list = el("div");
+  body.appendChild(list);
+
+  function filtered(){
+    return STO_OBJ.stories.filter(s =>
+      (!flv || String(s.level) === flv) &&
+      (!fq || JSON.stringify([s.title, s.title_en, s.title_py, s.title_tr && s.title_tr.fa, s.id]).toLowerCase().includes(fq)));
+  }
+  function draw(){
+    list.innerHTML = "";
+    const items = filtered();
+    if(!items.length){ list.appendChild(el("div", "empty", "داستانی پیدا نشد")); return; }
+    pager(list, items, s => {
+      const d = el("div", "rowitem");
+      const img = el("img", "cover");
+      img.src = mediaURL(s.cover); img.onerror = () => img.style.visibility = "hidden";
+      const t = el("div", "main-txt");
+      t.innerHTML = '<div class="t1"><span class="zh">' + esc(s.title) + '</span> — ' + esc((s.title_tr && s.title_tr.fa) || s.title_en || "") + '</div>' +
+        '<div class="t2 ltr">' + esc(s.id) + " · HSK " + esc(s.level) + " · داستان " + esc(s.no) + " · " + s.lines + " خط · " + s.chars + " نویسه</div>";
+      d.append(img, t);
+      if(s.free) d.appendChild(el("span", "badge acc", "رایگان"));
+      d.appendChild(el("span", "badge", (s.topic || "")));
+      d.onclick = () => nav("stories/" + s.id);
+      list.appendChild(d);
+    }, 40);
+  }
+  draw();
+}
+async function vStoryDetail(id){
+  const s = STO_OBJ.stories.find(x => x.id === id);
+  if(!s){ body.innerHTML = '<div class="hint">داستان پیدا نشد.</div>'; return; }
+  const podsPath = "content/pods/" + id + ".json";
+  const pr = await apiFile(podsPath).catch(() => null);
+  const BODY = pr && pr.parsed;
+  await loadFA();
+  body.innerHTML = "";
+  const head = viewhead("داستان " + (s.no || "") + " — " + (s.title || id), "HSK " + s.level + " · " + (BODY ? fmtSize(pr.size) + " بادی محلی" : "بدون بادی محلی"));
+  backBtn(head, "→ فهرست داستان‌ها", () => nav("stories"));
+  body.appendChild(head);
+  const TS = () => touch("content/stories.json", STO_OBJ);
+  const TB = () => { if(BODY) touch(podsPath, BODY); };
+
+  // meta
+  const f = el("div", "card");
+  const g2 = el("div", "grid2");
+  g2.append(
+    fld("عنوان چینی", s.title, v => { s.title = v; TS(); }),
+    fld("🇮🇷 عنوان فارسی (title_tr.fa)", s.title_tr && s.title_tr.fa, v => { s.title_tr = s.title_tr || {}; s.title_tr.fa = v; TS(); }),
+    fld("عنوان انگلیسی", s.title_en, v => { s.title_en = v; TS(); }, {ltr: true}),
+    fld("پین‌یین عنوان", s.title_py, v => { s.title_py = v; TS(); }, {ltr: true}),
+    fld("موضوع (topic)", s.topic, v => { s.topic = v; TS(); }, {ltr: true}),
+    fld("رایگان؟", s.free, v => { s.free = v; TS(); }, {check: true})
+  );
+  f.appendChild(g2);
+  f.appendChild(fld("کاور", s.cover, v => { s.cover = v; TS(); }, {ltr: true}));
+  body.appendChild(f);
+
+  // newWords
+  const wc = el("div", "card");
+  wc.appendChild(el("div", "grp", "واژه‌های جدید — " + (s.newWords || []).length + " (معنی فارسی از fa.json)"));
+  const wl = el("div");
+  wc.appendChild(wl);
+  body.appendChild(wc);
+  (s.newWords || []).forEach(w => {
+    const rw = el("div", "wordrow");
+    const i1 = document.createElement("input"); i1.type = "text"; i1.readOnly = true; i1.value = w.w || ""; i1.classList.add("zh");
+    const i2 = document.createElement("input"); i2.type = "text"; i2.readOnly = true; i2.value = w.py || ""; i2.classList.add("ltr");
+    const i3 = document.createElement("input"); i3.type = "text"; i3.readOnly = true; i3.value = w.en || ""; i3.classList.add("ltr");
+    const i4 = document.createElement("input"); i4.type = "text"; i4.value = faM(w.w); i4.oninput = () => setFaM(w.w, i4.value);
+    const em = el("div");
+    rw.append(i1, i2, i3, el("span", "", ""), i4);
+    wl.appendChild(rw);
+  });
+
+  // body lines
+  if(BODY){
+    const bc = el("div", "card");
+    bc.appendChild(el("div", "grp", "بادی محلی — " + (BODY.lines || []).length + " خط (فارسی خط‌ها → tr.fa، پشتیبان آفلاین)"));
+    const bl = el("div");
+    bc.appendChild(bl);
+    body.appendChild(bc);
+    (BODY.lines || []).forEach((ln, i) => {
+      const fs = el("fieldset");
+      fs.appendChild(el("legend", "", "خط " + (i + 1) + " (" + (ln.start != null ? ln.start : "?") + "–" + (ln.end != null ? ln.end : "?") + "s)"));
+      fs.appendChild(el("div", "zh", esc(ln.text)));
+      const g3 = el("div", "grid3");
+      g3.append(
+        fld("پین‌یین", ln.py, v => { ln.py = v; TB(); }, {ltr: true}),
+        fld("انگلیسی", ln.en, v => { ln.en = v; TB(); }, {ltr: true}),
+        fld("🇮🇷 فارسی (tr.fa)", ln.tr && ln.tr.fa, v => { ln.tr = ln.tr || {}; ln.tr.fa = v; TB(); })
+      );
+      fs.appendChild(g3);
+      bl.appendChild(fs);
+    });
+  } else {
+    body.appendChild(el("div", "hint", "بادی محلی برای این داستان پیدا نشد (" + podsPath + ")."));
+  }
+}
+
+/* ============================================================
+   PODCASTS  (content/podcast.json + content/pods/ep*.json)
+   ============================================================ */
+let POD_OBJ = null;
+async function vPodcasts(id){
+  if(!POD_OBJ){
+    const r = await apiFile("content/podcast.json");
+    POD_OBJ = r.parsed;
+  }
+  if(id) return vPodDetail(id);
+  body.innerHTML = "";
+  const head = viewhead("پادکست", POD_OBJ.episodes.length + " قسمت — شوی «" + (POD_OBJ.show || "Chinify") + "»");
+  body.appendChild(head);
+  const list = el("div");
+  body.appendChild(list);
+  pager(list, POD_OBJ.episodes, e => {
+    const d = el("div", "rowitem");
+    d.innerHTML = '<div class="main-txt"><div class="t1"><span class="zh">' + esc(e.title) + '</span> — ' + esc((e.title_tr && e.title_tr.fa) || e.title_en || "") + '</div>' +
+      '<div class="t2 ltr">' + esc(e.id) + " · " + esc(e.level || "") + " · " + fmtMin(e.duration) + "</div></div>";
+    d.onclick = () => nav("podcasts/" + e.id);
+    list.appendChild(d);
+  }, 14);
+}
+async function vPodDetail(id){
+  const e = POD_OBJ.episodes.find(x => x.id === id);
+  if(!e){ body.innerHTML = '<div class="hint">قسمت پیدا نشد.</div>'; return; }
+  const podsPath = "content/pods/" + id + ".json";
+  const pr = await apiFile(podsPath).catch(() => null);
+  const BODY = pr && pr.parsed;
+  await loadFA();
+  body.innerHTML = "";
+  const head = viewhead("قسمت " + e.no + " — " + (e.title || id), (e.level || "") + " · " + fmtMin(e.duration));
+  backBtn(head, "→ فهرست پادکست‌ها", () => nav("podcasts"));
+  body.appendChild(head);
+  const TP = () => touch("content/podcast.json", POD_OBJ);
+  const TB = () => { if(BODY) touch(podsPath, BODY); };
+
+  const f = el("div", "card");
+  const g2 = el("div", "grid2");
+  g2.append(
+    fld("عنوان چینی", e.title, v => { e.title = v; TP(); }),
+    fld("🇮🇷 عنوان فارسی (title_tr.fa)", e.title_tr && e.title_tr.fa, v => { e.title_tr = e.title_tr || {}; e.title_tr.fa = v; TP(); }),
+    fld("عنوان انگلیسی", e.title_en, v => { e.title_en = v; TP(); }, {ltr: true}),
+    fld("پین‌یین عنوان", e.title_py, v => { e.title_py = v; TP(); }, {ltr: true}),
+    fld("سطح", e.level, v => { e.level = v; TP(); }, {ltr: true}),
+    fld("دوره (ثانیه)", e.duration, v => { e.duration = +v || 0; TP(); }, {num: true})
+  );
+  f.appendChild(g2);
+  const names = e.names || {};
+  const g3 = el("div", "grid3");
+  g3.append(
+    fld("نام گویندهٔ A", names.A, v => { e.names = e.names || {}; e.names.A = v; TP(); }, {ltr: true}),
+    fld("نام گویندهٔ B", names.B, v => { e.names = e.names || {}; e.names.B = v; TP(); }, {ltr: true}),
+    fld("آدرس صوت", e.audio, v => { e.audio = v; TP(); }, {ltr: true})
+  );
+  f.appendChild(g3);
+  body.appendChild(f);
+
+  if(BODY){
+    const bc = el("div", "card");
+    bc.appendChild(el("div", "grp", "خط‌های گفتگو — " + (BODY.lines || []).length + " (فارسی خط‌ها → tr.fa)"));
+    const bl = el("div");
+    bc.appendChild(bl);
+    body.appendChild(bc);
+    pager(bl, BODY.lines || [], (ln) => {
+      const fs = el("fieldset");
+      fs.appendChild(el("legend", "", (ln.who ? esc(ln.who) : "خط") + " · " + esc((BODY.names && BODY.names[ln.who]) || "") ));
+      fs.appendChild(el("div", "zh", esc(ln.text)));
+      const g4 = el("div", "grid3");
+      g4.append(
+        fld("پین‌یین", ln.py, v => { ln.py = v; TB(); }, {ltr: true}),
+        fld("انگلیسی", ln.en, v => { ln.en = v; TB(); }, {ltr: true}),
+        fld("🇮🇷 فارسی (tr.fa)", ln.tr && ln.tr.fa, v => { ln.tr = ln.tr || {}; ln.tr.fa = v; TB(); })
+      );
+      fs.appendChild(g4);
+      bl.appendChild(fs);
+    }, 30);
+  } else {
+    body.appendChild(el("div", "hint", "بادی محلی پیدا نشد (" + podsPath + ")."));
+  }
+}
+
+/* ============================================================
+   LIBRARY  (content/library/library.json)
+   ============================================================ */
+async function vLibrary(){
+  const r = await apiFile("content/library/library.json");
+  const OBJ = r.parsed;
+  const TL = () => touch("content/library/library.json", OBJ);
+  body.innerHTML = "";
+  const head = viewhead("کتابخانهٔ واژه", (OBJ.words || []).length + " واژه — معنی، توضیح و مثال فارسی مستقیم در همین فایل");
+  body.appendChild(head);
+  let fq = "", flv = "";
+  const bar = el("div", "searchrow");
+  const qi = document.createElement("input"); qi.type = "text"; qi.placeholder = "جستجو در نویسه/پین‌یین/معنی فارسی/انگلیسی…";
+  qi.oninput = () => { fq = qi.value.trim().toLowerCase(); draw(); };
+  const lvSel = document.createElement("select");
+  lvSel.innerHTML = '<option value="">همهٔ سطوح</option>' + ["HSK1","HSK2","HSK3","HSK4","HSK5","HSK6"].map(n => '<option value="' + n + '">' + n + '</option>').join("");
+  lvSel.onchange = () => { flv = lvSel.value; draw(); };
+  bar.append(qi, lvSel);
+  body.appendChild(bar);
+  const list = el("div");
+  body.appendChild(list);
+
+  function filtered(){
+    return (OBJ.words || []).filter(w =>
+      (!flv || w.l === flv) &&
+      (!fq || JSON.stringify([w.c, w.p, w.m, w.en, w.x]).toLowerCase().includes(fq)));
+  }
+  function draw(){
+    list.innerHTML = "";
+    const items = filtered();
+    if(!items.length){ list.appendChild(el("div", "empty", "واژه‌ای پیدا نشد")); return; }
+    pager(list, items, w => {
+      const card = el("div", "card");
+      const h = el("div", "toolbar");
+      h.innerHTML = '<div class="main-txt"><div class="t1"><span class="zh" style="font-size:17px">' + esc(w.c) +
+        '</span> <span class="ltr" style="color:var(--mut)">' + esc(w.p || "") + '</span> — ' + esc(w.m || "") + '</div>' +
+        '<div class="t2 ltr">' + esc(w.i) + " · " + esc(w.l) + " · " + esc(w.en || "") + " · " + esc(w.o || "") + '</div></div>';
+      card.appendChild(h);
+      const g2 = el("div", "grid2");
+      g2.append(
+        fld("معنی فارسی (m)", w.m, v => { w.m = v; TL(); }),
+        fld("نقش دستوری (o)", w.o, v => { w.o = v; TL(); })
+      );
+      card.appendChild(g2);
+      card.appendChild(fld("توضیح فارسی (x)", w.x, v => { w.x = v; TL(); }, {big: true, rows: 2}));
+      (w.e || []).forEach((ex, ei) => {
+        const fs = el("fieldset");
+        fs.appendChild(el("legend", "", "مثال " + (ei + 1)));
+        const g3 = el("div", "grid3");
+        g3.append(
+          fld("چینی", ex.c, v => { ex.c = v; TL(); }, {ltr: true}),
+          fld("پین‌یین", ex.p, v => { ex.p = v; TL(); }, {ltr: true}),
+          fld("🇮🇷 فارسی", ex.f, v => { ex.f = v; TL(); })
+        );
+        fs.appendChild(g3);
+        card.appendChild(fs);
+      });
+      list.appendChild(card);
+    }, 25);
+  }
+  draw();
+}
+
+/* ============================================================
+   FA.JSON BROWSER
+   ============================================================ */
+async function vFA(tab){
+  await loadFA();
+  tab = tab || "m";
+  body.innerHTML = "";
+  const labels = {m: "معنی واژه‌ها", s: "جمله‌ها (کلیپ‌ها)", n: "اسم‌ها", g: "گرامر", gp: "تمرین گرامر", pat: "الگوها"};
+  const head = viewhead("معنی‌های فارسی — fa.json", "مرجع مرکزی ترجمهٔ فارسی واژه‌ها و جمله‌ها");
+  body.appendChild(head);
+  const chips = el("div", "chips");
+  Object.keys(labels).forEach(k => {
+    if(!FA[k]) return;
+    const ch = el("button", "chip" + (k === tab ? " on" : ""), esc(labels[k] + " · " + Object.keys(FA[k]).length));
+    ch.onclick = () => nav("fa/" + k);
+    chips.appendChild(ch);
+  });
+  body.appendChild(chips);
+  const bar = el("div", "searchrow");
+  const qi = document.createElement("input"); qi.type = "text"; qi.placeholder = "جستجوی کلید (چینی) یا مقدار (فارسی)…";
+  bar.appendChild(qi);
+  const addK = el("button", "add", "＋ کلید جدید");
+  bar.appendChild(addK);
+  body.appendChild(bar);
+  const list = el("div");
+  body.appendChild(list);
+  let shown = 0, results = [];
+
+  function draw(reset){
+    if(reset){ shown = 0; list.innerHTML = ""; }
+    const q = qi.value.trim().toLowerCase();
+    const src = FA[tab] || {};
+    results = Object.keys(src).filter(k =>
+      !q || k.toLowerCase().includes(q) || String(src[k]).toLowerCase().includes(q));
+    const slice = results.slice(shown, shown + 40);
+    slice.forEach(k => {
+      const v = src[k];
+      if(tab === "g" && typeof v === "object"){
+        // grammar entry: nested editor
+        const fs = el("fieldset");
+        fs.appendChild(el("legend", "zh", esc(k)));
+        ["title","oneLine","explain","mistake"].forEach(fk => {
+          fs.appendChild(fld(fk, v[fk], nv => { v[fk] = nv; touch(FA_PATH, FA); }, {big: fk === "explain", rows: 2}));
+        });
+        list.appendChild(fs);
+        return;
+      }
+      const rw = el("div", "farow");
+      const kIn = document.createElement("input"); kIn.type = "text"; kIn.readOnly = true; kIn.value = k; kIn.classList.add("zh");
+      const vIn = document.createElement("input"); vIn.type = "text"; vIn.value = v == null ? "" : v;
+      vIn.oninput = () => { src[k] = vIn.value; touch(FA_PATH, FA); };
+      const del = el("button", "del", "🗑");
+      del.onclick = () => { delete src[k]; touch(FA_PATH, FA); draw(true); };
+      rw.append(kIn, vIn, del);
+      list.appendChild(rw);
+    });
+    shown += slice.length;
+    let lm = list.querySelector(".loadmore");
+    if(shown < results.length){
+      if(!lm){ lm = el("button", "loadmore", "نمایش بیشتر…"); lm.onclick = () => draw(false); list.appendChild(lm); }
+    } else if(lm) lm.remove();
+    if(!results.length && reset) list.appendChild(el("div", "empty", "چیزی پیدا نشد"));
+  }
+  qi.oninput = () => draw(true);
+  addK.onclick = () => {
+    const k = prompt("کلید جدید (چینی):");
+    if(!k) return;
+    if(FA[tab][k] !== undefined){ toast("این کلید از قبل هست", "err"); return; }
+    FA[tab][k] = "";
+    touch(FA_PATH, FA);
+    draw(true);
+  };
+  draw(true);
+}
+
+/* ============================================================
+   WORDLISTS  (content/wordlists/*.json)
+   ============================================================ */
+async function vWordlists(file){
+  const files = ["daily.json","fixes.json","hsk1.json","hsk2.json","hsk3.json","hsk4.json","hsk5.json","hsk6.json","rest.json","travel.json","work.json"];
+  body.innerHTML = "";
+  if(!file){
+    const head = viewhead("واژه‌نامه‌ها", "فهرست‌های موضوعی و HSK — معنی فارسی از fa.json");
+    body.appendChild(head);
+    const list = el("div");
+    body.appendChild(list);
+    for(const f of files){
+      const path = "content/wordlists/" + f;
+      const r = await apiFile(path);
+      let n = "?";
+      if(r.parsed && r.parsed.words) n = r.parsed.words.length + " واژه";
+      else if(r.parsed) n = Object.keys(r.parsed).length + " کلید";
+      const d = el("div", "rowitem");
+      d.innerHTML = '<div class="main-txt"><div class="t1 ltr">' + esc(f) + '</div><div class="t2">' + esc(n) + " · " + fmtSize(r.size) + '</div></div>';
+      d.onclick = () => nav("wordlists/" + f);
+      list.appendChild(d);
+    }
+    return;
+  }
+  const path = "content/wordlists/" + file;
+  const r = await apiFile(path);
+  const OBJ = r.parsed;
+  if(OBJ === null){ nav("raw/" + path); return; }
+  if(file === "fixes.json") return vFixes(OBJ, path);
+  if(!OBJ.words){ nav("raw/" + path); return; }
+  await loadFA();
+  body.innerHTML = "";
+  const head = viewhead(file, OBJ.words.length + " واژه — معنی فارسی هر واژه در fa.json");
+  backBtn(head, "→ واژه‌نامه‌ها", () => nav("wordlists"));
+  body.appendChild(head);
+  const TW = () => touch(path, OBJ);
+  let fq = "";
+  const bar = el("div", "searchrow");
+  const qi = document.createElement("input"); qi.type = "text"; qi.placeholder = "جستجو…";
+  qi.oninput = () => { fq = qi.value.trim().toLowerCase(); draw(); };
+  bar.appendChild(qi);
+  body.appendChild(bar);
+  const list = el("div");
+  body.appendChild(list);
+  function filtered(){ return OBJ.words.filter(w => !fq || JSON.stringify([w.ch, w.py, w.en]).toLowerCase().includes(fq)); }
+  function draw(){
+    list.innerHTML = "";
+    pager(list, filtered(), w => {
+      const card = el("div", "card");
+      const g3 = el("div", "grid3");
+      g3.append(
+        fld("نویسه", w.ch, v => { w.ch = v; TW(); }, {ltr: true}),
+        fld("پین‌یین", w.py, v => { w.py = v; TW(); }, {ltr: true}),
+        fld("انگلیسی", w.en, v => { w.en = v; TW(); }, {ltr: true})
+      );
+      card.appendChild(g3);
+      card.appendChild(fld("🇮🇷 معنی فارسی (fa.json)", faM(w.ch), v => setFaM(w.ch, v)));
+      (w.ex || []).forEach((x, xi) => card.appendChild(ro("مثال " + (xi + 1), typeof x === "string" ? x : (x.ch || ""))));
+      list.appendChild(card);
+    }, 25);
+  }
+  draw();
+}
+async function vFixes(OBJ, path){
+  await loadFA();
+  let level = null;
+  function draw(){
+    body.innerHTML = "";
+    const head = viewhead("fixes.json", "اصلاح معنی واژه‌ها — انگلیسی منبع رسمی، فارسی در fa.json");
+    backBtn(head, "→ واژه‌نامه‌ها", () => nav("wordlists"));
+    body.appendChild(head);
+    if(!level){
+      const list = el("div");
+      Object.keys(OBJ).forEach(lv => {
+        const d = el("div", "rowitem");
+        d.innerHTML = '<div class="main-txt"><div class="t1 ltr">' + esc(lv) + '</div><div class="t2">' + Object.keys(OBJ[lv]).length + ' واژه</div></div>';
+        d.onclick = () => { level = lv; draw(); };
+        list.appendChild(d);
+      });
+      body.appendChild(list);
+      return;
+    }
+    const words = OBJ[level];
+    const list = el("div");
+    Object.keys(words).forEach(hz => {
+      const card = el("div", "card");
+      card.appendChild(ro("نویسه", hz));
+      card.appendChild(fld("معنی انگلیسی (اصلاح)", words[hz].en, v => { words[hz].en = v; touch(path, OBJ); }, {ltr: true}));
+      card.appendChild(fld("🇮🇷 معنی فارسی (fa.json)", faM(hz), v => setFaM(hz, v)));
+      if(words[hz].ex) card.appendChild(ro("مثال چینی", words[hz].ex));
+      if(words[hz].exen) card.appendChild(ro("ترجمهٔ انگلیسی مثال", words[hz].exen));
+      list.appendChild(card);
+    });
+    body.appendChild(list);
+  }
+  draw();
+}
+
+/* ============================================================
+   GRAMMAR  (content/grammar/*.json)
+   ============================================================ */
+async function vGrammar(file){
+  body.innerHTML = "";
+  const gfiles = ["hsk1.json","hsk2.json","hsk3.json","hsk4.json","hsk5.json","hsk6.json",
+                  "practice-hsk1.json","practice-hsk2.json","practice-hsk3.json","practice-hsk4.json","practice-hsk5.json","practice-hsk6.json"];
+  if(!file){
+    const head = viewhead("گرامر", "نقطه‌های گرامر HSK1-6 + تمرین‌ها");
+    body.appendChild(head);
+    const list = el("div");
+    body.appendChild(list);
+    for(const f of gfiles){
+      const path = "content/grammar/" + f;
+      const r = await apiFile(path);
+      let n = "?";
+      if(r.parsed && r.parsed.points) n = r.parsed.points.length + " نقطه";
+      else if(r.parsed) n = Object.keys(r.parsed).length + " نقطهٔ تمرین";
+      const d = el("div", "rowitem");
+      d.innerHTML = '<div class="main-txt"><div class="t1 ltr">' + esc(f) + '</div><div class="t2">' + esc(n) + " · " + fmtSize(r.size) + '</div></div>';
+      d.onclick = () => nav("grammar/" + f);
+      list.appendChild(d);
+    }
+    return;
+  }
+  const path = "content/grammar/" + file;
+  const r = await apiFile(path);
+  const OBJ = r.parsed;
+  if(OBJ === null){ nav("raw/" + path); return; }
+  if(OBJ.points) return vGrammarPoints(OBJ, path, file);
+  return vPractice(OBJ, path, file);
+}
+async function vGrammarPoints(OBJ, path, file){
+  await loadFA();
+  body.innerHTML = "";
+  const head = viewhead(file, OBJ.points.length + " نقطهٔ گرامر — انگلیسی در فایل، فارسی در fa.json (g)");
+  backBtn(head, "→ گرامر", () => nav("grammar"));
+  body.appendChild(head);
+  const TG = () => touch(path, OBJ);
+  const list = el("div");
+  body.appendChild(list);
+  OBJ.points.forEach(p => {
+    const card = el("div", "card");
+    const gf = FA.g = FA.g || {};
+    if(!gf[p.id]) gf[p.id] = {};
+    const g = gf[p.id];
+    card.appendChild(el("div", "toolbar", '<div class="main-txt"><div class="t1 zh">' + esc(p.mark || p.id) + '</div><div class="t2 ltr">' + esc(p.id) + " · " + esc(p.level || "") + '</div></div>'));
+    const g2 = el("div", "grid2");
+    g2.append(
+      fld("عنوان (انگلیسی)", p.title, v => { p.title = v; TG(); }, {ltr: true}),
+      fld("🇮🇷 عنوان فارسی", g.title, v => { g.title = v; touch(FA_PATH, FA); }),
+      fld("یک خط (انگلیسی)", p.oneLine, v => { p.oneLine = v; TG(); }, {ltr: true}),
+      fld("🇮🇷 یک خط فارسی", g.oneLine, v => { g.oneLine = v; touch(FA_PATH, FA); })
+    );
+    card.appendChild(g2);
+    card.appendChild(fld("توضیح کامل (انگلیسی)", p.explain, v => { p.explain = v; TG(); }, {big: true, rows: 3, ltr: true}));
+    card.appendChild(fld("🇮🇷 توضیح کامل فارسی", g.explain, v => { g.explain = v; touch(FA_PATH, FA); }, {big: true, rows: 3}));
+    if(p.mistake !== undefined || g.mistake !== undefined){
+      const g2b = el("div", "grid2");
+      g2b.append(
+        fld("خطای رایج (انگلیسی)", p.mistake, v => { p.mistake = v; TG(); }, {ltr: true}),
+        fld("🇮🇷 خطای رایج فارسی", g.mistake, v => { g.mistake = v; touch(FA_PATH, FA); })
+      );
+      card.appendChild(g2b);
+    }
+    (p.compare || []).forEach((cmp, ci) => {
+      if(cmp && cmp.gloss !== undefined){
+        const gfa = g.compare = g.compare || [];
+        const g2c = el("div", "grid2");
+        g2c.append(
+          fld("مقایسهٔ " + (ci + 1) + " (انگلیسی)", cmp.gloss, v => { cmp.gloss = v; TG(); }, {ltr: true}),
+          fld("🇮🇷 مقایسهٔ " + (ci + 1) + " فارسی", gfa[ci], v => { gfa[ci] = v; touch(FA_PATH, FA); })
+        );
+        card.appendChild(g2c);
+      }
+    });
+    list.appendChild(card);
+  });
+}
+async function vPractice(OBJ, path, file){
+  await loadFA();
+  let pid = null;
+  function draw(){
+    body.innerHTML = "";
+    const head = viewhead(file, "تمرین‌های گرامر — جملهٔ فارسی و دلیل در fa.json (gp)");
+    backBtn(head, "→ گرامر", () => nav("grammar"));
+    body.appendChild(head);
+    const TP = () => touch(path, OBJ);
+    if(!pid){
+      const list = el("div");
+      Object.keys(OBJ).forEach(k => {
+        const d = el("div", "rowitem");
+        d.innerHTML = '<div class="main-txt"><div class="t1 ltr">' + esc(k) + '</div><div class="t2">' + OBJ[k].length + ' تمرین</div></div>';
+        d.onclick = () => { pid = k; draw(); };
+        list.appendChild(d);
+      });
+      body.appendChild(list);
+      return;
+    }
+    const items = OBJ[pid];
+    const gpf = FA.gp = FA.gp || {};
+    if(!gpf[pid]) gpf[pid] = items.map(() => ({en: "", why: ""}));
+    const faArr = gpf[pid];
+    while(faArr.length < items.length) faArr.push({en: "", why: ""});
+    const list = el("div");
+    items.forEach((it, i) => {
+      const card = el("div", "card");
+      card.appendChild(ro("جملهٔ چینی", it.ch || ""));
+      card.appendChild(fld("🇮🇷 جملهٔ فارسی تمرین " + (i + 1), (faArr[i] && faArr[i].en) || "", v => { faArr[i].en = v; touch(FA_PATH, FA); }));
+      const g2 = el("div", "grid2");
+      g2.append(
+        fld("دلیل (انگلیسی)", it.why, v => { it.why = v; TP(); }, {ltr: true}),
+        fld("🇮🇷 دلیل فارسی", (faArr[i] && faArr[i].why) || "", v => { faArr[i].why = v; touch(FA_PATH, FA); })
+      );
+      card.appendChild(g2);
+      list.appendChild(card);
+    });
+    body.appendChild(list);
+  }
+  draw();
+}
+
+/* ============================================================
+   DICT  (content/dict/000-255.json)
+   ============================================================ */
+async function vDict(shard, q0){
+  const shards = [];
+  for(let i = 0; i < 256; i++) shards.push(String(i).padStart(3, "0"));
+  body.innerHTML = "";
+  if(!shard){
+    const head = viewhead("دیکشنری چینی", "۲۵۶ شارد — معنی فارسی هر نویسه در fa.json (m) ذخیره می‌شود");
+    body.appendChild(head);
+    const grid = el("div", "dictgrid");
+    shards.forEach(s => {
+      const b = el("button", "", s);
+      b.onclick = () => nav("dict/" + s);
+      grid.appendChild(b);
+    });
+    body.appendChild(grid);
+    return;
+  }
+  const path = "content/dict/" + shard + ".json";
+  const r = await apiFile(path);
+  const OBJ = r.parsed;
+  if(OBJ === null){ nav("raw/" + path); return; }
+  await loadFA();
+  body.innerHTML = "";
+  const head = viewhead("شارد " + shard, Object.keys(OBJ).length + " نویسه در این شارد");
+  backBtn(head, "→ شاردها", () => nav("dict"));
+  body.appendChild(head);
+  const TD = () => touch(path, OBJ);
+  let dq = q0 || "";
+  const bar = el("div", "searchrow");
+  const qi = document.createElement("input"); qi.type = "text"; qi.value = dq; qi.placeholder = "جستجوی نویسه (چینی)…";
+  qi.classList.add("zh");
+  qi.oninput = () => { dq = qi.value; draw(); };
+  bar.appendChild(qi);
+  body.appendChild(bar);
+  const list = el("div");
+  body.appendChild(list);
+  function draw(){
+    list.innerHTML = "";
+    const keys = Object.keys(OBJ).filter(h => !dq || h.includes(dq)).slice(0, 12);
+    if(!keys.length){ list.appendChild(el("div", "empty", "نویسه‌ای پیدا نشد")); return; }
+    keys.forEach(hz => {
+      const entries = OBJ[hz];
+      const card = el("div", "card");
+      card.appendChild(el("div", "toolbar", '<div class="main-txt"><div class="t1 zh" style="font-size:20px">' + esc(hz) + '</div><div class="t2">' + entries.length + ' معنی</div></div>'));
+      card.appendChild(fld("🇮🇷 معنی فارسی کلی (fa.json → کارت‌های واژه)", faM(hz), v => setFaM(hz, v)));
+      entries.forEach((e, ei) => {
+        const fs = el("fieldset");
+        fs.appendChild(el("legend", "", esc(e.p || "") + " · تُن " + (e.n != null ? e.n : "?") + (ei > 0 ? " (معنی " + (ei + 1) + ")" : "")));
+        (e.d || []).forEach((sense, di) => {
+          fs.appendChild(fld("معنی انگلیسی " + (di + 1), sense, v => { e.d[di] = v; TD(); }, {ltr: true}));
+        });
+        card.appendChild(fs);
+      });
+      list.appendChild(card);
+    });
+  }
+  draw();
+}
+
+/* ============================================================
+   BUILD / TASKS
+   ============================================================ */
+let taskTimers = {};
+function taskPanel(name, title, desc, runLabel){
+  const box = el("div", "taskbox");
+  const h = el("div", "toolbar");
+  h.innerHTML = '<div class="main-txt"><div class="t1">' + esc(title) + '</div><div class="t2">' + esc(desc) + '</div></div>';
+  const run = el("button", "btn", runLabel);
+  const st = el("span", "badge", "آماده");
+  h.append(st, run);
+  box.appendChild(h);
+  const log = el("div", "blog");
+  log.style.display = "none";
+  box.appendChild(log);
+  run.onclick = () => startTask(name);
+  return {box, run, st, log};
+}
+async function startTask(name){
+  if(taskTimers[name]) return;
+  const ok = confirm(name === "build" ?
+    "APK ساخته شود؟ (تغییرهای ذخیره‌شده در خروجی می‌آید)" :
+    "تمرین‌های درس‌ها بازتولید شود؟ (gen_units → splice → کپی به بیلد)");
+  if(!ok) return;
+  await fetch("/admin/api/run", {method:"POST", headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({task: name})}).then(r => r.json());
+  toast(name === "build" ? "ساخت APK آغاز شد…" : "بازسازی تمرین‌ها آغاز شد…");
+  pollTask(name);
+}
+function pollTask(name){
+  clearInterval(taskTimers[name]);
+  async function tick(){
+    let st;
+    try{ st = await apiGet("task_status?task=" + name + "&_t=" + Date.now()); }
+    catch(e){ return; }
+    const p = taskPanels[name];
+    if(!p) return;
+    if(st.running){
+      p.st.className = "badge warn";
+      p.st.textContent = "در حال اجرا… " + Math.round((st.elapsed || 0) / 1000) + "s";
+      p.log.style.display = "";
+      p.log.textContent = (st.log_tail || []).join("\n");
+      p.log.scrollTop = p.log.scrollHeight;
+    } else {
+      clearInterval(taskTimers[name]); taskTimers[name] = null;
+      if(st.done){
+        p.st.className = st.ok ? "badge acc" : "badge dang";
+        p.st.textContent = st.ok ? "✓ موفق" : "✗ ناموفق";
+        p.log.style.display = "";
+        p.log.textContent = (st.log_tail || []).join("\n");
+        p.log.scrollTop = p.log.scrollHeight;
+        if(st.ok) toast(name === "build" ? "APK ساخته شد ✓ — Chinify.apk" : "تمرین‌ها بازسازی شد ✓", "ok");
+        else toast(name === "build" ? "ساخت APK ناموفق — لاگ را ببین" : "بازسازی ناموفق — لاگ را ببین", "err");
+      }
+    }
+  }
+  taskTimers[name] = setInterval(tick, 1500);
+  tick();
+}
+const taskPanels = {};
+async function vBuild(){
+  body.innerHTML = "";
+  const head = viewhead("ساخت APK و پایش", "خروجی نصب‌شدنی و ابزارهای تولید محتوا");
+  body.appendChild(head);
+  const pb = taskPanel("build", "🔨 ساخت APK", "اسکریپت final_identity_apk.py — خروجی: chinify/Chinify.apk", "ساخت APK");
+  taskPanels.build = pb;
+  body.appendChild(pb.box);
+  const pu = taskPanel("units", "⚙ بازسازی تمرین‌های درس‌ها", "gen_units.py → splice_units.py → کپی به بیلد (unit-course.js)", "بازسازی");
+  taskPanels.units = pu;
+  body.appendChild(pu.box);
+  const note = el("div", "hint", "پایپ‌لاین تمرین‌ها: دادهٔ درس‌ها در <span class='ltr'>gen_data_a/b/c.py</span> اعتبارسنجی و به <span class='ltr'>js/unit-course.js</span> تزریق می‌شود. " +
+    "<b style='color:var(--warn)'>⚠ این پایپ‌لاین تمام یونیت‌های hsk1:1..14 را از gen_data از نو تولید می‌کند (خروجی rng دار است) و ویرایش‌های پنلی «ویرایشگر یونیت» را بازنویسی می‌کند — فقط وقتی از صفر می‌سازی اجرا کن.</b> " +
+    "برای ویرایش روزمره از «درس‌ها → ⚙ محتوای یونیت» استفاده کن.");
+  body.appendChild(note);
+  pollTask("build");
+  pollTask("units");
+}
+
+/* ============================================================
+   FILES / RAW / SEARCH
+   ============================================================ */
+async function vFiles(filter){
+  const tr = await apiGet("tree");
+  const full = await apiGet("tree_full");
+  body.innerHTML = "";
+  const head = viewhead("همهٔ فایل‌ها", "پیکربندی، اسکریپت‌ها و همهٔ JSONهای محتوا");
+  body.appendChild(head);
+  const bar = el("div", "searchrow");
+  const qi = document.createElement("input"); qi.type = "text"; qi.value = filter || ""; qi.placeholder = "فیلتر مسیر… (مثلا dict یا pods)";
+  qi.classList.add("ltr");
+  bar.appendChild(qi);
+  body.appendChild(bar);
+  const list = el("div");
+  body.appendChild(list);
+
+  function draw(){
+    list.innerHTML = "";
+    const f = (qi.value || "").trim().toLowerCase();
+    tr.tree.forEach(g => {
+      const files = g.files.filter(x => !f || x.path.toLowerCase().includes(f));
+      if(!files.length) return;
+      list.appendChild(el("div", "grp", esc(g.group)));
+      files.forEach(x => {
+        const d = el("div", "rowitem");
+        d.innerHTML = '<div class="main-txt"><div class="t1 ltr">' + esc(x.path) + '</div><div class="t2">' + fmtSize(x.size) + '</div></div>';
+        d.onclick = () => nav("raw/" + x.path);
+        list.appendChild(d);
+      });
+    });
+    const cf = full.files.filter(x => !f || x.toLowerCase().includes(f));
+    if(cf.length){
+      list.appendChild(el("div", "grp", "محتوا (content/**) — " + cf.length + " فایل"));
+      pager(list, cf, rel => {
+        const d = el("div", "rowitem");
+        d.innerHTML = '<div class="main-txt"><div class="t1 ltr">' + esc(rel) + '</div></div>';
+        d.onclick = () => nav("raw/" + rel);
+        list.appendChild(d);
+      }, 60);
+    }
+    if(!list.children.length) list.appendChild(el("div", "empty", "فایلی پیدا نشد"));
+  }
+  qi.oninput = draw;
+  draw();
+}
+async function vRaw(path){
+  const r = await apiFile(path);
+  if(r.error){ body.innerHTML = '<div class="hint">خطا: ' + esc(r.error) + '</div>'; return; }
+  const isJson = path.endsWith(".json");
+  const big = r.size > 250000;
+  let MODE = (isJson && r.parsed !== null && !big) ? "form" : "raw";
+  let OBJ = r.parsed;
+  let RAW = r.raw;
+  body.innerHTML = "";
+  const head = viewhead(path, fmtSize(r.size) + (isJson ? (r.parsed !== null ? " · JSON معتبر" : " · JSON خراب!") : ""));
+  backBtn(head, "→ همهٔ فایل‌ها", () => nav("files"));
+  // backups dropdown
+  const bk = el("button", "btn ghost sm", "پشتیبان‌ها");
+  const bkList = el("div");
+  bkList.style.display = "none";
+  bk.onclick = async () => {
+    if(bkList.style.display !== "none"){ bkList.style.display = "none"; return; }
+    bkList.innerHTML = "<div class='hint'>در حال خواندن…</div>";
+    bkList.style.display = "";
+    const bs = await apiGet("backups?path=" + enc(path));
+    bkList.innerHTML = "";
+    if(!bs.backups.length){ bkList.appendChild(el("div", "hint", "پشتیبانی نیست.")); return; }
+    bs.backups.forEach(b => {
+      const d = el("div", "rowitem");
+      d.innerHTML = '<div class="main-txt"><div class="t1 ltr">' + esc(b.name) + '</div><div class="t2">' + fmtSize(b.size) + " · " + new Date(b.mtime).toLocaleString("fa-IR") + '</div></div>';
+      const rb = el("button", "btn warnb sm", "بازگردانی");
+      rb.onclick = async () => {
+        if(!confirm("نسخهٔ «" + b.name + "» جایگزین فایل فعلی شود؟ (از فعلی هم پشتیبان گرفته می‌شود)")) return;
+        const rr = await fetch("/admin/api/restore", {method:"PUT", headers:{"Content-Type":"application/json"},
+          body: JSON.stringify({path: path, name: b.name})}).then(x => x.json());
+        if(rr.ok){ toast("بازگردانی شد ✓", "ok"); PEND = {}; route(); }
+        else toast("خطا: " + rr.error, "err");
+      };
+      d.appendChild(rb);
+      bkList.appendChild(d);
+    });
+  };
+  head.append(bk);
+  body.appendChild(head);
+  body.appendChild(bkList);
+
+  const bar = el("div", "toolbar");
+  if(isJson && OBJ !== null){
+    const bf = el("button", "btn gray sm", "فرم");
+    const br = el("button", "btn gray sm", "JSON خام");
+    const fmt = el("button", "btn gray sm", "فرمت‌کردن");
+    bf.onclick = () => { try{ OBJ = JSON.parse(ta.value); RAW = JSON.stringify(OBJ, null, 2); MODE = "form"; syncFormGlobals(); draw(); }catch(e){ toast("JSON نامعتبر: " + e.message, "err"); } };
+    br.onclick = () => { try{ RAW = JSON.stringify(OBJ, null, 2); }catch(e){} MODE = "raw"; draw(); };
+    fmt.onclick = () => {
+      try{
+        RAW = JSON.stringify(JSON.parse(ta.value), null, 2);
+        touchRaw(path, RAW); updateDirty();
+        MODE = "raw"; draw();
+        toast("فرمت شد ✓", "ok");
+      }catch(e){ toast("JSON نامعتبر: " + e.message, "err"); }
+    };
+    bar.append(bf, br, fmt);
+    if(MODE === "form") bf.style.background = "var(--acc-soft)", bf.style.color = "var(--acc)";
+    else br.style.background = "var(--acc-soft)", br.style.color = "var(--acc)";
+  }
+  body.appendChild(bar);
+  const holder = el("div");
+  body.appendChild(holder);
+  let ta;
+  function syncFormGlobals(){ CURRAWPATH = path; CURRAWOBJ = OBJ; RERENDER_FORM = () => { holder.innerHTML = ""; const f = el("div", "card"); renderValue(CURRAWOBJ, f, [], true); holder.appendChild(f); }; }
+  function draw(){
+    holder.innerHTML = "";
+    if(MODE === "form"){
+      syncFormGlobals();
+      const f = el("div", "card");
+      renderValue(OBJ, f, [], true);
+      holder.appendChild(f);
+    } else {
+      ta = document.createElement("textarea");
+      ta.className = "raw";
+      ta.value = RAW;
+      ta.oninput = () => { RAW = ta.value; touchRaw(path, RAW); updateDirty(); };
+      holder.appendChild(ta);
+    }
+  }
+  draw();
+}
+/* recursive form renderer (for small JSONs in raw view) */
+let CURRAWPATH = "", CURRAWOBJ = null, RERENDER_FORM = null;
+function renderValue(v, box, path, root){
+  const t = typeof v;
+  if(v === null || t === "string" || t === "number" || t === "boolean"){
+    const w = el("div", "fld");
+    w.appendChild(el("label", "ltr", esc(path.join("."))));
+    if(t === "string" && v.length > 60){
+      const ta = document.createElement("textarea");
+      ta.value = v; ta.classList.add("ltr");
+      ta.oninput = () => { setPath(path, ta.value); };
+      w.appendChild(ta);
+    } else {
+      const i = document.createElement("input");
+      i.type = t === "number" ? "number" : "text";
+      i.value = v; i.classList.add("ltr");
+      i.oninput = () => setPath(path, t === "number" ? (isNaN(+i.value) ? i.value : +i.value) : i.value);
+      w.appendChild(i);
+    }
+    box.appendChild(w);
+    return;
+  }
+  const fs = el("fieldset");
+  fs.appendChild(el("legend", "ltr", esc(path.length ? path.join(".") : "ریشه")));
+  if(Array.isArray(v)){
+    v.forEach((item, i) => {
+      const rw = el("div", "");
+      const del = el("button", "del", "حذف");
+      del.onclick = () => { v.splice(i, 1); touchRaw(CURRAWPATH, JSON.stringify(CURRAWOBJ)); updateDirty(); if(RERENDER_FORM) RERENDER_FORM(); };
+      rw.appendChild(del);
+      renderValue(item, rw, path.concat(i), false);
+      fs.appendChild(rw);
+    });
+    const add = el("button", "add", "＋ افزودن مورد");
+    add.onclick = () => {
+      v.push(typeof v[0] === "object" && v[0] && !Array.isArray(v[0]) ? {} : (Array.isArray(v[0]) ? [] : ""));
+      touchRaw(CURRAWPATH, JSON.stringify(CURRAWOBJ)); updateDirty();
+      if(RERENDER_FORM) RERENDER_FORM();
+    };
+    fs.appendChild(add);
+  } else {
+    Object.keys(v).forEach(k => renderValue(v[k], fs, path.concat(k), false));
+  }
+  box.appendChild(fs);
+}
+function setPath(path, val){
+  let o = CURRAWOBJ;
+  for(let i = 0; i < path.length - 1; i++) o = o[path[i]];
+  o[path[path.length - 1]] = val;
+  touchRaw(CURRAWPATH, JSON.stringify(CURRAWOBJ));
+  updateDirty();
+}
+
+/* ---------- search ---------- */
+async function vSearch(q){
+  q = q || "";
+  body.innerHTML = "";
+  const head = viewhead("جستجو در محتوا", "همهٔ JSONهای محتوا + i18n-fa.js");
+  body.appendChild(head);
+  const bar = el("div", "searchrow");
+  const qi = document.createElement("input"); qi.type = "text"; qi.value = q; qi.placeholder = "متن برای جستجو (فارسی/انگلیسی/چینی)…";
+  bar.appendChild(qi);
+  body.appendChild(bar);
+  const list = el("div");
+  body.appendChild(list);
+  async function run(){
+    if(!qi.value.trim()){ list.innerHTML = ""; return; }
+    list.innerHTML = "<div class='hint'>در حال جستجو…</div>";
+    const r = await apiGet("search?q=" + enc(qi.value) + "&_t=" + Date.now());
+    list.innerHTML = "";
+    list.appendChild(el("div", "hint", r.results.length ? (r.results.length + " فایل یافت شد — برای ویرایش کلیک کن:") : "چیزی پیدا نشد."));
+    r.results.forEach(res => {
+      const d = el("div", "sres");
+      d.innerHTML = '<div class="f">' + esc(res.file) + '</div>' + res.hits.map(hh => '<div class="h">' + esc(hh) + '</div>').join("");
+      d.onclick = () => nav("raw/" + res.file);
+      list.appendChild(d);
+    });
+  }
+  qi.oninput = debounce(run, 400);
+  if(q) { qi.value = q; run(); }
+}
+function debounce(fn, ms){
+  let t;
+  return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
+}
+
+/* ============================================================
+   BOOT
+   ============================================================ */
+function buildNav(){
+  const nv = $("#nav");
+  nv.innerHTML = "";
+  NAV.forEach(item => {
+    if(item.grp){
+      nv.appendChild(el("div", "grp", esc(item.grp)));
+      return;
+    }
+    const b = el("button", "nitem");
+    b.dataset.id = item.id;
+    b.innerHTML = ICONS[item.icon] + "<span>" + esc(item.label) + '</span><span class="cnt">' + (item.cnt ? item.cnt() : "") + "</span>";
+    b.onclick = () => { nav(item.id); };
+    nv.appendChild(b);
+  });
+}
+$("#gq").addEventListener("keydown", e => {
+  if(e.key === "Enter" && $("#gq").value.trim()) nav("search/" + enc($("#gq").value.trim()));
+});
+(async function boot(){
+  buildNav();
+  apiGet("stats").then(s => { STATS = s; buildNav(); $("#sfVer").textContent = "بیلد: " + (s.swCache || "?"); }).catch(() => {});
+  route();
+})();
+</script>
+</body>
+</html>

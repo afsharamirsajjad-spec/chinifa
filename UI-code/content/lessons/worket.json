@@ -1,0 +1,3128 @@
+{
+  "id": "worket",
+  "name": "Chinese for Work",
+  "level": "150 topics",
+  "glyph": "工",
+  "cats": [
+    {
+      "no": 1,
+      "title": "Boss and staff",
+      "titleZh": "老板与员工",
+      "from": 1,
+      "to": 10
+    },
+    {
+      "no": 2,
+      "title": "Company rules",
+      "titleZh": "公司规章制度",
+      "from": 11,
+      "to": 18
+    },
+    {
+      "no": 3,
+      "title": "Safety and production",
+      "titleZh": "工厂安全与生产",
+      "from": 19,
+      "to": 25
+    },
+    {
+      "no": 4,
+      "title": "Pay, tax and money",
+      "titleZh": "工资、税务与财务",
+      "from": 26,
+      "to": 35
+    },
+    {
+      "no": 5,
+      "title": "Business and government",
+      "titleZh": "商务与政府事务",
+      "from": 36,
+      "to": 45
+    },
+    {
+      "no": 6,
+      "title": "A translator's day",
+      "titleZh": "翻译的日常",
+      "from": 46,
+      "to": 60
+    },
+    {
+      "no": 7,
+      "title": "On the factory floor",
+      "titleZh": "车间生产",
+      "from": 61,
+      "to": 75
+    },
+    {
+      "no": 8,
+      "title": "Building site",
+      "titleZh": "工地和工程",
+      "from": 76,
+      "to": 87
+    },
+    {
+      "no": 9,
+      "title": "Warehouse and delivery",
+      "titleZh": "仓库与物流",
+      "from": 88,
+      "to": 97
+    },
+    {
+      "no": 10,
+      "title": "Office and admin",
+      "titleZh": "办公室和行政",
+      "from": 98,
+      "to": 107
+    },
+    {
+      "no": 11,
+      "title": "Customers and sales",
+      "titleZh": "客户与生意",
+      "from": 108,
+      "to": 119
+    },
+    {
+      "no": 12,
+      "title": "Staff life and HR",
+      "titleZh": "人事与员工生活",
+      "from": 120,
+      "to": 131
+    },
+    {
+      "no": 13,
+      "title": "Working with Chinese colleagues",
+      "titleZh": "跟中国人相处",
+      "from": 132,
+      "to": 141
+    },
+    {
+      "no": 14,
+      "title": "Trips and travel",
+      "titleZh": "出差和外出",
+      "from": 142,
+      "to": 150
+    }
+  ],
+  "lessons": [
+    {
+      "no": "001",
+      "title": "Giving out work",
+      "titleZh": "安排工作",
+      "scene": "王总的办公室",
+      "cat": 1,
+      "free": true,
+      "words": [
+        {
+          "ch": "订单",
+          "py": "dìng dān",
+          "en": "(purchase) order"
+        },
+        {
+          "ch": "整理",
+          "py": "zhěng lǐ",
+          "en": "to sort out"
+        },
+        {
+          "ch": "车间",
+          "py": "chē jiān",
+          "en": "workshop"
+        },
+        {
+          "ch": "几点",
+          "py": "jǐ diǎn",
+          "en": "what time?"
+        },
+        {
+          "ch": "以前",
+          "py": "yǐ qián",
+          "en": "before"
+        },
+        {
+          "ch": "这些",
+          "py": "zhè xiē",
+          "en": "these"
+        }
+      ],
+      "titleFa": "Giving out work"
+    },
+    {
+      "no": "002",
+      "title": "Job duties",
+      "titleZh": "工作职责",
+      "scene": "车间，一台机器旁边",
+      "cat": 1,
+      "free": false,
+      "words": [
+        {
+          "ch": "主要",
+          "py": "zhǔ yào",
+          "en": "main"
+        },
+        {
+          "ch": "负责",
+          "py": "fù zé",
+          "en": "to be responsible for"
+        },
+        {
+          "ch": "机器",
+          "py": "jī qì",
+          "en": "machine"
+        },
+        {
+          "ch": "检查",
+          "py": "jiǎn chá",
+          "en": "inspection"
+        },
+        {
+          "ch": "上班",
+          "py": "shàng bān",
+          "en": "to start work"
+        },
+        {
+          "ch": "下班",
+          "py": "xià bān",
+          "en": "to finish work"
+        }
+      ],
+      "titleFa": "Job duties"
+    },
+    {
+      "no": "003",
+      "title": "Deadlines",
+      "titleZh": "工作期限",
+      "scene": "王总的办公室",
+      "cat": 1,
+      "free": false,
+      "words": [
+        {
+          "ch": "这个",
+          "py": "zhè ge",
+          "en": "(pronoun) this"
+        },
+        {
+          "ch": "报告",
+          "py": "bào gào",
+          "en": "to report"
+        },
+        {
+          "ch": "可以",
+          "py": "kě yǐ",
+          "en": "can"
+        },
+        {
+          "ch": "以前",
+          "py": "yǐ qián",
+          "en": "before"
+        },
+        {
+          "ch": "时间",
+          "py": "shí jiān",
+          "en": "(concept of) time"
+        },
+        {
+          "ch": "困难",
+          "py": "kùn nan",
+          "en": "difficult"
+        }
+      ],
+      "titleFa": "Deadlines"
+    },
+    {
+      "no": "004",
+      "title": "Asking for leave",
+      "titleZh": "请假",
+      "scene": "王总的办公室门口",
+      "cat": 1,
+      "free": false,
+      "words": [
+        {
+          "ch": "孩子",
+          "py": "hái zi",
+          "en": "child"
+        },
+        {
+          "ch": "生病",
+          "py": "shēng bìng",
+          "en": "to fall ill"
+        },
+        {
+          "ch": "记得",
+          "py": "jì de",
+          "en": "to remember"
+        },
+        {
+          "ch": "请假",
+          "py": "qǐng jià",
+          "en": "to request leave of absence"
+        },
+        {
+          "ch": "什么事",
+          "py": "shén me shì",
+          "en": "What's up?"
+        },
+        {
+          "ch": "假",
+          "py": "jià",
+          "en": "vacation"
+        }
+      ],
+      "titleFa": "Asking for leave"
+    },
+    {
+      "no": "005",
+      "title": "Late for work",
+      "titleZh": "上班迟到",
+      "scene": "工厂大门口，早上",
+      "cat": 1,
+      "free": false,
+      "words": [
+        {
+          "ch": "几点",
+          "py": "jǐ diǎn",
+          "en": "what time?"
+        },
+        {
+          "ch": "堵车",
+          "py": "dǔ chē",
+          "en": "traffic jam"
+        },
+        {
+          "ch": "这个",
+          "py": "zhè ge",
+          "en": "(pronoun) this"
+        },
+        {
+          "ch": "已经",
+          "py": "yǐ jīng",
+          "en": "already"
+        },
+        {
+          "ch": "迟到",
+          "py": "chí dào",
+          "en": "to arrive late"
+        },
+        {
+          "ch": "工资",
+          "py": "gōng zī",
+          "en": "wages"
+        }
+      ],
+      "titleFa": "Late for work"
+    },
+    {
+      "no": "006",
+      "title": "Overtime",
+      "titleZh": "加班",
+      "scene": "王总的办公室，下午",
+      "cat": 1,
+      "free": false,
+      "words": [
+        {
+          "ch": "晚上",
+          "py": "wǎn shang",
+          "en": "evening"
+        },
+        {
+          "ch": "加班",
+          "py": "jiā bān",
+          "en": "to work overtime"
+        },
+        {
+          "ch": "订单",
+          "py": "dìng dān",
+          "en": "(purchase) order"
+        },
+        {
+          "ch": "几点",
+          "py": "jǐ diǎn",
+          "en": "what time?"
+        },
+        {
+          "ch": "左右",
+          "py": "zuǒ yòu",
+          "en": "left and right"
+        },
+        {
+          "ch": "加班费",
+          "py": "jiā bān fèi",
+          "en": "overtime pay"
+        }
+      ],
+      "titleFa": "Overtime"
+    },
+    {
+      "no": "007",
+      "title": "Doing a good job",
+      "titleZh": "员工工作表现",
+      "scene": "车间",
+      "cat": 1,
+      "free": false,
+      "words": [
+        {
+          "ch": "这个",
+          "py": "zhè ge",
+          "en": "(pronoun) this"
+        },
+        {
+          "ch": "速度",
+          "py": "sù dù",
+          "en": "speed"
+        },
+        {
+          "ch": "组长",
+          "py": "zǔ zhǎng",
+          "en": "group leader"
+        },
+        {
+          "ch": "一定",
+          "py": "yī dìng",
+          "en": "surely"
+        },
+        {
+          "ch": "工资",
+          "py": "gōng zī",
+          "en": "wages"
+        },
+        {
+          "ch": "得很",
+          "py": "de hěn",
+          "en": "(after an adjective) very"
+        }
+      ],
+      "titleFa": "Doing a good job"
+    },
+    {
+      "no": "008",
+      "title": "A warning",
+      "titleZh": "警告员工",
+      "scene": "车间",
+      "cat": 1,
+      "free": false,
+      "words": [
+        {
+          "ch": "上班",
+          "py": "shàng bān",
+          "en": "to go to work"
+        },
+        {
+          "ch": "手机",
+          "py": "shǒu jī",
+          "en": "cell phone"
+        },
+        {
+          "ch": "消息",
+          "py": "xiāo xi",
+          "en": "message"
+        },
+        {
+          "ch": "可以",
+          "py": "kě yǐ",
+          "en": "can"
+        },
+        {
+          "ch": "告诉",
+          "py": "gào su",
+          "en": "to tell"
+        },
+        {
+          "ch": "组长",
+          "py": "zǔ zhǎng",
+          "en": "group leader"
+        }
+      ],
+      "titleFa": "A warning"
+    },
+    {
+      "no": "009",
+      "title": "Hiring new staff",
+      "titleZh": "招聘新员工",
+      "scene": "王总的办公室",
+      "cat": 1,
+      "free": false,
+      "words": [
+        {
+          "ch": "工人",
+          "py": "gōng rén",
+          "en": "worker"
+        },
+        {
+          "ch": "要求",
+          "py": "yāo qiú",
+          "en": "to require"
+        },
+        {
+          "ch": "身体",
+          "py": "shēn tǐ",
+          "en": "one's health"
+        },
+        {
+          "ch": "工资",
+          "py": "gōng zī",
+          "en": "wages"
+        },
+        {
+          "ch": "然后",
+          "py": "rán hòu",
+          "en": "then"
+        },
+        {
+          "ch": "招聘",
+          "py": "zhāo pìn",
+          "en": "to invite applications for a job"
+        }
+      ],
+      "titleFa": "Hiring new staff"
+    },
+    {
+      "no": "010",
+      "title": "Letting someone go",
+      "titleZh": "解雇员工",
+      "scene": "王总的办公室",
+      "cat": 1,
+      "free": false,
+      "words": [
+        {
+          "ch": "那个",
+          "py": "nà ge",
+          "en": "that one"
+        },
+        {
+          "ch": "工人",
+          "py": "gōng rén",
+          "en": "worker"
+        },
+        {
+          "ch": "上班",
+          "py": "shàng bān",
+          "en": "to go to work"
+        },
+        {
+          "ch": "电话",
+          "py": "diàn huà",
+          "en": "phone call"
+        },
+        {
+          "ch": "打不通",
+          "py": "dǎ bu tōng",
+          "en": "cannot get through (on phone)"
+        },
+        {
+          "ch": "合同",
+          "py": "hé tong",
+          "en": "contract"
+        }
+      ],
+      "titleFa": "Letting someone go"
+    },
+    {
+      "no": "011",
+      "title": "Company rules",
+      "titleZh": "公司规定",
+      "scene": "车间门口的走廊",
+      "cat": 2,
+      "free": true,
+      "words": [
+        {
+          "ch": "公司",
+          "py": "gōng sī",
+          "en": "company"
+        },
+        {
+          "ch": "车间",
+          "py": "chē jiān",
+          "en": "workshop"
+        },
+        {
+          "ch": "抽烟",
+          "py": "chōu yān",
+          "en": "to smoke (tobacco)"
+        },
+        {
+          "ch": "可以",
+          "py": "kě yǐ",
+          "en": "can"
+        },
+        {
+          "ch": "告诉",
+          "py": "gào su",
+          "en": "to tell"
+        },
+        {
+          "ch": "大家",
+          "py": "dà jiā",
+          "en": "everyone"
+        }
+      ],
+      "titleFa": "Company rules"
+    },
+    {
+      "no": "012",
+      "title": "Discipline at work",
+      "titleZh": "工作纪律",
+      "scene": "工厂的车间",
+      "cat": 2,
+      "free": false,
+      "words": [
+        {
+          "ch": "个人",
+          "py": "ge rén",
+          "en": "an individual"
+        },
+        {
+          "ch": "请假",
+          "py": "qǐng jià",
+          "en": "to request leave of absence"
+        },
+        {
+          "ch": "公司",
+          "py": "gōng sī",
+          "en": "company"
+        },
+        {
+          "ch": "纪律",
+          "py": "jì lǜ",
+          "en": "discipline"
+        },
+        {
+          "ch": "一样",
+          "py": "yī yàng",
+          "en": "same"
+        },
+        {
+          "ch": "你们",
+          "py": "nǐ men",
+          "en": "you (plural)"
+        }
+      ],
+      "titleFa": "Discipline at work"
+    },
+    {
+      "no": "013",
+      "title": "Clocking in on time",
+      "titleZh": "考勤和准时",
+      "scene": "工厂大门里面",
+      "cat": 2,
+      "free": false,
+      "words": [
+        {
+          "ch": "打卡",
+          "py": "dǎ kǎ",
+          "en": "(of an employee) to clock on (or off)"
+        },
+        {
+          "ch": "系统",
+          "py": "xì tǒng",
+          "en": "system"
+        },
+        {
+          "ch": "迟到",
+          "py": "chí dào",
+          "en": "to arrive late"
+        },
+        {
+          "ch": "一下",
+          "py": "yī xià",
+          "en": "(after a verb) a bit"
+        },
+        {
+          "ch": "一定",
+          "py": "yī dìng",
+          "en": "surely"
+        },
+        {
+          "ch": "记得",
+          "py": "jì de",
+          "en": "to remember"
+        }
+      ],
+      "titleFa": "Clocking in on time"
+    },
+    {
+      "no": "014",
+      "title": "Rights and duties",
+      "titleZh": "员工权利和责任",
+      "scene": "",
+      "cat": 2,
+      "free": false,
+      "words": [],
+      "titleFa": "Rights and duties"
+    },
+    {
+      "no": "015",
+      "title": "Trouble at work",
+      "titleZh": "工作冲突",
+      "scene": "",
+      "cat": 2,
+      "free": false,
+      "words": [],
+      "titleFa": "Trouble at work"
+    },
+    {
+      "no": "016",
+      "title": "The employment contract",
+      "titleZh": "劳动合同",
+      "scene": "",
+      "cat": 2,
+      "free": false,
+      "words": [],
+      "titleFa": "The employment contract"
+    },
+    {
+      "no": "017",
+      "title": "Resigning",
+      "titleZh": "辞职",
+      "scene": "",
+      "cat": 2,
+      "free": false,
+      "words": [],
+      "titleFa": "Resigning"
+    },
+    {
+      "no": "018",
+      "title": "A complaint from staff",
+      "titleZh": "员工投诉",
+      "scene": "",
+      "cat": 2,
+      "free": false,
+      "words": [],
+      "titleFa": "A complaint from staff"
+    },
+    {
+      "no": "019",
+      "title": "Safety at work",
+      "titleZh": "工作安全",
+      "scene": "工厂的车间",
+      "cat": 3,
+      "free": true,
+      "words": [
+        {
+          "ch": "早上",
+          "py": "zǎo shang",
+          "en": "early morning"
+        },
+        {
+          "ch": "工人",
+          "py": "gōng rén",
+          "en": "worker"
+        },
+        {
+          "ch": "一下",
+          "py": "yī xià",
+          "en": "(after a verb) a bit"
+        },
+        {
+          "ch": "安全",
+          "py": "ān quán",
+          "en": "safe"
+        },
+        {
+          "ch": "机器",
+          "py": "jī qì",
+          "en": "machine"
+        },
+        {
+          "ch": "地方",
+          "py": "dì fang",
+          "en": "place"
+        }
+      ],
+      "titleFa": "Safety at work"
+    },
+    {
+      "no": "020",
+      "title": "Machine safety rules",
+      "titleZh": "机器安全规定",
+      "scene": "工厂的车间",
+      "cat": 3,
+      "free": false,
+      "words": [
+        {
+          "ch": "以前",
+          "py": "yǐ qián",
+          "en": "before"
+        },
+        {
+          "ch": "检查",
+          "py": "jiǎn chá",
+          "en": "inspection"
+        },
+        {
+          "ch": "一下",
+          "py": "yī xià",
+          "en": "(after a verb) a bit"
+        },
+        {
+          "ch": "这个",
+          "py": "zhè ge",
+          "en": "(pronoun) this"
+        },
+        {
+          "ch": "危险",
+          "py": "wēi xiǎn",
+          "en": "danger"
+        },
+        {
+          "ch": "马上",
+          "py": "mǎ shàng",
+          "en": "at once"
+        }
+      ],
+      "titleFa": "Machine safety rules"
+    },
+    {
+      "no": "021",
+      "title": "Protective gear",
+      "titleZh": "防护用品",
+      "scene": "工厂的车间",
+      "cat": 3,
+      "free": false,
+      "words": [
+        {
+          "ch": "手套",
+          "py": "shǒu tào",
+          "en": "glove"
+        },
+        {
+          "ch": "受伤",
+          "py": "shòu shāng",
+          "en": "to sustain injuries"
+        },
+        {
+          "ch": "麻烦",
+          "py": "má fan",
+          "en": "trouble"
+        },
+        {
+          "ch": "眼镜",
+          "py": "yǎn jìng",
+          "en": "spectacles"
+        },
+        {
+          "ch": "口罩",
+          "py": "kǒu zhào",
+          "en": "mask (surgical etc)"
+        },
+        {
+          "ch": "那边",
+          "py": "nà biān",
+          "en": "over there"
+        }
+      ],
+      "titleFa": "Protective gear"
+    },
+    {
+      "no": "022",
+      "title": "A machine breaks down",
+      "titleZh": "机器故障",
+      "scene": "",
+      "cat": 3,
+      "free": false,
+      "words": [],
+      "titleFa": "A machine breaks down"
+    },
+    {
+      "no": "023",
+      "title": "Reporting an accident",
+      "titleZh": "报告事故",
+      "scene": "",
+      "cat": 3,
+      "free": false,
+      "words": [],
+      "titleFa": "Reporting an accident"
+    },
+    {
+      "no": "024",
+      "title": "Fire safety",
+      "titleZh": "消防安全",
+      "scene": "",
+      "cat": 3,
+      "free": false,
+      "words": [],
+      "titleFa": "Fire safety"
+    },
+    {
+      "no": "025",
+      "title": "Water and power",
+      "titleZh": "水电供应",
+      "scene": "",
+      "cat": 3,
+      "free": false,
+      "words": [],
+      "titleFa": "Water and power"
+    },
+    {
+      "no": "026",
+      "title": "Asking for a raise",
+      "titleZh": "工资谈判",
+      "scene": "工厂里王总的办公室",
+      "cat": 4,
+      "free": true,
+      "words": [
+        {
+          "ch": "工资",
+          "py": "gōng zī",
+          "en": "wages"
+        },
+        {
+          "ch": "公司",
+          "py": "gōng sī",
+          "en": "company"
+        },
+        {
+          "ch": "可以",
+          "py": "kě yǐ",
+          "en": "can"
+        },
+        {
+          "ch": "考虑",
+          "py": "kǎo lǜ",
+          "en": "to think over"
+        },
+        {
+          "ch": "一下",
+          "py": "yī xià",
+          "en": "(after a verb) a bit"
+        },
+        {
+          "ch": "答复",
+          "py": "dá fù",
+          "en": "to answer"
+        }
+      ],
+      "titleFa": "Asking for a raise"
+    },
+    {
+      "no": "027",
+      "title": "Payday",
+      "titleZh": "发工资",
+      "scene": "车间旁边的休息区",
+      "cat": 4,
+      "free": false,
+      "words": [
+        {
+          "ch": "这个",
+          "py": "zhè ge",
+          "en": "(pronoun) this"
+        },
+        {
+          "ch": "工资",
+          "py": "gōng zī",
+          "en": "wages"
+        },
+        {
+          "ch": "银行卡",
+          "py": "yín háng kǎ",
+          "en": "bank card"
+        },
+        {
+          "ch": "手机",
+          "py": "shǒu jī",
+          "en": "cell phone"
+        },
+        {
+          "ch": "短信",
+          "py": "duǎn xìn",
+          "en": "text message"
+        },
+        {
+          "ch": "办公室",
+          "py": "bàn gōng shì",
+          "en": "office"
+        }
+      ],
+      "titleFa": "Payday"
+    },
+    {
+      "no": "028",
+      "title": "Deductions from pay",
+      "titleZh": "工资扣除",
+      "scene": "办公室里塞兰的办公桌",
+      "cat": 4,
+      "free": false,
+      "words": [
+        {
+          "ch": "工资",
+          "py": "gōng zī",
+          "en": "wages"
+        },
+        {
+          "ch": "一下",
+          "py": "yī xià",
+          "en": "(after a verb) a bit"
+        },
+        {
+          "ch": "这个",
+          "py": "zhè ge",
+          "en": "(pronoun) this"
+        },
+        {
+          "ch": "迟到",
+          "py": "chí dào",
+          "en": "to arrive late"
+        },
+        {
+          "ch": "明白",
+          "py": "míng bai",
+          "en": "clear"
+        },
+        {
+          "ch": "这里",
+          "py": "zhè lǐ",
+          "en": "here"
+        }
+      ],
+      "titleFa": "Deductions from pay"
+    },
+    {
+      "no": "029",
+      "title": "Income tax",
+      "titleZh": "所得税",
+      "scene": "",
+      "cat": 4,
+      "free": false,
+      "words": [],
+      "titleFa": "Income tax"
+    },
+    {
+      "no": "030",
+      "title": "Customs duties",
+      "titleZh": "海关税费",
+      "scene": "",
+      "cat": 4,
+      "free": false,
+      "words": [],
+      "titleFa": "Customs duties"
+    },
+    {
+      "no": "031",
+      "title": "Business licence",
+      "titleZh": "营业执照",
+      "scene": "",
+      "cat": 4,
+      "free": false,
+      "words": [],
+      "titleFa": "Business licence"
+    },
+    {
+      "no": "032",
+      "title": "Investing in Ethiopia",
+      "titleZh": "在埃塞俄比亚投资",
+      "scene": "",
+      "cat": 4,
+      "free": false,
+      "words": [],
+      "titleFa": "Investing in Ethiopia"
+    },
+    {
+      "no": "033",
+      "title": "Insurance",
+      "titleZh": "保险",
+      "scene": "",
+      "cat": 4,
+      "free": false,
+      "words": [],
+      "titleFa": "Insurance"
+    },
+    {
+      "no": "034",
+      "title": "Injury compensation",
+      "titleZh": "工伤赔偿",
+      "scene": "",
+      "cat": 4,
+      "free": false,
+      "words": [],
+      "titleFa": "Injury compensation"
+    },
+    {
+      "no": "035",
+      "title": "Water and power bills",
+      "titleZh": "水电费",
+      "scene": "",
+      "cat": 4,
+      "free": false,
+      "words": [],
+      "titleFa": "Water and power bills"
+    },
+    {
+      "no": "036",
+      "title": "Renewing the business licence",
+      "titleZh": "营业执照续期",
+      "scene": "工厂里王总的办公室",
+      "cat": 5,
+      "free": true,
+      "words": [
+        {
+          "ch": "营业",
+          "py": "yíng yè",
+          "en": "to do business"
+        },
+        {
+          "ch": "执照",
+          "py": "zhí zhào",
+          "en": "license"
+        },
+        {
+          "ch": "准备",
+          "py": "zhǔn bèi",
+          "en": "preparation"
+        },
+        {
+          "ch": "材料",
+          "py": "cái liào",
+          "en": "(raw) material"
+        },
+        {
+          "ch": "公司",
+          "py": "gōng sī",
+          "en": "company"
+        },
+        {
+          "ch": "清楚",
+          "py": "qīng chu",
+          "en": "clear"
+        }
+      ],
+      "titleFa": "Renewing the business licence"
+    },
+    {
+      "no": "037",
+      "title": "Importing machines",
+      "titleZh": "进口机器",
+      "scene": "工厂里王总的办公室",
+      "cat": 5,
+      "free": false,
+      "words": [
+        {
+          "ch": "机器",
+          "py": "jī qì",
+          "en": "machine"
+        },
+        {
+          "ch": "大概",
+          "py": "dà gài",
+          "en": "about"
+        },
+        {
+          "ch": "进口",
+          "py": "jìn kǒu",
+          "en": "to import"
+        },
+        {
+          "ch": "一下",
+          "py": "yī xià",
+          "en": "(after a verb) a bit"
+        },
+        {
+          "ch": "海关",
+          "py": "hǎi guān",
+          "en": "customs (i.e. border crossing inspection"
+        },
+        {
+          "ch": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        }
+      ],
+      "titleFa": "Importing machines"
+    },
+    {
+      "no": "038",
+      "title": "Customs clearance",
+      "titleZh": "海关清关",
+      "scene": "工厂里王总的办公室",
+      "cat": 5,
+      "free": false,
+      "words": [
+        {
+          "ch": "机器",
+          "py": "jī qì",
+          "en": "machine"
+        },
+        {
+          "ch": "港口",
+          "py": "gǎng kǒu",
+          "en": "port"
+        },
+        {
+          "ch": "清关",
+          "py": "qīng guān",
+          "en": "customs clearance"
+        },
+        {
+          "ch": "海关",
+          "py": "hǎi guān",
+          "en": "customs (i.e. border crossing inspection"
+        },
+        {
+          "ch": "马上",
+          "py": "mǎ shàng",
+          "en": "right away"
+        },
+        {
+          "ch": "什么时候",
+          "py": "shén me shí hou",
+          "en": "when?"
+        }
+      ],
+      "titleFa": "Customs clearance"
+    },
+    {
+      "no": "039",
+      "title": "Import and export papers",
+      "titleZh": "进出口文件",
+      "scene": "",
+      "cat": 5,
+      "free": false,
+      "words": [],
+      "titleFa": "Import and export papers"
+    },
+    {
+      "no": "040",
+      "title": "A government inspection",
+      "titleZh": "政府检查",
+      "scene": "",
+      "cat": 5,
+      "free": false,
+      "words": [],
+      "titleFa": "A government inspection"
+    },
+    {
+      "no": "041",
+      "title": "Registering a company",
+      "titleZh": "公司注册",
+      "scene": "",
+      "cat": 5,
+      "free": false,
+      "words": [],
+      "titleFa": "Registering a company"
+    },
+    {
+      "no": "042",
+      "title": "Investment permit",
+      "titleZh": "投资许可证",
+      "scene": "",
+      "cat": 5,
+      "free": false,
+      "words": [],
+      "titleFa": "Investment permit"
+    },
+    {
+      "no": "043",
+      "title": "Meeting officials",
+      "titleZh": "会见政府官员",
+      "scene": "",
+      "cat": 5,
+      "free": false,
+      "words": [],
+      "titleFa": "Meeting officials"
+    },
+    {
+      "no": "044",
+      "title": "Paying government fees",
+      "titleZh": "缴纳政府费用",
+      "scene": "",
+      "cat": 5,
+      "free": false,
+      "words": [],
+      "titleFa": "Paying government fees"
+    },
+    {
+      "no": "045",
+      "title": "Settling a business dispute",
+      "titleZh": "解决商业纠纷",
+      "scene": "",
+      "cat": 5,
+      "free": false,
+      "words": [],
+      "titleFa": "Settling a business dispute"
+    },
+    {
+      "no": "046",
+      "title": "First day as a translator",
+      "titleZh": "第一天当翻译",
+      "scene": "工厂里王总的办公室",
+      "cat": 6,
+      "free": true,
+      "words": [
+        {
+          "ch": "翻译",
+          "py": "fān yì",
+          "en": "translator"
+        },
+        {
+          "ch": "中文",
+          "py": "zhōng wén",
+          "en": "Chinese language"
+        },
+        {
+          "ch": "工人",
+          "py": "gōng rén",
+          "en": "worker"
+        },
+        {
+          "ch": "没问题",
+          "py": "méi wèn tí",
+          "en": "no problem"
+        },
+        {
+          "ch": "欢迎",
+          "py": "huān yíng",
+          "en": "to welcome"
+        },
+        {
+          "ch": "得很",
+          "py": "de hěn",
+          "en": "(after an adjective) very"
+        }
+      ],
+      "titleFa": "First day as a translator"
+    },
+    {
+      "no": "047",
+      "title": "Sorry, could you say that again?",
+      "titleZh": "没听懂，请再说一遍",
+      "scene": "工厂的车间",
+      "cat": 6,
+      "free": false,
+      "words": [
+        {
+          "ch": "不好意思",
+          "py": "bù hǎo yì si",
+          "en": "to be sorry (for inconveniencing sb)"
+        },
+        {
+          "ch": "明白",
+          "py": "míng bai",
+          "en": "clear"
+        },
+        {
+          "ch": "这个",
+          "py": "zhè ge",
+          "en": "(pronoun) this"
+        },
+        {
+          "ch": "意思",
+          "py": "yì si",
+          "en": "idea"
+        },
+        {
+          "ch": "换成",
+          "py": "huàn chéng",
+          "en": "to exchange (sth) for (sth else)"
+        },
+        {
+          "ch": "深蓝",
+          "py": "shēn lán",
+          "en": "dark blue"
+        }
+      ],
+      "titleFa": "Sorry, could you say that again?"
+    },
+    {
+      "no": "048",
+      "title": "Making a call for the boss",
+      "titleZh": "帮老板打电话",
+      "scene": "工厂里王总的办公室",
+      "cat": 6,
+      "free": false,
+      "words": [
+        {
+          "ch": "公司",
+          "py": "gōng sī",
+          "en": "company"
+        },
+        {
+          "ch": "电话",
+          "py": "diàn huà",
+          "en": "phone call"
+        },
+        {
+          "ch": "为什么",
+          "py": "wèi shén me",
+          "en": "why?"
+        },
+        {
+          "ch": "停电",
+          "py": "tíng diàn",
+          "en": "to have a power failure"
+        },
+        {
+          "ch": "说明",
+          "py": "shuō míng",
+          "en": "to explain"
+        },
+        {
+          "ch": "几点",
+          "py": "jǐ diǎn",
+          "en": "when?"
+        }
+      ],
+      "titleFa": "Making a call for the boss"
+    },
+    {
+      "no": "049",
+      "title": "Translating a meeting",
+      "titleZh": "翻译开会内容",
+      "scene": "",
+      "cat": 6,
+      "free": false,
+      "words": [],
+      "titleFa": "Translating a meeting"
+    },
+    {
+      "no": "050",
+      "title": "Speaking up for a worker",
+      "titleZh": "帮工人跟老板说话",
+      "scene": "",
+      "cat": 6,
+      "free": false,
+      "words": [],
+      "titleFa": "Speaking up for a worker"
+    },
+    {
+      "no": "051",
+      "title": "Translating a notice",
+      "titleZh": "翻译通知贴在墙上",
+      "scene": "",
+      "cat": 6,
+      "free": false,
+      "words": [],
+      "titleFa": "Translating a notice"
+    },
+    {
+      "no": "052",
+      "title": "Numbers and dates",
+      "titleZh": "记数字和日期",
+      "scene": "",
+      "cat": 6,
+      "free": false,
+      "words": [],
+      "titleFa": "Numbers and dates"
+    },
+    {
+      "no": "053",
+      "title": "Getting it wrong, putting it right",
+      "titleZh": "翻译说错了，马上改",
+      "scene": "",
+      "cat": 6,
+      "free": false,
+      "words": [],
+      "titleFa": "Getting it wrong, putting it right"
+    },
+    {
+      "no": "054",
+      "title": "With the boss at the bank",
+      "titleZh": "陪老板去银行",
+      "scene": "",
+      "cat": 6,
+      "free": false,
+      "words": [],
+      "titleFa": "With the boss at the bank"
+    },
+    {
+      "no": "055",
+      "title": "With the boss at the hospital",
+      "titleZh": "陪老板去医院",
+      "scene": "",
+      "cat": 6,
+      "free": false,
+      "words": [],
+      "titleFa": "With the boss at the hospital"
+    },
+    {
+      "no": "056",
+      "title": "Meeting a client with the boss",
+      "titleZh": "陪老板见客户",
+      "scene": "",
+      "cat": 6,
+      "free": false,
+      "words": [],
+      "titleFa": "Meeting a client with the boss"
+    },
+    {
+      "no": "057",
+      "title": "Finding a flat for the boss",
+      "titleZh": "帮老板租房子",
+      "scene": "",
+      "cat": 6,
+      "free": false,
+      "words": [],
+      "titleFa": "Finding a flat for the boss"
+    },
+    {
+      "no": "058",
+      "title": "Showing a new Chinese colleague around",
+      "titleZh": "带新来的中国同事熟悉环境",
+      "scene": "",
+      "cat": 6,
+      "free": false,
+      "words": [],
+      "titleFa": "Showing a new Chinese colleague around"
+    },
+    {
+      "no": "059",
+      "title": "Translating WeChat messages",
+      "titleZh": "微信上翻译消息",
+      "scene": "",
+      "cat": 6,
+      "free": false,
+      "words": [],
+      "titleFa": "Translating WeChat messages"
+    },
+    {
+      "no": "060",
+      "title": "End-of-day report",
+      "titleZh": "一天工作结束，汇报",
+      "scene": "",
+      "cat": 6,
+      "free": false,
+      "words": [],
+      "titleFa": "End-of-day report"
+    },
+    {
+      "no": "061",
+      "title": "Morning team meeting",
+      "titleZh": "早上开班会",
+      "scene": "工厂的车间",
+      "cat": 7,
+      "free": true,
+      "words": [
+        {
+          "ch": "大家",
+          "py": "dà jiā",
+          "en": "everyone"
+        },
+        {
+          "ch": "开会",
+          "py": "kāi huì",
+          "en": "to hold a meeting"
+        },
+        {
+          "ch": "任务",
+          "py": "rèn wu",
+          "en": "mission"
+        },
+        {
+          "ch": "衬衫",
+          "py": "chèn shān",
+          "en": "shirt"
+        },
+        {
+          "ch": "可以",
+          "py": "kě yǐ",
+          "en": "can"
+        },
+        {
+          "ch": "下班",
+          "py": "xià bān",
+          "en": "to finish work"
+        }
+      ],
+      "titleFa": "Morning team meeting"
+    },
+    {
+      "no": "062",
+      "title": "Today's production target",
+      "titleZh": "今天的生产任务",
+      "scene": "工厂的车间",
+      "cat": 7,
+      "free": false,
+      "words": [
+        {
+          "ch": "裤子",
+          "py": "kù zi",
+          "en": "trousers"
+        },
+        {
+          "ch": "一共",
+          "py": "yī gòng",
+          "en": "in total"
+        },
+        {
+          "ch": "机器",
+          "py": "jī qì",
+          "en": "machine"
+        },
+        {
+          "ch": "安排",
+          "py": "ān pái",
+          "en": "to arrange"
+        },
+        {
+          "ch": "个人",
+          "py": "ge rén",
+          "en": "an individual"
+        },
+        {
+          "ch": "这种",
+          "py": "zhè zhǒng",
+          "en": "this kind of"
+        }
+      ],
+      "titleFa": "Today's production target"
+    },
+    {
+      "no": "063",
+      "title": "Shift handover",
+      "titleZh": "换班交接",
+      "scene": "车间亮着灯",
+      "cat": 7,
+      "free": false,
+      "words": [
+        {
+          "ch": "下班",
+          "py": "xià bān",
+          "en": "to finish work"
+        },
+        {
+          "ch": "夜班",
+          "py": "yè bān",
+          "en": "night shift"
+        },
+        {
+          "ch": "门口",
+          "py": "mén kǒu",
+          "en": "doorway"
+        },
+        {
+          "ch": "机器",
+          "py": "jī qì",
+          "en": "machine"
+        },
+        {
+          "ch": "问题",
+          "py": "wèn tí",
+          "en": "problem"
+        },
+        {
+          "ch": "告诉",
+          "py": "gào su",
+          "en": "to tell"
+        }
+      ],
+      "titleFa": "Shift handover"
+    },
+    {
+      "no": "064",
+      "title": "Quality check",
+      "titleZh": "质量检查",
+      "scene": "",
+      "cat": 7,
+      "free": false,
+      "words": [],
+      "titleFa": "Quality check"
+    },
+    {
+      "no": "065",
+      "title": "Redoing faulty work",
+      "titleZh": "不合格要返工",
+      "scene": "",
+      "cat": 7,
+      "free": false,
+      "words": [],
+      "titleFa": "Redoing faulty work"
+    },
+    {
+      "no": "066",
+      "title": "Running out of material",
+      "titleZh": "原材料不够了",
+      "scene": "",
+      "cat": 7,
+      "free": false,
+      "words": [],
+      "titleFa": "Running out of material"
+    },
+    {
+      "no": "067",
+      "title": "Packing and labels",
+      "titleZh": "打包和贴标签",
+      "scene": "",
+      "cat": 7,
+      "free": false,
+      "words": [],
+      "titleFa": "Packing and labels"
+    },
+    {
+      "no": "068",
+      "title": "Counting stock",
+      "titleZh": "清点数量",
+      "scene": "",
+      "cat": 7,
+      "free": false,
+      "words": [],
+      "titleFa": "Counting stock"
+    },
+    {
+      "no": "069",
+      "title": "Machine maintenance",
+      "titleZh": "机器保养",
+      "scene": "",
+      "cat": 7,
+      "free": false,
+      "words": [],
+      "titleFa": "Machine maintenance"
+    },
+    {
+      "no": "070",
+      "title": "Learning a new machine",
+      "titleZh": "学用新机器",
+      "scene": "",
+      "cat": 7,
+      "free": false,
+      "words": [],
+      "titleFa": "Learning a new machine"
+    },
+    {
+      "no": "071",
+      "title": "Too slow",
+      "titleZh": "生产速度太慢",
+      "scene": "",
+      "cat": 7,
+      "free": false,
+      "words": [],
+      "titleFa": "Too slow"
+    },
+    {
+      "no": "072",
+      "title": "The team leader gives out jobs",
+      "titleZh": "组长分工",
+      "scene": "",
+      "cat": 7,
+      "free": false,
+      "words": [],
+      "titleFa": "The team leader gives out jobs"
+    },
+    {
+      "no": "073",
+      "title": "Keeping the floor clean",
+      "titleZh": "车间卫生",
+      "scene": "",
+      "cat": 7,
+      "free": false,
+      "words": [],
+      "titleFa": "Keeping the floor clean"
+    },
+    {
+      "no": "074",
+      "title": "Saving material",
+      "titleZh": "节约用料",
+      "scene": "",
+      "cat": 7,
+      "free": false,
+      "words": [],
+      "titleFa": "Saving material"
+    },
+    {
+      "no": "075",
+      "title": "Job done, well done everyone",
+      "titleZh": "完成任务，表扬大家",
+      "scene": "",
+      "cat": 7,
+      "free": false,
+      "words": [],
+      "titleFa": "Job done, well done everyone"
+    },
+    {
+      "no": "076",
+      "title": "Work starts on site",
+      "titleZh": "工地开工",
+      "scene": "工厂旁边的工地",
+      "cat": 8,
+      "free": true,
+      "words": [
+        {
+          "ch": "车间",
+          "py": "chē jiān",
+          "en": "workshop"
+        },
+        {
+          "ch": "时间",
+          "py": "shí jiān",
+          "en": "(concept of) time"
+        },
+        {
+          "ch": "以前",
+          "py": "yǐ qián",
+          "en": "before"
+        },
+        {
+          "ch": "工人",
+          "py": "gōng rén",
+          "en": "worker"
+        },
+        {
+          "ch": "帮忙",
+          "py": "bāng máng",
+          "en": "to help"
+        },
+        {
+          "ch": "危险",
+          "py": "wēi xiǎn",
+          "en": "danger"
+        }
+      ],
+      "titleFa": "Work starts on site"
+    },
+    {
+      "no": "077",
+      "title": "Hard hats on",
+      "titleZh": "戴好安全帽",
+      "scene": "工厂旁边的工地",
+      "cat": 8,
+      "free": false,
+      "words": [
+        {
+          "ch": "工地",
+          "py": "gōng dì",
+          "en": "construction site"
+        },
+        {
+          "ch": "安全帽",
+          "py": "ān quán mào",
+          "en": "safety helmet"
+        },
+        {
+          "ch": "帽子",
+          "py": "mào zi",
+          "en": "hat"
+        },
+        {
+          "ch": "门口",
+          "py": "mén kǒu",
+          "en": "gate"
+        },
+        {
+          "ch": "马上",
+          "py": "mǎ shàng",
+          "en": "at once"
+        },
+        {
+          "ch": "进去",
+          "py": "jìn qu",
+          "en": "to go in"
+        }
+      ],
+      "titleFa": "Hard hats on"
+    },
+    {
+      "no": "078",
+      "title": "Reading the drawings",
+      "titleZh": "看图纸",
+      "scene": "工地旁边的简易办公室",
+      "cat": 8,
+      "free": false,
+      "words": [
+        {
+          "ch": "车间",
+          "py": "chē jiān",
+          "en": "workshop"
+        },
+        {
+          "ch": "告诉",
+          "py": "gào su",
+          "en": "to tell"
+        },
+        {
+          "ch": "看看",
+          "py": "kàn kan",
+          "en": "to take a look at"
+        },
+        {
+          "ch": "图纸",
+          "py": "tú zhǐ",
+          "en": "drawing"
+        },
+        {
+          "ch": "这边",
+          "py": "zhè biān",
+          "en": "this side"
+        },
+        {
+          "ch": "工程",
+          "py": "gōng chéng",
+          "en": "engineering"
+        }
+      ],
+      "titleFa": "Reading the drawings"
+    },
+    {
+      "no": "079",
+      "title": "Moving materials",
+      "titleZh": "搬运材料",
+      "scene": "",
+      "cat": 8,
+      "free": false,
+      "words": [],
+      "titleFa": "Moving materials"
+    },
+    {
+      "no": "080",
+      "title": "Rain stops work",
+      "titleZh": "下雨停工",
+      "scene": "",
+      "cat": 8,
+      "free": false,
+      "words": [],
+      "titleFa": "Rain stops work"
+    },
+    {
+      "no": "081",
+      "title": "Measuring",
+      "titleZh": "测量尺寸",
+      "scene": "",
+      "cat": 8,
+      "free": false,
+      "words": [],
+      "titleFa": "Measuring"
+    },
+    {
+      "no": "082",
+      "title": "The machine won't start",
+      "titleZh": "机器开不动了",
+      "scene": "",
+      "cat": 8,
+      "free": false,
+      "words": [],
+      "titleFa": "The machine won't start"
+    },
+    {
+      "no": "083",
+      "title": "Concrete and steel",
+      "titleZh": "混凝土和钢筋",
+      "scene": "",
+      "cat": 8,
+      "free": false,
+      "words": [],
+      "titleFa": "Concrete and steel"
+    },
+    {
+      "no": "084",
+      "title": "Progress on the job",
+      "titleZh": "工程进度",
+      "scene": "",
+      "cat": 8,
+      "free": false,
+      "words": [],
+      "titleFa": "Progress on the job"
+    },
+    {
+      "no": "085",
+      "title": "Final inspection",
+      "titleZh": "验收",
+      "scene": "",
+      "cat": 8,
+      "free": false,
+      "words": [],
+      "titleFa": "Final inspection"
+    },
+    {
+      "no": "086",
+      "title": "Working at height",
+      "titleZh": "高空作业",
+      "scene": "",
+      "cat": 8,
+      "free": false,
+      "words": [],
+      "titleFa": "Working at height"
+    },
+    {
+      "no": "087",
+      "title": "Meals and breaks on site",
+      "titleZh": "工地吃饭和休息",
+      "scene": "",
+      "cat": 8,
+      "free": false,
+      "words": [],
+      "titleFa": "Meals and breaks on site"
+    },
+    {
+      "no": "088",
+      "title": "Unloading the goods",
+      "titleZh": "货到了，卸货",
+      "scene": "工厂的仓库",
+      "cat": 9,
+      "free": true,
+      "words": [
+        {
+          "ch": "一共",
+          "py": "yī gòng",
+          "en": "in total"
+        },
+        {
+          "ch": "仓库",
+          "py": "cāng kù",
+          "en": "warehouse"
+        },
+        {
+          "ch": "左边",
+          "py": "zuǒ bian",
+          "en": "left"
+        },
+        {
+          "ch": "十分",
+          "py": "shí fēn",
+          "en": "to divide into ten equal parts"
+        },
+        {
+          "ch": "开始",
+          "py": "kāi shǐ",
+          "en": "to begin"
+        },
+        {
+          "ch": "货车",
+          "py": "huò chē",
+          "en": "truck"
+        }
+      ],
+      "titleFa": "Unloading the goods"
+    },
+    {
+      "no": "089",
+      "title": "Logging goods in",
+      "titleZh": "入库登记",
+      "scene": "工厂的仓库",
+      "cat": 9,
+      "free": false,
+      "words": [
+        {
+          "ch": "一共",
+          "py": "yī gòng",
+          "en": "in total"
+        },
+        {
+          "ch": "登记",
+          "py": "dēng jì",
+          "en": "to register (one's name)"
+        },
+        {
+          "ch": "一下",
+          "py": "yī xià",
+          "en": "(after a verb) a bit"
+        },
+        {
+          "ch": "签字",
+          "py": "qiān zì",
+          "en": "to sign (one's name)"
+        },
+        {
+          "ch": "日期",
+          "py": "rì qī",
+          "en": "date"
+        },
+        {
+          "ch": "完了",
+          "py": "wán le",
+          "en": "to be finished"
+        }
+      ],
+      "titleFa": "Logging goods in"
+    },
+    {
+      "no": "090",
+      "title": "Finding stock",
+      "titleZh": "找货",
+      "scene": "工厂的仓库",
+      "cat": 9,
+      "free": false,
+      "words": [
+        {
+          "ch": "记得",
+          "py": "jì de",
+          "en": "to remember"
+        },
+        {
+          "ch": "客户",
+          "py": "kè hù",
+          "en": "client"
+        },
+        {
+          "ch": "上个月",
+          "py": "shàng ge yuè",
+          "en": "last month"
+        },
+        {
+          "ch": "蓝色",
+          "py": "lán sè",
+          "en": "blue (color)"
+        },
+        {
+          "ch": "里面",
+          "py": "lǐ miàn",
+          "en": "inside"
+        },
+        {
+          "ch": "找到",
+          "py": "zhǎo dào",
+          "en": "to find"
+        }
+      ],
+      "titleFa": "Finding stock"
+    },
+    {
+      "no": "091",
+      "title": "Low stock",
+      "titleZh": "库存不够",
+      "scene": "",
+      "cat": 9,
+      "free": false,
+      "words": [],
+      "titleFa": "Low stock"
+    },
+    {
+      "no": "092",
+      "title": "Sending goods out",
+      "titleZh": "出库发货",
+      "scene": "",
+      "cat": 9,
+      "free": false,
+      "words": [],
+      "titleFa": "Sending goods out"
+    },
+    {
+      "no": "093",
+      "title": "Booking a truck",
+      "titleZh": "安排货车",
+      "scene": "",
+      "cat": 9,
+      "free": false,
+      "words": [],
+      "titleFa": "Booking a truck"
+    },
+    {
+      "no": "094",
+      "title": "The driver is late",
+      "titleZh": "司机迟到了",
+      "scene": "",
+      "cat": 9,
+      "free": false,
+      "words": [],
+      "titleFa": "The driver is late"
+    },
+    {
+      "no": "095",
+      "title": "Damaged goods",
+      "titleZh": "货物损坏",
+      "scene": "",
+      "cat": 9,
+      "free": false,
+      "words": [],
+      "titleFa": "Damaged goods"
+    },
+    {
+      "no": "096",
+      "title": "The delivery note",
+      "titleZh": "签收单",
+      "scene": "",
+      "cat": 9,
+      "free": false,
+      "words": [],
+      "titleFa": "The delivery note"
+    },
+    {
+      "no": "097",
+      "title": "Stocktake",
+      "titleZh": "盘点仓库",
+      "scene": "",
+      "cat": 9,
+      "free": false,
+      "words": [],
+      "titleFa": "Stocktake"
+    },
+    {
+      "no": "098",
+      "title": "Printing and copying",
+      "titleZh": "打印和复印",
+      "scene": "办公室角落",
+      "cat": 10,
+      "free": true,
+      "words": [
+        {
+          "ch": "复印",
+          "py": "fù yìn",
+          "en": "to photocopy"
+        },
+        {
+          "ch": "一下",
+          "py": "yī xià",
+          "en": "(after a verb) a bit"
+        },
+        {
+          "ch": "这个",
+          "py": "zhè ge",
+          "en": "(pronoun) this"
+        },
+        {
+          "ch": "合同",
+          "py": "hé tong",
+          "en": "contract"
+        },
+        {
+          "ch": "自己",
+          "py": "zì jǐ",
+          "en": "oneself"
+        },
+        {
+          "ch": "马上",
+          "py": "mǎ shàng",
+          "en": "at once"
+        }
+      ],
+      "titleFa": "Printing and copying"
+    },
+    {
+      "no": "099",
+      "title": "Sending an email",
+      "titleZh": "发邮件",
+      "scene": "工厂里王总的办公室",
+      "cat": 10,
+      "free": false,
+      "words": [
+        {
+          "ch": "报价",
+          "py": "bào jià",
+          "en": "to quote a price"
+        },
+        {
+          "ch": "邮件",
+          "py": "yóu jiàn",
+          "en": "email"
+        },
+        {
+          "ch": "客户",
+          "py": "kè hù",
+          "en": "client"
+        },
+        {
+          "ch": "抄送",
+          "py": "chāo sòng",
+          "en": "to make a copy (and send it to someone)"
+        },
+        {
+          "ch": "财务",
+          "py": "cái wù",
+          "en": "financial affairs"
+        },
+        {
+          "ch": "马上",
+          "py": "mǎ shàng",
+          "en": "at once"
+        }
+      ],
+      "titleFa": "Sending an email"
+    },
+    {
+      "no": "100",
+      "title": "Booking a meeting room",
+      "titleZh": "订会议室",
+      "scene": "工厂里王总的办公室",
+      "cat": 10,
+      "free": false,
+      "words": [
+        {
+          "ch": "客户",
+          "py": "kè hù",
+          "en": "client"
+        },
+        {
+          "ch": "开会",
+          "py": "kāi huì",
+          "en": "to hold a meeting"
+        },
+        {
+          "ch": "几点",
+          "py": "jǐ diǎn",
+          "en": "what time?"
+        },
+        {
+          "ch": "个人",
+          "py": "ge rén",
+          "en": "an individual"
+        },
+        {
+          "ch": "左右",
+          "py": "zuǒ yòu",
+          "en": "left and right"
+        },
+        {
+          "ch": "几个",
+          "py": "jǐ ge",
+          "en": "how many"
+        }
+      ],
+      "titleFa": "Booking a meeting room"
+    },
+    {
+      "no": "101",
+      "title": "Filling in forms",
+      "titleZh": "填表格",
+      "scene": "",
+      "cat": 10,
+      "free": false,
+      "words": [],
+      "titleFa": "Filling in forms"
+    },
+    {
+      "no": "102",
+      "title": "Expense claims",
+      "titleZh": "报销",
+      "scene": "",
+      "cat": 10,
+      "free": false,
+      "words": [],
+      "titleFa": "Expense claims"
+    },
+    {
+      "no": "103",
+      "title": "Buying office supplies",
+      "titleZh": "买办公用品",
+      "scene": "",
+      "cat": 10,
+      "free": false,
+      "words": [],
+      "titleFa": "Buying office supplies"
+    },
+    {
+      "no": "104",
+      "title": "Arranging a car",
+      "titleZh": "安排车辆",
+      "scene": "",
+      "cat": 10,
+      "free": false,
+      "words": [],
+      "titleFa": "Arranging a car"
+    },
+    {
+      "no": "105",
+      "title": "Welcoming visitors",
+      "titleZh": "接待访客",
+      "scene": "",
+      "cat": 10,
+      "free": false,
+      "words": [],
+      "titleFa": "Welcoming visitors"
+    },
+    {
+      "no": "106",
+      "title": "Filing",
+      "titleZh": "文件归档",
+      "scene": "",
+      "cat": 10,
+      "free": false,
+      "words": [],
+      "titleFa": "Filing"
+    },
+    {
+      "no": "107",
+      "title": "The internet is down",
+      "titleZh": "网络坏了",
+      "scene": "",
+      "cat": 10,
+      "free": false,
+      "words": [],
+      "titleFa": "The internet is down"
+    },
+    {
+      "no": "108",
+      "title": "Showing a client round",
+      "titleZh": "带客户参观工厂",
+      "scene": "工厂的车间",
+      "cat": 11,
+      "free": true,
+      "words": [
+        {
+          "ch": "客户",
+          "py": "kè hù",
+          "en": "client"
+        },
+        {
+          "ch": "参观",
+          "py": "cān guān",
+          "en": "to visit (a place, e.g. museum or factor"
+        },
+        {
+          "ch": "工厂",
+          "py": "gōng chǎng",
+          "en": "factory"
+        },
+        {
+          "ch": "哪里",
+          "py": "nǎ lǐ",
+          "en": "where?"
+        },
+        {
+          "ch": "车间",
+          "py": "chē jiān",
+          "en": "workshop"
+        },
+        {
+          "ch": "仓库",
+          "py": "cāng kù",
+          "en": "warehouse"
+        }
+      ],
+      "titleFa": "Showing a client round"
+    },
+    {
+      "no": "109",
+      "title": "Presenting a product",
+      "titleZh": "介绍产品",
+      "scene": "工厂的车间",
+      "cat": 11,
+      "free": false,
+      "words": [
+        {
+          "ch": "客户",
+          "py": "kè hù",
+          "en": "client"
+        },
+        {
+          "ch": "介绍",
+          "py": "jiè shào",
+          "en": "to introduce (sb to sb)"
+        },
+        {
+          "ch": "一下",
+          "py": "yī xià",
+          "en": "(after a verb) a bit"
+        },
+        {
+          "ch": "衬衫",
+          "py": "chèn shān",
+          "en": "shirt"
+        },
+        {
+          "ch": "舒服",
+          "py": "shū fu",
+          "en": "comfortable"
+        },
+        {
+          "ch": "价格",
+          "py": "jià gé",
+          "en": "price"
+        }
+      ],
+      "titleFa": "Presenting a product"
+    },
+    {
+      "no": "110",
+      "title": "Giving a quote",
+      "titleZh": "报价",
+      "scene": "工厂里王总的办公室",
+      "cat": 11,
+      "free": false,
+      "words": [
+        {
+          "ch": "客户",
+          "py": "kè hù",
+          "en": "client"
+        },
+        {
+          "ch": "衬衫",
+          "py": "chèn shān",
+          "en": "shirt"
+        },
+        {
+          "ch": "报价",
+          "py": "bào jià",
+          "en": "to quote a price"
+        },
+        {
+          "ch": "美元",
+          "py": "měi yuán",
+          "en": "American dollar"
+        },
+        {
+          "ch": "运费",
+          "py": "yùn fèi",
+          "en": "freight fee"
+        },
+        {
+          "ch": "报价单",
+          "py": "bào jià dān",
+          "en": "quotation"
+        }
+      ],
+      "titleFa": "Giving a quote"
+    },
+    {
+      "no": "111",
+      "title": "Bargaining",
+      "titleZh": "讨价还价",
+      "scene": "",
+      "cat": 11,
+      "free": false,
+      "words": [],
+      "titleFa": "Bargaining"
+    },
+    {
+      "no": "112",
+      "title": "Placing an order",
+      "titleZh": "下订单",
+      "scene": "",
+      "cat": 11,
+      "free": false,
+      "words": [],
+      "titleFa": "Placing an order"
+    },
+    {
+      "no": "113",
+      "title": "Delivery time",
+      "titleZh": "交货时间",
+      "scene": "",
+      "cat": 11,
+      "free": false,
+      "words": [],
+      "titleFa": "Delivery time"
+    },
+    {
+      "no": "114",
+      "title": "How to pay",
+      "titleZh": "付款方式",
+      "scene": "",
+      "cat": 11,
+      "free": false,
+      "words": [],
+      "titleFa": "How to pay"
+    },
+    {
+      "no": "115",
+      "title": "Signing the contract",
+      "titleZh": "签合同",
+      "scene": "",
+      "cat": 11,
+      "free": false,
+      "words": [],
+      "titleFa": "Signing the contract"
+    },
+    {
+      "no": "116",
+      "title": "A client complains",
+      "titleZh": "客户投诉",
+      "scene": "",
+      "cat": 11,
+      "free": false,
+      "words": [],
+      "titleFa": "A client complains"
+    },
+    {
+      "no": "117",
+      "title": "Returns and exchanges",
+      "titleZh": "退货换货",
+      "scene": "",
+      "cat": 11,
+      "free": false,
+      "words": [],
+      "titleFa": "Returns and exchanges"
+    },
+    {
+      "no": "118",
+      "title": "Sending samples",
+      "titleZh": "送样品",
+      "scene": "",
+      "cat": 11,
+      "free": false,
+      "words": [],
+      "titleFa": "Sending samples"
+    },
+    {
+      "no": "119",
+      "title": "Seeing a client off",
+      "titleZh": "合作愉快，送客户",
+      "scene": "",
+      "cat": 11,
+      "free": false,
+      "words": [],
+      "titleFa": "Seeing a client off"
+    },
+    {
+      "no": "120",
+      "title": "Job interview",
+      "titleZh": "面试",
+      "scene": "工厂里王总的办公室",
+      "cat": 12,
+      "free": true,
+      "words": [
+        {
+          "ch": "请坐",
+          "py": "qǐng zuò",
+          "en": "please, have a seat"
+        },
+        {
+          "ch": "以前",
+          "py": "yǐ qián",
+          "en": "before"
+        },
+        {
+          "ch": "工厂",
+          "py": "gōng chǎng",
+          "en": "factory"
+        },
+        {
+          "ch": "机器",
+          "py": "jī qì",
+          "en": "machine"
+        },
+        {
+          "ch": "中文",
+          "py": "zhōng wén",
+          "en": "Chinese language"
+        },
+        {
+          "ch": "今年",
+          "py": "jīn nián",
+          "en": "this year"
+        }
+      ],
+      "titleFa": "Job interview"
+    },
+    {
+      "no": "121",
+      "title": "Probation",
+      "titleZh": "试用期",
+      "scene": "工厂里王总的办公室",
+      "cat": 12,
+      "free": false,
+      "words": [
+        {
+          "ch": "上班",
+          "py": "shàng bān",
+          "en": "to go to work"
+        },
+        {
+          "ch": "试用期",
+          "py": "shì yòng qī",
+          "en": "probationary period"
+        },
+        {
+          "ch": "工资",
+          "py": "gōng zī",
+          "en": "wages"
+        },
+        {
+          "ch": "一样",
+          "py": "yī yàng",
+          "en": "same"
+        },
+        {
+          "ch": "转正",
+          "py": "zhuǎn zhèng",
+          "en": "to transfer to full membership"
+        },
+        {
+          "ch": "努力",
+          "py": "nǔ lì",
+          "en": "to make an effort"
+        }
+      ],
+      "titleFa": "Probation"
+    },
+    {
+      "no": "122",
+      "title": "Made permanent",
+      "titleZh": "转正",
+      "scene": "工厂的车间",
+      "cat": 12,
+      "free": false,
+      "words": [
+        {
+          "ch": "试用期",
+          "py": "shì yòng qī",
+          "en": "probationary period"
+        },
+        {
+          "ch": "结束",
+          "py": "jié shù",
+          "en": "to end"
+        },
+        {
+          "ch": "可以",
+          "py": "kě yǐ",
+          "en": "can"
+        },
+        {
+          "ch": "转正",
+          "py": "zhuǎn zhèng",
+          "en": "to transfer to full membership"
+        },
+        {
+          "ch": "工资",
+          "py": "gōng zī",
+          "en": "wages"
+        },
+        {
+          "ch": "开始",
+          "py": "kāi shǐ",
+          "en": "to begin"
+        }
+      ],
+      "titleFa": "Made permanent"
+    },
+    {
+      "no": "123",
+      "title": "Training new staff",
+      "titleZh": "培训新员工",
+      "scene": "",
+      "cat": 12,
+      "free": false,
+      "words": [],
+      "titleFa": "Training new staff"
+    },
+    {
+      "no": "124",
+      "title": "Staff dormitory",
+      "titleZh": "员工宿舍",
+      "scene": "",
+      "cat": 12,
+      "free": false,
+      "words": [],
+      "titleFa": "Staff dormitory"
+    },
+    {
+      "no": "125",
+      "title": "The canteen",
+      "titleZh": "食堂吃饭",
+      "scene": "",
+      "cat": 12,
+      "free": false,
+      "words": [],
+      "titleFa": "The canteen"
+    },
+    {
+      "no": "126",
+      "title": "Uniform and ID badge",
+      "titleZh": "工作服和工牌",
+      "scene": "",
+      "cat": 12,
+      "free": false,
+      "words": [],
+      "titleFa": "Uniform and ID badge"
+    },
+    {
+      "no": "127",
+      "title": "Health check",
+      "titleZh": "体检",
+      "scene": "",
+      "cat": 12,
+      "free": false,
+      "words": [],
+      "titleFa": "Health check"
+    },
+    {
+      "no": "128",
+      "title": "Holidays",
+      "titleZh": "节日放假",
+      "scene": "",
+      "cat": 12,
+      "free": false,
+      "words": [],
+      "titleFa": "Holidays"
+    },
+    {
+      "no": "129",
+      "title": "Birthdays and team dinners",
+      "titleZh": "生日和聚餐",
+      "scene": "",
+      "cat": 12,
+      "free": false,
+      "words": [],
+      "titleFa": "Birthdays and team dinners"
+    },
+    {
+      "no": "130",
+      "title": "Promotion",
+      "titleZh": "升职",
+      "scene": "",
+      "cat": 12,
+      "free": false,
+      "words": [],
+      "titleFa": "Promotion"
+    },
+    {
+      "no": "131",
+      "title": "Moving to a new post",
+      "titleZh": "调岗",
+      "scene": "",
+      "cat": 12,
+      "free": false,
+      "words": [],
+      "titleFa": "Moving to a new post"
+    },
+    {
+      "no": "132",
+      "title": "What to call people",
+      "titleZh": "怎么称呼",
+      "scene": "车间旁边的休息区",
+      "cat": 13,
+      "free": true,
+      "words": [
+        {
+          "ch": "应该",
+          "py": "yīng gāi",
+          "en": "ought to"
+        },
+        {
+          "ch": "老板",
+          "py": "lǎo bǎn",
+          "en": "boss"
+        },
+        {
+          "ch": "车间",
+          "py": "chē jiān",
+          "en": "workshop"
+        },
+        {
+          "ch": "师傅",
+          "py": "shī fu",
+          "en": "master"
+        },
+        {
+          "ch": "比如",
+          "py": "bǐ rú",
+          "en": "for example"
+        },
+        {
+          "ch": "同事",
+          "py": "tóng shì",
+          "en": "colleague"
+        }
+      ],
+      "titleFa": "What to call people"
+    },
+    {
+      "no": "133",
+      "title": "Meeting and shaking hands",
+      "titleZh": "第一次见面握手",
+      "scene": "工厂里王总的办公室",
+      "cat": 13,
+      "free": false,
+      "words": [
+        {
+          "ch": "总部",
+          "py": "zǒng bù",
+          "en": "general headquarters"
+        },
+        {
+          "ch": "打招呼",
+          "py": "dǎ zhāo hu",
+          "en": "to greet sb by word or action"
+        },
+        {
+          "ch": "握手",
+          "py": "wò shǒu",
+          "en": "to shake hands"
+        },
+        {
+          "ch": "名片",
+          "py": "míng piàn",
+          "en": "(business) card"
+        },
+        {
+          "ch": "再说",
+          "py": "zài shuō",
+          "en": "to say again"
+        },
+        {
+          "ch": "一句",
+          "py": "yī jù",
+          "en": "a line of verse"
+        }
+      ],
+      "titleFa": "Meeting and shaking hands"
+    },
+    {
+      "no": "134",
+      "title": "When they say xinku le",
+      "titleZh": "中国人说辛苦了",
+      "scene": "工厂的车间",
+      "cat": 13,
+      "free": false,
+      "words": [
+        {
+          "ch": "辛苦",
+          "py": "xīn kǔ",
+          "en": "hard"
+        },
+        {
+          "ch": "意思",
+          "py": "yì si",
+          "en": "meaning"
+        },
+        {
+          "ch": "应该",
+          "py": "yīng gāi",
+          "en": "ought to"
+        },
+        {
+          "ch": "或者",
+          "py": "huò zhě",
+          "en": "or"
+        },
+        {
+          "ch": "应该的",
+          "py": "yīng gāi de",
+          "en": "(polite response) you're welcome"
+        },
+        {
+          "ch": "就是",
+          "py": "jiù shì",
+          "en": "exactly"
+        }
+      ],
+      "titleFa": "When they say xinku le"
+    },
+    {
+      "no": "135",
+      "title": "Seats and toasts at dinner",
+      "titleZh": "吃饭让座敬酒",
+      "scene": "",
+      "cat": 13,
+      "free": false,
+      "words": [],
+      "titleFa": "Seats and toasts at dinner"
+    },
+    {
+      "no": "136",
+      "title": "Giving gifts",
+      "titleZh": "送礼物",
+      "scene": "",
+      "cat": 13,
+      "free": false,
+      "words": [],
+      "titleFa": "Giving gifts"
+    },
+    {
+      "no": "137",
+      "title": "Going home for Spring Festival",
+      "titleZh": "春节放假回国",
+      "scene": "",
+      "cat": 13,
+      "free": false,
+      "words": [],
+      "titleFa": "Going home for Spring Festival"
+    },
+    {
+      "no": "138",
+      "title": "Chinese people are direct",
+      "titleZh": "中国人说话很直接",
+      "scene": "",
+      "cat": 13,
+      "free": false,
+      "words": [],
+      "titleFa": "Chinese people are direct"
+    },
+    {
+      "no": "139",
+      "title": "\"No problem\" may be a problem",
+      "titleZh": "说「没问题」不一定没问题",
+      "scene": "",
+      "cat": 13,
+      "free": false,
+      "words": [],
+      "titleFa": "\"No problem\" may be a problem"
+    },
+    {
+      "no": "140",
+      "title": "Being on time matters",
+      "titleZh": "守时很重要",
+      "scene": "",
+      "cat": 13,
+      "free": false,
+      "words": [],
+      "titleFa": "Being on time matters"
+    },
+    {
+      "no": "141",
+      "title": "Adding someone on WeChat",
+      "titleZh": "加微信",
+      "scene": "",
+      "cat": 13,
+      "free": false,
+      "words": [],
+      "titleFa": "Adding someone on WeChat"
+    },
+    {
+      "no": "142",
+      "title": "Picking someone up at the airport",
+      "titleZh": "去机场接人",
+      "scene": "机场到达出口外面",
+      "cat": 14,
+      "free": true,
+      "words": [
+        {
+          "ch": "停车场",
+          "py": "tíng chē chǎng",
+          "en": "parking lot"
+        },
+        {
+          "ch": "行李",
+          "py": "xíng li",
+          "en": "luggage"
+        },
+        {
+          "ch": "这边",
+          "py": "zhè biān",
+          "en": "here"
+        },
+        {
+          "ch": "在外",
+          "py": "zài wài",
+          "en": "outer"
+        },
+        {
+          "ch": "等",
+          "py": "děng",
+          "en": "to wait for"
+        },
+        {
+          "ch": "久",
+          "py": "jiǔ",
+          "en": "(of a period of time) long"
+        }
+      ],
+      "titleFa": "Picking someone up at the airport"
+    },
+    {
+      "no": "143",
+      "title": "Booking a hotel",
+      "titleZh": "订酒店",
+      "scene": "工厂里王总的办公室",
+      "cat": 14,
+      "free": false,
+      "words": [
+        {
+          "ch": "开会",
+          "py": "kāi huì",
+          "en": "to hold a meeting"
+        },
+        {
+          "ch": "酒店",
+          "py": "jiǔ diàn",
+          "en": "hotel"
+        },
+        {
+          "ch": "晚上",
+          "py": "wǎn shang",
+          "en": "night"
+        },
+        {
+          "ch": "下周",
+          "py": "xià zhōu",
+          "en": "next week"
+        },
+        {
+          "ch": "亚的斯亚贝巴",
+          "py": "Yà dì sī yà bèi bā",
+          "en": "Addis Ababa, capital of Ethiopia"
+        },
+        {
+          "ch": "会场",
+          "py": "huì chǎng",
+          "en": "meeting place"
+        }
+      ],
+      "titleFa": "Booking a hotel"
+    },
+    {
+      "no": "144",
+      "title": "A meeting in Addis Ababa",
+      "titleZh": "去亚的斯亚贝巴开会",
+      "scene": "工厂里王总的办公室",
+      "cat": 14,
+      "free": false,
+      "words": [
+        {
+          "ch": "一起",
+          "py": "yī qǐ",
+          "en": "(in) the same place"
+        },
+        {
+          "ch": "开会",
+          "py": "kāi huì",
+          "en": "to hold a meeting"
+        },
+        {
+          "ch": "几点",
+          "py": "jǐ diǎn",
+          "en": "what time?"
+        },
+        {
+          "ch": "出发",
+          "py": "chū fā",
+          "en": "to set off"
+        },
+        {
+          "ch": "早上",
+          "py": "zǎo shang",
+          "en": "early morning"
+        },
+        {
+          "ch": "小时",
+          "py": "xiǎo shí",
+          "en": "hour"
+        }
+      ],
+      "titleFa": "A meeting in Addis Ababa"
+    },
+    {
+      "no": "145",
+      "title": "Visiting the industrial park",
+      "titleZh": "去工业园区",
+      "scene": "",
+      "cat": 14,
+      "free": false,
+      "words": [],
+      "titleFa": "Visiting the industrial park"
+    },
+    {
+      "no": "146",
+      "title": "Stuck in traffic",
+      "titleZh": "路上堵车",
+      "scene": "",
+      "cat": 14,
+      "free": false,
+      "words": [],
+      "titleFa": "Stuck in traffic"
+    },
+    {
+      "no": "147",
+      "title": "Asking the way",
+      "titleZh": "问路",
+      "scene": "",
+      "cat": 14,
+      "free": false,
+      "words": [],
+      "titleFa": "Asking the way"
+    },
+    {
+      "no": "148",
+      "title": "Changing money",
+      "titleZh": "换钱",
+      "scene": "",
+      "cat": 14,
+      "free": false,
+      "words": [],
+      "titleFa": "Changing money"
+    },
+    {
+      "no": "149",
+      "title": "Travel expenses",
+      "titleZh": "出差报销",
+      "scene": "",
+      "cat": 14,
+      "free": false,
+      "words": [],
+      "titleFa": "Travel expenses"
+    },
+    {
+      "no": "150",
+      "title": "Back from the trip, the report",
+      "titleZh": "回到工厂，汇报出差结果",
+      "scene": "",
+      "cat": 14,
+      "free": false,
+      "words": [],
+      "titleFa": "Back from the trip, the report"
+    }
+  ],
+  "nameFa": "چینی برای کار"
+}

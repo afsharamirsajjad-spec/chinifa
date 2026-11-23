@@ -1,0 +1,1282 @@
+{
+  "lessons": {
+    "10": {
+      "groups": [
+        {
+          "id": "weather",
+          "words": [
+            "晴",
+            "阴",
+            "雪"
+          ],
+          "title": {
+            "en": "The weather",
+            "zh": "天气",
+            "pt": "O tempo",
+            "fr": "La météo",
+            "es": "El tiempo",
+            "vi": "Thời tiết",
+            "fa": "天气"
+          },
+          "note": {
+            "en": "Snow falls with 下, like rain: 下雪 is to snow, 下雨 is to rain.",
+            "zh": "下雪和下雨一样，都用「下」：下雪、下雨。",
+            "pt": "Neve e chuva vão com 下: 下雪 é nevar, 下雨 é chover.",
+            "fr": "La neige et la pluie vont avec 下 : 下雪, neiger ; 下雨, pleuvoir.",
+            "es": "La nieve y la lluvia van con 下: 下雪 es nevar y 下雨 es llover.",
+            "vi": "Tuyết cũng dùng 下 như mưa: 下雪 là có tuyết rơi, 下雨 là mưa.",
+            "fa": "下雪和下雨一样，都用「下」：下雪、下雨。"
+          },
+          "table": true,
+          "extra": [
+            "睛",
+            "雨"
+          ]
+        }
+      ],
+      "grammar": [
+        "guo",
+        "bi",
+        "ci"
+      ],
+      "lines": {
+        "ci": 8
+      }
+    },
+    "11": {
+      "groups": [
+        {
+          "id": "sing-dance",
+          "words": [
+            "唱歌",
+            "跳舞"
+          ],
+          "title": {
+            "en": "Sing and dance",
+            "zh": "唱歌、跳舞",
+            "pt": "Cantar e dançar",
+            "fr": "Chanter et danser",
+            "es": "Cantar y bailar",
+            "vi": "Hát và nhảy",
+            "fa": "唱歌、跳舞"
+          },
+          "note": {
+            "en": "Before 得, say the verb again: 跳舞跳得真漂亮, 唱歌唱得很好.",
+            "zh": "后面用「得」的时候，动词再说一次：跳舞跳得真漂亮、唱歌唱得很好。",
+            "pt": "Antes de 得, repita o verbo: 跳舞跳得真漂亮, 唱歌唱得很好.",
+            "fr": "Devant 得, on répète le verbe : 跳舞跳得真漂亮, 唱歌唱得很好.",
+            "es": "Antes de 得, repite el verbo: 跳舞跳得真漂亮, 唱歌唱得很好.",
+            "vi": "Trước 得, nói lại động từ một lần nữa: 跳舞跳得真漂亮, 唱歌唱得很好.",
+            "fa": "后面用「得」的时候，动词再说一次：跳舞跳得真漂亮、唱歌唱得很好。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "ba-particle"
+      ],
+      "words": {
+        "送": {
+          "en": {
+            "en": "to give (as a gift)",
+            "zh": "赠送（礼物）",
+            "pt": "dar (de presente)",
+            "fr": "offrir (en cadeau)",
+            "es": "regalar",
+            "vi": "tặng"
+          }
+        },
+        "给": {
+          "en": {
+            "en": "for (someone)",
+            "zh": "为，替（某人）",
+            "pt": "para (alguém)",
+            "fr": "pour (quelqu'un)",
+            "es": "para (alguien)",
+            "vi": "cho (ai đó)"
+          }
+        }
+      },
+      "cards": [
+        {
+          "title": {
+            "en": "给 + person + verb · for or to someone",
+            "zh": "给 + 人 + 动词",
+            "pt": "给 + pessoa + verbo · para alguém",
+            "fr": "给 + personne + verbe · pour ou à quelqu'un",
+            "es": "给 + persona + verbo · a o para alguien",
+            "vi": "给 + người + động từ · cho ai đó",
+            "fa": "给 + person + verb · for or to someone"
+          },
+          "mark": "给",
+          "blocks": [
+            "给",
+            {
+              "en": "person",
+              "zh": "人",
+              "pt": "pessoa",
+              "fr": "personne",
+              "es": "persona",
+              "vi": "người",
+              "fa": "شخص"
+            },
+            {
+              "en": "verb",
+              "zh": "动词",
+              "pt": "verbo",
+              "fr": "verbe",
+              "es": "verbo",
+              "vi": "động từ",
+              "fa": "动词"
+            }
+          ],
+          "line": 2,
+          "example": {
+            "ch": "我给你打电话。",
+            "py": "wǒ gěi nǐ dǎ diànhuà",
+            "en": {
+              "en": "I'll call you.",
+              "zh": "我给你打电话。",
+              "pt": "Eu te ligo.",
+              "fr": "Je t'appelle.",
+              "es": "Te llamo.",
+              "vi": "Tôi sẽ gọi điện cho bạn.",
+              "fa": "我给你打电话。"
+            }
+          },
+          "note": {
+            "en": "To say who you do it for or to, put 给 + the person before the verb: 给她唱歌 is 'sing for her'.",
+            "zh": "说为谁做、对谁做，就把「给」加人放在动词前面：给她唱歌。",
+            "pt": "Para dizer para quem você faz algo, ponha 给 + a pessoa antes do verbo: 给她唱歌 é 'cantar para ela'.",
+            "fr": "Pour dire pour qui ou à qui on fait quelque chose, mettez 给 + la personne avant le verbe : 给她唱歌, c'est « chanter pour elle ».",
+            "es": "Para decir para quién o a quién haces algo, pon 给 + la persona antes del verbo: 给她唱歌 es 'cantarle a ella'.",
+            "vi": "Muốn nói làm gì cho ai, đặt 给 + người trước động từ: 给她唱歌 là 'hát cho cô ấy nghe'.",
+            "fa": "说为谁做、对谁做，就把「给」加人放在动词前面：给她唱歌。"
+          }
+        }
+      ]
+    },
+    "12": {
+      "groups": [
+        {
+          "id": "ask",
+          "words": [
+            "问",
+            "问题",
+            "题"
+          ],
+          "title": {
+            "en": "Asking questions",
+            "zh": "问问题",
+            "pt": "Fazer perguntas",
+            "fr": "Poser des questions",
+            "es": "Hacer preguntas",
+            "vi": "Hỏi và câu hỏi",
+            "fa": "问问题"
+          },
+          "note": {
+            "en": "问 is to ask and 问题 is a question (问一个问题, ask a question); a question on a test is a 题.",
+            "zh": "「问」是动作，「问题」是要问的事：问一个问题；考试里的题目也可以只说「题」：这个题。",
+            "pt": "问 é perguntar e 问题 é a pergunta: 问一个问题; uma questão de prova é um 题.",
+            "fr": "问, c'est demander, et 问题, une question : 问一个问题 ; une question d'examen, c'est un 题.",
+            "es": "问 es preguntar y 问题 es una pregunta: 问一个问题; una pregunta de examen es un 题.",
+            "vi": "问 là hỏi, 问题 là câu hỏi: 问一个问题; câu hỏi trong bài thi gọi là 题.",
+            "fa": "「问」是动作，「问题」是要问的事：问一个问题；考试里的题目也可以只说「题」：这个题。"
+          },
+          "table": false
+        },
+        {
+          "id": "right-wrong",
+          "words": [
+            "对",
+            "错"
+          ],
+          "title": {
+            "en": "Right or wrong",
+            "zh": "对还是错",
+            "pt": "Certo ou errado",
+            "fr": "Juste ou faux",
+            "es": "Correcto o incorrecto",
+            "vi": "Đúng hay sai",
+            "fa": "对还是错"
+          },
+          "note": {
+            "en": "对 is right and 错 is wrong; said alone, 对 also means 'yes, that's right'.",
+            "zh": "「对」是正确，「错」是不正确；单说「对」，意思是「是的，没错」。",
+            "pt": "对 é certo e 错 é errado; sozinho, 对 também quer dizer 'é isso mesmo'.",
+            "fr": "对, c'est juste, et 错, faux ; tout seul, 对 veut aussi dire « oui, c'est ça ».",
+            "es": "对 es correcto y 错 es incorrecto; solo, 对 también significa 'sí, así es'.",
+            "vi": "对 là đúng, 错 là sai; nói riêng một chữ 对 còn có nghĩa là 'đúng rồi'.",
+            "fa": "「对」是正确，「错」是不正确；单说「对」，意思是「是的，没错」。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "de-phrase"
+      ],
+      "lines": {
+        "de-phrase": 8
+      },
+      "cards": [
+        {
+          "title": {
+            "en": "Verb + 了 · it's done",
+            "zh": "动词 + 了",
+            "pt": "Verbo + 了 · já feito",
+            "fr": "Verbe + 了 · c'est fait",
+            "es": "Verbo + 了 · ya hecho",
+            "vi": "Động từ + 了 · đã làm",
+            "fa": "Verb + 了 · it's done"
+          },
+          "mark": "了",
+          "blocks": [
+            {
+              "en": "verb",
+              "zh": "动词",
+              "pt": "verbo",
+              "fr": "verbe",
+              "es": "verbo",
+              "vi": "động từ",
+              "fa": "动词"
+            },
+            "了"
+          ],
+          "line": 1,
+          "example": {
+            "ch": "我吃了。",
+            "py": "wǒ chī le",
+            "en": {
+              "en": "I've eaten.",
+              "zh": "我吃了。",
+              "pt": "Eu já comi.",
+              "fr": "J'ai mangé.",
+              "es": "Ya comí.",
+              "vi": "Tôi ăn rồi.",
+              "fa": "我吃了。"
+            }
+          },
+          "note": {
+            "en": "Answer 准备了 for yes but 没有准备 for no: after 没有, the verb takes no 了.",
+            "zh": "准备了吗？——准备了，或者没有准备：「没有」后面的动词不加「了」。",
+            "pt": "Para sim, diga 准备了; para não, 没有准备: depois de 没有, o verbo fica sem 了.",
+            "fr": "Pour oui, on dit 准备了, pour non, 没有准备 : après 没有, le verbe ne prend pas 了.",
+            "es": "Para sí, di 准备了; para no, 没有准备: después de 没有, el verbo va sin 了.",
+            "vi": "Có thì nói 准备了, không thì nói 没有准备: sau 没有, động từ không có 了.",
+            "fa": "准备了吗？——准备了，或者没有准备：「没有」后面的动词不加「了」。"
+          }
+        }
+      ]
+    },
+    "13": {
+      "groups": [
+        {
+          "id": "number",
+          "words": [
+            "零",
+            "十",
+            "百",
+            "千"
+          ],
+          "title": {
+            "en": "Big numbers",
+            "zh": "大数字",
+            "pt": "Números grandes",
+            "fr": "Les grands nombres",
+            "es": "Números grandes",
+            "vi": "Số lớn",
+            "fa": "大数字"
+          },
+          "note": {
+            "en": "1,500 is 一千五百 (one thousand five hundred), never 十五百, and a zero inside is said 零: 一百零五 is 105.",
+            "zh": "1500 说「一千五百」，不说「十五百」；中间有 0 要说「零」：一百零五。",
+            "pt": "1.500 é 一千五百 (mil e quinhentos), nunca 十五百, e um zero no meio se diz 零: 一百零五 é 105.",
+            "fr": "1 500 se dit 一千五百 (mille cinq cents), jamais 十五百, et un zéro au milieu se dit 零 : 一百零五, c'est 105.",
+            "es": "1500 es 一千五百 (mil quinientos), nunca 十五百, y un cero en medio se dice 零: 一百零五 es 105.",
+            "vi": "1.500 là 一千五百 (một nghìn năm trăm), không phải 十五百, và số 0 ở giữa đọc là 零: 一百零五 là 105.",
+            "fa": "1500 说「一千五百」，不说「十五百」；中间有 0 要说「零」：一百零五。"
+          },
+          "table": true,
+          "extra": [
+            "白"
+          ]
+        },
+        {
+          "id": "know",
+          "words": [
+            "知道",
+            "认识"
+          ],
+          "title": {
+            "en": "Two ways to know",
+            "zh": "知道和认识",
+            "pt": "Saber ou conhecer",
+            "fr": "Savoir ou connaître",
+            "es": "Saber o conocer",
+            "vi": "Hai kiểu biết",
+            "fa": "知道和认识"
+          },
+          "note": {
+            "en": "知道 is knowing a fact (不知道在哪儿); 认识 is knowing a person, a place or a word.",
+            "zh": "「知道」是知道一件事：不知道在哪儿；「认识」是认识人、地方或字。",
+            "pt": "知道 é saber (um fato: 不知道在哪儿); 认识 é conhecer uma pessoa, um lugar ou uma palavra.",
+            "fr": "知道, c'est savoir (un fait : 不知道在哪儿) ; 认识, c'est connaître une personne, un lieu ou un mot.",
+            "es": "知道 es saber (un dato: 不知道在哪儿); 认识 es conocer a una persona, un lugar o una palabra.",
+            "vi": "知道 là biết một việc (不知道在哪儿); 认识 là quen biết một người, một nơi, hoặc nhận ra một chữ.",
+            "fa": "「知道」是知道一件事：不知道在哪儿；「认识」是认识人、地方或字。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "ne-where",
+        "yao",
+        "verb-redup"
+      ]
+    },
+    "14": {
+      "groups": [
+        {
+          "id": "wan",
+          "words": [
+            "完",
+            "玩"
+          ],
+          "title": {
+            "en": "Two ways to write wán",
+            "zh": "两个 wán",
+            "pt": "Dois jeitos de escrever wán",
+            "fr": "Deux façons d'écrire wán",
+            "es": "Dos formas de escribir wán",
+            "vi": "Hai cách viết wán",
+            "fa": "两个 wán"
+          },
+          "note": {
+            "en": "Both are wán: 完 is to finish (写完了) and 玩 is to play (出去玩).",
+            "zh": "两个字都读 wán：「完」是做完，写完了；「玩」是玩，出去玩。",
+            "pt": "Os dois se leem wán: 完 é terminar (写完了) e 玩 é brincar (出去玩).",
+            "fr": "Les deux se disent wán : 完, c'est finir (写完了), et 玩, jouer (出去玩).",
+            "es": "Los dos se dicen wán: 完 es terminar (写完了) y 玩 es jugar (出去玩).",
+            "vi": "Cả hai đều đọc wán: 完 là xong (写完了), còn 玩 là chơi (出去玩).",
+            "fa": "两个字都读 wán：「完」是做完，写完了；「玩」是玩，出去玩。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "zhe",
+        "result"
+      ],
+      "lines": {
+        "result": 7
+      },
+      "cards": [
+        {
+          "title": {
+            "en": "正在 + verb · happening now",
+            "zh": "正在 + 动词",
+            "pt": "正在 + verbo · acontecendo agora",
+            "fr": "正在 + verbe · en train de",
+            "es": "正在 + verbo · pasando ahora",
+            "vi": "正在 + động từ · đang làm",
+            "fa": "正在 + verb · happening now"
+          },
+          "mark": "正在",
+          "blocks": [
+            {
+              "en": "who",
+              "zh": "谁",
+              "pt": "quem",
+              "fr": "qui",
+              "es": "quién",
+              "vi": "ai",
+              "fa": "谁"
+            },
+            "正在",
+            {
+              "en": "verb",
+              "zh": "动词",
+              "pt": "verbo",
+              "fr": "verbe",
+              "es": "verbo",
+              "vi": "động từ",
+              "fa": "动词"
+            }
+          ],
+          "line": 1,
+          "example": {
+            "ch": "妈妈正在睡觉。",
+            "py": "māma zhèngzài shuìjiào",
+            "en": {
+              "en": "Mum is sleeping.",
+              "zh": "妈妈正在睡觉。",
+              "pt": "A mamãe está dormindo.",
+              "fr": "Maman est en train de dormir.",
+              "es": "Mamá está durmiendo.",
+              "vi": "Mẹ đang ngủ.",
+              "fa": "妈妈正在睡觉。"
+            }
+          },
+          "note": {
+            "en": "正在 before a verb says it is happening right now; 在 alone works too: 老师在做什么？",
+            "zh": "动词前面加「正在」，表示事情正在进行；只说「在」也可以：老师在做什么？",
+            "pt": "正在 antes do verbo diz que está acontecendo agora; só 在 também serve: 老师在做什么？",
+            "fr": "正在 devant le verbe dit que ça se passe en ce moment ; 在 seul marche aussi : 老师在做什么？",
+            "es": "正在 antes del verbo dice que está pasando ahora; 在 solo también sirve: 老师在做什么？",
+            "vi": "正在 trước động từ nghĩa là việc đang diễn ra; chỉ dùng 在 cũng được: 老师在做什么？",
+            "fa": "动词前面加「正在」，表示事情正在进行；只说「在」也可以：老师在做什么？"
+          }
+        }
+      ]
+    },
+    "15": {
+      "groups": [
+        {
+          "id": "question",
+          "words": [
+            "什么",
+            "怎么",
+            "为什么"
+          ],
+          "title": {
+            "en": "Question words",
+            "zh": "问问题的词",
+            "pt": "Palavras de pergunta",
+            "fr": "Les mots interrogatifs",
+            "es": "Palabras para preguntar",
+            "vi": "Từ để hỏi",
+            "fa": "问问题的词"
+          },
+          "note": {
+            "en": "Answer a 为什么 question with 因为: 因为汉语很有意思.",
+            "zh": "用「为什么」问，用「因为」回答：因为汉语很有意思。",
+            "pt": "Responda a um 为什么 com 因为: 因为汉语很有意思.",
+            "fr": "On répond à 为什么 par 因为 : 因为汉语很有意思.",
+            "es": "Responde a un 为什么 con 因为: 因为汉语很有意思.",
+            "vi": "Hỏi 为什么 thì trả lời bằng 因为: 因为汉语很有意思.",
+            "fa": "用「为什么」问，用「因为」回答：因为汉语很有意思。"
+          },
+          "table": true,
+          "extra": [
+            "因为"
+          ]
+        }
+      ],
+      "grammar": [
+        "duo-adj",
+        "di",
+        "suiran"
+      ],
+      "lines": {
+        "di": 1
+      },
+      "words": {
+        "意思": {
+          "en": {
+            "en": "meaning (有意思 = interesting)",
+            "zh": "含义（有意思＝有趣）",
+            "pt": "sentido (有意思 = interessante)",
+            "fr": "sens (有意思 = intéressant)",
+            "es": "significado (有意思 = interesante)",
+            "vi": "ý nghĩa (有意思 = thú vị)"
+          }
+        }
+      }
+    },
+    "01": {
+      "groups": [
+        {
+          "id": "boys-girls",
+          "words": [
+            "男",
+            "女",
+            "孩子"
+          ],
+          "title": {
+            "en": "Boys and girls",
+            "zh": "男孩子和女孩子",
+            "pt": "Meninos e meninas",
+            "fr": "Garçons et filles",
+            "es": "Niños y niñas",
+            "vi": "Con trai và con gái",
+            "fa": "男孩子和女孩子"
+          },
+          "note": {
+            "en": "Put 男 or 女 before 孩子: 男孩子 is a boy, 女孩子 is a girl.",
+            "zh": "「孩子」前面加「男」或「女」：男孩子、女孩子。",
+            "pt": "Ponha 男 ou 女 antes de 孩子: 男孩子 é menino, 女孩子 é menina.",
+            "fr": "Mettez 男 ou 女 devant 孩子 : 男孩子, c'est un garçon, et 女孩子, une fille.",
+            "es": "Pon 男 o 女 antes de 孩子: 男孩子 es un niño y 女孩子, una niña.",
+            "vi": "Thêm 男 hoặc 女 trước 孩子: 男孩子 là con trai, 女孩子 là con gái.",
+            "fa": "「孩子」前面加「男」或「女」：男孩子、女孩子。"
+          },
+          "table": true,
+          "extra": [
+            "她",
+            "儿子"
+          ]
+        },
+        {
+          "id": "hello",
+          "words": [
+            "你",
+            "您",
+            "大家"
+          ],
+          "title": {
+            "en": "Saying hello",
+            "zh": "跟人问好",
+            "pt": "Como cumprimentar",
+            "fr": "Dire bonjour",
+            "es": "Para saludar",
+            "vi": "Chào hỏi",
+            "fa": "跟人问好"
+          },
+          "note": {
+            "en": "Add 好 to say hello: 你好, 您好 for a teacher or someone older, and 大家好 for everyone.",
+            "zh": "后面加「好」就是问好：你好；对老师或长辈说「您好」；对大家说「大家好」。",
+            "pt": "Acrescente 好 para cumprimentar: 你好; 您好 para um professor ou alguém mais velho; 大家好 para todo mundo.",
+            "fr": "Ajoutez 好 pour dire bonjour : 你好 ; 您好 à un professeur ou à une personne plus âgée ; 大家好 à tout le monde.",
+            "es": "Agrega 好 para saludar: 你好; 您好 para un profesor o alguien mayor; 大家好 para todos.",
+            "vi": "Thêm 好 để chào: 你好; 您好 để chào thầy cô hay người lớn tuổi; 大家好 để chào mọi người.",
+            "fa": "后面加「好」就是问好：你好；对老师或长辈说「您好」；对大家说「大家好」。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "yixia"
+      ],
+      "cards": [
+        {
+          "title": {
+            "en": "也 · also, too",
+            "zh": "也 · 放在动词前",
+            "pt": "也 · também",
+            "fr": "也 · aussi",
+            "es": "也 · también",
+            "vi": "也 · cũng",
+            "fa": "也 · also, too"
+          },
+          "mark": "也",
+          "blocks": [
+            {
+              "en": "who",
+              "zh": "谁",
+              "pt": "quem",
+              "fr": "qui",
+              "es": "quién",
+              "vi": "ai",
+              "fa": "谁"
+            },
+            "也",
+            {
+              "en": "verb",
+              "zh": "动词",
+              "pt": "verbo",
+              "fr": "verbe",
+              "es": "verbo",
+              "vi": "động từ",
+              "fa": "动词"
+            }
+          ],
+          "line": 8,
+          "example": {
+            "ch": "我也喜欢茶。",
+            "py": "wǒ yě xǐhuan chá",
+            "en": {
+              "en": "I like tea too.",
+              "zh": "我也喜欢茶。",
+              "pt": "Eu também gosto de chá.",
+              "fr": "Moi aussi, j'aime le thé.",
+              "es": "A mí también me gusta el té.",
+              "vi": "Tôi cũng thích trà.",
+              "fa": "我也喜欢茶。"
+            }
+          },
+          "note": {
+            "en": "也 goes before the verb: 我也是, not 我是也.",
+            "zh": "「也」放在动词前面：说「我也是」，不说「我是也」。",
+            "pt": "也 vem antes do verbo: 我也是, e não 我是也.",
+            "fr": "也 se place avant le verbe : 我也是, pas 我是也.",
+            "es": "也 va antes del verbo: 我也是, no 我是也.",
+            "vi": "也 đứng trước động từ: nói 我也是, không nói 我是也.",
+            "fa": "「也」放在动词前面：说「我也是」，不说「我是也」。"
+          }
+        }
+      ]
+    },
+    "02": {
+      "groups": [
+        {
+          "id": "family",
+          "words": [
+            "哥哥",
+            "姐姐",
+            "弟弟",
+            "妹妹"
+          ],
+          "title": {
+            "en": "The family",
+            "zh": "家里人",
+            "pt": "A família",
+            "fr": "La famille",
+            "es": "La familia",
+            "vi": "Gia đình",
+            "fa": "家里人"
+          },
+          "note": {
+            "en": "哥哥 and 姐姐 are older than you; 弟弟 and 妹妹 are younger.",
+            "zh": "哥哥、姐姐比你大，弟弟、妹妹比你小。",
+            "pt": "哥哥 e 姐姐 são mais velhos que você; 弟弟 e 妹妹 são mais novos.",
+            "fr": "哥哥 et 姐姐 sont plus âgés que vous ; 弟弟 et 妹妹 plus jeunes.",
+            "es": "哥哥 y 姐姐 son mayores que tú; 弟弟 y 妹妹, menores.",
+            "vi": "哥哥 và 姐姐 lớn hơn bạn; 弟弟 và 妹妹 nhỏ hơn bạn.",
+            "fa": "哥哥、姐姐比你大，弟弟、妹妹比你小。"
+          },
+          "table": true,
+          "extra": [
+            "妈妈"
+          ]
+        },
+        {
+          "id": "ta",
+          "words": [
+            "他",
+            "她",
+            "它"
+          ],
+          "title": {
+            "en": "Three ways to write tā",
+            "zh": "三个 tā",
+            "pt": "Três jeitos de escrever tā",
+            "fr": "Trois façons d'écrire tā",
+            "es": "Tres formas de escribir tā",
+            "vi": "Ba cách viết tā",
+            "fa": "三个 tā"
+          },
+          "note": {
+            "en": "All three say tā: 他 is he, 她 is she, and 它 is it, for an animal or a thing.",
+            "zh": "他、她、它都读 tā：他是男的，她是女的，它是动物或东西。",
+            "pt": "Os três se leem tā: 他 é ele, 她 é ela, e 它 serve para um animal ou uma coisa.",
+            "fr": "Les trois se disent tā : 他, c'est il, 她, elle, et 它 sert pour un animal ou une chose.",
+            "es": "Los tres se dicen tā: 他 es él, 她 es ella y 它 es para un animal o una cosa.",
+            "vi": "Cả ba đều đọc là tā: 他 là anh ấy, 她 là cô ấy, còn 它 là nó, dùng cho con vật hay đồ vật.",
+            "fa": "他、她、它都读 tā：他是男的，她是女的，它是动物或东西。"
+          },
+          "table": true,
+          "extra": [
+            "也"
+          ]
+        }
+      ],
+      "grammar": [
+        "er-liang"
+      ],
+      "cards": [
+        {
+          "title": {
+            "en": "A 的 B · A's B",
+            "zh": "A 的 B · 谁的",
+            "pt": "A 的 B · o B de A",
+            "fr": "A 的 B · le B de A",
+            "es": "A 的 B · el B de A",
+            "vi": "A 的 B · B của A",
+            "fa": "A 的 B · A's B"
+          },
+          "mark": "的",
+          "blocks": [
+            {
+              "en": "who",
+              "zh": "谁",
+              "pt": "quem",
+              "fr": "qui",
+              "es": "quién",
+              "vi": "ai",
+              "fa": "谁"
+            },
+            "的",
+            {
+              "en": "what",
+              "zh": "什么",
+              "pt": "o quê",
+              "fr": "quoi",
+              "es": "qué",
+              "vi": "cái gì",
+              "fa": "什么"
+            }
+          ],
+          "line": 9,
+          "example": {
+            "ch": "我的书",
+            "py": "wǒ de shū",
+            "en": {
+              "en": "my book",
+              "zh": "我的书",
+              "pt": "meu livro",
+              "fr": "mon livre",
+              "es": "mi libro",
+              "vi": "sách của tôi",
+              "fa": "我的书"
+            }
+          },
+          "note": {
+            "en": "的 links an owner to what is theirs, but after 我 or 你 a family word often drops it: 我哥哥.",
+            "zh": "「的」把主人和他的人或东西连起来；「我、你」后面说家里人，常常不用「的」：我哥哥。",
+            "pt": "的 liga o dono ao que é dele, mas depois de 我 ou 你 uma palavra de família costuma vir sem ele: 我哥哥.",
+            "fr": "的 relie le possesseur à ce qui est à lui, mais après 我 ou 你, un mot de la famille s'en passe souvent : 我哥哥.",
+            "es": "的 une al dueño con lo que es suyo, pero después de 我 o 你 una palabra de familia suele ir sin él: 我哥哥.",
+            "vi": "的 nối người sở hữu với thứ của họ, nhưng sau 我 hay 你, từ chỉ người trong nhà thường không cần 的: 我哥哥.",
+            "fa": "「的」把主人和他的人或东西连起来；「我、你」后面说家里人，常常不用「的」：我哥哥。"
+          }
+        }
+      ]
+    },
+    "03": {
+      "groups": [
+        {
+          "id": "daytime",
+          "words": [
+            "早上",
+            "中午",
+            "晚上"
+          ],
+          "title": {
+            "en": "Times of day",
+            "zh": "一天的不同时间",
+            "pt": "Partes do dia",
+            "fr": "Les moments de la journée",
+            "es": "Las partes del día",
+            "vi": "Các buổi trong ngày",
+            "fa": "一天的不同时间"
+          },
+          "note": {
+            "en": "To say when, put them before the verb or at the very start, never at the end: 昨天晚上我很忙.",
+            "zh": "表示「什么时候」，时间放在动词前面或句子最前面，不放在最后：昨天晚上我很忙。",
+            "pt": "Para dizer quando, coloque-as antes do verbo ou no começo da frase, nunca no fim: 昨天晚上我很忙.",
+            "fr": "Pour dire quand, placez-les avant le verbe ou en début de phrase, jamais à la fin : 昨天晚上我很忙.",
+            "es": "Para decir cuándo, ponlas antes del verbo o al principio de la frase, nunca al final: 昨天晚上我很忙.",
+            "vi": "Khi nói lúc nào, đặt chúng trước động từ hoặc ở đầu câu, không đặt ở cuối câu: 昨天晚上我很忙.",
+            "fa": "表示「什么时候」，时间放在动词前面或句子最前面，不放在最后：昨天晚上我很忙。"
+          },
+          "table": true,
+          "extra": [
+            "下午"
+          ]
+        },
+        {
+          "id": "routine",
+          "words": [
+            "起床",
+            "休息",
+            "睡觉"
+          ],
+          "title": {
+            "en": "Get up, rest, sleep",
+            "zh": "起床、休息、睡觉",
+            "pt": "Levantar, descansar, dormir",
+            "fr": "Se lever, se reposer, dormir",
+            "es": "Levantarse, descansar, dormir",
+            "vi": "Dậy, nghỉ, ngủ",
+            "fa": "起床、休息、睡觉"
+          },
+          "note": {
+            "en": "起床 is getting out of bed; 睡觉 is sleeping, or going to bed: 十二点睡觉, in bed at twelve.",
+            "zh": "「起床」是从床上起来；「睡觉」是睡，也指上床去睡：十二点睡觉。",
+            "pt": "起床 é sair da cama; 睡觉 é dormir ou ir para a cama: 十二点睡觉, ir dormir à meia-noite.",
+            "fr": "起床, c'est sortir du lit ; 睡觉, c'est dormir ou aller se coucher : 十二点睡觉, se coucher à minuit.",
+            "es": "起床 es salir de la cama; 睡觉 es dormir o irse a la cama: 十二点睡觉, acostarse a las doce.",
+            "vi": "起床 là ra khỏi giường; 睡觉 là ngủ hoặc đi ngủ: 十二点睡觉 là mười hai giờ đi ngủ.",
+            "fa": "「起床」是从床上起来；「睡觉」是睡，也指上床去睡：十二点睡觉。"
+          },
+          "table": true,
+          "extra": [
+            "觉得"
+          ]
+        }
+      ],
+      "grammar": [
+        "yijing",
+        "mei",
+        "jiu"
+      ],
+      "lines": {
+        "mei": 6
+      },
+      "words": {
+        "就": {
+          "en": {
+            "en": "right away",
+            "zh": "马上，立刻",
+            "pt": "já, agora mesmo",
+            "fr": "tout de suite",
+            "es": "enseguida, ya",
+            "vi": "ngay"
+          }
+        }
+      }
+    },
+    "04": {
+      "groups": [
+        {
+          "id": "colour",
+          "words": [
+            "红",
+            "白",
+            "黑"
+          ],
+          "title": {
+            "en": "Colours",
+            "zh": "颜色",
+            "pt": "Cores",
+            "fr": "Les couleurs",
+            "es": "Los colores",
+            "vi": "Màu sắc",
+            "fa": "颜色"
+          },
+          "note": {
+            "en": "Don't mix up 白 bái (white) and 百 bǎi (a hundred): 百 has an extra line on top.",
+            "zh": "别把「白」bái 和「百」bǎi 弄混：「百」上面多一横。",
+            "pt": "Não confunda 白 bái (branco) com 百 bǎi (cem): 百 tem um traço a mais em cima.",
+            "fr": "Ne confondez pas 白 bái (blanc) et 百 bǎi (cent) : 百 a un trait de plus en haut.",
+            "es": "No confundas 白 bái (blanco) con 百 bǎi (cien): 百 tiene un trazo más arriba.",
+            "vi": "Đừng nhầm 白 bái (trắng) với 百 bǎi (trăm): 百 có thêm một nét ngang ở trên.",
+            "fa": "别把「白」bái 和「百」bǎi 弄混：「百」上面多一横。"
+          },
+          "table": true,
+          "extra": [
+            "百"
+          ]
+        },
+        {
+          "id": "buy-sell",
+          "words": [
+            "买",
+            "卖"
+          ],
+          "title": {
+            "en": "Buy or sell",
+            "zh": "买还是卖",
+            "pt": "Comprar ou vender",
+            "fr": "Acheter ou vendre",
+            "es": "Comprar o vender",
+            "vi": "Mua hay bán",
+            "fa": "买还是卖"
+          },
+          "note": {
+            "en": "卖 mài (to sell) is 买 mǎi (to buy) with 十 on top, and the tone changes too.",
+            "zh": "「卖」mài 就是「买」mǎi 上面加个「十」，声调也不一样。",
+            "pt": "卖 mài (vender) é 买 mǎi (comprar) com 十 em cima, e o tom também muda.",
+            "fr": "卖 mài (vendre), c'est 买 mǎi (acheter) avec 十 en haut, et le ton change aussi.",
+            "es": "卖 mài (vender) es 买 mǎi (comprar) con 十 arriba, y el tono también cambia.",
+            "vi": "卖 mài (bán) là 买 mǎi (mua) thêm 十 ở trên, và thanh điệu cũng khác.",
+            "fa": "「卖」mài 就是「买」mǎi 上面加个「十」，声调也不一样。"
+          },
+          "table": false
+        }
+      ],
+      "cards": [
+        {
+          "title": {
+            "en": "Adjective + 一点儿 · a bit more",
+            "zh": "形容词 + 一点儿",
+            "pt": "Adjetivo + 一点儿 · um pouco mais",
+            "fr": "Adjectif + 一点儿 · un peu plus",
+            "es": "Adjetivo + 一点儿 · un poco más",
+            "vi": "Tính từ + 一点儿 · … hơn một chút",
+            "fa": "Adjective + 一点儿 · a bit more"
+          },
+          "mark": "一点儿",
+          "blocks": [
+            {
+              "en": "adjective",
+              "zh": "形容词",
+              "pt": "adjetivo",
+              "fr": "adjectif",
+              "es": "adjetivo",
+              "vi": "tính từ",
+              "fa": "形容词"
+            },
+            "一点儿"
+          ],
+          "line": 5,
+          "example": {
+            "ch": "这件大一点儿。",
+            "py": "zhè jiàn dà yìdiǎnr",
+            "en": {
+              "en": "This one is a bit bigger.",
+              "zh": "这件大一点儿。",
+              "pt": "Esta é um pouco maior.",
+              "fr": "Celui-ci est un peu plus grand.",
+              "es": "Esta es un poco más grande.",
+              "vi": "Cái này to hơn một chút.",
+              "fa": "这件大一点儿。"
+            }
+          },
+          "note": {
+            "en": "For 'a bit more …', put 一点儿 after the adjective: 便宜一点儿 is a bit cheaper.",
+            "zh": "想说「再……一些」，把「一点儿」放在形容词后面：便宜一点儿。",
+            "pt": "Para dizer 'um pouco mais …', ponha 一点儿 depois do adjetivo: 便宜一点儿 é um pouco mais barato.",
+            "fr": "Pour dire « un peu plus … », mettez 一点儿 après l'adjectif : 便宜一点儿, un peu moins cher.",
+            "es": "Para decir 'un poco más …', pon 一点儿 después del adjetivo: 便宜一点儿 es un poco más barato.",
+            "vi": "Muốn nói '… hơn một chút', đặt 一点儿 sau tính từ: 便宜一点儿 là rẻ hơn một chút.",
+            "fa": "想说「再……一些」，把「一点儿」放在形容词后面：便宜一点儿。"
+          }
+        }
+      ]
+    },
+    "05": {
+      "groups": [
+        {
+          "id": "food",
+          "words": [
+            "面条",
+            "羊肉",
+            "鱼",
+            "鸡蛋",
+            "西瓜"
+          ],
+          "title": {
+            "en": "Things to eat",
+            "zh": "吃的",
+            "pt": "Coisas para comer",
+            "fr": "À manger",
+            "es": "Cosas para comer",
+            "vi": "Đồ ăn",
+            "fa": "吃的"
+          },
+          "table": true,
+          "extra": [
+            "米饭"
+          ]
+        },
+        {
+          "id": "drinks",
+          "words": [
+            "咖啡",
+            "牛奶",
+            "茶"
+          ],
+          "title": {
+            "en": "Things to drink",
+            "zh": "喝的",
+            "pt": "Coisas para beber",
+            "fr": "À boire",
+            "es": "Cosas para beber",
+            "vi": "Đồ uống",
+            "fa": "喝的"
+          },
+          "note": {
+            "en": "Drinks go with 喝, 喝咖啡 or 喝牛奶, and food goes with 吃: 吃面条.",
+            "zh": "喝的东西用「喝」：喝咖啡、喝牛奶；吃的东西用「吃」：吃面条。",
+            "pt": "Bebidas vão com 喝 (喝咖啡, 喝牛奶) e comida vai com 吃: 吃面条.",
+            "fr": "Les boissons vont avec 喝 (喝咖啡, 喝牛奶), la nourriture avec 吃 : 吃面条.",
+            "es": "Las bebidas van con 喝 (喝咖啡, 喝牛奶) y la comida con 吃: 吃面条.",
+            "vi": "Đồ uống đi với 喝 (喝咖啡, 喝牛奶), đồ ăn đi với 吃: 吃面条.",
+            "fa": "喝的东西用「喝」：喝咖啡、喝牛奶；吃的东西用「吃」：吃面条。"
+          },
+          "table": true,
+          "extra": [
+            "菜"
+          ]
+        }
+      ],
+      "grammar": [
+        "zai-again"
+      ],
+      "cards": [
+        {
+          "title": {
+            "en": "要 + thing · I'll have …",
+            "zh": "要 + 东西",
+            "pt": "要 + coisa · eu quero …",
+            "fr": "要 + chose · je prends …",
+            "es": "要 + cosa · quiero …",
+            "vi": "要 + món · tôi muốn …",
+            "fa": "要 + thing · I'll have …"
+          },
+          "mark": "要",
+          "blocks": [
+            {
+              "en": "who",
+              "zh": "谁",
+              "pt": "quem",
+              "fr": "qui",
+              "es": "quién",
+              "vi": "ai",
+              "fa": "谁"
+            },
+            "要",
+            {
+              "en": "what",
+              "zh": "什么",
+              "pt": "o quê",
+              "fr": "quoi",
+              "es": "qué",
+              "vi": "cái gì",
+              "fa": "什么"
+            }
+          ],
+          "line": 2,
+          "example": {
+            "ch": "我要这个。",
+            "py": "wǒ yào zhège",
+            "en": {
+              "en": "I'll have this one.",
+              "zh": "我要这个。",
+              "pt": "Eu quero este.",
+              "fr": "Je prends celui-ci.",
+              "es": "Quiero este.",
+              "vi": "Tôi lấy cái này.",
+              "fa": "我要这个。"
+            }
+          },
+          "note": {
+            "en": "要 + a thing asks for it, 我要牛奶, and 不要 + a thing turns it down: 不要咖啡.",
+            "zh": "「要」加东西就是要这个：我要牛奶；「不要」加东西就是不要：不要咖啡。",
+            "pt": "要 + uma coisa é pedir (我要牛奶), e 不要 + uma coisa é recusar: 不要咖啡.",
+            "fr": "要 + une chose, c'est la demander (我要牛奶) ; 不要 + une chose, c'est la refuser : 不要咖啡.",
+            "es": "要 + una cosa es pedirla (我要牛奶), y 不要 + una cosa es rechazarla: 不要咖啡.",
+            "vi": "要 + món là gọi món đó (我要牛奶), còn 不要 + món là không lấy: 不要咖啡.",
+            "fa": "「要」加东西就是要这个：我要牛奶；「不要」加东西就是不要：不要咖啡。"
+          }
+        }
+      ]
+    },
+    "06": {
+      "groups": [
+        {
+          "id": "sports",
+          "words": [
+            "跑步",
+            "游泳",
+            "打篮球",
+            "踢足球"
+          ],
+          "title": {
+            "en": "Sports",
+            "zh": "运动",
+            "pt": "Esportes",
+            "fr": "Les sports",
+            "es": "Los deportes",
+            "vi": "Thể thao",
+            "fa": "运动"
+          },
+          "note": {
+            "en": "Ball games need the right verb: 打篮球 for basketball, 踢足球 for football, where 踢 is 'kick'.",
+            "zh": "球类运动要用对动词：打篮球，踢足球（「踢」是用脚）。",
+            "pt": "Jogos com bola pedem o verbo certo: 打篮球 para basquete e 踢足球 para futebol, em que 踢 é 'chutar'.",
+            "fr": "Les sports de ballon ont leur verbe : 打篮球 pour le basket et 踢足球 pour le foot, où 踢 veut dire « frapper du pied ».",
+            "es": "Los juegos de pelota llevan su verbo: 打篮球 para el básquetbol y 踢足球 para el fútbol, donde 踢 es 'patear'.",
+            "vi": "Môn bóng nào đi với động từ nấy: 打篮球 là chơi bóng rổ, 踢足球 là đá bóng, với 踢 là 'đá'.",
+            "fa": "球类运动要用对动词：打篮球，踢足球（「踢」是用脚）。"
+          },
+          "table": true,
+          "extra": [
+            "打电话"
+          ]
+        }
+      ],
+      "grammar": [
+        "de-degree",
+        "zui"
+      ]
+    },
+    "07": {
+      "groups": [
+        {
+          "id": "jue-jiao",
+          "words": [
+            "觉得",
+            "睡觉"
+          ],
+          "title": {
+            "en": "One character, two sounds",
+            "zh": "一个字，两个音",
+            "pt": "Um caractere, dois sons",
+            "fr": "Un caractère, deux sons",
+            "es": "Un carácter, dos sonidos",
+            "vi": "Một chữ, hai cách đọc",
+            "fa": "一个字，两个音"
+          },
+          "note": {
+            "en": "觉 is jué in 觉得 (to feel) but jiào in 睡觉 (to sleep).",
+            "zh": "「觉」在「觉得」里读 jué，在「睡觉」里读 jiào。",
+            "pt": "觉 se lê jué em 觉得 (sentir, achar), mas jiào em 睡觉 (dormir).",
+            "fr": "觉 se lit jué dans 觉得 (trouver, se sentir), mais jiào dans 睡觉 (dormir).",
+            "es": "觉 se lee jué en 觉得 (sentir, creer), pero jiào en 睡觉 (dormir).",
+            "vi": "觉 đọc là jué trong 觉得 (cảm thấy), nhưng đọc là jiào trong 睡觉 (ngủ).",
+            "fa": "「觉」在「觉得」里读 jué，在「睡觉」里读 jiào。"
+          },
+          "table": false
+        }
+      ],
+      "grammar": [
+        "bie",
+        "yinwei",
+        "rang-jiao"
+      ]
+    },
+    "08": {
+      "groups": [
+        {
+          "id": "place",
+          "words": [
+            "前面",
+            "左边",
+            "右边",
+            "旁边"
+          ],
+          "title": {
+            "en": "Where things are",
+            "zh": "在哪儿",
+            "pt": "Onde fica",
+            "fr": "Où sont les choses",
+            "es": "Dónde está",
+            "vi": "Ở đâu",
+            "fa": "موقعیت اشیاء"
+          },
+          "note": {
+            "en": "The place comes first, then the position: 饭店旁边 is 'next to the restaurant'.",
+            "zh": "先说地方，再说位置：饭店旁边。",
+            "pt": "Primeiro o lugar, depois a posição: 饭店旁边 é 'ao lado do restaurante'.",
+            "fr": "D'abord le lieu, puis la position : 饭店旁边, c'est « à côté du restaurant ».",
+            "es": "Primero el lugar y luego la posición: 饭店旁边 es 'al lado del restaurante'.",
+            "vi": "Nói nơi chốn trước rồi mới đến vị trí: 饭店旁边 là 'bên cạnh nhà hàng'.",
+            "fa": "先说地方，再说位置：饭店旁边。"
+          },
+          "table": true,
+          "extra": [
+            "后面"
+          ]
+        }
+      ],
+      "grammar": [
+        "li",
+        "bushi-ma"
+      ],
+      "cards": [
+        {
+          "title": {
+            "en": "往 + direction · towards",
+            "zh": "往 + 方向",
+            "pt": "往 + direção · ir para",
+            "fr": "往 + direction · aller vers",
+            "es": "往 + dirección · ir hacia",
+            "vi": "往 + hướng · đi về phía",
+            "fa": "往 + direction · towards"
+          },
+          "mark": "往",
+          "blocks": [
+            "往",
+            {
+              "en": "direction",
+              "zh": "方向",
+              "pt": "direção",
+              "fr": "direction",
+              "es": "dirección",
+              "vi": "hướng",
+              "fa": "方向"
+            },
+            {
+              "en": "verb",
+              "zh": "动词",
+              "pt": "verbo",
+              "fr": "verbe",
+              "es": "verbo",
+              "vi": "động từ",
+              "fa": "动词"
+            }
+          ],
+          "line": 5,
+          "example": {
+            "ch": "往右边走。",
+            "py": "wǎng yòubian zǒu",
+            "en": {
+              "en": "Go to the right.",
+              "zh": "往右边走。",
+              "pt": "Vá para a direita.",
+              "fr": "Allez à droite.",
+              "es": "Ve a la derecha.",
+              "vi": "Đi về bên phải.",
+              "fa": "往右边走。"
+            }
+          },
+          "note": {
+            "en": "往 + a direction goes before the verb: 往左边走 is 'go left', 往前面走 'go straight on'.",
+            "zh": "「往」加方向放在动词前面：往左边走、往前面走。",
+            "pt": "往 + direção vem antes do verbo: 往左边走 é 'ir para a esquerda', 往前面走 é 'seguir em frente'.",
+            "fr": "往 + direction se place avant le verbe : 往左边走, « aller à gauche », 往前面走, « aller tout droit ».",
+            "es": "往 + dirección va antes del verbo: 往左边走 es 'ir a la izquierda', 往前面走 es 'seguir derecho'.",
+            "vi": "往 + hướng đặt trước động từ: 往左边走 là 'đi về bên trái', 往前面走 là 'đi thẳng'.",
+            "fa": "「往」加方向放在动词前面：往左边走、往前面走。"
+          }
+        }
+      ]
+    },
+    "09": {
+      "groups": [
+        {
+          "id": "places",
+          "words": [
+            "火车站",
+            "宾馆",
+            "机场"
+          ],
+          "title": {
+            "en": "Places on a trip",
+            "zh": "旅游时去的地方",
+            "pt": "Lugares da viagem",
+            "fr": "Les lieux du voyage",
+            "es": "Lugares del viaje",
+            "vi": "Những nơi khi đi du lịch",
+            "fa": "旅游时去的地方"
+          },
+          "note": {
+            "en": "With 去 you need no word for 'to': 去机场 is 'go to the airport'.",
+            "zh": "「去」后面直接说地方：去机场。",
+            "pt": "Com 去 não é preciso uma palavra para 'para': 去机场 é 'ir para o aeroporto'.",
+            "fr": "Avec 去, pas besoin de mot pour « à » : 去机场, c'est « aller à l'aéroport ».",
+            "es": "Con 去 no hace falta una palabra para 'a': 去机场 es 'ir al aeropuerto'.",
+            "vi": "Sau 去 nói luôn nơi đến, không cần thêm từ 'đến': 去机场 là 'đi sân bay'.",
+            "fa": "「去」后面直接说地方：去机场。"
+          },
+          "table": true,
+          "extra": [
+            "飞机"
+          ]
+        },
+        {
+          "id": "transport",
+          "words": [
+            "飞机",
+            "公共汽车",
+            "出租车"
+          ],
+          "title": {
+            "en": "Getting around",
+            "zh": "出门坐什么",
+            "pt": "Como ir",
+            "fr": "Se déplacer",
+            "es": "Cómo ir",
+            "vi": "Đi lại",
+            "fa": "出门坐什么"
+          },
+          "note": {
+            "en": "Take any of them with 坐: 坐飞机, 坐公共汽车, 坐出租车.",
+            "zh": "这些都用「坐」：坐飞机、坐公共汽车、坐出租车。",
+            "pt": "Para todos eles, use 坐: 坐飞机, 坐公共汽车, 坐出租车.",
+            "fr": "Pour tous, on utilise 坐 : 坐飞机, 坐公共汽车, 坐出租车.",
+            "es": "Con todos se usa 坐: 坐飞机, 坐公共汽车, 坐出租车.",
+            "vi": "Đi các phương tiện này đều dùng 坐: 坐飞机, 坐公共汽车, 坐出租车.",
+            "fa": "这些都用「坐」：坐飞机、坐公共汽车、坐出租车。"
+          },
+          "table": true
+        }
+      ],
+      "grammar": [
+        "prep"
+      ]
+    }
+  }
+}

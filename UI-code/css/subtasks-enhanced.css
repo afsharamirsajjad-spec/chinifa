@@ -1,0 +1,2641 @@
+
+/* ════════════════════════════════════════════════════════════
+   ۱۷. صفحه زیرمجموعه آموزشی (Subtasks Mini-Path Screen)
+   ════════════════════════════════════════════════════════════ */
+.u-subtasks-screen {
+  background: linear-gradient(180deg, #F0F4F8 0%, #F8FAFC 240px, #FFFFFF 100%) !important;
+  direction: rtl !important;
+  padding-bottom: 120px !important;
+  position: relative !important;
+}
+
+/* سربرگ زیرمجموعه آموزشی */
+.u-subtasks-head {
+  background: rgba(255, 255, 255, 0.94) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8) !important;
+  padding: 14px 18px !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 20 !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 14px !important;
+}
+
+.u-subtasks-head .u-nav-back {
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 14px !important;
+  background: #F1F5F9 !important;
+  border: 1px solid #E2E8F0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #334155 !important;
+  cursor: pointer !important;
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03) !important;
+  flex-shrink: 0 !important;
+}
+.u-subtasks-head .u-nav-back:active {
+  transform: scale(0.92) !important;
+  background: #E2E8F0 !important;
+}
+html[dir="rtl"] .u-subtasks-head .u-nav-back svg {
+  transform: scaleX(-1) !important;
+}
+
+.u-subtasks-title-wrap {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 3px !important;
+  flex: 1 !important;
+}
+
+.u-subtasks-tag {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  align-self: flex-start !important;
+  padding: 4px 12px !important;
+  border-radius: 999px !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  color: #047857 !important;
+  background: linear-gradient(135deg, #D1FAE5 0%, #A7F3D0 100%) !important;
+  border: 1px solid rgba(16, 185, 129, 0.3) !important;
+  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.12) !important;
+  letter-spacing: 0.2px !important;
+}
+
+.u-subtasks-title {
+  margin: 0 !important;
+  font-size: 19px !important;
+  font-weight: 900 !important;
+  color: #0F172A !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.u-subtasks-title small.han {
+  display: inline-flex !important;
+  align-items: center !important;
+  background: #FFFBEB !important;
+  color: #B45309 !important;
+  border: 1px solid #FDE68A !important;
+  padding: 2px 8px !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  font-family: var(--f-han) !important;
+}
+
+/* بنر مسکات راهنمای زیرمجموعه */
+.u-subtasks-hero-card {
+  margin: 16px 18px 8px !important;
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 55%, #0F2E28 100%) !important;
+  border-radius: 24px !important;
+  padding: 16px 18px !important;
+  position: relative !important;
+  overflow: hidden !important;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.12) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  animation: heroCardSlide 0.45s cubic-bezier(0.34, 1.26, 0.64, 1) both !important;
+}
+@keyframes heroCardSlide {
+  from { opacity: 0; transform: translateY(-12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.u-subtasks-hero-card::before {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.35) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.u-subtasks-hero-dragon {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.35));
+  animation: guideDragonFloat 3s ease-in-out infinite;
+}
+@keyframes guideDragonFloat {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-5px) rotate(2deg); }
+}
+
+.u-subtasks-hero-dragon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.u-subtasks-hero-info {
+  flex: 1;
+  z-index: 2;
+  text-align: right;
+}
+
+.u-subtasks-hero-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background: rgba(16, 185, 129, 0.2);
+  color: #34D399;
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  border-radius: 6px;
+  font-size: 10.5px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.u-subtasks-hero-title {
+  font-size: 14.5px;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin: 0 0 4px;
+  line-height: 1.4;
+}
+
+.u-subtasks-hero-sub {
+  font-size: 11.5px;
+  color: #94A3B8;
+  margin: 0 0 10px;
+  line-height: 1.4;
+}
+
+/* نوار پیشرفت زیرمجموعه */
+.u-subtasks-hero-bar {
+  width: 100%;
+  height: 7px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  overflow: hidden;
+  position: relative;
+}
+
+.u-subtasks-hero-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #10B981, #34D399, #F59E0B);
+  border-radius: 999px;
+  transition: width 0.6s cubic-bezier(0.34, 1.26, 0.64, 1);
+  box-shadow: 0 0 10px rgba(52, 211, 153, 0.6);
+}
+
+/* لیست مراحل و خط اتصال نقشه‌راه */
+.u-subtasks-list {
+  position: relative !important;
+  padding: 20px 18px 40px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+}
+
+.u-subtasks-line {
+  position: absolute !important;
+  top: 48px !important;
+  bottom: 48px !important;
+  right: 44px !important;
+  width: 4px !important;
+  background: linear-gradient(180deg, #10B981 0%, #6EE7B7 40%, #E2E8F0 70%, #CBD5E1 100%) !important;
+  border-radius: 999px !important;
+  border: none !important;
+  z-index: 1 !important;
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.2) !important;
+}
+
+/* آیتم مرحله */
+.u-subtask-item {
+  position: relative !important;
+  z-index: 2 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  background: #FFFFFF !important;
+  border: 1.5px solid #E2E8F0 !important;
+  border-radius: 22px !important;
+  padding: 16px 18px !important;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04), 0 1px 3px rgba(0, 0, 0, 0.02) !important;
+  cursor: pointer !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.26, 0.64, 1) !important;
+}
+
+.u-subtask-item:active {
+  transform: scale(0.97) translateY(2px) !important;
+}
+
+/* دایره شماره مرحله */
+.u-subtask-circle {
+  width: 54px !important;
+  height: 54px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: 900 !important;
+  font-size: 18px !important;
+  flex-shrink: 0 !important;
+  position: relative !important;
+  transition: all 0.3s ease !important;
+}
+
+/* حالت مرحله تکمیل شده */
+.u-subtask-item.is-done {
+  background: linear-gradient(135deg, #F0FDF4 0%, #FFFFFF 100%) !important;
+  border-color: #86EFAC !important;
+  box-shadow: 0 4px 18px rgba(16, 185, 129, 0.08) !important;
+}
+.u-subtask-item.is-done .u-subtask-circle {
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35), inset 0 2px 0 rgba(255, 255, 255, 0.3) !important;
+}
+.u-subtask-item.is-done .u-subtask-num {
+  color: #059669 !important;
+  font-weight: 800 !important;
+}
+
+/* حالت مرحله جاری (آماده شروع) */
+.u-subtask-item.is-cur {
+  background: #FFFFFF !important;
+  border: 2px solid #10B981 !important;
+  box-shadow: 0 10px 28px rgba(16, 185, 129, 0.18), 0 0 0 4px rgba(16, 185, 129, 0.12) !important;
+  transform: translateY(-2px) !important;
+  animation: curCardPulse 2.8s ease-in-out infinite !important;
+}
+@keyframes curCardPulse {
+  0%, 100% { box-shadow: 0 10px 28px rgba(16, 185, 129, 0.18), 0 0 0 4px rgba(16, 185, 129, 0.12); }
+  50% { box-shadow: 0 12px 32px rgba(16, 185, 129, 0.28), 0 0 0 8px rgba(16, 185, 129, 0.2); }
+}
+
+.u-subtask-item.is-cur .u-subtask-circle {
+  background: linear-gradient(135deg, #10B981 0%, #047857 100%) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4), inset 0 2px 0 rgba(255, 255, 255, 0.4) !important;
+}
+
+/* فلش اکشن مرحله جاری */
+.u-subtask-item.is-cur .u-step-arrow {
+  background: #10B981 !important;
+  color: #FFFFFF !important;
+  border-radius: 50% !important;
+  width: 34px !important;
+  height: 34px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.35) !important;
+  animation: startArrowBounce 1.5s ease-in-out infinite alternate !important;
+}
+@keyframes startArrowBounce {
+  from { transform: translateX(0); }
+  to { transform: translateX(-4px); }
+}
+html[dir="rtl"] .u-subtask-item.is-cur .u-step-arrow svg {
+  transform: scaleX(-1) !important;
+}
+
+/* حالت مرحله قفل شده */
+.u-subtask-item.is-locked {
+  background: #F8FAFC !important;
+  border-color: #E2E8F0 !important;
+  opacity: 0.72 !important;
+}
+.u-subtask-item.is-locked:hover {
+  opacity: 0.9 !important;
+}
+.u-subtask-item.is-locked .u-subtask-circle {
+  background: #E2E8F0 !important;
+  color: #94A3B8 !important;
+  border: 1px solid #CBD5E1 !important;
+}
+.u-subtask-item.is-locked .u-subtask-name {
+  color: #64748B !important;
+}
+.u-subtask-item.is-locked.shake-locked {
+  animation: lockShake 0.4s ease-in-out !important;
+}
+@keyframes lockShake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(6px); }
+  40%, 80% { transform: translateX(-6px); }
+}
+
+/* متون مرحله */
+.u-subtask-info {
+  flex: 1 !important;
+  text-align: right !important;
+}
+.u-subtask-num {
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  color: #64748B !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  margin-bottom: 3px !important;
+}
+.u-subtask-name {
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+  margin: 0 0 5px 0 !important;
+  line-height: 1.35 !important;
+}
+.u-subtask-desc {
+  font-size: 12.5px !important;
+  color: #64748B !important;
+  line-height: 1.45 !important;
+  margin: 0 !important;
+}
+.u-step-arrow {
+  flex-shrink: 0 !important;
+  color: #94A3B8 !important;
+}
+
+/* ════════════════════════════════════════════════════════════
+   ۱۸. اژدهای خوابیده روی پاپ‌آپ پاسخ صحیح (Sleeping Dragon on Popup)
+   ════════════════════════════════════════════════════════════ */
+.u-feedback.is-correct,
+.fbb:not(.fbb--bad) {
+  overflow: visible !important;
+  border-top-left-radius: 26px !important;
+  border-top-right-radius: 26px !important;
+}
+
+.u-feedback.is-correct {
+  background: linear-gradient(180deg, #F0FDF4 0%, #DCFCE7 100%) !important;
+  border-top: 3.5px solid #10B981 !important;
+  box-shadow: 0 -12px 36px rgba(16, 185, 129, 0.18), 0 -2px 8px rgba(0, 0, 0, 0.05) !important;
+  padding-top: 22px !important;
+}
+
+/* کانتینر اژدهای خوابیده */
+.sleeping-dragon-host { display: none !important; visibility: hidden !important; opacity: 0 !important; }
+@keyframes dragonSleepFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+/* تصویر اژدهای خوابیده */
+.sleeping-dragon-img { display: none !important; }
+@keyframes dragonBreathe {
+  0%, 100% { transform: scale(1, 1); }
+  50% { transform: scale(1.04, 0.96) translateY(1px); }
+}
+
+/* حباب‌های خواب Zzz */
+.sleeping-dragon-zzz { display: none !important; }
+.sleep-z {
+  font-family: var(--f) !important;
+  font-weight: 900 !important;
+  color: #059669 !important;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8) !important;
+  animation: zFloat 2.2s cubic-bezier(0.25, 1, 0.5, 1) infinite !important;
+}
+.sleep-z.z-1 { font-size: 11px !important; animation-delay: 0s !important; opacity: 0.7 !important; }
+.sleep-z.z-2 { font-size: 14px !important; animation-delay: 0.4s !important; color: #10B981 !important; }
+.sleep-z.z-3 { font-size: 18px !important; animation-delay: 0.8s !important; color: #047857 !important; }
+
+@keyframes zFloat {
+  0% {
+    opacity: 0;
+    transform: translate(0, 8px) scale(0.6);
+  }
+  30% {
+    opacity: 0.95;
+  }
+  75% {
+    opacity: 0.8;
+    transform: translate(10px, -16px) scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(14px, -26px) scale(1.3);
+  }
+}
+
+/* تگ ابر رؤیای اژدها */
+.sleeping-dragon-cloud { display: none !important; }
+@keyframes cloudPulse {
+  from { transform: scale(0.96); }
+  to { transform: scale(1.02); }
+}
+
+/* برای پاپ‌آپ‌های celebrate.js (#cel-host .cel) */
+#cel-host .cel {
+  overflow: visible !important;
+}
+#cel-host .cel .sleeping-dragon-host { display: none !important; visibility: hidden !important; opacity: 0 !important; }
+
+/* ════════════════════════════════════════════════════════════
+   ۱۹. ارتقای تمرینات و آزمون‌ها (Exercises & Quizzes)
+   ════════════════════════════════════════════════════════════ */
+.u-screen--exercise {
+  background: #F8FAFC !important;
+  direction: rtl !important;
+  height: 100% !important;
+  min-height: 100% !important;
+  max-height: 100% !important;
+  padding-bottom: 0 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+}
+
+.u-head--ex {
+  background: #FFFFFF !important;
+  padding: max(calc(var(--sat, 0px) + 12px), 44px) 18px 12px 18px !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 14px !important;
+  box-sizing: border-box !important;
+  flex-shrink: 0 !important;
+}
+
+.u-body--ex {
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch !important;
+  padding: 10px 16px calc(140px + env(safe-area-inset-bottom, 20px)) 16px !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.u-back-btn {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 12px !important;
+  background: #F1F5F9 !important;
+  border: 1px solid #E2E8F0 !important;
+  color: #64748B !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+}
+.u-back-btn:active {
+  transform: scale(0.92) !important;
+  background: #E2E8F0 !important;
+}
+
+.u-ex-bar {
+  background: #E2E8F0 !important;
+  height: 12px !important;
+  border-radius: 999px !important;
+  overflow: hidden !important;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+.u-ex-bar span {
+  display: block !important;
+  height: 100% !important;
+  background: linear-gradient(90deg, #10B981, #34D399) !important;
+  border-radius: 999px !important;
+  transition: width 0.4s cubic-bezier(0.34, 1.26, 0.64, 1) !important;
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.5) !important;
+}
+
+.u-ex-counter {
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  color: #475569 !important;
+  background: #F1F5F9 !important;
+  padding: 4px 10px !important;
+  border-radius: 999px !important;
+  border: 1px solid #E2E8F0 !important;
+}
+
+/* کارت سوال استاندارد یکپارچه Chinify */
+.u-ex-card {
+  background: #FFFFFF !important;
+  border: 1.5px solid #E2E8F0 !important;
+  border-radius: 24px !important;
+  padding: 20px 18px !important;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05), 0 1px 3px rgba(0, 0, 0, 0.02) !important;
+  margin: 0 auto 16px auto !important;
+  width: 100% !important;
+  max-width: 440px !important;
+  box-sizing: border-box !important;
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+/* ۱.۳. نشان کوچک نوع سؤال در بالای کارت (Badge) */
+.u-ex-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background: #F1F5F9 !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 999px !important;
+  padding: 4px 12px !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  color: #059669 !important;
+  margin-bottom: 12px !important;
+  direction: rtl !important;
+}
+.u-ex-badge__cat {
+  color: #0F172A !important;
+  font-weight: 800 !important;
+}
+.u-ex-badge__sep {
+  color: #94A3B8 !important;
+  font-weight: 400 !important;
+}
+.u-ex-badge__name {
+  color: #059669 !important;
+  font-weight: 800 !important;
+}
+
+/* ۱.۴. صورت سؤال کوتاه (Short Question Prompt) */
+.u-ex-short-q {
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+  line-height: 1.4 !important;
+  margin: 0 0 16px 0 !important;
+  direction: rtl !important;
+  text-align: right !important;
+}
+.u-ex-question {
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+  line-height: 1.4 !important;
+  margin-bottom: 14px !important;
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+/* محفظه مرکزی قهرمان سؤال (Center Hero Box) */
+.u-hero-center {
+  background: #F8FAFC !important;
+  border: 1.5px solid #E2E8F0 !important;
+  border-radius: 20px !important;
+  padding: 16px 14px !important;
+  margin-bottom: 18px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02) !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+}
+
+/* کاراکتر چینی بزرگ قهرمان */
+.u-hero-hanzi,
+.u-ex-hanzi-display {
+  font-size: 44px !important;
+  font-family: var(--f-han, "Noto Sans SC", sans-serif) !important;
+  font-weight: 900 !important;
+  text-align: center !important;
+  color: #0F172A !important;
+  margin: 6px 0 2px 0 !important;
+  line-height: 1.2 !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.06) !important;
+  direction: ltr !important;
+}
+
+/* پین‌یین قهرمان */
+.u-hero-py,
+.u-ex-py-display {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #059669 !important;
+  text-align: center !important;
+  letter-spacing: 0.5px !important;
+  margin-bottom: 10px !important;
+  direction: ltr !important;
+}
+
+/* واژه فارسی قهرمان (در سوالات فارسی به چینی) */
+.u-hero-fa {
+  font-size: 24px !important;
+  font-weight: 900 !important;
+  color: #1E293B !important;
+  text-align: center !important;
+  line-height: 1.4 !important;
+  margin: 12px 0 !important;
+  direction: rtl !important;
+}
+
+/* جمله‌سازی و جای خالی در مرکز قهرمان */
+.u-hero-sentence-zh {
+  font-size: 21px !important;
+  font-family: var(--f-han, "Noto Sans SC", sans-serif) !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+  direction: ltr !important;
+  text-align: center !important;
+  line-height: 1.6 !important;
+  margin: 6px 0 !important;
+}
+.u-blank-slot {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 68px !important;
+  height: 36px !important;
+  background: #EFF6FF !important;
+  border: 2px dashed #3B82F6 !important;
+  border-radius: 10px !important;
+  padding: 0 10px !important;
+  margin: 0 6px !important;
+  color: #1D4ED8 !important;
+  font-weight: 900 !important;
+  font-size: 17px !important;
+  vertical-align: middle !important;
+}
+.u-hero-sentence-py {
+  font-size: 13.5px !important;
+  font-weight: 600 !important;
+  color: #64748B !important;
+  direction: ltr !important;
+  text-align: center !important;
+  margin-top: 4px !important;
+}
+.u-hero-sentence-fa {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color: #475569 !important;
+  direction: rtl !important;
+  text-align: center !important;
+  margin-top: 8px !important;
+  line-height: 1.6 !important;
+}
+
+/* دکمه صوتی پخش صدا */
+.u-big-audio {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%) !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  border-radius: 999px !important;
+  padding: 10px 20px !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35), 0 3px 0 #047857 !important;
+  transition: all 0.15s ease !important;
+  margin: 4px auto 10px auto !important;
+}
+.u-big-audio:active {
+  transform: translateY(3px) !important;
+  box-shadow: 0 1px 4px rgba(16, 185, 129, 0.35), 0 0 0 transparent !important;
+}
+
+/* ۱.۵. گزینه‌های پاسخ (Options) با ارتفاع و عرض یکسان */
+.u-ex-options {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+.u-ex-options--grid2 {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 10px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+.u-ex-options--grid2 .u-choice-btn {
+  padding: 10px 10px !important;
+  gap: 6px !important;
+  min-width: 0 !important;
+}
+.u-ex-options--grid2 .u-choice-text {
+  margin: 0 !important;
+  padding: 0 4px !important;
+  font-size: 14.5px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+/* دکمه‌های ۳ بعدی گزینه با ارتفاع یکنواخت و طراحی شیک */
+.u-choice-btn {
+  background: #FFFFFF !important;
+  border: 2px solid #E2E8F0 !important;
+  border-bottom: 4px solid #CBD5E1 !important;
+  border-radius: 18px !important;
+  padding: 12px 18px !important;
+  min-height: 58px !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: #1E293B !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
+  cursor: pointer !important;
+  transition: all 0.15s cubic-bezier(0.34, 1.26, 0.64, 1) !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+}
+.u-choice-btn:hover {
+  border-color: #CBD5E1 !important;
+  background: #F8FAFC !important;
+}
+.u-choice-btn:active {
+  transform: translateY(3px) !important;
+  border-bottom-width: 1.5px !important;
+  box-shadow: none !important;
+}
+
+/* گزینه انتخاب شده قبل از بررسی */
+.u-choice-btn.is-picked {
+  background: #EFF6FF !important;
+  border-color: #3B82F6 !important;
+  border-bottom: 4px solid #1D4ED8 !important;
+  color: #1E40AF !important;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.15) !important;
+}
+
+/* گزینه صحیح (سبز ملایم) پس از پاسخ */
+.u-choice-btn.is-correct {
+  background: #ECFDF5 !important;
+  border-color: #10B981 !important;
+  border-bottom: 4px solid #059669 !important;
+  color: #065F46 !important;
+  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.25) !important;
+}
+
+/* گزینه اشتباه انتخاب شده (قرمز ملایم) پس از پاسخ */
+.u-choice-btn.is-wrong {
+  background: #FEF2F2 !important;
+  border-color: #EF4444 !important;
+  border-bottom: 4px solid #DC2626 !important;
+  color: #991B1B !important;
+  box-shadow: 0 4px 16px rgba(239, 68, 68, 0.2) !important;
+}
+
+/* گزینه‌های غیرفعال هنگام نمایش فیدبک */
+.u-choice-btn.is-disabled {
+  opacity: 0.55 !important;
+  pointer-events: none !important;
+}
+
+/* نشانگر دایره‌ای شناسه گزینه */
+.u-choice-indicator {
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 50% !important;
+  border: 2px solid #CBD5E1 !important;
+  background: #F8FAFC !important;
+  color: #64748B !important;
+  font-size: 12px !important;
+  font-weight: 900 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.2s ease !important;
+  flex-shrink: 0 !important;
+  margin-inline-end: 10px !important;
+}
+.u-choice-btn.is-picked .u-choice-indicator {
+  background: #3B82F6 !important;
+  border-color: #3B82F6 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.4) !important;
+}
+.u-choice-btn.is-correct .u-choice-indicator {
+  background: #10B981 !important;
+  border-color: #10B981 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4) !important;
+}
+.u-choice-btn.is-wrong .u-choice-indicator {
+  background: #EF4444 !important;
+  border-color: #EF4444 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.4) !important;
+}
+
+/* محتوای داخلی گزینه‌ها با جهت مستقل */
+.u-choice-text {
+  direction: rtl !important;
+  text-align: center !important;
+  flex: 1 !important;
+  font-size: 15.5px !important;
+  font-weight: 800 !important;
+  line-height: 1.4 !important;
+  margin: 0 16px !important;
+  padding: 0 6px !important;
+}
+.u-choice-main {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  direction: ltr !important;
+  text-align: left !important;
+  flex: 1 !important;
+}
+.u-choice-main .han {
+  font-size: 19px !important;
+  font-family: var(--f-han, "Noto Sans SC", sans-serif) !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+  line-height: 1.2 !important;
+}
+.u-choice-main .py {
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  color: #059669 !important;
+  line-height: 1.2 !important;
+  margin-top: 2px !important;
+}
+.u-choice-main .u-choice-fa {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  color: #64748B !important;
+  direction: rtl !important;
+  text-align: right !important;
+  margin-top: 2px !important;
+}
+
+/* گزینه‌های ۲تایی درست/نادرست گرامر */
+.u-choice-btn--tf-true {
+  border-color: #A7F3D0 !important;
+  color: #065F46 !important;
+}
+.u-choice-btn--tf-false {
+  border-color: #FECACA !important;
+  color: #991B1B !important;
+}
+
+/* شبکه تطبیق دو ستونه (Match Pairs): ستون چپ چینی LTR، ستون راست فارسی RTL */
+.u-match-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 12px !important;
+  direction: ltr !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+.u-match-col--zh {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  direction: ltr !important;
+  width: 100% !important;
+}
+.u-match-col--fa {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  direction: rtl !important;
+  width: 100% !important;
+}
+
+/* کاشی‌های تطبیق (Matching Tiles) */
+.u-tile {
+  background: #FFFFFF !important;
+  border: 2px solid #E2E8F0 !important;
+  border-bottom: 4px solid #CBD5E1 !important;
+  border-radius: 16px !important;
+  padding: 12px 10px !important;
+  height: 66px !important;
+  min-height: 66px !important;
+  max-height: 66px !important;
+  font-weight: 800 !important;
+  font-size: 15px !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  width: 100% !important;
+}
+.u-tile:active {
+  transform: translateY(2px) !important;
+  border-bottom-width: 2px !important;
+}
+.u-tile.is-selected {
+  border-color: #3B82F6 !important;
+  border-bottom-color: #1D4ED8 !important;
+  background: #EFF6FF !important;
+  color: #1E40AF !important;
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.2) !important;
+}
+.u-tile.is-matched {
+  border-color: #10B981 !important;
+  border-bottom-color: #059669 !important;
+  background: #ECFDF5 !important;
+  color: #065F46 !important;
+  opacity: 0.65 !important;
+  transform: scale(0.96) !important;
+  pointer-events: none !important;
+}
+.u-tile.is-wrong {
+  border-color: #EF4444 !important;
+  border-bottom-color: #DC2626 !important;
+  background: #FEF2F2 !important;
+  color: #991B1B !important;
+  animation: uShake 0.35s ease !important;
+}
+
+@keyframes uShake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
+
+/* بخش مرتب‌سازی جمله (Sentence Unscramble) */
+.u-order-target-ref {
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: #059669 !important;
+  direction: rtl !important;
+  text-align: center !important;
+  margin-bottom: 12px !important;
+}
+.u-order-slots {
+  min-height: 60px !important;
+  padding: 10px 14px !important;
+  background: #F8FAFC !important;
+  border: 2px dashed #CBD5E1 !important;
+  border-radius: 18px !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  direction: ltr !important;
+  margin-bottom: 16px !important;
+}
+.u-order-placeholder {
+  color: #94A3B8 !important;
+  font-size: 13.5px !important;
+  font-weight: 600 !important;
+  direction: rtl !important;
+}
+.u-order-bank {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  justify-content: center !important;
+  direction: ltr !important;
+}
+.u-order-tile {
+  background: #FFFFFF !important;
+  border: 2px solid #E2E8F0 !important;
+  border-bottom: 3.5px solid #CBD5E1 !important;
+  border-radius: 14px !important;
+  padding: 8px 14px !important;
+  display: inline-flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+}
+.u-order-tile:active {
+  transform: translateY(2px) !important;
+  border-bottom-width: 2px !important;
+}
+.u-order-tile.is-used {
+  opacity: 0.35 !important;
+  pointer-events: none !important;
+  border-style: dashed !important;
+  background: #F1F5F9 !important;
+}
+.u-order-tile.is-placed {
+  background: #ECFDF5 !important;
+  border-color: #10B981 !important;
+  border-bottom-color: #059669 !important;
+  color: #065F46 !important;
+}
+
+/* حباب‌های گفت‌وگو و خواندن (Dialogue & Reading) */
+.u-dialogue-card {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  width: 100% !important;
+  margin-bottom: 16px !important;
+}
+.u-d-bubble {
+  padding: 12px 16px !important;
+  border-radius: 18px !important;
+  max-width: 88% !important;
+  box-sizing: border-box !important;
+}
+.u-d-bubble--a {
+  align-self: flex-start !important;
+  background: #F1F5F9 !important;
+  border: 1px solid #E2E8F0 !important;
+  border-bottom-left-radius: 4px !important;
+  text-align: left !important;
+  direction: ltr !important;
+}
+.u-d-bubble--b {
+  align-self: flex-end !important;
+  background: #ECFDF5 !important;
+  border: 1.5px solid #A7F3D0 !important;
+  border-bottom-right-radius: 4px !important;
+  text-align: left !important;
+  direction: ltr !important;
+}
+.u-d-bubble__speaker {
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  color: #64748B !important;
+  margin-bottom: 4px !important;
+  text-transform: uppercase !important;
+}
+.u-d-bubble__zh {
+  font-size: 17px !important;
+  font-family: var(--f-han, "Noto Sans SC", sans-serif) !important;
+  font-weight: 700 !important;
+  color: #0F172A !important;
+  line-height: 1.4 !important;
+}
+.u-d-bubble__fa {
+  font-size: 12px !important;
+  color: #64748B !important;
+  direction: rtl !important;
+  text-align: right !important;
+  margin-top: 4px !important;
+}
+
+/* متن درک مطلب خواندن (Reading Passage) */
+.u-passage-box {
+  background: #F8FAFC !important;
+  border: 1.5px solid #E2E8F0 !important;
+  border-radius: 20px !important;
+  padding: 16px !important;
+  margin-bottom: 16px !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+}
+.u-passage-head {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 10px !important;
+  direction: rtl !important;
+}
+.u-passage-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  color: #059669 !important;
+}
+.u-passage-zh {
+  font-size: 19px !important;
+  font-family: var(--f-han, "Noto Sans SC", sans-serif) !important;
+  font-weight: 700 !important;
+  line-height: 1.8 !important;
+  color: #0F172A !important;
+  direction: ltr !important;
+  text-align: left !important;
+  white-space: pre-line !important;
+}
+.u-passage-py {
+  font-size: 13.5px !important;
+  line-height: 1.6 !important;
+  color: #64748B !important;
+  direction: ltr !important;
+  text-align: left !important;
+  margin-top: 8px !important;
+  white-space: pre-line !important;
+}
+
+/* کارت آموزشی گرامر (Grammar Rule Card) */
+.u-ex-card--gram {
+  direction: rtl !important;
+  text-align: right !important;
+}
+.gp-formula {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 12px 14px !important;
+  background: #EFF6FF !important;
+  border: 1.5px solid #BFDBFE !important;
+  border-radius: 16px !important;
+  margin: 10px 0 14px 0 !important;
+  direction: rtl !important;
+}
+.u-formula-tag {
+  background: #FFFFFF !important;
+  border: 1.5px solid #93C5FD !important;
+  border-radius: 10px !important;
+  padding: 4px 10px !important;
+  font-size: 13.5px !important;
+  font-weight: 800 !important;
+  color: #1D4ED8 !important;
+}
+
+/* نوار اقدام و فیدبک پایین صفحه تمرین */
+.u-action-bar,
+.u-feedback {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
+  max-width: 480px !important;
+  box-sizing: border-box !important;
+  direction: rtl !important;
+}
+
+.u-action-bar {
+  transform: none !important;
+  background: #FFFFFF !important;
+  border-top: 1px solid #E2E8F0 !important;
+  padding: 14px 18px max(16px, env(safe-area-inset-bottom, 16px)) 18px !important;
+  z-index: 50 !important;
+}
+
+.u-feedback {
+  z-index: 99 !important;
+  transform: none !important;
+  padding: 16px 18px max(20px, env(safe-area-inset-bottom, 20px)) 18px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.12) !important;
+  animation: uSlideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.u-feedback.is-correct {
+  background: linear-gradient(180deg, #F0FDF4 0%, #DCFCE7 100%) !important;
+  border-top: 3.5px solid #10B981 !important;
+  box-shadow: 0 -12px 36px rgba(16, 185, 129, 0.18), 0 -2px 8px rgba(0, 0, 0, 0.05) !important;
+  border-top-left-radius: 26px !important;
+  border-top-right-radius: 26px !important;
+}
+
+.u-feedback.is-wrong {
+  background: linear-gradient(180deg, #FEF2F2 0%, #FEE2E2 100%) !important;
+  border-top: 3.5px solid #EF4444 !important;
+  box-shadow: 0 -12px 36px rgba(239, 68, 68, 0.18), 0 -2px 8px rgba(0, 0, 0, 0.05) !important;
+  border-top-left-radius: 26px !important;
+  border-top-right-radius: 26px !important;
+}
+
+.u-check-btn {
+  width: 100% !important;
+  height: 52px !important;
+  border-radius: 999px !important;
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%) !important;
+  color: #FFFFFF !important;
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  border: none !important;
+  box-shadow: 0 4px 0 #047857, 0 8px 20px rgba(16, 185, 129, 0.3) !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+}
+.u-check-btn:active {
+  transform: translateY(3px) !important;
+  box-shadow: 0 1px 0 #047857 !important;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   ۲۰. انیمیشن لودر اژدهای بازی و خواندن (Dragon Loaders)
+   ════════════════════════════════════════════════════════════ */
+.dragon-loader-box {
+  position: relative !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 auto !important;
+}
+
+/* حلقه چرخان جادویی */
+.dragon-loader-spin {
+  position: absolute !important;
+  inset: -6px !important;
+  border-radius: 50% !important;
+  border: 3.5px solid transparent !important;
+  border-top-color: #10B981 !important;
+  border-right-color: #F59E0B !important;
+  animation: dragonSpin 1.4s cubic-bezier(0.5, 0, 0.5, 1) infinite !important;
+  filter: drop-shadow(0 0 6px rgba(16, 185, 129, 0.4)) !important;
+  pointer-events: none !important;
+}
+.dragon-loader--game .dragon-loader-spin {
+  border-top-color: #EF4444 !important;
+  border-right-color: #F59E0B !important;
+  border-bottom-color: #3B82F6 !important;
+  filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.5)) !important;
+}
+.dragon-loader--read .dragon-loader-spin {
+  border-top-color: #10B981 !important;
+  border-right-color: #06B6D4 !important;
+  border-bottom-color: #8B5CF6 !important;
+  filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.45)) !important;
+}
+@keyframes dragonSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* تصویر اژدها داخل لودر */
+.dragon-loader-img {
+  width: 82% !important;
+  height: 82% !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.18)) !important;
+  animation: dragonBounce 2s ease-in-out infinite alternate !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+@keyframes dragonBounce {
+  0% { transform: translateY(3px) scale(0.97); }
+  100% { transform: translateY(-4px) scale(1.03); }
+}
+
+/* جرقه‌های نورانی */
+.dragon-loader-sparks {
+  position: absolute !important;
+  inset: 0 !important;
+  pointer-events: none !important;
+  z-index: 3 !important;
+}
+.dragon-loader-sparks .spk {
+  position: absolute !important;
+  font-size: 14px !important;
+  animation: sparkFloat 1.8s ease-in-out infinite !important;
+}
+.spk-1 { top: 0 !important; right: 10% !important; animation-delay: 0s !important; }
+.spk-2 { bottom: 10% !important; left: 5% !important; animation-delay: 0.6s !important; font-size: 16px !important; }
+.spk-3 { top: 40% !important; right: -5% !important; animation-delay: 1.2s !important; font-size: 12px !important; }
+
+@keyframes sparkFloat {
+  0%, 100% { opacity: 0; transform: scale(0.5) translateY(0); }
+  50% { opacity: 1; transform: scale(1.1) translateY(-6px); }
+}
+
+/* در کانتینرهای لودینگ بازی‌ها و پادکست/داستان */
+.stack__wait,
+.town__wait,
+.pd-wait--load,
+.ex-wait {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 14px !important;
+  padding: 32px 20px !important;
+}
+
+.stack__wait .ld-line,
+.town__wait .ld-line,
+.pd-wait--load .ld-line {
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: #334155 !important;
+  animation: textPulse 1.8s ease-in-out infinite alternate !important;
+}
+@keyframes textPulse {
+  from { opacity: 0.75; }
+  to { opacity: 1; }
+}
+
+
+
+/* ════════════════════════════════════════════════════════════
+   ۱۸. استایل‌های جزایر معلق و جریان تمرین زیردرس‌ها (Subtasks & Practice Flow)
+   ════════════════════════════════════════════════════════════ */
+
+
+    .subtasks-view {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      min-height: 100%;
+      overflow: hidden;
+    }
+
+    .subtasks-bg-art {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      pointer-events: none;
+      transition: opacity 0.25s ease-in-out;
+    }
+
+    /* Floating Station & Lesson Breadcrumb Banner */
+    .subtask-station-banner {
+      position: absolute;
+      top: max(calc(var(--sat, 0px) + 84px), 116px);
+      left: 14px;
+      right: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-radius: 999px;
+      padding: 6px 14px;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.10);
+      border: 1.2px solid rgba(255, 255, 255, 0.95);
+      z-index: 34;
+      cursor: pointer;
+      transition: transform 0.15s;
+    }
+
+    .subtask-station-banner:hover {
+      transform: scale(1.02);
+    }
+
+    .subtask-station-info {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .subtask-station-pill-tag {
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: var(--mint-bg);
+      color: var(--mint-text);
+      white-space: nowrap;
+    }
+
+    .subtask-station-lesson-name {
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--text-title);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 210px;
+    }
+
+    .subtask-station-back-link {
+      font-size: 11.5px;
+      font-weight: 800;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      white-space: nowrap;
+    }
+
+    /* Dragon dialogue on bridge */
+    .subtask-dialogue-bubble {
+      position: absolute;
+      top: max(calc(var(--sat, 0px) + 134px), 166px);
+      right: 16px;
+      width: 52%;
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-radius: 20px;
+      padding: 10px 14px;
+      box-shadow: var(--card-shadow);
+      border: 1.5px solid var(--card-border);
+      animation: floatSubtaskSpeech 3.6s ease-in-out infinite;
+      z-index: 30;
+      cursor: pointer;
+    }
+
+    @keyframes floatSubtaskSpeech {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+
+    .subtask-dialogue-bubble::before {
+      content: '';
+      position: absolute;
+      left: -9px;
+      top: 20px;
+      width: 0;
+      height: 0;
+      border-top: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-right: 10px solid #FFFFFF;
+    }
+
+    .subtask-speech-text {
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--text-title);
+      line-height: 1.45;
+    }
+
+    /* Unified Subtask Pods */
+    .subtask-stage-anchor {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 35;
+      pointer-events: none;
+    }
+
+    .anchor-step-1 { top: max(calc(var(--sat, 0px) + 205px), 235px); }
+    .anchor-step-2 { top: max(calc(var(--sat, 0px) + 310px), 340px); }
+    .anchor-step-3 { top: max(calc(var(--sat, 0px) + 415px), 445px); }
+    .anchor-step-4 { top: max(calc(var(--sat, 0px) + 520px), 550px); }
+
+    .subtask-interactive-pod {
+      pointer-events: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .subtask-interactive-pod:hover {
+      transform: scale(1.04) translateY(-2px);
+    }
+
+    .subtask-interactive-pod:active {
+      transform: scale(0.97);
+    }
+
+    .integrated-lock-dome {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, rgba(255, 255, 255, 0.95) 0%, rgba(220, 230, 245, 0.78) 45%, rgba(160, 185, 215, 0.68) 100%);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      box-shadow: 0 8px 22px rgba(15, 23, 42, 0.30), inset 0 2px 4px rgba(255, 255, 255, 0.9);
+      border: 2px solid rgba(255, 255, 255, 0.95);
+      display: grid;
+      place-items: center;
+      margin-bottom: -16px;
+      z-index: 10;
+      position: relative;
+    }
+
+    .integrated-lock-dome svg {
+      width: 25px;
+      height: 25px;
+      fill: #334155;
+      filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.15));
+    }
+
+    .subtask-unified-card {
+      background: var(--card-bg);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-radius: 26px;
+      border: 1.8px solid var(--card-border);
+      box-shadow: var(--card-shadow);
+      padding: 10px 32px;
+      min-width: 195px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 5;
+    }
+
+    .subtask-card-title {
+      font-size: 16px;
+      font-weight: 900;
+      color: var(--text-title);
+      text-align: center;
+      letter-spacing: -0.2px;
+    }
+
+    .subtask-card--vocab {
+      border: 2px solid #FBBF24;
+      box-shadow: 0 12px 32px rgba(245, 158, 11, 0.24);
+      flex-direction: column;
+      padding: 12px 28px 8px;
+    }
+
+    .temple-mini-roof {
+      position: absolute;
+      top: -24px;
+      width: 80px;
+      height: 28px;
+    }
+
+    .temple-mini-roof svg {
+      width: 100%;
+      height: 100%;
+      filter: drop-shadow(0 3px 6px rgba(245, 158, 11, 0.45));
+    }
+
+    .vocab-progress-row {
+      margin-top: 6px;
+      background: #A7F3D0;
+      border-radius: 999px;
+      padding: 3px 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .vocab-progress-count {
+      font-size: 12px;
+      font-weight: 800;
+      color: #065F46;
+      letter-spacing: 1px;
+    }
+
+    .vocab-check-circle {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 12px;
+      font-weight: 900;
+      box-shadow: 0 2px 8px var(--primary-glow);
+    }
+
+    /* ════════════════════════════════════════════════════════════
+       VIEW 3: SUB-LESSON PRACTICE FLOW (NEW SCREEN - EXACT MATCH)
+       ════════════════════════════════════════════════════════════ */
+    
+    
+    /* Unified Uniform Back Button (Positioned at top-left across all screens) */
+    .screen-back-btn {
+      position: absolute;
+      top: max(calc(var(--sat, 0px) + 12px), 44px) !important;
+      left: 14px;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16);
+      display: grid;
+      place-items: center;
+      z-index: 50;
+      cursor: pointer;
+      transition: transform 0.15s, background-color 0.15s;
+    }
+
+    .screen-back-btn:hover {
+      transform: scale(1.08);
+      background: #FFFFFF;
+    }
+
+    .screen-back-btn:active {
+      transform: scale(0.92);
+    }
+
+    .screen-back-btn svg {
+      width: 22px;
+      height: 22px;
+      fill: #1E293B;
+    }
+
+    /* ============================================================
+   REDESIGNED LEVEL 3: Practice Stages & Learning Cycles Flow
+   ============================================================ */
+.practice-flow-view {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  padding-bottom: 36px;
+}
+
+.practice-bg-art {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+/* Header Banner — Floating Pill matching Level 2 — بدون برش و کات شدن متن با پدینگ و لاین هایت استاندارد */
+.practice-top-banner {
+  position: absolute !important;
+  top: max(calc(var(--sat, 0px) + 12px), 44px) !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  background: rgba(255, 255, 255, 0.96) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-radius: 24px !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.92) !important;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.09) !important;
+  padding: 10px 22px !important;
+  min-height: 56px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 100 !important;
+  white-space: nowrap !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
+
+.practice-banner-tag {
+  font-family: var(--f) !important;
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  color: #059669 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 2px 0 !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
+.practice-banner-title {
+  font-family: var(--f) !important;
+  font-size: 13.5px !important;
+  font-weight: 900 !important;
+  color: #0F172A !important;
+  letter-spacing: 0 !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
+/* Practice Stages Container — Clean, Airy, Breathable */
+.practice-cards-flow {
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  padding: max(calc(var(--sat, 0px) + 175px), 210px) 16px 36px !important;
+  z-index: 20 !important;
+  max-width: 410px !important;
+  margin: 0 auto !important;
+}
+
+/* Practice Stage Card — Glassmorphic, Modern, Distraction-Free */
+.practice-stage-card {
+  position: relative !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-radius: 22px !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.85) !important;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06) !important;
+  padding: 12px 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 14px !important;
+  cursor: pointer !important;
+  transition: all 0.22s cubic-bezier(0.2, 0.8, 0.3, 1) !important;
+  user-select: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.practice-stage-card:hover {
+  transform: translateY(-2px) scale(1.01) !important;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.10) !important;
+}
+
+.practice-stage-card:active {
+  transform: scale(0.98) !important;
+}
+
+/* Active Stage Card (Ready to Learn) */
+.practice-stage-card--active {
+  background: rgba(255, 255, 255, 0.98) !important;
+  border: 2px solid #2BD19D !important;
+  box-shadow: 0 10px 28px rgba(43, 209, 157, 0.24) !important;
+}
+
+/* Completed Stage Card */
+.practice-stage-card--done {
+  background: rgba(240, 253, 244, 0.92) !important;
+  border: 1.5px solid #86EFAC !important;
+}
+
+/* Locked Stage Card */
+.practice-stage-card--locked {
+  background: rgba(255, 255, 255, 0.78) !important;
+  border: 1.5px solid rgba(226, 232, 240, 0.8) !important;
+  opacity: 0.88 !important;
+}
+
+/* 3D Icon Box */
+.practice-stage-icon-box {
+  width: 52px !important;
+  height: 52px !important;
+  border-radius: 16px !important;
+  background: linear-gradient(135deg, rgba(240, 253, 244, 0.85) 0%, rgba(220, 252, 231, 0.5) 100%) !important;
+  border: 1px solid rgba(134, 239, 172, 0.5) !important;
+  display: grid !important;
+  place-items: center !important;
+  flex-shrink: 0 !important;
+}
+
+.practice-stage-card--locked .practice-stage-icon-box {
+  background: rgba(241, 245, 249, 0.7) !important;
+  border-color: rgba(203, 213, 225, 0.6) !important;
+}
+
+.practice-stage-icon-img {
+  width: 40px !important;
+  height: 40px !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.12)) !important;
+}
+
+/* Stage Info */
+.practice-stage-info {
+  flex: 1 !important;
+  min-width: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2px !important;
+}
+
+.stage-subtitle-text {
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  color: #059669 !important;
+  letter-spacing: -0.2px !important;
+  display: block !important;
+  margin-bottom: 1px !important;
+}
+
+.practice-stage-card--locked .stage-subtitle-text {
+  color: #64748B !important;
+}
+
+.stage-main-title {
+  font-size: 14.5px !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+  line-height: 1.3 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.stage-progress-row {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  margin-top: 4px !important;
+}
+
+.stage-progress-bar-mini {
+  flex: 1 !important;
+  height: 4px !important;
+  background: #E2E8F0 !important;
+  border-radius: 99px !important;
+  overflow: hidden !important;
+}
+
+.stage-progress-bar-mini .fill {
+  height: 100% !important;
+  background: linear-gradient(90deg, #10B981, #059669) !important;
+  border-radius: 99px !important;
+  transition: width 0.3s ease !important;
+}
+
+.stage-progress-count-text {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  color: #64748B !important;
+  white-space: nowrap !important;
+}
+
+.practice-stage-card--done .stage-progress-count-text {
+  color: #059669 !important;
+  font-weight: 800 !important;
+}
+
+/* Badges */
+.practice-stage-badge {
+  flex-shrink: 0 !important;
+  display: grid !important;
+  place-items: center !important;
+}
+
+.badge-start-active {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50% !important;
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%) !important;
+  color: #FFFFFF !important;
+  display: grid !important;
+  place-items: center !important;
+  font-size: 18px !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4) !important;
+}
+
+.badge-checkmark-green {
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 50% !important;
+  background: #10B981 !important;
+  display: grid !important;
+  place-items: center !important;
+  box-shadow: 0 3px 10px rgba(16, 185, 129, 0.35) !important;
+}
+
+.badge-lock-silver {
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 50% !important;
+  background: rgba(241, 245, 249, 0.9) !important;
+  border: 1px solid #CBD5E1 !important;
+  display: grid !important;
+  place-items: center !important;
+}
+
+.badge-lock-silver svg {
+  width: 14px !important;
+  height: 14px !important;
+  fill: #94A3B8 !important;
+}
+
+/* Milestone Gift Box */
+.practice-milestone-gift-card {
+  margin-top: 6px !important;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(254, 249, 195, 0.92) 100%) !important;
+  border: 1.5px solid #FDE047 !important;
+  border-radius: 22px !important;
+  box-shadow: 0 8px 24px rgba(234, 179, 8, 0.16) !important;
+  padding: 12px 18px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.practice-milestone-gift-card:active {
+  transform: scale(0.98) !important;
+}
+
+.practice-milestone-gift-card.is-locked-gift {
+  opacity: 0.92 !important;
+}
+
+.gift-card-center-text {
+  flex: 1 !important;
+  text-align: center !important;
+}
+
+.gift-card-title {
+  font-size: 13.5px !important;
+  font-weight: 900 !important;
+  color: #78350F !important;
+}
+
+.gift-card-fraction {
+  font-size: 11.5px !important;
+  font-weight: 700 !important;
+  color: #B45309 !important;
+  margin-top: 2px !important;
+}
+
+.gift-card-img {
+  width: 36px !important;
+  height: 36px !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 4px 10px rgba(245, 158, 11, 0.3)) !important;
+}
+
+
+html[dir="rtl"] .u-toggles-col--sublevel,
+.u-toggles-col--sublevel {
+  position: absolute !important;
+  top: max(calc(var(--sat, 0px) + 10px), 40px) !important;
+  right: 14px !important;
+  left: auto !important;
+  z-index: 120 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 4px !important;
+  align-items: stretch !important;
+}
+
+html[dir="rtl"] .u-toggles-col--sublevel .u-py-toggle--sublevel,
+.u-toggles-col--sublevel .u-py-toggle--sublevel,
+html[dir="rtl"] .u-toggles-col--sublevel .u-fa-toggle--sublevel,
+.u-toggles-col--sublevel .u-fa-toggle--sublevel {
+  position: static !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16) !important;
+}
+
+html[dir="rtl"] .u-py-toggle--sublevel,
+.u-py-toggle--sublevel {
+  position: absolute !important;
+  top: max(calc(var(--sat, 0px) + 12px), 44px) !important;
+  right: 14px !important;
+  left: auto !important;
+  z-index: 120 !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16) !important;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   ELEGANT STATUS BADGES & SAFE VIEWPORT ANCHOR POSITIONS
+   ════════════════════════════════════════════════════════════ */
+.subtasks-view {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  padding-bottom: calc(var(--sab, 0px) + 40px) !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+/* Proportional comfortable step anchors (no bottom clipping) */
+.anchor-step-1 { top: max(calc(var(--sat, 0px) + 205px), 235px) !important; }
+.anchor-step-2 { top: max(calc(var(--sat, 0px) + 310px), 340px) !important; }
+.anchor-step-3 { top: max(calc(var(--sat, 0px) + 415px), 445px) !important; }
+.anchor-step-4 { top: max(calc(var(--sat, 0px) + 520px), 550px) !important; }
+
+/* Elegant Minimal Status Pill (Replacing the bulky 4/4 fraction) */
+.subtask-status-pill {
+  margin-top: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 3px 12px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 800;
+  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.subtask-status-pill.is-completed {
+  background: rgba(16, 185, 129, 0.12) !important;
+  border: 1px solid rgba(16, 185, 129, 0.32) !important;
+  color: #059669 !important;
+}
+
+.subtask-status-check {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #0FA968;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(15, 169, 104, 0.35);
+}
+
+.subtask-status-check svg {
+  width: 9px;
+  height: 9px;
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.subtask-status-pill.is-in-progress {
+  background: rgba(245, 158, 11, 0.12) !important;
+  border: 1px solid rgba(245, 158, 11, 0.30) !important;
+  color: #D97706 !important;
+}
+
+.subtask-status-pill.is-ready {
+  background: rgba(100, 116, 139, 0.08) !important;
+  border: 1px solid rgba(100, 116, 139, 0.18) !important;
+  color: #64748B !important;
+}
+
+/* Also gracefully style legacy vocab-progress-row if rendered */
+.vocab-progress-row {
+  margin-top: 5px !important;
+  background: rgba(16, 185, 129, 0.12) !important;
+  border: 1px solid rgba(16, 185, 129, 0.32) !important;
+  border-radius: 999px !important;
+  padding: 3px 12px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+.vocab-progress-count {
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  color: #059669 !important;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   SUBTASKS 4-ISLAND POLISH & SMOOTH PERFORMANCE
+   ════════════════════════════════════════════════════════════ */
+.subtask-unified-card {
+  background: rgba(255, 255, 255, 0.96) !important;
+  backdrop-filter: blur(18px) !important;
+  -webkit-backdrop-filter: blur(18px) !important;
+  border-radius: 22px !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.12), 0 2px 6px rgba(0,0,0,0.04) !important;
+  padding: 10px 24px 8px !important;
+  min-width: 175px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+  z-index: 5 !important;
+  will-change: transform !important;
+  transform: translate3d(0, 0, 0) !important;
+  transition: transform 0.16s cubic-bezier(0.2, 0.8, 0.2, 1) !important;
+}
+
+.subtask-card-title {
+  font-size: 15.5px !important;
+  font-weight: 900 !important;
+  color: #0F172A !important;
+  letter-spacing: 0 !important;
+  margin-bottom: 2px !important;
+}
+
+.subtask-station-banner {
+  background: rgba(255, 255, 255, 0.94) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border: 1.2px solid rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.10) !important;
+  transform: translate3d(0, 0, 0) !important;
+  will-change: transform !important;
+}
+
+.screen-back-btn {
+  background: rgba(255, 255, 255, 0.94) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.12) !important;
+  transform: translate3d(0, 0, 0) !important;
+  will-change: transform !important;
+}
+
+/* ════════════════════════════════════════════════════════════
+   HSK LEVEL SELECTOR BOTTOM SHEET MODAL
+   ════════════════════════════════════════════════════════════ */
+.kan-level-modal-overlay {
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(15, 23, 42, 0.65) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  z-index: 99999 !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+  animation: kanFadeIn 0.25s ease-out !important;
+}
+
+.kan-level-modal-sheet {
+  width: 100% !important;
+  max-width: 440px !important;
+  background: #FFFFFF !important;
+  border-radius: 28px 28px 0 0 !important;
+  padding: 24px 20px calc(var(--sab, 0px) + 24px) !important;
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.2) !important;
+  animation: kanSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+@keyframes kanSlideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.kan-level-modal-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 20px !important;
+}
+
+.kan-level-modal-title {
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+}
+
+.kan-level-modal-close {
+  background: #F1F5F9 !important;
+  border: none !important;
+  border-radius: 50% !important;
+  width: 32px !important;
+  height: 32px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 15px !important;
+  color: #64748B !important;
+  cursor: pointer !important;
+}
+
+.kan-level-options {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+}
+
+.kan-level-card {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 16px !important;
+  border: 2px solid #E2E8F0 !important;
+  border-radius: 18px !important;
+  background: #F8FAFC !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.kan-level-card.is-active {
+  border-color: #059669 !important;
+  background: #ECFDF5 !important;
+}
+
+.kan-level-card-left {
+  display: flex !important;
+  align-items: center !important;
+  gap: 14px !important;
+}
+
+.kan-level-icon-badge {
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: 800 !important;
+  font-size: 14px !important;
+  color: #FFFFFF !important;
+  flex-shrink: 0 !important;
+}
+
+.kan-level-hsk1 {
+  background: linear-gradient(135deg, #10B981, #059669) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3) !important;
+}
+
+.kan-level-hsk2 {
+  background: linear-gradient(135deg, #3B82F6, #1D4ED8) !important;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3) !important;
+}
+
+.kan-level-hsk3 {
+  background: linear-gradient(135deg, #8B5CF6, #6D28D9) !important;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3) !important;
+}
+
+.kan-level-hsk4 {
+  background: linear-gradient(135deg, #F43F5E, #BE123C) !important;
+  box-shadow: 0 4px 12px rgba(244, 63, 94, 0.3) !important;
+}
+
+.kan-level-hsk5 {
+  background: linear-gradient(135deg, #F59E0B, #B45309) !important;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.35) !important;
+}
+
+.kan-level-card-info {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 4px !important;
+}
+
+.kan-level-card-name {
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+}
+
+.kan-level-card-sub {
+  font-size: 12px !important;
+  color: #64748B !important;
+  line-height: 1.4 !important;
+}
+
+.kan-level-check-icon {
+  width: 26px !important;
+  height: 26px !important;
+  border-radius: 50% !important;
+  background: #059669 !important;
+  color: #FFFFFF !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: 800 !important;
+  font-size: 14px !important;
+  flex-shrink: 0 !important;
+}
+
+.kan-level-radio {
+  width: 22px !important;
+  height: 22px !important;
+  border-radius: 50% !important;
+  border: 2px solid #CBD5E1 !important;
+  flex-shrink: 0 !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════ */
+/* CHINIFY PRO PAYWALL & SUBSCRIPTION STYLES                      */
+/* ══════════════════════════════════════════════════════════════ */
+
+.kan-level-card-name-row {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.kan-level-tag-free {
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  color: #059669 !important;
+  background: rgba(16, 185, 129, 0.12) !important;
+  padding: 2px 7px !important;
+  border-radius: 6px !important;
+}
+
+.kan-level-tag-pro {
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  color: #D97706 !important;
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.18), rgba(217, 119, 6, 0.18)) !important;
+  border: 1px solid rgba(245, 158, 11, 0.3) !important;
+  padding: 2px 7px !important;
+  border-radius: 6px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 3px !important;
+}
+
+.kan-level-tag-unlocked {
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  color: #2563EB !important;
+  background: rgba(37, 99, 235, 0.12) !important;
+  padding: 2px 7px !important;
+  border-radius: 6px !important;
+}
+
+.kan-level-lock-badge {
+  font-size: 15px !important;
+  margin-right: auto !important;
+  opacity: 0.75 !important;
+}
+
+/* بنر چسبان بالای نقشه در سطوح پولی HSK 2 و 3 */
+.kan-pro-roadmap-banner {
+  margin: 12px 14px 4px !important;
+  background: linear-gradient(135deg, #1E1B4B 0%, #312E81 50%, #4338CA 100%) !important;
+  border: 1.5px solid rgba(245, 158, 11, 0.5) !important;
+  border-radius: 18px !important;
+  padding: 12px 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 10px !important;
+  box-shadow: 0 8px 24px rgba(49, 46, 129, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+  cursor: pointer !important;
+  direction: rtl !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.kan-pro-roadmap-banner::before {
+  content: '' !important;
+  position: absolute !important;
+  top: -50% !important;
+  left: -50% !important;
+  width: 200% !important;
+  height: 200% !important;
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.15) 0%, transparent 60%) !important;
+  pointer-events: none !important;
+}
+
+.kan-pro-banner-content {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.kan-pro-banner-crown {
+  font-size: 26px !important;
+  filter: drop-shadow(0 2px 6px rgba(245, 158, 11, 0.6)) !important;
+  animation: kanCrownPulse 2.5s infinite ease-in-out !important;
+}
+
+@keyframes kanCrownPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15) rotate(5deg); }
+}
+
+.kan-pro-banner-text {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2px !important;
+}
+
+.kan-pro-banner-title {
+  font-size: 13.5px !important;
+  font-weight: 800 !important;
+  color: #FBBF24 !important;
+  font-family: var(--f, inherit) !important;
+}
+
+.kan-pro-banner-sub {
+  font-size: 11px !important;
+  color: #E0E7FF !important;
+  font-weight: 500 !important;
+  font-family: var(--f, inherit) !important;
+}
+
+.kan-pro-banner-action-btn {
+  background: linear-gradient(135deg, #F59E0B, #D97706) !important;
+  color: #FFFFFF !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  padding: 8px 14px !important;
+  border-radius: 12px !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.45) !important;
+  white-space: nowrap !important;
+  cursor: pointer !important;
+  font-family: var(--f, inherit) !important;
+}
+
+/* مودال تمام صفحه اشتراک پرو */
+.kan-pro-modal-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  background: rgba(15, 23, 42, 0.75) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  z-index: 100000 !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+  animation: kanFadeIn 0.25s ease-out !important;
+}
+
+.kan-pro-sheet {
+  background: #FFFFFF !important;
+  width: 100% !important;
+  max-width: 480px !important;
+  max-height: 90vh !important;
+  border-radius: 28px 28px 0 0 !important;
+  box-shadow: 0 -12px 48px rgba(0, 0, 0, 0.25) !important;
+  overflow-y: auto !important;
+  direction: rtl !important;
+  padding: 24px 20px 28px !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+  animation: kanSheetUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.kan-pro-sheet-close {
+  position: absolute !important;
+  top: 18px !important;
+  left: 18px !important;
+  width: 34px !important;
+  height: 34px !important;
+  border-radius: 50% !important;
+  background: #F1F5F9 !important;
+  border: none !important;
+  font-size: 15px !important;
+  color: #64748B !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.kan-pro-crown-header {
+  text-align: center !important;
+  margin-bottom: 16px !important;
+}
+
+.kan-pro-crown-icon-big {
+  font-size: 48px !important;
+  margin-bottom: 6px !important;
+  filter: drop-shadow(0 4px 12px rgba(245, 158, 11, 0.5)) !important;
+}
+
+.kan-pro-title {
+  font-size: 21px !important;
+  font-weight: 900 !important;
+  color: #0F172A !important;
+  margin: 0 0 6px !important;
+  font-family: var(--f, inherit) !important;
+}
+
+.kan-pro-sub {
+  font-size: 13.5px !important;
+  color: #64748B !important;
+  margin: 0 !important;
+  line-height: 1.5 !important;
+  font-family: var(--f, inherit) !important;
+}
+
+.kan-pro-benefits {
+  background: #F8FAFC !important;
+  border-radius: 18px !important;
+  padding: 14px 16px !important;
+  margin-bottom: 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+}
+
+.kan-pro-benefit-row {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  font-size: 13px !important;
+  color: #1E293B !important;
+  font-weight: 700 !important;
+  font-family: var(--f, inherit) !important;
+}
+
+.kan-pro-check-circle {
+  width: 22px !important;
+  height: 22px !important;
+  border-radius: 50% !important;
+  background: #10B981 !important;
+  color: #FFFFFF !important;
+  font-size: 13px !important;
+  font-weight: 900 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+}
+
+.kan-pro-plans {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  margin-bottom: 22px !important;
+}
+
+.kan-pro-plan-box {
+  border: 2px solid #E2E8F0 !important;
+  border-radius: 18px !important;
+  padding: 14px 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  position: relative !important;
+}
+
+.kan-pro-plan-box.is-selected {
+  border-color: #F59E0B !important;
+  background: rgba(245, 158, 11, 0.05) !important;
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.15) !important;
+}
+
+.kan-pro-plan-right {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+}
+
+.kan-pro-plan-radio {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+  border: 2px solid #CBD5E1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.kan-pro-plan-box.is-selected .kan-pro-plan-radio {
+  border-color: #F59E0B !important;
+}
+
+.kan-pro-plan-box.is-selected .kan-pro-plan-radio::after {
+  content: '' !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background: #F59E0B !important;
+}
+
+.kan-pro-plan-name {
+  font-size: 14.5px !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+}
+
+.kan-pro-plan-off {
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  color: #EF4444 !important;
+  background: rgba(239, 68, 68, 0.1) !important;
+  padding: 2px 6px !important;
+  border-radius: 6px !important;
+}
+
+.kan-pro-plan-price {
+  font-size: 15px !important;
+  font-weight: 900 !important;
+  color: #0F172A !important;
+  direction: ltr !important;
+}
+
+.kan-pro-cta-btn {
+  width: 100% !important;
+  height: 52px !important;
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%) !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  border-radius: 16px !important;
+  font-size: 16px !important;
+  font-weight: 900 !important;
+  cursor: pointer !important;
+  box-shadow: 0 6px 20px rgba(217, 119, 6, 0.4) !important;
+  font-family: var(--f, inherit) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  margin-bottom: 12px !important;
+}
+
+.kan-pro-test-toggle {
+  width: 100% !important;
+  background: transparent !important;
+  border: 1.5px dashed #CBD5E1 !important;
+  color: #64748B !important;
+  border-radius: 12px !important;
+  padding: 10px !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  font-family: var(--f, inherit) !important;
+  text-align: center !important;
+}

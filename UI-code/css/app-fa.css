@@ -1,0 +1,4612 @@
+/* ============================================================
+   app-fa.css — لایه‌ی فارسی / راست‌به‌چپ روی app.css
+   فقط وقتی فعال است که <html dir="rtl"> باشد؛ یعنی وقتی زبان
+   رابط «فارسی» است (app.js بوت و store.js/setUi این را ست می‌کنند).
+   هیچ چیز در زبان‌های دیگر را لمس نمی‌کند.
+   ============================================================ */
+
+/* فونت فارسی: وزیرمتن (متغیر، وزن ۱۰۰ تا ۹۰۰ در یک فایل) */
+@font-face{
+  font-family:"Vazirmatn";
+  src:url("fonts/Vazirmatn-Variable.woff2") format("woff2-variations"),
+      url("fonts/Vazirmatn-Variable.woff2") format("woff2");
+  font-weight:100 900;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* وزیرمتن سر استک فونت‌های پایه می‌نشیند؛ ولی فونت حروف چینی
+   (--f-han) دست‌نخورده می‌ماند تا حروف چینی همیشه درست رندر شوند.
+   نویسه‌های لاتینِ خاص (مثل اعراب پین‌یین ǎ ǐ) که در وزیرمتن نیستند
+   به‌طور خودکار به Manrope برمی‌گردند. */
+html[dir="rtl"]{
+  --f:"Vazirmatn","Manrope","Noto Sans SC","Noto Sans Khmer",system-ui,sans-serif;
+  --f-latin:"Vazirmatn","Manrope",system-ui,sans-serif;
+}
+
+/* چیدمان راست‌به‌چپ داخل قاب اپ (screen-host + tabbar + لایه‌ها) */
+html[dir="rtl"] .app{direction:rtl}
+
+/* حروف چینی و پین‌یین همیشه چپ‌به‌راست می‌مانند و از متن فارسی جدا */
+html[dir="rtl"] .han{direction:ltr;unicode-bidi:isolate}
+html[dir="rtl"] .py{direction:ltr;unicode-bidi:isolate}
+html[dir="rtl"] .tl-alk__row,html[dir="rtl"] .mw-row,html[dir="rtl"] .zh-prev__zh,html[dir="rtl"] .zh-prev__zh .zh-grp{direction:ltr;text-align:left}
+
+/* آینه‌کردن آیکون‌های جهت‌دار: پیکان بازگشت، فلش‌های رفت/آمد و
+   شِورون ردیف‌ها. آیکون‌ها اسپن‌های ماسک‌دار با نام فایل در استایل
+   درون‌خطی‌اند، پس همین سلکتور کافی است. */
+html[dir="rtl"] .i[style*="arrow-left"],
+html[dir="rtl"] .i[style*="arrow-right"],
+html[dir="rtl"] .i[style*="chevron-left"],
+html[dir="rtl"] .i[style*="chevron-right"]{transform:scaleX(-1)}
+
+/* ترازهای چپ/راستِ درون‌خطی که اسکرین‌ها در HTML می‌سازند، در RTL
+   برعکس می‌شوند (فقط همان‌هایی که واقعاً inline نوشته شده‌اند) */
+html[dir="rtl"] [style*="text-align:left"]{text-align:right!important}
+html[dir="rtl"] [style*="text-align:right"]{text-align:left!important}
+
+/* تب «من»: ردیف‌ها و گزینه‌ها متن‌شان را چسبیده به آیکون نشان بدهند
+   (سمت شروع = راست). .me-row و .me-opt در app.css text-align:left
+   فیزیکی دارند که در RTL لیبل را می‌برد کنار فلش — این را خنثی می‌کند. */
+html[dir="rtl"] .me-scr .me-row,html[dir="rtl"] .me-col .me-row,
+html[dir="rtl"] .me-scr .me-opt,html[dir="rtl"] .me-col .me-opt{text-align:right}
+
+/* پخش‌کننده‌ی کلیپ: جمله‌ی چینی و فهرست خط‌ها چپ‌به‌راست می‌مانند
+   (ترتیب واقعی نویسه‌ها) و از سمت چپِ صفحه پر می‌شوند؛ ترجمه‌ی
+   فارسی زیرشان با bidi خودش درست رندر می‌شود. */
+html[dir="rtl"] .ff-words,
+html[dir="rtl"] .ff-words .ff-row,
+html[dir="rtl"] .ff-lines__row,
+html[dir="rtl"] .ff-lines__txt,
+html[dir="rtl"] .pd-rb,
+html[dir="rtl"] .ls-rb{direction:ltr;text-align:left}
+/* ============================================================
+   سراسری: هر ظرفِ متن چینی (汉字) همیشه چپ‌به‌راست است —
+   فارسی راست‌به‌چپ می‌ماند؛ چینی مثل انگلیسی LTR و ایزوله.
+   Selector source: همه‌ی قواعد --f-han در app.css + ظرف‌های توکنی.
+   ============================================================ */
+html[dir="rtl"] .au-lang--han .au-lang__desc,
+html[dir="rtl"] .au-lang--han .au-lang__mark,
+html[dir="rtl"] .au-lang--han .au-lang__name,
+html[dir="rtl"] .bc-opt,
+html[dir="rtl"] .bc-step__g,
+html[dir="rtl"] .bk__glyph,
+html[dir="rtl"] .bk__zh,
+html[dir="rtl"] .cq-char b,
+html[dir="rtl"] .cq-clip b,
+html[dir="rtl"] .cq-feedback__line,
+html[dir="rtl"] .cq-gap,
+html[dir="rtl"] .cq-row b,
+html[dir="rtl"] .cq-sentence,
+html[dir="rtl"] .cq-word,
+html[dir="rtl"] .cs-open b,
+html[dir="rtl"] .cs-q__word,
+html[dir="rtl"] .cs-seal span,
+html[dir="rtl"] .cs-wrow__zh,
+html[dir="rtl"] .ep-next b,
+html[dir="rtl"] .ep-row__w b,
+html[dir="rtl"] .ep-title.han,
+html[dir="rtl"] .ex-cont__txt b,
+html[dir="rtl"] .ex-pod__txt b,
+html[dir="rtl"] .ff-chip b,
+html[dir="rtl"] .ff-done__w b,
+html[dir="rtl"] .ff-info b,
+html[dir="rtl"] .ff-lines__row,
+html[dir="rtl"] .ff-lines__row b,
+html[dir="rtl"] .ff-lines__txt,
+html[dir="rtl"] .ff-lines__txt .ls-rb__c b,
+html[dir="rtl"] .ff-lines__txt b,
+html[dir="rtl"] .ff-tok__zh,
+html[dir="rtl"] .ff-words,
+html[dir="rtl"] .ff-words .ff-grp,
+html[dir="rtl"] .ff-words .ff-row,
+html[dir="rtl"] .gp-chip--key,
+html[dir="rtl"] .gp-cmp__ex,
+html[dir="rtl"] .gp-cmp__w,
+html[dir="rtl"] .gp-mk__row,
+html[dir="rtl"] .gp-pair__ex,
+html[dir="rtl"] .gp-pair__w,
+html[dir="rtl"] .gp-row__txt .gp-vs__w,
+html[dir="rtl"] .gpr-gap,
+html[dir="rtl"] .gpr-panel__zh,
+html[dir="rtl"] .gpr-tile,
+html[dir="rtl"] .gpr-zh,
+html[dir="rtl"] .han-mix,
+html[dir="rtl"] .hm-clip__zh,
+html[dir="rtl"] .hm-cover__title,
+html[dir="rtl"] .hm-next__txt>b.hm-next__title,
+html[dir="rtl"] .hm-word__zh,
+html[dir="rtl"] .hx-it b,
+html[dir="rtl"] .jp-ans--zh b,
+html[dir="rtl"] .jp-row b .han,
+html[dir="rtl"] .jr-badge,
+html[dir="rtl"] .jr-card__h b,
+html[dir="rtl"] .jr-card__line b,
+html[dir="rtl"] .jr-course i,
+html[dir="rtl"] .jr-ls__t b,
+html[dir="rtl"] .jr-pkt i,
+html[dir="rtl"] .jr-rev__ic,
+html[dir="rtl"] .jr-sthead__t b,
+html[dir="rtl"] .jr-tcw b,
+html[dir="rtl"] .jr-tool small,
+html[dir="rtl"] .jr-tool__ic,
+html[dir="rtl"] .jr-txt b,
+html[dir="rtl"] .lb-ex__zh,
+html[dir="rtl"] .lb-in--han,
+html[dir="rtl"] .lb-in--py,
+html[dir="rtl"] .lb-w__han,
+html[dir="rtl"] .lc-words span,
+html[dir="rtl"] .ld-row b,
+html[dir="rtl"] .ld-title,
+html[dir="rtl"] .ln-clip b,
+html[dir="rtl"] .ln-dict__zh,
+html[dir="rtl"] .ln-ex__txt b,
+html[dir="rtl"] .ln-hard__pic b,
+html[dir="rtl"] .ln-hard__txt b,
+html[dir="rtl"] .ln-inbook button,
+html[dir="rtl"] .ln-moment b,
+html[dir="rtl"] .ln-moment span,
+html[dir="rtl"] .ln-try b,
+html[dir="rtl"] .ls-agap,
+html[dir="rtl"] .ls-ask b,
+html[dir="rtl"] .ls-bk.is-han,
+html[dir="rtl"] .ls-choice,
+html[dir="rtl"] .ls-clip__txt b,
+html[dir="rtl"] .ls-ex__txt b,
+html[dir="rtl"] .ls-ftile--han b,
+html[dir="rtl"] .ls-ftile__cap b,
+html[dir="rtl"] .ls-gt .ls-col>b,
+html[dir="rtl"] .ls-gt>b,
+html[dir="rtl"] .ls-gt__pic--han,
+html[dir="rtl"] .ls-hear__opts .cq-char b,
+html[dir="rtl"] .ls-how__eg>span>b,
+html[dir="rtl"] .ls-how__good,
+html[dir="rtl"] .ls-lines__row b,
+html[dir="rtl"] .ls-mid__chip .ls-col>b,
+html[dir="rtl"] .ls-mt b,
+html[dir="rtl"] .ls-now__zh,
+html[dir="rtl"] .ls-opt__txt span,
+html[dir="rtl"] .ls-panel__row b,
+html[dir="rtl"] .ls-pt>span>b,
+html[dir="rtl"] .ls-ptile__cap b,
+html[dir="rtl"] .ls-qgap,
+html[dir="rtl"] .ls-qgap.ls-qw,
+html[dir="rtl"] .ls-qopts .cq-char b,
+html[dir="rtl"] .ls-qsent,
+html[dir="rtl"] .ls-qtile b,
+html[dir="rtl"] .ls-rb,
+html[dir="rtl"] .ls-rb__c,
+html[dir="rtl"] .ls-rb__c b,
+html[dir="rtl"] .ls-rb__g,
+html[dir="rtl"] .ls-said__zh,
+html[dir="rtl"] .ls-say-it b,
+html[dir="rtl"] .ls-sub__zh,
+html[dir="rtl"] .ls-subs .ls-rb__c b,
+html[dir="rtl"] .ls-subs b,
+html[dir="rtl"] .ls-sw__top b,
+html[dir="rtl"] .ls-tc,
+html[dir="rtl"] .ls-tc__fix,
+html[dir="rtl"] .ls-tok,
+html[dir="rtl"] .ls-turn__q,
+html[dir="rtl"] .ls-wc__zh,
+html[dir="rtl"] .ls-word__zh,
+html[dir="rtl"] .ls-wr__c b,
+html[dir="rtl"] .ls-wr__h b,
+html[dir="rtl"] .me-preview__han,
+html[dir="rtl"] .me-preview__word .han,
+html[dir="rtl"] .mk-ask,
+html[dir="rtl"] .mk-q,
+html[dir="rtl"] .mk-tone .tc-ch b,
+html[dir="rtl"] .mp-chip,
+html[dir="rtl"] .mp-fz,
+html[dir="rtl"] .mw-ex__zh,
+html[dir="rtl"] .nm-fb__zh,
+html[dir="rtl"] .nm-tp__zh,
+html[dir="rtl"] .ob2-first b,
+html[dir="rtl"] .ob2-words b,
+html[dir="rtl"] .ob3-pv__c b,
+html[dir="rtl"] .ob3-seal,
+html[dir="rtl"] .ob3-wl__bg span,
+html[dir="rtl"] .pc-chg__w b,
+html[dir="rtl"] .pc-hero__hz,
+html[dir="rtl"] .pd-big__zh,
+html[dir="rtl"] .pd-cont__t b,
+html[dir="rtl"] .pd-dock__t,
+html[dir="rtl"] .pd-li__t b,
+html[dir="rtl"] .pd-rb,
+html[dir="rtl"] .pd-rb__c b,
+html[dir="rtl"] .pd-rb__g,
+html[dir="rtl"] .pd-rb__p,
+html[dir="rtl"] .pg-fz__seal,
+html[dir="rtl"] .rc-chip,
+html[dir="rtl"] .rc-mrow b,
+html[dir="rtl"] .rc-t .han,
+html[dir="rtl"] .rd-row__hz,
+html[dir="rtl"] .rd-thumb,
+html[dir="rtl"] .rd-tile__hz,
+html[dir="rtl"] .rg-row b,
+html[dir="rtl"] .rp-line b,
+html[dir="rtl"] .rp-word>b,
+html[dir="rtl"] .rp-word>b .ls-col>b,
+html[dir="rtl"] .rs-row__w b,
+html[dir="rtl"] .sr-card__zh,
+html[dir="rtl"] .sr-next__zh,
+html[dir="rtl"] .st-keep__c b,
+html[dir="rtl"] .st-l1,
+html[dir="rtl"] .st-nextc b,
+html[dir="rtl"] .st-pick__l1,
+html[dir="rtl"] .st-pick__t b,
+html[dir="rtl"] .st-rhead b,
+html[dir="rtl"] .st-w b,
+html[dir="rtl"] .st-zh,
+html[dir="rtl"] .tc-ch b,
+html[dir="rtl"] .tk__s .han,
+html[dir="rtl"] .tk__w>span,
+html[dir="rtl"] .tl-alk__sq b,
+html[dir="rtl"] .tl-chipb b,
+html[dir="rtl"] .tl-drow__main .tl-dthumb--hz,
+html[dir="rtl"] .tl-drow__main b,
+html[dir="rtl"] .tl-ex__zh,
+html[dir="rtl"] .tl-excard__name b,
+html[dir="rtl"] .tl-hero__glyph,
+html[dir="rtl"] .tl-lab .tl-step b,
+html[dir="rtl"] .tl-rule__head b,
+html[dir="rtl"] .tl-scard b,
+html[dir="rtl"] .tl-tcard__w b,
+html[dir="rtl"] .tl-tile--han,
+html[dir="rtl"] .tl-today__c,
+html[dir="rtl"] .tl-word__hz,
+html[dir="rtl"] .tl-wordrow__pic,
+html[dir="rtl"] .tl-wordrow__txt b,
+html[dir="rtl"] .tokenbtn,
+html[dir="rtl"] .vb-cover,
+html[dir="rtl"] .vb-plan__ex,
+html[dir="rtl"] .vb-textarea,
+html[dir="rtl"] .vb-thumb,
+html[dir="rtl"] .vb-word__hz,
+html[dir="rtl"] .vb-ws__hz,
+html[dir="rtl"] .vb-ws__pic,
+html[dir="rtl"] .vc-book__cover span,
+html[dir="rtl"] .vc-cover__glyph,
+html[dir="rtl"] .vc-thumb--glyph,
+html[dir="rtl"] .vc-word__zh,
+html[dir="rtl"] .vc-wr__c,
+html[dir="rtl"] .vc-wr__ico,
+html[dir="rtl"] .wp-ctile b,
+html[dir="rtl"] .wp-ex__zh,
+html[dir="rtl"] .wp-hero__hz,
+html[dir="rtl"] .wp-say__zh,
+html[dir="rtl"] .wp-sense__zh,
+html[dir="rtl"] .wp-word__hz,
+html[dir="rtl"] .wq-hz,
+html[dir="rtl"] .ws-char,
+html[dir="rtl"] .ws-en,
+html[dir="rtl"] .ws-line,
+html[dir="rtl"] .ws-row em,
+html[dir="rtl"] .ws-zh,
+html[dir="rtl"] .zh-cell b{direction:ltr;unicode-bidi:isolate;text-align:left}
+
+/* ============================================================
+   تثبیت نهایی جهت LTR برای کاراکترها، لغات، روبی و جملات چینی در RTL
+   جلوگیری قطعی از چپکی شدن یا برعکس چیده شدن حروف کلمات و هیروگلیف‌ها
+   ============================================================ */
+
+/* ۱. تمام ظروف افقی لغات و حروف چینی باید دقیقاً چپ‌به‌راست (LTR) چیده شوند */
+html[dir="rtl"] .ls-cols,
+html[dir="rtl"] .ls-wc__ruby,
+html[dir="rtl"] .ls-wc__zh,
+html[dir="rtl"] .ls-wc__zh.ls-wc__ruby,
+html[dir="rtl"] .ls-wr,
+html[dir="rtl"] .zr,
+html[dir="rtl"] .pyc,
+html[dir="rtl"] .ls-rb,
+html[dir="rtl"] .ls-rb__g,
+html[dir="rtl"] .pd-rb,
+html[dir="rtl"] .pd-rb__g,
+html[dir="rtl"] .gp-tok__cols,
+html[dir="rtl"] .rd-tile__cols,
+html[dir="rtl"] .cq-word--cols,
+html[dir="rtl"] .ws-line--py,
+html[dir="rtl"] .ws-line,
+html[dir="rtl"] .ls-sub__zh,
+html[dir="rtl"] .ls-toks,
+html[dir="rtl"] .ls-panel__line--rb,
+html[dir="rtl"] .mq-line--py,
+html[dir="rtl"] .jr-card__line .zr,
+html[dir="rtl"] .vb-plan__ex .zr {
+  direction: ltr !important;
+  flex-direction: row !important;
+  unicode-bidi: isolate !important;
+}
+
+/* ۲. ستون‌های عمودی کاراکتر + پین‌یین (پین‌یین بالا، هیروگلیف پایین، وسط‌چین) */
+html[dir="rtl"] .ls-col,
+html[dir="rtl"] .zr__c,
+html[dir="rtl"] .pyc__c,
+html[dir="rtl"] .ls-wr__c,
+html[dir="rtl"] .ls-rb__c,
+html[dir="rtl"] .pd-rb__c,
+html[dir="rtl"] .gp-tok__col,
+html[dir="rtl"] .rd-tile__col,
+html[dir="rtl"] .cq-char {
+  direction: ltr !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  unicode-bidi: isolate !important;
+  text-align: center !important;
+}
+
+/* ۳. نویسه‌ها، پین‌یین‌ها و بلوک‌های هیروگلیف در تمام اسکرین‌ها */
+html[dir="rtl"] .han,
+html[dir="rtl"] .han-mix,
+html[dir="rtl"] .py,
+html[dir="rtl"] .py-tn,
+html[dir="rtl"] .vb-word__hz,
+html[dir="rtl"] .vb-word__py,
+html[dir="rtl"] .vb-thumb--hz,
+html[dir="rtl"] .ls-wr__h,
+html[dir="rtl"] .ls-wr__py,
+html[dir="rtl"] .st-zh,
+html[dir="rtl"] .st-l1,
+html[dir="rtl"] .ws-zh,
+html[dir="rtl"] .ws-char,
+html[dir="rtl"] .ln-dict__zh,
+html[dir="rtl"] .tl-word__hz,
+html[dir="rtl"] .wp-word__hz,
+html[dir="rtl"] .vc-word__zh {
+  direction: ltr !important;
+  unicode-bidi: isolate !important;
+}
+
+/* ۴. تراز مناسب عنوان کلمات در فهرست واژگان درس‌ها و فلکس کارت لغت */
+html[dir="rtl"] .vb-word__txt {
+  text-align: right !important;
+}
+html[dir="rtl"] .vb-word__hz {
+  display: block !important;
+  text-align: right !important;
+}
+html[dir="rtl"] .vb-word__gl {
+  direction: rtl !important;
+  text-align: right !important;
+  unicode-bidi: plaintext !important;
+}
+html[dir="rtl"] .vb-word__gl .py-tn {
+  direction: ltr !important;
+  display: inline-block !important;
+}
+
+/* ۵. کارت تکی معرفی واژه در درس (ls-wc--solo) باید کاراکترها در وسط قرار گیرند */
+html[dir="rtl"] .ls-wc--solo .ls-wc__zh.ls-wc__ruby,
+html[dir="rtl"] .ls-wc--solo .ls-wc__zh {
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+/* ============================================================
+   ارتقا و نوسازی مدرن UI (طراحی چشم‌نواز، سایه‌های چندلایه و حس شیشه‌ای)
+   ============================================================ */
+
+/* ۱. توکن‌های تم: رنگ برند زمردی، گرادیان‌های لطیف، و سایه‌های نرم */
+html[dir="rtl"] {
+  --brand: #10B981;
+  --brand-dark: #059669;
+  --brand-deep: #0D9488;
+  --brand-light: #34D399;
+  --brand-mint: #10B981;
+  --on-soft: #059669;
+
+  --grad: linear-gradient(135deg, #34D399 0%, #10B981 55%, #059669 100%);
+  --grad-btn: linear-gradient(135deg, #2ED8A0 0%, #059669 100%);
+  --grad-icon: linear-gradient(145deg, #34D399, #059669);
+
+  --bg: #F8FAFC;
+  --bg-home: #F8FAFC;
+  --card: #FFFFFF;
+  --card2: #F1F5F9;
+  --pill: #ECFDF5;
+  --accent: #10B981;
+  --accent-soft: #ECFDF5;
+  --tint: #ECFDF5;
+  --tint-line: #A7F3D0;
+
+  --hair: rgba(15, 23, 42, 0.06);
+  --shadow: 0 2px 10px -2px rgba(15, 23, 42, 0.04), 0 0 0 1px var(--hair);
+  --shadow-lg: 0 16px 36px -6px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.03);
+
+  --sunk: #F1F5F9;
+  --btn: #F1F5F9;
+  --btn-hi: #E2E8F0;
+  --line: #E2E8F0;
+  --line2: #EEF2F6;
+}
+
+/* ۲. تب‌بار شیشه‌ای و مدرن با فیلتر بلور و پیل فعال */
+html[dir="rtl"] .tabbar {
+  background: rgba(255, 255, 255, 0.92) !important;
+  background: rgba(255, 255, 255, 0.98) !important;
+  -webkit-background: rgba(255, 255, 255, 0.98) !important;
+  border-top: 1px solid rgba(15, 23, 42, 0.07) !important;
+  box-shadow: 0 -4px 20px rgba(15, 23, 42, 0.04) !important;
+}
+
+html[dir="rtl"] .tabbar--dark {
+  background: rgba(11, 18, 14, 0.94) !important;
+  border-top-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+html[dir="rtl"] .tab {
+  transition: transform 0.2s cubic-bezier(0.2, 0.8, 0.3, 1), color 0.2s ease !important;
+}
+
+html[dir="rtl"] .tab:active {
+  transform: scale(0.92) !important;
+}
+
+html[dir="rtl"] .tab__pill {
+  border-radius: 14px !important;
+  transition: all 0.25s cubic-bezier(0.2, 0.8, 0.3, 1) !important;
+}
+
+html[dir="rtl"] .tab.on .tab__pill {
+  background: rgba(16, 185, 129, 0.12) !important;
+  color: var(--brand-dark) !important;
+  border-radius: 14px !important;
+  transform: translateY(-2px);
+}
+
+html[dir="rtl"] .tab.on .tab__label {
+  color: var(--brand-dark) !important;
+  font-weight: 700 !important;
+}
+
+/* ۳. کارت‌های تمیز، لبه‌های گردتر و سایه‌های معلق چندلایه */
+html[dir="rtl"] .hm-card,
+html[dir="rtl"] .vc-card,
+html[dir="rtl"] .cq-card,
+html[dir="rtl"] .rs-rows,
+html[dir="rtl"] .au-lang,
+html[dir="rtl"] .me-box,
+html[dir="rtl"] .pg-card {
+  border-radius: 20px !important;
+  box-shadow: 0 4px 18px -2px rgba(15, 23, 42, 0.05), 0 0 0 1px var(--hair) !important;
+}
+
+html[dir="rtl"] .hm-today {
+  border-radius: 22px !important;
+  box-shadow: 0 8px 24px -2px rgba(16, 185, 129, 0.14), 0 0 0 1px rgba(16, 185, 129, 0.12) !important;
+}
+
+html[dir="rtl"] .bk {
+  border-radius: 10px 16px 16px 10px !important;
+  box-shadow: 0 8px 20px -3px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.06) !important;
+  transition: transform 0.2s cubic-bezier(0.2, 0.8, 0.3, 1), box-shadow 0.2s ease !important;
+}
+html[dir="rtl"] .bk:active {
+  transform: scale(0.97) !important;
+}
+
+/* ۴. دکمه‌های ۳ بعدی و CTA های جذاب با بازخورد لمسی روان */
+html[dir="rtl"] .btn,
+html[dir="rtl"] .hm-cta {
+  border-radius: 18px !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 0 var(--brand-dark), 0 8px 18px -4px rgba(16, 185, 129, 0.3) !important;
+  transition: transform 0.1s ease, box-shadow 0.1s ease !important;
+}
+
+html[dir="rtl"] .btn:active,
+html[dir="rtl"] .hm-cta:active {
+  transform: translateY(3px) !important;
+  box-shadow: 0 1px 0 var(--brand-dark), 0 2px 6px -2px rgba(16, 185, 129, 0.2) !important;
+}
+
+html[dir="rtl"] .btn--indigo {
+  box-shadow: 0 4px 0 #3A4BA3, 0 8px 18px -4px rgba(76, 95, 192, 0.3) !important;
+}
+html[dir="rtl"] .btn--indigo:active {
+  box-shadow: 0 1px 0 #3A4BA3 !important;
+}
+
+/* ۵. نوارهای پیشرفت نرم و گرادیانی در کوئیزها و مسیر درس */
+html[dir="rtl"] .cq-bar,
+html[dir="rtl"] .tl-prog__bar,
+html[dir="rtl"] .jr-prog {
+  height: 8px !important;
+  border-radius: 999px !important;
+  background: #EEF2F6 !important;
+  overflow: hidden !important;
+}
+
+html[dir="rtl"] .cq-bar span,
+html[dir="rtl"] .tl-prog__bar i,
+html[dir="rtl"] .jr-prog i {
+  border-radius: 999px !important;
+  background: linear-gradient(90deg, #34D399 0%, #059669 100%) !important;
+  box-shadow: 0 1px 6px rgba(16, 185, 129, 0.35) !important;
+}
+
+/* ۶. باتم‌شیت‌ها، دیالوگ‌ها و گزینه‌های چندگزینه‌ای */
+html[dir="rtl"] .sheet,
+html[dir="rtl"] .vb-sheet {
+  border-radius: 28px 28px 0 0 !important;
+  box-shadow: 0 -12px 36px rgba(15, 23, 42, 0.12) !important;
+}
+
+html[dir="rtl"] .sheet__grab {
+  width: 44px !important;
+  height: 5px !important;
+  border-radius: 999px !important;
+  background: #CBD5E1 !important;
+}
+
+html[dir="rtl"] .vb-opt,
+html[dir="rtl"] .cq-row,
+html[dir="rtl"] .ls-choice {
+  border-radius: 16px !important;
+  transition: all 0.18s cubic-bezier(0.2, 0.8, 0.3, 1) !important;
+}
+
+html[dir="rtl"] .vb-opt.on,
+html[dir="rtl"] .cq-row.on {
+  border-color: var(--brand) !important;
+  background: var(--pill) !important;
+  box-shadow: 0 0 0 1.5px var(--brand) !important;
+}
+
+/* ۷. خوانایی تایپوگرافی فارسی و کارت استریک */
+html[dir="rtl"] .hm-greet,
+html[dir="rtl"] .hm-h1,
+html[dir="rtl"] .hm-h2,
+html[dir="rtl"] .col__head b,
+html[dir="rtl"] .sheet__t {
+  letter-spacing: 0 !important;
+  line-height: 1.45 !important;
+}
+
+html[dir="rtl"] .hm-streak {
+  box-shadow: 0 2px 10px rgba(255, 123, 46, 0.2) !important;
+  font-weight: 600 !important;
+  border-radius: 999px !important;
+}
+
+html[dir="rtl"] .vb-word {
+  border-radius: 14px !important;
+  transition: background 0.15s ease !important;
+}
+html[dir="rtl"] .vb-word:active {
+  background: var(--card2) !important;
+}
+
+
+/* ۸. انیمیشن و جایگاه جمع‌وجور ماسکوت اژدها در گوشه باکس‌های پاسخ */
+html[dir="rtl"] .pk--corner {
+  left: 14px !important;
+  right: auto !important;
+  width: 76px !important;
+  height: 114px !important;
+  bottom: 0 !important;
+}
+
+/* ۹. حفظ جهت چپ‌به‌راست (LTR) کاشی‌های تمرین جمله و ترتیب لغات چینی */
+html[dir="rtl"] .ls-qans,
+html[dir="rtl"] .ls-qpool,
+html[dir="rtl"] .gpr-ans,
+html[dir="rtl"] .gpr-pool,
+html[dir="rtl"] .ls-qslots,
+html[dir="rtl"] .ls-qtray,
+.ls-qans,
+.ls-qpool,
+.gpr-ans,
+.gpr-pool {
+  direction: ltr !important;
+  unicode-bidi: isolate !important;
+}
+
+
+/* ==========================================================================
+   Chinify Unit 1 Redesign — Duolingo-Style Progressive Learning Path
+   (Sections -> Mini Lessons -> Exercises)
+   ========================================================================== */
+
+/* ۱. اسکرین اصلی یونیت */
+.u-screen {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg, #fcfdfe);
+  color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 96px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.u-screen--exercise {
+  padding-bottom: 0;
+}
+
+/* ۲. هدر ناوبری چسبنده */
+.u-head {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line, #eef0f3);
+}
+
+.u-head--ex {
+  border-bottom: none;
+}
+
+.u-back-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--line, #eef0f3);
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #475569;
+  font-size: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.u-back-btn:active {
+  transform: scale(0.92);
+  background: var(--card2, #f7f9fa);
+}
+
+.u-head__title-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.u-head__tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--brand-dark, #1fc291);
+  background: rgba(43, 209, 157, 0.14);
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-bottom: 2px;
+}
+
+.u-head__title {
+  font-size: 15px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.u-head-intro-btn {
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 999px;
+  background: var(--card2, #f7f9fa);
+  border: 1px solid var(--line, #eef0f3);
+  color: #334155;
+  cursor: pointer;
+}
+
+/* ۳. بنر معرفی درس (Duolingo Banner) */
+.u-banner {
+  margin: 16px 18px;
+  padding: 20px;
+  background: var(--grad, linear-gradient(135deg, #62dbbb 0%, #2bd19d 55%, #21d0a5 100%));
+  border-radius: 24px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 10px 24px rgba(43, 209, 157, 0.28);
+  position: relative;
+  overflow: hidden;
+}
+
+.u-banner::after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  pointer-events: none;
+}
+
+.u-banner__txt h1 {
+  margin: 0 0 4px 0;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: -0.3px;
+}
+
+.u-banner__txt p {
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.95;
+  line-height: 1.5;
+}
+
+.u-banner__hsk {
+  background: rgba(255, 255, 255, 0.24);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 800;
+  backdrop-filter: blur(4px);
+  white-space: nowrap;
+}
+
+/* ۴. مسیر سکشن‌ها (Main Section Path) */
+.u-body {
+  padding: 0 18px 24px 18px;
+}
+
+.u-path-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.u-path-connector {
+  width: 4px;
+  height: 22px;
+  background: #cbd5e1;
+  border-radius: 999px;
+  margin: -6px 0;
+}
+
+.u-path-connector.is-done {
+  background: var(--brand, #2bd19d);
+}
+
+.u-sec-card {
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid var(--line, #eef0f3);
+  border-radius: 22px;
+  padding: 16px 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: right;
+  cursor: pointer;
+  box-shadow: 0 4px 0 var(--line, #eef0f3);
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.u-sec-card:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 var(--line, #eef0f3);
+}
+
+.u-sec-card.is-cur {
+  border-color: var(--brand, #2bd19d);
+  box-shadow: 0 6px 0 var(--brand-dark, #1fc291), 0 8px 20px rgba(43, 209, 157, 0.2);
+  background: #ffffff;
+}
+
+.u-sec-card.is-done {
+  border-color: rgba(43, 209, 157, 0.4);
+  background: rgba(43, 209, 157, 0.03);
+  box-shadow: 0 3px 0 rgba(43, 209, 157, 0.2);
+}
+
+.u-sec-card.is-lock {
+  opacity: 0.65;
+  background: var(--card2, #f7f9fa);
+  cursor: not-allowed;
+  filter: grayscale(0.5);
+  box-shadow: 0 3px 0 #e2e8f0;
+}
+
+.u-sec-card__num {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 800;
+  background: var(--card2, #f7f9fa);
+  color: #64748b;
+  flex-shrink: 0;
+}
+
+.u-sec-card.is-cur .u-sec-card__num {
+  background: var(--brand, #2bd19d);
+  color: #ffffff;
+}
+
+.u-sec-card.is-done .u-sec-card__num {
+  background: rgba(43, 209, 157, 0.2);
+  color: var(--brand-dark, #1fc291);
+}
+
+.u-sec-card__ico {
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.u-sec-card__info {
+  flex: 1;
+  min-width: 0;
+}
+
+.u-sec-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 3px;
+}
+
+.u-sec-card__title {
+  font-size: 16px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.u-sec-card__desc {
+  font-size: 12px;
+  color: #64748b;
+  line-height: 1.45;
+  margin-top: 2px;
+}
+
+.u-sec-card__arrow {
+  color: #94a3b8;
+  font-size: 18px;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.u-sec-card:hover .u-sec-card__arrow {
+  transform: translateX(-3px);
+}
+
+.u-badge {
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 999px;
+}
+
+.u-badge--cur {
+  background: var(--brand, #2bd19d);
+  color: #ffffff;
+}
+
+.u-badge--done {
+  background: rgba(43, 209, 157, 0.16);
+  color: var(--brand-dark, #1fc291);
+}
+
+.u-badge--lock {
+  background: #e2e8f0;
+  color: #64748b;
+}
+
+/* ۵. صفحه آموزش اولیه سکشن (Section Intro) */
+.u-intro-banner {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 18px;
+  border: 1px solid var(--line, #eef0f3);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.03);
+  margin-bottom: 16px;
+  text-align: right;
+}
+
+.u-intro-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--brand-dark, #1fc291);
+  background: rgba(43, 209, 157, 0.12);
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-bottom: 8px;
+}
+
+.u-intro-banner h2 {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0 0 6px 0;
+  color: #0f172a;
+}
+
+.u-intro-banner p {
+  font-size: 13.5px;
+  color: #475569;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.u-intro-words,
+.u-intro-grammar,
+.u-intro-tones,
+.u-intro-tips {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.u-iw-card,
+.u-ig-card,
+.u-it-card,
+.u-tip-item {
+  background: #ffffff;
+  border: 1.5px solid var(--line, #eef0f3);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.02);
+  text-align: right;
+}
+
+.u-iw-card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px dashed var(--line, #eef0f3);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.u-iw-zh {
+  font-size: 24px;
+  font-weight: 900;
+  color: #0f172a;
+  letter-spacing: 1px;
+}
+
+.u-iw-py {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--brand-dark, #1fc291);
+  direction: ltr;
+  display: inline-block;
+}
+
+.u-iw-fa {
+  font-size: 14px;
+  font-weight: 800;
+  color: #334155;
+  margin-top: 4px;
+}
+
+.u-iw-ex {
+  background: var(--card2, #f7f9fa);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+
+.u-ig-title {
+  font-size: 15.5px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+
+.u-ig-desc {
+  font-size: 13px;
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.u-ig-formula {
+  background: rgba(43, 209, 157, 0.1);
+  border-right: 4px solid var(--brand, #2bd19d);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 10px;
+  direction: ltr;
+  text-align: left;
+}
+
+.u-ig-ex {
+  background: var(--card2, #f7f9fa);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+
+.u-ig-ex__zh {
+  font-size: 15px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.u-ig-ex__py {
+  color: var(--brand-dark, #1fc291);
+  font-weight: 600;
+  direction: ltr;
+  display: block;
+}
+
+.u-ig-ex__fa {
+  color: #64748b;
+  display: block;
+  margin-top: 2px;
+}
+
+.u-it-card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.u-it-mark {
+  font-size: 13px;
+  font-weight: 800;
+  background: rgba(43, 209, 157, 0.15);
+  color: var(--brand-dark, #1fc291);
+  padding: 2px 10px;
+  border-radius: 999px;
+  direction: ltr;
+}
+
+.u-it-desc {
+  font-size: 13px;
+  color: #475569;
+  line-height: 1.55;
+  margin-bottom: 8px;
+}
+
+.u-it-sample {
+  background: var(--card2, #f7f9fa);
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.u-intro-bottom {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+/* ۶. مسیر مینی‌لسن‌ها (Mini Lesson Path) */
+.u-mini-hero {
+  background: #ffffff;
+  border: 1px solid var(--line, #eef0f3);
+  border-radius: 20px;
+  padding: 18px;
+  margin-bottom: 20px;
+  text-align: right;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.03);
+}
+
+.u-mini-hero__meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.u-mini-hero h2 {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0 0 6px 0;
+  color: #0f172a;
+}
+
+.u-mini-hero p {
+  font-size: 13px;
+  color: #64748b;
+  margin: 0;
+}
+
+.u-mini-cnt {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--brand-dark, #1fc291);
+  background: rgba(43, 209, 157, 0.12);
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.u-mini-path-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 0;
+}
+
+.u-mini-connector {
+  width: 4px;
+  height: 20px;
+  background: #cbd5e1;
+  border-radius: 999px;
+  margin: -6px 0;
+}
+
+.u-mini-connector.is-done {
+  background: var(--brand, #2bd19d);
+}
+
+.u-mini-node-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #ffffff;
+  border: 2px solid var(--line, #eef0f3);
+  border-radius: 20px;
+  padding: 14px 16px;
+  text-align: right;
+  cursor: pointer;
+  box-shadow: 0 4px 0 var(--line, #eef0f3);
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-sizing: border-box;
+}
+
+.u-mini-node-row:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 var(--line, #eef0f3);
+}
+
+.u-mini-node-row.is-cur {
+  border-color: var(--brand, #2bd19d);
+  box-shadow: 0 5px 0 var(--brand-dark, #1fc291), 0 8px 18px rgba(43, 209, 157, 0.18);
+}
+
+.u-mini-node-row.is-done {
+  border-color: rgba(43, 209, 157, 0.35);
+  background: rgba(43, 209, 157, 0.03);
+  box-shadow: 0 3px 0 rgba(43, 209, 157, 0.2);
+}
+
+.u-mini-node-row.is-lock {
+  opacity: 0.6;
+  background: var(--card2, #f7f9fa);
+  cursor: not-allowed;
+  filter: grayscale(0.5);
+  box-shadow: 0 3px 0 #e2e8f0;
+}
+
+.u-mini-node {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: var(--card2, #f7f9fa);
+  color: #64748b;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.u-mini-node-row.is-cur .u-mini-node {
+  background: var(--grad, linear-gradient(135deg, #62dbbb, #21d0a5));
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(43, 209, 157, 0.35);
+}
+
+.u-mini-node-row.is-done .u-mini-node {
+  background: rgba(43, 209, 157, 0.2);
+  color: var(--brand-dark, #1fc291);
+}
+
+.u-mini-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.u-mini-title {
+  font-size: 15px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.u-mini-desc {
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.u-mini-bar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.u-mn-play {
+  font-size: 18px;
+  color: var(--brand-dark, #1fc291);
+}
+
+.u-mn-seal {
+  font-size: 18px;
+  color: var(--brand, #2bd19d);
+}
+
+.u-mn-lock {
+  font-size: 16px;
+  color: #94a3b8;
+}
+
+/* ۷. اسکرین تمرینات (Exercise Screen) */
+.u-ex-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 18px 14px 18px;
+}
+
+.u-ex-prog {
+  flex: 1;
+}
+
+.u-prog-bar {
+  width: 100%;
+  height: 12px;
+  background: #e2e8f0;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.u-prog-line {
+  height: 100%;
+  background: var(--grad, linear-gradient(90deg, #62dbbb, #21d0a5));
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.u-ex-counter {
+  font-size: 13px;
+  font-weight: 800;
+  color: #64748b;
+}
+
+.u-body--ex {
+  padding: 0 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.u-ex-card {
+  background: #ffffff;
+  border: 1px solid var(--line, #eef0f3);
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.03);
+  text-align: right;
+}
+
+.u-ex-question {
+  font-size: 17px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 4px;
+}
+
+.u-ex-sub {
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+
+.u-ex-hanzi-display {
+  font-size: 38px;
+  font-weight: 900;
+  text-align: center;
+  color: #0f172a;
+  letter-spacing: 2px;
+  margin: 12px 0 4px 0;
+}
+
+.u-ex-py-display {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--brand-dark, #1fc291);
+  text-align: center;
+  direction: ltr;
+  margin-bottom: 14px;
+}
+
+.u-audio-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(43, 209, 157, 0.12);
+  border: 1px solid rgba(43, 209, 157, 0.25);
+  border-radius: 999px;
+  padding: 6px 14px;
+  cursor: pointer;
+  color: var(--brand-dark, #1fc291);
+  font-size: 13px;
+  font-weight: 700;
+  margin: 8px auto;
+  transition: transform 0.15s ease;
+}
+
+.u-audio-pill:active {
+  transform: scale(0.95);
+}
+
+.u-audio-play-btn,
+.u-audio-slow-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+/* گزینه‌ها (Choices) */
+.u-ex-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.u-choice-btn {
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid var(--line, #eef0f3);
+  border-radius: 16px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1e293b;
+  cursor: pointer;
+  box-shadow: 0 3px 0 var(--line, #eef0f3);
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+}
+
+.u-choice-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 var(--line, #eef0f3);
+}
+
+.u-choice-btn.is-picked {
+  border-color: var(--brand, #2bd19d);
+  background: rgba(43, 209, 157, 0.08);
+  box-shadow: 0 4px 0 var(--brand-dark, #1fc291);
+  color: #0f172a;
+}
+
+.u-choice-indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.u-choice-btn.is-picked .u-choice-indicator {
+  border-color: var(--brand, #2bd19d);
+  background: var(--brand, #2bd19d);
+  color: #ffffff;
+}
+
+/* تمرین تطبیق جفت‌ها (Pair Matching) */
+.u-match-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.u-match-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.u-tile {
+  background: #ffffff;
+  border: 2px solid var(--line, #eef0f3);
+  border-radius: 14px;
+  padding: 12px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1e293b;
+  cursor: pointer;
+  box-shadow: 0 3px 0 var(--line, #eef0f3);
+  transition: all 0.15s ease;
+}
+
+.u-tile:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 var(--line, #eef0f3);
+}
+
+.u-tile.is-selected {
+  border-color: var(--brand, #2bd19d);
+  background: rgba(43, 209, 157, 0.12);
+  box-shadow: 0 4px 0 var(--brand-dark, #1fc291);
+}
+
+.u-tile.is-matched {
+  border-color: #cbd5e1;
+  background: #f1f5f9;
+  color: #94a3b8;
+  opacity: 0.5;
+  cursor: default;
+  box-shadow: none;
+  transform: none;
+}
+
+/* جفت اشتباه در تطبیق — فلش قرمز با لرزش */
+.u-tile.is-wrong {
+  border-color: #C0554E;
+  background: rgba(192, 85, 78, 0.10);
+  box-shadow: 0 3px 0 rgba(192, 85, 78, 0.30);
+  animation: shakeX 0.5s ease both;
+}
+
+/* کلید سراسری پین‌یین در درس */
+.u-py-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #334155;
+  background: #ffffff;
+  border: 1px solid var(--line, #eef0f3);
+  padding: 5px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.u-py-toggle .i {
+  color: var(--brand-dark, #1fc291);
+}
+
+.u-py-toggle.is-off {
+  color: #94a3b8;
+  border-style: dashed;
+}
+
+.u-py-toggle.is-off .i {
+  color: #94a3b8;
+}
+
+/* کارت آموزش گرامر — پاورقی صدا */
+.u-gram-foot {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* فرمول و مثال داخل کارت گرامر */
+.u-ex-card .pc-rule__x {
+  white-space: normal;
+}
+
+.u-ex-card .pc-rule__x.han {
+  font-family: var(--f-han);
+  font-size: 17px;
+}
+
+/* کاشی مرتب‌سازی با پین‌یین زیر هنزی */
+.u-order-tile {
+  display: inline-flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 2px !important;
+}
+
+.u-order-tile b.han {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.u-order-tile small.py {
+  font-size: 10.5px;
+  font-weight: 600;
+  color: var(--brand-dark, #1fc291);
+  direction: ltr;
+  unicode-bidi: isolate;
+  line-height: 1.3;
+}
+
+/* دکمه‌ی پخش متناوب تمرین تکرار — حالت آهسته */
+.u-big-audio.is-slow {
+  background: #FFFBF0 !important;
+  border-color: #F2E4C4 !important;
+}
+
+.u-big-audio.is-slow .i {
+  color: #B98600 !important;
+}
+
+/* گزینه‌های چینی: هنزی + پین‌یین زیر آن + معنی فارسی */
+.u-choice-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  min-width: 0;
+  text-align: start;
+}
+
+.u-choice-main b.han {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e293b;
+  line-height: 1.3;
+}
+
+.u-choice-main small.py {
+  font-size: 10.5px;
+  font-weight: 600;
+  color: var(--brand-dark, #1fc291);
+  direction: ltr;
+  unicode-bidi: isolate;
+  line-height: 1.3;
+}
+
+.u-choice-main small.u-choice-fa {
+  font-size: 11px;
+  color: #64748b;
+}
+
+/* متن آشکارشده شنیداری — پین‌یین زیر هنزی */
+.u-revealed-text .py {
+  display: block;
+  margin-top: 2px;
+}
+
+/* کاشی واژه‌ی چینی با پین‌یین زیر هنزی — اندازه‌ی برابر با کاشی معنی فارسی */
+.u-tile--left,
+.u-tile--right {
+  min-height: 76px;
+}
+
+.u-tile--left {
+  flex-direction: column;
+  gap: 2px;
+}
+
+.u-tile--left b.han {
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.u-tile--left small.py {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--brand-dark, #1fc291);
+  direction: ltr;
+  unicode-bidi: isolate;
+  line-height: 1.3;
+}
+
+/* تمرین مرتب‌سازی کلمات (Sentence Ordering) */
+.u-order-slots {
+  min-height: 60px;
+  border: 2px dashed #cbd5e1;
+  border-radius: 16px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  direction: ltr;
+  background: var(--card2, #f7f9fa);
+  margin-bottom: 14px;
+}
+
+.u-order-placeholder {
+  color: #94a3b8;
+  font-size: 13px;
+  margin: auto;
+  direction: rtl;
+}
+
+.u-order-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  direction: ltr;
+}
+
+.u-order-tile {
+  background: #ffffff;
+  border: 2px solid var(--line, #eef0f3);
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #0f172a;
+  cursor: pointer;
+  box-shadow: 0 3px 0 var(--line, #eef0f3);
+  transition: all 0.15s ease;
+}
+
+.u-order-tile:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 var(--line, #eef0f3);
+}
+
+.u-order-tile.is-placed {
+  border-color: var(--brand, #2bd19d);
+  background: rgba(43, 209, 157, 0.1);
+  box-shadow: 0 3px 0 var(--brand-dark, #1fc291);
+}
+
+.u-order-tile.is-used {
+  opacity: 0.35;
+  background: #e2e8f0;
+  border-color: #cbd5e1;
+  box-shadow: none;
+  cursor: default;
+}
+
+/* تمرین نوشتن Hanzi */
+.u-wr-card {
+  text-align: center;
+}
+
+/* فلش‌کارت واژگان — هر بار یک واژه */
+.u-fc {
+  max-width: 340px;
+  margin: 0 auto 16px auto;
+}
+
+.u-fc__card {
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 22px;
+  padding: 26px 18px 18px 18px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+.u-fc__zh {
+  display: block;
+  font-size: 56px;
+  font-weight: 900;
+  color: #0f172a;
+  background: none;
+  border: 0;
+  margin: 0 auto 6px auto;
+  cursor: pointer;
+  font-family: var(--f-han);
+  line-height: 1.2;
+  padding: 0;
+}
+
+.u-fc__zh:active {
+  transform: scale(0.96);
+}
+
+.u-fc__py {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--brand-dark, #1fc291);
+  margin-bottom: 8px;
+}
+
+.u-fc__fa {
+  font-size: 15px;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 12px;
+}
+
+.u-fc__ex {
+  font-size: 14px;
+  color: #64748b;
+  border-top: 1px dashed #e2e8f0;
+  padding-top: 10px;
+  margin-bottom: 12px;
+}
+
+.u-fc__ex .han {
+  font-size: 17px;
+  color: #0f172a;
+  display: block;
+}
+
+.u-fc__ex small {
+  display: block;
+  margin-top: 2px;
+}
+
+.u-fc__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.u-fc__btn {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #334155;
+}
+
+.u-fc__btn:active {
+  background: var(--tint, #eef7f4);
+}
+
+.u-fc__count {
+  font-weight: 800;
+  color: #0f172a;
+  min-width: 70px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.u-fc__dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.u-fc__dots i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e2e8f0;
+  display: block;
+}
+
+.u-fc__dots i.on {
+  background: var(--brand, #2bd19d);
+  width: 22px;
+  border-radius: 4px;
+}
+
+/* فاز تمرین نوشتن (انیمیشن → نوشتن) */
+.u-wr-card {
+  text-align: center;
+}
+
+.u-wr-head {
+  margin-bottom: 6px;
+}
+
+.u-wr-zh {
+  font-size: 38px;
+  font-weight: 900;
+  color: #0f172a;
+  line-height: 1.1;
+}
+
+.u-wr-py {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--brand-dark, #1fc291);
+  margin-top: 2px;
+}
+
+.u-wr-fa {
+  font-size: 14px;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+/* نوار مراحل ۵‌گانه نوشتن */
+.u-wr-stepper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 6px auto 10px auto;
+  padding: 4px 6px;
+  background: #f1f5f9;
+  border-radius: 999px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.u-wr-step-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748b;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+}
+
+.u-wr-step-chip:hover {
+  color: #0f172a;
+}
+
+.u-wr-step-chip.is-active {
+  background: var(--brand-dark, #1fc291);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(31, 194, 145, 0.35);
+}
+
+.u-wr-step-chip.is-done {
+  background: #e6f9f3;
+  color: #0d9468;
+}
+
+/* راهنمای متنی هر مرحله */
+.u-wr-guide {
+  margin: 0 auto 10px auto;
+  max-width: 340px;
+}
+
+.u-wr-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  background: #e0f2fe;
+  color: #0369a1;
+  margin-bottom: 4px;
+}
+
+.u-wr-guide-title {
+  font-size: 15px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 2px 0;
+}
+
+.u-wr-guide-desc {
+  font-size: 12px;
+  color: #64748b;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.u-wr-canvas-wrap {
+  position: relative;
+  width: 220px;
+  margin: 0 auto 10px auto;
+}
+
+.u-wr-canvas {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto 10px auto;
+  border: 2px solid #e2e8f0;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.04);
+  position: relative;
+  overflow: hidden;
+  touch-action: none;
+}
+
+.u-wr-ctrls {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.u-btn-sm {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 999px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  color: #334155;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.u-btn-sm:hover {
+  background: #edf2f7;
+}
+
+.u-btn-sm--primary {
+  background: #1fc291 !important;
+  color: #ffffff !important;
+  border-color: #1fc291 !important;
+}
+
+.u-btn-sm--primary:hover {
+  background: #19aa7e !important;
+}
+
+.u-btn-sm:active {
+  background: #e2e8f0;
+}
+
+/* تمرین شنیداری (Listening) */
+.u-listening-hero {
+  text-align: center;
+  padding: 16px 0;
+}
+
+.u-listening-ic {
+  font-size: 44px;
+  color: var(--brand-dark, #1fc291);
+  margin-bottom: 12px;
+}
+
+.u-reveal-btn {
+  font-size: 12px;
+  color: #64748b;
+  background: none;
+  border: 1px dashed #cbd5e1;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.u-revealed-text {
+  margin-top: 10px;
+  background: var(--card2, #f7f9fa);
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 14px;
+  color: #0f172a;
+}
+
+/* تمرین درک مطلب (Reading Passage) */
+.u-passage-box {
+  background: var(--card2, #f7f9fa);
+  border: 1.5px solid var(--line, #eef0f3);
+  border-radius: 18px;
+  padding: 16px;
+  margin-bottom: 14px;
+  text-align: right;
+}
+
+.u-passage-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.u-passage-badge {
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--brand-dark, #1fc291);
+  background: rgba(43, 209, 157, 0.14);
+  padding: 3px 9px;
+  border-radius: 999px;
+}
+
+.u-toggle-pinyin-btn {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #334155;
+  background: #ffffff;
+  border: 1px solid var(--line, #eef0f3);
+  padding: 4px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.u-passage-zh {
+  font-size: 19px;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.9;
+  letter-spacing: 0.5px;
+}
+
+.u-passage-py {
+  font-size: 13.5px;
+  color: var(--brand-dark, #1fc291);
+  line-height: 1.8;
+  margin-top: 8px;
+  direction: ltr;
+  display: block;
+}
+
+/* تمرین تکرار و ضبط صدا (Repeat) */
+.u-repeat-box {
+  text-align: center;
+  padding: 14px 0;
+}
+
+.u-repeat-zh {
+  font-size: 34px;
+  font-weight: 900;
+  color: #0f172a;
+  letter-spacing: 1px;
+}
+
+.u-repeat-py {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--brand-dark, #1fc291);
+  margin-top: 4px;
+}
+
+.u-repeat-fa {
+  font-size: 14px;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+.u-repeat-btns {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+/* ۸. نوار پایین اکشن و فیدبک (Action Bar & Feedback) — اصلاح‌شده و سازگار با تمام ابعاد موبایل */
+.u-action-bar {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 480px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-top: 1px solid var(--line, #eef0f3);
+  padding: 10px 16px max(12px, env(safe-area-inset-bottom, 12px)) 16px;
+  display: flex;
+  justify-content: center;
+  z-index: 50;
+  box-shadow: 0 -4px 18px rgba(0,0,0,0.04);
+}
+
+.u-check-btn {
+  width: 100%;
+  max-width: 480px;
+  background: var(--grad, linear-gradient(90deg, #62dbbb, #21d0a5));
+  border: none;
+  border-radius: 18px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 10px 16px;
+  height: 48px;
+  font-size: 15px;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(43, 209, 157, 0.35);
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.u-check-btn:active {
+  transform: scale(0.98);
+}
+
+.u-check-btn:disabled {
+  background: #cbd5e1;
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* فیدبک تمام‌عرض استاندارد بدون شکستگی ستونی کلمات */
+.u-feedback {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  transform: none;
+  width: 100%;
+  max-width: 480px;
+  box-sizing: border-box;
+  padding: 16px 18px max(20px, env(safe-area-inset-bottom, 20px)) 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 99;
+  box-shadow: 0 -8px 28px rgba(0,0,0,0.12);
+  animation: uSlideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  direction: rtl;
+}
+
+@keyframes uSlideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.u-feedback.is-correct {
+  background: #f0fdf4;
+  border-top: 3px solid #22c55e;
+  color: #14532d;
+}
+
+.u-feedback.is-wrong {
+  background: #fef2f2;
+  border-top: 3px solid #ef4444;
+  color: #7f1d1d;
+}
+
+.u-fb-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+}
+
+.u-fb-ico {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.u-fb-text-wrap {
+  flex: 1;
+  min-width: 0;
+  text-align: right;
+}
+
+.u-fb-title {
+  display: block;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.35;
+  margin-bottom: 2px;
+}
+
+.u-fb-msg {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  opacity: 0.92;
+  word-break: normal;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.u-fb-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.u-fb-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: none;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  min-height: 44px;
+  box-sizing: border-box;
+}
+
+.u-fb-btn:active {
+  transform: scale(0.96);
+}
+
+.u-fb-btn--next,
+.u-fb-btn--correct {
+  background: #22c55e;
+  color: #ffffff;
+  box-shadow: 0 3px 10px rgba(34, 197, 94, 0.3);
+  flex: 1;
+}
+
+.u-fb-btn--retry {
+  background: #ef4444;
+  color: #ffffff;
+  box-shadow: 0 3px 10px rgba(239, 68, 68, 0.3);
+  flex: 1;
+}
+
+.u-fb-btn--continue {
+  background: #cbd5e1;
+  color: #1e293b;
+  flex: 1;
+}
+
+/* درصد پیشرفت و استایل‌های بنر */
+.u-sec-pct {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--brand-dark, #1fc291);
+  margin-right: 6px;
+}
+
+.u-banner-pct {
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.u-banner-prog-bar {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.u-banner-prog-bar span {
+  display: block;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.u-mn-pct {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #64748b;
+  margin-right: 6px;
+}
+
+.u-screen--exercise {
+  padding-bottom: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* رفع کامل اسکرول افقی در تمام تست‌ها و موبایل */
+.u-screen, .u-body, .u-order-slots, .u-order-bank, .u-match-grid {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* پنجره‌های راهنما و دیالوگ‌ها در موبایل */
+.dialog, .modal, .sheet, .pp-dlg, .ac-new, .layer-host > div {
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+
+/* ============================================================
+   Lesson Circular Journey UI (مطابق با طراحی دراگون و مراحل دایره‌ای)
+   ============================================================ */
+
+.u-lesson-screen {
+  background: linear-gradient(180deg, #E6F7F0 0%, #EDF9F4 200px, #F6FBF9 400px, #FFFFFF 100%);
+  height: 100% !important;
+  max-height: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+  direction: rtl;
+  padding: 0 !important;
+}
+
+.u-nav-bar {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  left: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 10;
+  pointer-events: auto;
+  direction: rtl !important;
+}
+
+.u-nav-back {
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1E293B;
+  font-weight: 700;
+  font-size: 14.5px;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease;
+  direction: rtl !important;
+}
+
+.u-nav-back:active {
+  transform: scale(0.92);
+}
+
+.u-nav-course {
+  height: 38px;
+  padding: 0 16px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #0FA968;
+  font-weight: 700;
+  font-size: 14.5px;
+  cursor: pointer;
+}
+
+.u-hero-top {
+  width: 100%;
+  position: relative;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.u-hero-top img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.u-path-container {
+  position: relative;
+  padding: 10px 16px 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  z-index: 2;
+}
+
+.u-path-trail {
+  position: absolute;
+  top: 50px;
+  bottom: 50px;
+  right: 68px;
+  width: 0;
+  border-right: 3.5px dotted #10B981;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.u-step-card {
+  position: relative;
+  z-index: 2;
+  background: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.08), 0 2px 6px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(16, 185, 129, 0.12);
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 14px;
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, opacity 0.2s ease;
+  user-select: none;
+}
+
+.u-step-card:active {
+  transform: scale(0.98);
+}
+
+.u-step-card.is-locked {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: #E2E8F0;
+  opacity: 0.72;
+}
+
+.u-step-card.is-done {
+  border-color: rgba(16, 185, 129, 0.25);
+}
+
+.u-step-node {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.u-ring-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 72px;
+  height: 72px;
+  pointer-events: none;
+}
+
+.u-ring-bg {
+  stroke: #E5E7EB;
+  stroke-width: 4.5;
+}
+
+.u-ring-prog {
+  stroke: #10B981;
+  stroke-width: 4.5;
+  transition: stroke-dashoffset 0.6s ease;
+}
+
+.u-node-inner {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #F0FDF4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.is-locked .u-node-inner {
+  background: #F8FAFC;
+}
+
+.u-node-badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.u-node-badge--check {
+  background: #10B981;
+  color: #FFFFFF;
+}
+
+.u-node-badge--lock {
+  background: #94A3B8;
+  color: #FFFFFF;
+}
+
+.u-ico-cards {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.u-card-back {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 22px;
+  height: 26px;
+  border-radius: 4px;
+  background: #10B981;
+  transform: rotate(10deg);
+  opacity: 0.85;
+}
+
+.u-card-front {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  width: 22px;
+  height: 26px;
+  border-radius: 4px;
+  background: #34D399;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: var(--han-font, system-ui);
+  transform: rotate(-6deg);
+}
+
+.u-ico-svg {
+  width: 28px;
+  height: 28px;
+}
+
+.is-done .u-ico-svg,
+.is-cur .u-ico-svg {
+  stroke: #10B981;
+}
+
+.is-locked .u-ico-svg {
+  stroke: #94A3B8;
+}
+
+.u-step-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.u-step-title {
+  font-size: 17px;
+  font-weight: 800;
+  color: #1E293B;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.is-locked .u-step-title {
+  color: #64748B;
+}
+
+.u-step-sub {
+  font-size: 12.5px;
+  color: #64748B;
+  margin: 4px 0 8px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+}
+
+.u-step-prog-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.u-step-fraction {
+  font-size: 13px;
+  font-weight: 800;
+  color: #1E293B;
+  direction: ltr !important;
+  display: inline-block;
+  min-width: 34px;
+  text-align: right;
+}
+
+.is-locked .u-step-fraction {
+  color: #94A3B8;
+}
+
+.u-step-bar-wrap {
+  flex: 1;
+  height: 7px;
+  background: #E2E8F0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.u-step-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  background: #10B981;
+  transition: width 0.4s ease;
+}
+
+.is-locked .u-step-bar-fill {
+  background: #CBD5E1;
+}
+
+.u-step-arrow {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #F1F5F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748B;
+  flex-shrink: 0;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.is-cur .u-step-arrow {
+  background: #E8F8F0;
+  color: #10B981;
+}
+
+.is-done .u-step-arrow {
+  background: #E8F8F0;
+  color: #10B981;
+}
+
+.u-hero-bottom {
+  width: 100%;
+  margin-top: 10px;
+  line-height: 0;
+  position: relative;
+}
+
+.u-hero-bottom img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* استایل نمای زیرتسک‌ها (Subtasks Mini-Path View) */
+.u-subtasks-screen {
+  background: #F8FAFC;
+  height: 100% !important;
+  max-height: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+  direction: rtl;
+  padding: 0 0 100px 0 !important;
+}
+
+.u-subtasks-head {
+  background: #FFFFFF;
+  padding: 16px 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-bottom: 1px solid #E2E8F0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.u-subtasks-title-wrap {
+  flex: 1;
+}
+
+.u-subtasks-tag {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #10B981;
+}
+
+.u-subtasks-title {
+  margin: 2px 0 0 0;
+  font-size: 17px;
+  font-weight: 800;
+  color: #0F172A;
+}
+
+.u-subtasks-list {
+  position: relative;
+  padding: 24px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.u-subtasks-line {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  right: 43px;
+  width: 0;
+  border-right: 2px dashed #CBD5E1;
+  z-index: 1;
+}
+
+.u-subtask-item {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 20px;
+  padding: 14px 16px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.03);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.u-subtask-item:active {
+  transform: scale(0.98);
+}
+
+.u-subtask-item.is-done {
+  border-color: #A7F3D0;
+  background: #F0FDF4;
+}
+
+.u-subtask-item.is-cur {
+  border-color: #10B981;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.12);
+}
+
+.u-subtask-item.is-locked {
+  opacity: 0.6;
+  background: #F8FAFC;
+}
+
+.u-subtask-circle {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 16px;
+  flex-shrink: 0;
+  background: #E2E8F0;
+  color: #475569;
+}
+
+.is-done .u-subtask-circle {
+  background: #10B981;
+  color: #FFFFFF;
+}
+
+.is-cur .u-subtask-circle {
+  background: #10B981;
+  color: #FFFFFF;
+  box-shadow: 0 0 0 4px #D1FAE5;
+}
+
+.u-subtask-info {
+  flex: 1;
+}
+
+.u-subtask-num {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #64748B;
+}
+
+.is-cur .u-subtask-num {
+  color: #10B981;
+}
+
+.u-subtask-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0F172A;
+  margin: 2px 0 4px 0;
+}
+
+.u-subtask-desc {
+  font-size: 12px;
+  color: #64748B;
+  margin: 0;
+}
+
+/* Hero Title Strip for Units */
+.u-hero-title-strip {
+  position: absolute;
+  bottom: 12px;
+  right: 16px;
+  left: 16px;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  z-index: 3;
+}
+
+.u-hts-badge {
+  background: linear-gradient(135deg, #10B981, #059669);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 99px;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.35);
+}
+
+.u-hts-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 800;
+  color: #064E3B;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.u-hts-name .han {
+  color: #059669;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* Locked Station styling on Journey */
+.jr-row.is-locked .jr-print {
+  opacity: 0.7;
+  border-color: #D1D5DB !important;
+  background: #F3F4F6 !important;
+}
+
+.jr-row.is-locked .jr-txt small {
+  color: #9CA3AF;
+}
+
+.jr-row.is-locked .jr-txt b {
+  color: #6B7280;
+}
+
+/* ========================================================
+   HSK 1 Clean Journey Layout (No Overlap, No Redundant Button)
+   ======================================================== */
+.hn--net, [data-note="net"] {
+  display: none !important;
+}
+
+.jr-go {
+  display: none !important;
+}
+
+.jr-pup {
+  display: none !important;
+}
+
+.jr-st .jr-row {
+  height: 135px !important;
+  position: relative !important;
+  clear: both !important;
+}
+
+.jr-st .jr-row.is-cur {
+  height: 145px !important;
+}
+
+/* Perfect Circular Station Node */
+.jr-st .jr-print {
+  width: 86px !important;
+  height: 86px !important;
+  border-radius: 50% !important;
+  position: absolute !important;
+  top: 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+  z-index: 2 !important;
+  transition: transform 0.15s ease !important;
+}
+
+.jr-st .jr-print:active {
+  transform: scale(0.95) !important;
+}
+
+.jr-st .jr-print.is-cur {
+  width: 96px !important;
+  height: 96px !important;
+  top: 18px !important;
+}
+
+/* Left Station Node (.jr-row--l): Node on Left, Text on Right */
+.jr-st .jr-row--l .jr-print {
+  left: calc(26% - 43px) !important;
+  right: auto !important;
+}
+.jr-st .jr-row--l .jr-print.is-cur {
+  left: calc(26% - 48px) !important;
+  right: auto !important;
+}
+.jr-st .jr-row--l .jr-txt {
+  left: calc(50% + 10px) !important;
+  right: 18px !important;
+  top: 32px !important;
+  text-align: right !important;
+  position: absolute !important;
+  z-index: 2 !important;
+}
+
+/* Right Station Node (.jr-row--r): Node on Right, Text on Left */
+.jr-st .jr-row--r .jr-print {
+  left: calc(74% - 43px) !important;
+  right: auto !important;
+}
+.jr-st .jr-row--r .jr-print.is-cur {
+  left: calc(74% - 48px) !important;
+  right: auto !important;
+}
+.jr-st .jr-row--r .jr-txt {
+  right: calc(50% + 10px) !important;
+  left: 18px !important;
+  top: 32px !important;
+  text-align: left !important;
+  position: absolute !important;
+  z-index: 2 !important;
+}
+
+/* Station text styling */
+.jr-st .jr-txt small {
+  display: block !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  color: #059669 !important;
+  margin-bottom: 2px !important;
+}
+.jr-st .jr-row.is-locked .jr-txt small {
+  color: #9CA3AF !important;
+}
+
+.jr-st .jr-txt b.han {
+  display: block !important;
+  font-size: 23px !important;
+  font-weight: 800 !important;
+  color: #111827 !important;
+  line-height: 1.2 !important;
+}
+.jr-st .jr-row.is-locked .jr-txt b.han {
+  color: #6B7280 !important;
+}
+
+.jr-st .jr-txt .jr-txt__en {
+  display: block !important;
+  font-size: 14px !important;
+  color: #374151 !important;
+  font-weight: 600 !important;
+}
+.jr-st .jr-row.is-locked .jr-txt .jr-txt__en {
+  color: #9CA3AF !important;
+}
+
+/* ============================================================
+   بخش کاوش (Explore) در راست‌به‌چپ (RTL):
+   تراز راست، اصلاح موقعیت بنرها، عناوین و زیرنویس‌ها
+   ============================================================ */
+html[dir="rtl"] .ex-pod,
+html[dir="rtl"] .ex-cont,
+html[dir="rtl"] .st-card,
+html[dir="rtl"] .pd-li,
+html[dir="rtl"] .st-pick {
+  text-align: right !important;
+}
+
+html[dir="rtl"] .st-pick__t {
+  right: 14px !important;
+  left: auto !important;
+  text-align: right !important;
+}
+
+html[dir="rtl"] .pd-li__t,
+html[dir="rtl"] .pd-li__t b,
+html[dir="rtl"] .pd-li__t span,
+html[dir="rtl"] .ex-cont__txt,
+html[dir="rtl"] .ex-cont__txt b,
+html[dir="rtl"] .ex-cont__txt small,
+html[dir="rtl"] .ex-pod__txt,
+html[dir="rtl"] .ex-pod__txt b,
+html[dir="rtl"] .st-card__t,
+html[dir="rtl"] .st-zh,
+html[dir="rtl"] .st-en,
+html[dir="rtl"] .st-l1,
+html[dir="rtl"] .st-pg {
+  text-align: right !important;
+}
+
+html[dir="rtl"] .st-card .st-zh {
+  text-align: right !important;
+  unicode-bidi: isolate !important;
+}
+
+html[dir="rtl"] .bk--hsk::after {
+  left: auto !important;
+  right: 0 !important;
+  background: linear-gradient(270deg, rgba(0,0,0,.25), rgba(0,0,0,0)) !important;
+}
+
+html[dir="rtl"] .bk__tag {
+  right: auto !important;
+  left: 6cqw !important;
+}
+
+
+/* دکمه پخش صدای مدرن و زیبا در تمرین‌ها */
+.u-ex-audio-row {
+  display: flex !important;
+  justify-content: flex-end !important;
+  margin-bottom: 14px !important;
+  width: 100% !important;
+}
+
+.u-big-audio {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  background: #F0FDF4 !important;
+  border: 1px solid rgba(34, 197, 94, 0.35) !important;
+  border-radius: 999px !important;
+  padding: 6px 14px !important;
+  color: #0F766E !important;
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 8px rgba(34, 197, 94, 0.12) !important;
+  transition: all 0.15s ease !important;
+  outline: none !important;
+}
+
+.u-big-audio:hover {
+  background: #DCFCE7 !important;
+  border-color: #22C55E !important;
+}
+
+.u-big-audio:active {
+  transform: scale(0.95) !important;
+  background: #BBF7D0 !important;
+}
+
+.u-big-audio .i {
+  color: #10B981 !important;
+  background-color: currentColor !important;
+}
+
+
+/* ====================================================
+   MEDIA PLAYER IN RTL: Audio scrubber, controls & times
+   Audio playback bars & time counters must ALWAYS be LTR.
+   ==================================================== */
+html[dir="rtl"] .pd-panel,
+html[dir="rtl"] .pd-bar,
+html[dir="rtl"] .pd-tm,
+html[dir="rtl"] .pd-ctrl,
+html[dir="rtl"] .pd-dock__bar,
+html[dir="rtl"] .pd-mini .pd-bar {
+  direction: ltr !important;
+}
+
+html[dir="rtl"] .pd-tm {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+html[dir="rtl"] .pd-ctrl {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  direction: ltr !important;
+}
+
+html[dir="rtl"] .pd-hint {
+  direction: rtl !important;
+  text-align: center !important;
+}
+
+/* ====================================================
+   PINYIN TOGGLE BUTTON STYLING (پین‌یین)
+   ==================================================== */
+.u-py-toggle,
+.pd-pytg,
+.rd-pin {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 28px !important;
+  padding: 0 12px !important;
+  border-radius: 99px !important;
+  font-family: inherit !important;
+  font-size: 11.5px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  transition: all 0.2s cubic-bezier(0.2, 0.8, 0.3, 1) !important;
+  user-select: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  letter-spacing: -0.2px !important;
+  line-height: 1 !important;
+  box-sizing: border-box !important;
+}
+
+/* Active State (Pinyin ON) */
+.u-py-toggle:not(.is-off),
+.pd-pytg.on,
+.rd-pin.on {
+  background: #EAFBF4 !important;
+  color: #0A9B68 !important;
+  border: 1.5px solid #2BD19D !important;
+  box-shadow: 0 2px 8px rgba(43, 209, 157, 0.28) !important;
+}
+
+/* Inactive State (Pinyin OFF) */
+.u-py-toggle.is-off,
+.pd-pytg.off,
+.rd-pin:not(.on) {
+  background: #F1F3F5 !important;
+  color: #8B95A0 !important;
+  border: 1.5px dashed #C8CFD7 !important;
+  text-decoration: line-through !important;
+  opacity: 0.75 !important;
+  box-shadow: none !important;
+}
+
+/* Active State (Persian Translation ON) */
+.u-fa-toggle:not(.is-off) {
+  background: #EFF6FF !important;
+  color: #1D4ED8 !important;
+  border: 1.5px solid #3B82F6 !important;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.25) !important;
+}
+
+/* Inactive State (Persian Translation OFF) */
+.u-fa-toggle.is-off {
+  background: #F1F3F5 !important;
+  color: #8B95A0 !important;
+  border: 1.5px dashed #C8CFD7 !important;
+  text-decoration: line-through !important;
+  opacity: 0.75 !important;
+  box-shadow: none !important;
+}
+
+/* ستون دکمه‌های پین‌یین و فارسی در سرصفحه */
+.u-toggles-col {
+  display: inline-flex !important;
+  flex-direction: column !important;
+  gap: 3px !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+}
+
+.u-toggles-col .u-py-toggle {
+  height: 22px !important;
+  padding: 0 8px !important;
+  font-size: 10.5px !important;
+  min-width: 50px !important;
+  text-align: center !important;
+}
+
+.u-py-toggle:active,
+.pd-pytg:active,
+.rd-pin:active {
+  transform: scale(0.92) !important;
+}
+
+.u-py-toggle--floating {
+  position: absolute !important;
+  top: max(calc(var(--sat, 0px) + 12px), 44px) !important;
+  left: 16px !important;
+  z-index: 100 !important;
+}
+
+.pd-ptop-actions {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+
+html[dir="rtl"] .u-py-toggle--sublevel,
+.u-py-toggle--sublevel {
+  position: absolute !important;
+  top: max(calc(var(--sat, 0px) + 12px), 44px) !important;
+  right: 14px !important;
+  left: auto !important;
+  z-index: 120 !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16) !important;
+}
+
+
+/* ==========================================================================
+   AUTHENTICATION & USER LOGIN REDESIGN (PERSIAN RTL)
+   ========================================================================== */
+
+/* Remove any Google sign-in buttons everywhere */
+.au-google,
+.ob2-gbtn,
+.ob3-btn--line[data-arg*="googleSignIn"],
+.ac-opt[data-arg*="googleSignIn"],
+[data-arg*="googleSignIn"],
+.au-or {
+  display: none !important;
+}
+
+/* Background & layout */
+.col.au {
+  background: radial-gradient(circle at 50% 10%, #E8FBF4 0%, #F5F9F7 45%, #FFFFFF 100%) !important;
+  min-height: 100% !important;
+}
+
+.au-top {
+  position: relative !important;
+  z-index: 10 !important;
+  padding: calc(var(--sat, 12px) + 8px) 16px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+html[dir="rtl"] .au-back svg {
+  transform: scaleX(-1) !important;
+}
+
+.au-body {
+  padding: 12px 20px calc(var(--sab, 16px) + 24px) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+/* Welcoming Hero */
+.au-hero {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin-bottom: 20px !important;
+}
+
+.au-hero__img {
+  width: 88px !important;
+  height: 88px !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 10px 18px rgba(33, 208, 165, 0.28)) !important;
+  margin-bottom: 10px !important;
+  animation: auFloat 3.5s ease-in-out infinite !important;
+}
+
+@keyframes auFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.au-hero .au-title {
+  font-size: 24px !important;
+  font-weight: 900 !important;
+  color: #1A2621 !important;
+  margin-bottom: 6px !important;
+  letter-spacing: -0.3px !important;
+}
+
+.au-hero .au-sub {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  color: #6C7A74 !important;
+  line-height: 1.5 !important;
+  max-width: 290px !important;
+}
+
+/* Card Container */
+.au-card {
+  width: 100% !important;
+  max-width: 360px !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-radius: 26px !important;
+  padding: 22px 18px !important;
+  box-shadow: 0 16px 40px rgba(15, 169, 104, 0.08), 0 2px 8px rgba(0, 0, 0, 0.03) !important;
+  border: 1px solid rgba(43, 209, 157, 0.25) !important;
+}
+
+/* Tabs Switcher */
+.au-tabs {
+  display: flex !important;
+  background: #EAF0EC !important;
+  border-radius: 999px !important;
+  padding: 4px !important;
+  margin-bottom: 20px !important;
+  gap: 4px !important;
+}
+
+.au-tab {
+  flex: 1 !important;
+  height: 40px !important;
+  border: 0 !important;
+  background: transparent !important;
+  border-radius: 999px !important;
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  color: #5D6B65 !important;
+  cursor: pointer !important;
+  transition: all 0.22s cubic-bezier(0.2, 0.8, 0.3, 1) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.au-tab.is-active {
+  background: #FFFFFF !important;
+  color: #0C8A56 !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.09) !important;
+  font-weight: 900 !important;
+}
+
+/* Form & Input Fields */
+.au-form {
+  margin-top: 0 !important;
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 14px !important;
+}
+
+.au-field {
+  width: 100% !important;
+  height: 52px !important;
+  background: #F8FAF9 !important;
+  border-radius: 16px !important;
+  border: 1.5px solid rgba(0, 0, 0, 0.06) !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 14px !important;
+  gap: 12px !important;
+  transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s !important;
+  box-sizing: border-box !important;
+}
+
+.au-field:focus-within {
+  border-color: #2BD19D !important;
+  background: #FFFFFF !important;
+  box-shadow: 0 0 0 3.5px rgba(43, 209, 157, 0.2) !important;
+}
+
+.au-field__ico {
+  color: #798781 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: none !important;
+}
+
+.au-field input {
+  flex: 1 !important;
+  height: 100% !important;
+  border: 0 !important;
+  outline: 0 !important;
+  background: transparent !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: #1A2621 !important;
+  padding: 0 !important;
+  font-family: inherit !important;
+}
+
+html[dir="rtl"] .au-field input {
+  text-align: right !important;
+}
+
+.au-field input::placeholder {
+  color: #9AA7A1 !important;
+  font-weight: 500 !important;
+}
+
+.au-eye {
+  width: 36px !important;
+  height: 36px !important;
+  border: 0 !important;
+  background: transparent !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #8C9994 !important;
+  cursor: pointer !important;
+  flex: none !important;
+  transition: color 0.15s !important;
+}
+
+.au-eye.on {
+  color: #1FC291 !important;
+}
+
+/* Row Sub Links */
+.au-row-sub {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  margin-top: -4px !important;
+  margin-bottom: 2px !important;
+}
+
+.ac-forgot-link {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  color: #0C8A56 !important;
+  padding: 4px 2px !important;
+  background: transparent !important;
+  border: 0 !important;
+  cursor: pointer !important;
+}
+
+/* Error message banner */
+.au-err {
+  background: #FFF1F0 !important;
+  border: 1px solid #FFCCC7 !important;
+  border-radius: 14px !important;
+  padding: 10px 14px !important;
+  color: #CF1322 !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  animation: auShake 0.4s ease !important;
+}
+
+@keyframes auShake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+/* CTA submit button */
+.au-cta {
+  width: 100% !important;
+  height: 52px !important;
+  border-radius: 16px !important;
+  border: 0 !important;
+  background: linear-gradient(135deg, #2BD19D 0%, #1FC291 100%) !important;
+  color: #FFFFFF !important;
+  font-size: 16px !important;
+  font-weight: 900 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+  box-shadow: 0 8px 22px rgba(31, 194, 145, 0.38) !important;
+  transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s !important;
+  margin-top: 6px !important;
+}
+
+.au-cta:active {
+  transform: scale(0.98) !important;
+  box-shadow: 0 3px 10px rgba(31, 194, 145, 0.28) !important;
+}
+
+.au-cta.is-off {
+  opacity: 0.65 !important;
+  pointer-events: none !important;
+}
+
+/* Foot switch */
+.au-foot-switch {
+  margin-top: 10px !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  color: #71807A !important;
+  text-align: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+}
+
+.au-inline-link {
+  background: transparent !important;
+  border: 0 !important;
+  color: #0C8A56 !important;
+  font-weight: 800 !important;
+  font-size: 13px !important;
+  cursor: pointer !important;
+  padding: 2px 4px !important;
+  text-decoration: underline !important;
+}
+
+
+/* Completely hide offline banner and prevent layout shifting */
+.netbar, #netbar {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  max-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+.app.is-offline .screen-host,
+.app.is-offline .scr-ghost {
+  top: 0 !important;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   PERFORMANCE & 60FPS SMOOTHNESS ENGINE (CHINIFY V2)
+   ════════════════════════════════════════════════════════════ */
+html[dir="rtl"],
+html[dir="rtl"] body {
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: optimizeLegibility !important;
+}
+
+/* Eliminate 300ms tap delay and tap highlights across all interactives */
+button, input, select, textarea,
+.kan-tab-btn, .lesson-card-item, .kan-chip-btn,
+.subtask-interactive-pod, .milestone-review-box,
+.subtask-station-banner, .screen-back-btn, .u-py-toggle,
+.play-action-circle, .integrated-lock-dome, .milestone-icon-btn {
+  touch-action: manipulation !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+/* Native inertia scrolling on all scrollable screens without conflicting smooth-scroll lag */
+.scr, .hm.hm--jr, .subtasks-view, .ex, .st-grid, .feed, .practice-flow-view {
+  -webkit-overflow-scrolling: touch !important;
+  overscroll-behavior-y: contain !important;
+  scroll-behavior: auto !important;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   MODAL, POPUP & BOTTOM-SHEET Z-INDEX AND POLISH FIXES
+   ════════════════════════════════════════════════════════════ */
+
+/* ۱. اولویت‌بندی لایه‌ها: تضمین قرارگیری پاپ‌آپ‌ها و باتم‌شیت‌ها بالای نوار تب‌ها */
+.tabbar {
+  z-index: 45 !important;
+}
+
+.layer {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 800 !important;
+  pointer-events: none !important;
+}
+
+.scrim {
+  z-index: 801 !important;
+  pointer-events: auto !important;
+}
+
+.sheet,
+.dialog,
+.modal,
+.pp-dlg,
+.ac-new {
+  z-index: 805 !important;
+  pointer-events: auto !important;
+}
+
+#cel-host {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 1000 !important;
+  pointer-events: none !important;
+}
+
+.toast,
+.ui-toast {
+  z-index: 1200 !important;
+}
+
+/* ۲. اصلاح ظاهری باتم‌شیت استراحت / فریز زنجیره (Streak Freeze Sheet - تصویر ۲) */
+.sheet.pg-fz {
+  max-height: 88vh !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain !important;
+  padding: 16px 20px max(calc(var(--sab, 0px) + 24px), 32px) 20px !important;
+  border-radius: 28px 28px 0 0 !important;
+  box-shadow: 0 -12px 36px rgba(15, 23, 42, 0.16) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.pg-fz .sheet__grab {
+  width: 44px !important;
+  height: 5px !important;
+  margin: 0 auto 10px auto !important;
+  background: #CBD5E1 !important;
+  border-radius: 99px !important;
+  flex-shrink: 0 !important;
+}
+
+.pg-fz__art {
+  display: block !important;
+  max-width: 130px !important;
+  max-height: 125px !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 4px auto 8px auto !important;
+  object-fit: contain !important;
+  flex-shrink: 0 !important;
+}
+
+.pg-fz__title {
+  margin-top: 2px !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  line-height: 28px !important;
+  color: #0F172A !important;
+  text-align: center !important;
+}
+
+.pg-fz__body {
+  max-width: 320px !important;
+  margin: 6px auto 12px auto !important;
+  font-size: 13.5px !important;
+  line-height: 20px !important;
+  color: #475569 !important;
+  text-align: center !important;
+}
+
+.pg-fz__card {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  min-height: 68px !important;
+  margin: 8px auto 12px auto !important;
+  width: 100% !important;
+  max-width: 340px !important;
+  padding: 12px 16px !important;
+  border-radius: 16px !important;
+  background: #F4F0FE !important;
+  border: 1px solid rgba(139, 92, 246, 0.15) !important;
+  text-align: right !important;
+  direction: rtl !important;
+  box-sizing: border-box !important;
+}
+
+.pg-fz__seal {
+  width: 44px !important;
+  height: 44px !important;
+  font-size: 22px !important;
+  border-radius: 12px !important;
+}
+
+.pg-fz__card b {
+  font-size: 14.5px !important;
+  font-weight: 700 !important;
+  color: #1E293B !important;
+}
+
+.pg-fz__card span span {
+  font-size: 12px !important;
+  color: #64748B !important;
+  margin-top: 2px !important;
+}
+
+.pg-fz .pg-week {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  margin: 10px 0 !important;
+  flex-shrink: 0 !important;
+}
+
+.pg-fz__go {
+  display: block !important;
+  width: 100% !important;
+  max-width: 320px !important;
+  height: 48px !important;
+  margin: 12px auto 4px auto !important;
+  border-radius: 14px !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  flex-shrink: 0 !important;
+}
+
+/* ۳. اصلاح ظاهری پاپ‌آپ تمام‌صفحه جشن استریک (Celebration Screen - تصویر ۱) */
+.cel {
+  position: absolute !important;
+  inset: 0 !important;
+  pointer-events: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: max(calc(var(--sat, 0px) + 24px), 48px) 20px max(calc(var(--sab, 0px) + 96px), 110px) 20px !important;
+  text-align: center !important;
+  overflow-y: auto !important;
+  box-sizing: border-box !important;
+}
+
+.cel-foot {
+  position: absolute !important;
+  left: 20px !important;
+  right: 20px !important;
+  bottom: max(calc(var(--sab, 0px) + 24px), 28px) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 8px !important;
+  z-index: 10 !important;
+}
+
+.cel-foot .hm-cta,
+.cel-foot .cel-go {
+  width: 100% !important;
+  max-width: 320px !important;
+  height: 48px !important;
+  border-radius: 14px !important;
+  font-size: 15.5px !important;
+  font-weight: 700 !important;
+  margin: 0 auto !important;
+}
+
+/* ۴. رفع تداخل نوار وضعیت گوشی در بخش درس‌ها (Lesson & Practice Safe-Area Top) */
+.u-head,
+.u-head--ex {
+  padding-top: max(calc(var(--sat, 0px) + 12px), 44px) !important;
+  box-sizing: border-box !important;
+}
+
+.u-subtasks-head {
+  padding-top: max(calc(var(--sat, 0px) + 12px), 44px) !important;
+  box-sizing: border-box !important;
+}
+
+.practice-top-banner {
+  top: max(calc(var(--sat, 0px) + 12px), 44px) !important;
+}
+
+.screen-back-btn,
+.subtasks-view .screen-back-btn,
+.practice-view .screen-back-btn {
+  top: max(calc(var(--sat, 0px) + 12px), 44px) !important;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   DUOLINGO-GRADE BUTTERY SMOOTHNESS & TACTILE INTERACTIONS
+   (تجربه کاربری فوق‌العاده نرم، روان و فنری مانند دولینگو)
+   ════════════════════════════════════════════════════════════ */
+
+/* ۱. تعاملات لمسی و فیزیک کلیدها (Spring 3D Tactile Feedback) */
+button,
+.btn,
+.hm-cta,
+.kan-tab-btn,
+.subtask-interactive-pod,
+.practice-stage-card,
+.vb-opt,
+.ls-choice,
+.cq-row,
+.u-py-toggle,
+.screen-back-btn {
+  -webkit-tap-highlight-color: transparent !important;
+  touch-action: manipulation !important;
+  transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.15s ease,
+              background-color 0.15s ease !important;
+}
+
+/* افکت فشردن دکمه‌های اصلی و کارت‌های مسیر */
+.btn:not(.is-off):active,
+.hm-cta:not(.is-off):active,
+.practice-stage-card:active,
+.subtask-interactive-pod:active,
+.screen-back-btn:active {
+  transform: translateY(2.5px) scale(0.975) !important;
+}
+
+/* کارت‌های انتخاب گزینه‌ها در تمرینات با پرش نرم */
+.vb-opt:active,
+.ls-choice:active,
+.cq-row:active {
+  transform: scale(0.97) !important;
+}
+
+.vb-opt.on,
+.cq-row.on,
+.ls-choice.on {
+  transform: scale(1.01) !important;
+  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.25) !important;
+}
+
+/* ۲. اسکرول با شتاب سخت‌افزاری ۶۰/۱۲۰ هرتز و بدون افت فریم */
+.scr,
+.app,
+.subtasks-view,
+.practice-flow-view,
+.sheet,
+.dialog,
+.modal {
+  -webkit-overflow-scrolling: touch !important;
+  overscroll-behavior-y: contain !important;
+  scroll-behavior: smooth !important;
+}
+
+/* ارتقای لایه‌های پویا به GPU برای تضمین نرمی انیمیشن‌ها */
+.kan-tab-btn,
+.subtask-station-banner,
+.practice-top-banner,
+.u-py-toggle,
+.screen-back-btn,
+.sheet,
+.cel {
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* ۳. انیمیشن نرم پر شدن نوار پیشرفت (Smooth Spring Progress) */
+.stage-progress-bar-mini .fill,
+.u-ex-bar span,
+.ls-prog__bar i,
+.subtask-stage-progress-fill {
+  transition: width 0.35s cubic-bezier(0.34, 1.25, 0.64, 1) !important;
+}
+
+/* ۴. اسلاید باز شدن شیک و نرم باتم‌شیت‌ها */
+.sheet {
+  animation: duolingoSheetPop 0.28s cubic-bezier(0.22, 1, 0.36, 1) both !important;
+}
+
+@keyframes duolingoSheetPop {
+  0% {
+    transform: translateY(100%);
+    opacity: 0.88;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* --- Fix numbers quiz checkmark collision in RTL --- */
+html[dir="rtl"] .nm-opt,
+body.is-rtl .nm-opt {
+  padding-left: 52px !important;
+  padding-right: 18px !important;
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+html[dir="rtl"] .nm-okm,
+body.is-rtl .nm-okm {
+  right: auto !important;
+  left: 14px !important;
+}
+
+html[dir="rtl"] .nm-opt b,
+body.is-rtl .nm-opt b {
+  margin-left: 8px !important;
+}
+
+
+/* ============================================================
+   FIX: Explore Screen Vertical Scrolling & Touch Responsiveness
+   ============================================================ */
+.scr.ex {
+  position: absolute !important;
+  inset: 0 !important;
+  height: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch !important;
+  overscroll-behavior-y: contain !important;
+  scroll-behavior: auto !important;
+  padding-bottom: 180px !important;
+  box-sizing: border-box !important;
+  touch-action: pan-y !important;
+  transform: translateZ(0) !important;
+  will-change: scroll-position !important;
+  contain: paint !important;
+}
+
+.scr.ex .ex-pane {
+  min-height: 100% !important;
+  padding-bottom: 60px !important;
+  box-sizing: border-box !important;
+  transform: translateZ(0) !important;
+}
+
+/* بهینه‌سازی لیست ویس‌ها و پادکست‌ها در بخش کاوش */
+.ex-pods .pd-list {
+  transform: translateZ(0) !important;
+  contain: layout style !important;
+}
+
+.ex-pods .pd-li {
+  content-visibility: auto !important;
+  contain-intrinsic-size: 0 68px !important;
+  transform: translateZ(0) !important;
+  touch-action: manipulation !important;
+}
+
+/* Ensure horizontal sliders do not trap vertical scroll gestures */
+.scr.ex .ex-conts,
+.scr.ex .ex-books,
+.scr.ex .st-chips,
+.scr.ex .hx-row,
+.scr.ex .ex-games,
+.scr.ex .hub,
+.scr.ex .hm-card {
+  touch-action: pan-y pan-x !important;
+}
+
+/* ════════════════════════════════════════════════════════════
+   HIGH-PERFORMANCE GPU-ACCELERATED PAGE TRANSITIONS
+   ════════════════════════════════════════════════════════════ */
+.screen-host {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+.screen-host > * {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.scr-ghost {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  pointer-events: none !important;
+}
+
+/* Eliminate heavy blur box-shadows on full-screen transitions */
+.app[data-nav="push"] .screen-host > *,
+.app[data-nav="pop"] .screen-host > *,
+.scr-ghost--push,
+.scr-ghost--pop {
+  box-shadow: none !important;
+}
+
+/* Fast, smooth tab navigation */
+.app[data-nav="tab"] .screen-host > * {
+  animation: navTabInFast 0.12s ease-out both !important;
+  will-change: opacity, transform;
+}
+
+@keyframes navTabInFast {
+  from {
+    opacity: 0.4;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ===== بهینه‌سازی و استایل کارت آموزش گرامر در درس‌ها (Unit System) ===== */
+.gp-chips {
+  direction: ltr !important;
+  justify-content: flex-start !important;
+}
+.u-ex-card--gram {
+  padding: 20px 18px 24px !important;
+  box-sizing: border-box !important;
+  direction: rtl !important;
+  text-align: right !important;
+}
+.u-ex-card--gram .tl-lbl,
+html[dir="rtl"] .tl-lbl {
+  margin: 18px 0 8px !important;
+  font-weight: 800 !important;
+  font-size: 14px !important;
+  color: var(--text2, #475569) !important;
+  direction: rtl !important;
+  text-align: right !important;
+  display: block !important;
+}
+.u-ex-card--gram .tl-gline,
+.u-ex-card--gram .u-gram-explain,
+html[dir="rtl"] .tl-gline,
+html[dir="rtl"] .tl-gline.han,
+html[dir="rtl"] .u-gram-explain {
+  direction: rtl !important;
+  text-align: right !important;
+  unicode-bidi: normal !important;
+  line-height: 1.85 !important;
+  font-size: 14.5px !important;
+  color: var(--text, #1e293b) !important;
+  display: block !important;
+}
+.u-ex-card--gram .gp-formula p,
+.u-ex-card--gram .u-gram-oneline,
+html[dir="rtl"] .gp-formula p,
+html[dir="rtl"] .gp-formula p.han,
+html[dir="rtl"] .u-gram-oneline {
+  direction: rtl !important;
+  text-align: right !important;
+  unicode-bidi: normal !important;
+  line-height: 1.7 !important;
+}
+.u-ex-card--gram .gp-mk__why,
+.u-ex-card--gram .u-gram-why,
+html[dir="rtl"] .gp-mk__why,
+html[dir="rtl"] .gp-mk__why.han,
+html[dir="rtl"] .u-gram-why {
+  direction: rtl !important;
+  text-align: right !important;
+  unicode-bidi: normal !important;
+  font-size: 13.5px !important;
+  line-height: 1.7 !important;
+  color: #475569 !important;
+}
+.u-ex-card--gram .tl-ex {
+  border-bottom: 1px solid var(--line, #edf0f3);
+  padding: 12px 0 !important;
+}
+.u-ex-card--gram .tl-ex:last-child {
+  border-bottom: none !important;
+}
+.u-ex-card--gram .gp-mk__row--no {
+  color: #d32f2f;
+}
+.u-ex-card--gram .gp-mk__row--ok {
+  color: #2e7d32;
+}
+.u-fb-tip {
+  margin-top: 6px !important;
+  font-size: 13px !important;
+  line-height: 1.6 !important;
+  color: var(--text2, #444) !important;
+}
+
+/* ===== چیدمان اصیل راست‌چین مثال‌های گرامر (سمت نرمال فارسی) ===== */
+html[dir="rtl"] .u-gram-examples,
+html[dir="rtl"] .u-gram-ex-row,
+html[dir="rtl"] .u-ex-card--gram .tl-ex {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+html[dir="rtl"] .u-gram-ex-body,
+html[dir="rtl"] .u-ex-card--gram .tl-ex__txt {
+  direction: rtl !important;
+  text-align: right !important;
+  align-items: flex-start !important;
+}
+
+html[dir="rtl"] .u-gram-ex-fa,
+html[dir="rtl"] .u-ex-card--gram .tl-ex__en,
+html[dir="rtl"] .u-ex-card--gram .tl-ex__fa {
+  direction: rtl !important;
+  text-align: right !important;
+  font-size: 14.5px !important;
+  font-weight: 800 !important;
+  color: #1e293b !important;
+  line-height: 1.6 !important;
+  letter-spacing: -0.2px !important;
+}
+
+html[dir="rtl"] .u-gram-ex-zh,
+html[dir="rtl"] .u-ex-card--gram .tl-ex__zh {
+  direction: ltr !important;
+  text-align: right !important;
+  display: inline-block !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  color: #0f766e !important;
+}
+
+html[dir="rtl"] .u-gram-ex-py,
+html[dir="rtl"] .u-ex-card--gram .tl-ex__py {
+  direction: ltr !important;
+  text-align: right !important;
+  font-size: 12.5px !important;
+  color: #64748b !important;
+  font-weight: 600 !important;
+}
+
+/* ===== صفحه پیشرفت من (My Progress) — چیدمان مدرن و راست‌چین ===== */
+html[dir="rtl"] .mp,
+html[dir="rtl"] .mp-card,
+html[dir="rtl"] .mp-lead,
+html[dir="rtl"] .mp-row,
+html[dir="rtl"] .mp-grow,
+html[dir="rtl"] .mp-t,
+html[dir="rtl"] .mp-s,
+html[dir="rtl"] .mp-cap,
+html[dir="rtl"] .mp-week,
+html[dir="rtl"] .mp-ready,
+html[dir="rtl"] .mp-nav-bar {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+html[dir="rtl"] .mp-card {
+  text-align: right !important;
+  border-radius: 20px !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04) !important;
+  border: 1px solid var(--line2, #f1f5f9) !important;
+  background: var(--card, #ffffff) !important;
+}
+
+html[dir="rtl"] .mp-t {
+  justify-content: space-between !important;
+  align-items: center !important;
+  direction: rtl !important;
+}
+
+html[dir="rtl"] .mp-ready {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  direction: rtl !important;
+}
+
+html[dir="rtl"] .mp-ring {
+  position: relative !important;
+  display: grid !important;
+  place-items: center !important;
+  flex-shrink: 0 !important;
+}
+
+html[dir="rtl"] .mp-ring b {
+  position: absolute !important;
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  color: #0f766e !important;
+}
+
+html[dir="rtl"] .mp-chips {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  direction: rtl !important;
+}
+
+html[dir="rtl"] .mp-chip {
+  padding: 6px 12px !important;
+  border-radius: 12px !important;
+  background: #f1f5f9 !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #0f766e !important;
+}
+
+/* ============================================================
+   تم قرمز اختصاصی (قرمز کاربری - Red Theme Full Support)
+   ============================================================ */
+html[data-accent="red"] {
+  --brand: #E5484D !important;
+  --brand-dark: #C93A3F !important;
+  --brand-deep: #D6383E !important;
+  --brand-light: #F26B6F !important;
+  --brand-mint: #E5484D !important;
+  --tint: #FEECEE !important;
+  --tint-line: #FCDAD7 !important;
+  --accent: #E5484D !important;
+  --accent-soft: #FEECEE !important;
+  --on-soft: #C93A3F !important;
+  --ico: #E5484D !important;
+  --chip-on: #E5484D !important;
+  --grad: linear-gradient(135deg, #F26B6F 0%, #E5484D 55%, #C93A3F 100%) !important;
+  --grad-icon: linear-gradient(150deg, #F26B6F, #C93A3F) !important;
+  --grad-btn: linear-gradient(90deg, #F26B6F, #C93A3F) !important;
+  --seg-past: color-mix(in srgb, var(--brand) 30%, #fff) !important;
+}
+
+html[data-accent="red"] .btn,
+html[data-accent="red"] .hm-cta,
+html[data-accent="red"] .btn--brand {
+  background: linear-gradient(90deg, #F26B6F, #E5484D) !important;
+  box-shadow: 0 4px 0 #C93A3F, 0 8px 18px -4px rgba(229, 72, 77, 0.35) !important;
+  color: #fff !important;
+}
+
+html[data-accent="red"] .btn:active,
+html[data-accent="red"] .hm-cta:active,
+html[data-accent="red"] .btn--brand:active {
+  box-shadow: 0 1px 0 #C93A3F, 0 2px 6px -2px rgba(229, 72, 77, 0.2) !important;
+}
+
+html[data-accent="red"] .hm-cta--quiet {
+  background: #FEECEE !important;
+  color: #C93A3F !important;
+  box-shadow: 0 4px 0 #FCDAD7 !important;
+}
+
+html[data-accent="red"] .kan-tab-btn.active,
+html[data-accent="red"] .tab.on,
+html[data-accent="red"] .tabbar .tab.on {
+  color: #E5484D !important;
+}
+
+html[data-accent="red"] .kan-tab-btn.active .kan-tab-icon-pill {
+  background: rgba(229, 72, 77, 0.12) !important;
+  color: #E5484D !important;
+}
+
+html[data-accent="red"] .kan-tab-btn.active .i,
+html[data-accent="red"] .kan-tab-btn.active .kan-tab-label {
+  color: #E5484D !important;
+}
+
+html[data-accent="red"] .me-band {
+  background-color: #E5484D !important;
+  background-image: linear-gradient(135deg, #F26B6F 0%, #C93A3F 100%) !important;
+}
+
+html[data-accent="red"] .me-goal.on {
+  background: linear-gradient(135deg, #F26B6F 0%, #E5484D 100%) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 12px rgba(229, 72, 77, 0.25) !important;
+}
+
+html[data-accent="red"] .me-opt.on {
+  border-color: #E5484D !important;
+  background: #FEECEE !important;
+}
+
+html[data-accent="red"] .me-opt.on .me-radio {
+  border-color: #E5484D !important;
+  background: #E5484D !important;
+  color: #fff !important;
+}
+
+html[data-accent="red"] .toggle.on {
+  background: #E5484D !important;
+}
+
+html[data-accent="red"] .me-can__head span,
+html[data-accent="red"] .me-can__row .i {
+  color: #E5484D !important;
+}
+
+html[data-accent="red"] .me-row__val--brand {
+  color: #E5484D !important;
+}
+
+html[data-accent="red"] .kan-level-chip {
+  color: #C93A3F !important;
+  border-color: rgba(229, 72, 77, 0.25) !important;
+}
+
+html[data-accent="red"] .kan-level-badge {
+  background: #E5484D !important;
+  color: #fff !important;
+}
+
+html[data-accent="red"] .milestone-station-badge {
+  background: linear-gradient(135deg, #F26B6F 0%, #E5484D 100%) !important;
+}
+
+html[data-accent="red"] .lesson-card-item.is-completed .lesson-node-dot,
+html[data-accent="red"] .lesson-step-pill.is-active {
+  background: #E5484D !important;
+  color: #fff !important;
+}
+
+html[data-accent="red"] .lesson-progress-fill {
+  background: linear-gradient(90deg, #F26B6F, #E5484D) !important;
+}
+
+html[data-accent="red"] .vb-filter.on,
+html[data-accent="red"] .ex-filter.on,
+html[data-accent="red"] .ex-tag.on {
+  background: #E5484D !important;
+  color: #fff !important;
+}
+
+html[data-accent="red"] .gram-highlight,
+html[data-accent="red"] .kan-unit-pinyin-pill.active {
+  background: rgba(229, 72, 77, 0.12) !important;
+  color: #C93A3F !important;
+}
+
+html[data-accent="red"] .subtask-card.is-active,
+html[data-accent="red"] .subtask-interactive-pod.is-current {
+  border-color: #E5484D !important;
+}
+
+
+
+
+
+/* ===== تضمین ۱۰۰٪ ابعاد تمام‌صفحه و رفع باگ اندازه صفر در رندر موبایل ===== */
+@media (max-width: 900px), (hover: none) and (pointer: coarse) {
+  html, body {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+  .stage {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block !important;
+  }
+  .device {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    overflow: hidden !important;
+  }
+  .device__notch {
+    display: none !important;
+  }
+  .app {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+  }
+  .screen-host {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════
+   MASTER TYPOGRAPHY & LAYOUT PERFECTION (اصلاحات سراسری تایپوگرافی و چیدمان)
+   ══════════════════════════════════════════════════════════════ */
+
+/* ۱. یکپارچه‌سازی قطعی فونت وزیرمتن روی تمام ویجت‌ها و المان‌ها */
+html[dir="rtl"],
+html[dir="rtl"] body,
+html[dir="rtl"] button,
+html[dir="rtl"] input,
+html[dir="rtl"] textarea,
+html[dir="rtl"] select,
+html[dir="rtl"] optgroup,
+html[dir="rtl"] .app,
+html[dir="rtl"] .screen,
+html[dir="rtl"] .screen-host,
+html[dir="rtl"] .modal,
+html[dir="rtl"] .dialog,
+html[dir="rtl"] .toast,
+html[dir="rtl"] .tag,
+html[dir="rtl"] .badge,
+html[dir="rtl"] .chip,
+html[dir="rtl"] .station-pill-tag,
+html[dir="rtl"] .station-header-pill,
+html[dir="rtl"] .station-pill-title,
+html[dir="rtl"] .station-name,
+html[dir="rtl"] .me-band,
+html[dir="rtl"] .me-band__name,
+html[dir="rtl"] .me-band__sub,
+html[dir="rtl"] .me-band__edit,
+html[dir="rtl"] .me-stat,
+html[dir="rtl"] .me-stat strong,
+html[dir="rtl"] .me-stat span,
+html[dir="rtl"] .me-row,
+html[dir="rtl"] .me-row__lbl,
+html[dir="rtl"] .me-row__sub,
+html[dir="rtl"] .me-row__val,
+html[dir="rtl"] .me-opt,
+html[dir="rtl"] .me-h,
+html[dir="rtl"] .me-sub,
+html[dir="rtl"] .kan-streak-chip,
+html[dir="rtl"] .kan-level-chip,
+html[dir="rtl"] .kan-streak-badge,
+html[dir="rtl"] .kan-level-badge,
+html[dir="rtl"] .kan-level-card,
+html[dir="rtl"] .kan-level-card-name,
+html[dir="rtl"] .kan-level-tag-pro,
+html[dir="rtl"] .kan-level-tag-free,
+html[dir="rtl"] .kan-level-tag-unlocked,
+html[dir="rtl"] .lesson0-banner-box,
+html[dir="rtl"] .lesson0-banner-title,
+html[dir="rtl"] .lesson0-banner-desc,
+html[dir="rtl"] .lesson0-btn-start,
+html[dir="rtl"] .lesson0-btn-skip,
+html[dir="rtl"] .pro-paywall-modal,
+html[dir="rtl"] .pro-hero-title,
+html[dir="rtl"] .pro-hero-sub,
+html[dir="rtl"] .pro-plan-card,
+html[dir="rtl"] .pro-plan-name,
+html[dir="rtl"] .pro-plan-price,
+html[dir="rtl"] .pro-plan-sub,
+html[dir="rtl"] .pro-cta-btn,
+html[dir="rtl"] .tab,
+html[dir="rtl"] .tab__label,
+html[dir="rtl"] .tabbar,
+html[dir="rtl"] .practice-top-banner,
+html[dir="rtl"] .practice-banner-tag,
+html[dir="rtl"] .practice-banner-title,
+html[dir="rtl"] .practice-stage-card,
+html[dir="rtl"] .practice-stage-title,
+html[dir="rtl"] .practice-stage-sub,
+html[dir="rtl"] .u-subtasks-screen,
+html[dir="rtl"] .u-subtasks-tag,
+html[dir="rtl"] .u-subtasks-title,
+html[dir="rtl"] .u-subtask-item,
+html[dir="rtl"] .stage-status-badge,
+html[dir="rtl"] .u-py-toggle {
+  font-family: var(--f) !important;
+}
+
+/* رفع بازگشت به فونت سیستم در زیرنویس پروفایل (فقط روی این دستگاه) */
+html[dir="rtl"] .me-band__sub {
+  font-family: var(--f) !important;
+  font-size: 13px !important;
+  line-height: 1.55 !important;
+  letter-spacing: 0 !important;
+  opacity: 0.95 !important;
+}
+
+/* رفع بازگشت به فونت سیستم در تگ بازه درس‌ها (درس ۰ تا ۳) */
+html[dir="rtl"] .station-pill-tag {
+  font-family: var(--f) !important;
+  font-weight: 800 !important;
+  font-size: 11.5px !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0 !important;
+}
+
+/* ۲. اصلاح ارتفاع، لاین هایت و جلوگیری از برش خوردن متن هدر مراحل درس */
+html[dir="rtl"] .practice-top-banner {
+  position: absolute !important;
+  top: max(calc(var(--sat, 0px) + 12px), 44px) !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  background: rgba(255, 255, 255, 0.96) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-radius: 24px !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.92) !important;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.09) !important;
+  padding: 10px 22px !important;
+  min-height: 56px !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 100 !important;
+  white-space: nowrap !important;
+  overflow: visible !important;
+}
+
+html[dir="rtl"] .practice-banner-tag {
+  font-family: var(--f) !important;
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  color: #059669 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 2px 0 !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
+html[dir="rtl"] .practice-banner-title {
+  font-family: var(--f) !important;
+  font-size: 13.5px !important;
+  font-weight: 900 !important;
+  color: #0F172A !important;
+  letter-spacing: 0 !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
+/* ۳. فاصله‌گذاری، فضای تنفس و نیم‌فاصله در کلمات مانند «پین‌یین» و عناوین */
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4,
+html[dir="rtl"] h5,
+html[dir="rtl"] h6,
+html[dir="rtl"] .title,
+html[dir="rtl"] .subtitle,
+html[dir="rtl"] .banner-title,
+html[dir="rtl"] .me-h,
+html[dir="rtl"] .me-top__title,
+html[dir="rtl"] .station-pill-title,
+html[dir="rtl"] .practice-banner-title,
+html[dir="rtl"] .practice-banner-tag,
+html[dir="rtl"] .u-subtasks-hero-title,
+html[dir="rtl"] .u-subtasks-title,
+html[dir="rtl"] .u-py-toggle {
+  letter-spacing: 0 !important;
+  line-height: 1.55 !important;
+  word-spacing: normal !important;
+  font-feature-settings: "kern" 1 !important;
+}
+
+/* ۴. چیدمان ترکیبی فارسی (RTL)، حروف چینی (Hanzi) و پین‌یین (LTR) */
+html[dir="rtl"] .han,
+html[dir="rtl"] .bk__glyph,
+html[dir="rtl"] [lang="zh"],
+html[dir="rtl"] [data-lang="zh"],
+html[dir="rtl"] .cq-char b,
+html[dir="rtl"] .cq-word,
+html[dir="rtl"] .zh-prev__zh {
+  font-family: var(--f-han, "Noto Sans SC", sans-serif) !important;
+  direction: ltr !important;
+  unicode-bidi: isolate !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+html[dir="rtl"] .py,
+html[dir="rtl"] .cq-pinyin,
+html[dir="rtl"] .inline-py {
+  font-family: var(--f-latin, "Manrope", system-ui, sans-serif) !important;
+  direction: ltr !important;
+  unicode-bidi: isolate !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+html[dir="rtl"] .practice-stage-card,
+html[dir="rtl"] .u-subtask-item {
+  display: flex !important;
+  align-items: center !important;
+  direction: rtl !important;
+}
+
