@@ -147,28 +147,17 @@ a{color:var(--accent)}
 ::-webkit-scrollbar{width:0;height:0}
 .hide{display:none !important}
 
-/* ---------------------------------------------------------- device frame */
-.stage{min-height:100%;display:flex;align-items:center;justify-content:center;padding:24px}
-.device{position:relative;width:402px;height:874px;max-height:calc(100vh - 48px);
-  background:var(--bg);border-radius:44px;overflow:hidden;
-  box-shadow:0 0 0 11px #101714,0 0 0 13px #2b3733,0 26px 60px rgba(12,25,19,.36)}
-.device__notch{position:absolute;left:50%;top:9px;transform:translateX(-50%);width:112px;height:30px;
-  border-radius:99px;background:#101714;z-index:200;pointer-events:none}
+/* ---------------------------------------------------------- web & mobile responsive container */
+.stage{min-height:100%;height:100%;width:100%;display:flex;align-items:stretch;justify-content:center;padding:0;background:#F0F5F2}
+.device{position:relative;width:100%;max-width:620px;height:100%;max-height:100vh;
+  background:var(--bg);border-radius:0;overflow:hidden;
+  box-shadow:0 0 40px rgba(0,0,0,0.06);border-left:1px solid rgba(0,0,0,0.08);border-right:1px solid rgba(0,0,0,0.08)}
+.device__notch{display:none !important}
+
 @media (max-width:760px){
-  /* A definite height, not just min-height: a percentage height resolves
-     against the containing block's specified height, and min-height is not one.
-     .device{height:100%} against a min-height-only parent computes to auto,
-     and since .app inside it is absolutely positioned there is nothing in flow
-     to give it a size — the whole app measured 0 tall and the screen came up
-     empty. */
-  .stage{padding:0;height:100%}
-  /* height:100% follows html/body, which the Keyboard plugin shortens when a
-     keyboard opens; 100dvh does not, so the shell stayed full height and the
-     composer sat under the keys with nowhere to go. svh caps it rather than
-     dvh for the same reason youdao gives: dvh is briefly mismeasured while the
-     address bar animates, and the bottom of the app disappears. */
-  .device{width:100%;height:100%;max-height:100svh;border-radius:0;box-shadow:none}
-  .device__notch{display:none}
+  .stage{padding:0;height:100%;background:var(--bg)}
+  .device{position:absolute;inset:0;width:100%;max-width:100%;height:100%;max-height:100svh;border-radius:0;box-shadow:none;border:none}
+  .device__notch{display:none !important}
 }
 .app{position:absolute;inset:0;background:var(--bg);overflow:hidden;isolation:isolate}
 .screen-host{position:absolute;inset:0}

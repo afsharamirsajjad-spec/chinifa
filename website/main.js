@@ -147,12 +147,11 @@ document.addEventListener('DOMContentLoaded', function() {
   var gpText = document.querySelector('.gp-text b');
   var gpFill = document.querySelector('.gp-fill');
   var gPointsCount = {
-    '1': {cnt: '۳۲ مبحث کلیدی', pct: '100%'},
+    '1': {cnt: '۳۲ مبحث کلیدی پایه', pct: '100%'},
     '2': {cnt: '۴۸ مبحث سطح دوم', pct: '85%'},
     '3': {cnt: '۶۴ مبحث سطح متوسط', pct: '70%'},
-    '4': {cnt: '۸۲ مبحث تخصصی', pct: '55%'},
-    '5': {cnt: '۱۰۵ مبحث پیشرفته', pct: '40%'},
-    '6': {cnt: '۱۳۰ مبحث تسلط کامل', pct: '25%'}
+    '4': {cnt: '۸۲ مبحث سطح نیمه‌پیشرفته', pct: '55%'},
+    '5': {cnt: '۱۰۵ مبحث پیشرفته HSK 5', pct: '40%'}
   };
 
   hskTabs.forEach(function(tab) {

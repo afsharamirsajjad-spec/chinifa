@@ -4361,51 +4361,71 @@ html[data-accent="red"] .subtask-interactive-pod.is-current {
 
 
 
-/* ===== تضمین ۱۰۰٪ ابعاد تمام‌صفحه و رفع باگ اندازه صفر در رندر موبایل ===== */
-@media (max-width: 900px), (hover: none) and (pointer: coarse) {
-  html, body {
-    width: 100% !important;
-    height: 100% !important;
-    min-height: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow: hidden !important;
-  }
+/* ===== نسخه وب بدون قالب فیک گوشی و هماهنگ با ابعاد طبیعی موبایل و دسکتاپ ===== */
+html, body {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+.device__notch {
+  display: none !important;
+}
+.stage {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+  background: #F0F5F2 !important;
+}
+.device {
+  position: relative !important;
+  width: 100% !important;
+  max-width: 620px !important;
+  height: 100% !important;
+  max-height: 100vh !important;
+  border-radius: 0 !important;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.06) !important;
+  border-left: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-right: 1px solid rgba(0, 0, 0, 0.08) !important;
+  background: var(--bg) !important;
+  overflow: hidden !important;
+}
+.app {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+}
+.screen-host {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+}
+
+@media (max-width: 760px) {
   .stage {
-    width: 100% !important;
-    height: 100% !important;
-    min-height: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    display: block !important;
+    background: var(--bg) !important;
   }
   .device {
     position: absolute !important;
     inset: 0 !important;
     width: 100% !important;
-    height: 100% !important;
     max-width: 100% !important;
-    max-height: 100% !important;
-    border-radius: 0 !important;
+    height: 100% !important;
+    max-height: 100svh !important;
+    border: none !important;
     box-shadow: none !important;
-    overflow: hidden !important;
-  }
-  .device__notch {
-    display: none !important;
-  }
-  .app {
-    position: absolute !important;
-    inset: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    overflow: hidden !important;
-  }
-  .screen-host {
-    position: absolute !important;
-    inset: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    overflow: hidden !important;
+    border-radius: 0 !important;
   }
 }
 
