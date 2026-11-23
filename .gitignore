@@ -58,11 +58,25 @@ Thumbs.db
 .gemini/
 
 # Scratch and one-off test scripts in tools
-tools/test_*
-tools/trace_*
-tools/walk_*
+tools/*.py
+!tools/admin_server.py
+!tools/final_identity_apk.py
+!tools/rebuild_units.py
+!tools/unitslib.py
+tools/*.json
+!tools/admin/data/*.json
+tools/*.mp3
+tools/*.Inf
+tools/*.Sys
+tools/*.cat
+tools/*.bat
+tools/*.ico
+tools/*.html
+tools/*.js
+!tools/admin/**
+!tools/hsk_covers/**
 tools/*.txt
-tools/update_*
-tools/check_*
-tools/inspect_*
-tools/dump_*
+tools/*.al
+tools/*.signed
+tools/*.css
+tools/*.ps1

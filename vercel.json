@@ -1,0 +1,107 @@
+{
+  "version": 2,
+  "redirects": [
+    {
+      "source": "/Chinifa.apk",
+      "destination": "https://github.com/afsharamirsajjad-spec/chinifa/releases/download/v2.4.0/Chinifa.apk",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/app-version",
+      "destination": "/website/version.json"
+    },
+    {
+      "source": "/api/version",
+      "destination": "/website/version.json"
+    },
+    {
+      "source": "/version.json",
+      "destination": "/website/version.json"
+    },
+    {
+      "source": "/admin/fonts/vazir.woff2",
+      "destination": "/UI-code/css/fonts/Vazirmatn-Variable.woff2"
+    },
+    {
+      "source": "/app",
+      "destination": "/UI-code/index.html"
+    },
+    {
+      "source": "/app/",
+      "destination": "/UI-code/index.html"
+    },
+    {
+      "source": "/app/index.html",
+      "destination": "/UI-code/index.html"
+    },
+    {
+      "source": "/app/:path*",
+      "destination": "/UI-code/:path*"
+    },
+    {
+      "source": "/admin",
+      "destination": "/tools/admin/index.html"
+    },
+    {
+      "source": "/admin/",
+      "destination": "/tools/admin/index.html"
+    },
+    {
+      "source": "/admin/index.html",
+      "destination": "/tools/admin/index.html"
+    },
+    {
+      "source": "/admin/:path*",
+      "destination": "/tools/admin/:path*"
+    },
+    {
+      "source": "/tools/admin/:path*",
+      "destination": "/tools/admin/:path*"
+    },
+    {
+      "source": "/website",
+      "destination": "/website/index.html"
+    },
+    {
+      "source": "/website/",
+      "destination": "/website/index.html"
+    },
+    {
+      "source": "/website/:path*",
+      "destination": "/website/:path*"
+    },
+    {
+      "source": "/style.css",
+      "destination": "/website/style.css"
+    },
+    {
+      "source": "/main.js",
+      "destination": "/website/main.js"
+    },
+    {
+      "source": "/assets/:path*",
+      "destination": "/website/assets/:path*"
+    },
+    {
+      "source": "/",
+      "destination": "/website/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ]
+}
