@@ -147,11 +147,11 @@ document.addEventListener('DOMContentLoaded', function() {
   var gpText = document.querySelector('.gp-text b');
   var gpFill = document.querySelector('.gp-fill');
   var gPointsCount = {
-    '1': {cnt: '۳۲ مبحث کلیدی پایه', pct: '100%'},
-    '2': {cnt: '۴۸ مبحث سطح دوم', pct: '85%'},
-    '3': {cnt: '۶۴ مبحث سطح متوسط', pct: '70%'},
-    '4': {cnt: '۸۲ مبحث سطح نیمه‌پیشرفته', pct: '55%'},
-    '5': {cnt: '۱۰۵ مبحث پیشرفته HSK 5', pct: '40%'}
+    '1': {cnt: 'ایستگاه ۱: الفبا، تُن‌های صوتی و پین‌یین', pct: '20%'},
+    '2': {cnt: 'ایستگاه ۲: جملات اسمیه و فعل ربطی 是', pct: '40%'},
+    '3': {cnt: 'ایستگاه ۳: جملات سؤالی با 吗 و مالکیت 有', pct: '60%'},
+    '4': {cnt: 'ایستگاه ۴: افعال، زمان‌ها و تغییر حالت با 了', pct: '80%'},
+    '5': {cnt: 'ایستگاه ۵: تسلط جامع بر ۳۲ مبحث HSK 1', pct: '100%'}
   };
 
   hskTabs.forEach(function(tab) {

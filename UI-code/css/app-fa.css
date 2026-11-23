@@ -4361,7 +4361,7 @@ html[data-accent="red"] .subtask-interactive-pod.is-current {
 
 
 
-/* ===== نسخه وب بدون قالب فیک گوشی و هماهنگ با ابعاد طبیعی موبایل و دسکتاپ ===== */
+/* ===== نسخه تحت وب کاملاً تمام‌صفحه و واکنش‌گرا (بدون کادر یا ستون محدودکننده) ===== */
 html, body {
   width: 100% !important;
   height: 100% !important;
@@ -4369,31 +4369,34 @@ html, body {
   margin: 0 !important;
   padding: 0 !important;
   overflow: hidden !important;
+  background: var(--bg) !important;
 }
 .device__notch {
   display: none !important;
 }
 .stage {
+  position: fixed !important;
+  inset: 0 !important;
   width: 100% !important;
   height: 100% !important;
   min-height: 100% !important;
   padding: 0 !important;
   margin: 0 !important;
-  display: flex !important;
-  align-items: stretch !important;
-  justify-content: center !important;
-  background: #F0F5F2 !important;
+  display: block !important;
+  background: var(--bg) !important;
 }
 .device {
-  position: relative !important;
+  position: absolute !important;
+  inset: 0 !important;
   width: 100% !important;
-  max-width: 620px !important;
+  max-width: 100% !important;
   height: 100% !important;
-  max-height: 100vh !important;
+  max-height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
   border-radius: 0 !important;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.06) !important;
-  border-left: 1px solid rgba(0, 0, 0, 0.08) !important;
-  border-right: 1px solid rgba(0, 0, 0, 0.08) !important;
+  box-shadow: none !important;
   background: var(--bg) !important;
   overflow: hidden !important;
 }
@@ -4412,10 +4415,35 @@ html, body {
   overflow: hidden !important;
 }
 
-@media (max-width: 760px) {
-  .stage {
-    background: var(--bg) !important;
+/* بهینه‌سازی تناسب چیدمان کارت‌ها و ناوبری در مانیتورهای عریض وب */
+@media (min-width: 768px) {
+  .station-content-layer {
+    max-width: 760px !important;
+    margin: 0 auto !important;
   }
+  .kan-home-top-bar {
+    max-width: 760px !important;
+    margin: 0 auto !important;
+    border-radius: 0 0 18px 18px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+  }
+  .tabbar {
+    max-width: 600px !important;
+    margin: 0 auto !important;
+    left: 0 !important;
+    right: 0 !important;
+    border-radius: 24px 24px 0 0 !important;
+    box-shadow: 0 -4px 25px rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid rgba(226, 232, 240, 0.8) !important;
+    border-bottom: none !important;
+  }
+  .scr:not(.scr-home) {
+    max-width: 720px !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media (max-width: 767px) {
   .device {
     position: absolute !important;
     inset: 0 !important;
@@ -4425,6 +4453,10 @@ html, body {
     max-height: 100svh !important;
     border: none !important;
     box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+  .tabbar {
+    max-width: 100% !important;
     border-radius: 0 !important;
   }
 }
