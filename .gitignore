@@ -28,7 +28,11 @@ extracted/
 *.log
 
 # Debug Screenshots & Chrome Profiles & Tool Caches
-*.png
+/*.png
+!website/assets/**
+!UI-code/art/**
+!UI-code/icons/**
+!admin/assets/**
 temp_*
 vocab_full_dom.html
 ui-preview/
@@ -80,3 +84,5 @@ tools/*.al
 tools/*.signed
 tools/*.css
 tools/*.ps1
+tools/*.png
+UI-code/*.png

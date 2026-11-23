@@ -88,6 +88,18 @@
             </div>
           </a>
 
+          <a href="https://cafebazaar.ir/app/com.chinifa.app" target="_blank" class="btn btn-bazaar btn-cta-download" id="hero-bazaar-btn" title="دریافت و نصب مستقیم از کافه بازار">
+            <div class="btn-icon-wrap">
+              <svg viewBox="0 0 24 24" class="svg-icon-large" fill="currentColor">
+                <path d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm7 17H5V8h14v12zm-7-8c-1.66 0-3-1.34-3-3H7c0 2.76 2.24 5 5 5s5-2.24 5-5h-2c0 1.66-1.34 3-3 3z"/>
+              </svg>
+            </div>
+            <div class="btn-text-wrap">
+              <span class="btn-subtext">نصب آسان و مطمئن</span>
+              <span class="btn-maintext">دانلود از کافه بازار</span>
+            </div>
+          </a>
+
           <a href="../app/index.html" target="_blank" class="btn btn-secondary btn-cta-webapp" title="امتحان بدون نیاز به نصب در مرورگر">
             <svg viewBox="0 0 24 24" class="svg-icon"><polygon points="5 3 19 12 5 21 5 3"/></svg>
             <span>امتحان آنلاین نسخه وب (Web App)</span>
@@ -178,9 +190,9 @@
           </div>
 
           <!-- اژدهای نمادین شناور در کنار گوشی -->
-          <div class="floating-mascot-rig">
-            <img src="assets/mascot_dragon_body.png" alt="Dragon Mascot" class="dragon-body-img">
-            <img src="assets/mascot_dragon_arm.png" alt="Dragon Arm" class="dragon-arm-img">
+          <div class="floating-mascot-rig" aria-hidden="true">
+            <img src="assets/mascot_dragon_body.png" alt="" class="dragon-body-img" loading="eager" onerror="this.style.opacity='0'">
+            <img src="assets/mascot_dragon_arm.png" alt="" class="dragon-arm-img" loading="eager" onerror="this.style.opacity='0'">
           </div>
         </div>
       </div>
@@ -614,10 +626,16 @@
         </div>
       </div>
 
-      <div class="install-cta-box text-center">
+      <div class="install-cta-box text-center" style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
         <a href="../Chinifa.apk" download class="btn btn-primary btn-large">
           <svg viewBox="0 0 24 24" class="svg-icon"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
-          <span>دانلود مستقیم فایل نصبی (Chinifa.apk)</span>
+          <span>دانلود مستقیم فایل نصبی (APK)</span>
+        </a>
+        <a href="https://cafebazaar.ir/app/com.chinifa.app" target="_blank" class="btn btn-bazaar btn-large" id="install-bazaar-btn" title="دانلود و نصب از کافه بازار">
+          <svg viewBox="0 0 24 24" class="svg-icon" fill="currentColor">
+            <path d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm7 17H5V8h14v12zm-7-8c-1.66 0-3-1.34-3-3H7c0 2.76 2.24 5 5 5s5-2.24 5-5h-2c0 1.66-1.34 3-3 3z"/>
+          </svg>
+          <span>دانلود از کافه بازار</span>
         </a>
       </div>
     </div>
@@ -676,7 +694,8 @@
           <li><a href="#rewards">جوایز و استریک</a></li>
           <li><a href="#roadmap">نقشه راه ۱۵ درس</a></li>
           <li><a href="../app/index.html" target="_blank">اجرای نسخه تحت وب</a></li>
-          <li><a href="../Chinifa.apk" download>دانلود فایل APK</a></li>
+          <li><a href="../Chinifa.apk" download>دانلود مستقیم فایل APK</a></li>
+          <li><a href="https://cafebazaar.ir/app/com.chinifa.app" target="_blank">دانلود از کافه بازار</a></li>
         </ul>
       </div>
 
