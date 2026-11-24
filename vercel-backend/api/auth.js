@@ -327,6 +327,7 @@ module.exports = async (req, res) => {
         await sendResendOtpEmail(email, code);
       } catch (e) {}
 
+      const regProStatus = isUserPro(email);
       const userProfile = {
         id: userId,
         email: email,
@@ -336,12 +337,19 @@ module.exports = async (req, res) => {
         totalXp: 100,
         streak: 1,
         verified: false,
+        isPro: regProStatus,
+        pro: regProStatus,
       };
 
       return res.status(200).json({
         ok: true,
         message: "ثبت‌نام با موفقیت انجام شد. کد فعال‌سازی به ایمیل ارسال گردید.",
         token: token,
+        id: userId,
+        username: fullName,
+        email: email,
+        isPro: regProStatus,
+        pro: regProStatus,
         user: userProfile,
       });
     }
@@ -365,15 +373,24 @@ module.exports = async (req, res) => {
             password: password,
           });
           if (!authErr && authData && authData.user) {
+            const userEmail = (authData.user.email || email).toLowerCase();
+            const proStatus = isUserPro(userEmail);
             return res.status(200).json({
               ok: true,
               token: authData.session?.access_token,
+              id: authData.user.id,
+              username: authData.user.user_metadata?.full_name || userEmail.split("@")[0],
+              email: userEmail,
+              isPro: proStatus,
+              pro: proStatus,
               user: {
                 id: authData.user.id,
-                email: authData.user.email,
-                fullName: authData.user.user_metadata?.full_name || email.split("@")[0],
+                email: userEmail,
+                fullName: authData.user.user_metadata?.full_name || userEmail.split("@")[0],
                 hskLevel: "HSK 1",
                 verified: true,
+                isPro: proStatus,
+                pro: proStatus,
               },
             });
           }
@@ -384,18 +401,24 @@ module.exports = async (req, res) => {
       const userId = crypto.createHash("md5").update(email).digest("hex");
       const token = crypto.randomBytes(32).toString("hex");
 
+      const proStatus = isUserPro(email);
       return res.status(200).json({
         ok: true,
         message: "ورود موفقیت‌آمیز بود.",
         token: token,
+        id: userId,
+        username: email.split("@")[0],
+        email: email,
+        isPro: proStatus,
+        pro: proStatus,
         user: {
           id: userId,
           email: email,
           fullName: email.split("@")[0],
           hskLevel: "HSK 1",
           verified: true,
-          isPro: isUserPro(email),
-          pro: isUserPro(email),
+          isPro: proStatus,
+          pro: proStatus,
           streak: 1,
           totalXp: 150,
         },
