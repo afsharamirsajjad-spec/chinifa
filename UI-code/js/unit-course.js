@@ -15060,14 +15060,14 @@ resolvePy: function(str) {
         var mini = (sec.miniLessons && sec.miniLessons[runner.activeMiniIdx]) || {};
 
         var sheetHtml = '<button class="scrim" ' + act("unitCancelExit") + ' aria-label="ادامه تمرین"></button>' +
-          '<div class="sheet lv kan-leave-sheet" role="dialog" aria-label="ترک تمرین" style="text-align:center; padding: 26px 20px 22px; border-radius: 28px 28px 0 0; background: #ffffff; box-shadow: 0 -10px 40px rgba(0,0,0,0.18);">' +
+          '<div class="sheet lv kan-leave-sheet" role="dialog" aria-label="ترک تمرین" style="text-align:center; padding: 26px 20px max(44px, calc(env(safe-area-inset-bottom, 0px) + 36px)); border-radius: 28px 28px 0 0; background: #ffffff; box-shadow: 0 -10px 40px rgba(0,0,0,0.18);">' +
           '  <div class="sheet__grab" style="width:44px; height:5px; background:#cbd5e1; border-radius:3px; margin:0 auto 16px;"></div>' +
           '  <div style="font-size:38px; line-height:1; margin-bottom:12px;">👋</div>' +
           '  <h3 style="font-size:18.5px; font-weight:800; color:#0f172a; margin:0 0 8px; font-family:var(--f, inherit);">واقعاً می‌خواهی ترک کنی؟</h3>' +
           '  <p style="font-size:13.5px; color:#64748b; line-height:1.6; margin:0 0 20px; font-family:var(--f, inherit);">ادامه بده تا تمرین این بخش کامل بشه! فقط کمی دیگه مونده.</p>' +
-          '  <div style="display:flex; flex-direction:column; gap:10px; width:100%;">' +
+          '  <div style="display:flex; flex-direction:column; gap:12px; width:100%;">' +
           '    <button class="btn" ' + act("unitCancelExit") + ' style="background:#0FA968; color:#ffffff; font-weight:800; height:48px; border-radius:14px; font-size:15px; border:none; box-shadow:0 4px 14px rgba(15,169,104,0.35); cursor:pointer; width:100%;">ادامه تمرین</button>' +
-          '    <button class="btn" ' + act("unitConfirmExit") + ' style="background:transparent; color:#ef4444; font-weight:700; height:42px; border-radius:14px; font-size:14px; border:none; cursor:pointer; width:100%;">ترک تمرین</button>' +
+          '    <button class="btn" ' + act("unitConfirmExit") + ' style="background:transparent; color:#ef4444; font-weight:700; height:44px; border-radius:14px; font-size:14.5px; border:1px solid rgba(239,68,68,0.28); cursor:pointer; width:100%; margin-bottom:12px;">ترک تمرین</button>' +
           '  </div>' +
           '</div>';
         UI.layer(sheetHtml);
@@ -16263,12 +16263,8 @@ resolvePy: function(str) {
       if (runner.viewMode === "mini-path") {
         var sec = unit.sections[runner.activeSectionIdx];
         if (sec && (sec.id === "grammar" || (sec.miniLessons && sec.miniLessons.length === 1))) {
-          runner.viewMode = "exercise";
-          runner.activeMiniIdx = 0;
-          runner.activeExIdx = 0;
-          runner.feedbackState = null;
-          var mini = sec.miniLessons[0];
-          return UnitSystem.renderExercise(sec, runner.activeSectionIdx, mini, 0, 0);
+          runner.viewMode = "unit-path";
+          return UnitSystem.renderUnitPath(unit, prog);
         }
         return UnitSystem.renderMiniLessonPath(sec, runner.activeSectionIdx, prog);
       }
@@ -16605,8 +16601,15 @@ resolvePy: function(str) {
 
     unitExitExercise: function() {
       if (!UnitSystem.promptExitExercise()) {
-        UnitSystem.runner.viewMode = "mini-path";
-        UnitSystem.runner.feedbackState = null;
+        var runner = UnitSystem.runner;
+        var unit = (UnitSystem.UNITS && UnitSystem.UNITS[runner.unitKey]) || (UnitSystem.UNITS && UnitSystem.UNITS["hsk1:0"]) || {};
+        var sec = (unit.sections && unit.sections[runner.activeSectionIdx]) || {};
+        if (!sec.miniLessons || sec.miniLessons.length <= 1 || sec.id === "grammar") {
+          runner.viewMode = "unit-path";
+        } else {
+          runner.viewMode = "mini-path";
+        }
+        runner.feedbackState = null;
         if (window.Audio2 && Audio2.stop) Audio2.stop();
         if (window.App && App.rerender) App.rerender();
         else if (window.App && App.render) App.render();
@@ -16620,8 +16623,15 @@ resolvePy: function(str) {
     unitConfirmExit: function() {
       if (window.UI && UI.closeLayer) UI.closeLayer();
       if (window.Audio2 && Audio2.stop) Audio2.stop();
-      UnitSystem.runner.viewMode = "mini-path";
-      UnitSystem.runner.feedbackState = null;
+      var runner = UnitSystem.runner;
+      var unit = (UnitSystem.UNITS && UnitSystem.UNITS[runner.unitKey]) || (UnitSystem.UNITS && UnitSystem.UNITS["hsk1:0"]) || {};
+      var sec = (unit.sections && unit.sections[runner.activeSectionIdx]) || {};
+      if (!sec.miniLessons || sec.miniLessons.length <= 1 || sec.id === "grammar") {
+        runner.viewMode = "unit-path";
+      } else {
+        runner.viewMode = "mini-path";
+      }
+      runner.feedbackState = null;
       if (window.App && App.rerender) App.rerender();
       else if (window.App && App.render) App.render();
     },

@@ -834,10 +834,6 @@
           '<span>🔒</span>' +
           '<span>اتصال امن به درگاه پرداخت اینترنتی شاپرک / عضو شتاب</span>' +
         '</div>' +
-
-        '<button class="kan-pro-test-toggle" type="button">' +
-          (isProUser() ? '⚡ [ویژه تست]: اشتراک فعال است (کلیک برای غیرفعال‌سازی و قفل)' : '🛠️ [ویژه تست توسعه‌دهنده]: فعال‌سازی آزمایشی بدون پرداخت') +
-        '</button>' +
       '</div>';
 
     document.body.appendChild(modal);
@@ -863,39 +859,6 @@
         var planId = selectedBox ? selectedBox.getAttribute('data-plan') : 'annual';
         if (typeof w.kanGoToPaymentGateway === 'function') {
           w.kanGoToPaymentGateway(planId, targetLevel);
-        }
-        return;
-      }
-
-      // کلیک دکمه تست توسعه‌دهنده
-      var testBtn = e.target.closest('.kan-pro-test-toggle');
-      if (testBtn) {
-        var nowPro = isProUser();
-        var nextPro = !nowPro;
-
-        if (w.Pay && typeof w.Pay.setPro === 'function') {
-          w.Pay.setPro(nextPro);
-        } else {
-          try {
-            localStorage.setItem('chinifa_pro', nextPro ? 'true' : 'false');
-            if (w.Store && Store.set) Store.set({ isPro: nextPro });
-          } catch(err) {}
-        }
-
-        modal.remove();
-        w.renderEnhancedHome();
-
-        if (nextPro) {
-          if (targetLevel) {
-            w.kanSelectCourseLevel(targetLevel);
-          }
-          if (w.UI && UI.toast) {
-            UI.toast('اشتراک ویژه (تست توسعه‌دهنده) فعال شد! 👑 تمام دروس باز شدند.');
-          }
-        } else {
-          if (w.UI && UI.toast) {
-            UI.toast('اشتراک پرو غیرفعال شد (حالت قفل فعال است).');
-          }
         }
         return;
       }
