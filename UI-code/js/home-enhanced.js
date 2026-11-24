@@ -501,21 +501,21 @@
       h += '    <img src="' + station.bgImg + '" alt="' + station.title + '" class="station-full-bg-art" decoding="async">';
       h += '    <div class="station-content-layer">';
 
-      // پاپ‌آپ معرفی شهر در بالا
-      h += '      <div class="station-top-header-area">';
-      h += '        <div class="dragon-dialogue-bubble ' + (station.bubbleSide === 'left' ? 'bubble-left' : '') + '">';
-      h += '          <div class="speech-title">' + station.dragonQuote.title + '</div>';
-      h += '          <div class="speech-sub">' + station.dragonQuote.sub + '</div>';
-      h += '        </div>';
-      h += '      </div>';
-
-      // نوار عنوان ایستگاه
+      // نوار عنوان ایستگاه در بالاترین بخش (بدون هیچ‌گونه تداخل با اژدها)
       h += '      <div class="station-title-strip">';
       h += '        <div class="station-name">';
       h += '          <svg class="station-pin-svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>';
       h += '          <span>' + station.title + '</span>';
       h += '        </div>';
       h += '        <span class="station-pill-tag">' + station.badge + '</span>';
+      h += '      </div>';
+
+      // پاپ‌آپ معرفی شهر و حباب پیام اژدها
+      h += '      <div class="station-top-header-area">';
+      h += '        <div class="dragon-dialogue-bubble ' + (station.bubbleSide === 'left' ? 'bubble-left' : '') + '">';
+      h += '          <div class="speech-title">' + station.dragonQuote.title + '</div>';
+      h += '          <div class="speech-sub">' + station.dragonQuote.sub + '</div>';
+      h += '        </div>';
       h += '      </div>';
 
       // جریان درس‌ها

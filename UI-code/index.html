@@ -26,10 +26,10 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preload" href="css/fonts/NotoSansSC-chinifa.woff2" as="font" type="font/woff2" crossorigin>
 <script>try{var _st=JSON.parse(localStorage.getItem('chinifa.v1')||'{}');if(_st.accent)document.documentElement.setAttribute('data-accent',_st.accent);}catch(e){}</script>
-<link rel="stylesheet" href="css/app.css?v=31">
-<link rel="stylesheet" href="css/app-fa.css?v=36">
-<link rel="stylesheet" href="css/home-enhanced.css?v=6">
-<link rel="stylesheet" href="css/subtasks-enhanced.css?v=2">
+<link rel="stylesheet" href="css/app.css?v=38">
+<link rel="stylesheet" href="css/app-fa.css?v=42">
+<link rel="stylesheet" href="css/home-enhanced.css?v=14">
+<link rel="stylesheet" href="css/subtasks-enhanced.css?v=4">
 <link rel="stylesheet" href="css/library.css">
 <style id="chinifa-splash-critical-css">
 #chinifa-splash {
@@ -118,7 +118,7 @@
           var s = document.getElementById('chinifa-splash');
           if (!s) return;
           var dismissed = false;
-          var minDuration = 2400; // نمایش پایدار و دلنشین اسپلش برای حداقل ۲.۴ ثانیه
+          var minDuration = 200; // لود آنی و پرسرعت برای وب‌اپلیکیشن
           var startTime = Date.now();
 
           window.__dismissSplash = function(force) {
@@ -138,29 +138,22 @@
                   if (s.parentNode) s.parentNode.removeChild(s);
                 }
               } catch(e) {}
-            }, 360);
+            }, 200);
           };
 
           // لمس یا کلیک فوری برای عبور کاربر در صورت تمایل
           s.addEventListener('click', function() { window.__dismissSplash(true); });
           s.addEventListener('touchstart', function() { window.__dismissSplash(true); }, { passive: true });
 
-          // پخش افکت صوتی صعود و درخشش اژدهای چی‌نی‌فا
-          try {
-            var snd = new Audio('art/sfx/gold-shine.mp3');
-            snd.volume = 0.45;
-            snd.play().catch(function() {});
-          } catch(e) {}
-
-          // بستن خودکار اسپلش پس از سپری شدن زمان کافی
+          // بستن خودکار اسپلش پس از سپری شدن زمان آماده‌سازی
           setTimeout(function() {
             window.__dismissSplash(false);
           }, minDuration);
 
-          // گارد ایمنی نهایی در صورت هرگونه کندی دستگاه
+          // گارد ایمنی نهایی در صورت هرگونه تاخیر مرورگر
           setTimeout(function() {
             window.__dismissSplash(true);
-          }, 6000);
+          }, 2000);
         })();
       </script>
       <div class="device__notch" aria-hidden="true"></div>
@@ -249,12 +242,12 @@
   <script src="js/measure.js"></script>
   <script src="js/numbers.js"></script>
   <script src="js/unit-course.js?v=37"></script>
-  <script src="js/hsk2-units.js?v=1"></script>
-  <script src="js/hsk3-units.js?v=1"></script>
-  <script src="js/hsk4-units.js?v=1"></script>
-  <script src="js/hsk5-units.js?v=1"></script>
-  <script src="js/app.js?v=29"></script>
-  <script src="js/home-enhanced.js?v=11"></script>
-  <script src="js/subtasks-enhanced.js?v=3"></script>
+  <script src="js/hsk2-units.js?v=2" defer></script>
+  <script src="js/hsk3-units.js?v=2" defer></script>
+  <script src="js/hsk4-units.js?v=2" defer></script>
+  <script src="js/hsk5-units.js?v=2" defer></script>
+  <script src="js/app.js?v=32"></script>
+  <script src="js/home-enhanced.js?v=14"></script>
+  <script src="js/subtasks-enhanced.js?v=4"></script>
 </body>
 </html>
