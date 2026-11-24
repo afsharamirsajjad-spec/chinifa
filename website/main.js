@@ -267,4 +267,409 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  // ۱۰. سیستم احراز هویت واقعی و اعتبارسنجی ایمیل با Resend
+  initAuthSystem();
+
+  function initAuthSystem() {
+    var authModal = document.getElementById('auth-modal');
+    var btnOpenAuth = document.getElementById('btn-open-auth');
+    var mobileAuthLink = document.getElementById('mobile-auth-link');
+    var btnCloseAuth = document.getElementById('auth-modal-close');
+    var userChipMenu = document.getElementById('user-chip-menu');
+    var userChipBtn = document.getElementById('user-chip-btn');
+    var userDropdownCard = document.getElementById('user-dropdown-card');
+    var btnLogout = document.getElementById('btn-logout');
+
+    var formOtpRequest = document.getElementById('form-otp-request');
+    var formOtpVerify = document.getElementById('form-otp-verify');
+    var formPasswordLogin = document.getElementById('form-password-login');
+    var formRegister = document.getElementById('form-register');
+    var authAlert = document.getElementById('auth-alert');
+
+    var currentOtpEmail = '';
+    var otpTimer = null;
+
+    // بارگذاری اولیه وضعیت جلسه
+    updateAuthUI();
+
+    function getSavedUser() {
+      try {
+        var str = localStorage.getItem('chinifa_auth_user');
+        return str ? JSON.parse(str) : null;
+      } catch(e) { return null; }
+    }
+
+    function updateAuthUI() {
+      var user = getSavedUser();
+      if (user && user.email) {
+        if (btnOpenAuth) btnOpenAuth.hidden = true;
+        if (userChipMenu) userChipMenu.hidden = false;
+        
+        var name = user.fullName || user.email.split('@')[0];
+        var initial = name.charAt(0).toUpperCase() || '龙';
+        
+        var chipName = document.getElementById('user-chip-name');
+        var chipAvatar = document.getElementById('user-chip-avatar');
+        var dropName = document.getElementById('dropdown-name');
+        var dropEmail = document.getElementById('dropdown-email');
+        
+        if (chipName) chipName.textContent = name;
+        if (chipAvatar) chipAvatar.textContent = initial;
+        if (dropName) dropName.textContent = name;
+        if (dropEmail) dropEmail.textContent = user.email;
+        if (mobileAuthLink) mobileAuthLink.textContent = '👤 ' + name;
+      } else {
+        if (btnOpenAuth) btnOpenAuth.hidden = false;
+        if (userChipMenu) userChipMenu.hidden = true;
+        if (mobileAuthLink) mobileAuthLink.textContent = '👤 ورود / عضویت';
+      }
+    }
+
+    function showAlert(text, type) {
+      if (!authAlert) return;
+      authAlert.hidden = false;
+      authAlert.className = 'auth-alert is-' + (type || 'error');
+      authAlert.innerHTML = text;
+    }
+
+    function hideAlert() {
+      if (authAlert) authAlert.hidden = true;
+    }
+
+    function openModal() {
+      if (!authModal) return;
+      authModal.hidden = false;
+      hideAlert();
+      if (formOtpRequest) formOtpRequest.hidden = false;
+      if (formOtpVerify) formOtpVerify.hidden = true;
+    }
+
+    function closeModal() {
+      if (!authModal) return;
+      authModal.hidden = true;
+      hideAlert();
+      if (otpTimer) clearInterval(otpTimer);
+    }
+
+    if (btnOpenAuth) btnOpenAuth.addEventListener('click', openModal);
+    if (mobileAuthLink) {
+      mobileAuthLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        openModal();
+      });
+    }
+    if (btnCloseAuth) btnCloseAuth.addEventListener('click', closeModal);
+    if (authModal) {
+      authModal.addEventListener('click', function(e) {
+        if (e.target === authModal) closeModal();
+      });
+    }
+
+    // منوی دراپ‌داون پروفایل
+    if (userChipBtn && userDropdownCard) {
+      userChipBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        userDropdownCard.hidden = !userDropdownCard.hidden;
+      });
+
+      document.addEventListener('click', function(e) {
+        if (userChipMenu && !userChipMenu.contains(e.target)) {
+          userDropdownCard.hidden = true;
+        }
+      });
+    }
+
+    // خروج از حساب
+    if (btnLogout) {
+      btnLogout.addEventListener('click', function() {
+        localStorage.removeItem('chinifa_auth_user');
+        localStorage.removeItem('chinifa_auth_token');
+        try {
+          var chinState = JSON.parse(localStorage.getItem('cheh-chin-state') || '{}');
+          chinState.signedIn = false;
+          chinState.username = '';
+          localStorage.setItem('cheh-chin-state', JSON.stringify(chinState));
+        } catch(e) {}
+        updateAuthUI();
+        if (userDropdownCard) userDropdownCard.hidden = true;
+        fetch('/api/auth?action=logout', { method: 'POST' }).catch(function(){});
+      });
+    }
+
+    // جابجایی بین تب‌ها
+    var tabBtns = authModal ? authModal.querySelectorAll('.auth-tab-btn') : [];
+    tabBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var targetTab = btn.getAttribute('data-tab');
+        tabBtns.forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+
+        var contents = authModal.querySelectorAll('.auth-tab-content');
+        contents.forEach(function(c) { c.classList.remove('active'); });
+        var targetContent = document.getElementById('tab-' + targetTab);
+        if (targetContent) targetContent.classList.add('active');
+        hideAlert();
+      });
+    });
+
+    // ۱. ارسال کد تایید با Resend
+    if (formOtpRequest) {
+      formOtpRequest.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailInput = document.getElementById('otp-email');
+        var email = emailInput ? emailInput.value.trim().toLowerCase() : '';
+        if (!email) return;
+
+        var submitBtn = document.getElementById('btn-send-otp');
+        var origText = submitBtn ? submitBtn.innerHTML : '';
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.innerHTML = '<span>در حال ارسال با Resend...</span>';
+        }
+        hideAlert();
+
+        try {
+          var res = await fetch('/api/auth?action=send-otp', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email })
+          });
+          var data = await res.json();
+
+          if (!res.ok) {
+            throw new Error(data.message || 'خطا در ارسال کد تایید');
+          }
+
+          currentOtpEmail = email;
+          formOtpRequest.hidden = true;
+          if (formOtpVerify) formOtpVerify.hidden = false;
+
+          var sentEmailEl = document.getElementById('sent-email-display');
+          if (sentEmailEl) sentEmailEl.textContent = email;
+
+          startCountdown(120);
+
+          if (data.devMode && data.code) {
+            showAlert('حالت تستی فعال است: کد تایید شما <strong>' + data.code + '</strong> است (برای ارسال ایمیل واقعی، متغیر RESEND_API_KEY در ورسل تنظیم شود).', 'info');
+          } else {
+            showAlert('کد تایید ۶ رقمی به ایمیلتان ارسال گردید. لطفاً اینباکس یا اسپم را مشاهده کنید.', 'success');
+          }
+
+          var codeInput = document.getElementById('otp-code');
+          if (codeInput) {
+            codeInput.value = '';
+            codeInput.focus();
+          }
+        } catch (err) {
+          showAlert(err.message, 'error');
+        } finally {
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = origText;
+          }
+        }
+      });
+    }
+
+    // ویرایش ایمیل در مرحله دوم
+    var btnChangeEmail = document.getElementById('btn-change-email');
+    if (btnChangeEmail) {
+      btnChangeEmail.addEventListener('click', function() {
+        if (formOtpVerify) formOtpVerify.hidden = true;
+        if (formOtpRequest) formOtpRequest.hidden = false;
+        if (otpTimer) clearInterval(otpTimer);
+        hideAlert();
+      });
+    }
+
+    // ارسال مجدد کد
+    var btnResendOtp = document.getElementById('btn-resend-otp');
+    if (btnResendOtp) {
+      btnResendOtp.addEventListener('click', function() {
+        if (!currentOtpEmail) return;
+        btnResendOtp.disabled = true;
+        fetch('/api/auth?action=send-otp', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: currentOtpEmail })
+        }).then(function(r) { return r.json(); }).then(function(d) {
+          if (d.ok) {
+            startCountdown(120);
+            showAlert('کد تایید مجدداً ارسال گردید.', 'success');
+            if (d.devMode && d.code) {
+              showAlert('کد تایید جدید: <strong>' + d.code + '</strong>', 'info');
+            }
+          } else {
+            showAlert(d.message || 'خطا در ارسال مجدد', 'error');
+          }
+        }).catch(function(err) {
+          showAlert(err.message, 'error');
+        });
+      });
+    }
+
+    function startCountdown(seconds) {
+      if (otpTimer) clearInterval(otpTimer);
+      var countdownEl = document.getElementById('otp-countdown');
+      var resendBtn = document.getElementById('btn-resend-otp');
+      if (resendBtn) resendBtn.disabled = true;
+
+      var remaining = seconds;
+      function tick() {
+        var m = Math.floor(remaining / 60);
+        var s = remaining % 60;
+        if (countdownEl) {
+          countdownEl.textContent = (m < 10 ? '۰' + m : m) + ':' + (s < 10 ? '۰' + s : s);
+        }
+        if (remaining <= 0) {
+          clearInterval(otpTimer);
+          if (resendBtn) resendBtn.disabled = false;
+          if (countdownEl) countdownEl.textContent = 'منقضی شد';
+        }
+        remaining--;
+      }
+      tick();
+      otpTimer = setInterval(tick, 1000);
+    }
+
+    // ۲. تایید کد ۶ رقمی
+    if (formOtpVerify) {
+      formOtpVerify.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var codeInput = document.getElementById('otp-code');
+        var code = codeInput ? codeInput.value.trim() : '';
+        if (!code || code.length !== 6) {
+          showAlert('لطفاً کد ۶ رقمی دریافتی را کامل وارد کنید.', 'error');
+          return;
+        }
+
+        var verifyBtn = document.getElementById('btn-verify-otp');
+        var origText = verifyBtn ? verifyBtn.innerHTML : '';
+        if (verifyBtn) {
+          verifyBtn.disabled = true;
+          verifyBtn.innerHTML = '<span>در حال بررسی...</span>';
+        }
+        hideAlert();
+
+        try {
+          var res = await fetch('/api/auth?action=verify-otp', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: currentOtpEmail, code: code })
+          });
+          var data = await res.json();
+
+          if (!res.ok) {
+            throw new Error(data.message || 'کد وارد شده صحیح نیست.');
+          }
+
+          onAuthSuccess(data);
+        } catch (err) {
+          showAlert(err.message, 'error');
+        } finally {
+          if (verifyBtn) {
+            verifyBtn.disabled = false;
+            verifyBtn.innerHTML = origText;
+          }
+        }
+      });
+    }
+
+    // ۳. ورود با رمز عبور
+    if (formPasswordLogin) {
+      formPasswordLogin.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var email = document.getElementById('login-email').value.trim();
+        var pass = document.getElementById('login-pass').value;
+
+        var btn = document.getElementById('btn-login-pass');
+        var origText = btn ? btn.innerHTML : '';
+        if (btn) { btn.disabled = true; btn.innerHTML = '<span>در حال ورود...</span>'; }
+        hideAlert();
+
+        try {
+          var res = await fetch('/api/auth?action=login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, password: pass })
+          });
+          var data = await res.json();
+          if (!res.ok) throw new Error(data.message || 'ایمیل یا رمز عبور اشتباه است.');
+
+          onAuthSuccess(data);
+        } catch (err) {
+          showAlert(err.message, 'error');
+        } finally {
+          if (btn) { btn.disabled = false; btn.innerHTML = origText; }
+        }
+      });
+    }
+
+    // ۴. ثبت‌نام جدید
+    if (formRegister) {
+      formRegister.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var name = document.getElementById('reg-name').value.trim();
+        var email = document.getElementById('reg-email').value.trim().toLowerCase();
+        var pass = document.getElementById('reg-pass').value;
+
+        var btn = document.getElementById('btn-submit-reg');
+        var origText = btn ? btn.innerHTML : '';
+        if (btn) { btn.disabled = true; btn.innerHTML = '<span>در حال ثبت‌نام...</span>'; }
+        hideAlert();
+
+        try {
+          var res = await fetch('/api/auth?action=register', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ name: name, email: email, password: pass })
+          });
+          var data = await res.json();
+          if (!res.ok) throw new Error(data.message || 'خطا در ثبت‌نام.');
+
+          currentOtpEmail = email;
+          var tabOtpBtn = authModal.querySelector('[data-tab="otp"]');
+          if (tabOtpBtn) tabOtpBtn.click();
+          if (formOtpRequest) formOtpRequest.hidden = true;
+          if (formOtpVerify) formOtpVerify.hidden = false;
+
+          var sentEmailEl = document.getElementById('sent-email-display');
+          if (sentEmailEl) sentEmailEl.textContent = email;
+          startCountdown(120);
+
+          showAlert('ثبت‌نام انجام شد! کد تایید ۶ رقمی به ایمیل ارسال گردید.', 'success');
+        } catch (err) {
+          showAlert(err.message, 'error');
+        } finally {
+          if (btn) { btn.disabled = false; btn.innerHTML = origText; }
+        }
+      });
+    }
+
+    function onAuthSuccess(data) {
+      showAlert('خوش آمدید! ورود با موفقیت انجام شد 🌸', 'success');
+      try {
+        if (data.token) localStorage.setItem('chinifa_auth_token', data.token);
+        if (data.user) {
+          localStorage.setItem('chinifa_auth_user', JSON.stringify(data.user));
+          
+          var chinState = JSON.parse(localStorage.getItem('cheh-chin-state') || '{}');
+          chinState.signedIn = true;
+          chinState.username = data.user.fullName || data.user.email;
+          chinState.email = data.user.email;
+          chinState.accountId = data.user.id;
+          localStorage.setItem('cheh-chin-state', JSON.stringify(chinState));
+
+          var v1State = JSON.parse(localStorage.getItem('chinifa.v1') || '{}');
+          v1State.userName = data.user.fullName;
+          v1State.userEmail = data.user.email;
+          localStorage.setItem('chinifa.v1', JSON.stringify(v1State));
+        }
+      } catch(e) {}
+
+      updateAuthUI();
+      setTimeout(closeModal, 1200);
+    }
+  }
+
 });

@@ -4519,7 +4519,23 @@ html, body {
   }
   .station-title-strip {
     max-width: 860px !important;
-    margin: 16px auto 10px !important;
+    margin: 14px auto 10px !important;
+    position: relative !important;
+    z-index: 25 !important;
+  }
+  .station-top-header-area {
+    max-width: 860px !important;
+    margin: 0 auto !important;
+    height: 220px !important;
+  }
+  .dragon-dialogue-bubble {
+    top: 10px !important;
+    right: 24px !important;
+    max-width: 360px !important;
+  }
+  .bubble-left {
+    right: auto !important;
+    left: 24px !important;
   }
   .station-nodes-flow {
     max-width: 720px !important;

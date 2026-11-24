@@ -126,7 +126,8 @@
 .station-top-header-area {
   position: relative;
   width: 100%;
-  height: 260px;
+  height: clamp(170px, 24vw, 220px);
+  min-height: 160px;
 }
 
 /* پاپ‌آپ معرفی شهرها (در بالا با فاصله تنفس عالی و بدون تداخل با اژدها) */

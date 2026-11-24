@@ -36,9 +36,45 @@
         <a href="#roadmap" class="nav-link">نقشه راه ۱۵ درس</a>
         <a href="#install" class="nav-link">راهنمای نصب</a>
         <a href="#faq" class="nav-link">سوالات متداول</a>
+        <a href="#auth" class="nav-link nav-link-mobile-auth" id="mobile-auth-link">👤 ورود / عضویت</a>
       </nav>
 
       <div class="header-actions">
+        <!-- دکمه ورود / وضعیت کاربری -->
+        <div class="auth-header-wrap" id="auth-header-wrap">
+          <button class="btn btn-outline btn-header-auth" id="btn-open-auth">
+            <svg viewBox="0 0 24 24" class="svg-icon" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <span>ورود / عضویت</span>
+          </button>
+          
+          <div class="user-chip-menu" id="user-chip-menu" hidden>
+            <button class="user-chip-btn" id="user-chip-btn" aria-expanded="false">
+              <span class="user-chip-avatar" id="user-chip-avatar">龙</span>
+              <span class="user-chip-name" id="user-chip-name">حساب کاربری</span>
+              <svg viewBox="0 0 24 24" class="chevron-mini" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg>
+            </button>
+            <div class="user-dropdown-card" id="user-dropdown-card" hidden>
+              <div class="dropdown-header">
+                <div class="dropdown-name" id="dropdown-name">کاربر چی‌نی‌فا</div>
+                <div class="dropdown-email" id="dropdown-email">user@example.com</div>
+                <div class="dropdown-badge">
+                  <span class="badge-dot-green"></span>
+                  <span id="dropdown-level">سطح HSK 1 · حساب تایید شده</span>
+                </div>
+              </div>
+              <div class="dropdown-divider"></div>
+              <a href="../app/index.html" target="_blank" class="dropdown-item">
+                <svg viewBox="0 0 24 24" class="svg-icon"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                <span>ورود به وب‌اپلیکیشن (با این حساب)</span>
+              </a>
+              <button class="dropdown-item dropdown-logout-btn" id="btn-logout">
+                <svg viewBox="0 0 24 24" class="svg-icon"><path d="M16 17l5-5-5-5M21 12H9M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/></svg>
+                <span>خروج از حساب</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
         <a href="../app/index.html" target="_blank" class="btn btn-outline btn-header-app" title="امتحان آنلاین در مرورگر">
           <svg viewBox="0 0 24 24" class="svg-icon"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
           <span>نسخه تحت وب</span>
@@ -713,6 +749,130 @@
       <p>© ۲۰۲۶ تمامی حقوق برای سامانه آموزشی chinifa محفوظ است.</p>
     </div>
   </footer>
+
+  <!-- مودال ورود و ثبت‌نام با اعتبارسنجی ایمیل Resend -->
+  <div class="auth-modal-backdrop" id="auth-modal" hidden>
+    <div class="auth-modal-card">
+      <button class="auth-modal-close" id="auth-modal-close" aria-label="بستن">✕</button>
+      
+      <div class="auth-header text-center">
+        <div class="auth-logo-seal han">龙</div>
+        <h3 class="auth-title">ورود به چی‌نی‌فا</h3>
+        <p class="auth-subtitle">آموزش زبان چینی و ذخیره هوشمند پیشرفت</p>
+      </div>
+
+      <!-- تب‌های ورود و ثبت‌نام -->
+      <div class="auth-tabs-nav" role="tablist">
+        <button class="auth-tab-btn active" data-tab="otp">کد یکبارمصرف ایمیل</button>
+        <button class="auth-tab-btn" data-tab="password">کلمه عبور</button>
+        <button class="auth-tab-btn" data-tab="register">ثبت‌نام جدید</button>
+      </div>
+
+      <!-- تب ۱: کد تایید ایمیل (Resend OTP) -->
+      <div class="auth-tab-content active" id="tab-otp">
+        <!-- مرحله ۱: درخواست کد -->
+        <form id="form-otp-request" class="auth-form">
+          <div class="form-group">
+            <label for="otp-email" class="form-label">آدرس ایمیل</label>
+            <div class="input-wrap">
+              <input type="email" id="otp-email" class="form-input" placeholder="name@example.com" required dir="ltr">
+              <span class="input-icon">✉️</span>
+            </div>
+            <span class="form-hint">کد تایید ۶ رقمی به این آدرس ایمیل ارسال خواهد شد.</span>
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-block btn-auth-submit" id="btn-send-otp">
+            <span>ارسال کد تایید به ایمیل</span>
+            <svg viewBox="0 0 24 24" class="svg-icon"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </form>
+
+        <!-- مرحله ۲: ورود کد ۶ رقمی -->
+        <form id="form-otp-verify" class="auth-form" hidden>
+          <div class="otp-sent-banner">
+            <span>کد تایید ۶ رقمی به</span>
+            <strong id="sent-email-display" dir="ltr"></strong>
+            <span>ارسال شد.</span>
+            <button type="button" class="btn-link" id="btn-change-email">ویرایش ایمیل</button>
+          </div>
+
+          <div class="form-group">
+            <label for="otp-code" class="form-label">کد ۶ رقمی دریافتی</label>
+            <div class="otp-input-wrap">
+              <input type="text" id="otp-code" class="form-input otp-code-input" placeholder="• • • • • •" maxlength="6" pattern="[0-9]{6}" required dir="ltr" autocomplete="one-time-code">
+            </div>
+            <div class="otp-timer-row">
+              <span id="otp-timer-text">زمان اعتبار کد: <span id="otp-countdown">۰۲:۰۰</span></span>
+              <button type="button" class="btn-link" id="btn-resend-otp" disabled>ارسال مجدد کد</button>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block btn-auth-submit" id="btn-verify-otp">
+            <span>تایید و ورود به حساب</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- تب ۲: ورود با کلمه عبور -->
+      <div class="auth-tab-content" id="tab-password">
+        <form id="form-password-login" class="auth-form">
+          <div class="form-group">
+            <label for="login-email" class="form-label">ایمیل یا نام کاربری</label>
+            <div class="input-wrap">
+              <input type="text" id="login-email" class="form-input" placeholder="name@example.com" required dir="ltr">
+              <span class="input-icon">👤</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="label-with-action">
+              <label for="login-pass" class="form-label">کلمه عبور</label>
+              <button type="button" class="btn-link" id="btn-forgot-pass">فراموشی رمز؟</button>
+            </div>
+            <div class="input-wrap">
+              <input type="password" id="login-pass" class="form-input" placeholder="••••••••" required dir="ltr">
+              <span class="input-icon">🔒</span>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block btn-auth-submit" id="btn-login-pass">
+            <span>ورود به حساب کاربری</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- تب ۳: ثبت‌نام حساب جدید -->
+      <div class="auth-tab-content" id="tab-register">
+        <form id="form-register" class="auth-form">
+          <div class="form-group">
+            <label for="reg-name" class="form-label">نام و نام خانوادگی (اختیاری)</label>
+            <div class="input-wrap">
+              <input type="text" id="reg-name" class="form-input" placeholder="مثلاً: سارا احمدی">
+              <span class="input-icon">✨</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="reg-email" class="form-label">آدرس ایمیل</label>
+            <div class="input-wrap">
+              <input type="email" id="reg-email" class="form-input" placeholder="name@example.com" required dir="ltr">
+              <span class="input-icon">✉️</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="reg-pass" class="form-label">کلمه عبور (حداقل ۶ نویسه)</label>
+            <div class="input-wrap">
+              <input type="password" id="reg-pass" class="form-input" placeholder="••••••••" minlength="6" required dir="ltr">
+              <span class="input-icon">🔒</span>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block btn-auth-submit" id="btn-submit-reg">
+            <span>ثبت‌نام و ارسال کد تایید ایمیل</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- باکس بازخورد وضعیت / خطا -->
+      <div class="auth-alert" id="auth-alert" hidden></div>
+    </div>
+  </div>
 
   <!-- مودال اسکن بارکد QR -->
   <div class="qr-modal-backdrop" id="qr-modal" hidden>

@@ -9,6 +9,18 @@
   ],
   "rewrites": [
     {
+      "source": "/api/auth",
+      "destination": "/api/auth.js"
+    },
+    {
+      "source": "/api/login",
+      "destination": "/api/auth.js?action=login"
+    },
+    {
+      "source": "/api/register",
+      "destination": "/api/auth.js?action=register"
+    },
+    {
       "source": "/api/app-version",
       "destination": "/website/version.json"
     },
@@ -19,6 +31,30 @@
     {
       "source": "/version.json",
       "destination": "/website/version.json"
+    },
+    {
+      "source": "/api/media-proxy",
+      "destination": "/api/media-proxy.js"
+    },
+    {
+      "source": "/media-proxy/:path*",
+      "destination": "https://media.kanchinese.app/:path*"
+    },
+    {
+      "source": "/game/:path*",
+      "destination": "/UI-code/game/:path*"
+    },
+    {
+      "source": "/app/game/:path*",
+      "destination": "/UI-code/game/:path*"
+    },
+    {
+      "source": "/stack/:path*",
+      "destination": "https://kanchinese.app/stack/:path*"
+    },
+    {
+      "source": "/app/stack/:path*",
+      "destination": "https://kanchinese.app/stack/:path*"
     },
     {
       "source": "/admin/fonts/vazir.woff2",
@@ -83,6 +119,10 @@
     {
       "source": "/assets/:path*",
       "destination": "/website/assets/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "/api/:path*"
     },
     {
       "source": "/",

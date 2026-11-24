@@ -1,0 +1,10 @@
+{
+  "name": "chinifa",
+  "version": "2.4.0",
+  "private": true,
+  "description": "پلتفرم جامع آموزش زبان چینی چی‌نی‌فا",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.109.0",
+    "pg": "^8.23.1"
+  }
+}

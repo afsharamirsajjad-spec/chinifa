@@ -401,35 +401,43 @@
     function isProUser() {
     try {
       if (localStorage.getItem('chinifa_pro') === 'true') return true;
+      var authUser = localStorage.getItem('chinifa_auth_user');
+      if (authUser) {
+        var u = JSON.parse(authUser);
+        if (u && (u.isPro || u.pro)) return true;
+      }
+      if (window.Store && Store.state) {
+        if (Store.state.isPro || Store.state.pro) return true;
+        if (Store.state.user && (Store.state.user.isPro || Store.state.user.pro)) return true;
+      }
+      if (window.Sync && Sync.state && (Sync.state.isPro || Sync.state.pro)) return true;
       if (window.Pay && typeof window.Pay.isPro === 'function') return window.Pay.isPro();
-      if (window.Store && Store.state && Store.state.isPro) return true;
     } catch(e) {}
     return false;
   }
 
   function isCourseLocked(courseId) {
-    if (courseId === 'hsk1' || !courseId) return false;
-    if (courseId === 'hsk2' || courseId === 'hsk3' || courseId === 'hsk4' || courseId === 'hsk5') return !isProUser();
-    return !isProUser();
+    // ناوبری و جابجایی بین تمام دوره‌ها برای همه باز است
+    return false;
   }
 
   // توابع اعتبارسنجی باز بودن و تکمیل دروس
   function isLessonUnlocked(lessonIdx) {
     var curCourse = getCurrentCourse();
-    if (isCourseLocked(curCourse)) return false;
-    var curCourse = getCurrentCourse();
-    if (curCourse === 'hsk1' && (lessonIdx === 'lesson0' || lessonIdx === 0 || lessonIdx === '0')) return true;
-    if ((curCourse === 'hsk2' || curCourse === 'hsk3' || curCourse === 'hsk4' || curCourse === 'hsk5') && (lessonIdx === 0 || lessonIdx === '0' || lessonIdx === 1 || lessonIdx === '1')) return true;
+    // در HSK 1: درس مقدمه و درس اول باز است، بقیه پس از تکمیل درس قبلی
+    if (curCourse === 'hsk1') {
+      if (lessonIdx === 'lesson0' || lessonIdx === 0 || lessonIdx === '0' || lessonIdx === 1 || lessonIdx === '1') return true;
+      var num = Number(lessonIdx);
+      if (isNaN(num) || num <= 1) return true;
+      return isLessonCompleted(num - 1);
+    }
+    // در HSK 2، HSK 3، HSK 4 و HSK 5: درس اول (idx 0) برای همه کاملاً باز و رایگان است!
+    if (lessonIdx === 0 || lessonIdx === '0') return true;
+    // درس دوم به بعد (idx > 0) نیازمند اشتراک ویژه است
+    if (!isProUser()) return false;
     var num = Number(lessonIdx);
-    if (isNaN(num) || num <= 0) return true;
-    try {
-      if (isLessonCompleted(num - 1)) return true;
-      if (window.Store && Store.state && Store.state.courseProgress) {
-        var cp = Store.state.courseProgress[curCourse] || 0;
-        if (cp >= num) return true;
-      }
-    } catch(e) {}
-    return false;
+    if (isNaN(num) || num <= 1) return true;
+    return isLessonCompleted(num - 1) || isProUser();
   }
 
   function isLessonCompleted(lessonIdx) {
@@ -485,13 +493,13 @@
       var courseFaName = curCourse === 'hsk5' ? 'سطح ۵ (HSK 5)' : (curCourse === 'hsk4' ? 'سطح ۴ (HSK 4)' : (curCourse === 'hsk3' ? 'سطح ۳ (HSK 3)' : 'سطح ۲ (HSK 2)'));
       h += '  <div class="kan-pro-roadmap-banner" data-act="openProPaywall">';
       h += '    <div class="kan-pro-banner-content">';
-      h += '      <span class="kan-pro-banner-crown">👑</span>';
+      h += '      <span class="kan-pro-banner-crown">🎁</span>';
       h += '      <div class="kan-pro-banner-text">';
-      h += '        <div class="kan-pro-banner-title">' + courseFaName + ' نیازمند اشتراک ویژه است</div>';
-      h += '        <div class="kan-pro-banner-sub">برای دسترسی به تمام درس‌ها، واژگان و گرامرها کلیک کنید</div>';
+      h += '        <div class="kan-pro-banner-title">درس اول ' + courseFaName + ' رایگان است!</div>';
+      h += '        <div class="kan-pro-banner-sub">برای باز شدن درس‌های ۲ تا ۱۵، اشتراک ویژه را در سایت تهیه کنید</div>';
       h += '      </div>';
       h += '    </div>';
-      h += '    <button class="kan-pro-banner-action-btn" type="button">ارتقا به PRO</button>';
+      h += '    <button class="kan-pro-banner-action-btn" type="button">خرید در سایت</button>';
       h += '  </div>';
     }
 
@@ -501,21 +509,21 @@
       h += '    <img src="' + station.bgImg + '" alt="' + station.title + '" class="station-full-bg-art" decoding="async">';
       h += '    <div class="station-content-layer">';
 
-      // پاپ‌آپ معرفی شهر و حباب پیام اژدها (در بالای بخش برای دید کامل اژدها)
-      h += '      <div class="station-top-header-area">';
-      h += '        <div class="dragon-dialogue-bubble ' + (station.bubbleSide === 'left' ? 'bubble-left' : '') + '">';
-      h += '          <div class="speech-title">' + station.dragonQuote.title + '</div>';
-      h += '          <div class="speech-sub">' + station.dragonQuote.sub + '</div>';
-      h += '        </div>';
-      h += '      </div>';
-
-      // نوار عنوان ایستگاه در زیر اژدها و حباب (دقیقاً منطبق بر عکس ۲ بدون پوشاندن صورت اژدها)
+      // نوار عنوان ایستگاه در بالاترین نقطه ایستگاه (معرفی ایستگاه بدون پوشاندن تصویر اژدها)
       h += '      <div class="station-title-strip">';
       h += '        <div class="station-name">';
       h += '          <svg class="station-pin-svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>';
       h += '          <span>' + station.title + '</span>';
       h += '        </div>';
       h += '        <span class="station-pill-tag">' + station.badge + '</span>';
+      h += '      </div>';
+
+      // پاپ‌آپ معرفی شهر و حباب پیام اژدها (با دید کامل و شفاف از اژدهای نمادین)
+      h += '      <div class="station-top-header-area">';
+      h += '        <div class="dragon-dialogue-bubble ' + (station.bubbleSide === 'left' ? 'bubble-left' : '') + '">';
+      h += '          <div class="speech-title">' + station.dragonQuote.title + '</div>';
+      h += '          <div class="speech-sub">' + station.dragonQuote.sub + '</div>';
+      h += '        </div>';
       h += '      </div>';
 
       // جریان درس‌ها
@@ -679,12 +687,14 @@
         return;
       }
     }
-    if ((curCourse === 'hsk2' || curCourse === 'hsk3' || curCourse === 'hsk4' || curCourse === 'hsk5') && !isProUser()) {
-      w.kanOpenProPaywall(curCourse);
-      return;
-    }
     var numIdx = Number(idx);
     if (isNaN(numIdx)) numIdx = 0;
+
+    // در سطوح HSK 2 به بالا: درس اول (idx 0) کاملاً رایگان است! درس دوم به بعد نیازمند اشتراک است
+    if ((curCourse === 'hsk2' || curCourse === 'hsk3' || curCourse === 'hsk4' || curCourse === 'hsk5') && numIdx > 0 && !isProUser()) {
+      w.kanOpenProPaywall(curCourse, numIdx);
+      return;
+    }
     if (w.UnitSystem && typeof w.UnitSystem.openUnit === 'function') {
       w.UnitSystem.openUnit(curCourse, numIdx, customKey);
       return;
@@ -700,71 +710,29 @@
   // ════════════════════════════════════════════════════════════
   
   // باز کردن مودال مدرن انتخاب سطح (HSK 1 / HSK 2)
-  // هدایت به درگاه پرداخت آنلاین (جهت اتصال به زرین‌پال / شاپرک در آپدیت بعدی)
+  // هدایت به وب‌سایت جهت خرید و پرداخت اشتراک ویژه (مطابق قوانین پرداخت وب‌سایت)
   w.kanGoToPaymentGateway = function(planId, targetLevel) {
-    var planData = {
-      'monthly': { name: 'اشتراک ۱ ماهه Chinify PRO', price: '۷۵۰,۰۰۰ تومان' },
-      'annual': { name: 'اشتراک ۱ ساله Chinify PRO (۳۰٪ تخفیف)', price: '۶,۳۰۰,۰۰۰ تومان' },
-      'quarterly': { name: 'اشتراک ۳ ماهه Chinify PRO', price: '۱,۹۵۰,۰۰۰ تومان' }
-    };
-    var plan = planData[planId] || planData['annual'];
-
-    // بستن مودال خرید
     var existingModal = document.getElementById('kanProModal');
     if (existingModal) existingModal.remove();
 
-    var existingGw = document.getElementById('kanGatewayNotice');
-    if (existingGw) existingGw.remove();
-
-    var gw = document.createElement('div');
-    gw.id = 'kanGatewayNotice';
-    gw.style.cssText = 'position:fixed;inset:0;background:rgba(15,23,42,0.75);z-index:100000;display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(6px);direction:rtl;';
-    gw.innerHTML = 
-      '<div style="background:#FFFFFF;border-radius:24px;padding:26px 20px;max-width:390px;width:100%;text-align:center;box-shadow:0 24px 48px rgba(0,0,0,0.25);animation:kanFadeIn 0.25s ease;">' +
-        '<div style="width:68px;height:68px;background:#EFF6FF;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:32px;box-shadow:0 4px 12px rgba(59,130,246,0.15);">' +
-          '💳' +
-        '</div>' +
-        '<h3 style="font-size:18px;font-weight:900;color:#0F172A;margin:0 0 10px;">انتقال به درگاه پرداخت آنلاین</h3>' +
-        '<div style="background:#F8FAFC;border:1.5px solid #E2E8F0;border-radius:16px;padding:14px;margin-bottom:16px;text-align:right;">' +
-          '<div style="font-size:12px;color:#64748B;margin-bottom:4px;">بسته انتخابی:</div>' +
-          '<div style="font-size:14px;font-weight:900;color:#0F172A;margin-bottom:6px;">' + plan.name + '</div>' +
-          '<div style="display:flex;justify-content:space-between;align-items:center;border-top:1px dashed #CBD5E1;padding-top:8px;margin-top:6px;">' +
-            '<span style="font-size:12.5px;color:#475569;">مبلغ قابل پرداخت:</span>' +
-            '<span style="font-size:14px;font-weight:900;color:#059669;">' + plan.price + '</span>' +
-          '</div>' +
-        '</div>' +
-        '<div style="background:#FFFBEB;border:1px solid #FDE68A;border-radius:14px;padding:12px 14px;margin-bottom:20px;text-align:right;">' +
-          '<div style="font-size:13px;font-weight:800;color:#92400E;margin-bottom:4px;display:flex;align-items:center;gap:6px;">' +
-            '<span>⏳</span>' +
-            '<span>درگاه پرداخت در حال آماده‌سازی</span>' +
-          '</div>' +
-          '<div style="font-size:12px;color:#B45309;line-height:1.6;">' +
-            'ماژول اتصال بانکی شاپرک پس از تکمیل مجوزها در آپدیت بعدی فعال خواهد شد. در حال حاضر مبلغی کسر نگردید و اشتراک فعال نشد.' +
-          '</div>' +
-        '</div>' +
-        '<button id="kanCloseGwNotice" style="width:100%;height:48px;background:#0F172A;color:#FFFFFF;border:none;border-radius:14px;font-size:14px;font-weight:800;cursor:pointer;font-family:inherit;">بستن و بازگشت</button>' +
-      '</div>';
-
-    document.body.appendChild(gw);
-
-    document.getElementById('kanCloseGwNotice').addEventListener('click', function() {
-      gw.remove();
-      w.renderEnhancedHome();
-    });
-    gw.addEventListener('click', function(e) {
-      if (e.target === gw) {
-        gw.remove();
-        w.renderEnhancedHome();
+    var websiteUrl = "https://chinifa.vercel.app/#pricing";
+    try {
+      if (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform()) {
+        window.open(websiteUrl, "_system");
+      } else {
+        window.open(websiteUrl, "_blank");
       }
-    });
+    } catch(e) {
+      location.href = websiteUrl;
+    }
   };
 
-  // باز کردن پنجره اختصاصی و شکیل خرید اشتراک Chinify PRO
-  w.kanOpenProPaywall = function(targetLevel) {
+  // باز کردن پنجره اختصاصی و شکیل راهنمای خرید اشتراک Chinify PRO در وب‌سایت
+  w.kanOpenProPaywall = function(targetLevel, targetLessonIdx) {
     var existing = document.getElementById('kanProModal');
     if (existing) existing.remove();
 
-    var targetName = targetLevel === 'hsk5' ? 'سطح ۵ (HSK 5)' : (targetLevel === 'hsk4' ? 'سطح ۴ (HSK 4)' : (targetLevel === 'hsk3' ? 'سطح ۳ (HSK 3)' : (targetLevel === 'hsk2' ? 'سطح ۲ (HSK 2)' : 'سطوح پیشرفته HSK 2، 3، 4 و 5')));
+    var targetName = targetLevel === 'hsk5' ? 'سطح ۵ (HSK 5)' : (targetLevel === 'hsk4' ? 'سطح ۴ (HSK 4)' : (targetLevel === 'hsk3' ? 'سطح ۳ (HSK 3)' : (targetLevel === 'hsk2' ? 'سطح ۲ (HSK 2)' : 'سطوح پیشرفته')));
 
     var modal = document.createElement('div');
     modal.id = 'kanProModal';
@@ -775,90 +743,86 @@
         '<div class="kan-pro-crown-header">' +
           '<div class="kan-pro-crown-icon-big">👑</div>' +
           '<h2 class="kan-pro-title">اشتراک ویژه Chinify PRO</h2>' +
-          '<p class="kan-pro-sub">برای دسترسی به ' + targetName + ' و صدها تمرین تعاملی، نسخه ویژه را فعال کنید.</p>' +
+          '<p class="kan-pro-sub">درس اول ' + targetName + ' کاملاً <b>رایگان</b> است! برای دسترسی به درس‌های ۲ تا ۱۵، لطفاً اشتراک را از وب‌سایت تهیه کنید.</p>' +
+        '</div>' +
+
+        '<div style="background:#F0FDF4;border:1.5px solid #BBF7D0;border-radius:18px;padding:16px 18px;margin-bottom:16px;text-align:right;">' +
+          '<div style="font-size:14px;font-weight:900;color:#166534;margin-bottom:8px;display:flex;align-items:center;gap:8px;">' +
+            '<span>🌐</span>' +
+            '<span>مراحل پرداخت و فعال‌سازی در وب‌سایت:</span>' +
+          '</div>' +
+          '<div style="font-size:12.5px;color:#15803D;line-height:1.8;">' +
+            '۱. روی دکمه <b>«خرید اشتراک در وب‌سایت»</b> کلیک کنید.<br>' +
+            '۲. در سایت وارد حساب خود شوید (یا با ایمیل لاگین کنید).<br>' +
+            '۳. پلن دلخواه را انتخاب و پرداخت کنید.<br>' +
+            '۴. با همان ایمیل در اپلیکیشن وارد شوید تا تمامی درس‌ها آنی باز شوند.' +
+          '</div>' +
         '</div>' +
 
         '<div class="kan-pro-benefits">' +
           '<div class="kan-pro-benefit-row">' +
             '<span class="kan-pro-check-circle">✓</span>' +
-            '<span>دسترسی کامل و نامحدود به ۶۰ درس HSK 2، HSK 3، HSK 4 و HSK 5</span>' +
+            '<span>دسترسی به تمام ۶۰ درس HSK 2 تا HSK 5</span>' +
           '</div>' +
           '<div class="kan-pro-benefit-row">' +
             '<span class="kan-pro-check-circle">✓</span>' +
-            '<span>بیش از ۲۸۰۰ واژه تخصصی به همراه صوت بومی و فلش‌کارت</span>' +
+            '<span>بیش از ۲۸۰۰ واژه تخصصی با صوت و آزمون تعاملی</span>' +
           '</div>' +
           '<div class="kan-pro-benefit-row">' +
             '<span class="kan-pro-check-circle">✓</span>' +
-            '<span>۳۲۰ نکته گرامری پیشرفته با تمرین و فیدبک هوشمند</span>' +
-          '</div>' +
-          '<div class="kan-pro-benefit-row">' +
-            '<span class="kan-pro-check-circle">✓</span>' +
-            '<span>مکالمات روزمره، متون تحلیلی و آمادگی کامل آزمون رسمی HSK</span>' +
+            '<span>۳۲۰ نکته گرامری پیشرفته و پشتیبانی اختصاصی</span>' +
           '</div>' +
         '</div>' +
 
-        '<div class="kan-pro-plans">' +
-          '<div class="kan-pro-plan-box" data-plan="monthly">' +
-            '<div class="kan-pro-plan-right">' +
-              '<div class="kan-pro-plan-radio"></div>' +
-              '<div class="kan-pro-plan-name">اشتراک ۱ ماهه</div>' +
-            '</div>' +
-            '<div class="kan-pro-plan-price">۷۵۰,۰۰۰ تومان</div>' +
-          '</div>' +
-
-          '<div class="kan-pro-plan-box is-selected" data-plan="annual">' +
-            '<div class="kan-pro-plan-right">' +
-              '<div class="kan-pro-plan-radio"></div>' +
-              '<div>' +
-                '<div class="kan-pro-plan-name" style="display:flex;align-items:center;gap:6px;">اشتراک ۱ ساله <span class="kan-pro-plan-off">۳۰٪ تخفیف</span></div>' +
-                '<div style="font-size:11px;color:#64748B;">محبوب‌ترین انتخاب زبان‌آموزان (ماهی ۵۲۵,۰۰۰ تومان)</div>' +
-              '</div>' +
-            '</div>' +
-            '<div class="kan-pro-plan-price">۶,۳۰۰,۰۰۰ تومان</div>' +
-          '</div>' +
-
-          '<div class="kan-pro-plan-box" data-plan="quarterly">' +
-            '<div class="kan-pro-plan-right">' +
-              '<div class="kan-pro-plan-radio"></div>' +
-              '<div class="kan-pro-plan-name">اشتراک ۳ ماهه</div>' +
-            '</div>' +
-            '<div class="kan-pro-plan-price">۱,۹۵۰,۰۰۰ تومان</div>' +
-          '</div>' +
-        '</div>' +
-
-        '<button class="kan-pro-cta-btn" type="button">' +
-          '<span>💳</span>' +
-          '<span>ورود به درگاه پرداخت و فعال‌سازی</span>' +
+        '<button class="kan-pro-cta-btn" id="kanBtnGoWebsitePay" type="button" style="background:linear-gradient(135deg, #059669 0%, #10B981 100%);display:flex;align-items:center;justify-content:center;gap:8px;box-shadow:0 10px 24px rgba(5,150,105,0.35);">' +
+          '<span>🌐</span>' +
+          '<span>ورود به سایت و خرید اشتراک</span>' +
         '</button>' +
-        '<div style="font-size:11.5px;color:#64748B;text-align:center;margin-top:-6px;margin-bottom:14px;display:flex;align-items:center;justify-content:center;gap:5px;">' +
-          '<span>🔒</span>' +
-          '<span>اتصال امن به درگاه پرداخت اینترنتی شاپرک / عضو شتاب</span>' +
-        '</div>' +
+
+        '<button id="kanBtnAlreadyPaid" type="button" style="width:100%;height:46px;background:#F1F5F9;color:#0F172A;border:1.5px solid #CBD5E1;border-radius:14px;font-size:13px;font-weight:800;cursor:pointer;margin-top:10px;font-family:inherit;display:flex;align-items:center;justify-content:center;gap:6px;">' +
+          '<span>👤</span>' +
+          '<span>قبلاً در سایت خریده‌ام (ورود به حساب کاربری)</span>' +
+        '</button>' +
+
+        '<button id="kanBtnTryFreeLesson1" type="button" style="width:100%;height:40px;background:transparent;color:#059669;border:none;font-size:12.5px;font-weight:800;cursor:pointer;margin-top:6px;font-family:inherit;">' +
+          '← بازگشت و شروع درس اول (رایگان)' +
+        '</button>' +
       '</div>';
 
     document.body.appendChild(modal);
 
-    // مدیریت کلیک‌ها درون شیت پرو
     modal.addEventListener('click', function(e) {
       if (e.target === modal || e.target.closest('.kan-pro-sheet-close')) {
         modal.remove();
         return;
       }
 
-      var planBox = e.target.closest('.kan-pro-plan-box');
-      if (planBox) {
-        modal.querySelectorAll('.kan-pro-plan-box').forEach(function(b) { b.classList.remove('is-selected'); });
-        planBox.classList.add('is-selected');
+      // کلیک روی ورود به سایت
+      var goWebBtn = e.target.closest('#kanBtnGoWebsitePay');
+      if (goWebBtn) {
+        modal.remove();
+        w.kanGoToPaymentGateway('annual', targetLevel);
         return;
       }
 
-      // کلیک دکمه اصلی پرداخت / اتصال به درگاه (بدون فعال‌سازی مستقیم پرو)
-      var ctaBtn = e.target.closest('.kan-pro-cta-btn');
-      if (ctaBtn) {
-        var selectedBox = modal.querySelector('.kan-pro-plan-box.is-selected');
-        var planId = selectedBox ? selectedBox.getAttribute('data-plan') : 'annual';
-        if (typeof w.kanGoToPaymentGateway === 'function') {
-          w.kanGoToPaymentGateway(planId, targetLevel);
+      // کلیک روی ورود به حساب
+      var loginBtn = e.target.closest('#kanBtnAlreadyPaid');
+      if (loginBtn) {
+        modal.remove();
+        if (w.App && typeof w.App.go === 'function') {
+          w.App.go('auth');
+        } else if (w.Sync && typeof w.Sync.openSignIn === 'function') {
+          w.Sync.openSignIn();
+        }
+        return;
+      }
+
+      // کلیک روی درس ۱ رایگان
+      var freeBtn = e.target.closest('#kanBtnTryFreeLesson1');
+      if (freeBtn) {
+        modal.remove();
+        if (typeof w.kanOpenLesson === 'function') {
+          w.kanOpenLesson(0);
         }
         return;
       }
@@ -895,60 +859,60 @@
             (curCourse === 'hsk1' ? '<div class="kan-level-check-icon">✓</div>' : '<div class="kan-level-radio"></div>') +
           '</div>' +
 
-          '<div class="kan-level-card ' + (curCourse === 'hsk2' ? 'is-active' : '') + (!isPro ? ' is-pro-card' : '') + '" data-level="hsk2">' +
+          '<div class="kan-level-card ' + (curCourse === 'hsk2' ? 'is-active' : '') + '" data-level="hsk2">' +
             '<div class="kan-level-card-left">' +
               '<div class="kan-level-icon-badge kan-level-hsk2">HSK 2</div>' +
               '<div class="kan-level-card-info">' +
                 '<div class="kan-level-card-name-row">' +
                   '<span class="kan-level-card-name">سطح ۲: متوسط مقدماتی (HSK 2)</span>' +
-                  (!isPro ? '<span class="kan-level-tag-pro">👑 PRO</span>' : '<span class="kan-level-tag-unlocked">فعال</span>') +
+                  (!isPro ? '<span class="kan-level-tag-free">درس ۱ رایگان</span>' : '<span class="kan-level-tag-unlocked">👑 PRO فعال</span>') +
                 '</div>' +
                 '<div class="kan-level-card-sub">۱۵ درس · ۳۰۰ واژه · سفر، کار، احساسات و گرامر</div>' +
               '</div>' +
             '</div>' +
-            (!isPro ? '<div class="kan-level-lock-badge">🔒</div>' : (curCourse === 'hsk2' ? '<div class="kan-level-check-icon">✓</div>' : '<div class="kan-level-radio"></div>')) +
+            (curCourse === 'hsk2' ? '<div class="kan-level-check-icon">✓</div>' : '<div class="kan-level-radio"></div>') +
           '</div>' +
 
-          '<div class="kan-level-card ' + (curCourse === 'hsk3' ? 'is-active' : '') + (!isPro ? ' is-pro-card' : '') + '" data-level="hsk3">' +
+          '<div class="kan-level-card ' + (curCourse === 'hsk3' ? 'is-active' : '') + '" data-level="hsk3">' +
             '<div class="kan-level-card-left">' +
               '<div class="kan-level-icon-badge kan-level-hsk3">HSK 3</div>' +
               '<div class="kan-level-card-info">' +
                 '<div class="kan-level-card-name-row">' +
                   '<span class="kan-level-card-name">سطح ۳: متوسط (HSK 3)</span>' +
-                  (!isPro ? '<span class="kan-level-tag-pro">👑 PRO</span>' : '<span class="kan-level-tag-unlocked">فعال</span>') +
+                  (!isPro ? '<span class="kan-level-tag-free">درس ۱ رایگان</span>' : '<span class="kan-level-tag-unlocked">👑 PRO فعال</span>') +
                 '</div>' +
                 '<div class="kan-level-card-sub">۱۵ درس · ۶۰۰ واژه · متون، گرامرهای پیشرفته و مکالمه</div>' +
               '</div>' +
             '</div>' +
-            (!isPro ? '<div class="kan-level-lock-badge">🔒</div>' : (curCourse === 'hsk3' ? '<div class="kan-level-check-icon">✓</div>' : '<div class="kan-level-radio"></div>')) +
+            (curCourse === 'hsk3' ? '<div class="kan-level-check-icon">✓</div>' : '<div class="kan-level-radio"></div>') +
           '</div>' +
 
-          '<div class="kan-level-card ' + (curCourse === 'hsk4' ? 'is-active' : '') + (!isPro ? ' is-pro-card' : '') + '" data-level="hsk4">' +
+          '<div class="kan-level-card ' + (curCourse === 'hsk4' ? 'is-active' : '') + '" data-level="hsk4">' +
             '<div class="kan-level-card-left">' +
               '<div class="kan-level-icon-badge kan-level-hsk4">HSK 4</div>' +
               '<div class="kan-level-card-info">' +
                 '<div class="kan-level-card-name-row">' +
                   '<span class="kan-level-card-name">سطح ۴: پیشرفته و کاری (HSK 4)</span>' +
-                  (!isPro ? '<span class="kan-level-tag-pro">👑 PRO</span>' : '<span class="kan-level-tag-unlocked">فعال</span>') +
+                  (!isPro ? '<span class="kan-level-tag-free">درس ۱ رایگان</span>' : '<span class="kan-level-tag-unlocked">👑 PRO فعال</span>') +
                 '</div>' +
                 '<div class="kan-level-card-sub">۱۵ درس · ۶۰۰ واژه · جامعه، فناوری، مدیریت و آزمون HSK 4</div>' +
               '</div>' +
             '</div>' +
-            (!isPro ? '<div class="kan-level-lock-badge">🔒</div>' : (curCourse === 'hsk4' ? '<div class="kan-level-check-icon">✓</div>' : '<div class="kan-level-radio"></div>')) +
+            (curCourse === 'hsk4' ? '<div class="kan-level-check-icon">✓</div>' : '<div class="kan-level-radio"></div>') +
           '</div>' +
 
-          '<div class="kan-level-card ' + (curCourse === 'hsk5' ? 'is-active' : '') + (!isPro ? ' is-pro-card' : '') + '" data-level="hsk5">' +
+          '<div class="kan-level-card ' + (curCourse === 'hsk5' ? 'is-active' : '') + '" data-level="hsk5">' +
             '<div class="kan-level-card-left">' +
               '<div class="kan-level-icon-badge kan-level-hsk5">HSK 5</div>' +
               '<div class="kan-level-card-info">' +
                 '<div class="kan-level-card-name-row">' +
                   '<span class="kan-level-card-name">سطح ۵: فوق‌پیشرفته و تخصصی (HSK 5)</span>' +
-                  (!isPro ? '<span class="kan-level-tag-pro">👑 PRO</span>' : '<span class="kan-level-tag-unlocked">فعال</span>') +
+                  (!isPro ? '<span class="kan-level-tag-free">درس ۱ رایگان</span>' : '<span class="kan-level-tag-unlocked">👑 PRO فعال</span>') +
                 '</div>' +
                 '<div class="kan-level-card-sub">۱۵ درس · ۱۳۰۰ واژه · تحلیل ادبی، بوم‌شناسی، تجارت و تسلط جامع</div>' +
               '</div>' +
             '</div>' +
-            (!isPro ? '<div class="kan-level-lock-badge">🔒</div>' : (curCourse === 'hsk5' ? '<div class="kan-level-check-icon">✓</div>' : '<div class="kan-level-radio"></div>')) +
+            (curCourse === 'hsk5' ? '<div class="kan-level-check-icon">✓</div>' : '<div class="kan-level-radio"></div>') +
           '</div>' +
         '</div>' +
       '</div>';
@@ -965,11 +929,7 @@
         var lvl = card.getAttribute('data-level');
         if (lvl) {
           modal.remove();
-          if ((lvl === 'hsk2' || lvl === 'hsk3' || lvl === 'hsk4' || lvl === 'hsk5') && !isProUser()) {
-            w.kanOpenProPaywall(lvl);
-          } else {
-            w.kanSelectCourseLevel(lvl);
-          }
+          w.kanSelectCourseLevel(lvl);
         }
       }
     });
