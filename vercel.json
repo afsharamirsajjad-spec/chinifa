@@ -21,6 +21,10 @@
       "destination": "/api/auth.js?action=register"
     },
     {
+      "source": "/api/session",
+      "destination": "/api/auth.js?action=session"
+    },
+    {
       "source": "/api/app-version",
       "destination": "/website/version.json"
     },
@@ -95,6 +99,14 @@
     {
       "source": "/tools/admin/:path*",
       "destination": "/tools/admin/:path*"
+    },
+    {
+      "source": "/toon",
+      "destination": "/website/chinifa-toon.html"
+    },
+    {
+      "source": "/chinifa-toon",
+      "destination": "/website/chinifa-toon.html"
     },
     {
       "source": "/website",
