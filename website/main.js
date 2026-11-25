@@ -561,4 +561,151 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  // ==========================================================================
+  // ۷. پیشخوان اختصاصی کاربر لاگین‌شده (تغییر سطح، هدف روزانه، ویرایش نام)
+  // ==========================================================================
+  var dashSection = document.getElementById('user-dashboard');
+  var dashAvatar = document.getElementById('dash-avatar');
+  var dashUserName = document.getElementById('dash-user-name');
+  var dashUserEmail = document.getElementById('dash-user-email');
+  var dashPlanBadge = document.getElementById('dash-plan-badge');
+  var dashNameInput = document.getElementById('dash-name-input');
+  var dashNameForm = document.getElementById('dash-name-form');
+  var dashUpgradeBtn = document.getElementById('dash-upgrade-btn');
+  var dashFeedback = document.getElementById('dash-feedback');
+  var btnGotoDash = document.getElementById('btn-goto-dashboard');
+
+  function showDashFeedback(msg) {
+    if (!dashFeedback) return;
+    dashFeedback.hidden = false;
+    dashFeedback.textContent = msg;
+    clearTimeout(dashFeedback._t);
+    dashFeedback._t = setTimeout(function() { dashFeedback.hidden = true; }, 2600);
+  }
+
+  function syncDashboardUI() {
+    if (!dashSection) return;
+    var user = null;
+    try { user = JSON.parse(localStorage.getItem('chinifa_auth_user') || 'null'); } catch (e) {}
+
+    if (!user || !user.email) {
+      dashSection.hidden = true;
+      return;
+    }
+
+    dashSection.hidden = false;
+    var name = user.fullName || user.email.split('@')[0];
+    var isPro = !!(user.isPro || user.pro || localStorage.getItem('chinifa_pro') === 'true');
+
+    if (dashAvatar) dashAvatar.textContent = (name.charAt(0) || 'A').toUpperCase();
+    if (dashUserName) dashUserName.textContent = name;
+    if (dashUserEmail) dashUserEmail.textContent = user.email;
+    if (dashNameInput && document.activeElement !== dashNameInput) dashNameInput.value = name;
+    if (dashPlanBadge) {
+      dashPlanBadge.textContent = isPro ? '👑 اشتراک طلایی PRO' : 'نسخه رایگان';
+      dashPlanBadge.classList.toggle('is-pro', isPro);
+    }
+    if (dashUpgradeBtn) dashUpgradeBtn.hidden = isPro;
+
+    var v1 = {};
+    try { v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}'); } catch (e) {}
+    var curLevel = (v1.level || user.hskLevel || 'hsk1').toLowerCase().replace(/\s+/g, '');
+    var curGoal = String(v1.goal || user.dailyGoal || 10);
+
+    document.querySelectorAll('#dash-level-pills .dash-pill').forEach(function(p) {
+      p.classList.toggle('is-active', p.getAttribute('data-hsk') === curLevel);
+    });
+    document.querySelectorAll('#dash-goal-pills .dash-pill').forEach(function(p) {
+      p.classList.toggle('is-active', p.getAttribute('data-goal') === curGoal);
+    });
+  }
+
+  document.querySelectorAll('#dash-level-pills .dash-pill').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var lvl = btn.getAttribute('data-hsk') || 'hsk1';
+      try {
+        var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}');
+        v1.level = lvl;
+        localStorage.setItem('chinifa.v1', JSON.stringify(v1));
+
+        var u = JSON.parse(localStorage.getItem('chinifa_auth_user') || '{}');
+        u.hskLevel = lvl.toUpperCase();
+        localStorage.setItem('chinifa_auth_user', JSON.stringify(u));
+      } catch (e) {}
+      syncDashboardUI();
+      showDashFeedback('✓ سطح آموزشی روی ' + lvl.toUpperCase() + ' تنظیم و با اپلیکیشن همگام شد.');
+    });
+  });
+
+  document.querySelectorAll('#dash-goal-pills .dash-pill').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var goal = parseInt(btn.getAttribute('data-goal') || '10', 10);
+      try {
+        var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}');
+        v1.goal = goal;
+        localStorage.setItem('chinifa.v1', JSON.stringify(v1));
+
+        var u = JSON.parse(localStorage.getItem('chinifa_auth_user') || '{}');
+        u.dailyGoal = goal;
+        localStorage.setItem('chinifa_auth_user', JSON.stringify(u));
+      } catch (e) {}
+      syncDashboardUI();
+      showDashFeedback('✓ هدف مطالعه روزانه روی ' + goal + ' دقیقه ذخیره شد.');
+    });
+  });
+
+  if (dashNameForm) {
+    dashNameForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var newName = (dashNameInput && dashNameInput.value || '').trim();
+      if (!newName) return;
+      try {
+        var u = JSON.parse(localStorage.getItem('chinifa_auth_user') || '{}');
+        u.fullName = newName;
+        localStorage.setItem('chinifa_auth_user', JSON.stringify(u));
+
+        var cs = JSON.parse(localStorage.getItem('cheh-chin-state') || '{}');
+        cs.username = newName;
+        localStorage.setItem('cheh-chin-state', JSON.stringify(cs));
+
+        var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}');
+        v1.userName = newName;
+        v1.nick = newName;
+        localStorage.setItem('chinifa.v1', JSON.stringify(v1));
+
+        var chipName = document.getElementById('user-chip-name');
+        var chipAvatar = document.getElementById('user-chip-avatar');
+        var dropName = document.getElementById('dropdown-name');
+        if (chipName) chipName.textContent = newName;
+        if (chipAvatar) chipAvatar.textContent = newName.charAt(0).toUpperCase();
+        if (dropName) dropName.textContent = newName;
+      } catch (err) {}
+      syncDashboardUI();
+      showDashFeedback('✓ نام پروفایل با موفقیت به‌روزرسانی شد.');
+    });
+  }
+
+  if (dashUpgradeBtn) {
+    dashUpgradeBtn.addEventListener('click', function() {
+      var pricing = document.getElementById('pricing');
+      if (pricing) pricing.scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+
+  if (btnGotoDash) {
+    btnGotoDash.addEventListener('click', function() {
+      var dd = document.getElementById('user-dropdown-card');
+      if (dd) dd.hidden = true;
+    });
+  }
+
+  // همگام‌سازی خودکار هنگام تغییر وضعیت لاگین
+  syncDashboardUI();
+  window.addEventListener('storage', syncDashboardUI);
+  var origAuthBtn = document.getElementById('btn-logout');
+  if (origAuthBtn) origAuthBtn.addEventListener('click', function() { setTimeout(syncDashboardUI, 20); });
+  var origVerifyForm = document.getElementById('form-otp-verify');
+  if (origVerifyForm) origVerifyForm.addEventListener('submit', function() { setTimeout(syncDashboardUI, 700); });
+  var origPassForm = document.getElementById('form-password-login');
+  if (origPassForm) origPassForm.addEventListener('submit', function() { setTimeout(syncDashboardUI, 700); });
 });

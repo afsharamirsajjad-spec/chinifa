@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>chinifa (چی‌نی‌فا) — آموزش هوشمند زبان چینی</title>
-  <meta name="description" content="یادگیری زبان چینی از صفر با نقشه راه ۵ ایستگاه، آموزش گرامر، رسم نویسه‌ها و تلفظ بومی. قابل استفاده در نسخه وب و اندروید.">
+  <title>chinifa (چی‌نی‌فا) — پلتفرم هوشمند آموزش زبان چینی</title>
+  <meta name="description" content="یادگیری زبان چینی از صفر تا مکالمه روان با نقشه راه ۵ ایستگاه، آموزش گرامر، رسم نویسه‌ها و تلفظ بومی در نسخه وب و اندروید.">
   <link rel="icon" type="image/png" href="assets/app-icon.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,7 @@
 </head>
 <body>
 
-  <!-- هدر ناوبری ساده و خلوت -->
+  <!-- هدر تک‌خطی و استاندارد -->
   <header class="site-header">
     <div class="header-inner container">
       <a href="#" class="brand-logo" aria-label="صفحه اصلی chinifa">
@@ -30,11 +30,10 @@
         <a href="#features" class="nav-link">امکانات</a>
         <a href="#roadmap" class="nav-link">مسیر یادگیری</a>
         <a href="#reviews" class="nav-link">نظرات کاربران</a>
-        <a href="#pricing" class="nav-link nav-link-accent">اشتراک PRO</a>
+        <a href="#pricing" class="nav-link nav-link-accent">تعرفه PRO</a>
         <a href="#faq" class="nav-link">سوالات متداول</a>
-        <a href="#footer" class="nav-link">دانلود و پشتیبانی</a>
         <div class="mobile-nav-actions">
-          <a href="../app/index.html" target="_blank" class="btn btn-primary btn-block">شروع در نسخه وب</a>
+          <a href="../app/index.html" target="_blank" class="btn btn-primary btn-block">ورود به وب‌اپلیکیشن</a>
           <a href="../Chinifa.apk" download class="btn btn-outline btn-block">دانلود مستقیم اندروید (APK)</a>
         </div>
       </nav>
@@ -48,8 +47,8 @@
 
           <div class="user-chip-menu" id="user-chip-menu" hidden>
             <button class="user-chip-btn" id="user-chip-btn" type="button" aria-expanded="false">
-              <span class="user-chip-avatar" id="user-chip-avatar">龙</span>
-              <span class="user-chip-name" id="user-chip-name">حساب من</span>
+              <span class="user-chip-avatar" id="user-chip-avatar">A</span>
+              <span class="user-chip-name" id="user-chip-name">کاربر</span>
               <svg viewBox="0 0 24 24" class="chevron-mini" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg>
             </button>
             <div class="user-dropdown-card" id="user-dropdown-card" hidden>
@@ -62,9 +61,13 @@
                 </div>
               </div>
               <div class="dropdown-divider"></div>
+              <a href="#user-dashboard" class="dropdown-item" id="btn-goto-dashboard">
+                <svg viewBox="0 0 24 24" class="svg-icon" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                <span>پیشخوان و تنظیمات حساب</span>
+              </a>
               <a href="../app/index.html" target="_blank" class="dropdown-item">
                 <svg viewBox="0 0 24 24" class="svg-icon"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                <span>ورود به وب‌اپلیکیشن</span>
+                <span>ادامه یادگیری در وب‌اپ</span>
               </a>
               <button class="dropdown-item dropdown-logout-btn" id="btn-logout" type="button">
                 <svg viewBox="0 0 24 24" class="svg-icon"><path d="M16 17l5-5-5-5M21 12H9M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/></svg>
@@ -75,7 +78,7 @@
         </div>
 
         <a href="../app/index.html" target="_blank" class="btn btn-primary btn-header-app">
-          <span>نسخه وب</span>
+          <span>شروع یادگیری</span>
         </a>
 
         <button class="mobile-toggle-btn" id="menu-toggle" type="button" aria-label="منو">
@@ -85,32 +88,92 @@
     </div>
   </header>
 
-  <!-- بخش Hero متمرکز و خلوت -->
-  <section class="hero-section">
-    <div class="hero-bg-blobs" aria-hidden="true">
-      <div class="blob blob-1"></div>
-      <div class="blob blob-2"></div>
-    </div>
+  <!-- پیشخوان اختصاصی کاربر لاگین‌شده (فقط پس از ورود نمایش داده می‌شود) -->
+  <section class="user-dashboard-section" id="user-dashboard" hidden>
+    <div class="container">
+      <div class="dashboard-shell">
+        <div class="dash-top-row">
+          <div class="dash-welcome">
+            <div class="dash-avatar" id="dash-avatar">A</div>
+            <div>
+              <div class="dash-hello">سلام، <span id="dash-user-name">دوست عزیز</span> 👋</div>
+              <div class="dash-sub">
+                <span id="dash-user-email" dir="ltr">user@example.com</span>
+                <span class="dash-status-pill" id="dash-plan-badge">نسخه رایگان</span>
+              </div>
+            </div>
+          </div>
+          <div class="dash-primary-actions">
+            <a href="../app/index.html" target="_blank" class="btn btn-primary dash-launch-btn">
+              <svg viewBox="0 0 24 24" class="svg-icon"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>ورود به کلاس و ادامه درس‌ها</span>
+            </a>
+            <button type="button" class="btn btn-outline dash-upgrade-btn" id="dash-upgrade-btn">
+              <span>👑 ارتقا به PRO</span>
+            </button>
+          </div>
+        </div>
 
+        <div class="dash-controls-grid">
+          <!-- کنترل ۱: انتخاب سطح آموزشی -->
+          <div class="dash-widget">
+            <div class="dash-widget-title">🎯 سطح آموزشی فعال (همگام با اپ)</div>
+            <div class="dash-pills" id="dash-level-pills">
+              <button type="button" class="dash-pill is-active" data-hsk="hsk1">HSK 1</button>
+              <button type="button" class="dash-pill" data-hsk="hsk2">HSK 2</button>
+              <button type="button" class="dash-pill" data-hsk="hsk3">HSK 3</button>
+              <button type="button" class="dash-pill" data-hsk="hsk4">HSK 4</button>
+              <button type="button" class="dash-pill" data-hsk="hsk5">HSK 5</button>
+            </div>
+          </div>
+
+          <!-- کنترل ۲: هدف مطالعه روزانه -->
+          <div class="dash-widget">
+            <div class="dash-widget-title">⏱️ هدف مطالعه روزانه</div>
+            <div class="dash-pills" id="dash-goal-pills">
+              <button type="button" class="dash-pill" data-goal="5">۵ دقیقه</button>
+              <button type="button" class="dash-pill is-active" data-goal="10">۱۰ دقیقه</button>
+              <button type="button" class="dash-pill" data-goal="15">۱۵ دقیقه</button>
+              <button type="button" class="dash-pill" data-goal="20">۲۰ دقیقه</button>
+            </div>
+          </div>
+
+          <!-- کنترل ۳: ویرایش نام نمایشی -->
+          <div class="dash-widget">
+            <div class="dash-widget-title">✏️ نام نمایشی پروفایل</div>
+            <form class="dash-name-form" id="dash-name-form">
+              <input type="text" id="dash-name-input" class="dash-input" placeholder="نام شما..." maxlength="28">
+              <button type="submit" class="btn btn-primary dash-save-btn">ذخیره</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="dash-feedback" id="dash-feedback" hidden></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- بخش Hero مدرن -->
+  <section class="hero-section">
     <div class="container hero-grid">
       <div class="hero-text-col">
         <div class="hero-badge">
           <span class="badge-dot"></span>
-          <span class="badge-text">نسخه ۲.۴.۰ · دوره کامل HSK 1 تا HSK 5</span>
+          <span class="badge-text">نسخه ۲.۴.۰ · دوره استاندارد HSK 1 تا HSK 5</span>
         </div>
 
         <h1 class="hero-title">
-          زبان چینی را <span class="highlight-text">ساده و هوشمند</span> یاد بگیرید
+          زبان چینی را <span class="highlight-text">هوشمند و اصولی</span> یاد بگیرید
         </h1>
 
         <p class="hero-desc">
-          از الفبای پین‌یین تا مکالمه روزمره؛ در ۵ ایستگاه تعاملی با تلفظ بومی، رسم گام‌به‌گام نویسه‌ها و گرامر کاربردی.
+          از تلفظ دقیق ۴ تُن صوتی و الفبای پین‌یین تا رسم گام‌به‌گام نویسه‌ها و مکالمه روزمره؛ در ۵ ایستگاه تعاملی با همگام‌سازی کامل بین وب و موبایل.
         </p>
 
         <div class="hero-cta-group">
           <a href="../app/index.html" target="_blank" class="btn btn-primary btn-cta-main">
             <svg viewBox="0 0 24 24" class="svg-icon"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-            <span>شروع یادگیری در نسخه وب</span>
+            <span>شروع رایگان در نسخه وب</span>
           </a>
 
           <a href="../Chinifa.apk" download class="btn btn-outline btn-cta-apk" id="hero-download-btn">
@@ -119,20 +182,15 @@
           </a>
         </div>
 
-        <div class="hero-sub-links">
-          <a href="https://cafebazaar.ir/app/com.chinifa.app" target="_blank" class="sub-link-item">
-            <span>دریافت از کافه بازار</span>
-          </a>
-          <span class="sub-sep">·</span>
-          <button type="button" class="sub-link-item" id="btn-open-qr">
-            <span>اسکن کد QR</span>
-          </button>
-          <span class="sub-sep">·</span>
-          <span class="sub-meta">آفلاین · اندروید ۶+</span>
+        <div class="hero-trust-row">
+          <div class="trust-item"><span>⭐ ۴.۹</span> رضایت زبان‌آموزان</div>
+          <span class="trust-dot">·</span>
+          <a href="https://cafebazaar.ir/app/com.chinifa.app" target="_blank" class="sub-link-item">دریافت از کافه بازار</a>
+          <span class="trust-dot">·</span>
+          <button type="button" class="sub-link-item" id="btn-open-qr">اسکن کد QR</button>
         </div>
       </div>
 
-      <!-- پیش‌نمایش گوشی و اژدهای همراه -->
       <div class="hero-visual-col">
         <div class="phone-mockup-wrapper">
           <div class="phone-glow"></div>
@@ -194,19 +252,29 @@
     </div>
   </section>
 
-  <!-- امکانات کلیدی (۴ کارت خلاصه و مفید) -->
+  <!-- نوار آمار معتبر -->
+  <section class="trust-stats-strip">
+    <div class="container trust-stats-grid">
+      <div class="t-stat"><strong>۶۰+</strong><span>درس تعاملی HSK 1 تا 5</span></div>
+      <div class="t-stat"><strong>۲,۸۰۰+</strong><span>واژه با تلفظ بومی</span></div>
+      <div class="t-stat"><strong>۵ ایستگاه</strong><span>نقشه راه گیمیفای‌شده</span></div>
+      <div class="t-stat"><strong>۱۰۰٪</strong><span>آفلاین و بدون نیاز به فیلترشکن</span></div>
+    </div>
+  </section>
+
+  <!-- امکانات کلیدی (۴ کارت بنتو) -->
   <section class="features-section" id="features">
     <div class="container">
       <div class="section-head text-center">
-        <span class="section-tag">امکانات اصلی</span>
-        <h2 class="section-title">هر آنچه برای یادگیری چینی نیاز دارید</h2>
+        <span class="section-tag">چرا چی‌نی‌فا؟</span>
+        <h2 class="section-title">تمام ابزارهای یادگیری استاندارد در یک پلتفرم</h2>
       </div>
 
       <div class="features-grid features-grid-4">
         <div class="feature-card">
           <div class="feature-icon-box bg-mint"><span class="han f-icon-zh">🗺️</span></div>
           <h3 class="feature-title">مسیر ۵ ایستگاه تعاملی</h3>
-          <p class="feature-text">درس‌های ساختاریافته در قالب ۵ شهر جذاب با آزمون مرور در پایان هر ایستگاه.</p>
+          <p class="feature-text">درس‌های ساختاریافته در قالب ۵ شهر جذاب با آزمون مرور و مدال پایان هر ایستگاه.</p>
         </div>
 
         <div class="feature-card">
@@ -224,7 +292,7 @@
         <div class="feature-card">
           <div class="feature-icon-box bg-emerald"><span class="han f-icon-zh">🎧</span></div>
           <h3 class="feature-title">پادکست و گرامر کاربردی</h3>
-          <p class="feature-text">داستان‌های دوزبانه، فرمول‌های ساده گرامر و استفاده کاملاً آفلاین بدون فیلترشکن.</p>
+          <p class="feature-text">داستان‌های دوزبانه، فرمول‌های ساده گرامر فارسی و همگام‌سازی ابری حساب کاربری.</p>
         </div>
       </div>
     </div>
@@ -235,7 +303,7 @@
     <div class="container">
       <div class="section-head text-center">
         <span class="section-tag">ساختار دوره</span>
-        <h2 class="section-title">۱۵ درس در ۵ ایستگاه</h2>
+        <h2 class="section-title">۱۵ درس پایه در ۵ ایستگاه</h2>
       </div>
 
       <div class="stations-list">
@@ -331,8 +399,8 @@
     <div class="container">
       <div class="section-head text-center">
         <span class="section-tag">اشتراک ویژه Chinify PRO</span>
-        <h2 class="section-title">دسترسی کامل به تمامی سطوح</h2>
-        <p class="section-desc">درس اول هر سطح رایگان است. برای باز کردن تمام درس‌ها، اشتراک خود را انتخاب کنید:</p>
+        <h2 class="section-title">دسترسی نامحدود به تمام سطوح</h2>
+        <p class="section-desc">درس اول هر سطح رایگان است. برای باز کردن تمام درس‌ها و ابزارهای پیشرفته اشتراک خود را انتخاب کنید:</p>
       </div>
 
       <div class="pricing-grid">
@@ -422,7 +490,7 @@
     </div>
   </section>
 
-  <!-- فوتر مینیمال -->
+  <!-- فوتر حرفه‌ای با کنتراست بالا -->
   <footer class="site-footer" id="footer">
     <div class="container footer-simple">
       <div class="footer-brand-row">
@@ -430,7 +498,7 @@
           <div class="brand-seal han">龙</div>
           <span class="brand-en">chin<b>ifa</b></span>
         </div>
-        <p class="footer-desc">آموزش هوشمند زبان چینی برای فارسی‌زبانان</p>
+        <p class="footer-desc">پلتفرم جامع آموزش هوشمند زبان چینی برای فارسی‌زبانان</p>
       </div>
       <div class="footer-simple-links">
         <a href="../app/index.html" target="_blank">نسخه وب</a>
@@ -441,7 +509,7 @@
     </div>
   </footer>
 
-  <!-- مودال بازطراحی‌شده ورود و ثبت‌نام یکپارچه (OTP هوشمند با Resend) -->
+  <!-- مودال ورود و ثبت‌نام یکپارچه -->
   <div class="auth-modal-backdrop" id="auth-modal" hidden>
     <div class="auth-modal-card" role="dialog" aria-modal="true" aria-labelledby="auth-modal-title">
       <button class="auth-modal-close" id="auth-modal-close" type="button" aria-label="بستن">✕</button>
@@ -452,7 +520,6 @@
         <p class="auth-subtitle" id="auth-modal-subtitle">برای ورود یا ساخت حساب، ایمیل خود را وارد کنید</p>
       </div>
 
-      <!-- مرحله ۱: ورود یا ثبت‌نام با ایمیل (ارسال کد Resend) -->
       <div id="auth-step-email">
         <form id="form-otp-request" class="auth-form">
           <div class="form-group">
@@ -473,7 +540,6 @@
         </div>
       </div>
 
-      <!-- مرحله ۲: وارد کردن کد ۶ رقمی -->
       <div id="auth-step-otp" hidden>
         <form id="form-otp-verify" class="auth-form">
           <div class="otp-sent-banner">
@@ -496,7 +562,6 @@
         </form>
       </div>
 
-      <!-- حالت جایگزین: ورود با رمز عبور -->
       <div id="auth-step-password" hidden>
         <form id="form-password-login" class="auth-form">
           <div class="form-group">
@@ -519,11 +584,10 @@
         </form>
 
         <div class="auth-alt-switch">
-          <button type="button" class="btn-link" id="btn-switch-otp">ورود سریع با کد ایمیل (پیشنهادی)</button>
+          <button type="button" class="btn-link" id="btn-switch-otp">ورود سریع با کد ایمیل</button>
         </div>
       </div>
 
-      <!-- باکس بازخورد وضعیت / خطا -->
       <div class="auth-alert" id="auth-alert" hidden></div>
     </div>
   </div>
@@ -566,7 +630,7 @@
     </div>
   </div>
 
-  <!-- مودال نهایی‌سازی پرداخت اشتراک -->
+  <!-- مودال پرداخت اشتراک -->
   <div class="auth-modal-backdrop" id="payment-modal" hidden>
     <div class="auth-modal-card payment-modal-card" role="dialog" aria-modal="true">
       <button class="auth-modal-close" id="payment-modal-close" type="button" aria-label="بستن">✕</button>
@@ -605,7 +669,7 @@
     </div>
   </div>
 
-  <!-- مودال تبریک و موفقیت پرداخت -->
+  <!-- مودال موفقیت پرداخت -->
   <div class="auth-modal-backdrop" id="payment-success-modal" hidden>
     <div class="auth-modal-card text-center" style="max-width:440px;">
       <div style="font-size:48px;margin-bottom:10px;">🎉</div>

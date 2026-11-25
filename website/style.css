@@ -3531,3 +3531,292 @@ html, body {
 .site-footer .footer-copy {
   color: #94A3B8 !important;
 }
+
+
+/* ============================================================
+   رفع باگ hidden، هدر تک‌خطی، نوار آمار و پیشخوان کاربر لاگین‌شده
+   ============================================================ */
+[hidden] {
+  display: none !important;
+}
+
+/* هدر تک‌خطی بدون شکستن کلمات */
+.header-inner {
+  height: 74px;
+  gap: 16px;
+}
+
+.nav-menu {
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.nav-menu .nav-link,
+.btn-header-auth,
+.btn-header-app,
+.user-chip-btn {
+  white-space: nowrap !important;
+  flex-shrink: 0;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+/* پیشخوان اختصاصی کاربر لاگین‌شده */
+.user-dashboard-section {
+  background: linear-gradient(135deg, #ECFDF5 0%, #F0FDF4 50%, #F8FAFC 100%);
+  border-bottom: 1px solid #D1FAE5;
+  padding: 24px 0;
+}
+
+.dashboard-shell {
+  background: #FFFFFF;
+  border: 1px solid #BBF7D0;
+  border-radius: 22px;
+  padding: 22px 24px;
+  box-shadow: 0 10px 30px rgba(5, 150, 105, 0.08);
+}
+
+.dash-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #F1F5F9;
+  margin-bottom: 18px;
+}
+
+.dash-welcome {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.dash-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #059669, #10B981);
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.dash-hello {
+  font-size: 17px;
+  font-weight: 900;
+  color: #0F172A;
+  margin-bottom: 4px;
+}
+
+.dash-sub {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #64748B;
+}
+
+.dash-status-pill {
+  background: #F1F5F9;
+  color: #475569;
+  font-size: 11.5px;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.dash-status-pill.is-pro {
+  background: #FEF3C7;
+  color: #B45309;
+  border: 1px solid #FDE68A;
+}
+
+.dash-primary-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.dash-launch-btn,
+.dash-upgrade-btn {
+  height: 42px;
+  padding: 0 18px;
+  font-size: 13.5px;
+  font-weight: 800;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.dash-controls-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.dash-widget {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  padding: 14px 16px;
+}
+
+.dash-widget-title {
+  font-size: 12.5px;
+  font-weight: 800;
+  color: #334155;
+  margin-bottom: 10px;
+}
+
+.dash-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.dash-pill {
+  border: 1px solid #CBD5E1;
+  background: #FFFFFF;
+  color: #334155;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 11px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.dash-pill:hover {
+  border-color: #10B981;
+  color: #059669;
+}
+
+.dash-pill.is-active {
+  background: #059669;
+  border-color: #059669;
+  color: #FFFFFF;
+}
+
+.dash-name-form {
+  display: flex;
+  gap: 8px;
+}
+
+.dash-input {
+  flex: 1;
+  min-width: 0;
+  height: 38px;
+  padding: 0 12px;
+  border: 1px solid #CBD5E1;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 13.5px;
+  background: #FFFFFF;
+  color: #0F172A;
+}
+
+.dash-save-btn {
+  height: 38px;
+  padding: 0 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.dash-feedback {
+  margin-top: 14px;
+  padding: 10px 14px;
+  background: #ECFDF5;
+  border: 1px solid #A7F3D0;
+  color: #065F46;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* نوار اعتماد زیر دکمه‌های Hero و نوار آمار */
+.hero-trust-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 13px;
+  color: #475569;
+}
+
+.trust-item span {
+  font-weight: 900;
+  color: #0F172A;
+}
+
+.trust-dot {
+  color: #CBD5E1;
+}
+
+.trust-stats-strip {
+  background: #FFFFFF;
+  border-top: 1px solid #F1F5F9;
+  border-bottom: 1px solid #F1F5F9;
+  padding: 24px 0;
+}
+
+.trust-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  text-align: center;
+}
+
+.t-stat strong {
+  display: block;
+  font-size: 24px;
+  font-weight: 900;
+  color: #059669;
+  margin-bottom: 4px;
+}
+
+.t-stat span {
+  font-size: 13px;
+  color: #64748B;
+  font-weight: 600;
+}
+
+@media (max-width: 960px) {
+  .dash-controls-grid {
+    grid-template-columns: 1fr;
+  }
+  .trust-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-shell {
+    padding: 18px 16px;
+  }
+  .dash-primary-actions {
+    width: 100%;
+  }
+  .dash-launch-btn,
+  .dash-upgrade-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .hero-trust-row {
+    justify-content: center;
+  }
+}
