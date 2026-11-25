@@ -338,6 +338,7 @@ module.exports = async (req, res) => {
       const email = String(body.email || "").trim().toLowerCase();
       const password = String(body.password || "");
       const fullName = String(body.name || body.fullName || email.split("@")[0]).trim();
+      const hskLevel = String(body.hskLevel || "HSK 1").trim();
 
       if (!validEmail(email)) {
         return res.status(400).json({ error: "bad-email", message: "آدرس ایمیل معتبر نیست." });
@@ -348,18 +349,26 @@ module.exports = async (req, res) => {
 
       const userId = crypto.createHash("md5").update(email).digest("hex");
       const token = crypto.randomBytes(32).toString("hex");
+      const now = Date.now();
+      const code = generateCode();
+      const codeHash = crypto.createHash("sha256").update(`${email}:${code}`).digest("hex");
+      const expiresAt = now + 10 * 60 * 1000;
+      const secret = process.env.AUTH_SECRET || process.env.RESEND_API_KEY || "chinifa-otp-hmac-secret-v1";
+      const payloadB64 = Buffer.from(JSON.stringify({ email, hash: codeHash, expiresAt })).toString("base64url");
+      const sig = crypto.createHmac("sha256", secret).update(payloadB64).digest("base64url");
+      const otpToken = `${payloadB64}.${sig}`;
 
-      // Also trigger a verification code via Resend if desired
+      otpCache.set(email, {
+        hash: codeHash,
+        code: code,
+        attempts: 0,
+        createdAt: now,
+        expiresAt: expiresAt,
+      });
+
+      let sendResult = { ok: true, devMode: false };
       try {
-        const code = generateCode();
-        otpCache.set(email, {
-          hash: crypto.createHash("sha256").update(`${email}:${code}`).digest("hex"),
-          code: code,
-          attempts: 0,
-          createdAt: Date.now(),
-          expiresAt: Date.now() + 10 * 60 * 1000,
-        });
-        await sendResendOtpEmail(email, code);
+        sendResult = await sendResendOtpEmail(email, code);
       } catch (e) {}
 
       const regProStatus = isUserPro(email);
@@ -367,7 +376,7 @@ module.exports = async (req, res) => {
         id: userId,
         email: email,
         fullName: fullName,
-        hskLevel: "HSK 1",
+        hskLevel: hskLevel,
         learningStage: 1,
         totalXp: 100,
         streak: 1,
@@ -378,6 +387,9 @@ module.exports = async (req, res) => {
 
       return res.status(200).json({
         ok: true,
+        otpToken: otpToken,
+        devMode: !!sendResult.devMode,
+        code: sendResult.devMode ? code : undefined,
         message: "ثبت‌نام با موفقیت انجام شد. کد فعال‌سازی به ایمیل ارسال گردید.",
         token: token,
         id: userId,

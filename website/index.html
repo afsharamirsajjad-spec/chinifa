@@ -1039,15 +1039,63 @@
 
     .modal-input {
       width: 100%;
-      height: 48px;
+      height: 46px;
       padding: 0 14px;
       border-radius: 14px;
       border: 1.5px solid rgba(168, 201, 160, 0.7);
       background: var(--white);
       font-family: inherit;
-      font-size: 15px;
+      font-size: 14.5px;
       color: var(--brown-dark);
-      margin-bottom: 14px;
+      margin-bottom: 12px;
+    }
+
+    .modal-tabs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      background: rgba(16, 185, 129, 0.08);
+      padding: 5px;
+      border-radius: 14px;
+      margin-bottom: 18px;
+    }
+
+    .modal-tab-btn {
+      height: 38px;
+      border: none;
+      border-radius: 10px;
+      background: transparent;
+      color: var(--brown);
+      font-size: 13.5px;
+      font-weight: 700;
+      transition: all 0.2s;
+    }
+
+    .modal-tab-btn.is-active {
+      background: #FFFFFF;
+      color: var(--leaf-dark);
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+    }
+
+    .modal-label {
+      display: block;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--brown);
+      margin-bottom: 5px;
+    }
+
+    .modal-switch-link {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-top: 12px;
+      background: none;
+      border: none;
+      color: var(--leaf-dark);
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: underline;
     }
 
     .modal-alert {
@@ -1520,25 +1568,71 @@
     </div>
   </footer>
 
-  <!-- مودال ورود یکپارچه با ایمیل (Resend OTP) -->
+  <!-- مودال ورود و ثبت‌نام کامل با تایید ایمیل (Resend OTP) -->
   <div class="modal-backdrop" id="toon-auth-modal" hidden>
     <div class="modal-card" role="dialog" aria-modal="true">
       <button type="button" class="modal-close" id="toon-modal-close" aria-label="بستن">✕</button>
-      <div class="text-center" style="margin-bottom:20px;">
-        <div class="toon-logo-mark han" style="margin:0 auto 12px;">龙</div>
-        <h3 style="margin:0 0 4px;font-size:20px;font-weight:900;">ورود به چینی‌فا</h3>
-        <p style="margin:0;font-size:13px;color:var(--brown-light);">ایمیل خود را برای دریافت کد تایید ۶ رقمی وارد کنید</p>
+      <div class="text-center" style="margin-bottom:16px;">
+        <div class="toon-logo-mark han" style="margin:0 auto 10px;">龙</div>
+        <h3 style="margin:0 0 4px;font-size:20px;font-weight:900;" id="toon-modal-title">حساب کاربری چینی‌فا</h3>
+        <p style="margin:0;font-size:12.5px;color:var(--brown-light);" id="toon-modal-sub">ورود یا ساخت حساب برای شروع یادگیری در وب‌اپ</p>
       </div>
 
-      <form id="toon-otp-req">
-        <input type="email" id="toon-email" class="modal-input" placeholder="name@example.com" required dir="ltr">
-        <button type="submit" class="btn-pill btn-sage" style="width:100%;height:48px;" id="toon-send-btn">ارسال کد تایید به ایمیل</button>
-      </form>
+      <div class="modal-tabs" id="toon-modal-tabs">
+        <button type="button" class="modal-tab-btn is-active" data-mtab="login">ورود</button>
+        <button type="button" class="modal-tab-btn" data-mtab="register">ثبت‌نام کامل</button>
+      </div>
 
+      <!-- تب ۱: ورود (کد ایمیل یا رمز عبور) -->
+      <div id="mtab-login">
+        <form id="toon-otp-req">
+          <label class="modal-label" for="toon-email">آدرس ایمیل</label>
+          <input type="email" id="toon-email" class="modal-input" placeholder="name@example.com" required dir="ltr">
+          <button type="submit" class="btn-pill btn-sage" style="width:100%;height:46px;" id="toon-send-btn">ارسال کد تایید به ایمیل</button>
+          <button type="button" class="modal-switch-link" id="toon-to-pass">ورود با رمز عبور</button>
+        </form>
+
+        <form id="toon-pass-form" hidden>
+          <label class="modal-label" for="toon-login-email">ایمیل</label>
+          <input type="email" id="toon-login-email" class="modal-input" placeholder="name@example.com" required dir="ltr">
+          <label class="modal-label" for="toon-login-pass">رمز عبور</label>
+          <input type="password" id="toon-login-pass" class="modal-input" placeholder="••••••••" required dir="ltr">
+          <button type="submit" class="btn-pill btn-sage" style="width:100%;height:46px;" id="toon-pass-btn">ورود به وب‌اپ</button>
+          <button type="button" class="modal-switch-link" id="toon-to-otp">ورود سریع با کد ایمیل</button>
+        </form>
+      </div>
+
+      <!-- تب ۲: ثبت‌نام کامل -->
+      <div id="mtab-register" hidden>
+        <form id="toon-reg-form">
+          <label class="modal-label" for="reg-name">نام و نام خانوادگی</label>
+          <input type="text" id="reg-name" class="modal-input" placeholder="مثلاً: سارا محمدی" required>
+
+          <label class="modal-label" for="reg-email">آدرس ایمیل</label>
+          <input type="email" id="reg-email" class="modal-input" placeholder="name@example.com" required dir="ltr">
+
+          <label class="modal-label" for="reg-pass">رمز عبور (حداقل ۶ کاراکتر)</label>
+          <input type="password" id="reg-pass" class="modal-input" placeholder="••••••••" minlength="6" required dir="ltr">
+
+          <label class="modal-label" for="reg-level">سطح فعلی شما</label>
+          <select id="reg-level" class="modal-input">
+            <option value="HSK 1">مبتدی (شروع از صفر · HSK 1)</option>
+            <option value="HSK 2">آشنا با مقدمات (HSK 2)</option>
+            <option value="HSK 3">متوسط (HSK 3)</option>
+            <option value="HSK 4">بالاتر از متوسط (HSK 4)</option>
+            <option value="HSK 5">پیشرفته (HSK 5)</option>
+          </select>
+
+          <button type="submit" class="btn-pill btn-sage" style="width:100%;height:46px;" id="toon-reg-btn">ثبت‌نام و ارسال کد تایید</button>
+        </form>
+      </div>
+
+      <!-- مرحله تایید کد ۶ رقمی (مشترک برای ورود و ثبت‌نام) -->
       <form id="toon-otp-ver" hidden>
-        <p style="font-size:12.5px;color:var(--leaf-dark);font-weight:700;margin:0 0 10px;">کد ارسال‌شده به <span id="toon-sent-email" dir="ltr"></span>:</p>
+        <p style="font-size:12.5px;color:var(--leaf-dark);font-weight:700;margin:0 0 10px;">کد ۶ رقمی ارسال‌شده به <span id="toon-sent-email" dir="ltr"></span>:</p>
         <input type="text" id="toon-code" class="modal-input" placeholder="••••••" maxlength="6" inputmode="numeric" required dir="ltr" style="text-align:center;font-size:22px;font-weight:900;letter-spacing:8px;">
-        <button type="submit" class="btn-pill btn-sage" style="width:100%;height:48px;" id="toon-ver-btn">تایید و ورود</button>
+        <button type="submit" class="btn-pill btn-sage" style="width:100%;height:46px;" id="toon-ver-btn">تایید و ورود به وب‌اپ</button>
+        <button type="button" class="modal-switch-link" id="toon-back-edit">تغییر ایمیل / بازگشت</button>
       </form>
 
       <div class="modal-alert" id="toon-alert" hidden></div>
@@ -1563,10 +1657,15 @@
       var userDd = document.getElementById('toon-user-dd');
       var logoutBtn = document.getElementById('toon-logout-btn');
       var closeBtn = document.getElementById('toon-modal-close');
+      var tabsWrap = document.getElementById('toon-modal-tabs');
+      var mtabLogin = document.getElementById('mtab-login');
+      var mtabReg = document.getElementById('mtab-register');
       var reqForm = document.getElementById('toon-otp-req');
+      var passForm = document.getElementById('toon-pass-form');
+      var regForm = document.getElementById('toon-reg-form');
       var verForm = document.getElementById('toon-otp-ver');
       var alertEl = document.getElementById('toon-alert');
-      var curEmail = '', curToken = '';
+      var curEmail = '', curToken = '', curPendingProfile = null;
 
       function getAppUrl() {
         return location.pathname.indexOf('/website/') !== -1 ? '../app/index.html' : '/app/index.html';
@@ -1596,6 +1695,34 @@
       }
       syncAuthUI();
 
+      function finishLoginAndGoApp(data) {
+        var userObj = Object.assign({}, data.user || {}, curPendingProfile || {});
+        if (data.token) localStorage.setItem('chinifa_auth_token', data.token);
+        if (userObj && userObj.email) {
+          localStorage.setItem('chinifa_auth_user', JSON.stringify(userObj));
+          try {
+            var cs = JSON.parse(localStorage.getItem('cheh-chin-state') || '{}');
+            cs.signedIn = true;
+            cs.username = userObj.fullName || userObj.email;
+            cs.email = userObj.email;
+            cs.accountId = userObj.id;
+            localStorage.setItem('cheh-chin-state', JSON.stringify(cs));
+
+            var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}');
+            v1.userName = userObj.fullName;
+            v1.nick = userObj.fullName;
+            v1.userEmail = userObj.email;
+            if (userObj.hskLevel) v1.level = String(userObj.hskLevel).toLowerCase().replace(/\s+/g, '');
+            v1.onboarded = true;
+            v1.bootstrapped = true;
+            localStorage.setItem('chinifa.v1', JSON.stringify(v1));
+          } catch (err) {}
+        }
+        syncAuthUI();
+        showAlert('خوش آمدید! در حال انتقال به وب‌اپلیکیشن چینی‌فا... 🌸', false);
+        setTimeout(function() { window.location.href = getAppUrl(); }, 650);
+      }
+
       if (userPill && userDd) {
         userPill.addEventListener('click', function(e) { e.stopPropagation(); userDd.hidden = !userDd.hidden; });
         document.addEventListener('click', function(e) { if (userWrap && !userWrap.contains(e.target)) userDd.hidden = true; });
@@ -1620,8 +1747,34 @@
         alertEl.innerHTML = msg;
       }
 
+      function switchModalTab(tabName) {
+        if (tabsWrap) tabsWrap.hidden = false;
+        if (verForm) verForm.hidden = true;
+        if (alertEl) alertEl.hidden = true;
+        document.querySelectorAll('.modal-tab-btn').forEach(function(b) {
+          b.classList.toggle('is-active', b.getAttribute('data-mtab') === tabName);
+        });
+        if (mtabLogin) mtabLogin.hidden = tabName !== 'login';
+        if (mtabReg) mtabReg.hidden = tabName !== 'register';
+      }
+
+      document.querySelectorAll('.modal-tab-btn').forEach(function(b) {
+        b.addEventListener('click', function() { switchModalTab(b.getAttribute('data-mtab')); });
+      });
+
+      var toPassBtn = document.getElementById('toon-to-pass');
+      var toOtpBtn = document.getElementById('toon-to-otp');
+      var backEditBtn = document.getElementById('toon-back-edit');
+      if (toPassBtn) toPassBtn.addEventListener('click', function() { reqForm.hidden = true; passForm.hidden = false; alertEl.hidden = true; });
+      if (toOtpBtn) toOtpBtn.addEventListener('click', function() { passForm.hidden = true; reqForm.hidden = false; alertEl.hidden = true; });
+      if (backEditBtn) backEditBtn.addEventListener('click', function() { switchModalTab(curPendingProfile ? 'register' : 'login'); });
+
       if (authBtn) authBtn.addEventListener('click', function() {
-        modal.hidden = false; reqForm.hidden = false; verForm.hidden = true; alertEl.hidden = true;
+        modal.hidden = false;
+        curPendingProfile = null;
+        if (reqForm) reqForm.hidden = false;
+        if (passForm) passForm.hidden = true;
+        switchModalTab('login');
       });
       if (closeBtn) closeBtn.addEventListener('click', function() { modal.hidden = true; });
       if (modal) modal.addEventListener('click', function(e) { if (e.target === modal) modal.hidden = true; });
@@ -1638,12 +1791,64 @@
           });
           var d = await r.json();
           if (!r.ok) throw new Error(d.message || 'خطا در ارسال کد');
-          curEmail = email; curToken = d.otpToken || '';
-          reqForm.hidden = true; verForm.hidden = false;
+          curEmail = email; curToken = d.otpToken || ''; curPendingProfile = null;
+          if (tabsWrap) tabsWrap.hidden = true;
+          if (mtabLogin) mtabLogin.hidden = true;
+          if (mtabReg) mtabReg.hidden = true;
+          verForm.hidden = false;
           document.getElementById('toon-sent-email').textContent = email;
           showAlert(d.devMode && d.code ? 'کد آزمایشی: <b>' + d.code + '</b>' : 'کد تایید به ایمیلتان ارسال شد.', false);
         } catch (err) { showAlert(err.message, true); }
         finally { btn.disabled = false; btn.textContent = 'ارسال کد تایید به ایمیل'; }
+      });
+
+      if (regForm) regForm.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var name = document.getElementById('reg-name').value.trim();
+        var email = document.getElementById('reg-email').value.trim().toLowerCase();
+        var pass = document.getElementById('reg-pass').value;
+        var level = document.getElementById('reg-level').value;
+        var btn = document.getElementById('toon-reg-btn');
+        btn.disabled = true; btn.textContent = 'در حال ثبت‌نام...';
+        try {
+          var r = await fetch('/api/auth?action=register', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ name: name, email: email, password: pass, hskLevel: level })
+          });
+          var d = await r.json();
+          if (!r.ok) throw new Error(d.message || 'خطا در ثبت‌نام');
+          curEmail = email;
+          curToken = d.otpToken || '';
+          curPendingProfile = { fullName: name, hskLevel: level };
+          if (tabsWrap) tabsWrap.hidden = true;
+          if (mtabLogin) mtabLogin.hidden = true;
+          if (mtabReg) mtabReg.hidden = true;
+          verForm.hidden = false;
+          document.getElementById('toon-sent-email').textContent = email;
+          showAlert(d.devMode && d.code ? 'ثبت‌نام انجام شد! کد تایید: <b>' + d.code + '</b>' : 'ثبت‌نام انجام شد! کد تایید به ایمیلتان ارسال گردید.', false);
+        } catch (err) { showAlert(err.message, true); }
+        finally { btn.disabled = false; btn.textContent = 'ثبت‌نام و ارسال کد تایید'; }
+      });
+
+      if (passForm) passForm.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var email = document.getElementById('toon-login-email').value.trim().toLowerCase();
+        var pass = document.getElementById('toon-login-pass').value;
+        var btn = document.getElementById('toon-pass-btn');
+        btn.disabled = true; btn.textContent = 'در حال ورود...';
+        try {
+          var r = await fetch('/api/auth?action=login', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, password: pass })
+          });
+          var d = await r.json();
+          if (!r.ok) throw new Error(d.message || 'ایمیل یا رمز عبور اشتباه است');
+          curPendingProfile = null;
+          finishLoginAndGoApp(d);
+        } catch (err) {
+          showAlert(err.message, true);
+          btn.disabled = false; btn.textContent = 'ورود به وب‌اپ';
+        }
       });
 
       if (verForm) verForm.addEventListener('submit', async function(e) {
@@ -1654,35 +1859,19 @@
         try {
           var r = await fetch('/api/auth?action=verify-otp', {
             method: 'POST', headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email: curEmail, code: code, otpToken: curToken })
+            body: JSON.stringify({
+              email: curEmail,
+              code: code,
+              otpToken: curToken,
+              name: curPendingProfile ? curPendingProfile.fullName : ''
+            })
           });
           var d = await r.json();
           if (!r.ok) throw new Error(d.message || 'کد اشتباه است');
-          if (d.token) localStorage.setItem('chinifa_auth_token', d.token);
-          if (d.user) {
-            localStorage.setItem('chinifa_auth_user', JSON.stringify(d.user));
-            try {
-              var cs = JSON.parse(localStorage.getItem('cheh-chin-state') || '{}');
-              cs.signedIn = true;
-              cs.username = d.user.fullName || d.user.email;
-              cs.email = d.user.email;
-              cs.accountId = d.user.id;
-              localStorage.setItem('cheh-chin-state', JSON.stringify(cs));
-
-              var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}');
-              v1.userName = d.user.fullName;
-              v1.userEmail = d.user.email;
-              v1.onboarded = true;
-              v1.bootstrapped = true;
-              localStorage.setItem('chinifa.v1', JSON.stringify(v1));
-            } catch (err) {}
-          }
-          syncAuthUI();
-          showAlert('خوش آمدید! در حال انتقال به وب‌اپلیکیشن چینی‌فا... 🌸', false);
-          setTimeout(function() { window.location.href = getAppUrl(); }, 700);
+          finishLoginAndGoApp(d);
         } catch (err) {
           showAlert(err.message, true);
-          btn.disabled = false; btn.textContent = 'تایید و ورود';
+          btn.disabled = false; btn.textContent = 'تایید و ورود به وب‌اپ';
         }
       });
     })();
