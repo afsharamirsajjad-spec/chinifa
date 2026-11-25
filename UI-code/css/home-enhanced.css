@@ -833,153 +833,7 @@
 }
 
 
-/* ════════════════════════════════════════════════════════════
-   chinifa App Splash Screen (لودینگ اختصاصی با اژدها و افکت متن)
-   ════════════════════════════════════════════════════════════ */
-.chinifa-splash {
-  position: absolute !important;
-  inset: 0 !important;
-  z-index: 999999 !important;
-  background: radial-gradient(circle at 50% 38%, #10B981 0%, #059669 45%, #064E3B 100%) !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-  overflow: hidden !important;
-  pointer-events: auto !important;
-  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
-}
-
-.chinifa-splash.is-out {
-  opacity: 0 !important;
-  transform: scale(1.04) !important;
-  pointer-events: none !important;
-  visibility: hidden !important;
-}
-
-.chinifa-splash-bg {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-}
-
-.chinifa-splash-clouds {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 240px;
-  background: url(../art/clouds.webp) repeat-x center top / 340px auto;
-  opacity: 0.3;
-  animation: cloudDrift 24s linear infinite;
-}
-
-@keyframes cloudDrift {
-  from { background-position: 0 0; }
-  to { background-position: 340px 0; }
-}
-
-.chinifa-splash-rays {
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  width: 540px;
-  height: 540px;
-  margin-left: -270px;
-  margin-top: -270px;
-  border-radius: 50%;
-  background: repeating-conic-gradient(from 0deg, rgba(255, 255, 255, 0.09) 0 12deg, transparent 12deg 24deg);
-  animation: splashRaySpin 22s linear infinite;
-}
-
-@keyframes splashRaySpin {
-  to { transform: rotate(360deg); }
-}
-
-.chinifa-splash-center {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-/* اژدهای اصلی چی‌نی‌فا در صفحه اسپلش با ظاهر پایدار و بدون پرش */
-.chinifa-mascot-container {
-  position: relative !important;
-  width: 200px !important;
-  height: 246px !important;
-  margin-bottom: 14px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  opacity: 1 !important;
-  animation: splashDragonFloat 2.6s ease-in-out infinite alternate !important;
-}
-
-@keyframes splashDragonFloat {
-  0% { transform: translateY(0) scale(1); }
-  50% { transform: translateY(-7px) scale(1.02); }
-  100% { transform: translateY(0) scale(1); }
-}
-
-.chinifa-splash-glow {
-  position: absolute !important;
-  left: 50% !important;
-  top: 50% !important;
-  width: 240px !important;
-  height: 240px !important;
-  margin-left: -120px !important;
-  margin-top: -120px !important;
-  border-radius: 50% !important;
-  background: radial-gradient(circle, rgba(254, 240, 138, 0.55) 0%, rgba(16, 185, 129, 0) 70%) !important;
-  animation: splashGlowPulse 2.2s ease-in-out infinite alternate !important;
-  pointer-events: none !important;
-}
-
-@keyframes splashGlowPulse {
-  from { transform: scale(0.9); opacity: 0.6; }
-  to { transform: scale(1.18); opacity: 1; }
-}
-
-.chinifa-splash-dragon-img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: contain !important;
-  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.38)) !important;
-  pointer-events: none !important;
-  display: block !important;
-  opacity: 1 !important;
-}
-
-/* عنوان و زیرعنوان کلمه chinifa - نمایش فوری و پایدار بدون محو بودن */
-.chinifa-splash-title {
-  display: block !important;
-  direction: ltr !important;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif !important;
-  font-size: 52px !important;
-  font-weight: 900 !important;
-  letter-spacing: -1.5px !important;
-  line-height: 1 !important;
-  color: #FFFFFF !important;
-  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.35), 0 0 24px rgba(254, 240, 138, 0.7) !important;
-  opacity: 1 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  text-align: center !important;
-}
-
-.chinifa-splash-sub {
-  margin-top: 10px !important;
-  font-size: 15px !important;
-  font-weight: 700 !important;
-  color: rgba(255, 255, 255, 0.94) !important;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35) !important;
-  letter-spacing: 0.3px !important;
-  opacity: 1 !important;
-  text-align: center !important;
-}
+/* chinifa App Splash Screen — handled inline in index.html for 0ms first paint */
 
 /* ══════════════════════════════════════════════════════════════════════
    استایل‌های کارت درس صفر (پیش‌نیاز اختیاری با دکمه رد کردن)
@@ -1212,4 +1066,184 @@
   font-weight: 700 !important;
   cursor: pointer !important;
   text-decoration: underline !important;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   بازطراحی اختصاصی وب‌اپلیکیشن برای نمایشگرهای PC و لپ‌تاپ
+   ════════════════════════════════════════════════════════════ */
+@media (min-width: 960px) {
+  /* پس‌زمینه لطیف و روشن برای کل محیط دسکتاپ */
+  .app,
+  .screen-host {
+    background: #F4FAF7 !important;
+  }
+
+  /* فضای اصلی با فاصله از سایدبار راست (RTL) */
+  #screen-host {
+    padding-right: 224px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* تبدیل نوار پایین موبایل به سایدبار عمودی حرفه‌ای در سمت راست (RTL) */
+  #tabbar.tabbar {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: auto !important;
+    width: 224px !important;
+    max-width: 224px !important;
+    height: 100vh !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+    padding: 28px 14px !important;
+    background: rgba(255, 255, 255, 0.98) !important;
+    border-top: none !important;
+    border-left: 1px solid rgba(16, 185, 129, 0.14) !important;
+    box-shadow: -4px 0 24px rgba(15, 23, 42, 0.04) !important;
+    z-index: 90 !important;
+  }
+
+  #tabbar.tabbar::before {
+    content: "chinifa · چینی‌فا";
+    display: block;
+    font-size: 17px;
+    font-weight: 900;
+    color: #059669;
+    text-align: center;
+    padding: 6px 10px 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #F1F5F9;
+  }
+
+  #tabbar .kan-tab-btn {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 48px !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 12px !important;
+    padding: 0 14px !important;
+    border-radius: 14px !important;
+    margin: 0 !important;
+  }
+
+  #tabbar .kan-tab-btn.active {
+    background: #ECFDF5 !important;
+    color: #059669 !important;
+  }
+
+  #tabbar .kan-tab-icon-pill {
+    width: 32px !important;
+    height: 32px !important;
+    margin: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  #tabbar .kan-tab-label {
+    font-size: 14px !important;
+    font-weight: 800 !important;
+  }
+
+  /* قاب استاندارد نقشه راه هوم روی PC (جلوگیری از کشیدگی و تار شدن تصویر) */
+  .kan-home-top-bar {
+    max-width: 900px !important;
+    margin: 16px auto 0 !important;
+    border-radius: 20px !important;
+    border: 1px solid rgba(226, 232, 240, 0.85) !important;
+    padding: 12px 22px !important;
+  }
+
+  .kan-pro-roadmap-banner {
+    max-width: 900px !important;
+    margin: 14px auto 0 !important;
+    border-radius: 20px !important;
+  }
+
+  .station-section {
+    max-width: 900px !important;
+    margin: 18px auto 0 !important;
+    border-radius: 28px !important;
+    overflow: hidden !important;
+    box-shadow: 0 16px 42px rgba(15, 23, 42, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.9) !important;
+  }
+
+  .station-section:last-child {
+    margin-bottom: 48px !important;
+  }
+
+  .station-full-bg-art {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center top !important;
+  }
+
+  .station-content-layer {
+    max-width: 100% !important;
+    padding: 16px 28px 32px !important;
+  }
+
+  .station-top-header-area {
+    height: 230px !important;
+  }
+
+  .station-nodes-flow {
+    max-width: 780px !important;
+    margin: 0 auto !important;
+  }
+
+  .lesson-card-item {
+    max-width: 370px !important;
+    padding: 14px 18px !important;
+    border-radius: 20px !important;
+  }
+
+  .card-title-fa {
+    font-size: 15px !important;
+  }
+
+  .card-hanzi-line {
+    font-size: 13px !important;
+  }
+
+  .milestone-review-box {
+    max-width: 780px !important;
+    margin: 26px auto 8px !important;
+  }
+
+  .kan-home-roadmap {
+    padding-bottom: 56px !important;
+  }
+
+  /* سایر صفحات (کاوش، واژگان، کتابخانه، من، درس‌ها) با عرض متعادل */
+  .scr:not(.scr-home):not(.hm):not(.hm--jr) {
+    padding: 24px 32px 64px !important;
+    box-sizing: border-box !important;
+  }
+
+  .scr:not(.scr-home):not(.hm):not(.hm--jr) > * {
+    max-width: 880px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+/* مرکزچین کردن تمام مودال‌ها/شیت‌ها در PC تا ۱۹۲۰px کش نیایند */
+@media (min-width: 768px) {
+  .sheet,
+  .ac-sheet {
+    max-width: 540px !important;
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
+    border-radius: 24px !important;
+    bottom: 24px !important;
+    box-shadow: 0 24px 64px rgba(15, 23, 42, 0.22) !important;
+  }
 }
