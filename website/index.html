@@ -1135,113 +1135,18 @@
               <strong id="dd-name">کاربر چینی‌فا</strong>
               <span id="dd-email">user@example.com</span>
             </div>
-            <a href="#toon-dash" class="user-dd-item" id="dd-goto-dash">پیشخوان و تنظیمات</a>
-            <a href="../app/index.html" target="_blank" class="user-dd-item">ورود به اپلیکیشن وب</a>
+            <a href="/app/index.html" class="user-dd-item">ورود به وب‌اپلیکیشن (نسخه آیفون و وب)</a>
             <button type="button" class="user-dd-item is-danger" id="toon-logout-btn">خروج از حساب</button>
           </div>
         </div>
 
-        <a href="../app/index.html" target="_blank" class="btn-pill btn-sage">ورود به وب‌اپ</a>
+        <a href="/app/index.html" class="btn-pill btn-sage">ورود به وب‌اپ</a>
         <button type="button" class="mobile-menu-btn" id="toon-menu-btn" aria-label="منو">
           <span></span><span></span><span></span>
         </button>
       </div>
     </div>
   </header>
-
-  <!-- پیشخوان کامل کاربر لاگین‌شده (دقیقاً مشابه ProfileView در Chinese-Toon) -->
-  <section class="toon-dash" id="toon-dash" hidden>
-    <div class="container">
-      <div class="ct-profile-stack">
-
-        <!-- کارت ۱: هدر حساب کاربری (نام، ایمیل و خروج) -->
-        <div class="ct-card">
-          <div class="ct-card-head" style="margin-bottom:0;">
-            <div>
-              <h2 style="margin:0;font-size:21px;font-weight:900;color:var(--brown-dark);">
-                سلام، <span id="dash-name">دوست عزیز</span> 👋
-              </h2>
-              <div style="font-size:13px;color:var(--brown-light);margin-top:4px;" id="dash-email" dir="ltr"></div>
-            </div>
-            <div style="display:flex;gap:10px;flex-wrap:wrap;">
-              <a href="../app/index.html" target="_blank" class="btn-pill btn-sage">ادامه یادگیری در اپلیکیشن وب</a>
-              <button type="button" class="btn-pill btn-cream-outline" id="dash-logout-btn">خروج از حساب</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- کارت ۲: یادگیری من (MyLearningSection — انتخاب سطح HSK و هدف روزانه) -->
-        <div class="ct-card">
-          <div class="ct-card-head">
-            <h3 class="ct-card-title"><span class="ct-icon-box">📈</span><span>یادگیری من و تنظیمات HSK</span></h3>
-          </div>
-          <div class="dash-grid">
-            <div class="dash-box">
-              <div class="dash-box-title">🎯 سطح آموزشی فعال</div>
-              <div class="dash-pills" id="dash-hsk-pills">
-                <button type="button" class="dash-pill is-active" data-hsk="hsk1">HSK 1</button>
-                <button type="button" class="dash-pill" data-hsk="hsk2">HSK 2</button>
-                <button type="button" class="dash-pill" data-hsk="hsk3">HSK 3</button>
-                <button type="button" class="dash-pill" data-hsk="hsk4">HSK 4</button>
-                <button type="button" class="dash-pill" data-hsk="hsk5">HSK 5</button>
-              </div>
-            </div>
-
-            <div class="dash-box">
-              <div class="dash-box-title">⏱️ هدف مطالعه روزانه</div>
-              <div class="dash-pills" id="dash-goal-pills">
-                <button type="button" class="dash-pill" data-goal="5">۵ دقیقه</button>
-                <button type="button" class="dash-pill is-active" data-goal="10">۱۰ دقیقه</button>
-                <button type="button" class="dash-pill" data-goal="15">۱۵ دقیقه</button>
-                <button type="button" class="dash-pill" data-goal="20">۲۰ دقیقه</button>
-              </div>
-            </div>
-
-            <div class="dash-box">
-              <div class="dash-box-title">✏️ ویرایش نام پروفایل</div>
-              <form class="dash-name-row" id="dash-name-form">
-                <input type="text" id="dash-name-input" placeholder="نام شما..." maxlength="28">
-                <button type="submit" class="btn-pill btn-sage" style="height:36px;padding:0 14px;font-size:12.5px;">ذخیره</button>
-              </form>
-            </div>
-          </div>
-          <div class="dash-msg" id="dash-msg" hidden></div>
-        </div>
-
-        <!-- کارت ۳: کلاس‌ها، اشتراک‌ها و اعلان‌ها -->
-        <div class="ct-two-col">
-          <div class="ct-card">
-            <div class="ct-card-head">
-              <h3 class="ct-card-title"><span class="ct-icon-box">🎓</span><span>دوره‌ها و تمرین امروز</span></h3>
-            </div>
-            <div class="ct-list-item">
-              <strong>دوره فعال: زبان چینی استاندارد (HSK 1 تا 5)</strong>
-              <span>دسترسی کامل به نقشه راه ۵ ایستگاه، رسم نویسه‌ها و تلفظ بومی.</span>
-            </div>
-            <div class="ct-list-item">
-              <strong>تکلیف پیشنهادی امروز</strong>
-              <span>۱۰ دقیقه تمرین الفبای پین‌یین و مرور مکالمه درس اول در اپلیکیشن.</span>
-            </div>
-          </div>
-
-          <div class="ct-card">
-            <div class="ct-card-head">
-              <h3 class="ct-card-title"><span class="ct-icon-box">🔔</span><span>اعلان‌ها و وضعیت همگام‌سازی</span></h3>
-            </div>
-            <div class="ct-list-item">
-              <strong>حساب کاربری با ایمیل تایید شده است</strong>
-              <span>پیشرفت شما به‌صورت خودکار بین وب‌سایت و اپلیکیشن اندروید چینی‌فا همگام می‌شود.</span>
-            </div>
-            <div class="ct-list-item">
-              <strong>دریافت نسخه موبایل</strong>
-              <span>برای تمرین آفلاین می‌توانید فایل APK یا نسخه کافه بازار را نصب کنید.</span>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
 
   <!-- Hero — سبک ادیتوریال روشن و جذاب تمام فارسی -->
   <section class="toon-hero">
@@ -1330,17 +1235,17 @@
             </div>
           </div>
           <div class="app-hl-item">
-            <span class="app-hl-ico">📶</span>
+            <span class="app-hl-ico">🍎</span>
             <div>
-              <strong>۱۰۰٪ آفلاین و همگام</strong>
-              <span>قابل استفاده روی وب و اندروید بدون فیلترشکن</span>
+              <strong>نسخه وب‌اپ اختصاصی آیفون (iOS)</strong>
+              <span>قابل نصب روی صفحه اصلی آیفون (Add to Home Screen)</span>
             </div>
           </div>
         </div>
 
         <div class="app-dl-buttons">
-          <a href="../app/index.html" target="_blank" class="btn-pill btn-sage">اجرای آنلاین وب‌اپلیکیشن</a>
-          <a href="../Chinifa.apk" download class="btn-pill btn-cream-outline">دانلود مستقیم اندروید (APK)</a>
+          <a href="/app/index.html" class="btn-pill btn-sage">ورود به وب‌اپ (نسخه آیفون و وب)</a>
+          <a href="/Chinifa.apk" download class="btn-pill btn-cream-outline">دانلود مستقیم اندروید (APK)</a>
           <a href="https://cafebazaar.ir/app/com.chinifa.app" target="_blank" class="btn-pill btn-cream-outline">دریافت از کافه بازار</a>
         </div>
       </div>
@@ -1657,12 +1562,15 @@
       var userPill = document.getElementById('toon-user-pill');
       var userDd = document.getElementById('toon-user-dd');
       var logoutBtn = document.getElementById('toon-logout-btn');
-      var dash = document.getElementById('toon-dash');
       var closeBtn = document.getElementById('toon-modal-close');
       var reqForm = document.getElementById('toon-otp-req');
       var verForm = document.getElementById('toon-otp-ver');
       var alertEl = document.getElementById('toon-alert');
       var curEmail = '', curToken = '';
+
+      function getAppUrl() {
+        return location.pathname.indexOf('/website/') !== -1 ? '../app/index.html' : '/app/index.html';
+      }
 
       function getSavedUser() {
         try { return JSON.parse(localStorage.getItem('chinifa_auth_user') || 'null'); } catch (e) { return null; }
@@ -1673,7 +1581,6 @@
         if (u && u.email) {
           if (authBtn) authBtn.hidden = true;
           if (userWrap) userWrap.hidden = false;
-          if (dash) dash.hidden = false;
 
           var name = u.fullName || u.email.split('@')[0];
           var av = name.charAt(0).toUpperCase() || 'A';
@@ -1682,95 +1589,30 @@
           if ((el = document.getElementById('toon-user-av'))) el.textContent = av;
           if ((el = document.getElementById('dd-name'))) el.textContent = name;
           if ((el = document.getElementById('dd-email'))) el.textContent = u.email;
-          if ((el = document.getElementById('dash-name'))) el.textContent = name;
-          if ((el = document.getElementById('dash-email'))) el.textContent = u.email;
-          var ni = document.getElementById('dash-name-input');
-          if (ni && document.activeElement !== ni) ni.value = name;
-
-          var v1 = {};
-          try { v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}'); } catch (e) {}
-          var lvl = (v1.level || u.hskLevel || 'hsk1').toLowerCase().replace(/\s+/g, '');
-          var goal = String(v1.goal || u.dailyGoal || 10);
-          document.querySelectorAll('#dash-hsk-pills .dash-pill').forEach(function(p) {
-            p.classList.toggle('is-active', p.getAttribute('data-hsk') === lvl);
-          });
-          document.querySelectorAll('#dash-goal-pills .dash-pill').forEach(function(p) {
-            p.classList.toggle('is-active', p.getAttribute('data-goal') === goal);
-          });
         } else {
           if (authBtn) authBtn.hidden = false;
           if (userWrap) userWrap.hidden = true;
-          if (dash) dash.hidden = true;
         }
       }
       syncAuthUI();
-
-      function showDashMsg(txt) {
-        var m = document.getElementById('dash-msg');
-        if (!m) return;
-        m.hidden = false; m.textContent = txt;
-        clearTimeout(m._t); m._t = setTimeout(function() { m.hidden = true; }, 2500);
-      }
-
-      document.querySelectorAll('#dash-hsk-pills .dash-pill').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-          var lvl = btn.getAttribute('data-hsk');
-          try {
-            var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}'); v1.level = lvl;
-            localStorage.setItem('chinifa.v1', JSON.stringify(v1));
-            var u = getSavedUser() || {}; u.hskLevel = lvl.toUpperCase();
-            localStorage.setItem('chinifa_auth_user', JSON.stringify(u));
-          } catch (e) {}
-          syncAuthUI();
-          showDashMsg('✓ سطح آموزشی روی ' + lvl.toUpperCase() + ' ذخیره شد.');
-        });
-      });
-
-      document.querySelectorAll('#dash-goal-pills .dash-pill').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-          var g = parseInt(btn.getAttribute('data-goal') || '10', 10);
-          try {
-            var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}'); v1.goal = g;
-            localStorage.setItem('chinifa.v1', JSON.stringify(v1));
-            var u = getSavedUser() || {}; u.dailyGoal = g;
-            localStorage.setItem('chinifa_auth_user', JSON.stringify(u));
-          } catch (e) {}
-          syncAuthUI();
-          showDashMsg('✓ هدف مطالعه روزانه روی ' + g + ' دقیقه تنظیم شد.');
-        });
-      });
-
-      var nameForm = document.getElementById('dash-name-form');
-      if (nameForm) nameForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        var val = (document.getElementById('dash-name-input').value || '').trim();
-        if (!val) return;
-        try {
-          var u = getSavedUser() || {}; u.fullName = val;
-          localStorage.setItem('chinifa_auth_user', JSON.stringify(u));
-          var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}'); v1.userName = val; v1.nick = val;
-          localStorage.setItem('chinifa.v1', JSON.stringify(v1));
-        } catch (err) {}
-        syncAuthUI();
-        showDashMsg('✓ نام پروفایل با موفقیت ذخیره شد.');
-      });
 
       if (userPill && userDd) {
         userPill.addEventListener('click', function(e) { e.stopPropagation(); userDd.hidden = !userDd.hidden; });
         document.addEventListener('click', function(e) { if (userWrap && !userWrap.contains(e.target)) userDd.hidden = true; });
       }
-      var ddGoto = document.getElementById('dd-goto-dash');
-      if (ddGoto && userDd) ddGoto.addEventListener('click', function() { userDd.hidden = true; });
 
       function doLogout() {
         localStorage.removeItem('chinifa_auth_user');
         localStorage.removeItem('chinifa_auth_token');
+        try {
+          var cs = JSON.parse(localStorage.getItem('cheh-chin-state') || '{}');
+          cs.signedIn = false; cs.username = '';
+          localStorage.setItem('cheh-chin-state', JSON.stringify(cs));
+        } catch (e) {}
         if (userDd) userDd.hidden = true;
         syncAuthUI();
       }
       if (logoutBtn) logoutBtn.addEventListener('click', doLogout);
-      var dashLogoutBtn = document.getElementById('dash-logout-btn');
-      if (dashLogoutBtn) dashLogoutBtn.addEventListener('click', doLogout);
 
       function showAlert(msg, isErr) {
         alertEl.hidden = false;
@@ -1808,7 +1650,7 @@
         e.preventDefault();
         var code = document.getElementById('toon-code').value.trim();
         var btn = document.getElementById('toon-ver-btn');
-        btn.disabled = true; btn.textContent = 'در حال بررسی...';
+        btn.disabled = true; btn.textContent = 'در حال ورود به وب‌اپ...';
         try {
           var r = await fetch('/api/auth?action=verify-otp', {
             method: 'POST', headers: { 'Content-Type': 'application/json' },
@@ -1817,12 +1659,31 @@
           var d = await r.json();
           if (!r.ok) throw new Error(d.message || 'کد اشتباه است');
           if (d.token) localStorage.setItem('chinifa_auth_token', d.token);
-          if (d.user) localStorage.setItem('chinifa_auth_user', JSON.stringify(d.user));
+          if (d.user) {
+            localStorage.setItem('chinifa_auth_user', JSON.stringify(d.user));
+            try {
+              var cs = JSON.parse(localStorage.getItem('cheh-chin-state') || '{}');
+              cs.signedIn = true;
+              cs.username = d.user.fullName || d.user.email;
+              cs.email = d.user.email;
+              cs.accountId = d.user.id;
+              localStorage.setItem('cheh-chin-state', JSON.stringify(cs));
+
+              var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}');
+              v1.userName = d.user.fullName;
+              v1.userEmail = d.user.email;
+              v1.onboarded = true;
+              v1.bootstrapped = true;
+              localStorage.setItem('chinifa.v1', JSON.stringify(v1));
+            } catch (err) {}
+          }
           syncAuthUI();
-          showAlert('خوش آمدید! ورود با موفقیت انجام شد 🌸', false);
-          setTimeout(function() { modal.hidden = true; }, 800);
-        } catch (err) { showAlert(err.message, true); }
-        finally { btn.disabled = false; btn.textContent = 'تایید و ورود'; }
+          showAlert('خوش آمدید! در حال انتقال به وب‌اپلیکیشن چینی‌فا... 🌸', false);
+          setTimeout(function() { window.location.href = getAppUrl(); }, 700);
+        } catch (err) {
+          showAlert(err.message, true);
+          btn.disabled = false; btn.textContent = 'تایید و ورود';
+        }
       });
     })();
   </script>
