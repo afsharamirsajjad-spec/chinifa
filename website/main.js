@@ -83,6 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var authAlert = document.getElementById('auth-alert');
 
   var currentOtpEmail = '';
+  var currentOtpToken = '';
   var otpTimer = null;
 
   function getSavedUser() {
@@ -314,6 +315,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!res.ok) throw new Error(data.message || 'خطا در ارسال کد تایید');
 
         currentOtpEmail = email;
+        currentOtpToken = data.otpToken || '';
         showAuthStep('otp');
 
         var sentEmailEl = document.getElementById('sent-email-display');
@@ -354,6 +356,7 @@ document.addEventListener('DOMContentLoaded', function() {
         body: JSON.stringify({ email: currentOtpEmail })
       }).then(function(r) { return r.json(); }).then(function(d) {
         if (d.ok) {
+          currentOtpToken = d.otpToken || currentOtpToken;
           startCountdown(120);
           if (d.devMode && d.code) {
             showAuthAlert('کد تایید جدید: <strong>' + d.code + '</strong>', 'info');
@@ -391,7 +394,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var res = await fetch('/api/auth?action=verify-otp', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email: currentOtpEmail, code: code })
+          body: JSON.stringify({ email: currentOtpEmail, code: code, otpToken: currentOtpToken })
         });
         var data = await res.json();
         if (!res.ok) throw new Error(data.message || 'کد وارد شده صحیح نیست.');

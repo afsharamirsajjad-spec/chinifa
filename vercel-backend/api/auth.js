@@ -97,7 +97,7 @@ async function sendResendOtpEmail(email, code) {
     return { ok: true, devMode: true };
   }
 
-  const from = process.env.RESEND_FROM || "چی‌نی‌فا <onboarding@resend.dev>";
+  const from = process.env.RESEND_FROM || "Chinifa <onboarding@resend.dev>";
   const htmlContent = `
     <!DOCTYPE html>
     <html lang="fa" dir="rtl">
@@ -195,19 +195,25 @@ module.exports = async (req, res) => {
 
       const code = generateCode();
       const codeHash = crypto.createHash("sha256").update(`${email}:${code}`).digest("hex");
+      const expiresAt = now + 10 * 60 * 1000; // 10 minutes
+      const secret = process.env.AUTH_SECRET || process.env.RESEND_API_KEY || "chinifa-otp-hmac-secret-v1";
+      const payloadB64 = Buffer.from(JSON.stringify({ email, hash: codeHash, expiresAt })).toString("base64url");
+      const sig = crypto.createHmac("sha256", secret).update(payloadB64).digest("base64url");
+      const otpToken = `${payloadB64}.${sig}`;
 
       otpCache.set(email, {
         hash: codeHash,
         code: code, // Saved for dev log comparison
         attempts: 0,
         createdAt: now,
-        expiresAt: now + 10 * 60 * 1000, // 10 minutes
+        expiresAt: expiresAt,
       });
 
       try {
         const sendResult = await sendResendOtpEmail(email, code);
         return res.status(200).json({
           ok: true,
+          otpToken: otpToken,
           message: sendResult.devMode
             ? "کد تایید آماده شد (حالت توسعه - در کنسول سرور)"
             : "کد تایید ۶ رقمی با موفقیت به ایمیل شما ارسال شد.",
@@ -229,30 +235,59 @@ module.exports = async (req, res) => {
       const email = String(body.email || "").trim().toLowerCase();
       const code = String(body.code || "").trim();
       const name = String(body.name || "").trim();
+      const otpToken = String(body.otpToken || "").trim();
 
       if (!validEmail(email) || !code || code.length !== 6) {
         return res.status(400).json({ error: "bad-params", message: "ایمیل یا کد وارد شده صحیح نیست." });
       }
 
-      const cached = otpCache.get(email);
-      if (!cached) {
-        return res.status(400).json({ error: "expired-otp", message: "کد تایید منقضی شده است. لطفاً کد جدید دریافت کنید." });
-      }
-
-      if (cached.expiresAt < Date.now()) {
-        otpCache.delete(email);
-        return res.status(400).json({ error: "expired-otp", message: "کد تایید منقضی شده است." });
-      }
-
-      if (cached.attempts >= 5) {
-        otpCache.delete(email);
-        return res.status(400).json({ error: "too-many-attempts", message: "تعداد دفعات اشتباه بیش از حد مجاز است. لطفاً کد جدید بگیرید." });
-      }
-
       const inputHash = crypto.createHash("sha256").update(`${email}:${code}`).digest("hex");
-      if (inputHash !== cached.hash) {
-        cached.attempts += 1;
-        return res.status(400).json({ error: "invalid-code", message: "کد ۶ رقمی وارد شده اشتباه است." });
+      let verified = false;
+
+      // Primary: verify stateless HMAC token (works across all Vercel serverless instances)
+      if (otpToken && otpToken.includes(".")) {
+        const parts = otpToken.split(".");
+        const payloadB64 = parts[0];
+        const sig = parts[1];
+        const secret = process.env.AUTH_SECRET || process.env.RESEND_API_KEY || "chinifa-otp-hmac-secret-v1";
+        const expectedSig = crypto.createHmac("sha256", secret).update(payloadB64).digest("base64url");
+        if (sig === expectedSig) {
+          try {
+            const parsed = JSON.parse(Buffer.from(payloadB64, "base64url").toString("utf8"));
+            if (parsed.expiresAt < Date.now()) {
+              return res.status(400).json({ error: "expired-otp", message: "کد تایید منقضی شده است." });
+            }
+            if (parsed.email === email && parsed.hash === inputHash) {
+              verified = true;
+            } else {
+              return res.status(400).json({ error: "invalid-code", message: "کد ۶ رقمی وارد شده اشتباه است." });
+            }
+          } catch (e) {}
+        }
+      }
+
+      // Fallback: check in-memory cache
+      if (!verified) {
+        const cached = otpCache.get(email);
+        if (!cached) {
+          return res.status(400).json({ error: "expired-otp", message: "کد تایید منقضی شده است. لطفاً کد جدید دریافت کنید." });
+        }
+
+        if (cached.expiresAt < Date.now()) {
+          otpCache.delete(email);
+          return res.status(400).json({ error: "expired-otp", message: "کد تایید منقضی شده است." });
+        }
+
+        if (cached.attempts >= 5) {
+          otpCache.delete(email);
+          return res.status(400).json({ error: "too-many-attempts", message: "تعداد دفعات اشتباه بیش از حد مجاز است. لطفاً کد جدید بگیرید." });
+        }
+
+        if (inputHash !== cached.hash) {
+          cached.attempts += 1;
+          return res.status(400).json({ error: "invalid-code", message: "کد ۶ رقمی وارد شده اشتباه است." });
+        }
+        verified = true;
       }
 
       // Verified successfully!

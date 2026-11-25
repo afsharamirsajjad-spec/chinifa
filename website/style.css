@@ -3126,3 +3126,275 @@ html, body {
   from { transform: translateY(36px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
 }
+
+
+/* ============================================================
+   ارتقای حرفه‌ای UI و رعایت کامل استانداردهای راست‌به‌چپ (RTL)
+   ============================================================ */
+html, body {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Vazirmatn', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #0F172A;
+  background-color: #FFFFFF;
+}
+
+/* هم‌ترازی دقیق راست‌چین برای تمام کارت‌ها، لیست‌ها و فرم‌ها */
+.feature-card,
+.station-row,
+.pricing-card,
+.faq-item,
+.auth-form,
+.form-group,
+.dropdown-header,
+.dropdown-item {
+  text-align: right;
+  direction: rtl;
+}
+
+.form-label {
+  display: block;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 6px;
+}
+
+/* آیکون داخل اینپوت در سمت راست، متن ایمیل/رمز چپ‌به‌راست تمیز */
+.input-wrap .input-icon {
+  left: auto;
+  right: 14px;
+}
+
+.input-wrap .form-input {
+  padding: 12px 42px 12px 14px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1.5px solid #E2E8F0;
+  background: #F8FAFC;
+  font-size: 14px;
+}
+
+.input-wrap .form-input[dir="ltr"] {
+  text-align: left;
+  padding: 12px 42px 12px 14px;
+}
+
+/* هدر حرفه‌ای‌تر با شیشه‌ای‌شدن ظریف */
+.site-header {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.nav-menu .nav-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.nav-menu .nav-link:hover {
+  color: #059669;
+  background: rgba(16, 185, 129, 0.08);
+}
+
+/* بخش Hero حرفه‌ای با فاصله‌گذاری متعادل و پس‌زمینه ظریف */
+.hero-section {
+  background:
+    radial-gradient(circle at 18% 25%, rgba(16, 185, 129, 0.10) 0%, transparent 45%),
+    radial-gradient(circle at 85% 20%, rgba(5, 150, 105, 0.07) 0%, transparent 40%),
+    linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 100%);
+  padding: 56px 0 64px;
+}
+
+.hero-badge {
+  background: #ECFDF5;
+  border: 1px solid #A7F3D0;
+  color: #065F46;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 6px 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  margin-bottom: 18px;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: #0F172A;
+  margin-bottom: 16px;
+}
+
+.hero-desc {
+  font-size: 16px;
+  line-height: 1.85;
+  color: #475569;
+  max-width: 520px;
+  margin-bottom: 28px;
+}
+
+/* اژدهای کنار گوشی بدون پوشاندن دکمه‌های نوار پایین موکاپ */
+@media (min-width: 769px) {
+  .floating-mascot-rig {
+    left: -82px;
+    bottom: 34px;
+    width: 112px;
+    height: 136px;
+  }
+}
+
+/* کارت‌های امکانات با استایل مدرن و تمیز */
+.features-section {
+  padding: 72px 0;
+  background: #FFFFFF;
+}
+
+.feature-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(15, 23, 42, 0.07);
+  border-radius: 20px;
+  padding: 26px 22px;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.03);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(16, 185, 129, 0.35);
+  box-shadow: 0 14px 32px rgba(16, 185, 129, 0.09);
+}
+
+.feature-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: 8px;
+}
+
+.feature-text {
+  font-size: 13.5px;
+  line-height: 1.75;
+  color: #64748B;
+  margin: 0;
+}
+
+/* مسیر ۵ ایستگاه به شکل تایم‌لاین راست‌به‌چپ تمیز */
+.roadmap-section {
+  padding: 72px 0;
+  background: #F8FAFC;
+}
+
+.stations-list {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.station-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #FFFFFF;
+  border: 1px solid rgba(15, 23, 42, 0.07);
+  border-radius: 18px;
+  padding: 18px 22px;
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.03);
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.station-row:hover {
+  border-color: rgba(16, 185, 129, 0.4);
+  transform: translateX(-3px);
+}
+
+.station-badge-circle {
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  background: #ECFDF5;
+  color: #059669;
+  font-weight: 900;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.station-badge-circle.grand {
+  background: linear-gradient(135deg, #059669, #10B981);
+  color: #FFFFFF;
+}
+
+.st-name {
+  font-size: 15.5px;
+  font-weight: 800;
+  color: #0F172A;
+  margin: 0 0 4px;
+}
+
+.st-desc {
+  font-size: 13px;
+  color: #64748B;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* بخش تعرفه‌ها و سوالات متداول */
+.pricing-section {
+  padding: 72px 0;
+  background: #FFFFFF;
+}
+
+.faq-section {
+  padding: 64px 0;
+  background: #F8FAFC;
+}
+
+.faq-item {
+  background: #FFFFFF;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+}
+
+.faq-question {
+  font-size: 15px;
+  font-weight: 800;
+  color: #0F172A;
+  cursor: pointer;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  font-size: 13.5px;
+  line-height: 1.8;
+  color: #475569;
+}
+
+/* فوتر حرفه‌ای راست‌به‌چپ در دسکتاپ */
+@media (min-width: 769px) {
+  .footer-simple {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+    padding: 32px 20px;
+  }
+  .footer-brand-row {
+    align-items: flex-start;
+  }
+}
