@@ -3,122 +3,1078 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>chinifa (چی‌نی‌فا) — پلتفرم هوشمند آموزش زبان چینی</title>
-  <meta name="description" content="یادگیری زبان چینی از صفر تا مکالمه روان با نقشه راه ۵ ایستگاه، آموزش گرامر، رسم نویسه‌ها و تلفظ بومی در نسخه وب و اندروید.">
+  <title>چینی‌فا (chinifa) — آموزش هوشمند و داستانی زبان چینی</title>
+  <meta name="description" content="چینی‌فا (chinifa)؛ یادگیری زبان چینی از صفر تا مکالمه روان با محتوای انیمیشنی، مسیر ۵ ایستگاه، رسم نویسه‌ها و اپلیکیشن اختصاصی وب و اندروید.">
   <link rel="icon" type="image/png" href="assets/app-icon.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --sage: #A8C9A0;
+      --sage-dark: #8DB585;
+      --sage-light: #C5DEC0;
+      --leaf: #64826A;
+      --leaf-dark: #4E6A55;
+      --cream: #FFF7E8;
+      --cream-dark: #F5EDDA;
+      --sec-sage: #E9F1E5;
+      --sec-butter: #FAF0D8;
+      --sec-peach: #F7E6DE;
+      --sec-leaf: #DFECDA;
+      --sec-foam: #FBF7EE;
+      --butter: #F3D98B;
+      --peach: #E8B6A5;
+      --peach-light: #F0CFC3;
+      --brown: #5B5145;
+      --brown-light: #7A6F62;
+      --brown-dark: #3D352E;
+      --rust: #A8502F;
+      --white: #FFFFFF;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    [hidden] { display: none !important; }
+
+    html {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    body {
+      margin: 0;
+      direction: rtl;
+      text-align: right;
+      font-family: 'Vazirmatn', system-ui, -apple-system, sans-serif;
+      background-color: var(--cream);
+      color: var(--brown-dark);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      line-height: 1.7;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    button { font-family: inherit; cursor: pointer; }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ================= Header ================= */
+    .toon-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 247, 232, 0.92);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(168, 201, 160, 0.35);
+    }
+
+    .toon-header-inner {
+      height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .toon-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .toon-logo-mark {
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, var(--leaf), var(--sage-dark));
+      color: var(--cream);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: 900;
+      box-shadow: 0 6px 16px rgba(100, 130, 106, 0.25);
+    }
+
+    .toon-brand-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+    }
+
+    .toon-brand-fa {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--brown-dark);
+    }
+
+    .toon-brand-en {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--leaf);
+      letter-spacing: 0.4px;
+    }
+
+    .toon-nav {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .toon-nav a {
+      white-space: nowrap;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--brown);
+      padding: 7px 11px;
+      border-radius: 999px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .toon-nav a:hover {
+      background: rgba(168, 201, 160, 0.25);
+      color: var(--brown-dark);
+    }
+
+    .toon-header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .btn-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      height: 42px;
+      padding: 0 18px;
+      border-radius: 999px;
+      font-size: 13.5px;
+      font-weight: 700;
+      white-space: nowrap;
+      transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+      border: none;
+    }
+
+    .btn-sage {
+      background: var(--sage);
+      color: var(--brown-dark);
+      box-shadow: 0 6px 18px rgba(141, 181, 133, 0.35);
+    }
+
+    .btn-sage:hover {
+      background: var(--sage-dark);
+      transform: translateY(-2px);
+    }
+
+    .btn-cream-outline {
+      background: var(--white);
+      color: var(--brown-dark);
+      border: 1.5px solid rgba(168, 201, 160, 0.65);
+    }
+
+    .btn-cream-outline:hover {
+      border-color: var(--leaf);
+      background: var(--sec-sage);
+    }
+
+    .user-pill-wrap {
+      position: relative;
+    }
+
+    .user-pill-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      height: 42px;
+      padding: 0 14px;
+      border-radius: 999px;
+      background: var(--white);
+      border: 1.5px solid rgba(168, 201, 160, 0.75);
+      color: var(--brown-dark);
+      font-size: 13px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .user-pill-av {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: var(--leaf);
+      color: var(--cream);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .user-dropdown {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 230px;
+      background: var(--white);
+      border: 1.5px solid rgba(168, 201, 160, 0.55);
+      border-radius: 18px;
+      padding: 12px;
+      box-shadow: 0 18px 40px rgba(61, 53, 46, 0.16);
+      z-index: 150;
+    }
+
+    .user-dd-head {
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--cream-dark);
+      margin-bottom: 8px;
+    }
+
+    .user-dd-head strong { display: block; font-size: 14px; color: var(--brown-dark); }
+    .user-dd-head span { display: block; font-size: 12px; color: var(--brown-light); direction: ltr; text-align: right; }
+
+    .user-dd-item {
+      display: block;
+      width: 100%;
+      text-align: right;
+      padding: 9px 10px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--brown-dark);
+      background: none;
+      border: none;
+    }
+
+    .user-dd-item:hover { background: var(--sec-sage); }
+    .user-dd-item.is-danger { color: var(--rust); }
+
+    .mobile-menu-btn {
+      display: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      border: 1.5px solid rgba(168, 201, 160, 0.6);
+      background: var(--white);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    .mobile-menu-btn span {
+      width: 18px;
+      height: 2px;
+      background: var(--brown-dark);
+      border-radius: 2px;
+    }
+
+    /* ================= Logged-in User Dashboard ================= */
+    .toon-dash {
+      background: var(--sec-sage);
+      border-bottom: 1px solid rgba(168, 201, 160, 0.45);
+      padding: 20px 0;
+    }
+
+    .toon-dash-card {
+      background: var(--cream);
+      border: 1.5px solid rgba(168, 201, 160, 0.65);
+      border-radius: 24px;
+      padding: 20px 24px;
+      box-shadow: 0 10px 28px rgba(61, 53, 46, 0.06);
+    }
+
+    .dash-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 14px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(168, 201, 160, 0.35);
+      margin-bottom: 16px;
+    }
+
+    .dash-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .dash-box {
+      background: var(--white);
+      border: 1px solid rgba(168, 201, 160, 0.4);
+      border-radius: 16px;
+      padding: 14px;
+    }
+
+    .dash-box-title {
+      font-size: 12.5px;
+      font-weight: 800;
+      color: var(--brown);
+      margin-bottom: 10px;
+    }
+
+    .dash-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .dash-pill {
+      border: 1px solid rgba(168, 201, 160, 0.7);
+      background: var(--cream);
+      color: var(--brown-dark);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 5px 11px;
+      border-radius: 999px;
+    }
+
+    .dash-pill.is-active {
+      background: var(--leaf);
+      border-color: var(--leaf);
+      color: var(--cream);
+    }
+
+    .dash-name-row {
+      display: flex;
+      gap: 8px;
+    }
+
+    .dash-name-row input {
+      flex: 1;
+      min-width: 0;
+      height: 36px;
+      padding: 0 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(168, 201, 160, 0.7);
+      font-family: inherit;
+      font-size: 13px;
+    }
+
+    .dash-msg {
+      margin-top: 12px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--leaf-dark);
+    }
+
+    /* ================= Watermark ================= */
+    .char-watermark {
+      position: absolute;
+      font-weight: 900;
+      color: var(--brown-dark);
+      opacity: 0.045;
+      pointer-events: none;
+      user-select: none;
+      line-height: 1;
+    }
+
+    /* ================= Hero (Editorial Cream → Sage) ================= */
+    .toon-hero {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(180deg, var(--cream) 0%, var(--cream) 55%, rgba(197, 222, 192, 0.35) 100%);
+      padding: 72px 0 88px;
+      text-align: center;
+    }
+
+    .toon-hero-glow {
+      position: absolute;
+      top: -60px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 680px;
+      height: 420px;
+      background: radial-gradient(circle, rgba(243, 217, 139, 0.32) 0%, rgba(168, 201, 160, 0.16) 50%, transparent 75%);
+      pointer-events: none;
+    }
+
+    .toon-hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 740px;
+      margin: 0 auto;
+    }
+
+    .toon-hero-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--white);
+      border: 1px solid rgba(168, 201, 160, 0.55);
+      padding: 6px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--leaf-dark);
+      margin-bottom: 22px;
+      box-shadow: 0 4px 14px rgba(91, 81, 69, 0.05);
+    }
+
+    .toon-hero h1 {
+      font-size: clamp(32px, 5vw, 56px);
+      font-weight: 900;
+      line-height: 1.32;
+      color: var(--brown-dark);
+      margin: 0 0 20px;
+    }
+
+    .hero-highlight-brush {
+      position: relative;
+      display: inline-block;
+      color: var(--leaf-dark);
+    }
+
+    .hero-highlight-brush svg {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -8px;
+      width: 100%;
+      height: 12px;
+    }
+
+    .toon-hero p {
+      font-size: clamp(15.5px, 2vw, 19px);
+      color: var(--brown-light);
+      max-width: 600px;
+      margin: 0 auto 32px;
+      line-height: 1.85;
+    }
+
+    .toon-hero-ctas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+    }
+
+    .toon-hero-ctas .btn-pill {
+      height: 52px;
+      padding: 0 28px;
+      font-size: 15.5px;
+    }
+
+    /* ================= Stats Bar ================= */
+    .toon-stats {
+      background: var(--white);
+      padding: 30px 0;
+      border-top: 1px solid rgba(168, 201, 160, 0.25);
+      border-bottom: 1px solid rgba(168, 201, 160, 0.25);
+    }
+
+    .toon-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      text-align: center;
+    }
+
+    .toon-stat strong {
+      display: block;
+      font-size: 28px;
+      font-weight: 900;
+      color: var(--leaf-dark);
+    }
+
+    .toon-stat span {
+      font-size: 13.5px;
+      color: var(--brown-light);
+      font-weight: 600;
+    }
+
+    /* ================= App Showcase Section ================= */
+    .toon-app-section {
+      position: relative;
+      background: var(--sec-sage);
+      padding: 68px 0 84px;
+      overflow: hidden;
+    }
+
+    .app-showcase-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .section-eyebrow {
+      display: inline-block;
+      background: rgba(100, 130, 106, 0.14);
+      color: var(--leaf-dark);
+      font-size: 12.5px;
+      font-weight: 800;
+      padding: 5px 14px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+
+    .section-heading {
+      font-size: clamp(24px, 3.5vw, 36px);
+      font-weight: 900;
+      color: var(--brown-dark);
+      margin: 0 0 14px;
+      line-height: 1.38;
+    }
+
+    .section-sub {
+      font-size: 15.5px;
+      color: var(--brown-light);
+      margin: 0 0 26px;
+      line-height: 1.85;
+    }
+
+    .app-highlights {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+
+    .app-hl-item {
+      background: var(--cream);
+      border: 1px solid rgba(168, 201, 160, 0.45);
+      border-radius: 16px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .app-hl-ico { font-size: 20px; flex-shrink: 0; }
+    .app-hl-item strong { display: block; font-size: 14px; color: var(--brown-dark); margin-bottom: 2px; }
+    .app-hl-item span { font-size: 12.5px; color: var(--brown-light); }
+
+    .app-dl-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .app-visual-box {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .toon-phone-frame {
+      width: 280px;
+      background: var(--brown-dark);
+      border-radius: 40px;
+      padding: 12px;
+      box-shadow: 0 28px 60px rgba(61, 53, 46, 0.24);
+      position: relative;
+      z-index: 2;
+    }
+
+    .toon-phone-screen {
+      background: var(--cream);
+      border-radius: 30px;
+      overflow: hidden;
+      height: 510px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .toon-phone-top {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 12px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--brown-dark);
+    }
+
+    .toon-phone-bg {
+      flex: 1;
+      position: relative;
+      background-image: url('assets/bg_station1.jpg');
+      background-size: cover;
+      background-position: center top;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    .toon-node-card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 16px;
+      padding: 10px 14px;
+      box-shadow: 0 6px 18px rgba(61, 53, 46, 0.12);
+      border: 1.5px solid var(--sage);
+    }
+
+    .toon-node-card strong { display: block; font-size: 13.5px; color: var(--brown-dark); }
+    .toon-node-card span { font-size: 11.5px; color: var(--leaf-dark); font-weight: 700; }
+
+    .toon-dragon-side {
+      position: absolute;
+      left: -34px;
+      bottom: 24px;
+      width: 110px;
+      height: 132px;
+      z-index: 4;
+      pointer-events: none;
+      filter: drop-shadow(0 12px 20px rgba(61, 53, 46, 0.2));
+    }
+
+    .toon-dragon-side img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    /* ================= Why Choose Us ================= */
+    .toon-why-section {
+      background: var(--cream);
+      padding: 72px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .text-center { text-align: center; }
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .why-card {
+      background: var(--white);
+      border-radius: 22px;
+      padding: 26px 22px;
+      border: 1px solid rgba(168, 201, 160, 0.35);
+      box-shadow: 0 8px 24px rgba(61, 53, 46, 0.04);
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+
+    .why-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 16px 36px rgba(61, 53, 46, 0.08);
+    }
+
+    .why-icon {
+      width: 54px;
+      height: 54px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+
+    .bg-soft-sage { background: var(--sec-sage); }
+    .bg-soft-butter { background: var(--sec-butter); }
+    .bg-soft-peach { background: var(--sec-peach); }
+    .bg-soft-leaf { background: var(--sec-leaf); }
+
+    .why-card h3 { font-size: 16.5px; font-weight: 800; color: var(--brown-dark); margin: 0 0 8px; }
+    .why-card p { font-size: 13.5px; color: var(--brown-light); margin: 0; line-height: 1.75; }
+
+    /* ================= HSK Path ================= */
+    .toon-hsk-section {
+      background: var(--sec-leaf);
+      padding: 72px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hsk-path-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      margin-top: 38px;
+    }
+
+    .hsk-step-card {
+      background: var(--cream);
+      border-radius: 22px;
+      padding: 22px 18px;
+      border: 1.5px solid rgba(168, 201, 160, 0.45);
+      text-align: center;
+      transition: transform 0.22s;
+    }
+
+    .hsk-step-card:hover { transform: translateY(-4px); }
+
+    .hsk-badge {
+      display: inline-block;
+      background: var(--sage);
+      color: var(--brown-dark);
+      font-size: 12px;
+      font-weight: 900;
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+
+    .hsk-step-card h4 { font-size: 15.5px; font-weight: 800; color: var(--brown-dark); margin: 0 0 8px; }
+    .hsk-step-card p { font-size: 12.5px; color: var(--brown-light); margin: 0; line-height: 1.7; }
+
+    /* ================= Free Content ================= */
+    .toon-free-section {
+      background: var(--cream-dark);
+      padding: 76px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .speech-bubble {
+      position: absolute;
+      background: var(--white);
+      border: 1.5px solid rgba(168, 201, 160, 0.5);
+      border-radius: 20px;
+      padding: 10px 18px;
+      box-shadow: 0 10px 24px rgba(61, 53, 46, 0.08);
+      text-align: center;
+    }
+
+    .sb-left { top: 44px; left: 5%; transform: rotate(-6deg); }
+    .sb-right { bottom: 44px; right: 5%; transform: rotate(4deg); }
+
+    .free-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      margin-top: 38px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .free-card {
+      background: var(--white);
+      border-radius: 22px;
+      overflow: hidden;
+      border: 1px solid rgba(168, 201, 160, 0.35);
+      box-shadow: 0 8px 24px rgba(61, 53, 46, 0.05);
+      transition: transform 0.25s;
+    }
+
+    .free-card:hover { transform: translateY(-4px); }
+
+    .free-card-top {
+      height: 140px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .free-card-top .zh-big { font-size: 38px; font-weight: 900; color: var(--brown-dark); line-height: 1.2; }
+    .free-card-top .py-small { font-size: 13.5px; color: var(--brown-light); margin-top: 4px; }
+    .free-card-body { padding: 22px; }
+    .free-tag { font-size: 11.5px; font-weight: 800; color: var(--leaf-dark); }
+    .free-card-body h3 { font-size: 16px; font-weight: 800; color: var(--brown-dark); margin: 6px 0 8px; }
+    .free-card-body p { font-size: 13px; color: var(--brown-light); margin: 0 0 14px; }
+    .free-link { font-size: 13.5px; font-weight: 800; color: var(--leaf-dark); display: inline-flex; align-items: center; gap: 6px; }
+
+    /* ================= Reviews ================= */
+    .toon-reviews-section {
+      background: var(--sec-foam);
+      padding: 72px 0;
+    }
+
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 38px;
+    }
+
+    .review-card {
+      background: var(--white);
+      border-radius: 22px;
+      padding: 24px;
+      border: 1px solid rgba(168, 201, 160, 0.35);
+      box-shadow: 0 6px 20px rgba(61, 53, 46, 0.04);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .review-stars { color: #D99B26; font-size: 16px; letter-spacing: 2px; }
+    .review-quote { font-size: 13.5px; color: var(--brown); margin: 0; line-height: 1.85; }
+    .review-user { display: flex; align-items: center; gap: 12px; }
+
+    .review-av {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: var(--sage);
+      color: var(--brown-dark);
+      font-weight: 900;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* ================= FAQ ================= */
+    .toon-faq-section {
+      background: var(--cream);
+      padding: 72px 0;
+    }
+
+    .faq-list {
+      max-width: 740px;
+      margin: 36px auto 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .faq-item {
+      background: var(--white);
+      border: 1px solid rgba(168, 201, 160, 0.45);
+      border-radius: 18px;
+      padding: 18px 22px;
+    }
+
+    .faq-item summary { font-size: 15px; font-weight: 800; color: var(--brown-dark); cursor: pointer; }
+    .faq-item p { margin: 10px 0 0; font-size: 13.5px; color: var(--brown-light); line-height: 1.8; }
+
+    /* ================= Final CTA ================= */
+    .toon-final-cta {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(135deg, var(--sage) 0%, var(--sage-dark) 100%);
+      padding: 76px 0;
+      text-align: center;
+    }
+
+    .toon-final-cta h2 { font-size: clamp(26px, 4vw, 42px); font-weight: 900; color: var(--cream); margin: 0 0 14px; }
+    .toon-final-cta p { font-size: 16px; color: rgba(255, 247, 232, 0.92); max-width: 560px; margin: 0 auto 30px; }
+
+    .btn-cream-solid { background: var(--cream); color: var(--brown-dark); height: 52px; padding: 0 28px; font-size: 15px; }
+    .btn-cream-solid:hover { background: var(--butter); transform: translateY(-2px); }
+
+    .btn-cream-ghost { background: transparent; color: var(--cream); border: 2px solid rgba(255, 247, 232, 0.65); height: 52px; padding: 0 28px; font-size: 15px; }
+    .btn-cream-ghost:hover { background: rgba(255, 247, 232, 0.14); border-color: var(--cream); }
+
+    /* ================= Footer ================= */
+    .toon-footer {
+      background: var(--brown-dark);
+      color: var(--cream);
+      padding: 44px 0 28px;
+    }
+
+    .toon-footer-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid rgba(255, 247, 232, 0.12);
+    }
+
+    .toon-footer-links { display: flex; flex-wrap: wrap; gap: 12px; }
+
+    .toon-footer-links a {
+      background: rgba(255, 247, 232, 0.08);
+      border: 1px solid rgba(255, 247, 232, 0.16);
+      color: var(--cream);
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      transition: background 0.2s;
+    }
+
+    .toon-footer-links a:hover { background: rgba(168, 201, 160, 0.24); }
+    .toon-footer-copy { text-align: center; margin: 20px 0 0; font-size: 12.5px; color: rgba(255, 247, 232, 0.68); }
+
+    /* ================= Auth Modal (Resend OTP) ================= */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 500;
+      background: rgba(61, 53, 46, 0.55);
+      backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+
+    .modal-card {
+      width: 100%;
+      max-width: 420px;
+      background: var(--cream);
+      border: 1.5px solid rgba(168, 201, 160, 0.6);
+      border-radius: 26px;
+      padding: 28px 24px;
+      position: relative;
+      box-shadow: 0 24px 60px rgba(61, 53, 46, 0.25);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      border: 1px solid rgba(168, 201, 160, 0.5);
+      background: var(--white);
+      color: var(--brown-dark);
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .modal-input {
+      width: 100%;
+      height: 48px;
+      padding: 0 14px;
+      border-radius: 14px;
+      border: 1.5px solid rgba(168, 201, 160, 0.7);
+      background: var(--white);
+      font-family: inherit;
+      font-size: 15px;
+      color: var(--brown-dark);
+      margin-bottom: 14px;
+    }
+
+    .modal-alert {
+      margin-top: 12px;
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-size: 13px;
+      font-weight: 700;
+      background: var(--sec-sage);
+      color: var(--leaf-dark);
+    }
+
+    .modal-alert.is-err { background: var(--sec-peach); color: var(--rust); }
+
+    /* ================= Responsive (Tablet & Mobile) ================= */
+    @media (max-width: 1024px) {
+      .toon-nav { display: none; }
+      .toon-nav.is-open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 76px;
+        left: 0;
+        right: 0;
+        background: var(--cream);
+        padding: 18px 24px 24px;
+        border-bottom: 1px solid rgba(168, 201, 160, 0.45);
+        box-shadow: 0 16px 32px rgba(61, 53, 46, 0.12);
+      }
+      .mobile-menu-btn { display: flex; }
+      .app-showcase-grid { grid-template-columns: 1fr; text-align: center; }
+      .app-highlights { text-align: right; }
+      .app-dl-buttons { justify-content: center; }
+      .why-grid, .dash-grid { grid-template-columns: repeat(2, 1fr); }
+      .hsk-path-grid { grid-template-columns: repeat(2, 1fr); }
+      .free-grid, .reviews-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      .toon-header-actions .btn-sage { display: none; }
+      .toon-hero { padding: 48px 0 60px; }
+      .toon-hero-ctas .btn-pill { width: 100%; }
+      .toon-stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .app-highlights, .dash-grid { grid-template-columns: 1fr; }
+      .why-grid, .hsk-path-grid { grid-template-columns: 1fr; }
+      .speech-bubble { display: none; }
+      .toon-dragon-side { left: -12px; bottom: 14px; width: 82px; height: 98px; }
+      .modal-backdrop { align-items: flex-end; padding: 0; }
+      .modal-card { border-radius: 24px 24px 0 0; max-width: 100%; }
+    }
+  </style>
 </head>
 <body>
 
-  <!-- هدر تک‌خطی و استاندارد -->
-  <header class="site-header">
-    <div class="header-inner container">
-      <a href="#" class="brand-logo" aria-label="صفحه اصلی chinifa">
-        <div class="brand-seal han">龙</div>
-        <div class="brand-name">
-          <span class="brand-en">chin<b>ifa</b></span>
-          <span class="brand-fa">چی‌نی‌فا</span>
+  <!-- هدر ناوبری چینی‌فا -->
+  <header class="toon-header">
+    <div class="container toon-header-inner">
+      <a href="#" class="toon-brand">
+        <div class="toon-logo-mark han">龙</div>
+        <div class="toon-brand-text">
+          <span class="toon-brand-fa">چینی‌فا</span>
+          <span class="toon-brand-en">chinifa</span>
         </div>
       </a>
 
-      <nav class="nav-menu" id="nav-menu">
-        <a href="#features" class="nav-link">امکانات</a>
-        <a href="#roadmap" class="nav-link">مسیر یادگیری</a>
-        <a href="#reviews" class="nav-link">نظرات کاربران</a>
-        <a href="#pricing" class="nav-link nav-link-accent">تعرفه PRO</a>
-        <a href="#faq" class="nav-link">سوالات متداول</a>
-        <div class="mobile-nav-actions">
-          <a href="../app/index.html" target="_blank" class="btn btn-primary btn-block">ورود به وب‌اپلیکیشن</a>
-          <a href="../Chinifa.apk" download class="btn btn-outline btn-block">دانلود مستقیم اندروید (APK)</a>
-        </div>
+      <nav class="toon-nav" id="toon-nav">
+        <a href="#app-showcase">اپلیکیشن چینی‌فا</a>
+        <a href="#why">چرا چینی‌فا؟</a>
+        <a href="#hsk-path">مسیر HSK</a>
+        <a href="#free-content">محتوای رایگان</a>
+        <a href="#reviews">نظرات کاربران</a>
+        <a href="#faq">سوالات متداول</a>
       </nav>
 
-      <div class="header-actions">
-        <div class="auth-header-wrap" id="auth-header-wrap">
-          <button class="btn btn-outline btn-header-auth" id="btn-open-auth" type="button">
-            <svg viewBox="0 0 24 24" class="svg-icon" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-            <span>ورود / ثبت‌نام</span>
-          </button>
+      <div class="toon-header-actions">
+        <button type="button" class="btn-pill btn-cream-outline" id="toon-auth-btn">ورود / عضویت</button>
 
-          <div class="user-chip-menu" id="user-chip-menu" hidden>
-            <button class="user-chip-btn" id="user-chip-btn" type="button" aria-expanded="false">
-              <span class="user-chip-avatar" id="user-chip-avatar">A</span>
-              <span class="user-chip-name" id="user-chip-name">کاربر</span>
-              <svg viewBox="0 0 24 24" class="chevron-mini" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg>
-            </button>
-            <div class="user-dropdown-card" id="user-dropdown-card" hidden>
-              <div class="dropdown-header">
-                <div class="dropdown-name" id="dropdown-name">کاربر چی‌نی‌فا</div>
-                <div class="dropdown-email" id="dropdown-email">user@example.com</div>
-                <div class="dropdown-badge">
-                  <span class="badge-dot-green"></span>
-                  <span id="dropdown-level">حساب تایید شده</span>
-                </div>
-              </div>
-              <div class="dropdown-divider"></div>
-              <a href="#user-dashboard" class="dropdown-item" id="btn-goto-dashboard">
-                <svg viewBox="0 0 24 24" class="svg-icon" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-                <span>پیشخوان و تنظیمات حساب</span>
-              </a>
-              <a href="../app/index.html" target="_blank" class="dropdown-item">
-                <svg viewBox="0 0 24 24" class="svg-icon"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                <span>ادامه یادگیری در وب‌اپ</span>
-              </a>
-              <button class="dropdown-item dropdown-logout-btn" id="btn-logout" type="button">
-                <svg viewBox="0 0 24 24" class="svg-icon"><path d="M16 17l5-5-5-5M21 12H9M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/></svg>
-                <span>خروج از حساب</span>
-              </button>
+        <div class="user-pill-wrap" id="toon-user-wrap" hidden>
+          <button type="button" class="user-pill-btn" id="toon-user-pill">
+            <span class="user-pill-av" id="toon-user-av">A</span>
+            <span id="toon-user-name">کاربر</span>
+          </button>
+          <div class="user-dropdown" id="toon-user-dd" hidden>
+            <div class="user-dd-head">
+              <strong id="dd-name">کاربر چینی‌فا</strong>
+              <span id="dd-email">user@example.com</span>
             </div>
+            <a href="#toon-dash" class="user-dd-item" id="dd-goto-dash">پیشخوان و تنظیمات</a>
+            <a href="../app/index.html" target="_blank" class="user-dd-item">ورود به اپلیکیشن وب</a>
+            <button type="button" class="user-dd-item is-danger" id="toon-logout-btn">خروج از حساب</button>
           </div>
         </div>
 
-        <a href="../app/index.html" target="_blank" class="btn btn-primary btn-header-app">
-          <span>شروع یادگیری</span>
-        </a>
-
-        <button class="mobile-toggle-btn" id="menu-toggle" type="button" aria-label="منو">
+        <a href="../app/index.html" target="_blank" class="btn-pill btn-sage">ورود به وب‌اپ</a>
+        <button type="button" class="mobile-menu-btn" id="toon-menu-btn" aria-label="منو">
           <span></span><span></span><span></span>
         </button>
       </div>
     </div>
   </header>
 
-  <!-- پیشخوان اختصاصی کاربر لاگین‌شده (فقط پس از ورود نمایش داده می‌شود) -->
-  <section class="user-dashboard-section" id="user-dashboard" hidden>
+  <!-- پیشخوان کاربر لاگین‌شده -->
+  <section class="toon-dash" id="toon-dash" hidden>
     <div class="container">
-      <div class="dashboard-shell">
-        <div class="dash-top-row">
-          <div class="dash-welcome">
-            <div class="dash-avatar" id="dash-avatar">A</div>
-            <div>
-              <div class="dash-hello">سلام، <span id="dash-user-name">دوست عزیز</span> 👋</div>
-              <div class="dash-sub">
-                <span id="dash-user-email" dir="ltr">user@example.com</span>
-                <span class="dash-status-pill" id="dash-plan-badge">نسخه رایگان</span>
-              </div>
-            </div>
+      <div class="toon-dash-card">
+        <div class="dash-top">
+          <div>
+            <strong style="font-size:17px;">سلام، <span id="dash-name">دوست عزیز</span> 👋</strong>
+            <div style="font-size:13px;color:var(--brown-light);" id="dash-email" dir="ltr"></div>
           </div>
-          <div class="dash-primary-actions">
-            <a href="../app/index.html" target="_blank" class="btn btn-primary dash-launch-btn">
-              <svg viewBox="0 0 24 24" class="svg-icon"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-              <span>ورود به کلاس و ادامه درس‌ها</span>
-            </a>
-            <button type="button" class="btn btn-outline dash-upgrade-btn" id="dash-upgrade-btn">
-              <span>👑 ارتقا به PRO</span>
-            </button>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;">
+            <a href="../app/index.html" target="_blank" class="btn-pill btn-sage">ادامه یادگیری در وب‌اپ</a>
           </div>
         </div>
 
-        <div class="dash-controls-grid">
-          <!-- کنترل ۱: انتخاب سطح آموزشی -->
-          <div class="dash-widget">
-            <div class="dash-widget-title">🎯 سطح آموزشی فعال (همگام با اپ)</div>
-            <div class="dash-pills" id="dash-level-pills">
+        <div class="dash-grid">
+          <div class="dash-box">
+            <div class="dash-box-title">🎯 سطح آموزشی فعال</div>
+            <div class="dash-pills" id="dash-hsk-pills">
               <button type="button" class="dash-pill is-active" data-hsk="hsk1">HSK 1</button>
               <button type="button" class="dash-pill" data-hsk="hsk2">HSK 2</button>
               <button type="button" class="dash-pill" data-hsk="hsk3">HSK 3</button>
@@ -127,9 +1083,8 @@
             </div>
           </div>
 
-          <!-- کنترل ۲: هدف مطالعه روزانه -->
-          <div class="dash-widget">
-            <div class="dash-widget-title">⏱️ هدف مطالعه روزانه</div>
+          <div class="dash-box">
+            <div class="dash-box-title">⏱️ هدف مطالعه روزانه</div>
             <div class="dash-pills" id="dash-goal-pills">
               <button type="button" class="dash-pill" data-goal="5">۵ دقیقه</button>
               <button type="button" class="dash-pill is-active" data-goal="10">۱۰ دقیقه</button>
@@ -138,208 +1093,273 @@
             </div>
           </div>
 
-          <!-- کنترل ۳: ویرایش نام نمایشی -->
-          <div class="dash-widget">
-            <div class="dash-widget-title">✏️ نام نمایشی پروفایل</div>
-            <form class="dash-name-form" id="dash-name-form">
-              <input type="text" id="dash-name-input" class="dash-input" placeholder="نام شما..." maxlength="28">
-              <button type="submit" class="btn btn-primary dash-save-btn">ذخیره</button>
+          <div class="dash-box">
+            <div class="dash-box-title">✏️ نام نمایشی پروفایل</div>
+            <form class="dash-name-row" id="dash-name-form">
+              <input type="text" id="dash-name-input" placeholder="نام شما..." maxlength="28">
+              <button type="submit" class="btn-pill btn-sage" style="height:36px;padding:0 14px;font-size:12.5px;">ذخیره</button>
             </form>
           </div>
         </div>
 
-        <div class="dash-feedback" id="dash-feedback" hidden></div>
+        <div class="dash-msg" id="dash-msg" hidden></div>
       </div>
     </div>
   </section>
 
-  <!-- بخش Hero مدرن -->
-  <section class="hero-section">
-    <div class="container hero-grid">
-      <div class="hero-text-col">
-        <div class="hero-badge">
-          <span class="badge-dot"></span>
-          <span class="badge-text">نسخه ۲.۴.۰ · دوره استاندارد HSK 1 تا HSK 5</span>
-        </div>
+  <!-- Hero — سبک ادیتوریال Chinese-Toon تمام فارسی -->
+  <section class="toon-hero">
+    <div class="toon-hero-glow"></div>
+    <div class="char-watermark" style="top:18px; right:6%; font-size:210px;">学</div>
 
-        <h1 class="hero-title">
-          زبان چینی را <span class="highlight-text">هوشمند و اصولی</span> یاد بگیرید
-        </h1>
+    <div class="container toon-hero-content">
+      <div class="toon-hero-pill">
+        <span>🌿</span>
+        <span>پلتفرم جامع و داستانی آموزش زبان چینی · وب و اندروید</span>
+      </div>
 
-        <p class="hero-desc">
-          از تلفظ دقیق ۴ تُن صوتی و الفبای پین‌یین تا رسم گام‌به‌گام نویسه‌ها و مکالمه روزمره؛ در ۵ ایستگاه تعاملی با همگام‌سازی کامل بین وب و موبایل.
+      <h1>
+        زبان چینی را با
+        <span class="hero-highlight-brush">
+          چینی‌فا
+          <svg viewBox="0 0 220 12" preserveAspectRatio="none" fill="none" aria-hidden="true">
+            <path d="M4 9 C 62 3, 158 2, 216 7" stroke="#8DB585" stroke-width="4.5" stroke-linecap="round" opacity="0.65"/>
+          </svg>
+        </span>
+        <br>
+        ساده، جذاب و عمیق بیاموزید
+      </h1>
+
+      <p>
+        یادگیری زبان ماندارین از طریق محتوای داستانی و انیمیشنی، آموزش ساختاریافته HSK 1 تا HSK 5 و اپلیکیشن اختصاصی چینی‌فا برای تمرین روزانه در هر زمان و مکان.
+      </p>
+
+      <div class="toon-hero-ctas">
+        <a href="../app/index.html" target="_blank" class="btn-pill btn-sage">شروع رایگان در اپلیکیشن چینی‌فا</a>
+        <a href="#app-showcase" class="btn-pill btn-cream-outline">معرفی و دانلود اپلیکیشن</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- نوار آمار -->
+  <section class="toon-stats">
+    <div class="container toon-stats-grid">
+      <div class="toon-stat"><strong>۶۰+</strong><span>درس ساختاریافته HSK 1 تا 5</span></div>
+      <div class="toon-stat"><strong>۲,۸۰۰+</strong><span>واژه با تلفظ گوینده بومی</span></div>
+      <div class="toon-stat"><strong>۵ ایستگاه</strong><span>نقشه راه تعاملی و انیمیشنی</span></div>
+      <div class="toon-stat"><strong>۴.۹ ★</strong><span>رضایت زبان‌آموزان چینی‌فا</span></div>
+    </div>
+  </section>
+
+  <!-- معرفی اپلیکیشن چینی‌فا -->
+  <section class="toon-app-section" id="app-showcase">
+    <div class="char-watermark" style="top:30px; left:4%; font-size:190px;">语</div>
+    <div class="container app-showcase-grid">
+      <div>
+        <span class="section-eyebrow">📱 معرفی اپلیکیشن چینی‌فا (نسخه ۲.۴.۰)</span>
+        <h2 class="section-heading">اپلیکیشن چینی‌فا؛ کلاس تعاملی زبان چینی در جیب شما</h2>
+        <p class="section-sub">
+          در کنار آموزش‌های وب‌سایت، اپلیکیشن اختصاصی <strong>چینی‌فا (chinifa)</strong> به شما کمک می‌کند هر روز تنها با ۱۰ دقیقه تمرین، الفبای پین‌یین، ۴ تُن صوتی، رسم نویسه‌ها و مکالمات واقعی را در قالب ۵ شهر ماجراجویانه یاد بگیرید.
         </p>
 
-        <div class="hero-cta-group">
-          <a href="../app/index.html" target="_blank" class="btn btn-primary btn-cta-main">
-            <svg viewBox="0 0 24 24" class="svg-icon"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-            <span>شروع رایگان در نسخه وب</span>
-          </a>
-
-          <a href="../Chinifa.apk" download class="btn btn-outline btn-cta-apk" id="hero-download-btn">
-            <svg viewBox="0 0 24 24" class="svg-icon"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
-            <span class="btn-maintext">دانلود اندروید (APK)</span>
-          </a>
+        <div class="app-highlights">
+          <div class="app-hl-item">
+            <span class="app-hl-ico">🗺️</span>
+            <div>
+              <strong>۵ ایستگاه گیمیفای‌شده</strong>
+              <span>پیشرفت مرحله‌به‌مرحله با اژدهای همراه چینی‌فا</span>
+            </div>
+          </div>
+          <div class="app-hl-item">
+            <span class="app-hl-ico">✍️</span>
+            <div>
+              <strong>رسم گام‌به‌گام هانزی</strong>
+              <span>آموزش ترتیب استاندارد خطوط کاراکترهای چینی</span>
+            </div>
+          </div>
+          <div class="app-hl-item">
+            <span class="app-hl-ico">🎙️</span>
+            <div>
+              <strong>تلفظ بومی و ۴ تُن</strong>
+              <span>تمرین شنیداری و تشخیص دقیق آهنگ واژگان</span>
+            </div>
+          </div>
+          <div class="app-hl-item">
+            <span class="app-hl-ico">📶</span>
+            <div>
+              <strong>۱۰۰٪ آفلاین و همگام</strong>
+              <span>قابل استفاده روی وب و اندروید بدون فیلترشکن</span>
+            </div>
+          </div>
         </div>
 
-        <div class="hero-trust-row">
-          <div class="trust-item"><span>⭐ ۴.۹</span> رضایت زبان‌آموزان</div>
-          <span class="trust-dot">·</span>
-          <a href="https://cafebazaar.ir/app/com.chinifa.app" target="_blank" class="sub-link-item">دریافت از کافه بازار</a>
-          <span class="trust-dot">·</span>
-          <button type="button" class="sub-link-item" id="btn-open-qr">اسکن کد QR</button>
+        <div class="app-dl-buttons">
+          <a href="../app/index.html" target="_blank" class="btn-pill btn-sage">اجرای آنلاین وب‌اپلیکیشن</a>
+          <a href="../Chinifa.apk" download class="btn-pill btn-cream-outline">دانلود مستقیم اندروید (APK)</a>
+          <a href="https://cafebazaar.ir/app/com.chinifa.app" target="_blank" class="btn-pill btn-cream-outline">دریافت از کافه بازار</a>
         </div>
       </div>
 
-      <div class="hero-visual-col">
-        <div class="phone-mockup-wrapper">
-          <div class="phone-glow"></div>
-
-          <div class="phone-device">
-            <div class="phone-speaker"></div>
-            <div class="phone-screen-content">
-              <div class="mockup-app-header">
-                <div class="mockup-chip-flame">
-                  <img src="assets/icon_flame_3d.webp" alt="">
-                  <span>استریک: ۵ روز</span>
-                </div>
-                <div class="mockup-chip-level">HSK 1 · 汉</div>
+      <div class="app-visual-box">
+        <div class="toon-phone-frame">
+          <div class="toon-phone-screen">
+            <div class="toon-phone-top">
+              <span>🔥 استریک: ۵ روز</span>
+              <span>HSK 1 · چینی‌فا</span>
+            </div>
+            <div class="toon-phone-bg">
+              <div class="toon-node-card">
+                <strong>درس اول: سلام و احوالپرسی</strong>
+                <span>你好 · Nǐ hǎo</span>
               </div>
-
-              <div class="mockup-station-card">
-                <img src="assets/bg_station1.jpg" alt="کوهستان شکوفه‌ها" class="mockup-station-bg">
-                <div class="mockup-station-overlay">
-                  <div class="mockup-dragon-bubble">
-                    <strong>خوش آمدید به چی‌نی‌فا!</strong>
-                    <span>سفر ما از این ایستگاه آغاز میشه 🌸</span>
-                  </div>
-
-                  <div class="mockup-lessons-flow">
-                    <div class="mockup-lesson-node active">
-                      <div class="node-num">درس ۱</div>
-                      <div class="node-title">سلام و احوالپرسی</div>
-                      <div class="node-zh">你好 · Nǐ hǎo</div>
-                    </div>
-                    <div class="mockup-lesson-node done">
-                      <div class="node-num">درس ۲</div>
-                      <div class="node-title">معرفی خود و دیگران</div>
-                      <div class="node-zh">我是老师 · Shì</div>
-                    </div>
-                    <div class="mockup-lesson-node locked">
-                      <div class="node-num">درس ۳</div>
-                      <div class="node-title">پرسش با 什么</div>
-                      <div class="node-zh">什么 · Shénme</div>
-                    </div>
-                  </div>
-                </div>
+              <div class="toon-node-card">
+                <strong>درس دوم: معرفی خود و نام</strong>
+                <span>我叫李强 · Wǒ jiào Lǐ Qiáng</span>
               </div>
-
-              <div class="mockup-bottom-nav">
-                <span class="mockup-nav-item active">🏠 خانه</span>
-                <span class="mockup-nav-item">🧭 کاوش</span>
-                <span class="mockup-nav-item">📖 واژگان</span>
-                <span class="mockup-nav-item">👤 من</span>
+              <div class="toon-node-card">
+                <strong>درس سوم: اعداد و شمارش</strong>
+                <span>一二三四五 · Yī èr sān sì wǔ</span>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="floating-mascot-rig" aria-hidden="true">
-            <img src="assets/mascot_dragon_body.png" alt="" class="dragon-body-img" loading="eager" onerror="this.style.opacity='0'">
-            <img src="assets/mascot_dragon_arm.png" alt="" class="dragon-arm-img" loading="eager" onerror="this.style.opacity='0'">
-          </div>
+        <div class="toon-dragon-side" aria-hidden="true">
+          <img src="assets/mascot_dragon_body.png" alt="" onerror="this.style.opacity='0'">
+          <img src="assets/mascot_dragon_arm.png" alt="" onerror="this.style.opacity='0'">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- نوار آمار معتبر -->
-  <section class="trust-stats-strip">
-    <div class="container trust-stats-grid">
-      <div class="t-stat"><strong>۶۰+</strong><span>درس تعاملی HSK 1 تا 5</span></div>
-      <div class="t-stat"><strong>۲,۸۰۰+</strong><span>واژه با تلفظ بومی</span></div>
-      <div class="t-stat"><strong>۵ ایستگاه</strong><span>نقشه راه گیمیفای‌شده</span></div>
-      <div class="t-stat"><strong>۱۰۰٪</strong><span>آفلاین و بدون نیاز به فیلترشکن</span></div>
-    </div>
-  </section>
-
-  <!-- امکانات کلیدی (۴ کارت بنتو) -->
-  <section class="features-section" id="features">
+  <!-- چرا چینی‌فا؟ -->
+  <section class="toon-why-section" id="why">
+    <div class="char-watermark" style="top:24px; right:5%; font-size:180px;">好</div>
     <div class="container">
-      <div class="section-head text-center">
-        <span class="section-tag">چرا چی‌نی‌فا؟</span>
-        <h2 class="section-title">تمام ابزارهای یادگیری استاندارد در یک پلتفرم</h2>
+      <div class="text-center">
+        <span class="section-eyebrow">روش آموزشی چینی‌فا</span>
+        <h2 class="section-heading">چرا زبان‌آموزان چینی‌فا را انتخاب می‌کنند؟</h2>
+        <p class="section-sub" style="max-width:620px;margin:0 auto;">ترکیب آموزش ساختاریافته آکادمیک با تصویرسازی گرم، داستان‌پردازی و تمرین‌های تعاملی اپلیکیشن.</p>
       </div>
 
-      <div class="features-grid features-grid-4">
-        <div class="feature-card">
-          <div class="feature-icon-box bg-mint"><span class="han f-icon-zh">🗺️</span></div>
-          <h3 class="feature-title">مسیر ۵ ایستگاه تعاملی</h3>
-          <p class="feature-text">درس‌های ساختاریافته در قالب ۵ شهر جذاب با آزمون مرور و مدال پایان هر ایستگاه.</p>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon bg-soft-sage">💬</div>
+          <h3>مکالمه واقعی از روز اول</h3>
+          <p>به جای حفظ کردن لغات پراکنده، جملات کاربردی روزمره را با لهجه استاندارد پکن می‌آموزید.</p>
         </div>
-
-        <div class="feature-card">
-          <div class="feature-icon-box bg-amber"><span class="han f-icon-zh">声</span></div>
-          <h3 class="feature-title">تلفظ بومی و ۴ تُن صوتی</h3>
-          <p class="feature-text">آموزش دقیق تُن‌های صوتی چینی به همراه صدای گویندگان بومی و پین‌یین کامل.</p>
+        <div class="why-card">
+          <div class="why-icon bg-soft-butter">✨</div>
+          <h3>محتوای انیمیشنی و داستانی</h3>
+          <p>داستان‌های دوزبانه و تصویرسازی‌های اختصاصی یادگیری گرامر و لغات را ماندگار می‌کند.</p>
         </div>
-
-        <div class="feature-card">
-          <div class="feature-icon-box bg-indigo"><span class="han f-icon-zh">字</span></div>
-          <h3 class="feature-title">رسم گام‌به‌گام نویسه‌ها</h3>
-          <p class="feature-text">تمرین نوشتن کاراکترهای هانزی به ترتیب استاندارد خطوط با راهنمای هوشمند.</p>
+        <div class="why-card">
+          <div class="why-icon bg-soft-peach">📖</div>
+          <h3>توضیحات شفاف فارسی</h3>
+          <p>تمام نکات ظریف دستوری و تفاوت واژگان گیج‌کننده با مثال‌های ساده به زبان فارسی شرح داده شده‌اند.</p>
         </div>
-
-        <div class="feature-card">
-          <div class="feature-icon-box bg-emerald"><span class="han f-icon-zh">🎧</span></div>
-          <h3 class="feature-title">پادکست و گرامر کاربردی</h3>
-          <p class="feature-text">داستان‌های دوزبانه، فرمول‌های ساده گرامر فارسی و همگام‌سازی ابری حساب کاربری.</p>
+        <div class="why-card">
+          <div class="why-icon bg-soft-leaf">🤝</div>
+          <h3>همگام‌سازی وب و موبایل</h3>
+          <p>حساب کاربری شما بین وب‌سایت و اپلیکیشن اندروید چینی‌فا به‌صورت آنی همگام می‌ماند.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- نقشه راه ۵ ایستگاه -->
-  <section class="roadmap-section" id="roadmap">
+  <!-- مسیر HSK -->
+  <section class="toon-hsk-section" id="hsk-path">
     <div class="container">
-      <div class="section-head text-center">
-        <span class="section-tag">ساختار دوره</span>
-        <h2 class="section-title">۱۵ درس پایه در ۵ ایستگاه</h2>
+      <div class="text-center">
+        <span class="section-eyebrow">نقشه راه استاندارد</span>
+        <h2 class="section-heading">مسیر یادگیری HSK در چینی‌فا</h2>
+        <p class="section-sub" style="max-width:600px;margin:0 auto;">از الفبای پین‌یین و جملات پایه تا تسلط بر مکالمات و متون پیشرفته.</p>
       </div>
 
-      <div class="stations-list">
-        <div class="station-row">
-          <div class="station-badge-circle">۱</div>
-          <div class="station-details">
-            <h4 class="st-name">کوهستان شکوفه‌ها (درس‌های ۰ تا ۳)</h4>
-            <p class="st-desc">پین‌یین و تُن‌ها · سلام و احوالپرسی (你好) · معرفی با 是</p>
+      <div class="hsk-path-grid">
+        <div class="hsk-step-card">
+          <span class="hsk-badge">HSK 1</span>
+          <h4>شروع از صفر</h4>
+          <p>پین‌یین، ۴ تُن، ۱۵۰ واژه پایه و جملات ضروری روزمره در ۵ ایستگاه.</p>
+        </div>
+        <div class="hsk-step-card">
+          <span class="hsk-badge">HSK 2</span>
+          <h4>مکالمات روزانه</h4>
+          <p>خرید، سفر، زمان‌ها، توصیف افراد و گسترش دایره لغات کاربردی.</p>
+        </div>
+        <div class="hsk-step-card">
+          <span class="hsk-badge">HSK 3</span>
+          <h4>روانی در گفتگو</h4>
+          <p>ساختارهای دستوری میانی (把 و 被)، بیان نظرات و درک متون کوتاه.</p>
+        </div>
+        <div class="hsk-step-card">
+          <span class="hsk-badge">HSK 4</span>
+          <h4>تسلط کاربردی</h4>
+          <p>بحث درباره موضوعات کاری، فرهنگی و اجتماعی با اصطلاحات طبیعی.</p>
+        </div>
+        <div class="hsk-step-card">
+          <span class="hsk-badge">HSK 5</span>
+          <h4>سطح پیشرفته</h4>
+          <p>خواندن مقالات، اصطلاحات چهارکاراکتری (چنگ‌یو) و مکالمه حرفه‌ای.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- محتوای رایگان -->
+  <section class="toon-free-section" id="free-content">
+    <div class="speech-bubble sb-left">
+      <strong style="display:block;color:var(--brown-dark);">你好！</strong>
+      <span style="font-size:12px;color:var(--brown-light);">nǐ hǎo · سلام</span>
+    </div>
+    <div class="speech-bubble sb-right">
+      <strong style="display:block;color:var(--leaf-dark);">谢谢！</strong>
+      <span style="font-size:12px;color:var(--brown-light);">xiè xie · متشکرم</span>
+    </div>
+
+    <div class="container">
+      <div class="text-center">
+        <span class="section-eyebrow">شروع بدون هزینه</span>
+        <h2 class="section-heading">درس‌های رایگان را همین حالا امتحان کنید</h2>
+      </div>
+
+      <div class="free-grid">
+        <div class="free-card">
+          <div class="free-card-top bg-soft-sage">
+            <span class="zh-big">ā á ǎ à</span>
+            <span class="py-small">۴ تُن صوتی ماندارین</span>
+          </div>
+          <div class="free-card-body">
+            <span class="free-tag">درس صفر · پین‌یین</span>
+            <h3>الفبای آوایی و تُن‌ها</h3>
+            <p>آشنایی عملی با نحوه تلفظ صحیح تُن‌ها و تغییر معنی کلمات در زبان چینی.</p>
+            <a href="../app/index.html" target="_blank" class="free-link">شروع درس ←</a>
           </div>
         </div>
-        <div class="station-row">
-          <div class="station-badge-circle">۲</div>
-          <div class="station-details">
-            <h4 class="st-name">معبد نیلوفر (درس‌های ۴ تا ۶)</h4>
-            <p class="st-desc">اعداد و سن · مالکیت با 有 · موقعیت مکانی و جهت‌ها</p>
+
+        <div class="free-card">
+          <div class="free-card-top bg-soft-butter">
+            <span class="zh-big">你好</span>
+            <span class="py-small">nǐ hǎo · سلام</span>
+          </div>
+          <div class="free-card-body">
+            <span class="free-tag">درس اول · مکالمه</span>
+            <h3>سلام و احوالپرسی روزمره</h3>
+            <p>اولین مکالمه واقعی خود را به زبان چینی با تلفظ بومی تمرین کنید.</p>
+            <a href="../app/index.html" target="_blank" class="free-link">شروع درس ←</a>
           </div>
         </div>
-        <div class="station-row">
-          <div class="station-badge-circle">۳</div>
-          <div class="station-details">
-            <h4 class="st-name">بازارچه فانوس‌ها (درس‌های ۷ تا ۹)</h4>
-            <p class="st-desc">سوالات شمارش (几 / 多少) · خرید و قیمت · نحوه انجام کار</p>
+
+        <div class="free-card">
+          <div class="free-card-top bg-soft-peach">
+            <span class="zh-big">我是…</span>
+            <span class="py-small">wǒ shì · من هستم</span>
           </div>
-        </div>
-        <div class="station-row">
-          <div class="station-badge-circle">۴</div>
-          <div class="station-details">
-            <h4 class="st-name">دریاچه مه (درس‌های ۱۰ تا ۱۲)</h4>
-            <p class="st-desc">نفی با 不 و 没 · بیان توانایی با 会 · زمان و آب‌وهوا</p>
-          </div>
-        </div>
-        <div class="station-row grand-station">
-          <div class="station-badge-circle grand">۵</div>
-          <div class="station-details">
-            <h4 class="st-name">کاخ اژدها (درس‌های ۱۳ تا ۱۵)</h4>
-            <p class="st-desc">شمارشگرها · مکالمات سفر و تلفن · آزمون جامع و کاپ طلایی</p>
+          <div class="free-card-body">
+            <span class="free-tag">درس دوم · گرامر</span>
+            <h3>معرفی خود و دیگران</h3>
+            <p>ساخت جملات اسمیه ساده با فعل ربطی 是 و پرسیدن نام و ملیت.</p>
+            <a href="../app/index.html" target="_blank" class="free-link">شروع درس ←</a>
           </div>
         </div>
       </div>
@@ -347,344 +1367,316 @@
   </section>
 
   <!-- نظرات کاربران -->
-  <section class="reviews-section" id="reviews">
+  <section class="toon-reviews-section" id="reviews">
     <div class="container">
-      <div class="section-head text-center">
-        <span class="section-tag">تجربه زبان‌آموزان</span>
-        <h2 class="section-title">نظرات کاربران چی‌نی‌فا</h2>
+      <div class="text-center">
+        <span class="section-eyebrow">دیدگاه زبان‌آموزان</span>
+        <h2 class="section-heading">تجربه کاربران چینی‌فا</h2>
       </div>
 
       <div class="reviews-grid">
         <div class="review-card">
-          <div class="review-stars" aria-label="۵ از ۵ ستاره">★★★★★</div>
-          <p class="review-text">«بخش رسم نویسه‌ها و تمرین ۴ تُن صوتی واقعاً عالیه. من بدون کلاس حضوری تونستم پایه HSK 1 رو خیلی روان یاد بگیرم.»</p>
-          <div class="review-author">
-            <span class="review-avatar">م</span>
-            <div>
-              <strong class="review-name">مهسا رضایی</strong>
-              <span class="review-role">زبان‌آموز سطح HSK 1</span>
-            </div>
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">«طراحی گرم و دوستانه چینی‌فا به همراه تمرین نوشتن کاراکترها توی اپلیکیشن باعث شد ترسم از خط چینی کاملاً بریزه.»</p>
+          </div>
+          <div class="review-user">
+            <div class="review-av">م</div>
+            <div><strong style="display:block;font-size:14px;">مهسا رضایی</strong><span style="font-size:12px;color:var(--brown-light);">زبان‌آموز HSK 1</span></div>
           </div>
         </div>
 
         <div class="review-card">
-          <div class="review-stars" aria-label="۵ از ۵ ستاره">★★★★★</div>
-          <p class="review-text">«اینکه هم نسخه وب داره و هم اپلیکیشن اندروید و پیشرفتم بینشون سینک میشه خیلی راحته. طراحی ایستگاه‌ها هم انگیزه‌بخشه.»</p>
-          <div class="review-author">
-            <span class="review-avatar">ع</span>
-            <div>
-              <strong class="review-name">علیرضا محمدی</strong>
-              <span class="review-role">دانشجو و کاربر نسخه PRO</span>
-            </div>
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">«توضیحات فارسی دقیقاً همون چیزهایی رو می‌گه که زبان‌آموز فارسی‌زبان نیاز داره. نسخه وب و اندروید هم خیلی سریع و روان کار می‌کنن.»</p>
+          </div>
+          <div class="review-user">
+            <div class="review-av">ع</div>
+            <div><strong style="display:block;font-size:14px;">علیرضا محمدی</strong><span style="font-size:12px;color:var(--brown-light);">کاربر نسخه PRO</span></div>
           </div>
         </div>
 
         <div class="review-card">
-          <div class="review-stars" aria-label="۵ از ۵ ستاره">★★★★★</div>
-          <p class="review-text">«توضیحات گرامری به زبان فارسی خیلی شفافه و پادکست‌های دوزبانه برای تقویت شنیدار در مسیر رفت‌وآمد بی‌نظیره.»</p>
-          <div class="review-author">
-            <span class="review-avatar">س</span>
-            <div>
-              <strong class="review-name">سارا کریمی</strong>
-              <span class="review-role">کاربر نسخه اندروید</span>
-            </div>
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">«پادکست‌های دوزبانه و نقشه راه ایستگاه‌ها انگیزه روزانه می‌ده. هر روز ۱۰ دقیقه تمرین می‌کنم.»</p>
+          </div>
+          <div class="review-user">
+            <div class="review-av">س</div>
+            <div><strong style="display:block;font-size:14px;">سارا کریمی</strong><span style="font-size:12px;color:var(--brown-light);">کاربر اپلیکیشن چینی‌فا</span></div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- تعرفه و خرید اشتراک ویژه Chinify PRO -->
-  <section class="pricing-section" id="pricing">
+  <!-- سؤالات متداول -->
+  <section class="toon-faq-section" id="faq">
     <div class="container">
-      <div class="section-head text-center">
-        <span class="section-tag">اشتراک ویژه Chinify PRO</span>
-        <h2 class="section-title">دسترسی نامحدود به تمام سطوح</h2>
-        <p class="section-desc">درس اول هر سطح رایگان است. برای باز کردن تمام درس‌ها و ابزارهای پیشرفته اشتراک خود را انتخاب کنید:</p>
+      <div class="text-center">
+        <span class="section-eyebrow">پاسخ به پرسش‌ها</span>
+        <h2 class="section-heading">سؤالات متداول</h2>
       </div>
 
-      <div class="pricing-grid">
-        <div class="pricing-card">
-          <div class="plan-header">
-            <h3 class="plan-title">اشتراک ۱ ماهه</h3>
-            <div class="plan-price-wrap">
-              <span class="plan-price">۷۵۰,۰۰۰</span>
-              <span class="plan-unit">تومان / ماهانه</span>
-            </div>
-          </div>
-          <div class="plan-divider"></div>
-          <ul class="plan-features">
-            <li><span class="feat-check">✓</span> دسترسی به تمامی درس‌های ۲ تا ۱۵</li>
-            <li><span class="feat-check">✓</span> واژگان تخصصی، گرامر و کوئیزها</li>
-            <li><span class="feat-check">✓</span> همگام‌سازی خودکار با اپلیکیشن</li>
-          </ul>
-          <button class="btn btn-outline btn-buy-plan" type="button" data-plan="monthly" data-title="اشتراک ۱ ماهه" data-price="۷۵۰,۰۰۰ تومان">
-            انتخاب پلن ۱ ماهه
-          </button>
-        </div>
-
-        <div class="pricing-card pricing-card-featured">
-          <div class="plan-popular-badge">👑 محبوب‌ترین · ۳۰٪ تخفیف</div>
-          <div class="plan-header">
-            <h3 class="plan-title">اشتراک ۱ ساله (طلایی)</h3>
-            <div class="plan-price-wrap">
-              <div class="plan-old-price">۹,۰۰۰,۰۰۰ تومان</div>
-              <span class="plan-price">۶,۳۰۰,۰۰۰</span>
-              <span class="plan-unit">تومان / سالانه</span>
-            </div>
-          </div>
-          <div class="plan-divider"></div>
-          <ul class="plan-features">
-            <li><span class="feat-check">✓</span> <b>دسترسی نامحدود به تمام ۶۰ درس</b></li>
-            <li><span class="feat-check">✓</span> پادکست‌های دوزبانه و بازی‌های مهارتی</li>
-            <li><span class="feat-check">✓</span> دریافت تمام آپدیت‌ها و سطوح جدید</li>
-          </ul>
-          <button class="btn btn-primary btn-buy-plan btn-buy-featured" type="button" data-plan="annual" data-title="اشتراک ۱ ساله (طلایی)" data-price="۶,۳۰۰,۰۰۰ تومان">
-            خرید اشتراک ۱ ساله
-          </button>
-        </div>
-
-        <div class="pricing-card">
-          <div class="plan-header">
-            <h3 class="plan-title">اشتراک ۳ ماهه</h3>
-            <div class="plan-price-wrap">
-              <span class="plan-price">۱,۹۵۰,۰۰۰</span>
-              <span class="plan-unit">تومان / ۳ ماهه</span>
-            </div>
-          </div>
-          <div class="plan-divider"></div>
-          <ul class="plan-features">
-            <li><span class="feat-check">✓</span> دسترسی کامل به سطوح HSK 2 تا HSK 5</li>
-            <li><span class="feat-check">✓</span> آزمون‌های سنجش آمادگی</li>
-            <li><span class="feat-check">✓</span> فعال‌سازی آنی روی ایمیل شما</li>
-          </ul>
-          <button class="btn btn-outline btn-buy-plan" type="button" data-plan="quarterly" data-title="اشتراک ۳ ماهه" data-price="۱,۹۵۰,۰۰۰ تومان">
-            انتخاب پلن ۳ ماهه
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- سوالات متداول -->
-  <section class="faq-section" id="faq">
-    <div class="container max-w-700">
-      <div class="section-head text-center">
-        <h2 class="section-title">پرسش‌های پرتکرار</h2>
-      </div>
-
-      <div class="faq-accordion">
+      <div class="faq-list">
         <details class="faq-item">
-          <summary class="faq-question">آیا برای استفاده از برنامه نیاز به اینترنت دارم؟</summary>
-          <div class="faq-answer">خیر، تمام فایل‌های صوتی، متون و درس‌ها در برنامه ذخیره شده‌اند و به صورت کاملاً آفلاین کار می‌کند.</div>
+          <summary>آیا برای شروع با چینی‌فا نیاز به پیش‌زمینه قبلی دارم؟</summary>
+          <p>خیر، تمام آموزش‌ها از صفر مطلق (آشنایی با الفبای پین‌یین، تُن‌های صوتی و اولین کاراکترها) با زبان فارسی روان شروع می‌شود.</p>
         </details>
         <details class="faq-item">
-          <summary class="faq-question">آیا برای افراد کاملاً مبتدی مناسب است؟</summary>
-          <div class="faq-answer">بله، آموزش از صفر (تلفظ تُن‌ها و الفبای پین‌یین) با توضیحات روان فارسی شروع می‌شود.</div>
+          <summary>تفاوت نسخه وب و اپلیکیشن اندروید چینی‌فا چیست؟</summary>
+          <p>هر دو نسخه امکانات کامل آموزشی (۵ ایستگاه، رسم نویسه‌ها، تلفظ بومی و پادکست‌ها) را دارند و با ورود به حساب کاربری، پیشرفت شما بین هر دو همگام می‌شود.</p>
         </details>
         <details class="faq-item">
-          <summary class="faq-question">اشتراک خریداری‌شده چطور در گوشی فعال می‌شود؟</summary>
-          <div class="faq-answer">کافیست در اپلیکیشن با همان ایمیلی که در سایت وارد شده‌اید لاگین کنید تا اشتراک شما بلافاصله فعال شود.</div>
+          <summary>آیا اپلیکیشن چینی‌فا بدون اینترنت هم کار می‌کند؟</summary>
+          <p>بله، تمامی فایل‌های صوتی، تصاویر و درس‌ها به‌صورت آفلاین در اپلیکیشن اندروید ذخیره شده‌اند.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- فوتر حرفه‌ای با کنتراست بالا -->
-  <footer class="site-footer" id="footer">
-    <div class="container footer-simple">
-      <div class="footer-brand-row">
-        <div class="brand-logo">
-          <div class="brand-seal han">龙</div>
-          <span class="brand-en">chin<b>ifa</b></span>
+  <!-- دعوت پایانی -->
+  <section class="toon-final-cta">
+    <div class="char-watermark" style="bottom:-30px; right:4%; font-size:210px; color:#FFF7E8; opacity:0.09;">香</div>
+    <div class="container" style="position:relative;z-index:2;">
+      <h2>سفر یادگیری زبان چینی را همین امروز آغاز کنید</h2>
+      <p>به هزاران زبان‌آموز بپیوندید و با اپلیکیشن و وب‌سایت چینی‌فا گام‌به‌گام به زبان ماندارین مسلط شوید.</p>
+      <div class="toon-hero-ctas">
+        <a href="../app/index.html" target="_blank" class="btn-pill btn-cream-solid">شروع یادگیری در نسخه وب</a>
+        <a href="../Chinifa.apk" download class="btn-pill btn-cream-ghost">دانلود اپلیکیشن چینی‌فا</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- فوتر قهوه‌ای گرم -->
+  <footer class="toon-footer">
+    <div class="container">
+      <div class="toon-footer-row">
+        <div class="toon-brand">
+          <div class="toon-logo-mark han">龙</div>
+          <div class="toon-brand-text">
+            <span class="toon-brand-fa" style="color:var(--cream);">چینی‌فا</span>
+            <span class="toon-brand-en" style="color:var(--sage);">chinifa · آموزش هوشمند زبان چینی</span>
+          </div>
         </div>
-        <p class="footer-desc">پلتفرم جامع آموزش هوشمند زبان چینی برای فارسی‌زبانان</p>
+        <div class="toon-footer-links">
+          <a href="../app/index.html" target="_blank">نسخه وب اپلیکیشن</a>
+          <a href="../Chinifa.apk" download>دانلود APK اندروید</a>
+          <a href="https://cafebazaar.ir/app/com.chinifa.app" target="_blank">کافه بازار</a>
+        </div>
       </div>
-      <div class="footer-simple-links">
-        <a href="../app/index.html" target="_blank">نسخه وب</a>
-        <a href="../Chinifa.apk" download>دانلود APK</a>
-        <a href="https://cafebazaar.ir/app/com.chinifa.app" target="_blank">کافه بازار</a>
-      </div>
-      <p class="footer-copy">© ۲۰۲۶ chinifa. تمامی حقوق محفوظ است.</p>
+      <p class="toon-footer-copy">© ۲۰۲۶ چینی‌فا (chinifa). تمامی حقوق محفوظ است.</p>
     </div>
   </footer>
 
-  <!-- مودال ورود و ثبت‌نام یکپارچه -->
-  <div class="auth-modal-backdrop" id="auth-modal" hidden>
-    <div class="auth-modal-card" role="dialog" aria-modal="true" aria-labelledby="auth-modal-title">
-      <button class="auth-modal-close" id="auth-modal-close" type="button" aria-label="بستن">✕</button>
-
-      <div class="auth-header text-center">
-        <div class="auth-logo-seal han">龙</div>
-        <h3 class="auth-title" id="auth-modal-title">ورود به چی‌نی‌فا</h3>
-        <p class="auth-subtitle" id="auth-modal-subtitle">برای ورود یا ساخت حساب، ایمیل خود را وارد کنید</p>
+  <!-- مودال ورود یکپارچه با ایمیل (Resend OTP) -->
+  <div class="modal-backdrop" id="toon-auth-modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true">
+      <button type="button" class="modal-close" id="toon-modal-close" aria-label="بستن">✕</button>
+      <div class="text-center" style="margin-bottom:20px;">
+        <div class="toon-logo-mark han" style="margin:0 auto 12px;">龙</div>
+        <h3 style="margin:0 0 4px;font-size:20px;font-weight:900;">ورود به چینی‌فا</h3>
+        <p style="margin:0;font-size:13px;color:var(--brown-light);">ایمیل خود را برای دریافت کد تایید ۶ رقمی وارد کنید</p>
       </div>
 
-      <div id="auth-step-email">
-        <form id="form-otp-request" class="auth-form">
-          <div class="form-group">
-            <label for="otp-email" class="form-label">آدرس ایمیل</label>
-            <div class="input-wrap">
-              <input type="email" id="otp-email" class="form-input" placeholder="name@example.com" required dir="ltr" autocomplete="email">
-              <span class="input-icon">✉️</span>
-            </div>
-          </div>
+      <form id="toon-otp-req">
+        <input type="email" id="toon-email" class="modal-input" placeholder="name@example.com" required dir="ltr">
+        <button type="submit" class="btn-pill btn-sage" style="width:100%;height:48px;" id="toon-send-btn">ارسال کد تایید به ایمیل</button>
+      </form>
 
-          <button type="submit" class="btn btn-primary btn-block btn-auth-submit" id="btn-send-otp">
-            <span>ارسال کد تایید به ایمیل</span>
-          </button>
-        </form>
+      <form id="toon-otp-ver" hidden>
+        <p style="font-size:12.5px;color:var(--leaf-dark);font-weight:700;margin:0 0 10px;">کد ارسال‌شده به <span id="toon-sent-email" dir="ltr"></span>:</p>
+        <input type="text" id="toon-code" class="modal-input" placeholder="••••••" maxlength="6" inputmode="numeric" required dir="ltr" style="text-align:center;font-size:22px;font-weight:900;letter-spacing:8px;">
+        <button type="submit" class="btn-pill btn-sage" style="width:100%;height:48px;" id="toon-ver-btn">تایید و ورود</button>
+      </form>
 
-        <div class="auth-alt-switch">
-          <button type="button" class="btn-link" id="btn-switch-password">ورود با رمز عبور</button>
-        </div>
-      </div>
-
-      <div id="auth-step-otp" hidden>
-        <form id="form-otp-verify" class="auth-form">
-          <div class="otp-sent-banner">
-            <div>کد ۶ رقمی به <strong id="sent-email-display" dir="ltr"></strong> ارسال شد.</div>
-            <button type="button" class="btn-link" id="btn-change-email">تغییر ایمیل</button>
-          </div>
-
-          <div class="form-group">
-            <label for="otp-code" class="form-label">کد تایید ۶ رقمی</label>
-            <input type="text" id="otp-code" class="form-input otp-code-input" placeholder="••••••" maxlength="6" inputmode="numeric" pattern="[0-9]{6}" required dir="ltr" autocomplete="one-time-code">
-            <div class="otp-timer-row">
-              <span id="otp-timer-text">اعتبار کد: <span id="otp-countdown">۰۲:۰۰</span></span>
-              <button type="button" class="btn-link" id="btn-resend-otp" disabled>ارسال مجدد</button>
-            </div>
-          </div>
-
-          <button type="submit" class="btn btn-primary btn-block btn-auth-submit" id="btn-verify-otp">
-            <span>تایید و ورود</span>
-          </button>
-        </form>
-      </div>
-
-      <div id="auth-step-password" hidden>
-        <form id="form-password-login" class="auth-form">
-          <div class="form-group">
-            <label for="login-email" class="form-label">ایمیل</label>
-            <div class="input-wrap">
-              <input type="email" id="login-email" class="form-input" placeholder="name@example.com" required dir="ltr" autocomplete="email">
-              <span class="input-icon">✉️</span>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="login-pass" class="form-label">رمز عبور</label>
-            <div class="input-wrap">
-              <input type="password" id="login-pass" class="form-input" placeholder="••••••••" required dir="ltr" autocomplete="current-password">
-              <span class="input-icon">🔒</span>
-            </div>
-          </div>
-          <button type="submit" class="btn btn-primary btn-block btn-auth-submit" id="btn-login-pass">
-            <span>ورود به حساب</span>
-          </button>
-        </form>
-
-        <div class="auth-alt-switch">
-          <button type="button" class="btn-link" id="btn-switch-otp">ورود سریع با کد ایمیل</button>
-        </div>
-      </div>
-
-      <div class="auth-alert" id="auth-alert" hidden></div>
+      <div class="modal-alert" id="toon-alert" hidden></div>
     </div>
   </div>
 
-  <!-- مودال اسکن بارکد QR -->
-  <div class="qr-modal-backdrop" id="qr-modal" hidden>
-    <div class="qr-modal-card">
-      <button class="qr-modal-close" id="qr-modal-close" type="button" aria-label="بستن">✕</button>
-      <h3 class="qr-modal-title">اسکن با دوربین گوشی</h3>
-      <p class="qr-modal-desc">برای دانلود مستقیم نسخه اندروید، بارکد زیر را اسکن کنید:</p>
+  <script>
+    (function() {
+      var menuBtn = document.getElementById('toon-menu-btn');
+      var nav = document.getElementById('toon-nav');
+      if (menuBtn && nav) {
+        menuBtn.addEventListener('click', function() { nav.classList.toggle('is-open'); });
+        nav.querySelectorAll('a').forEach(function(a) {
+          a.addEventListener('click', function() { nav.classList.remove('is-open'); });
+        });
+      }
 
-      <div class="qr-code-box">
-        <svg id="qr-svg" viewBox="0 0 200 200" width="180" height="180" class="qr-image">
-          <rect width="200" height="200" fill="#ffffff" rx="12"/>
-          <rect x="20" y="20" width="45" height="45" fill="#0FA968" rx="6"/>
-          <rect x="27" y="27" width="31" height="31" fill="#ffffff" rx="4"/>
-          <rect x="33" y="33" width="19" height="19" fill="#0FA968" rx="2"/>
-          <rect x="135" y="20" width="45" height="45" fill="#0FA968" rx="6"/>
-          <rect x="142" y="27" width="31" height="31" fill="#ffffff" rx="4"/>
-          <rect x="148" y="33" width="19" height="19" fill="#0FA968" rx="2"/>
-          <rect x="20" y="135" width="45" height="45" fill="#0FA968" rx="6"/>
-          <rect x="27" y="142" width="31" height="31" fill="#ffffff" rx="4"/>
-          <rect x="33" y="148" width="19" height="19" fill="#0FA968" rx="2"/>
-          <g fill="#1b2420">
-            <rect x="75" y="25" width="10" height="10"/><rect x="95" y="25" width="10" height="10"/><rect x="115" y="25" width="10" height="10"/>
-            <rect x="75" y="45" width="20" height="10"/><rect x="105" y="45" width="10" height="20"/><rect x="85" y="65" width="20" height="10"/>
-            <rect x="25" y="75" width="10" height="20"/><rect x="45" y="75" width="20" height="10"/><rect x="135" y="75" width="20" height="10"/>
-            <rect x="165" y="75" width="10" height="20"/><rect x="25" y="105" width="20" height="10"/><rect x="55" y="95" width="10" height="20"/>
-            <rect x="75" y="95" width="20" height="20"/><rect x="105" y="95" width="20" height="10"/><rect x="135" y="95" width="10" height="20"/>
-            <rect x="155" y="105" width="20" height="10"/><rect x="75" y="125" width="10" height="20"/><rect x="95" y="135" width="20" height="10"/>
-            <rect x="125" y="125" width="20" height="10"/><rect x="155" y="135" width="10" height="20"/><rect x="75" y="155" width="20" height="10"/>
-            <rect x="105" y="155" width="20" height="20"/><rect x="135" y="165" width="30" height="10"/>
-          </g>
-          <circle cx="100" cy="100" r="18" fill="#ffffff"/>
-          <circle cx="100" cy="100" r="14" fill="#0FA968"/>
-          <text x="100" y="105" font-family="'Vazirmatn', sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">龙</text>
-        </svg>
-      </div>
-      <div class="qr-file-info"><span>Chinifa.apk</span> · <span>۹۴.۸ مگابایت</span></div>
-    </div>
-  </div>
+      var modal = document.getElementById('toon-auth-modal');
+      var authBtn = document.getElementById('toon-auth-btn');
+      var userWrap = document.getElementById('toon-user-wrap');
+      var userPill = document.getElementById('toon-user-pill');
+      var userDd = document.getElementById('toon-user-dd');
+      var logoutBtn = document.getElementById('toon-logout-btn');
+      var dash = document.getElementById('toon-dash');
+      var closeBtn = document.getElementById('toon-modal-close');
+      var reqForm = document.getElementById('toon-otp-req');
+      var verForm = document.getElementById('toon-otp-ver');
+      var alertEl = document.getElementById('toon-alert');
+      var curEmail = '', curToken = '';
 
-  <!-- مودال پرداخت اشتراک -->
-  <div class="auth-modal-backdrop" id="payment-modal" hidden>
-    <div class="auth-modal-card payment-modal-card" role="dialog" aria-modal="true">
-      <button class="auth-modal-close" id="payment-modal-close" type="button" aria-label="بستن">✕</button>
+      function getSavedUser() {
+        try { return JSON.parse(localStorage.getItem('chinifa_auth_user') || 'null'); } catch (e) { return null; }
+      }
 
-      <div class="auth-header text-center">
-        <div class="auth-logo-seal" style="background:linear-gradient(135deg,#059669,#10B981);color:#fff;">👑</div>
-        <h3 class="auth-title">خرید اشتراک Chinify PRO</h3>
-        <p class="auth-subtitle">فعال‌سازی آنی روی حساب کاربری شما</p>
-      </div>
+      function syncAuthUI() {
+        var u = getSavedUser();
+        if (u && u.email) {
+          if (authBtn) authBtn.hidden = true;
+          if (userWrap) userWrap.hidden = false;
+          if (dash) dash.hidden = false;
 
-      <div class="payment-summary-box">
-        <div class="summary-row">
-          <span>پلن انتخابی:</span>
-          <strong id="pay-plan-name">اشتراک ۱ ساله (طلایی)</strong>
-        </div>
-        <div class="summary-row">
-          <span>مبلغ قابل پرداخت:</span>
-          <strong class="pay-amount" id="pay-plan-price">۶,۳۰۰,۰۰۰ تومان</strong>
-        </div>
-        <div class="summary-row">
-          <span>حساب فعال‌ساز:</span>
-          <span class="pay-email" id="pay-user-email" dir="ltr">user@example.com</span>
-        </div>
-      </div>
+          var name = u.fullName || u.email.split('@')[0];
+          var av = name.charAt(0).toUpperCase() || 'A';
+          var el;
+          if ((el = document.getElementById('toon-user-name'))) el.textContent = name;
+          if ((el = document.getElementById('toon-user-av'))) el.textContent = av;
+          if ((el = document.getElementById('dd-name'))) el.textContent = name;
+          if ((el = document.getElementById('dd-email'))) el.textContent = u.email;
+          if ((el = document.getElementById('dash-name'))) el.textContent = name;
+          if ((el = document.getElementById('dash-email'))) el.textContent = u.email;
+          var ni = document.getElementById('dash-name-input');
+          if (ni && document.activeElement !== ni) ni.value = name;
 
-      <div class="auth-alert is-error" id="payment-alert" hidden></div>
+          var v1 = {};
+          try { v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}'); } catch (e) {}
+          var lvl = (v1.level || u.hskLevel || 'hsk1').toLowerCase().replace(/\s+/g, '');
+          var goal = String(v1.goal || u.dailyGoal || 10);
+          document.querySelectorAll('#dash-hsk-pills .dash-pill').forEach(function(p) {
+            p.classList.toggle('is-active', p.getAttribute('data-hsk') === lvl);
+          });
+          document.querySelectorAll('#dash-goal-pills .dash-pill').forEach(function(p) {
+            p.classList.toggle('is-active', p.getAttribute('data-goal') === goal);
+          });
+        } else {
+          if (authBtn) authBtn.hidden = false;
+          if (userWrap) userWrap.hidden = true;
+          if (dash) dash.hidden = true;
+        }
+      }
+      syncAuthUI();
 
-      <button class="btn btn-primary btn-block btn-confirm-pay" id="btn-confirm-payment" type="button">
-        <span class="pay-btn-icon">🔒</span>
-        <span id="btn-pay-text">پرداخت و فعال‌سازی فوری</span>
-      </button>
+      function showDashMsg(txt) {
+        var m = document.getElementById('dash-msg');
+        if (!m) return;
+        m.hidden = false; m.textContent = txt;
+        clearTimeout(m._t); m._t = setTimeout(function() { m.hidden = true; }, 2500);
+      }
 
-      <p class="payment-guarantee-note">
-        🛡️ همگام‌سازی فوری با نسخه وب و اپلیکیشن موبایل
-      </p>
-    </div>
-  </div>
+      document.querySelectorAll('#dash-hsk-pills .dash-pill').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var lvl = btn.getAttribute('data-hsk');
+          try {
+            var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}'); v1.level = lvl;
+            localStorage.setItem('chinifa.v1', JSON.stringify(v1));
+            var u = getSavedUser() || {}; u.hskLevel = lvl.toUpperCase();
+            localStorage.setItem('chinifa_auth_user', JSON.stringify(u));
+          } catch (e) {}
+          syncAuthUI();
+          showDashMsg('✓ سطح آموزشی روی ' + lvl.toUpperCase() + ' ذخیره شد.');
+        });
+      });
 
-  <!-- مودال موفقیت پرداخت -->
-  <div class="auth-modal-backdrop" id="payment-success-modal" hidden>
-    <div class="auth-modal-card text-center" style="max-width:440px;">
-      <div style="font-size:48px;margin-bottom:10px;">🎉</div>
-      <h3 style="font-size:20px;font-weight:900;color:#059669;margin-bottom:8px;">اشتراک شما فعال شد!</h3>
-      <p style="font-size:14px;color:#334155;line-height:1.7;margin-bottom:16px;">
-        حساب <span id="success-user-email" style="font-weight:bold;direction:ltr;display:inline-block;"></span> به نسخه <b>Chinify PRO</b> ارتقا یافت.
-      </p>
+      document.querySelectorAll('#dash-goal-pills .dash-pill').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var g = parseInt(btn.getAttribute('data-goal') || '10', 10);
+          try {
+            var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}'); v1.goal = g;
+            localStorage.setItem('chinifa.v1', JSON.stringify(v1));
+            var u = getSavedUser() || {}; u.dailyGoal = g;
+            localStorage.setItem('chinifa_auth_user', JSON.stringify(u));
+          } catch (e) {}
+          syncAuthUI();
+          showDashMsg('✓ هدف مطالعه روزانه روی ' + g + ' دقیقه تنظیم شد.');
+        });
+      });
 
-      <div style="display:flex;flex-direction:column;gap:10px;">
-        <a href="../app/index.html" target="_blank" class="btn btn-primary btn-block">ورود به وب‌اپلیکیشن</a>
-        <button class="btn btn-outline btn-block" id="btn-close-payment-success" type="button">بستن</button>
-      </div>
-    </div>
-  </div>
+      var nameForm = document.getElementById('dash-name-form');
+      if (nameForm) nameForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var val = (document.getElementById('dash-name-input').value || '').trim();
+        if (!val) return;
+        try {
+          var u = getSavedUser() || {}; u.fullName = val;
+          localStorage.setItem('chinifa_auth_user', JSON.stringify(u));
+          var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}'); v1.userName = val; v1.nick = val;
+          localStorage.setItem('chinifa.v1', JSON.stringify(v1));
+        } catch (err) {}
+        syncAuthUI();
+        showDashMsg('✓ نام پروفایل با موفقیت ذخیره شد.');
+      });
 
-  <script src="main.js"></script>
+      if (userPill && userDd) {
+        userPill.addEventListener('click', function(e) { e.stopPropagation(); userDd.hidden = !userDd.hidden; });
+        document.addEventListener('click', function(e) { if (userWrap && !userWrap.contains(e.target)) userDd.hidden = true; });
+      }
+      var ddGoto = document.getElementById('dd-goto-dash');
+      if (ddGoto && userDd) ddGoto.addEventListener('click', function() { userDd.hidden = true; });
+
+      if (logoutBtn) logoutBtn.addEventListener('click', function() {
+        localStorage.removeItem('chinifa_auth_user');
+        localStorage.removeItem('chinifa_auth_token');
+        if (userDd) userDd.hidden = true;
+        syncAuthUI();
+      });
+
+      function showAlert(msg, isErr) {
+        alertEl.hidden = false;
+        alertEl.className = 'modal-alert' + (isErr ? ' is-err' : '');
+        alertEl.innerHTML = msg;
+      }
+
+      if (authBtn) authBtn.addEventListener('click', function() {
+        modal.hidden = false; reqForm.hidden = false; verForm.hidden = true; alertEl.hidden = true;
+      });
+      if (closeBtn) closeBtn.addEventListener('click', function() { modal.hidden = true; });
+      if (modal) modal.addEventListener('click', function(e) { if (e.target === modal) modal.hidden = true; });
+
+      if (reqForm) reqForm.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var email = document.getElementById('toon-email').value.trim().toLowerCase();
+        var btn = document.getElementById('toon-send-btn');
+        btn.disabled = true; btn.textContent = 'در حال ارسال...';
+        try {
+          var r = await fetch('/api/auth?action=send-otp', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email })
+          });
+          var d = await r.json();
+          if (!r.ok) throw new Error(d.message || 'خطا در ارسال کد');
+          curEmail = email; curToken = d.otpToken || '';
+          reqForm.hidden = true; verForm.hidden = false;
+          document.getElementById('toon-sent-email').textContent = email;
+          showAlert(d.devMode && d.code ? 'کد آزمایشی: <b>' + d.code + '</b>' : 'کد تایید به ایمیلتان ارسال شد.', false);
+        } catch (err) { showAlert(err.message, true); }
+        finally { btn.disabled = false; btn.textContent = 'ارسال کد تایید به ایمیل'; }
+      });
+
+      if (verForm) verForm.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var code = document.getElementById('toon-code').value.trim();
+        var btn = document.getElementById('toon-ver-btn');
+        btn.disabled = true; btn.textContent = 'در حال بررسی...';
+        try {
+          var r = await fetch('/api/auth?action=verify-otp', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: curEmail, code: code, otpToken: curToken })
+          });
+          var d = await r.json();
+          if (!r.ok) throw new Error(d.message || 'کد اشتباه است');
+          if (d.token) localStorage.setItem('chinifa_auth_token', d.token);
+          if (d.user) localStorage.setItem('chinifa_auth_user', JSON.stringify(d.user));
+          syncAuthUI();
+          showAlert('خوش آمدید! ورود با موفقیت انجام شد 🌸', false);
+          setTimeout(function() { modal.hidden = true; }, 800);
+        } catch (err) { showAlert(err.message, true); }
+        finally { btn.disabled = false; btn.textContent = 'تایید و ورود'; }
+      });
+    })();
+  </script>
 </body>
 </html>
