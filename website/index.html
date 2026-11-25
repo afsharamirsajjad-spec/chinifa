@@ -13,25 +13,25 @@
 
   <style>
     :root {
-      --sage: #A8C9A0;
-      --sage-dark: #8DB585;
-      --sage-light: #C5DEC0;
-      --leaf: #64826A;
-      --leaf-dark: #4E6A55;
-      --cream: #FFF7E8;
-      --cream-dark: #F5EDDA;
-      --sec-sage: #E9F1E5;
-      --sec-butter: #FAF0D8;
-      --sec-peach: #F7E6DE;
-      --sec-leaf: #DFECDA;
-      --sec-foam: #FBF7EE;
-      --butter: #F3D98B;
-      --peach: #E8B6A5;
-      --peach-light: #F0CFC3;
-      --brown: #5B5145;
-      --brown-light: #7A6F62;
-      --brown-dark: #3D352E;
-      --rust: #A8502F;
+      --sage: #52C48A;
+      --sage-dark: #10B981;
+      --sage-light: #A7F3D0;
+      --leaf: #059669;
+      --leaf-dark: #047857;
+      --cream: #FFFFFF;
+      --cream-dark: #F6FBF8;
+      --sec-sage: #EFFAF4;
+      --sec-butter: #FFFBEB;
+      --sec-peach: #FFF5F2;
+      --sec-leaf: #F0FDF6;
+      --sec-foam: #FAFDFB;
+      --butter: #FDE68A;
+      --peach: #FDBA74;
+      --peach-light: #FED7AA;
+      --brown: #475569;
+      --brown-light: #64748B;
+      --brown-dark: #0F172A;
+      --rust: #DC2626;
       --white: #FFFFFF;
     }
 
@@ -48,7 +48,7 @@
       direction: rtl;
       text-align: right;
       font-family: 'Vazirmatn', system-ui, -apple-system, sans-serif;
-      background-color: var(--cream);
+      background-color: #FFFFFF;
       color: var(--brown-dark);
       -webkit-font-smoothing: antialiased;
       overflow-x: hidden;
@@ -65,19 +65,24 @@
       padding: 0 24px;
     }
 
+    @keyframes floatSoft {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+
     /* ================= Header ================= */
     .toon-header {
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(255, 247, 232, 0.92);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-      border-bottom: 1px solid rgba(168, 201, 160, 0.35);
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.12);
     }
 
     .toon-header-inner {
-      height: 76px;
+      height: 74px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -95,14 +100,14 @@
       width: 42px;
       height: 42px;
       border-radius: 14px;
-      background: linear-gradient(135deg, var(--leaf), var(--sage-dark));
-      color: var(--cream);
+      background: linear-gradient(135deg, #34D399, #059669);
+      color: #FFFFFF;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 22px;
       font-weight: 900;
-      box-shadow: 0 6px 16px rgba(100, 130, 106, 0.25);
+      box-shadow: 0 8px 20px rgba(16, 185, 129, 0.28);
     }
 
     .toon-brand-text {
@@ -111,18 +116,8 @@
       line-height: 1.2;
     }
 
-    .toon-brand-fa {
-      font-size: 18px;
-      font-weight: 900;
-      color: var(--brown-dark);
-    }
-
-    .toon-brand-en {
-      font-size: 11.5px;
-      font-weight: 700;
-      color: var(--leaf);
-      letter-spacing: 0.4px;
-    }
+    .toon-brand-fa { font-size: 18px; font-weight: 900; color: var(--brown-dark); }
+    .toon-brand-en { font-size: 11.5px; font-weight: 700; color: var(--leaf); letter-spacing: 0.4px; }
 
     .toon-nav {
       display: flex;
@@ -135,14 +130,14 @@
       font-size: 13.5px;
       font-weight: 600;
       color: var(--brown);
-      padding: 7px 11px;
+      padding: 7px 12px;
       border-radius: 999px;
       transition: background 0.2s, color 0.2s;
     }
 
     .toon-nav a:hover {
-      background: rgba(168, 201, 160, 0.25);
-      color: var(--brown-dark);
+      background: #ECFDF5;
+      color: var(--leaf-dark);
     }
 
     .toon-header-actions {
@@ -158,7 +153,7 @@
       justify-content: center;
       gap: 8px;
       height: 42px;
-      padding: 0 18px;
+      padding: 0 20px;
       border-radius: 999px;
       font-size: 13.5px;
       font-weight: 700;
@@ -168,25 +163,28 @@
     }
 
     .btn-sage {
-      background: var(--sage);
-      color: var(--brown-dark);
-      box-shadow: 0 6px 18px rgba(141, 181, 133, 0.35);
+      background: linear-gradient(135deg, #22C58B 0%, #10B981 100%);
+      color: #FFFFFF;
+      box-shadow: 0 8px 22px rgba(16, 185, 129, 0.28);
     }
 
     .btn-sage:hover {
-      background: var(--sage-dark);
+      background: linear-gradient(135deg, #10B981 0%, #059669 100%);
       transform: translateY(-2px);
+      box-shadow: 0 12px 26px rgba(16, 185, 129, 0.36);
     }
 
     .btn-cream-outline {
-      background: var(--white);
+      background: #FFFFFF;
       color: var(--brown-dark);
-      border: 1.5px solid rgba(168, 201, 160, 0.65);
+      border: 1.5px solid #E2E8F0;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
     }
 
     .btn-cream-outline:hover {
-      border-color: var(--leaf);
-      background: var(--sec-sage);
+      border-color: #34D399;
+      background: #F0FDF4;
+      color: var(--leaf-dark);
     }
 
     .user-pill-wrap {
@@ -381,24 +379,52 @@
       line-height: 1;
     }
 
-    /* ================= Hero (Editorial Cream → Sage) ================= */
+    /* ================= Hero (Bright Luminous Mint & Ivory) ================= */
     .toon-hero {
       position: relative;
       overflow: hidden;
-      background: linear-gradient(180deg, var(--cream) 0%, var(--cream) 55%, rgba(197, 222, 192, 0.35) 100%);
-      padding: 72px 0 88px;
+      background:
+        radial-gradient(circle at 18% 24%, rgba(167, 243, 208, 0.45) 0%, transparent 46%),
+        radial-gradient(circle at 82% 22%, rgba(253, 230, 138, 0.38) 0%, transparent 44%),
+        linear-gradient(180deg, #FFFFFF 0%, #F4FBF7 100%);
+      padding: 78px 0 92px;
       text-align: center;
     }
 
     .toon-hero-glow {
       position: absolute;
-      top: -60px;
+      top: -40px;
       left: 50%;
       transform: translateX(-50%);
-      width: 680px;
-      height: 420px;
-      background: radial-gradient(circle, rgba(243, 217, 139, 0.32) 0%, rgba(168, 201, 160, 0.16) 50%, transparent 75%);
+      width: 760px;
+      height: 440px;
+      background: radial-gradient(circle, rgba(52, 211, 153, 0.14) 0%, rgba(253, 230, 138, 0.18) 50%, transparent 75%);
       pointer-events: none;
+    }
+
+    .hero-float-chip {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(16, 185, 129, 0.22);
+      border-radius: 18px;
+      padding: 10px 16px;
+      box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      animation: floatSoft 4.2s ease-in-out infinite;
+      z-index: 2;
+    }
+
+    .hfc-1 { top: 64px; right: 6%; animation-delay: 0s; }
+    .hfc-2 { bottom: 64px; left: 6%; animation-delay: 1.4s; }
+    .hfc-zh { font-size: 22px; font-weight: 900; color: var(--leaf-dark); }
+    .hfc-meta strong { display: block; font-size: 12.5px; color: var(--brown-dark); }
+    .hfc-meta span { display: block; font-size: 11px; color: var(--brown-light); }
+
+    @media (max-width: 1024px) {
+      .hero-float-chip { display: none; }
     }
 
     .toon-hero-content {
@@ -696,8 +722,8 @@
 
     /* ================= HSK Path ================= */
     .toon-hsk-section {
-      background: var(--sec-leaf);
-      padding: 72px 0;
+      background: linear-gradient(180deg, #F0FDF6 0%, #FFFFFF 100%);
+      padding: 76px 0;
       position: relative;
       overflow: hidden;
     }
@@ -710,20 +736,30 @@
     }
 
     .hsk-step-card {
-      background: var(--cream);
+      background: #FFFFFF;
       border-radius: 22px;
-      padding: 22px 18px;
-      border: 1.5px solid rgba(168, 201, 160, 0.45);
+      padding: 24px 18px;
+      border: 1.5px solid #E2E8F0;
+      border-top: 4px solid var(--sage);
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
       text-align: center;
-      transition: transform 0.22s;
+      transition: transform 0.22s, box-shadow 0.22s;
     }
 
-    .hsk-step-card:hover { transform: translateY(-4px); }
+    .hsk-step-card:nth-child(2) { border-top-color: #38BDF8; }
+    .hsk-step-card:nth-child(3) { border-top-color: #FBBF24; }
+    .hsk-step-card:nth-child(4) { border-top-color: #FB923C; }
+    .hsk-step-card:nth-child(5) { border-top-color: #A78BFA; }
+
+    .hsk-step-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 16px 34px rgba(16, 185, 129, 0.12);
+    }
 
     .hsk-badge {
       display: inline-block;
-      background: var(--sage);
-      color: var(--brown-dark);
+      background: #ECFDF5;
+      color: var(--leaf-dark);
       font-size: 12px;
       font-weight: 900;
       padding: 4px 12px;
@@ -856,29 +892,30 @@
     .faq-item summary { font-size: 15px; font-weight: 800; color: var(--brown-dark); cursor: pointer; }
     .faq-item p { margin: 10px 0 0; font-size: 13.5px; color: var(--brown-light); line-height: 1.8; }
 
-    /* ================= Final CTA ================= */
+    /* ================= Final CTA (Bright Fresh Emerald Gradient) ================= */
     .toon-final-cta {
       position: relative;
       overflow: hidden;
-      background: linear-gradient(135deg, var(--sage) 0%, var(--sage-dark) 100%);
-      padding: 76px 0;
+      background: linear-gradient(135deg, #34D399 0%, #10B981 55%, #059669 100%);
+      padding: 80px 0;
       text-align: center;
     }
 
-    .toon-final-cta h2 { font-size: clamp(26px, 4vw, 42px); font-weight: 900; color: var(--cream); margin: 0 0 14px; }
-    .toon-final-cta p { font-size: 16px; color: rgba(255, 247, 232, 0.92); max-width: 560px; margin: 0 auto 30px; }
+    .toon-final-cta h2 { font-size: clamp(26px, 4vw, 42px); font-weight: 900; color: #FFFFFF; margin: 0 0 14px; }
+    .toon-final-cta p { font-size: 16px; color: rgba(255, 255, 255, 0.94); max-width: 560px; margin: 0 auto 30px; }
 
-    .btn-cream-solid { background: var(--cream); color: var(--brown-dark); height: 52px; padding: 0 28px; font-size: 15px; }
-    .btn-cream-solid:hover { background: var(--butter); transform: translateY(-2px); }
+    .btn-cream-solid { background: #FFFFFF; color: var(--leaf-dark); height: 52px; padding: 0 28px; font-size: 15px; box-shadow: 0 12px 28px rgba(4, 120, 87, 0.22); }
+    .btn-cream-solid:hover { background: #FFFBEB; transform: translateY(-2px); }
 
-    .btn-cream-ghost { background: transparent; color: var(--cream); border: 2px solid rgba(255, 247, 232, 0.65); height: 52px; padding: 0 28px; font-size: 15px; }
-    .btn-cream-ghost:hover { background: rgba(255, 247, 232, 0.14); border-color: var(--cream); }
+    .btn-cream-ghost { background: rgba(255, 255, 255, 0.14); color: #FFFFFF; border: 2px solid rgba(255, 255, 255, 0.75); height: 52px; padding: 0 28px; font-size: 15px; }
+    .btn-cream-ghost:hover { background: rgba(255, 255, 255, 0.24); border-color: #FFFFFF; }
 
-    /* ================= Footer ================= */
+    /* ================= Footer (Bright & Clean Light Theme) ================= */
     .toon-footer {
-      background: var(--brown-dark);
-      color: var(--cream);
+      background: #F4FBF7;
+      color: var(--brown-dark);
       padding: 44px 0 28px;
+      border-top: 1px solid rgba(16, 185, 129, 0.15);
     }
 
     .toon-footer-row {
@@ -888,24 +925,25 @@
       flex-wrap: wrap;
       gap: 20px;
       padding-bottom: 24px;
-      border-bottom: 1px solid rgba(255, 247, 232, 0.12);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.15);
     }
 
     .toon-footer-links { display: flex; flex-wrap: wrap; gap: 12px; }
 
     .toon-footer-links a {
-      background: rgba(255, 247, 232, 0.08);
-      border: 1px solid rgba(255, 247, 232, 0.16);
-      color: var(--cream);
+      background: #FFFFFF;
+      border: 1px solid #D1FAE5;
+      color: var(--brown-dark);
       padding: 8px 16px;
       border-radius: 999px;
       font-size: 13px;
       font-weight: 700;
-      transition: background 0.2s;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03);
+      transition: all 0.2s;
     }
 
-    .toon-footer-links a:hover { background: rgba(168, 201, 160, 0.24); }
-    .toon-footer-copy { text-align: center; margin: 20px 0 0; font-size: 12.5px; color: rgba(255, 247, 232, 0.68); }
+    .toon-footer-links a:hover { background: #ECFDF5; border-color: #34D399; color: var(--leaf-dark); }
+    .toon-footer-copy { text-align: center; margin: 20px 0 0; font-size: 12.5px; color: var(--brown-light); }
 
     /* ================= Auth Modal (Resend OTP) ================= */
     .modal-backdrop {
@@ -1107,10 +1145,19 @@
     </div>
   </section>
 
-  <!-- Hero — سبک ادیتوریال Chinese-Toon تمام فارسی -->
+  <!-- Hero — سبک ادیتوریال روشن و جذاب تمام فارسی -->
   <section class="toon-hero">
     <div class="toon-hero-glow"></div>
     <div class="char-watermark" style="top:18px; right:6%; font-size:210px;">学</div>
+
+    <div class="hero-float-chip hfc-1" aria-hidden="true">
+      <span class="hfc-zh">你好</span>
+      <div class="hfc-meta"><strong>nǐ hǎo</strong><span>سلام و احوالپرسی</span></div>
+    </div>
+    <div class="hero-float-chip hfc-2" aria-hidden="true">
+      <span class="hfc-zh">谢谢</span>
+      <div class="hfc-meta"><strong>xiè xie</strong><span>تلفظ بومی + پین‌یین</span></div>
+    </div>
 
     <div class="container toon-hero-content">
       <div class="toon-hero-pill">
@@ -1456,8 +1503,8 @@
         <div class="toon-brand">
           <div class="toon-logo-mark han">龙</div>
           <div class="toon-brand-text">
-            <span class="toon-brand-fa" style="color:var(--cream);">چینی‌فا</span>
-            <span class="toon-brand-en" style="color:var(--sage);">chinifa · آموزش هوشمند زبان چینی</span>
+            <span class="toon-brand-fa" style="color:var(--brown-dark);">چینی‌فا</span>
+            <span class="toon-brand-en" style="color:var(--leaf);">chinifa · آموزش هوشمند زبان چینی</span>
           </div>
         </div>
         <div class="toon-footer-links">
