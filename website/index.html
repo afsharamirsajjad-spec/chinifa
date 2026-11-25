@@ -277,30 +277,59 @@
       border-radius: 2px;
     }
 
-    /* ================= Logged-in User Dashboard ================= */
+    /* ================= Logged-in ProfileView (Chinese-Toon Style) ================= */
     .toon-dash {
-      background: var(--sec-sage);
-      border-bottom: 1px solid rgba(168, 201, 160, 0.45);
-      padding: 20px 0;
+      background: linear-gradient(180deg, #F0FDF6 0%, #FFFFFF 100%);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.14);
+      padding: 36px 0;
     }
 
-    .toon-dash-card {
-      background: var(--cream);
-      border: 1.5px solid rgba(168, 201, 160, 0.65);
-      border-radius: 24px;
-      padding: 20px 24px;
-      box-shadow: 0 10px 28px rgba(61, 53, 46, 0.06);
+    .ct-profile-stack {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
     }
 
-    .dash-top {
+    .ct-card {
+      background: #FFFFFF;
+      border-radius: 26px;
+      padding: 26px 28px;
+      border: 1px solid rgba(16, 185, 129, 0.14);
+      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.05);
+    }
+
+    .ct-card-head {
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 14px;
-      padding-bottom: 16px;
-      border-bottom: 1px solid rgba(168, 201, 160, 0.35);
-      margin-bottom: 16px;
+      margin-bottom: 18px;
+    }
+
+    .ct-card-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--brown-dark);
+      margin: 0;
+    }
+
+    .ct-icon-box {
+      width: 40px;
+      height: 40px;
+      border-radius: 13px;
+      background: #ECFDF5;
+      color: var(--leaf-dark);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
     }
 
     .dash-grid {
@@ -310,8 +339,8 @@
     }
 
     .dash-box {
-      background: var(--white);
-      border: 1px solid rgba(168, 201, 160, 0.4);
+      background: #F8FAFC;
+      border: 1px solid #E2E8F0;
       border-radius: 16px;
       padding: 14px;
     }
@@ -330,19 +359,20 @@
     }
 
     .dash-pill {
-      border: 1px solid rgba(168, 201, 160, 0.7);
-      background: var(--cream);
+      border: 1px solid #CBD5E1;
+      background: #FFFFFF;
       color: var(--brown-dark);
       font-size: 12px;
       font-weight: 700;
       padding: 5px 11px;
       border-radius: 999px;
+      transition: all 0.15s ease;
     }
 
     .dash-pill.is-active {
       background: var(--leaf);
       border-color: var(--leaf);
-      color: var(--cream);
+      color: #FFFFFF;
     }
 
     .dash-name-row {
@@ -356,16 +386,40 @@
       height: 36px;
       padding: 0 12px;
       border-radius: 10px;
-      border: 1px solid rgba(168, 201, 160, 0.7);
+      border: 1px solid #CBD5E1;
       font-family: inherit;
       font-size: 13px;
     }
+
+    .ct-two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .ct-list-item {
+      background: #FAFDFB;
+      border: 1px solid rgba(16, 185, 129, 0.14);
+      border-radius: 14px;
+      padding: 12px 14px;
+      margin-bottom: 10px;
+      font-size: 13px;
+      color: var(--brown);
+    }
+
+    .ct-list-item:last-child { margin-bottom: 0; }
+    .ct-list-item strong { display: block; color: var(--brown-dark); margin-bottom: 2px; }
 
     .dash-msg {
       margin-top: 12px;
       font-size: 13px;
       font-weight: 700;
       color: var(--leaf-dark);
+    }
+
+    @media (max-width: 768px) {
+      .ct-two-col { grid-template-columns: 1fr; }
+      .ct-card { padding: 20px 18px; }
     }
 
     /* ================= Watermark ================= */
@@ -1095,52 +1149,96 @@
     </div>
   </header>
 
-  <!-- پیشخوان کاربر لاگین‌شده -->
+  <!-- پیشخوان کامل کاربر لاگین‌شده (دقیقاً مشابه ProfileView در Chinese-Toon) -->
   <section class="toon-dash" id="toon-dash" hidden>
     <div class="container">
-      <div class="toon-dash-card">
-        <div class="dash-top">
-          <div>
-            <strong style="font-size:17px;">سلام، <span id="dash-name">دوست عزیز</span> 👋</strong>
-            <div style="font-size:13px;color:var(--brown-light);" id="dash-email" dir="ltr"></div>
-          </div>
-          <div style="display:flex;gap:10px;flex-wrap:wrap;">
-            <a href="../app/index.html" target="_blank" class="btn-pill btn-sage">ادامه یادگیری در وب‌اپ</a>
+      <div class="ct-profile-stack">
+
+        <!-- کارت ۱: هدر حساب کاربری (نام، ایمیل و خروج) -->
+        <div class="ct-card">
+          <div class="ct-card-head" style="margin-bottom:0;">
+            <div>
+              <h2 style="margin:0;font-size:21px;font-weight:900;color:var(--brown-dark);">
+                سلام، <span id="dash-name">دوست عزیز</span> 👋
+              </h2>
+              <div style="font-size:13px;color:var(--brown-light);margin-top:4px;" id="dash-email" dir="ltr"></div>
+            </div>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;">
+              <a href="../app/index.html" target="_blank" class="btn-pill btn-sage">ادامه یادگیری در اپلیکیشن وب</a>
+              <button type="button" class="btn-pill btn-cream-outline" id="dash-logout-btn">خروج از حساب</button>
+            </div>
           </div>
         </div>
 
-        <div class="dash-grid">
-          <div class="dash-box">
-            <div class="dash-box-title">🎯 سطح آموزشی فعال</div>
-            <div class="dash-pills" id="dash-hsk-pills">
-              <button type="button" class="dash-pill is-active" data-hsk="hsk1">HSK 1</button>
-              <button type="button" class="dash-pill" data-hsk="hsk2">HSK 2</button>
-              <button type="button" class="dash-pill" data-hsk="hsk3">HSK 3</button>
-              <button type="button" class="dash-pill" data-hsk="hsk4">HSK 4</button>
-              <button type="button" class="dash-pill" data-hsk="hsk5">HSK 5</button>
+        <!-- کارت ۲: یادگیری من (MyLearningSection — انتخاب سطح HSK و هدف روزانه) -->
+        <div class="ct-card">
+          <div class="ct-card-head">
+            <h3 class="ct-card-title"><span class="ct-icon-box">📈</span><span>یادگیری من و تنظیمات HSK</span></h3>
+          </div>
+          <div class="dash-grid">
+            <div class="dash-box">
+              <div class="dash-box-title">🎯 سطح آموزشی فعال</div>
+              <div class="dash-pills" id="dash-hsk-pills">
+                <button type="button" class="dash-pill is-active" data-hsk="hsk1">HSK 1</button>
+                <button type="button" class="dash-pill" data-hsk="hsk2">HSK 2</button>
+                <button type="button" class="dash-pill" data-hsk="hsk3">HSK 3</button>
+                <button type="button" class="dash-pill" data-hsk="hsk4">HSK 4</button>
+                <button type="button" class="dash-pill" data-hsk="hsk5">HSK 5</button>
+              </div>
+            </div>
+
+            <div class="dash-box">
+              <div class="dash-box-title">⏱️ هدف مطالعه روزانه</div>
+              <div class="dash-pills" id="dash-goal-pills">
+                <button type="button" class="dash-pill" data-goal="5">۵ دقیقه</button>
+                <button type="button" class="dash-pill is-active" data-goal="10">۱۰ دقیقه</button>
+                <button type="button" class="dash-pill" data-goal="15">۱۵ دقیقه</button>
+                <button type="button" class="dash-pill" data-goal="20">۲۰ دقیقه</button>
+              </div>
+            </div>
+
+            <div class="dash-box">
+              <div class="dash-box-title">✏️ ویرایش نام پروفایل</div>
+              <form class="dash-name-row" id="dash-name-form">
+                <input type="text" id="dash-name-input" placeholder="نام شما..." maxlength="28">
+                <button type="submit" class="btn-pill btn-sage" style="height:36px;padding:0 14px;font-size:12.5px;">ذخیره</button>
+              </form>
+            </div>
+          </div>
+          <div class="dash-msg" id="dash-msg" hidden></div>
+        </div>
+
+        <!-- کارت ۳: کلاس‌ها، اشتراک‌ها و اعلان‌ها -->
+        <div class="ct-two-col">
+          <div class="ct-card">
+            <div class="ct-card-head">
+              <h3 class="ct-card-title"><span class="ct-icon-box">🎓</span><span>دوره‌ها و تمرین امروز</span></h3>
+            </div>
+            <div class="ct-list-item">
+              <strong>دوره فعال: زبان چینی استاندارد (HSK 1 تا 5)</strong>
+              <span>دسترسی کامل به نقشه راه ۵ ایستگاه، رسم نویسه‌ها و تلفظ بومی.</span>
+            </div>
+            <div class="ct-list-item">
+              <strong>تکلیف پیشنهادی امروز</strong>
+              <span>۱۰ دقیقه تمرین الفبای پین‌یین و مرور مکالمه درس اول در اپلیکیشن.</span>
             </div>
           </div>
 
-          <div class="dash-box">
-            <div class="dash-box-title">⏱️ هدف مطالعه روزانه</div>
-            <div class="dash-pills" id="dash-goal-pills">
-              <button type="button" class="dash-pill" data-goal="5">۵ دقیقه</button>
-              <button type="button" class="dash-pill is-active" data-goal="10">۱۰ دقیقه</button>
-              <button type="button" class="dash-pill" data-goal="15">۱۵ دقیقه</button>
-              <button type="button" class="dash-pill" data-goal="20">۲۰ دقیقه</button>
+          <div class="ct-card">
+            <div class="ct-card-head">
+              <h3 class="ct-card-title"><span class="ct-icon-box">🔔</span><span>اعلان‌ها و وضعیت همگام‌سازی</span></h3>
             </div>
-          </div>
-
-          <div class="dash-box">
-            <div class="dash-box-title">✏️ نام نمایشی پروفایل</div>
-            <form class="dash-name-row" id="dash-name-form">
-              <input type="text" id="dash-name-input" placeholder="نام شما..." maxlength="28">
-              <button type="submit" class="btn-pill btn-sage" style="height:36px;padding:0 14px;font-size:12.5px;">ذخیره</button>
-            </form>
+            <div class="ct-list-item">
+              <strong>حساب کاربری با ایمیل تایید شده است</strong>
+              <span>پیشرفت شما به‌صورت خودکار بین وب‌سایت و اپلیکیشن اندروید چینی‌فا همگام می‌شود.</span>
+            </div>
+            <div class="ct-list-item">
+              <strong>دریافت نسخه موبایل</strong>
+              <span>برای تمرین آفلاین می‌توانید فایل APK یا نسخه کافه بازار را نصب کنید.</span>
+            </div>
           </div>
         </div>
 
-        <div class="dash-msg" id="dash-msg" hidden></div>
       </div>
     </div>
   </section>
@@ -1664,12 +1762,15 @@
       var ddGoto = document.getElementById('dd-goto-dash');
       if (ddGoto && userDd) ddGoto.addEventListener('click', function() { userDd.hidden = true; });
 
-      if (logoutBtn) logoutBtn.addEventListener('click', function() {
+      function doLogout() {
         localStorage.removeItem('chinifa_auth_user');
         localStorage.removeItem('chinifa_auth_token');
         if (userDd) userDd.hidden = true;
         syncAuthUI();
-      });
+      }
+      if (logoutBtn) logoutBtn.addEventListener('click', doLogout);
+      var dashLogoutBtn = document.getElementById('dash-logout-btn');
+      if (dashLogoutBtn) dashLogoutBtn.addEventListener('click', doLogout);
 
       function showAlert(msg, isErr) {
         alertEl.hidden = false;
