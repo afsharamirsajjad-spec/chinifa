@@ -10,6 +10,12 @@ const {
   supabaseClient,
   pool,
   initDb,
+  cors,
+  parseBody,
+  timingSafeEqualStr,
+  isProduction,
+  isDbRowPro,
+  getSessionSecret,
   signSessionToken,
   hashPassword,
   verifyPassword,
@@ -17,11 +23,15 @@ const {
   stableUserId,
 } = require("./db");
 
-// Global in-memory OTP cache for high-speed & reliable verification across invocations
+// Global in-memory OTP cache for rate limiting & fallback verification
 globalThis.__chinifa_otps = globalThis.__chinifa_otps || new Map();
 const otpCache = globalThis.__chinifa_otps;
 
-// Global in-memory Subscriptions cache (persists PRO status across calls)
+// Bounded set of consumed OTP token hashes to prevent same-instance replay
+globalThis.__chinifa_used_otps = globalThis.__chinifa_used_otps || new Map();
+const usedOtpTokens = globalThis.__chinifa_used_otps;
+
+// Global in-memory Subscriptions cache (used only when no DB is configured)
 globalThis.__chinifa_subscriptions = globalThis.__chinifa_subscriptions || new Map();
 const subCache = globalThis.__chinifa_subscriptions;
 
@@ -47,6 +57,52 @@ function setUserPro(email, planId) {
   return sub;
 }
 
+function getOtpSecret() {
+  return process.env.OTP_SECRET || getSessionSecret();
+}
+
+function createOtpToken(email, codeHash, expiresAt) {
+  const payloadB64 = Buffer.from(JSON.stringify({ email, hash: codeHash, expiresAt })).toString("base64url");
+  const sig = crypto.createHmac("sha256", getOtpSecret()).update(payloadB64).digest("base64url");
+  return `${payloadB64}.${sig}`;
+}
+
+function verifyOtpToken(otpToken, email, inputHash) {
+  if (!otpToken || typeof otpToken !== "string" || !otpToken.includes(".")) {
+    return { status: "missing" };
+  }
+  const parts = otpToken.split(".");
+  if (parts.length !== 2) return { status: "invalid" };
+  const [payloadB64, sig] = parts;
+  let expectedSig;
+  try {
+    expectedSig = crypto.createHmac("sha256", getOtpSecret()).update(payloadB64).digest("base64url");
+  } catch (e) {
+    console.error("[api/auth verifyOtpToken]", e.message);
+    return { status: "invalid" };
+  }
+  if (!timingSafeEqualStr(sig, expectedSig)) {
+    return { status: "invalid" };
+  }
+  try {
+    const parsed = JSON.parse(Buffer.from(payloadB64, "base64url").toString("utf8"));
+    if (!parsed || parsed.expiresAt < Date.now()) {
+      return { status: "expired" };
+    }
+    const tokenKey = `${parsed.email}:${parsed.hash}`;
+    if (usedOtpTokens.has(tokenKey)) {
+      return { status: "expired" };
+    }
+    if (parsed.email === email && timingSafeEqualStr(parsed.hash, inputHash)) {
+      usedOtpTokens.set(tokenKey, parsed.expiresAt);
+      return { status: "ok" };
+    }
+    return { status: "mismatch" };
+  } catch (e) {
+    return { status: "invalid" };
+  }
+}
+
 // Clean up expired OTPs periodically
 setInterval(() => {
   const now = Date.now();
@@ -55,15 +111,12 @@ setInterval(() => {
       otpCache.delete(key);
     }
   }
+  for (const [key, exp] of usedOtpTokens.entries()) {
+    if (exp < now) {
+      usedOtpTokens.delete(key);
+    }
+  }
 }, 60000).unref?.();
-
-// DB connections and auth helpers are provided by ./db.js
-
-function cors(req, res) {
-  res.setHeader("Access-Control-Allow-Origin", req.headers.origin || "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-  res.setHeader("Access-Control-Allow-Headers", "content-type, authorization");
-}
 
 function validEmail(e) {
   return /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(String(e || "").trim());
@@ -144,16 +197,8 @@ module.exports = async (req, res) => {
   cors(req, res);
   if (req.method === "OPTIONS") return res.status(204).end();
 
-  let body = {};
-  if (req.method === "POST") {
-    if (typeof req.body === "object" && req.body !== null) {
-      body = req.body;
-    } else if (typeof req.body === "string" && req.body) {
-      try { body = JSON.parse(req.body); } catch(e) {}
-    }
-  }
-
-  const action = String(req.query.action || body.action || "").toLowerCase().trim();
+  const body = req.method === "POST" ? parseBody(req) : {};
+  const action = String((req.query && req.query.action) || body.action || "").toLowerCase().trim();
 
   try {
     // ----------------------------------------------------
@@ -180,14 +225,10 @@ module.exports = async (req, res) => {
       const code = generateCode();
       const codeHash = crypto.createHash("sha256").update(`${email}:${code}`).digest("hex");
       const expiresAt = now + 10 * 60 * 1000; // 10 minutes
-      const secret = process.env.AUTH_SECRET || process.env.RESEND_API_KEY || "chinifa-otp-hmac-secret-v1";
-      const payloadB64 = Buffer.from(JSON.stringify({ email, hash: codeHash, expiresAt })).toString("base64url");
-      const sig = crypto.createHmac("sha256", secret).update(payloadB64).digest("base64url");
-      const otpToken = `${payloadB64}.${sig}`;
+      const otpToken = createOtpToken(email, codeHash, expiresAt);
 
       otpCache.set(email, {
         hash: codeHash,
-        code: code, // Saved for dev log comparison
         attempts: 0,
         createdAt: now,
         expiresAt: expiresAt,
@@ -195,14 +236,15 @@ module.exports = async (req, res) => {
 
       try {
         const sendResult = await sendResendOtpEmail(email, code);
+        const exposeDevCode = Boolean(sendResult.devMode && !isProduction());
         return res.status(200).json({
           ok: true,
           otpToken: otpToken,
           message: sendResult.devMode
             ? "کد تایید آماده شد (حالت توسعه - در کنسول سرور)"
             : "کد تایید ۶ رقمی با موفقیت به ایمیل شما ارسال شد.",
-          devMode: !!sendResult.devMode,
-          code: sendResult.devMode ? code : undefined,
+          devMode: exposeDevCode,
+          code: exposeDevCode ? code : undefined,
         });
       } catch (err) {
         return res.status(500).json({
@@ -229,25 +271,15 @@ module.exports = async (req, res) => {
       let verified = false;
 
       // Primary: verify stateless HMAC token (works across all Vercel serverless instances)
-      if (otpToken && otpToken.includes(".")) {
-        const parts = otpToken.split(".");
-        const payloadB64 = parts[0];
-        const sig = parts[1];
-        const secret = process.env.AUTH_SECRET || process.env.RESEND_API_KEY || "chinifa-otp-hmac-secret-v1";
-        const expectedSig = crypto.createHmac("sha256", secret).update(payloadB64).digest("base64url");
-        if (sig === expectedSig) {
-          try {
-            const parsed = JSON.parse(Buffer.from(payloadB64, "base64url").toString("utf8"));
-            if (parsed.expiresAt < Date.now()) {
-              return res.status(400).json({ error: "expired-otp", message: "کد تایید منقضی شده است." });
-            }
-            if (parsed.email === email && parsed.hash === inputHash) {
-              verified = true;
-            } else {
-              return res.status(400).json({ error: "invalid-code", message: "کد ۶ رقمی وارد شده اشتباه است." });
-            }
-          } catch (e) {}
-        }
+      const tokenCheck = verifyOtpToken(otpToken, email, inputHash);
+      if (tokenCheck.status === "expired") {
+        return res.status(400).json({ error: "expired-otp", message: "کد تایید منقضی شده است." });
+      }
+      if (tokenCheck.status === "mismatch") {
+        return res.status(400).json({ error: "invalid-code", message: "کد ۶ رقمی وارد شده اشتباه است." });
+      }
+      if (tokenCheck.status === "ok") {
+        verified = true;
       }
 
       // Fallback: check in-memory cache
@@ -267,7 +299,7 @@ module.exports = async (req, res) => {
           return res.status(400).json({ error: "too-many-attempts", message: "تعداد دفعات اشتباه بیش از حد مجاز است. لطفاً کد جدید بگیرید." });
         }
 
-        if (inputHash !== cached.hash) {
+        if (!timingSafeEqualStr(inputHash, cached.hash)) {
           cached.attempts += 1;
           return res.status(400).json({ error: "invalid-code", message: "کد ۶ رقمی وارد شده اشتباه است." });
         }
@@ -301,7 +333,7 @@ module.exports = async (req, res) => {
             }
             userId = row.id || userId;
             displayName = row.full_name || displayName;
-            proStatus = proStatus || row.status === "vip" || !!(row.is_pro && (!row.pro_expires_at || new Date(row.pro_expires_at).getTime() > Date.now()));
+            proStatus = proStatus || isDbRowPro(row);
           }
           const kvRes = await pool.query(
             `SELECT value FROM public.chinifa_kv_store WHERE user_id = $1 OR email = $2 ORDER BY updated_at DESC LIMIT 1`,
@@ -310,7 +342,9 @@ module.exports = async (req, res) => {
           if (kvRes.rows[0] && kvRes.rows[0].value) {
             storeSnapshot = kvRes.rows[0].value;
           }
-        } catch (e) {}
+        } catch (e) {
+          console.error("[api/auth verify-otp db]", e.message);
+        }
       }
 
       const token = signSessionToken({ uid: userId, email, name: displayName });
@@ -365,14 +399,10 @@ module.exports = async (req, res) => {
       const code = generateCode();
       const codeHash = crypto.createHash("sha256").update(`${email}:${code}`).digest("hex");
       const expiresAt = now + 10 * 60 * 1000;
-      const secret = process.env.AUTH_SECRET || process.env.RESEND_API_KEY || "chinifa-otp-hmac-secret-v1";
-      const payloadB64 = Buffer.from(JSON.stringify({ email, hash: codeHash, expiresAt })).toString("base64url");
-      const sig = crypto.createHmac("sha256", secret).update(payloadB64).digest("base64url");
-      const otpToken = `${payloadB64}.${sig}`;
+      const otpToken = createOtpToken(email, codeHash, expiresAt);
 
       otpCache.set(email, {
         hash: codeHash,
-        code: code,
         attempts: 0,
         createdAt: now,
         expiresAt: expiresAt,
@@ -387,7 +417,9 @@ module.exports = async (req, res) => {
             user_metadata: { full_name: fullName, hsk_level: hskLevel },
           });
           if (created && created.user && created.user.id) userId = created.user.id;
-        } catch (e) {}
+        } catch (e) {
+          console.warn("[api/auth register supabase]", e.message);
+        }
       }
 
       let regProStatus = isUserPro(email);
@@ -401,14 +433,16 @@ module.exports = async (req, res) => {
                password_hash = $4,
                hsk_level = $5,
                updated_at = now()
-             RETURNING id, is_pro, pro_expires_at`,
+             RETURNING id, status, is_pro, pro_expires_at`,
             [userId, email, fullName, pwHash, hskLevel, regProStatus]
           );
           if (uRes.rows[0]) {
             userId = uRes.rows[0].id || userId;
-            regProStatus = regProStatus || !!(uRes.rows[0].is_pro && (!uRes.rows[0].pro_expires_at || new Date(uRes.rows[0].pro_expires_at).getTime() > Date.now()));
+            regProStatus = regProStatus || isDbRowPro(uRes.rows[0]);
           }
-        } catch (e) {}
+        } catch (e) {
+          console.error("[api/auth register db]", e.message);
+        }
       }
 
       const token = signSessionToken({ uid: userId, email, name: fullName });
@@ -416,7 +450,9 @@ module.exports = async (req, res) => {
       let sendResult = { ok: true, devMode: false };
       try {
         sendResult = await sendResendOtpEmail(email, code);
-      } catch (e) {}
+      } catch (e) {
+        console.error("[api/auth register resend]", e.message);
+      }
 
       const userProfile = {
         id: userId,
@@ -431,11 +467,12 @@ module.exports = async (req, res) => {
         pro: regProStatus,
       };
 
+      const exposeDevCode = Boolean(sendResult.devMode && !isProduction());
       return res.status(200).json({
         ok: true,
         otpToken: otpToken,
-        devMode: !!sendResult.devMode,
-        code: sendResult.devMode ? code : undefined,
+        devMode: exposeDevCode,
+        code: exposeDevCode ? code : undefined,
         message: "ثبت‌نام با موفقیت انجام شد. کد فعال‌سازی به ایمیل ارسال گردید.",
         token: token,
         id: userId,
@@ -462,51 +499,63 @@ module.exports = async (req, res) => {
 
       // 1. Check PostgreSQL chinifa_users first if configured
       if (pool) {
+        let uRes;
         try {
-          const uRes = await pool.query(
+          uRes = await pool.query(
             `SELECT id, email, full_name, password_hash, hsk_level, status, role, is_pro, pro_expires_at
-             FROM public.chinifa_users WHERE email = $1 LIMIT 1`,
+             FROM public.chinifa_users WHERE email = $1 OR lower(split_part(email, '@', 1)) = $1 LIMIT 1`,
             [email]
           );
-          if (uRes.rows[0]) {
-            const row = uRes.rows[0];
-            if (row.status === "suspended") {
-              return res.status(403).json({ error: "account-suspended", message: "حساب کاربری شما توسط مدیر مسدود شده است." });
-            }
-            if (row.password_hash && !verifyPassword(password, row.password_hash)) {
-              return res.status(401).json({ error: "invalid-credentials", message: "ایمیل یا کلمه عبور اشتباه است." });
-            }
-            const proStatus = isUserPro(email) || row.status === "vip" || !!(row.is_pro && (!row.pro_expires_at || new Date(row.pro_expires_at).getTime() > Date.now()));
-            let storeSnapshot = null;
-            const kvRes = await pool.query(
-              `SELECT value FROM public.chinifa_kv_store WHERE user_id = $1 OR email = $2 ORDER BY updated_at DESC LIMIT 1`,
-              [row.id, email]
-            );
-            if (kvRes.rows[0] && kvRes.rows[0].value) storeSnapshot = kvRes.rows[0].value;
-            const displayName = row.full_name || email.split("@")[0];
-            const token = signSessionToken({ uid: row.id, email, name: displayName });
-            return res.status(200).json({
-              ok: true,
-              message: "ورود موفقیت‌آمیز بود.",
-              token: token,
-              id: row.id,
-              username: displayName,
-              email: email,
-              isPro: proStatus,
-              pro: proStatus,
-              store: storeSnapshot,
-              user: {
-                id: row.id,
-                email: email,
-                fullName: displayName,
-                hskLevel: row.hsk_level || "HSK 1",
-                verified: true,
-                isPro: proStatus,
-                pro: proStatus,
-              },
+        } catch (e) {
+          console.error("[api/auth login db]", e.message);
+          return res.status(500).json({ error: "db-error", message: "خطا در ارتباط با پایگاه داده." });
+        }
+
+        if (uRes.rows[0]) {
+          const row = uRes.rows[0];
+          const realEmail = (row.email || email).toLowerCase();
+          if (row.status === "suspended") {
+            return res.status(403).json({ error: "account-suspended", message: "حساب کاربری شما توسط مدیر مسدود شده است." });
+          }
+          if (!row.password_hash) {
+            return res.status(401).json({
+              error: "password-not-set",
+              message: "برای این حساب کلمه عبور تنظیم نشده است. لطفاً با کد تایید ایمیل وارد شوید.",
             });
           }
-        } catch (e) {}
+          if (!verifyPassword(password, row.password_hash)) {
+            return res.status(401).json({ error: "invalid-credentials", message: "ایمیل یا کلمه عبور اشتباه است." });
+          }
+          const proStatus = isUserPro(realEmail) || isDbRowPro(row);
+          let storeSnapshot = null;
+          const kvRes = await pool.query(
+            `SELECT value FROM public.chinifa_kv_store WHERE user_id = $1 OR email = $2 ORDER BY updated_at DESC LIMIT 1`,
+            [row.id, realEmail]
+          );
+          if (kvRes.rows[0] && kvRes.rows[0].value) storeSnapshot = kvRes.rows[0].value;
+          const displayName = row.full_name || realEmail.split("@")[0];
+          const token = signSessionToken({ uid: row.id, email: realEmail, name: displayName });
+          return res.status(200).json({
+            ok: true,
+            message: "ورود موفقیت‌آمیز بود.",
+            token: token,
+            id: row.id,
+            username: displayName,
+            email: realEmail,
+            isPro: proStatus,
+            pro: proStatus,
+            store: storeSnapshot,
+            user: {
+              id: row.id,
+              email: realEmail,
+              fullName: displayName,
+              hskLevel: row.hsk_level || "HSK 1",
+              verified: true,
+              isPro: proStatus,
+              pro: proStatus,
+            },
+          });
+        }
       }
 
       // 2. If Supabase is configured, use real Supabase login
@@ -539,43 +588,44 @@ module.exports = async (req, res) => {
               },
             });
           }
-        } catch (e) {}
+        } catch (e) {
+          console.error("[api/auth login supabase]", e.message);
+        }
       }
 
-      // 3. Fallback when DB is not connected (local/demo mode)
-      const userId = stableUserId(email);
-      const displayName = email.split("@")[0];
-      const token = signSessionToken({ uid: userId, email, name: displayName });
-      const proStatus = isUserPro(email);
+      if (!pool && !supabaseClient) {
+        return res.status(503).json({
+          error: "auth-unavailable",
+          message: "سرویس پایگاه داده برای ورود با کلمه عبور پیکربندی نشده است.",
+        });
+      }
 
-      return res.status(200).json({
-        ok: true,
-        message: "ورود موفقیت‌آمیز بود.",
-        token: token,
-        id: userId,
-        username: displayName,
-        email: email,
-        isPro: proStatus,
-        pro: proStatus,
-        user: {
-          id: userId,
-          email: email,
-          fullName: displayName,
-          hskLevel: "HSK 1",
-          verified: true,
-          isPro: proStatus,
-          pro: proStatus,
-          streak: 1,
-          totalXp: 150,
-        },
+      return res.status(401).json({
+        error: "invalid-credentials",
+        message: "ایمیل یا کلمه عبور اشتباه است.",
       });
     }
 
     // ----------------------------------------------------
     // ۵. خرید و فعال‌سازی اشتراک ویژه: action=subscribe / pay
+    //    Requires authenticated session + server-side payment webhook secret
     // ----------------------------------------------------
     if (action === "subscribe" || action === "pay") {
-      const email = String(body.email || "").trim().toLowerCase();
+      const user = await getAuthUser(req);
+      if (!user) {
+        return res.status(401).json({ error: "no-session", message: "ابتدا وارد حساب کاربری شوید." });
+      }
+
+      const webhookSecret = process.env.PAYMENT_WEBHOOK_SECRET || "";
+      const providedSecret = String((req.headers && req.headers["x-payment-secret"]) || body.paymentSecret || "").trim();
+      if (!webhookSecret || !timingSafeEqualStr(providedSecret, webhookSecret)) {
+        return res.status(403).json({
+          error: "payment-verification-required",
+          message: "فعال‌سازی اشتراک ویژه نیازمند تایید پرداخت معتبر یا اقدام از طریق پنل مدیریت است.",
+        });
+      }
+
+      const email = String(user.email || body.email || "").trim().toLowerCase();
       const planId = String(body.planId || body.plan || "annual");
 
       if (!validEmail(email)) {
@@ -593,7 +643,9 @@ module.exports = async (req, res) => {
              WHERE email = $1`,
             [email, sub.plan, sub.expiresAt]
           );
-        } catch (e) {}
+        } catch (e) {
+          console.error("[api/auth subscribe db]", e.message);
+        }
       }
 
       return res.status(200).json({
@@ -614,11 +666,30 @@ module.exports = async (req, res) => {
     // ۶. استعلام وضعیت اشتراک ویژه: action=check-pro
     // ----------------------------------------------------
     if (action === "check-pro") {
-      const email = String(body.email || req.query.email || "").trim().toLowerCase();
-      const pro = isUserPro(email);
+      const user = await getAuthUser(req);
+      if (!user) {
+        return res.status(401).json({ ok: false, error: "no-session" });
+      }
+
+      await initDb();
+      let pro = isUserPro(user.email);
+      if (pool) {
+        try {
+          const uRes = await pool.query(
+            `SELECT status, is_pro, pro_expires_at FROM public.chinifa_users WHERE id = $1 OR ($2 <> '' AND email = $2) LIMIT 1`,
+            [user.id, user.email || ""]
+          );
+          if (uRes.rows[0]) {
+            pro = pro || isDbRowPro(uRes.rows[0]);
+          }
+        } catch (e) {
+          console.error("[api/auth check-pro db]", e.message);
+        }
+      }
+
       return res.status(200).json({
         ok: true,
-        email: email,
+        email: user.email,
         isPro: pro,
         pro: pro,
       });
@@ -649,7 +720,7 @@ module.exports = async (req, res) => {
               return res.status(403).json({ ok: false, error: "account-suspended", message: "حساب کاربری مسدود شده است." });
             }
             fullName = uRes.rows[0].full_name || fullName;
-            proStatus = proStatus || uRes.rows[0].status === "vip" || !!(uRes.rows[0].is_pro && (!uRes.rows[0].pro_expires_at || new Date(uRes.rows[0].pro_expires_at).getTime() > Date.now()));
+            proStatus = proStatus || isDbRowPro(uRes.rows[0]);
           }
           const kvRes = await pool.query(
             `SELECT value FROM public.chinifa_kv_store WHERE user_id = $1 OR ($2 <> '' AND email = $2) ORDER BY updated_at DESC LIMIT 1`,
@@ -658,7 +729,9 @@ module.exports = async (req, res) => {
           if (kvRes.rows[0] && kvRes.rows[0].value) {
             storeSnapshot = kvRes.rows[0].value;
           }
-        } catch (e) {}
+        } catch (e) {
+          console.error("[api/auth session db]", e.message);
+        }
       }
 
       return res.status(200).json({

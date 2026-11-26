@@ -1183,12 +1183,12 @@
               <strong id="dd-name">کاربر چینی‌فا</strong>
               <span id="dd-email">user@example.com</span>
             </div>
-            <a href="/app/index.html" class="user-dd-item">ورود به وب‌اپلیکیشن (نسخه آیفون و وب)</a>
+            <a href="/app/index.html?v=5" class="user-dd-item">ورود به وب‌اپلیکیشن (نسخه آیفون و وب)</a>
             <button type="button" class="user-dd-item is-danger" id="toon-logout-btn">خروج از حساب</button>
           </div>
         </div>
 
-        <a href="/app/index.html" class="btn-pill btn-sage">ورود به وب‌اپ</a>
+        <a href="/app/index.html?v=5" class="btn-pill btn-sage">ورود به وب‌اپ</a>
         <button type="button" class="mobile-menu-btn" id="toon-menu-btn" aria-label="منو">
           <span></span><span></span><span></span>
         </button>
@@ -1233,7 +1233,7 @@
       </p>
 
       <div class="toon-hero-ctas">
-        <a href="../app/index.html" target="_blank" class="btn-pill btn-sage">شروع رایگان در اپلیکیشن چینی‌فا</a>
+        <a href="/app/index.html?v=5" target="_blank" class="btn-pill btn-sage">شروع رایگان در اپلیکیشن چینی‌فا</a>
         <a href="#app-showcase" class="btn-pill btn-cream-outline">معرفی و دانلود اپلیکیشن</a>
       </div>
     </div>
@@ -1292,7 +1292,7 @@
         </div>
 
         <div class="app-dl-buttons">
-          <a href="/app/index.html" class="btn-pill btn-sage">ورود به وب‌اپ (نسخه آیفون و وب)</a>
+          <a href="/app/index.html?v=5" class="btn-pill btn-sage">ورود به وب‌اپ (نسخه آیفون و وب)</a>
           <a href="/Chinifa.apk" download class="btn-pill btn-cream-outline">دانلود مستقیم اندروید (APK)</a>
           <a href="https://cafebazaar.ir/app/com.chinifa.app" target="_blank" class="btn-pill btn-cream-outline">دریافت از کافه بازار</a>
         </div>
@@ -1541,7 +1541,7 @@
       <h2>سفر یادگیری زبان چینی را همین امروز آغاز کنید</h2>
       <p>به هزاران زبان‌آموز بپیوندید و با اپلیکیشن و وب‌سایت چینی‌فا گام‌به‌گام به زبان ماندارین مسلط شوید.</p>
       <div class="toon-hero-ctas">
-        <a href="../app/index.html" target="_blank" class="btn-pill btn-cream-solid">شروع یادگیری در نسخه وب</a>
+        <a href="/app/index.html?v=5" target="_blank" class="btn-pill btn-cream-solid">شروع یادگیری در نسخه وب</a>
         <a href="../Chinifa.apk" download class="btn-pill btn-cream-ghost">دانلود اپلیکیشن چینی‌فا</a>
       </div>
     </div>
@@ -1668,7 +1668,7 @@
       var curEmail = '', curToken = '', curPendingProfile = null;
 
       function getAppUrl() {
-        return location.pathname.indexOf('/website/') !== -1 ? '../app/index.html' : '/app/index.html';
+        return (location.pathname.indexOf('/website/') !== -1 ? '../app/index.html' : '/app/index.html') + '?v=5';
       }
 
       function getSavedUser() {
@@ -1722,6 +1722,14 @@
 
       function finishLoginAndGoApp(data) {
         var userObj = Object.assign({}, data.user || {}, curPendingProfile || {});
+        var proFlag = !!(data.isPro || data.pro || (userObj && (userObj.isPro || userObj.pro || userObj.status === 'vip')));
+        if (proFlag) {
+          localStorage.setItem('chinifa_pro', 'true');
+          userObj.isPro = true;
+          userObj.pro = true;
+        } else {
+          localStorage.removeItem('chinifa_pro');
+        }
         if (data.token) {
           localStorage.setItem('chinifa_auth_token', data.token);
           localStorage.setItem('chinifa.token', data.token);
