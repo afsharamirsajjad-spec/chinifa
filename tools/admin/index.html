@@ -201,10 +201,35 @@ details.ml .mlbody{padding:10px 14px}
 .modal-head h3{margin:0;font-size:16px;color:#fff}
 .modal-body{padding:18px 20px}
 .modal-foot{padding:14px 20px;border-top:1px solid var(--line);display:flex;justify-content:flex-end;gap:10px}
-
+#admin-auth-gate{position:fixed;inset:0;z-index:99999;background:radial-gradient(circle at 50% 25%,#132a24 0%,#0b121a 70%);display:flex;align-items:center;justify-content:center;padding:20px}
+#admin-auth-gate[hidden]{display:none !important}
+.admin-auth-card{width:100%;max-width:400px;background:var(--panel);border:1px solid var(--line2);border-radius:20px;padding:28px 24px;box-shadow:0 24px 60px rgba(0,0,0,0.65)}
+.admin-auth-card h2{margin:0 0 6px;font-size:20px;color:#fff;text-align:center}
+.admin-auth-card p{margin:0 0 20px;font-size:12.5px;color:var(--mut);text-align:center}
+.admin-auth-err{background:rgba(255,107,107,0.14);border:1px solid rgba(255,107,107,0.35);color:#ff8b7b;border-radius:10px;padding:8px 12px;font-size:12px;margin-bottom:12px}
+.admin-auth-err[hidden]{display:none}
 </style>
 </head>
 <body>
+<div id="admin-auth-gate">
+  <div class="admin-auth-card">
+    <div style="width:52px;height:52px;margin:0 auto 12px;border-radius:14px;background:linear-gradient(135deg,#2bd19d,#128f6c);display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:900;color:#04241a">龙</div>
+    <h2>ورود به پنل مدیریت چینی‌فا</h2>
+    <p>برای مشاهده و مدیریت کاربران و دیتابیس وارد شوید</p>
+    <div class="admin-auth-err" id="adminAuthErr" hidden></div>
+    <form id="adminAuthForm">
+      <div class="fld">
+        <label>نام کاربری</label>
+        <input type="text" id="adminUserIn" value="admin" autocomplete="username" required dir="ltr">
+      </div>
+      <div class="fld">
+        <label>رمز عبور</label>
+        <input type="password" id="adminPassIn" placeholder="رمز عبور ادمین" autocomplete="current-password" required dir="ltr" style="width:100%;background:#0a1119;color:var(--txt);border:1px solid var(--line);border-radius:9px;padding:9px 11px;font-family:inherit;font-size:13px">
+      </div>
+      <button type="submit" class="btn" id="adminAuthSubmit" style="width:100%;justify-content:center;padding:10px 16px;margin-top:6px">ورود به پنل</button>
+    </form>
+  </div>
+</div>
 <div class="layout">
   <aside class="side">
     <div class="brand">
@@ -221,9 +246,11 @@ details.ml .mlbody{padding:10px 14px}
     <div class="top">
       <div class="title" id="vtitle"><span class="dot"></span><span id="vtitleTxt">داشبورد</span></div>
       <div class="sp"></div>
+      <span class="badge" id="dbStatusBadge">⏳ در حال بررسی دیتابیس...</span>
       <input class="q" id="gq" placeholder="🔍 جستجو در همهٔ محتوا… (Enter)">
       <a class="btn ghost" href="../../website/" target="_blank" title="مشاهده وب‌سایت معرفی">🌐 وب‌سایت</a>
       <button class="btn" id="saveBtn" onclick="saveAll()">💾 ذخیره</button>
+      <button class="btn dangb sm" onclick="adminLogout()" title="خروج از پنل">خروج</button>
       <a class="btn gray" href="#/build">🔨 ساخت APK</a>
     </div>
     <div class="body" id="body"></div>
@@ -551,18 +578,84 @@ const SEED_SETTINGS = {
   dailyGoalWords: 10
 };
 
+function getAdminToken(){ try{ return localStorage.getItem("chinifa_admin_token") || ""; }catch(e){ return ""; } }
+function adminLogout(){ try{ localStorage.removeItem("chinifa_admin_token"); }catch(e){} location.reload(); }
+function setDbBadge(connected, msg){
+  const b = document.getElementById("dbStatusBadge");
+  if(!b) return;
+  b.className = "badge " + (connected ? "acc" : "dang");
+  b.textContent = msg || (connected ? "🟢 دیتابیس متصل" : "🔴 دیتابیس متصل نیست");
+}
+(function initAdminAuthGate(){
+  const gate = document.getElementById("admin-auth-gate");
+  const form = document.getElementById("adminAuthForm");
+  const errEl = document.getElementById("adminAuthErr");
+  const tk = getAdminToken();
+  if(tk){
+    fetch("/api/admin?action=status", { headers: { "Authorization": "Bearer " + tk } })
+      .then(r => r.json().then(d => ({ ok: r.ok, d })))
+      .then(({ ok, d }) => {
+        if(ok && d && d.ok){
+          gate.hidden = true;
+          setDbBadge(!!d.dbConnected, d.dbConnected ? ("🟢 دیتابیس متصل (" + (d.userCount || 0) + " کاربر)") : "🔴 دیتابیس متصل نیست (POSTGRES_URL تنظیم نشده)");
+        } else {
+          localStorage.removeItem("chinifa_admin_token");
+          gate.hidden = false;
+        }
+      }).catch(() => { gate.hidden = false; });
+  }
+  if(form){
+    form.addEventListener("submit", async function(e){
+      e.preventDefault();
+      errEl.hidden = true;
+      const u = (document.getElementById("adminUserIn").value || "").trim();
+      const p = document.getElementById("adminPassIn").value || "";
+      try {
+        const r = await fetch("/api/admin?action=login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ username: u, password: p })
+        });
+        const d = await r.json().catch(() => ({}));
+        if(!r.ok || !d.ok || !d.token){
+          errEl.hidden = false;
+          errEl.textContent = d.error || "نام کاربری یا رمز عبور اشتباه است.";
+          return;
+        }
+        localStorage.setItem("chinifa_admin_token", d.token);
+        gate.hidden = true;
+        USERS_LIST = null;
+        location.reload();
+      } catch(err){
+        errEl.hidden = false;
+        errEl.textContent = "خطا در ارتباط با سرور.";
+      }
+    });
+  }
+})();
+
 async function getUsersData(){
   if(USERS_LIST) return USERS_LIST;
+  const tk = getAdminToken();
+  if(tk){
+    try {
+      const r = await fetch("/api/admin?action=users", { headers: { "Authorization": "Bearer " + tk } });
+      if(r.status === 401){ adminLogout(); return []; }
+      const res = await r.json();
+      if(res && res.ok){
+        setDbBadge(!!res.dbConnected, res.dbConnected ? ("🟢 دیتابیس متصل (" + (res.users||[]).length + " کاربر)") : "🔴 دیتابیس متصل نیست");
+        if(res.dbConnected){
+          USERS_LIST = Array.isArray(res.users) ? res.users : [];
+          return USERS_LIST;
+        }
+      }
+    } catch(e){}
+  }
   try {
     const res = await apiGet("users");
     if(res && res.users && res.users.length) { USERS_LIST = res.users; return USERS_LIST; }
   } catch(e){}
-  const local = localStorage.getItem("chinifa_admin_users");
-  if(local){
-    try { USERS_LIST = JSON.parse(local); return USERS_LIST; } catch(e){}
-  }
-  USERS_LIST = JSON.parse(JSON.stringify(SEED_USERS));
-  localStorage.setItem("chinifa_admin_users", JSON.stringify(USERS_LIST));
+  USERS_LIST = [];
   return USERS_LIST;
 }
 
