@@ -25,20 +25,21 @@
 <link rel="apple-touch-icon" sizes="192x192" href="icons/icon-192.png">
 <link rel="manifest" href="manifest.webmanifest">
 <script>try{var _st=JSON.parse(localStorage.getItem('chinifa.v1')||'{}');if(_st.accent)document.documentElement.setAttribute('data-accent',_st.accent);}catch(e){}</script>
-<link rel="stylesheet" href="css/chinifa-app.bundle.css?v=2">
+<link rel="stylesheet" href="css/chinifa-app.bundle.css?v=3">
 <style id="chinifa-splash-critical-css">
 #chinifa-splash {
   position: absolute;
   inset: 0;
   z-index: 999999;
-  background: radial-gradient(circle at 50% 38%, #10B981 0%, #059669 45%, #064E3B 100%);
+  background: radial-gradient(circle at 50% 34%, #10B981 0%, #059669 48%, #044E36 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   opacity: 1;
-  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  transition: opacity 0.24s cubic-bezier(0.4, 0, 0.2, 1), transform 0.24s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: opacity, transform;
 }
 #chinifa-splash.is-out {
   opacity: 0 !important;
@@ -46,66 +47,128 @@
   pointer-events: none !important;
   visibility: hidden !important;
 }
-.chinifa-mascot-container {
+.chinifa-splash-center {
   position: relative;
-  width: 200px;
-  height: 246px;
-  margin-bottom: 14px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 24px;
+}
+.chinifa-emblem-wrap {
+  position: relative;
+  width: 132px;
+  height: 132px;
+  margin-bottom: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 1;
+  animation: chinifaFloat 2.6s ease-in-out infinite;
 }
-.chinifa-splash-dragon-img {
+.chinifa-emblem-glow {
+  position: absolute;
+  inset: -22px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(253, 230, 138, 0.35) 0%, rgba(16, 185, 129, 0) 70%);
+  pointer-events: none;
+}
+.chinifa-emblem-ring {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.38));
-  display: block;
+  animation: chinifaSpin 14s linear infinite;
+}
+.chinifa-emblem-core {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  border-radius: 28px;
+  background: linear-gradient(145deg, rgba(255,255,255,0.22) 0%, rgba(255,255,255,0.06) 100%);
+  border: 1.5px solid rgba(253, 230, 138, 0.55);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.24), inset 0 1px 1px rgba(255, 255, 255, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-4deg);
+}
+.chinifa-emblem-svg {
+  width: 58px;
+  height: 58px;
+  transform: rotate(4deg);
 }
 .chinifa-splash-title {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-  font-size: 52px;
+  font-size: 44px;
   font-weight: 900;
-  letter-spacing: -1.5px;
+  letter-spacing: -1px;
   line-height: 1;
   color: #FFFFFF;
-  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.35), 0 0 24px rgba(254, 240, 138, 0.7);
-  opacity: 1;
+  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
   margin: 0;
-  padding: 0;
-  text-align: center;
 }
 .chinifa-splash-sub {
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.94);
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
-  letter-spacing: 0.3px;
-  opacity: 1;
-  text-align: center;
+  color: rgba(255, 255, 255, 0.92);
+  letter-spacing: 0.2px;
+}
+.chinifa-splash-bar {
+  margin-top: 26px;
+  width: 136px;
+  height: 4px;
+  border-radius: 99px;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  position: relative;
+}
+.chinifa-splash-bar i {
+  display: block;
+  width: 55%;
+  height: 100%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, rgba(253,230,138,0.4), #FDE68A, #FFFFFF);
+  animation: chinifaBar 1.15s ease-in-out infinite;
+}
+@keyframes chinifaFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+@keyframes chinifaSpin {
+  to { transform: rotate(360deg); }
+}
+@keyframes chinifaBar {
+  0% { transform: translateX(-110%); }
+  100% { transform: translateX(220%); }
 }
 </style>
-<script src="js/vendor/hanzi-writer.min.js"></script>
+<script src="js/vendor/hanzi-writer.min.js" defer></script>
 </head>
 <body>
   <div class="stage">
     <div class="device" id="device">
-      <!-- Chinifa Splash Screen with Stable Dragon Mascot & Title -->
+      <!-- Chinifa Instant Vector Splash Screen -->
       <div id="chinifa-splash" class="chinifa-splash" aria-hidden="true">
-        <div class="chinifa-splash-bg">
-          <div class="chinifa-splash-clouds"></div>
-          <div class="chinifa-splash-rays"></div>
-        </div>
         <div class="chinifa-splash-center">
-          <!-- اژدهای اصلی چی‌نی‌فا با تصویر کامل و درخشش ملایم -->
-          <div class="chinifa-mascot-container">
-            <div class="chinifa-splash-glow"></div>
-            <img class="chinifa-splash-dragon-img" src="art/splash_dragon_mascot.png" alt="chinifa dragon" decoding="async">
+          <div class="chinifa-emblem-wrap">
+            <div class="chinifa-emblem-glow"></div>
+            <svg class="chinifa-emblem-ring" viewBox="0 0 132 132" fill="none" aria-hidden="true">
+              <circle cx="66" cy="66" r="62" stroke="rgba(253,230,138,0.45)" stroke-width="1.5" stroke-dasharray="10 8" stroke-linecap="round"/>
+              <circle cx="66" cy="4" r="3" fill="#FDE68A"/>
+            </svg>
+            <div class="chinifa-emblem-core">
+              <svg class="chinifa-emblem-svg" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                <rect x="10" y="18" width="44" height="24" rx="6" stroke="#FFFFFF" stroke-width="4.2"/>
+                <path d="M32 7V57" stroke="#FDE68A" stroke-width="4.6" stroke-linecap="round"/>
+                <circle cx="52" cy="12" r="3.2" fill="#FDE68A"/>
+              </svg>
+            </div>
           </div>
           <div class="chinifa-splash-title" dir="ltr">chinifa</div>
-          <div class="chinifa-splash-sub">آموزش هوشمند زبان چینی 🌸</div>
+          <div class="chinifa-splash-sub">آموزش هوشمند زبان چینی</div>
+          <div class="chinifa-splash-bar"><i></i></div>
         </div>
       </div>
       <script>
@@ -113,42 +176,24 @@
           var s = document.getElementById('chinifa-splash');
           if (!s) return;
           var dismissed = false;
-          var minDuration = 200; // لود آنی و پرسرعت برای وب‌اپلیکیشن
-          var startTime = Date.now();
 
-          window.__dismissSplash = function(force) {
+          window.__dismissSplash = function() {
             if (dismissed || !s) return;
-            var elapsed = Date.now() - startTime;
-            if (!force && elapsed < minDuration) {
-              setTimeout(function() { window.__dismissSplash(true); }, minDuration - elapsed);
-              return;
-            }
             dismissed = true;
             try { s.style.pointerEvents = 'none'; } catch(e) {}
             s.classList.add('is-out');
             setTimeout(function() {
               try {
-                if (s) {
-                  s.style.display = 'none';
-                  if (s.parentNode) s.parentNode.removeChild(s);
-                }
+                if (s && s.parentNode) s.parentNode.removeChild(s);
               } catch(e) {}
-            }, 200);
+            }, 250);
           };
 
-          // لمس یا کلیک فوری برای عبور کاربر در صورت تمایل
-          s.addEventListener('click', function() { window.__dismissSplash(true); });
-          s.addEventListener('touchstart', function() { window.__dismissSplash(true); }, { passive: true });
+          s.addEventListener('click', window.__dismissSplash);
+          s.addEventListener('touchstart', window.__dismissSplash, { passive: true });
 
-          // بستن خودکار اسپلش پس از سپری شدن زمان آماده‌سازی
-          setTimeout(function() {
-            window.__dismissSplash(false);
-          }, minDuration);
-
-          // گارد ایمنی نهایی در صورت هرگونه تاخیر مرورگر
-          setTimeout(function() {
-            window.__dismissSplash(true);
-          }, 2000);
+          // گارد ایمنی نهایی در صورت بروز خطای غیرمنتظره
+          setTimeout(window.__dismissSplash, 3500);
         })();
       </script>
       <div class="device__notch" aria-hidden="true"></div>
@@ -164,6 +209,6 @@
     </div>
   </div>
 
-  <script src="js/chinifa-app.bundle.js?v=2"></script>
+  <script src="js/chinifa-app.bundle.js?v=3" defer></script>
 </body>
 </html>

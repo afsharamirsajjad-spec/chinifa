@@ -25,6 +25,22 @@
       "destination": "/api/auth.js?action=session"
     },
     {
+      "source": "/api/logout",
+      "destination": "/api/auth.js?action=logout"
+    },
+    {
+      "source": "/api/logout-everywhere",
+      "destination": "/api/auth.js?action=logout"
+    },
+    {
+      "source": "/api/change-password",
+      "destination": "/api/auth.js?action=change-password"
+    },
+    {
+      "source": "/api/delete-account",
+      "destination": "/api/auth.js?action=delete-account"
+    },
+    {
       "source": "/api/app-version",
       "destination": "/website/version.json"
     },
@@ -157,6 +173,33 @@
     },
     {
       "source": "/app/service-worker.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/app",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/app/",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/app/index.html",
       "headers": [
         {
           "key": "Cache-Control",

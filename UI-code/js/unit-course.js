@@ -7144,6 +7144,9 @@ resolvePy: function(str) {
         raw = localStorage.getItem(UnitSystem.getProgressKey(unitKey));
         if (raw) raw = JSON.parse(raw);
       } catch (e) { raw = null; }
+      if (!raw && window.Store && Store.state && Store.state.unitProgs && Store.state.unitProgs[unitKey]) {
+        raw = Store.state.unitProgs[unitKey];
+      }
 
       var prog = raw || {
         unitKey: unitKey,
@@ -7185,6 +7188,13 @@ resolvePy: function(str) {
       unitKey = unitKey || "hsk1:0";
       try {
         localStorage.setItem(UnitSystem.getProgressKey(unitKey), JSON.stringify(prog));
+      } catch (e) {}
+      try {
+        if (window.Store && Store.state && Store.set) {
+          var up = Object.assign({}, Store.state.unitProgs || {});
+          up[unitKey] = prog;
+          Store.set({ unitProgs: up });
+        }
       } catch (e) {}
     },
 

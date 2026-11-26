@@ -1697,7 +1697,10 @@
 
       function finishLoginAndGoApp(data) {
         var userObj = Object.assign({}, data.user || {}, curPendingProfile || {});
-        if (data.token) localStorage.setItem('chinifa_auth_token', data.token);
+        if (data.token) {
+          localStorage.setItem('chinifa_auth_token', data.token);
+          localStorage.setItem('chinifa.token', data.token);
+        }
         if (userObj && userObj.email) {
           localStorage.setItem('chinifa_auth_user', JSON.stringify(userObj));
           try {
@@ -1710,9 +1713,11 @@
 
             var v1 = JSON.parse(localStorage.getItem('chinifa.v1') || '{}');
             v1.userName = userObj.fullName;
+            v1.name = userObj.fullName;
             v1.nick = userObj.fullName;
             v1.userEmail = userObj.email;
-            if (userObj.hskLevel) v1.level = String(userObj.hskLevel).toLowerCase().replace(/\s+/g, '');
+            v1.signedIn = true;
+            if (userObj.hskLevel) v1.level = String(userObj.hskLevel).toUpperCase().replace(/^HSK\s*/i, 'HSK ');
             v1.onboarded = true;
             v1.bootstrapped = true;
             localStorage.setItem('chinifa.v1', JSON.stringify(v1));
@@ -1731,6 +1736,7 @@
       function doLogout() {
         localStorage.removeItem('chinifa_auth_user');
         localStorage.removeItem('chinifa_auth_token');
+        localStorage.removeItem('chinifa.token');
         try {
           var cs = JSON.parse(localStorage.getItem('cheh-chin-state') || '{}');
           cs.signedIn = false; cs.username = '';

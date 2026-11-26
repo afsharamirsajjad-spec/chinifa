@@ -1,11 +1,11 @@
-var CACHE = "chinifa-v20261124-fast";
+var CACHE = "chinifa-v20261126-1";
 var SHELL = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./css/chinifa-app.bundle.css?v=1",
+  "./css/chinifa-app.bundle.css?v=3",
   "./js/vendor/hanzi-writer.min.js",
-  "./js/chinifa-app.bundle.js?v=1",
+  "./js/chinifa-app.bundle.js?v=3",
   "./icons/icon-108.png",
   "./icons/icon-192.png",
   "./art/splash_dragon_mascot.png",
@@ -55,7 +55,28 @@ self.addEventListener("fetch", function(e) {
     return;
   }
 
-  // Cache-first for instant loading
+  // Network-first for HTML/navigation so new deployments & bundle versions load immediately
+  var isHtml = req.mode === "navigate" || url.pathname === "/app" || url.pathname === "/app/" || url.pathname.endsWith(".html");
+  if (isHtml) {
+    e.respondWith(
+      fetch(req).then(function(res) {
+        if (res && res.status === 200 && res.type === "basic") {
+          var copy = res.clone();
+          caches.open(CACHE).then(function(cache) {
+            cache.put(req, copy);
+          });
+        }
+        return res;
+      }).catch(function() {
+        return caches.match(req).then(function(cached) {
+          return cached || caches.match("./index.html");
+        });
+      })
+    );
+    return;
+  }
+
+  // Cache-first for versioned static assets
   e.respondWith(
     caches.match(req).then(function(cached) {
       if (cached) return cached;
@@ -67,10 +88,6 @@ self.addEventListener("fetch", function(e) {
           });
         }
         return res;
-      }).catch(function() {
-        if (req.mode === "navigate") {
-          return caches.match("./index.html");
-        }
       });
     })
   );

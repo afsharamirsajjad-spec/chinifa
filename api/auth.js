@@ -5,6 +5,17 @@
 // 3. Password login & Supabase / PostgreSQL database sync
 
 const crypto = require("crypto");
+const {
+  supabaseAdmin,
+  supabaseClient,
+  pool,
+  initDb,
+  signSessionToken,
+  hashPassword,
+  verifyPassword,
+  getAuthUser,
+  stableUserId,
+} = require("./db");
 
 // Global in-memory OTP cache for high-speed & reliable verification across invocations
 globalThis.__chinifa_otps = globalThis.__chinifa_otps || new Map();
@@ -46,34 +57,7 @@ setInterval(() => {
   }
 }, 60000).unref?.();
 
-// Optional DB connection if configured in Vercel
-let supabaseAdmin = null;
-let supabaseClient = null;
-let pool = null;
-
-try {
-  const { createClient } = require("@supabase/supabase-js");
-  const supabaseUrl = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SECRET_KEY;
-  const anonKey = process.env.SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-  if (supabaseUrl && serviceKey) {
-    supabaseAdmin = createClient(supabaseUrl, serviceKey, { auth: { autoRefreshToken: false, persistSession: false } });
-  }
-  if (supabaseUrl && anonKey) {
-    supabaseClient = createClient(supabaseUrl, anonKey);
-  }
-} catch (e) {}
-
-try {
-  const { Pool } = require("pg");
-  const pgUrl = process.env.POSTGRES_URL_NON_POOLING || process.env.POSTGRES_URL || process.env.DATABASE_URL;
-  if (pgUrl) {
-    const parsed = new URL(pgUrl);
-    parsed.searchParams.delete("sslmode");
-    pool = new Pool({ connectionString: parsed.toString(), ssl: { rejectUnauthorized: false }, max: 5 });
-  }
-} catch (e) {}
+// DB connections and auth helpers are provided by ./db.js
 
 function cors(req, res) {
   res.setHeader("Access-Control-Allow-Origin", req.headers.origin || "*");
@@ -292,11 +276,41 @@ module.exports = async (req, res) => {
 
       // Verified successfully!
       otpCache.delete(email);
+      await initDb();
 
-      const userId = crypto.createHash("md5").update(email).digest("hex");
-      const displayName = name || email.split("@")[0];
-      const token = crypto.randomBytes(32).toString("hex");
+      let userId = stableUserId(email);
+      let displayName = name || email.split("@")[0];
+      let proStatus = isUserPro(email);
+      let storeSnapshot = null;
 
+      if (pool) {
+        try {
+          const upsertRes = await pool.query(
+            `INSERT INTO public.chinifa_users (id, email, full_name, hsk_level, is_pro)
+             VALUES ($1, $2, $3, 'HSK 1', $4)
+             ON CONFLICT (email) DO UPDATE SET
+               full_name = COALESCE(NULLIF($3, ''), public.chinifa_users.full_name),
+               updated_at = now()
+             RETURNING id, email, full_name, hsk_level, is_pro, pro_expires_at`,
+            [userId, email, displayName, proStatus]
+          );
+          if (upsertRes.rows[0]) {
+            const row = upsertRes.rows[0];
+            userId = row.id || userId;
+            displayName = row.full_name || displayName;
+            proStatus = proStatus || !!(row.is_pro && (!row.pro_expires_at || new Date(row.pro_expires_at).getTime() > Date.now()));
+          }
+          const kvRes = await pool.query(
+            `SELECT value FROM public.chinifa_kv_store WHERE user_id = $1 OR email = $2 ORDER BY updated_at DESC LIMIT 1`,
+            [userId, email]
+          );
+          if (kvRes.rows[0] && kvRes.rows[0].value) {
+            storeSnapshot = kvRes.rows[0].value;
+          }
+        } catch (e) {}
+      }
+
+      const token = signSessionToken({ uid: userId, email, name: displayName });
       const userProfile = {
         id: userId,
         email: email,
@@ -306,27 +320,21 @@ module.exports = async (req, res) => {
         totalXp: 120,
         streak: 1,
         verified: true,
-        isPro: isUserPro(email),
-        pro: isUserPro(email),
+        isPro: proStatus,
+        pro: proStatus,
         verifiedAt: new Date().toISOString(),
       };
-
-      // If Postgres is connected, persist profile
-      if (pool) {
-        try {
-          await pool.query(
-            `INSERT INTO public.profiles (id, email, full_name, hsk_level, learning_stage, total_xp, streak)
-             VALUES ($1, $2, $3, 'HSK 1', 1, 120, 1)
-             ON CONFLICT (email) DO UPDATE SET updated_at = now() RETURNING *`,
-            [userId, email, displayName]
-          );
-        } catch (e) {}
-      }
 
       return res.status(200).json({
         ok: true,
         message: "ورود با موفقیت انجام شد.",
         token: token,
+        id: userId,
+        username: displayName,
+        email: email,
+        isPro: proStatus,
+        pro: proStatus,
+        store: storeSnapshot,
         user: userProfile,
       });
     }
@@ -347,8 +355,9 @@ module.exports = async (req, res) => {
         return res.status(400).json({ error: "weak-password", message: "کلمه عبور باید حداقل ۶ نویسه باشد." });
       }
 
-      const userId = crypto.createHash("md5").update(email).digest("hex");
-      const token = crypto.randomBytes(32).toString("hex");
+      await initDb();
+      let userId = stableUserId(email);
+      const pwHash = hashPassword(password);
       const now = Date.now();
       const code = generateCode();
       const codeHash = crypto.createHash("sha256").update(`${email}:${code}`).digest("hex");
@@ -366,12 +375,46 @@ module.exports = async (req, res) => {
         expiresAt: expiresAt,
       });
 
+      if (supabaseAdmin) {
+        try {
+          const { data: created } = await supabaseAdmin.auth.admin.createUser({
+            email,
+            password,
+            email_confirm: true,
+            user_metadata: { full_name: fullName, hsk_level: hskLevel },
+          });
+          if (created && created.user && created.user.id) userId = created.user.id;
+        } catch (e) {}
+      }
+
+      let regProStatus = isUserPro(email);
+      if (pool) {
+        try {
+          const uRes = await pool.query(
+            `INSERT INTO public.chinifa_users (id, email, full_name, password_hash, hsk_level, is_pro)
+             VALUES ($1, $2, $3, $4, $5, $6)
+             ON CONFLICT (email) DO UPDATE SET
+               full_name = COALESCE(NULLIF($3, ''), public.chinifa_users.full_name),
+               password_hash = $4,
+               hsk_level = $5,
+               updated_at = now()
+             RETURNING id, is_pro, pro_expires_at`,
+            [userId, email, fullName, pwHash, hskLevel, regProStatus]
+          );
+          if (uRes.rows[0]) {
+            userId = uRes.rows[0].id || userId;
+            regProStatus = regProStatus || !!(uRes.rows[0].is_pro && (!uRes.rows[0].pro_expires_at || new Date(uRes.rows[0].pro_expires_at).getTime() > Date.now()));
+          }
+        } catch (e) {}
+      }
+
+      const token = signSessionToken({ uid: userId, email, name: fullName });
+
       let sendResult = { ok: true, devMode: false };
       try {
         sendResult = await sendResendOtpEmail(email, code);
       } catch (e) {}
 
-      const regProStatus = isUserPro(email);
       const userProfile = {
         id: userId,
         email: email,
@@ -412,7 +455,55 @@ module.exports = async (req, res) => {
         return res.status(400).json({ error: "missing-credentials", message: "ایمیل و کلمه عبور الزامی است." });
       }
 
-      // If Supabase is configured, use real Supabase login
+      await initDb();
+
+      // 1. Check PostgreSQL chinifa_users first if configured
+      if (pool) {
+        try {
+          const uRes = await pool.query(
+            `SELECT id, email, full_name, password_hash, hsk_level, is_pro, pro_expires_at
+             FROM public.chinifa_users WHERE email = $1 LIMIT 1`,
+            [email]
+          );
+          if (uRes.rows[0]) {
+            const row = uRes.rows[0];
+            if (row.password_hash && !verifyPassword(password, row.password_hash)) {
+              return res.status(401).json({ error: "invalid-credentials", message: "ایمیل یا کلمه عبور اشتباه است." });
+            }
+            const proStatus = isUserPro(email) || !!(row.is_pro && (!row.pro_expires_at || new Date(row.pro_expires_at).getTime() > Date.now()));
+            let storeSnapshot = null;
+            const kvRes = await pool.query(
+              `SELECT value FROM public.chinifa_kv_store WHERE user_id = $1 OR email = $2 ORDER BY updated_at DESC LIMIT 1`,
+              [row.id, email]
+            );
+            if (kvRes.rows[0] && kvRes.rows[0].value) storeSnapshot = kvRes.rows[0].value;
+            const displayName = row.full_name || email.split("@")[0];
+            const token = signSessionToken({ uid: row.id, email, name: displayName });
+            return res.status(200).json({
+              ok: true,
+              message: "ورود موفقیت‌آمیز بود.",
+              token: token,
+              id: row.id,
+              username: displayName,
+              email: email,
+              isPro: proStatus,
+              pro: proStatus,
+              store: storeSnapshot,
+              user: {
+                id: row.id,
+                email: email,
+                fullName: displayName,
+                hskLevel: row.hsk_level || "HSK 1",
+                verified: true,
+                isPro: proStatus,
+                pro: proStatus,
+              },
+            });
+          }
+        } catch (e) {}
+      }
+
+      // 2. If Supabase is configured, use real Supabase login
       if (supabaseClient && validEmail(email)) {
         try {
           const { data: authData, error: authErr } = await supabaseClient.auth.signInWithPassword({
@@ -422,18 +513,19 @@ module.exports = async (req, res) => {
           if (!authErr && authData && authData.user) {
             const userEmail = (authData.user.email || email).toLowerCase();
             const proStatus = isUserPro(userEmail);
+            const displayName = authData.user.user_metadata?.full_name || userEmail.split("@")[0];
             return res.status(200).json({
               ok: true,
               token: authData.session?.access_token,
               id: authData.user.id,
-              username: authData.user.user_metadata?.full_name || userEmail.split("@")[0],
+              username: displayName,
               email: userEmail,
               isPro: proStatus,
               pro: proStatus,
               user: {
                 id: authData.user.id,
                 email: userEmail,
-                fullName: authData.user.user_metadata?.full_name || userEmail.split("@")[0],
+                fullName: displayName,
                 hskLevel: "HSK 1",
                 verified: true,
                 isPro: proStatus,
@@ -444,24 +536,25 @@ module.exports = async (req, res) => {
         } catch (e) {}
       }
 
-      // Standard authenticated response
-      const userId = crypto.createHash("md5").update(email).digest("hex");
-      const token = crypto.randomBytes(32).toString("hex");
-
+      // 3. Fallback when DB is not connected (local/demo mode)
+      const userId = stableUserId(email);
+      const displayName = email.split("@")[0];
+      const token = signSessionToken({ uid: userId, email, name: displayName });
       const proStatus = isUserPro(email);
+
       return res.status(200).json({
         ok: true,
         message: "ورود موفقیت‌آمیز بود.",
         token: token,
         id: userId,
-        username: email.split("@")[0],
+        username: displayName,
         email: email,
         isPro: proStatus,
         pro: proStatus,
         user: {
           id: userId,
           email: email,
-          fullName: email.split("@")[0],
+          fullName: displayName,
           hskLevel: "HSK 1",
           verified: true,
           isPro: proStatus,
@@ -484,12 +577,15 @@ module.exports = async (req, res) => {
       }
 
       const sub = setUserPro(email, planId);
+      await initDb();
 
       if (pool) {
         try {
           await pool.query(
-            `UPDATE public.profiles SET is_pro = true, updated_at = now() WHERE email = $1`,
-            [email]
+            `UPDATE public.chinifa_users
+             SET is_pro = true, pro_plan = $2, pro_expires_at = to_timestamp($3 / 1000.0), updated_at = now()
+             WHERE email = $1`,
+            [email, sub.plan, sub.expiresAt]
           );
         } catch (e) {}
       }
@@ -526,17 +622,85 @@ module.exports = async (req, res) => {
     // ۷. بررسی وضعیت احراز هویت / جلسه: action=session
     // ----------------------------------------------------
     if (action === "session" || action === "me") {
-      const authHeader = String(req.headers.authorization || "").trim();
-      const token = authHeader.replace(/^Bearer\s+/i, "").trim();
-
-      if (!token) {
+      const user = await getAuthUser(req);
+      if (!user) {
         return res.status(401).json({ ok: false, error: "no-session" });
+      }
+
+      await initDb();
+      let proStatus = isUserPro(user.email);
+      let fullName = user.fullName;
+      let storeSnapshot = null;
+
+      if (pool) {
+        try {
+          const uRes = await pool.query(
+            `SELECT full_name, is_pro, pro_expires_at FROM public.chinifa_users WHERE id = $1 OR ($2 <> '' AND email = $2) LIMIT 1`,
+            [user.id, user.email || ""]
+          );
+          if (uRes.rows[0]) {
+            fullName = uRes.rows[0].full_name || fullName;
+            proStatus = proStatus || !!(uRes.rows[0].is_pro && (!uRes.rows[0].pro_expires_at || new Date(uRes.rows[0].pro_expires_at).getTime() > Date.now()));
+          }
+          const kvRes = await pool.query(
+            `SELECT value FROM public.chinifa_kv_store WHERE user_id = $1 OR ($2 <> '' AND email = $2) ORDER BY updated_at DESC LIMIT 1`,
+            [user.id, user.email || ""]
+          );
+          if (kvRes.rows[0] && kvRes.rows[0].value) {
+            storeSnapshot = kvRes.rows[0].value;
+          }
+        } catch (e) {}
       }
 
       return res.status(200).json({
         ok: true,
         authenticated: true,
+        id: user.id,
+        username: fullName,
+        email: user.email,
+        isPro: proStatus,
+        pro: proStatus,
+        store: storeSnapshot,
+        user: {
+          id: user.id,
+          email: user.email,
+          fullName: fullName,
+          isPro: proStatus,
+          pro: proStatus,
+        },
       });
+    }
+
+    // ----------------------------------------------------
+    // ۸. تغییر کلمه عبور: action=change-password
+    // ----------------------------------------------------
+    if (action === "change-password") {
+      const user = await getAuthUser(req);
+      if (!user) return res.status(401).json({ error: "no-session" });
+      const newPw = String(body.password || "");
+      if (newPw.length < 6) return res.status(400).json({ error: "کلمه عبور باید حداقل ۶ نویسه باشد.", field: "password" });
+      await initDb();
+      if (pool && user.email) {
+        await pool.query(
+          `UPDATE public.chinifa_users SET password_hash = $2, updated_at = now() WHERE email = $1`,
+          [user.email, hashPassword(newPw)]
+        );
+      }
+      return res.status(200).json({ ok: true });
+    }
+
+    // ----------------------------------------------------
+    // ۹. حذف حساب کاربری: action=delete-account
+    // ----------------------------------------------------
+    if (action === "delete-account") {
+      const user = await getAuthUser(req);
+      if (!user) return res.status(401).json({ error: "no-session" });
+      await initDb();
+      if (pool) {
+        await pool.query(`DELETE FROM public.chinifa_kv_store WHERE user_id = $1 OR ($2 <> '' AND email = $2)`, [user.id, user.email || ""]);
+        await pool.query(`DELETE FROM public.chinifa_users WHERE id = $1 OR ($2 <> '' AND email = $2)`, [user.id, user.email || ""]);
+      }
+      return res.status(200).json({ ok: true });
     }
 
     // ----------------------------------------------------
