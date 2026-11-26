@@ -291,14 +291,17 @@ module.exports = async (req, res) => {
              ON CONFLICT (email) DO UPDATE SET
                full_name = COALESCE(NULLIF($3, ''), public.chinifa_users.full_name),
                updated_at = now()
-             RETURNING id, email, full_name, hsk_level, is_pro, pro_expires_at`,
+             RETURNING id, email, full_name, hsk_level, status, role, is_pro, pro_expires_at`,
             [userId, email, displayName, proStatus]
           );
           if (upsertRes.rows[0]) {
             const row = upsertRes.rows[0];
+            if (row.status === "suspended") {
+              return res.status(403).json({ error: "account-suspended", message: "حساب کاربری شما توسط مدیر مسدود شده است." });
+            }
             userId = row.id || userId;
             displayName = row.full_name || displayName;
-            proStatus = proStatus || !!(row.is_pro && (!row.pro_expires_at || new Date(row.pro_expires_at).getTime() > Date.now()));
+            proStatus = proStatus || row.status === "vip" || !!(row.is_pro && (!row.pro_expires_at || new Date(row.pro_expires_at).getTime() > Date.now()));
           }
           const kvRes = await pool.query(
             `SELECT value FROM public.chinifa_kv_store WHERE user_id = $1 OR email = $2 ORDER BY updated_at DESC LIMIT 1`,
@@ -461,16 +464,19 @@ module.exports = async (req, res) => {
       if (pool) {
         try {
           const uRes = await pool.query(
-            `SELECT id, email, full_name, password_hash, hsk_level, is_pro, pro_expires_at
+            `SELECT id, email, full_name, password_hash, hsk_level, status, role, is_pro, pro_expires_at
              FROM public.chinifa_users WHERE email = $1 LIMIT 1`,
             [email]
           );
           if (uRes.rows[0]) {
             const row = uRes.rows[0];
+            if (row.status === "suspended") {
+              return res.status(403).json({ error: "account-suspended", message: "حساب کاربری شما توسط مدیر مسدود شده است." });
+            }
             if (row.password_hash && !verifyPassword(password, row.password_hash)) {
               return res.status(401).json({ error: "invalid-credentials", message: "ایمیل یا کلمه عبور اشتباه است." });
             }
-            const proStatus = isUserPro(email) || !!(row.is_pro && (!row.pro_expires_at || new Date(row.pro_expires_at).getTime() > Date.now()));
+            const proStatus = isUserPro(email) || row.status === "vip" || !!(row.is_pro && (!row.pro_expires_at || new Date(row.pro_expires_at).getTime() > Date.now()));
             let storeSnapshot = null;
             const kvRes = await pool.query(
               `SELECT value FROM public.chinifa_kv_store WHERE user_id = $1 OR email = $2 ORDER BY updated_at DESC LIMIT 1`,
@@ -635,12 +641,15 @@ module.exports = async (req, res) => {
       if (pool) {
         try {
           const uRes = await pool.query(
-            `SELECT full_name, is_pro, pro_expires_at FROM public.chinifa_users WHERE id = $1 OR ($2 <> '' AND email = $2) LIMIT 1`,
+            `SELECT full_name, status, role, is_pro, pro_expires_at FROM public.chinifa_users WHERE id = $1 OR ($2 <> '' AND email = $2) LIMIT 1`,
             [user.id, user.email || ""]
           );
           if (uRes.rows[0]) {
+            if (uRes.rows[0].status === "suspended") {
+              return res.status(403).json({ ok: false, error: "account-suspended", message: "حساب کاربری مسدود شده است." });
+            }
             fullName = uRes.rows[0].full_name || fullName;
-            proStatus = proStatus || !!(uRes.rows[0].is_pro && (!uRes.rows[0].pro_expires_at || new Date(uRes.rows[0].pro_expires_at).getTime() > Date.now()));
+            proStatus = proStatus || uRes.rows[0].status === "vip" || !!(uRes.rows[0].is_pro && (!uRes.rows[0].pro_expires_at || new Date(uRes.rows[0].pro_expires_at).getTime() > Date.now()));
           }
           const kvRes = await pool.query(
             `SELECT value FROM public.chinifa_kv_store WHERE user_id = $1 OR ($2 <> '' AND email = $2) ORDER BY updated_at DESC LIMIT 1`,

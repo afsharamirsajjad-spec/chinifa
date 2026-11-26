@@ -664,70 +664,87 @@ async function getUsersData(){
   return USERS_LIST;
 }
 
+async function adminApiCall(action, method, body){
+  const tk = getAdminToken();
+  const opts = {
+    method: method || "GET",
+    headers: { "Content-Type": "application/json", "Authorization": "Bearer " + tk }
+  };
+  if(body !== undefined) opts.body = JSON.stringify(body);
+  const r = await fetch("/api/admin?action=" + encodeURIComponent(action), opts);
+  if(r.status === 401){ adminLogout(); throw new Error("نشست ادمین منقضی شده است"); }
+  const data = await r.json().catch(() => ({}));
+  if(!r.ok || data.ok === false) throw new Error(data.error || "خطای سرور");
+  return data;
+}
+
+async function syncUserToDb(u){
+  return adminApiCall("user-update", "POST", {
+    id: u.id,
+    email: u.email,
+    name: u.name,
+    level: u.level,
+    status: u.status,
+    role: u.role || (u.status === "vip" ? "vip" : "user"),
+    isPro: u.status === "vip" || u.role === "vip"
+  });
+}
+
+async function deleteUserFromDb(u){
+  return adminApiCall("user-delete", "POST", { id: u.id, email: u.email });
+}
+
 async function saveUsersData(list){
   USERS_LIST = list;
   localStorage.setItem("chinifa_admin_users", JSON.stringify(list));
-  try {
-    await fetch("/admin/api/users", {
-      method: "PUT",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({users: list})
-    });
-  } catch(e){}
 }
 
 async function getFeedbackData(){
   if(FEEDBACK_LIST) return FEEDBACK_LIST;
+  if(getAdminToken()){
+    try {
+      const res = await adminApiCall("feedback-list", "GET");
+      if(res && res.dbConnected){ FEEDBACK_LIST = res.feedback || []; return FEEDBACK_LIST; }
+    } catch(e){}
+  }
   try {
     const res = await apiGet("feedback");
     if(res && res.feedback && res.feedback.length) { FEEDBACK_LIST = res.feedback; return FEEDBACK_LIST; }
   } catch(e){}
-  const local = localStorage.getItem("chinifa_admin_feedback");
-  if(local){
-    try { FEEDBACK_LIST = JSON.parse(local); return FEEDBACK_LIST; } catch(e){}
-  }
-  FEEDBACK_LIST = JSON.parse(JSON.stringify(SEED_FEEDBACK));
-  localStorage.setItem("chinifa_admin_feedback", JSON.stringify(FEEDBACK_LIST));
+  FEEDBACK_LIST = [];
   return FEEDBACK_LIST;
 }
 
 async function saveFeedbackData(list){
   FEEDBACK_LIST = list;
   localStorage.setItem("chinifa_admin_feedback", JSON.stringify(list));
-  try {
-    await fetch("/admin/api/feedback", {
-      method: "PUT",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({feedback: list})
-    });
-  } catch(e){}
+  if(getAdminToken()){
+    try { await adminApiCall("feedback-save", "POST", { feedback: list }); } catch(e){}
+  }
 }
 
 async function getSettingsData(){
   if(APP_SETTINGS) return APP_SETTINGS;
+  if(getAdminToken()){
+    try {
+      const res = await adminApiCall("settings-get", "GET");
+      if(res && res.dbConnected && res.settings){ APP_SETTINGS = res.settings; return APP_SETTINGS; }
+    } catch(e){}
+  }
   try {
     const res = await apiGet("appsettings");
     if(res && res.settings && Object.keys(res.settings).length) { APP_SETTINGS = res.settings; return APP_SETTINGS; }
   } catch(e){}
-  const local = localStorage.getItem("chinifa_admin_settings");
-  if(local){
-    try { APP_SETTINGS = JSON.parse(local); return APP_SETTINGS; } catch(e){}
-  }
   APP_SETTINGS = JSON.parse(JSON.stringify(SEED_SETTINGS));
-  localStorage.setItem("chinifa_admin_settings", JSON.stringify(APP_SETTINGS));
   return APP_SETTINGS;
 }
 
 async function saveSettingsData(st){
   APP_SETTINGS = st;
   localStorage.setItem("chinifa_admin_settings", JSON.stringify(st));
-  try {
-    await fetch("/admin/api/appsettings", {
-      method: "PUT",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({settings: st})
-    });
-  } catch(e){}
+  if(getAdminToken()){
+    await adminApiCall("settings-save", "POST", { settings: st });
+  }
 }
 
 function exportUsersCSV(users){
@@ -860,19 +877,31 @@ async function vUsers(targetId){
       card.querySelector(".btn-edit").onclick = (e) => { e.stopPropagation(); openUserModal(u); };
       card.querySelector(".btn-toggle-status").onclick = async (e) => {
         e.stopPropagation();
+        const prev = u.status;
         u.status = u.status === "suspended" ? "active" : "suspended";
-        await saveUsersData(users);
-        toast(`وضعیت کاربر به ${u.status === 'suspended' ? 'مسدود' : 'فعال'} تغییر یافت`, "ok");
-        draw();
+        try {
+          await syncUserToDb(u);
+          await saveUsersData(users);
+          toast(`وضعیت کاربر در دیتابیس به ${u.status === 'suspended' ? 'مسدود' : 'فعال'} تغییر یافت`, "ok");
+          draw();
+        } catch(err) {
+          u.status = prev;
+          toast("خطا در ذخیره وضعیت کاربر: " + err.message, "err");
+        }
       };
       card.querySelector(".btn-del").onclick = async (e) => {
         e.stopPropagation();
-        if(confirm(`آیا از حذف کاربر «${u.name}» اطمینان دارید؟`)){
-          const idx = users.findIndex(x => x.id === u.id);
-          if(idx !== -1) users.splice(idx, 1);
-          await saveUsersData(users);
-          toast("کاربر با موفقیت حذف شد", "ok");
-          draw();
+        if(confirm(`آیا از حذف کاربر «${u.name}» از دیتابیس اطمینان دارید؟`)){
+          try {
+            await deleteUserFromDb(u);
+            const idx = users.findIndex(x => x.id === u.id);
+            if(idx !== -1) users.splice(idx, 1);
+            await saveUsersData(users);
+            toast("کاربر با موفقیت از دیتابیس حذف شد", "ok");
+            draw();
+          } catch(err) {
+            toast("خطا در حذف کاربر: " + err.message, "err");
+          }
         }
       };
 
@@ -934,9 +963,17 @@ async function vUsers(targetId){
           <div class="fld"><label>درس فعلی (۰-۱۵):</label><input type="number" id="m_lesson" min="0" max="15" value="${u.currentLesson||0}"></div>
         </div>
         <div class="grid2">
+          <div class="fld"><label>نقش کاربر (Role):</label>
+            <select id="m_role">
+              <option value="user" ${(u.role||'user') === 'user' ? 'selected':''}>کاربر عادی (User)</option>
+              <option value="vip" ${u.role === 'vip' ? 'selected':''}>کاربر ویژه (VIP)</option>
+              <option value="moderator" ${u.role === 'moderator' ? 'selected':''}>پشتیبان / ناظر (Moderator)</option>
+              <option value="admin" ${u.role === 'admin' ? 'selected':''}>مدیر (Admin)</option>
+            </select>
+          </div>
           <div class="fld"><label>روزهای استریک (Streak):</label><input type="number" id="m_streak" min="0" value="${u.streak||0}"></div>
-          <div class="fld"><label>امتیاز یادگیری (XP):</label><input type="number" id="m_xp" min="0" value="${u.xp||0}"></div>
         </div>
+        <div class="fld"><label>امتیاز یادگیری (XP):</label><input type="number" id="m_xp" min="0" value="${u.xp||0}"></div>
       </div>
       <div class="modal-foot">
         <button class="btn ghost close-modal">انصراف</button>
@@ -964,21 +1001,27 @@ async function vUsers(targetId){
       u.email = win.querySelector("#m_email").value.trim();
       u.level = win.querySelector("#m_level").value;
       u.status = win.querySelector("#m_status").value;
+      u.role = win.querySelector("#m_role") ? win.querySelector("#m_role").value : "user";
+      u.isPro = u.status === "vip" || u.role === "vip";
       u.currentLesson = parseInt(win.querySelector("#m_lesson").value, 10) || 0;
       u.streak = parseInt(win.querySelector("#m_streak").value, 10) || 0;
       u.xp = parseInt(win.querySelector("#m_xp").value, 10) || 0;
 
-      if(isEdit){
-        const idx = users.findIndex(x => x.id === u.id);
-        if(idx !== -1) users[idx] = u;
-      } else {
-        users.unshift(u);
+      try {
+        await syncUserToDb(u);
+        if(isEdit){
+          const idx = users.findIndex(x => x.id === u.id);
+          if(idx !== -1) users[idx] = u;
+        } else {
+          users.unshift(u);
+        }
+        await saveUsersData(users);
+        toast("اطلاعات و نقش کاربر در دیتابیس ذخیره شد", "ok");
+        close();
+        draw();
+      } catch(err) {
+        toast("خطا در ذخیره کاربر: " + err.message, "err");
       }
-
-      await saveUsersData(users);
-      toast("اطلاعات کاربر با موفقیت ثبت شد", "ok");
-      close();
-      draw();
     };
   }
 }

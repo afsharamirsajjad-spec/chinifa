@@ -24,6 +24,15 @@ module.exports = async (req, res) => {
     if (!user) return res.status(401).json({ error: "no-session" });
 
     await initDb();
+    if (pool) {
+      const stRes = await pool.query(
+        `SELECT status FROM public.chinifa_users WHERE id = $1 OR ($2 <> '' AND email = $2) LIMIT 1`,
+        [user.id, user.email || ""]
+      ).catch(() => ({ rows: [] }));
+      if (stRes.rows[0] && stRes.rows[0].status === "suspended") {
+        return res.status(403).json({ error: "account-suspended" });
+      }
+    }
     const key = String((req.query && req.query.key) || "cheh-chin-state").slice(0, 64);
 
     // GET: Retrieve user's stored progress snapshot

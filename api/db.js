@@ -103,9 +103,35 @@ async function initDb() {
           full_name TEXT,
           password_hash TEXT,
           hsk_level TEXT DEFAULT 'HSK 1',
+          status TEXT DEFAULT 'active',
+          role TEXT DEFAULT 'user',
           is_pro BOOLEAN DEFAULT false,
           pro_plan TEXT,
           pro_expires_at TIMESTAMPTZ,
+          created_at TIMESTAMPTZ DEFAULT now(),
+          updated_at TIMESTAMPTZ DEFAULT now()
+        );
+      `);
+      await client.query(`
+        ALTER TABLE public.chinifa_users ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'active';
+        ALTER TABLE public.chinifa_users ADD COLUMN IF NOT EXISTS role TEXT DEFAULT 'user';
+      `);
+      await client.query(`
+        CREATE TABLE IF NOT EXISTS public.chinifa_settings (
+          key TEXT PRIMARY KEY,
+          value JSONB DEFAULT '{}'::jsonb,
+          updated_at TIMESTAMPTZ DEFAULT now()
+        );
+      `);
+      await client.query(`
+        CREATE TABLE IF NOT EXISTS public.chinifa_feedback (
+          id TEXT PRIMARY KEY,
+          user_email TEXT DEFAULT '',
+          user_name TEXT DEFAULT '',
+          type TEXT DEFAULT 'feedback',
+          message TEXT NOT NULL,
+          status TEXT DEFAULT 'pending',
+          reply TEXT DEFAULT '',
           created_at TIMESTAMPTZ DEFAULT now(),
           updated_at TIMESTAMPTZ DEFAULT now()
         );

@@ -126,6 +126,8 @@ module.exports = async (req, res) => {
           u.email,
           u.full_name,
           u.hsk_level,
+          u.status,
+          u.role,
           u.is_pro,
           u.pro_plan,
           u.pro_expires_at,
@@ -146,6 +148,8 @@ module.exports = async (req, res) => {
         const cp = st.courseProgress && typeof st.courseProgress === "object" ? st.courseProgress : {};
         const currentLesson = Number(cp.hsk1) || 0;
         const isPro = !!(row.is_pro && (!row.pro_expires_at || new Date(row.pro_expires_at).getTime() > Date.now()));
+        const status = row.status === "suspended" ? "suspended" : (isPro || row.status === "vip" ? "vip" : "active");
+        const xp = Number(st.xp) || (words * 10 + currentLesson * 50);
         return {
           id: row.id,
           name: row.full_name || st.name || st.nick || (row.email ? row.email.split("@")[0] : "کاربر"),
@@ -153,41 +157,65 @@ module.exports = async (req, res) => {
           email: row.email || "",
           level: st.level || row.hsk_level || "HSK 1",
           streak: Number(st.streak) || 0,
+          xp: xp,
           words: words,
           wordsLearned: words,
           currentLesson: currentLesson,
-          status: isPro ? "vip" : "active",
-          isPro: isPro,
+          status: status,
+          role: row.role || (isPro ? "vip" : "user"),
+          isPro: isPro || status === "vip",
+          createdAt: row.created_at ? new Date(row.created_at).toISOString().slice(0, 10) : "",
           joinedAt: row.created_at ? new Date(row.created_at).toISOString().slice(0, 10) : "",
-          lastActive: row.store_updated_at || row.updated_at || row.created_at || "",
+          lastActive: row.store_updated_at ? new Date(row.store_updated_at).toLocaleString("fa-IR") : (row.updated_at ? new Date(row.updated_at).toLocaleString("fa-IR") : "ثبت‌شده"),
         };
       });
 
       return res.status(200).json({ ok: true, dbConnected: true, users });
     }
 
-    // 4. Update User (e.g. toggle VIP/Pro or level)
+    // 4. Update or Create User (status: active/vip/suspended, role: user/vip/moderator/admin)
     if (action === "user-update") {
       if (!pool || !dbReady) return res.status(503).json({ ok: false, error: "db-unavailable" });
-      const id = String(body.id || "");
+      const id = String(body.id || "").trim() || ("usr_" + crypto.randomBytes(8).toString("hex"));
       const email = String(body.email || "").trim().toLowerCase();
       if (!id && !email) return res.status(400).json({ ok: false, error: "missing-user" });
 
-      const isPro = body.status === "vip" || body.isPro === true;
-      const level = body.level ? String(body.level) : null;
-      const name = body.name ? String(body.name) : null;
+      const status = ["active", "vip", "suspended"].includes(String(body.status)) ? String(body.status) : "active";
+      const role = ["user", "vip", "moderator", "admin"].includes(String(body.role)) ? String(body.role) : (status === "vip" ? "vip" : "user");
+      const isPro = status === "vip" || role === "vip" || body.isPro === true;
+      const level = body.level ? String(body.level) : "HSK 1";
+      const name = body.name ? String(body.name) : (email ? email.split("@")[0] : "کاربر");
 
-      await pool.query(
+      const upd = await pool.query(
         `UPDATE public.chinifa_users
-         SET is_pro = $3,
-             hsk_level = COALESCE($4, hsk_level),
-             full_name = COALESCE($5, full_name),
-             pro_expires_at = CASE WHEN $3 THEN now() + interval '365 days' ELSE NULL END,
+         SET status = $3,
+             role = $4,
+             is_pro = $5,
+             hsk_level = COALESCE(NULLIF($6, ''), hsk_level),
+             full_name = COALESCE(NULLIF($7, ''), full_name),
+             pro_expires_at = CASE WHEN $5 THEN now() + interval '365 days' ELSE NULL END,
              updated_at = now()
-         WHERE ($1 <> '' AND id = $1) OR ($2 <> '' AND email = $2)`,
-        [id, email, isPro, level, name]
+         WHERE ($1 <> '' AND id = $1) OR ($2 <> '' AND email = $2)
+         RETURNING id, email, status, role, is_pro`,
+        [id, email, status, role, isPro, level, name]
       );
-      return res.status(200).json({ ok: true });
+
+      if (upd.rows.length === 0 && email) {
+        await pool.query(
+          `INSERT INTO public.chinifa_users (id, email, full_name, hsk_level, status, role, is_pro, pro_expires_at)
+           VALUES ($1, $2, $3, $4, $5, $6, $7, CASE WHEN $7 THEN now() + interval '365 days' ELSE NULL END)
+           ON CONFLICT (email) DO UPDATE SET
+             status = EXCLUDED.status,
+             role = EXCLUDED.role,
+             is_pro = EXCLUDED.is_pro,
+             hsk_level = EXCLUDED.hsk_level,
+             full_name = EXCLUDED.full_name,
+             updated_at = now()`,
+          [id, email, name, level, status, role, isPro]
+        );
+      }
+
+      return res.status(200).json({ ok: true, status, role, isPro });
     }
 
     // 5. Delete User
@@ -204,6 +232,46 @@ module.exports = async (req, res) => {
       await pool.query(
         `DELETE FROM public.chinifa_users WHERE ($1 <> '' AND id = $1) OR ($2 <> '' AND email = $2)`,
         [id, email]
+      );
+      return res.status(200).json({ ok: true });
+    }
+
+    // 6. Feedback list & save
+    if (action === "feedback-list") {
+      if (!pool || !dbReady) return res.status(200).json({ ok: true, dbConnected: false, feedback: [] });
+      const r = await pool.query(`SELECT id, user_email, user_name, type, message, status, reply, created_at FROM public.chinifa_feedback ORDER BY created_at DESC LIMIT 200`);
+      return res.status(200).json({ ok: true, dbConnected: true, feedback: r.rows });
+    }
+
+    if (action === "feedback-save") {
+      if (!pool || !dbReady) return res.status(503).json({ ok: false, error: "db-unavailable" });
+      const list = Array.isArray(body.feedback) ? body.feedback : [];
+      for (const f of list.slice(0, 200)) {
+        if (!f || !f.id) continue;
+        await pool.query(
+          `INSERT INTO public.chinifa_feedback (id, user_email, user_name, type, message, status, reply, updated_at)
+           VALUES ($1, $2, $3, $4, $5, $6, $7, now())
+           ON CONFLICT (id) DO UPDATE SET status = EXCLUDED.status, reply = EXCLUDED.reply, updated_at = now()`,
+          [String(f.id), String(f.user_email || f.email || ""), String(f.user_name || f.user || ""), String(f.type || "feedback"), String(f.message || f.text || ""), String(f.status || "pending"), String(f.reply || "")]
+        );
+      }
+      return res.status(200).json({ ok: true });
+    }
+
+    // 7. App settings get & save
+    if (action === "settings-get") {
+      if (!pool || !dbReady) return res.status(200).json({ ok: true, dbConnected: false, settings: null });
+      const r = await pool.query(`SELECT value FROM public.chinifa_settings WHERE key = 'app_settings' LIMIT 1`);
+      return res.status(200).json({ ok: true, dbConnected: true, settings: r.rows[0] ? r.rows[0].value : null });
+    }
+
+    if (action === "settings-save") {
+      if (!pool || !dbReady) return res.status(503).json({ ok: false, error: "db-unavailable" });
+      const settings = body.settings && typeof body.settings === "object" ? body.settings : {};
+      await pool.query(
+        `INSERT INTO public.chinifa_settings (key, value, updated_at) VALUES ('app_settings', $1, now())
+         ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value, updated_at = now()`,
+        [JSON.stringify(settings)]
       );
       return res.status(200).json({ ok: true });
     }
