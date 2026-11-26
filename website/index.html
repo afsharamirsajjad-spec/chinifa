@@ -1695,6 +1695,31 @@
       }
       syncAuthUI();
 
+      // Refresh session & VIP/suspension status from DB on page load
+      (function refreshSessionFromDb() {
+        var tk = localStorage.getItem('chinifa.token') || localStorage.getItem('chinifa_auth_token');
+        if (!tk) return;
+        fetch('/api/session', { headers: { 'Authorization': 'Bearer ' + tk } })
+          .then(function(r) { return r.json().then(function(d) { return { ok: r.ok, status: r.status, d: d }; }); })
+          .then(function(res) {
+            if (!res.ok || !res.d || !res.d.ok) {
+              doLogout();
+              if (res.status === 403 && res.d && res.d.error === 'account-suspended') {
+                showAlert(res.d.message || 'حساب کاربری شما توسط مدیر مسدود شده است.', true);
+              }
+              return;
+            }
+            var d = res.d;
+            if (d.isPro || d.pro) localStorage.setItem('chinifa_pro', 'true');
+            else localStorage.removeItem('chinifa_pro');
+            if (d.user) {
+              var prev = getAuthUser() || {};
+              localStorage.setItem('chinifa_auth_user', JSON.stringify(Object.assign({}, prev, d.user)));
+            }
+            syncAuthUI();
+          }).catch(function() {});
+      })();
+
       function finishLoginAndGoApp(data) {
         var userObj = Object.assign({}, data.user || {}, curPendingProfile || {});
         if (data.token) {
@@ -1737,6 +1762,7 @@
         localStorage.removeItem('chinifa_auth_user');
         localStorage.removeItem('chinifa_auth_token');
         localStorage.removeItem('chinifa.token');
+        localStorage.removeItem('chinifa_pro');
         try {
           var cs = JSON.parse(localStorage.getItem('cheh-chin-state') || '{}');
           cs.signedIn = false; cs.username = '';

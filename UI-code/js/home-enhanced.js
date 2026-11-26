@@ -22,9 +22,9 @@
       dragonQuote: { title: 'خوش آمدید به دنیای زبان چینی!', sub: 'از اینجا سفر جادویی یادگیری رو با هم شروع می‌کنیم 🌸' },
       lessons: [
         { num: 0, idx: 'lesson0', numFa: 'درس صفر', title: 'الفبای پین‌یین و خط چینی', zh: '拼音与汉字', py: 'Pīnyīn yǔ Hànzì', mascot: BASE + 'mascot-star.webp' },
-        { num: 1, idx: 0, numFa: 'درس اول', title: 'سلام و احوالپرسی', zh: '你好', py: 'Nǐ hǎo', mascot: BASE + 'mascot-wave.webp' },
-        { num: 2, idx: 1, numFa: 'درس دوم', title: 'معرفی خود و نام', zh: '我叫李强', py: 'Wǒ jiào Lǐ Qiáng', mascot: BASE + 'mascot-idle.webp' },
-        { num: 3, idx: 2, numFa: 'درس سوم', title: 'اعداد و شمارش ۱ تا ۱۰', zh: '一二三四五', py: 'Yī èr sān sì wǔ', mascot: BASE + 'mascot-read.webp' }
+        { num: 1, idx: 0, numFa: 'درس اول', title: 'سلام و احوالپرسی اولیه', zh: '你好，中国！', py: 'Nǐ hǎo, Zhōngguó!', mascot: BASE + 'mascot-wave.webp' },
+        { num: 2, idx: 1, numFa: 'درس دوم', title: 'معرفی خود، نام و ملیت', zh: '我叫李强，我是中国人', py: 'Wǒ jiào Lǐ Qiáng, wǒ shì Zhōngguórén', mascot: BASE + 'mascot-idle.webp' },
+        { num: 3, idx: 2, numFa: 'درس سوم', title: 'خانواده و دوستان من', zh: '这是我的家人', py: 'Zhè shì wǒ de jiārén', mascot: BASE + 'mascot-read.webp' }
       ],
       review: { tag: 'مرور فصل ۱', title: 'آزمون کوهستان مه', sub: 'سنجش لغات و مباحث ایستگاه اول', isGrand: false }
     },
@@ -34,13 +34,13 @@
       badge: 'درس ۴ تا ۶',
       bgImg: BASE + 'bg_station2.jpg',
       bubbleSide: 'right',
-      dragonQuote: { title: 'آفرین! به شهر دوم رسیدیم', sub: 'توی این ایستگاه یاد می‌گیری درباره خودت و خانواده صحبت کنی ☁️' },
+      dragonQuote: { title: 'آفرین! به شهر دوم رسیدیم', sub: 'توی این ایستگاه خرید روزمره و سفارش غذا را یاد می‌گیری ☁️' },
       lessons: [
-        { num: 4, idx: 3, numFa: 'درس چهارم', title: 'ملیت‌ها و کشورها', zh: '你是哪国人', py: 'Nǐ shì nǎ guó rén', mascot: BASE + 'mascot-read.webp' },
-        { num: 5, idx: 4, numFa: 'درس پنجم', title: 'خانواده و بستگان', zh: '我家有四口人', py: 'Wǒ jiā yǒu sì kǒu rén', mascot: BASE + 'mascot-book.webp' },
-        { num: 6, idx: 5, numFa: 'درس ششم', title: 'سن، شغل و تحصیلات', zh: '你多大了', py: 'Nǐ duō dà le', mascot: BASE + 'mascot-cheer.webp' }
+        { num: 4, idx: 3, numFa: 'درس چهارم', title: 'اعداد، پول و خرید کردن', zh: '这个多少钱？', py: 'Zhège duōshao qián?', mascot: BASE + 'mascot-read.webp' },
+        { num: 5, idx: 4, numFa: 'درس پنجم', title: 'پرداخت با بارکد و تلفن همراه', zh: '我用手机扫码支付', py: 'Wǒ yòng shǒujī sǎomǎ zhīfù', mascot: BASE + 'mascot-book.webp' },
+        { num: 6, idx: 5, numFa: 'درس ششم', title: 'سفارش غذا و نوشیدنی در رستوران', zh: '我想吃中国菜，喝茶', py: 'Wǒ xiǎng chī Zhōngguócài, hē chá', mascot: BASE + 'mascot-cheer.webp' }
       ],
-      review: { tag: 'مرور فصل ۲', title: 'آزمون روستای ابری', sub: 'تثبیت لغات و قواعد مکالمه مقدماتی', isGrand: false }
+      review: { tag: 'مرور فصل ۲', title: 'آزمون روستای ابری', sub: 'تثبیت لغات و قواعد خرید و پرداخت دیجیتال', isGrand: false }
     },
     {
       id: 3,
@@ -48,13 +48,13 @@
       badge: 'درس ۷ تا ۹',
       bgImg: BASE + 'bg_station3.jpg',
       bubbleSide: 'right',
-      dragonQuote: { title: 'شب‌های درخشان و فانوس‌های سرخ!', sub: 'وقت خرید و سفارش غذاهای خوشمزه چینیه 🏮' },
+      dragonQuote: { title: 'شب‌های درخشان و فانوس‌های سرخ!', sub: 'زمان‌بندی، تاریخ و چیدمان وسایل خانه را تمرین کن 🏮' },
       lessons: [
-        { num: 7, idx: 6, numFa: 'درس هفتم', title: 'خرید و قیمت اجناس', zh: '这个多少钱', py: 'Zhège duōshao qián', mascot: BASE + 'mascot-score.webp' },
-        { num: 8, idx: 7, numFa: 'درس هشتم', title: 'سفارش غذا و رستوران', zh: '我想吃米饭', py: 'Wǒ xiǎng chī mǐfàn', mascot: BASE + 'mascot-run.webp' },
-        { num: 9, idx: 8, numFa: 'درس نهم', title: 'ساعت، زمان و تاریخ', zh: '现在几点', py: 'Xiànzài jǐ diǎn', mascot: BASE + 'mascot-flame.webp' }
+        { num: 7, idx: 6, numFa: 'درس هفتم', title: 'ساعت و زمان‌بندی روزمره', zh: '现在几点了？', py: 'Xiànzài jǐ diǎn le?', mascot: BASE + 'mascot-score.webp' },
+        { num: 8, idx: 7, numFa: 'درس هشتم', title: 'تقویم، روزهای هفته و تاریخ', zh: '今天几月几号？', py: 'Jīntiān jǐ yuè jǐ hào?', mascot: BASE + 'mascot-run.webp' },
+        { num: 9, idx: 8, numFa: 'درس نهم', title: 'موقعیت مکانی و اشیاء', zh: '电脑在桌子上', py: 'Diànnǎo zài zhuōzi shang', mascot: BASE + 'mascot-flame.webp' }
       ],
-      review: { tag: 'مرور فصل ۳', title: 'آزمون شهر فانوس‌ها', sub: 'سنجش مهارت‌های کاربردی خرید و زمان', isGrand: false }
+      review: { tag: 'مرور فصل ۳', title: 'آزمون شهر فانوس‌ها', sub: 'سنجش مهارت‌های کاربردی زمان و مکان', isGrand: false }
     },
     {
       id: 4,
@@ -62,27 +62,27 @@
       badge: 'درس ۱۰ تا ۱۲',
       bgImg: BASE + 'bg_station4.jpg',
       bubbleSide: 'left',
-      dragonQuote: { title: 'هوای برفی و تمرین‌های گرم!', sub: 'آب‌وهوا، جهت‌ها و قرارهای روزانه ❄️' },
+      dragonQuote: { title: 'هوای برفی و تمرین‌های گرم!', sub: 'مترو، آب‌وهوا و مراقبت‌های پزشکی ❄️' },
       lessons: [
-        { num: 10, idx: 9, numFa: 'درس دهم', title: 'آب‌وهوا و فصل‌ها', zh: '今天天气怎么样', py: 'Jīntiān tiānqì zěnmeyàng', mascot: BASE + 'mascot-search.webp' },
-        { num: 11, idx: 10, numFa: 'درس یازدهم', title: 'آدرس و جهت‌یابی شهری', zh: '医院在哪里', py: 'Yīyuàn zài nǎlǐ', mascot: BASE + 'mascot-peek.webp' },
-        { num: 12, idx: 11, numFa: 'درس دوازدهم', title: 'حمل‌ونقل و تاکسی', zh: '坐出租车去', py: 'Zuò chūzūchē qù', mascot: BASE + 'mascot-grad.webp' }
+        { num: 10, idx: 9, numFa: 'درس دهم', title: 'حمل‌ونقل عمومی و مترو', zh: '坐地铁去学校', py: 'Zuò dìtiě qù xuéxiào', mascot: BASE + 'mascot-search.webp' },
+        { num: 11, idx: 10, numFa: 'درس یازدهم', title: 'آب‌وهوا، فصل‌ها و لباس', zh: '今天天气很冷，多穿衣服', py: 'Jīntiān tiānqì hěn lěng, duō chuān yīfu', mascot: BASE + 'mascot-peek.webp' },
+        { num: 12, idx: 11, numFa: 'درس دوازدهم', title: 'سلامت، احساس بیماری و پزشک', zh: '我有点儿不舒服', py: 'Wǒ yǒudiǎnr bù shūfu', mascot: BASE + 'mascot-grad.webp' }
       ],
-      review: { tag: 'مرور فصل ۴', title: 'آزمون پاگودای برفی', sub: 'سنجش جامع جهت‌ها، آدرس و گفتگوهای محیطی', isGrand: false }
+      review: { tag: 'مرور فصل ۴', title: 'آزمون پاگودای برفی', sub: 'سنجش جامع سفر درون‌شهری، اقلیم و سلامتی', isGrand: false }
     },
     {
       id: 5,
-      title: 'ایستگاه پنجم: کاخ زرین آسمانی (پایان HSK1)',
+      title: 'ایستگاه پنجم: قصر آسمانی اژدها',
       badge: 'درس ۱۳ تا ۱۵',
       bgImg: BASE + 'bg_station5.jpg',
       bubbleSide: 'left',
-      dragonQuote: { title: 'قله افتخار و جشن پیروزی!', sub: 'شما تمام ۱۵ درس سطح اول رو با موفقیت پشت سر گذاشتید 🏆' },
+      dragonQuote: { title: 'تبریک! به قصر نهایی رسیدی!', sub: 'آماده‌ای برای آزمون جامع و جشن پایان HSK 1؟ 🏆' },
       lessons: [
-        { num: 13, idx: 12, numFa: 'درس سیزدهم', title: 'سرگرمی‌ها و ورزش', zh: '你喜欢做什么', py: 'Nǐ xǐhuan zuò shénme', mascot: BASE + 'mascot-cheer.webp' },
-        { num: 14, idx: 13, numFa: 'درس چهاردهم', title: 'برنامه‌های تعطیلات', zh: '明天你想去哪儿', py: 'Míngtiān nǐ xiǎng qù nǎr', mascot: BASE + 'mascot-star.webp' },
-        { num: 15, idx: 14, numFa: 'درس پانزدهم', title: 'گفتگوی تلفنی و خداحافظی', zh: '喂，请问他在吗', py: 'Wèi, qǐngwèn tā zài ma', mascot: BASE + 'mascot-sleep.webp' }
+        { num: 13, idx: 12, numFa: 'درس سیزدهم', title: 'خانه، اتاق و وسایل زندگی', zh: '我的新房间很干净', py: 'Wǒ de xīn fángjiān hěn gānjìng', mascot: BASE + 'mascot-cheer.webp' },
+        { num: 14, idx: 13, numFa: 'درس چهاردهم', title: 'سرگرمی‌ها، ورزش و علایق', zh: '你喜欢什么运动？', py: 'Nǐ xǐhuan shénme yùndòng?', mascot: BASE + 'mascot-star.webp' },
+        { num: 15, idx: 14, numFa: 'درس پانزدهم', title: 'سفر، احساسات و جمع‌بندی سطح ۱', zh: '我们一起去旅游吧！', py: 'Wǒmen yìqǐ qù lǚyóu ba!', mascot: BASE + 'mascot-sleep.webp' }
       ],
-      review: { tag: 'جشن بزرگ فارغ‌التحصیلی HSK 1', title: 'کاخ آسمانی و دریافت نشان اژدهای طلایی', sub: 'سنجش ۱۵۰ کلمه کلیدی + گواهی پایان دوره', isGrand: true }
+      review: { tag: 'جشن پایان سطح ۱', title: 'قصر آسمانی و دریافت نشان اژدها', sub: 'سنجش ۱۵۰ کلمه کلیدی + جشن فارغ‌التحصیلی HSK 1', isGrand: true }
     }
   ];
 
@@ -93,69 +93,69 @@
       badge: 'درس ۱ تا ۳',
       bgImg: BASE + 'bg_hsk2_st1.jpg',
       bubbleSide: 'right',
-      dragonQuote: { title: 'خوش آمدید به سطح دوم HSK!', sub: 'سفر به پکن، آب‌وهوا، روزمرگی و خرید را با هم شروع می‌کنیم ⛵' },
+      dragonQuote: { title: 'خوش آمدید به سطح دوم HSK!', sub: 'سفر به پکن، تندرستی روزانه و انتخاب لباس را یاد می‌گیرید ⛵' },
       lessons: [
         { num: 1, idx: 0, numFa: 'درس اول', title: 'سفر به پکن در پاییز', zh: '九月去北京旅游最好', py: 'Jiǔyuè qù Běijīng lǚyóu zuì hǎo', mascot: BASE + 'mascot-wave.webp' },
-        { num: 2, idx: 1, numFa: 'درس دوم', title: 'برنامه روزانه و تندرستی', zh: '我每天六点起床', py: 'Wǒ měitiān liù diǎn qǐchuáng', mascot: BASE + 'mascot-run.webp' },
-        { num: 3, idx: 2, numFa: 'درس سوم', title: 'انتخاب رنگ و لباس', zh: '左边那个红色的是我的', py: 'Zuǒbian nàge hóngsè de shì wǒ de', mascot: BASE + 'mascot-idle.webp' }
+        { num: 2, idx: 1, numFa: 'درس دوم', title: 'برنامه روزانه و تندرستی', zh: '我每天六点起床跑步', py: 'Wǒ měitiān liù diǎn qǐchuáng pǎobù', mascot: BASE + 'mascot-run.webp' },
+        { num: 3, idx: 2, numFa: 'درس سوم', title: 'انتخاب رنگ و لباس', zh: '左边那个红色的是我的', py: 'Zuǒbiān nàge hóngsè de shì wǒ de', mascot: BASE + 'mascot-idle.webp' }
       ],
-      review: { tag: 'مرور فصل ۱', title: 'آزمون بندر کهن', sub: 'سنجش صفت عالی، روزمرگی و رنگ‌ها در سطح HSK2', isGrand: false }
+      review: { tag: 'مرور فصل ۱', title: 'آزمون بندر کهن', sub: 'سنجش صفت عالی، برنامه صبحگاهی و صفات مالکیت با 的', isGrand: false }
     },
     {
       id: 2,
-      title: 'ایستگاه دوم: بازار بزرگ ابریشم و چای',
+      title: 'ایستگاه دوم: بازار بزرگ ابریشم و بسته‌های پستی',
       badge: 'درس ۴ تا ۶',
       bgImg: BASE + 'bg_hsk2_st2.jpg',
       bubbleSide: 'right',
-      dragonQuote: { title: 'بازار تجارت و کار!', sub: 'معرفی همکاران، خرید لباس و عیادت بیمار را یاد می‌گیرید 🍵' },
+      dragonQuote: { title: 'خرید اینترنتی و طعم‌های دلنشین!', sub: 'تحویل مرسولات، تصمیم‌گیری در خرید و عادات غذایی 🍵' },
       lessons: [
-        { num: 4, idx: 3, numFa: 'درس چهارم', title: 'معرفی کار و همکاران', zh: '这个工作是他帮我介绍的', py: 'Zhège gōngzuò shì tā bāng wǒ jièshào de', mascot: BASE + 'mascot-read.webp' },
-        { num: 5, idx: 4, numFa: 'درس پنجم', title: 'خرید و تخفیف اجناس', zh: '就买这件吧', py: 'Jiù mǎi zhè jiàn ba', mascot: BASE + 'mascot-score.webp' },
-        { num: 6, idx: 5, numFa: 'درس ششم', title: 'احوالپرسی و عیادت بیمار', zh: '你怎么不吃了', py: 'Nǐ zěnme bù chī le', mascot: BASE + 'mascot-cheer.webp' }
+        { num: 4, idx: 3, numFa: 'درس چهارم', title: 'خرید اینترنتی و تحویل بسته پستی', zh: '这个快递是他帮我取的', py: 'Zhège kuàidì shì tā bāng wǒ qǔ de', mascot: BASE + 'mascot-read.webp' },
+        { num: 5, idx: 4, numFa: 'درس پنجم', title: 'انتخاب نهایی در مرکز خرید', zh: '就买这件吧', py: 'Jiù mǎi zhè jiàn ba', mascot: BASE + 'mascot-score.webp' },
+        { num: 6, idx: 5, numFa: 'درس ششم', title: 'طعم غذاها و عادات غذایی', zh: '你怎么不吃了？', py: 'Nǐ zěnme bù chī le?', mascot: BASE + 'mascot-cheer.webp' }
       ],
-      review: { tag: 'مرور فصل ۲', title: 'آزمون بازار ابریشم', sub: 'تثبیت ساختار تأکیدی، خرید و تغییر وضعیت', isGrand: false }
+      review: { tag: 'مرور فصل ۲', title: 'آزمون بازار ابریشم', sub: 'تثبیت تأکید با 是...的، تأکید تصمیمی با 就 و پرسش چرایی با 怎么', isGrand: false }
     },
     {
       id: 3,
-      title: 'ایستگاه سوم: دهکده بهاری شکوفه‌های نیلوفر',
+      title: 'ایستگاه سوم: بارگاه شکوفه‌های گیلاس و گذر زمان',
       badge: 'درس ۷ تا ۹',
       bgImg: BASE + 'bg_hsk2_st3.jpg',
       bubbleSide: 'right',
-      dragonQuote: { title: 'نیمه راه HSK 2 را فتح کردید!', sub: 'امتحانات، چای سنتی و جشن تولد در این دهکده منتظر شماست 🌸' },
+      dragonQuote: { title: 'نیمه راه HSK 2!', sub: 'محاسبه مسافت، مشورت و متمم‌های نتیجه در امتحانات 🌸' },
       lessons: [
-        { num: 7, idx: 6, numFa: 'درس هفتم', title: 'امتحانات و نمرات دانشگاه', zh: '你能考一百分', py: 'Nǐ néng kǎo yībǎi fēn', mascot: BASE + 'mascot-book.webp' },
-        { num: 8, idx: 7, numFa: 'درس هشتم', title: 'مهمانی و صرف چای', zh: '我想喝茶', py: 'Wǒ xiǎng hē chá', mascot: BASE + 'mascot-point.webp' },
-        { num: 9, idx: 8, numFa: 'درس نهم', title: 'جشن تولد و هدیه دادن', zh: '今天是他的生日', py: 'Jīntiān shì tā de shēngrì', mascot: BASE + 'mascot-star.webp' }
+        { num: 7, idx: 6, numFa: 'درس هفتم', title: 'فاصله تا محل کار و وسایل نقلیه', zh: '你家离公司远吗？', py: 'Nǐ jiā lí gōngsī yuǎn ma?', mascot: BASE + 'mascot-book.webp' },
+        { num: 8, idx: 7, numFa: 'درس هشتم', title: 'فکر کردن و مشورت با دیگران', zh: '让我想想，再告诉你', py: 'Ràng wǒ xiǎngxiang, zài gàosu nǐ', mascot: BASE + 'mascot-point.webp' },
+        { num: 9, idx: 8, numFa: 'درس نهم', title: 'امتحان و متمم نتیجه', zh: '题太多，我没做完', py: 'Tí tài duō, wǒ méi zuò wán', mascot: BASE + 'mascot-star.webp' }
       ],
-      review: { tag: 'مرور فصل ۳', title: 'آزمون دهکده نیلوفر', sub: 'سنجش افعال کمکی، تمایل و هدیه دادن', isGrand: false }
+      review: { tag: 'مرور فصل ۳', title: 'آزمون باغ گیلاس', sub: 'سنجش ساختار فاصله با 离، افعال سببی 让 و متمم‌های نتیجه با 完 و 懂', isGrand: false }
     },
     {
       id: 4,
-      title: 'ایستگاه چهارم: گذرگاه کوهستانی و دره فیروزه',
+      title: 'ایستگاه چهارم: گذرگاه کوهستانی بامبو و مقایسه‌ها',
       badge: 'درس ۱۰ تا ۱۲',
       bgImg: BASE + 'bg_hsk2_st4.jpg',
       bubbleSide: 'left',
-      dragonQuote: { title: 'قله‌های بلند و گرامرهای کاربردی!', sub: 'حمل‌ونقل، مقایسه افراد و توصیف باران و برف 🏔️' },
+      dragonQuote: { title: 'مهارت‌های زبانی پیشرفته‌تر!', sub: 'جملات نهی، مقایسه قد و سن با 比 و توصیف عملکرد با 得 🎋' },
       lessons: [
-        { num: 10, idx: 9, numFa: 'درس دهم', title: 'وسایل نقلیه و سفر شهری', zh: '你坐出租车去吧', py: 'Nǐ zuò chūzūchē qù ba', mascot: BASE + 'mascot-search.webp' },
-        { num: 11, idx: 10, numFa: 'درس یازدهم', title: 'مقایسه ویژگی‌ها و سن', zh: '他比我大三岁', py: 'Tā bǐ wǒ dà sān suì', mascot: BASE + 'mascot-peek.webp' },
-        { num: 12, idx: 11, numFa: 'درس دوازدهم', title: 'کیفیت آب‌وهوا و برف', zh: '雪下得很大', py: 'Xuě xià de hěn dà', mascot: BASE + 'mascot-grad.webp' }
+        { num: 10, idx: 9, numFa: 'درس دهم', title: 'جملات نهی و پیدا کردن وسایل', zh: '别找了，手机在桌子上呢', py: 'Bié zhǎo le, shǒujī zài zhuōzi shang ne', mascot: BASE + 'mascot-search.webp' },
+        { num: 11, idx: 10, numFa: 'درس یازدهم', title: 'مقایسه سن، قد و صفات با 比', zh: '他比我大三岁', py: 'Tā bǐ wǒ dà sān suì', mascot: BASE + 'mascot-peek.webp' },
+        { num: 12, idx: 11, numFa: 'درس دوازدهم', title: 'توصیف حالت و چگونگی با 得', zh: '你穿得太少了', py: 'Nǐ chuān de tài shǎo le', mascot: BASE + 'mascot-grad.webp' }
       ],
-      review: { tag: 'مرور فصل ۴', title: 'آزمون دره فیروزه', sub: 'سنجش فاصله، ساختار مقایسه و متمم حالت', isGrand: false }
+      review: { tag: 'مرور فصل ۴', title: 'آزمون گذرگاه بامبو', sub: 'تسلط بر نهی با 别، جملات مقایسه‌ای 比 و متمم‌های توصیفی 得', isGrand: false }
     },
     {
       id: 5,
-      title: 'ایستگاه پنجم: کاخ زرین امپراتور (پایان HSK2)',
+      title: 'ایستگاه پنجم: کاخ ققنوس زرین و جشن سال نو',
       badge: 'درس ۱۳ تا ۱۵',
       bgImg: BASE + 'bg_hsk2_st5.jpg',
       bubbleSide: 'left',
-      dragonQuote: { title: 'قله افتخار و جشن پایانی HSK 2!', sub: 'استمرار حالت، تجربیات گذشته و جشن پیروزی دوره 🏆' },
+      dragonQuote: { title: 'قله افتخار سطح ۲!', sub: 'استمرار حالت با 着، تجربیات شیرین با 过 و جشن سال نو چینی 🏮' },
       lessons: [
-        { num: 13, idx: 12, numFa: 'درس سیزدهم', title: 'استمرار حالت و درهای باز', zh: '门开着呢', py: 'Mén kāi zhe ne', mascot: BASE + 'mascot-cheer.webp' },
-        { num: 14, idx: 13, numFa: 'درس چهاردهم', title: 'تجربه تماشای فیلم', zh: '你看过那个电影吗', py: 'Nǐ kàn guo nàge diànyǐng ma', mascot: BASE + 'mascot-star.webp' },
-        { num: 15, idx: 14, numFa: 'درس پانزدهم', title: 'جشن سال نو و پایان HSK2', zh: '新年快乐', py: 'Xīnnián kuàilè', mascot: BASE + 'mascot-sleep.webp' }
+        { num: 13, idx: 12, numFa: 'درس سیزدهم', title: 'استمرار حالت با 着 و آدرس دادن', zh: '门开着呢，请往前走', py: 'Mén kāi zhe ne, qǐng wǎng qián zǒu', mascot: BASE + 'mascot-cheer.webp' },
+        { num: 14, idx: 13, numFa: 'درس چهاردهم', title: 'تجربیات گذشته با 过 و ربط تضاد', zh: '你看过那个电影吗？', py: 'Nǐ kàn guo nàge diànyǐng ma?', mascot: BASE + 'mascot-star.webp' },
+        { num: 15, idx: 14, numFa: 'درس پانزدهم', title: 'سال نو چینی و جمع‌بندی سطح ۲', zh: '新年就要到了', py: 'Xīnnián jiù yào dào le', mascot: BASE + 'mascot-sleep.webp' }
       ],
-      review: { tag: 'جشن فارغ‌التحصیلی HSK 2', title: 'کاخ زمردین و دریافت نشان اژدهای زرین HSK2', sub: 'سنجش ۳۰۰ کلمه کلیدی + گواهی پایان سطح ۲', isGrand: true }
+      review: { tag: 'جشن فارغ‌التحصیلی HSK 2', title: 'کاخ ققنوس و دریافت نشان سیمین HSK2', sub: 'سنجش ۳۰۰ کلمه رسمی + گواهی اتمام سطح ۲', isGrand: true }
     }
   ];
 
@@ -163,72 +163,77 @@
     {
       id: 1,
       title: 'ایستگاه اول: جنگل خیزران و پاگودای کهن',
-      badge: 'درس ۱ تا ۳',
+      badge: 'درس ۱ تا ۴',
       bgImg: BASE + 'bg_hsk3_st1.jpg',
       bubbleSide: 'right',
-      dragonQuote: { title: 'به سطح سوم HSK خوش آمدید!', sub: 'جابجایی اسباب، مدیریت هزینه‌ها و همکاران جدید را فرامی‌گیرید 🎋' },
+      dragonQuote: { title: 'به سطح سوم HSK خوش آمدید!', sub: 'برنامه‌ریزی، متمم‌های جهت ساده، استمرار با 着 و آداب برخورد 🎋' },
       lessons: [
-        { num: 1, idx: 0, numFa: 'درس اول', title: 'جابجایی و اسباب‌کشی', zh: '我给你搬上去', py: 'Wǒ gěi nǐ bān shàngqu', mascot: BASE + 'mascot-wave.webp' },
-        { num: 2, idx: 1, numFa: 'درس دوم', title: 'کیف پول و خرید روزمره', zh: '我的钱呢', py: 'Wǒ de qián ne', mascot: BASE + 'mascot-run.webp' },
-        { num: 3, idx: 2, numFa: 'درس سوم', title: 'معرفی همکاران و محیط کار', zh: '这位是你的同事', py: 'Zhè wèi shì nǐ de tóngshì', mascot: BASE + 'mascot-idle.webp' }
+        { num: 1, idx: 0, numFa: 'درس اول', title: 'برنامه‌ریزی برای آخر هفته', zh: '周末你有什么打算？', py: 'Zhōumò nǐ yǒu shénme dǎsuàn?', mascot: BASE + 'mascot-wave.webp' },
+        { num: 2, idx: 1, numFa: 'درس دوم', title: 'متمم‌های جهت ساده و بازگشت', zh: '他什么时候回来？', py: 'Tā shénme shíhou huílái?', mascot: BASE + 'mascot-run.webp' },
+        { num: 3, idx: 2, numFa: 'درس سوم', title: 'استمرار حالت و قرارگیری اشیاء با 着', zh: '桌子上放着一瓶饮料', py: 'Zhuōzi shang fàng zhe yì píng yǐnliào', mascot: BASE + 'mascot-idle.webp' },
+        { num: 4, idx: 3, numFa: 'درس چهارم', title: 'بیان نحوه انجام کار با 着 و قید 总是', zh: '她总是笑着跟客人说话', py: 'Tā zǒngshì xiào zhe gēn kèrén shuōhuà', mascot: BASE + 'mascot-read.webp' }
       ],
-      review: { tag: 'مرور فصل ۱', title: 'آزمون جنگل خیزران', sub: 'سنجش جهت‌نماهای مرکب، سؤالات با 呢 و روابط کاری', isGrand: false }
+      review: { tag: 'مرور فصل ۱', title: 'آزمون جنگل خیزران', sub: 'سنجش ۸۰ واژه، متمم‌های جهت ساده و کاربردهای 着', isGrand: false }
     },
     {
       id: 2,
       title: 'ایستگاه دوم: پل‌های معلق ابر و قله‌های فانوس',
-      badge: 'درس ۴ تا ۶',
+      badge: 'درس ۵ تا ۸',
       bgImg: BASE + 'bg_hsk3_st2.jpg',
       bubbleSide: 'right',
-      dragonQuote: { title: 'بر فراز قله‌های آسمانی!', sub: 'اینترنت، وقت‌شناسی دقیق و دقت در کارها در این ایستگاه منتظر شماست 🏮' },
+      dragonQuote: { title: 'بر فراز قله‌های آسمانی!', sub: 'تغییرات تدریجی، متمم توانایی، فرودگاه و ضمایر پرسشی دوتایی 🏮' },
       lessons: [
-        { num: 4, idx: 3, numFa: 'درس چهارم', title: 'اینترنت و ارسال ایمیل', zh: '先上网然后发邮件', py: 'Xiān shàngwǎng ránhòu fā yóujiàn', mascot: BASE + 'mascot-read.webp' },
-        { num: 5, idx: 4, numFa: 'درس پنجم', title: 'برنامه‌ریزی دقیق زمان', zh: '差五分十点', py: 'Chà wǔ fēn shí diǎn', mascot: BASE + 'mascot-score.webp' },
-        { num: 6, idx: 5, numFa: 'درس ششم', title: 'تعهد کاری و دقت', zh: '我一定认真做', py: 'Wǒ yídìng rènzhēn zuò', mascot: BASE + 'mascot-cheer.webp' }
+        { num: 5, idx: 4, numFa: 'درس پنجم', title: 'تغییرات تدریجی با 越来越 و سلامتی', zh: '我最近越来越胖了', py: 'Wǒ zuìjìn yuè lái yuè pàng le', mascot: BASE + 'mascot-score.webp' },
+        { num: 6, idx: 5, numFa: 'درس ششم', title: 'متمم‌های توانایی و پیدا کردن اشیاء', zh: '怎么突然找不到了？', py: 'Zěnme tūrán zhǎo bu dào le?', mascot: BASE + 'mascot-cheer.webp' },
+        { num: 7, idx: 6, numFa: 'درس هفتم', title: 'سفر هوایی، فرودگاه و ساختار تأکید 是...的', zh: '我是坐飞机来北京的', py: 'Wǒ shì zuò fēijī lái Běijīng de', mascot: BASE + 'mascot-book.webp' },
+        { num: 8, idx: 7, numFa: 'درس هشتم', title: 'کاربرد دوگانه ضمایر پرسشی و رستوران', zh: '你去哪儿我就去哪儿', py: 'Nǐ qù nǎr wǒ jiù qù nǎr', mascot: BASE + 'mascot-point.webp' }
       ],
-      review: { tag: 'مرور فصل ۲', title: 'آزمون پل‌های آسمانی', sub: 'تثبیت توالی زمانی، کسری زمان و تأکید با 一定', isGrand: false }
+      review: { tag: 'مرور فصل ۲', title: 'آزمون پل‌های آسمانی', sub: 'تثبیت 越来越، متمم توانایی 得/不، ساختار 是...的 و 只要...就', isGrand: false }
     },
     {
       id: 3,
       title: 'ایستگاه سوم: دره گراند کنیون رود یشم',
-      badge: 'درس ۷ تا ۹',
+      badge: 'درس ۹ تا ۱۲',
       bgImg: BASE + 'bg_hsk3_st3.jpg',
       bubbleSide: 'right',
-      dragonQuote: { title: 'نیمه راه HSK 3!', sub: 'سفرهای درون‌شهری با مترو، جهت‌های جغرافیایی و قرض دادن 🌊' },
+      dragonQuote: { title: 'نیمه راه HSK 3!', sub: 'مقایسه‌های پیشرفته و تسلط کامل بر ساختار پرکاربرد 把 🌊' },
       lessons: [
-        { num: 7, idx: 6, numFa: 'درس هفتم', title: 'مترو و تردد شهری', zh: '坐地铁很方便', py: 'Zuò dìtiě hěn fāngbiàn', mascot: BASE + 'mascot-book.webp' },
-        { num: 8, idx: 7, numFa: 'درس هشتم', title: 'جهت‌های جغرافیایی و نشانی', zh: '学校在北方', py: 'Xuéxiào zài běifāng', mascot: BASE + 'mascot-point.webp' },
-        { num: 9, idx: 8, numFa: 'درس نهم', title: 'امانت و قرض دادن پول', zh: '我先借你一百元', py: 'Wǒ xiān jiè nǐ yībǎi yuán', mascot: BASE + 'mascot-star.webp' }
+        { num: 9, idx: 8, numFa: 'درس نهم', title: 'مقایسه برابری با 跟...一样 و متمم توصیفی', zh: '她的汉语说得跟中国人一样好', py: 'Tā de Hànyǔ shuō de gēn Zhōngguórén yíyàng hǎo', mascot: BASE + 'mascot-star.webp' },
+        { num: 10, idx: 9, numFa: 'درس دهم', title: 'مقایسه تفصیلی با 多了 و ساختار 一边...一边...', zh: '数学比历史难多了', py: 'Shùxué bǐ lìshǐ nán duō le', mascot: BASE + 'mascot-search.webp' },
+        { num: 11, idx: 10, numFa: 'درس یازدهم', title: 'جمله تصرفی 把 و جابجایی اشیاء', zh: '别忘了把空调关了', py: 'Bié wàng le bǎ kōngtiáo guān le', mascot: BASE + 'mascot-peek.webp' },
+        { num: 12, idx: 11, numFa: 'درس دوازدهم', title: 'جمله 把 با متمم‌های نتیجه و تمیزکاری', zh: '把这件衣服洗干净', py: 'Bǎ zhè jiàn yīfu xǐ gānjìng', mascot: BASE + 'mascot-grad.webp' }
       ],
-      review: { tag: 'مرور فصل ۳', title: 'آزمون دره رود یشم', sub: 'سنجش افعال دو مفعولی، جهت‌های اربعه و توصیف امکانات', isGrand: false }
+      review: { tag: 'مرور فصل ۳', title: 'آزمون دره رود یشم', sub: 'سنجش مقایسه‌ها و تمام قواعد جمله تصرفی 把', isGrand: false }
     },
     {
       id: 4,
       title: 'ایستگاه چهارم: قله برفی اژدها و معبد بلورین یخ',
-      badge: 'درس ۱۰ تا ۱۲',
+      badge: 'درس ۱۳ تا ۱۶',
       bgImg: BASE + 'bg_hsk3_st4.jpg',
       bubbleSide: 'left',
-      dragonQuote: { title: 'معابد برفی و گرامرهای بنیادین!', sub: 'استمرار حالت با 着، شدت احساسات با 极了 و ترجیحات غذایی ❄️' },
+      dragonQuote: { title: 'معابد برفی و گرامرهای طلایی!', sub: 'متمم‌های جهت مرکب، استثناء با 除了، تأکید 连 و شدت احساسات ❄️' },
       lessons: [
-        { num: 10, idx: 9, numFa: 'درس دهم', title: 'استمرار حالت اشیاء در منزل', zh: '冰箱里放着很多东西', py: 'Bīngxiāng lǐ fàng zhe hěnduō dōngxi', mascot: BASE + 'mascot-search.webp' },
-        { num: 11, idx: 10, numFa: 'درس یازدهم', title: 'صفت عالی و شدت احساسات', zh: '我饿极了', py: 'Wǒ è jí le', mascot: BASE + 'mascot-peek.webp' },
-        { num: 12, idx: 11, numFa: 'درس دوازدهم', title: 'انتخاب بین گزینه‌ها در غذاخوری', zh: '你吃米饭还是面条', py: 'Nǐ chī mǐfàn háishi miàntiáo', mascot: BASE + 'mascot-grad.webp' }
+        { num: 13, idx: 12, numFa: 'درس سیزدهم', title: 'متمم‌های جهت مرکب و حرکت', zh: '我是走回来的', py: 'Wǒ shì zǒu huílái de', mascot: BASE + 'mascot-cheer.webp' },
+        { num: 14, idx: 13, numFa: 'درس چهاردهم', title: 'آوردن و بردن با 把 + متمم جهت مرکب', zh: '你把水果拿过来', py: 'Nǐ bǎ shuǐguǒ ná guòlái', mascot: BASE + 'mascot-run.webp' },
+        { num: 15, idx: 14, numFa: 'درس پانزدهم', title: 'استثناء با 除了...以外 و تأکید 连...都', zh: '其他都没什么问题', py: 'Qítā dōu méi shénme wèntí', mascot: BASE + 'mascot-book.webp' },
+        { num: 16, idx: 15, numFa: 'درس شانزدهم', title: 'شدت احساسات با 极了 و جملات سببی 让', zh: '我现在累极了', py: 'Wǒ xiànzài lèi jí le', mascot: BASE + 'mascot-idle.webp' }
       ],
-      review: { tag: 'مرور فصل ۴', title: 'آزمون معبد بلورین یخ', sub: 'تسلط بر افعال ایستای 着، پسوند 极了 و پرسش‌های انتخابی', isGrand: false }
+      review: { tag: 'مرور فصل ۴', title: 'آزمون معبد بلورین یخ', sub: 'تسلط بر متمم‌های مرکب، ساختار 除了 و جملات سببی', isGrand: false }
     },
     {
       id: 5,
       title: 'ایستگاه پنجم: شهر اژدهای آسمانی و ارگ زمردین',
-      badge: 'درس ۱۳ تا ۱۵',
+      badge: 'درس ۱۷ تا ۲۰',
       bgImg: BASE + 'bg_hsk3_st5.jpg',
       bubbleSide: 'left',
-      dragonQuote: { title: 'قله افتخار و جشن فارغ‌التحصیلی HSK 3!', sub: 'تسلط بر مهم‌ترین ساختارهای چینی (把 و 被) و دریافت نشان زمردین 🏆' },
+      dragonQuote: { title: 'قله افتخار و جشن فارغ‌التحصیلی HSK 3!', sub: 'ضمایر همگانی، ساختار مجهول 被، متمم‌های کشف و گواهی سطح سوم 🏆' },
       lessons: [
-        { num: 13, idx: 12, numFa: 'درس سیزدهم', title: 'ساختار مفعولی 把 (تغییر وضعیت)', zh: '我把桌子打扫干净', py: 'Wǒ bǎ zhuōzi dǎsǎo gānjìng', mascot: BASE + 'mascot-cheer.webp' },
-        { num: 14, idx: 13, numFa: 'درس چهاردهم', title: 'ساختار مجهول 被 و عادت‌ها', zh: '这是我的习惯', py: 'Zhè shì wǒ de xíguàn', mascot: BASE + 'mascot-star.webp' },
-        { num: 15, idx: 14, numFa: 'درس پانزدهم', title: 'جشن بزرگ موفقیت HSK 3', zh: '我们祝你成功', py: 'Wǒmen zhù nǐ chénggōng', mascot: BASE + 'mascot-sleep.webp' }
+        { num: 17, idx: 16, numFa: 'درس هفدهم', title: 'ضمایر شمول همگانی (谁都) و 不但...而且', zh: '谁都想去旅行', py: 'Shéi dōu xiǎng qù lǚxíng', mascot: BASE + 'mascot-star.webp' },
+        { num: 18, idx: 17, numFa: 'درس هجدهم', title: 'ساختار مجهول 被 و بیان عقیده و توافق', zh: '我相信他们会同意的', py: 'Wǒ xiāngxìn tāmen huì tóngyì de', mascot: BASE + 'mascot-read.webp' },
+        { num: 19, idx: 18, numFa: 'درس نوزدهم', title: 'متمم‌های ادراکی و کشف (看出来 / 想起来)', zh: '你没看出来吗？', py: 'Nǐ méi kàn chūlái ma?', mascot: BASE + 'mascot-peek.webp' },
+        { num: 20, idx: 19, numFa: 'درس بیستم', title: 'ساختار 被 در زندگی و جشن فارغ‌التحصیلی HSK 3', zh: '祝贺你通过HSK三级考试', py: 'Zhùhè nǐ tōngguò HSK sānjí kǎoshì', mascot: BASE + 'mascot-sleep.webp' }
       ],
-      review: { tag: 'جشن فارغ‌التحصیلی HSK 3', title: 'ارگ زمردین و دریافت نشان اژدهای زرین HSK3', sub: 'سنجش ۶۰۰ کلمه کلیدی + گواهی پایان سطح ۳', isGrand: true }
+      review: { tag: 'جشن فارغ‌التحصیلی HSK 3', title: 'ارگ زمردین و دریافت نشان اژدهای زرین HSK3', sub: 'سنجش جامع ۲۰ درس و ۴۰۰ واژه کلیدی + گواهی رسمی HSK 3', isGrand: true }
     }
   ];
 
@@ -424,12 +429,12 @@
   // توابع اعتبارسنجی باز بودن و تکمیل دروس
   function isLessonUnlocked(lessonIdx) {
     var curCourse = getCurrentCourse();
-    // در HSK 1: درس مقدمه و درس اول باز است، بقیه پس از تکمیل درس قبلی
+    // در HSK 1: درس مقدمه و درس اول باز است، بقیه پس از تکمیل درس قبلی یا با اشتراک ویژه
     if (curCourse === 'hsk1') {
       if (lessonIdx === 'lesson0' || lessonIdx === 0 || lessonIdx === '0' || lessonIdx === 1 || lessonIdx === '1') return true;
       var num = Number(lessonIdx);
       if (isNaN(num) || num <= 1) return true;
-      return isLessonCompleted(num - 1);
+      return isLessonCompleted(num - 1) || isProUser();
     }
     // در HSK 2، HSK 3، HSK 4 و HSK 5: درس اول (idx 0) برای همه کاملاً باز و رایگان است!
     if (lessonIdx === 0 || lessonIdx === '0') return true;
@@ -1213,35 +1218,13 @@
   }
 
   function initAppSplash() {
-    var splash = document.getElementById('chinifa-splash');
-    if (!splash || splash.__initDone) return;
-    splash.__initDone = true;
-
-    // افکت صوتی صعود و درخشش اژدهای چی‌نی‌فا
-    try {
-      var shine = new Audio('art/sfx/gold-shine.mp3');
-      shine.volume = 0.45;
-      shine.play().catch(function() {});
-    } catch(e) {}
-
     if (typeof window.__dismissSplash === 'function') {
-      return;
+      requestAnimationFrame(function() {
+        requestAnimationFrame(function() {
+          window.__dismissSplash();
+        });
+      });
     }
-
-    var dismissed = false;
-    function dismissSplash() {
-      if (dismissed) return;
-      dismissed = true;
-      splash.classList.add('is-out');
-      setTimeout(function() {
-        if (splash && splash.parentNode) splash.parentNode.removeChild(splash);
-      }, 250);
-    }
-
-    splash.addEventListener('click', dismissSplash);
-    splash.addEventListener('touchstart', dismissSplash, { passive: true });
-
-    setTimeout(dismissSplash, 2300);
   }
 
   // ثبت فوری override ها حتی قبل از DOMContentLoaded
