@@ -4,6 +4,42 @@ const crypto = require("crypto");
 let supabaseAdmin = null;
 let supabaseClient = null;
 let pool = null;
+let matchedPgKey = "";
+let lastDbError = "";
+
+function findPgConfig() {
+  const priority = [
+    "POSTGRES_URL_NON_POOLING",
+    "POSTGRES_URL",
+    "POSTGRES_PRISMA_URL",
+    "DATABASE_URL",
+  ];
+  for (const k of priority) {
+    if (process.env[k]) return { key: k, url: process.env[k] };
+  }
+  const suffixes = ["_POSTGRES_URL_NON_POOLING", "_POSTGRES_URL", "_POSTGRES_PRISMA_URL", "_DATABASE_URL"];
+  for (const suffix of suffixes) {
+    const found = Object.keys(process.env).find((k) => k.endsWith(suffix) && process.env[k]);
+    if (found) return { key: found, url: process.env[found] };
+  }
+  if (process.env.PGHOST && process.env.PGUSER && process.env.PGDATABASE) {
+    return {
+      key: "PGHOST",
+      pgConfig: {
+        host: process.env.PGHOST,
+        port: Number(process.env.PGPORT || 5432),
+        user: process.env.PGUSER,
+        password: process.env.PGPASSWORD || "",
+        database: process.env.PGDATABASE,
+        ssl: { rejectUnauthorized: false },
+        max: 5,
+        idleTimeoutMillis: 30000,
+        connectionTimeoutMillis: 6000,
+      },
+    };
+  }
+  return null;
+}
 
 try {
   const { createClient } = require("@supabase/supabase-js");
@@ -27,14 +63,10 @@ try {
 
 try {
   const { Pool } = require("pg");
-  const rawPgUrl =
-    process.env.POSTGRES_URL_NON_POOLING ||
-    process.env.POSTGRES_URL ||
-    process.env.POSTGRES_PRISMA_URL ||
-    process.env.DATABASE_URL;
-
-  if (rawPgUrl) {
-    const parsed = new URL(rawPgUrl);
+  const cfg = findPgConfig();
+  if (cfg && cfg.url) {
+    matchedPgKey = cfg.key;
+    const parsed = new URL(cfg.url);
     parsed.searchParams.delete("sslmode");
     pool = new Pool({
       connectionString: parsed.toString(),
@@ -43,8 +75,12 @@ try {
       idleTimeoutMillis: 30000,
       connectionTimeoutMillis: 6000,
     });
+  } else if (cfg && cfg.pgConfig) {
+    matchedPgKey = cfg.key;
+    pool = new Pool(cfg.pgConfig);
   }
 } catch (e) {
+  lastDbError = e.message;
   console.error("[api/db.js] PG URL parse error:", e.message);
 }
 
@@ -101,6 +137,7 @@ async function initDb() {
       dbInitialized = true;
       return true;
     } catch (err) {
+      lastDbError = err.message;
       console.error("[api/db.js initDb] error:", err.message);
       dbInitPromise = null;
       return false;
@@ -221,4 +258,9 @@ module.exports = {
   verifyPassword,
   getAuthUser,
   stableUserId,
+  getDbDiagnostics: () => ({
+    matchedPgKey,
+    lastDbError,
+    pgEnvKeys: Object.keys(process.env).filter((k) => /(POSTGRES|DATABASE|SUPABASE|PGHOST)/i.test(k)),
+  }),
 };

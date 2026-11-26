@@ -597,7 +597,12 @@ function setDbBadge(connected, msg){
       .then(({ ok, d }) => {
         if(ok && d && d.ok){
           gate.hidden = true;
-          setDbBadge(!!d.dbConnected, d.dbConnected ? ("🟢 دیتابیس متصل (" + (d.userCount || 0) + " کاربر)") : "🔴 دیتابیس متصل نیست (POSTGRES_URL تنظیم نشده)");
+          const dbErrMsg = d.dbConnected
+            ? ("🟢 دیتابیس متصل (" + (d.userCount || 0) + " کاربر)")
+            : (d.hasPostgresEnv
+                ? ("🔴 خطای اتصال دیتابیس: " + (d.dbError || "بررسی کنید"))
+                : "🔴 متغیر POSTGRES_URL روی این دیپلوی نیست (در Vercel یک Redeploy انجام دهید)");
+          setDbBadge(!!d.dbConnected, dbErrMsg);
         } else {
           localStorage.removeItem("chinifa_admin_token");
           gate.hidden = false;

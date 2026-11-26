@@ -1,6 +1,6 @@
 // Admin API for Chinifa: Authentication + Real PostgreSQL User & Progress Management
 const crypto = require("crypto");
-const { pool, initDb } = require("./db");
+const { pool, initDb, getDbDiagnostics } = require("./db");
 
 function cors(req, res) {
   res.setHeader("Access-Control-Allow-Origin", req.headers.origin || "*");
@@ -99,12 +99,16 @@ module.exports = async (req, res) => {
           storeCount = s.rows[0] ? s.rows[0].c : 0;
         } catch (e) {}
       }
+      const diag = getDbDiagnostics ? getDbDiagnostics() : {};
       return res.status(200).json({
         ok: true,
         admin: admin.username,
         dbConnected: Boolean(pool && dbReady),
-        hasPostgresEnv: Boolean(process.env.POSTGRES_URL || process.env.POSTGRES_URL_NON_POOLING || process.env.DATABASE_URL),
+        hasPostgresEnv: Boolean(diag.matchedPgKey || process.env.POSTGRES_URL || process.env.POSTGRES_URL_NON_POOLING || process.env.DATABASE_URL),
         hasSupabaseEnv: Boolean(process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL),
+        matchedPgKey: diag.matchedPgKey || null,
+        pgEnvKeys: diag.pgEnvKeys || [],
+        dbError: diag.lastDbError || null,
         userCount,
         storeCount,
       });
