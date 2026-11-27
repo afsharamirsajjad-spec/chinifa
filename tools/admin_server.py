@@ -10,7 +10,7 @@ import io, json, os, re, glob, shutil, subprocess, sys, threading, time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse, parse_qs, unquote
 
-ROOT = r"C:\Users\Amirsajjad\Documents\kanchinese"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UI = os.path.join(ROOT, "UI-code")
 EX = os.path.join(ROOT, "extracted", "assets", "public")
 ADMIN_DIR = os.path.join(ROOT, "tools", "admin")
@@ -30,7 +30,7 @@ def save_json_data(name, data):
     fp = os.path.join(DATA_DIR, name)
     io.open(fp, "w", encoding="utf-8").write(json.dumps(data, ensure_ascii=False, indent=2))
 
-BUILD_SCRIPT = os.path.join(ROOT, "tools", "final_identity_apk.py")
+BUILD_SCRIPT = os.path.join(ROOT, "tools", "build_apk.py")
 UNITS_SCRIPT = os.path.join(ROOT, "tools", "rebuild_units.py")
 PORT = int(os.environ.get("PORT", 8080))
 if len(sys.argv) > 1 and sys.argv[1].isdigit():

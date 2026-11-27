@@ -5,6 +5,16 @@
       "source": "/Chinifa.apk",
       "destination": "https://github.com/afsharamirsajjad-spec/chinifa/releases/download/v2.4.0/Chinifa.apk",
       "permanent": false
+    },
+    {
+      "source": "/app",
+      "destination": "/app/",
+      "permanent": true
+    },
+    {
+      "source": "/admin",
+      "destination": "/admin/",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -81,10 +91,6 @@
       "destination": "/UI-code/css/fonts/Vazirmatn-Variable.woff2"
     },
     {
-      "source": "/app",
-      "destination": "/UI-code/index.html"
-    },
-    {
       "source": "/app/",
       "destination": "/UI-code/index.html"
     },
@@ -95,10 +101,6 @@
     {
       "source": "/app/:path*",
       "destination": "/UI-code/:path*"
-    },
-    {
-      "source": "/admin",
-      "destination": "/tools/admin/index.html"
     },
     {
       "source": "/admin/",
@@ -242,8 +244,12 @@
           "value": "nosniff"
         },
         {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
         }
       ]
     }

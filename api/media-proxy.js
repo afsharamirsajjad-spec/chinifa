@@ -1,10 +1,13 @@
 const https = require("https");
-const http = require("http");
+const { cors } = require("./db");
+
+function isAllowedMediaHost(hostname) {
+  const host = String(hostname || "").toLowerCase();
+  return host === "kanchinese.app" || host.endsWith(".kanchinese.app");
+}
 
 module.exports = async (req, res) => {
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET, HEAD, OPTIONS");
-  res.setHeader("Access-Control-Allow-Headers", "Range, Accept, Content-Type");
+  cors(req, res, "GET, HEAD, OPTIONS");
 
   if (req.method === "OPTIONS") {
     return res.status(200).end();
@@ -21,8 +24,8 @@ module.exports = async (req, res) => {
 
   try {
     const parsed = new URL(targetUrl);
-    if (!parsed.hostname.endsWith("kanchinese.app")) {
-      return res.status(403).json({ error: "Disallowed domain" });
+    if (parsed.protocol !== "https:" || !isAllowedMediaHost(parsed.hostname)) {
+      return res.status(403).json({ error: "Disallowed domain or protocol" });
     }
 
     const options = {
@@ -36,8 +39,7 @@ module.exports = async (req, res) => {
       options.headers.range = req.headers.range;
     }
 
-    const client = parsed.protocol === "https:" ? https : http;
-    const proxyReq = client.get(targetUrl, options, (proxyRes) => {
+    const proxyReq = https.get(parsed.toString(), options, (proxyRes) => {
       res.status(proxyRes.statusCode);
       const headersToForward = [
         "content-type",

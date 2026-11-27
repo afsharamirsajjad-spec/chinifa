@@ -60,6 +60,7 @@ Thumbs.db
 
 # Temporary & Agent logs
 .gemini/
+نسخه های قدیم/
 
 # Scratch and one-off test scripts in tools
 tools/*.py
@@ -86,3 +87,12 @@ tools/*.css
 tools/*.ps1
 tools/*.png
 UI-code/*.png
+
+# Local environment secrets (never commit)
+.env
+.env.*
+!.env.example
+.vercel/
+
+.vercel
+.env*

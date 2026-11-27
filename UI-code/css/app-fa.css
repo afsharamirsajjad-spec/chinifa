@@ -4784,3 +4784,14 @@ html[dir="rtl"] .u-subtask-item {
   direction: rtl !important;
 }
 
+/* ۵. وسط‌چین دقیق کاراکترهای چینی درون کارت‌های کتابخانه / لغت‌نامه */
+html[dir="rtl"] .tl-drow__main .tl-dthumb,
+html[dir="rtl"] .tl-drow__main .tl-dthumb--hz {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  line-height: 1 !important;
+}
+
+

@@ -242,16 +242,45 @@
   /* ──────────────────────────────────────────────────────────
      ۶. راه‌اندازی و مانیتورینگ تغییرات DOM
   ────────────────────────────────────────────────────────── */
+  var isChecking = false;
+  var checkQueued = false;
+
   function runChecks() {
-    sanitizeDomLoaders();
-    removeSleepingDragon();
-    enhanceSubtasksScreen();
-    enhanceExerciseScreen();
+    if (isChecking) return;
+    isChecking = true;
+    try {
+      sanitizeDomLoaders();
+      removeSleepingDragon();
+      enhanceSubtasksScreen();
+      enhanceExerciseScreen();
+    } finally {
+      isChecking = false;
+    }
+  }
+
+  function scheduleChecks() {
+    if (checkQueued || isChecking) return;
+    checkQueued = true;
+    var flush = function() {
+      checkQueued = false;
+      runChecks();
+    };
+    if (typeof w.requestAnimationFrame === 'function') {
+      w.requestAnimationFrame(flush);
+    } else {
+      setTimeout(flush, 16);
+    }
   }
 
   function initObserver() {
-    var observer = new MutationObserver(function() {
-      runChecks();
+    var observer = new MutationObserver(function(mutations) {
+      if (isChecking) return;
+      for (var i = 0; i < mutations.length; i++) {
+        if (mutations[i].addedNodes && mutations[i].addedNodes.length) {
+          scheduleChecks();
+          break;
+        }
+      }
     });
 
     observer.observe(document.body, {
@@ -268,7 +297,7 @@
     var prevRender = w.App.rerender || w.App.render;
     w.App.rerender = function() {
       var res = prevRender.apply(this, arguments);
-      setTimeout(runChecks, 50);
+      scheduleChecks();
       return res;
     };
 

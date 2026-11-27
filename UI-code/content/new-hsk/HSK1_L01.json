@@ -1,0 +1,1189 @@
+{
+  "meta": {
+    "level": "HSK1",
+    "lesson_number": 1,
+    "lesson_id": "HSK1_L01",
+    "phase": "phonetics",
+    "show_pinyin_default": true,
+    "title_zh": "你好！",
+    "title_fa": "سلام و احوالپرسی اولیه"
+  },
+  "bonus_card": {
+    "title_zh": "小语的彩蛋 · 「你」与「您」",
+    "title_fa": "نکته فرهنگی شیائویو: تفاوت صمیمیت و احترام در سلام چینی",
+    "content_fa": "در زبان چینی، کاراکتر «您» (nín) از ترکیب «你» (تو) در بالا و «心» (قلب) در پایین ساخته شده است؛ یعنی وقتی کسی را با قلب و احترام خطاب می‌کنید، به‌جای «你好» از «您好» استفاده می‌کنید. در درس بعد یاد می‌گیریم چطور نام و ملیت خود را معرفی کنیم!"
+  },
+  "sub_lessons": [
+    {
+      "sub_index": 1,
+      "sub_id": "HSK1_L01_S01",
+      "slot_type": "dialogue_or_text",
+      "title_fa": "مکالمه ۱: سلام دوستانه و سلام محترمانه",
+      "vocabulary": [
+        {
+          "vocab_id": "v_01",
+          "hanzi": "你好",
+          "pinyin": "nǐ hǎo",
+          "tones": [3, 3],
+          "meaning_fa": "سلام (دوستانه)",
+          "pos": "phr.",
+          "is_core": true,
+          "example_zh": "你好！",
+          "example_fa": "سلام!"
+        },
+        {
+          "vocab_id": "v_02",
+          "hanzi": "您",
+          "pinyin": "nín",
+          "tones": [2],
+          "meaning_fa": "شما (محترمانه، مفرد)",
+          "pos": "pron.",
+          "is_core": true,
+          "example_zh": "您好！",
+          "example_fa": "سلام، وقت بخیر (محترمانه)!"
+        },
+        {
+          "vocab_id": "v_03",
+          "hanzi": "你们",
+          "pinyin": "nǐmen",
+          "tones": [3, 5],
+          "meaning_fa": "شما (جمع)",
+          "pos": "pron.",
+          "is_core": true,
+          "example_zh": "你们好！",
+          "example_fa": "سلام به همگی شما!"
+        }
+      ],
+      "context_card": {
+        "mode": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "你好！",
+            "pinyin": "Nǐ hǎo!",
+            "meaning_fa": "سلام!"
+          },
+          {
+            "speaker": "B",
+            "hanzi": "你好！",
+            "pinyin": "Nǐ hǎo!",
+            "meaning_fa": "سلام!"
+          },
+          {
+            "speaker": "دانش‌آموز",
+            "hanzi": "您好！",
+            "pinyin": "Nín hǎo!",
+            "meaning_fa": "سلام استاد (محترمانه)!"
+          },
+          {
+            "speaker": "استاد",
+            "hanzi": "你们好！",
+            "pinyin": "Nǐmen hǎo!",
+            "meaning_fa": "سلام به همگی شما!"
+          }
+        ]
+      },
+      "grammar_card": {
+        "has_grammar": true,
+        "formula": "你 / 您 / 你们 + 好",
+        "explanation_fa": "برای سلام کردن در چینی، کافی است ضمیر مخاطب را پیش از صفت «好» (خوب) بیاورید. برای دوستان «你好»، برای افراد مسن‌تر یا استادان «您好»، و برای چند نفر «你们好» می‌گوییم.",
+        "example_zh": "您好！你们好！",
+        "example_fa": "سلام (محترمانه)! سلام به همگی!",
+        "persian_learner_tip": "در فارسی «شما» هم برای احترام به یک نفر و هم برای جمع به کار می‌رود، اما در چینی حتماً بین «您» (یک نفر محترمانه) و «你们» (چند نفر) تفاوت بگذارید."
+      },
+      "exercises": [
+        {
+          "ex_id": "S01_E01",
+          "widget": "W2_AUDIO_DRILL",
+          "skill_tag": "listening",
+          "target_vocab_ids": ["v_01"],
+          "prompt_fa": "به سلام زیر گوش دهید و معنای دقیق آن را انتخاب کنید.",
+          "stimulus": {
+            "hanzi": "你好",
+            "pinyin": "nǐ hǎo",
+            "text_fa": "",
+            "media_placeholder": "audio_nihao"
+          },
+          "options": [
+            "سلام (دوستانه)",
+            "خداحافظ",
+            "ببخشید",
+            "ممنونم"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«你好» (nǐ hǎo) رایج‌ترین سلام دوستانه در زبان چینی است."
+        },
+        {
+          "ex_id": "S01_E02",
+          "widget": "W2_AUDIO_DRILL",
+          "skill_tag": "listening",
+          "target_vocab_ids": ["v_02"],
+          "prompt_fa": "صدا را بشنوید؛ گوینده کدام ضمیر محترمانه را به کار برد؟",
+          "stimulus": {
+            "hanzi": "您好",
+            "pinyin": "nín hǎo",
+            "text_fa": "",
+            "media_placeholder": "audio_ninhao"
+          },
+          "options": [
+            "您 (شما - محترمانه)",
+            "你们 (شما - جمع)",
+            "你 (تو - دوستانه)",
+            "我 (من)"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "تلفظ «nín» با صدای کشیده‌تر و پایان n، نشانه خطاب محترمانه «您» به یک نفر است."
+        },
+        {
+          "ex_id": "S01_E03",
+          "widget": "W1_VOCAB_SELECT",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["v_03"],
+          "prompt_fa": "معنی واژه «你们» چیست؟",
+          "stimulus": {
+            "hanzi": "你们",
+            "pinyin": "nǐmen",
+            "text_fa": "",
+            "media_placeholder": ""
+          },
+          "options": [
+            "شما (جمع)",
+            "شما (محترمانه برای یک نفر)",
+            "من",
+            "متشکرم"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "پسوند «们» (-men) ضمیر «你» را به جمع «你们» (شماها) تبدیل می‌کند."
+        },
+        {
+          "ex_id": "S01_E04",
+          "widget": "W1_VOCAB_SELECT",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["v_01"],
+          "prompt_fa": "معادل چینی عبارت «سلام به یک دوست» کدام است؟",
+          "stimulus": {
+            "hanzi": "",
+            "pinyin": "",
+            "text_fa": "سلام (دوستانه)",
+            "media_placeholder": ""
+          },
+          "options": [
+            "你好",
+            "再见",
+            "谢谢",
+            "对不起"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "برای سلام صمیمی و روزمره از «你好» استفاده می‌کنیم."
+        },
+        {
+          "ex_id": "S01_E05",
+          "widget": "W4_FILL_BLANK",
+          "skill_tag": "grammar",
+          "target_vocab_ids": ["v_02"],
+          "prompt_fa": "برای سلام محترمانه به استاد، جای خالی را پر کنید.",
+          "stimulus": {
+            "hanzi": "___好！",
+            "pinyin": "___ hǎo!",
+            "text_fa": "سلام استاد (محترمانه)!",
+            "media_placeholder": ""
+          },
+          "options": [
+            "您",
+            "你",
+            "你们",
+            "没"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "در خطاب محترمانه به استاد یا بزرگ‌تر از «您好» استفاده می‌شود."
+        },
+        {
+          "ex_id": "S01_E06",
+          "widget": "W5_DIALOGUE_REPLY",
+          "skill_tag": "dialogue_or_speaking",
+          "target_vocab_ids": ["v_03"],
+          "prompt_fa": "معلم وارد کلاس می‌شود و به همه دانش‌آموزان می‌گوید «你们好！». پاسخ مناسب دانش‌آموزان چیست؟",
+          "stimulus": {
+            "hanzi": "你们好！",
+            "pinyin": "Nǐmen hǎo!",
+            "text_fa": "سلام به همگی شما!",
+            "media_placeholder": "audio_nimenhao"
+          },
+          "options": [
+            "老师，您好！",
+            "对不起！",
+            "没关系！",
+            "再见！"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "وقتی استاد به کلاس سلام می‌کند، دانش‌آموزان با احترام پاسخ می‌دهند: «老师，您好！»"
+        }
+      ]
+    },
+    {
+      "sub_index": 2,
+      "sub_id": "HSK1_L01_S02",
+      "slot_type": "skill_slot",
+      "title_fa": "مهارت ۱: چهار نواخت و تغییر نواخت سوم",
+      "vocabulary": [
+        {
+          "vocab_id": "p_01",
+          "hanzi": "妈妈",
+          "pinyin": "māma",
+          "tones": [1, 5],
+          "meaning_fa": "مامان (تمرین نواخت اول و خنثی)",
+          "pos": "n.",
+          "is_core": false,
+          "example_zh": "妈妈好！",
+          "example_fa": "سلام مامان!"
+        },
+        {
+          "vocab_id": "p_02",
+          "hanzi": "好",
+          "pinyin": "hǎo",
+          "tones": [3],
+          "meaning_fa": "خوب (نواخت سوم)",
+          "pos": "adj.",
+          "is_core": false,
+          "example_zh": "好！",
+          "example_fa": "خوب / باشه!"
+        }
+      ],
+      "context_card": {
+        "mode": "text",
+        "lines": [
+          {
+            "speaker": "نکته آوایی",
+            "hanzi": "nǐ (۳) + hǎo (۳) → ní hǎo (۲ + ۳)",
+            "pinyin": "nǐ hǎo → ní hǎo",
+            "meaning_fa": "تغییر نواخت سوم: وقتی دو هجای نواخت سوم پشت سر هم بیایند، اولی شبیه نواخت دوم (بالارونده) خوانده می‌شود."
+          },
+          {
+            "speaker": "پیچ‌گوشتی زبان",
+            "hanzi": "妈妈骑马，马慢，妈妈骂马。",
+            "pinyin": "Māma qí mǎ, mǎ màn, māma mà mǎ.",
+            "meaning_fa": "مامان سوار اسب می‌شود، اسب آهسته است، مامان اسب را سرزنش می‌کند (تمرین ۴ نواخت هجای ma)."
+          }
+        ]
+      },
+      "grammar_card": {
+        "has_grammar": true,
+        "formula": "Tone 3 + Tone 3 → Tone 2 + Tone 3",
+        "explanation_fa": "در زبان چینی گفتاری، تلفظ دو نواخت سوم متوالی (افت‌وخیز پشت‌سرهم) دشوار است؛ بنابراین هجای اول به نواخت دوم تغییر صدا می‌دهد، ولی در نوشتن پین‌یین همچنان با علامت سوم نوشته می‌شود.",
+        "example_zh": "你好 (nǐ hǎo → تلفظ: ní hǎo)",
+        "example_fa": "سلام",
+        "persian_learner_tip": "در نوشتن پین‌یین علامت «nǐ hǎo» را به «ní hǎo» تغییر ندهید؛ این تغییر فقط در تلفظ اعمال می‌شود."
+      },
+      "exercises": [
+        {
+          "ex_id": "S02_E01",
+          "widget": "W2_AUDIO_DRILL",
+          "skill_tag": "listening",
+          "target_vocab_ids": ["p_01"],
+          "prompt_fa": "به واژه «妈妈» گوش دهید؛ هجای اول چه نواختی دارد؟",
+          "stimulus": {
+            "hanzi": "妈妈",
+            "pinyin": "māma",
+            "text_fa": "",
+            "media_placeholder": "audio_mama"
+          },
+          "options": [
+            "نواخت ۱ (صاف و بالا: mā)",
+            "نواخت ۲ (بالارونده: má)",
+            "نواخت ۳ (افت‌وخیز: mǎ)",
+            "نواخت ۴ (افت تند: mà)"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "هجای اول «妈妈» با نواخت اولِ صاف و کشیده (mā) و هجای دوم با نواخت خنثی و کوتاه (ma) تلفظ می‌شود."
+        },
+        {
+          "ex_id": "S02_E02",
+          "widget": "W2_AUDIO_DRILL",
+          "skill_tag": "listening",
+          "target_vocab_ids": ["p_02"],
+          "prompt_fa": "صدای «hǎo» را بشنوید و نوع نواخت آن را مشخص کنید.",
+          "stimulus": {
+            "hanzi": "好",
+            "pinyin": "hǎo",
+            "text_fa": "",
+            "media_placeholder": "audio_hao"
+          },
+          "options": [
+            "نواخت ۳ (hǎo)",
+            "نواخت ۱ (hāo)",
+            "نواخت ۲ (háo)",
+            "نواخت ۴ (hào)"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«好» به تنهایی دارای نواخت سوم (پایین‌رونده و سپس بالارونده) است."
+        },
+        {
+          "ex_id": "S02_E03",
+          "widget": "W1_VOCAB_SELECT",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["p_01"],
+          "prompt_fa": "تلفظ صحیح «妈妈» (مامان) کدام است؟",
+          "stimulus": {
+            "hanzi": "妈妈",
+            "pinyin": "",
+            "text_fa": "",
+            "media_placeholder": ""
+          },
+          "options": [
+            "māma",
+            "mǎmǎ",
+            "màmà",
+            "mámá"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "واژه «妈妈» به صورت «māma» (نواخت اول + خنثی) خوانده می‌شود."
+        },
+        {
+          "ex_id": "S02_E04",
+          "widget": "W6_PICTURE_MATCH",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["v_02"],
+          "prompt_fa": "توضیح زیر را با عبارت درست تطبیق دهید: «خطاب محترمانه به استاد یا فرد بزرگ‌تر هنگام ورود»",
+          "stimulus": {
+            "hanzi": "您好！",
+            "pinyin": "Nín hǎo!",
+            "text_fa": "مخاطب یک فرد مسن‌تر یا استاد است",
+            "media_placeholder": "img_greet_teacher"
+          },
+          "options": [
+            "您好！",
+            "你们好！",
+            "再见！",
+            "没关系！"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "برای احترام به یک نفر (استاد/بزرگ‌تر) از «您好！» استفاده می‌کنیم."
+        },
+        {
+          "ex_id": "S02_E05",
+          "widget": "W4_FILL_BLANK",
+          "skill_tag": "grammar",
+          "target_vocab_ids": ["v_01"],
+          "prompt_fa": "در تلفظ «你好» (nǐ hǎo)، هجای اول به دلیل قانون تغییر نواخت شبیه کدام نواخت تلفظ می‌شود؟",
+          "stimulus": {
+            "hanzi": "nǐ (۳) + hǎo (۳) → ___ + hǎo (۳)",
+            "pinyin": "ní hǎo",
+            "text_fa": "تغییر نواخت سوم در گفتار",
+            "media_placeholder": ""
+          },
+          "options": [
+            "نواخت ۲ (ní)",
+            "نواخت ۴ (nì)",
+            "نواخت ۱ (nī)",
+            "نواخت خنثی (ni)"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "دو نواخت سوم کنار هم باعث می‌شوند اولی به نواخت دوم (ní) تبدیل شود."
+        },
+        {
+          "ex_id": "S02_E06",
+          "widget": "W7_SHADOW_SPEAK",
+          "skill_tag": "dialogue_or_speaking",
+          "target_vocab_ids": ["v_01"],
+          "prompt_fa": "عبارت «你好» را با تغییر صحیح نواخت (ní hǎo) با صدای بلند تکرار کنید.",
+          "stimulus": {
+            "hanzi": "你好",
+            "pinyin": "nǐ hǎo",
+            "text_fa": "سلام (تلفظ گفتاری: ní hǎo)",
+            "media_placeholder": "audio_nihao"
+          },
+          "options": ["你好"],
+          "answer_index": 0,
+          "feedback_fa": "آفرین! تلفظ روان «ní hǎo» بدون مکث بین دو کلمه نشان‌دهنده تسلط بر Tone Sandhi است."
+        }
+      ]
+    },
+    {
+      "sub_index": 3,
+      "sub_id": "HSK1_L01_S03",
+      "slot_type": "dialogue_or_text",
+      "title_fa": "مکالمه ۲: عذرخواهی و دلجویی محترمانه",
+      "vocabulary": [
+        {
+          "vocab_id": "v_04",
+          "hanzi": "对不起",
+          "pinyin": "duìbuqǐ",
+          "tones": [4, 5, 3],
+          "meaning_fa": "ببخشید / متأسفم",
+          "pos": "v./phr.",
+          "is_core": true,
+          "example_zh": "对不起！",
+          "example_fa": "ببخشید!"
+        },
+        {
+          "vocab_id": "v_05",
+          "hanzi": "没关系",
+          "pinyin": "méi guānxi",
+          "tones": [2, 1, 5],
+          "meaning_fa": "اشکالی ندارد / مهم نیست",
+          "pos": "phr.",
+          "is_core": true,
+          "example_zh": "没关系。",
+          "example_fa": "اشکالی ندارد."
+        }
+      ],
+      "context_card": {
+        "mode": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "对不起！",
+            "pinyin": "Duìbuqǐ!",
+            "meaning_fa": "ببخشید!"
+          },
+          {
+            "speaker": "B",
+            "hanzi": "没关系！",
+            "pinyin": "Méi guānxi!",
+            "meaning_fa": "اشکالی ندارد!"
+          }
+        ]
+      },
+      "grammar_card": {
+        "has_grammar": true,
+        "formula": "对不起 → 没关系",
+        "explanation_fa": "عبارت «对不起» برای عذرخواهی واقعی یا مودبانه به کار می‌رود و پاسخ استاندارد آن «没关系» (مشکلی نیست / مهم نیست) است.",
+        "example_zh": "A: 对不起！ B: 没关系。",
+        "example_fa": "الف: ببخشید! ب: اشکالی ندارد.",
+        "persian_learner_tip": "بسیاری از زبان‌آموزان پاسخ «对不起» را با «不客气» اشتباه می‌گیرند! یادتان باشد «没关系» فقط برای پاسخ به عذرخواهی است و «不客气» فقط برای پاسخ به تشکر."
+      },
+      "exercises": [
+        {
+          "ex_id": "S03_E01",
+          "widget": "W2_AUDIO_DRILL",
+          "skill_tag": "listening",
+          "target_vocab_ids": ["v_04"],
+          "prompt_fa": "به عبارت زیر گوش دهید و معنی آن را انتخاب کنید.",
+          "stimulus": {
+            "hanzi": "对不起",
+            "pinyin": "duìbuqǐ",
+            "text_fa": "",
+            "media_placeholder": "audio_duibuqi"
+          },
+          "options": [
+            "ببخشید / متأسفم",
+            "خواهش می‌کنم",
+            "ممنونم",
+            "خداحافظ"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«对不起» (duìbuqǐ) عبارت استاندارد عذرخواهی در زبان چینی است."
+        },
+        {
+          "ex_id": "S03_E02",
+          "widget": "W2_AUDIO_DRILL",
+          "skill_tag": "listening",
+          "target_vocab_ids": ["v_05"],
+          "prompt_fa": "پاسخی که می‌شنوید کدام است؟",
+          "stimulus": {
+            "hanzi": "没关系",
+            "pinyin": "méi guānxi",
+            "text_fa": "",
+            "media_placeholder": "audio_meiguanxi"
+          },
+          "options": [
+            "没关系 (اشکالی ندارد)",
+            "不客气 (خواهش می‌کنم)",
+            "您好 (سلام محترمانه)",
+            "你们好 (سلام به شماها)"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«没关系» (méi guānxi) در پاسخ به عذرخواهی به معنی «مشکلی نیست» به کار می‌رود."
+        },
+        {
+          "ex_id": "S03_E03",
+          "widget": "W1_VOCAB_SELECT",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["v_04"],
+          "prompt_fa": "کاراکتر معادل «ببخشید / متأسفم» کدام است؟",
+          "stimulus": {
+            "hanzi": "",
+            "pinyin": "",
+            "text_fa": "ببخشید / متأسفم",
+            "media_placeholder": ""
+          },
+          "options": [
+            "对不起",
+            "没关系",
+            "谢谢",
+            "不客气"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«对不起» برای عذرخواهی به کار می‌رود."
+        },
+        {
+          "ex_id": "S03_E04",
+          "widget": "W1_VOCAB_SELECT",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["v_05"],
+          "prompt_fa": "معنی «没关系» در مکالمات روزمره چیست؟",
+          "stimulus": {
+            "hanzi": "没关系",
+            "pinyin": "méi guānxi",
+            "text_fa": "",
+            "media_placeholder": ""
+          },
+          "options": [
+            "اشکالی ندارد / مهم نیست",
+            "خیلی ممنونم",
+            "لطفاً بفرمایید",
+            "شما خوب هستید؟"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«没» به معنی «ندارد» و «关系» به معنی «ربط/مسئله» است؛ یعنی «مسئله‌ای نیست»."
+        },
+        {
+          "ex_id": "S03_E05",
+          "widget": "W3_SENTENCE_BUILD",
+          "skill_tag": "grammar",
+          "target_vocab_ids": ["v_04"],
+          "prompt_fa": "بلوک‌ها را برای ساخت جمله «ببخشید، اشکالی ندارد» مرتب کنید.",
+          "stimulus": {
+            "hanzi": "",
+            "pinyin": "",
+            "text_fa": "ببخشید، اشکالی ندارد.",
+            "media_placeholder": ""
+          },
+          "tiles": ["对不起", "没关系"],
+          "target": "对不起没关系",
+          "options": [
+            "对不起没关系",
+            "没关系对不起"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "ابتدا عذرخواهی «对不起» و در پاسخ آن «没关系» می‌آید."
+        },
+        {
+          "ex_id": "S03_E06",
+          "widget": "W5_DIALOGUE_REPLY",
+          "skill_tag": "dialogue_or_speaking",
+          "target_vocab_ids": ["v_05"],
+          "prompt_fa": "دوستتان دیر رسیده و می‌گوید: «对不起！». چه پاسخی می‌دهید؟",
+          "stimulus": {
+            "hanzi": "对不起！",
+            "pinyin": "Duìbuqǐ!",
+            "text_fa": "ببخشید!",
+            "media_placeholder": "audio_duibuqi"
+          },
+          "options": [
+            "没关系！",
+            "不客气！",
+            "谢谢！",
+            "您！"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "در جواب «对不起» همیشه «没关系» می‌گوییم، نه «不客气»."
+        }
+      ]
+    },
+    {
+      "sub_index": 4,
+      "sub_id": "HSK1_L01_S04",
+      "slot_type": "skill_slot",
+      "title_fa": "مهارت ۲: املای پین‌یین، علامت خنثی و تشخیص آوا",
+      "vocabulary": [
+        {
+          "vocab_id": "p_03",
+          "hanzi": "五",
+          "pinyin": "wǔ",
+          "tones": [3],
+          "meaning_fa": "عدد پنج (قانون املایی u → wu)",
+          "pos": "num.",
+          "is_core": false,
+          "example_zh": "五",
+          "example_fa": "پنج"
+        }
+      ],
+      "context_card": {
+        "mode": "text",
+        "lines": [
+          {
+            "speaker": "قاعده پین‌یین",
+            "hanzi": "u (تنها) → wu | i (تنها) → yi",
+            "pinyin": "wǔ / yī",
+            "meaning_fa": "در استاندارد پین‌یین، اگر مصوت u به تنهایی یک هجا بسازد با w در ابتدا نوشته می‌شود (مانند wǔ)."
+          },
+          {
+            "speaker": "نواخت خنثی (轻声)",
+            "hanzi": "你们 (nǐmen) · 谢谢 (xièxie) · 关系 (guānxi)",
+            "pinyin": "nǐmen · xièxie · guānxi",
+            "meaning_fa": "هجای بدون علامت روی مصوت، کوتاه و سبک (نواخت خنثی) تلفظ می‌شود."
+          }
+        ]
+      },
+      "grammar_card": {
+        "has_grammar": false,
+        "formula": "",
+        "explanation_fa": "",
+        "example_zh": "",
+        "example_fa": "",
+        "persian_learner_tip": ""
+      },
+      "exercises": [
+        {
+          "ex_id": "S04_E01",
+          "widget": "W2_AUDIO_DRILL",
+          "skill_tag": "listening",
+          "target_vocab_ids": ["p_03"],
+          "prompt_fa": "به تلفظ عدد پنج گوش دهید و شکل املایی صحیح پین‌یین آن را انتخاب کنید.",
+          "stimulus": {
+            "hanzi": "五",
+            "pinyin": "wǔ",
+            "text_fa": "",
+            "media_placeholder": "audio_wu"
+          },
+          "options": [
+            "wǔ",
+            "ǔ",
+            "vǔ",
+            "yǔ"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "مصوت u به عنوان هجای مستقل همیشه با w در ابتدا یعنی «wǔ» نوشته می‌شود."
+        },
+        {
+          "ex_id": "S04_E02",
+          "widget": "W2_AUDIO_DRILL",
+          "skill_tag": "listening",
+          "target_vocab_ids": ["v_03"],
+          "prompt_fa": "به واژه «你们» گوش دهید؛ هجای دوم (men) چه نوع نواختی دارد؟",
+          "stimulus": {
+            "hanzi": "你们",
+            "pinyin": "nǐmen",
+            "text_fa": "",
+            "media_placeholder": "audio_nimen"
+          },
+          "options": [
+            "نواخت خنثی (کوتاه و بدون علامت)",
+            "نواخت اول (mēn)",
+            "نواخت سوم (měn)",
+            "نواخت چهارم (mèn)"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "پسوند جمع «们» در انتهای «你们» با نواخت خنثی و کوتاه تلفظ می‌شود."
+        },
+        {
+          "ex_id": "S04_E03",
+          "widget": "W1_VOCAB_SELECT",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["p_03"],
+          "prompt_fa": "معنی و تلفظ کاراکتر «五» کدام است؟",
+          "stimulus": {
+            "hanzi": "五",
+            "pinyin": "wǔ",
+            "text_fa": "",
+            "media_placeholder": ""
+          },
+          "options": [
+            "پنج (wǔ)",
+            "شما (nǐ)",
+            "خوب (hǎo)",
+            "مامان (māma)"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«五» (wǔ) عدد پنج در زبان چینی است."
+        },
+        {
+          "ex_id": "S04_E04",
+          "widget": "W1_VOCAB_SELECT",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["v_04"],
+          "prompt_fa": "در واژه «对不起» (duìbuqǐ)، کدام هجا دارای نواخت خنثی (سبک) است؟",
+          "stimulus": {
+            "hanzi": "对不起",
+            "pinyin": "duìbuqǐ",
+            "text_fa": "",
+            "media_placeholder": ""
+          },
+          "options": [
+            "هجای وسط (bu)",
+            "هجای اول (duì)",
+            "هجای آخر (qǐ)",
+            "هر سه هجا"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "در «duìbuqǐ»، هجای وسط (不) بی‌تاکید و خنثی خوانده می‌شود."
+        },
+        {
+          "ex_id": "S04_E05",
+          "widget": "W4_FILL_BLANK",
+          "skill_tag": "grammar",
+          "target_vocab_ids": ["v_05"],
+          "prompt_fa": "جای خالی را در ساختار دلجویی کامل کنید: 没___",
+          "stimulus": {
+            "hanzi": "没___",
+            "pinyin": "méi ___",
+            "text_fa": "اشکالی ندارد",
+            "media_placeholder": ""
+          },
+          "options": [
+            "关系",
+            "客气",
+            "不起",
+            "见"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "عبارت کامل «没关系» به معنی «اشکالی ندارد» است."
+        },
+        {
+          "ex_id": "S04_E06",
+          "widget": "W7_SHADOW_SPEAK",
+          "skill_tag": "dialogue_or_speaking",
+          "target_vocab_ids": ["v_04"],
+          "prompt_fa": "جمله «对不起，没关系» را با رعایت هجای خنثی وسط و صدای واضح تکرار کنید.",
+          "stimulus": {
+            "hanzi": "对不起，没关系。",
+            "pinyin": "Duìbuqǐ, méi guānxi.",
+            "text_fa": "ببخشید، اشکالی ندارد.",
+            "media_placeholder": "audio_duibuqi"
+          },
+          "options": ["对不起，没关系。"],
+          "answer_index": 0,
+          "feedback_fa": "عالی! کنترل هجای خنثی در «bu» و «xi» تلفظ شما را طبیعی‌تر می‌کند."
+        }
+      ]
+    },
+    {
+      "sub_index": 5,
+      "sub_id": "HSK1_L01_S05",
+      "slot_type": "dialogue_or_text",
+      "title_fa": "مکالمه ۳: تشکر، تعارف و خداحافظی",
+      "vocabulary": [
+        {
+          "vocab_id": "v_06",
+          "hanzi": "谢谢",
+          "pinyin": "xièxie",
+          "tones": [4, 5],
+          "meaning_fa": "متشکرم / ممنون",
+          "pos": "v.",
+          "is_core": true,
+          "example_zh": "谢谢你！",
+          "example_fa": "از تو ممنونم!"
+        },
+        {
+          "vocab_id": "v_07",
+          "hanzi": "不客气",
+          "pinyin": "bú kèqi",
+          "tones": [2, 4, 5],
+          "meaning_fa": "خواهش می‌کنم / تعارف نکنید",
+          "pos": "phr.",
+          "is_core": true,
+          "example_zh": "不客气！",
+          "example_fa": "خواهش می‌کنم!"
+        },
+        {
+          "vocab_id": "v_08",
+          "hanzi": "再见",
+          "pinyin": "zàijiàn",
+          "tones": [4, 4],
+          "meaning_fa": "خداحافظ (تا دیدار بعد)",
+          "pos": "v./phr.",
+          "is_core": true,
+          "example_zh": "再见！",
+          "example_fa": "خداحافظ!"
+        }
+      ],
+      "context_card": {
+        "mode": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "谢谢！",
+            "pinyin": "Xièxie!",
+            "meaning_fa": "ممنونم!"
+          },
+          {
+            "speaker": "B",
+            "hanzi": "不客气！",
+            "pinyin": "Bú kèqi!",
+            "meaning_fa": "خواهش می‌کنم!"
+          },
+          {
+            "speaker": "A",
+            "hanzi": "再见！",
+            "pinyin": "Zàijiàn!",
+            "meaning_fa": "خداحافظ!"
+          },
+          {
+            "speaker": "B",
+            "hanzi": "再见！",
+            "pinyin": "Zàijiàn!",
+            "meaning_fa": "خداحافظ!"
+          }
+        ]
+      },
+      "grammar_card": {
+        "has_grammar": true,
+        "formula": "谢谢 (+ 你/您) → 不客气",
+        "explanation_fa": "برای تشکر کردن از «谢谢» (و در حالت رسمی‌تر «谢谢您») استفاده می‌شود و پاسخ آن «不客气» است. نکته آوایی مهم: کلمه «不» (bù) پیش از نواخت چهارم «客» (kè)، به «bú» (نواخت دوم) تغییر می‌کند.",
+        "example_zh": "谢谢你！— 不客气！",
+        "example_fa": "از تو ممنونم! — خواهش می‌کنم!",
+        "persian_learner_tip": "در «不客气» علامت «不» به دلیل قرار گرفتن قبل از نواخت چهارم (kè)، به صورت «bú kèqi» خوانده می‌شود."
+      },
+      "exercises": [
+        {
+          "ex_id": "S05_E01",
+          "widget": "W2_AUDIO_DRILL",
+          "skill_tag": "listening",
+          "target_vocab_ids": ["v_06"],
+          "prompt_fa": "به فایل صوتی گوش دهید و معنای آن را انتخاب کنید.",
+          "stimulus": {
+            "hanzi": "谢谢",
+            "pinyin": "xièxie",
+            "text_fa": "",
+            "media_placeholder": "audio_xiexie"
+          },
+          "options": [
+            "متشکرم / ممنون",
+            "ببخشید",
+            "سلام",
+            "اشکالی ندارد"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«谢谢» (xièxie) با یک هجای نواخت چهارم و یک هجای خنثی، به معنی «متشکرم» است."
+        },
+        {
+          "ex_id": "S05_E02",
+          "widget": "W2_AUDIO_DRILL",
+          "skill_tag": "listening",
+          "target_vocab_ids": ["v_08"],
+          "prompt_fa": "عبارت خداحافظی که شنیدید کدام است؟",
+          "stimulus": {
+            "hanzi": "再见",
+            "pinyin": "zàijiàn",
+            "text_fa": "",
+            "media_placeholder": "audio_zaijian"
+          },
+          "options": [
+            "再见 (خداحافظ)",
+            "谢谢 (ممنون)",
+            "你好 (سلام)",
+            "不客气 (خواهش می‌کنم)"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«再见» (zàijiàn) از دو بخش «再» (دوباره) و «见» (دیدار) ساخته شده و به معنی «خداحافظ» است."
+        },
+        {
+          "ex_id": "S05_E03",
+          "widget": "W1_VOCAB_SELECT",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["v_07"],
+          "prompt_fa": "معنی عبارت «不客气» چیست؟",
+          "stimulus": {
+            "hanzi": "不客气",
+            "pinyin": "bú kèqi",
+            "text_fa": "",
+            "media_placeholder": ""
+          },
+          "options": [
+            "خواهش می‌کنم / تعارف نکنید",
+            "اشکالی ندارد",
+            "ببخشید",
+            "سلام"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«不客气» پاسخ مودبانه به تشکر است."
+        },
+        {
+          "ex_id": "S05_E04",
+          "widget": "W1_VOCAB_SELECT",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["v_08"],
+          "prompt_fa": "معادل چینی «خداحافظ» کدام است؟",
+          "stimulus": {
+            "hanzi": "",
+            "pinyin": "",
+            "text_fa": "خداحافظ",
+            "media_placeholder": ""
+          },
+          "options": [
+            "再见",
+            "您好",
+            "对不起",
+            "没关系"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "برای خداحافظی در چینی از «再见» استفاده می‌کنیم."
+        },
+        {
+          "ex_id": "S05_E05",
+          "widget": "W4_FILL_BLANK",
+          "skill_tag": "grammar",
+          "target_vocab_ids": ["v_07"],
+          "prompt_fa": "جمله تشکر و پاسخ را تکمیل کنید: 谢谢！— ___",
+          "stimulus": {
+            "hanzi": "谢谢！— ___！",
+            "pinyin": "Xièxie! — ___!",
+            "text_fa": "ممنونم! — خواهش می‌کنم!",
+            "media_placeholder": ""
+          },
+          "options": [
+            "不客气",
+            "没关系",
+            "对不起",
+            "你们好"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "پاسخ صحیح به «谢谢» همیشه «不客气» است."
+        },
+        {
+          "ex_id": "S05_E06",
+          "widget": "W5_DIALOGUE_REPLY",
+          "skill_tag": "dialogue_or_speaking",
+          "target_vocab_ids": ["v_06"],
+          "prompt_fa": "همکلاسی‌تان کتابتان را به شما می‌دهد. چه می‌گویید؟",
+          "stimulus": {
+            "hanzi": "给你！",
+            "pinyin": "Gěi nǐ!",
+            "text_fa": "بفرما!",
+            "media_placeholder": ""
+          },
+          "options": [
+            "谢谢你！",
+            "对不起！",
+            "再见！",
+            "你们好！"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "هنگام دریافت کمک یا هدیه از دیگران می‌گوییم: «谢谢你！»"
+        }
+      ]
+    },
+    {
+      "sub_index": 6,
+      "sub_id": "HSK1_L01_S06",
+      "slot_type": "checkpoint",
+      "title_fa": "آزمون جامع پایان درس ۱",
+      "vocabulary": [],
+      "context_card": {
+        "mode": "text",
+        "lines": []
+      },
+      "grammar_card": {
+        "has_grammar": false,
+        "formula": "",
+        "explanation_fa": "",
+        "example_zh": "",
+        "example_fa": "",
+        "persian_learner_tip": ""
+      },
+      "exercises": [
+        {
+          "ex_id": "S06_E01",
+          "widget": "W2_AUDIO_DRILL",
+          "skill_tag": "listening",
+          "target_vocab_ids": ["v_01"],
+          "prompt_fa": "به عبارت سلام گوش دهید و گزینه معادل را انتخاب کنید.",
+          "stimulus": {
+            "hanzi": "你好",
+            "pinyin": "nǐ hǎo",
+            "text_fa": "",
+            "media_placeholder": "audio_nihao"
+          },
+          "options": [
+            "你好 (سلام دوستانه)",
+            "您好 (سلام محترمانه)",
+            "再见 (خداحافظ)",
+            "谢谢 (ممنون)"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«你好» سلام دوستانه است."
+        },
+        {
+          "ex_id": "S06_E02",
+          "widget": "W1_VOCAB_SELECT",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["v_02"],
+          "prompt_fa": "برای سلام به استاد یا مدیر، کدام گزینه درست است؟",
+          "stimulus": {
+            "hanzi": "",
+            "pinyin": "",
+            "text_fa": "سلام محترمانه به یک نفر",
+            "media_placeholder": ""
+          },
+          "options": [
+            "您好！",
+            "你好！",
+            "你们好！",
+            "没关系！"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«您好» نشانه ادب و احترام به مخاطب مفرد است."
+        },
+        {
+          "ex_id": "S06_E03",
+          "widget": "W1_VOCAB_SELECT",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["v_03"],
+          "prompt_fa": "اگر وارد جمع چند دوست شوید، چگونه به همه سلام می‌کنید؟",
+          "stimulus": {
+            "hanzi": "",
+            "pinyin": "",
+            "text_fa": "سلام به چند نفر",
+            "media_placeholder": ""
+          },
+          "options": [
+            "你们好！",
+            "您好！",
+            "对不起！",
+            "不客气！"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "ضمیر جمع «你们» همراه با «好» برای سلام به گروهی از افراد به کار می‌رود."
+        },
+        {
+          "ex_id": "S06_E04",
+          "widget": "W4_FILL_BLANK",
+          "skill_tag": "grammar",
+          "target_vocab_ids": ["v_04"],
+          "prompt_fa": "در موقعیت زیر جای خالی را پر کنید: برخورد اتفاقی با رهگذر ← ___!",
+          "stimulus": {
+            "hanzi": "___！— 没关系！",
+            "pinyin": "___! — Méi guānxi!",
+            "text_fa": "ببخشید! — اشکالی ندارد!",
+            "media_placeholder": ""
+          },
+          "options": [
+            "对不起",
+            "谢谢",
+            "不客气",
+            "再见"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "در پاسخ به «对不起»، طرف مقابل می‌گوید «没关系»."
+        },
+        {
+          "ex_id": "S06_E05",
+          "widget": "W5_DIALOGUE_REPLY",
+          "skill_tag": "dialogue_or_speaking",
+          "target_vocab_ids": ["v_05"],
+          "prompt_fa": "همکار شما عذرخواهی می‌کند: «对不起！». بهترین پاسخ کدام است؟",
+          "stimulus": {
+            "hanzi": "对不起！",
+            "pinyin": "Duìbuqǐ!",
+            "text_fa": "ببخشید!",
+            "media_placeholder": "audio_duibuqi"
+          },
+          "options": [
+            "没关系！",
+            "不客气！",
+            "再见！",
+            "您好！"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "پاسخ صحیح به عذرخواهی «没关系» است."
+        },
+        {
+          "ex_id": "S06_E06",
+          "widget": "W1_VOCAB_SELECT",
+          "skill_tag": "vocabulary",
+          "target_vocab_ids": ["v_06"],
+          "prompt_fa": "معادل چینی «متشکرم» کدام گزینه است؟",
+          "stimulus": {
+            "hanzi": "",
+            "pinyin": "",
+            "text_fa": "متشکرم",
+            "media_placeholder": ""
+          },
+          "options": [
+            "谢谢",
+            "对不起",
+            "没关系",
+            "再见"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "«谢谢» (xièxie) به معنی متشکرم است."
+        },
+        {
+          "ex_id": "S06_E07",
+          "widget": "W4_FILL_BLANK",
+          "skill_tag": "grammar",
+          "target_vocab_ids": ["v_07"],
+          "prompt_fa": "پاسخ مناسب به تشکر دوستتان را انتخاب کنید.",
+          "stimulus": {
+            "hanzi": "谢谢你！— ___！",
+            "pinyin": "Xièxie nǐ! — ___!",
+            "text_fa": "ممنونم! — خواهش می‌کنم!",
+            "media_placeholder": ""
+          },
+          "options": [
+            "不客气",
+            "没关系",
+            "对不起",
+            "你好"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "در جواب «谢谢» از «不客气» استفاده می‌شود."
+        },
+        {
+          "ex_id": "S06_E08",
+          "widget": "W2_AUDIO_DRILL",
+          "skill_tag": "listening",
+          "target_vocab_ids": ["v_08"],
+          "prompt_fa": "به عبارت خداحافظی گوش دهید و پاسخ متقابل آن را انتخاب کنید.",
+          "stimulus": {
+            "hanzi": "再见！",
+            "pinyin": "Zàijiàn!",
+            "text_fa": "",
+            "media_placeholder": "audio_zaijian"
+          },
+          "options": [
+            "再见！",
+            "对不起！",
+            "不客气！",
+            "没关系！"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "در پاسخ به «再见» معمولاً دوباره «再见» می‌گوییم."
+        },
+        {
+          "ex_id": "S06_E09",
+          "widget": "W3_SENTENCE_BUILD",
+          "skill_tag": "grammar",
+          "target_vocab_ids": ["v_06", "v_07"],
+          "prompt_fa": "مکالمه کامل تشکر و پاسخ آن را با بلوک‌ها بسازید.",
+          "stimulus": {
+            "hanzi": "",
+            "pinyin": "",
+            "text_fa": "ممنونم، خواهش می‌کنم.",
+            "media_placeholder": ""
+          },
+          "tiles": ["谢谢", "不客气"],
+          "target": "谢谢不客气",
+          "options": [
+            "谢谢不客气",
+            "不客气谢谢"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "ابتدا «谢谢» (ممنون) و سپس در پاسخ «不客气» (خواهش می‌کنم) می‌آید."
+        },
+        {
+          "ex_id": "S06_E10",
+          "widget": "W6_PICTURE_MATCH",
+          "skill_tag": "dialogue_or_speaking",
+          "target_vocab_ids": ["v_08"],
+          "prompt_fa": "سناریو را با عبارت درست تطبیق دهید: «پایان کلاس است و دانش‌آموزان در حال خداحافظی با استاد هستند»",
+          "stimulus": {
+            "hanzi": "老师，再见！",
+            "pinyin": "Lǎoshī, zàijiàn!",
+            "text_fa": "خداحافظی با استاد در پایان کلاس",
+            "media_placeholder": "img_goodbye_class"
+          },
+          "options": [
+            "老师，再见！",
+            "老师，对不起！",
+            "老师，没关系！",
+            "老师，不客气！"
+          ],
+          "answer_index": 0,
+          "feedback_fa": "عبارت مودبانه خداحافظی با استاد «老师，再见！» است. آفرین، درس اول را با موفقیت به پایان رساندی!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 @echo off
 title Chinify Admin Panel
-cd /d "C:\Users\Amirsajjad\Documents\kanchinese\tools"
+cd /d "%~dp0tools"
 netstat -ano | findstr ":8090" | findstr "LISTENING" >nul 2>&1
 if %errorlevel%==0 goto open
 echo Starting Chinify admin server...

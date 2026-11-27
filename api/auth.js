@@ -134,7 +134,7 @@ async function sendResendOtpEmail(email, code) {
     return { ok: true, devMode: true };
   }
 
-  const from = process.env.RESEND_FROM || "Chinifa <onboarding@resend.dev>";
+  const from = process.env.RESEND_FROM || "chinifa <noreply@chinifarsi.ir>";
   const htmlContent = `
     <!DOCTYPE html>
     <html lang="fa" dir="rtl">
@@ -650,7 +650,7 @@ module.exports = async (req, res) => {
 
       return res.status(200).json({
         ok: true,
-        message: "اشتراک ویژه Chinify PRO با موفقیت فعال شد.",
+        message: "اشتراک ویژه chinifa PRO با موفقیت فعال شد.",
         isPro: true,
         plan: sub.plan,
         expiresAt: sub.expiresAt,

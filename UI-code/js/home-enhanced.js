@@ -720,7 +720,9 @@
     var existingModal = document.getElementById('kanProModal');
     if (existingModal) existingModal.remove();
 
-    var websiteUrl = "https://chinifa.vercel.app/#pricing";
+    var websiteUrl = (typeof location !== 'undefined' && /^https?:/i.test(location.protocol) && location.hostname && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1')
+      ? (location.origin + "/#pricing")
+      : "https://chinifa.vercel.app/#pricing";
     try {
       if (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform()) {
         window.open(websiteUrl, "_system");
@@ -732,7 +734,7 @@
     }
   };
 
-  // باز کردن پنجره اختصاصی و شکیل راهنمای خرید اشتراک Chinify PRO در وب‌سایت
+  // باز کردن پنجره اختصاصی و شکیل راهنمای خرید اشتراک chinifa PRO در وب‌سایت chinifarsi
   w.kanOpenProPaywall = function(targetLevel, targetLessonIdx) {
     var existing = document.getElementById('kanProModal');
     if (existing) existing.remove();
@@ -747,8 +749,8 @@
         '<button class="kan-pro-sheet-close" type="button" aria-label="بستن">✕</button>' +
         '<div class="kan-pro-crown-header">' +
           '<div class="kan-pro-crown-icon-big">👑</div>' +
-          '<h2 class="kan-pro-title">اشتراک ویژه Chinify PRO</h2>' +
-          '<p class="kan-pro-sub">درس اول ' + targetName + ' کاملاً <b>رایگان</b> است! برای دسترسی به درس‌های ۲ تا ۱۵، لطفاً اشتراک را از وب‌سایت تهیه کنید.</p>' +
+          '<h2 class="kan-pro-title">اشتراک ویژه chinifa PRO</h2>' +
+          '<p class="kan-pro-sub">درس اول ' + targetName + ' کاملاً <b>رایگان</b> است! برای دسترسی به درس‌های ۲ تا ۱۵، لطفاً اشتراک را از وب‌سایت chinifarsi تهیه کنید.</p>' +
         '</div>' +
 
         '<div style="background:#F0FDF4;border:1.5px solid #BBF7D0;border-radius:18px;padding:16px 18px;margin-bottom:16px;text-align:right;">' +
@@ -1179,7 +1181,9 @@
       var origGo = w.App.go;
       w.App.go = function(screen, opts) {
         var ret = origGo.apply(this, arguments);
-        setTimeout(applyEnhancements, 0);
+        if (w.App && w.App.screen === 'home') {
+          applyEnhancements();
+        }
         return ret;
       };
     }
@@ -1190,7 +1194,9 @@
       w.App.rerender = function() {
         setupScreensOverride();
         var ret = origRerender.apply(this, arguments);
-        setTimeout(applyEnhancements, 0);
+        if (w.App && w.App.screen === 'home') {
+          applyEnhancements();
+        }
         return ret;
       };
     }

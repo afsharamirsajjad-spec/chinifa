@@ -1,11 +1,5 @@
-// Chinify/Chinifa Saved-Word Lookups API
-const { pool, initDb, getAuthUser } = require("./db");
-
-function cors(req, res) {
-  res.setHeader("Access-Control-Allow-Origin", req.headers.origin || "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-  res.setHeader("Access-Control-Allow-Headers", "content-type, authorization");
-}
+// chinifa Saved-Word Lookups API
+const { pool, initDb, getAuthUser, cors, parseBody } = require("./db");
 
 module.exports = async (req, res) => {
   cors(req, res);
@@ -27,7 +21,7 @@ module.exports = async (req, res) => {
 
     if (req.method !== "POST") return res.status(405).end();
 
-    const body = typeof req.body === "object" && req.body !== null ? req.body : {};
+    const body = parseBody(req);
     const ch = String(body.ch || "").slice(0, 40);
     const py = String(body.py || "").slice(0, 120);
     const en = String(body.en || "").slice(0, 200);
@@ -38,7 +32,7 @@ module.exports = async (req, res) => {
       await pool.query(
         `INSERT INTO public.chinifa_lookups (user_id, ch, py, en) VALUES ($1, $2, $3, $4)`,
         [user.id, ch, py, en]
-      ).catch(() => {});
+      ).catch((e) => console.error("[api/lookups insert]", e.message));
     }
 
     return res.status(200).json({ ok: true });

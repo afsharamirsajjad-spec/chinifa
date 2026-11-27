@@ -7274,11 +7274,17 @@ resolvePy: function(str) {
       courseId = courseId || "hsk1";
       unitIdx = unitIdx != null ? unitIdx : 0;
       var key = (customKey === "lesson0" || courseId === "lesson0" || unitIdx === "lesson0" || unitIdx === -1) ? "lesson0" : (courseId + ":" + unitIdx);
-      
+      var unit = UnitSystem.UNITS[key];
+
       UnitSystem.runner.unitKey = key;
       UnitSystem.runner.viewMode = "unit-path";
       UnitSystem.runner.activeSectionIdx = 0;
       UnitSystem.runner.feedbackState = null;
+      if (unit && unit.isNewHsk && typeof unit.showPinyinDefault === "boolean") {
+        UnitSystem.runner.showPinyin = unit.showPinyinDefault;
+      } else {
+        delete UnitSystem.runner.showPinyin;
+      }
 
       // باز کردن اسکرین اختصاصی "unit"
       if (window.App && App.go) {
@@ -7351,8 +7357,12 @@ resolvePy: function(str) {
         return String(n).replace(/\d/g, function(d) { return "۰۱۲۳۴۵۶۷۸۹"[d]; });
       }
 
+      var isSixSubMode = !!(unit && (unit.isNewHsk || (unit.sections && unit.sections.length > 4)));
+      var displaySections = isSixSubMode ? (unit.sections || []) : (unit.sections || []).slice(0, 4);
+      var headerCountLabel = isSixSubMode ? (faNum(displaySections.length) + ' زیردرس · ۴۰ تمرین') : '۴ بخش آموزشی';
+
       var h = '<div class="scr u-lesson-screen" style="padding:0; margin:0; width:100%; height:100%; overflow-y:auto; overflow-x:hidden;">';
-      h += '  <div class="subtasks-view">';
+      h += '  <div class="subtasks-view' + (isSixSubMode ? ' subtasks-view--6' : '') + '">';
 
       // تصویر پس‌زمینه منظره پل چوبی و اژدهای اختصاصی ایستگاه
       h += '    <img src="' + bgImg + '" alt="منظره جزایر معلق ایستگاه" class="subtasks-bg-art" id="subtasksBgImg" decoding="async">';
@@ -7365,38 +7375,39 @@ resolvePy: function(str) {
       // بنر مشخصات درس در بالا
       h += '    <div class="subtask-station-banner" data-act="go" data-arg=\'{"s":"home"}\'>';
       h += '      <div class="subtask-station-info">';
-      h += '        <span class="subtask-station-pill-tag">' + (unit.titleFa || 'درس ' + faNum(unitIdx + 1)) + '</span>';
-      h += '        <span class="subtask-station-lesson-name">' + (unit.titleZh || '') + '</span>';
+      h += '        <span class="subtask-station-pill-tag">' + UI.esc(unit.titleFa || ('درس ' + faNum(unitIdx + 1))) + '</span>';
+      h += '        <span class="subtask-station-lesson-name">' + UI.esc(unit.titleZh || '') + '</span>';
       h += '      </div>';
-      h += '      <span style="font-size:11px;color:#0FA968;font-weight:700;">۴ بخش آموزشی</span>';
+      h += '      <span style="font-size:11px;color:#0FA968;font-weight:700;">' + headerCountLabel + '</span>';
       h += '    </div>';
 
-      // ۴ جزیره معلق
-      var sectionTitles = ["۱. واژگان", "۲. گرامر", "۳. تلفظ", "۴. مکالمه"];
+      // جزیره‌های معلق (۴ بخش کلاسیک یا ۶ زیردرس New HSK)
+      var legacyTitles = ["۱. واژگان", "۲. گرامر", "۳. تلفظ", "۴. مکالمه"];
       var isPreviousDone = true;
 
-      (unit.sections || []).slice(0, 4).forEach(function(sec, idx) {
+      displaySections.forEach(function(sec, idx) {
         var completedCount = (prog.miniProgress && prog.miniProgress[sec.id]) || 0;
         var totalCount = (sec.miniLessons && sec.miniLessons.length) || 4;
         var isDone = completedCount >= totalCount;
         var isLocked = !isPreviousDone;
         isPreviousDone = isDone;
+        var secTitle = isSixSubMode ? (faNum(idx + 1) + '. ' + (sec.titleFa || sec.title || ('زیردرس ' + faNum(idx + 1)))) : (legacyTitles[idx] || sec.titleFa);
 
         var anchorClass = 'anchor-step-' + (idx + 1);
         h += '    <div class="subtask-stage-anchor ' + anchorClass + '">';
 
         if (isLocked) {
-          h += '      <div class="subtask-interactive-pod" data-act="unitLockedToast" data-arg=\'{"num":' + (idx+1) + ',"name":"' + sectionTitles[idx] + '"}\' role="button" tabindex="0">';
+          h += '      <div class="subtask-interactive-pod" data-act="unitLockedToast" data-arg=\'{"num":' + (idx+1) + ',"name":"' + UI.esc(secTitle) + '"}\' role="button" tabindex="0">';
           h += '        <div class="integrated-lock-dome">';
           h += '          <svg viewBox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>';
           h += '        </div>';
           h += '        <div class="subtask-unified-card is-locked-card">';
-          h += '          <div class="subtask-card-title">' + sectionTitles[idx] + '</div>';
+          h += '          <div class="subtask-card-title">' + UI.esc(secTitle) + '</div>';
           h += '        </div>';
           h += '      </div>';
         } else {
           h += '      <div class="subtask-interactive-pod" data-act="unitSelectSection" data-arg=\'{"idx":' + idx + '}\' role="button" tabindex="0">';
-          h += '        <div class="subtask-unified-card ' + (idx === 0 ? 'subtask-card--vocab' : '') + '">';
+          h += '        <div class="subtask-unified-card ' + (idx === 0 ? 'subtask-card--vocab' : '') + (sec.isCheckpoint ? ' subtask-card--checkpoint' : '') + '">';
           if (idx === 0) {
             h += '          <div class="temple-mini-roof">';
             h += '            <svg viewBox="0 0 64 24" fill="none">';
@@ -7406,7 +7417,7 @@ resolvePy: function(str) {
             h += '            </svg>';
             h += '          </div>';
           }
-          h += '          <div class="subtask-card-title">' + sectionTitles[idx] + '</div>';
+          h += '          <div class="subtask-card-title">' + UI.esc(secTitle) + '</div>';
           if (isDone) {
             h += '          <div class="subtask-status-pill is-completed">';
             h += '            <div class="subtask-status-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>';
@@ -7418,7 +7429,7 @@ resolvePy: function(str) {
             h += '          </div>';
           } else {
             h += '          <div class="subtask-status-pill is-ready">';
-            h += '            <span class="subtask-status-label">آماده یادگیری</span>';
+            h += '            <span class="subtask-status-label">' + (sec.isCheckpoint ? 'آزمون پایانی + جایزه' : 'آماده یادگیری') + '</span>';
             h += '          </div>';
           }
           h += '        </div>';
@@ -7427,6 +7438,16 @@ resolvePy: function(str) {
 
         h += '    </div>';
       });
+
+      if (isSixSubMode && unit.bonusCard) {
+        var bonusUnlocked = !!prog.done || (prog.completedSections && prog.completedSections.length >= displaySections.length);
+        h += '    <div class="subtask-bonus-anchor">';
+        h += '      <button type="button" class="subtask-bonus-pill' + (bonusUnlocked ? ' is-unlocked' : ' is-locked') + '" data-act="unitOpenBonusCard">';
+        h += '        <span class="subtask-bonus-ico">' + (bonusUnlocked ? '🎁' : '🔒') + '</span>';
+        h += '        <span>' + UI.esc(unit.bonusCard.title_fa || 'کارت جایزه فرهنگی (小语的彩蛋)') + '</span>';
+        h += '      </button>';
+        h += '    </div>';
+      }
 
       h += '  </div>';
       h += '</div>';
@@ -7563,6 +7584,11 @@ resolvePy: function(str) {
 
       // آیکون‌های ۳ بعدی کاملاً اختصاصی و بدون هیچ تصویر تکراری برای هر بخش و هر مرحله
       function getStageIcon(secId, mIdx) {
+        var miniObj = (sec.miniLessons && sec.miniLessons[mIdx]) || {};
+        var mId = String(miniObj.id || "");
+        if (/_vocab$/.test(mId)) return BASE + 'icon_stage1_books.png';
+        if (/_context$/.test(mId)) return BASE + 'icon_stage2_grammar.png';
+        if (/_practice$/.test(mId)) return (sec && sec.isCheckpoint) ? (BASE + 'icon_crown_3d.webp') : (BASE + 'icon_stage4_dialog.png');
         if (secId === 'vocab') {
           var vIcons = [
             BASE + 'icon_stage1_books.png',    // مرحله ۱: آموزش لغات (فلش‌کارت کتاب‌های چینی)
@@ -7728,10 +7754,37 @@ resolvePy: function(str) {
       var secId = (sec && sec.id) || "";
       var miniId = (mini && mini.id) || "";
       var exType = (ex && ex.type) || "";
-      
+      var widget = (ex && ex.widget) || "";
+      var skillTag = (ex && ex.skillTag) || "";
+
       var b = { cat: "تمرین", name: "پرسش و پاسخ", icon: "help-circle" };
 
-      if (secId === "vocab" || /_v\d+$/.test(miniId) || /v\d+_/.test(miniId)) {
+      if (widget || skillTag) {
+        var skillMap = {
+          listening: { cat: "شنیداری", icon: "headphones" },
+          vocabulary: { cat: "واژگان", icon: "book-open" },
+          grammar: { cat: "گرامر", icon: "cpu" },
+          dialogue_or_speaking: { cat: "مکالمه و گفتار", icon: "message-circle" }
+        };
+        var wNames = {
+          W1_VOCAB_SELECT: "انتخاب واژه و معنا",
+          W2_AUDIO_DRILL: "تمرین شنیداری و آوا",
+          W3_SENTENCE_BUILD: "جمله‌سازی پازلی",
+          W4_FILL_BLANK: "تکمیل جای خالی",
+          W5_DIALOGUE_REPLY: "پاسخ منطقی مکالمه",
+          W6_PICTURE_MATCH: "تطبیق تصویر و بافت",
+          W7_SHADOW_SPEAK: "تکرار و سایه‌خوانی",
+          VOCAB_CARD: "واژگان جدید (生词)",
+          CONTEXT_CARD: "مکالمه و متن",
+          GRAMMAR_CARD: "نکته دستوری"
+        };
+        var sm = skillMap[skillTag] || { cat: "مهارت", icon: "sparkles" };
+        b = {
+          cat: (sec && sec.isCheckpoint) ? "آزمون جامع" : sm.cat,
+          name: wNames[widget] || "تمرین تعاملی",
+          icon: (sec && sec.isCheckpoint) ? "award" : sm.icon
+        };
+      } else if (secId === "vocab" || /_v\d+$/.test(miniId) || /v\d+_/.test(miniId)) {
         if (exType === "flash") b = { cat: "واژگان", name: "کارت یادگیری", icon: "book-open" };
         else if (exType === "match") b = { cat: "واژگان", name: "تطبیق جفت‌ها", icon: "shuffle" };
         else if (exType === "order") b = { cat: "واژگان", name: "جمله‌سازی", icon: "layers" };
@@ -7766,6 +7819,7 @@ resolvePy: function(str) {
 
     getStandardPrompt: function(ex, sec, mini) {
       if (!ex) return "گزینه درست را انتخاب کنید.";
+      if (ex.widget && (ex.q || ex.prompt)) return String(ex.q || ex.prompt).trim();
       var q = String(ex.q || "").trim();
       var p = String(ex.prompt || "").trim();
       
@@ -7825,8 +7879,8 @@ resolvePy: function(str) {
       var badgeHtml = UnitSystem.renderBadgeHtml(sec, mini, ex);
       var promptText = UnitSystem.getStandardPrompt(ex, sec, mini);
 
-      // 1. چندگزینه‌ای (Choice) با شافل تصادفی گزینه‌ها و وضعیت بصری پاسخ
-      if (ex.type === "choice" || ex.type === "audio_choice" || ex.type === "tone_pick") {
+      // 1. چندگزینه‌ای (Choice) + ویجت‌های W1, W2, W4, W5, W6
+      if (ex.type === "choice" || ex.type === "audio_choice" || ex.type === "tone_pick" || ex.type === "fill_blank" || ex.type === "dialogue_reply" || ex.type === "picture_match") {
         var exKey = runner.unitKey + ":" + runner.activeSectionIdx + ":" + runner.activeMiniIdx + ":" + runner.activeExIdx;
         var shuf = UnitSystem.getShuffledOpts(ex, exKey);
         var displayOpts = shuf.opts;
@@ -7910,10 +7964,32 @@ resolvePy: function(str) {
             (tpSyllable ? '<div class="u-hero-py py" dir="ltr" style="font-size:22px; font-weight:800; margin-top:8px;">' + esc(tpSyllable) + '</div>' : '') +
           '</div>';
         }
-        // هـ) سوال انتخاب از روی صدا (Audio Choice)
+        // هـ) سوال انتخاب از روی صدا (Audio Choice / W2_AUDIO_DRILL)
         else if (ex.type === "audio_choice") {
           heroHtml = '<div class="u-hero-center">' +
-            '<button class="u-big-audio" ' + act("unitPlaySay", { text: ex.audio, py: ex.audio }) + ' aria-label="پخش صدا">' + icon("volume-2", 20) + ' <span>شنیدن صدا</span></button>' +
+            '<button class="u-big-audio" ' + act("unitPlaySay", { text: ex.audio || ex.hanzi, py: ex.pinyin || ex.audio }) + ' aria-label="پخش صدا">' + icon("volume-2", 20) + ' <span>شنیدن صدا</span></button>' +
+            (ex.textFa && UnitSystem.faOn() ? '<div class="u-hero-sentence-fa" dir="rtl" style="margin-top:8px;">' + esc(ex.textFa) + '</div>' : '') +
+          '</div>';
+        }
+        // هـ۲) پاسخ منطقی مکالمه (W5_DIALOGUE_REPLY)
+        else if (ex.type === "dialogue_reply") {
+          heroHtml = '<div class="u-hero-center">' +
+            (ex.hanzi ? '<div class="u-hero-sentence-zh han" dir="ltr">' + esc(ex.hanzi) + '</div>' : '') +
+            (ex.pinyin && pyOn ? '<div class="u-hero-sentence-py py" dir="ltr">' + esc(ex.pinyin) + '</div>' : '') +
+            (ex.textFa && UnitSystem.faOn() ? '<div class="u-hero-sentence-fa" dir="rtl">(' + esc(ex.textFa) + ')</div>' : '') +
+            (ex.audio || ex.hanzi ? '<button class="u-big-audio" style="margin-top:10px;" ' + act("unitPlaySay", { text: ex.audio || ex.hanzi, py: ex.pinyin || "" }) + ' aria-label="پخش مکالمه">' + icon("volume-2", 18) + ' <span>شنیدن جمله</span></button>' : '') +
+          '</div>';
+        }
+        // هـ۳) تطبیق تصویر / پاراگراف (W6_PICTURE_MATCH)
+        else if (ex.type === "picture_match") {
+          heroHtml = '<div class="u-hero-center">' +
+            '<div class="u-w6-card">' +
+              (ex.mediaPlaceholder ? '<div style="font-size:11px;font-weight:800;color:#047857;margin-bottom:6px;">🖼️ ' + esc(ex.mediaPlaceholder) + '</div>' : '') +
+              (ex.hanzi ? '<div class="u-hero-sentence-zh han" dir="ltr" style="text-align:center;">' + esc(ex.hanzi) + '</div>' : '') +
+              (ex.pinyin && pyOn ? '<div class="u-hero-sentence-py py" dir="ltr" style="text-align:center;">' + esc(ex.pinyin) + '</div>' : '') +
+              (ex.textFa && UnitSystem.faOn() ? '<div class="u-hero-sentence-fa" dir="rtl" style="text-align:center;margin-top:6px;">' + esc(ex.textFa) + '</div>' : '') +
+              (ex.hanzi ? '<div style="text-align:center;margin-top:10px;"><button class="u-big-audio" ' + act("unitPlaySay", { text: ex.hanzi, py: ex.pinyin || "" }) + ' aria-label="شنیدن">' + icon("volume-2", 16) + ' <span>شنیدن متن</span></button></div>' : '') +
+            '</div>' +
           '</div>';
         }
         // و) سوال چینی به فارسی (کاراکتر چینی بزرگ در مرکز همراه با پین‌یین)
@@ -7924,7 +8000,7 @@ resolvePy: function(str) {
           if (sayZh) {
             heroHtml = '<div class="u-hero-center">' +
               '<div class="u-hero-hanzi han" dir="ltr">' + esc(sayZh) + '</div>' +
-              (cPy ? '<div class="u-hero-py py" dir="ltr">' + esc(cPy) + '</div>' : '') +
+              (cPy && pyOn ? '<div class="u-hero-py py" dir="ltr">' + esc(cPy) + '</div>' : '') +
               '<button class="u-big-audio" ' + act("unitPlaySay", { text: sayZh, py: cPy }) + ' aria-label="پخش تلفظ">' + icon("volume-2", 18) + ' <span>شنیدن تلفظ</span></button>' +
             '</div>';
           }
@@ -8133,20 +8209,55 @@ resolvePy: function(str) {
         '</div>';
       }
 
-      // 0. فلش‌کارت آموزش واژه (Flashcard)
+      // 0. فلش‌کارت آموزش واژه (Flashcard) — در New HSK نمایش پین‌یین کنار صوت همیشه فعال است
       else if (ex.type === "flash") {
         var flZh = ex.hanzi || "",
           flPy = ex.py || "",
           flFa = ex.fa || "";
+        var showFlashPy = !!(flPy && (ex.alwaysShowPinyin || UnitSystem.pyOn()));
+        var corePill = "";
+        if (typeof ex.isCore === "boolean") {
+          corePill = '<div class="u-core-pill ' + (ex.isCore ? 'is-core' : 'is-practice') + '">' +
+            (ex.isCore ? '★ واژه اصلی (مرور لایتنر)' : '◇ واژه تمرینی آوا/ساختار') +
+            (ex.pos ? ' · ' + esc(ex.pos) : '') +
+          '</div>';
+        }
         exContent = '<div class="u-ex-card">' +
           badgeHtml +
           '<h3 class="u-ex-short-q" dir="rtl">' + esc(promptText) + '</h3>' +
           '<div class="u-hero-center">' +
+            corePill +
             '<div class="u-hero-hanzi han" dir="ltr">' + esc(flZh) + '</div>' +
             '<button class="u-big-audio" ' + act("unitPlaySay", { text: flZh, py: flPy }) + ' aria-label="شنیدن تلفظ">' + icon("volume-2", 18) + ' <span>شنیدن تلفظ</span></button>' +
-            (flPy && UnitSystem.pyOn() ? '<div class="u-hero-py py" dir="ltr">' + esc(flPy) + '</div>' : '') +
+            (showFlashPy ? '<div class="u-hero-py py" dir="ltr">' + esc(flPy) + '</div>' : '') +
             (flFa && UnitSystem.faOn() ? '<div class="u-hero-fa" dir="rtl">' + esc(flFa) + '</div>' : '') +
             (ex.ex ? '<div class="u-fc__ex" style="margin-top:12px; padding:10px 14px; background:#F1F5F9; border-radius:14px; width:100%; box-sizing:border-box;"><div class="han" dir="ltr" style="font-size:16px; font-weight:700; color:#0F172A; text-align:center;">' + esc(ex.ex) + '</div>' + (ex.exFa && UnitSystem.faOn() ? '<div style="font-size:13px; color:#64748B; font-weight:700; direction:rtl; text-align:center; margin-top:4px;">' + esc(ex.exFa) + '</div>' : '') + '</div>' : '') +
+          '</div>' +
+        '</div>';
+      }
+
+      // 0a. کارت مکالمه یا متن (Context Card - New HSK)
+      else if (ex.type === "context_card") {
+        var ctxLines = Array.isArray(ex.lines) ? ex.lines : [];
+        var ctxTitle = ex.mode === "text" ? "متن و نکته آموزشی" : "مکالمه این بخش";
+        exContent = '<div class="u-ex-card" style="direction:rtl; text-align:right;">' +
+          badgeHtml +
+          '<h3 class="u-ex-short-q" dir="rtl">' + esc(ctxTitle) + '</h3>' +
+          '<div class="u-context-card">' +
+            ctxLines.map(function(line) {
+              var lZh = line.hanzi || "";
+              var lPy = line.pinyin || "";
+              var lFa = line.meaning_fa || "";
+              return '<div class="u-dialogue-line">' +
+                '<div style="flex:1; min-width:0;">' +
+                  (line.speaker ? '<span class="u-dialogue-speaker">' + esc(line.speaker) + '</span>' : '') +
+                  '<div class="u-dialogue-zh han" dir="ltr">' + esc(lZh) + '</div>' +
+                  (lPy && UnitSystem.pyOn() ? '<div class="u-dialogue-py py" dir="ltr">' + esc(lPy) + '</div>' : '') +
+                  (lFa && UnitSystem.faOn() ? '<div class="u-dialogue-fa" dir="rtl">' + esc(lFa) + '</div>' : '') +
+                '</div>' +
+                (lZh ? '<button class="tl-disc" ' + act("unitPlaySay", { text: lZh, py: lPy }) + ' aria-label="شنیدن جمله">' + icon("volume-2", 17) + '</button>' : '') +
+              '</div>';
+            }).join("") +
           '</div>' +
         '</div>';
       }
@@ -8365,6 +8476,7 @@ resolvePy: function(str) {
 
       // فیدبک پایین صفحه با طراحی کامل و نمایش توضیحات آموزشی بعد از پاسخ
       var fb = runner.feedbackState;
+      var fbText = (ex && (ex.feedbackFa || ex.tip)) || "";
       var fbSheet = "";
       if (fb === "correct") {
         fbSheet = '<div class="u-feedback is-correct">' +
@@ -8372,7 +8484,7 @@ resolvePy: function(str) {
             '<div class="u-fb-ico">' + icon("circle-check", 24) + '</div>' +
             '<div class="u-fb-text-wrap">' +
               '<strong class="u-fb-title">' + esc(runner._uPraise || "عالی بود!") + '</strong>' +
-              (ex && ex.tip ? '<p class="u-fb-msg u-fb-tip" style="margin-top:6px; font-size:13.5px; line-height:1.6; color:#334155;">' + esc(ex.tip) + '</p>' : '') +
+              (fbText ? '<p class="u-fb-msg u-fb-tip" style="margin-top:6px; font-size:13.5px; line-height:1.6; color:#334155;">' + esc(fbText) + '</p>' : '') +
             '</div>' +
           '</div>' +
           '<div class="u-fb-actions">' +
@@ -8382,7 +8494,7 @@ resolvePy: function(str) {
       } else if (fb === "wrong") {
         var wrHintMsg = runner._uWriteHint
           ? 'نویسه را کامل ننوشتی — همه‌ی خط‌ها را با دست بنویس.'
-          : (ex && ex.tip ? esc(ex.tip) : 'دقت کنید! دوباره تلاش کنید یا ادامه دهید.');
+          : (fbText ? esc(fbText) : 'دقت کنید! دوباره تلاش کنید یا ادامه دهید.');
         fbSheet = '<div class="u-feedback is-wrong">' +
           '<div class="u-fb-main">' +
             '<div class="u-fb-ico">' + icon("circle-x", 24) + '</div>' +
@@ -8397,7 +8509,7 @@ resolvePy: function(str) {
           '</div>' +
         '</div>';
       } else {
-        var noCheck = ex.type === "flash" || ex.type === "gram";
+        var noCheck = ex.type === "flash" || ex.type === "gram" || ex.type === "context_card";
         var isWrite = ex.type === "write";
         var wrKey = runner.unitKey + ":" + runner.activeSectionIdx + ":" + runner.activeMiniIdx + ":" + runner.activeExIdx;
         var wrPhase = isWrite && runner._uWrite && runner._uWrite.key === wrKey ? runner._uWrite.phase : "anim";
@@ -9082,7 +9194,7 @@ unitPlaySay: function(arg) {
 
       var isOk = false;
 
-      if (ex.type === "choice" || ex.type === "audio_choice" || ex.type === "tone_pick" || ex.type === "reading_q" || ex.type === "listening_q") {
+      if (ex.type === "choice" || ex.type === "audio_choice" || ex.type === "tone_pick" || ex.type === "reading_q" || ex.type === "listening_q" || ex.type === "fill_blank" || ex.type === "dialogue_reply" || ex.type === "picture_match") {
         var userPick = runner.userAnswers[runner.activeExIdx];
         if (userPick == null) {
           UI.toast("لطفاً ابتدا یک گزینه را انتخاب کنید.");
@@ -9204,7 +9316,7 @@ unitPlaySay: function(arg) {
 
       // اگر زیرمجموعه کامل شد
       if (allMiniDone) {
-        var isFinal = (sec.id === "quiz" || runner.activeSectionIdx >= unit.sections.length - 1);
+        var isFinal = (sec.id === "quiz" || !!sec.isCheckpoint || runner.activeSectionIdx >= unit.sections.length - 1);
         var uIdx = unit.unitIndex || 0;
 
         if (isSectionNewlyCompleted) {
@@ -9212,7 +9324,7 @@ unitPlaySay: function(arg) {
             prog.done = true;
             UnitSystem.saveProgress(runner.unitKey, prog);
             if (window.Store && Store.completeLesson) {
-              Store.completeLesson("hsk1", uIdx);
+              Store.completeLesson(unit.courseId || "hsk1", uIdx);
             }
             if (window.Store && Store.addXp) {
               Store.addXp(50);
@@ -9222,6 +9334,13 @@ unitPlaySay: function(arg) {
             if (window.Store && Store.addXp) {
               Store.addXp(25);
             }
+          }
+
+          if (isFinal && unit.bonusCard && window.UnitActions && UnitActions.unitOpenBonusCard) {
+            runner.viewMode = "unit-path";
+            App.rerender();
+            setTimeout(function() { UnitActions.unitOpenBonusCard({ force: true }); }, 120);
+            return;
           }
 
           // نمایش پاپ‌آپ بزرگ جایزه و جشن تکمیل زیر درس (فقط یک‌بار در بار اول تکمیل)
@@ -9252,6 +9371,36 @@ unitPlaySay: function(arg) {
 
     unitLockedMiniToast: function(arg) {
       UI.toast("مرحله " + UnitSystem.faNum(arg.num) + " قفل است. لطفاً ابتدا مرحله قبلی را تکمیل کنید.");
+    },
+
+    unitOpenBonusCard: function(arg) {
+      var runner = UnitSystem.runner;
+      var unit = UnitSystem.UNITS[runner.unitKey] || {};
+      var bonus = unit.bonusCard;
+      if (!bonus) return;
+      var prog = UnitSystem.loadProgress(runner.unitKey);
+      var unlocked = !!(arg && arg.force) || !!prog.done || (prog.completedSections && prog.completedSections.length >= (unit.sections || []).length);
+      if (!unlocked) {
+        UI.toast("این کارت جایزه پس از تکمیل آزمون پایان درس (زیردرس ۶) باز می‌شود!");
+        return;
+      }
+      if (window.UI && UI.layer) {
+        var esc = UI.esc, act = UI.act;
+        var html = '<button class="scrim" ' + act("unitCloseBonusCard") + ' aria-label="بستن"></button>' +
+          '<div class="sheet u-bonus-card-sheet" role="dialog" aria-label="کارت جایزه فرهنگی">' +
+            '<div class="sheet__grab" style="width:44px;height:5px;background:#cbd5e1;border-radius:3px;margin:0 auto 14px;"></div>' +
+            '<div style="display:inline-flex;align-items:center;gap:6px;padding:4px 12px;border-radius:999px;background:#FEF3C7;color:#92400E;font-size:11.5px;font-weight:800;margin-bottom:10px;">🎁 小语的彩蛋 · کارت جایزه پایان درس</div>' +
+            '<h3 style="margin:0 0 6px;font-size:18px;font-weight:900;color:#0F172A;">' + esc(bonus.title_fa || "") + '</h3>' +
+            '<div class="han" dir="ltr" style="font-size:15px;font-weight:800;color:#0F766E;margin-bottom:12px;">' + esc(bonus.title_zh || "") + '</div>' +
+            '<p style="margin:0 0 18px;font-size:14px;line-height:1.85;color:#334155;font-weight:500;">' + esc(bonus.content_fa || "") + '</p>' +
+            '<button class="hm-cta" ' + act("unitCloseBonusCard") + '>فهمیدم و ادامه</button>' +
+          '</div>';
+        UI.layer(html);
+      }
+    },
+
+    unitCloseBonusCard: function() {
+      if (window.UI && UI.closeLayer) UI.closeLayer();
     },
 
     unitWriteReplay: function() {

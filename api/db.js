@@ -7,6 +7,84 @@ let pool = null;
 let matchedPgKey = "";
 let lastDbError = "";
 
+function isProduction() {
+  return process.env.NODE_ENV === "production" || process.env.VERCEL_ENV === "production";
+}
+
+// Load .env / .env.local in non-production environments without extra dependencies
+if (!isProduction()) {
+  try {
+    const fs = require("fs");
+    const path = require("path");
+    const rootDir = path.resolve(__dirname, "..");
+    for (const fname of [".env", ".env.local"]) {
+      const fpath = path.join(rootDir, fname);
+      if (!fs.existsSync(fpath)) continue;
+      const lines = fs.readFileSync(fpath, "utf8").split(/\r?\n/);
+      for (const raw of lines) {
+        const line = raw.trim();
+        if (!line || line.startsWith("#")) continue;
+        const eq = line.indexOf("=");
+        if (eq <= 0) continue;
+        const key = line.slice(0, eq).trim();
+        let val = line.slice(eq + 1).trim();
+        if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+          val = val.slice(1, -1);
+        }
+        if (key && !(key in process.env)) {
+          process.env[key] = val;
+        }
+      }
+    }
+  } catch (e) {}
+}
+
+function timingSafeEqualStr(a, b) {
+  const bufA = Buffer.from(String(a || ""), "utf8");
+  const bufB = Buffer.from(String(b || ""), "utf8");
+  if (bufA.length !== bufB.length) return false;
+  return crypto.timingSafeEqual(bufA, bufB);
+}
+
+function cors(req, res, methods = "GET, POST, OPTIONS") {
+  const allowedOrigin = process.env.ALLOWED_ORIGIN;
+  if (allowedOrigin) {
+    res.setHeader("Access-Control-Allow-Origin", allowedOrigin);
+    res.setHeader("Vary", "Origin");
+  } else if (req.headers && req.headers.origin) {
+    res.setHeader("Access-Control-Allow-Origin", req.headers.origin);
+    res.setHeader("Vary", "Origin");
+  } else {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+  }
+  res.setHeader("Access-Control-Allow-Methods", methods);
+  res.setHeader("Access-Control-Allow-Headers", "content-type, authorization, range, accept");
+}
+
+function parseBody(req) {
+  if (typeof req.body === "object" && req.body !== null) return req.body;
+  if (typeof req.body === "string" && req.body) {
+    try {
+      return JSON.parse(req.body);
+    } catch (e) {
+      console.warn("[api] invalid JSON body:", e.message);
+    }
+  }
+  return {};
+}
+
+function isDbRowPro(row) {
+  if (!row) return false;
+  if (row.status === "vip") return true;
+  if (!row.is_pro) return false;
+  if (!row.pro_expires_at) return true;
+  return new Date(row.pro_expires_at).getTime() > Date.now();
+}
+
+function pgSslOption() {
+  return { rejectUnauthorized: process.env.PG_SSL_STRICT === "true" };
+}
+
 function findPgConfig() {
   const priority = [
     "POSTGRES_URL_NON_POOLING",
@@ -31,7 +109,7 @@ function findPgConfig() {
         user: process.env.PGUSER,
         password: process.env.PGPASSWORD || "",
         database: process.env.PGDATABASE,
-        ssl: { rejectUnauthorized: false },
+        ssl: pgSslOption(),
         max: 5,
         idleTimeoutMillis: 30000,
         connectionTimeoutMillis: 6000,
@@ -59,7 +137,9 @@ try {
   if (supabaseUrl && anonKey) {
     supabaseClient = createClient(supabaseUrl, anonKey);
   }
-} catch (e) {}
+} catch (e) {
+  console.warn("[api/db.js] Supabase client init skipped:", e.message);
+}
 
 try {
   const { Pool } = require("pg");
@@ -70,7 +150,7 @@ try {
     parsed.searchParams.delete("sslmode");
     pool = new Pool({
       connectionString: parsed.toString(),
-      ssl: { rejectUnauthorized: false },
+      ssl: pgSslOption(),
       max: 5,
       idleTimeoutMillis: 30000,
       connectionTimeoutMillis: 6000,
@@ -175,13 +255,16 @@ async function initDb() {
   return dbInitPromise;
 }
 
+let warnedSessionSecret = false;
 function getSessionSecret() {
-  return (
-    process.env.AUTH_SECRET ||
-    process.env.SUPABASE_SERVICE_ROLE_KEY ||
-    process.env.RESEND_API_KEY ||
-    "chinifa-session-hmac-secret-v1"
-  );
+  const secret = process.env.AUTH_SECRET || process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.RESEND_API_KEY;
+  if (secret) return secret;
+  if (!warnedSessionSecret) {
+    warnedSessionSecret = true;
+    console.warn("[SECURITY] AUTH_SECRET is not set; deriving HMAC key from configured runtime env.");
+  }
+  const entropy = process.env.POSTGRES_URL_NON_POOLING || process.env.POSTGRES_URL || process.env.DATABASE_URL || process.env.VERCEL_URL || "chinifa-dev-session-hmac-secret";
+  return crypto.createHash("sha256").update("chinifa-session-v2:" + entropy).digest("hex");
 }
 
 function signSessionToken(payload) {
@@ -202,8 +285,14 @@ function verifySessionToken(token) {
   if (parts.length !== 3) return null;
   const b64 = parts[1];
   const sig = parts[2];
-  const expected = crypto.createHmac("sha256", getSessionSecret()).update(b64).digest("base64url");
-  if (sig !== expected) return null;
+  let expected;
+  try {
+    expected = crypto.createHmac("sha256", getSessionSecret()).update(b64).digest("base64url");
+  } catch (e) {
+    console.error("[api/db.js verifySessionToken]", e.message);
+    return null;
+  }
+  if (!timingSafeEqualStr(sig, expected)) return null;
   try {
     const parsed = JSON.parse(Buffer.from(b64, "base64url").toString("utf8"));
     if (!parsed || !parsed.uid || (parsed.exp && parsed.exp < Date.now())) return null;
@@ -263,14 +352,16 @@ async function getAuthUser(req) {
           source: "supabase",
         };
       }
-    } catch (e) {}
+    } catch (e) {
+      console.warn("[api/db.js getAuthUser supabase]", e.message);
+    }
   }
 
   return null;
 }
 
 function stableUserId(email) {
-  return crypto.createHash("md5").update(String(email || "").trim().toLowerCase()).digest("hex");
+  return crypto.createHash("sha256").update(String(email || "").trim().toLowerCase()).digest("hex").slice(0, 32);
 }
 
 module.exports = {
@@ -278,6 +369,12 @@ module.exports = {
   supabaseClient,
   pool,
   initDb,
+  cors,
+  parseBody,
+  timingSafeEqualStr,
+  isProduction,
+  isDbRowPro,
+  getSessionSecret,
   signSessionToken,
   verifySessionToken,
   hashPassword,

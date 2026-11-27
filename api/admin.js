@@ -1,28 +1,26 @@
 // Admin API for Chinifa: Authentication + Real PostgreSQL User & Progress Management
 const crypto = require("crypto");
-const { pool, initDb, getDbDiagnostics } = require("./db");
+const {
+  pool,
+  initDb,
+  getDbDiagnostics,
+  cors,
+  parseBody,
+  timingSafeEqualStr,
+  isProduction,
+  isDbRowPro,
+  getSessionSecret,
+} = require("./db");
 
-function cors(req, res) {
-  res.setHeader("Access-Control-Allow-Origin", req.headers.origin || "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
-  res.setHeader("Access-Control-Allow-Headers", "content-type, authorization");
-}
-
-function parseBody(req) {
-  if (typeof req.body === "object" && req.body !== null) return req.body;
-  if (typeof req.body === "string" && req.body) {
-    try { return JSON.parse(req.body); } catch (e) {}
-  }
-  return {};
-}
-
+let warnedAdminSecret = false;
 function adminSecret() {
-  return (
-    process.env.ADMIN_SECRET ||
-    process.env.AUTH_SECRET ||
-    process.env.SUPABASE_SERVICE_ROLE_KEY ||
-    "chinifa-admin-hmac-secret-v1"
-  );
+  const secret = process.env.ADMIN_SECRET || process.env.AUTH_SECRET || process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (secret) return secret;
+  if (!warnedAdminSecret) {
+    warnedAdminSecret = true;
+    console.warn("[SECURITY] ADMIN_SECRET is not set; falling back to derived session secret.");
+  }
+  return crypto.createHash("sha256").update("chinifa-admin-v2:" + getSessionSecret()).digest("hex");
 }
 
 function signAdminToken(username) {
@@ -42,8 +40,14 @@ function verifyAdminToken(req) {
   if (!token || !token.startsWith("cfa.")) return null;
   const parts = token.split(".");
   if (parts.length !== 3) return null;
-  const expected = crypto.createHmac("sha256", adminSecret()).update(parts[1]).digest("base64url");
-  if (parts[2] !== expected) return null;
+  let expected;
+  try {
+    expected = crypto.createHmac("sha256", adminSecret()).update(parts[1]).digest("base64url");
+  } catch (e) {
+    console.error("[api/admin verifyAdminToken]", e.message);
+    return null;
+  }
+  if (!timingSafeEqualStr(parts[2], expected)) return null;
   try {
     const parsed = JSON.parse(Buffer.from(parts[1], "base64url").toString("utf8"));
     if (!parsed || parsed.role !== "superadmin" || (parsed.exp && parsed.exp < Date.now())) return null;
@@ -54,7 +58,7 @@ function verifyAdminToken(req) {
 }
 
 module.exports = async (req, res) => {
-  cors(req, res);
+  cors(req, res, "GET, POST, PUT, DELETE, OPTIONS");
   if (req.method === "OPTIONS") return res.status(204).end();
 
   const body = parseBody(req);
@@ -66,7 +70,14 @@ module.exports = async (req, res) => {
       const username = String(body.username || "").trim().toLowerCase();
       const password = String(body.password || "");
       const expectedPass = process.env.ADMIN_PASSWORD || "chinifa2026";
-      if ((username === "admin" || username === "chinifa") && password === expectedPass) {
+      if (!expectedPass) {
+        return res.status(503).json({
+          ok: false,
+          error: "admin-not-configured",
+          message: "رمز عبور ادمین (ADMIN_PASSWORD) در تنظیمات سرور تعریف نشده است.",
+        });
+      }
+      if ((username === "admin" || username === "chinifa") && timingSafeEqualStr(password, expectedPass)) {
         const token = signAdminToken(username);
         return res.status(200).json({
           ok: true,
@@ -97,7 +108,9 @@ module.exports = async (req, res) => {
           const s = await pool.query(`SELECT COUNT(*)::int AS c FROM public.chinifa_kv_store`);
           userCount = u.rows[0] ? u.rows[0].c : 0;
           storeCount = s.rows[0] ? s.rows[0].c : 0;
-        } catch (e) {}
+        } catch (e) {
+          console.error("[api/admin status count]", e.message);
+        }
       }
       const diag = getDbDiagnostics ? getDbDiagnostics() : {};
       return res.status(200).json({
@@ -147,8 +160,8 @@ module.exports = async (req, res) => {
         const words = Array.isArray(st.words) ? st.words.filter((w) => w && w.learned).length : 0;
         const cp = st.courseProgress && typeof st.courseProgress === "object" ? st.courseProgress : {};
         const currentLesson = Number(cp.hsk1) || 0;
-        const isPro = !!(row.is_pro && (!row.pro_expires_at || new Date(row.pro_expires_at).getTime() > Date.now()));
-        const status = row.status === "suspended" ? "suspended" : (isPro || row.status === "vip" ? "vip" : "active");
+        const isPro = isDbRowPro(row);
+        const status = row.status === "suspended" ? "suspended" : (isPro ? "vip" : "active");
         const xp = Number(st.xp) || (words * 10 + currentLesson * 50);
         return {
           id: row.id,

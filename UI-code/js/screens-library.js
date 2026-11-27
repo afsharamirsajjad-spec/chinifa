@@ -109,7 +109,7 @@
 
     var chars = Array.from(String(ch || ""));
     var d = chars.length;
-    var thumbTxt = (d === 4) ? s(chars.slice(0, 2).join("")) + "<br>" + s(chars.slice(2).join("")) : s(ch);
+    var thumbTxt = (d === 4) ? '<i style="font:inherit;color:inherit;font-style:normal;line-height:1.15;text-align:center">' + s(chars.slice(0, 2).join("")) + "<br>" + s(chars.slice(2).join("")) + '</i>' : s(ch);
     var thumbCls = (d === 4) ? " tl-dthumb--4" : (d > 2) ? " tl-dthumb--3" : (d > 1) ? " tl-dthumb--2" : "";
     var thumbHtml = '<span class="tl-dthumb tl-dthumb--hz han' + thumbCls + '">' + thumbTxt + '</span>';
 

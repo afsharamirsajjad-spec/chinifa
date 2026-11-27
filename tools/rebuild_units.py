@@ -11,7 +11,7 @@ import io, os, runpy, shutil, sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = r"C:\Users\Amirsajjad\Documents\kanchinese"
+ROOT = os.path.dirname(HERE)
 UC_UI = os.path.join(ROOT, "UI-code", "js", "unit-course.js")
 UC_EX = os.path.join(ROOT, "extracted", "assets", "public", "js", "unit-course.js")
 

@@ -1,19 +1,5 @@
 // Chinifa User Learning Progress & State Synchronization API
-const { pool, initDb, getAuthUser } = require("./db");
-
-function cors(req, res) {
-  res.setHeader("Access-Control-Allow-Origin", req.headers.origin || "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-  res.setHeader("Access-Control-Allow-Headers", "content-type, authorization");
-}
-
-function parseBody(req) {
-  if (typeof req.body === "object" && req.body !== null) return req.body;
-  if (typeof req.body === "string" && req.body) {
-    try { return JSON.parse(req.body); } catch (e) {}
-  }
-  return {};
-}
+const { pool, initDb, getAuthUser, cors, parseBody } = require("./db");
 
 module.exports = async (req, res) => {
   cors(req, res);
@@ -28,7 +14,10 @@ module.exports = async (req, res) => {
       const stRes = await pool.query(
         `SELECT status FROM public.chinifa_users WHERE id = $1 OR ($2 <> '' AND email = $2) LIMIT 1`,
         [user.id, user.email || ""]
-      ).catch(() => ({ rows: [] }));
+      ).catch((e) => {
+        console.error("[api/store status check]", e.message);
+        return { rows: [] };
+      });
       if (stRes.rows[0] && stRes.rows[0].status === "suspended") {
         return res.status(403).json({ error: "account-suspended" });
       }
@@ -79,7 +68,7 @@ module.exports = async (req, res) => {
                updated_at = now()
            WHERE email = $1`,
           [user.email, level, name]
-        ).catch(() => {});
+        ).catch((e) => console.error("[api/store user update]", e.message));
       }
 
       return res.status(200).json({ ok: true });

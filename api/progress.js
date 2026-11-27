@@ -1,11 +1,5 @@
 // Chinifa Detailed Progress API
-const { pool, initDb, getAuthUser } = require("./db");
-
-function cors(req, res) {
-  res.setHeader("Access-Control-Allow-Origin", req.headers.origin || "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-  res.setHeader("Access-Control-Allow-Headers", "content-type, authorization");
-}
+const { pool, initDb, getAuthUser, cors } = require("./db");
 
 module.exports = async (req, res) => {
   cors(req, res);

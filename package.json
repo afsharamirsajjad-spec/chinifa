@@ -3,6 +3,10 @@
   "version": "2.4.0",
   "private": true,
   "description": "پلتفرم جامع آموزش زبان چینی چی‌نی‌فا",
+  "scripts": {
+    "bundle": "python tools/rebuild_bundles.py",
+    "check:api": "node -e \"['./api/db','./api/auth','./api/admin','./api/store','./api/lookups','./api/progress','./api/media-proxy'].forEach(require); console.log('API modules loaded OK');\""
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.109.0",
     "pg": "^8.23.1"

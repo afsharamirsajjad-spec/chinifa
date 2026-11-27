@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>پنل ادمین Chinify</title>
+<title>پنل ادمین chinifa</title>
 <style>
 @font-face{font-family:Vazirmatn;src:url(/admin/fonts/vazir.woff2) format("woff2");font-weight:100 900;font-display:swap}
 :root{
@@ -1510,7 +1510,7 @@ async function vDashboard(){
   if(!STATS) STATS = await apiGet("stats");
   $("#sfVer").textContent = "بیلد: " + (STATS.swCache || "?");
   body.innerHTML = "";
-  const head = viewhead("داشبورد", "نمای کلی محتوای Chinify و سلامت فایل‌ها");
+  const head = viewhead("داشبورد", "نمای کلی محتوای chinifa و سلامت فایل‌ها");
   const goBuild = el("button", "btn", "🔨 ساخت APK"); goBuild.onclick = () => nav("build");
   const goUnits = el("button", "btn ghost", "⚙ بازسازی تمرین‌ها"); goUnits.onclick = () => runUnitsDialog();
   head.append(goUnits, goBuild);
@@ -2889,7 +2889,7 @@ function pollTask(name){
         p.log.style.display = "";
         p.log.textContent = (st.log_tail || []).join("\n");
         p.log.scrollTop = p.log.scrollHeight;
-        if(st.ok) toast(name === "build" ? "APK ساخته شد ✓ — Chinify.apk" : "تمرین‌ها بازسازی شد ✓", "ok");
+        if(st.ok) toast(name === "build" ? "APK ساخته شد ✓ — Chinifa.apk" : "تمرین‌ها بازسازی شد ✓", "ok");
         else toast(name === "build" ? "ساخت APK ناموفق — لاگ را ببین" : "بازسازی ناموفق — لاگ را ببین", "err");
       }
     }
@@ -2902,7 +2902,7 @@ async function vBuild(){
   body.innerHTML = "";
   const head = viewhead("ساخت APK و پایش", "خروجی نصب‌شدنی و ابزارهای تولید محتوا");
   body.appendChild(head);
-  const pb = taskPanel("build", "🔨 ساخت APK", "اسکریپت final_identity_apk.py — خروجی: chinify/Chinify.apk", "ساخت APK");
+  const pb = taskPanel("build", "🔨 ساخت APK", "اسکریپت build_apk.py — خروجی: Chinifa.apk", "ساخت APK");
   taskPanels.build = pb;
   body.appendChild(pb.box);
   const pu = taskPanel("units", "⚙ بازسازی تمرین‌های درس‌ها", "gen_units.py → splice_units.py → کپی به بیلد (unit-course.js)", "بازسازی");
