@@ -1,4 +1,4 @@
-!function(e){"use strict";var n=UI.esc,t=UI.act,i=/^KAN[A-Z2-9]{4}$/,a=null,r=null;function o(n,t){return e.t?e.t(n,t):n}function s(){return e.Track&&Track.device?Track.device():""}function v(n,t){return e.Sync&&Sync.call?Sync.call("/api/invite/"+n,{method:"POST",body:JSON.stringify(t||{})}).then(function(e){return e&&e.ok?e.json().then(function(e){return e&&"object"==typeof e?e:{ok:!1,reason:"net"}},function(){return{ok:!1,reason:"net"}}):{ok:!1,reason:"net",status:e?e.status:0}}):Promise.reject(new Error("no sync"))}function c(e){return!!e&&"net"!==e.reason}function l(e){var n=String(e||"").toUpperCase().replace(/[^A-Z0-9]/g,"");return i.test(n)?n:""}function d(e){return"https://chinifa.app/i/"+e}function u(){setTimeout(function(){"home"===App.screen&&e.AcAsk&&AcAsk.maybe&&AcAsk.maybe()},600)}function p(){var e=Store.state.gift;return e&&Number(e.until)||0}function f(e,n){e=Number(e)||0;var t=p();!n&&e<t&&t>Date.now()||e!==t&&Store.set({gift:{until:e}})}
+!function(e){"use strict";var n=UI.esc,t=UI.act,i=/^KAN[A-Z2-9]{4}$/,a=null,r=null;function o(n,t){return e.t?e.t(n,t):n}function s(){return e.Track&&Track.device?Track.device():""}function v(n,t){return Promise.resolve({ok:!1,reason:"net",status:0})}function c(e){return!!e&&"net"!==e.reason}function l(e){var n=String(e||"").toUpperCase().replace(/[^A-Z0-9]/g,"");return i.test(n)?n:""}function d(e){return"https://chinifa.app/i/"+e}function u(){setTimeout(function(){"home"===App.screen&&e.AcAsk&&AcAsk.maybe&&AcAsk.maybe()},600)}function p(){var e=Store.state.gift;return e&&Number(e.until)||0}function f(e,n){e=Number(e)||0;var t=p();!n&&e<t&&t>Date.now()||e!==t&&Store.set({gift:{until:e}})}
 function getOrCreateInviteCode() {
   var inv = Store.state.invite || {};
   if (!inv.code) {
@@ -24,7 +24,7 @@ function getOrCreateInviteCode() {
   return inv;
 }
 
-function m(){var e=s();return e?a||(a=v("me",{device:e}).then(function(e){if(a=null,!e||!e.ok)return Store.state.invite||null;var n={code:e.code,joined:e.joined||0,rewarded:e.rewarded||0,max:e.max||10,days:e.days||7,at:Date.now(),friends:Array.isArray(e.friends)?e.friends.slice(0,50):[]};return Store.set({invite:n}),f(e.until,e.folded),null==Store.state.inviteSeen&&Store.set({inviteSeen:0}),n.rewarded>(Store.state.inviteSeen||0)&&(r=r||"reward",u()),n},function(){a=null;return getOrCreateInviteCode()})):Promise.resolve(Store.state.invite||null)}function b(n, t) {
+function m(){return Promise.resolve(getOrCreateInviteCode())}function b(n, t) {
   var raw = String(n || "").trim().toUpperCase();
   var i = l(raw) || (/^[A-Z0-9]{4,16}$/.test(raw) ? raw : "");
   if (!i) return Promise.resolve({ ok: false, reason: "unknown" });
