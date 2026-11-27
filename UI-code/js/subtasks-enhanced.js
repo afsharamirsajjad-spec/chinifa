@@ -305,6 +305,234 @@
     initObserver();
   }
 
+  /* ──────────────────────────────────────────────────────────
+     ۷. اتصال زنده به تنظیمات ادمین (بنر اعلان، تعمیرات، نسخه) و ارسال بازخورد
+  ────────────────────────────────────────────────────────── */
+  function cmpVer(a, b) {
+    var pa = String(a || '0').split('.').map(function(x) { return parseInt(x, 10) || 0; });
+    var pb = String(b || '0').split('.').map(function(x) { return parseInt(x, 10) || 0; });
+    for (var i = 0; i < 3; i++) {
+      var d = (pa[i] || 0) - (pb[i] || 0);
+      if (d !== 0) return d < 0 ? -1 : 1;
+    }
+    return 0;
+  }
+
+  function ensureLiveStyles() {
+    if (document.getElementById('chinifa-live-cfg-css')) return;
+    var st = document.createElement('style');
+    st.id = 'chinifa-live-cfg-css';
+    st.textContent =
+      '#chinifa-ann-banner{margin:10px 14px 4px;padding:10px 14px;border-radius:14px;background:linear-gradient(135deg,#ECFDF5 0%,#D1FAE5 100%);border:1.5px solid #34D399;color:#065F46;display:flex;align-items:center;gap:10px;font-size:13px;font-weight:700;line-height:1.6;box-shadow:0 4px 14px rgba(16,185,129,0.12);direction:rtl;text-align:right;position:relative;z-index:10}' +
+      '#chinifa-ann-banner .cf-ann-ico{font-size:18px;flex:0 0 auto}' +
+      '#chinifa-ann-banner .cf-ann-txt{flex:1;min-width:0;word-break:break-word}' +
+      '#chinifa-ann-banner .cf-ann-x{background:rgba(6,95,70,0.1);border:none;color:#065F46;width:26px;height:26px;border-radius:50%;cursor:pointer;font-size:14px;font-weight:900;display:flex;align-items:center;justify-content:center;flex:0 0 auto}' +
+      '#chinifa-maint-wall{position:fixed;inset:0;z-index:999998;background:radial-gradient(circle at 50% 30%,#065F46 0%,#0B121A 80%);color:#fff;display:flex;align-items:center;justify-content:center;padding:24px;direction:rtl;text-align:center}' +
+      '#chinifa-maint-wall .cf-mw-card{max-width:380px;width:100%;background:rgba(19,29,41,0.92);border:1px solid rgba(52,211,153,0.35);border-radius:22px;padding:28px 22px;box-shadow:0 20px 50px rgba(0,0,0,0.5)}' +
+      '#chinifa-maint-wall img{width:96px;height:96px;object-fit:contain;margin-bottom:10px}' +
+      '#chinifa-maint-wall h2{margin:0 0 8px;font-size:19px;font-weight:900;color:#fff}' +
+      '#chinifa-maint-wall p{margin:0 0 18px;font-size:13.5px;line-height:1.8;color:#CBD5E1}' +
+      '#chinifa-maint-wall button{background:#10B981;color:#04241A;border:none;border-radius:12px;padding:10px 22px;font-family:inherit;font-size:14px;font-weight:800;cursor:pointer}' +
+      '#chinifa-fb-modal{position:fixed;inset:0;z-index:999990;background:rgba(15,23,42,0.65);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;padding:18px;direction:rtl;text-align:right}' +
+      '#chinifa-fb-modal .cf-fb-win{width:100%;max-width:420px;background:#fff;color:#0F172A;border-radius:20px;padding:20px;box-shadow:0 24px 60px rgba(15,23,42,0.3)}' +
+      '#chinifa-fb-modal h3{margin:0 0 4px;font-size:17px;font-weight:900;color:#0F172A}' +
+      '#chinifa-fb-modal .cf-fb-sub{margin:0 0 14px;font-size:12.5px;color:#64748B}' +
+      '#chinifa-fb-modal label{display:block;font-size:12px;font-weight:700;color:#334155;margin:10px 0 4px}' +
+      '#chinifa-fb-modal select,#chinifa-fb-modal input,#chinifa-fb-modal textarea{width:100%;box-sizing:border-box;border:1.5px solid #E2E8F0;border-radius:11px;padding:9px 11px;font-family:inherit;font-size:13px;background:#F8FAFC;color:#0F172A}' +
+      '#chinifa-fb-modal textarea{min-height:92px;resize:vertical}' +
+      '#chinifa-fb-modal .cf-fb-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:16px}' +
+      '#chinifa-fb-modal .cf-fb-cancel{background:#F1F5F9;color:#475569;border:none;border-radius:11px;padding:9px 16px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer}' +
+      '#chinifa-fb-modal .cf-fb-send{background:#10B981;color:#fff;border:none;border-radius:11px;padding:9px 18px;font-family:inherit;font-size:13px;font-weight:800;cursor:pointer}';
+    document.head.appendChild(st);
+  }
+
+  function renderAppConfigOverlays() {
+    var cfg = w.__chinifaAppConfig;
+    if (!cfg) return;
+    ensureLiveStyles();
+
+    // 1. حالت تعمیرات یا نسخه قدیمی نامعتبر
+    var curVer = (w.T && w.T.version) ? w.T.version : '2.4.0';
+    var forceUpgrade = !!(cfg.minSupportedVersion && cmpVer(curVer, cfg.minSupportedVersion) < 0);
+    var wall = document.getElementById('chinifa-maint-wall');
+    if (cfg.maintenanceMode || forceUpgrade) {
+      if (!wall) {
+        wall = document.createElement('div');
+        wall.id = 'chinifa-maint-wall';
+        document.body.appendChild(wall);
+      }
+      var title = forceUpgrade ? 'به‌روزرسانی الزامی نسخه جدید' : 'در حال به‌روزرسانی و تعمیرات';
+      var bodyMsg = forceUpgrade
+        ? ('نسخه فعلی شما (' + esc(curVer) + ') قدیمی است. لطفاً نسخه ' + esc(cfg.appVersion || 'جدید') + ' را نصب کنید.')
+        : (cfg.announcementText || 'سرورهای چی‌نی‌فا در حال به‌روزرسانی هستند. لطفاً دقایقی دیگر مجدداً تلاش کنید.');
+      wall.innerHTML =
+        '<div class="cf-mw-card">' +
+          '<img src="' + asset('art/mascot-sleep.webp') + '" alt="">' +
+          '<h2>' + esc(title) + '</h2>' +
+          '<p>' + esc(bodyMsg) + '</p>' +
+          (forceUpgrade
+            ? '<button type="button" id="cfMwAction">دانلود نسخه جدید</button>'
+            : '<button type="button" id="cfMwAction">تلاش مجدد</button>') +
+        '</div>';
+      var mwBtn = document.getElementById('cfMwAction');
+      if (mwBtn) {
+        mwBtn.onclick = function() {
+          if (forceUpgrade) {
+            try { w.open('https://www.chinifarsi.ir/Chinifa.apk', '_blank'); } catch(e) {}
+          } else {
+            fetchLiveAppConfig(true);
+          }
+        };
+      }
+      return;
+    } else if (wall) {
+      wall.remove();
+    }
+
+    // 2. بنر اعلان سراسری روی صفحه خانه
+    var existingBan = document.getElementById('chinifa-ann-banner');
+    var annTxt = String(cfg.announcementText || '').trim();
+    var dismissed = '';
+    try { dismissed = sessionStorage.getItem('chinifa_ann_dismissed') || ''; } catch(e) {}
+    var shouldShow = !!(cfg.announcementActive && annTxt && dismissed !== annTxt && (!w.App || w.App.screen === 'home'));
+    if (!shouldShow) {
+      if (existingBan) existingBan.remove();
+      return;
+    }
+    var host = document.getElementById('screen-host');
+    if (!host) return;
+    var roadmap = host.querySelector('.kan-home-roadmap');
+    if (!existingBan) {
+      existingBan = document.createElement('div');
+      existingBan.id = 'chinifa-ann-banner';
+      existingBan.innerHTML =
+        '<span class="cf-ann-ico">📢</span>' +
+        '<span class="cf-ann-txt"></span>' +
+        '<button type="button" class="cf-ann-x" aria-label="بستن">✕</button>';
+      existingBan.querySelector('.cf-ann-x').onclick = function() {
+        try { sessionStorage.setItem('chinifa_ann_dismissed', annTxt); } catch(e) {}
+        existingBan.remove();
+      };
+    }
+    var txtEl = existingBan.querySelector('.cf-ann-txt');
+    if (txtEl && txtEl.textContent !== annTxt) txtEl.textContent = annTxt;
+    if (existingBan.parentNode !== host) {
+      host.insertBefore(existingBan, roadmap || host.firstChild);
+    }
+  }
+
+  var lastCfgFetch = 0;
+  function fetchLiveAppConfig(force) {
+    if (!force && Date.now() - lastCfgFetch < 30000) return;
+    lastCfgFetch = Date.now();
+    var url = (w.CC && typeof w.CC.api === 'function') ? w.CC.api('api/auth?action=app-config') : '/api/auth?action=app-config';
+    fetch(url, { cache: 'no-store' })
+      .then(function(r) { return r.ok ? r.json() : null; })
+      .then(function(d) {
+        if (d && d.ok && d.settings) {
+          w.__chinifaAppConfig = d.settings;
+          renderAppConfigOverlays();
+        }
+      })
+      .catch(function() {});
+  }
+
+  w.chinifaOpenFeedbackModal = function() {
+    ensureLiveStyles();
+    var old = document.getElementById('chinifa-fb-modal');
+    if (old) old.remove();
+
+    var curEmail = (w.Sync && w.Sync.state && w.Sync.state.email) || '';
+    var curName = (w.Store && w.Store.state && (w.Store.state.nick || w.Store.state.name)) || (w.Sync && w.Sync.state && w.Sync.state.username) || '';
+
+    var modal = document.createElement('div');
+    modal.id = 'chinifa-fb-modal';
+    modal.innerHTML =
+      '<div class="cf-fb-win" role="dialog" aria-label="ارسال نظر و پشتیبانی">' +
+        '<h3>ارسال نظر و پشتیبانی</h3>' +
+        '<p class="cf-fb-sub">پیام شما مستقیماً به پنل مدیریت چی‌نی‌فا ارسال می‌شود.</p>' +
+        '<label>نوع پیام</label>' +
+        '<select id="cfFbType">' +
+          '<option value="پیشنهاد">💡 پیشنهاد</option>' +
+          '<option value="گزارش باگ">🐞 گزارش خطا / باگ</option>' +
+          '<option value="سوال آموزشی">📚 سؤال آموزشی</option>' +
+          '<option value="تقدیر و رضایت">⭐ نظر و رضایت</option>' +
+        '</select>' +
+        '<label>نام شما</label>' +
+        '<input type="text" id="cfFbName" value="' + esc(curName) + '" placeholder="نام (اختیاری)">' +
+        '<label>ایمیل (اختیاری)</label>' +
+        '<input type="email" id="cfFbEmail" dir="ltr" value="' + esc(curEmail) + '" placeholder="name@example.com">' +
+        '<label>متن پیام</label>' +
+        '<textarea id="cfFbMsg" placeholder="نظر، پیشنهاد یا مشکل خود را بنویسید..."></textarea>' +
+        '<div class="cf-fb-actions">' +
+          '<button type="button" class="cf-fb-cancel">انصراف</button>' +
+          '<button type="button" class="cf-fb-send">ارسال پیام</button>' +
+        '</div>' +
+      '</div>';
+
+    document.body.appendChild(modal);
+    modal.onclick = function(e) { if (e.target === modal) modal.remove(); };
+    modal.querySelector('.cf-fb-cancel').onclick = function() { modal.remove(); };
+
+    var sendBtn = modal.querySelector('.cf-fb-send');
+    sendBtn.onclick = function() {
+      var type = modal.querySelector('#cfFbType').value;
+      var name = modal.querySelector('#cfFbName').value.trim();
+      var email = modal.querySelector('#cfFbEmail').value.trim();
+      var msg = modal.querySelector('#cfFbMsg').value.trim();
+      if (msg.length < 3) {
+        if (w.UI && w.UI.toast) w.UI.toast('لطفاً متن پیام را بنویسید.');
+        return;
+      }
+      sendBtn.disabled = true;
+      sendBtn.textContent = 'در حال ارسال...';
+      var headers = { 'Content-Type': 'application/json' };
+      try {
+        var tk = (w.Sync && typeof w.Sync.token === 'function') ? w.Sync.token() : '';
+        if (tk) headers.Authorization = 'Bearer ' + tk;
+      } catch(e) {}
+      var ep = (w.CC && typeof w.CC.api === 'function') ? w.CC.api('api/auth?action=feedback') : '/api/auth?action=feedback';
+      fetch(ep, {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify({ type: type, name: name, email: email, message: msg })
+      })
+        .then(function(r) { return r.json().then(function(d) { return { ok: r.ok, d: d }; }); })
+        .then(function(res) {
+          if (!res.ok || !res.d || !res.d.ok) {
+            throw new Error((res.d && res.d.message) || 'خطا در ارسال پیام');
+          }
+          modal.remove();
+          if (w.UI && w.UI.toast) w.UI.toast('پیام شما با موفقیت ثبت شد ✓');
+        })
+        .catch(function(err) {
+          sendBtn.disabled = false;
+          sendBtn.textContent = 'ارسال پیام';
+          if (w.UI && w.UI.toast) w.UI.toast(err.message || 'خطا در ارسال پیام');
+        });
+    };
+  };
+
+  document.addEventListener('click', function(e) {
+    var fbBtn = e.target && e.target.closest && e.target.closest('[data-act="openFeedbackModal"]');
+    if (fbBtn) {
+      e.preventDefault();
+      e.stopPropagation();
+      w.chinifaOpenFeedbackModal();
+    }
+  }, true);
+
+  var origRunChecks = runChecks;
+  runChecks = function() {
+    origRunChecks();
+    renderAppConfigOverlays();
+  };
+
+  document.addEventListener('visibilitychange', function() {
+    if (!document.hidden) fetchLiveAppConfig(false);
+  });
+  setTimeout(function() { fetchLiveAppConfig(true); }, 450);
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function() {
       setTimeout(hookApp, 200);

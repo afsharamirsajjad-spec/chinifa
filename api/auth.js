@@ -202,6 +202,89 @@ module.exports = async (req, res) => {
 
   try {
     // ----------------------------------------------------
+    // ۰. تنظیمات عمومی اپ و ثبت بازخورد کاربران
+    // ----------------------------------------------------
+    if (action === "app-config") {
+      res.setHeader("Cache-Control", "no-store, max-age=0");
+      const defaults = {
+        appName: "chinifa",
+        appTitleFa: "چی‌نی‌فا — سامانه آموزش زبان چینی",
+        appVersion: "2.4.0",
+        minSupportedVersion: "2.0.0",
+        maintenanceMode: false,
+        announcementActive: false,
+        announcementText: "",
+        announcementType: "info",
+      };
+      await initDb();
+      if (pool) {
+        try {
+          const r = await pool.query(`SELECT value FROM public.chinifa_settings WHERE key = 'app_settings' LIMIT 1`);
+          if (r.rows[0] && r.rows[0].value && typeof r.rows[0].value === "object") {
+            const s = r.rows[0].value;
+            return res.status(200).json({
+              ok: true,
+              settings: {
+                appName: String(s.appName || defaults.appName),
+                appTitleFa: String(s.appTitleFa || defaults.appTitleFa),
+                appVersion: String(s.appVersion || defaults.appVersion),
+                minSupportedVersion: String(s.minSupportedVersion || defaults.minSupportedVersion),
+                maintenanceMode: Boolean(s.maintenanceMode),
+                announcementActive: Boolean(s.announcementActive),
+                announcementText: String(s.announcementText || ""),
+                announcementType: String(s.announcementType || "info"),
+              },
+            });
+          }
+        } catch (e) {
+          console.error("[api/auth app-config db]", e.message);
+        }
+      }
+      return res.status(200).json({ ok: true, settings: defaults });
+    }
+
+    if (action === "feedback") {
+      if (req.method !== "POST") {
+        return res.status(405).json({ ok: false, error: "method-not-allowed" });
+      }
+      const user = await getAuthUser(req);
+      const fbType = String(body.type || "پیشنهاد").trim().slice(0, 40) || "پیشنهاد";
+      const subject = String(body.subject || "").trim().slice(0, 120);
+      const msgRaw = String(body.message || body.content || "").trim();
+      if (msgRaw.length < 3) {
+        return res.status(400).json({ ok: false, error: "empty-message", message: "لطفاً متن پیام خود را بنویسید (حداقل ۳ نویسه)." });
+      }
+      const messageText = (subject ? subject + " — " + msgRaw : msgRaw).slice(0, 2000);
+      const userEmail = String((user && user.email) || body.email || "").trim().toLowerCase().slice(0, 120);
+      const userName = String((user && user.fullName) || body.name || body.userName || (userEmail ? userEmail.split("@")[0] : "کاربر مهمان")).trim().slice(0, 80);
+
+      // Rate limit per sender key (20s)
+      globalThis.__chinifa_fb_rl = globalThis.__chinifa_fb_rl || new Map();
+      const rlKey = userEmail || String((req.headers && (req.headers["x-forwarded-for"] || req.headers["x-real-ip"])) || "anon").split(",")[0].trim();
+      const lastAt = globalThis.__chinifa_fb_rl.get(rlKey) || 0;
+      if (Date.now() - lastAt < 20000) {
+        return res.status(429).json({ ok: false, error: "rate-limited", message: "لطفاً چند ثانیه دیگر پیام بعدی را ارسال کنید." });
+      }
+      globalThis.__chinifa_fb_rl.set(rlKey, Date.now());
+
+      const fbId = "FB-" + Date.now().toString(36) + "-" + crypto.randomBytes(2).toString("hex");
+      await initDb();
+      if (!pool) {
+        return res.status(503).json({ ok: false, error: "db-unavailable", message: "سرویس پایگاه داده در دسترس نیست." });
+      }
+      await pool.query(
+        `INSERT INTO public.chinifa_feedback (id, user_email, user_name, type, message, status, reply)
+         VALUES ($1, $2, $3, $4, $5, 'در انتظار پاسخ', '')`,
+        [fbId, userEmail, userName, fbType, messageText]
+      );
+      return res.status(200).json({
+        ok: true,
+        id: fbId,
+        message: "پیام شما با موفقیت ثبت شد و در پنل پشتیبانی بررسی می‌شود.",
+      });
+    }
+
+    // ----------------------------------------------------
     // ۱. ارسال کد تایید با Resend: action=send-otp
     // ----------------------------------------------------
     if (action === "send-otp" || action === "send-code") {
