@@ -7137,32 +7137,90 @@ resolvePy: function(str) {
       return "unit_prog_" + (unitKey || "hsk1:0");
     },
 
+    _normalizeProg: function(raw, unitKey) {
+      if (!raw || typeof raw !== "object") return null;
+      var mp = raw.mp && typeof raw.mp === "object" ? raw.mp : (raw.miniProgress && typeof raw.miniProgress === "object" ? raw.miniProgress : {});
+      var cs = Array.isArray(raw.cs) ? raw.cs.slice() : (Array.isArray(raw.completedSections) ? raw.completedSections.slice() : []);
+      var si = raw.si && typeof raw.si === "object" ? Object.assign({}, raw.si) : (raw.seenIntro && typeof raw.seenIntro === "object" ? Object.assign({}, raw.seenIntro) : {});
+      var ug = raw.g && typeof raw.g === "object" ? Object.assign({}, raw.g) : (raw.unlockedGifts && typeof raw.unlockedGifts === "object" ? Object.assign({}, raw.unlockedGifts) : {});
+      return {
+        unitKey: raw.unitKey || unitKey,
+        currentSectionIdx: Math.max(0, Number(raw.s !== undefined ? raw.s : raw.currentSectionIdx) || 0),
+        completedSections: cs,
+        miniProgress: Object.assign({ vocab: 0, grammar: 0, pronunciation: 0, conversation: 0, quiz: 0 }, mp),
+        seenIntro: si,
+        unlockedGifts: ug,
+        xpEarned: Number(raw.xpEarned) || 0,
+        done: Boolean(raw.d || raw.done)
+      };
+    },
+
+    _compactProg: function(prog) {
+      if (!prog || typeof prog !== "object") return null;
+      var mp = prog.miniProgress || {};
+      var cs = Array.isArray(prog.completedSections) ? prog.completedSections : [];
+      var ug = prog.unlockedGifts && typeof prog.unlockedGifts === "object" ? prog.unlockedGifts : {};
+      var si = prog.seenIntro && typeof prog.seenIntro === "object" ? prog.seenIntro : {};
+      var mpMax = 0;
+      Object.keys(mp).forEach(function(k) { mpMax = Math.max(mpMax, Number(mp[k]) || 0); });
+      var s = Math.max(0, Number(prog.currentSectionIdx) || 0);
+      var d = prog.done ? 1 : 0;
+      if (!d && !s && !cs.length && !mpMax && !Object.keys(ug).length) return null;
+      var out = { d: d, s: s, cs: cs, mp: {} };
+      Object.keys(mp).forEach(function(k) { if (Number(mp[k]) > 0) out.mp[k] = Number(mp[k]); });
+      if (Object.keys(ug).length) out.g = ug;
+      if (Object.keys(si).length) out.si = si;
+      return out;
+    },
+
     loadProgress: function(unitKey) {
       unitKey = unitKey || "hsk1:0";
-      var raw = null;
+      var lsRaw = null;
       try {
-        raw = localStorage.getItem(UnitSystem.getProgressKey(unitKey));
-        if (raw) raw = JSON.parse(raw);
-      } catch (e) { raw = null; }
-      if (!raw && window.Store && Store.state && Store.state.unitProgs && Store.state.unitProgs[unitKey]) {
-        raw = Store.state.unitProgs[unitKey];
+        var s = localStorage.getItem(UnitSystem.getProgressKey(unitKey));
+        if (s) lsRaw = UnitSystem._normalizeProg(JSON.parse(s), unitKey);
+      } catch (e) { lsRaw = null; }
+      var stRaw = null;
+      if (window.Store && Store.state && Store.state.unitProgs && Store.state.unitProgs[unitKey]) {
+        stRaw = UnitSystem._normalizeProg(Store.state.unitProgs[unitKey], unitKey);
       }
 
-      var prog = raw || {
-        unitKey: unitKey,
-        currentSectionIdx: 0,
-        completedSections: [],
-        miniProgress: {
-          "vocab": 0,
-          "grammar": 0,
-          "pronunciation": 0,
-          "conversation": 0,
-          "quiz": 0
-        },
-        seenIntro: {},
-        xpEarned: 0,
-        done: false
-      };
+      var prog = null;
+      if (lsRaw && stRaw) {
+        prog = {
+          unitKey: unitKey,
+          currentSectionIdx: Math.max(lsRaw.currentSectionIdx || 0, stRaw.currentSectionIdx || 0),
+          completedSections: lsRaw.completedSections.slice(),
+          miniProgress: Object.assign({}, lsRaw.miniProgress),
+          seenIntro: Object.assign({}, stRaw.seenIntro, lsRaw.seenIntro),
+          unlockedGifts: Object.assign({}, stRaw.unlockedGifts, lsRaw.unlockedGifts),
+          xpEarned: Math.max(lsRaw.xpEarned || 0, stRaw.xpEarned || 0),
+          done: Boolean(lsRaw.done || stRaw.done)
+        };
+        stRaw.completedSections.forEach(function(secId) {
+          if (prog.completedSections.indexOf(secId) < 0) prog.completedSections.push(secId);
+        });
+        Object.keys(stRaw.miniProgress).forEach(function(k) {
+          prog.miniProgress[k] = Math.max(Number(prog.miniProgress[k]) || 0, Number(stRaw.miniProgress[k]) || 0);
+        });
+      } else {
+        prog = lsRaw || stRaw || {
+          unitKey: unitKey,
+          currentSectionIdx: 0,
+          completedSections: [],
+          miniProgress: {
+            "vocab": 0,
+            "grammar": 0,
+            "pronunciation": 0,
+            "conversation": 0,
+            "quiz": 0
+          },
+          seenIntro: {},
+          unlockedGifts: {},
+          xpEarned: 0,
+          done: false
+        };
+      }
 
       prog.miniProgress = prog.miniProgress || {};
       // سازگاری با رکوردهای قدیمی
@@ -7192,8 +7250,23 @@ resolvePy: function(str) {
       try {
         if (window.Store && Store.state && Store.set) {
           var up = Object.assign({}, Store.state.unitProgs || {});
-          up[unitKey] = prog;
-          Store.set({ unitProgs: up });
+          var compact = UnitSystem._compactProg(prog);
+          if (compact) up[unitKey] = compact;
+          else delete up[unitKey];
+          var patch = { unitProgs: up };
+          var m = /^([a-z]+\d+):(\d+)$/.exec(unitKey);
+          if (m && prog && prog.done) {
+            var cp = Object.assign({}, Store.state.courseProgress || {});
+            var uIdx = Number(m[2]);
+            if ((Number(cp[m[1]]) || 0) <= uIdx) {
+              cp[m[1]] = uIdx + 1;
+              patch.courseProgress = cp;
+            }
+          }
+          Store.set(patch);
+          if (prog && prog.done && window.Sync && typeof Sync.pushNow === "function") {
+            Sync.pushNow();
+          }
         }
       } catch (e) {}
     },

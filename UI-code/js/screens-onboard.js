@@ -1,6 +1,21 @@
 !function(e){"use strict";var a=e.SCREENS=e.SCREENS||{},o=UI.esc,n=UI.icon,s=UI.act;a.auth={render:function(){var e,a,i=App.v,r=!!i.authBusy,c=i.authError||"",l="offline"===Sync.state.status,u="new"===i.authMode;
-var errMap={"Wrong username or password":t("auErrWrong"),"no-such-account":t("auErrWrong"),"wrong-password":t("auErrWrong"),"kv-not-configured":"دیتابیس ذخیره‌سازی کاربران هنوز متصل نشده است","passwords-dont-match":"رمز عبور با تکرار آن یکسان نیست","supabase-not-configured":"ارتباط با سامانه احراز هویت برقرار نشد","That username is taken":t("auErrTaken"),"user-taken":t("auErrTaken"),"Choose a username and a password.":t("auErrPickBoth"),"Enter your username and password.":t("auErrEnterBoth"),"Could not create the account":t("auErrCreate"),"Enter your email.":t("auErrEmailNeed"),"That email doesn’t look right":t("auErrEmailBad"),"invalid-email":t("auErrEmailBad"),"That email is already used by another account":t("auErrEmailTaken"),"email-taken":t("auErrEmailTaken"),"Sign in failed":t("auErrSignIn")};
+var errMap={"Wrong username or password":t("auErrWrong"),"no-such-account":t("auErrWrong"),"wrong-password":t("auErrWrong"),"kv-not-configured":"دیتابیس ذخیره‌سازی کاربران هنوز متصل نشده است","passwords-dont-match":"رمز عبور با تکرار آن یکسان نیست","supabase-not-configured":"ارتباط با سامانه احراز هویت برقرار نشد","That username is taken":t("auErrTaken"),"user-taken":t("auErrTaken"),"email-exists":t("auErrEmailTaken"),"EMAIL_EXISTS":t("auErrEmailTaken"),"Choose a username and a password.":t("auErrPickBoth"),"Enter your username and password.":t("auErrEnterBoth"),"Could not create the account":t("auErrCreate"),"Enter your email.":t("auErrEmailNeed"),"That email doesn’t look right":t("auErrEmailBad"),"invalid-email":t("auErrEmailBad"),"That email is already used by another account":t("auErrEmailTaken"),"email-taken":t("auErrEmailTaken"),"Sign in failed":t("auErrSignIn")};
 var errMsg=c?(e=c,(a=(e=String(e||"")).match(/^Password must be at least (\d+) characters/))?t("auErrPassShort",{n:a[1]}):/^Username must be /.test(e)?t("auErrNameRule"):/failed to fetch|networkerror|network request failed|load failed/i.test(e)?t("auErrNetwork"):errMap[e]||e):"";
+var otp=i.authOtp;
+if(otp){
+return '<div class="col au">'+
+'<div class="au-top"><button class="au-back" '+s("authOtpCancel")+' aria-label="'+o(t("auBack"))+'">'+n("chevron-left",22)+'</button></div>'+
+'<div class="au-body">'+
+'<div class="au-hero"><img class="au-hero__img" src="art/mascot/onb-hi.webp" alt="chinifa" width="72" height="72"><div class="au-title">تایید کد ایمیل</div><div class="au-sub">کد ۶ رقمی ارسال‌شده به <b dir="ltr">'+o(otp.email||"")+'</b> را وارد کنید</div></div>'+
+'<div class="au-card">'+
+'<div class="au-form">'+
+(otp.devCode?'<div style="background:#ECFDF5;border:1px solid #A7F3D0;color:#065F46;padding:8px 12px;border-radius:12px;font-size:12.5px;text-align:center;">کد تست لوکال: <b dir="ltr">'+o(otp.devCode)+'</b></div>':'')+
+'<div class="au-field"><span class="au-field__ico">'+n("shield-check",20)+'</span><input data-model="otpCode" type="tel" inputmode="numeric" maxlength="6" autocomplete="one-time-code" dir="ltr" style="text-align:center;letter-spacing:6px;font-size:20px;font-weight:900;" value="'+o(i.otpCode||"")+'" placeholder="••••••"></div>'+
+(c?'<div class="au-err">'+n("triangle-alert",16)+'<span>'+o(errMsg)+'</span></div>':'')+
+'<button type="button" class="hm-cta au-cta'+(r?" is-off":"")+'" '+s("doVerifyOtp")+'>تایید کد و ساخت حساب</button>'+
+'<div class="au-foot-switch" style="justify-content:space-between;width:100%;padding-top:4px;"><button type="button" class="au-inline-link" '+s("doResendOtp")+'>ارسال مجدد کد</button><button type="button" class="au-inline-link" style="color:#64748B!important;" '+s("authOtpCancel")+'>تغییر ایمیل</button></div>'+
+'</div></div></div></div>';
+}
 return '<div class="col au">'+
 '<div class="au-top">'+
 (u?'<button class="au-back" '+s("authMode",{m:"in"})+' aria-label="'+o(t("auBack"))+'">'+n("chevron-left",22)+"</button>":Store.state.bootstrapped&&App.stack.length?'<button class="au-back" '+s("back")+' aria-label="'+o(t("auBack"))+'">'+n("chevron-left",22)+"</button>":'<button class="au-skip" '+s("authSkip")+">"+o(t("auSkip"))+"</button>")+'</div>'+
@@ -14,7 +29,7 @@ return '<div class="col au">'+
 '<div class="au-field"><span class="au-field__ico">'+n("lock",20)+'</span><input data-model="loginPass" type="'+(i.showPass?"text":"password")+'" value="'+o(i.loginPass||"")+'" placeholder="'+o(u?t("auPassNew"):t("auPass"))+'" autocomplete="'+(u?"new-password":"current-password")+'"><button type="button" class="au-eye'+(i.showPass?" on":"")+'" '+s("authShowPass")+' aria-label="'+o(t("auShowPass"))+'">'+n("eye-off",20)+'</button></div>'+
 (u?'<div class="au-field"><span class="au-field__ico">'+n("lock",20)+'</span><input data-model="loginPassConfirm" type="'+(i.showPass?"text":"password")+'" value="'+o(i.loginPassConfirm||"")+'" placeholder="تکرار رمز عبور" autocomplete="new-password"></div>':'')+
 (u?'':'<div class="au-row-sub"><button type="button" class="au-link ac-forgot-link" '+s("acForgot")+'>'+o(t("acForgotLink"))+'</button></div>')+
-(c?'<div class="au-err">'+n("triangle-alert",16)+'<span>'+o(errMsg)+'</span></div>':'')+
+(c?'<div class="au-err" style="flex-wrap:wrap;gap:6px;">'+n("triangle-alert",16)+'<span>'+o(errMsg)+'</span>'+(i.authEmailExists?'<button type="button" class="au-inline-link" style="width:100%;text-align:center;" '+s("authSwitchToLogin")+'>ورود به حساب با همین ایمیل ←</button>':'')+'</div>':'')+
 '<button type="button" class="hm-cta au-cta'+(r?" is-off":"")+'" '+s(u?"doRegister":"doLogin")+'>'+o(u?t("auCreate"):t("auSignIn"))+'</button>'+
 '<div class="au-foot-switch">'+(u?'<span>قبلاً حساب دارید؟</span> <button type="button" class="au-inline-link" '+s("authMode",{m:"in"})+'>'+o(t("auSignIn"))+'</button>':'<span>هنوز ثبت‌نام نکرده‌اید؟</span> <button type="button" class="au-inline-link" '+s("authMode",{m:"new"})+'>'+o(t("auCreate"))+'</button>')+'</div>'+
 '</div>'+

@@ -61,8 +61,10 @@ function getOtpSecret() {
   return process.env.OTP_SECRET || getSessionSecret();
 }
 
-function createOtpToken(email, codeHash, expiresAt) {
-  const payloadB64 = Buffer.from(JSON.stringify({ email, hash: codeHash, expiresAt })).toString("base64url");
+function createOtpToken(email, codeHash, expiresAt, meta) {
+  const payload = { email, hash: codeHash, expiresAt };
+  if (meta && typeof meta === "object") payload.meta = meta;
+  const payloadB64 = Buffer.from(JSON.stringify(payload)).toString("base64url");
   const sig = crypto.createHmac("sha256", getOtpSecret()).update(payloadB64).digest("base64url");
   return `${payloadB64}.${sig}`;
 }
@@ -95,7 +97,7 @@ function verifyOtpToken(otpToken, email, inputHash) {
     }
     if (parsed.email === email && timingSafeEqualStr(parsed.hash, inputHash)) {
       usedOtpTokens.set(tokenKey, parsed.expiresAt);
-      return { status: "ok" };
+      return { status: "ok", meta: parsed.meta || null };
     }
     return { status: "mismatch" };
   } catch (e) {
@@ -352,6 +354,7 @@ module.exports = async (req, res) => {
 
       const inputHash = crypto.createHash("sha256").update(`${email}:${code}`).digest("hex");
       let verified = false;
+      let otpMeta = null;
 
       // Primary: verify stateless HMAC token (works across all Vercel serverless instances)
       const tokenCheck = verifyOtpToken(otpToken, email, inputHash);
@@ -363,6 +366,7 @@ module.exports = async (req, res) => {
       }
       if (tokenCheck.status === "ok") {
         verified = true;
+        otpMeta = tokenCheck.meta || null;
       }
 
       // Fallback: check in-memory cache
@@ -387,27 +391,34 @@ module.exports = async (req, res) => {
           return res.status(400).json({ error: "invalid-code", message: "کد ۶ رقمی وارد شده اشتباه است." });
         }
         verified = true;
+        otpMeta = cached.meta || null;
       }
 
       // Verified successfully!
       otpCache.delete(email);
       await initDb();
 
+      const regFullName = String((otpMeta && otpMeta.fullName) || name || email.split("@")[0]).trim().slice(0, 80);
+      const regPwHash = (otpMeta && otpMeta.pwHash) ? String(otpMeta.pwHash) : null;
+      const regLevel = String((otpMeta && otpMeta.hskLevel) || "HSK 1").trim().slice(0, 32);
+
       let userId = stableUserId(email);
-      let displayName = name || email.split("@")[0];
+      let displayName = regFullName;
+      let hskLevel = regLevel || "HSK 1";
       let proStatus = isUserPro(email);
       let storeSnapshot = null;
 
       if (pool) {
         try {
           const upsertRes = await pool.query(
-            `INSERT INTO public.chinifa_users (id, email, full_name, hsk_level, is_pro)
-             VALUES ($1, $2, $3, 'HSK 1', $4)
+            `INSERT INTO public.chinifa_users (id, email, full_name, password_hash, hsk_level, is_pro)
+             VALUES ($1, $2, $3, $4, $5, $6)
              ON CONFLICT (email) DO UPDATE SET
                full_name = COALESCE(NULLIF($3, ''), public.chinifa_users.full_name),
+               password_hash = COALESCE($4, public.chinifa_users.password_hash),
                updated_at = now()
              RETURNING id, email, full_name, hsk_level, status, role, is_pro, pro_expires_at`,
-            [userId, email, displayName, proStatus]
+            [userId, email, regFullName, regPwHash, hskLevel, proStatus]
           );
           if (upsertRes.rows[0]) {
             const row = upsertRes.rows[0];
@@ -416,6 +427,7 @@ module.exports = async (req, res) => {
             }
             userId = row.id || userId;
             displayName = row.full_name || displayName;
+            hskLevel = row.hsk_level || hskLevel;
             proStatus = proStatus || isDbRowPro(row);
           }
           const kvRes = await pool.query(
@@ -435,10 +447,10 @@ module.exports = async (req, res) => {
         id: userId,
         email: email,
         fullName: displayName,
-        hskLevel: "HSK 1",
+        hskLevel: hskLevel,
         learningStage: 1,
-        totalXp: 120,
-        streak: 1,
+        totalXp: 0,
+        streak: 0,
         verified: true,
         isPro: proStatus,
         pro: proStatus,
@@ -447,7 +459,7 @@ module.exports = async (req, res) => {
 
       return res.status(200).json({
         ok: true,
-        message: "ورود با موفقیت انجام شد.",
+        message: "ایمیل تایید و حساب کاربری فعال شد.",
         token: token,
         id: userId,
         username: displayName,
@@ -460,13 +472,14 @@ module.exports = async (req, res) => {
     }
 
     // ----------------------------------------------------
-    // ۳. ثبت‌نام عادی: action=register
+    // ۳. ثبت‌نام با ارسال کد تایید: action=register
+    //    ایمیل تکراری اجازه ثبت‌نام مجدد نمی‌دهد؛ حساب فقط بعد از verify-otp در دیتابیس ثبت می‌شود.
     // ----------------------------------------------------
     if (action === "register") {
       const email = String(body.email || "").trim().toLowerCase();
       const password = String(body.password || "");
-      const fullName = String(body.name || body.fullName || email.split("@")[0]).trim();
-      const hskLevel = String(body.hskLevel || "HSK 1").trim();
+      const fullName = String(body.name || body.fullName || body.username || email.split("@")[0]).trim().slice(0, 80);
+      const hskLevel = String(body.hskLevel || "HSK 1").trim().slice(0, 32);
 
       if (!validEmail(email)) {
         return res.status(400).json({ error: "bad-email", message: "آدرس ایمیل معتبر نیست." });
@@ -476,94 +489,81 @@ module.exports = async (req, res) => {
       }
 
       await initDb();
-      let userId = stableUserId(email);
+
+      // Reject already-registered email so existing users sign in and restore their progress
+      if (pool) {
+        try {
+          const exRes = await pool.query(
+            `SELECT id, status FROM public.chinifa_users WHERE email = $1 LIMIT 1`,
+            [email]
+          );
+          if (exRes.rows[0]) {
+            if (exRes.rows[0].status === "suspended") {
+              return res.status(403).json({
+                error: "account-suspended",
+                message: "حساب کاربری با این ایمیل توسط مدیر مسدود شده است.",
+              });
+            }
+            return res.status(409).json({
+              ok: false,
+              error: "email-exists",
+              code: "EMAIL_EXISTS",
+              message: "این ایمیل قبلاً ثبت‌نام کرده است. لطفاً از بخش «ورود» با همین ایمیل وارد شوید تا پیشرفت شما بازیابی شود.",
+            });
+          }
+        } catch (e) {
+          console.error("[api/auth register dup check]", e.message);
+        }
+      }
+
       const pwHash = hashPassword(password);
       const now = Date.now();
+
+      // Rate-limit OTP spam slightly (allow resend after 15s for pending registration)
+      const existingOtp = otpCache.get(email);
+      if (existingOtp && now - existingOtp.createdAt < 15000) {
+        const remaining = Math.ceil((15000 - (now - existingOtp.createdAt)) / 1000);
+        return res.status(429).json({
+          error: "rate-limited",
+          message: `لطفاً ${remaining} ثانیه دیگر برای ارسال مجدد کد تلاش کنید.`,
+          retryAfter: remaining,
+        });
+      }
+
       const code = generateCode();
       const codeHash = crypto.createHash("sha256").update(`${email}:${code}`).digest("hex");
       const expiresAt = now + 10 * 60 * 1000;
-      const otpToken = createOtpToken(email, codeHash, expiresAt);
+      const pendingMeta = { fullName, pwHash, hskLevel };
+      const otpToken = createOtpToken(email, codeHash, expiresAt, pendingMeta);
 
       otpCache.set(email, {
         hash: codeHash,
         attempts: 0,
         createdAt: now,
         expiresAt: expiresAt,
+        meta: pendingMeta,
       });
-
-      if (supabaseAdmin) {
-        try {
-          const { data: created } = await supabaseAdmin.auth.admin.createUser({
-            email,
-            password,
-            email_confirm: true,
-            user_metadata: { full_name: fullName, hsk_level: hskLevel },
-          });
-          if (created && created.user && created.user.id) userId = created.user.id;
-        } catch (e) {
-          console.warn("[api/auth register supabase]", e.message);
-        }
-      }
-
-      let regProStatus = isUserPro(email);
-      if (pool) {
-        try {
-          const uRes = await pool.query(
-            `INSERT INTO public.chinifa_users (id, email, full_name, password_hash, hsk_level, is_pro)
-             VALUES ($1, $2, $3, $4, $5, $6)
-             ON CONFLICT (email) DO UPDATE SET
-               full_name = COALESCE(NULLIF($3, ''), public.chinifa_users.full_name),
-               password_hash = $4,
-               hsk_level = $5,
-               updated_at = now()
-             RETURNING id, status, is_pro, pro_expires_at`,
-            [userId, email, fullName, pwHash, hskLevel, regProStatus]
-          );
-          if (uRes.rows[0]) {
-            userId = uRes.rows[0].id || userId;
-            regProStatus = regProStatus || isDbRowPro(uRes.rows[0]);
-          }
-        } catch (e) {
-          console.error("[api/auth register db]", e.message);
-        }
-      }
-
-      const token = signSessionToken({ uid: userId, email, name: fullName });
 
       let sendResult = { ok: true, devMode: false };
       try {
         sendResult = await sendResendOtpEmail(email, code);
       } catch (e) {
         console.error("[api/auth register resend]", e.message);
+        return res.status(500).json({
+          error: "resend-failed",
+          message: "خطا در ارسال ایمیل تایید: " + e.message,
+        });
       }
-
-      const userProfile = {
-        id: userId,
-        email: email,
-        fullName: fullName,
-        hskLevel: hskLevel,
-        learningStage: 1,
-        totalXp: 100,
-        streak: 1,
-        verified: false,
-        isPro: regProStatus,
-        pro: regProStatus,
-      };
 
       const exposeDevCode = Boolean(sendResult.devMode && !isProduction());
       return res.status(200).json({
         ok: true,
+        requiresOtp: true,
         otpToken: otpToken,
         devMode: exposeDevCode,
         code: exposeDevCode ? code : undefined,
-        message: "ثبت‌نام با موفقیت انجام شد. کد فعال‌سازی به ایمیل ارسال گردید.",
-        token: token,
-        id: userId,
-        username: fullName,
         email: email,
-        isPro: regProStatus,
-        pro: regProStatus,
-        user: userProfile,
+        message: "کد تایید ۶ رقمی به ایمیل شما ارسال شد. لطفاً برای تکمیل ثبت‌نام کد را وارد کنید.",
       });
     }
 

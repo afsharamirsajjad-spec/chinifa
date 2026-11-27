@@ -159,7 +159,24 @@ module.exports = async (req, res) => {
         const st = row.store_value && typeof row.store_value === "object" ? row.store_value : {};
         const words = Array.isArray(st.words) ? st.words.filter((w) => w && w.learned).length : 0;
         const cp = st.courseProgress && typeof st.courseProgress === "object" ? st.courseProgress : {};
-        const currentLesson = Number(cp.hsk1) || 0;
+        const up = st.unitProgs && typeof st.unitProgs === "object" ? st.unitProgs : {};
+        let unitDoneCount = 0;
+        let highestUnitReached = 0;
+        Object.keys(up).forEach((uk) => {
+          const uv = up[uk];
+          if (!uv || typeof uv !== "object") return;
+          const isDone = Boolean(uv.d || uv.done);
+          const cs = Array.isArray(uv.cs) ? uv.cs : (Array.isArray(uv.completedSections) ? uv.completedSections : []);
+          const mp = (uv.mp && typeof uv.mp === "object") ? uv.mp : (uv.miniProgress || {});
+          const mpMax = Object.values(mp).reduce((m, x) => Math.max(m, Number(x) || 0), 0);
+          const started = isDone || cs.length > 0 || mpMax > 0 || (Number(uv.s || uv.currentSectionIdx) || 0) > 0;
+          if (isDone) unitDoneCount += 1;
+          const m = /:(\d+)$/.exec(uk);
+          if (started && m) highestUnitReached = Math.max(highestUnitReached, Number(m[1]) + 1);
+          else if (started && uk === "lesson0") highestUnitReached = Math.max(highestUnitReached, 1);
+        });
+        const cpTotal = Object.keys(cp).reduce((sum, k) => sum + (Number(cp[k]) || 0), 0);
+        const currentLesson = Math.max(cpTotal, unitDoneCount, highestUnitReached);
         const isPro = isDbRowPro(row);
         const status = row.status === "suspended" ? "suspended" : (isPro ? "vip" : "active");
         const xp = Number(st.xp) || (words * 10 + currentLesson * 50);
