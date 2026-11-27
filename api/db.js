@@ -191,19 +191,13 @@ async function initDb() {
           created_at TIMESTAMPTZ DEFAULT now(),
           updated_at TIMESTAMPTZ DEFAULT now()
         );
-      `);
-      await client.query(`
         ALTER TABLE public.chinifa_users ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'active';
         ALTER TABLE public.chinifa_users ADD COLUMN IF NOT EXISTS role TEXT DEFAULT 'user';
-      `);
-      await client.query(`
         CREATE TABLE IF NOT EXISTS public.chinifa_settings (
           key TEXT PRIMARY KEY,
           value JSONB DEFAULT '{}'::jsonb,
           updated_at TIMESTAMPTZ DEFAULT now()
         );
-      `);
-      await client.query(`
         CREATE TABLE IF NOT EXISTS public.chinifa_feedback (
           id TEXT PRIMARY KEY,
           user_email TEXT DEFAULT '',
@@ -215,8 +209,6 @@ async function initDb() {
           created_at TIMESTAMPTZ DEFAULT now(),
           updated_at TIMESTAMPTZ DEFAULT now()
         );
-      `);
-      await client.query(`
         CREATE TABLE IF NOT EXISTS public.chinifa_kv_store (
           user_id TEXT PRIMARY KEY,
           email TEXT,
@@ -224,8 +216,6 @@ async function initDb() {
           value JSONB DEFAULT '{}'::jsonb,
           updated_at TIMESTAMPTZ DEFAULT now()
         );
-      `);
-      await client.query(`
         CREATE TABLE IF NOT EXISTS public.chinifa_lookups (
           id SERIAL PRIMARY KEY,
           user_id TEXT NOT NULL,
@@ -234,8 +224,6 @@ async function initDb() {
           en TEXT DEFAULT '',
           created_at TIMESTAMPTZ DEFAULT now()
         );
-      `);
-      await client.query(`
         CREATE INDEX IF NOT EXISTS idx_chinifa_users_email ON public.chinifa_users(email);
         CREATE INDEX IF NOT EXISTS idx_chinifa_kv_email ON public.chinifa_kv_store(email);
         CREATE INDEX IF NOT EXISTS idx_chinifa_lookups_user ON public.chinifa_lookups(user_id);

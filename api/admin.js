@@ -179,7 +179,18 @@ module.exports = async (req, res) => {
         const currentLesson = Math.max(cpTotal, unitDoneCount, highestUnitReached);
         const isPro = isDbRowPro(row);
         const status = row.status === "suspended" ? "suspended" : (isPro ? "vip" : "active");
-        const xp = Number(st.xp) || (words * 10 + currentLesson * 50);
+        const studied = st.studied && typeof st.studied === "object" ? st.studied : {};
+        let studiedXp = 0;
+        Object.values(studied).forEach((d) => {
+          if (!d || typeof d !== "object") return;
+          studiedXp += 2 * (Number(d.words) || 0) + 20 * (Number(d.lessons) || 0) + 5 * (Number(d.parts) || 0) + (Number(d.xp) || 0);
+        });
+        const journey = st.journey && typeof st.journey === "object" ? st.journey : {};
+        const revXp = 30 * Object.keys(journey.rev || {}).length;
+        const tcObj = journey.tc && typeof journey.tc === "object" ? journey.tc : {};
+        const tcXp = 10 * Object.keys(tcObj).filter((k) => tcObj[k] && tcObj[k].at).length;
+        const appXp = studiedXp + revXp + tcXp;
+        const xp = Math.max(Number(st.xp) || 0, appXp, words * 10 + currentLesson * 50);
         const lastIso = row.store_updated_at || row.updated_at || row.created_at || null;
         return {
           id: row.id,

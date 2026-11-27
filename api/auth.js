@@ -597,17 +597,20 @@ module.exports = async (req, res) => {
         if (uRes.rows[0]) {
           const row = uRes.rows[0];
           const realEmail = (row.email || email).toLowerCase();
-          if (row.status === "suspended") {
-            return res.status(403).json({ error: "account-suspended", message: "حساب کاربری شما توسط مدیر مسدود شده است." });
-          }
           if (!row.password_hash) {
+            if (row.status === "suspended") {
+              return res.status(403).json({ error: "account-suspended", message: "حساب کاربری شما توسط مدیر مسدود شده است." });
+            }
             return res.status(401).json({
               error: "password-not-set",
               message: "برای این حساب کلمه عبور تنظیم نشده است. لطفاً با کد تایید ایمیل وارد شوید.",
             });
           }
           if (!verifyPassword(password, row.password_hash)) {
-            return res.status(401).json({ error: "invalid-credentials", message: "ایمیل یا کلمه عبور اشتباه است." });
+            return res.status(401).json({ error: "invalid-credentials", message: "نام کاربری یا رمز عبور اشتباه است." });
+          }
+          if (row.status === "suspended") {
+            return res.status(403).json({ error: "account-suspended", message: "حساب کاربری شما توسط مدیر مسدود شده است." });
           }
           const proStatus = isUserPro(realEmail) || isDbRowPro(row);
           let storeSnapshot = null;
@@ -685,7 +688,7 @@ module.exports = async (req, res) => {
 
       return res.status(401).json({
         error: "invalid-credentials",
-        message: "ایمیل یا کلمه عبور اشتباه است.",
+        message: "نام کاربری یا رمز عبور اشتباه است.",
       });
     }
 
