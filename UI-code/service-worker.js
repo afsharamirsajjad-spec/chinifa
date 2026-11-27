@@ -1,11 +1,11 @@
-var CACHE = "chinifa-vf0df1a7c-dd766333";
+var CACHE = "chinifa-v40ae2d00-dd766333";
 var SHELL = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./css/chinifa-app.bundle.css?v=dd766333",
   "./js/vendor/hanzi-writer.min.js",
-  "./js/chinifa-app.bundle.js?v=f0df1a7c",
+  "./js/chinifa-app.bundle.js?v=40ae2d00",
   "./icons/icon-108.png",
   "./icons/icon-192.png",
   "./art/splash_dragon_mascot.png",

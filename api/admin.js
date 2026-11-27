@@ -163,6 +163,7 @@ module.exports = async (req, res) => {
         const isPro = isDbRowPro(row);
         const status = row.status === "suspended" ? "suspended" : (isPro ? "vip" : "active");
         const xp = Number(st.xp) || (words * 10 + currentLesson * 50);
+        const lastIso = row.store_updated_at || row.updated_at || row.created_at || null;
         return {
           id: row.id,
           name: row.full_name || st.name || st.nick || (row.email ? row.email.split("@")[0] : "کاربر"),
@@ -178,8 +179,10 @@ module.exports = async (req, res) => {
           role: row.role || (isPro ? "vip" : "user"),
           isPro: isPro || status === "vip",
           createdAt: row.created_at ? new Date(row.created_at).toISOString().slice(0, 10) : "",
+          createdAtIso: row.created_at ? new Date(row.created_at).toISOString() : null,
           joinedAt: row.created_at ? new Date(row.created_at).toISOString().slice(0, 10) : "",
-          lastActive: row.store_updated_at ? new Date(row.store_updated_at).toLocaleString("fa-IR") : (row.updated_at ? new Date(row.updated_at).toLocaleString("fa-IR") : "ثبت‌شده"),
+          lastActiveAt: lastIso ? new Date(lastIso).toISOString() : null,
+          lastActive: lastIso ? new Date(lastIso).toLocaleString("fa-IR") : "ثبت‌شده",
         };
       });
 
@@ -213,7 +216,10 @@ module.exports = async (req, res) => {
         [id, email, status, role, isPro, level, name]
       );
 
-      if (upd.rows.length === 0 && email) {
+      if (upd.rows.length === 0) {
+        if (!email) {
+          return res.status(400).json({ ok: false, error: "برای ساخت کاربر جدید در دیتابیس، وارد کردن ایمیل الزامی است." });
+        }
         await pool.query(
           `INSERT INTO public.chinifa_users (id, email, full_name, hsk_level, status, role, is_pro, pro_expires_at)
            VALUES ($1, $2, $3, $4, $5, $6, $7, CASE WHEN $7 THEN now() + interval '365 days' ELSE NULL END)
@@ -228,7 +234,41 @@ module.exports = async (req, res) => {
         );
       }
 
-      return res.status(200).json({ ok: true, status, role, isPro });
+      const targetId = (upd.rows[0] && upd.rows[0].id) || id;
+      const targetEmail = (upd.rows[0] && upd.rows[0].email) || email;
+      if (body.streak !== undefined || body.xp !== undefined || body.currentLesson !== undefined) {
+        try {
+          const kvRes = await pool.query(
+            `SELECT user_id, value FROM public.chinifa_kv_store WHERE user_id = $1 OR ($2 <> '' AND email = $2) LIMIT 1`,
+            [targetId, targetEmail]
+          );
+          const curVal = (kvRes.rows[0] && kvRes.rows[0].value && typeof kvRes.rows[0].value === "object")
+            ? kvRes.rows[0].value
+            : {};
+          curVal.level = level;
+          curVal.name = name;
+          if (body.streak !== undefined) curVal.streak = Math.max(0, Number(body.streak) || 0);
+          if (body.xp !== undefined) curVal.xp = Math.max(0, Number(body.xp) || 0);
+          if (body.currentLesson !== undefined) {
+            curVal.courseProgress = curVal.courseProgress && typeof curVal.courseProgress === "object" ? curVal.courseProgress : {};
+            curVal.courseProgress.hsk1 = Math.max(0, Number(body.currentLesson) || 0);
+          }
+          const storeUid = (kvRes.rows[0] && kvRes.rows[0].user_id) || targetId;
+          await pool.query(
+            `INSERT INTO public.chinifa_kv_store (user_id, email, store_key, value, updated_at)
+             VALUES ($1, $2, 'cheh-chin-state', $3, now())
+             ON CONFLICT (user_id) DO UPDATE SET
+               email = COALESCE(NULLIF(EXCLUDED.email, ''), public.chinifa_kv_store.email),
+               value = EXCLUDED.value,
+               updated_at = now()`,
+            [storeUid, targetEmail, JSON.stringify(curVal)]
+          );
+        } catch (e) {
+          console.error("[api/admin user-update kv]", e.message);
+        }
+      }
+
+      return res.status(200).json({ ok: true, id: targetId, status, role, isPro });
     }
 
     // 5. Delete User
@@ -265,9 +305,17 @@ module.exports = async (req, res) => {
           `INSERT INTO public.chinifa_feedback (id, user_email, user_name, type, message, status, reply, updated_at)
            VALUES ($1, $2, $3, $4, $5, $6, $7, now())
            ON CONFLICT (id) DO UPDATE SET status = EXCLUDED.status, reply = EXCLUDED.reply, updated_at = now()`,
-          [String(f.id), String(f.user_email || f.email || ""), String(f.user_name || f.user || ""), String(f.type || "feedback"), String(f.message || f.text || ""), String(f.status || "pending"), String(f.reply || "")]
+          [String(f.id), String(f.user_email || f.email || f.userId || ""), String(f.user_name || f.userName || f.user || ""), String(f.type || "feedback"), String(f.message || f.content || f.text || ""), String(f.status || "pending"), String(f.reply || "")]
         );
       }
+      return res.status(200).json({ ok: true });
+    }
+
+    if (action === "feedback-delete") {
+      if (!pool || !dbReady) return res.status(503).json({ ok: false, error: "db-unavailable" });
+      const id = String(body.id || (req.query && req.query.id) || "").trim();
+      if (!id) return res.status(400).json({ ok: false, error: "missing-id" });
+      await pool.query(`DELETE FROM public.chinifa_feedback WHERE id = $1`, [id]);
       return res.status(200).json({ ok: true });
     }
 

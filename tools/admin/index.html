@@ -168,6 +168,7 @@ details.ml .mlbody{padding:10px 14px}
 .optr input[type=radio]{width:16px;height:16px;accent-color:var(--acc);flex:0 0 16px}
 .optr input[type=text]{flex:1}
 @media(max-width:1100px){.layout{grid-template-columns:250px 1fr}.wordrow{grid-template-columns:64px 110px 1fr 80px 1fr 34px}}
+@media(max-width:768px){.layout{grid-template-columns:1fr;height:auto;min-height:100vh}.side{border-left:none;border-bottom:1px solid var(--line);max-height:40vh}.top input.q{width:100%}.grid2,.grid3,.grid4{grid-template-columns:1fr}.wordrow{grid-template-columns:1fr 1fr}.farow{grid-template-columns:1fr}.user-card{flex-wrap:wrap}.user-metrics{margin-inline-start:0}}
 
 /* ---------- User Management, Analytics & Extended Controls ---------- */
 .badge.vip{background:rgba(255,215,0,0.15);color:#ffd700;border:1px solid rgba(255,215,0,0.4)}
@@ -248,7 +249,7 @@ details.ml .mlbody{padding:10px 14px}
       <div class="sp"></div>
       <span class="badge" id="dbStatusBadge">⏳ در حال بررسی دیتابیس...</span>
       <input class="q" id="gq" placeholder="🔍 جستجو در همهٔ محتوا… (Enter)">
-      <a class="btn ghost" href="../../website/" target="_blank" title="مشاهده وب‌سایت معرفی">🌐 وب‌سایت</a>
+      <a class="btn ghost" href="/website/" target="_blank" title="مشاهده وب‌سایت معرفی">🌐 وب‌سایت</a>
       <button class="btn" id="saveBtn" onclick="saveAll()">💾 ذخیره</button>
       <button class="btn dangb sm" onclick="adminLogout()" title="خروج از پنل">خروج</button>
       <a class="btn gray" href="#/build">🔨 ساخت APK</a>
@@ -358,6 +359,10 @@ function updateDirty(){
 async function saveAll(){
   const paths = Object.keys(PEND);
   if(!paths.length){ toast("چیزی برای ذخیره نیست"); return; }
+  if(!(await detectLocalAdmin())){
+    toast("ویرایش فایل‌های استاتیک و بیلد فقط روی سرور محلی (START-ADMIN.bat) قابل ذخیره است. تغییرات کاربران، بازخوردها و تنظیمات در دیتابیس آنلاین ذخیره می‌شوند.", "err");
+    return;
+  }
   toast("در حال ذخیرهٔ " + paths.length + " فایل…");
   try{
     for(const p of paths){
@@ -405,9 +410,51 @@ function setFaM(ch, v){
 }
 
 /* ---------- api ---------- */
-async function apiGet(p){ return fetch("/admin/api/" + p).then(r => r.json()); }
-async function apiFile(path){ return apiGet("file?path=" + enc(path) + "&_t=" + Date.now()); }
+let HAS_LOCAL_ADMIN = null;
+let localAdminProbe = null;
+async function detectLocalAdmin(){
+  if(HAS_LOCAL_ADMIN !== null) return HAS_LOCAL_ADMIN;
+  if(localAdminProbe) return localAdminProbe;
+  localAdminProbe = fetch("/admin/api/stats", {cache: "no-store"})
+    .then(async r => {
+      const ct = (r.headers.get("content-type") || "").toLowerCase();
+      if(!r.ok || !ct.includes("application/json")) return false;
+      const d = await r.json().catch(() => null);
+      return !!(d && Array.isArray(d.courses));
+    })
+    .catch(() => false)
+    .then(res => { HAS_LOCAL_ADMIN = res; return res; });
+  return localAdminProbe;
+}
+async function apiGet(p){
+  const r = await fetch("/admin/api/" + p, {cache: "no-store"});
+  const ct = (r.headers.get("content-type") || "").toLowerCase();
+  if(!r.ok || !ct.includes("application/json")){
+    throw new Error("این بخش نیازمند اجرای سرور محلی (START-ADMIN.bat) است.");
+  }
+  return r.json();
+}
+async function staticFile(path){
+  const clean = String(path || "").replace(/^\/+/, "");
+  const r = await fetch("/app/" + clean + "?_t=" + Date.now(), {cache: "no-store"});
+  if(!r.ok) return {path: clean, size: 0, raw: "", parsed: null, error: "HTTP " + r.status};
+  const raw = await r.text();
+  let parsed = null;
+  if(clean.endsWith(".json")){
+    try{ parsed = JSON.parse(raw); }catch(e){ parsed = null; }
+  }
+  return {path: clean, size: raw.length, raw: raw, parsed: parsed, readOnly: true};
+}
+async function apiFile(path){
+  if(await detectLocalAdmin()){
+    return apiGet("file?path=" + enc(path) + "&_t=" + Date.now());
+  }
+  return staticFile(path);
+}
 async function apiPut(path, raw){
+  if(!(await detectLocalAdmin())){
+    throw new Error("ذخیره فایل‌های استاتیک فقط در سرور محلی (START-ADMIN.bat) امکان‌پذیر است.");
+  }
   return fetch("/admin/api/file", {method:"PUT", headers:{"Content-Type":"application/json"},
     body: JSON.stringify({path: path, raw: raw})}).then(r => r.json());
 }
@@ -586,6 +633,12 @@ function setDbBadge(connected, msg){
   b.className = "badge " + (connected ? "acc" : "dang");
   b.textContent = msg || (connected ? "🟢 دیتابیس متصل" : "🔴 دیتابیس متصل نیست");
 }
+let ADMIN_BOOTED = false;
+function startAdminAfterAuth(){
+  if(ADMIN_BOOTED) return;
+  ADMIN_BOOTED = true;
+  if(typeof window.__adminBoot === "function") window.__adminBoot();
+}
 (function initAdminAuthGate(){
   const gate = document.getElementById("admin-auth-gate");
   const form = document.getElementById("adminAuthForm");
@@ -603,11 +656,21 @@ function setDbBadge(connected, msg){
                 ? ("🔴 خطای اتصال دیتابیس: " + (d.dbError || "بررسی کنید"))
                 : "🔴 متغیر POSTGRES_URL روی این دیپلوی نیست (در Vercel یک Redeploy انجام دهید)");
           setDbBadge(!!d.dbConnected, dbErrMsg);
+          startAdminAfterAuth();
         } else {
           localStorage.removeItem("chinifa_admin_token");
           gate.hidden = false;
         }
-      }).catch(() => { gate.hidden = false; });
+      }).catch(() => {
+        detectLocalAdmin().then(isLoc => {
+          if(isLoc){ gate.hidden = true; setDbBadge(false, "🟡 حالت سرور محلی"); startAdminAfterAuth(); }
+          else { gate.hidden = false; }
+        });
+      });
+  } else {
+    detectLocalAdmin().then(isLoc => {
+      if(isLoc){ gate.hidden = true; setDbBadge(false, "🟡 حالت سرور محلی"); startAdminAfterAuth(); }
+    });
   }
   if(form){
     form.addEventListener("submit", async function(e){
@@ -630,6 +693,8 @@ function setDbBadge(connected, msg){
         localStorage.setItem("chinifa_admin_token", d.token);
         gate.hidden = true;
         USERS_LIST = null;
+        FEEDBACK_LIST = null;
+        APP_SETTINGS = null;
         location.reload();
       } catch(err){
         errEl.hidden = false;
@@ -651,6 +716,7 @@ async function getUsersData(){
         setDbBadge(!!res.dbConnected, res.dbConnected ? ("🟢 دیتابیس متصل (" + (res.users||[]).length + " کاربر)") : "🔴 دیتابیس متصل نیست");
         if(res.dbConnected){
           USERS_LIST = Array.isArray(res.users) ? res.users : [];
+          if(typeof buildNav === "function") buildNav();
           return USERS_LIST;
         }
       }
@@ -658,9 +724,10 @@ async function getUsersData(){
   }
   try {
     const res = await apiGet("users");
-    if(res && res.users && res.users.length) { USERS_LIST = res.users; return USERS_LIST; }
+    if(res && res.users && res.users.length) { USERS_LIST = res.users; if(typeof buildNav === "function") buildNav(); return USERS_LIST; }
   } catch(e){}
   USERS_LIST = [];
+  if(typeof buildNav === "function") buildNav();
   return USERS_LIST;
 }
 
@@ -686,7 +753,10 @@ async function syncUserToDb(u){
     level: u.level,
     status: u.status,
     role: u.role || (u.status === "vip" ? "vip" : "user"),
-    isPro: u.status === "vip" || u.role === "vip"
+    isPro: u.status === "vip" || u.role === "vip",
+    currentLesson: u.currentLesson,
+    streak: u.streak,
+    xp: u.xp
   });
 }
 
@@ -696,7 +766,8 @@ async function deleteUserFromDb(u){
 
 async function saveUsersData(list){
   USERS_LIST = list;
-  localStorage.setItem("chinifa_admin_users", JSON.stringify(list));
+  try{ localStorage.setItem("chinifa_admin_users", JSON.stringify(list)); }catch(e){}
+  if(typeof buildNav === "function") buildNav();
 }
 
 async function getFeedbackData(){
@@ -704,22 +775,38 @@ async function getFeedbackData(){
   if(getAdminToken()){
     try {
       const res = await adminApiCall("feedback-list", "GET");
-      if(res && res.dbConnected){ FEEDBACK_LIST = res.feedback || []; return FEEDBACK_LIST; }
+      if(res && res.dbConnected){
+        FEEDBACK_LIST = res.feedback || [];
+        if(typeof buildNav === "function") buildNav();
+        return FEEDBACK_LIST;
+      }
     } catch(e){}
   }
   try {
     const res = await apiGet("feedback");
-    if(res && res.feedback && res.feedback.length) { FEEDBACK_LIST = res.feedback; return FEEDBACK_LIST; }
+    if(res && res.feedback && res.feedback.length) {
+      FEEDBACK_LIST = res.feedback;
+      if(typeof buildNav === "function") buildNav();
+      return FEEDBACK_LIST;
+    }
   } catch(e){}
   FEEDBACK_LIST = [];
+  if(typeof buildNav === "function") buildNav();
   return FEEDBACK_LIST;
 }
 
 async function saveFeedbackData(list){
   FEEDBACK_LIST = list;
-  localStorage.setItem("chinifa_admin_feedback", JSON.stringify(list));
+  try{ localStorage.setItem("chinifa_admin_feedback", JSON.stringify(list)); }catch(e){}
+  if(typeof buildNav === "function") buildNav();
   if(getAdminToken()){
-    try { await adminApiCall("feedback-save", "POST", { feedback: list }); } catch(e){}
+    await adminApiCall("feedback-save", "POST", { feedback: list });
+  }
+}
+
+async function deleteFeedbackFromDb(id){
+  if(getAdminToken()){
+    await adminApiCall("feedback-delete", "POST", { id: id });
   }
 }
 
@@ -797,10 +884,11 @@ async function vUsers(targetId){
   body.appendChild(kpis);
 
   // Filter & Search bar
-  let fq = "", flv = "", fst = "";
+  let fq = targetId ? String(targetId).trim().toLowerCase() : "", flv = "", fst = "";
   const bar = el("div", "searchrow");
   const qi = document.createElement("input");
   qi.type = "text";
+  qi.value = targetId || "";
   qi.placeholder = "🔍 جستجو بر اساس نام، نام کاربری، شماره، ایمیل یا شناسه…";
   qi.oninput = () => { fq = qi.value.trim().toLowerCase(); draw(); };
 
@@ -820,7 +908,7 @@ async function vUsers(targetId){
 
   function filtered(){
     return users.filter(u => {
-      const matchQ = !fq || (u.name + " " + u.username + " " + (u.email||"") + " " + (u.phone||"") + " " + u.id).toLowerCase().includes(fq);
+      const matchQ = !fq || ((u.name||"") + " " + (u.username||"") + " " + (u.email||"") + " " + (u.phone||"") + " " + (u.id||"")).toLowerCase().includes(fq);
       const matchLv = !flv || u.level === flv;
       const matchSt = !fst || u.status === fst;
       return matchQ && matchLv && matchSt;
@@ -837,33 +925,34 @@ async function vUsers(targetId){
 
     items.forEach(u => {
       const card = el("div", "user-card");
-      const initials = u.name.split(" ").slice(0,2).map(s => s[0]).join("") || "کاربر";
+      const safeName = String(u.name || "کاربر");
+      const initials = safeName.trim().split(/\s+/).slice(0,2).map(s => s[0] || "").join("") || "ک";
       const statusFa = u.status === "vip" ? "ویژه VIP" : (u.status === "suspended" ? "مسدود" : "فعال");
-      const statusCls = u.status;
+      const statusCls = u.status === "vip" || u.status === "suspended" ? u.status : "active";
       const progressPercent = Math.min(100, Math.round(((u.currentLesson || 0) / 15) * 100));
 
       card.innerHTML = `
-        <div class="user-avatar">${initials}</div>
+        <div class="user-avatar">${esc(initials)}</div>
         <div class="user-info">
           <div class="user-name">
-            <span>${esc(u.name)}</span>
+            <span>${esc(safeName)}</span>
             <span class="badge ${statusCls}">${statusFa}</span>
-            <span class="badge" style="background:var(--panel2);border-color:var(--line2)">${u.level}</span>
+            <span class="badge" style="background:var(--panel2);border-color:var(--line2)">${esc(u.level || "HSK 1")}</span>
           </div>
           <div class="user-meta">
-            <span>شناسه: <b class="ltr font-mono">${u.id}</b></span>
-            <span>نام کاربری: <b class="ltr">@${u.username}</b></span>
-            <span>تماس: <span class="ltr">${u.phone || '—'}</span></span>
-            <span>آخرین فعالیت: ${u.lastActive || '—'}</span>
+            <span>شناسه: <b class="ltr font-mono">${esc(u.id)}</b></span>
+            <span>نام کاربری: <b class="ltr">@${esc(u.username || "")}</b></span>
+            <span>ایمیل: <span class="ltr">${esc(u.email || u.phone || '—')}</span></span>
+            <span>آخرین فعالیت: ${esc(u.lastActive || '—')}</span>
           </div>
         </div>
         <div class="user-metrics">
           <div style="text-align:center">
-            <div style="font-size:11px;color:var(--dim)">پیشرفت (درس ${u.currentLesson||0}/15)</div>
+            <div style="font-size:11px;color:var(--dim)">پیشرفت (درس ${Number(u.currentLesson)||0}/15)</div>
             <div class="prog-bar"><div class="prog-fill" style="width:${progressPercent}%"></div></div>
           </div>
-          <span class="metric-pill streak" title="استریک یادگیری روزانه">🔥 ${u.streak || 0} روز</span>
-          <span class="metric-pill xp" title="امتیاز کلی زبان‌آموز">⚡ ${u.xp || 0} XP</span>
+          <span class="metric-pill streak" title="استریک یادگیری روزانه">🔥 ${Number(u.streak) || 0} روز</span>
+          <span class="metric-pill xp" title="امتیاز کلی زبان‌آموز">⚡ ${Number(u.xp) || 0} XP</span>
         </div>
         <div class="user-actions">
           <button class="btn ghost sm btn-edit" title="ویرایش کامل">✏️</button>
@@ -915,7 +1004,7 @@ async function vUsers(targetId){
   function openUserModal(user){
     const isEdit = !!user;
     const u = user ? JSON.parse(JSON.stringify(user)) : {
-      id: "USR-" + (1000 + users.length + 1),
+      id: "usr_" + Date.now().toString(36) + Math.random().toString(36).slice(2,6),
       name: "",
       username: "",
       phone: "",
@@ -927,7 +1016,8 @@ async function vUsers(targetId){
       xp: 150,
       status: "active",
       createdAt: new Date().toISOString().slice(0,10),
-      lastActive: "امروز (لحظاتی پیش)",
+      lastActive: "همین الان",
+      lastActiveAt: new Date().toISOString(),
       completedLessons: [0]
     };
 
@@ -991,14 +1081,19 @@ async function vUsers(targetId){
     win.querySelector("#m_save_btn").onclick = async () => {
       const name = win.querySelector("#m_name").value.trim();
       const uname = win.querySelector("#m_user").value.trim();
+      const emailVal = win.querySelector("#m_email").value.trim().toLowerCase();
       if(!name || !uname){
-        alert("لطفاً نام و نام کاربری را وارد نمایید.");
+        toast("لطفاً نام و نام کاربری را وارد نمایید.", "err");
+        return;
+      }
+      if(!isEdit && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(emailVal)){
+        toast("برای ساخت کاربر جدید، وارد کردن ایمیل معتبر الزامی است.", "err");
         return;
       }
       u.name = name;
       u.username = uname;
       u.phone = win.querySelector("#m_phone").value.trim();
-      u.email = win.querySelector("#m_email").value.trim();
+      u.email = emailVal;
       u.level = win.querySelector("#m_level").value;
       u.status = win.querySelector("#m_status").value;
       u.role = win.querySelector("#m_role") ? win.querySelector("#m_role").value : "user";
@@ -1040,17 +1135,25 @@ async function vUserStats(){
 
   // Top Metrics
   const totalUsers = users.length || 1;
-  const activeToday = users.filter(u => (u.lastActive||'').includes('امروز') || (u.lastActive||'').includes('آنلاین')).length;
-  const dauRate = Math.round((activeToday / totalUsers) * 100);
-  const avgWords = Math.round(users.reduce((a,u) => a + (u.wordsLearned||0), 0) / totalUsers);
-  const avgCompletion = Math.round(users.reduce((a,u) => a + ((u.currentLesson||0)/15)*100, 0) / totalUsers);
+  const nowMs = Date.now();
+  const activeToday = users.filter(u => {
+    if(u.lastActiveAt){
+      const ts = Date.parse(u.lastActiveAt);
+      if(!isNaN(ts) && nowMs - ts <= 86400000) return true;
+    }
+    return (u.lastActive||'').includes('امروز') || (u.lastActive||'').includes('آنلاین') || (u.lastActive||'').includes('همین الان');
+  }).length;
+  const dauRate = users.length ? Math.round((activeToday / totalUsers) * 100) : 0;
+  const avgWords = users.length ? Math.round(users.reduce((a,u) => a + (u.wordsLearned||0), 0) / totalUsers) : 0;
+  const avgCompletion = users.length ? Math.round(users.reduce((a,u) => a + ((u.currentLesson||0)/15)*100, 0) / totalUsers) : 0;
+  const vipUsersCount = users.filter(u => u.status === "vip" || u.isPro).length;
 
   const statCards = el("div", "cards");
   statCards.innerHTML = `
-    <div class="stat"><div class="n">${dauRate}%</div><div class="l">نرخ تعامل روزانه (DAU)</div><div class="s">${activeToday} کاربر آنلاین امروز</div></div>
+    <div class="stat"><div class="n">${dauRate}%</div><div class="l">نرخ تعامل ۲۴ ساعت اخیر</div><div class="s">${activeToday} کاربر فعال اخیر</div></div>
     <div class="stat"><div class="n">${avgWords}</div><div class="l">میانگین واژه‌های آموخته</div><div class="s">از مجموع واژگان HSK</div></div>
     <div class="stat"><div class="n">${avgCompletion}%</div><div class="l">نرخ تکمیل دوره</div><div class="s">میانگین ۱۵ درس اصلی</div></div>
-    <div class="stat"><div class="n">۲۴ دقیقه</div><div class="l">زمان مطالعه میانگین</div><div class="s">در هر جلسه یادگیری</div></div>
+    <div class="stat"><div class="n">${vipUsersCount}</div><div class="l">اعضای ویژه VIP</div><div class="s">از مجموع ${users.length} کاربر</div></div>
   `;
   body.appendChild(statCards);
 
@@ -1085,29 +1188,31 @@ async function vUserStats(){
     </div>
   `;
 
-  // Chart 2: Weekly Activity Trend
-  const weekDays = [
-    {day: 'شنبه', val: 18},
-    {day: '۱شنبه', val: 24},
-    {day: '۲شنبه', val: 29},
-    {day: '۳شنبه', val: 26},
-    {day: '۴شنبه', val: 32},
-    {day: '۵شنبه', val: 41},
-    {day: 'جمعه', val: 45}
-  ];
-  const maxWeek = Math.max(...weekDays.map(w => w.val));
+  // Chart 2: Real 7-Day Activity Trend
+  const weekDays = [];
+  for(let d = 6; d >= 0; d--){
+    const dt = new Date(nowMs - d * 86400000);
+    const dayKey = dt.toISOString().slice(0, 10);
+    const lbl = d === 0 ? "امروز" : dt.toLocaleDateString("fa-IR", { weekday: "short" });
+    const val = users.filter(u => {
+      const iso = u.lastActiveAt || u.createdAtIso || u.createdAt || "";
+      return String(iso).slice(0, 10) === dayKey;
+    }).length;
+    weekDays.push({ day: lbl, val: val });
+  }
+  const maxWeek = Math.max(...weekDays.map(w => w.val), 1);
 
   const chart2 = el("div", "chart-box");
   chart2.innerHTML = `
-    <div class="chart-title">📈 روند یادگیری و تمرین هفتگی (جلسات روزانه)</div>
+    <div class="chart-title">📈 فعالیت کاربران در ۷ روز گذشته</div>
     <div class="chart-bars">
       ${weekDays.map(w => {
-        const heightPct = Math.max(8, Math.round((w.val / maxWeek) * 100));
+        const heightPct = w.val ? Math.max(12, Math.round((w.val / maxWeek) * 100)) : 4;
         return `
           <div class="chart-col">
             <span class="val">${w.val}</span>
             <div class="bar" style="height:${heightPct}%;background:linear-gradient(180deg,#38bdf8,#0369a1)"></div>
-            <span class="lbl">${w.day}</span>
+            <span class="lbl">${esc(w.day)}</span>
           </div>
         `;
       }).join("")}
@@ -1123,22 +1228,22 @@ async function vUserStats(){
   leadBox.innerHTML = `
     <h3 style="margin:0 0 14px;color:#fff;font-size:15px">🏆 برترین زبان‌آموزان با بالاترین تداوم (استریک)</h3>
     <div>
-      ${sortedUsers.map((u, i) => {
+      ${sortedUsers.length ? sortedUsers.map((u, i) => {
         const medal = i === 0 ? "🥇" : (i === 1 ? "🥈" : (i === 2 ? "🥉" : `#${i+1}`));
         return `
           <div class="rowitem" style="cursor:default">
             <span style="font-size:18px;width:30px;text-align:center">${medal}</span>
             <div class="main-txt">
-              <div class="t1">${esc(u.name)} <span class="badge" style="background:var(--panel2)">${u.level}</span></div>
-              <div class="t2">نام کاربری: @${u.username} · پیشرفت درس: ${u.currentLesson}/15</div>
+              <div class="t1">${esc(u.name || "کاربر")} <span class="badge" style="background:var(--panel2)">${esc(u.level || "HSK 1")}</span></div>
+              <div class="t2">نام کاربری: @${esc(u.username || "")} · پیشرفت درس: ${Number(u.currentLesson)||0}/15</div>
             </div>
             <div style="display:flex;gap:10px;align-items:center">
-              <span class="metric-pill streak">🔥 ${u.streak} روز</span>
-              <span class="metric-pill xp">⚡ ${u.xp} XP</span>
+              <span class="metric-pill streak">🔥 ${Number(u.streak)||0} روز</span>
+              <span class="metric-pill xp">⚡ ${Number(u.xp)||0} XP</span>
             </div>
           </div>
         `;
-      }).join("")}
+      }).join("") : '<div class="empty">هنوز کاربری ثبت نشده است</div>'}
     </div>
   `;
   body.appendChild(leadBox);
@@ -1169,19 +1274,26 @@ async function vFeedback(){
 
     feedback.forEach(item => {
       const card = el("div", "card");
-      const stars = "★".repeat(item.rating || 5) + "☆".repeat(5 - (item.rating || 5));
-      const statusCls = item.status === "حل شد" ? "resolved" : (item.status === "در انتظار پاسخ" ? "pending" : "active");
+      const starsCount = Math.max(1, Math.min(5, Number(item.rating) || 5));
+      const stars = "★".repeat(starsCount) + "☆".repeat(5 - starsCount);
+      const stLabel = item.status === "resolved" ? "حل شد" : (item.status === "pending" ? "در انتظار پاسخ" : (item.status || "در انتظار پاسخ"));
+      const statusCls = (item.status === "حل شد" || item.status === "resolved") ? "resolved" : ((item.status === "در انتظار پاسخ" || item.status === "pending") ? "pending" : "active");
+      const fbUser = item.user_name || item.userName || "کاربر";
+      const fbContact = item.user_email || item.email || item.userId || "—";
+      const fbContent = item.message || item.content || "";
+      const fbSubject = item.subject || (item.type ? ("بازخورد (" + item.type + ")") : "پیام کاربر");
+      const fbDate = item.date || (item.created_at ? new Date(item.created_at).toLocaleDateString("fa-IR") : "—");
 
       card.innerHTML = `
-        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;gap:10px;flex-wrap:wrap">
           <div>
-            <div style="display:flex;align-items:center;gap:8px">
-              <span class="badge ${statusCls}">${item.status}</span>
-              <span class="badge" style="background:var(--panel2)">${item.type}</span>
-              <b style="color:#fff;font-size:14px">${esc(item.subject)}</b>
+            <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+              <span class="badge ${statusCls}">${esc(stLabel)}</span>
+              <span class="badge" style="background:var(--panel2)">${esc(item.type || "feedback")}</span>
+              <b style="color:#fff;font-size:14px">${esc(fbSubject)}</b>
             </div>
             <div style="font-size:12px;color:var(--dim);margin-top:4px">
-              ارسال‌شده توسط: <b>${esc(item.userName)}</b> (${item.userId}) · تاریخ: ${item.date} · امتیاز: <span style="color:#f5b95f">${stars}</span>
+              ارسال‌شده توسط: <b>${esc(fbUser)}</b> (${esc(fbContact)}) · تاریخ: ${esc(fbDate)} · امتیاز: <span style="color:#f5b95f">${stars}</span>
             </div>
           </div>
           <div style="display:flex;gap:6px">
@@ -1191,7 +1303,7 @@ async function vFeedback(){
           </div>
         </div>
         <div style="background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:10px 14px;color:var(--txt);font-size:13px;line-height:1.6;margin-top:8px">
-          ${esc(item.content)}
+          ${esc(fbContent)}
         </div>
         ${item.reply ? `
           <div style="background:var(--acc-soft);border:1px solid rgba(43,209,157,0.3);border-radius:9px;padding:8px 12px;color:var(--acc);font-size:12.5px;margin-top:8px">
@@ -1202,31 +1314,50 @@ async function vFeedback(){
 
       card.querySelector(".btn-status").onclick = async () => {
         const statuses = ["در انتظار پاسخ", "در حال بررسی", "حل شد"];
-        const curIdx = statuses.indexOf(item.status);
+        const curIdx = statuses.indexOf(stLabel);
+        const prevStatus = item.status;
         item.status = statuses[(curIdx + 1) % statuses.length];
-        await saveFeedbackData(feedback);
-        toast(`وضعیت بازخورد به «${item.status}» تغییر یافت`, "ok");
-        draw();
+        try {
+          await saveFeedbackData(feedback);
+          toast(`وضعیت بازخورد به «${item.status}» تغییر یافت`, "ok");
+          draw();
+        } catch(err) {
+          item.status = prevStatus;
+          toast("خطا در ذخیره وضعیت: " + err.message, "err");
+        }
       };
 
-      card.querySelector(".btn-reply").onclick = () => {
+      card.querySelector(".btn-reply").onclick = async () => {
         const rep = prompt("متن پاسخ به کاربر را وارد کنید:", item.reply || "");
         if(rep !== null){
+          const prevReply = item.reply;
+          const prevStatus = item.status;
           item.reply = rep.trim();
           if(item.reply) item.status = "حل شد";
-          saveFeedbackData(feedback);
-          toast("پاسخ شما با موفقیت ثبت شد", "ok");
-          draw();
+          try {
+            await saveFeedbackData(feedback);
+            toast("پاسخ شما با موفقیت ثبت شد", "ok");
+            draw();
+          } catch(err) {
+            item.reply = prevReply;
+            item.status = prevStatus;
+            toast("خطا در ثبت پاسخ: " + err.message, "err");
+          }
         }
       };
 
       card.querySelector(".btn-del-fb").onclick = async () => {
         if(confirm("آیا مایل به حذف این بازخورد هستید؟")){
-          const idx = feedback.findIndex(x => x.id === item.id);
-          if(idx !== -1) feedback.splice(idx, 1);
-          await saveFeedbackData(feedback);
-          toast("بازخورد حذف شد", "ok");
-          draw();
+          try {
+            await deleteFeedbackFromDb(item.id);
+            const idx = feedback.findIndex(x => x.id === item.id);
+            if(idx !== -1) feedback.splice(idx, 1);
+            await saveFeedbackData(feedback);
+            toast("بازخورد حذف شد", "ok");
+            draw();
+          } catch(err) {
+            toast("خطا در حذف بازخورد: " + err.message, "err");
+          }
         }
       };
 
@@ -1236,28 +1367,36 @@ async function vFeedback(){
 
   draw();
 
-  function openFeedbackModal(){
+  async function openFeedbackModal(){
     const subject = prompt("موضوع بازخورد / نظر:");
     if(!subject) return;
     const content = prompt("متن بازخورد:");
     if(!content) return;
 
     const newItem = {
-      id: "FB-" + (100 + feedback.length + 1),
-      userId: "USR-MANUAL",
+      id: "FB-" + Date.now().toString(36),
+      userId: "admin",
+      user_email: "admin@chinifarsi.ir",
       userName: "ثبت مستقیم ادمین",
+      user_name: "ثبت مستقیم ادمین",
       type: "پیشنهاد",
       subject: subject.trim(),
       content: content.trim(),
+      message: subject.trim() + " — " + content.trim(),
       rating: 5,
       date: new Date().toLocaleDateString("fa-IR"),
       status: "در حال بررسی",
       reply: ""
     };
     feedback.unshift(newItem);
-    saveFeedbackData(feedback);
-    toast("بازخورد جدید با موفقیت اضافه شد", "ok");
-    draw();
+    try {
+      await saveFeedbackData(feedback);
+      toast("بازخورد جدید با موفقیت اضافه شد", "ok");
+      draw();
+    } catch(err) {
+      feedback.shift();
+      toast("خطا در ذخیره بازخورد: " + err.message, "err");
+    }
   }
 }
 
@@ -1415,11 +1554,15 @@ async function vReviews(){
       `;
       card.querySelector(".btn-del-rev").onclick = async () => {
         if(confirm("آیا از حذف این دیدگاه مطمئن هستید؟")){
-          data.reviews.splice(idx, 1);
-          data.count = data.reviews.length;
-          await apiPut("content/pay-reviews.json", JSON.stringify(data, null, 2));
-          toast("دیدگاه با موفقیت حذف شد", "ok");
-          draw();
+          try {
+            const removed = data.reviews.splice(idx, 1);
+            data.count = data.reviews.length;
+            await apiPut("content/pay-reviews.json", JSON.stringify(data, null, 2));
+            toast("دیدگاه با موفقیت حذف شد", "ok");
+            draw();
+          } catch(err) {
+            toast(err.message, "err");
+          }
         }
       };
       container.appendChild(card);
@@ -1436,9 +1579,15 @@ async function vReviews(){
     data.reviews = data.reviews || [];
     data.reviews.unshift({name: name.trim(), comment: comment.trim(), rating: 5, date: "امروز"});
     data.count = data.reviews.length;
-    await apiPut("content/pay-reviews.json", JSON.stringify(data, null, 2));
-    toast("نظر جدید به pay-reviews.json اضافه شد", "ok");
-    draw();
+    try {
+      await apiPut("content/pay-reviews.json", JSON.stringify(data, null, 2));
+      toast("نظر جدید به pay-reviews.json اضافه شد", "ok");
+      draw();
+    } catch(err) {
+      data.reviews.shift();
+      data.count = data.reviews.length;
+      toast(err.message, "err");
+    }
   };
   head.appendChild(addBtn);
 }
@@ -1496,8 +1645,12 @@ async function vAppSettings(){
     st.announcementActive = form.querySelector("#s_ann_active").checked;
     st.announcementText = form.querySelector("#s_ann_txt").value.trim();
 
-    await saveSettingsData(st);
-    toast("تنظیمات اپلیکیشن با موفقیت ذخیره شد", "ok");
+    try {
+      await saveSettingsData(st);
+      toast("تنظیمات اپلیکیشن با موفقیت ذخیره شد", "ok");
+    } catch(err) {
+      toast("خطا در ذخیره تنظیمات: " + err.message, "err");
+    }
   };
 
   body.appendChild(form);
@@ -1506,34 +1659,96 @@ async function vAppSettings(){
 /* ============================================================
    DASHBOARD
    ============================================================ */
+async function loadLiveStats(){
+  const [users, fb, verRes, stRes, podRes, feedRes, libRes, faRes, h1, h2, h3, h4, wk] = await Promise.all([
+    getUsersData().catch(() => []),
+    getFeedbackData().catch(() => []),
+    fetch("/api/app-version", {cache:"no-store"}).then(r => r.ok ? r.json() : null).catch(() => null),
+    staticFile("content/stories.json").catch(() => ({parsed:null})),
+    staticFile("content/podcast.json").catch(() => ({parsed:null})),
+    staticFile("content/feed.json").catch(() => ({parsed:null})),
+    staticFile("content/library/library.json").catch(() => ({parsed:null})),
+    staticFile("content/i18n/fa.json").catch(() => ({parsed:null})),
+    staticFile("content/lessons/hsk1.json").catch(() => ({parsed:null})),
+    staticFile("content/lessons/hsk2.json").catch(() => ({parsed:null})),
+    staticFile("content/lessons/hsk3.json").catch(() => ({parsed:null})),
+    staticFile("content/lessons/hsk4.json").catch(() => ({parsed:null})),
+    staticFile("content/lessons/worket.json").catch(() => ({parsed:null})),
+  ]);
+  const courses = [
+    {id:"hsk1", name:"HSK 1", lessons: (h1.parsed && h1.parsed.lessons || []).length},
+    {id:"hsk2", name:"HSK 2", lessons: (h2.parsed && h2.parsed.lessons || []).length},
+    {id:"hsk3", name:"HSK 3", lessons: (h3.parsed && h3.parsed.lessons || []).length},
+    {id:"hsk4", name:"HSK 4", lessons: (h4.parsed && h4.parsed.lessons || []).length},
+    {id:"worket", name:"محیط کار", lessons: (wk.parsed && wk.parsed.lessons || []).length},
+  ].filter(c => c.lessons > 0);
+  const faObj = faRes.parsed || {};
+  const nowMs = Date.now();
+  const activeToday = users.filter(u => u.lastActiveAt && (nowMs - Date.parse(u.lastActiveAt) <= 86400000)).length;
+  const vipUsers = users.filter(u => u.status === "vip" || u.isPro).length;
+  return {
+    liveMode: true,
+    swCache: verRes ? ("v" + (verRes.latestVersion || "2.4.0")) : "آنلاین",
+    users: users.length,
+    activeToday,
+    vipUsers,
+    feedback: fb.length,
+    courses,
+    ex: {units: 15, questions: 0, tonePicks: 0, writes: 0},
+    stories: (stRes.parsed && stRes.parsed.stories || []).length,
+    pods: (stRes.parsed && stRes.parsed.stories || []).length,
+    episodes: (podRes.parsed && podRes.parsed.episodes || []).length,
+    clips: (feedRes.parsed && feedRes.parsed.items || []).length,
+    library: (libRes.parsed && libRes.parsed.words || []).length,
+    dictShards: 256,
+    faKeys: {m: Object.keys(faObj.m || {}).length, s: Object.keys(faObj.s || {}).length, g: Object.keys(faObj.g || {}).length},
+    wordlists: 11,
+    grammarFiles: 12,
+    drills: 4,
+    backups: 0,
+    appVersion: verRes || null,
+  };
+}
 async function vDashboard(){
-  if(!STATS) STATS = await apiGet("stats");
+  const isLocal = await detectLocalAdmin();
+  if(!STATS){
+    STATS = isLocal ? await apiGet("stats") : await loadLiveStats();
+    if(typeof buildNav === "function") buildNav();
+  }
   $("#sfVer").textContent = "بیلد: " + (STATS.swCache || "?");
   body.innerHTML = "";
-  const head = viewhead("داشبورد", "نمای کلی محتوای chinifa و سلامت فایل‌ها");
-  const goBuild = el("button", "btn", "🔨 ساخت APK"); goBuild.onclick = () => nav("build");
-  const goUnits = el("button", "btn ghost", "⚙ بازسازی تمرین‌ها"); goUnits.onclick = () => runUnitsDialog();
-  head.append(goUnits, goBuild);
+  const head = viewhead("داشبورد", isLocal ? "نمای کلی محتوای chinifa و سلامت فایل‌ها" : "نمای کلی سامانه آنلاین chinifa (دیتابیس PostgreSQL + محتوای سایت)");
+  if(isLocal){
+    const goBuild = el("button", "btn", "🔨 ساخت APK"); goBuild.onclick = () => nav("build");
+    const goUnits = el("button", "btn ghost", "⚙ بازسازی تمرین‌ها"); goUnits.onclick = () => runUnitsDialog();
+    head.append(goUnits, goBuild);
+  } else {
+    const goUsers = el("button", "btn", "👥 مدیریت کاربران"); goUsers.onclick = () => nav("users");
+    const goFeedback = el("button", "btn ghost", "💬 پیام‌ها و نظرات"); goFeedback.onclick = () => nav("feedback");
+    head.append(goFeedback, goUsers);
+  }
   body.appendChild(head);
 
   const ex = STATS.ex || {};
-  const lessonsAll = STATS.courses.reduce((a,c)=>a+c.lessons,0);
+  const lessonsAll = (STATS.courses || []).reduce((a,c)=>a+c.lessons,0);
   const faK = STATS.faKeys || {};
+  const uCount = USERS_LIST ? USERS_LIST.length : (STATS.users || 0);
+  const fCount = FEEDBACK_LIST ? FEEDBACK_LIST.length : (STATS.feedback || 0);
   const cards = [
-    {n: (STATS.users || (USERS_LIST ? USERS_LIST.length : 10)), l: "کاربران ثبت‌نام‌شده", s: (STATS.activeToday || 4) + " فعال امروز · " + (STATS.vipUsers || 4) + " عضو ویژه", go: "users"},
-    {n: (STATS.feedback || (FEEDBACK_LIST ? FEEDBACK_LIST.length : 4)), l: "پیام‌ها و بازخوردها", s: "تیکت‌ها و پیشنهادات کاربران", go: "feedback"},
-    {n: lessonsAll, l: "درس (همهٔ دوره‌ها)", s: STATS.courses.map(c => c.id + ":" + c.lessons).join(" · "), go: "lessons"},
-    {n: (ex.units || 0), l: "یونیت درس‌ها (HSK1)", s: (ex.questions||0) + " سؤال · " + (ex.tonePicks||0) + " تُن · " + (ex.writes||0) + " نوشتن", go: "lessons"},
-    {n: STATS.stories, l: "داستان", s: STATS.pods + " بادی محلی در pods/", go: "stories"},
-    {n: STATS.episodes, l: "قسمت پادکست", s: "podcast.json + pods/ep*", go: "podcasts"},
-    {n: STATS.clips, l: "کلیپ ویدیویی", s: "feed.json — با ترجمهٔ فارسی خط‌ها", go: "clips"},
-    {n: STATS.library, l: "واژهٔ کتابخانه", s: "library.json — معنی/توضیح/مثال فارسی", go: "library"},
-    {n: STATS.dictShards, l: "شارد دیکشنری", s: "content/dict/000-255.json", go: "dict"},
+    {n: uCount, l: "کاربران ثبت‌نام‌شده", s: (STATS.activeToday || 0) + " فعال ۲۴ساعت · " + (STATS.vipUsers || 0) + " عضو ویژه", go: "users"},
+    {n: fCount, l: "پیام‌ها و بازخوردها", s: "تیکت‌ها و پیشنهادات کاربران", go: "feedback"},
+    {n: lessonsAll, l: "درس (همهٔ دوره‌ها)", s: (STATS.courses || []).map(c => c.id + ":" + c.lessons).join(" · "), go: "lessons"},
+    {n: (ex.units || 0), l: "یونیت درس‌ها (HSK1)", s: isLocal ? ((ex.questions||0) + " سؤال · " + (ex.tonePicks||0) + " تُن · " + (ex.writes||0) + " نوشتن") : "۱۵ درس HSK 1", go: isLocal ? "lessons" : "lessons"},
+    {n: STATS.stories || 0, l: "داستان", s: (STATS.pods || 0) + " فایل محتوا در pods/", go: "stories"},
+    {n: STATS.episodes || 0, l: "قسمت پادکست", s: "podcast.json + pods/ep*", go: "podcasts"},
+    {n: STATS.clips || 0, l: "کلیپ ویدیویی", s: "feed.json — با ترجمهٔ فارسی خط‌ها", go: "clips"},
+    {n: STATS.library || 0, l: "واژهٔ کتابخانه", s: "library.json — معنی/توضیح/مثال فارسی", go: "library"},
+    {n: STATS.dictShards || 256, l: "شارد دیکشنری", s: "content/dict/000-255.json", go: "dict"},
     {n: (faK.m || 0), l: "معنی فارسی واژه", s: (faK.s||0) + " جمله · " + (faK.g||0) + " گرامر", go: "fa"},
-    {n: STATS.wordlists, l: "واژه‌نامه", s: "wordlists/*.json", go: "wordlists"},
-    {n: STATS.grammarFiles, l: "فایل گرامر", s: "hsk1-6 + practice-hsk1-6", go: "grammar"},
-    {n: STATS.backups, l: "نسخهٔ پشتیبان", s: ".admin.bak در همهٔ درخت", go: "files"},
+    {n: STATS.wordlists || 11, l: "واژه‌نامه", s: "wordlists/*.json", go: "wordlists"},
+    {n: STATS.grammarFiles || 12, l: "فایل گرامر", s: "hsk1-6 + practice-hsk1-6", go: "grammar"},
   ];
+  if(isLocal) cards.push({n: STATS.backups || 0, l: "نسخهٔ پشتیبان", s: ".admin.bak در همهٔ درخت", go: "files"});
   const grid = el("div", "cards");
   cards.forEach(c => {
     const d = el("div", "stat");
@@ -1545,40 +1760,59 @@ async function vDashboard(){
 
   // health — async so the stats grid paints instantly
   const hc = el("div", "card");
-  hc.appendChild(el("div", "grp", "سلامت محتوا — در حال بررسی…"));
+  hc.appendChild(el("div", "grp", isLocal ? "سلامت محتوا — در حال بررسی…" : "سلامت سرویس آنلاین — در حال بررسی…"));
   body.appendChild(hc);
-  apiGet("health").then(hl => {
-    if(CUR_VIEW !== "dashboard") return;
-    hc.innerHTML = "";
-    hc.appendChild(el("div", "grp", "سلامت محتوا — " + hl.checked + " فایل JSON بررسی شد"));
-    if(hl.ok){
-      hc.appendChild(el("div", "healthline", '<span class="okc">✓</span> همه‌چیز سالم است — JSONها معتبر، استروک واژه‌ها کامل، فایل‌های کلیپ موجود.'));
-    } else {
-      if(hl.jsonErrors.length){
-        hc.appendChild(el("div", "healthline", '<span class="badc">✗ JSON خراب:</span>'));
-        hl.jsonErrors.forEach(x => {
-          const ln = el("div", "healthline");
-          ln.innerHTML = '<span class="badc">✗</span> <span class="ltr">' + esc(x.file) + '</span> <span style="color:var(--dim)">' + esc(x.error) + '</span>';
-          ln.style.cursor = "pointer";
-          ln.onclick = () => nav("raw/" + x.file);
-          hc.appendChild(ln);
-        });
+  if(isLocal){
+    apiGet("health").then(hl => {
+      if(CUR_VIEW !== "dashboard") return;
+      hc.innerHTML = "";
+      hc.appendChild(el("div", "grp", "سلامت محتوا — " + hl.checked + " فایل JSON بررسی شد"));
+      if(hl.ok){
+        hc.appendChild(el("div", "healthline", '<span class="okc">✓</span> همه‌چیز سالم است — JSONها معتبر، استروک واژه‌ها کامل، فایل‌های کلیپ موجود.'));
+      } else {
+        if(hl.jsonErrors.length){
+          hc.appendChild(el("div", "healthline", '<span class="badc">✗ JSON خراب:</span>'));
+          hl.jsonErrors.forEach(x => {
+            const ln = el("div", "healthline");
+            ln.innerHTML = '<span class="badc">✗</span> <span class="ltr">' + esc(x.file) + '</span> <span style="color:var(--dim)">' + esc(x.error) + '</span>';
+            ln.style.cursor = "pointer";
+            ln.onclick = () => nav("raw/" + x.file);
+            hc.appendChild(ln);
+          });
+        }
+        if(hl.strokeMissing.length){
+          hc.appendChild(el("div", "healthline", '<span class="warnc">⚠ استروک ناقص:</span> ' +
+            hl.strokeMissing.map(x => esc(x.ch) + " (" + x.course + ")").join("، ") + " — فایل strokes/<نویسه>.json نیست"));
+        }
+        if(hl.clipsMissing.length){
+          hc.appendChild(el("div", "healthline", '<span class="warnc">⚠ فایل کلیپ گم‌شده:</span> ' +
+            hl.clipsMissing.map(x => esc(x.id + "/" + x.field)).join("، ")));
+        }
       }
-      if(hl.strokeMissing.length){
-        hc.appendChild(el("div", "healthline", '<span class="warnc">⚠ استروک ناقص:</span> ' +
-          hl.strokeMissing.map(x => esc(x.ch) + " (" + x.course + ")").join("، ") + " — فایل strokes/<نویسه>.json نیست"));
-      }
-      if(hl.clipsMissing.length){
-        hc.appendChild(el("div", "healthline", '<span class="warnc">⚠ فایل کلیپ گم‌شده:</span> ' +
-          hl.clipsMissing.map(x => esc(x.id + "/" + x.field)).join("، ")));
-      }
-    }
-  });
+    }).catch(() => {});
+  } else {
+    const tk = getAdminToken();
+    fetch("/api/admin?action=status", { headers: tk ? { "Authorization": "Bearer " + tk } : {} })
+      .then(r => r.json())
+      .then(st => {
+        if(CUR_VIEW !== "dashboard") return;
+        hc.innerHTML = "";
+        hc.appendChild(el("div", "grp", "وضعیت سرویس و پایگاه داده آنلاین"));
+        hc.appendChild(el("div", "healthline", st.dbConnected
+          ? '<span class="okc">✓</span> پایگاه داده PostgreSQL متصل است (' + (st.userCount || 0) + ' کاربر · ' + (st.storeCount || 0) + ' ذخیره پیشرفت).'
+          : '<span class="badc">✗</span> پایگاه داده متصل نیست: ' + esc(st.dbError || "تنظیمات POSTGRES_URL را بررسی کنید.")));
+        if(STATS.appVersion){
+          hc.appendChild(el("div", "healthline", '<span class="okc">✓</span> نسخه منتشرشده اپلیکیشن: <span class="ltr">' + esc(STATS.appVersion.latestVersion || "2.4.0") + '</span>'));
+        }
+      }).catch(() => {});
+  }
 
   // quick notes
   const nt = el("div", "hint");
-  nt.innerHTML = "<b>جریان کار:</b> محتوا را ویرایش کن → ذخیره (خودکار در دو کپی سورس و بیلد نوشته می‌شود) → <b>ساخت APK</b> برای خروجی نصب‌شدنی. " +
-    "تمرین‌های درس‌ها کد تولیدی دارند (unit-course.js)؛ بعد از تغییر دادهٔ درس‌ها، دکمهٔ «بازسازی تمرین‌ها» را بزن.";
+  nt.innerHTML = isLocal
+    ? ("<b>جریان کار:</b> محتوا را ویرایش کن → ذخیره (خودکار در دو کپی سورس و بیلد نوشته می‌شود) → <b>ساخت APK</b> برای خروجی نصب‌شدنی. " +
+       "تمرین‌های درس‌ها کد تولیدی دارند (unit-course.js)؛ بعد از تغییر دادهٔ درس‌ها، دکمهٔ «بازسازی تمرین‌ها» را بزن.")
+    : ("<b>حالت آنلاین (Vercel):</b> مدیریت کاربران (ارتقای VIP، مسدودسازی، حذف، ویرایش)، بازخوردها و تنظیمات برنامه مستقیماً در پایگاه داده PostgreSQL ذخیره می‌شوند. بخش‌های محتوا به‌صورت فقط‌خواندنی از سایت بارگذاری می‌شوند و برای ویرایش فایل‌های دیسک یا ساخت APK از <code>START-ADMIN.bat</code> استفاده کنید.");
   body.appendChild(nt);
 }
 
@@ -1587,7 +1821,8 @@ async function vDashboard(){
    ============================================================ */
 let LES_OBJ = null, LES_PATH = null;
 async function vLessons(course, no){
-  if(!STATS) STATS = await apiGet("stats");
+  const isLocal = await detectLocalAdmin();
+  if(!STATS) STATS = isLocal ? await apiGet("stats") : await loadLiveStats();
   course = course || (STATS.courses[0] && STATS.courses[0].id) || "hsk1";
   if(no){
     if(LES_PATH !== "content/lessons/" + course + ".json" || !LES_OBJ){
@@ -1676,7 +1911,7 @@ async function vLessonDetail(course, l){
     l.words = l.words || [];
     l.words.push({ch: "", py: "", en: "", type: "词汇"});
     touch(LES_PATH, LES_OBJ);
-    drawLessonWords(l);
+    drawLessonWords(l, listw);
   };
   wc.appendChild(addW);
   const listw = el("div");
@@ -1689,7 +1924,7 @@ async function vLessonDetail(course, l){
     listw.innerHTML = "";
     (l.words || []).forEach((w, i) => {
       const rw = el("div", "wordrow");
-      const oldCh = w.ch;
+      let oldCh = w.ch;
       const mk = (val, cb, cls) => {
         const i = document.createElement("input");
         i.type = "text"; i.value = val == null ? "" : val;
@@ -1702,6 +1937,7 @@ async function vLessonDetail(course, l){
         if(oldCh && FA && FA.m && FA.m[oldCh] !== undefined && v && v !== oldCh){
           FA.m[v] = FA.m[oldCh]; delete FA.m[oldCh]; touch(FA_PATH, FA);
         }
+        oldCh = v;
         w.ch = v; touch(LES_PATH, LES_OBJ);
       }, "zh"));
       rw.appendChild(mk(w.py, v => { w.py = v; touch(LES_PATH, LES_OBJ); }, "ltr"));
@@ -1746,6 +1982,14 @@ const EX_TEMPLATES = {
 let RADIO_SEQ = 0;
 
 async function vUnit(uid){
+  if(!(await detectLocalAdmin())){
+    body.innerHTML = "";
+    const head = viewhead("یونیت " + uid, "ویرایشگر تمرین‌های js/unit-course.js");
+    backBtn(head, "→ فهرست درس‌ها", () => nav("lessons/hsk1"));
+    body.appendChild(head);
+    body.appendChild(el("div", "hint", "ویرایشگر کامل یونیت‌ها (تغییر سؤالات، گرامر و بازسازی <code>js/unit-course.js</code>) فقط در سرور محلی <b>START-ADMIN.bat</b> فعال است."));
+    return;
+  }
   body.innerHTML = '<div class="hint">در حال بازکردن یونیت…</div>';
   let units;
   try{
@@ -2902,6 +3146,10 @@ async function vBuild(){
   body.innerHTML = "";
   const head = viewhead("ساخت APK و پایش", "خروجی نصب‌شدنی و ابزارهای تولید محتوا");
   body.appendChild(head);
+  if(!(await detectLocalAdmin())){
+    body.appendChild(el("div", "hint", "ساخت فایل <b>Chinifa.apk</b> و بازسازی تمرین‌ها نیازمند دسترسی به Android SDK و سیستم فایل محلی است و فقط از طریق <b>START-ADMIN.bat</b> روی کامپیوتر انجام می‌شود.<br><br><a class='btn' href='/Chinifa.apk' target='_blank'>📥 دانلود آخرین نسخه Chinifa.apk</a>"));
+    return;
+  }
   const pb = taskPanel("build", "🔨 ساخت APK", "اسکریپت build_apk.py — خروجی: Chinifa.apk", "ساخت APK");
   taskPanels.build = pb;
   body.appendChild(pb.box);
@@ -2920,6 +3168,26 @@ async function vBuild(){
    FILES / RAW / SEARCH
    ============================================================ */
 async function vFiles(filter){
+  if(!(await detectLocalAdmin())){
+    body.innerHTML = "";
+    body.appendChild(viewhead("همهٔ فایل‌ها", "نمایش فایل‌های محتوا (فقط‌خواندنی در حالت آنلاین)"));
+    const quick = [
+      "content/stories.json", "content/podcast.json", "content/feed.json",
+      "content/library/library.json", "content/i18n/fa.json", "content/pay-reviews.json",
+      "content/pinyin-map.json", "content/lessons/hsk1.json", "content/lessons/hsk2.json",
+      "content/lessons/hsk3.json", "content/lessons/hsk4.json", "content/drills/hsk1.json"
+    ].filter(x => !filter || x.toLowerCase().includes(filter.toLowerCase()));
+    const list = el("div");
+    quick.forEach(rel => {
+      const d = el("div", "rowitem");
+      d.innerHTML = '<div class="main-txt"><div class="t1 ltr">' + esc(rel) + '</div><div class="t2">کلیک برای مشاهده JSON</div></div>';
+      d.onclick = () => nav("raw/" + rel);
+      list.appendChild(d);
+    });
+    body.appendChild(el("div", "hint", "در حالت آنلاین فایل‌های کلیدی محتوا به‌صورت فقط‌خواندنی قابل مشاهده هستند. برای مرور کامل درخت فایل‌ها و ویرایش دیسک از <b>START-ADMIN.bat</b> استفاده کنید."));
+    body.appendChild(list);
+    return;
+  }
   const tr = await apiGet("tree");
   const full = await apiGet("tree_full");
   body.innerHTML = "";
@@ -3051,7 +3319,13 @@ function renderValue(v, box, path, root){
   if(v === null || t === "string" || t === "number" || t === "boolean"){
     const w = el("div", "fld");
     w.appendChild(el("label", "ltr", esc(path.join("."))));
-    if(t === "string" && v.length > 60){
+    if(t === "boolean"){
+      const c = document.createElement("input");
+      c.type = "checkbox"; c.checked = !!v;
+      c.style.width = "18px"; c.style.height = "18px"; c.style.accentColor = "#2bd19d";
+      c.onchange = () => setPath(path, c.checked);
+      w.appendChild(c);
+    } else if(t === "string" && v.length > 60){
       const ta = document.createElement("textarea");
       ta.value = v; ta.classList.add("ltr");
       ta.oninput = () => { setPath(path, ta.value); };
@@ -3103,6 +3377,10 @@ async function vSearch(q){
   body.innerHTML = "";
   const head = viewhead("جستجو در محتوا", "همهٔ JSONهای محتوا + i18n-fa.js");
   body.appendChild(head);
+  if(!(await detectLocalAdmin())){
+    body.appendChild(el("div", "hint", "جستجوی سراسری بین تمام ۴٬۹۰۰ فایل محتوا روی سرور محلی <b>START-ADMIN.bat</b> انجام می‌شود. در حالت آنلاین می‌توانید از جستجوی اختصاصی داخل بخش‌های «کاربران»، «کتابخانه»، «داستان‌ها» و «fa.json» استفاده کنید."));
+    return;
+  }
   const bar = el("div", "searchrow");
   const qi = document.createElement("input"); qi.type = "text"; qi.value = q; qi.placeholder = "متن برای جستجو (فارسی/انگلیسی/چینی)…";
   bar.appendChild(qi);
@@ -3151,11 +3429,17 @@ function buildNav(){
 $("#gq").addEventListener("keydown", e => {
   if(e.key === "Enter" && $("#gq").value.trim()) nav("search/" + enc($("#gq").value.trim()));
 });
-(async function boot(){
+window.__adminBoot = async function boot(){
   buildNav();
-  apiGet("stats").then(s => { STATS = s; buildNav(); $("#sfVer").textContent = "بیلد: " + (s.swCache || "?"); }).catch(() => {});
+  const isLocal = await detectLocalAdmin();
+  if(isLocal){
+    apiGet("stats").then(s => { STATS = s; buildNav(); $("#sfVer").textContent = "بیلد: " + (s.swCache || "?"); }).catch(() => {});
+  } else {
+    $("#sfVer").textContent = "آنلاین";
+  }
   route();
-})();
+};
+if(ADMIN_BOOTED){ window.__adminBoot(); }
 </script>
 </body>
 </html>
