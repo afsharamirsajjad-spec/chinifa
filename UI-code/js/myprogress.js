@@ -68,7 +68,7 @@ function m(t,e,n,s,i,o,c,l){
     return'<div class="mp-row" style="display:flex; align-items:center; gap:12px; padding:12px 0; border-top:1px solid #f1f5f9; direction:rtl;">'+
       '<span class="mp-ico" style="background:'+e+";color:"+n+'; width:38px; height:38px; border-radius:12px; display:grid; place-items:center; flex-shrink:0;">'+r(t,18)+'</span>'+
       '<div class="mp-grow" style="flex:1; min-width:0; text-align:right;">'+
-        '<div class="mp-t" style="display:flex; justify-content:space-between; align-items:center; font-size:14.5px; font-weight:700; color:var(--text, #1e293b); direction:rtl;"><span style="text-align:right;">'+a(s)+'</span><b style="font-size:15px; font-weight:800; color:#0f766e;">'+a(i)+'</b></div>'+
+        '<div class="mp-t" style="display:flex; justify-content:space-between; align-items:center; font-size:14.5px; font-weight:700; color:var(--text, #1e293b); direction:rtl;"><span style="text-align:right;">'+a(s)+'</span><b dir="ltr" style="font-size:15px; font-weight:800; color:#0f766e; unicode-bidi:isolate;">'+a(i)+'</b></div>'+
         '<div class="mp-s" style="font-size:12px; color:var(--text3, #64748b); margin-top:2px; text-align:right;">'+a(o)+'</div>'+
         p(c,l)+
       '</div>'+
@@ -81,7 +81,7 @@ n.myProgress={
         h=i.weak.slice(0,6).map(function(t){return'<span class="mp-chip han" style="padding:6px 12px; border-radius:12px; background:#f1f5f9; font-size:15px; font-weight:700; color:#0f766e;">'+a(t)+'</span>';}).join("")+(i.weak.length>6?'<span class="mp-chip" style="padding:6px 10px; border-radius:12px; background:#f1f5f9; font-size:13px; font-weight:600; color:#64748b;">+'+(i.weak.length-6)+'</span>':""),
         f=e.Progress&&Progress.openShare?'<button class="iconbtn" '+s("rdShare")+' aria-label="'+a(t("rdShare"))+'" style="border:none; background:transparent; cursor:pointer;">'+r("share",18)+"</button>":"";
 
-        var headHtml='<div class="mp-nav-bar" style="display:flex; align-items:center; justify-content:space-between; padding:12px 4px 14px; margin-bottom:8px; direction:rtl;">'+
+        var headHtml='<div class="mp-nav-bar" style="flex:none; display:flex; align-items:center; justify-content:space-between; padding:calc(var(--sat, 12px) + 12px) 16px 12px; background:var(--card, #fff); border-bottom:1px solid var(--line2, #f1f5f9); direction:rtl;">'+
           '<div style="display:flex; align-items:center; gap:10px;">'+
             '<button class="iconbtn" '+s("back")+' aria-label="بازگشت" style="width:38px; height:38px; border-radius:50%; background:var(--sunk, #f1f5f9); display:grid; place-items:center; border:none; cursor:pointer;">'+r("arrow-right",18)+'</button>'+
             '<h1 style="margin:0; font-size:20px; font-weight:800; color:var(--text, #1e293b);">'+a(t("mpTitle"))+'</h1>'+
@@ -125,8 +125,8 @@ n.myProgress={
               '<div class="mp-s" style="font-size:12px; color:var(--text3, #64748b); line-height:1.6; margin-top:4px; text-align:right;">'+a(t("mpReadyS"))+'</div>'+
             '</div>'+
           '</div>'+
-          (i.listN?'<div class="mp-row" style="display:flex; align-items:center; gap:12px; padding:10px 0; border-top:1px solid #f1f5f9; direction:rtl;"><div class="mp-grow" style="flex:1; min-width:0; text-align:right;"><div class="mp-t" style="display:flex; justify-content:space-between; align-items:center; font-size:14px; font-weight:700; direction:rtl;"><span>'+a(t("mpWords"))+'</span><b style="font-size:14.5px; font-weight:800; color:#0f766e;">'+i.known+" / "+i.listN+'</b></div>'+p(i.known/i.listN*100)+'</div></div>':"")+
-          (i.gram?'<div class="mp-row" style="display:flex; align-items:center; gap:12px; padding:10px 0; border-top:1px solid #f1f5f9; direction:rtl;"><div class="mp-grow" style="flex:1; min-width:0; text-align:right;"><div class="mp-t" style="display:flex; justify-content:space-between; align-items:center; font-size:14px; font-weight:700; direction:rtl;"><span>'+a(t("mpGrammar"))+'</span><b style="font-size:14.5px; font-weight:800; color:#2563eb;">'+i.gDone+" / "+i.gram+'</b></div>'+p(i.gDone/i.gram*100,"b")+'</div></div>':"")+
+          (i.listN?'<div class="mp-row" style="display:flex; align-items:center; gap:12px; padding:10px 0; border-top:1px solid #f1f5f9; direction:rtl;"><div class="mp-grow" style="flex:1; min-width:0; text-align:right;"><div class="mp-t" style="display:flex; justify-content:space-between; align-items:center; font-size:14px; font-weight:700; direction:rtl;"><span>'+a(t("mpWords"))+'</span><b dir="ltr" style="font-size:14.5px; font-weight:800; color:#0f766e; unicode-bidi:isolate;">'+i.known+" / "+i.listN+'</b></div>'+p(i.known/i.listN*100)+'</div></div>':"")+
+          (i.gram?'<div class="mp-row" style="display:flex; align-items:center; gap:12px; padding:10px 0; border-top:1px solid #f1f5f9; direction:rtl;"><div class="mp-grow" style="flex:1; min-width:0; text-align:right;"><div class="mp-t" style="display:flex; justify-content:space-between; align-items:center; font-size:14px; font-weight:700; direction:rtl;"><span>'+a(t("mpGrammar"))+'</span><b dir="ltr" style="font-size:14.5px; font-weight:800; color:#2563eb; unicode-bidi:isolate;">'+i.gDone+" / "+i.gram+'</b></div>'+p(i.gDone/i.gram*100,"b")+'</div></div>':"")+
           '<div class="mp-row" style="display:flex; align-items:center; gap:12px; padding:10px 0; border-top:1px solid #f1f5f9; direction:rtl;"><div class="mp-grow" style="flex:1; min-width:0; text-align:right;"><div class="mp-t" style="display:flex; justify-content:space-between; align-items:center; font-size:14px; font-weight:700; direction:rtl;"><span>'+a(t("mpListen"))+'</span><b style="font-size:14.5px; font-weight:800; color:#f59e0b;">'+(null==i.listenPct?"—":i.listenPct+"%")+'</b></div>'+(null==i.listenPct?'<div class="mp-s" style="font-size:12px; color:#64748b; margin-top:3px; text-align:right;">'+a(t("mpListenNone"))+'</div>':p(i.listenPct,"w"))+'</div></div>'+
         '</div>';
 
@@ -158,9 +158,9 @@ n.myProgress={
 
         var ctaHtml='<button class="hm-cta mp-cta" '+s("placementTest")+' style="width:100%; border-radius:16px; padding:15px; font-size:15px; font-weight:800; margin-top:10px; margin-bottom:24px; box-shadow:0 4px 14px rgba(16,185,129,0.25); cursor:pointer;">'+a(t("mpCheck"))+'</button>';
 
-        return '<div class="col mp" style="direction:rtl; text-align:right; max-width:540px; margin:0 auto; padding-bottom:30px;">'+
+        return '<div class="col mp" style="direction:rtl; text-align:right; max-width:540px; width:100%; height:100%; margin:0 auto; display:flex; flex-direction:column; overflow:hidden;">'+
           headHtml+
-          '<div class="col__body" style="padding:0 16px;">'+
+          '<div class="col__body" style="flex:1; min-height:0; overflow-y:auto; -webkit-overflow-scrolling:touch; padding:12px 16px calc(max(var(--sab, 24px), 24px) + 52px);">'+
             streakHtml+
             leadHtml+
             coreCardHtml+

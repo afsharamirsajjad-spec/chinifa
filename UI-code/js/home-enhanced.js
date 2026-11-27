@@ -798,16 +798,34 @@
 
     document.body.appendChild(modal);
 
+    function closeProModal() {
+      document.removeEventListener('keydown', onProEsc);
+      if (modal && modal.parentNode) modal.remove();
+    }
+    function onProEsc(ev) {
+      if (ev.key === 'Escape') closeProModal();
+    }
+    document.addEventListener('keydown', onProEsc);
+
+    var closeBtnEl = modal.querySelector('.kan-pro-sheet-close');
+    if (closeBtnEl) {
+      closeBtnEl.addEventListener('click', function(ev) {
+        ev.preventDefault();
+        ev.stopPropagation();
+        closeProModal();
+      });
+    }
+
     modal.addEventListener('click', function(e) {
       if (e.target === modal || e.target.closest('.kan-pro-sheet-close')) {
-        modal.remove();
+        closeProModal();
         return;
       }
 
       // کلیک روی ورود به سایت
       var goWebBtn = e.target.closest('#kanBtnGoWebsitePay');
       if (goWebBtn) {
-        modal.remove();
+        closeProModal();
         w.kanGoToPaymentGateway('annual', targetLevel);
         return;
       }
@@ -815,7 +833,7 @@
       // کلیک روی ورود به حساب
       var loginBtn = e.target.closest('#kanBtnAlreadyPaid');
       if (loginBtn) {
-        modal.remove();
+        closeProModal();
         if (w.App && typeof w.App.go === 'function') {
           w.App.go('auth');
         } else if (w.Sync && typeof w.Sync.openSignIn === 'function') {
@@ -827,7 +845,7 @@
       // کلیک روی درس ۱ رایگان
       var freeBtn = e.target.closest('#kanBtnTryFreeLesson1');
       if (freeBtn) {
-        modal.remove();
+        closeProModal();
         if (typeof w.kanOpenLesson === 'function') {
           w.kanOpenLesson(0);
         }

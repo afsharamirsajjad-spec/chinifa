@@ -2606,17 +2606,21 @@ html[dir="rtl"] .u-py-toggle--sublevel,
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+  z-index: 30 !important;
+  touch-action: manipulation !important;
 }
 
 .kan-pro-crown-header {
   text-align: center !important;
   margin-bottom: 16px !important;
+  pointer-events: none !important;
 }
 
 .kan-pro-crown-icon-big {
   font-size: 48px !important;
   margin-bottom: 6px !important;
   filter: drop-shadow(0 4px 12px rgba(245, 158, 11, 0.5)) !important;
+  pointer-events: none !important;
 }
 
 .kan-pro-title {
