@@ -1,6 +1,9 @@
 extracted/
-tools/*
-!tools/admin/
+tools/node/
+tools/hsk_covers/
+tools/*.py
+tools/*.js
+tools/*.bat
 database/
 graphify-out/
 .zcode/
