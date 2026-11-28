@@ -161,6 +161,7 @@ module.exports = async (req, res) => {
           u.id,
           u.email,
           u.full_name,
+          u.username,
           u.hsk_level,
           u.status,
           u.role,
@@ -218,7 +219,7 @@ module.exports = async (req, res) => {
         return {
           id: row.id,
           name: row.full_name || st.name || st.nick || (row.email ? row.email.split("@")[0] : "کاربر"),
-          username: row.email ? row.email.split("@")[0] : row.id.slice(0, 8),
+          username: String(row.username || "").toLowerCase() || (row.email ? row.email.split("@")[0] : row.id.slice(0, 8)),
           email: row.email || "",
           level: st.level || row.hsk_level || "HSK 1",
           streak: Number(st.streak) || 0,

@@ -198,6 +198,33 @@ function validEmail(e) {
   return /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(String(e || "").trim());
 }
 
+// Usernames: English letters / digits / underscore, 3–24 chars (lowercased on save)
+const USERNAME_RE = /^[a-z0-9_]{3,24}$/;
+function validUsername(u) {
+  return USERNAME_RE.test(String(u || "").trim().toLowerCase());
+}
+
+// Is `username` free? Checks both registered users and live pending registrations.
+async function usernameAvailable(username) {
+  if (!pool) return true;
+  try {
+    const uRes = await pool.query(
+      `SELECT 1 FROM public.chinifa_users WHERE lower(username) = lower($1) LIMIT 1`,
+      [username]
+    );
+    if (uRes.rows[0]) return false;
+    const pRes = await pool.query(
+      `SELECT 1 FROM public.chinifa_pending_registrations WHERE lower(username) = lower($1) AND expires_at > now() LIMIT 1`,
+      [username]
+    );
+    if (pRes.rows[0]) return false;
+  } catch (e) {
+    console.error("[api/auth username check]", e.message);
+    return true;
+  }
+  return true;
+}
+
 function generateCode() {
   return String(crypto.randomInt(100000, 1000000));
 }
@@ -357,6 +384,34 @@ module.exports = async (req, res) => {
         ok: true,
         id: fbId,
         message: "پیام شما با موفقیت ثبت شد و در پنل پشتیبانی بررسی می‌شود.",
+      });
+    }
+
+    // ----------------------------------------------------
+    // ۰.۵ بررسی موجود بودن نام کاربری: action=username-check
+    // ----------------------------------------------------
+    if (action === "username-check") {
+      const username = String(body.username || body.user || (req.query && req.query.username) || "").trim().toLowerCase();
+      if (!validUsername(username)) {
+        return res.status(200).json({
+          ok: true,
+          available: false,
+          valid: false,
+          message: "نام کاربری فقط حروف انگلیسی، عدد و زیرخط (_)، بین ۳ تا ۲۴ نویسه.",
+        });
+      }
+      const rl = rateLimit("uname-check:" + clientIp(req), 30, 60 * 1000);
+      if (!rl.ok) {
+        return res.status(429).json({ ok: false, error: "rate-limited", message: "تلاش بیش از حد؛ چند ثانیه دیگر تلاش کنید." });
+      }
+      await initDb();
+      const available = await usernameAvailable(username);
+      return res.status(200).json({
+        ok: true,
+        username: username,
+        available: available,
+        valid: true,
+        message: available ? "این نام کاربری آزاد است." : "این نام کاربری قبلاً گرفته شده است.",
       });
     }
 
@@ -524,7 +579,7 @@ module.exports = async (req, res) => {
       if (otpMeta && otpMeta.pendingRef && pool) {
         try {
           const pRes = await pool.query(
-            `SELECT full_name, password_hash, hsk_level FROM public.chinifa_pending_registrations
+            `SELECT full_name, password_hash, hsk_level, username FROM public.chinifa_pending_registrations
              WHERE email = $1 AND expires_at > now() LIMIT 1`,
             [email]
           );
@@ -539,24 +594,28 @@ module.exports = async (req, res) => {
         ? String(pendingFromDb.password_hash)
         : ((otpMeta && otpMeta.pwHash) ? String(otpMeta.pwHash) : null);
       const regLevel = String((pendingFromDb && pendingFromDb.hsk_level) || (otpMeta && otpMeta.hskLevel) || "HSK 1").trim().slice(0, 32);
+      const regUsernameRaw = String((pendingFromDb && pendingFromDb.username) || (otpMeta && otpMeta.username) || "").trim().toLowerCase();
+      const regUsername = validUsername(regUsernameRaw) ? regUsernameRaw : "";
 
       let userId = stableUserId(email);
       let displayName = regFullName;
       let hskLevel = regLevel || "HSK 1";
       let proStatus = isUserPro(email);
       let storeSnapshot = null;
+      let realUsername = regUsername;
 
       if (pool) {
         try {
           const upsertRes = await pool.query(
-            `INSERT INTO public.chinifa_users (id, email, full_name, password_hash, hsk_level, is_pro)
-             VALUES ($1, $2, $3, $4, $5, $6)
+            `INSERT INTO public.chinifa_users (id, email, full_name, password_hash, hsk_level, is_pro, username)
+             VALUES ($1, $2, $3, $4, $5, $6, NULLIF($7, ''))
              ON CONFLICT (email) DO UPDATE SET
                full_name = COALESCE(NULLIF($3, ''), public.chinifa_users.full_name),
                password_hash = COALESCE($4, public.chinifa_users.password_hash),
+               username = COALESCE(NULLIF($7, ''), public.chinifa_users.username),
                updated_at = now()
-             RETURNING id, email, full_name, hsk_level, status, role, is_pro, pro_expires_at`,
-            [userId, email, regFullName, regPwHash, hskLevel, proStatus]
+             RETURNING id, email, full_name, hsk_level, status, role, is_pro, pro_expires_at, username`,
+            [userId, email, regFullName, regPwHash, hskLevel, proStatus, regUsername]
           );
           // One-shot pending registration row
           if (pendingFromDb) {
@@ -570,6 +629,7 @@ module.exports = async (req, res) => {
             userId = row.id || userId;
             displayName = row.full_name || displayName;
             hskLevel = row.hsk_level || hskLevel;
+            realUsername = String(row.username || regUsername || "").toLowerCase();
             proStatus = proStatus || isDbRowPro(row);
           }
           const kvRes = await pool.query(
@@ -581,6 +641,13 @@ module.exports = async (req, res) => {
           }
         } catch (e) {
           console.error("[api/auth verify-otp db]", e.message);
+          // Unique violation on lower(username): someone else claimed it meanwhile
+          if (e && e.code === "23505") {
+            return res.status(409).json({
+              error: "username-taken",
+              message: "این نام کاربری هم‌اکنون توسط حساب دیگری ثبت شده است. لطفاً دوباره ثبت‌نام کنید و نام کاربری دیگری انتخاب کنید.",
+            });
+          }
         }
       }
 
@@ -594,6 +661,7 @@ module.exports = async (req, res) => {
         totalXp: 0,
         streak: 0,
         verified: true,
+        username: realUsername || displayName,
         isPro: proStatus,
         pro: proStatus,
         verifiedAt: new Date().toISOString(),
@@ -604,7 +672,7 @@ module.exports = async (req, res) => {
         message: "ایمیل تایید و حساب کاربری فعال شد.",
         token: token,
         id: userId,
-        username: displayName,
+        username: realUsername || displayName,
         email: email,
         isPro: proStatus,
         pro: proStatus,
@@ -620,7 +688,8 @@ module.exports = async (req, res) => {
     if (action === "register") {
       const email = String(body.email || "").trim().toLowerCase();
       const password = String(body.password || "");
-      const fullName = String(body.name || body.fullName || body.username || email.split("@")[0]).trim().slice(0, 80);
+      const username = String(body.username || body.user || "").trim().toLowerCase();
+      const fullName = String(body.name || body.fullName || username || email.split("@")[0]).trim().slice(0, 80);
       const hskLevel = String(body.hskLevel || "HSK 1").trim().slice(0, 32);
 
       if (!validEmail(email)) {
@@ -628,6 +697,13 @@ module.exports = async (req, res) => {
       }
       if (password.length < 6) {
         return res.status(400).json({ error: "weak-password", message: "کلمه عبور باید حداقل ۶ نویسه باشد." });
+      }
+      if (!validUsername(username)) {
+        return res.status(400).json({
+          error: "bad-username",
+          message: "نام کاربری فقط حروف انگلیسی، عدد و زیرخط (_)، بین ۳ تا ۲۴ نویسه.",
+          field: "username",
+        });
       }
 
       await initDb();
@@ -661,6 +737,18 @@ module.exports = async (req, res) => {
       const pwHash = hashPassword(password);
       const now = Date.now();
 
+      // Username must be unique across registered users and live pending registrations
+      if (pool) {
+        const free = await usernameAvailable(username);
+        if (!free) {
+          return res.status(409).json({
+            error: "username-taken",
+            message: "این نام کاربری قبلاً توسط کاربر دیگری انتخاب شده است. لطفاً نام کاربری دیگری وارد کنید.",
+            field: "username",
+          });
+        }
+      }
+
       // Rate-limit OTP spam slightly (allow resend after 15s for pending registration)
       const existingOtp = otpCache.get(email);
       if (existingOtp && now - existingOtp.createdAt < 15000) {
@@ -693,22 +781,23 @@ module.exports = async (req, res) => {
       if (pool) {
         try {
           await pool.query(
-            `INSERT INTO public.chinifa_pending_registrations (email, full_name, password_hash, hsk_level, expires_at)
-             VALUES ($1, $2, $3, $4, to_timestamp($5 / 1000.0))
+            `INSERT INTO public.chinifa_pending_registrations (email, full_name, password_hash, hsk_level, username, expires_at)
+             VALUES ($1, $2, $3, $4, $5, to_timestamp($6 / 1000.0))
              ON CONFLICT (email) DO UPDATE SET
                full_name = EXCLUDED.full_name,
                password_hash = EXCLUDED.password_hash,
                hsk_level = EXCLUDED.hsk_level,
+               username = EXCLUDED.username,
                expires_at = EXCLUDED.expires_at,
                created_at = now()`,
-            [email, fullName, pwHash, hskLevel, expiresAt]
+            [email, fullName, pwHash, hskLevel, username, expiresAt]
           );
           tokenMeta = { pendingRef: 1 };
         } catch (e) {
           console.error("[api/auth register pending db]", e.message);
         }
       }
-      if (!tokenMeta) tokenMeta = { fullName, pwHash, hskLevel };
+      if (!tokenMeta) tokenMeta = { fullName, pwHash, hskLevel, username };
       const otpToken = createOtpToken(email, codeHash, expiresAt, tokenMeta);
 
       otpCache.set(email, {
@@ -781,12 +870,16 @@ module.exports = async (req, res) => {
       await initDb();
 
       // 1. Check PostgreSQL chinifa_users first if configured
+      // Identifier may be the email OR the unique username.
       if (pool) {
         let uRes;
         try {
           uRes = await pool.query(
-            `SELECT id, email, full_name, password_hash, hsk_level, status, role, is_pro, pro_expires_at
-             FROM public.chinifa_users WHERE email = $1 OR lower(split_part(email, '@', 1)) = $1 LIMIT 1`,
+            `SELECT id, email, full_name, password_hash, hsk_level, status, role, is_pro, pro_expires_at, username
+             FROM public.chinifa_users
+             WHERE email = $1 OR (username IS NOT NULL AND username <> '' AND lower(username) = lower($1))
+             ORDER BY CASE WHEN email = $1 THEN 0 ELSE 1 END
+             LIMIT 1`,
             [email]
           );
         } catch (e) {
@@ -819,6 +912,7 @@ module.exports = async (req, res) => {
             [row.id, realEmail]
           );
           if (kvRes.rows[0] && kvRes.rows[0].value) storeSnapshot = kvRes.rows[0].value;
+          const realUsername = String(row.username || "").toLowerCase();
           const displayName = row.full_name || realEmail.split("@")[0];
           const token = signSessionToken({ uid: row.id, email: realEmail, name: displayName });
           return res.status(200).json({
@@ -826,7 +920,7 @@ module.exports = async (req, res) => {
             message: "ورود موفقیت‌آمیز بود.",
             token: token,
             id: row.id,
-            username: displayName,
+            username: realUsername || displayName,
             email: realEmail,
             isPro: proStatus,
             pro: proStatus,
@@ -836,6 +930,7 @@ module.exports = async (req, res) => {
               email: realEmail,
               fullName: displayName,
               hskLevel: row.hsk_level || "HSK 1",
+              username: realUsername || displayName,
               verified: true,
               isPro: proStatus,
               pro: proStatus,
@@ -993,12 +1088,13 @@ module.exports = async (req, res) => {
       await initDb();
       let proStatus = isUserPro(user.email);
       let fullName = user.fullName;
+      let realUsername = "";
       let storeSnapshot = null;
 
       if (pool) {
         try {
           const uRes = await pool.query(
-            `SELECT full_name, status, role, is_pro, pro_expires_at FROM public.chinifa_users WHERE id = $1 OR ($2 <> '' AND email = $2) LIMIT 1`,
+            `SELECT full_name, status, role, is_pro, pro_expires_at, username FROM public.chinifa_users WHERE id = $1 OR ($2 <> '' AND email = $2) LIMIT 1`,
             [user.id, user.email || ""]
           );
           if (uRes.rows[0]) {
@@ -1006,6 +1102,7 @@ module.exports = async (req, res) => {
               return res.status(403).json({ ok: false, error: "account-suspended", message: "حساب کاربری مسدود شده است." });
             }
             fullName = uRes.rows[0].full_name || fullName;
+            realUsername = String(uRes.rows[0].username || "").toLowerCase();
             proStatus = proStatus || isDbRowPro(uRes.rows[0]);
           }
           const kvRes = await pool.query(
@@ -1024,7 +1121,7 @@ module.exports = async (req, res) => {
         ok: true,
         authenticated: true,
         id: user.id,
-        username: fullName,
+        username: realUsername || fullName,
         email: user.email,
         isPro: proStatus,
         pro: proStatus,
@@ -1033,6 +1130,7 @@ module.exports = async (req, res) => {
           id: user.id,
           email: user.email,
           fullName: fullName,
+          username: realUsername || fullName,
           isPro: proStatus,
           pro: proStatus,
         },

@@ -246,6 +246,11 @@ async function initDb() {
         CREATE INDEX IF NOT EXISTS idx_chinifa_users_email ON public.chinifa_users(email);
         CREATE INDEX IF NOT EXISTS idx_chinifa_kv_email ON public.chinifa_kv_store(email);
         CREATE INDEX IF NOT EXISTS idx_chinifa_lookups_user ON public.chinifa_lookups(user_id);
+        ALTER TABLE public.chinifa_users ADD COLUMN IF NOT EXISTS username TEXT;
+        ALTER TABLE public.chinifa_pending_registrations ADD COLUMN IF NOT EXISTS username TEXT;
+        CREATE UNIQUE INDEX IF NOT EXISTS idx_chinifa_users_username
+          ON public.chinifa_users (lower(username))
+          WHERE username IS NOT NULL AND username <> '';
       `);
       dbInitialized = true;
       return true;
