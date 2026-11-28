@@ -23,6 +23,23 @@ function adminSecret() {
   return crypto.createHash("sha256").update("chinifa-admin-v2:" + getSessionSecret()).digest("hex");
 }
 
+// XP the app itself computes from the user's store snapshot (same formula as
+// Journey.xp() on the client). Admin-set `xpBonus` is added on top by the app.
+function computeAppXp(st) {
+  st = st && typeof st === "object" ? st : {};
+  const studied = st.studied && typeof st.studied === "object" ? st.studied : {};
+  let studiedXp = 0;
+  Object.values(studied).forEach((d) => {
+    if (!d || typeof d !== "object") return;
+    studiedXp += 2 * (Number(d.words) || 0) + 20 * (Number(d.lessons) || 0) + 5 * (Number(d.parts) || 0) + (Number(d.xp) || 0);
+  });
+  const journey = st.journey && typeof st.journey === "object" ? st.journey : {};
+  const revXp = 30 * Object.keys(journey.rev || {}).length;
+  const tcObj = journey.tc && typeof journey.tc === "object" ? journey.tc : {};
+  const tcXp = 10 * Object.keys(tcObj).filter((k) => tcObj[k] && tcObj[k].at).length;
+  return studiedXp + revXp + tcXp;
+}
+
 function signAdminToken(username) {
   const payload = {
     role: "superadmin",
@@ -203,17 +220,7 @@ module.exports = async (req, res) => {
         const currentLesson = Math.max(cpTotal, unitDoneCount, highestUnitReached);
         const isPro = isDbRowPro(row);
         const status = row.status === "suspended" ? "suspended" : (isPro ? "vip" : "active");
-        const studied = st.studied && typeof st.studied === "object" ? st.studied : {};
-        let studiedXp = 0;
-        Object.values(studied).forEach((d) => {
-          if (!d || typeof d !== "object") return;
-          studiedXp += 2 * (Number(d.words) || 0) + 20 * (Number(d.lessons) || 0) + 5 * (Number(d.parts) || 0) + (Number(d.xp) || 0);
-        });
-        const journey = st.journey && typeof st.journey === "object" ? st.journey : {};
-        const revXp = 30 * Object.keys(journey.rev || {}).length;
-        const tcObj = journey.tc && typeof journey.tc === "object" ? journey.tc : {};
-        const tcXp = 10 * Object.keys(tcObj).filter((k) => tcObj[k] && tcObj[k].at).length;
-        const appXp = studiedXp + revXp + tcXp;
+        const appXp = computeAppXp(st) + Math.max(0, Number(st.xpBonus) || 0);
         const xp = Math.max(Number(st.xp) || 0, appXp, words * 10 + currentLesson * 50);
         const lastIso = row.store_updated_at || row.updated_at || row.created_at || null;
         return {
@@ -300,7 +307,14 @@ module.exports = async (req, res) => {
           curVal.level = level;
           curVal.name = name;
           if (body.streak !== undefined) curVal.streak = Math.max(0, Number(body.streak) || 0);
-          if (body.xp !== undefined) curVal.xp = Math.max(0, Number(body.xp) || 0);
+          if (body.xp !== undefined) {
+            // Admin types the desired TOTAL XP; store a bonus so the app's own
+            // computed XP (Journey.xp()) reaches that number on the client.
+            const targetXp = Math.max(0, Number(body.xp) || 0);
+            const curAppXp = computeAppXp(curVal);
+            curVal.xpBonus = Math.max(0, targetXp - curAppXp);
+            curVal.xp = targetXp;
+          }
           if (body.currentLesson !== undefined) {
             curVal.courseProgress = curVal.courseProgress && typeof curVal.courseProgress === "object" ? curVal.courseProgress : {};
             curVal.courseProgress.hsk1 = Math.max(0, Number(body.currentLesson) || 0);

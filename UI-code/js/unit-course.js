@@ -8846,6 +8846,9 @@ resolvePy: function(str) {
       if (window.Store && typeof Store.addXp === 'function') {
         Store.addXp(30);
       }
+      if (window.Store && typeof Store.markSubLessonCelebrate === 'function') {
+        Store.markSubLessonCelebrate();
+      }
       if (window.Audio2 && Audio2.sfx) Audio2.sfx("celebrate");
       UI.toast("🎉 تبریک! ۳۰ امتیاز تجربه (XP) به حساب شما اضافه شد!", { light: true });
       App.rerender();
