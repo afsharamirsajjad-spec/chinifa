@@ -61,6 +61,80 @@ function getOtpSecret() {
   return process.env.OTP_SECRET || getSessionSecret();
 }
 
+// Keyed hash of the OTP code. The secret never leaves the server, so a leaked
+// otpToken can no longer be cracked offline (was plain sha256(email:code)).
+function codeHashFor(email, code) {
+  return crypto.createHmac("sha256", getOtpSecret())
+    .update(`${String(email || "").trim().toLowerCase()}:${code}`)
+    .digest("hex");
+}
+
+// Generic in-memory rate limiter (per serverless instance; best-effort extra
+// layer on top of the DB-backed OTP guard).
+globalThis.__chinifa_rl = globalThis.__chinifa_rl || new Map();
+const rateMap = globalThis.__chinifa_rl;
+setInterval(() => {
+  const now = Date.now();
+  for (const [k, v] of rateMap.entries()) {
+    if (now - v.start > v.window) rateMap.delete(k);
+  }
+}, 300000).unref?.();
+
+function rateLimit(key, max, windowMs) {
+  const now = Date.now();
+  let e = rateMap.get(key);
+  if (!e || now - e.start > windowMs) {
+    e = { start: now, count: 0, window: windowMs };
+    rateMap.set(key, e);
+  }
+  e.count += 1;
+  return { ok: e.count <= max, retryAfter: Math.max(1, Math.ceil((windowMs - (now - e.start)) / 1000)) };
+}
+
+function clientIp(req) {
+  const xf = String((req.headers && req.headers["x-forwarded-for"]) || "").split(",")[0].trim();
+  return xf || String((req.headers && req.headers["x-real-ip"]) || "").trim() || "anon";
+}
+
+// Verify-attempt guard: caps wrong-code guesses per email. DB-backed when a
+// database is configured (shared across serverless instances), in-memory fallback.
+const OTP_GUARD_MAX = 8;
+const OTP_GUARD_WINDOW_MS = 15 * 60 * 1000;
+
+async function recordOtpGuardFail(email) {
+  if (!email) return;
+  try {
+    if (pool) {
+      await pool.query(
+        `INSERT INTO public.chinifa_otp_guard (email, fails, window_start) VALUES ($1, 1, now())
+         ON CONFLICT (email) DO UPDATE SET
+           fails = CASE WHEN public.chinifa_otp_guard.window_start < now() - interval '15 minutes' THEN 1
+                        ELSE public.chinifa_otp_guard.fails + 1 END,
+           window_start = CASE WHEN public.chinifa_otp_guard.window_start < now() - interval '15 minutes' THEN now()
+                               ELSE public.chinifa_otp_guard.window_start END`,
+        [email]
+      );
+    } else {
+      const key = "guard:" + email;
+      const g = otpCache.get(key);
+      if (!g || g.expiresAt < Date.now()) otpCache.set(key, { fails: 1, expiresAt: Date.now() + OTP_GUARD_WINDOW_MS });
+      else g.fails += 1;
+    }
+  } catch (e) {
+    console.error("[api/auth otp-guard write]", e.message);
+  }
+}
+
+async function clearOtpGuard(email) {
+  if (!email) return;
+  try {
+    if (pool) await pool.query(`DELETE FROM public.chinifa_otp_guard WHERE email = $1`, [email]);
+    else otpCache.delete("guard:" + email);
+  } catch (e) {
+    console.error("[api/auth otp-guard clear]", e.message);
+  }
+}
+
 function createOtpToken(email, codeHash, expiresAt, meta) {
   const payload = { email, hash: codeHash, expiresAt };
   if (meta && typeof meta === "object") payload.meta = meta;
@@ -307,8 +381,18 @@ module.exports = async (req, res) => {
         });
       }
 
+      // Per-IP hourly cap: blocks email-bombing by rotating target addresses
+      const ipRl = rateLimit("otp-send:" + clientIp(req), 20, 60 * 60 * 1000);
+      if (!ipRl.ok) {
+        return res.status(429).json({
+          error: "rate-limited",
+          message: "تعداد درخواست‌های کد تایید از این دستگاه زیاد است. لطفاً یک ساعت دیگر تلاش کنید.",
+          retryAfter: ipRl.retryAfter,
+        });
+      }
+
       const code = generateCode();
-      const codeHash = crypto.createHash("sha256").update(`${email}:${code}`).digest("hex");
+      const codeHash = codeHashFor(email, code);
       const expiresAt = now + 10 * 60 * 1000; // 10 minutes
       const otpToken = createOtpToken(email, codeHash, expiresAt);
 
@@ -321,6 +405,15 @@ module.exports = async (req, res) => {
 
       try {
         const sendResult = await sendResendOtpEmail(email, code);
+        if (sendResult.devMode && isProduction()) {
+          // Fail closed: never fake success (or expose the code) when the mail
+          // provider is unconfigured on a production deployment.
+          console.error("[api/auth send-otp] RESEND_API_KEY missing in production; refusing to issue OTP.");
+          return res.status(503).json({
+            error: "email-unconfigured",
+            message: "سرویس ارسال ایمیل روی سرور تنظیم نشده است. لطفاً بعداً تلاش کنید یا با پشتیبانی تماس بگیرید.",
+          });
+        }
         const exposeDevCode = Boolean(sendResult.devMode && !isProduction());
         return res.status(200).json({
           ok: true,
@@ -352,7 +445,32 @@ module.exports = async (req, res) => {
         return res.status(400).json({ error: "bad-params", message: "ایمیل یا کد وارد شده صحیح نیست." });
       }
 
-      const inputHash = crypto.createHash("sha256").update(`${email}:${code}`).digest("hex");
+      await initDb();
+
+      // Verify-attempt guard: cap wrong-code guesses per email before any check
+      let guardBlocked = false;
+      try {
+        if (pool) {
+          const g = await pool.query(`SELECT fails, window_start FROM public.chinifa_otp_guard WHERE email = $1 LIMIT 1`, [email]);
+          const grow = g.rows[0];
+          if (grow && Date.now() - new Date(grow.window_start).getTime() < OTP_GUARD_WINDOW_MS && Number(grow.fails) >= OTP_GUARD_MAX) {
+            guardBlocked = true;
+          }
+        } else {
+          const gm = otpCache.get("guard:" + email);
+          if (gm && gm.expiresAt > Date.now() && gm.fails >= OTP_GUARD_MAX) guardBlocked = true;
+        }
+      } catch (e) {
+        console.error("[api/auth verify guard read]", e.message);
+      }
+      if (guardBlocked) {
+        return res.status(429).json({
+          error: "too-many-attempts",
+          message: "تلاش‌های ناموفق بیش از حد مجاز است. لطفاً چند دقیقه بعد کد جدید بگیرید.",
+        });
+      }
+
+      const inputHash = codeHashFor(email, code);
       let verified = false;
       let otpMeta = null;
 
@@ -362,6 +480,7 @@ module.exports = async (req, res) => {
         return res.status(400).json({ error: "expired-otp", message: "کد تایید منقضی شده است." });
       }
       if (tokenCheck.status === "mismatch") {
+        await recordOtpGuardFail(email);
         return res.status(400).json({ error: "invalid-code", message: "کد ۶ رقمی وارد شده اشتباه است." });
       }
       if (tokenCheck.status === "ok") {
@@ -388,6 +507,7 @@ module.exports = async (req, res) => {
 
         if (!timingSafeEqualStr(inputHash, cached.hash)) {
           cached.attempts += 1;
+          await recordOtpGuardFail(email);
           return res.status(400).json({ error: "invalid-code", message: "کد ۶ رقمی وارد شده اشتباه است." });
         }
         verified = true;
@@ -396,11 +516,29 @@ module.exports = async (req, res) => {
 
       // Verified successfully!
       otpCache.delete(email);
-      await initDb();
+      await clearOtpGuard(email);
 
-      const regFullName = String((otpMeta && otpMeta.fullName) || name || email.split("@")[0]).trim().slice(0, 80);
-      const regPwHash = (otpMeta && otpMeta.pwHash) ? String(otpMeta.pwHash) : null;
-      const regLevel = String((otpMeta && otpMeta.hskLevel) || "HSK 1").trim().slice(0, 32);
+      // Registration meta now lives server-side (chinifa_pending_registrations);
+      // the client token only carries a pendingRef marker, never the password hash.
+      let pendingFromDb = null;
+      if (otpMeta && otpMeta.pendingRef && pool) {
+        try {
+          const pRes = await pool.query(
+            `SELECT full_name, password_hash, hsk_level FROM public.chinifa_pending_registrations
+             WHERE email = $1 AND expires_at > now() LIMIT 1`,
+            [email]
+          );
+          if (pRes.rows[0]) pendingFromDb = pRes.rows[0];
+        } catch (e) {
+          console.error("[api/auth verify pending]", e.message);
+        }
+      }
+
+      const regFullName = String((pendingFromDb && pendingFromDb.full_name) || (otpMeta && otpMeta.fullName) || name || email.split("@")[0]).trim().slice(0, 80);
+      const regPwHash = (pendingFromDb && pendingFromDb.password_hash)
+        ? String(pendingFromDb.password_hash)
+        : ((otpMeta && otpMeta.pwHash) ? String(otpMeta.pwHash) : null);
+      const regLevel = String((pendingFromDb && pendingFromDb.hsk_level) || (otpMeta && otpMeta.hskLevel) || "HSK 1").trim().slice(0, 32);
 
       let userId = stableUserId(email);
       let displayName = regFullName;
@@ -420,6 +558,10 @@ module.exports = async (req, res) => {
              RETURNING id, email, full_name, hsk_level, status, role, is_pro, pro_expires_at`,
             [userId, email, regFullName, regPwHash, hskLevel, proStatus]
           );
+          // One-shot pending registration row
+          if (pendingFromDb) {
+            try { await pool.query(`DELETE FROM public.chinifa_pending_registrations WHERE email = $1`, [email]); } catch (e) {}
+          }
           if (upsertRes.rows[0]) {
             const row = upsertRes.rows[0];
             if (row.status === "suspended") {
@@ -530,18 +672,51 @@ module.exports = async (req, res) => {
         });
       }
 
+      // Per-IP hourly cap shared with send-otp
+      const ipRl = rateLimit("otp-send:" + clientIp(req), 20, 60 * 60 * 1000);
+      if (!ipRl.ok) {
+        return res.status(429).json({
+          error: "rate-limited",
+          message: "تعداد درخواست‌های ثبت‌نام از این دستگاه زیاد است. لطفاً یک ساعت دیگر تلاش کنید.",
+          retryAfter: ipRl.retryAfter,
+        });
+      }
+
       const code = generateCode();
-      const codeHash = crypto.createHash("sha256").update(`${email}:${code}`).digest("hex");
+      const codeHash = codeHashFor(email, code);
       const expiresAt = now + 10 * 60 * 1000;
-      const pendingMeta = { fullName, pwHash, hskLevel };
-      const otpToken = createOtpToken(email, codeHash, expiresAt, pendingMeta);
+
+      // Store registration meta server-side; the client-facing token carries
+      // only a pendingRef marker (never the password hash). Inline meta is the
+      // no-database dev fallback only.
+      let tokenMeta = null;
+      if (pool) {
+        try {
+          await pool.query(
+            `INSERT INTO public.chinifa_pending_registrations (email, full_name, password_hash, hsk_level, expires_at)
+             VALUES ($1, $2, $3, $4, to_timestamp($5 / 1000.0))
+             ON CONFLICT (email) DO UPDATE SET
+               full_name = EXCLUDED.full_name,
+               password_hash = EXCLUDED.password_hash,
+               hsk_level = EXCLUDED.hsk_level,
+               expires_at = EXCLUDED.expires_at,
+               created_at = now()`,
+            [email, fullName, pwHash, hskLevel, expiresAt]
+          );
+          tokenMeta = { pendingRef: 1 };
+        } catch (e) {
+          console.error("[api/auth register pending db]", e.message);
+        }
+      }
+      if (!tokenMeta) tokenMeta = { fullName, pwHash, hskLevel };
+      const otpToken = createOtpToken(email, codeHash, expiresAt, tokenMeta);
 
       otpCache.set(email, {
         hash: codeHash,
         attempts: 0,
         createdAt: now,
         expiresAt: expiresAt,
-        meta: pendingMeta,
+        meta: tokenMeta,
       });
 
       let sendResult = { ok: true, devMode: false };
@@ -552,6 +727,14 @@ module.exports = async (req, res) => {
         return res.status(500).json({
           error: "resend-failed",
           message: "خطا در ارسال ایمیل تایید: " + e.message,
+        });
+      }
+
+      if (sendResult.devMode && isProduction()) {
+        console.error("[api/auth register] RESEND_API_KEY missing in production; refusing to issue OTP.");
+        return res.status(503).json({
+          error: "email-unconfigured",
+          message: "سرویس ارسال ایمیل روی سرور تنظیم نشده است. لطفاً بعداً تلاش کنید یا با پشتیبانی تماس بگیرید.",
         });
       }
 
@@ -576,6 +759,23 @@ module.exports = async (req, res) => {
 
       if (!email || !password) {
         return res.status(400).json({ error: "missing-credentials", message: "ایمیل و کلمه عبور الزامی است." });
+      }
+
+      // Rate limit password login: 6 tries per email / 10 min, 30 per IP / 10 min
+      const emailRl = rateLimit("login:" + email, 6, 10 * 60 * 1000);
+      if (!emailRl.ok) {
+        return res.status(429).json({
+          error: "rate-limited",
+          message: `تلاش‌های ورود زیاد بوده است. لطفاً ${emailRl.retryAfter} ثانیه دیگر تلاش کنید.`,
+          retryAfter: emailRl.retryAfter,
+        });
+      }
+      const ipRl = rateLimit("login-ip:" + clientIp(req), 30, 10 * 60 * 1000);
+      if (!ipRl.ok) {
+        return res.status(429).json({
+          error: "rate-limited",
+          message: "تعداد تلاش‌های ورود از این دستگاه زیاد است. لطفاً بعداً تلاش کنید.",
+        });
       }
 
       await initDb();

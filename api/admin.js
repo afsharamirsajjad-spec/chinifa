@@ -69,15 +69,32 @@ module.exports = async (req, res) => {
     if (action === "login") {
       const username = String(body.username || "").trim().toLowerCase();
       const password = String(body.password || "");
-      const expectedPass = process.env.ADMIN_PASSWORD || "chinifa2026";
+      const expectedPass = process.env.ADMIN_PASSWORD || "";
       if (!expectedPass) {
+        // Fail closed: no hardcoded fallback (the repo is public).
         return res.status(503).json({
           ok: false,
           error: "admin-not-configured",
-          message: "رمز عبور ادمین (ADMIN_PASSWORD) در تنظیمات سرور تعریف نشده است.",
+          message: "رمز عبور ادمین (ADMIN_PASSWORD) در تنظیمات سرور تعریف نشده است و ورود عمداً غیرفعال است.",
+        });
+      }
+      // Brute-force guard (per serverless instance): lock IP+user after 5 failures for 10 minutes
+      globalThis.__chinifa_admin_rl = globalThis.__chinifa_admin_rl || new Map();
+      const rl = globalThis.__chinifa_admin_rl;
+      const ip = String((req.headers && req.headers["x-forwarded-for"]) || "").split(",")[0].trim() || "anon";
+      const rlKey = `admin:${ip}:${username}`;
+      const now = Date.now();
+      const rec = rl.get(rlKey) || { fails: 0, lockedUntil: 0 };
+      if (rec.lockedUntil > now) {
+        const waitSec = Math.ceil((rec.lockedUntil - now) / 1000);
+        return res.status(429).json({
+          ok: false,
+          error: "rate-limited",
+          message: `تلاش‌های ناموفق زیاد بوده است؛ لطفاً ${waitSec} ثانیه دیگر تلاش کنید.`,
         });
       }
       if ((username === "admin" || username === "chinifa") && timingSafeEqualStr(password, expectedPass)) {
+        rl.delete(rlKey);
         const token = signAdminToken(username);
         return res.status(200).json({
           ok: true,
@@ -87,6 +104,12 @@ module.exports = async (req, res) => {
           expiresAt: Date.now() + 24 * 60 * 60 * 1000,
         });
       }
+      rec.fails += 1;
+      if (rec.fails >= 5) {
+        rec.lockedUntil = now + 10 * 60 * 1000;
+        rec.fails = 0;
+      }
+      rl.set(rlKey, rec);
       return res.status(401).json({ ok: false, error: "نام کاربری یا رمز عبور ادمین اشتباه است." });
     }
 

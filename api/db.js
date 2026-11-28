@@ -81,8 +81,14 @@ function isDbRowPro(row) {
   return new Date(row.pro_expires_at).getTime() > Date.now();
 }
 
+let pgSslWarned = false;
 function pgSslOption() {
-  return { rejectUnauthorized: process.env.PG_SSL_STRICT === "true" };
+  const strict = process.env.PG_SSL_STRICT === "true";
+  if (!strict && isProduction() && !pgSslWarned) {
+    pgSslWarned = true;
+    console.warn("[SECURITY] PG SSL certificate validation is DISABLED (PG_SSL_STRICT!=true); set PG_SSL_STRICT=true once your Postgres endpoint presents a Node-trusted certificate.");
+  }
+  return { rejectUnauthorized: strict };
 }
 
 function findPgConfig() {
@@ -224,6 +230,19 @@ async function initDb() {
           en TEXT DEFAULT '',
           created_at TIMESTAMPTZ DEFAULT now()
         );
+        CREATE TABLE IF NOT EXISTS public.chinifa_pending_registrations (
+          email TEXT PRIMARY KEY,
+          full_name TEXT,
+          password_hash TEXT,
+          hsk_level TEXT,
+          expires_at TIMESTAMPTZ,
+          created_at TIMESTAMPTZ DEFAULT now()
+        );
+        CREATE TABLE IF NOT EXISTS public.chinifa_otp_guard (
+          email TEXT PRIMARY KEY,
+          fails INT DEFAULT 0,
+          window_start TIMESTAMPTZ DEFAULT now()
+        );
         CREATE INDEX IF NOT EXISTS idx_chinifa_users_email ON public.chinifa_users(email);
         CREATE INDEX IF NOT EXISTS idx_chinifa_kv_email ON public.chinifa_kv_store(email);
         CREATE INDEX IF NOT EXISTS idx_chinifa_lookups_user ON public.chinifa_lookups(user_id);
@@ -247,12 +266,17 @@ let warnedSessionSecret = false;
 function getSessionSecret() {
   const secret = process.env.AUTH_SECRET || process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.RESEND_API_KEY;
   if (secret) return secret;
+  const entropy = process.env.POSTGRES_URL_NON_POOLING || process.env.POSTGRES_URL || process.env.DATABASE_URL || process.env.VERCEL_URL || "";
+  if (!entropy && isProduction()) {
+    // Fail closed: without any server-side entropy, session tokens would be
+    // forgeable with a public constant. Refuse to sign instead.
+    throw new Error("[SECURITY] No AUTH_SECRET / service key / DB URL configured; refusing to derive a forgeable session key in production.");
+  }
   if (!warnedSessionSecret) {
     warnedSessionSecret = true;
-    console.warn("[SECURITY] AUTH_SECRET is not set; deriving HMAC key from configured runtime env.");
+    console.warn("[SECURITY] AUTH_SECRET is not set; deriving HMAC key from configured runtime env (set AUTH_SECRET to decouple).");
   }
-  const entropy = process.env.POSTGRES_URL_NON_POOLING || process.env.POSTGRES_URL || process.env.DATABASE_URL || process.env.VERCEL_URL || "chinifa-dev-session-hmac-secret";
-  return crypto.createHash("sha256").update("chinifa-session-v2:" + entropy).digest("hex");
+  return crypto.createHash("sha256").update("chinifa-session-v2:" + (entropy || "chinifa-dev-session-hmac-secret")).digest("hex");
 }
 
 function signSessionToken(payload) {
