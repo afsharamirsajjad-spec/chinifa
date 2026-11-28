@@ -85,7 +85,7 @@ n.myProgress={
             '<h1 style="margin:0; font-size:20px; font-weight:800; color:var(--text, #1e293b);">'+a(t("mpTitle"))+'</h1>'+
             '<div style="display:flex; align-items:center; gap:10px;">'+
               (f||'')+
-              '<button class="iconbtn" '+s("back")+' aria-label="بازگشت" style="width:38px; height:38px; border-radius:50%; background:var(--sunk, #f1f5f9); display:grid; place-items:center; border:none; cursor:pointer;">'+r("arrow-right",18)+'</button>'+
+              '<button class="iconbtn" '+s("back")+' aria-label="بازگشت" style="width:38px; height:38px; border-radius:50%; background:var(--sunk, #f1f5f9); display:grid; place-items:center; border:none; cursor:pointer;">'+r("chevron-left",18)+'</button>'+
             '</div>'+
         '</div>';
 

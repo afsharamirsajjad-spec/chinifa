@@ -248,6 +248,7 @@
               '<div style="font-size:11.5px;color:var(--text2,#64748B);font-family:var(--f, inherit);">جست‌وجوی آنی واژه‌ها با تلفظ صوتی و ترجمه فارسی</div>' +
             '</div>' +
           '</div>' +
+          '<button class="hm-streak" '+a("go",{s:"week"})+' aria-label="زنجیره روزها" style="display:inline-flex;align-items:center;gap:4px;background:#EFFBF7;border:1px solid #CDEEDF;border-radius:99px;padding:8px 12px;cursor:pointer;flex-shrink:0;">'+r("flame",15)+'<span style="font-weight:800;color:#0b6b4f;font-size:13px;">'+(n.Store&&n.Store.state?n.Store.state.streak||0:0)+"</span></button>" +
         '</div>';
 
       // فیلد جست‌وجو
