@@ -1,11 +1,11 @@
-var CACHE = "chinifa-v433a93be-94edc678";
+var CACHE = "chinifa-vdde7a838-472e2a13";
 var SHELL = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./css/chinifa-app.bundle.css?v=94edc678",
+  "./css/chinifa-app.bundle.css?v=472e2a13",
   "./js/vendor/hanzi-writer.min.js",
-  "./js/chinifa-app.bundle.js?v=433a93be",
+  "./js/chinifa-app.bundle.js?v=dde7a838",
   "./icons/icon-108.png",
   "./icons/icon-192.png",
   "./art/splash_dragon_mascot.png",
@@ -71,6 +71,25 @@ self.addEventListener("fetch", function(e) {
         return caches.match(req).then(function(cached) {
           return cached || caches.match("./index.html");
         });
+      })
+    );
+    return;
+  }
+
+  // Network-first for content JSON (stories, podcasts, lessons) so updated data
+  // loads immediately without waiting for a cache-key bump; falls back to cache offline.
+  if (url.pathname.indexOf("/content/") === 0) {
+    e.respondWith(
+      fetch(req, { cache: "no-cache" }).then(function(res) {
+        if (res && res.status === 200 && res.type === "basic") {
+          var copy = res.clone();
+          caches.open(CACHE).then(function(cache) {
+            cache.put(req, copy);
+          });
+        }
+        return res;
+      }).catch(function() {
+        return caches.match(req);
       })
     );
     return;

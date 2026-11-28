@@ -1,1828 +1,1843 @@
 {
-  "id": "h3-78",
-  "level": 3,
-  "no": 78,
-  "title": "到了还是倒了",
-  "title_py": "dào le hái shi dào le",
-  "title_en": "Arrived or fallen?",
-  "title_tr": {
-    "vi": "Đến rồi hay ngã rồi?",
-    "pt": "Chegou ou caiu?",
-    "es": "¿Llegó o se cayó?",
-    "fr": "Arrivée ou tombée ?",
-    "am": "ደረስኩ ወይስ ወደቅሁ?",
-    "fa": "رسید یا ریخت؟ (اشتباه شنیداری)"
+ "id": "h3-78",
+ "level": 3,
+ "no": 78,
+ "title": "到了还是倒了",
+ "title_py": "dào le hái shi dào le",
+ "title_en": "Arrived or fallen?",
+ "title_tr": {
+  "vi": "Đến rồi hay ngã rồi?",
+  "pt": "Chegou ou caiu?",
+  "es": "¿Llegó o se cayó?",
+  "fr": "Arrivée ou tombée ?",
+  "am": "ደረስኩ ወይስ ወደቅሁ?",
+  "fa": "رسید یا ریخت؟ (اشتباه شنیداری)"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_comms",
+ "cover": "https://media.kanchinese.app/review/stories/h3-78.jpg",
+ "duration": 105.016,
+ "lines": [
+  {
+   "text": "星期三上午，周经理去见客户，说好十一点回公司。",
+   "py": "xīng qī sān shàng wǔ, Zhōu jīng lǐ qù jiàn kè hù, shuō hǎo shí yì diǎn huí gōng sī.",
+   "en": "On Wednesday morning, Manager Zhou goes to see a client and says she'll be back at the office at eleven.",
+   "tr": {
+    "vi": "Sáng thứ Tư, giám đốc Chu đi gặp khách hàng, hẹn mười một giờ sẽ về công ty.",
+    "pt": "Na quarta-feira de manhã, a gerente Zhou vai ver um cliente e diz que volta ao escritório às onze.",
+    "es": "El miércoles por la mañana, la gerente Zhou va a ver a un cliente y dice que volverá a la oficina a las once.",
+    "fr": "Mercredi matin, la directrice Zhou va voir un client et dit qu'elle sera de retour au bureau à onze heures.",
+    "am": "ረቡዕ ጠዋት ሥራ አስኪያጅ ጆው ደንበኛ ለማግኘት ሄዱ። 11:00 ላይ ወደ ድርጅቱ እንደሚመለሱ ተናግረው ነበር።",
+    "fa": "صبح چهارشنبه، مدیر جو می‌ره دیدن یه مشتری و می‌گه ساعت یازده برمی‌گرده شرکت."
+   },
+   "start": 3.076,
+   "end": 9.004,
+   "tokens": [
+    [
+     "星期三",
+     "xīng qī sān",
+     "Wednesday",
+     ""
+    ],
+    [
+     "上午",
+     "shàng wǔ",
+     "morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "见客",
+     "jiàn kè",
+     "to receive visitors; to receive guests",
+     ""
+    ],
+    [
+     "户",
+     "hù",
+     "a household; door; family",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "说好",
+     "shuō hǎo",
+     "to come to an agreement; to complete negotiations",
+     ""
+    ],
+    [
+     "十一",
+     "shí yī",
+     "eleven; 11; PRC National Day (October 1st)",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_comms",
-  "cover": "https://media.kanchinese.app/review/stories/h3-78.jpg",
-  "duration": 105.016,
-  "lines": [
-    {
-      "text": "星期三上午，周经理去见客户，说好十一点回公司。",
-      "py": "xīng qī sān shàng wǔ, Zhōu jīng lǐ qù jiàn kè hù, shuō hǎo shí yì diǎn huí gōng sī.",
-      "en": "On Wednesday morning, Manager Zhou goes to see a client and says she'll be back at the office at eleven.",
-      "tr": {
-        "vi": "Sáng thứ Tư, giám đốc Chu đi gặp khách hàng, hẹn mười một giờ sẽ về công ty.",
-        "pt": "Na quarta-feira de manhã, a gerente Zhou vai ver um cliente e diz que volta ao escritório às onze.",
-        "es": "El miércoles por la mañana, la gerente Zhou va a ver a un cliente y dice que volverá a la oficina a las once.",
-        "fr": "Mercredi matin, la directrice Zhou va voir un client et dit qu'elle sera de retour au bureau à onze heures.",
-        "am": "ረቡዕ ጠዋት ሥራ አስኪያጅ ጆው ደንበኛ ለማግኘት ሄዱ። 11:00 ላይ ወደ ድርጅቱ እንደሚመለሱ ተናግረው ነበር።"
-      },
-      "start": 3.076,
-      "end": 9.004,
-      "tokens": [
-        [
-          "星期三",
-          "xīng qī sān",
-          "Wednesday",
-          ""
-        ],
-        [
-          "上午",
-          "shàng wǔ",
-          "morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "见客",
-          "jiàn kè",
-          "to receive visitors; to receive guests",
-          ""
-        ],
-        [
-          "户",
-          "hù",
-          "a household; door; family",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "说好",
-          "shuō hǎo",
-          "to come to an agreement; to complete negotiations",
-          ""
-        ],
-        [
-          "十一",
-          "shí yī",
-          "eleven; 11; PRC National Day (October 1st)",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "十一点，杰克的手机响了，是周经理打来的。",
-      "py": "shí yì diǎn, Jié kè de shǒu jī xiǎng le, shì Zhōu jīng lǐ dǎ lái de.",
-      "en": "At eleven, Jack's phone rings. It's Manager Zhou.",
-      "tr": {
-        "vi": "Mười một giờ, điện thoại của Jack đổ chuông, là giám đốc Chu gọi đến.",
-        "pt": "Às onze, o celular de Jack toca. É a gerente Zhou.",
-        "es": "A las once suena el teléfono de Jack. Es la gerente Zhou.",
-        "fr": "À onze heures, le téléphone de Jack sonne. C'est la directrice Zhou.",
-        "am": "11:00 ላይ የጃክ ስልክ ጮኸ። ሥራ አስኪያጅ ጆው ነበሩ።"
-      },
-      "start": 9.704,
-      "end": 15.2,
-      "tokens": [
-        [
-          "十一",
-          "shí yī",
-          "eleven; 11; PRC National Day (October 1st)",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "响",
-          "xiǎng",
-          "to ring; echo; sound",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "打",
-          "dǎ",
-          "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理那边很吵，好像在大马路上，她说得又快又急。",
-      "py": "Zhōu jīng lǐ nà biān hěn chǎo, hǎo xiàng zài dà mǎ lù shàng, tā shuō de yòu kuài yòu jí.",
-      "en": "It's very noisy at her end, as if she's beside a busy road, and she's talking fast and urgently.",
-      "tr": {
-        "vi": "Chỗ giám đốc Chu rất ồn, hình như đang ở ngoài đường lớn, chị ấy nói vừa nhanh vừa gấp.",
-        "pt": "Do lado dela tem muito barulho, parece que ela está numa avenida movimentada, e ela fala rápido e com pressa.",
-        "es": "Del lado de ella hay mucho ruido, como si estuviera en una avenida, y habla rápido y con prisa.",
-        "fr": "Il y a beaucoup de bruit autour d'elle, comme si elle était au bord d'une grande route, et elle parle vite, l'air pressé.",
-        "am": "እሳቸው ያሉበት ቦታ በጣም ጫጫታ ነው፣ ትልቅ መንገድ ላይ ያሉ ይመስላሉ። በፍጥነትና በችኮላ ይናገራሉ።"
-      },
-      "start": 15.9,
-      "end": 21.852,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "to make a circuit; to circle; circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "那边",
-          "nà bian",
-          "over there; yonder",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "吵",
-          "chǎo",
-          "noisy; to quarrel; to make a noise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "好像",
-          "hǎo xiàng",
-          "as if; to seem like",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "大马",
-          "dà mǎ",
-          "Malaysia",
-          ""
-        ],
-        [
-          "路上",
-          "lù shang",
-          "on the road; on the way; en route",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "rapid; quick; speed",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "急",
-          "jí",
-          "urgent; pressing; rapid",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克只听见几个字：“……我……倒了……快下来……”",
-      "py": "Jié kè zhǐ tīng jiàn jǐ gè zì: “…… wǒ…… dào le…… kuài xià lái……”",
-      "en": "All Jack can make out is a few words: \"...I've... fallen... come down, quick...\"",
-      "tr": {
-        "vi": "Jack chỉ nghe được vài chữ: \"... tôi... ngã rồi... xuống mau...\"",
-        "pt": "Jack só consegue ouvir algumas palavras: “…eu… caí… desça rápido…”",
-        "es": "Jack solo alcanza a oír unas palabras: «...yo... me caí... baja rápido...».",
-        "fr": "Jack ne comprend que quelques mots : « … je… suis tombée… descendez vite… »",
-        "am": "ጃክ የሰማው ጥቂት ቃላት ብቻ ነው። «…እኔ… ወደቅሁ… ቶሎ ውረዱ…»"
-      },
-      "start": 22.552,
-      "end": 28.528,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "听见",
-          "tīng jiàn",
-          "to hear",
-          ""
-        ],
-        [
-          "几个",
-          "jǐ ge",
-          "a few; several; how many",
-          ""
-        ],
-        [
-          "字",
-          "zì",
-          "word; letter; symbol",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "倒",
-          "dào",
-          "to invert; to place upside down or frontside back",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "快",
-          "kuài",
-          "quick; to make haste; rapid",
-          ""
-        ],
-        [
-          "下来",
-          "xià lai",
-          "to come down",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "说完，她就挂了电话。",
-      "py": "shuō wán, tā jiù guà le diàn huà.",
-      "en": "Then she hangs up.",
-      "tr": {
-        "vi": "Nói xong, chị ấy cúp máy luôn.",
-        "pt": "Depois disso, ela desliga.",
-        "es": "Dicho esto, cuelga.",
-        "fr": "Puis elle raccroche.",
-        "am": "ከዚያም ስልኩን ዘጉት።"
-      },
-      "start": 29.228,
-      "end": 32.372,
-      "tokens": [
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "挂",
-          "guà",
-          "to hang; to suspend (from a hook etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "telephone; phone call; phone number",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克吓坏了，拿起桌子上的药箱就往楼下跑。",
-      "py": "Jié kè xià huài le, ná qǐ zhuō zi shàng de yào xiāng jiù wǎng lóu xià pǎo.",
-      "en": "Jack is terrified. He grabs the first-aid kit from the desk and runs downstairs.",
-      "tr": {
-        "vi": "Jack sợ hết hồn, cầm hộp thuốc trên bàn chạy ngay xuống tầng dưới.",
-        "pt": "Jack fica apavorado, pega a caixa de primeiros socorros que está na mesa e desce correndo.",
-        "es": "Jack se asusta muchísimo, agarra el botiquín del escritorio y baja corriendo.",
-        "fr": "Jack a très peur. Il prend la trousse de secours sur le bureau et descend l'escalier en courant.",
-        "am": "ጃክ በጣም ደነገጠ። ጠረጴዛው ላይ ያለውን የመድኃኒት ሣጥን አንሥቶ ወደ ታች ሮጠ።"
-      },
-      "start": 33.072,
-      "end": 38.28,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "吓坏",
-          "xià huài",
-          "to be terrified; to terrify sb",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "拿起",
-          "ná qǐ",
-          "to pick up",
-          ""
-        ],
-        [
-          "桌子",
-          "zhuō zi",
-          "desk; table",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "first (of multiple parts)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "药",
-          "yào",
-          "leaf of the iris; medicine; drug",
-          ""
-        ],
-        [
-          "箱",
-          "xiāng",
-          "box; trunk; chest",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "往",
-          "wǎng",
-          "to go (in a direction); to; towards",
-          ""
-        ],
-        [
-          "楼下",
-          "lóu xià",
-          "downstairs",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "to run; to run away; to escape",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨和两个同事也跟着他跑了下去。",
-      "py": "Xiǎo yǔ hé liǎng gè tóng shì yě gēn zhe tā pǎo le xià qù.",
-      "en": "Xiaoyu and two colleagues run down after him.",
-      "tr": {
-        "vi": "Tiểu Vũ và hai đồng nghiệp cũng chạy theo anh ấy xuống.",
-        "pt": "A Xiaoyu e dois colegas descem correndo atrás dele.",
-        "es": "Xiaoyu y dos compañeros bajan corriendo detrás de él.",
-        "fr": "Xiaoyu et deux collègues descendent en courant derrière lui.",
-        "am": "ሺያውዩ እና ሁለት ባልደረቦችም ተከትለውት ሮጡ።"
-      },
-      "start": 38.98,
-      "end": 42.58,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "同事",
-          "tóng shì",
-          "colleague; co-worker",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
-          ""
-        ],
-        [
-          "跟着",
-          "gēn zhe",
-          "to follow after; immediately afterwards",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "to run; to run away; to run around (on errands etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "下去",
-          "xià qù",
-          "to go down; to descend; to go on",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "到了楼下，他们看见周经理站在门口，好好的，旁边放着三个大箱子。",
-      "py": "dào le lóu xià, tā men kàn jiàn Zhōu jīng lǐ zhàn zài mén kǒu, hǎo hǎo de, páng biān fàng zhe sān gè dà xiāng zi.",
-      "en": "Downstairs, they find Manager Zhou standing at the entrance, perfectly fine, with three big boxes beside her.",
-      "tr": {
-        "vi": "Xuống đến nơi, họ thấy giám đốc Chu đứng ở cửa, không sao cả, bên cạnh có ba cái thùng to.",
-        "pt": "Lá embaixo, eles veem a gerente Zhou parada na porta, perfeitamente bem, com três caixas grandes ao lado.",
-        "es": "Abajo, ven a la gerente Zhou parada en la entrada, perfectamente bien, con tres cajas grandes a su lado.",
-        "fr": "En bas, ils voient la directrice Zhou debout à l'entrée, en pleine forme, avec trois gros cartons à côté d'elle.",
-        "am": "ታች ሲደርሱ ሥራ አስኪያጅ ጆው በሩ ላይ ደህና ሆነው ቆመዋል፣ አጠገባቸውም ሦስት ትልልቅ ሣጥኖች አሉ።"
-      },
-      "start": 43.28,
-      "end": 50.84,
-      "tokens": [
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "楼下",
-          "lóu xià",
-          "downstairs",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "门口",
-          "mén kǒu",
-          "doorway; gate",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "好好",
-          "hǎo hǎo",
-          "well; carefully; nicely; properly",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "箱子",
-          "xiāng zi",
-          "suitcase; chest; box",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克跑得满头大汗：“周经理，您没事吧？您在哪儿倒的？”",
-      "py": "Jié kè pǎo de mǎn tóu dà hán: “Zhōu jīng lǐ, nín méi shì ba? nín zài nǎ r dào de?”",
-      "en": "Jack is dripping with sweat from running. \"Manager Zhou, are you all right? Where did you fall?\"",
-      "tr": {
-        "vi": "Jack chạy mồ hôi đầm đìa: \"Giám đốc Chu, chị không sao chứ? Chị ngã ở đâu vậy?\"",
-        "pt": "Jack está suando de tanto correr: “Gerente Zhou, a senhora está bem? Onde a senhora caiu?”",
-        "es": "Jack está empapado de sudor de tanto correr: «Gerente Zhou, ¿está bien? ¿Dónde se cayó?».",
-        "fr": "Jack est en nage à force de courir : « Madame Zhou, ça va ? Où est-ce que vous êtes tombée ? »",
-        "am": "ጃክ ከሩጫው በላብ ተጠምቋል። «ሥራ አስኪያጅ ጆው፣ ደህና ነዎት? የት ነው የወደቁት?»"
-      },
-      "start": 51.54,
-      "end": 57.684,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "to run; to run away; to escape",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "满头大汗",
-          "mǎn tóu dà hàn",
-          "brow beaded with sweat; perspiring freely",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "周",
-          "zhōu",
-          "all; all over; Zhou Dynasty (1046–256 BC)",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "没事",
-          "méi shì",
-          "to be all right (out of danger or trouble)",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "...right?; (modal particle indicating suggestion or surmise)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "哪儿",
-          "nǎ r",
-          "where?; wherever; anywhere; somewhere",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to invert; to place upside down or frontside back",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "周经理很奇怪：“倒？我说的是‘我到了’，到公司了。”",
-      "py": "Zhōu jīng lǐ hěn qí guài: “dào? wǒ shuō de shì ‘wǒ dào le’, dào gōng sī le.”",
-      "en": "Manager Zhou is puzzled. \"Fall? I said 'I've arrived'. Arrived at the office.\"",
-      "tr": {
-        "vi": "Giám đốc Chu thấy lạ: \"Ngã? Tôi nói là 'tôi đến rồi', đến công ty rồi.\"",
-        "pt": "A gerente Zhou estranha: “Caí? Eu disse ‘cheguei’ (我到了). Cheguei ao escritório.”",
-        "es": "La gerente Zhou se extraña: «¿Caerme? Dije “我到了” (wǒ dào le), o sea, “ya llegué” a la oficina».",
-        "fr": "La directrice Zhou ne comprend pas : « Tombée ? J'ai dit “我到了” (wǒ dào le), je suis arrivée. Arrivée au bureau. »",
-        "am": "ሥራ አስኪያጅ ጆው ገረማቸው። «ወደቅሁ? ያልኩት ‹到了›፣ ማለትም ‹ደረስኩ› ነው። ድርጅቱ ደረስኩ።»"
-      },
-      "start": 58.384,
-      "end": 64.336,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "奇怪",
-          "qí guài",
-          "strange; odd; to marvel",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "倒",
-          "dào",
-          "to invert; to place upside down or frontside back",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "‘"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "，"
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "原来，“到了”和“倒了”的读音差不多，只是声调不一样，电话里又很吵，杰克就听错了。",
-      "py": "yuán lái, “dào le” hé “dào le” de dú yīn chà bu duō, zhǐ shì shēng diào bù yí yàng, diàn huà lǐ yòu hěn chǎo, Jié kè jiù tīng cuò le.",
-      "en": "It turns out that \"arrived\" and \"fallen\" sound almost the same in Chinese, with only the tone different, and with all the noise on the phone, Jack misheard.",
-      "tr": {
-        "vi": "Thì ra 到了 (dào le, đến rồi) và 倒了 (dǎo le, ngã rồi) đọc gần giống nhau, chỉ khác thanh điệu, trong điện thoại lại ồn, nên Jack nghe nhầm.",
-        "pt": "Acontece que “到了” (dàole, cheguei) e “倒了” (dǎole, caí) soam quase iguais, só o tom é diferente. Com o barulho no telefone, Jack ouviu errado.",
-        "es": "Resulta que 到了 (dào le, “llegar”) y 倒了 (dǎo le, “caerse”) suenan casi igual; solo cambia el tono, y con tanto ruido en el teléfono, Jack entendió mal.",
-        "fr": "En fait, 到了 (dào le, « arrivé ») et 倒了 (dǎo le, « tombé ») se prononcent presque pareil, seul le ton change ; avec tout ce bruit au téléphone, Jack a mal compris.",
-        "am": "ለካ ‹ደረስኩ› የሚለው 到了 እና ‹ወደቅሁ› የሚለው 倒了 ድምፃቸው ተቀራራቢ ነው፣ የሚለያዩት በቃና ብቻ ነው። ስልኩ ውስጥም ጫጫታ ስለነበር ጃክ በስህተት ሰማ።"
-      },
-      "start": 65.036,
-      "end": 74.948,
-      "tokens": [
-        [
-          "原来",
-          "yuán lái",
-          "so, actually, as it turns out; original; former",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "“"
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out; to tip out; to dump",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "读音",
-          "dú yīn",
-          "literary (rather than colloquial) pronunciation of a Chinese character",
-          ""
-        ],
-        [
-          "差不多",
-          "chà bu duō",
-          "almost; about the same; nearly",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只是",
-          "zhǐ shì",
-          "merely; only; just; nothing but; simply; but; however",
-          ""
-        ],
-        [
-          "声调",
-          "shēng diào",
-          "tone; a tone (on a Chinese syllable); note",
-          ""
-        ],
-        [
-          "不一样",
-          "bù yī yàng",
-          "different; distinctive; unlike",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "phone call; phone number; telephone",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "吵",
-          "chǎo",
-          "to make a noise; to disturb by making a noise; to quarrel",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "听错",
-          "tīng cuò",
-          "to mishear",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理看着杰克手里的药箱，又看了看跑下来的四个人，笑得停不下来。",
-      "py": "Zhōu jīng lǐ kàn zhe Jié kè shǒu lǐ de yào xiāng, yòu kàn le kàn pǎo xià lái de sì gè rén, xiào de tíng bú xià lái.",
-      "en": "Manager Zhou looks at the first-aid kit in Jack's hand, then at the four people who've come running, and can't stop laughing.",
-      "tr": {
-        "vi": "Giám đốc Chu nhìn hộp thuốc trong tay Jack, rồi nhìn bốn người vừa chạy xuống, cười không ngớt.",
-        "pt": "A gerente Zhou olha para a caixa de primeiros socorros na mão de Jack, depois para as quatro pessoas que desceram correndo, e não consegue parar de rir.",
-        "es": "La gerente Zhou mira el botiquín en la mano de Jack, luego a los cuatro que bajaron corriendo, y no puede parar de reírse.",
-        "fr": "La directrice Zhou regarde la trousse de secours dans la main de Jack, puis les quatre personnes qui sont descendues en courant, et ne peut plus s'arrêter de rire.",
-        "am": "ሥራ አስኪያጅ ጆው በጃክ እጅ ያለውን የመድኃኒት ሣጥን፣ ሮጠው የወረዱትን አራት ሰዎችም አይተው ሳቃቸውን ማቆም አቃታቸው።"
-      },
-      "start": 75.648,
-      "end": 82.728,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "手里",
-          "shǒu lǐ",
-          "in hand; (a situation is) in sb's hands",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "药",
-          "yào",
-          "leaf of the iris; medicine; drug",
-          ""
-        ],
-        [
-          "箱",
-          "xiāng",
-          "box; trunk; chest",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "to run; to run away; to escape",
-          ""
-        ],
-        [
-          "下来",
-          "xià lai",
-          "to come down; (completed action marker)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "四",
-          "sì",
-          "four; 4",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "停",
-          "tíng",
-          "to stop; to halt; to park (a car)",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "下来",
-          "xià lai",
-          "to come down; (completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“好吧，你们来得正好，这些箱子太重了，我一个人搬不动。”",
-      "py": "“hǎo ba, nǐ men lái de zhèng hǎo, zhè xiē xiāng zi tài zhòng le, wǒ yí gè rén bān bú dòng.”",
-      "en": "\"Well, you've come at just the right time. These boxes are too heavy for me to carry on my own.\"",
-      "tr": {
-        "vi": "\"Thôi được, các bạn đến đúng lúc lắm, mấy cái thùng này nặng quá, một mình tôi không bê nổi.\"",
-        "pt": "“Bom, vocês chegaram na hora certa. Estas caixas são pesadas demais, sozinha eu não consigo carregar.”",
-        "es": "«Bueno, llegaron justo a tiempo. Estas cajas pesan demasiado y yo sola no puedo con ellas».",
-        "fr": "« Bon, vous tombez bien. Ces cartons sont trop lourds, je ne peux pas les porter toute seule. »",
-        "am": "«እሺ፣ በጊዜው መጣችሁ። እነዚህ ሣጥኖች በጣም ከባድ ናቸው፣ ብቻዬን ማንሣት አልችልም።»"
-      },
-      "start": 83.428,
-      "end": 89.836,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "好",
-          "hǎo",
-          "all right!; good; appropriate; proper",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "...right?; (modal particle indicating suggestion or surmise)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "来得",
-          "lái de",
-          "to come out as; to emerge (from a comparison)",
-          ""
-        ],
-        [
-          "正好",
-          "zhèng hǎo",
-          "just (in time); just right; just enough",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这些",
-          "zhè xiē",
-          "these",
-          ""
-        ],
-        [
-          "箱子",
-          "xiāng zi",
-          "suitcase; chest; box",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "重",
-          "zhòng",
-          "heavy; serious; to attach importance to",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "一个人",
-          "yī gè rén",
-          "by oneself (without assistance); alone (without company)",
-          ""
-        ],
-        [
-          "搬",
-          "bān",
-          "to move (sth relatively heavy or bulky)",
-          ""
-        ],
-        [
-          "不动",
-          "bù dòng",
-          "motionless",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "三个同事一人搬了一个箱子，杰克还拿着那个药箱，跟在后面。",
-      "py": "sān gè tóng shì yì rén bān le yí gè xiāng zi, Jié kè hái ná zhe nà ge yào xiāng, gēn zài hòu mian.",
-      "en": "The three colleagues carry a box each, and Jack follows behind, still holding the first-aid kit.",
-      "tr": {
-        "vi": "Ba đồng nghiệp mỗi người bê một thùng, Jack vẫn cầm cái hộp thuốc, đi theo phía sau.",
-        "pt": "Os três colegas carregam uma caixa cada um, e Jack vai atrás, ainda segurando a caixa de primeiros socorros.",
-        "es": "Los tres compañeros cargan una caja cada uno, y Jack va detrás, todavía con el botiquín en la mano.",
-        "fr": "Les trois collègues portent chacun un carton, et Jack suit derrière, sa trousse de secours toujours à la main.",
-        "am": "ሦስቱ ባልደረቦች አንድ አንድ ሣጥን ተሸከሙ፣ ጃክ ደግሞ ያንን የመድኃኒት ሣጥን እንደያዘ ከኋላ ተከተለ።"
-      },
-      "start": 90.536,
-      "end": 97.16,
-      "tokens": [
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "同事",
-          "tóng shì",
-          "colleague; co-worker",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "搬",
-          "bān",
-          "to move (i.e. relocate oneself)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "箱子",
-          "xiāng zi",
-          "box; suitcase; chest",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "那个",
-          "nà ge",
-          "that one; that thing; that (as opposed to this)",
-          ""
-        ],
-        [
-          "药",
-          "yào",
-          "leaf of the iris; medicine; drug",
-          ""
-        ],
-        [
-          "箱",
-          "xiāng",
-          "box; trunk; chest",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "跟",
-          "gēn",
-          "to follow closely; heel; to go with",
-          ""
-        ],
-        [
-          "在后",
-          "zài hòu",
-          "behind",
-          ""
-        ],
-        [
-          "面",
-          "miàn",
-          "face; side; surface",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "从那以后，周经理在电话里不说“我到了”，只说“我在楼下”。",
-      "py": "cóng nà yǐ hòu, Zhōu jīng lǐ zài diàn huà lǐ bù shuō “wǒ dào le”, zhǐ shuō “wǒ zài lóu xià”.",
-      "en": "From then on, Manager Zhou never says \"I've arrived\" on the phone. She just says, \"I'm downstairs.\"",
-      "tr": {
-        "vi": "Từ đó trở đi, giám đốc Chu gọi điện không nói \"tôi đến rồi\" nữa, chỉ nói \"tôi đang ở dưới tầng\".",
-        "pt": "Desde então, a gerente Zhou não diz mais “cheguei” no telefone. Ela só diz: “Estou lá embaixo.”",
-        "es": "Desde entonces, por teléfono la gerente Zhou ya no dice «我到了» (ya llegué); solo dice «estoy abajo».",
-        "fr": "Depuis, au téléphone, la directrice Zhou ne dit plus « 我到了 » (je suis arrivée), elle dit seulement « Je suis en bas ».",
-        "am": "ከዚያ ወዲህ ሥራ አስኪያጅ ጆው በስልክ «ደረስኩ» አይሉም፣ «ታች ነኝ» ብቻ ነው የሚሉት።"
-      },
-      "start": 97.86,
-      "end": 104.316,
-      "tokens": [
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "phone call; phone number; telephone",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "，"
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "楼下",
-          "lóu xià",
-          "downstairs",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 309,
-  "first": "星期三上午，周经理去见客户，说好十一点回公司。",
-  "newWords": [
-    {
-      "w": "吵",
-      "py": "chǎo",
-      "en": "to make loud, unpleasant noise"
-    },
-    {
-      "w": "挂",
-      "py": "guà",
-      "en": "to hang"
-    },
-    {
-      "w": "读音",
-      "py": "dú yīn",
-      "en": "pronunciation"
-    },
-    {
-      "w": "搬",
-      "py": "bān",
-      "en": "to move"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-78.mp3?v=1791721838"
+  {
+   "text": "十一点，杰克的手机响了，是周经理打来的。",
+   "py": "shí yì diǎn, Jié kè de shǒu jī xiǎng le, shì Zhōu jīng lǐ dǎ lái de.",
+   "en": "At eleven, Jack's phone rings. It's Manager Zhou.",
+   "tr": {
+    "vi": "Mười một giờ, điện thoại của Jack đổ chuông, là giám đốc Chu gọi đến.",
+    "pt": "Às onze, o celular de Jack toca. É a gerente Zhou.",
+    "es": "A las once suena el teléfono de Jack. Es la gerente Zhou.",
+    "fr": "À onze heures, le téléphone de Jack sonne. C'est la directrice Zhou.",
+    "am": "11:00 ላይ የጃክ ስልክ ጮኸ። ሥራ አስኪያጅ ጆው ነበሩ።",
+    "fa": "ساعت یازده گوشی جک زنگ می‌خوره. مدیر جوئه."
+   },
+   "start": 9.704,
+   "end": 15.2,
+   "tokens": [
+    [
+     "十一",
+     "shí yī",
+     "eleven; 11; PRC National Day (October 1st)",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "响",
+     "xiǎng",
+     "to ring; echo; sound",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "打",
+     "dǎ",
+     "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "周经理那边很吵，好像在大马路上，她说得又快又急。",
+   "py": "Zhōu jīng lǐ nà biān hěn chǎo, hǎo xiàng zài dà mǎ lù shàng, tā shuō de yòu kuài yòu jí.",
+   "en": "It's very noisy at her end, as if she's beside a busy road, and she's talking fast and urgently.",
+   "tr": {
+    "vi": "Chỗ giám đốc Chu rất ồn, hình như đang ở ngoài đường lớn, chị ấy nói vừa nhanh vừa gấp.",
+    "pt": "Do lado dela tem muito barulho, parece que ela está numa avenida movimentada, e ela fala rápido e com pressa.",
+    "es": "Del lado de ella hay mucho ruido, como si estuviera en una avenida, y habla rápido y con prisa.",
+    "fr": "Il y a beaucoup de bruit autour d'elle, comme si elle était au bord d'une grande route, et elle parle vite, l'air pressé.",
+    "am": "እሳቸው ያሉበት ቦታ በጣም ጫጫታ ነው፣ ትልቅ መንገድ ላይ ያሉ ይመስላሉ። በፍጥነትና በችኮላ ይናገራሉ።",
+    "fa": "اون‌سرِ خط خیلی شلوغه؛ انگار کنار یه خیابونِ پرترافیک وایساده، و تند و با اضطراب حرف می‌زنه."
+   },
+   "start": 15.9,
+   "end": 21.852,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "to make a circuit; to circle; circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "那边",
+     "nà bian",
+     "over there; yonder",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "吵",
+     "chǎo",
+     "noisy; to quarrel; to make a noise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "好像",
+     "hǎo xiàng",
+     "as if; to seem like",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "大马",
+     "dà mǎ",
+     "Malaysia",
+     ""
+    ],
+    [
+     "路上",
+     "lù shang",
+     "on the road; on the way; en route",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "rapid; quick; speed",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "急",
+     "jí",
+     "urgent; pressing; rapid",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克只听见几个字：“……我……倒了……快下来……”",
+   "py": "Jié kè zhǐ tīng jiàn jǐ gè zì: “…… wǒ…… dào le…… kuài xià lái……”",
+   "en": "All Jack can make out is a few words: \"...I've... fallen... come down, quick...\"",
+   "tr": {
+    "vi": "Jack chỉ nghe được vài chữ: \"... tôi... ngã rồi... xuống mau...\"",
+    "pt": "Jack só consegue ouvir algumas palavras: “…eu… caí… desça rápido…”",
+    "es": "Jack solo alcanza a oír unas palabras: «...yo... me caí... baja rápido...».",
+    "fr": "Jack ne comprend que quelques mots : « … je… suis tombée… descendez vite… »",
+    "am": "ጃክ የሰማው ጥቂት ቃላት ብቻ ነው። «…እኔ… ወደቅሁ… ቶሎ ውረዱ…»",
+    "fa": "جک فقط چند تا کلمه رو می‌فهمه: «...من... افتادم... بیا پایین، سریع...»"
+   },
+   "start": 22.552,
+   "end": 28.528,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "听见",
+     "tīng jiàn",
+     "to hear",
+     ""
+    ],
+    [
+     "几个",
+     "jǐ ge",
+     "a few; several; how many",
+     ""
+    ],
+    [
+     "字",
+     "zì",
+     "word; letter; symbol",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "倒",
+     "dào",
+     "to invert; to place upside down or frontside back",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "快",
+     "kuài",
+     "quick; to make haste; rapid",
+     ""
+    ],
+    [
+     "下来",
+     "xià lai",
+     "to come down",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "说完，她就挂了电话。",
+   "py": "shuō wán, tā jiù guà le diàn huà.",
+   "en": "Then she hangs up.",
+   "tr": {
+    "vi": "Nói xong, chị ấy cúp máy luôn.",
+    "pt": "Depois disso, ela desliga.",
+    "es": "Dicho esto, cuelga.",
+    "fr": "Puis elle raccroche.",
+    "am": "ከዚያም ስልኩን ዘጉት።",
+    "fa": "بعد قطع می‌کنه."
+   },
+   "start": 29.228,
+   "end": 32.372,
+   "tokens": [
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "挂",
+     "guà",
+     "to hang; to suspend (from a hook etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "telephone; phone call; phone number",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克吓坏了，拿起桌子上的药箱就往楼下跑。",
+   "py": "Jié kè xià huài le, ná qǐ zhuō zi shàng de yào xiāng jiù wǎng lóu xià pǎo.",
+   "en": "Jack is terrified. He grabs the first-aid kit from the desk and runs downstairs.",
+   "tr": {
+    "vi": "Jack sợ hết hồn, cầm hộp thuốc trên bàn chạy ngay xuống tầng dưới.",
+    "pt": "Jack fica apavorado, pega a caixa de primeiros socorros que está na mesa e desce correndo.",
+    "es": "Jack se asusta muchísimo, agarra el botiquín del escritorio y baja corriendo.",
+    "fr": "Jack a très peur. Il prend la trousse de secours sur le bureau et descend l'escalier en courant.",
+    "am": "ጃክ በጣም ደነገጠ። ጠረጴዛው ላይ ያለውን የመድኃኒት ሣጥን አንሥቶ ወደ ታች ሮጠ።",
+    "fa": "جک از ترس می‌میره. جعبه‌ی کمک‌های اولیه رو برمی‌داره از میز و می‌دوه پایین."
+   },
+   "start": 33.072,
+   "end": 38.28,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "吓坏",
+     "xià huài",
+     "to be terrified; to terrify sb",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "拿起",
+     "ná qǐ",
+     "to pick up",
+     ""
+    ],
+    [
+     "桌子",
+     "zhuō zi",
+     "desk; table",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "first (of multiple parts)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "药",
+     "yào",
+     "leaf of the iris; medicine; drug",
+     ""
+    ],
+    [
+     "箱",
+     "xiāng",
+     "box; trunk; chest",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "往",
+     "wǎng",
+     "to go (in a direction); to; towards",
+     ""
+    ],
+    [
+     "楼下",
+     "lóu xià",
+     "downstairs",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "to run; to run away; to escape",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨和两个同事也跟着他跑了下去。",
+   "py": "Xiǎo yǔ hé liǎng gè tóng shì yě gēn zhe tā pǎo le xià qù.",
+   "en": "Xiaoyu and two colleagues run down after him.",
+   "tr": {
+    "vi": "Tiểu Vũ và hai đồng nghiệp cũng chạy theo anh ấy xuống.",
+    "pt": "A Xiaoyu e dois colegas descem correndo atrás dele.",
+    "es": "Xiaoyu y dos compañeros bajan corriendo detrás de él.",
+    "fr": "Xiaoyu et deux collègues descendent en courant derrière lui.",
+    "am": "ሺያውዩ እና ሁለት ባልደረቦችም ተከትለውት ሮጡ።",
+    "fa": "شیائویو و دو تا همکار پشتش می‌دون پایین."
+   },
+   "start": 38.98,
+   "end": 42.58,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "同事",
+     "tóng shì",
+     "colleague; co-worker",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+     ""
+    ],
+    [
+     "跟着",
+     "gēn zhe",
+     "to follow after; immediately afterwards",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "to run; to run away; to run around (on errands etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "下去",
+     "xià qù",
+     "to go down; to descend; to go on",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "到了楼下，他们看见周经理站在门口，好好的，旁边放着三个大箱子。",
+   "py": "dào le lóu xià, tā men kàn jiàn Zhōu jīng lǐ zhàn zài mén kǒu, hǎo hǎo de, páng biān fàng zhe sān gè dà xiāng zi.",
+   "en": "Downstairs, they find Manager Zhou standing at the entrance, perfectly fine, with three big boxes beside her.",
+   "tr": {
+    "vi": "Xuống đến nơi, họ thấy giám đốc Chu đứng ở cửa, không sao cả, bên cạnh có ba cái thùng to.",
+    "pt": "Lá embaixo, eles veem a gerente Zhou parada na porta, perfeitamente bem, com três caixas grandes ao lado.",
+    "es": "Abajo, ven a la gerente Zhou parada en la entrada, perfectamente bien, con tres cajas grandes a su lado.",
+    "fr": "En bas, ils voient la directrice Zhou debout à l'entrée, en pleine forme, avec trois gros cartons à côté d'elle.",
+    "am": "ታች ሲደርሱ ሥራ አስኪያጅ ጆው በሩ ላይ ደህና ሆነው ቆመዋል፣ አጠገባቸውም ሦስት ትልልቅ ሣጥኖች አሉ።",
+    "fa": "اون پایین می‌بینن مدیر جو پشت در ایستاده، کاملاً سالم، و کنارش سه تا جعبه‌ی بزرگ."
+   },
+   "start": 43.28,
+   "end": 50.84,
+   "tokens": [
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "楼下",
+     "lóu xià",
+     "downstairs",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "门口",
+     "mén kǒu",
+     "doorway; gate",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "好好",
+     "hǎo hǎo",
+     "well; carefully; nicely; properly",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "箱子",
+     "xiāng zi",
+     "suitcase; chest; box",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克跑得满头大汗：“周经理，您没事吧？您在哪儿倒的？”",
+   "py": "Jié kè pǎo de mǎn tóu dà hán: “Zhōu jīng lǐ, nín méi shì ba? nín zài nǎ r dào de?”",
+   "en": "Jack is dripping with sweat from running. \"Manager Zhou, are you all right? Where did you fall?\"",
+   "tr": {
+    "vi": "Jack chạy mồ hôi đầm đìa: \"Giám đốc Chu, chị không sao chứ? Chị ngã ở đâu vậy?\"",
+    "pt": "Jack está suando de tanto correr: “Gerente Zhou, a senhora está bem? Onde a senhora caiu?”",
+    "es": "Jack está empapado de sudor de tanto correr: «Gerente Zhou, ¿está bien? ¿Dónde se cayó?».",
+    "fr": "Jack est en nage à force de courir : « Madame Zhou, ça va ? Où est-ce que vous êtes tombée ? »",
+    "am": "ጃክ ከሩጫው በላብ ተጠምቋል። «ሥራ አስኪያጅ ጆው፣ ደህና ነዎት? የት ነው የወደቁት?»",
+    "fa": "جک یه جو عرق از دویدنه: «مدیر جو، حالتون خوبه؟ کجا افتادید؟»"
+   },
+   "start": 51.54,
+   "end": 57.684,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "to run; to run away; to escape",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "满头大汗",
+     "mǎn tóu dà hàn",
+     "brow beaded with sweat; perspiring freely",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "周",
+     "zhōu",
+     "all; all over; Zhou Dynasty (1046–256 BC)",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "没事",
+     "méi shì",
+     "to be all right (out of danger or trouble)",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "...right?; (modal particle indicating suggestion or surmise)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "哪儿",
+     "nǎ r",
+     "where?; wherever; anywhere; somewhere",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to invert; to place upside down or frontside back",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "周经理很奇怪：“倒？我说的是‘我到了’，到公司了。”",
+   "py": "Zhōu jīng lǐ hěn qí guài: “dào? wǒ shuō de shì ‘wǒ dào le’, dào gōng sī le.”",
+   "en": "Manager Zhou is puzzled. \"Fall? I said 'I've arrived'. Arrived at the office.\"",
+   "tr": {
+    "vi": "Giám đốc Chu thấy lạ: \"Ngã? Tôi nói là 'tôi đến rồi', đến công ty rồi.\"",
+    "pt": "A gerente Zhou estranha: “Caí? Eu disse ‘cheguei’ (我到了). Cheguei ao escritório.”",
+    "es": "La gerente Zhou se extraña: «¿Caerme? Dije “我到了” (wǒ dào le), o sea, “ya llegué” a la oficina».",
+    "fr": "La directrice Zhou ne comprend pas : « Tombée ? J'ai dit “我到了” (wǒ dào le), je suis arrivée. Arrivée au bureau. »",
+    "am": "ሥራ አስኪያጅ ጆው ገረማቸው። «ወደቅሁ? ያልኩት ‹到了›፣ ማለትም ‹ደረስኩ› ነው። ድርጅቱ ደረስኩ።»",
+    "fa": "مدیر جو گیج می‌شه: «افتادم؟ گفتم \"رسیدم\". رسیدم به شرکت.»"
+   },
+   "start": 58.384,
+   "end": 64.336,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "奇怪",
+     "qí guài",
+     "strange; odd; to marvel",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "倒",
+     "dào",
+     "to invert; to place upside down or frontside back",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "‘"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "，"
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "原来，“到了”和“倒了”的读音差不多，只是声调不一样，电话里又很吵，杰克就听错了。",
+   "py": "yuán lái, “dào le” hé “dào le” de dú yīn chà bu duō, zhǐ shì shēng diào bù yí yàng, diàn huà lǐ yòu hěn chǎo, Jié kè jiù tīng cuò le.",
+   "en": "It turns out that \"arrived\" and \"fallen\" sound almost the same in Chinese, with only the tone different, and with all the noise on the phone, Jack misheard.",
+   "tr": {
+    "vi": "Thì ra 到了 (dào le, đến rồi) và 倒了 (dǎo le, ngã rồi) đọc gần giống nhau, chỉ khác thanh điệu, trong điện thoại lại ồn, nên Jack nghe nhầm.",
+    "pt": "Acontece que “到了” (dàole, cheguei) e “倒了” (dǎole, caí) soam quase iguais, só o tom é diferente. Com o barulho no telefone, Jack ouviu errado.",
+    "es": "Resulta que 到了 (dào le, “llegar”) y 倒了 (dǎo le, “caerse”) suenan casi igual; solo cambia el tono, y con tanto ruido en el teléfono, Jack entendió mal.",
+    "fr": "En fait, 到了 (dào le, « arrivé ») et 倒了 (dǎo le, « tombé ») se prononcent presque pareil, seul le ton change ; avec tout ce bruit au téléphone, Jack a mal compris.",
+    "am": "ለካ ‹ደረስኩ› የሚለው 到了 እና ‹ወደቅሁ› የሚለው 倒了 ድምፃቸው ተቀራራቢ ነው፣ የሚለያዩት በቃና ብቻ ነው። ስልኩ ውስጥም ጫጫታ ስለነበር ጃክ በስህተት ሰማ።",
+    "fa": "معلوم می‌شه تو چینی \"رسیدم\" و \"افتادم\" تقریباً یه‌جوری گفته می‌شن، فقط تُن‌ش فرق داره، و با اون همه سر و صدا، جک اشتباه شنیده."
+   },
+   "start": 65.036,
+   "end": 74.948,
+   "tokens": [
+    [
+     "原来",
+     "yuán lái",
+     "so, actually, as it turns out; original; former",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "“"
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out; to tip out; to dump",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "读音",
+     "dú yīn",
+     "literary (rather than colloquial) pronunciation of a Chinese character",
+     ""
+    ],
+    [
+     "差不多",
+     "chà bu duō",
+     "almost; about the same; nearly",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只是",
+     "zhǐ shì",
+     "merely; only; just; nothing but; simply; but; however",
+     ""
+    ],
+    [
+     "声调",
+     "shēng diào",
+     "tone; a tone (on a Chinese syllable); note",
+     ""
+    ],
+    [
+     "不一样",
+     "bù yī yàng",
+     "different; distinctive; unlike",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "phone call; phone number; telephone",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "吵",
+     "chǎo",
+     "to make a noise; to disturb by making a noise; to quarrel",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "听错",
+     "tīng cuò",
+     "to mishear",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "周经理看着杰克手里的药箱，又看了看跑下来的四个人，笑得停不下来。",
+   "py": "Zhōu jīng lǐ kàn zhe Jié kè shǒu lǐ de yào xiāng, yòu kàn le kàn pǎo xià lái de sì gè rén, xiào de tíng bú xià lái.",
+   "en": "Manager Zhou looks at the first-aid kit in Jack's hand, then at the four people who've come running, and can't stop laughing.",
+   "tr": {
+    "vi": "Giám đốc Chu nhìn hộp thuốc trong tay Jack, rồi nhìn bốn người vừa chạy xuống, cười không ngớt.",
+    "pt": "A gerente Zhou olha para a caixa de primeiros socorros na mão de Jack, depois para as quatro pessoas que desceram correndo, e não consegue parar de rir.",
+    "es": "La gerente Zhou mira el botiquín en la mano de Jack, luego a los cuatro que bajaron corriendo, y no puede parar de reírse.",
+    "fr": "La directrice Zhou regarde la trousse de secours dans la main de Jack, puis les quatre personnes qui sont descendues en courant, et ne peut plus s'arrêter de rire.",
+    "am": "ሥራ አስኪያጅ ጆው በጃክ እጅ ያለውን የመድኃኒት ሣጥን፣ ሮጠው የወረዱትን አራት ሰዎችም አይተው ሳቃቸውን ማቆም አቃታቸው።",
+    "fa": "مدیر جو به جعبه‌ی کمک‌های اولیه تو دست جک نگاه می‌کنه، بعد به اون چهار نفری که دویده‌ن، و از خنده می‌میره."
+   },
+   "start": 75.648,
+   "end": 82.728,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "手里",
+     "shǒu lǐ",
+     "in hand; (a situation is) in sb's hands",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "药",
+     "yào",
+     "leaf of the iris; medicine; drug",
+     ""
+    ],
+    [
+     "箱",
+     "xiāng",
+     "box; trunk; chest",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "to run; to run away; to escape",
+     ""
+    ],
+    [
+     "下来",
+     "xià lai",
+     "to come down; (completed action marker)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "四",
+     "sì",
+     "four; 4",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "停",
+     "tíng",
+     "to stop; to halt; to park (a car)",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "下来",
+     "xià lai",
+     "to come down; (completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“好吧，你们来得正好，这些箱子太重了，我一个人搬不动。”",
+   "py": "“hǎo ba, nǐ men lái de zhèng hǎo, zhè xiē xiāng zi tài zhòng le, wǒ yí gè rén bān bú dòng.”",
+   "en": "\"Well, you've come at just the right time. These boxes are too heavy for me to carry on my own.\"",
+   "tr": {
+    "vi": "\"Thôi được, các bạn đến đúng lúc lắm, mấy cái thùng này nặng quá, một mình tôi không bê nổi.\"",
+    "pt": "“Bom, vocês chegaram na hora certa. Estas caixas são pesadas demais, sozinha eu não consigo carregar.”",
+    "es": "«Bueno, llegaron justo a tiempo. Estas cajas pesan demasiado y yo sola no puedo con ellas».",
+    "fr": "« Bon, vous tombez bien. Ces cartons sont trop lourds, je ne peux pas les porter toute seule. »",
+    "am": "«እሺ፣ በጊዜው መጣችሁ። እነዚህ ሣጥኖች በጣም ከባድ ናቸው፣ ብቻዬን ማንሣት አልችልም።»",
+    "fa": "«خب، دقیقاً سر وقت اومدید. این جعبه‌ها انقدر سنگینن که نمی‌تونم تنها بکشم‌شون.»"
+   },
+   "start": 83.428,
+   "end": 89.836,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "好",
+     "hǎo",
+     "all right!; good; appropriate; proper",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "...right?; (modal particle indicating suggestion or surmise)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "来得",
+     "lái de",
+     "to come out as; to emerge (from a comparison)",
+     ""
+    ],
+    [
+     "正好",
+     "zhèng hǎo",
+     "just (in time); just right; just enough",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这些",
+     "zhè xiē",
+     "these",
+     ""
+    ],
+    [
+     "箱子",
+     "xiāng zi",
+     "suitcase; chest; box",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "重",
+     "zhòng",
+     "heavy; serious; to attach importance to",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "一个人",
+     "yī gè rén",
+     "by oneself (without assistance); alone (without company)",
+     ""
+    ],
+    [
+     "搬",
+     "bān",
+     "to move (sth relatively heavy or bulky)",
+     ""
+    ],
+    [
+     "不动",
+     "bù dòng",
+     "motionless",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "三个同事一人搬了一个箱子，杰克还拿着那个药箱，跟在后面。",
+   "py": "sān gè tóng shì yì rén bān le yí gè xiāng zi, Jié kè hái ná zhe nà ge yào xiāng, gēn zài hòu mian.",
+   "en": "The three colleagues carry a box each, and Jack follows behind, still holding the first-aid kit.",
+   "tr": {
+    "vi": "Ba đồng nghiệp mỗi người bê một thùng, Jack vẫn cầm cái hộp thuốc, đi theo phía sau.",
+    "pt": "Os três colegas carregam uma caixa cada um, e Jack vai atrás, ainda segurando a caixa de primeiros socorros.",
+    "es": "Los tres compañeros cargan una caja cada uno, y Jack va detrás, todavía con el botiquín en la mano.",
+    "fr": "Les trois collègues portent chacun un carton, et Jack suit derrière, sa trousse de secours toujours à la main.",
+    "am": "ሦስቱ ባልደረቦች አንድ አንድ ሣጥን ተሸከሙ፣ ጃክ ደግሞ ያንን የመድኃኒት ሣጥን እንደያዘ ከኋላ ተከተለ።",
+    "fa": "سه تا همکار هر کدوم یه جعبه برمی‌دارن و جک پشت سرشون می‌ره، هنوز جعبه‌ی کمک‌های اولیه رو نگه داشته."
+   },
+   "start": 90.536,
+   "end": 97.16,
+   "tokens": [
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "同事",
+     "tóng shì",
+     "colleague; co-worker",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "搬",
+     "bān",
+     "to move (i.e. relocate oneself)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "箱子",
+     "xiāng zi",
+     "box; suitcase; chest",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "那个",
+     "nà ge",
+     "that one; that thing; that (as opposed to this)",
+     ""
+    ],
+    [
+     "药",
+     "yào",
+     "leaf of the iris; medicine; drug",
+     ""
+    ],
+    [
+     "箱",
+     "xiāng",
+     "box; trunk; chest",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "跟",
+     "gēn",
+     "to follow closely; heel; to go with",
+     ""
+    ],
+    [
+     "在后",
+     "zài hòu",
+     "behind",
+     ""
+    ],
+    [
+     "面",
+     "miàn",
+     "face; side; surface",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "从那以后，周经理在电话里不说“我到了”，只说“我在楼下”。",
+   "py": "cóng nà yǐ hòu, Zhōu jīng lǐ zài diàn huà lǐ bù shuō “wǒ dào le”, zhǐ shuō “wǒ zài lóu xià”.",
+   "en": "From then on, Manager Zhou never says \"I've arrived\" on the phone. She just says, \"I'm downstairs.\"",
+   "tr": {
+    "vi": "Từ đó trở đi, giám đốc Chu gọi điện không nói \"tôi đến rồi\" nữa, chỉ nói \"tôi đang ở dưới tầng\".",
+    "pt": "Desde então, a gerente Zhou não diz mais “cheguei” no telefone. Ela só diz: “Estou lá embaixo.”",
+    "es": "Desde entonces, por teléfono la gerente Zhou ya no dice «我到了» (ya llegué); solo dice «estoy abajo».",
+    "fr": "Depuis, au téléphone, la directrice Zhou ne dit plus « 我到了 » (je suis arrivée), elle dit seulement « Je suis en bas ».",
+    "am": "ከዚያ ወዲህ ሥራ አስኪያጅ ጆው በስልክ «ደረስኩ» አይሉም፣ «ታች ነኝ» ብቻ ነው የሚሉት።",
+    "fa": "از اون به بعد، مدیر جو هیچ‌وقت تلفنی نمی‌گه \"رسیدم\". فقط می‌گه: «اون پایینم.»"
+   },
+   "start": 97.86,
+   "end": 104.316,
+   "tokens": [
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "phone call; phone number; telephone",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "，"
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "楼下",
+     "lóu xià",
+     "downstairs",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 309,
+ "first": "星期三上午，周经理去见客户，说好十一点回公司。",
+ "newWords": [
+  {
+   "w": "吵",
+   "py": "chǎo",
+   "en": "to make loud, unpleasant noise"
+  },
+  {
+   "w": "挂",
+   "py": "guà",
+   "en": "to hang"
+  },
+  {
+   "w": "读音",
+   "py": "dú yīn",
+   "en": "pronunciation"
+  },
+  {
+   "w": "搬",
+   "py": "bān",
+   "en": "to move"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-78.mp3?v=1791721838"
 }

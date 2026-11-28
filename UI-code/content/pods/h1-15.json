@@ -1,595 +1,602 @@
 {
-  "id": "h1-15",
-  "level": 1,
-  "no": 15,
-  "title": "刘爷爷看电视",
-  "title_py": "Liú yé ye kàn diàn shì",
-  "title_en": "Grandpa Liu watches TV",
-  "title_tr": {
-    "vi": "Ông Lưu xem tivi",
-    "pt": "O vovô Liu vê TV",
-    "es": "El abuelo Liu ve la tele",
-    "fr": "Papi Liu regarde la télé",
-    "am": "አያት ሊዩ ቴሌቪዥን ያያሉ",
-    "fa": "پدربزرگ لیو تلویزیون تماشا می‌کند"
+ "id": "h1-15",
+ "level": 1,
+ "no": 15,
+ "title": "刘爷爷看电视",
+ "title_py": "Liú yé ye kàn diàn shì",
+ "title_en": "Grandpa Liu watches TV",
+ "title_tr": {
+  "vi": "Ông Lưu xem tivi",
+  "pt": "O vovô Liu vê TV",
+  "es": "El abuelo Liu ve la tele",
+  "fr": "Papi Liu regarde la télé",
+  "am": "አያት ሊዩ ቴሌቪዥን ያያሉ",
+  "fa": "پدربزرگ لیو تلویزیون تماشا می‌کند"
+ },
+ "topic": "daily",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-15.jpg",
+ "duration": 34.928,
+ "lines": [
+  {
+   "text": "星期六下午，王明去看刘爷爷。",
+   "py": "xīng qī liù xià wǔ, Wáng Míng qù kàn Liú yé ye.",
+   "en": "On Saturday afternoon, Wang Ming goes to see Grandpa Liu.",
+   "tr": {
+    "vi": "Chiều thứ Bảy, Vương Minh đến thăm ông Lưu.",
+    "pt": "No sábado à tarde, o Wang Ming vai visitar o vovô Liu.",
+    "es": "El sábado por la tarde, Wang Ming va a ver al abuelo Liu.",
+    "fr": "Samedi après-midi, Wang Ming va voir papi Liu.",
+    "am": "ቅዳሜ ከሰዓት ዋንግ ሚንግ አያት ሊዩን ሊጠይቅ ሄደ።",
+    "fa": "جمعه بعدازظهر وانگ مینگ می‌رود دیدن پدربزرگ لیو."
+   },
+   "start": 2.884,
+   "end": 6.676,
+   "tokens": [
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "daily",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-15.jpg",
-  "duration": 34.928,
-  "lines": [
-    {
-      "text": "星期六下午，王明去看刘爷爷。",
-      "py": "xīng qī liù xià wǔ, Wáng Míng qù kàn Liú yé ye.",
-      "en": "On Saturday afternoon, Wang Ming goes to see Grandpa Liu.",
-      "tr": {
-        "vi": "Chiều thứ Bảy, Vương Minh đến thăm ông Lưu.",
-        "pt": "No sábado à tarde, o Wang Ming vai visitar o vovô Liu.",
-        "es": "El sábado por la tarde, Wang Ming va a ver al abuelo Liu.",
-        "fr": "Samedi après-midi, Wang Ming va voir papi Liu.",
-        "am": "ቅዳሜ ከሰዓት ዋንግ ሚንግ አያት ሊዩን ሊጠይቅ ሄደ።"
-      },
-      "start": 2.884,
-      "end": 6.676,
-      "tokens": [
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷在看电视。",
-      "py": "Liú yé ye zài kàn diàn shì.",
-      "en": "Grandpa Liu is watching TV.",
-      "tr": {
-        "vi": "Ông Lưu đang xem tivi.",
-        "pt": "O vovô Liu está vendo TV.",
-        "es": "El abuelo Liu está viendo la tele.",
-        "fr": "Papi Liu regarde la télé.",
-        "am": "አያት ሊዩ ቴሌቪዥን እያዩ ነበር።"
-      },
-      "start": 7.376,
-      "end": 9.752,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to watch; to watch out for; to see; to look at",
-          ""
-        ],
-        [
-          "电视",
-          "diàn shì",
-          "television; TV",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明坐在椅子上，和刘爷爷一起看。",
-      "py": "Wáng Míng zuò zài yǐ zi shàng, hé Liú yé ye yì qǐ kàn.",
-      "en": "Wang Ming sits down on a chair and watches with him.",
-      "tr": {
-        "vi": "Vương Minh ngồi xuống ghế, xem cùng ông Lưu.",
-        "pt": "O Wang Ming se senta numa cadeira e vê TV com ele.",
-        "es": "Wang Ming se sienta en una silla y la ve con él.",
-        "fr": "Wang Ming s'assoit sur une chaise et regarde avec lui.",
-        "am": "ዋንግ ሚንግ ወንበር ላይ ተቀምጦ ከአያት ሊዩ ጋር አብሮ አየ።"
-      },
-      "start": 10.452,
-      "end": 14.508,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "椅子",
-          "yǐ zi",
-          "chair",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "一起",
-          "yī qǐ",
-          "(in) the same place; together; in company (with)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to watch; to watch out for; to see; to look at",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "三点了，王明看了看刘爷爷。他在睡觉！",
-      "py": "sān diǎn le, Wáng Míng kàn le kàn Liú yé ye. tā zài shuì jiào!",
-      "en": "At three o'clock, Wang Ming looks over at Grandpa Liu. He's asleep!",
-      "tr": {
-        "vi": "Ba giờ, Vương Minh nhìn sang ông Lưu. Ông đang ngủ!",
-        "pt": "Às três horas, o Wang Ming olha para o vovô Liu. Ele está dormindo!",
-        "es": "A las tres, Wang Ming mira al abuelo Liu. ¡Está dormido!",
-        "fr": "À trois heures, Wang Ming regarde papi Liu. Il dort !",
-        "am": "3:00 ሲሆን ዋንግ ሚንግ አያት ሊዩን ተመለከተ። ተኝተዋል!"
-      },
-      "start": 15.208,
-      "end": 20.224,
-      "tokens": [
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock; classifier for small amounts",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to go to bed; to sleep",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    },
-    {
-      "text": "王明说：“刘爷爷，您去睡觉吧。”",
-      "py": "Wáng Míng shuō: “Liú yé ye, nín qù shuì jiào ba.”",
-      "en": "Wang Ming says, \"Grandpa Liu, why don't you go and have a nap?\"",
-      "tr": {
-        "vi": "Vương Minh nói: “Ông Lưu ơi, ông đi ngủ đi ạ.”",
-        "pt": "O Wang Ming diz: “Vovô Liu, por que o senhor não vai dormir um pouco?”",
-        "es": "Wang Ming dice: «Abuelo Liu, ¿por qué no se va a dormir un rato?»",
-        "fr": "Wang Ming dit : « Papi Liu, allez donc faire une sieste. »",
-        "am": "ዋንግ ሚንግ «አያት ሊዩ፣ ሄደው ይተኙ» አለ።"
-      },
-      "start": 20.924,
-      "end": 24.956,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to go to bed; to sleep",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷说：“我没有睡觉！我在听电视呢！”",
-      "py": "Liú yé ye shuō: “wǒ méi yǒu shuì jiào! wǒ zài tīng diàn shì ne!”",
-      "en": "Grandpa Liu says, \"I'm not asleep! I'm listening to the TV!\"",
-      "tr": {
-        "vi": "Ông Lưu nói: “Ông có ngủ đâu! Ông đang nghe tivi mà!”",
-        "pt": "O vovô Liu diz: “Eu não estou dormindo! Estou ouvindo a TV!”",
-        "es": "El abuelo Liu dice: «¡No estoy dormido! ¡Estoy escuchando la tele!»",
-        "fr": "Papi Liu dit : « Je ne dors pas ! J'écoute la télé ! »",
-        "am": "አያት ሊዩ «አልተኛሁም! ቴሌቪዥኑን እያዳመጥኩ ነው!» አሉ።"
-      },
-      "start": 25.656,
-      "end": 30.192,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to go to bed; to sleep",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "电视",
-          "diàn shì",
-          "television; TV",
-          ""
-        ],
-        [
-          "呢",
-          "ne",
-          "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明笑了：“好，那我们一起听。”",
-      "py": "Wáng Míng xiào le: “hǎo, nà wǒ men yì qǐ tīng.”",
-      "en": "Wang Ming laughs. \"OK, then let's listen together.\"",
-      "tr": {
-        "vi": "Vương Minh cười: “Vâng, vậy chúng ta cùng nghe ạ.”",
-        "pt": "O Wang Ming ri: “Está bem, então vamos ouvir juntos.”",
-        "es": "Wang Ming se ríe: «Bueno, entonces la escuchamos juntos».",
-        "fr": "Wang Ming rit : « D'accord, alors on écoute ensemble. »",
-        "am": "ዋንግ ሚንግ ሳቀ። «እሺ፣ እንግዲያው አብረን እናዳምጥ።»"
-      },
-      "start": 30.892,
-      "end": 34.228,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "一起",
-          "yī qǐ",
-          "together; in company (with); (in) the same place",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to let be; to allow; to heed; to obey",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 85,
-  "first": "星期六下午，王明去看刘爷爷。",
-  "newWords": [
-    {
-      "w": "一起",
-      "py": "yìqǐ",
-      "en": "together"
-    },
-    {
-      "w": "您",
-      "py": "nín",
-      "en": "you"
-    },
-    {
-      "w": "吧",
-      "py": "ba",
-      "en": "suggestion particle"
-    },
-    {
-      "w": "笑",
-      "py": "xiào",
-      "en": "to smile"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-15.mp3?v=1791720549"
+  {
+   "text": "刘爷爷在看电视。",
+   "py": "Liú yé ye zài kàn diàn shì.",
+   "en": "Grandpa Liu is watching TV.",
+   "tr": {
+    "vi": "Ông Lưu đang xem tivi.",
+    "pt": "O vovô Liu está vendo TV.",
+    "es": "El abuelo Liu está viendo la tele.",
+    "fr": "Papi Liu regarde la télé.",
+    "am": "አያት ሊዩ ቴሌቪዥን እያዩ ነበር።",
+    "fa": "پدربزرگ لیو دارد تلویزیون تماشا می‌کند."
+   },
+   "start": 7.376,
+   "end": 9.752,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to watch; to watch out for; to see; to look at",
+     ""
+    ],
+    [
+     "电视",
+     "diàn shì",
+     "television; TV",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明坐在椅子上，和刘爷爷一起看。",
+   "py": "Wáng Míng zuò zài yǐ zi shàng, hé Liú yé ye yì qǐ kàn.",
+   "en": "Wang Ming sits down on a chair and watches with him.",
+   "tr": {
+    "vi": "Vương Minh ngồi xuống ghế, xem cùng ông Lưu.",
+    "pt": "O Wang Ming se senta numa cadeira e vê TV com ele.",
+    "es": "Wang Ming se sienta en una silla y la ve con él.",
+    "fr": "Wang Ming s'assoit sur une chaise et regarde avec lui.",
+    "am": "ዋንግ ሚንግ ወንበር ላይ ተቀምጦ ከአያት ሊዩ ጋር አብሮ አየ።",
+    "fa": "وانگ مینگ روی صندلی می‌نشیند و با هم تماشا می‌کنند."
+   },
+   "start": 10.452,
+   "end": 14.508,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "椅子",
+     "yǐ zi",
+     "chair",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "一起",
+     "yī qǐ",
+     "(in) the same place; together; in company (with)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to watch; to watch out for; to see; to look at",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "三点了，王明看了看刘爷爷。他在睡觉！",
+   "py": "sān diǎn le, Wáng Míng kàn le kàn Liú yé ye. tā zài shuì jiào!",
+   "en": "At three o'clock, Wang Ming looks over at Grandpa Liu. He's asleep!",
+   "tr": {
+    "vi": "Ba giờ, Vương Minh nhìn sang ông Lưu. Ông đang ngủ!",
+    "pt": "Às três horas, o Wang Ming olha para o vovô Liu. Ele está dormindo!",
+    "es": "A las tres, Wang Ming mira al abuelo Liu. ¡Está dormido!",
+    "fr": "À trois heures, Wang Ming regarde papi Liu. Il dort !",
+    "am": "3:00 ሲሆን ዋንግ ሚንግ አያት ሊዩን ተመለከተ። ተኝተዋል!",
+    "fa": "ساعت سه، وانگ مینگ به پدربزرگ لیو نگاه می‌کند. خوابه!"
+   },
+   "start": 15.208,
+   "end": 20.224,
+   "tokens": [
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock; classifier for small amounts",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to go to bed; to sleep",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  },
+  {
+   "text": "王明说：“刘爷爷，您去睡觉吧。”",
+   "py": "Wáng Míng shuō: “Liú yé ye, nín qù shuì jiào ba.”",
+   "en": "Wang Ming says, \"Grandpa Liu, why don't you go and have a nap?\"",
+   "tr": {
+    "vi": "Vương Minh nói: “Ông Lưu ơi, ông đi ngủ đi ạ.”",
+    "pt": "O Wang Ming diz: “Vovô Liu, por que o senhor não vai dormir um pouco?”",
+    "es": "Wang Ming dice: «Abuelo Liu, ¿por qué no se va a dormir un rato?»",
+    "fr": "Wang Ming dit : « Papi Liu, allez donc faire une sieste. »",
+    "am": "ዋንግ ሚንግ «አያት ሊዩ፣ ሄደው ይተኙ» አለ።",
+    "fa": "وانگ مینگ می‌گوید: «پدربزرگ لیو، برید یه چرت بزنید.»"
+   },
+   "start": 20.924,
+   "end": 24.956,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to go to bed; to sleep",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷说：“我没有睡觉！我在听电视呢！”",
+   "py": "Liú yé ye shuō: “wǒ méi yǒu shuì jiào! wǒ zài tīng diàn shì ne!”",
+   "en": "Grandpa Liu says, \"I'm not asleep! I'm listening to the TV!\"",
+   "tr": {
+    "vi": "Ông Lưu nói: “Ông có ngủ đâu! Ông đang nghe tivi mà!”",
+    "pt": "O vovô Liu diz: “Eu não estou dormindo! Estou ouvindo a TV!”",
+    "es": "El abuelo Liu dice: «¡No estoy dormido! ¡Estoy escuchando la tele!»",
+    "fr": "Papi Liu dit : « Je ne dors pas ! J'écoute la télé ! »",
+    "am": "አያት ሊዩ «አልተኛሁም! ቴሌቪዥኑን እያዳመጥኩ ነው!» አሉ።",
+    "fa": "پدربزرگ لیو می‌گوید: «من خواب نیستم! دارم به تلویزیون گوش می‌دم!»"
+   },
+   "start": 25.656,
+   "end": 30.192,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to go to bed; to sleep",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "电视",
+     "diàn shì",
+     "television; TV",
+     ""
+    ],
+    [
+     "呢",
+     "ne",
+     "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明笑了：“好，那我们一起听。”",
+   "py": "Wáng Míng xiào le: “hǎo, nà wǒ men yì qǐ tīng.”",
+   "en": "Wang Ming laughs. \"OK, then let's listen together.\"",
+   "tr": {
+    "vi": "Vương Minh cười: “Vâng, vậy chúng ta cùng nghe ạ.”",
+    "pt": "O Wang Ming ri: “Está bem, então vamos ouvir juntos.”",
+    "es": "Wang Ming se ríe: «Bueno, entonces la escuchamos juntos».",
+    "fr": "Wang Ming rit : « D'accord, alors on écoute ensemble. »",
+    "am": "ዋንግ ሚንግ ሳቀ። «እሺ፣ እንግዲያው አብረን እናዳምጥ።»",
+    "fa": "وانگ مینگ می‌خندد: «باشه، پس با هم گوش می‌دیم.»"
+   },
+   "start": 30.892,
+   "end": 34.228,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "一起",
+     "yī qǐ",
+     "together; in company (with); (in) the same place",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to let be; to allow; to heed; to obey",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 85,
+ "first": "星期六下午，王明去看刘爷爷。",
+ "newWords": [
+  {
+   "w": "一起",
+   "py": "yìqǐ",
+   "en": "together"
+  },
+  {
+   "w": "您",
+   "py": "nín",
+   "en": "you"
+  },
+  {
+   "w": "吧",
+   "py": "ba",
+   "en": "suggestion particle"
+  },
+  {
+   "w": "笑",
+   "py": "xiào",
+   "en": "to smile"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-15.mp3?v=1791720549"
 }

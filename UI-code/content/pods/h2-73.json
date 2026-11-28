@@ -1,1505 +1,1518 @@
 {
-  "id": "h2-73",
-  "level": 2,
-  "no": 73,
-  "title": "打包",
-  "title_py": "dǎ bāo",
-  "title_en": "A box to take home",
-  "title_tr": {
-    "vi": "Gói mang về",
-    "pt": "Para levar",
-    "es": "Para llevar",
-    "fr": "Les restes à emporter",
-    "am": "የተረፈውን ማስቋጠር",
-    "fa": "بسته‌بندی غذا برای بردن"
+ "id": "h2-73",
+ "level": 2,
+ "no": 73,
+ "title": "打包",
+ "title_py": "dǎ bāo",
+ "title_en": "A box to take home",
+ "title_tr": {
+  "vi": "Gói mang về",
+  "pt": "Para levar",
+  "es": "Para llevar",
+  "fr": "Les restes à emporter",
+  "am": "የተረፈውን ማስቋጠር",
+  "fa": "بسته‌بندی غذا برای بردن"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_dining",
+ "cover": "https://media.kanchinese.app/review/stories/h2-73.jpg",
+ "duration": 88.376,
+ "lines": [
+  {
+   "text": "王明的经理请两位客户吃饭，王明也去了。",
+   "py": "Wáng Míng de jīng lǐ qǐng liǎng wèi kè hù chī fàn, Wáng Míng yě qù le.",
+   "en": "Wang Ming's manager takes two clients out to dinner, and Wang Ming goes too.",
+   "tr": {
+    "vi": "Giám đốc của Vương Minh mời hai khách hàng đi ăn, Vương Minh cũng đi cùng.",
+    "pt": "O gerente do Wang Ming convida dois clientes para jantar, e o Wang Ming também vai.",
+    "es": "El gerente de Wang Ming invita a cenar a dos clientes, y Wang Ming también va.",
+    "fr": "Le chef de Wang Ming invite deux clients au restaurant, et Wang Ming y va aussi.",
+    "am": "የዋንግ ሚንግ ሥራ አስኪያጅ ሁለት ደንበኞችን ምግብ ጋበዘ፤ ዋንግ ሚንግም አብሮ ሄደ።",
+    "fa": "مدیرِ وانگ مینگ دو تا مشتری رو دعوت شام کرده و وانگ مینگم می‌ره."
+   },
+   "start": 2.14,
+   "end": 6.7,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "请",
+     "qǐng",
+     "to ask; to invite; please (do sth)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_dining",
-  "cover": "https://media.kanchinese.app/review/stories/h2-73.jpg",
-  "duration": 88.376,
-  "lines": [
-    {
-      "text": "王明的经理请两位客户吃饭，王明也去了。",
-      "py": "Wáng Míng de jīng lǐ qǐng liǎng wèi kè hù chī fàn, Wáng Míng yě qù le.",
-      "en": "Wang Ming's manager takes two clients out to dinner, and Wang Ming goes too.",
-      "tr": {
-        "vi": "Giám đốc của Vương Minh mời hai khách hàng đi ăn, Vương Minh cũng đi cùng.",
-        "pt": "O gerente do Wang Ming convida dois clientes para jantar, e o Wang Ming também vai.",
-        "es": "El gerente de Wang Ming invita a cenar a dos clientes, y Wang Ming también va.",
-        "fr": "Le chef de Wang Ming invite deux clients au restaurant, et Wang Ming y va aussi.",
-        "am": "የዋንግ ሚንግ ሥራ አስኪያጅ ሁለት ደንበኞችን ምግብ ጋበዘ፤ ዋንግ ሚንግም አብሮ ሄደ።"
-      },
-      "start": 2.14,
-      "end": 6.7,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "请",
-          "qǐng",
-          "to ask; to invite; please (do sth)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "经理点了很多菜，大家吃得很高兴，可是最后还剩了不少。",
-      "py": "jīng lǐ diǎn le hěn duō cài, dà jiā chī de hěn gāo xìng, kě shì zuì hòu hái shèng le bù shǎo.",
-      "en": "The manager orders lots of dishes and everyone enjoys the meal, but at the end there's still quite a lot left over.",
-      "tr": {
-        "vi": "Giám đốc gọi rất nhiều món, mọi người ăn rất vui, nhưng cuối cùng vẫn còn thừa khá nhiều.",
-        "pt": "O gerente pede muitos pratos e todos comem com gosto, mas no fim ainda sobra bastante.",
-        "es": "El gerente pide muchos platos y todos comen muy contentos, pero al final todavía sobra bastante.",
-        "fr": "Le chef commande beaucoup de plats. Tout le monde mange avec plaisir, mais à la fin, il en reste encore pas mal.",
-        "am": "ሥራ አስኪያጁ ብዙ ምግብ አዘዘ፤ ሁሉም በደስታ በሉ፤ በመጨረሻ ግን ብዙ ምግብ ተረፈ።"
-      },
-      "start": 7.4,
-      "end": 13.568,
-      "tokens": [
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to order (food etc); to select; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "菜",
-          "cài",
-          "dish (of food); vegetable; greens",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "最后",
-          "zuì hòu",
-          "finally; in the end; final; last; ultimate",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "剩",
-          "shèng",
-          "to be left; to remain; to have as remainder",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "不少",
-          "bù shǎo",
-          "many; quite a few; a good number of",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明看着剩下的鱼和饺子，很想打包带回家。",
-      "py": "Wáng Míng kàn zhe shèng xià de yú hé jiǎo zi, hěn xiǎng dǎ bāo dài huí jiā.",
-      "en": "Wang Ming looks at the leftover fish and dumplings, and he'd really like to take them home.",
-      "tr": {
-        "vi": "Vương Minh nhìn chỗ cá và sủi cảo còn thừa, rất muốn gói mang về nhà.",
-        "pt": "O Wang Ming olha para o peixe e os jiaozi que sobraram e tem muita vontade de levar para casa.",
-        "es": "Wang Ming mira el pescado y los jiaozi que sobraron, y tiene muchas ganas de pedirlos para llevar.",
-        "fr": "Wang Ming regarde le poisson et les raviolis qui restent, et il a très envie de les emporter à la maison.",
-        "am": "ዋንግ ሚንግ የተረፈውን ዓሣና ዱምፕሊንግ እያየ አስቋጥሮ ወደ ቤት መውሰድ በጣም ፈለገ።"
-      },
-      "start": 14.268,
-      "end": 19.02,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "剩下",
-          "shèng xià",
-          "to remain; to be left over",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "鱼",
-          "yú",
-          "fish",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "打包",
-          "dǎ bāo",
-          "to put leftovers in a doggy bag for take-out",
-          ""
-        ],
-        [
-          "带回",
-          "dài huí",
-          "to bring back; to take back with one",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "可是他想：“跟客户吃饭，打包是不是不太好？”",
-      "py": "kě shì tā xiǎng: “gēn kè hù chī fàn, dǎ bāo shì bú shì bú tài hǎo?”",
-      "en": "But he thinks, \"When you're eating with clients, is it a bit rude to ask for a takeaway box?\"",
-      "tr": {
-        "vi": "Nhưng anh nghĩ: “Ăn với khách hàng mà xin gói mang về, có phải không hay lắm không?”",
-        "pt": "Mas ele pensa: “Jantando com clientes, será que pedir para embrulhar fica feio?”",
-        "es": "Pero piensa: «Cuando uno come con clientes, ¿no queda mal pedir para llevar?».",
-        "fr": "Mais il pense : « Quand on mange avec des clients, ce n'est pas un peu impoli d'emporter les restes ? »",
-        "am": "ግን «ከደንበኞች ጋር እየበሉ ምግብ ማስቋጠር ነውር ይሆን?» ብሎ አሰበ።"
-      },
-      "start": 19.72,
-      "end": 25.192,
-      "tokens": [
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "打包",
-          "dǎ bāo",
-          "to put leftovers in a doggy bag for take-out",
-          ""
-        ],
-        [
-          "是不是",
-          "shì bu shì",
-          "is or is not (used to form yes-no questions)",
-          ""
-        ],
-        [
-          "不太好",
-          "bù tài hǎo",
-          "not so good; not too well",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "他看了看经理，经理什么也没说。",
-      "py": "tā kàn le kàn jīng lǐ, jīng lǐ shén me yě méi shuō.",
-      "en": "He glances at his manager, but the manager says nothing.",
-      "tr": {
-        "vi": "Anh liếc nhìn giám đốc, giám đốc chẳng nói gì.",
-        "pt": "Ele olha para o gerente, mas o gerente não diz nada.",
-        "es": "Mira a su gerente, pero el gerente no dice nada.",
-        "fr": "Il regarde son chef, mais le chef ne dit rien.",
-        "am": "ሥራ አስኪያጁን አየ፤ ሥራ አስኪያጁ ምንም አላለም።"
-      },
-      "start": 25.892,
-      "end": 29.708,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这时候，一位客户叫来了服务员：“请帮我们打包，这些菜别浪费了。”",
-      "py": "zhè shí hou, yí wèi kè hù jiào lái le fú wù yuán: “qǐng bāng wǒ men dǎ bāo, zhè xiē cài bié làng fèi le.”",
-      "en": "Just then, one of the clients calls the waiter over. \"Could you pack this up for us, please? Let's not waste any of it.\"",
-      "tr": {
-        "vi": "Đúng lúc đó, một vị khách gọi phục vụ đến: “Gói giúp chúng tôi nhé, đừng để phí chỗ đồ ăn này.”",
-        "pt": "Nesse momento, um dos clientes chama o garçom: “Por favor, embrulhe isto para nós. Não vamos desperdiçar essa comida.”",
-        "es": "En ese momento, uno de los clientes llama al mesero: «Por favor, pónganos esto para llevar. Que no se desperdicie la comida».",
-        "fr": "À ce moment-là, un des clients appelle le serveur : « Vous pouvez nous emballer ça, s'il vous plaît ? Il ne faut pas gaspiller ces plats. »",
-        "am": "በዚያን ጊዜ አንዱ ደንበኛ አስተናጋጁን ጠራ። «እባክህ ይሄን ቋጥርልን፤ ምግቡ እንዳይባክን።»"
-      },
-      "start": 30.408,
-      "end": 37.776,
-      "tokens": [
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "候",
-          "hòu",
-          "to wait; to inquire after; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to call; to shout; to order",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "服务员",
-          "fú wù yuán",
-          "waiter; waitress; attendant",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "请",
-          "qǐng",
-          "please (do sth); to ask; to invite",
-          ""
-        ],
-        [
-          "帮",
-          "bāng",
-          "to help; to assist; to support",
-          ""
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "打包",
-          "dǎ bāo",
-          "to wrap; to pack",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这些",
-          "zhè xiē",
-          "these",
-          ""
-        ],
-        [
-          "菜",
-          "cài",
-          "vegetable; greens; dish (of food)",
-          ""
-        ],
-        [
-          "别",
-          "bié",
-          "to leave; to part (from)",
-          ""
-        ],
-        [
-          "浪费",
-          "làng fèi",
-          "to waste; to squander",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明和经理都有点儿吃惊。",
-      "py": "Wáng Míng hé jīng lǐ dōu yǒu diǎn r chī jīng.",
-      "en": "Wang Ming and his manager are both a little surprised.",
-      "tr": {
-        "vi": "Vương Minh và giám đốc đều hơi ngạc nhiên.",
-        "pt": "O Wang Ming e o gerente ficam um pouco surpresos.",
-        "es": "Wang Ming y su gerente se sorprenden un poco.",
-        "fr": "Wang Ming et son chef sont tous les deux un peu surpris.",
-        "am": "ዋንግ ሚንግም ሥራ አስኪያጁም ትንሽ ተገረሙ።"
-      },
-      "start": 38.476,
-      "end": 41.332,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "有点儿",
-          "yǒu diǎn r",
-          "a little; slightly; somewhat",
-          ""
-        ],
-        [
-          "吃惊",
-          "chī jīng",
-          "to be startled; to be shocked; to be amazed",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "客户笑着说：“我小时候，妈妈常常说，饭菜一点儿也不能剩。”",
-      "py": "kè hù xiào zhe shuō: “wǒ xiǎo shí hou, mā ma cháng cháng shuō, fàn cài yì diǎn r yě bù néng shèng.”",
-      "en": "The client smiles. \"When I was little, my mum always said you should never leave any food.\"",
-      "tr": {
-        "vi": "Vị khách cười nói: “Hồi tôi còn nhỏ, mẹ tôi hay bảo, cơm canh không được để thừa chút nào.”",
-        "pt": "O cliente sorri: “Quando eu era pequeno, minha mãe sempre dizia que não se pode deixar sobrar nada de comida.”",
-        "es": "El cliente dice sonriendo: «Cuando yo era niño, mi mamá siempre decía que no hay que dejar nada de comida».",
-        "fr": "Le client dit en souriant : « Quand j'étais petit, ma maman disait toujours qu'il ne fallait jamais laisser de nourriture. »",
-        "am": "ደንበኛው ፈገግ ብሎ «ልጅ እያለሁ እናቴ ምግብ ፈጽሞ መትረፍ የለበትም ትል ነበር» አለ።"
-      },
-      "start": 42.032,
-      "end": 48.92,
-      "tokens": [
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "小时候",
-          "xiǎo shí hou",
-          "in one's childhood",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "常常",
-          "cháng cháng",
-          "frequently; often",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "饭菜",
-          "fàn cài",
-          "food",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不能",
-          "bù néng",
-          "should not; cannot; must not",
-          ""
-        ],
-        [
-          "剩",
-          "shèng",
-          "to remain; to be left; to have as remainder",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "服务员拿来了四个盒子，客户都给了王明：“你们年轻人工作忙，这些拿回去，明天中午就不用买饭了。”",
-      "py": "fú wù yuán ná lái le sì gè hé zi, kè hù dōu gěi le Wáng Míng: “nǐ men nián qīng rén gōng zuò máng, zhè xiē ná huí qù, míng tiān zhōng wǔ jiù bú yòng mǎi fàn le.”",
-      "en": "The waiter brings four boxes, and the client gives them all to Wang Ming. \"You young people are so busy. Take these with you, and you won't need to buy lunch tomorrow.\"",
-      "tr": {
-        "vi": "Phục vụ mang đến bốn cái hộp, vị khách đưa hết cho Vương Minh: “Người trẻ các cậu công việc bận rộn, cầm về đi, trưa mai khỏi phải mua cơm.”",
-        "pt": "O garçom traz quatro caixinhas, e o cliente dá todas ao Wang Ming: “Vocês, jovens, trabalham muito. Levem isso, e amanhã no almoço não vão precisar comprar comida.”",
-        "es": "El mesero trae cuatro recipientes, y el cliente se los da todos a Wang Ming: «Ustedes los jóvenes trabajan mucho. Llévense esto, y mañana no tienen que comprar almuerzo».",
-        "fr": "Le serveur apporte quatre boîtes, et le client les donne toutes à Wang Ming : « Vous, les jeunes, vous êtes très occupés. Emportez ça, et demain midi, vous n'aurez pas besoin d'acheter à manger. »",
-        "am": "አስተናጋጁ አራት ዕቃዎች አመጣ፤ ደንበኛው ሁሉንም ለዋንግ ሚንግ ሰጠው። «እናንተ ወጣቶች ሥራ ይበዛባችኋል፤ ይሄን ውሰድ፤ ነገ ቀትር ምሳ መግዛት አያስፈልግህም።»"
-      },
-      "start": 49.62,
-      "end": 60.012,
-      "tokens": [
-        [
-          "服务员",
-          "fú wù yuán",
-          "waiter; waitress; attendant",
-          ""
-        ],
-        [
-          "拿来",
-          "ná lái",
-          "to bring; to fetch; to get",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "四",
-          "sì",
-          "four; 4",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "盒子",
-          "hé zi",
-          "box; case",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to give; to; for",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "年轻人",
-          "nián qīng rén",
-          "young people; youngster",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; (of a machine) to operate; job",
-          ""
-        ],
-        [
-          "忙",
-          "máng",
-          "busy; hurriedly; to hurry",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这些",
-          "zhè xiē",
-          "these",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to take; to hold; to seize",
-          ""
-        ],
-        [
-          "回去",
-          "huí qu",
-          "to return; to go back",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "明天",
-          "míng tiān",
-          "tomorrow",
-          ""
-        ],
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "不用",
-          "bù yòng",
-          "need not",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "饭",
-          "fàn",
-          "cooked rice; meal; (loanword) fan",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明不好意思地说：“谢谢您！其实我刚才就想打包，可是不好意思说。”",
-      "py": "Wáng Míng bù hǎo yì sī de shuō: “xiè xie nín! qí shí wǒ gāng cái jiù xiǎng dǎ bāo, kě shì bù hǎo yì sī shuō.”",
-      "en": "Wang Ming says, a little embarrassed, \"Thank you! Actually, I wanted to ask for a box just now, but I was too shy to say.\"",
-      "tr": {
-        "vi": "Vương Minh ngại ngùng nói: “Cảm ơn ông! Thật ra nãy giờ cháu đã muốn gói rồi, nhưng ngại không dám nói.”",
-        "pt": "O Wang Ming diz, um pouco envergonhado: “Obrigado! Na verdade, eu já queria pedir para embrulhar, mas fiquei com vergonha.”",
-        "es": "Wang Ming dice un poco avergonzado: «¡Gracias! La verdad, hace rato yo quería pedirlo para llevar, pero me dio vergüenza decirlo».",
-        "fr": "Wang Ming dit, un peu gêné : « Merci ! En fait, tout à l'heure, je voulais emporter les restes, mais je n'osais pas le dire. »",
-        "am": "ዋንግ ሚንግ እያፈረ «አመሰግናለሁ! እውነቱን ለመናገር አሁን ላስቋጥር ፈልጌ ነበር፤ ግን ለማለት አፈርኩ» አለ።"
-      },
-      "start": 60.712,
-      "end": 68.248,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to feel embarrassed; to find it embarrassing",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "其实",
-          "qí shí",
-          "actually; in fact; really",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "刚才",
-          "gāng cái",
-          "just now; just now; a moment ago",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "打包",
-          "dǎ bāo",
-          "to wrap; to pack",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to feel embarrassed; to find it embarrassing",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "客户说：“我看出来了。那条鱼，你看了十分钟。”",
-      "py": "kè hù shuō: “wǒ kàn chū lái le. nà tiáo yú, nǐ kàn le shí fēn zhōng.”",
-      "en": "The client says, \"I could tell. You've been looking at that fish for ten minutes.\"",
-      "tr": {
-        "vi": "Vị khách nói: “Tôi nhìn ra rồi. Con cá đó, cậu nhìn mười phút rồi.”",
-        "pt": "O cliente diz: “Eu percebi. Você ficou olhando para aquele peixe por dez minutos.”",
-        "es": "El cliente dice: «Ya me había dado cuenta. Te pasaste diez minutos mirando ese pescado».",
-        "fr": "Le client dit : « Je l'ai bien vu. Ça faisait dix minutes que vous regardiez ce poisson. »",
-        "am": "ደንበኛው «አይቻለሁ። ያንን ዓሣ ለአሥር ደቂቃ ስታየው ነበር» አለ።"
-      },
-      "start": 68.948,
-      "end": 74.42,
-      "tokens": [
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "看出",
-          "kàn chū",
-          "to make out; to see",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "鱼",
-          "yú",
-          "fish",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "十分",
-          "shí fēn",
-          "to divide into ten equal parts; very; completely",
-          ""
-        ],
-        [
-          "钟",
-          "zhōng",
-          "handleless cup; goblet",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "大家都笑了。",
-      "py": "dà jiā dōu xiào le.",
-      "en": "Everyone laughs.",
-      "tr": {
-        "vi": "Mọi người đều cười.",
-        "pt": "Todos riem.",
-        "es": "Todos se ríen.",
-        "fr": "Tout le monde rit.",
-        "am": "ሁሉም ሳቁ።"
-      },
-      "start": 75.12,
-      "end": 77.04,
-      "tokens": [
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "第二天中午，王明在办公室吃着那条鱼，经理走过来说：“那条鱼还有吗？其实我昨天也想打包。”",
-      "py": "dì èr tiān zhōng wǔ, Wáng Míng zài bàn gōng shì chī zhe nà tiáo yú, jīng lǐ zǒu guò lái shuō: “nà tiáo yú hái yǒu ma? qí shí wǒ zuó tiān yě xiǎng dǎ bāo.”",
-      "en": "The next lunchtime, Wang Ming is eating the fish in the office when his manager comes over. \"Is there any of that fish left? Actually, I wanted a box yesterday too.\"",
-      "tr": {
-        "vi": "Trưa hôm sau, Vương Minh đang ăn con cá đó trong văn phòng thì giám đốc đi tới: “Con cá đó còn không? Thật ra hôm qua tôi cũng muốn gói.”",
-        "pt": "No almoço do dia seguinte, o Wang Ming está comendo aquele peixe no escritório quando o gerente chega e diz: “Ainda tem daquele peixe? Na verdade, ontem eu também queria pedir para embrulhar.”",
-        "es": "Al día siguiente a mediodía, Wang Ming se está comiendo el pescado en la oficina cuando llega su gerente: «¿Queda algo de ese pescado? La verdad, ayer yo también quería pedirlo para llevar».",
-        "fr": "Le lendemain midi, Wang Ming mange le poisson au bureau quand son chef arrive : « Il reste encore de ce poisson ? En fait, hier, moi aussi, je voulais emporter les restes. »",
-        "am": "በማግስቱ ቀትር ላይ ዋንግ ሚንግ ቢሮ ውስጥ ያንን ዓሣ እየበላ ሳለ ሥራ አስኪያጁ መጣና «ከዚያ ዓሣ የተረፈ አለ? እውነቱን ለመናገር እኔም ትናንት ላስቋጥር ፈልጌ ነበር» አለ።"
-      },
-      "start": 77.74,
-      "end": 87.676,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "办公室",
-          "bàn gōng shì",
-          "office; business premises",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "鱼",
-          "yú",
-          "fish",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "走过",
-          "zǒu guò",
-          "to walk past; to pass by",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (prefix) the coming ...; the next ... (as in 来世)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "鱼",
-          "yú",
-          "fish",
-          ""
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "其实",
-          "qí shí",
-          "actually; in fact; really",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "昨天",
-          "zuó tiān",
-          "yesterday",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "打包",
-          "dǎ bāo",
-          "to put leftovers in a doggy bag for take-out",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 274,
-  "first": "王明的经理请两位客户吃饭，王明也去了。",
-  "newWords": [
-    {
-      "w": "打包",
-      "py": "dǎbāo",
-      "en": "wrap leftover food to take home"
-    },
-    {
-      "w": "剩",
-      "py": "shèng",
-      "en": "to remain"
-    },
-    {
-      "w": "服务员",
-      "py": "fúwùyuán",
-      "en": "waiter"
-    },
-    {
-      "w": "其实",
-      "py": "qíshí",
-      "en": "actually"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h2-73.mp3?v=1791721476"
+  {
+   "text": "经理点了很多菜，大家吃得很高兴，可是最后还剩了不少。",
+   "py": "jīng lǐ diǎn le hěn duō cài, dà jiā chī de hěn gāo xìng, kě shì zuì hòu hái shèng le bù shǎo.",
+   "en": "The manager orders lots of dishes and everyone enjoys the meal, but at the end there's still quite a lot left over.",
+   "tr": {
+    "vi": "Giám đốc gọi rất nhiều món, mọi người ăn rất vui, nhưng cuối cùng vẫn còn thừa khá nhiều.",
+    "pt": "O gerente pede muitos pratos e todos comem com gosto, mas no fim ainda sobra bastante.",
+    "es": "El gerente pide muchos platos y todos comen muy contentos, pero al final todavía sobra bastante.",
+    "fr": "Le chef commande beaucoup de plats. Tout le monde mange avec plaisir, mais à la fin, il en reste encore pas mal.",
+    "am": "ሥራ አስኪያጁ ብዙ ምግብ አዘዘ፤ ሁሉም በደስታ በሉ፤ በመጨረሻ ግን ብዙ ምግብ ተረፈ።",
+    "fa": "مدیر کلی غذا سفارش می‌ده و همه حسابی غذا می‌خورن، ولی آخرش هنوز کلی از غذا مونده."
+   },
+   "start": 7.4,
+   "end": 13.568,
+   "tokens": [
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to order (food etc); to select; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "菜",
+     "cài",
+     "dish (of food); vegetable; greens",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "最后",
+     "zuì hòu",
+     "finally; in the end; final; last; ultimate",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "剩",
+     "shèng",
+     "to be left; to remain; to have as remainder",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "不少",
+     "bù shǎo",
+     "many; quite a few; a good number of",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明看着剩下的鱼和饺子，很想打包带回家。",
+   "py": "Wáng Míng kàn zhe shèng xià de yú hé jiǎo zi, hěn xiǎng dǎ bāo dài huí jiā.",
+   "en": "Wang Ming looks at the leftover fish and dumplings, and he'd really like to take them home.",
+   "tr": {
+    "vi": "Vương Minh nhìn chỗ cá và sủi cảo còn thừa, rất muốn gói mang về nhà.",
+    "pt": "O Wang Ming olha para o peixe e os jiaozi que sobraram e tem muita vontade de levar para casa.",
+    "es": "Wang Ming mira el pescado y los jiaozi que sobraron, y tiene muchas ganas de pedirlos para llevar.",
+    "fr": "Wang Ming regarde le poisson et les raviolis qui restent, et il a très envie de les emporter à la maison.",
+    "am": "ዋንግ ሚንግ የተረፈውን ዓሣና ዱምፕሊንግ እያየ አስቋጥሮ ወደ ቤት መውሰድ በጣም ፈለገ።",
+    "fa": "وانگ مینگ به ماهی و رامیولی‌های مونده نگاه می‌کنه و حسابی دوست داره ببره‌شون خونه."
+   },
+   "start": 14.268,
+   "end": 19.02,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "剩下",
+     "shèng xià",
+     "to remain; to be left over",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "鱼",
+     "yú",
+     "fish",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "打包",
+     "dǎ bāo",
+     "to put leftovers in a doggy bag for take-out",
+     ""
+    ],
+    [
+     "带回",
+     "dài huí",
+     "to bring back; to take back with one",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "可是他想：“跟客户吃饭，打包是不是不太好？”",
+   "py": "kě shì tā xiǎng: “gēn kè hù chī fàn, dǎ bāo shì bú shì bú tài hǎo?”",
+   "en": "But he thinks, \"When you're eating with clients, is it a bit rude to ask for a takeaway box?\"",
+   "tr": {
+    "vi": "Nhưng anh nghĩ: “Ăn với khách hàng mà xin gói mang về, có phải không hay lắm không?”",
+    "pt": "Mas ele pensa: “Jantando com clientes, será que pedir para embrulhar fica feio?”",
+    "es": "Pero piensa: «Cuando uno come con clientes, ¿no queda mal pedir para llevar?».",
+    "fr": "Mais il pense : « Quand on mange avec des clients, ce n'est pas un peu impoli d'emporter les restes ? »",
+    "am": "ግን «ከደንበኞች ጋር እየበሉ ምግብ ማስቋጠር ነውር ይሆን?» ብሎ አሰበ።",
+    "fa": "ولی فکر می‌کنه: «وقتی با مشتری‌ها شام می‌خوری، جعبه‌ی باقی‌مونده خواستن یه کم بی‌ادبانه نیست؟»"
+   },
+   "start": 19.72,
+   "end": 25.192,
+   "tokens": [
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "打包",
+     "dǎ bāo",
+     "to put leftovers in a doggy bag for take-out",
+     ""
+    ],
+    [
+     "是不是",
+     "shì bu shì",
+     "is or is not (used to form yes-no questions)",
+     ""
+    ],
+    [
+     "不太好",
+     "bù tài hǎo",
+     "not so good; not too well",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "他看了看经理，经理什么也没说。",
+   "py": "tā kàn le kàn jīng lǐ, jīng lǐ shén me yě méi shuō.",
+   "en": "He glances at his manager, but the manager says nothing.",
+   "tr": {
+    "vi": "Anh liếc nhìn giám đốc, giám đốc chẳng nói gì.",
+    "pt": "Ele olha para o gerente, mas o gerente não diz nada.",
+    "es": "Mira a su gerente, pero el gerente no dice nada.",
+    "fr": "Il regarde son chef, mais le chef ne dit rien.",
+    "am": "ሥራ አስኪያጁን አየ፤ ሥራ አስኪያጁ ምንም አላለም።",
+    "fa": "نگاهی به مدیرش می‌ندازه، ولی مدیر هیچی نمی‌گه."
+   },
+   "start": 25.892,
+   "end": 29.708,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这时候，一位客户叫来了服务员：“请帮我们打包，这些菜别浪费了。”",
+   "py": "zhè shí hou, yí wèi kè hù jiào lái le fú wù yuán: “qǐng bāng wǒ men dǎ bāo, zhè xiē cài bié làng fèi le.”",
+   "en": "Just then, one of the clients calls the waiter over. \"Could you pack this up for us, please? Let's not waste any of it.\"",
+   "tr": {
+    "vi": "Đúng lúc đó, một vị khách gọi phục vụ đến: “Gói giúp chúng tôi nhé, đừng để phí chỗ đồ ăn này.”",
+    "pt": "Nesse momento, um dos clientes chama o garçom: “Por favor, embrulhe isto para nós. Não vamos desperdiçar essa comida.”",
+    "es": "En ese momento, uno de los clientes llama al mesero: «Por favor, pónganos esto para llevar. Que no se desperdicie la comida».",
+    "fr": "À ce moment-là, un des clients appelle le serveur : « Vous pouvez nous emballer ça, s'il vous plaît ? Il ne faut pas gaspiller ces plats. »",
+    "am": "በዚያን ጊዜ አንዱ ደንበኛ አስተናጋጁን ጠራ። «እባክህ ይሄን ቋጥርልን፤ ምግቡ እንዳይባክን።»",
+    "fa": "همین موقع یکی از مشتری‌ها پیش‌خدمتو صدا می‌زنه: «می‌شه لطفاً اینا رو برامون بسته‌بندی کنید؟ بذاریم هیچیش هدر نره.»"
+   },
+   "start": 30.408,
+   "end": 37.776,
+   "tokens": [
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "候",
+     "hòu",
+     "to wait; to inquire after; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to call; to shout; to order",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "服务员",
+     "fú wù yuán",
+     "waiter; waitress; attendant",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "请",
+     "qǐng",
+     "please (do sth); to ask; to invite",
+     ""
+    ],
+    [
+     "帮",
+     "bāng",
+     "to help; to assist; to support",
+     ""
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "打包",
+     "dǎ bāo",
+     "to wrap; to pack",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这些",
+     "zhè xiē",
+     "these",
+     ""
+    ],
+    [
+     "菜",
+     "cài",
+     "vegetable; greens; dish (of food)",
+     ""
+    ],
+    [
+     "别",
+     "bié",
+     "to leave; to part (from)",
+     ""
+    ],
+    [
+     "浪费",
+     "làng fèi",
+     "to waste; to squander",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明和经理都有点儿吃惊。",
+   "py": "Wáng Míng hé jīng lǐ dōu yǒu diǎn r chī jīng.",
+   "en": "Wang Ming and his manager are both a little surprised.",
+   "tr": {
+    "vi": "Vương Minh và giám đốc đều hơi ngạc nhiên.",
+    "pt": "O Wang Ming e o gerente ficam um pouco surpresos.",
+    "es": "Wang Ming y su gerente se sorprenden un poco.",
+    "fr": "Wang Ming et son chef sont tous les deux un peu surpris.",
+    "am": "ዋንግ ሚንግም ሥራ አስኪያጁም ትንሽ ተገረሙ።",
+    "fa": "وانگ مینگ و مدیرش هر دومون یه کم تعجب می‌کنن."
+   },
+   "start": 38.476,
+   "end": 41.332,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "有点儿",
+     "yǒu diǎn r",
+     "a little; slightly; somewhat",
+     ""
+    ],
+    [
+     "吃惊",
+     "chī jīng",
+     "to be startled; to be shocked; to be amazed",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "客户笑着说：“我小时候，妈妈常常说，饭菜一点儿也不能剩。”",
+   "py": "kè hù xiào zhe shuō: “wǒ xiǎo shí hou, mā ma cháng cháng shuō, fàn cài yì diǎn r yě bù néng shèng.”",
+   "en": "The client smiles. \"When I was little, my mum always said you should never leave any food.\"",
+   "tr": {
+    "vi": "Vị khách cười nói: “Hồi tôi còn nhỏ, mẹ tôi hay bảo, cơm canh không được để thừa chút nào.”",
+    "pt": "O cliente sorri: “Quando eu era pequeno, minha mãe sempre dizia que não se pode deixar sobrar nada de comida.”",
+    "es": "El cliente dice sonriendo: «Cuando yo era niño, mi mamá siempre decía que no hay que dejar nada de comida».",
+    "fr": "Le client dit en souriant : « Quand j'étais petit, ma maman disait toujours qu'il ne fallait jamais laisser de nourriture. »",
+    "am": "ደንበኛው ፈገግ ብሎ «ልጅ እያለሁ እናቴ ምግብ ፈጽሞ መትረፍ የለበትም ትል ነበር» አለ።",
+    "fa": "مشتری لبخند می‌زنه: «وقتی کوچیک بودم، مامانم همیشه می‌گفت هیچ‌وقت نباید غذا جا بذاری.»"
+   },
+   "start": 42.032,
+   "end": 48.92,
+   "tokens": [
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "小时候",
+     "xiǎo shí hou",
+     "in one's childhood",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "常常",
+     "cháng cháng",
+     "frequently; often",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "饭菜",
+     "fàn cài",
+     "food",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不能",
+     "bù néng",
+     "should not; cannot; must not",
+     ""
+    ],
+    [
+     "剩",
+     "shèng",
+     "to remain; to be left; to have as remainder",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "服务员拿来了四个盒子，客户都给了王明：“你们年轻人工作忙，这些拿回去，明天中午就不用买饭了。”",
+   "py": "fú wù yuán ná lái le sì gè hé zi, kè hù dōu gěi le Wáng Míng: “nǐ men nián qīng rén gōng zuò máng, zhè xiē ná huí qù, míng tiān zhōng wǔ jiù bú yòng mǎi fàn le.”",
+   "en": "The waiter brings four boxes, and the client gives them all to Wang Ming. \"You young people are so busy. Take these with you, and you won't need to buy lunch tomorrow.\"",
+   "tr": {
+    "vi": "Phục vụ mang đến bốn cái hộp, vị khách đưa hết cho Vương Minh: “Người trẻ các cậu công việc bận rộn, cầm về đi, trưa mai khỏi phải mua cơm.”",
+    "pt": "O garçom traz quatro caixinhas, e o cliente dá todas ao Wang Ming: “Vocês, jovens, trabalham muito. Levem isso, e amanhã no almoço não vão precisar comprar comida.”",
+    "es": "El mesero trae cuatro recipientes, y el cliente se los da todos a Wang Ming: «Ustedes los jóvenes trabajan mucho. Llévense esto, y mañana no tienen que comprar almuerzo».",
+    "fr": "Le serveur apporte quatre boîtes, et le client les donne toutes à Wang Ming : « Vous, les jeunes, vous êtes très occupés. Emportez ça, et demain midi, vous n'aurez pas besoin d'acheter à manger. »",
+    "am": "አስተናጋጁ አራት ዕቃዎች አመጣ፤ ደንበኛው ሁሉንም ለዋንግ ሚንግ ሰጠው። «እናንተ ወጣቶች ሥራ ይበዛባችኋል፤ ይሄን ውሰድ፤ ነገ ቀትር ምሳ መግዛት አያስፈልግህም።»",
+    "fa": "پیش‌خدمت چهار تا جعبه میاره و مشتری همه‌شو می‌ده به وانگ مینگ: «شما جووونا سرتون شلوغه. اینا رو ببرید که فردا ناهار لازم نیست بخرید.»"
+   },
+   "start": 49.62,
+   "end": 60.012,
+   "tokens": [
+    [
+     "服务员",
+     "fú wù yuán",
+     "waiter; waitress; attendant",
+     ""
+    ],
+    [
+     "拿来",
+     "ná lái",
+     "to bring; to fetch; to get",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "四",
+     "sì",
+     "four; 4",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "盒子",
+     "hé zi",
+     "box; case",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to give; to; for",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "年轻人",
+     "nián qīng rén",
+     "young people; youngster",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; (of a machine) to operate; job",
+     ""
+    ],
+    [
+     "忙",
+     "máng",
+     "busy; hurriedly; to hurry",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这些",
+     "zhè xiē",
+     "these",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to take; to hold; to seize",
+     ""
+    ],
+    [
+     "回去",
+     "huí qu",
+     "to return; to go back",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "明天",
+     "míng tiān",
+     "tomorrow",
+     ""
+    ],
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "不用",
+     "bù yòng",
+     "need not",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "饭",
+     "fàn",
+     "cooked rice; meal; (loanword) fan",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明不好意思地说：“谢谢您！其实我刚才就想打包，可是不好意思说。”",
+   "py": "Wáng Míng bù hǎo yì sī de shuō: “xiè xie nín! qí shí wǒ gāng cái jiù xiǎng dǎ bāo, kě shì bù hǎo yì sī shuō.”",
+   "en": "Wang Ming says, a little embarrassed, \"Thank you! Actually, I wanted to ask for a box just now, but I was too shy to say.\"",
+   "tr": {
+    "vi": "Vương Minh ngại ngùng nói: “Cảm ơn ông! Thật ra nãy giờ cháu đã muốn gói rồi, nhưng ngại không dám nói.”",
+    "pt": "O Wang Ming diz, um pouco envergonhado: “Obrigado! Na verdade, eu já queria pedir para embrulhar, mas fiquei com vergonha.”",
+    "es": "Wang Ming dice un poco avergonzado: «¡Gracias! La verdad, hace rato yo quería pedirlo para llevar, pero me dio vergüenza decirlo».",
+    "fr": "Wang Ming dit, un peu gêné : « Merci ! En fait, tout à l'heure, je voulais emporter les restes, mais je n'osais pas le dire. »",
+    "am": "ዋንግ ሚንግ እያፈረ «አመሰግናለሁ! እውነቱን ለመናገር አሁን ላስቋጥር ፈልጌ ነበር፤ ግን ለማለት አፈርኩ» አለ።",
+    "fa": "وانگ مینگ یه کم خجالت‌زده می‌گه: «ممنون! راستش همون موقع می‌خواستم جعبه بخوام، ولی خجالت کشیدم بگم.»"
+   },
+   "start": 60.712,
+   "end": 68.248,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to feel embarrassed; to find it embarrassing",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "其实",
+     "qí shí",
+     "actually; in fact; really",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "刚才",
+     "gāng cái",
+     "just now; just now; a moment ago",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "打包",
+     "dǎ bāo",
+     "to wrap; to pack",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to feel embarrassed; to find it embarrassing",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "客户说：“我看出来了。那条鱼，你看了十分钟。”",
+   "py": "kè hù shuō: “wǒ kàn chū lái le. nà tiáo yú, nǐ kàn le shí fēn zhōng.”",
+   "en": "The client says, \"I could tell. You've been looking at that fish for ten minutes.\"",
+   "tr": {
+    "vi": "Vị khách nói: “Tôi nhìn ra rồi. Con cá đó, cậu nhìn mười phút rồi.”",
+    "pt": "O cliente diz: “Eu percebi. Você ficou olhando para aquele peixe por dez minutos.”",
+    "es": "El cliente dice: «Ya me había dado cuenta. Te pasaste diez minutos mirando ese pescado».",
+    "fr": "Le client dit : « Je l'ai bien vu. Ça faisait dix minutes que vous regardiez ce poisson. »",
+    "am": "ደንበኛው «አይቻለሁ። ያንን ዓሣ ለአሥር ደቂቃ ስታየው ነበር» አለ።",
+    "fa": "مشتری می‌گه: «دیدم. ده دقیقه‌ست داری به اون ماهی نگاه می‌کنی.»"
+   },
+   "start": 68.948,
+   "end": 74.42,
+   "tokens": [
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "看出",
+     "kàn chū",
+     "to make out; to see",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "鱼",
+     "yú",
+     "fish",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "十分",
+     "shí fēn",
+     "to divide into ten equal parts; very; completely",
+     ""
+    ],
+    [
+     "钟",
+     "zhōng",
+     "handleless cup; goblet",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "大家都笑了。",
+   "py": "dà jiā dōu xiào le.",
+   "en": "Everyone laughs.",
+   "tr": {
+    "vi": "Mọi người đều cười.",
+    "pt": "Todos riem.",
+    "es": "Todos se ríen.",
+    "fr": "Tout le monde rit.",
+    "am": "ሁሉም ሳቁ።",
+    "fa": "همه می‌خندند."
+   },
+   "start": 75.12,
+   "end": 77.04,
+   "tokens": [
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "第二天中午，王明在办公室吃着那条鱼，经理走过来说：“那条鱼还有吗？其实我昨天也想打包。”",
+   "py": "dì èr tiān zhōng wǔ, Wáng Míng zài bàn gōng shì chī zhe nà tiáo yú, jīng lǐ zǒu guò lái shuō: “nà tiáo yú hái yǒu ma? qí shí wǒ zuó tiān yě xiǎng dǎ bāo.”",
+   "en": "The next lunchtime, Wang Ming is eating the fish in the office when his manager comes over. \"Is there any of that fish left? Actually, I wanted a box yesterday too.\"",
+   "tr": {
+    "vi": "Trưa hôm sau, Vương Minh đang ăn con cá đó trong văn phòng thì giám đốc đi tới: “Con cá đó còn không? Thật ra hôm qua tôi cũng muốn gói.”",
+    "pt": "No almoço do dia seguinte, o Wang Ming está comendo aquele peixe no escritório quando o gerente chega e diz: “Ainda tem daquele peixe? Na verdade, ontem eu também queria pedir para embrulhar.”",
+    "es": "Al día siguiente a mediodía, Wang Ming se está comiendo el pescado en la oficina cuando llega su gerente: «¿Queda algo de ese pescado? La verdad, ayer yo también quería pedirlo para llevar».",
+    "fr": "Le lendemain midi, Wang Ming mange le poisson au bureau quand son chef arrive : « Il reste encore de ce poisson ? En fait, hier, moi aussi, je voulais emporter les restes. »",
+    "am": "በማግስቱ ቀትር ላይ ዋንግ ሚንግ ቢሮ ውስጥ ያንን ዓሣ እየበላ ሳለ ሥራ አስኪያጁ መጣና «ከዚያ ዓሣ የተረፈ አለ? እውነቱን ለመናገር እኔም ትናንት ላስቋጥር ፈልጌ ነበር» አለ።",
+    "fa": "فرداش موقع ناهار، وانگ مینگ تو شرکت داره ماهیو می‌خوره که مدیرش میاد: «از اون ماهی مونده؟ راستش منم دیروز می‌خواستم یه جعبه بگیرم.»"
+   },
+   "start": 77.74,
+   "end": 87.676,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "办公室",
+     "bàn gōng shì",
+     "office; business premises",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "鱼",
+     "yú",
+     "fish",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "走过",
+     "zǒu guò",
+     "to walk past; to pass by",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (prefix) the coming ...; the next ... (as in 来世)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "鱼",
+     "yú",
+     "fish",
+     ""
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "其实",
+     "qí shí",
+     "actually; in fact; really",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "昨天",
+     "zuó tiān",
+     "yesterday",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "打包",
+     "dǎ bāo",
+     "to put leftovers in a doggy bag for take-out",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 274,
+ "first": "王明的经理请两位客户吃饭，王明也去了。",
+ "newWords": [
+  {
+   "w": "打包",
+   "py": "dǎbāo",
+   "en": "wrap leftover food to take home"
+  },
+  {
+   "w": "剩",
+   "py": "shèng",
+   "en": "to remain"
+  },
+  {
+   "w": "服务员",
+   "py": "fúwùyuán",
+   "en": "waiter"
+  },
+  {
+   "w": "其实",
+   "py": "qíshí",
+   "en": "actually"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h2-73.mp3?v=1791721476"
 }

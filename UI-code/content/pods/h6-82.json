@@ -1,2930 +1,2950 @@
 {
-  "id": "h6-82",
-  "level": 6,
-  "no": 82,
-  "title": "哭着的船",
-  "title_py": "kū zhe de chuán",
-  "title_en": "The crying ship",
-  "title_tr": {
-    "am": "የምታለቅሰው መርከብ",
-    "fa": "کشتی در حال گریستن در باران"
+ "id": "h6-82",
+ "level": 6,
+ "no": 82,
+ "title": "哭着的船",
+ "title_py": "kū zhe de chuán",
+ "title_en": "The crying ship",
+ "title_tr": {
+  "am": "የምታለቅሰው መርከብ",
+  "fa": "کشتی در حال گریستن در باران"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_comms",
+ "cover": "https://media.kanchinese.app/review/stories/h6-82.jpg",
+ "duration": 171.132,
+ "lines": [
+  {
+   "text": "星期六早上八点，杰克接到货代的电话：台风来了，原定星期一出发的那班船，至少要推迟十天。",
+   "py": "xīng qī liù zǎo shang bā diǎn, Jié kè jiē dào huò dài de diàn huà: tái fēng lái le, yuán dìng xīng qī yì chū fā de nà bān chuán, zhì shǎo yào tuī chí shí tiān.",
+   "en": "At eight on Saturday morning, Jack gets a call from the freight forwarder: a typhoon is coming, and the ship due to sail on Monday will be delayed by at least ten days.",
+   "tr": {
+    "am": "ቅዳሜ ጠዋት 8:00 ላይ ጃክ ከዕቃ አስተላላፊው ስልክ ተደወለለት፦ አውሎ ንፋስ እየመጣ ነው፣ ሰኞ እንድትነሣ የታቀደችው መርከብ ቢያንስ በአሥር ቀን ትዘገያለች።",
+    "fa": "جمعه صبح ساعت هشت جک از شرکت حمل‌ونقل زنگ می‌خوره: طوفان اومده؛ کشتی‌ای که قرار بود دوشنبه حرکت کنه حداقل ده روز عقب می‌افته."
+   },
+   "start": 2.884,
+   "end": 13.54,
+   "tokens": [
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "接到",
+     "jiē dào",
+     "to receive (letter etc)",
+     ""
+    ],
+    [
+     "货",
+     "huò",
+     "goods; money; commodity",
+     ""
+    ],
+    [
+     "代",
+     "dài",
+     "to be a substitute for; to act on behalf of; to replace; to substitute",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "phone call; telephone; phone number",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "台风",
+     "tái fēng",
+     "typhoon; stage presence, poise",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "(prefix) the coming ...; the next ... (as in 来世); to come",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "原定",
+     "yuán dìng",
+     "originally planned; originally determined",
+     ""
+    ],
+    [
+     "星期一",
+     "xīng qī yī",
+     "Monday",
+     ""
+    ],
+    [
+     "出发",
+     "chū fā",
+     "to set off; to start (on a journey)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "班",
+     "bān",
+     "classifier for groups of people and scheduled transport vehicles",
+     ""
+    ],
+    [
+     "船",
+     "chuán",
+     "ship; boat; vessel",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "至少",
+     "zhì shǎo",
+     "at least; (to say the) least",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "will; shall; about to; to want; to need; to ask for",
+     ""
+    ],
+    [
+     "推迟",
+     "tuī chí",
+     "to postpone; to put off; to defer",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_comms",
-  "cover": "https://media.kanchinese.app/review/stories/h6-82.jpg",
-  "duration": 171.132,
-  "lines": [
-    {
-      "text": "星期六早上八点，杰克接到货代的电话：台风来了，原定星期一出发的那班船，至少要推迟十天。",
-      "py": "xīng qī liù zǎo shang bā diǎn, Jié kè jiē dào huò dài de diàn huà: tái fēng lái le, yuán dìng xīng qī yì chū fā de nà bān chuán, zhì shǎo yào tuī chí shí tiān.",
-      "en": "At eight on Saturday morning, Jack gets a call from the freight forwarder: a typhoon is coming, and the ship due to sail on Monday will be delayed by at least ten days.",
-      "tr": {
-        "am": "ቅዳሜ ጠዋት 8:00 ላይ ጃክ ከዕቃ አስተላላፊው ስልክ ተደወለለት፦ አውሎ ንፋስ እየመጣ ነው፣ ሰኞ እንድትነሣ የታቀደችው መርከብ ቢያንስ በአሥር ቀን ትዘገያለች።"
-      },
-      "start": 2.884,
-      "end": 13.54,
-      "tokens": [
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "接到",
-          "jiē dào",
-          "to receive (letter etc)",
-          ""
-        ],
-        [
-          "货",
-          "huò",
-          "goods; money; commodity",
-          ""
-        ],
-        [
-          "代",
-          "dài",
-          "to be a substitute for; to act on behalf of; to replace; to substitute",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "phone call; telephone; phone number",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "台风",
-          "tái fēng",
-          "typhoon; stage presence, poise",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "(prefix) the coming ...; the next ... (as in 来世); to come",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "原定",
-          "yuán dìng",
-          "originally planned; originally determined",
-          ""
-        ],
-        [
-          "星期一",
-          "xīng qī yī",
-          "Monday",
-          ""
-        ],
-        [
-          "出发",
-          "chū fā",
-          "to set off; to start (on a journey)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "班",
-          "bān",
-          "classifier for groups of people and scheduled transport vehicles",
-          ""
-        ],
-        [
-          "船",
-          "chuán",
-          "ship; boat; vessel",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "至少",
-          "zhì shǎo",
-          "at least; (to say the) least",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "will; shall; about to; to want; to need; to ask for",
-          ""
-        ],
-        [
-          "推迟",
-          "tuī chí",
-          "to postpone; to put off; to defer",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这批货是给一位肯尼亚客户的五千盏太阳能台灯，下个月开学，好几所学校都等着用。",
-      "py": "zhè pī huò shì gěi yí wèi kěn ní yà kè hù de wǔ qiān zhǎn tài yáng néng tái dēng, xià gè yuè kāi xué, hǎo jǐ suǒ xué xiào dōu děng zhe yòng.",
-      "en": "The shipment is five thousand solar desk lamps for a client in Kenya; school starts next month, and several schools are waiting for them.",
-      "tr": {
-        "am": "ይህ ጭነት ለአንድ ኬንያዊ ደንበኛ የሚላኩ አምስት ሺህ የፀሐይ ኃይል የጠረጴዛ መብራቶች ናቸው፣ በሚቀጥለው ወር ትምህርት ይከፈታል፣ ብዙ ትምህርት ቤቶችም እየጠበቋቸው ነው።"
-      },
-      "start": 14.24,
-      "end": 22.736,
-      "tokens": [
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "批",
-          "pī",
-          "classifier for batches, lots, military flights; to ascertain",
-          ""
-        ],
-        [
-          "货",
-          "huò",
-          "goods; money; commodity",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "肯尼亚",
-          "kěn ní yà",
-          "Kenya",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "千",
-          "qiān",
-          "thousand",
-          ""
-        ],
-        [
-          "盏",
-          "zhǎn",
-          "classifier for lamps; a small cup",
-          ""
-        ],
-        [
-          "太阳能",
-          "tài yáng néng",
-          "solar energy",
-          ""
-        ],
-        [
-          "台灯",
-          "tái dēng",
-          "desk lamp; table lamp",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "下个月",
-          "xià gè yuè",
-          "next month",
-          ""
-        ],
-        [
-          "开学",
-          "kāi xué",
-          "(of a student) to start school; (old) to found a school",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "好几",
-          "hǎo jǐ",
-          "several; quite a few",
-          ""
-        ],
-        [
-          "所",
-          "suǒ",
-          "classifier for houses, small buildings, institutions etc",
-          ""
-        ],
-        [
-          "学校",
-          "xué xiào",
-          "school",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "如果改成空运，还来得及，可是运费要贵好几倍，必须客户本人同意。",
-      "py": "rú guǒ gǎi chéng kōng yùn, hái lái de jí, kě shì yùn fèi yào guì hǎo jǐ bèi, bì xū kè hù běn rén tóng yì.",
-      "en": "Switching to air freight would still get them there in time, but it costs several times more, and the client has to agree personally.",
-      "tr": {
-        "am": "በአውሮፕላን ቢላክ ገና ይደርሳል፣ ግን የማጓጓዣ ዋጋው ብዙ እጥፍ ውድ ነው፣ ደንበኛው ራሱ መፍቀድ አለበት።"
-      },
-      "start": 23.436,
-      "end": 30.828,
-      "tokens": [
-        [
-          "如果",
-          "rú guǒ",
-          "if; in case; in the event that",
-          ""
-        ],
-        [
-          "改成",
-          "gǎi chéng",
-          "to convert; to turn into (sth else)",
-          ""
-        ],
-        [
-          "空运",
-          "kōng yùn",
-          "air transport",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "来得及",
-          "lái de jí",
-          "to have enough time; can do it in time; can still make it",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "运费",
-          "yùn fèi",
-          "freight fee",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "贵",
-          "guì",
-          "expensive; (bound form) highly valued; precious",
-          ""
-        ],
-        [
-          "好几",
-          "hǎo jǐ",
-          "several; quite a few",
-          ""
-        ],
-        [
-          "倍",
-          "bèi",
-          "times (multiplier); (two, three etc) -fold; double",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "必须",
-          "bì xū",
-          "to have to; must; compulsory",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "本人",
-          "běn rén",
-          "oneself; yourself; himself; herself; the person concerned",
-          ""
-        ],
-        [
-          "同意",
-          "tóng yì",
-          "to agree; to consent; to approve",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "货代说，飞机上的舱位只能给他们留到中午十二点。",
-      "py": "huò dài shuō, fēi jī shàng de cāng wèi zhǐ néng gěi tā men liú dào zhōng wǔ shí èr diǎn.",
-      "en": "The forwarder says the cargo space on the plane can only be held for them until twelve noon.",
-      "tr": {
-        "am": "ዕቃ አስተላላፊው በአውሮፕላኑ ላይ ያለውን ቦታ እስከ ቀትር 12:00 ድረስ ብቻ ሊይዝላቸው እንደሚችል ተናገረ።"
-      },
-      "start": 31.528,
-      "end": 36.736,
-      "tokens": [
-        [
-          "货",
-          "huò",
-          "goods; money; commodity",
-          ""
-        ],
-        [
-          "代",
-          "dài",
-          "to be a substitute for; to act on behalf of; to replace; to substitute",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "飞机",
-          "fēi jī",
-          "airplane",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "舱位",
-          "cāng wèi",
-          "shipping space; cabin berth; cabin seat",
-          ""
-        ],
-        [
-          "只能",
-          "zhǐ néng",
-          "can only; obliged to do sth; to have no other choice",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "留",
-          "liú",
-          "to leave (a message etc); to retain; to stay",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to (a place); until (a time); up to (a point)",
-          ""
-        ],
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "point in time or space; classifier for small amounts",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "肯尼亚比北京晚五个小时，客户那边才早上三点。杰克犹豫了半天，还是拨了他的手机。",
-      "py": "kěn ní yà bǐ Běi jīng wǎn wǔ gè xiǎo shí, kè hù nà biān cái zǎo shang sān diǎn. Jié kè yóu yù le bàn tiān, hái shi bō le tā de shǒu jī.",
-      "en": "Kenya is five hours behind Beijing, so it's only three in the morning there. Jack hesitates for a long time, then rings the client's mobile anyway.",
-      "tr": {
-        "am": "ኬንያ ከቤጂንግ አምስት ሰዓት ወደ ኋላ ናት፣ ደንበኛው ጋ ገና ሌሊት 3:00 ነው። ጃክ ለረጅም ጊዜ አመነታ፣ በመጨረሻ ግን ወደ ሞባይሉ ደወለ።"
-      },
-      "start": 37.436,
-      "end": 46.412,
-      "tokens": [
-        [
-          "肯尼亚",
-          "kěn ní yà",
-          "Kenya",
-          ""
-        ],
-        [
-          "比",
-          "bǐ",
-          "to compare",
-          ""
-        ],
-        [
-          "北京",
-          "běi jīng",
-          "Beijing municipality, capital of the People's Republic of China (short name 京)",
-          ""
-        ],
-        [
-          "晚",
-          "wǎn",
-          "evening; night; late",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "那边",
-          "nà bian",
-          "over there; yonder",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "then and only then; (before an expression of quantity) only",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "point in time or space; classifier for small amounts",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "犹豫",
-          "yóu yù",
-          "to hesitate",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "a long time; half of the day; quite a while",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "拨",
-          "bō",
-          "to push aside with the hand, foot, a stick etc; to dial",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "电话没人接。他等了三个小时，到了北京时间十一点，又打了一次。",
-      "py": "diàn huà méi rén jiē. tā děng le sān gè xiǎo shí, dào le Běi jīng shí jiān shí yì diǎn, yòu dǎ le yí cì.",
-      "en": "No answer. He waits three hours, and at eleven Beijing time he tries again.",
-      "tr": {
-        "am": "ስልኩን ማንም አላነሣም። ሦስት ሰዓት ጠብቆ በቤጂንግ ሰዓት 11:00 ላይ እንደገና ደወለ።"
-      },
-      "start": 47.112,
-      "end": 53.976,
-      "tokens": [
-        [
-          "电话",
-          "diàn huà",
-          "telephone; phone call; phone number",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "接",
-          "jiē",
-          "to answer (the phone); to receive; to meet or welcome sb",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "北京时间",
-          "běi jīng shí jiān",
-          "Beijing Time (BJT); China Standard Time (CST)",
-          ""
-        ],
-        [
-          "十一",
-          "shí yī",
-          "eleven; 11; PRC National Day (October 1st)",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "point in time or space; classifier for small amounts",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "打",
-          "dǎ",
-          "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一次",
-          "yī cì",
-          "first time; first; once",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这一次接电话的是一个小女孩，声音软软的，说的是带口音的英语：“爸爸在洗澡。”",
-      "py": "zhè yí cì jiē diàn huà de shì yí gè xiǎo nǚ hái, shēng yīn ruǎn ruǎn de, shuō de shì dài kǒu yīn de yīng yǔ: “bà ba zài xǐ zǎo.”",
-      "en": "This time a little girl answers, in a soft voice and accented English: \"Daddy's in the shower.\"",
-      "tr": {
-        "am": "በዚህ ጊዜ ስልኩን ያነሣችው አንዲት ትንሽ ልጅ ነበረች፣ ድምፅዋ ለስላሳ ነው፣ በቅላጼ የተቀላቀለ እንግሊዝኛ ትናገራለች፦ «አባዬ ገላውን እየታጠበ ነው።»"
-      },
-      "start": 54.676,
-      "end": 63.916,
-      "tokens": [
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "一次",
-          "yī cì",
-          "first time; first; once",
-          ""
-        ],
-        [
-          "接",
-          "jiē",
-          "to answer (the phone); to receive; to meet or welcome sb",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "telephone; phone call; phone number",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "小女",
-          "xiǎo nǚ",
-          "my daughter (humble)",
-          ""
-        ],
-        [
-          "孩",
-          "hái",
-          "(bound form) child",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "声音",
-          "shēng yīn",
-          "sound; voice",
-          ""
-        ],
-        [
-          "软",
-          "ruǎn",
-          "soft; flexible",
-          ""
-        ],
-        [
-          "软",
-          "ruǎn",
-          "soft; flexible",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "band; belt; girdle",
-          ""
-        ],
-        [
-          "口音",
-          "kǒu yīn",
-          "(linguistics) oral speech sounds",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "英语",
-          "yīng yǔ",
-          "English (language)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "爸爸",
-          "bà ba",
-          "(coll.) father; dad",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "洗澡",
-          "xǐ zǎo",
-          "to take a shower; to bathe",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克急了，只好一个字一个字地慢慢说：“请你告诉爸爸，船不能走了，要改坐飞机，十二点以前一定要给我回电话。”",
-      "py": "Jié kè jí le, zhǐ hǎo yí gè zì yí gè zì de màn màn shuō: “qǐng nǐ gào su bà ba, chuán bù néng zǒu le, yào gǎi zuò fēi jī, shí èr diǎn yǐ qián yí dìng yào gěi wǒ huí diàn huà.”",
-      "en": "Frantic, Jack speaks to her slowly, one word at a time: \"Please tell Daddy the ship can't go, it has to go by plane instead, and he must call me back before twelve.\"",
-      "tr": {
-        "am": "ጃክ ተጨነቀ፣ ቃል በቃል ቀስ ብሎ ከመናገር ሌላ ምርጫ አልነበረውም፦ «እባክሽ ለአባትሽ ንገሪው፣ መርከቧ መሄድ አትችልም፣ በአውሮፕላን መሄድ አለበት፣ ከ12:00 በፊት የግድ መልሶ ይደውልልኝ።»"
-      },
-      "start": 64.616,
-      "end": 76.448,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "急",
-          "jí",
-          "urgent; pressing; rapid",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只好",
-          "zhǐ hǎo",
-          "to have no other option but to ...; to have to; to be forced to",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "字",
-          "zì",
-          "word; letter; symbol",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "字",
-          "zì",
-          "word; letter; symbol",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct",
-          ""
-        ],
-        [
-          "慢慢",
-          "màn màn",
-          "slowly; gradually",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to scold; to tell off",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "请",
-          "qǐng",
-          "please (do sth); to ask; to invite",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
-          ""
-        ],
-        [
-          "告诉",
-          "gào su",
-          "to tell; to inform; to let know",
-          ""
-        ],
-        [
-          "爸爸",
-          "bà ba",
-          "(coll.) father; dad",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "船",
-          "chuán",
-          "ship; boat; vessel",
-          ""
-        ],
-        [
-          "不能",
-          "bù néng",
-          "must not; cannot; should not",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "改",
-          "gǎi",
-          "to change; to alter; to transform",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "飞机",
-          "fēi jī",
-          "airplane",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "point in time or space; classifier for small amounts",
-          ""
-        ],
-        [
-          "以前",
-          "yǐ qián",
-          "before; formerly; previous",
-          ""
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "回电",
-          "huí diàn",
-          "to call sb back (on the phone); a return call; to wire back",
-          ""
-        ],
-        [
-          "话",
-          "huà",
-          "spoken words; words; dialect",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小女孩很认真地说：“好的，我记住了。”",
-      "py": "xiǎo nǚ hái hěn rèn zhēn de shuō: “hǎo de, wǒ jì zhù le.”",
-      "en": "The little girl says, very seriously, \"OK. I'll remember.\"",
-      "tr": {
-        "am": "ትንሿ ልጅ በቁም ነገር አለች፦ «እሺ፣ አስታውሳለሁ።»"
-      },
-      "start": 77.148,
-      "end": 81.66,
-      "tokens": [
-        [
-          "小女",
-          "xiǎo nǚ",
-          "my daughter (humble)",
-          ""
-        ],
-        [
-          "孩",
-          "hái",
-          "(bound form) child",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "认真",
-          "rèn zhēn",
-          "serious; to take seriously; conscientious",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "记住",
-          "jì zhu",
-          "to remember; to bear in mind; to learn by heart",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "挂了电话，杰克更不放心了：这么小的孩子，能把话转告清楚吗？",
-      "py": "guà le diàn huà, Jié kè gèng bú fàng xīn le: zhè me xiǎo de hái zi, néng bǎ huà zhuǎn gào qīng chu ma?",
-      "en": "After hanging up, Jack is even more worried: can such a small child pass the message on properly?",
-      "tr": {
-        "am": "ስልኩን ከዘጋ በኋላ ጃክ ይበልጥ ተጨነቀ፦ እንደዚህ ያለች ትንሽ ልጅ መልእክቱን በትክክል ማድረስ ትችላለች?"
-      },
-      "start": 82.36,
-      "end": 89.464,
-      "tokens": [
-        [
-          "挂",
-          "guà",
-          "to hang; to suspend (from a hook etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "telephone; phone call; phone number",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "更",
-          "gèng",
-          "more; even more; still more",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "放心",
-          "fàng xīn",
-          "to feel relieved; to feel reassured; to be at ease",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "小的",
-          "xiǎo de",
-          "(coll.) young child; the little one(s) of the family",
-          ""
-        ],
-        [
-          "孩子",
-          "hái zi",
-          "child",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "话",
-          "huà",
-          "dialect; language; spoken words",
-          ""
-        ],
-        [
-          "转告",
-          "zhuǎn gào",
-          "to pass on; to communicate; to transmit",
-          ""
-        ],
-        [
-          "清楚",
-          "qīng chu",
-          "clear; distinct; to understand thoroughly",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ]
-      ]
-    },
-    {
-      "text": "十一点半，十一点四十，电话一直没响。",
-      "py": "shí yì diǎn bàn, shí yì diǎn sì shí, diàn huà yì zhí méi xiǎng.",
-      "en": "Half past eleven, eleven forty — the phone stays silent.",
-      "tr": {
-        "am": "11:30፣ 11:40፣ ስልኩ አልጮኸም።"
-      },
-      "start": 90.164,
-      "end": 95.156,
-      "tokens": [
-        [
-          "十一",
-          "shí yī",
-          "eleven; 11; PRC National Day (October 1st)",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "半",
-          "bàn",
-          "half; (after a number) and a half; semi-",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "十一",
-          "shí yī",
-          "eleven; 11; PRC National Day (October 1st)",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "四十",
-          "sì shí",
-          "forty; 40",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "phone call; phone number; telephone",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "响",
-          "xiǎng",
-          "echo; sound; noise",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "十一点五十五分，杰克正准备放弃，客户的电话终于打来了。",
-      "py": "shí yì diǎn wǔ shí wǔ fēn, Jié kè zhèng zhǔn bèi fàng qì, kè hù de diàn huà zhōng yú dǎ lái le.",
-      "en": "At eleven fifty-five, just as Jack is about to give up, the client finally rings.",
-      "tr": {
-        "am": "11:55 ላይ ጃክ ተስፋ ሊቆርጥ ሲል የደንበኛው ስልክ በመጨረሻ መጣ።"
-      },
-      "start": 95.856,
-      "end": 102.768,
-      "tokens": [
-        [
-          "十一",
-          "shí yī",
-          "eleven; 11; PRC National Day (October 1st)",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "五十",
-          "wǔ shí",
-          "fifty",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "分",
-          "fēn",
-          "to divide; to separate; to distribute; to allocate",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "正",
-          "zhèng",
-          "just (at that time); straight; upright",
-          ""
-        ],
-        [
-          "准备",
-          "zhǔn bèi",
-          "to be about to; preparation; to prepare",
-          ""
-        ],
-        [
-          "放弃",
-          "fàng qì",
-          "to renounce; to abandon; to give up",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "telephone; phone call; phone number",
-          ""
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "finally; at last; in the end",
-          ""
-        ],
-        [
-          "打",
-          "dǎ",
-          "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“杰克，换空运！钱我出，货一定要按时到。”",
-      "py": "“Jié kè, huàn kōng yùn! qián wǒ chū, huò yí dìng yào àn shí dào.”",
-      "en": "\"Jack, switch to air freight! I'll pay. The goods must arrive on time.\"",
-      "tr": {
-        "am": "«ጃክ፣ ወደ አውሮፕላን ቀይር! ገንዘቡን እኔ እከፍላለሁ፣ ዕቃው በሰዓቱ መድረስ አለበት።»"
-      },
-      "start": 103.468,
-      "end": 108.196,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "换",
-          "huàn",
-          "to switch; to exchange; to change (clothes etc)",
-          ""
-        ],
-        [
-          "空运",
-          "kōng yùn",
-          "air transport",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "钱",
-          "qián",
-          "coin; money; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "出",
-          "chū",
-          "to go out; to come out; to arise; to occur",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "货",
-          "huò",
-          "goods; money; commodity",
-          ""
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "按时",
-          "àn shí",
-          "on time; before deadline; on schedule",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克松了一口气，又忍不住问：“您女儿是怎么跟您说的？”",
-      "py": "Jié kè sōng le yì kǒu qì, yòu rěn bu zhù wèn: “nín nǚ ér shì zěn me gēn nín shuō de?”",
-      "en": "Jack breathes a sigh of relief, then can't help asking, \"What did your daughter tell you?\"",
-      "tr": {
-        "am": "ጃክ እፎይ አለ፣ ግን ከመጠየቅ ራሱን መግታት አልቻለም፦ «ልጅዎ ምን ብላ ነገረችዎት?»"
-      },
-      "start": 108.896,
-      "end": 114.848,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "松",
-          "sōng",
-          "pine; loose; to loosen",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一口气",
-          "yī kǒu qì",
-          "one breath; in one breath; at a stretch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "忍不住",
-          "rěn bu zhù",
-          "cannot help; unable to bear",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "女儿",
-          "nǚ ér",
-          "daughter",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "what?; how?; why?",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "客户笑了：“她什么也没说，她给我画了一张画。”",
-      "py": "kè hù xiào le: “tā shén me yě méi shuō, tā gěi wǒ huà le yì zhāng huà.”",
-      "en": "The client laughs. \"She didn't say anything. She drew me a picture.\"",
-      "tr": {
-        "am": "ደንበኛው ሳቀ፦ «ምንም አልተናገረችም፣ ሥዕል ሣለችልኝ።»"
-      },
-      "start": 115.548,
-      "end": 120.276,
-      "tokens": [
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "something; anything; what?",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "picture; painting; to draw; to paint; to draw (a line)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "picture; painting; to draw; to paint; to draw (a line)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "原来，小女孩怕自己忘了，放下电话就拿出蜡笔，画了一条在海上哭的船、一架飞机，旁边还画了一个大钟，两根针都指着十二。",
-      "py": "yuán lái, xiǎo nǚ hái pà zì jǐ wàng le, fàng xià diàn huà jiù ná chū là bǐ, huà le yì tiáo zài hǎi shàng kū de chuán, yí jià fēi jī, páng biān hái huà le yí gè dà zhōng, liǎng gēn zhēn dōu zhǐ zhe shí èr.",
-      "en": "It turns out the little girl, afraid she'd forget, grabbed her crayons as soon as she put the phone down and drew a ship crying on the sea, an aeroplane, and beside them a big clock with both hands pointing to twelve.",
-      "tr": {
-        "am": "ለካ ትንሿ ልጅ እንዳትረሳ ፈርታ ስልኩን እንዳስቀመጠች ቀለም እርሳሷን አውጥታ በባሕር ላይ የምታለቅስ መርከብ፣ አንድ አውሮፕላን፣ አጠገባቸውም ሁለቱም እጆቹ ወደ 12 የሚያመለክቱ ትልቅ ሰዓት ሣለች።"
-      },
-      "start": 120.976,
-      "end": 134.944,
-      "tokens": [
-        [
-          "原来",
-          "yuán lái",
-          "so, actually, as it turns out; original; former",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小女",
-          "xiǎo nǚ",
-          "my daughter (humble)",
-          ""
-        ],
-        [
-          "孩",
-          "hái",
-          "(bound form) child",
-          ""
-        ],
-        [
-          "怕",
-          "pà",
-          "to be afraid; to fear; to dread",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "忘",
-          "wàng",
-          "to forget; to overlook; to neglect",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "放下",
-          "fàng xià",
-          "to lay down; to put down",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "phone call; phone number; telephone",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a clause of action) as soon as; immediately after",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to put forward (a proposal)",
-          ""
-        ],
-        [
-          "蜡笔",
-          "là bǐ",
-          "crayon (wax type)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "画",
-          "huà",
-          "to draw; to paint; picture; painting; to draw (a line)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "as soon as",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "海上",
-          "hǎi shàng",
-          "maritime",
-          ""
-        ],
-        [
-          "哭",
-          "kū",
-          "to cry; to weep",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "船",
-          "chuán",
-          "ship; boat; vessel",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "一",
-          "yī",
-          "as soon as",
-          ""
-        ],
-        [
-          "架",
-          "jià",
-          "classifier for planes, large vehicles, radios etc",
-          ""
-        ],
-        [
-          "飞机",
-          "fēi jī",
-          "airplane",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "to draw; to paint; picture; painting; to draw (a line)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "钟",
-          "zhōng",
-          "clock; amount of time; o'clock; handleless cup; goblet",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "两",
-          "liǎng",
-          "both; two; some",
-          ""
-        ],
-        [
-          "根",
-          "gēn",
-          "classifier for long slender objects, e.g. cigarettes, guitar strings",
-          ""
-        ],
-        [
-          "针",
-          "zhēn",
-          "needle; pin; injection",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "指",
-          "zhǐ",
-          "to point at or to; finger; to indicate or refer to",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "客户说：“我一看就明白了，比你们公司的邮件还清楚。”",
-      "py": "kè hù shuō: “wǒ yí kàn jiù míng bai le, bǐ nǐ men gōng sī de yóu jiàn hái qīng chu.”",
-      "en": "The client says, \"I understood it at a glance. It was clearer than your company's emails.\"",
-      "tr": {
-        "am": "ደንበኛው እንዲህ አለ፦ «ወዲያው እንዳየሁት ገባኝ፣ ከድርጅታችሁ ኢሜይሎች እንኳ ይበልጥ ግልጽ ነበር።»"
-      },
-      "start": 135.644,
-      "end": 140.852,
-      "tokens": [
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "明白",
-          "míng bai",
-          "clear; obvious; unequivocal; sensible; reasonable",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "比",
-          "bǐ",
-          "(followed by a noun and adjective) more {adj.} than {noun}",
-          ""
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "邮件",
-          "yóu jiàn",
-          "email; mail; post",
-          ""
-        ],
-        [
-          "还清",
-          "huán qīng",
-          "to pay back in full; to redeem a debt",
-          ""
-        ],
-        [
-          "楚",
-          "chǔ",
-          "clear; distinct; orderly",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "第二天，客户把那张画拍下来发给了杰克，杰克把它打印出来，贴在了办公桌旁边。",
-      "py": "dì èr tiān, kè hù bǎ nà zhāng huà pāi xià lái fā gěi le Jié kè, Jié kè bǎ tā dǎ yìn chū lái, tiē zài le bàn gōng zhuō páng biān.",
-      "en": "The next day the client sends Jack a photo of the drawing, and Jack prints it out and puts it up beside his desk.",
-      "tr": {
-        "am": "በማግስቱ ደንበኛው የሥዕሉን ፎቶ አንሥቶ ለጃክ ላከ፣ ጃክም አትሞ ከጠረጴዛው አጠገብ ለጠፈው።"
-      },
-      "start": 141.552,
-      "end": 150.312,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "to draw; to paint; to draw (a line); picture; painting",
-          ""
-        ],
-        [
-          "拍",
-          "pāi",
-          "to take (a photo); to pat; to clap",
-          ""
-        ],
-        [
-          "下来",
-          "xià lai",
-          "to come down; (completed action marker)",
-          ""
-        ],
-        [
-          "发给",
-          "fā gěi",
-          "to issue; to grant; to distribute",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "打印",
-          "dǎ yìn",
-          "to print out (with a printer); to affix a seal; to stamp",
-          ""
-        ],
-        [
-          "出来",
-          "chū lái",
-          "to come out; to appear; to arise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "贴",
-          "tiē",
-          "to stick; to paste; to post (e.g. on a blog)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "办公",
-          "bàn gōng",
-          "to handle official business (usu. in an office); to do (office) work",
-          ""
-        ],
-        [
-          "桌",
-          "zhuō",
-          "desk; table",
-          ""
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨看了，笑着说：“以后再有紧急的事，你就画画吧。”",
-      "py": "Xiǎo yǔ kàn le, xiào zhe shuō: “yǐ hòu zài yǒu jǐn jí de shì, nǐ jiù huà huà ba.”",
-      "en": "Xiaoyu looks at it and laughs. \"Next time there's anything urgent, you should just draw a picture.\"",
-      "tr": {
-        "am": "ሺያውዩ አይታ እየሳቀች አለች፦ «ከአሁን በኋላ አስቸኳይ ነገር ሲኖር ሥዕል ሣል።»"
-      },
-      "start": 151.012,
-      "end": 157.42,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "further; beyond this point of time; again; once more; re-",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "紧急",
-          "jǐn jí",
-          "urgent; emergency",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "matter; thing; item",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "画画",
-          "huà huà",
-          "to draw; to paint",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "一个月以后，那批台灯准时到了肯尼亚。客户发来的照片里，一个小女孩坐在教室的第一排，正在台灯下画一架飞机。",
-      "py": "yí gè yuè yǐ hòu, nà pī tái dēng zhǔn shí dào le kěn ní yà. kè hù fā lái de zhào piàn lǐ, yí gè xiǎo nǚ hái zuò zài jiào shì de dì yī pái, zhèng zài tái dēng xià huà yí jià fēi jī.",
-      "en": "A month later, the lamps reach Kenya on time. In the photo the client sends, a little girl sits in the front row of a classroom, drawing an aeroplane under one of the lamps.",
-      "tr": {
-        "am": "ከአንድ ወር በኋላ እነዚያ መብራቶች በሰዓቱ ኬንያ ደረሱ። ደንበኛው በላከው ፎቶ አንዲት ትንሽ ልጅ በክፍሉ የፊተኛው ረድፍ ተቀምጣ በጠረጴዛ መብራቱ ሥር አውሮፕላን እየሣለች ነው።"
-      },
-      "start": 158.12,
-      "end": 170.432,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "批",
-          "pī",
-          "classifier for batches, lots, military flights; to ascertain",
-          ""
-        ],
-        [
-          "台灯",
-          "tái dēng",
-          "desk lamp; table lamp",
-          ""
-        ],
-        [
-          "准时",
-          "zhǔn shí",
-          "on time; punctual; on schedule",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "肯尼亚",
-          "kěn ní yà",
-          "Kenya",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "for the past (amount of time); to come",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "小女",
-          "xiǎo nǚ",
-          "my daughter (humble)",
-          ""
-        ],
-        [
-          "孩",
-          "hái",
-          "(bound form) child",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "在教",
-          "zài jiào",
-          "to be a believer (in a religion, esp. Islam)",
-          ""
-        ],
-        [
-          "室",
-          "shì",
-          "room; work unit; grave",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "第一",
-          "dì yī",
-          "first; most important; primary; foremost",
-          ""
-        ],
-        [
-          "排",
-          "pái",
-          "row; line",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "正在",
-          "zhèng zài",
-          "to be in the process of (doing sth); to be currently ...-ing",
-          ""
-        ],
-        [
-          "台灯",
-          "tái dēng",
-          "desk lamp; table lamp",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "later; down; downwards",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "to draw; to paint; to draw (a line); picture; painting",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "架",
-          "jià",
-          "classifier for planes, large vehicles, radios etc",
-          ""
-        ],
-        [
-          "飞机",
-          "fēi jī",
-          "airplane",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 563,
-  "first": "星期六早上八点，杰克接到货代的电话：台风来了，原定星期一出发的那班船，至少要推迟十天。",
-  "newWords": [
-    {
-      "w": "货代",
-      "py": "huò dài",
-      "en": "freight forwarder"
-    },
-    {
-      "w": "空运",
-      "py": "kōng yùn",
-      "en": "air transport"
-    },
-    {
-      "w": "舱位",
-      "py": "cāng wèi",
-      "en": "shipping space"
-    },
-    {
-      "w": "转告",
-      "py": "zhuǎngào",
-      "en": "to relay a message for someone"
-    },
-    {
-      "w": "来得及",
-      "py": "láidejí",
-      "en": "in time to do"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h6-82.mp3?v=1791723137"
+  {
+   "text": "这批货是给一位肯尼亚客户的五千盏太阳能台灯，下个月开学，好几所学校都等着用。",
+   "py": "zhè pī huò shì gěi yí wèi kěn ní yà kè hù de wǔ qiān zhǎn tài yáng néng tái dēng, xià gè yuè kāi xué, hǎo jǐ suǒ xué xiào dōu děng zhe yòng.",
+   "en": "The shipment is five thousand solar desk lamps for a client in Kenya; school starts next month, and several schools are waiting for them.",
+   "tr": {
+    "am": "ይህ ጭነት ለአንድ ኬንያዊ ደንበኛ የሚላኩ አምስት ሺህ የፀሐይ ኃይል የጠረጴዛ መብራቶች ናቸው፣ በሚቀጥለው ወር ትምህርት ይከፈታል፣ ብዙ ትምህርት ቤቶችም እየጠበቋቸው ነው።",
+    "fa": "این محموله پنج هزار چراغ مطالعه‌ی خورشیدی برای مشتری کنیاییه؛ ماه دیگه مدرسه‌ها باز می‌شه و چند مدرسه منتظرشن."
+   },
+   "start": 14.24,
+   "end": 22.736,
+   "tokens": [
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "批",
+     "pī",
+     "classifier for batches, lots, military flights; to ascertain",
+     ""
+    ],
+    [
+     "货",
+     "huò",
+     "goods; money; commodity",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "肯尼亚",
+     "kěn ní yà",
+     "Kenya",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "千",
+     "qiān",
+     "thousand",
+     ""
+    ],
+    [
+     "盏",
+     "zhǎn",
+     "classifier for lamps; a small cup",
+     ""
+    ],
+    [
+     "太阳能",
+     "tài yáng néng",
+     "solar energy",
+     ""
+    ],
+    [
+     "台灯",
+     "tái dēng",
+     "desk lamp; table lamp",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "下个月",
+     "xià gè yuè",
+     "next month",
+     ""
+    ],
+    [
+     "开学",
+     "kāi xué",
+     "(of a student) to start school; (old) to found a school",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "好几",
+     "hǎo jǐ",
+     "several; quite a few",
+     ""
+    ],
+    [
+     "所",
+     "suǒ",
+     "classifier for houses, small buildings, institutions etc",
+     ""
+    ],
+    [
+     "学校",
+     "xué xiào",
+     "school",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "如果改成空运，还来得及，可是运费要贵好几倍，必须客户本人同意。",
+   "py": "rú guǒ gǎi chéng kōng yùn, hái lái de jí, kě shì yùn fèi yào guì hǎo jǐ bèi, bì xū kè hù běn rén tóng yì.",
+   "en": "Switching to air freight would still get them there in time, but it costs several times more, and the client has to agree personally.",
+   "tr": {
+    "am": "በአውሮፕላን ቢላክ ገና ይደርሳል፣ ግን የማጓጓዣ ዋጋው ብዙ እጥፍ ውድ ነው፣ ደንበኛው ራሱ መፍቀድ አለበት።",
+    "fa": "اگه به حمل هوایی تغییرش بدن، می‌رسه؛ ولی کرایه چند برابر گرون‌تره و حتماً باید خود مشتری موافقت کنه."
+   },
+   "start": 23.436,
+   "end": 30.828,
+   "tokens": [
+    [
+     "如果",
+     "rú guǒ",
+     "if; in case; in the event that",
+     ""
+    ],
+    [
+     "改成",
+     "gǎi chéng",
+     "to convert; to turn into (sth else)",
+     ""
+    ],
+    [
+     "空运",
+     "kōng yùn",
+     "air transport",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "来得及",
+     "lái de jí",
+     "to have enough time; can do it in time; can still make it",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "运费",
+     "yùn fèi",
+     "freight fee",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "贵",
+     "guì",
+     "expensive; (bound form) highly valued; precious",
+     ""
+    ],
+    [
+     "好几",
+     "hǎo jǐ",
+     "several; quite a few",
+     ""
+    ],
+    [
+     "倍",
+     "bèi",
+     "times (multiplier); (two, three etc) -fold; double",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "必须",
+     "bì xū",
+     "to have to; must; compulsory",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "本人",
+     "běn rén",
+     "oneself; yourself; himself; herself; the person concerned",
+     ""
+    ],
+    [
+     "同意",
+     "tóng yì",
+     "to agree; to consent; to approve",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "货代说，飞机上的舱位只能给他们留到中午十二点。",
+   "py": "huò dài shuō, fēi jī shàng de cāng wèi zhǐ néng gěi tā men liú dào zhōng wǔ shí èr diǎn.",
+   "en": "The forwarder says the cargo space on the plane can only be held for them until twelve noon.",
+   "tr": {
+    "am": "ዕቃ አስተላላፊው በአውሮፕላኑ ላይ ያለውን ቦታ እስከ ቀትር 12:00 ድረስ ብቻ ሊይዝላቸው እንደሚችል ተናገረ።",
+    "fa": "شرکت حمل می‌گه ظرفیت هواپیما رو حداکثر تا ظهر دوازده براشون نگه می‌دارن."
+   },
+   "start": 31.528,
+   "end": 36.736,
+   "tokens": [
+    [
+     "货",
+     "huò",
+     "goods; money; commodity",
+     ""
+    ],
+    [
+     "代",
+     "dài",
+     "to be a substitute for; to act on behalf of; to replace; to substitute",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "飞机",
+     "fēi jī",
+     "airplane",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "舱位",
+     "cāng wèi",
+     "shipping space; cabin berth; cabin seat",
+     ""
+    ],
+    [
+     "只能",
+     "zhǐ néng",
+     "can only; obliged to do sth; to have no other choice",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "留",
+     "liú",
+     "to leave (a message etc); to retain; to stay",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to (a place); until (a time); up to (a point)",
+     ""
+    ],
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "point in time or space; classifier for small amounts",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "肯尼亚比北京晚五个小时，客户那边才早上三点。杰克犹豫了半天，还是拨了他的手机。",
+   "py": "kěn ní yà bǐ Běi jīng wǎn wǔ gè xiǎo shí, kè hù nà biān cái zǎo shang sān diǎn. Jié kè yóu yù le bàn tiān, hái shi bō le tā de shǒu jī.",
+   "en": "Kenya is five hours behind Beijing, so it's only three in the morning there. Jack hesitates for a long time, then rings the client's mobile anyway.",
+   "tr": {
+    "am": "ኬንያ ከቤጂንግ አምስት ሰዓት ወደ ኋላ ናት፣ ደንበኛው ጋ ገና ሌሊት 3:00 ነው። ጃክ ለረጅም ጊዜ አመነታ፣ በመጨረሻ ግን ወደ ሞባይሉ ደወለ።",
+    "fa": "کنیا پنج ساعت از پکن عقب‌تره؛ اون‌طرف ساعت سه صبحه. جک خیلی تردیده ولی بالاخره به گوشی موبایلش زنگ می‌زنه."
+   },
+   "start": 37.436,
+   "end": 46.412,
+   "tokens": [
+    [
+     "肯尼亚",
+     "kěn ní yà",
+     "Kenya",
+     ""
+    ],
+    [
+     "比",
+     "bǐ",
+     "to compare",
+     ""
+    ],
+    [
+     "北京",
+     "běi jīng",
+     "Beijing municipality, capital of the People's Republic of China (short name 京)",
+     ""
+    ],
+    [
+     "晚",
+     "wǎn",
+     "evening; night; late",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "那边",
+     "nà bian",
+     "over there; yonder",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "then and only then; (before an expression of quantity) only",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "point in time or space; classifier for small amounts",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "犹豫",
+     "yóu yù",
+     "to hesitate",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "a long time; half of the day; quite a while",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "拨",
+     "bō",
+     "to push aside with the hand, foot, a stick etc; to dial",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "电话没人接。他等了三个小时，到了北京时间十一点，又打了一次。",
+   "py": "diàn huà méi rén jiē. tā děng le sān gè xiǎo shí, dào le Běi jīng shí jiān shí yì diǎn, yòu dǎ le yí cì.",
+   "en": "No answer. He waits three hours, and at eleven Beijing time he tries again.",
+   "tr": {
+    "am": "ስልኩን ማንም አላነሣም። ሦስት ሰዓት ጠብቆ በቤጂንግ ሰዓት 11:00 ላይ እንደገና ደወለ።",
+    "fa": "کسی جواب نمی‌ده. سه ساعت صبر می‌کنه؛ ساعت یازده وقت پکن دوباره زنگ می‌زنه."
+   },
+   "start": 47.112,
+   "end": 53.976,
+   "tokens": [
+    [
+     "电话",
+     "diàn huà",
+     "telephone; phone call; phone number",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "接",
+     "jiē",
+     "to answer (the phone); to receive; to meet or welcome sb",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "北京时间",
+     "běi jīng shí jiān",
+     "Beijing Time (BJT); China Standard Time (CST)",
+     ""
+    ],
+    [
+     "十一",
+     "shí yī",
+     "eleven; 11; PRC National Day (October 1st)",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "point in time or space; classifier for small amounts",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "打",
+     "dǎ",
+     "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一次",
+     "yī cì",
+     "first time; first; once",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这一次接电话的是一个小女孩，声音软软的，说的是带口音的英语：“爸爸在洗澡。”",
+   "py": "zhè yí cì jiē diàn huà de shì yí gè xiǎo nǚ hái, shēng yīn ruǎn ruǎn de, shuō de shì dài kǒu yīn de yīng yǔ: “bà ba zài xǐ zǎo.”",
+   "en": "This time a little girl answers, in a soft voice and accented English: \"Daddy's in the shower.\"",
+   "tr": {
+    "am": "በዚህ ጊዜ ስልኩን ያነሣችው አንዲት ትንሽ ልጅ ነበረች፣ ድምፅዋ ለስላሳ ነው፣ በቅላጼ የተቀላቀለ እንግሊዝኛ ትናገራለች፦ «አባዬ ገላውን እየታጠበ ነው።»",
+    "fa": "این بار یه دخترک جواب می‌ده؛ صداش نازـه و با لهجه انگلیسی حرف می‌زنه: «بابام داره دوش می‌گیره.»"
+   },
+   "start": 54.676,
+   "end": 63.916,
+   "tokens": [
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "一次",
+     "yī cì",
+     "first time; first; once",
+     ""
+    ],
+    [
+     "接",
+     "jiē",
+     "to answer (the phone); to receive; to meet or welcome sb",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "telephone; phone call; phone number",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "小女",
+     "xiǎo nǚ",
+     "my daughter (humble)",
+     ""
+    ],
+    [
+     "孩",
+     "hái",
+     "(bound form) child",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "声音",
+     "shēng yīn",
+     "sound; voice",
+     ""
+    ],
+    [
+     "软",
+     "ruǎn",
+     "soft; flexible",
+     ""
+    ],
+    [
+     "软",
+     "ruǎn",
+     "soft; flexible",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "band; belt; girdle",
+     ""
+    ],
+    [
+     "口音",
+     "kǒu yīn",
+     "(linguistics) oral speech sounds",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "英语",
+     "yīng yǔ",
+     "English (language)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "爸爸",
+     "bà ba",
+     "(coll.) father; dad",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "洗澡",
+     "xǐ zǎo",
+     "to take a shower; to bathe",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克急了，只好一个字一个字地慢慢说：“请你告诉爸爸，船不能走了，要改坐飞机，十二点以前一定要给我回电话。”",
+   "py": "Jié kè jí le, zhǐ hǎo yí gè zì yí gè zì de màn màn shuō: “qǐng nǐ gào su bà ba, chuán bù néng zǒu le, yào gǎi zuò fēi jī, shí èr diǎn yǐ qián yí dìng yào gěi wǒ huí diàn huà.”",
+   "en": "Frantic, Jack speaks to her slowly, one word at a time: \"Please tell Daddy the ship can't go, it has to go by plane instead, and he must call me back before twelve.\"",
+   "tr": {
+    "am": "ጃክ ተጨነቀ፣ ቃል በቃል ቀስ ብሎ ከመናገር ሌላ ምርጫ አልነበረውም፦ «እባክሽ ለአባትሽ ንገሪው፣ መርከቧ መሄድ አትችልም፣ በአውሮፕላን መሄድ አለበት፣ ከ12:00 በፊት የግድ መልሶ ይደውልልኝ።»",
+    "fa": "جک بی‌تاب می‌شه و ناچار کلمه‌کلمه آروم می‌گه: «لطفاً به بابات بگو کشتی نمی‌تونه بره؛ باید با هواپیما بره؛ تا دوازده حتماً به من زنگ بزنه.»"
+   },
+   "start": 64.616,
+   "end": 76.448,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "急",
+     "jí",
+     "urgent; pressing; rapid",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只好",
+     "zhǐ hǎo",
+     "to have no other option but to ...; to have to; to be forced to",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "字",
+     "zì",
+     "word; letter; symbol",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "字",
+     "zì",
+     "word; letter; symbol",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct",
+     ""
+    ],
+    [
+     "慢慢",
+     "màn màn",
+     "slowly; gradually",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to scold; to tell off",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "请",
+     "qǐng",
+     "please (do sth); to ask; to invite",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
+     ""
+    ],
+    [
+     "告诉",
+     "gào su",
+     "to tell; to inform; to let know",
+     ""
+    ],
+    [
+     "爸爸",
+     "bà ba",
+     "(coll.) father; dad",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "船",
+     "chuán",
+     "ship; boat; vessel",
+     ""
+    ],
+    [
+     "不能",
+     "bù néng",
+     "must not; cannot; should not",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "改",
+     "gǎi",
+     "to change; to alter; to transform",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "飞机",
+     "fēi jī",
+     "airplane",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "point in time or space; classifier for small amounts",
+     ""
+    ],
+    [
+     "以前",
+     "yǐ qián",
+     "before; formerly; previous",
+     ""
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "回电",
+     "huí diàn",
+     "to call sb back (on the phone); a return call; to wire back",
+     ""
+    ],
+    [
+     "话",
+     "huà",
+     "spoken words; words; dialect",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小女孩很认真地说：“好的，我记住了。”",
+   "py": "xiǎo nǚ hái hěn rèn zhēn de shuō: “hǎo de, wǒ jì zhù le.”",
+   "en": "The little girl says, very seriously, \"OK. I'll remember.\"",
+   "tr": {
+    "am": "ትንሿ ልጅ በቁም ነገር አለች፦ «እሺ፣ አስታውሳለሁ።»",
+    "fa": "دخترک خیلی جدی می‌گه: «باشه، یادم موند.»"
+   },
+   "start": 77.148,
+   "end": 81.66,
+   "tokens": [
+    [
+     "小女",
+     "xiǎo nǚ",
+     "my daughter (humble)",
+     ""
+    ],
+    [
+     "孩",
+     "hái",
+     "(bound form) child",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "认真",
+     "rèn zhēn",
+     "serious; to take seriously; conscientious",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "记住",
+     "jì zhu",
+     "to remember; to bear in mind; to learn by heart",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "挂了电话，杰克更不放心了：这么小的孩子，能把话转告清楚吗？",
+   "py": "guà le diàn huà, Jié kè gèng bú fàng xīn le: zhè me xiǎo de hái zi, néng bǎ huà zhuǎn gào qīng chu ma?",
+   "en": "After hanging up, Jack is even more worried: can such a small child pass the message on properly?",
+   "tr": {
+    "am": "ስልኩን ከዘጋ በኋላ ጃክ ይበልጥ ተጨነቀ፦ እንደዚህ ያለች ትንሽ ልጅ መልእክቱን በትክክል ማድረስ ትችላለች?",
+    "fa": "تلفن رو قطع می‌کنه و جک نگران‌تر می‌شه: بچه‌ای این‌قدر کوچیک می‌تونه پیغام رو درست برسونه؟"
+   },
+   "start": 82.36,
+   "end": 89.464,
+   "tokens": [
+    [
+     "挂",
+     "guà",
+     "to hang; to suspend (from a hook etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "telephone; phone call; phone number",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "更",
+     "gèng",
+     "more; even more; still more",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "放心",
+     "fàng xīn",
+     "to feel relieved; to feel reassured; to be at ease",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "小的",
+     "xiǎo de",
+     "(coll.) young child; the little one(s) of the family",
+     ""
+    ],
+    [
+     "孩子",
+     "hái zi",
+     "child",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "话",
+     "huà",
+     "dialect; language; spoken words",
+     ""
+    ],
+    [
+     "转告",
+     "zhuǎn gào",
+     "to pass on; to communicate; to transmit",
+     ""
+    ],
+    [
+     "清楚",
+     "qīng chu",
+     "clear; distinct; to understand thoroughly",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ]
+   ]
+  },
+  {
+   "text": "十一点半，十一点四十，电话一直没响。",
+   "py": "shí yì diǎn bàn, shí yì diǎn sì shí, diàn huà yì zhí méi xiǎng.",
+   "en": "Half past eleven, eleven forty — the phone stays silent.",
+   "tr": {
+    "am": "11:30፣ 11:40፣ ስልኩ አልጮኸም።",
+    "fa": "یازده و نیم، یازده و چهل دقیقه؛ تلفن هیچ‌وقت زنگ نمی‌خوره."
+   },
+   "start": 90.164,
+   "end": 95.156,
+   "tokens": [
+    [
+     "十一",
+     "shí yī",
+     "eleven; 11; PRC National Day (October 1st)",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "半",
+     "bàn",
+     "half; (after a number) and a half; semi-",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "十一",
+     "shí yī",
+     "eleven; 11; PRC National Day (October 1st)",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "四十",
+     "sì shí",
+     "forty; 40",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "phone call; phone number; telephone",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "响",
+     "xiǎng",
+     "echo; sound; noise",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "十一点五十五分，杰克正准备放弃，客户的电话终于打来了。",
+   "py": "shí yì diǎn wǔ shí wǔ fēn, Jié kè zhèng zhǔn bèi fàng qì, kè hù de diàn huà zhōng yú dǎ lái le.",
+   "en": "At eleven fifty-five, just as Jack is about to give up, the client finally rings.",
+   "tr": {
+    "am": "11:55 ላይ ጃክ ተስፋ ሊቆርጥ ሲል የደንበኛው ስልክ በመጨረሻ መጣ።",
+    "fa": "ساعت یازده و پنجاه و پنج، درست وقتی جک داره بی‌خیال می‌شه، بالاخره تماس مشتری میاد."
+   },
+   "start": 95.856,
+   "end": 102.768,
+   "tokens": [
+    [
+     "十一",
+     "shí yī",
+     "eleven; 11; PRC National Day (October 1st)",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "五十",
+     "wǔ shí",
+     "fifty",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "分",
+     "fēn",
+     "to divide; to separate; to distribute; to allocate",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "正",
+     "zhèng",
+     "just (at that time); straight; upright",
+     ""
+    ],
+    [
+     "准备",
+     "zhǔn bèi",
+     "to be about to; preparation; to prepare",
+     ""
+    ],
+    [
+     "放弃",
+     "fàng qì",
+     "to renounce; to abandon; to give up",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "telephone; phone call; phone number",
+     ""
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "finally; at last; in the end",
+     ""
+    ],
+    [
+     "打",
+     "dǎ",
+     "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“杰克，换空运！钱我出，货一定要按时到。”",
+   "py": "“Jié kè, huàn kōng yùn! qián wǒ chū, huò yí dìng yào àn shí dào.”",
+   "en": "\"Jack, switch to air freight! I'll pay. The goods must arrive on time.\"",
+   "tr": {
+    "am": "«ጃክ፣ ወደ አውሮፕላን ቀይር! ገንዘቡን እኔ እከፍላለሁ፣ ዕቃው በሰዓቱ መድረስ አለበት።»",
+    "fa": "«جک، تغییر بده به هوایی! پولش با من؛ کالا حتماً باید سر وقت برسه.»"
+   },
+   "start": 103.468,
+   "end": 108.196,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "换",
+     "huàn",
+     "to switch; to exchange; to change (clothes etc)",
+     ""
+    ],
+    [
+     "空运",
+     "kōng yùn",
+     "air transport",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "钱",
+     "qián",
+     "coin; money; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "出",
+     "chū",
+     "to go out; to come out; to arise; to occur",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "货",
+     "huò",
+     "goods; money; commodity",
+     ""
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "按时",
+     "àn shí",
+     "on time; before deadline; on schedule",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克松了一口气，又忍不住问：“您女儿是怎么跟您说的？”",
+   "py": "Jié kè sōng le yì kǒu qì, yòu rěn bu zhù wèn: “nín nǚ ér shì zěn me gēn nín shuō de?”",
+   "en": "Jack breathes a sigh of relief, then can't help asking, \"What did your daughter tell you?\"",
+   "tr": {
+    "am": "ጃክ እፎይ አለ፣ ግን ከመጠየቅ ራሱን መግታት አልቻለም፦ «ልጅዎ ምን ብላ ነገረችዎት?»",
+    "fa": "جک نفس راحت می‌کشه و نمی‌تونه نپرسه: «دخترتون چ‌طوری بهتون گفت؟»"
+   },
+   "start": 108.896,
+   "end": 114.848,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "松",
+     "sōng",
+     "pine; loose; to loosen",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一口气",
+     "yī kǒu qì",
+     "one breath; in one breath; at a stretch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "忍不住",
+     "rěn bu zhù",
+     "cannot help; unable to bear",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "女儿",
+     "nǚ ér",
+     "daughter",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "what?; how?; why?",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "客户笑了：“她什么也没说，她给我画了一张画。”",
+   "py": "kè hù xiào le: “tā shén me yě méi shuō, tā gěi wǒ huà le yì zhāng huà.”",
+   "en": "The client laughs. \"She didn't say anything. She drew me a picture.\"",
+   "tr": {
+    "am": "ደንበኛው ሳቀ፦ «ምንም አልተናገረችም፣ ሥዕል ሣለችልኝ።»",
+    "fa": "مشتری می‌خنده: «هیچی نگفت؛ برام یه نقاشی کشید.»"
+   },
+   "start": 115.548,
+   "end": 120.276,
+   "tokens": [
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "something; anything; what?",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "picture; painting; to draw; to paint; to draw (a line)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "picture; painting; to draw; to paint; to draw (a line)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "原来，小女孩怕自己忘了，放下电话就拿出蜡笔，画了一条在海上哭的船、一架飞机，旁边还画了一个大钟，两根针都指着十二。",
+   "py": "yuán lái, xiǎo nǚ hái pà zì jǐ wàng le, fàng xià diàn huà jiù ná chū là bǐ, huà le yì tiáo zài hǎi shàng kū de chuán, yí jià fēi jī, páng biān hái huà le yí gè dà zhōng, liǎng gēn zhēn dōu zhǐ zhe shí èr.",
+   "en": "It turns out the little girl, afraid she'd forget, grabbed her crayons as soon as she put the phone down and drew a ship crying on the sea, an aeroplane, and beside them a big clock with both hands pointing to twelve.",
+   "tr": {
+    "am": "ለካ ትንሿ ልጅ እንዳትረሳ ፈርታ ስልኩን እንዳስቀመጠች ቀለም እርሳሷን አውጥታ በባሕር ላይ የምታለቅስ መርከብ፣ አንድ አውሮፕላን፣ አጠገባቸውም ሁለቱም እጆቹ ወደ 12 የሚያመለክቱ ትልቅ ሰዓት ሣለች።",
+    "fa": "معلوم می‌شه دخترک ترسیده یادش بره؛ تلفن رو که گذاشت، مدادشمعی‌ها رو برداشته و یه کشتی که توی دریا گریه می‌کنه و یه هواپیما کشیده و کنارشون هم یه ساعت بزرگ که هر دو عقربه‌شون روی دوازده‌ست."
+   },
+   "start": 120.976,
+   "end": 134.944,
+   "tokens": [
+    [
+     "原来",
+     "yuán lái",
+     "so, actually, as it turns out; original; former",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小女",
+     "xiǎo nǚ",
+     "my daughter (humble)",
+     ""
+    ],
+    [
+     "孩",
+     "hái",
+     "(bound form) child",
+     ""
+    ],
+    [
+     "怕",
+     "pà",
+     "to be afraid; to fear; to dread",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "忘",
+     "wàng",
+     "to forget; to overlook; to neglect",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "放下",
+     "fàng xià",
+     "to lay down; to put down",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "phone call; phone number; telephone",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a clause of action) as soon as; immediately after",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to put forward (a proposal)",
+     ""
+    ],
+    [
+     "蜡笔",
+     "là bǐ",
+     "crayon (wax type)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "画",
+     "huà",
+     "to draw; to paint; picture; painting; to draw (a line)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "as soon as",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "海上",
+     "hǎi shàng",
+     "maritime",
+     ""
+    ],
+    [
+     "哭",
+     "kū",
+     "to cry; to weep",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "船",
+     "chuán",
+     "ship; boat; vessel",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "一",
+     "yī",
+     "as soon as",
+     ""
+    ],
+    [
+     "架",
+     "jià",
+     "classifier for planes, large vehicles, radios etc",
+     ""
+    ],
+    [
+     "飞机",
+     "fēi jī",
+     "airplane",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "to draw; to paint; picture; painting; to draw (a line)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "钟",
+     "zhōng",
+     "clock; amount of time; o'clock; handleless cup; goblet",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "两",
+     "liǎng",
+     "both; two; some",
+     ""
+    ],
+    [
+     "根",
+     "gēn",
+     "classifier for long slender objects, e.g. cigarettes, guitar strings",
+     ""
+    ],
+    [
+     "针",
+     "zhēn",
+     "needle; pin; injection",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "指",
+     "zhǐ",
+     "to point at or to; finger; to indicate or refer to",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "客户说：“我一看就明白了，比你们公司的邮件还清楚。”",
+   "py": "kè hù shuō: “wǒ yí kàn jiù míng bai le, bǐ nǐ men gōng sī de yóu jiàn hái qīng chu.”",
+   "en": "The client says, \"I understood it at a glance. It was clearer than your company's emails.\"",
+   "tr": {
+    "am": "ደንበኛው እንዲህ አለ፦ «ወዲያው እንዳየሁት ገባኝ፣ ከድርጅታችሁ ኢሜይሎች እንኳ ይበልጥ ግልጽ ነበር።»",
+    "fa": "مشتری می‌گه: «یه نگاه فهمیدم؛ از ایمیل‌های شرکت شما هم روشن‌تر بود.»"
+   },
+   "start": 135.644,
+   "end": 140.852,
+   "tokens": [
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "明白",
+     "míng bai",
+     "clear; obvious; unequivocal; sensible; reasonable",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "比",
+     "bǐ",
+     "(followed by a noun and adjective) more {adj.} than {noun}",
+     ""
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "邮件",
+     "yóu jiàn",
+     "email; mail; post",
+     ""
+    ],
+    [
+     "还清",
+     "huán qīng",
+     "to pay back in full; to redeem a debt",
+     ""
+    ],
+    [
+     "楚",
+     "chǔ",
+     "clear; distinct; orderly",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "第二天，客户把那张画拍下来发给了杰克，杰克把它打印出来，贴在了办公桌旁边。",
+   "py": "dì èr tiān, kè hù bǎ nà zhāng huà pāi xià lái fā gěi le Jié kè, Jié kè bǎ tā dǎ yìn chū lái, tiē zài le bàn gōng zhuō páng biān.",
+   "en": "The next day the client sends Jack a photo of the drawing, and Jack prints it out and puts it up beside his desk.",
+   "tr": {
+    "am": "በማግስቱ ደንበኛው የሥዕሉን ፎቶ አንሥቶ ለጃክ ላከ፣ ጃክም አትሞ ከጠረጴዛው አጠገብ ለጠፈው።",
+    "fa": "فردا مشتری عکس اون نقاشی رو برای جک می‌فرسته و جک چاپش می‌کنه و می‌چسبونه کنار میزش."
+   },
+   "start": 141.552,
+   "end": 150.312,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "to draw; to paint; to draw (a line); picture; painting",
+     ""
+    ],
+    [
+     "拍",
+     "pāi",
+     "to take (a photo); to pat; to clap",
+     ""
+    ],
+    [
+     "下来",
+     "xià lai",
+     "to come down; (completed action marker)",
+     ""
+    ],
+    [
+     "发给",
+     "fā gěi",
+     "to issue; to grant; to distribute",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "打印",
+     "dǎ yìn",
+     "to print out (with a printer); to affix a seal; to stamp",
+     ""
+    ],
+    [
+     "出来",
+     "chū lái",
+     "to come out; to appear; to arise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "贴",
+     "tiē",
+     "to stick; to paste; to post (e.g. on a blog)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "办公",
+     "bàn gōng",
+     "to handle official business (usu. in an office); to do (office) work",
+     ""
+    ],
+    [
+     "桌",
+     "zhuō",
+     "desk; table",
+     ""
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨看了，笑着说：“以后再有紧急的事，你就画画吧。”",
+   "py": "Xiǎo yǔ kàn le, xiào zhe shuō: “yǐ hòu zài yǒu jǐn jí de shì, nǐ jiù huà huà ba.”",
+   "en": "Xiaoyu looks at it and laughs. \"Next time there's anything urgent, you should just draw a picture.\"",
+   "tr": {
+    "am": "ሺያውዩ አይታ እየሳቀች አለች፦ «ከአሁን በኋላ አስቸኳይ ነገር ሲኖር ሥዕል ሣል።»",
+    "fa": "شیائویو که می‌بینه می‌خنده: «از این به بعد هر کار فوری داشتید، نقاشی بکشید.»"
+   },
+   "start": 151.012,
+   "end": 157.42,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "further; beyond this point of time; again; once more; re-",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "紧急",
+     "jǐn jí",
+     "urgent; emergency",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "matter; thing; item",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "画画",
+     "huà huà",
+     "to draw; to paint",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "一个月以后，那批台灯准时到了肯尼亚。客户发来的照片里，一个小女孩坐在教室的第一排，正在台灯下画一架飞机。",
+   "py": "yí gè yuè yǐ hòu, nà pī tái dēng zhǔn shí dào le kěn ní yà. kè hù fā lái de zhào piàn lǐ, yí gè xiǎo nǚ hái zuò zài jiào shì de dì yī pái, zhèng zài tái dēng xià huà yí jià fēi jī.",
+   "en": "A month later, the lamps reach Kenya on time. In the photo the client sends, a little girl sits in the front row of a classroom, drawing an aeroplane under one of the lamps.",
+   "tr": {
+    "am": "ከአንድ ወር በኋላ እነዚያ መብራቶች በሰዓቱ ኬንያ ደረሱ። ደንበኛው በላከው ፎቶ አንዲት ትንሽ ልጅ በክፍሉ የፊተኛው ረድፍ ተቀምጣ በጠረጴዛ መብራቱ ሥር አውሮፕላን እየሣለች ነው።",
+    "fa": "یک ماه بعد اون چراغ‌ها سر وقت می‌رسن کنیا. توی عکسی که مشتری فرستاده، یه دخترک ردیف اول کلاس نشسته و زیر نور یکی از همون چراغ‌ها داره یه هواپیما نقاشی می‌کنه."
+   },
+   "start": 158.12,
+   "end": 170.432,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "批",
+     "pī",
+     "classifier for batches, lots, military flights; to ascertain",
+     ""
+    ],
+    [
+     "台灯",
+     "tái dēng",
+     "desk lamp; table lamp",
+     ""
+    ],
+    [
+     "准时",
+     "zhǔn shí",
+     "on time; punctual; on schedule",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "肯尼亚",
+     "kěn ní yà",
+     "Kenya",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "for the past (amount of time); to come",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "小女",
+     "xiǎo nǚ",
+     "my daughter (humble)",
+     ""
+    ],
+    [
+     "孩",
+     "hái",
+     "(bound form) child",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "在教",
+     "zài jiào",
+     "to be a believer (in a religion, esp. Islam)",
+     ""
+    ],
+    [
+     "室",
+     "shì",
+     "room; work unit; grave",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "第一",
+     "dì yī",
+     "first; most important; primary; foremost",
+     ""
+    ],
+    [
+     "排",
+     "pái",
+     "row; line",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "正在",
+     "zhèng zài",
+     "to be in the process of (doing sth); to be currently ...-ing",
+     ""
+    ],
+    [
+     "台灯",
+     "tái dēng",
+     "desk lamp; table lamp",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "later; down; downwards",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "to draw; to paint; to draw (a line); picture; painting",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "架",
+     "jià",
+     "classifier for planes, large vehicles, radios etc",
+     ""
+    ],
+    [
+     "飞机",
+     "fēi jī",
+     "airplane",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 563,
+ "first": "星期六早上八点，杰克接到货代的电话：台风来了，原定星期一出发的那班船，至少要推迟十天。",
+ "newWords": [
+  {
+   "w": "货代",
+   "py": "huò dài",
+   "en": "freight forwarder"
+  },
+  {
+   "w": "空运",
+   "py": "kōng yùn",
+   "en": "air transport"
+  },
+  {
+   "w": "舱位",
+   "py": "cāng wèi",
+   "en": "shipping space"
+  },
+  {
+   "w": "转告",
+   "py": "zhuǎngào",
+   "en": "to relay a message for someone"
+  },
+  {
+   "w": "来得及",
+   "py": "láidejí",
+   "en": "in time to do"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h6-82.mp3?v=1791723137"
 }

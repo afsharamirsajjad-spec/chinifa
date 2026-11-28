@@ -1,2349 +1,2368 @@
 {
-  "id": "h5-81",
-  "level": 5,
-  "no": 81,
-  "title": "改了七遍的消息",
-  "title_py": "gǎi le qī biàn de xiāo xi",
-  "title_en": "Seven drafts",
-  "title_tr": {
-    "am": "ሰባት ጊዜ የታረመው መልእክት",
-    "fa": "پیامی که هفت بار پیش‌نویس شد"
+ "id": "h5-81",
+ "level": 5,
+ "no": 81,
+ "title": "改了七遍的消息",
+ "title_py": "gǎi le qī biàn de xiāo xi",
+ "title_en": "Seven drafts",
+ "title_tr": {
+  "am": "ሰባት ጊዜ የታረመው መልእክት",
+  "fa": "پیامی که هفت بار پیش‌نویس شد"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_comms",
+ "cover": "https://media.kanchinese.app/review/stories/h5-81.jpg",
+ "duration": 141.824,
+ "lines": [
+  {
+   "text": "原料涨价了，公司算了又算，决定从下个月起，给一位老客户的价格涨百分之八。",
+   "py": "yuán liào zhǎng jià le, gōng sī suàn le yòu suàn, jué dìng cóng xià gè yuè qǐ, gěi yí wèi lǎo kè hù de jià gé zhǎng bǎi fēn zhī bā.",
+   "en": "Raw materials have gone up, and after doing the sums again and again, the company decides to raise its price to a long-standing client by eight per cent from next month.",
+   "tr": {
+    "am": "የጥሬ ዕቃ ዋጋ ጨመረ፤ ድርጅቱ ደጋግሞ አስልቶ ከሚቀጥለው ወር ጀምሮ ለአንድ የቆየ ደንበኛ ዋጋውን በስምንት በመቶ ለመጨመር ወሰነ።",
+    "fa": "قیمت مواد اولیه بالا رفته و شرکت بعد از حساب‌کتاب‌های زیاد تصمیم می‌گیره از ماه دیگه قیمت رو برای یه مشتری قدیمی هشت درصد بالا ببره."
+   },
+   "start": 3.1,
+   "end": 11.596,
+   "tokens": [
+    [
+     "原料",
+     "yuán liào",
+     "raw material",
+     ""
+    ],
+    [
+     "涨价",
+     "zhǎng jià",
+     "to increase in price; to appreciate (in value)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "算了",
+     "suàn le",
+     "let it be; let it pass; forget about it",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "算",
+     "suàn",
+     "to calculate; to figure out; to include; to count in",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "决定",
+     "jué dìng",
+     "to decide; to determine; to make up one's mind; decision",
+     ""
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "下个月",
+     "xià gè yuè",
+     "next month",
+     ""
+    ],
+    [
+     "起",
+     "qǐ",
+     "to raise; starting from (a time, place, price etc); to rise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "老客",
+     "lǎo kè",
+     "peddler; old or regular customer",
+     ""
+    ],
+    [
+     "户",
+     "hù",
+     "a household; door; family",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "价格",
+     "jià gé",
+     "price",
+     ""
+    ],
+    [
+     "涨",
+     "zhǎng",
+     "to rise (of prices, rivers)",
+     ""
+    ],
+    [
+     "百分之",
+     "bǎi fēn zhī",
+     "percent",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_comms",
-  "cover": "https://media.kanchinese.app/review/stories/h5-81.jpg",
-  "duration": 141.824,
-  "lines": [
-    {
-      "text": "原料涨价了，公司算了又算，决定从下个月起，给一位老客户的价格涨百分之八。",
-      "py": "yuán liào zhǎng jià le, gōng sī suàn le yòu suàn, jué dìng cóng xià gè yuè qǐ, gěi yí wèi lǎo kè hù de jià gé zhǎng bǎi fēn zhī bā.",
-      "en": "Raw materials have gone up, and after doing the sums again and again, the company decides to raise its price to a long-standing client by eight per cent from next month.",
-      "tr": {
-        "am": "የጥሬ ዕቃ ዋጋ ጨመረ፤ ድርጅቱ ደጋግሞ አስልቶ ከሚቀጥለው ወር ጀምሮ ለአንድ የቆየ ደንበኛ ዋጋውን በስምንት በመቶ ለመጨመር ወሰነ።"
-      },
-      "start": 3.1,
-      "end": 11.596,
-      "tokens": [
-        [
-          "原料",
-          "yuán liào",
-          "raw material",
-          ""
-        ],
-        [
-          "涨价",
-          "zhǎng jià",
-          "to increase in price; to appreciate (in value)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "算了",
-          "suàn le",
-          "let it be; let it pass; forget about it",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "算",
-          "suàn",
-          "to calculate; to figure out; to include; to count in",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "决定",
-          "jué dìng",
-          "to decide; to determine; to make up one's mind; decision",
-          ""
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "下个月",
-          "xià gè yuè",
-          "next month",
-          ""
-        ],
-        [
-          "起",
-          "qǐ",
-          "to raise; starting from (a time, place, price etc); to rise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "老客",
-          "lǎo kè",
-          "peddler; old or regular customer",
-          ""
-        ],
-        [
-          "户",
-          "hù",
-          "a household; door; family",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "价格",
-          "jià gé",
-          "price",
-          ""
-        ],
-        [
-          "涨",
-          "zhǎng",
-          "to rise (of prices, rivers)",
-          ""
-        ],
-        [
-          "百分之",
-          "bǎi fēn zhī",
-          "percent",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理决定亲自给客户写一条微信。",
-      "py": "Zhōu jīng lǐ jué dìng qīn zì gěi kè hù xiě yì tiáo wēi xìn.",
-      "en": "Manager Zhou decides to write the client a WeChat message herself.",
-      "tr": {
-        "am": "ሥራ አስኪያጅ ጆው ለደንበኛው የዊቻት መልእክት ራሷ ለመጻፍ ወሰነች።"
-      },
-      "start": 12.296,
-      "end": 16.088,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "决定",
-          "jué dìng",
-          "to decide; to determine; to make up one's mind; decision",
-          ""
-        ],
-        [
-          "亲自",
-          "qīn zì",
-          "personally; in person; oneself",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "微信",
-          "wēi xìn",
-          "Weixin or WeChat (mobile text and voice messaging service developed by Tencent 腾讯)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她跟这位客户合作了十年，从来没涨过价，这条消息怎么写都觉得不合适。",
-      "py": "tā gēn zhè wèi kè hù hé zuò le shí nián, cóng lái méi zhǎng guò jià, zhè tiáo xiāo xi zěn me xiě dōu jué de bù hé shì.",
-      "en": "She has worked with this client for ten years and never once raised her prices, and however she words it, it doesn't feel right.",
-      "tr": {
-        "am": "ከዚህ ደንበኛ ጋር ለአሥር ዓመት ሠርታለች፤ አንድም ጊዜ ዋጋ ጨምራ አታውቅም፤ ስለዚህ መልእክቱን እንዴትም ብትጽፈው አልተመቻትም።"
-      },
-      "start": 16.788,
-      "end": 24.612,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "这位",
-          "zhè wèi",
-          "this (person)",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "合作",
-          "hé zuò",
-          "to cooperate; to collaborate; to work together",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "从来没",
-          "cóng lái méi",
-          "have never; has never",
-          ""
-        ],
-        [
-          "涨",
-          "zhǎng",
-          "to rise (of prices, rivers)",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "价",
-          "jiè",
-          "(literary) messenger; servant",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "(piece of) news; information; message",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "不合",
-          "bù hé",
-          "to not conform to; to be unsuited to",
-          ""
-        ],
-        [
-          "适",
-          "shì",
-          "to fit; suitable; proper",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "写得太直接，怕客户觉得她只想着自己；写得太客气，又怕客户看不懂她到底想说什么。",
-      "py": "xiě de tài zhí jiē, pà kè hù jué de tā zhǐ xiǎng zhe zì jǐ; xiě de tài kè qì, yòu pà kè hù kàn bù dǒng tā dào dǐ xiǎng shuō shén me.",
-      "en": "Too direct, and she's afraid he'll think she only cares about herself. Too polite, and she's afraid he won't understand what she's actually trying to say.",
-      "tr": {
-        "am": "በጣም በቀጥታ ብትጽፍ ደንበኛው ስለ ራሷ ብቻ የምታስብ እንዳይመስለው ፈራች፤ በጣም በትሕትና ብትጽፍ ደግሞ በትክክል ምን ለማለት እንደፈለገች እንዳይገባው ፈራች።"
-      },
-      "start": 25.312,
-      "end": 35.056,
-      "tokens": [
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "直接",
-          "zhí jiē",
-          "direct (opposite: indirect 间接); immediate; straightforward",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "怕",
-          "pà",
-          "to be afraid; to fear; to dread",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "；"
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "客气",
-          "kè qi",
-          "polite; courteous; formal",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "怕",
-          "pà",
-          "to be afraid; to fear; to dread",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "看不懂",
-          "kàn bu dǒng",
-          "unable to make sense of what one is looking at",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "到底",
-          "dào dǐ",
-          "finally; in the end; when all is said and done",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她把杰克和小雨叫进办公室，三个人一起改。",
-      "py": "tā bǎ Jié kè hé Xiǎo yǔ jiào jìn bàn gōng shì, sān gè rén yì qǐ gǎi.",
-      "en": "She calls Jack and Xiaoyu into her office, and the three of them work on it together.",
-      "tr": {
-        "am": "ጃክንና ሺያውዩን ወደ ቢሮዋ ጠርታ ሦስቱ በአንድ ላይ አረሙት።"
-      },
-      "start": 35.756,
-      "end": 40.748,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to call; to shout; to order",
-          ""
-        ],
-        [
-          "进",
-          "jìn",
-          "to go forward; to advance; to go in",
-          ""
-        ],
-        [
-          "办公室",
-          "bàn gōng shì",
-          "office; business premises",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "一起",
-          "yī qǐ",
-          "together; in company (with); (in) the same place",
-          ""
-        ],
-        [
-          "改",
-          "gǎi",
-          "to change; to alter; to transform",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克建议开头先问候客户的家人，小雨建议说说原料市场的情况，最后再轻轻地提到价格。",
-      "py": "Jié kè jiàn yì kāi tóu xiān wèn hòu kè hù de jiā rén, Xiǎo yǔ jiàn yì shuō shuō yuán liào shì chǎng de qíng kuàng, zuì hòu zài qīng qīng de tí dào jià gé.",
-      "en": "Jack suggests opening with good wishes to the client's family. Xiaoyu suggests a word about the raw materials market, and only at the very end a gentle mention of the price.",
-      "tr": {
-        "am": "ጃክ የደንበኛውን ቤተሰብ በመጠየቅ እንዲጀመር ሐሳብ አቀረበ፤ ሺያውዩ ደግሞ ስለ ጥሬ ዕቃ ገበያው ሁኔታ እንዲነገርና በመጨረሻ ዋጋው በቀስታ እንዲጠቀስ ሐሳብ አቀረበች።"
-      },
-      "start": 41.448,
-      "end": 51.168,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "建议",
-          "jiàn yì",
-          "to propose; to suggest; to recommend",
-          ""
-        ],
-        [
-          "开头",
-          "kāi tóu",
-          "beginning; to start",
-          ""
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "问候",
-          "wèn hòu",
-          "to give one's respects; to send a greeting",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used at the end of a declarative sentence for emphasis)",
-          ""
-        ],
-        [
-          "家人",
-          "jiā rén",
-          "family member; (old) servant",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "建议",
-          "jiàn yì",
-          "to propose; to suggest; to recommend",
-          ""
-        ],
-        [
-          "说说",
-          "shuō shuo",
-          "to say sth",
-          ""
-        ],
-        [
-          "原料",
-          "yuán liào",
-          "raw material",
-          ""
-        ],
-        [
-          "市场",
-          "shì chǎng",
-          "marketplace; market; bazaar; (economics) market",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used at the end of a declarative sentence for emphasis)",
-          ""
-        ],
-        [
-          "情况",
-          "qíng kuàng",
-          "circumstances; state of affairs; situation",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "最后",
-          "zuì hòu",
-          "finally; in the end; final; last; ultimate",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; further; beyond this point of time",
-          ""
-        ],
-        [
-          "轻轻",
-          "qīng qīng",
-          "lightly; softly",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "提到",
-          "tí dào",
-          "to mention; to raise (a subject); to refer to",
-          ""
-        ],
-        [
-          "价格",
-          "jià gé",
-          "price",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“如果您有困难，我们可以再商量。”这一句，周经理加上又删掉，删掉又加上。",
-      "py": "“rú guǒ nín yǒu kùn nan, wǒ men kě yǐ zài shāng liang.” zhè yí jù, Zhōu jīng lǐ jiā shàng yòu shān diào, shān diào yòu jiā shàng.",
-      "en": "\"If this causes you any difficulty, we can discuss it\": Manager Zhou puts that line in, takes it out, then puts it back again.",
-      "tr": {
-        "am": "«ችግር ካለብዎ እንደገና መነጋገር እንችላለን።» ይህን ዓረፍተ ነገር ሥራ አስኪያጅ ጆው ጨመረች፣ አጠፋች፤ አጠፋች፣ ደግሞ ጨመረች።"
-      },
-      "start": 51.868,
-      "end": 60.412,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "如果",
-          "rú guǒ",
-          "if; in case; in the event that",
-          ""
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "困难",
-          "kùn nan",
-          "difficult; difficult situation; challenging",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "可以",
-          "kě yǐ",
-          "can; may; possible",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; then (after sth, and not until then)",
-          ""
-        ],
-        [
-          "商量",
-          "shāng liang",
-          "to discuss; to consult; to talk over",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "一句",
-          "yī jù",
-          "a line of verse; a sentence",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "加上",
-          "jiā shàng",
-          "plus; to put in; to add",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "删掉",
-          "shān diào",
-          "to delete",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "删掉",
-          "shān diào",
-          "to delete",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "加上",
-          "jiā shàng",
-          "plus; to put in; to add",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "三个人改了一个下午，一条消息改了七遍，谁也不敢按“发送”。",
-      "py": "sān gè rén gǎi le yí gè xià wǔ, yì tiáo xiāo xi gǎi le qī biàn, shéi yě bù gǎn àn “fā sòng”.",
-      "en": "The three of them spend all afternoon on it. The message goes through seven drafts, and nobody dares press \"send\".",
-      "tr": {
-        "am": "ሦስቱ ከሰዓት በኋላውን ሙሉ አረሙ፤ አንድ መልእክት ሰባት ጊዜ ታረመ፤ ማንም «ላክ» የሚለውን መጫን አልደፈረም።"
-      },
-      "start": 61.112,
-      "end": 67.544,
-      "tokens": [
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "改",
-          "gǎi",
-          "to change; to alter; to transform",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "message; (piece of) news; information",
-          ""
-        ],
-        [
-          "改",
-          "gǎi",
-          "to change; to alter; to transform",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "遍",
-          "biàn",
-          "all over; classifier for actions: one time; everywhere",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "谁",
-          "shéi",
-          "who; also pr.",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "敢",
-          "gǎn",
-          "to dare; daring; (polite) may I venture",
-          ""
-        ],
-        [
-          "按",
-          "àn",
-          "to press; to push; to leave aside or shelve",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "发送",
-          "fā sòng",
-          "to transmit; to dispatch",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "正在这时，杰克的手机响了，是那位客户发来的消息。",
-      "py": "zhèng zài zhè shí, Jié kè de shǒu jī xiǎng le, shì nà wèi kè hù fā lái de xiāo xi.",
-      "en": "Just then, Jack's phone pings. It's a message from that very client.",
-      "tr": {
-        "am": "በዚህ ጊዜ የጃክ ስልክ ጮኸ፤ ከዚያው ደንበኛ የተላከ መልእክት ነበር።"
-      },
-      "start": 68.244,
-      "end": 74.196,
-      "tokens": [
-        [
-          "正在",
-          "zhèng zài",
-          "to be in the process of (doing sth); to be currently ...-ing",
-          ""
-        ],
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "响",
-          "xiǎng",
-          "echo; sound; noise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "(respectful acknowledgement of a command) very well",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "message; (piece of) news; information",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“杰克，最近原料涨得很厉害，你们是不是很难做？”",
-      "py": "“Jié kè, zuì jìn yuán liào zhǎng de hěn lì hai, nǐ men shì bú shì hěn nán zuò?”",
-      "en": "\"Jack, raw materials have gone up a lot lately. Are things hard for you?\"",
-      "tr": {
-        "am": "«ጃክ፣ ሰሞኑን የጥሬ ዕቃ ዋጋ በጣም ጨምሯል፤ ሥራው ከብዶባችኋል አይደል?»"
-      },
-      "start": 74.896,
-      "end": 80.584,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "最近",
-          "zuì jìn",
-          "recently; soon; nearest",
-          ""
-        ],
-        [
-          "原料",
-          "yuán liào",
-          "raw material",
-          ""
-        ],
-        [
-          "涨",
-          "zhǎng",
-          "to rise (of prices, rivers)",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "厉害",
-          "lì hai",
-          "(used to describe sb or sth that makes a very strong impression, whether favorable or unfavorable) terrible; intense; severe; devastating; amazing; awesome; outstanding",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "是不是",
-          "shì bu shì",
-          "is or is not (used to form yes-no questions)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "难",
-          "nán",
-          "difficult (to...); problem; difficulty",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "(of a thing) to serve as; to be used for",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我们合作这么多年了，你们从来没涨过价。从下个月起，我们每件多付五毛钱吧。”",
-      "py": "“wǒ men hé zuò zhè me duō nián le, nǐ men cóng lái méi zhǎng guò jià. cóng xià gè yuè qǐ, wǒ men měi jiàn duō fù wǔ máo qián ba.”",
-      "en": "\"We've worked together all these years, and you've never once raised your prices. From next month, let's pay you an extra fifty fen an item.\"",
-      "tr": {
-        "am": "«ይህን ያህል ዓመት አብረን ሠርተናል፤ እናንተ አንድም ጊዜ ዋጋ ጨምራችሁ አታውቁም። ከሚቀጥለው ወር ጀምሮ በእያንዳንዱ ዕቃ ግማሽ ዩዋን ጨምረን እንክፈል።»"
-      },
-      "start": 81.284,
-      "end": 89.108,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "合作",
-          "hé zuò",
-          "to cooperate; to collaborate; to work together",
-          ""
-        ],
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "多年",
-          "duō nián",
-          "many years; for many years; longstanding",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "从来没",
-          "cóng lái méi",
-          "have never; has never",
-          ""
-        ],
-        [
-          "涨",
-          "zhǎng",
-          "to rise (of prices, rivers)",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "价",
-          "jiè",
-          "(literary) messenger; servant",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "下个月",
-          "xià gè yuè",
-          "next month",
-          ""
-        ],
-        [
-          "起",
-          "qǐ",
-          "to raise; starting from (a time, place, price etc); to rise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "每",
-          "měi",
-          "each; every",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "item; classifier for events, things, clothes etc; component",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "付",
-          "fù",
-          "to pay; to hand over to",
-          ""
-        ],
-        [
-          "五毛",
-          "wǔ máo",
-          "fifty cents (0.5 RMB); (fig.) paltry sum of money",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "coin; money; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "三个人看着手机，半天说不出话来。",
-      "py": "sān gè rén kàn zhe shǒu jī, bàn tiān shuō bù chū huà lái.",
-      "en": "The three of them stare at the phone, lost for words.",
-      "tr": {
-        "am": "ሦስቱ ስልኩን እያዩ ለረጅም ጊዜ የሚሉት ጠፋቸው።"
-      },
-      "start": 89.808,
-      "end": 94.344,
-      "tokens": [
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "half of the day; a long time; quite a while",
-          ""
-        ],
-        [
-          "说不出话来",
-          "shuō bù chū huà lái",
-          "speechless",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克算了算：五毛钱，差不多是百分之五。",
-      "py": "Jié kè suàn le suàn: wǔ máo qián, chà bu duō shì bǎi fēn zhī wǔ.",
-      "en": "Jack does the sums: fifty fen is about five per cent.",
-      "tr": {
-        "am": "ጃክ አሰላ፦ ግማሽ ዩዋን አምስት በመቶ ገደማ ነው።"
-      },
-      "start": 95.044,
-      "end": 100.06,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "算了",
-          "suàn le",
-          "forget about it; let it be; let it pass",
-          ""
-        ],
-        [
-          "算",
-          "suàn",
-          "to calculate; to figure out; to include; to count in",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "五毛",
-          "wǔ máo",
-          "fifty cents (0.5 RMB); (fig.) paltry sum of money",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "coin; money; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "差不多",
-          "chà bu duō",
-          "about the same; almost; nearly",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "百分之",
-          "bǎi fēn zhī",
-          "percent",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他小声问：“那我们改了七遍的那条，还发不发？”",
-      "py": "tā xiǎo shēng wèn: “nà wǒ men gǎi le qī biàn de nà tiáo, hái fā bù fā?”",
-      "en": "He asks quietly, \"So that message we redrafted seven times, do we still send it?\"",
-      "tr": {
-        "am": "በለሆሳስ ጠየቀ፦ «ታዲያ ሰባት ጊዜ ያረምነውን መልእክት እንልከዋለን ወይስ አንልከውም?»"
-      },
-      "start": 100.76,
-      "end": 106.736,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "小声",
-          "xiǎo shēng",
-          "in a low voice; (speak) in whispers",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "改",
-          "gǎi",
-          "to change; to alter; to transform",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "遍",
-          "biàn",
-          "classifier for actions: one time; everywhere; all over",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "周经理想了想，把那条消息删了。",
-      "py": "Zhōu jīng lǐ xiǎng le xiǎng, bǎ nà tiáo xiāo xi shān le.",
-      "en": "Manager Zhou thinks for a moment, and deletes it.",
-      "tr": {
-        "am": "ሥራ አስኪያጅ ጆው ትንሽ አስባ ያንን መልእክት አጠፋችው።"
-      },
-      "start": 107.436,
-      "end": 111.012,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "(piece of) news; information; message",
-          ""
-        ],
-        [
-          "删",
-          "shān",
-          "to delete",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“百分之五就够了。人家先想着我们，我们也得想着人家。”",
-      "py": "“bǎi fēn zhī wǔ jiù gòu le. rén jia xiān xiǎng zhe wǒ men, wǒ men yě děi xiǎng zhe rén jia.”",
-      "en": "\"Five per cent is enough. He thought of us first, so we should think of him too.\"",
-      "tr": {
-        "am": "«አምስት በመቶ ይበቃል። እሱ ቀድሞ ስለ እኛ አሰበ፤ እኛም ስለ እሱ ማሰብ አለብን።»"
-      },
-      "start": 111.712,
-      "end": 117.184,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "百分之",
-          "bǎi fēn zhī",
-          "percent",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "够",
-          "gòu",
-          "enough (sufficient); enough (too much)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "人家",
-          "rén jia",
-          "other people; sb else; he, she or they",
-          ""
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "人家",
-          "rén jia",
-          "other people; sb else; he, she or they",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "她亲自回了一条：“谢谢您的理解，就按您说的办。这批货的运费，我们来出。”",
-      "py": "tā qīn zì huí le yì tiáo: “xiè xie nín de lǐ jiě, jiù àn nín shuō de bàn. zhè pī huò de yùn fèi, wǒ men lái chū.”",
-      "en": "She replies herself: \"Thank you for understanding. We'll do as you say. And the shipping on this batch is on us.\"",
-      "tr": {
-        "am": "ራሷ መለሰችለት፦ «ስለ መረዳትዎ እናመሰግናለን፤ እርስዎ እንዳሉት ይሁን። የዚህን ዕቃ የመላኪያ ወጪ እኛ እንሸፍናለን።»"
-      },
-      "start": 117.884,
-      "end": 126.212,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "亲自",
-          "qīn zì",
-          "personally; in person; oneself",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "理解",
-          "lǐ jiě",
-          "to comprehend; to understand",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "按",
-          "àn",
-          "to press; to push; to leave aside or shelve",
-          ""
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "办",
-          "bàn",
-          "to take care of (a matter); to deal with (a task, procedure etc); to organize (an event)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "批",
-          "pī",
-          "classifier for batches, lots, military flights; to ascertain",
-          ""
-        ],
-        [
-          "货",
-          "huò",
-          "goods; money; commodity",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "运费",
-          "yùn fèi",
-          "freight fee",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "出",
-          "chū",
-          "to go out; to come out; to arise; to occur",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "客户马上回了一个抱拳的表情。",
-      "py": "kè hù mǎ shàng huí le yí gè bào quán de biǎo qíng.",
-      "en": "The client immediately replies with a cupped-fists emoji.",
-      "tr": {
-        "am": "ደንበኛው ወዲያው የአክብሮት ሰላምታ ኢሞጂ መለሰ።"
-      },
-      "start": 126.912,
-      "end": 130.224,
-      "tokens": [
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "immediately; at once; right away",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "抱拳",
-          "bào quán",
-          "to cup one's fist in the other hand (as a sign of respect)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "表情",
-          "biǎo qíng",
-          "(facial) expression; to express one's feelings",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克想起那条改了七遍的长消息，忍不住笑了：“原来最难写的消息，有时候根本不用发。”",
-      "py": "Jié kè xiǎng qǐ nà tiáo gǎi le qī biàn de cháng xiāo xi, rěn bu zhù xiào le: “yuán lái zuì nán xiě de xiāo xi, yǒu shí hòu gēn běn bú yòng fā.”",
-      "en": "Jack thinks of the long message they redrafted seven times and can't help laughing. \"So sometimes the hardest message to write is one you never need to send.\"",
-      "tr": {
-        "am": "ጃክ ያንን ሰባት ጊዜ የታረመ ረጅም መልእክት አስታውሶ ሳቁን መቆጣጠር አልቻለም፦ «ለካ አንዳንዴ ለመጻፍ በጣም የሚከብደው መልእክት ጨርሶ መላክ አያስፈልገውም።»"
-      },
-      "start": 130.924,
-      "end": 141.124,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "想起",
-          "xiǎng qǐ",
-          "to think of; to recall; to call to mind",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "改",
-          "gǎi",
-          "to change; to alter; to transform",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "遍",
-          "biàn",
-          "classifier for actions: one time; everywhere; all over",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "长",
-          "cháng",
-          "long; (bound form) length; (bound form) strong point; forte",
-          ""
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "message; (piece of) news; information",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "忍不住",
-          "rěn bu zhù",
-          "cannot help; unable to bear",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "原来",
-          "yuán lái",
-          "original; former; originally; formerly; at first",
-          ""
-        ],
-        [
-          "最",
-          "zuì",
-          "(before an adjective or verb) to the highest degree; (the) most ...; -est",
-          ""
-        ],
-        [
-          "难",
-          "nán",
-          "difficult (to...); problem; difficulty",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "message; (piece of) news; information",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有时候",
-          "yǒu shí hou",
-          "sometimes",
-          ""
-        ],
-        [
-          "根本",
-          "gēn běn",
-          "fundamental; basic; root",
-          ""
-        ],
-        [
-          "不用",
-          "bù yòng",
-          "need not",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 452,
-  "first": "原料涨价了，公司算了又算，决定从下个月起，给一位老客户的价格涨百分之八。",
-  "newWords": [
-    {
-      "w": "问候",
-      "py": "wènhòu",
-      "en": "to greet someone politely"
-    },
-    {
-      "w": "理解",
-      "py": "lǐjiě",
-      "en": "to understand"
-    },
-    {
-      "w": "合作",
-      "py": "hézuò",
-      "en": "working jointly toward shared goals"
-    },
-    {
-      "w": "商量",
-      "py": "shāngliang",
-      "en": "to discuss"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h5-81.mp3?v=1791722781"
+  {
+   "text": "周经理决定亲自给客户写一条微信。",
+   "py": "Zhōu jīng lǐ jué dìng qīn zì gěi kè hù xiě yì tiáo wēi xìn.",
+   "en": "Manager Zhou decides to write the client a WeChat message herself.",
+   "tr": {
+    "am": "ሥራ አስኪያጅ ጆው ለደንበኛው የዊቻት መልእክት ራሷ ለመጻፍ ወሰነች።",
+    "fa": "مدیر جو تصمیم می‌گیره خودش یه پیام وی‌چت برای مشتری بنویسه."
+   },
+   "start": 12.296,
+   "end": 16.088,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "决定",
+     "jué dìng",
+     "to decide; to determine; to make up one's mind; decision",
+     ""
+    ],
+    [
+     "亲自",
+     "qīn zì",
+     "personally; in person; oneself",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "微信",
+     "wēi xìn",
+     "Weixin or WeChat (mobile text and voice messaging service developed by Tencent 腾讯)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她跟这位客户合作了十年，从来没涨过价，这条消息怎么写都觉得不合适。",
+   "py": "tā gēn zhè wèi kè hù hé zuò le shí nián, cóng lái méi zhǎng guò jià, zhè tiáo xiāo xi zěn me xiě dōu jué de bù hé shì.",
+   "en": "She has worked with this client for ten years and never once raised her prices, and however she words it, it doesn't feel right.",
+   "tr": {
+    "am": "ከዚህ ደንበኛ ጋር ለአሥር ዓመት ሠርታለች፤ አንድም ጊዜ ዋጋ ጨምራ አታውቅም፤ ስለዚህ መልእክቱን እንዴትም ብትጽፈው አልተመቻትም።",
+    "fa": "ده ساله با این مشتری کار می‌کنه و حتی یه بار هم قیمت‌هاش رو بالا نبرده؛ هر جوری هم که می‌نویسه به دلش نمی‌شینه."
+   },
+   "start": 16.788,
+   "end": 24.612,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "这位",
+     "zhè wèi",
+     "this (person)",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "合作",
+     "hé zuò",
+     "to cooperate; to collaborate; to work together",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "从来没",
+     "cóng lái méi",
+     "have never; has never",
+     ""
+    ],
+    [
+     "涨",
+     "zhǎng",
+     "to rise (of prices, rivers)",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "价",
+     "jiè",
+     "(literary) messenger; servant",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "(piece of) news; information; message",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "不合",
+     "bù hé",
+     "to not conform to; to be unsuited to",
+     ""
+    ],
+    [
+     "适",
+     "shì",
+     "to fit; suitable; proper",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "写得太直接，怕客户觉得她只想着自己；写得太客气，又怕客户看不懂她到底想说什么。",
+   "py": "xiě de tài zhí jiē, pà kè hù jué de tā zhǐ xiǎng zhe zì jǐ; xiě de tài kè qì, yòu pà kè hù kàn bù dǒng tā dào dǐ xiǎng shuō shén me.",
+   "en": "Too direct, and she's afraid he'll think she only cares about herself. Too polite, and she's afraid he won't understand what she's actually trying to say.",
+   "tr": {
+    "am": "በጣም በቀጥታ ብትጽፍ ደንበኛው ስለ ራሷ ብቻ የምታስብ እንዳይመስለው ፈራች፤ በጣም በትሕትና ብትጽፍ ደግሞ በትክክል ምን ለማለት እንደፈለገች እንዳይገባው ፈራች።",
+    "fa": "اگه خیلی مستقیم بگه، می‌ترسه فکر کنه فقط به خودش فکر می‌کنه؛ اگه خیلی با تعارف بنویسه، می‌ترسه مشتری نفهمه چی می‌خواد بگه."
+   },
+   "start": 25.312,
+   "end": 35.056,
+   "tokens": [
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "直接",
+     "zhí jiē",
+     "direct (opposite: indirect 间接); immediate; straightforward",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "怕",
+     "pà",
+     "to be afraid; to fear; to dread",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "；"
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "客气",
+     "kè qi",
+     "polite; courteous; formal",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "怕",
+     "pà",
+     "to be afraid; to fear; to dread",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "看不懂",
+     "kàn bu dǒng",
+     "unable to make sense of what one is looking at",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "到底",
+     "dào dǐ",
+     "finally; in the end; when all is said and done",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她把杰克和小雨叫进办公室，三个人一起改。",
+   "py": "tā bǎ Jié kè hé Xiǎo yǔ jiào jìn bàn gōng shì, sān gè rén yì qǐ gǎi.",
+   "en": "She calls Jack and Xiaoyu into her office, and the three of them work on it together.",
+   "tr": {
+    "am": "ጃክንና ሺያውዩን ወደ ቢሮዋ ጠርታ ሦስቱ በአንድ ላይ አረሙት።",
+    "fa": "جک و شیائویو رو صدا می‌کنه تو اتاقش و هر سه با هم روش کار می‌کنن."
+   },
+   "start": 35.756,
+   "end": 40.748,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to call; to shout; to order",
+     ""
+    ],
+    [
+     "进",
+     "jìn",
+     "to go forward; to advance; to go in",
+     ""
+    ],
+    [
+     "办公室",
+     "bàn gōng shì",
+     "office; business premises",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "一起",
+     "yī qǐ",
+     "together; in company (with); (in) the same place",
+     ""
+    ],
+    [
+     "改",
+     "gǎi",
+     "to change; to alter; to transform",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克建议开头先问候客户的家人，小雨建议说说原料市场的情况，最后再轻轻地提到价格。",
+   "py": "Jié kè jiàn yì kāi tóu xiān wèn hòu kè hù de jiā rén, Xiǎo yǔ jiàn yì shuō shuō yuán liào shì chǎng de qíng kuàng, zuì hòu zài qīng qīng de tí dào jià gé.",
+   "en": "Jack suggests opening with good wishes to the client's family. Xiaoyu suggests a word about the raw materials market, and only at the very end a gentle mention of the price.",
+   "tr": {
+    "am": "ጃክ የደንበኛውን ቤተሰብ በመጠየቅ እንዲጀመር ሐሳብ አቀረበ፤ ሺያውዩ ደግሞ ስለ ጥሬ ዕቃ ገበያው ሁኔታ እንዲነገርና በመጨረሻ ዋጋው በቀስታ እንዲጠቀስ ሐሳብ አቀረበች።",
+    "fa": "جک پیشنهاد می‌ده اول با آرزوهای خوب برای خانواده‌ی مشتری شروع بشه؛ شیائویو پیشنهاد می‌ده یه جمله درباره بازار مواد اولیه باشه و آخرش با یه اشاره‌ی ملایم به قیمت."
+   },
+   "start": 41.448,
+   "end": 51.168,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "建议",
+     "jiàn yì",
+     "to propose; to suggest; to recommend",
+     ""
+    ],
+    [
+     "开头",
+     "kāi tóu",
+     "beginning; to start",
+     ""
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "问候",
+     "wèn hòu",
+     "to give one's respects; to send a greeting",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used at the end of a declarative sentence for emphasis)",
+     ""
+    ],
+    [
+     "家人",
+     "jiā rén",
+     "family member; (old) servant",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "建议",
+     "jiàn yì",
+     "to propose; to suggest; to recommend",
+     ""
+    ],
+    [
+     "说说",
+     "shuō shuo",
+     "to say sth",
+     ""
+    ],
+    [
+     "原料",
+     "yuán liào",
+     "raw material",
+     ""
+    ],
+    [
+     "市场",
+     "shì chǎng",
+     "marketplace; market; bazaar; (economics) market",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used at the end of a declarative sentence for emphasis)",
+     ""
+    ],
+    [
+     "情况",
+     "qíng kuàng",
+     "circumstances; state of affairs; situation",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "最后",
+     "zuì hòu",
+     "finally; in the end; final; last; ultimate",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; further; beyond this point of time",
+     ""
+    ],
+    [
+     "轻轻",
+     "qīng qīng",
+     "lightly; softly",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "提到",
+     "tí dào",
+     "to mention; to raise (a subject); to refer to",
+     ""
+    ],
+    [
+     "价格",
+     "jià gé",
+     "price",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“如果您有困难，我们可以再商量。”这一句，周经理加上又删掉，删掉又加上。",
+   "py": "“rú guǒ nín yǒu kùn nan, wǒ men kě yǐ zài shāng liang.” zhè yí jù, Zhōu jīng lǐ jiā shàng yòu shān diào, shān diào yòu jiā shàng.",
+   "en": "\"If this causes you any difficulty, we can discuss it\": Manager Zhou puts that line in, takes it out, then puts it back again.",
+   "tr": {
+    "am": "«ችግር ካለብዎ እንደገና መነጋገር እንችላለን።» ይህን ዓረፍተ ነገር ሥራ አስኪያጅ ጆው ጨመረች፣ አጠፋች፤ አጠፋች፣ ደግሞ ጨመረች።",
+    "fa": "«اگه این کار برای شما سختی ایجاد می‌کنه، می‌تونیم درباره‌ش صحبت کنیم»؛ مدیر جو این جمله رو می‌ذاره، برمی‌داره، و دوباره می‌ذاره."
+   },
+   "start": 51.868,
+   "end": 60.412,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "如果",
+     "rú guǒ",
+     "if; in case; in the event that",
+     ""
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "困难",
+     "kùn nan",
+     "difficult; difficult situation; challenging",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "可以",
+     "kě yǐ",
+     "can; may; possible",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; then (after sth, and not until then)",
+     ""
+    ],
+    [
+     "商量",
+     "shāng liang",
+     "to discuss; to consult; to talk over",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "一句",
+     "yī jù",
+     "a line of verse; a sentence",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "加上",
+     "jiā shàng",
+     "plus; to put in; to add",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "删掉",
+     "shān diào",
+     "to delete",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "删掉",
+     "shān diào",
+     "to delete",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "加上",
+     "jiā shàng",
+     "plus; to put in; to add",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "三个人改了一个下午，一条消息改了七遍，谁也不敢按“发送”。",
+   "py": "sān gè rén gǎi le yí gè xià wǔ, yì tiáo xiāo xi gǎi le qī biàn, shéi yě bù gǎn àn “fā sòng”.",
+   "en": "The three of them spend all afternoon on it. The message goes through seven drafts, and nobody dares press \"send\".",
+   "tr": {
+    "am": "ሦስቱ ከሰዓት በኋላውን ሙሉ አረሙ፤ አንድ መልእክት ሰባት ጊዜ ታረመ፤ ማንም «ላክ» የሚለውን መጫን አልደፈረም።",
+    "fa": "هر سه کل بعدازظهر رو سرش می‌ذارن؛ پیام هفت بار بازنویسی می‌شه و هیچ‌کس جرات دکمه «فرستادن» رو نداره."
+   },
+   "start": 61.112,
+   "end": 67.544,
+   "tokens": [
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "改",
+     "gǎi",
+     "to change; to alter; to transform",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "message; (piece of) news; information",
+     ""
+    ],
+    [
+     "改",
+     "gǎi",
+     "to change; to alter; to transform",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "遍",
+     "biàn",
+     "all over; classifier for actions: one time; everywhere",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "谁",
+     "shéi",
+     "who; also pr.",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "敢",
+     "gǎn",
+     "to dare; daring; (polite) may I venture",
+     ""
+    ],
+    [
+     "按",
+     "àn",
+     "to press; to push; to leave aside or shelve",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "发送",
+     "fā sòng",
+     "to transmit; to dispatch",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "正在这时，杰克的手机响了，是那位客户发来的消息。",
+   "py": "zhèng zài zhè shí, Jié kè de shǒu jī xiǎng le, shì nà wèi kè hù fā lái de xiāo xi.",
+   "en": "Just then, Jack's phone pings. It's a message from that very client.",
+   "tr": {
+    "am": "በዚህ ጊዜ የጃክ ስልክ ጮኸ፤ ከዚያው ደንበኛ የተላከ መልእክት ነበር።",
+    "fa": "همین موقع گوشی جک صدا می‌ده؛ پیامه از همون مشتری."
+   },
+   "start": 68.244,
+   "end": 74.196,
+   "tokens": [
+    [
+     "正在",
+     "zhèng zài",
+     "to be in the process of (doing sth); to be currently ...-ing",
+     ""
+    ],
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "响",
+     "xiǎng",
+     "echo; sound; noise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "(respectful acknowledgement of a command) very well",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "message; (piece of) news; information",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“杰克，最近原料涨得很厉害，你们是不是很难做？”",
+   "py": "“Jié kè, zuì jìn yuán liào zhǎng de hěn lì hai, nǐ men shì bú shì hěn nán zuò?”",
+   "en": "\"Jack, raw materials have gone up a lot lately. Are things hard for you?\"",
+   "tr": {
+    "am": "«ጃክ፣ ሰሞኑን የጥሬ ዕቃ ዋጋ በጣም ጨምሯል፤ ሥራው ከብዶባችኋል አይደል?»",
+    "fa": "«جک، این روزها قیمت مواد اولیه حسابی بالا رفته. کارتون سخت نشده؟»"
+   },
+   "start": 74.896,
+   "end": 80.584,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "最近",
+     "zuì jìn",
+     "recently; soon; nearest",
+     ""
+    ],
+    [
+     "原料",
+     "yuán liào",
+     "raw material",
+     ""
+    ],
+    [
+     "涨",
+     "zhǎng",
+     "to rise (of prices, rivers)",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "厉害",
+     "lì hai",
+     "(used to describe sb or sth that makes a very strong impression, whether favorable or unfavorable) terrible; intense; severe; devastating; amazing; awesome; outstanding",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "是不是",
+     "shì bu shì",
+     "is or is not (used to form yes-no questions)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "难",
+     "nán",
+     "difficult (to...); problem; difficulty",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "(of a thing) to serve as; to be used for",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我们合作这么多年了，你们从来没涨过价。从下个月起，我们每件多付五毛钱吧。”",
+   "py": "“wǒ men hé zuò zhè me duō nián le, nǐ men cóng lái méi zhǎng guò jià. cóng xià gè yuè qǐ, wǒ men měi jiàn duō fù wǔ máo qián ba.”",
+   "en": "\"We've worked together all these years, and you've never once raised your prices. From next month, let's pay you an extra fifty fen an item.\"",
+   "tr": {
+    "am": "«ይህን ያህል ዓመት አብረን ሠርተናል፤ እናንተ አንድም ጊዜ ዋጋ ጨምራችሁ አታውቁም። ከሚቀጥለው ወር ጀምሮ በእያንዳንዱ ዕቃ ግማሽ ዩዋን ጨምረን እንክፈል።»",
+    "fa": "«این‌همه سال با هم کار کردیم و حتی یه بار قیمت‌تون رو بالا نبردید. از ماه دیگه، بذارید سر هر جنس پنجاه فِن بیشتر بدیم.»"
+   },
+   "start": 81.284,
+   "end": 89.108,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "合作",
+     "hé zuò",
+     "to cooperate; to collaborate; to work together",
+     ""
+    ],
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "多年",
+     "duō nián",
+     "many years; for many years; longstanding",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "从来没",
+     "cóng lái méi",
+     "have never; has never",
+     ""
+    ],
+    [
+     "涨",
+     "zhǎng",
+     "to rise (of prices, rivers)",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "价",
+     "jiè",
+     "(literary) messenger; servant",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "下个月",
+     "xià gè yuè",
+     "next month",
+     ""
+    ],
+    [
+     "起",
+     "qǐ",
+     "to raise; starting from (a time, place, price etc); to rise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "每",
+     "měi",
+     "each; every",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "item; classifier for events, things, clothes etc; component",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "付",
+     "fù",
+     "to pay; to hand over to",
+     ""
+    ],
+    [
+     "五毛",
+     "wǔ máo",
+     "fifty cents (0.5 RMB); (fig.) paltry sum of money",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "coin; money; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "三个人看着手机，半天说不出话来。",
+   "py": "sān gè rén kàn zhe shǒu jī, bàn tiān shuō bù chū huà lái.",
+   "en": "The three of them stare at the phone, lost for words.",
+   "tr": {
+    "am": "ሦስቱ ስልኩን እያዩ ለረጅም ጊዜ የሚሉት ጠፋቸው።",
+    "fa": "هر سه به گوشی خیر می‌مونن و هیچ‌کدوم حرفی برای گفتن ندارن."
+   },
+   "start": 89.808,
+   "end": 94.344,
+   "tokens": [
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "half of the day; a long time; quite a while",
+     ""
+    ],
+    [
+     "说不出话来",
+     "shuō bù chū huà lái",
+     "speechless",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克算了算：五毛钱，差不多是百分之五。",
+   "py": "Jié kè suàn le suàn: wǔ máo qián, chà bu duō shì bǎi fēn zhī wǔ.",
+   "en": "Jack does the sums: fifty fen is about five per cent.",
+   "tr": {
+    "am": "ጃክ አሰላ፦ ግማሽ ዩዋን አምስት በመቶ ገደማ ነው።",
+    "fa": "جک حساب می‌کنه: پنجاه فِن حدود پنج درصد می‌شه."
+   },
+   "start": 95.044,
+   "end": 100.06,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "算了",
+     "suàn le",
+     "forget about it; let it be; let it pass",
+     ""
+    ],
+    [
+     "算",
+     "suàn",
+     "to calculate; to figure out; to include; to count in",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "五毛",
+     "wǔ máo",
+     "fifty cents (0.5 RMB); (fig.) paltry sum of money",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "coin; money; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "差不多",
+     "chà bu duō",
+     "about the same; almost; nearly",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "百分之",
+     "bǎi fēn zhī",
+     "percent",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他小声问：“那我们改了七遍的那条，还发不发？”",
+   "py": "tā xiǎo shēng wèn: “nà wǒ men gǎi le qī biàn de nà tiáo, hái fā bù fā?”",
+   "en": "He asks quietly, \"So that message we redrafted seven times, do we still send it?\"",
+   "tr": {
+    "am": "በለሆሳስ ጠየቀ፦ «ታዲያ ሰባት ጊዜ ያረምነውን መልእክት እንልከዋለን ወይስ አንልከውም?»",
+    "fa": "آروم می‌پرسه: «پس اون پیامی که هفت بار بازنویسیش کردیم، هنوز می‌فرستیم؟»"
+   },
+   "start": 100.76,
+   "end": 106.736,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "小声",
+     "xiǎo shēng",
+     "in a low voice; (speak) in whispers",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "改",
+     "gǎi",
+     "to change; to alter; to transform",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "遍",
+     "biàn",
+     "classifier for actions: one time; everywhere; all over",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "周经理想了想，把那条消息删了。",
+   "py": "Zhōu jīng lǐ xiǎng le xiǎng, bǎ nà tiáo xiāo xi shān le.",
+   "en": "Manager Zhou thinks for a moment, and deletes it.",
+   "tr": {
+    "am": "ሥራ አስኪያጅ ጆው ትንሽ አስባ ያንን መልእክት አጠፋችው።",
+    "fa": "مدیر جو یه لحظه فکر می‌کنه و پاکش می‌کنه."
+   },
+   "start": 107.436,
+   "end": 111.012,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "(piece of) news; information; message",
+     ""
+    ],
+    [
+     "删",
+     "shān",
+     "to delete",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“百分之五就够了。人家先想着我们，我们也得想着人家。”",
+   "py": "“bǎi fēn zhī wǔ jiù gòu le. rén jia xiān xiǎng zhe wǒ men, wǒ men yě děi xiǎng zhe rén jia.”",
+   "en": "\"Five per cent is enough. He thought of us first, so we should think of him too.\"",
+   "tr": {
+    "am": "«አምስት በመቶ ይበቃል። እሱ ቀድሞ ስለ እኛ አሰበ፤ እኛም ስለ እሱ ማሰብ አለብን።»",
+    "fa": "«پنج درصد کافیه. اون اول به ما فکر کرد؛ پس ما هم باید بهش فکر کنیم.»"
+   },
+   "start": 111.712,
+   "end": 117.184,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "百分之",
+     "bǎi fēn zhī",
+     "percent",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "够",
+     "gòu",
+     "enough (sufficient); enough (too much)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "人家",
+     "rén jia",
+     "other people; sb else; he, she or they",
+     ""
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "人家",
+     "rén jia",
+     "other people; sb else; he, she or they",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "她亲自回了一条：“谢谢您的理解，就按您说的办。这批货的运费，我们来出。”",
+   "py": "tā qīn zì huí le yì tiáo: “xiè xie nín de lǐ jiě, jiù àn nín shuō de bàn. zhè pī huò de yùn fèi, wǒ men lái chū.”",
+   "en": "She replies herself: \"Thank you for understanding. We'll do as you say. And the shipping on this batch is on us.\"",
+   "tr": {
+    "am": "ራሷ መለሰችለት፦ «ስለ መረዳትዎ እናመሰግናለን፤ እርስዎ እንዳሉት ይሁን። የዚህን ዕቃ የመላኪያ ወጪ እኛ እንሸፍናለን።»",
+    "fa": "خودش جواب می‌ده: «ممنون که حال ما رو درک کردید. همون‌جوری عمل می‌کنیم. کرایه حمل این محموله هم پای ماست.»"
+   },
+   "start": 117.884,
+   "end": 126.212,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "亲自",
+     "qīn zì",
+     "personally; in person; oneself",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "理解",
+     "lǐ jiě",
+     "to comprehend; to understand",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "按",
+     "àn",
+     "to press; to push; to leave aside or shelve",
+     ""
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "办",
+     "bàn",
+     "to take care of (a matter); to deal with (a task, procedure etc); to organize (an event)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "批",
+     "pī",
+     "classifier for batches, lots, military flights; to ascertain",
+     ""
+    ],
+    [
+     "货",
+     "huò",
+     "goods; money; commodity",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "运费",
+     "yùn fèi",
+     "freight fee",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "出",
+     "chū",
+     "to go out; to come out; to arise; to occur",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "客户马上回了一个抱拳的表情。",
+   "py": "kè hù mǎ shàng huí le yí gè bào quán de biǎo qíng.",
+   "en": "The client immediately replies with a cupped-fists emoji.",
+   "tr": {
+    "am": "ደንበኛው ወዲያው የአክብሮት ሰላምታ ኢሞጂ መለሰ።",
+    "fa": "مشتری فوری با یه ایموجی تعارف چینی (دست‌های روی هم) جواب می‌ده."
+   },
+   "start": 126.912,
+   "end": 130.224,
+   "tokens": [
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "immediately; at once; right away",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "抱拳",
+     "bào quán",
+     "to cup one's fist in the other hand (as a sign of respect)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "表情",
+     "biǎo qíng",
+     "(facial) expression; to express one's feelings",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克想起那条改了七遍的长消息，忍不住笑了：“原来最难写的消息，有时候根本不用发。”",
+   "py": "Jié kè xiǎng qǐ nà tiáo gǎi le qī biàn de cháng xiāo xi, rěn bu zhù xiào le: “yuán lái zuì nán xiě de xiāo xi, yǒu shí hòu gēn běn bú yòng fā.”",
+   "en": "Jack thinks of the long message they redrafted seven times and can't help laughing. \"So sometimes the hardest message to write is one you never need to send.\"",
+   "tr": {
+    "am": "ጃክ ያንን ሰባት ጊዜ የታረመ ረጅም መልእክት አስታውሶ ሳቁን መቆጣጠር አልቻለም፦ «ለካ አንዳንዴ ለመጻፍ በጣም የሚከብደው መልእክት ጨርሶ መላክ አያስፈልገውም።»",
+    "fa": "جک یاد اون پیام طولانی که هفت بار بازنویسی شده بود می‌افته و نمی‌تونه نخنده: «پس بعضی وقتا سخت‌ترین پیامی که باید نوشته بشه، پیامیه که اصلاً لازم نیست فرستاده شه.»"
+   },
+   "start": 130.924,
+   "end": 141.124,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "想起",
+     "xiǎng qǐ",
+     "to think of; to recall; to call to mind",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "改",
+     "gǎi",
+     "to change; to alter; to transform",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "遍",
+     "biàn",
+     "classifier for actions: one time; everywhere; all over",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "长",
+     "cháng",
+     "long; (bound form) length; (bound form) strong point; forte",
+     ""
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "message; (piece of) news; information",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "忍不住",
+     "rěn bu zhù",
+     "cannot help; unable to bear",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "原来",
+     "yuán lái",
+     "original; former; originally; formerly; at first",
+     ""
+    ],
+    [
+     "最",
+     "zuì",
+     "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+     ""
+    ],
+    [
+     "难",
+     "nán",
+     "difficult (to...); problem; difficulty",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "message; (piece of) news; information",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有时候",
+     "yǒu shí hou",
+     "sometimes",
+     ""
+    ],
+    [
+     "根本",
+     "gēn běn",
+     "fundamental; basic; root",
+     ""
+    ],
+    [
+     "不用",
+     "bù yòng",
+     "need not",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 452,
+ "first": "原料涨价了，公司算了又算，决定从下个月起，给一位老客户的价格涨百分之八。",
+ "newWords": [
+  {
+   "w": "问候",
+   "py": "wènhòu",
+   "en": "to greet someone politely"
+  },
+  {
+   "w": "理解",
+   "py": "lǐjiě",
+   "en": "to understand"
+  },
+  {
+   "w": "合作",
+   "py": "hézuò",
+   "en": "working jointly toward shared goals"
+  },
+  {
+   "w": "商量",
+   "py": "shāngliang",
+   "en": "to discuss"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h5-81.mp3?v=1791722781"
 }

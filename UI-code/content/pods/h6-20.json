@@ -1,2506 +1,2526 @@
 {
-  "id": "h6-20",
-  "level": 6,
-  "no": 20,
-  "title": "失物招领",
-  "title_py": "shī wù zhāo lǐng",
-  "title_en": "Lost property",
-  "title_tr": {
-    "am": "የጠፉ ዕቃዎች ቢሮ",
-    "fa": "دفتر اشیای گمشده و پیدا شده"
+ "id": "h6-20",
+ "level": 6,
+ "no": 20,
+ "title": "失物招领",
+ "title_py": "shī wù zhāo lǐng",
+ "title_en": "Lost property",
+ "title_tr": {
+  "am": "የጠፉ ዕቃዎች ቢሮ",
+  "fa": "دفتر اشیای گمشده و پیدا شده"
+ },
+ "topic": "out",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h6-20.jpg",
+ "duration": 147.42,
+ "lines": [
+  {
+   "text": "天气预报说下午有雨，小周早上出门坐地铁去饭馆上班。",
+   "py": "tiān qì yù bào shuō xià wǔ yǒu yǔ, Xiǎo Zhōu zǎo shang chū mén zuò dì tiě qù fàn guǎn shàng bān.",
+   "en": "The forecast says rain in the afternoon. In the morning, Xiao Zhou takes the subway to work at the restaurant.",
+   "tr": {
+    "am": "የአየር ትንበያው ከሰዓት በኋላ ዝናብ እንደሚኖር ተናግሮ ነበር፤ ሺያው ጆው ጠዋት በምድር ውስጥ ባቡር ወደ ምግብ ቤቱ ሥራ ሄደ።",
+    "fa": "پیش‌بینی هوا می‌گه عصر بارون میاد. صبح شیائو جو با مترو می‌ره سر کار رستوران."
+   },
+   "start": 3.1,
+   "end": 9.244,
+   "tokens": [
+    [
+     "天气预报",
+     "tiān qì yù bào",
+     "weather forecast",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "雨",
+     "yǔ",
+     "rain",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "出门",
+     "chū mén",
+     "to go out; to leave home; to go on a journey",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to take a seat; to take (a bus, airplane etc); to sit",
+     ""
+    ],
+    [
+     "地铁",
+     "dì tiě",
+     "underground railway; subway; subway train",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "饭馆",
+     "fàn guǎn",
+     "restaurant",
+     ""
+    ],
+    [
+     "上班",
+     "shàng bān",
+     "to go to work; to start work; to be on duty",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "out",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h6-20.jpg",
-  "duration": 147.42,
-  "lines": [
-    {
-      "text": "天气预报说下午有雨，小周早上出门坐地铁去饭馆上班。",
-      "py": "tiān qì yù bào shuō xià wǔ yǒu yǔ, Xiǎo Zhōu zǎo shang chū mén zuò dì tiě qù fàn guǎn shàng bān.",
-      "en": "The forecast says rain in the afternoon. In the morning, Xiao Zhou takes the subway to work at the restaurant.",
-      "tr": {
-        "am": "የአየር ትንበያው ከሰዓት በኋላ ዝናብ እንደሚኖር ተናግሮ ነበር፤ ሺያው ጆው ጠዋት በምድር ውስጥ ባቡር ወደ ምግብ ቤቱ ሥራ ሄደ።"
-      },
-      "start": 3.1,
-      "end": 9.244,
-      "tokens": [
-        [
-          "天气预报",
-          "tiān qì yù bào",
-          "weather forecast",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "雨",
-          "yǔ",
-          "rain",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "出门",
-          "chū mén",
-          "to go out; to leave home; to go on a journey",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to take a seat; to take (a bus, airplane etc); to sit",
-          ""
-        ],
-        [
-          "地铁",
-          "dì tiě",
-          "underground railway; subway; subway train",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "饭馆",
-          "fàn guǎn",
-          "restaurant",
-          ""
-        ],
-        [
-          "上班",
-          "shàng bān",
-          "to go to work; to start work; to be on duty",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "下午果然下起了大雨，他去找伞，却怎么也找不到。",
-      "py": "xià wǔ guǒ rán xià qǐ le dà yǔ, tā qù zhǎo sǎn, què zěn me yě zhǎo bú dào.",
-      "en": "Sure enough, it pours in the afternoon. He goes to get his umbrella but can't find it anywhere.",
-      "tr": {
-        "am": "ከሰዓት በኋላ በእርግጥም ኃይለኛ ዝናብ ዘነበ፤ ጃንጥላውን ፈለገ፤ ግን በምንም ዓይነት ሊያገኘው አልቻለም።"
-      },
-      "start": 9.944,
-      "end": 15.416,
-      "tokens": [
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "果然",
-          "guǒ rán",
-          "sure enough; really; as expected",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "起",
-          "qǐ",
-          "to get up; to get (from a depot or counter); to rise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "大雨",
-          "dà yǔ",
-          "heavy rain",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to get rid of",
-          ""
-        ],
-        [
-          "找",
-          "zhǎo",
-          "to try to find; to find; to look for",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "却",
-          "què",
-          "but; yet; however",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
-          ""
-        ],
-        [
-          "找不到",
-          "zhǎo bu dào",
-          "can't find",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他仔细回想了一下，记得在地铁上，手里一直握着一个长长的东西，一定是下车的时候把伞忘在座位上了。",
-      "py": "tā zǐ xì huí xiǎng le yí xià, jì de zài dì tiě shàng, shǒu lǐ yì zhí wò zhe yí gè cháng cháng de dōng xi, yí dìng shì xià chē de shí hou bǎ sǎn wàng zài zuò wèi shàng le.",
-      "en": "He thinks back carefully. He remembers holding something long in his hand the whole time on the subway; he must have left his umbrella on the seat when he got off.",
-      "tr": {
-        "am": "በጥንቃቄ አስታወሰ፤ በባቡሩ ውስጥ አንድ ረጅም ነገር በእጁ ይዞ እንደነበር ትዝ አለው፤ ሲወርድ ጃንጥላውን ወንበሩ ላይ ረስቶት መሆን አለበት።"
-      },
-      "start": 16.116,
-      "end": 26.556,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(bound form) other; another; some other (as in 他日 and 他人)",
-          ""
-        ],
-        [
-          "仔细",
-          "zǐ xì",
-          "careful; attentive; cautious; to be careful; to look out",
-          ""
-        ],
-        [
-          "回想",
-          "huí xiǎng",
-          "to think back; to recall; to recollect",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一下",
-          "yī xià",
-          "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "记得",
-          "jì de",
-          "to remember",
-          ""
-        ],
-        [
-          "在地",
-          "zài dì",
-          "(Tw) local; native (from Taiwanese 在地, Tai-lo pr. [tsāi-tē])",
-          ""
-        ],
-        [
-          "铁",
-          "tiě",
-          "iron (metal); arms; weapons",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "手里",
-          "shǒu lǐ",
-          "in hand; (a situation is) in sb's hands",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "握",
-          "wò",
-          "to hold; to grasp; (bound form) to have in one's control",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "长",
-          "cháng",
-          "long; (bound form) length; (bound form) strong point; forte",
-          ""
-        ],
-        [
-          "长",
-          "cháng",
-          "long; (bound form) length; (bound form) strong point; forte",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "下车",
-          "xià chē",
-          "to get off or out of (a bus, train, car etc)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "忘",
-          "wàng",
-          "to forget; to overlook; to neglect",
-          ""
-        ],
-        [
-          "在座",
-          "zài zuò",
-          "to be present",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "seat; position; location",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "那把伞是妈妈送他的生日礼物，用了好几年了，他很舍不得。",
-      "py": "nà bǎ sǎn shì mā ma sòng tā de shēng rì lǐ wù, yòng le hǎo jǐ nián le, tā hěn shě bu de.",
-      "en": "That umbrella was a birthday present from his mum, and he's had it for years. He can't bear to lose it.",
-      "tr": {
-        "am": "ያ ጃንጥላ እናቱ በልደቱ የሰጠችው ስጦታ ነው፤ ለብዙ ዓመታት ተጠቅሞበታል፤ ሊያጣው አልፈለገም።"
-      },
-      "start": 27.256,
-      "end": 33.64,
-      "tokens": [
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to give (as a present); to send; to deliver; to transmit",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "生日礼物",
-          "shēng rì lǐ wù",
-          "birthday gift",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "好几年",
-          "hǎo jǐ nián",
-          "several years",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "舍不得",
-          "shě bu de",
-          "to hate to do sth; to hate to part with; to begrudge",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "下了班，他冒着雨来到地铁站的失物招领处。",
-      "py": "xià le bān, tā mào zhe yǔ lái dào dì tiě zhàn de shī wù zhāo lǐng chù.",
-      "en": "After work, he braves the rain to go to the lost property office at the subway station.",
-      "tr": {
-        "am": "ከሥራ በኋላ ዝናቡን ተቋቁሞ በምድር ውስጥ ባቡር ጣቢያው ወዳለው የጠፉ ዕቃዎች ቢሮ ሄደ።"
-      },
-      "start": 34.34,
-      "end": 38.852,
-      "tokens": [
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "班",
-          "bān",
-          "work shift; team; class; grade; (military) squad",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "冒着",
-          "mào zhe",
-          "to brave; to face dangers",
-          ""
-        ],
-        [
-          "雨",
-          "yǔ",
-          "rain",
-          ""
-        ],
-        [
-          "来到",
-          "lái dào",
-          "to arrive; to come",
-          ""
-        ],
-        [
-          "地铁站",
-          "dì tiě zhàn",
-          "subway station",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "失物招领",
-          "shī wù zhāo lǐng",
-          "lost-and-found",
-          ""
-        ],
-        [
-          "处",
-          "chǔ",
-          "to reside; to live; to dwell",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "工作人员打开一个房间，小周吓了一跳：里面挂着几百把伞，大部分都是黑色的。",
-      "py": "gōng zuò rén yuán dǎ kāi yí gè fáng jiān, Xiǎo Zhōu xià le yí tiào: lǐ miàn guà zhe jǐ bǎi bǎ sǎn, dà bù fèn dōu shì hēi sè de.",
-      "en": "A staff member opens a room, and Xiao Zhou is startled: there are hundreds of umbrellas hanging inside, most of them black.",
-      "tr": {
-        "am": "ሠራተኛው አንድ ክፍል ከፈተ፤ ሺያው ጆው ደነገጠ፦ ውስጡ በመቶዎች የሚቆጠሩ ጃንጥላዎች ተንጠልጥለዋል፤ አብዛኞቹ ጥቁር ናቸው።"
-      },
-      "start": 39.552,
-      "end": 48.072,
-      "tokens": [
-        [
-          "工作人员",
-          "gōng zuò rén yuán",
-          "staff member",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "房间",
-          "fáng jiān",
-          "room",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "吓",
-          "xià",
-          "to frighten; to scare",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "跳",
-          "tiào",
-          "to jump; to hop; to skip over",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "里面",
-          "lǐ miàn",
-          "inside; interior; also pr.",
-          ""
-        ],
-        [
-          "挂",
-          "guà",
-          "to hang; to suspend (from a hook etc)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "几",
-          "jǐ",
-          "how many; how much; several; a few",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "hundred; numerous; all kinds of",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大部分",
-          "dà bù fen",
-          "the greater part; the majority; most; Taiwan pr.",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "黑色",
-          "hēi sè",
-          "black",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "工作人员说：“一到下雨天，丢伞的人就特别多。您的伞有什么特征吗？”",
-      "py": "gōng zuò rén yuán shuō: “yí dào xià yǔ tiān, diū sǎn de rén jiù tè bié duō. nín de sǎn yǒu shén me tè zhēng ma?”",
-      "en": "The staff member says, \"Whenever it rains, lots of people lose umbrellas. Does yours have any distinguishing features?\"",
-      "tr": {
-        "am": "ሠራተኛው «ዝናብ በዘነበ ቁጥር ጃንጥላ የሚጠፋባቸው ሰዎች በጣም ብዙ ናቸው። የእርስዎ ጃንጥላ የተለየ ምልክት አለው?» አለ።"
-      },
-      "start": 48.772,
-      "end": 56.332,
-      "tokens": [
-        [
-          "工作人员",
-          "gōng zuò rén yuán",
-          "staff member",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "下雨",
-          "xià yǔ",
-          "to rain",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "丢",
-          "diū",
-          "to lose; to put aside; to throw",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "特别",
-          "tè bié",
-          "unusual; special; very; especially; particularly",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "特征",
-          "tè zhēng",
-          "distinctive feature; characteristic; diagnostic property",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小周说：“黑色的，长柄，木头把手。”",
-      "py": "Xiǎo Zhōu shuō: “hēi sè de, cháng bǐng, mù tou bǎ shǒu.”",
-      "en": "Xiao Zhou says, \"Black, long, with a wooden handle.\"",
-      "tr": {
-        "am": "ሺያው ጆው «ጥቁር፣ ረጅም፣ የእንጨት እጀታ ያለው» አለ።"
-      },
-      "start": 57.032,
-      "end": 61.544,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "黑色",
-          "hēi sè",
-          "black",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "长柄",
-          "cháng bǐng",
-          "long handle; stem",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "木头",
-          "mù tou",
-          "wood; log; (fig.) blockhead; dolt",
-          ""
-        ],
-        [
-          "把手",
-          "bǎ shǒu",
-          "to shake hands",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "工作人员找了半天，拿出来七八把，每一把都差不多。",
-      "py": "gōng zuò rén yuán zhǎo le bàn tiān, ná chū lái qī bā bǎ, měi yì bǎ dōu chà bu duō.",
-      "en": "The staff member searches for ages and brings out seven or eight, all much the same.",
-      "tr": {
-        "am": "ሠራተኛው ለረጅም ጊዜ ፈልጎ ሰባት ስምንት አወጣ፤ ሁሉም ተመሳሳይ ናቸው።"
-      },
-      "start": 62.244,
-      "end": 67.716,
-      "tokens": [
-        [
-          "工作人员",
-          "gōng zuò rén yuán",
-          "staff member",
-          ""
-        ],
-        [
-          "找",
-          "zhǎo",
-          "to try to find; to look for; to call on sb",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "half of the day; a long time; quite a while",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每",
-          "měi",
-          "each; every",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "差不多",
-          "chà bu duō",
-          "about the same; almost; nearly",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小周一把一把地看，最后挑了一把，把手上有一道小小的划痕，他越看越眼熟。",
-      "py": "Xiǎo Zhōu yì bǎ yì bǎ de kàn, zuì hòu tiāo le yì bǎ, bǎ shǒu shàng yǒu yí dào xiǎo xiǎo de huà hén, tā yuè kàn yuè yǎn shú.",
-      "en": "Xiao Zhou looks at them one by one and finally picks one with a tiny scratch on the handle. The more he looks at it, the more familiar it seems.",
-      "tr": {
-        "am": "ሺያው ጆው አንድ በአንድ አየ፤ በመጨረሻ እጀታው ላይ ትንሽ ጭረት ያለበትን አንዱን መረጠ፤ ባየው ቁጥር የሚያውቀው መሰለው።"
-      },
-      "start": 68.416,
-      "end": 78.136,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "tiny; small; few",
-          ""
-        ],
-        [
-          "周一",
-          "zhōu yī",
-          "Monday",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier for things with handles; handlebar",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier for things with handles; handlebar",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "最后",
-          "zuì hòu",
-          "final; last; ultimate; finally; in the end",
-          ""
-        ],
-        [
-          "挑",
-          "tiāo",
-          "to pick; to carry on a shoulder pole; to choose",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier for things with handles; handlebar",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "把手",
-          "bǎ shǒu",
-          "to shake hands",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一道",
-          "yī dào",
-          "together",
-          ""
-        ],
-        [
-          "小小",
-          "xiǎo xiǎo",
-          "very small; very few; very minor",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "划痕",
-          "huá hén",
-          "a scratch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "the more... the more; to exceed; to climb over",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "the more... the more; to exceed; to climb over",
-          ""
-        ],
-        [
-          "眼熟",
-          "yǎn shú",
-          "familiar-looking; to seem familiar",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他登记了名字和电话，高高兴兴地把伞带回了家。",
-      "py": "tā dēng jì le míng zi hé diàn huà, gāo gāo xìng xìng de bǎ sǎn dài huí le jiā.",
-      "en": "He registers his name and phone number and happily takes the umbrella home.",
-      "tr": {
-        "am": "ስሙንና ስልክ ቁጥሩን አስመዝግቦ ጃንጥላውን በደስታ ወደ ቤት ወሰደ።"
-      },
-      "start": 78.836,
-      "end": 84.044,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "登记",
-          "dēng jì",
-          "to register (one's name)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "名字",
-          "míng zi",
-          "name (of a person or thing)",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "phone call; phone number; telephone",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "高高兴兴",
-          "gāo gāo xìng xìng",
-          "cheerful and optimistic; in a good mood; gaily",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "带回",
-          "dài huí",
-          "to bring back; to take back with one",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一进家门，他就愣住了。",
-      "py": "yī jìn jiā mén, tā jiù lèng zhù le.",
-      "en": "As soon as he walks through the door, he freezes.",
-      "tr": {
-        "am": "ቤት እንደገባ ክው አለ።"
-      },
-      "start": 84.744,
-      "end": 87.6,
-      "tokens": [
-        [
-          "一",
-          "yī",
-          "as soon as; entire; whole; all; throughout; one",
-          ""
-        ],
-        [
-          "进",
-          "jìn",
-          "classifier for sections in a building or residential compound",
-          ""
-        ],
-        [
-          "家门",
-          "jiā mén",
-          "house door; family clan",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a clause of action) as soon as; immediately after",
-          ""
-        ],
-        [
-          "愣",
-          "lèng",
-          "to look distracted; to stare blankly; distracted",
-          ""
-        ],
-        [
-          "住",
-          "zhù",
-          "to live; to reside; to stay; to stop; to cease",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "门后的挂钩上，挂着一把黑色的长柄伞，木头把手，干干的。",
-      "py": "mén hòu de guà gōu shàng, guà zhe yì bǎ hēi sè de cháng bǐng sǎn, mù tou bǎ shǒu, gàn gàn de.",
-      "en": "On the hook behind the door hangs a long black umbrella with a wooden handle, completely dry.",
-      "tr": {
-        "am": "ከበሩ ጀርባ ባለው መስቀያ ላይ ጥቁር ረጅም ጃንጥላ ተንጠልጥሏል፤ የእንጨት እጀታ ያለው፣ ደረቅ።"
-      },
-      "start": 88.3,
-      "end": 95.404,
-      "tokens": [
-        [
-          "门",
-          "mén",
-          "gate; door; doorway; gateway; opening",
-          ""
-        ],
-        [
-          "后",
-          "hòu",
-          "behind; empress; queen",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "挂钩",
-          "guà gōu",
-          "to couple; to link; to hook together",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "挂",
-          "guà",
-          "to hang; to suspend (from a hook etc)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier for things with handles; handlebar",
-          ""
-        ],
-        [
-          "黑色",
-          "hēi sè",
-          "black",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "长柄",
-          "cháng bǐng",
-          "long handle; stem",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "木头",
-          "mù tou",
-          "wood; log; (fig.) blockhead; dolt",
-          ""
-        ],
-        [
-          "把手",
-          "bǎ shǒu",
-          "to shake hands",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "干",
-          "gān",
-          "dry; dried food; empty; hollow",
-          ""
-        ],
-        [
-          "干",
-          "gān",
-          "dry; dried food; empty; hollow",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "原来，他早上出门根本就没拿伞，在地铁上一直握着的，是他的保温杯。",
-      "py": "yuán lái, tā zǎo shang chū mén gēn běn jiù méi ná sǎn, zài dì tiě shàng yì zhí wò zhe de, shì tā de bǎo wēn bēi.",
-      "en": "It turns out he never took an umbrella when he left that morning. What he was holding the whole time on the subway was his thermos flask.",
-      "tr": {
-        "am": "ለካ ጠዋት ሲወጣ ጃንጥላ ጨርሶ አልያዘም ነበር፤ በባቡሩ ውስጥ ሙሉ ጊዜ የያዘው ቴርሞሱን ነበር።"
-      },
-      "start": 96.104,
-      "end": 103.448,
-      "tokens": [
-        [
-          "原来",
-          "yuán lái",
-          "so, actually, as it turns out; original; former",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "出门",
-          "chū mén",
-          "to go out; to leave home; to go on a journey",
-          ""
-        ],
-        [
-          "根本",
-          "gēn běn",
-          "fundamental; basic; root",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在地",
-          "zài dì",
-          "(Tw) local; native (from Taiwanese 在地, Tai-lo pr. [tsāi-tē])",
-          ""
-        ],
-        [
-          "铁",
-          "tiě",
-          "iron (metal); arms; weapons",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "握",
-          "wò",
-          "to hold; to grasp; to clench (one's fist)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "保温杯",
-          "bǎo wēn bēi",
-          "thermal insulation cup (or bottle)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小周看看门后的伞，又看看手里那把“找回来”的伞，忍不住笑出了声。",
-      "py": "Xiǎo Zhōu kàn kàn mén hòu de sǎn, yòu kàn kàn shǒu lǐ nà bǎ “zhǎo huí lái” de sǎn, rěn bu zhù xiào chū le shēng.",
-      "en": "Xiao Zhou looks at the umbrella behind the door, then at the one in his hand that he \"got back\", and can't help laughing out loud.",
-      "tr": {
-        "am": "ሺያው ጆው ከበሩ ጀርባ ያለውን ጃንጥላ፣ ቀጥሎም በእጁ ያለውን «የተገኘውን» ጃንጥላ አየና ሳቁን መቆጣጠር አልቻለም።"
-      },
-      "start": 104.148,
-      "end": 111.06,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "to help financially; Zhou Dynasty (1046–256 BC)",
-          ""
-        ],
-        [
-          "看看",
-          "kàn kan",
-          "to take a look at; to examine; to survey",
-          ""
-        ],
-        [
-          "门",
-          "mén",
-          "gate; door; doorway; gateway; opening",
-          ""
-        ],
-        [
-          "后",
-          "hòu",
-          "back; behind; empress",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "看看",
-          "kàn kan",
-          "to take a look at; to examine; to survey",
-          ""
-        ],
-        [
-          "手里",
-          "shǒu lǐ",
-          "in hand; (a situation is) in sb's hands",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "找回",
-          "zhǎo huí",
-          "to retrieve",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "忍不住",
-          "rěn bu zhù",
-          "cannot help; unable to bear",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "出",
-          "chū",
-          "to go out; to come out; to arise; to occur",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "声",
-          "shēng",
-          "sound; voice; tone",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "第二天一早，他把伞送回了失物招领处，红着脸说明了情况。",
-      "py": "dì èr tiān yì zǎo, tā bǎ sǎn sòng huí le shī wù zhāo lǐng chù, hóng zhe liǎn shuō míng le qíng kuàng.",
-      "en": "Early the next morning, he takes the umbrella back to the lost property office and explains what happened, blushing.",
-      "tr": {
-        "am": "በማግስቱ ማለዳ ጃንጥላውን ወደ የጠፉ ዕቃዎች ቢሮ መለሰ፤ ፊቱ ቀልቶ ሁኔታውን አስረዳ።"
-      },
-      "start": 111.76,
-      "end": 117.904,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "一早",
-          "yī zǎo",
-          "early in the morning; at dawn",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "失物招领",
-          "shī wù zhāo lǐng",
-          "lost-and-found",
-          ""
-        ],
-        [
-          "处",
-          "chǔ",
-          "to reside; to live; to dwell",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "脸",
-          "liǎn",
-          "face",
-          ""
-        ],
-        [
-          "说明",
-          "shuō míng",
-          "to explain; to illustrate; to indicate",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "情况",
-          "qíng kuàng",
-          "circumstances; state of affairs; situation",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "工作人员笑了：“没关系，这种事经常有。”",
-      "py": "gōng zuò rén yuán xiào le: “méi guān xi, zhè zhǒng shì jīng cháng yǒu.”",
-      "en": "The staff member laughs. \"Don't worry, this happens all the time.\"",
-      "tr": {
-        "am": "ሠራተኛው ሳቀ፦ «ችግር የለም፤ እንዲህ ያለ ነገር ብዙ ጊዜ ያጋጥማል።»"
-      },
-      "start": 118.604,
-      "end": 122.876,
-      "tokens": [
-        [
-          "工作人员",
-          "gōng zuò rén yuán",
-          "staff member",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "没关系",
-          "méi guān xi",
-          "it doesn't matter",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这种",
-          "zhè zhǒng",
-          "this kind of",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "matter; thing; item",
-          ""
-        ],
-        [
-          "经常",
-          "jīng cháng",
-          "frequently; constantly; regularly; often",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "话音刚落，一个年轻人急急忙忙地跑了进来：“请问，昨天有没有人送来一把黑色的长柄伞？木头把手，上面有一道划痕。”",
-      "py": "huà yīn gāng luò, yí gè nián qīng rén jí jí máng máng de pǎo le jìn lái: “qǐng wèn, zuó tiān yǒu méi yǒu rén sòng lái yì bǎ hēi sè de cháng bǐng sǎn? mù tou bǎ shǒu, shàng miàn yǒu yí dào huà hén.”",
-      "en": "No sooner has the staff member finished speaking than a young man rushes in. \"Excuse me, did anyone hand in a long black umbrella yesterday? Wooden handle, with a scratch on it.\"",
-      "tr": {
-        "am": "ገና ንግግሩን እንደጨረሰ አንድ ወጣት እየተጣደፈ ሮጦ ገባ፦ «ይቅርታ፣ ትናንት ጥቁር ረጅም ጃንጥላ ያመጣ ሰው አለ? የእንጨት እጀታ ያለው፣ ላዩ ላይ ጭረት ያለበት።»"
-      },
-      "start": 123.576,
-      "end": 135.84,
-      "tokens": [
-        [
-          "话音",
-          "huà yīn",
-          "one's speaking voice; tone; implication",
-          ""
-        ],
-        [
-          "刚",
-          "gāng",
-          "(literary) hard; firm; strong; exactly; precisely",
-          ""
-        ],
-        [
-          "落",
-          "là",
-          "to leave out; to be missing",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "年轻人",
-          "nián qīng rén",
-          "young people; youngster",
-          ""
-        ],
-        [
-          "急急忙忙",
-          "jí jí máng máng",
-          "hurriedly",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "to run; to run away; to escape",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "进来",
-          "jìn lái",
-          "to come in",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "请问",
-          "qǐng wèn",
-          "Excuse me, may I ask...?",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "昨天",
-          "zuó tiān",
-          "yesterday",
-          ""
-        ],
-        [
-          "有没有",
-          "yǒu méi yǒu",
-          "(before a verb) Did (you, they etc) (verb, infinitive)?",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "as soon as; one; single",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "黑色",
-          "hēi sè",
-          "black",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "长柄",
-          "cháng bǐng",
-          "long handle; stem",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "木头",
-          "mù tou",
-          "wood; log; (fig.) blockhead; dolt",
-          ""
-        ],
-        [
-          "把手",
-          "bǎ shǒu",
-          "to shake hands",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "上面",
-          "shàng miàn",
-          "on top of; above-mentioned; also pr.",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一道",
-          "yī dào",
-          "together",
-          ""
-        ],
-        [
-          "划痕",
-          "huá hén",
-          "a scratch",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小周和工作人员对视了一眼，都笑了。",
-      "py": "Xiǎo Zhōu hé gōng zuò rén yuán duì shì le yì yǎn, dōu xiào le.",
-      "en": "Xiao Zhou and the staff member exchange a glance, and both of them laugh.",
-      "tr": {
-        "am": "ሺያው ጆውና ሠራተኛው ተያዩ፤ ሁለቱም ሳቁ።"
-      },
-      "start": 136.54,
-      "end": 140.812,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "工作人员",
-          "gōng zuò rén yuán",
-          "staff member",
-          ""
-        ],
-        [
-          "对视",
-          "duì shì",
-          "to look face to face",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一眼",
-          "yī yǎn",
-          "a glance; a quick look; a glimpse",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小周把伞递给他：“给，它昨天在我家住了一晚。”",
-      "py": "Xiǎo Zhōu bǎ sǎn dì gěi tā: “gěi, tā zuó tiān zài wǒ jiā zhù le yì wǎn.”",
-      "en": "Xiao Zhou hands it to him. \"Here you are. It spent last night at my place.\"",
-      "tr": {
-        "am": "ሺያው ጆው ጃንጥላውን ሰጠው፦ «ይኸውልህ፤ ትናንት ማታ እኔ ቤት አድሯል።»"
-      },
-      "start": 141.512,
-      "end": 146.72,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "递给",
-          "dì gěi",
-          "to hand it (i.e. the aforementioned item) to (sb)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "昨天",
-          "zuó tiān",
-          "yesterday",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "住",
-          "zhù",
-          "to live; to reside; to stay; to stop; to cease",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "晚",
-          "wǎn",
-          "night; evening; late",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 477,
-  "first": "天气预报说下午有雨，小周早上出门坐地铁去饭馆上班。",
-  "newWords": [
-    {
-      "w": "失物招领",
-      "py": "shī wù zhāo lǐng",
-      "en": "lost-and-found"
-    },
-    {
-      "w": "特征",
-      "py": "tèzhēng",
-      "en": "identifying quality or property"
-    },
-    {
-      "w": "登记",
-      "py": "dēngjì",
-      "en": "to officially record personal information"
-    },
-    {
-      "w": "眼熟",
-      "py": "yǎn shú",
-      "en": "familiar-looking"
-    },
-    {
-      "w": "话音刚落",
-      "py": "huà yīn gāng luò",
-      "en": "no sooner had (someone) finished speaking"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h6-20.mp3?v=1791721156"
+  {
+   "text": "下午果然下起了大雨，他去找伞，却怎么也找不到。",
+   "py": "xià wǔ guǒ rán xià qǐ le dà yǔ, tā qù zhǎo sǎn, què zěn me yě zhǎo bú dào.",
+   "en": "Sure enough, it pours in the afternoon. He goes to get his umbrella but can't find it anywhere.",
+   "tr": {
+    "am": "ከሰዓት በኋላ በእርግጥም ኃይለኛ ዝናብ ዘነበ፤ ጃንጥላውን ፈለገ፤ ግን በምንም ዓይነት ሊያገኘው አልቻለም።",
+    "fa": "راستش هم عصر حسابی بارون میاد. می‌ره چتر برداره ولی هر جای کیفش می‌گرده پیدا نمی‌شه."
+   },
+   "start": 9.944,
+   "end": 15.416,
+   "tokens": [
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "果然",
+     "guǒ rán",
+     "sure enough; really; as expected",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "起",
+     "qǐ",
+     "to get up; to get (from a depot or counter); to rise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "大雨",
+     "dà yǔ",
+     "heavy rain",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to get rid of",
+     ""
+    ],
+    [
+     "找",
+     "zhǎo",
+     "to try to find; to find; to look for",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "却",
+     "què",
+     "but; yet; however",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+     ""
+    ],
+    [
+     "找不到",
+     "zhǎo bu dào",
+     "can't find",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他仔细回想了一下，记得在地铁上，手里一直握着一个长长的东西，一定是下车的时候把伞忘在座位上了。",
+   "py": "tā zǐ xì huí xiǎng le yí xià, jì de zài dì tiě shàng, shǒu lǐ yì zhí wò zhe yí gè cháng cháng de dōng xi, yí dìng shì xià chē de shí hou bǎ sǎn wàng zài zuò wèi shàng le.",
+   "en": "He thinks back carefully. He remembers holding something long in his hand the whole time on the subway; he must have left his umbrella on the seat when he got off.",
+   "tr": {
+    "am": "በጥንቃቄ አስታወሰ፤ በባቡሩ ውስጥ አንድ ረጅም ነገር በእጁ ይዞ እንደነበር ትዝ አለው፤ ሲወርድ ጃንጥላውን ወንበሩ ላይ ረስቶት መሆን አለበት።",
+    "fa": "با دقت فکرش رو برمی‌گردونه: یادش میاد کل راه تو مترو یه چیز کشیده تو دستش داشت؛ چترش حتماً موقع پیاده شدن جا مونده رو صندلی."
+   },
+   "start": 16.116,
+   "end": 26.556,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(bound form) other; another; some other (as in 他日 and 他人)",
+     ""
+    ],
+    [
+     "仔细",
+     "zǐ xì",
+     "careful; attentive; cautious; to be careful; to look out",
+     ""
+    ],
+    [
+     "回想",
+     "huí xiǎng",
+     "to think back; to recall; to recollect",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一下",
+     "yī xià",
+     "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "记得",
+     "jì de",
+     "to remember",
+     ""
+    ],
+    [
+     "在地",
+     "zài dì",
+     "(Tw) local; native (from Taiwanese 在地, Tai-lo pr. [tsāi-tē])",
+     ""
+    ],
+    [
+     "铁",
+     "tiě",
+     "iron (metal); arms; weapons",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "手里",
+     "shǒu lǐ",
+     "in hand; (a situation is) in sb's hands",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "握",
+     "wò",
+     "to hold; to grasp; (bound form) to have in one's control",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "长",
+     "cháng",
+     "long; (bound form) length; (bound form) strong point; forte",
+     ""
+    ],
+    [
+     "长",
+     "cháng",
+     "long; (bound form) length; (bound form) strong point; forte",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "下车",
+     "xià chē",
+     "to get off or out of (a bus, train, car etc)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "忘",
+     "wàng",
+     "to forget; to overlook; to neglect",
+     ""
+    ],
+    [
+     "在座",
+     "zài zuò",
+     "to be present",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "seat; position; location",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "那把伞是妈妈送他的生日礼物，用了好几年了，他很舍不得。",
+   "py": "nà bǎ sǎn shì mā ma sòng tā de shēng rì lǐ wù, yòng le hǎo jǐ nián le, tā hěn shě bu de.",
+   "en": "That umbrella was a birthday present from his mum, and he's had it for years. He can't bear to lose it.",
+   "tr": {
+    "am": "ያ ጃንጥላ እናቱ በልደቱ የሰጠችው ስጦታ ነው፤ ለብዙ ዓመታት ተጠቅሞበታል፤ ሊያጣው አልፈለገም።",
+    "fa": "اون چتر هدیه تولد مامانش بود و سال‌هاست دم دستشه؛ دلش نمیاد از دستش بده."
+   },
+   "start": 27.256,
+   "end": 33.64,
+   "tokens": [
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to give (as a present); to send; to deliver; to transmit",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "生日礼物",
+     "shēng rì lǐ wù",
+     "birthday gift",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "好几年",
+     "hǎo jǐ nián",
+     "several years",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "舍不得",
+     "shě bu de",
+     "to hate to do sth; to hate to part with; to begrudge",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "下了班，他冒着雨来到地铁站的失物招领处。",
+   "py": "xià le bān, tā mào zhe yǔ lái dào dì tiě zhàn de shī wù zhāo lǐng chù.",
+   "en": "After work, he braves the rain to go to the lost property office at the subway station.",
+   "tr": {
+    "am": "ከሥራ በኋላ ዝናቡን ተቋቁሞ በምድር ውስጥ ባቡር ጣቢያው ወዳለው የጠፉ ዕቃዎች ቢሮ ሄደ።",
+    "fa": "بعد از کار زیر بارون می‌ره اتاق اموال گمشده ایستگاه مترو."
+   },
+   "start": 34.34,
+   "end": 38.852,
+   "tokens": [
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "班",
+     "bān",
+     "work shift; team; class; grade; (military) squad",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "冒着",
+     "mào zhe",
+     "to brave; to face dangers",
+     ""
+    ],
+    [
+     "雨",
+     "yǔ",
+     "rain",
+     ""
+    ],
+    [
+     "来到",
+     "lái dào",
+     "to arrive; to come",
+     ""
+    ],
+    [
+     "地铁站",
+     "dì tiě zhàn",
+     "subway station",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "失物招领",
+     "shī wù zhāo lǐng",
+     "lost-and-found",
+     ""
+    ],
+    [
+     "处",
+     "chǔ",
+     "to reside; to live; to dwell",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "工作人员打开一个房间，小周吓了一跳：里面挂着几百把伞，大部分都是黑色的。",
+   "py": "gōng zuò rén yuán dǎ kāi yí gè fáng jiān, Xiǎo Zhōu xià le yí tiào: lǐ miàn guà zhe jǐ bǎi bǎ sǎn, dà bù fèn dōu shì hēi sè de.",
+   "en": "A staff member opens a room, and Xiao Zhou is startled: there are hundreds of umbrellas hanging inside, most of them black.",
+   "tr": {
+    "am": "ሠራተኛው አንድ ክፍል ከፈተ፤ ሺያው ጆው ደነገጠ፦ ውስጡ በመቶዎች የሚቆጠሩ ጃንጥላዎች ተንጠልጥለዋል፤ አብዛኞቹ ጥቁር ናቸው።",
+    "fa": "کارمند در یه اتاق رو باز می‌کنه و شیائو جو جا می‌خوره: صدها چتر آویزونن تو اون‌جا؛ اکثراً هم سیاه."
+   },
+   "start": 39.552,
+   "end": 48.072,
+   "tokens": [
+    [
+     "工作人员",
+     "gōng zuò rén yuán",
+     "staff member",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "房间",
+     "fáng jiān",
+     "room",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "吓",
+     "xià",
+     "to frighten; to scare",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "跳",
+     "tiào",
+     "to jump; to hop; to skip over",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "里面",
+     "lǐ miàn",
+     "inside; interior; also pr.",
+     ""
+    ],
+    [
+     "挂",
+     "guà",
+     "to hang; to suspend (from a hook etc)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "几",
+     "jǐ",
+     "how many; how much; several; a few",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "hundred; numerous; all kinds of",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大部分",
+     "dà bù fen",
+     "the greater part; the majority; most; Taiwan pr.",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "黑色",
+     "hēi sè",
+     "black",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "工作人员说：“一到下雨天，丢伞的人就特别多。您的伞有什么特征吗？”",
+   "py": "gōng zuò rén yuán shuō: “yí dào xià yǔ tiān, diū sǎn de rén jiù tè bié duō. nín de sǎn yǒu shén me tè zhēng ma?”",
+   "en": "The staff member says, \"Whenever it rains, lots of people lose umbrellas. Does yours have any distinguishing features?\"",
+   "tr": {
+    "am": "ሠራተኛው «ዝናብ በዘነበ ቁጥር ጃንጥላ የሚጠፋባቸው ሰዎች በጣም ብዙ ናቸው። የእርስዎ ጃንጥላ የተለየ ምልክት አለው?» አለ።",
+    "fa": "کارمند می‌گه: «هر بار که بارون میاد کلی آدم چتر جا می‌ذاره. چترتون نشونه‌ی خاصی داره؟»"
+   },
+   "start": 48.772,
+   "end": 56.332,
+   "tokens": [
+    [
+     "工作人员",
+     "gōng zuò rén yuán",
+     "staff member",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "下雨",
+     "xià yǔ",
+     "to rain",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "丢",
+     "diū",
+     "to lose; to put aside; to throw",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "特别",
+     "tè bié",
+     "unusual; special; very; especially; particularly",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "特征",
+     "tè zhēng",
+     "distinctive feature; characteristic; diagnostic property",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小周说：“黑色的，长柄，木头把手。”",
+   "py": "Xiǎo Zhōu shuō: “hēi sè de, cháng bǐng, mù tou bǎ shǒu.”",
+   "en": "Xiao Zhou says, \"Black, long, with a wooden handle.\"",
+   "tr": {
+    "am": "ሺያው ጆው «ጥቁር፣ ረጅም፣ የእንጨት እጀታ ያለው» አለ።",
+    "fa": "شیائو جو می‌گه: «سیاهه، درازه، دسته‌ش چوبیه.»"
+   },
+   "start": 57.032,
+   "end": 61.544,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "黑色",
+     "hēi sè",
+     "black",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "长柄",
+     "cháng bǐng",
+     "long handle; stem",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "木头",
+     "mù tou",
+     "wood; log; (fig.) blockhead; dolt",
+     ""
+    ],
+    [
+     "把手",
+     "bǎ shǒu",
+     "to shake hands",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "工作人员找了半天，拿出来七八把，每一把都差不多。",
+   "py": "gōng zuò rén yuán zhǎo le bàn tiān, ná chū lái qī bā bǎ, měi yì bǎ dōu chà bu duō.",
+   "en": "The staff member searches for ages and brings out seven or eight, all much the same.",
+   "tr": {
+    "am": "ሠራተኛው ለረጅም ጊዜ ፈልጎ ሰባት ስምንት አወጣ፤ ሁሉም ተመሳሳይ ናቸው።",
+    "fa": "کارمند کلی می‌گرده و هفت هشت تا میاره بیرون؛ همه هم تقریباً عین هم."
+   },
+   "start": 62.244,
+   "end": 67.716,
+   "tokens": [
+    [
+     "工作人员",
+     "gōng zuò rén yuán",
+     "staff member",
+     ""
+    ],
+    [
+     "找",
+     "zhǎo",
+     "to try to find; to look for; to call on sb",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "half of the day; a long time; quite a while",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每",
+     "měi",
+     "each; every",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "差不多",
+     "chà bu duō",
+     "about the same; almost; nearly",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小周一把一把地看，最后挑了一把，把手上有一道小小的划痕，他越看越眼熟。",
+   "py": "Xiǎo Zhōu yì bǎ yì bǎ de kàn, zuì hòu tiāo le yì bǎ, bǎ shǒu shàng yǒu yí dào xiǎo xiǎo de huà hén, tā yuè kàn yuè yǎn shú.",
+   "en": "Xiao Zhou looks at them one by one and finally picks one with a tiny scratch on the handle. The more he looks at it, the more familiar it seems.",
+   "tr": {
+    "am": "ሺያው ጆው አንድ በአንድ አየ፤ በመጨረሻ እጀታው ላይ ትንሽ ጭረት ያለበትን አንዱን መረጠ፤ ባየው ቁጥር የሚያውቀው መሰለው።",
+    "fa": "شیائو جو یکی‌یکی نگاهشون می‌کنه و بالاخره یکی رو برمی‌داره که یه خط کوچیک رو دسته‌شه؛ هرچی بیشتر نگاهش می‌کنه آشناتر می‌شه."
+   },
+   "start": 68.416,
+   "end": 78.136,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "tiny; small; few",
+     ""
+    ],
+    [
+     "周一",
+     "zhōu yī",
+     "Monday",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier for things with handles; handlebar",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier for things with handles; handlebar",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "最后",
+     "zuì hòu",
+     "final; last; ultimate; finally; in the end",
+     ""
+    ],
+    [
+     "挑",
+     "tiāo",
+     "to pick; to carry on a shoulder pole; to choose",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier for things with handles; handlebar",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "把手",
+     "bǎ shǒu",
+     "to shake hands",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一道",
+     "yī dào",
+     "together",
+     ""
+    ],
+    [
+     "小小",
+     "xiǎo xiǎo",
+     "very small; very few; very minor",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "划痕",
+     "huá hén",
+     "a scratch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "the more... the more; to exceed; to climb over",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "the more... the more; to exceed; to climb over",
+     ""
+    ],
+    [
+     "眼熟",
+     "yǎn shú",
+     "familiar-looking; to seem familiar",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他登记了名字和电话，高高兴兴地把伞带回了家。",
+   "py": "tā dēng jì le míng zi hé diàn huà, gāo gāo xìng xìng de bǎ sǎn dài huí le jiā.",
+   "en": "He registers his name and phone number and happily takes the umbrella home.",
+   "tr": {
+    "am": "ስሙንና ስልክ ቁጥሩን አስመዝግቦ ጃንጥላውን በደስታ ወደ ቤት ወሰደ።",
+    "fa": "اسم و شماره‌ش رو ثبت می‌کنه و خوشحال با چتر می‌ره خونه."
+   },
+   "start": 78.836,
+   "end": 84.044,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "登记",
+     "dēng jì",
+     "to register (one's name)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "名字",
+     "míng zi",
+     "name (of a person or thing)",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "phone call; phone number; telephone",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "高高兴兴",
+     "gāo gāo xìng xìng",
+     "cheerful and optimistic; in a good mood; gaily",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "带回",
+     "dài huí",
+     "to bring back; to take back with one",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一进家门，他就愣住了。",
+   "py": "yī jìn jiā mén, tā jiù lèng zhù le.",
+   "en": "As soon as he walks through the door, he freezes.",
+   "tr": {
+    "am": "ቤት እንደገባ ክው አለ።",
+    "fa": "تا در رو باز می‌کنه و می‌ره تو، می‌خشک می‌زنه."
+   },
+   "start": 84.744,
+   "end": 87.6,
+   "tokens": [
+    [
+     "一",
+     "yī",
+     "as soon as; entire; whole; all; throughout; one",
+     ""
+    ],
+    [
+     "进",
+     "jìn",
+     "classifier for sections in a building or residential compound",
+     ""
+    ],
+    [
+     "家门",
+     "jiā mén",
+     "house door; family clan",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a clause of action) as soon as; immediately after",
+     ""
+    ],
+    [
+     "愣",
+     "lèng",
+     "to look distracted; to stare blankly; distracted",
+     ""
+    ],
+    [
+     "住",
+     "zhù",
+     "to live; to reside; to stay; to stop; to cease",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "门后的挂钩上，挂着一把黑色的长柄伞，木头把手，干干的。",
+   "py": "mén hòu de guà gōu shàng, guà zhe yì bǎ hēi sè de cháng bǐng sǎn, mù tou bǎ shǒu, gàn gàn de.",
+   "en": "On the hook behind the door hangs a long black umbrella with a wooden handle, completely dry.",
+   "tr": {
+    "am": "ከበሩ ጀርባ ባለው መስቀያ ላይ ጥቁር ረጅም ጃንጥላ ተንጠልጥሏል፤ የእንጨት እጀታ ያለው፣ ደረቅ።",
+    "fa": "رو قلاب پشت در یه چتر بلند سیاه با دسته چوبی آویزونه؛ کاملاً خشک."
+   },
+   "start": 88.3,
+   "end": 95.404,
+   "tokens": [
+    [
+     "门",
+     "mén",
+     "gate; door; doorway; gateway; opening",
+     ""
+    ],
+    [
+     "后",
+     "hòu",
+     "behind; empress; queen",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "挂钩",
+     "guà gōu",
+     "to couple; to link; to hook together",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "挂",
+     "guà",
+     "to hang; to suspend (from a hook etc)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier for things with handles; handlebar",
+     ""
+    ],
+    [
+     "黑色",
+     "hēi sè",
+     "black",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "长柄",
+     "cháng bǐng",
+     "long handle; stem",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "木头",
+     "mù tou",
+     "wood; log; (fig.) blockhead; dolt",
+     ""
+    ],
+    [
+     "把手",
+     "bǎ shǒu",
+     "to shake hands",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "干",
+     "gān",
+     "dry; dried food; empty; hollow",
+     ""
+    ],
+    [
+     "干",
+     "gān",
+     "dry; dried food; empty; hollow",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "原来，他早上出门根本就没拿伞，在地铁上一直握着的，是他的保温杯。",
+   "py": "yuán lái, tā zǎo shang chū mén gēn běn jiù méi ná sǎn, zài dì tiě shàng yì zhí wò zhe de, shì tā de bǎo wēn bēi.",
+   "en": "It turns out he never took an umbrella when he left that morning. What he was holding the whole time on the subway was his thermos flask.",
+   "tr": {
+    "am": "ለካ ጠዋት ሲወጣ ጃንጥላ ጨርሶ አልያዘም ነበር፤ በባቡሩ ውስጥ ሙሉ ጊዜ የያዘው ቴርሞሱን ነበር።",
+    "fa": "معلوم می‌شه صبح که رفته بود اصلاً چتر برنداشته بود. اون چیزی که کل راه تو مترو تو دستش بود، فلاسک آب گرمش بود."
+   },
+   "start": 96.104,
+   "end": 103.448,
+   "tokens": [
+    [
+     "原来",
+     "yuán lái",
+     "so, actually, as it turns out; original; former",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "出门",
+     "chū mén",
+     "to go out; to leave home; to go on a journey",
+     ""
+    ],
+    [
+     "根本",
+     "gēn běn",
+     "fundamental; basic; root",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在地",
+     "zài dì",
+     "(Tw) local; native (from Taiwanese 在地, Tai-lo pr. [tsāi-tē])",
+     ""
+    ],
+    [
+     "铁",
+     "tiě",
+     "iron (metal); arms; weapons",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "握",
+     "wò",
+     "to hold; to grasp; to clench (one's fist)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "保温杯",
+     "bǎo wēn bēi",
+     "thermal insulation cup (or bottle)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小周看看门后的伞，又看看手里那把“找回来”的伞，忍不住笑出了声。",
+   "py": "Xiǎo Zhōu kàn kàn mén hòu de sǎn, yòu kàn kàn shǒu lǐ nà bǎ “zhǎo huí lái” de sǎn, rěn bu zhù xiào chū le shēng.",
+   "en": "Xiao Zhou looks at the umbrella behind the door, then at the one in his hand that he \"got back\", and can't help laughing out loud.",
+   "tr": {
+    "am": "ሺያው ጆው ከበሩ ጀርባ ያለውን ጃንጥላ፣ ቀጥሎም በእጁ ያለውን «የተገኘውን» ጃንጥላ አየና ሳቁን መቆጣጠር አልቻለም።",
+    "fa": "شیائو جو به چتر پشت در نگاه می‌کنه، بعد به اونی که تو دستشه و 'پس گرفته'، و نمی‌تونه جلوی خنده رو بگیره."
+   },
+   "start": 104.148,
+   "end": 111.06,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "to help financially; Zhou Dynasty (1046–256 BC)",
+     ""
+    ],
+    [
+     "看看",
+     "kàn kan",
+     "to take a look at; to examine; to survey",
+     ""
+    ],
+    [
+     "门",
+     "mén",
+     "gate; door; doorway; gateway; opening",
+     ""
+    ],
+    [
+     "后",
+     "hòu",
+     "back; behind; empress",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "看看",
+     "kàn kan",
+     "to take a look at; to examine; to survey",
+     ""
+    ],
+    [
+     "手里",
+     "shǒu lǐ",
+     "in hand; (a situation is) in sb's hands",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "找回",
+     "zhǎo huí",
+     "to retrieve",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "忍不住",
+     "rěn bu zhù",
+     "cannot help; unable to bear",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "出",
+     "chū",
+     "to go out; to come out; to arise; to occur",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "声",
+     "shēng",
+     "sound; voice; tone",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "第二天一早，他把伞送回了失物招领处，红着脸说明了情况。",
+   "py": "dì èr tiān yì zǎo, tā bǎ sǎn sòng huí le shī wù zhāo lǐng chù, hóng zhe liǎn shuō míng le qíng kuàng.",
+   "en": "Early the next morning, he takes the umbrella back to the lost property office and explains what happened, blushing.",
+   "tr": {
+    "am": "በማግስቱ ማለዳ ጃንጥላውን ወደ የጠፉ ዕቃዎች ቢሮ መለሰ፤ ፊቱ ቀልቶ ሁኔታውን አስረዳ።",
+    "fa": "فرداش اول صبح چتر رو برمی‌گردونه اتاق اموال گمشده و با صورت سرخ ماجرا رو تعریف می‌کنه."
+   },
+   "start": 111.76,
+   "end": 117.904,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "一早",
+     "yī zǎo",
+     "early in the morning; at dawn",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "失物招领",
+     "shī wù zhāo lǐng",
+     "lost-and-found",
+     ""
+    ],
+    [
+     "处",
+     "chǔ",
+     "to reside; to live; to dwell",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "脸",
+     "liǎn",
+     "face",
+     ""
+    ],
+    [
+     "说明",
+     "shuō míng",
+     "to explain; to illustrate; to indicate",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "情况",
+     "qíng kuàng",
+     "circumstances; state of affairs; situation",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "工作人员笑了：“没关系，这种事经常有。”",
+   "py": "gōng zuò rén yuán xiào le: “méi guān xi, zhè zhǒng shì jīng cháng yǒu.”",
+   "en": "The staff member laughs. \"Don't worry, this happens all the time.\"",
+   "tr": {
+    "am": "ሠራተኛው ሳቀ፦ «ችግር የለም፤ እንዲህ ያለ ነገር ብዙ ጊዜ ያጋጥማል።»",
+    "fa": "کارمند می‌خنده: «خیالت راحت؛ این جور ماجراها همه روزه.»"
+   },
+   "start": 118.604,
+   "end": 122.876,
+   "tokens": [
+    [
+     "工作人员",
+     "gōng zuò rén yuán",
+     "staff member",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "没关系",
+     "méi guān xi",
+     "it doesn't matter",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这种",
+     "zhè zhǒng",
+     "this kind of",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "matter; thing; item",
+     ""
+    ],
+    [
+     "经常",
+     "jīng cháng",
+     "frequently; constantly; regularly; often",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "话音刚落，一个年轻人急急忙忙地跑了进来：“请问，昨天有没有人送来一把黑色的长柄伞？木头把手，上面有一道划痕。”",
+   "py": "huà yīn gāng luò, yí gè nián qīng rén jí jí máng máng de pǎo le jìn lái: “qǐng wèn, zuó tiān yǒu méi yǒu rén sòng lái yì bǎ hēi sè de cháng bǐng sǎn? mù tou bǎ shǒu, shàng miàn yǒu yí dào huà hén.”",
+   "en": "No sooner has the staff member finished speaking than a young man rushes in. \"Excuse me, did anyone hand in a long black umbrella yesterday? Wooden handle, with a scratch on it.\"",
+   "tr": {
+    "am": "ገና ንግግሩን እንደጨረሰ አንድ ወጣት እየተጣደፈ ሮጦ ገባ፦ «ይቅርታ፣ ትናንት ጥቁር ረጅም ጃንጥላ ያመጣ ሰው አለ? የእንጨት እጀታ ያለው፣ ላዩ ላይ ጭረት ያለበት።»",
+    "fa": "هنوز حرف کارمند تموم نشده که یه جوون می‌پره تو: «ببخشید، دیروز کسی چتر بلند سیاهی اورده این‌جا؟ دسته چوبی، یه خط هم روشه.»"
+   },
+   "start": 123.576,
+   "end": 135.84,
+   "tokens": [
+    [
+     "话音",
+     "huà yīn",
+     "one's speaking voice; tone; implication",
+     ""
+    ],
+    [
+     "刚",
+     "gāng",
+     "(literary) hard; firm; strong; exactly; precisely",
+     ""
+    ],
+    [
+     "落",
+     "là",
+     "to leave out; to be missing",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "年轻人",
+     "nián qīng rén",
+     "young people; youngster",
+     ""
+    ],
+    [
+     "急急忙忙",
+     "jí jí máng máng",
+     "hurriedly",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "to run; to run away; to escape",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "进来",
+     "jìn lái",
+     "to come in",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "请问",
+     "qǐng wèn",
+     "Excuse me, may I ask...?",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "昨天",
+     "zuó tiān",
+     "yesterday",
+     ""
+    ],
+    [
+     "有没有",
+     "yǒu méi yǒu",
+     "(before a verb) Did (you, they etc) (verb, infinitive)?",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "as soon as; one; single",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "黑色",
+     "hēi sè",
+     "black",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "长柄",
+     "cháng bǐng",
+     "long handle; stem",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "木头",
+     "mù tou",
+     "wood; log; (fig.) blockhead; dolt",
+     ""
+    ],
+    [
+     "把手",
+     "bǎ shǒu",
+     "to shake hands",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "上面",
+     "shàng miàn",
+     "on top of; above-mentioned; also pr.",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一道",
+     "yī dào",
+     "together",
+     ""
+    ],
+    [
+     "划痕",
+     "huá hén",
+     "a scratch",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小周和工作人员对视了一眼，都笑了。",
+   "py": "Xiǎo Zhōu hé gōng zuò rén yuán duì shì le yì yǎn, dōu xiào le.",
+   "en": "Xiao Zhou and the staff member exchange a glance, and both of them laugh.",
+   "tr": {
+    "am": "ሺያው ጆውና ሠራተኛው ተያዩ፤ ሁለቱም ሳቁ።",
+    "fa": "شیائو جو و کارمند به همدیگه نگاه می‌کنن و هر دو می‌ترکن از خنده."
+   },
+   "start": 136.54,
+   "end": 140.812,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "工作人员",
+     "gōng zuò rén yuán",
+     "staff member",
+     ""
+    ],
+    [
+     "对视",
+     "duì shì",
+     "to look face to face",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一眼",
+     "yī yǎn",
+     "a glance; a quick look; a glimpse",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小周把伞递给他：“给，它昨天在我家住了一晚。”",
+   "py": "Xiǎo Zhōu bǎ sǎn dì gěi tā: “gěi, tā zuó tiān zài wǒ jiā zhù le yì wǎn.”",
+   "en": "Xiao Zhou hands it to him. \"Here you are. It spent last night at my place.\"",
+   "tr": {
+    "am": "ሺያው ጆው ጃንጥላውን ሰጠው፦ «ይኸውልህ፤ ትናንት ማታ እኔ ቤት አድሯል።»",
+    "fa": "شیائو جو چتر رو می‌ده دستش: «بفرما. دیروز شب مهمون من بود.»"
+   },
+   "start": 141.512,
+   "end": 146.72,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "递给",
+     "dì gěi",
+     "to hand it (i.e. the aforementioned item) to (sb)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "昨天",
+     "zuó tiān",
+     "yesterday",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "住",
+     "zhù",
+     "to live; to reside; to stay; to stop; to cease",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "晚",
+     "wǎn",
+     "night; evening; late",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 477,
+ "first": "天气预报说下午有雨，小周早上出门坐地铁去饭馆上班。",
+ "newWords": [
+  {
+   "w": "失物招领",
+   "py": "shī wù zhāo lǐng",
+   "en": "lost-and-found"
+  },
+  {
+   "w": "特征",
+   "py": "tèzhēng",
+   "en": "identifying quality or property"
+  },
+  {
+   "w": "登记",
+   "py": "dēngjì",
+   "en": "to officially record personal information"
+  },
+  {
+   "w": "眼熟",
+   "py": "yǎn shú",
+   "en": "familiar-looking"
+  },
+  {
+   "w": "话音刚落",
+   "py": "huà yīn gāng luò",
+   "en": "no sooner had (someone) finished speaking"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h6-20.mp3?v=1791721156"
 }

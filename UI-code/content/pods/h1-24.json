@@ -1,727 +1,737 @@
 {
-  "id": "h1-24",
-  "level": 1,
-  "no": 24,
-  "title": "谁吃了鱼？",
-  "title_py": "shéi chī le yú?",
-  "title_en": "Who ate the fish?",
-  "title_tr": {
-    "vi": "Ai ăn mất con cá?",
-    "pt": "Quem comeu o peixe?",
-    "es": "¿Quién se comió el pescado?",
-    "fr": "Qui a mangé le poisson ?",
-    "am": "ዓሣውን ማን በላው?",
-    "fa": "چه کسی ماهی را خورد؟"
+ "id": "h1-24",
+ "level": 1,
+ "no": 24,
+ "title": "谁吃了鱼？",
+ "title_py": "shéi chī le yú?",
+ "title_en": "Who ate the fish?",
+ "title_tr": {
+  "vi": "Ai ăn mất con cá?",
+  "pt": "Quem comeu o peixe?",
+  "es": "¿Quién se comió el pescado?",
+  "fr": "Qui a mangé le poisson ?",
+  "am": "ዓሣውን ማን በላው?",
+  "fa": "چه کسی ماهی را خورد؟"
+ },
+ "topic": "food",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-24.jpg",
+ "duration": 43.316,
+ "lines": [
+  {
+   "text": "星期六中午，山田在家做菜。",
+   "py": "xīng qī liù zhōng wǔ, Shān tián zài jiā zuò cài.",
+   "en": "At noon on Saturday, Yamada is cooking at home.",
+   "tr": {
+    "vi": "Trưa thứ Bảy, Yamada nấu ăn ở nhà.",
+    "pt": "No sábado ao meio-dia, a Yamada está cozinhando em casa.",
+    "es": "El sábado al mediodía, Yamada cocina en casa.",
+    "fr": "Samedi midi, Yamada cuisine à la maison.",
+    "am": "ቅዳሜ ቀትር ላይ ያማዳ ቤቷ ምግብ ትሠራ ነበር።",
+    "fa": "ظهر جمعه، یامادا توی خانه آشپزی می‌کند."
+   },
+   "start": 2.62,
+   "end": 6.436,
+   "tokens": [
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "在家",
+     "zài jiā",
+     "to be at home",
+     ""
+    ],
+    [
+     "做菜",
+     "zuò cài",
+     "to cook; cooking",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "food",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-24.jpg",
-  "duration": 43.316,
-  "lines": [
-    {
-      "text": "星期六中午，山田在家做菜。",
-      "py": "xīng qī liù zhōng wǔ, Shān tián zài jiā zuò cài.",
-      "en": "At noon on Saturday, Yamada is cooking at home.",
-      "tr": {
-        "vi": "Trưa thứ Bảy, Yamada nấu ăn ở nhà.",
-        "pt": "No sábado ao meio-dia, a Yamada está cozinhando em casa.",
-        "es": "El sábado al mediodía, Yamada cocina en casa.",
-        "fr": "Samedi midi, Yamada cuisine à la maison.",
-        "am": "ቅዳሜ ቀትር ላይ ያማዳ ቤቷ ምግብ ትሠራ ነበር።"
-      },
-      "start": 2.62,
-      "end": 6.436,
-      "tokens": [
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "在家",
-          "zài jiā",
-          "to be at home",
-          ""
-        ],
-        [
-          "做菜",
-          "zuò cài",
-          "to cook; cooking",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她做了鱼和米饭。鱼在桌子上。",
-      "py": "tā zuò le yú hé mǐ fàn. yú zài zhuō zi shàng.",
-      "en": "She makes fish and rice. The fish is on the table.",
-      "tr": {
-        "vi": "Cô ấy làm cá và cơm. Con cá ở trên bàn.",
-        "pt": "Ela faz peixe e arroz. O peixe está na mesa.",
-        "es": "Prepara pescado y arroz. El pescado está en la mesa.",
-        "fr": "Elle prépare du poisson et du riz. Le poisson est sur la table.",
-        "am": "ዓሣ እና ሩዝ ሠራች። ዓሣው ጠረጴዛው ላይ ነበር።"
-      },
-      "start": 7.136,
-      "end": 10.928,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "鱼",
-          "yú",
-          "fish",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "to make peace; (joining two nouns) and; together with; with",
-          ""
-        ],
-        [
-          "米饭",
-          "mǐ fàn",
-          "(cooked) rice",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "鱼",
-          "yú",
-          "fish",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "桌子",
-          "zhuō zi",
-          "table; desk",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这时候，安娜给她打电话。",
-      "py": "zhè shí hou, Ān nà gěi tā dǎ diàn huà.",
-      "en": "Just then, Anna phones her.",
-      "tr": {
-        "vi": "Đúng lúc đó, Anna gọi điện cho cô ấy.",
-        "pt": "Nessa hora, a Anna liga para ela.",
-        "es": "En ese momento, Anna la llama.",
-        "fr": "À ce moment-là, Anna l'appelle.",
-        "am": "በዚያን ጊዜ አና ደወለችላት።"
-      },
-      "start": 11.628,
-      "end": 14.748,
-      "tokens": [
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "候",
-          "hòu",
-          "to wait; to inquire after; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她们说了十分钟。",
-      "py": "tā men shuō le shí fēn zhōng.",
-      "en": "They talk for ten minutes.",
-      "tr": {
-        "vi": "Hai người nói chuyện mười phút.",
-        "pt": "Elas conversam por dez minutos.",
-        "es": "Hablan diez minutos.",
-        "fr": "Elles parlent pendant dix minutes.",
-        "am": "ለአሥር ደቂቃ አወሩ።"
-      },
-      "start": 15.448,
-      "end": 17.632,
-      "tokens": [
-        [
-          "她们",
-          "tā men",
-          "they; them (females)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "十分",
-          "shí fēn",
-          "to divide into ten equal parts; very; completely",
-          ""
-        ],
-        [
-          "钟",
-          "zhōng",
-          "handleless cup; goblet",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "山田看了看桌子：鱼没有了！",
-      "py": "Shān tián kàn le kàn zhuō zi: yú méi yǒu le!",
-      "en": "Yamada looks at the table. The fish is gone!",
-      "tr": {
-        "vi": "Yamada nhìn bàn: con cá biến mất rồi!",
-        "pt": "A Yamada olha a mesa: o peixe sumiu!",
-        "es": "Yamada mira la mesa: ¡el pescado ya no está!",
-        "fr": "Yamada regarde la table : le poisson a disparu !",
-        "am": "ያማዳ ጠረጴዛውን አየች፤ ዓሣው የለም!"
-      },
-      "start": 18.332,
-      "end": 22.388,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "桌子",
-          "zhuō zi",
-          "table; desk",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "鱼",
-          "yú",
-          "fish",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    },
-    {
-      "text": "“谁吃了我的鱼？”",
-      "py": "“shéi chī le wǒ de yú?”",
-      "en": "\"Who ate my fish?\"",
-      "tr": {
-        "vi": "“Ai ăn cá của mình rồi?”",
-        "pt": "“Quem comeu o meu peixe?”",
-        "es": "«¿Quién se comió mi pescado?»",
-        "fr": "« Qui a mangé mon poisson ? »",
-        "am": "«ዓሣዬን ማን በላው?»"
-      },
-      "start": 23.088,
-      "end": 25.488,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "谁",
-          "shéi",
-          "who; also pr.",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "鱼",
-          "yú",
-          "fish",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "她的猫米米坐在椅子上。",
-      "py": "tā de māo Mǐ mi zuò zài yǐ zi shàng.",
-      "en": "Her cat Mimi is sitting on a chair.",
-      "tr": {
-        "vi": "Con mèo Mễ Mễ của cô ấy đang ngồi trên ghế.",
-        "pt": "A gata dela, a Mimi, está sentada numa cadeira.",
-        "es": "Su gata Mimi está sentada en una silla.",
-        "fr": "Sa chatte Mimi est assise sur une chaise.",
-        "am": "ድመቷ ሚሚ ወንበር ላይ ተቀምጣ ነበር።"
-      },
-      "start": 26.188,
-      "end": 29.044,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "猫",
-          "māo",
-          "cat; (dialect) to hide oneself; (loanword) (coll.) modem",
-          ""
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "椅子",
-          "yǐ zi",
-          "chair",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“米米，是你吗？”",
-      "py": "“Mǐ mi, shì nǐ ma?”",
-      "en": "\"Mimi, was it you?\"",
-      "tr": {
-        "vi": "“Mễ Mễ, có phải em không?”",
-        "pt": "“Mimi, foi você?”",
-        "es": "«Mimi, ¿fuiste tú?»",
-        "fr": "« Mimi, c'est toi ? »",
-        "am": "«ሚሚ፣ አንቺ ነሽ?»"
-      },
-      "start": 29.744,
-      "end": 32.144,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "米米看了看山田，很高兴。",
-      "py": "Mǐ mi kàn le kàn Shān tián, hěn gāo xìng.",
-      "en": "Mimi looks at Yamada, looking very pleased with herself.",
-      "tr": {
-        "vi": "Mễ Mễ nhìn Yamada, trông rất đắc ý.",
-        "pt": "A Mimi olha para a Yamada, toda contente.",
-        "es": "Mimi mira a Yamada, muy contenta.",
-        "fr": "Mimi regarde Yamada, l'air très contente.",
-        "am": "ሚሚ ያማዳን አየቻት፤ በጣም ደስተኛ ትመስል ነበር።"
-      },
-      "start": 32.844,
-      "end": 36.444,
-      "tokens": [
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "山田笑了：“好吧，今天你吃鱼，我吃米饭！”",
-      "py": "Shān tián xiào le: “hǎo ba, jīn tiān nǐ chī yú, wǒ chī mǐ fàn!”",
-      "en": "Yamada laughs. \"Fine. Today you get the fish, and I get the rice!\"",
-      "tr": {
-        "vi": "Yamada cười: “Thôi được, hôm nay em ăn cá, chị ăn cơm!”",
-        "pt": "A Yamada ri: “Está bem, hoje você come o peixe e eu como o arroz!”",
-        "es": "Yamada se ríe: «Bueno, ¡hoy tú comes pescado y yo como arroz!»",
-        "fr": "Yamada rit : « Bon, d'accord. Aujourd'hui, toi, tu manges le poisson, et moi, le riz ! »",
-        "am": "ያማዳ ሳቀች። «እሺ፣ ዛሬ አንቺ ዓሣ ብዪ፤ እኔ ሩዝ እበላለሁ!»"
-      },
-      "start": 37.144,
-      "end": 42.616,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "鱼",
-          "yú",
-          "fish",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "米饭",
-          "mǐ fàn",
-          "(cooked) rice",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 97,
-  "first": "星期六中午，山田在家做菜。",
-  "newWords": [
-    {
-      "w": "鱼",
-      "py": "yú",
-      "en": "fish"
-    },
-    {
-      "w": "给",
-      "py": "gěi",
-      "en": "to give"
-    },
-    {
-      "w": "吧",
-      "py": "ba",
-      "en": "suggestion particle"
-    },
-    {
-      "w": "笑",
-      "py": "xiào",
-      "en": "to smile"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-24.mp3?v=1791720593"
+  {
+   "text": "她做了鱼和米饭。鱼在桌子上。",
+   "py": "tā zuò le yú hé mǐ fàn. yú zài zhuō zi shàng.",
+   "en": "She makes fish and rice. The fish is on the table.",
+   "tr": {
+    "vi": "Cô ấy làm cá và cơm. Con cá ở trên bàn.",
+    "pt": "Ela faz peixe e arroz. O peixe está na mesa.",
+    "es": "Prepara pescado y arroz. El pescado está en la mesa.",
+    "fr": "Elle prépare du poisson et du riz. Le poisson est sur la table.",
+    "am": "ዓሣ እና ሩዝ ሠራች። ዓሣው ጠረጴዛው ላይ ነበር።",
+    "fa": "ماهی و برنج درست می‌کند. ماهی روی میزه."
+   },
+   "start": 7.136,
+   "end": 10.928,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "鱼",
+     "yú",
+     "fish",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "to make peace; (joining two nouns) and; together with; with",
+     ""
+    ],
+    [
+     "米饭",
+     "mǐ fàn",
+     "(cooked) rice",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "鱼",
+     "yú",
+     "fish",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "桌子",
+     "zhuō zi",
+     "table; desk",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这时候，安娜给她打电话。",
+   "py": "zhè shí hou, Ān nà gěi tā dǎ diàn huà.",
+   "en": "Just then, Anna phones her.",
+   "tr": {
+    "vi": "Đúng lúc đó, Anna gọi điện cho cô ấy.",
+    "pt": "Nessa hora, a Anna liga para ela.",
+    "es": "En ese momento, Anna la llama.",
+    "fr": "À ce moment-là, Anna l'appelle.",
+    "am": "በዚያን ጊዜ አና ደወለችላት።",
+    "fa": "در همین حین آنا بهش زنگ می‌زند."
+   },
+   "start": 11.628,
+   "end": 14.748,
+   "tokens": [
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "候",
+     "hòu",
+     "to wait; to inquire after; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她们说了十分钟。",
+   "py": "tā men shuō le shí fēn zhōng.",
+   "en": "They talk for ten minutes.",
+   "tr": {
+    "vi": "Hai người nói chuyện mười phút.",
+    "pt": "Elas conversam por dez minutos.",
+    "es": "Hablan diez minutos.",
+    "fr": "Elles parlent pendant dix minutes.",
+    "am": "ለአሥር ደቂቃ አወሩ።",
+    "fa": "ده دقیقه با هم حرف می‌زنند."
+   },
+   "start": 15.448,
+   "end": 17.632,
+   "tokens": [
+    [
+     "她们",
+     "tā men",
+     "they; them (females)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "十分",
+     "shí fēn",
+     "to divide into ten equal parts; very; completely",
+     ""
+    ],
+    [
+     "钟",
+     "zhōng",
+     "handleless cup; goblet",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "山田看了看桌子：鱼没有了！",
+   "py": "Shān tián kàn le kàn zhuō zi: yú méi yǒu le!",
+   "en": "Yamada looks at the table. The fish is gone!",
+   "tr": {
+    "vi": "Yamada nhìn bàn: con cá biến mất rồi!",
+    "pt": "A Yamada olha a mesa: o peixe sumiu!",
+    "es": "Yamada mira la mesa: ¡el pescado ya no está!",
+    "fr": "Yamada regarde la table : le poisson a disparu !",
+    "am": "ያማዳ ጠረጴዛውን አየች፤ ዓሣው የለም!",
+    "fa": "یامادا نگاهی به میز می‌اندازد: ماهی پر شده!"
+   },
+   "start": 18.332,
+   "end": 22.388,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "桌子",
+     "zhuō zi",
+     "table; desk",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "鱼",
+     "yú",
+     "fish",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  },
+  {
+   "text": "“谁吃了我的鱼？”",
+   "py": "“shéi chī le wǒ de yú?”",
+   "en": "\"Who ate my fish?\"",
+   "tr": {
+    "vi": "“Ai ăn cá của mình rồi?”",
+    "pt": "“Quem comeu o meu peixe?”",
+    "es": "«¿Quién se comió mi pescado?»",
+    "fr": "« Qui a mangé mon poisson ? »",
+    "am": "«ዓሣዬን ማን በላው?»",
+    "fa": "«کی ماهی منو خورد؟»"
+   },
+   "start": 23.088,
+   "end": 25.488,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "谁",
+     "shéi",
+     "who; also pr.",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "鱼",
+     "yú",
+     "fish",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "她的猫米米坐在椅子上。",
+   "py": "tā de māo Mǐ mi zuò zài yǐ zi shàng.",
+   "en": "Her cat Mimi is sitting on a chair.",
+   "tr": {
+    "vi": "Con mèo Mễ Mễ của cô ấy đang ngồi trên ghế.",
+    "pt": "A gata dela, a Mimi, está sentada numa cadeira.",
+    "es": "Su gata Mimi está sentada en una silla.",
+    "fr": "Sa chatte Mimi est assise sur une chaise.",
+    "am": "ድመቷ ሚሚ ወንበር ላይ ተቀምጣ ነበር።",
+    "fa": "گربه‌اش میمی روی صندلی نشسته."
+   },
+   "start": 26.188,
+   "end": 29.044,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "猫",
+     "māo",
+     "cat; (dialect) to hide oneself; (loanword) (coll.) modem",
+     ""
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "椅子",
+     "yǐ zi",
+     "chair",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“米米，是你吗？”",
+   "py": "“Mǐ mi, shì nǐ ma?”",
+   "en": "\"Mimi, was it you?\"",
+   "tr": {
+    "vi": "“Mễ Mễ, có phải em không?”",
+    "pt": "“Mimi, foi você?”",
+    "es": "«Mimi, ¿fuiste tú?»",
+    "fr": "« Mimi, c'est toi ? »",
+    "am": "«ሚሚ፣ አንቺ ነሽ?»",
+    "fa": "«میمی، خودت بودی؟»"
+   },
+   "start": 29.744,
+   "end": 32.144,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "米米看了看山田，很高兴。",
+   "py": "Mǐ mi kàn le kàn Shān tián, hěn gāo xìng.",
+   "en": "Mimi looks at Yamada, looking very pleased with herself.",
+   "tr": {
+    "vi": "Mễ Mễ nhìn Yamada, trông rất đắc ý.",
+    "pt": "A Mimi olha para a Yamada, toda contente.",
+    "es": "Mimi mira a Yamada, muy contenta.",
+    "fr": "Mimi regarde Yamada, l'air très contente.",
+    "am": "ሚሚ ያማዳን አየቻት፤ በጣም ደስተኛ ትመስል ነበር።",
+    "fa": "میمی به یامادا نگاه می‌کند؛ انگار خیلی هم از کارش راضیه."
+   },
+   "start": 32.844,
+   "end": 36.444,
+   "tokens": [
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "山田笑了：“好吧，今天你吃鱼，我吃米饭！”",
+   "py": "Shān tián xiào le: “hǎo ba, jīn tiān nǐ chī yú, wǒ chī mǐ fàn!”",
+   "en": "Yamada laughs. \"Fine. Today you get the fish, and I get the rice!\"",
+   "tr": {
+    "vi": "Yamada cười: “Thôi được, hôm nay em ăn cá, chị ăn cơm!”",
+    "pt": "A Yamada ri: “Está bem, hoje você come o peixe e eu como o arroz!”",
+    "es": "Yamada se ríe: «Bueno, ¡hoy tú comes pescado y yo como arroz!»",
+    "fr": "Yamada rit : « Bon, d'accord. Aujourd'hui, toi, tu manges le poisson, et moi, le riz ! »",
+    "am": "ያማዳ ሳቀች። «እሺ፣ ዛሬ አንቺ ዓሣ ብዪ፤ እኔ ሩዝ እበላለሁ!»",
+    "fa": "یامادا می‌خندد: «باشه بابا، امروز تو ماهی بخور، من برنج!»"
+   },
+   "start": 37.144,
+   "end": 42.616,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "鱼",
+     "yú",
+     "fish",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "米饭",
+     "mǐ fàn",
+     "(cooked) rice",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 97,
+ "first": "星期六中午，山田在家做菜。",
+ "newWords": [
+  {
+   "w": "鱼",
+   "py": "yú",
+   "en": "fish"
+  },
+  {
+   "w": "给",
+   "py": "gěi",
+   "en": "to give"
+  },
+  {
+   "w": "吧",
+   "py": "ba",
+   "en": "suggestion particle"
+  },
+  {
+   "w": "笑",
+   "py": "xiào",
+   "en": "to smile"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-24.mp3?v=1791720593"
 }

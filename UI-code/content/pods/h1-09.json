@@ -1,474 +1,481 @@
 {
-  "id": "h1-09",
-  "level": 1,
-  "no": 9,
-  "title": "看电影",
-  "title_py": "kàn diàn yǐng",
-  "title_en": "At the cinema",
-  "title_tr": {
-    "vi": "Đi xem phim",
-    "pt": "No cinema",
-    "fr": "Au cinéma",
-    "es": "En el cine",
-    "am": "ፊልም ማየት",
-    "fa": "در سینما"
+ "id": "h1-09",
+ "level": 1,
+ "no": 9,
+ "title": "看电影",
+ "title_py": "kàn diàn yǐng",
+ "title_en": "At the cinema",
+ "title_tr": {
+  "vi": "Đi xem phim",
+  "pt": "No cinema",
+  "fr": "Au cinéma",
+  "es": "En el cine",
+  "am": "ፊልም ማየት",
+  "fa": "در سینما"
+ },
+ "topic": "out",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-09.jpg",
+ "duration": 27.848,
+ "lines": [
+  {
+   "text": "星期五晚上，王明和小周去看电影。",
+   "py": "xīng qī wǔ wǎn shang, Wáng Míng hé Xiǎo Zhōu qù kàn diàn yǐng.",
+   "en": "On Friday evening, Wang Ming and Xiao Zhou go to see a film.",
+   "tr": {
+    "vi": "Tối thứ Sáu, Vương Minh và Tiểu Chu đi xem phim.",
+    "pt": "Na sexta à noite, o Wang Ming e o Xiao Zhou vão ao cinema.",
+    "fr": "Vendredi soir, Wang Ming et Xiao Zhou vont voir un film.",
+    "es": "El viernes por la noche, Wang Ming y Xiao Zhou van a ver una película.",
+    "am": "ዓርብ ምሽት ዋንግ ሚንግ እና ሺያው ጆው ፊልም ለማየት ሄዱ።",
+    "fa": "جمعه شب، وانگ مینگ و شیائو جو می‌روند سینما."
+   },
+   "start": 2.62,
+   "end": 6.892,
+   "tokens": [
+    [
+     "星期五",
+     "xīng qī wǔ",
+     "Friday",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "电影",
+     "diàn yǐng",
+     "movie; film",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "out",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-09.jpg",
-  "duration": 27.848,
-  "lines": [
-    {
-      "text": "星期五晚上，王明和小周去看电影。",
-      "py": "xīng qī wǔ wǎn shang, Wáng Míng hé Xiǎo Zhōu qù kàn diàn yǐng.",
-      "en": "On Friday evening, Wang Ming and Xiao Zhou go to see a film.",
-      "tr": {
-        "vi": "Tối thứ Sáu, Vương Minh và Tiểu Chu đi xem phim.",
-        "pt": "Na sexta à noite, o Wang Ming e o Xiao Zhou vão ao cinema.",
-        "fr": "Vendredi soir, Wang Ming et Xiao Zhou vont voir un film.",
-        "es": "El viernes por la noche, Wang Ming y Xiao Zhou van a ver una película.",
-        "am": "ዓርብ ምሽት ዋንግ ሚንግ እና ሺያው ጆው ፊልም ለማየት ሄዱ።"
-      },
-      "start": 2.62,
-      "end": 6.892,
-      "tokens": [
-        [
-          "星期五",
-          "xīng qī wǔ",
-          "Friday",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "电影",
-          "diàn yǐng",
-          "movie; film",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "电影七点开始。",
-      "py": "diàn yǐng qī diǎn kāi shǐ.",
-      "en": "The film starts at seven.",
-      "tr": {
-        "vi": "Phim bắt đầu lúc bảy giờ.",
-        "pt": "O filme começa às sete.",
-        "fr": "Le film commence à sept heures.",
-        "es": "La película empieza a las siete.",
-        "am": "ፊልሙ 7:00 ላይ ይጀምራል።"
-      },
-      "start": 7.592,
-      "end": 9.776,
-      "tokens": [
-        [
-          "电影",
-          "diàn yǐng",
-          "movie; film",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "点开",
-          "diǎn kāi",
-          "(computing) to open (a link, file etc) by clicking or tapping",
-          ""
-        ],
-        [
-          "始",
-          "shǐ",
-          "to start; to begin; then",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他们六点五十就到了。",
-      "py": "tā men liù diǎn wǔ shí jiù dào le.",
-      "en": "They are there by ten to seven.",
-      "tr": {
-        "vi": "Sáu giờ năm mươi họ đã đến rồi.",
-        "pt": "Eles já chegam às dez para as sete.",
-        "fr": "Ils sont là dès sept heures moins dix.",
-        "es": "Llegan ya a las siete menos diez.",
-        "am": "እነሱ 6:50 ላይ ደረሱ።"
-      },
-      "start": 10.476,
-      "end": 12.636,
-      "tokens": [
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "五十",
-          "wǔ shí",
-          "fifty",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小周说：“你想喝什么？”",
-      "py": "Xiǎo Zhōu shuō: “nǐ xiǎng hē shén me?”",
-      "en": "Xiao Zhou says, \"What would you like to drink?\"",
-      "tr": {
-        "vi": "Tiểu Chu nói: “Cậu muốn uống gì?”",
-        "pt": "O Xiao Zhou diz: “O que você quer beber?”",
-        "fr": "Xiao Zhou dit : « Tu veux boire quoi ? »",
-        "es": "Xiao Zhou dice: «¿Qué quieres beber?»",
-        "am": "ሺያው ጆው «ምን መጠጣት ትፈልጋለህ?» አለ።"
-      },
-      "start": 13.336,
-      "end": 16.192,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我想喝水。”",
-      "py": "“wǒ xiǎng hē shuǐ.”",
-      "en": "\"I'd like some water.\"",
-      "tr": {
-        "vi": "“Mình muốn uống nước.”",
-        "pt": "“Quero água.”",
-        "fr": "« De l’eau. »",
-        "es": "«Quiero agua.»",
-        "am": "«ውሃ መጠጣት እፈልጋለሁ።»"
-      },
-      "start": 16.892,
-      "end": 19.076,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "电影很好看，他们都笑了。",
-      "py": "diàn yǐng hěn hǎo kàn, tā men dōu xiào le.",
-      "en": "The film is very good, and they both laugh.",
-      "tr": {
-        "vi": "Bộ phim rất hay, cả hai đều cười.",
-        "pt": "O filme é muito bom, e os dois riem.",
-        "fr": "Le film est très bien, et ils rient tous les deux.",
-        "es": "La película es muy buena y los dos se ríen.",
-        "am": "ፊልሙ በጣም ጥሩ ነበር፤ ሁለቱም ሳቁ።"
-      },
-      "start": 19.776,
-      "end": 22.632,
-      "tokens": [
-        [
-          "电影",
-          "diàn yǐng",
-          "movie; film",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "好看",
-          "hǎo kàn",
-          "good-looking; nice-looking",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "九点，他们坐出租车回家了。",
-      "py": "jiǔ diǎn, tā men zuò chū zū chē huí jiā le.",
-      "en": "At nine, they take a taxi home.",
-      "tr": {
-        "vi": "Chín giờ, họ đi taxi về nhà.",
-        "pt": "Às nove, eles voltam para casa de táxi.",
-        "fr": "À neuf heures, ils rentrent en taxi.",
-        "es": "A las nueve, vuelven a casa en taxi.",
-        "am": "9:00 ላይ በታክሲ ወደ ቤት ተመለሱ።"
-      },
-      "start": 23.332,
-      "end": 27.148,
-      "tokens": [
-        [
-          "九",
-          "jiǔ",
-          "nine; 9",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to take a seat; to take (a bus, airplane etc); to sit",
-          ""
-        ],
-        [
-          "出租车",
-          "chū zū chē",
-          "taxi; (Tw) rental car",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 62,
-  "first": "星期五晚上，王明和小周去看电影。",
-  "newWords": [
-    {
-      "w": "晚上",
-      "py": "wǎnshang",
-      "en": "evening"
-    },
-    {
-      "w": "开始",
-      "py": "kāishǐ",
-      "en": "to start"
-    },
-    {
-      "w": "就",
-      "py": "jiù",
-      "en": "then"
-    },
-    {
-      "w": "到",
-      "py": "dào",
-      "en": "to arrive"
-    },
-    {
-      "w": "笑",
-      "py": "xiào",
-      "en": "to smile"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-09.mp3?v=1791594987"
+  {
+   "text": "电影七点开始。",
+   "py": "diàn yǐng qī diǎn kāi shǐ.",
+   "en": "The film starts at seven.",
+   "tr": {
+    "vi": "Phim bắt đầu lúc bảy giờ.",
+    "pt": "O filme começa às sete.",
+    "fr": "Le film commence à sept heures.",
+    "es": "La película empieza a las siete.",
+    "am": "ፊልሙ 7:00 ላይ ይጀምራል።",
+    "fa": "فیلم ساعت هفت شروع می‌شود."
+   },
+   "start": 7.592,
+   "end": 9.776,
+   "tokens": [
+    [
+     "电影",
+     "diàn yǐng",
+     "movie; film",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "点开",
+     "diǎn kāi",
+     "(computing) to open (a link, file etc) by clicking or tapping",
+     ""
+    ],
+    [
+     "始",
+     "shǐ",
+     "to start; to begin; then",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他们六点五十就到了。",
+   "py": "tā men liù diǎn wǔ shí jiù dào le.",
+   "en": "They are there by ten to seven.",
+   "tr": {
+    "vi": "Sáu giờ năm mươi họ đã đến rồi.",
+    "pt": "Eles já chegam às dez para as sete.",
+    "fr": "Ils sont là dès sept heures moins dix.",
+    "es": "Llegan ya a las siete menos diez.",
+    "am": "እነሱ 6:50 ላይ ደረሱ።",
+    "fa": "آن‌ها رأس ساعت شش و نیم آنجا هستند."
+   },
+   "start": 10.476,
+   "end": 12.636,
+   "tokens": [
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "五十",
+     "wǔ shí",
+     "fifty",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小周说：“你想喝什么？”",
+   "py": "Xiǎo Zhōu shuō: “nǐ xiǎng hē shén me?”",
+   "en": "Xiao Zhou says, \"What would you like to drink?\"",
+   "tr": {
+    "vi": "Tiểu Chu nói: “Cậu muốn uống gì?”",
+    "pt": "O Xiao Zhou diz: “O que você quer beber?”",
+    "fr": "Xiao Zhou dit : « Tu veux boire quoi ? »",
+    "es": "Xiao Zhou dice: «¿Qué quieres beber?»",
+    "am": "ሺያው ጆው «ምን መጠጣት ትፈልጋለህ?» አለ።",
+    "fa": "شیائو جو می‌گوید: «چی بنوشی؟»"
+   },
+   "start": 13.336,
+   "end": 16.192,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我想喝水。”",
+   "py": "“wǒ xiǎng hē shuǐ.”",
+   "en": "\"I'd like some water.\"",
+   "tr": {
+    "vi": "“Mình muốn uống nước.”",
+    "pt": "“Quero água.”",
+    "fr": "« De l’eau. »",
+    "es": "«Quiero agua.»",
+    "am": "«ውሃ መጠጣት እፈልጋለሁ።»",
+    "fa": "«می‌خوام آب بخورم.»"
+   },
+   "start": 16.892,
+   "end": 19.076,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "电影很好看，他们都笑了。",
+   "py": "diàn yǐng hěn hǎo kàn, tā men dōu xiào le.",
+   "en": "The film is very good, and they both laugh.",
+   "tr": {
+    "vi": "Bộ phim rất hay, cả hai đều cười.",
+    "pt": "O filme é muito bom, e os dois riem.",
+    "fr": "Le film est très bien, et ils rient tous les deux.",
+    "es": "La película es muy buena y los dos se ríen.",
+    "am": "ፊልሙ በጣም ጥሩ ነበር፤ ሁለቱም ሳቁ።",
+    "fa": "فیلم خیلی خوب است و هر دو می‌خندند."
+   },
+   "start": 19.776,
+   "end": 22.632,
+   "tokens": [
+    [
+     "电影",
+     "diàn yǐng",
+     "movie; film",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "好看",
+     "hǎo kàn",
+     "good-looking; nice-looking",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "九点，他们坐出租车回家了。",
+   "py": "jiǔ diǎn, tā men zuò chū zū chē huí jiā le.",
+   "en": "At nine, they take a taxi home.",
+   "tr": {
+    "vi": "Chín giờ, họ đi taxi về nhà.",
+    "pt": "Às nove, eles voltam para casa de táxi.",
+    "fr": "À neuf heures, ils rentrent en taxi.",
+    "es": "A las nueve, vuelven a casa en taxi.",
+    "am": "9:00 ላይ በታክሲ ወደ ቤት ተመለሱ።",
+    "fa": "ساعت نه با تاکسی برمی‌گردند خانه."
+   },
+   "start": 23.332,
+   "end": 27.148,
+   "tokens": [
+    [
+     "九",
+     "jiǔ",
+     "nine; 9",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to take a seat; to take (a bus, airplane etc); to sit",
+     ""
+    ],
+    [
+     "出租车",
+     "chū zū chē",
+     "taxi; (Tw) rental car",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 62,
+ "first": "星期五晚上，王明和小周去看电影。",
+ "newWords": [
+  {
+   "w": "晚上",
+   "py": "wǎnshang",
+   "en": "evening"
+  },
+  {
+   "w": "开始",
+   "py": "kāishǐ",
+   "en": "to start"
+  },
+  {
+   "w": "就",
+   "py": "jiù",
+   "en": "then"
+  },
+  {
+   "w": "到",
+   "py": "dào",
+   "en": "to arrive"
+  },
+  {
+   "w": "笑",
+   "py": "xiào",
+   "en": "to smile"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-09.mp3?v=1791594987"
 }

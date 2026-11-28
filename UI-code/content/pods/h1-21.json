@@ -1,767 +1,776 @@
 {
-  "id": "h1-21",
-  "level": 1,
-  "no": 21,
-  "title": "白衣服红了",
-  "title_py": "bái yī fu hóng le",
-  "title_en": "The white clothes turn red",
-  "title_tr": {
-    "vi": "Áo trắng thành đỏ",
-    "pt": "A roupa branca ficou vermelha",
-    "es": "La ropa blanca se volvió roja",
-    "fr": "Les vêtements blancs deviennent rouges",
-    "am": "ነጩ ልብስ ቀላ",
-    "fa": "لباس سفید قرمز شد"
+ "id": "h1-21",
+ "level": 1,
+ "no": 21,
+ "title": "白衣服红了",
+ "title_py": "bái yī fu hóng le",
+ "title_en": "The white clothes turn red",
+ "title_tr": {
+  "vi": "Áo trắng thành đỏ",
+  "pt": "A roupa branca ficou vermelha",
+  "es": "La ropa blanca se volvió roja",
+  "fr": "Les vêtements blancs deviennent rouges",
+  "am": "ነጩ ልብስ ቀላ",
+  "fa": "لباس سفید قرمز شد"
+ },
+ "topic": "daily",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-21.jpg",
+ "duration": 49.552,
+ "lines": [
+  {
+   "text": "星期六上午，杰克在家洗衣服。",
+   "py": "xīng qī liù shàng wǔ, Jié kè zài jiā xǐ yī fu.",
+   "en": "On Saturday morning, Jack is doing his washing at home.",
+   "tr": {
+    "vi": "Sáng thứ Bảy, Jack giặt quần áo ở nhà.",
+    "pt": "No sábado de manhã, o Jack está lavando roupa em casa.",
+    "es": "El sábado por la mañana, Jack lava la ropa en casa.",
+    "fr": "Samedi matin, Jack fait sa lessive à la maison.",
+    "am": "ቅዳሜ ጠዋት ጃክ ቤቱ ልብስ ያጥብ ነበር።",
+    "fa": "صبح جمعه، جک توی خانه دارد لباس می‌شوید."
+   },
+   "start": 2.404,
+   "end": 6.484,
+   "tokens": [
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "上午",
+     "shàng wǔ",
+     "morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "在家",
+     "zài jiā",
+     "to be at home",
+     ""
+    ],
+    [
+     "洗衣",
+     "xǐ yī",
+     "laundry",
+     ""
+    ],
+    [
+     "服",
+     "fú",
+     "clothes; dress; garment",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "daily",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-21.jpg",
-  "duration": 49.552,
-  "lines": [
-    {
-      "text": "星期六上午，杰克在家洗衣服。",
-      "py": "xīng qī liù shàng wǔ, Jié kè zài jiā xǐ yī fu.",
-      "en": "On Saturday morning, Jack is doing his washing at home.",
-      "tr": {
-        "vi": "Sáng thứ Bảy, Jack giặt quần áo ở nhà.",
-        "pt": "No sábado de manhã, o Jack está lavando roupa em casa.",
-        "es": "El sábado por la mañana, Jack lava la ropa en casa.",
-        "fr": "Samedi matin, Jack fait sa lessive à la maison.",
-        "am": "ቅዳሜ ጠዋት ጃክ ቤቱ ልብስ ያጥብ ነበር።"
-      },
-      "start": 2.404,
-      "end": 6.484,
-      "tokens": [
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "上午",
-          "shàng wǔ",
-          "morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "在家",
-          "zài jiā",
-          "to be at home",
-          ""
-        ],
-        [
-          "洗衣",
-          "xǐ yī",
-          "laundry",
-          ""
-        ],
-        [
-          "服",
-          "fú",
-          "clothes; dress; garment",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他洗了很多白衣服，也洗了红衣服。",
-      "py": "tā xǐ le hěn duō bái yī fu, yě xǐ le hóng yī fu.",
-      "en": "He washes lots of white clothes, and some red clothes too.",
-      "tr": {
-        "vi": "Anh ấy giặt rất nhiều quần áo trắng, còn giặt cả quần áo đỏ.",
-        "pt": "Ele lava muita roupa branca e também um pouco de roupa vermelha.",
-        "es": "Lava mucha ropa blanca, y también ropa roja.",
-        "fr": "Il lave beaucoup de vêtements blancs, et aussi des vêtements rouges.",
-        "am": "ብዙ ነጭ ልብሶችን አጠበ፤ ቀይ ልብሶችንም አብሮ አጠበ።"
-      },
-      "start": 7.184,
-      "end": 12.368,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(bound form) other; another; some other (as in 他日 and 他人)",
-          ""
-        ],
-        [
-          "洗",
-          "xǐ",
-          "to wash; to bathe; to develop (photographs)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "too many; in excess; many; much; more; a lot of",
-          ""
-        ],
-        [
-          "白",
-          "bái",
-          "white; in vain; free of charge",
-          ""
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "洗",
-          "xǐ",
-          "to wash; to bathe; to develop (photographs)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "中午，衣服洗好了。杰克看了看。",
-      "py": "zhōng wǔ, yī fu xǐ hǎo le. Jié kè kàn le kàn.",
-      "en": "At noon, the washing is done. Jack takes a look.",
-      "tr": {
-        "vi": "Buổi trưa, quần áo giặt xong. Jack nhìn một cái.",
-        "pt": "Ao meio-dia, a roupa está lavada. O Jack olha.",
-        "es": "Al mediodía, la ropa ya está lavada. Jack la mira.",
-        "fr": "À midi, la lessive est finie. Jack regarde.",
-        "am": "ቀትር ላይ ልብሶቹ ታጥበው አለቁ። ጃክ አያቸው።"
-      },
-      "start": 13.068,
-      "end": 17.316,
-      "tokens": [
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "洗",
-          "xǐ",
-          "to wash; to bathe; to develop (photographs)",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "白衣服都红了！",
-      "py": "bái yī fu dōu hóng le!",
-      "en": "All the white clothes have turned red!",
-      "tr": {
-        "vi": "Quần áo trắng đều thành màu đỏ hết!",
-        "pt": "A roupa branca ficou toda vermelha!",
-        "es": "¡Toda la ropa blanca se volvió roja!",
-        "fr": "Tous les vêtements blancs sont devenus rouges !",
-        "am": "ነጮቹ ልብሶች ሁሉ ቀልተዋል!"
-      },
-      "start": 18.016,
-      "end": 20.2,
-      "tokens": [
-        [
-          "白",
-          "bái",
-          "white; in vain; free of charge",
-          ""
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    },
-    {
-      "text": "他给安娜打电话：“安娜，我的白衣服都红了！”",
-      "py": "tā gěi Ān nà dǎ diàn huà: “Ān nà, wǒ de bái yī fu dōu hóng le!”",
-      "en": "He phones Anna. \"Anna, all my white clothes have turned red!\"",
-      "tr": {
-        "vi": "Anh ấy gọi điện cho Anna: “Anna ơi, quần áo trắng của mình đỏ hết rồi!”",
-        "pt": "Ele liga para a Anna: “Anna, minha roupa branca ficou toda vermelha!”",
-        "es": "Llama a Anna: «¡Anna, toda mi ropa blanca se volvió roja!»",
-        "fr": "Il appelle Anna : « Anna, tous mes vêtements blancs sont devenus rouges ! »",
-        "am": "ለአና ደወለ። «አና፣ ነጭ ልብሶቼ ሁሉ ቀልተዋል!»"
-      },
-      "start": 20.9,
-      "end": 25.892,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "白",
-          "bái",
-          "white; in vain; free of charge",
-          ""
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜说：“没关系！中国人很喜欢红的。”",
-      "py": "Ān nà shuō: “méi guān xi! Zhōng guó rén hěn xǐ huan hóng de.”",
-      "en": "Anna says, \"Don't worry! Chinese people love red.\"",
-      "tr": {
-        "vi": "Anna nói: “Không sao! Người Trung Quốc rất thích màu đỏ.”",
-        "pt": "A Anna diz: “Não tem problema! Os chineses adoram vermelho.”",
-        "es": "Anna dice: «¡No pasa nada! A los chinos les encanta el rojo».",
-        "fr": "Anna dit : « Ce n'est pas grave ! Les Chinois adorent le rouge. »",
-        "am": "አና «ችግር የለም! ቻይናውያን ቀይ በጣም ይወዳሉ» አለች።"
-      },
-      "start": 26.592,
-      "end": 30.864,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "没关系",
-          "méi guān xi",
-          "it doesn't matter",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "中国人",
-          "zhōng guó rén",
-          "Chinese person",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "喜欢",
-          "xǐ huan",
-          "to like; to be fond of",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "星期一，杰克穿了红衣服。",
-      "py": "xīng qī yì, Jié kè chuān le hóng yī fu.",
-      "en": "On Monday, Jack wears red.",
-      "tr": {
-        "vi": "Thứ Hai, Jack mặc quần áo đỏ.",
-        "pt": "Na segunda, o Jack vai de roupa vermelha.",
-        "es": "El lunes, Jack se pone ropa roja.",
-        "fr": "Lundi, Jack porte des vêtements rouges.",
-        "am": "ሰኞ ጃክ ቀይ ልብስ ለበሰ።"
-      },
-      "start": 31.564,
-      "end": 34.876,
-      "tokens": [
-        [
-          "星期一",
-          "xīng qī yī",
-          "Monday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "穿",
-          "chuān",
-          "to wear; to put on (clothes, shoes etc.)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷看见了，说：“杰克，今天你很好看！”",
-      "py": "Liú yé ye kàn jiàn le, shuō: “Jié kè, jīn tiān nǐ hěn hǎo kàn!”",
-      "en": "Grandpa Liu sees him and says, \"Jack, you look great today!\"",
-      "tr": {
-        "vi": "Ông Lưu nhìn thấy, nói: “Jack, hôm nay cháu đẹp quá!”",
-        "pt": "O vovô Liu vê e diz: “Jack, você está muito bonito hoje!”",
-        "es": "El abuelo Liu lo ve y dice: «¡Jack, hoy te ves muy bien!»",
-        "fr": "Papi Liu le voit et dit : « Jack, tu es très beau aujourd'hui ! »",
-        "am": "አያት ሊዩ አዩትና «ጃክ፣ ዛሬ በጣም አምሮብሃል!» አሉ።"
-      },
-      "start": 35.576,
-      "end": 41.24,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "好看",
-          "hǎo kàn",
-          "good-looking; nice-looking",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“谢谢！我的衣服，现在都是红的！”",
-      "py": "Jié kè shuō: “xiè xie! wǒ de yī fu, xiàn zài dōu shì hóng de!”",
-      "en": "Jack says, \"Thanks! All my clothes are red now!\"",
-      "tr": {
-        "vi": "Jack nói: “Cháu cảm ơn ông! Quần áo của cháu bây giờ toàn màu đỏ!”",
-        "pt": "O Jack diz: “Obrigado! Agora todas as minhas roupas são vermelhas!”",
-        "es": "Jack dice: «¡Gracias! ¡Ahora toda mi ropa es roja!»",
-        "fr": "Jack dit : « Merci ! Maintenant, tous mes vêtements sont rouges ! »",
-        "am": "ጃክ «አመሰግናለሁ! ልብሶቼ አሁን ሁሉም ቀይ ናቸው!» አለ።"
-      },
-      "start": 41.94,
-      "end": 48.852,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "现在",
-          "xiàn zài",
-          "now; at present; currently",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 115,
-  "first": "星期六上午，杰克在家洗衣服。",
-  "newWords": [
-    {
-      "w": "洗",
-      "py": "xǐ",
-      "en": "to wash"
-    },
-    {
-      "w": "白",
-      "py": "bái",
-      "en": "white"
-    },
-    {
-      "w": "红",
-      "py": "hóng",
-      "en": "red"
-    },
-    {
-      "w": "也",
-      "py": "yě",
-      "en": "also"
-    },
-    {
-      "w": "穿",
-      "py": "chuān",
-      "en": "to wear"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-21.mp3?v=1791720562"
+  {
+   "text": "他洗了很多白衣服，也洗了红衣服。",
+   "py": "tā xǐ le hěn duō bái yī fu, yě xǐ le hóng yī fu.",
+   "en": "He washes lots of white clothes, and some red clothes too.",
+   "tr": {
+    "vi": "Anh ấy giặt rất nhiều quần áo trắng, còn giặt cả quần áo đỏ.",
+    "pt": "Ele lava muita roupa branca e também um pouco de roupa vermelha.",
+    "es": "Lava mucha ropa blanca, y también ropa roja.",
+    "fr": "Il lave beaucoup de vêtements blancs, et aussi des vêtements rouges.",
+    "am": "ብዙ ነጭ ልብሶችን አጠበ፤ ቀይ ልብሶችንም አብሮ አጠበ።",
+    "fa": "کلی لباس سفید می‌شوید و چند تای قرمز هم می‌شوید."
+   },
+   "start": 7.184,
+   "end": 12.368,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(bound form) other; another; some other (as in 他日 and 他人)",
+     ""
+    ],
+    [
+     "洗",
+     "xǐ",
+     "to wash; to bathe; to develop (photographs)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "too many; in excess; many; much; more; a lot of",
+     ""
+    ],
+    [
+     "白",
+     "bái",
+     "white; in vain; free of charge",
+     ""
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "洗",
+     "xǐ",
+     "to wash; to bathe; to develop (photographs)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "中午，衣服洗好了。杰克看了看。",
+   "py": "zhōng wǔ, yī fu xǐ hǎo le. Jié kè kàn le kàn.",
+   "en": "At noon, the washing is done. Jack takes a look.",
+   "tr": {
+    "vi": "Buổi trưa, quần áo giặt xong. Jack nhìn một cái.",
+    "pt": "Ao meio-dia, a roupa está lavada. O Jack olha.",
+    "es": "Al mediodía, la ropa ya está lavada. Jack la mira.",
+    "fr": "À midi, la lessive est finie. Jack regarde.",
+    "am": "ቀትር ላይ ልብሶቹ ታጥበው አለቁ። ጃክ አያቸው።",
+    "fa": "ظهر، لباس‌ها شسته شده. جک نگاهی می‌اندازد."
+   },
+   "start": 13.068,
+   "end": 17.316,
+   "tokens": [
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "洗",
+     "xǐ",
+     "to wash; to bathe; to develop (photographs)",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "白衣服都红了！",
+   "py": "bái yī fu dōu hóng le!",
+   "en": "All the white clothes have turned red!",
+   "tr": {
+    "vi": "Quần áo trắng đều thành màu đỏ hết!",
+    "pt": "A roupa branca ficou toda vermelha!",
+    "es": "¡Toda la ropa blanca se volvió roja!",
+    "fr": "Tous les vêtements blancs sont devenus rouges !",
+    "am": "ነጮቹ ልብሶች ሁሉ ቀልተዋል!",
+    "fa": "همه‌ی لباس‌های سفید قرمز شده‌اند!"
+   },
+   "start": 18.016,
+   "end": 20.2,
+   "tokens": [
+    [
+     "白",
+     "bái",
+     "white; in vain; free of charge",
+     ""
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  },
+  {
+   "text": "他给安娜打电话：“安娜，我的白衣服都红了！”",
+   "py": "tā gěi Ān nà dǎ diàn huà: “Ān nà, wǒ de bái yī fu dōu hóng le!”",
+   "en": "He phones Anna. \"Anna, all my white clothes have turned red!\"",
+   "tr": {
+    "vi": "Anh ấy gọi điện cho Anna: “Anna ơi, quần áo trắng của mình đỏ hết rồi!”",
+    "pt": "Ele liga para a Anna: “Anna, minha roupa branca ficou toda vermelha!”",
+    "es": "Llama a Anna: «¡Anna, toda mi ropa blanca se volvió roja!»",
+    "fr": "Il appelle Anna : « Anna, tous mes vêtements blancs sont devenus rouges ! »",
+    "am": "ለአና ደወለ። «አና፣ ነጭ ልብሶቼ ሁሉ ቀልተዋል!»",
+    "fa": "به آنا زنگ می‌زند: «آنا، همه‌ی لباس‌های سفیدم قرمز شدن!»"
+   },
+   "start": 20.9,
+   "end": 25.892,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "白",
+     "bái",
+     "white; in vain; free of charge",
+     ""
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜说：“没关系！中国人很喜欢红的。”",
+   "py": "Ān nà shuō: “méi guān xi! Zhōng guó rén hěn xǐ huan hóng de.”",
+   "en": "Anna says, \"Don't worry! Chinese people love red.\"",
+   "tr": {
+    "vi": "Anna nói: “Không sao! Người Trung Quốc rất thích màu đỏ.”",
+    "pt": "A Anna diz: “Não tem problema! Os chineses adoram vermelho.”",
+    "es": "Anna dice: «¡No pasa nada! A los chinos les encanta el rojo».",
+    "fr": "Anna dit : « Ce n'est pas grave ! Les Chinois adorent le rouge. »",
+    "am": "አና «ችግር የለም! ቻይናውያን ቀይ በጣም ይወዳሉ» አለች።",
+    "fa": "آنا می‌گوید: «اشکالی نداره! چینی‌ها عاشق رنگ قرمزن.»"
+   },
+   "start": 26.592,
+   "end": 30.864,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "没关系",
+     "méi guān xi",
+     "it doesn't matter",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "中国人",
+     "zhōng guó rén",
+     "Chinese person",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "喜欢",
+     "xǐ huan",
+     "to like; to be fond of",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "星期一，杰克穿了红衣服。",
+   "py": "xīng qī yì, Jié kè chuān le hóng yī fu.",
+   "en": "On Monday, Jack wears red.",
+   "tr": {
+    "vi": "Thứ Hai, Jack mặc quần áo đỏ.",
+    "pt": "Na segunda, o Jack vai de roupa vermelha.",
+    "es": "El lunes, Jack se pone ropa roja.",
+    "fr": "Lundi, Jack porte des vêtements rouges.",
+    "am": "ሰኞ ጃክ ቀይ ልብስ ለበሰ።",
+    "fa": "دوشنبه جک لباس قرمز پوشیده."
+   },
+   "start": 31.564,
+   "end": 34.876,
+   "tokens": [
+    [
+     "星期一",
+     "xīng qī yī",
+     "Monday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "穿",
+     "chuān",
+     "to wear; to put on (clothes, shoes etc.)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷看见了，说：“杰克，今天你很好看！”",
+   "py": "Liú yé ye kàn jiàn le, shuō: “Jié kè, jīn tiān nǐ hěn hǎo kàn!”",
+   "en": "Grandpa Liu sees him and says, \"Jack, you look great today!\"",
+   "tr": {
+    "vi": "Ông Lưu nhìn thấy, nói: “Jack, hôm nay cháu đẹp quá!”",
+    "pt": "O vovô Liu vê e diz: “Jack, você está muito bonito hoje!”",
+    "es": "El abuelo Liu lo ve y dice: «¡Jack, hoy te ves muy bien!»",
+    "fr": "Papi Liu le voit et dit : « Jack, tu es très beau aujourd'hui ! »",
+    "am": "አያት ሊዩ አዩትና «ጃክ፣ ዛሬ በጣም አምሮብሃል!» አሉ።",
+    "fa": "پدربزرگ لیو می‌بیندش و می‌گوید: «جک، امروز چه قشنگ شدی!»"
+   },
+   "start": 35.576,
+   "end": 41.24,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "好看",
+     "hǎo kàn",
+     "good-looking; nice-looking",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克说：“谢谢！我的衣服，现在都是红的！”",
+   "py": "Jié kè shuō: “xiè xie! wǒ de yī fu, xiàn zài dōu shì hóng de!”",
+   "en": "Jack says, \"Thanks! All my clothes are red now!\"",
+   "tr": {
+    "vi": "Jack nói: “Cháu cảm ơn ông! Quần áo của cháu bây giờ toàn màu đỏ!”",
+    "pt": "O Jack diz: “Obrigado! Agora todas as minhas roupas são vermelhas!”",
+    "es": "Jack dice: «¡Gracias! ¡Ahora toda mi ropa es roja!»",
+    "fr": "Jack dit : « Merci ! Maintenant, tous mes vêtements sont rouges ! »",
+    "am": "ጃክ «አመሰግናለሁ! ልብሶቼ አሁን ሁሉም ቀይ ናቸው!» አለ።",
+    "fa": "جک می‌گوید: «ممنون! الان همه‌ی لباس‌هام قرمزن!»"
+   },
+   "start": 41.94,
+   "end": 48.852,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "现在",
+     "xiàn zài",
+     "now; at present; currently",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 115,
+ "first": "星期六上午，杰克在家洗衣服。",
+ "newWords": [
+  {
+   "w": "洗",
+   "py": "xǐ",
+   "en": "to wash"
+  },
+  {
+   "w": "白",
+   "py": "bái",
+   "en": "white"
+  },
+  {
+   "w": "红",
+   "py": "hóng",
+   "en": "red"
+  },
+  {
+   "w": "也",
+   "py": "yě",
+   "en": "also"
+  },
+  {
+   "w": "穿",
+   "py": "chuān",
+   "en": "to wear"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-21.mp3?v=1791720562"
 }

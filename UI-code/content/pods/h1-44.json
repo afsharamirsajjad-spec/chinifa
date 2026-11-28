@@ -1,719 +1,728 @@
 {
-  "id": "h1-44",
-  "level": 1,
-  "no": 44,
-  "title": "粽子",
-  "title_py": "zòng zi",
-  "title_en": "Zongzi",
-  "title_tr": {
-    "vi": "Bánh ú",
-    "pt": "Zongzi",
-    "es": "Zongzi",
-    "fr": "Les zongzi",
-    "am": "ዞንግዝ",
-    "fa": "کمی چینی بلدم"
+ "id": "h1-44",
+ "level": 1,
+ "no": 44,
+ "title": "粽子",
+ "title_py": "zòng zi",
+ "title_en": "Zongzi",
+ "title_tr": {
+  "vi": "Bánh ú",
+  "pt": "Zongzi",
+  "es": "Zongzi",
+  "fr": "Les zongzi",
+  "am": "ዞንግዝ",
+  "fa": "کمی چینی بلدم"
+ },
+ "topic": "festival",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-44.jpg",
+ "duration": 45.424,
+ "lines": [
+  {
+   "text": "今天是端午节。中午，小雨给了杰克一个粽子。",
+   "py": "jīn tiān shì duān wǔ jié. zhōng wǔ, Xiǎo yǔ gěi le Jié kè yí gè zòng zi.",
+   "en": "Today is the Dragon Boat Festival. At noon, Xiaoyu gives Jack a zongzi.",
+   "tr": {
+    "vi": "Hôm nay là Tết Đoan Ngọ. Buổi trưa, Tiểu Vũ đưa cho Jack một cái bánh ú.",
+    "pt": "Hoje é a Festa do Barco-Dragão. Ao meio-dia, a Xiaoyu dá um zongzi para o Jack.",
+    "es": "Hoy es el Festival del Bote del Dragón. Al mediodía, Xiaoyu le da un zongzi a Jack.",
+    "fr": "Aujourd'hui, c'est la fête des Bateaux-Dragons. À midi, Xiaoyu donne un zongzi à Jack.",
+    "am": "ዛሬ የዘንዶ ጀልባ በዓል ነው። ቀትር ላይ ሺያውዩ ለጃክ አንድ ዞንግዝ ሰጠችው።",
+    "fa": "امروز جشن قایق اژدهاست. ظهر شیائویو یک زونگزی به جک می‌دهد."
+   },
+   "start": 2.14,
+   "end": 7.612,
+   "tokens": [
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "端午节",
+     "duān wǔ jié",
+     "Dragon Boat Festival (5th day of the 5th lunar month)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to give; to; for",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "粽子",
+     "zòng zi",
+     "glutinous rice and choice of filling wrapped in leaves and steamed or boiled",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "festival",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-44.jpg",
-  "duration": 45.424,
-  "lines": [
-    {
-      "text": "今天是端午节。中午，小雨给了杰克一个粽子。",
-      "py": "jīn tiān shì duān wǔ jié. zhōng wǔ, Xiǎo yǔ gěi le Jié kè yí gè zòng zi.",
-      "en": "Today is the Dragon Boat Festival. At noon, Xiaoyu gives Jack a zongzi.",
-      "tr": {
-        "vi": "Hôm nay là Tết Đoan Ngọ. Buổi trưa, Tiểu Vũ đưa cho Jack một cái bánh ú.",
-        "pt": "Hoje é a Festa do Barco-Dragão. Ao meio-dia, a Xiaoyu dá um zongzi para o Jack.",
-        "es": "Hoy es el Festival del Bote del Dragón. Al mediodía, Xiaoyu le da un zongzi a Jack.",
-        "fr": "Aujourd'hui, c'est la fête des Bateaux-Dragons. À midi, Xiaoyu donne un zongzi à Jack.",
-        "am": "ዛሬ የዘንዶ ጀልባ በዓል ነው። ቀትር ላይ ሺያውዩ ለጃክ አንድ ዞንግዝ ሰጠችው።"
-      },
-      "start": 2.14,
-      "end": 7.612,
-      "tokens": [
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "端午节",
-          "duān wǔ jié",
-          "Dragon Boat Festival (5th day of the 5th lunar month)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to give; to; for",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "粽子",
-          "zòng zi",
-          "glutinous rice and choice of filling wrapped in leaves and steamed or boiled",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“杰克，端午节，中国人都吃粽子。”",
-      "py": "“Jié kè, duān wǔ jié, Zhōng guó rén dōu chī zòng zi.”",
-      "en": "\"Jack, at the Dragon Boat Festival, everyone in China eats zongzi.\"",
-      "tr": {
-        "vi": "“Jack, Tết Đoan Ngọ, người Trung Quốc đều ăn bánh ú.”",
-        "pt": "“Jack, na Festa do Barco-Dragão, todo mundo na China come zongzi.”",
-        "es": "«Jack, en el Festival del Bote del Dragón, todos en China comen zongzi».",
-        "fr": "« Jack, à la fête des Bateaux-Dragons, tous les Chinois mangent des zongzi. »",
-        "am": "«ጃክ፣ በዘንዶ ጀልባ በዓል ቻይናውያን ሁሉ ዞንግዝ ይበላሉ።»"
-      },
-      "start": 8.312,
-      "end": 12.368,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "端午节",
-          "duān wǔ jié",
-          "Dragon Boat Festival (5th day of the 5th lunar month)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "中国人",
-          "zhōng guó rén",
-          "Chinese person",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "粽子",
-          "zòng zi",
-          "glutinous rice and choice of filling wrapped in leaves and steamed or boiled",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克很高兴。他吃了一点儿……",
-      "py": "Jié kè hěn gāo xìng. tā chī le yì diǎn r……",
-      "en": "Jack is very happy. He takes a bite...",
-      "tr": {
-        "vi": "Jack rất vui. Anh ấy cắn một miếng...",
-        "pt": "O Jack fica muito contente. Ele dá uma mordida...",
-        "es": "Jack está muy contento. Le da una mordida…",
-        "fr": "Jack est très content. Il goûte un peu…",
-        "am": "ጃክ በጣም ተደሰተ። ትንሽ ገመጠ…"
-      },
-      "start": 13.068,
-      "end": 16.668,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ]
-      ]
-    },
-    {
-      "text": "“小雨，粽子不好吃！”",
-      "py": "“Xiǎo yǔ, zòng zi bù hǎo chī!”",
-      "en": "\"Xiaoyu, zongzi don't taste nice!\"",
-      "tr": {
-        "vi": "“Tiểu Vũ, bánh ú không ngon!”",
-        "pt": "“Xiaoyu, o zongzi não é gostoso!”",
-        "es": "«¡Xiaoyu, el zongzi no está rico!»",
-        "fr": "« Xiaoyu, les zongzi, ce n'est pas bon ! »",
-        "am": "«ሺያውዩ፣ ዞንግዝ አይጣፍጥም!»"
-      },
-      "start": 17.368,
-      "end": 20.704,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "粽子",
-          "zòng zi",
-          "glutinous rice and choice of filling wrapped in leaves and steamed or boiled",
-          ""
-        ],
-        [
-          "不好",
-          "bù hǎo",
-          "no good",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨看了看，笑了：“杰克，那个不能吃！”",
-      "py": "Xiǎo yǔ kàn le kàn, xiào le: “Jié kè, nà ge bù néng chī!”",
-      "en": "Xiaoyu looks and laughs. \"Jack, you can't eat that bit!\"",
-      "tr": {
-        "vi": "Tiểu Vũ nhìn rồi cười: “Jack, cái đó không ăn được!”",
-        "pt": "A Xiaoyu olha e ri: “Jack, essa parte não se come!”",
-        "es": "Xiaoyu mira y se ríe: «¡Jack, eso no se come!»",
-        "fr": "Xiaoyu regarde et rit : « Jack, ça, ça ne se mange pas ! »",
-        "am": "ሺያውዩ አየችና ሳቀች። «ጃክ፣ ያ አይበላም!»"
-      },
-      "start": 21.404,
-      "end": 27.116,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那个",
-          "nà ge",
-          "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)",
-          ""
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“看，这个能吃。”",
-      "py": "“kàn, zhè ge néng chī.”",
-      "en": "\"Look, this part you can eat.\"",
-      "tr": {
-        "vi": "“Nhìn này, cái này mới ăn được.”",
-        "pt": "“Olhe, esta parte se come.”",
-        "es": "«Mira, esto sí se come».",
-        "fr": "« Regarde, c'est ça qui se mange. »",
-        "am": "«እይ፣ ይሄ ይበላል።»"
-      },
-      "start": 27.816,
-      "end": 30,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克吃了一点儿：“太好吃了！”",
-      "py": "Jié kè chī le yì diǎn r: “tài hǎo chī le!”",
-      "en": "Jack takes a bite. \"It's delicious!\"",
-      "tr": {
-        "vi": "Jack ăn một miếng: “Ngon quá!”",
-        "pt": "O Jack dá uma mordida: “Que delícia!”",
-        "es": "Jack le da una mordida: «¡Está riquísimo!»",
-        "fr": "Jack goûte un peu : « C'est délicieux ! »",
-        "am": "ጃክ ትንሽ ቀመሰ። «በጣም ይጣፍጣል!»"
-      },
-      "start": 30.7,
-      "end": 34.036,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "太",
-          "tài",
-          "highest; greatest; too (much)",
-          ""
-        ],
-        [
-          "好吃",
-          "hǎo chī",
-          "tasty; delicious",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“小雨，我想再吃一个！”",
-      "py": "Jié kè shuō: “Xiǎo yǔ, wǒ xiǎng zài chī yí gè!”",
-      "en": "Jack says, \"Xiaoyu, I'd like another one!\"",
-      "tr": {
-        "vi": "Jack nói: “Tiểu Vũ, mình muốn ăn thêm một cái nữa!”",
-        "pt": "O Jack diz: “Xiaoyu, eu quero mais um!”",
-        "es": "Jack dice: «¡Xiaoyu, quiero otro!»",
-        "fr": "Jack dit : « Xiaoyu, j'en veux encore un ! »",
-        "am": "ጃክ «ሺያውዩ፣ አንድ ተጨማሪ መብላት እፈልጋለሁ!» አለ።"
-      },
-      "start": 34.736,
-      "end": 39.008,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; further; beyond this point of time",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨笑了：“好！这个给你。那个……不能吃！”",
-      "py": "Xiǎo yǔ xiào le: “hǎo! zhè ge gěi nǐ. nà ge…… bù néng chī!”",
-      "en": "Xiaoyu laughs. \"OK! Here you go. And that bit... you can't eat!\"",
-      "tr": {
-        "vi": "Tiểu Vũ cười: “Được! Cái này cho bạn. Còn cái đó... không ăn được đâu!”",
-        "pt": "A Xiaoyu ri: “Está bem! Este é para você. E aquela parte... não se come!”",
-        "es": "Xiaoyu se ríe: «¡Bueno! Este es para ti. Y eso… ¡no se come!»",
-        "fr": "Xiaoyu rit : « D'accord ! Tiens, celui-ci est pour toi. Et ça… ça ne se mange pas ! »",
-        "am": "ሺያውዩ ሳቀች። «እሺ! ይኸው ያንተ። ያ ግን… አይበላም!»"
-      },
-      "start": 39.708,
-      "end": 44.724,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "那个",
-          "nà ge",
-          "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 103,
-  "first": "今天是端午节。中午，小雨给了杰克一个粽子。",
-  "newWords": [
-    {
-      "w": "端午节",
-      "py": "duānwǔjié",
-      "en": "Dragon Boat Festival"
-    },
-    {
-      "w": "粽子",
-      "py": "zòngzi",
-      "en": "zongzi; sticky rice dumpling wrapped in leaves"
-    },
-    {
-      "w": "给",
-      "py": "gěi",
-      "en": "to give"
-    },
-    {
-      "w": "笑",
-      "py": "xiào",
-      "en": "to smile"
-    },
-    {
-      "w": "再",
-      "py": "zài",
-      "en": "again"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-44.mp3?v=1791720800"
+  {
+   "text": "“杰克，端午节，中国人都吃粽子。”",
+   "py": "“Jié kè, duān wǔ jié, Zhōng guó rén dōu chī zòng zi.”",
+   "en": "\"Jack, at the Dragon Boat Festival, everyone in China eats zongzi.\"",
+   "tr": {
+    "vi": "“Jack, Tết Đoan Ngọ, người Trung Quốc đều ăn bánh ú.”",
+    "pt": "“Jack, na Festa do Barco-Dragão, todo mundo na China come zongzi.”",
+    "es": "«Jack, en el Festival del Bote del Dragón, todos en China comen zongzi».",
+    "fr": "« Jack, à la fête des Bateaux-Dragons, tous les Chinois mangent des zongzi. »",
+    "am": "«ጃክ፣ በዘንዶ ጀልባ በዓል ቻይናውያን ሁሉ ዞንግዝ ይበላሉ።»",
+    "fa": "«جک، تو جشن قایق اژدها همه‌ی چینی‌ها زونگزی می‌خورن.»"
+   },
+   "start": 8.312,
+   "end": 12.368,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "端午节",
+     "duān wǔ jié",
+     "Dragon Boat Festival (5th day of the 5th lunar month)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "中国人",
+     "zhōng guó rén",
+     "Chinese person",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "粽子",
+     "zòng zi",
+     "glutinous rice and choice of filling wrapped in leaves and steamed or boiled",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克很高兴。他吃了一点儿……",
+   "py": "Jié kè hěn gāo xìng. tā chī le yì diǎn r……",
+   "en": "Jack is very happy. He takes a bite...",
+   "tr": {
+    "vi": "Jack rất vui. Anh ấy cắn một miếng...",
+    "pt": "O Jack fica muito contente. Ele dá uma mordida...",
+    "es": "Jack está muy contento. Le da una mordida…",
+    "fr": "Jack est très content. Il goûte un peu…",
+    "am": "ጃክ በጣም ተደሰተ። ትንሽ ገመጠ…",
+    "fa": "جک خیلی خوشحال است. یک گاز کوچک می‌زند…"
+   },
+   "start": 13.068,
+   "end": 16.668,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ]
+   ]
+  },
+  {
+   "text": "“小雨，粽子不好吃！”",
+   "py": "“Xiǎo yǔ, zòng zi bù hǎo chī!”",
+   "en": "\"Xiaoyu, zongzi don't taste nice!\"",
+   "tr": {
+    "vi": "“Tiểu Vũ, bánh ú không ngon!”",
+    "pt": "“Xiaoyu, o zongzi não é gostoso!”",
+    "es": "«¡Xiaoyu, el zongzi no está rico!»",
+    "fr": "« Xiaoyu, les zongzi, ce n'est pas bon ! »",
+    "am": "«ሺያውዩ፣ ዞንግዝ አይጣፍጥም!»",
+    "fa": "«شیائویو، زونگزی خوشمزه نیست!»"
+   },
+   "start": 17.368,
+   "end": 20.704,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "粽子",
+     "zòng zi",
+     "glutinous rice and choice of filling wrapped in leaves and steamed or boiled",
+     ""
+    ],
+    [
+     "不好",
+     "bù hǎo",
+     "no good",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨看了看，笑了：“杰克，那个不能吃！”",
+   "py": "Xiǎo yǔ kàn le kàn, xiào le: “Jié kè, nà ge bù néng chī!”",
+   "en": "Xiaoyu looks and laughs. \"Jack, you can't eat that bit!\"",
+   "tr": {
+    "vi": "Tiểu Vũ nhìn rồi cười: “Jack, cái đó không ăn được!”",
+    "pt": "A Xiaoyu olha e ri: “Jack, essa parte não se come!”",
+    "es": "Xiaoyu mira y se ríe: «¡Jack, eso no se come!»",
+    "fr": "Xiaoyu regarde et rit : « Jack, ça, ça ne se mange pas ! »",
+    "am": "ሺያውዩ አየችና ሳቀች። «ጃክ፣ ያ አይበላም!»",
+    "fa": "شیائویو نگاه می‌کند و می‌خندد: «جک، اون قسمتش خوردنی نیست!»"
+   },
+   "start": 21.404,
+   "end": 27.116,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那个",
+     "nà ge",
+     "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)",
+     ""
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“看，这个能吃。”",
+   "py": "“kàn, zhè ge néng chī.”",
+   "en": "\"Look, this part you can eat.\"",
+   "tr": {
+    "vi": "“Nhìn này, cái này mới ăn được.”",
+    "pt": "“Olhe, esta parte se come.”",
+    "es": "«Mira, esto sí se come».",
+    "fr": "« Regarde, c'est ça qui se mange. »",
+    "am": "«እይ፣ ይሄ ይበላል።»",
+    "fa": "«ببین، این قسمتش خوردنیه.»"
+   },
+   "start": 27.816,
+   "end": 30,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克吃了一点儿：“太好吃了！”",
+   "py": "Jié kè chī le yì diǎn r: “tài hǎo chī le!”",
+   "en": "Jack takes a bite. \"It's delicious!\"",
+   "tr": {
+    "vi": "Jack ăn một miếng: “Ngon quá!”",
+    "pt": "O Jack dá uma mordida: “Que delícia!”",
+    "es": "Jack le da una mordida: «¡Está riquísimo!»",
+    "fr": "Jack goûte un peu : « C'est délicieux ! »",
+    "am": "ጃክ ትንሽ ቀመሰ። «በጣም ይጣፍጣል!»",
+    "fa": "جک یک گاز می‌زند: «چه خوشمزه‌ست!»"
+   },
+   "start": 30.7,
+   "end": 34.036,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "太",
+     "tài",
+     "highest; greatest; too (much)",
+     ""
+    ],
+    [
+     "好吃",
+     "hǎo chī",
+     "tasty; delicious",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克说：“小雨，我想再吃一个！”",
+   "py": "Jié kè shuō: “Xiǎo yǔ, wǒ xiǎng zài chī yí gè!”",
+   "en": "Jack says, \"Xiaoyu, I'd like another one!\"",
+   "tr": {
+    "vi": "Jack nói: “Tiểu Vũ, mình muốn ăn thêm một cái nữa!”",
+    "pt": "O Jack diz: “Xiaoyu, eu quero mais um!”",
+    "es": "Jack dice: «¡Xiaoyu, quiero otro!»",
+    "fr": "Jack dit : « Xiaoyu, j'en veux encore un ! »",
+    "am": "ጃክ «ሺያውዩ፣ አንድ ተጨማሪ መብላት እፈልጋለሁ!» አለ።",
+    "fa": "جک می‌گوید: «شیائویو، یکی دیگه هم می‌خوام!»"
+   },
+   "start": 34.736,
+   "end": 39.008,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; further; beyond this point of time",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨笑了：“好！这个给你。那个……不能吃！”",
+   "py": "Xiǎo yǔ xiào le: “hǎo! zhè ge gěi nǐ. nà ge…… bù néng chī!”",
+   "en": "Xiaoyu laughs. \"OK! Here you go. And that bit... you can't eat!\"",
+   "tr": {
+    "vi": "Tiểu Vũ cười: “Được! Cái này cho bạn. Còn cái đó... không ăn được đâu!”",
+    "pt": "A Xiaoyu ri: “Está bem! Este é para você. E aquela parte... não se come!”",
+    "es": "Xiaoyu se ríe: «¡Bueno! Este es para ti. Y eso… ¡no se come!»",
+    "fr": "Xiaoyu rit : « D'accord ! Tiens, celui-ci est pour toi. Et ça… ça ne se mange pas ! »",
+    "am": "ሺያውዩ ሳቀች። «እሺ! ይኸው ያንተ። ያ ግን… አይበላም!»",
+    "fa": "شیائویو می‌خندد: «باشه! این مال تو. اون قسمت… خوردنی نیست!»"
+   },
+   "start": 39.708,
+   "end": 44.724,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "那个",
+     "nà ge",
+     "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 103,
+ "first": "今天是端午节。中午，小雨给了杰克一个粽子。",
+ "newWords": [
+  {
+   "w": "端午节",
+   "py": "duānwǔjié",
+   "en": "Dragon Boat Festival"
+  },
+  {
+   "w": "粽子",
+   "py": "zòngzi",
+   "en": "zongzi; sticky rice dumpling wrapped in leaves"
+  },
+  {
+   "w": "给",
+   "py": "gěi",
+   "en": "to give"
+  },
+  {
+   "w": "笑",
+   "py": "xiào",
+   "en": "to smile"
+  },
+  {
+   "w": "再",
+   "py": "zài",
+   "en": "again"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-44.mp3?v=1791720800"
 }

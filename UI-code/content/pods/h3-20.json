@@ -1,1787 +1,1802 @@
 {
-  "id": "h3-20",
-  "level": 3,
-  "no": 20,
-  "title": "山田的笔记",
-  "title_py": "Shān tián de bǐ jì",
-  "title_en": "Yamada's notes",
-  "title_tr": {
-    "vi": "Ghi chép của Yamada",
-    "pt": "As anotações da Yamada",
-    "es": "Los apuntes de Yamada",
-    "fr": "Les notes de Yamada",
-    "am": "የያማዳ ማስታወሻ",
-    "fa": "یادداشت‌های یامادا"
+ "id": "h3-20",
+ "level": 3,
+ "no": 20,
+ "title": "山田的笔记",
+ "title_py": "Shān tián de bǐ jì",
+ "title_en": "Yamada's notes",
+ "title_tr": {
+  "vi": "Ghi chép của Yamada",
+  "pt": "As anotações da Yamada",
+  "es": "Los apuntes de Yamada",
+  "fr": "Les notes de Yamada",
+  "am": "የያማዳ ማስታወሻ",
+  "fa": "یادداشت‌های یامادا"
+ },
+ "topic": "school",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h3-20.jpg",
+ "duration": 104.536,
+ "lines": [
+  {
+   "text": "安娜感冒了，一个星期没去上课。",
+   "py": "Ān nà gǎn mào le, yí gè xīng qī méi qù shàng kè.",
+   "en": "Anna has had a cold and hasn't been to class for a week.",
+   "tr": {
+    "vi": "Anna bị cảm, một tuần không đi học.",
+    "pt": "A Anna pegou um resfriado e faz uma semana que não vai à aula.",
+    "es": "Anna tuvo gripe y lleva una semana sin ir a clase.",
+    "fr": "Anna a eu un rhume, et elle n’est pas allée en cours pendant une semaine.",
+    "am": "አና ጉንፋን ይዟት ለአንድ ሳምንት ትምህርት አልሄደችም።",
+    "fa": "آنا سرما خورده و یه هفته‌ست که به کلاس نرفته."
+   },
+   "start": 2.884,
+   "end": 6.676,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "感冒",
+     "gǎn mào",
+     "to catch cold; (common) cold",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "星期",
+     "xīng qī",
+     "week; day of the week; Sunday",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "上课",
+     "shàng kè",
+     "to go to class; to attend class; to go to teach a class",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "school",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h3-20.jpg",
-  "duration": 104.536,
-  "lines": [
-    {
-      "text": "安娜感冒了，一个星期没去上课。",
-      "py": "Ān nà gǎn mào le, yí gè xīng qī méi qù shàng kè.",
-      "en": "Anna has had a cold and hasn't been to class for a week.",
-      "tr": {
-        "vi": "Anna bị cảm, một tuần không đi học.",
-        "pt": "A Anna pegou um resfriado e faz uma semana que não vai à aula.",
-        "es": "Anna tuvo gripe y lleva una semana sin ir a clase.",
-        "fr": "Anna a eu un rhume, et elle n’est pas allée en cours pendant une semaine.",
-        "am": "አና ጉንፋን ይዟት ለአንድ ሳምንት ትምህርት አልሄደችም።"
-      },
-      "start": 2.884,
-      "end": 6.676,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "感冒",
-          "gǎn mào",
-          "to catch cold; (common) cold",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "星期",
-          "xīng qī",
-          "week; day of the week; Sunday",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "上课",
-          "shàng kè",
-          "to go to class; to attend class; to go to teach a class",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她给山田打电话：“你能把上课的笔记借给我看看吗？”",
-      "py": "tā gěi Shān tián dǎ diàn huà: “nǐ néng bǎ shàng kè de bǐ jì jiè gěi wǒ kàn kàn ma?”",
-      "en": "She phones Yamada. \"Could you lend me your class notes?\"",
-      "tr": {
-        "vi": "Cô gọi điện cho Yamada: “Bạn có thể cho mình mượn vở ghi chép trên lớp xem không?”",
-        "pt": "Ela liga para a Yamada: “Você pode me emprestar as suas anotações da aula?”",
-        "es": "Llama a Yamada: «¿Me prestas tus apuntes de clase?».",
-        "fr": "Elle appelle Yamada : « Tu peux me prêter tes notes de cours ? »",
-        "am": "ለያማዳ ደወለች። «የክፍል ማስታወሻሽን ልታውሺኝ ትችያለሽ?»"
-      },
-      "start": 7.376,
-      "end": 12.608,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "上课",
-          "shàng kè",
-          "to go to class; to attend class; to go to teach a class",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "笔记",
-          "bǐ jì",
-          "notes; to take down (in writing)",
-          ""
-        ],
-        [
-          "借给",
-          "jiè gěi",
-          "to lend to sb",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "看看",
-          "kàn kan",
-          "to take a look at; to examine; to survey",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "山田有点儿不好意思：“可以是可以，不过我的笔记有点儿奇怪。”",
-      "py": "Shān tián yǒu diǎn r bù hǎo yì sī: “kě yǐ shì kě yǐ, bú guò wǒ de bǐ jì yǒu diǎn r qí guài.”",
-      "en": "Yamada sounds a little shy. \"Sure, but my notes are a bit strange.\"",
-      "tr": {
-        "vi": "Yamada hơi ngại: “Được thì được, nhưng vở ghi của mình hơi kỳ lạ.”",
-        "pt": "A Yamada fica um pouco sem graça: “Posso, mas as minhas anotações são meio estranhas.”",
-        "es": "Yamada se apena un poco: «Sí, claro, pero mis apuntes son un poco raros».",
-        "fr": "Yamada est un peu gênée : « Oui, bien sûr, mais mes notes sont un peu bizarres. »",
-        "am": "ያማዳ ትንሽ አፈረች። «እችላለሁ፤ ግን ማስታወሻዬ ትንሽ እንግዳ ነው።»"
-      },
-      "start": 13.308,
-      "end": 20.676,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "有点儿",
-          "yǒu diǎn r",
-          "a little; slightly; somewhat",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to feel embarrassed; to find it embarrassing",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "可以",
-          "kě yǐ",
-          "can; may; possible",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "可以",
-          "kě yǐ",
-          "can; may; possible",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不过",
-          "bù guò",
-          "but; only; merely",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "笔记",
-          "bǐ jì",
-          "notes; to take down (in writing)",
-          ""
-        ],
-        [
-          "有点儿",
-          "yǒu diǎn r",
-          "a little; slightly; somewhat",
-          ""
-        ],
-        [
-          "奇怪",
-          "qí guài",
-          "strange; odd; to marvel",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "第二天，安娜打开山田的笔记本，吃了一惊。",
-      "py": "dì èr tiān, Ān nà dǎ kāi Shān tián de bǐ jì běn, chī le yì jīng.",
-      "en": "The next day, Anna opens Yamada's notebook and gets quite a surprise.",
-      "tr": {
-        "vi": "Hôm sau, Anna mở vở của Yamada ra, giật cả mình.",
-        "pt": "No dia seguinte, a Anna abre o caderno da Yamada e leva um susto.",
-        "es": "Al día siguiente, Anna abre la libreta de Yamada y se lleva una sorpresa.",
-        "fr": "Le lendemain, Anna ouvre le cahier de Yamada et a une grosse surprise.",
-        "am": "በማግስቱ አና የያማዳን ደብተር ስትከፍት ተገረመች።"
-      },
-      "start": 21.376,
-      "end": 26.104,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "笔记本",
-          "bǐ jì běn",
-          "notebook (stationery)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "惊",
-          "jīng",
-          "to startle; to be frightened; to be scared",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "本子里除了汉字和拼音，还有很多小画儿。",
-      "py": "běn zi lǐ chú le hàn zì hé pīn yīn, hái yǒu hěn duō xiǎo huà r.",
-      "en": "As well as characters and pinyin, the notebook is full of little drawings.",
-      "tr": {
-        "vi": "Trong vở ngoài chữ Hán và pinyin, còn có rất nhiều hình vẽ nhỏ.",
-        "pt": "Além dos caracteres e do pinyin, o caderno está cheio de desenhinhos.",
-        "es": "Además de caracteres y pinyin, la libreta tiene muchos dibujitos.",
-        "fr": "En plus des caractères et du pinyin, le cahier est plein de petits dessins.",
-        "am": "ደብተሩ ውስጥ ከሆሄያትና ከPinyin በተጨማሪ ብዙ ትናንሽ ሥዕሎች ነበሩ።"
-      },
-      "start": 26.804,
-      "end": 31.076,
-      "tokens": [
-        [
-          "本子",
-          "běn zi",
-          "notebook; book",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "除了",
-          "chú le",
-          "apart from; besides; in addition to (used to exclude, as in 除了他，除了他，谁也没来 \"apart from him, nobody came\", or to include, as in 除了英語，除了英语，他也会法语 \"in addition to English, he also knows French\")",
-          ""
-        ],
-        [
-          "汉字",
-          "hàn zì",
-          "Chinese character(s)",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(sports) to draw; to tie",
-          ""
-        ],
-        [
-          "拼音",
-          "pīn yīn",
-          "pinyin (Chinese romanization); phonetic writing",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "画儿",
-          "huà r",
-          "drawing; picture; painting",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "学“打电话”，旁边就画着一只打电话的猫；学“生气”，旁边就画着一个生气的李老师。",
-      "py": "xué “dǎ diàn huà”, páng biān jiù huà zhe yì zhī dǎ diàn huà de māo; xué “shēng qì”, páng biān jiù huà zhe yí gè shēng qì de Lǐ lǎo shī.",
-      "en": "Next to \"make a phone call\" there's a cat on the phone; next to \"angry\" there's an angry Teacher Li.",
-      "tr": {
-        "vi": "Học “gọi điện thoại” thì bên cạnh vẽ một con mèo đang gọi điện; học “tức giận” thì bên cạnh vẽ một cô Lý đang tức giận.",
-        "pt": "Ao lado de “telefonar” tem um gato falando ao telefone; ao lado de “zangado” tem uma professora Li zangada.",
-        "es": "Junto a «llamar por teléfono» hay un gato hablando por teléfono; junto a «enojarse», una profesora Li enojada.",
-        "fr": "À côté de « téléphoner », il y a un chat au téléphone ; à côté de « être en colère », il y a la professeure Li en colère.",
-        "am": "«ስልክ መደወል» ከሚለው ቃል አጠገብ ስልክ የምትደውል ድመት፤ «መናደድ» ከሚለው አጠገብ ደግሞ የተናደደች መምህርት ሊ ተሥላለች።"
-      },
-      "start": 31.776,
-      "end": 40.728,
-      "tokens": [
-        [
-          "学",
-          "xué",
-          "to learn; to study; to imitate",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "，"
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "(calligraphy) horizontal stroke; to draw; to paint",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "猫",
-          "māo",
-          "cat; (dialect) to hide oneself; (loanword) (coll.) modem",
-          ""
-        ],
-        [
-          "；"
-        ],
-        [
-          "学",
-          "xué",
-          "to learn; to study; to imitate",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "生气",
-          "shēng qì",
-          "to get angry; to be furious; vitality; liveliness",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "，"
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "(calligraphy) horizontal stroke; to draw; to paint",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "生气",
-          "shēng qì",
-          "to get angry; to be furious; vitality; liveliness",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜一边看一边笑，很快就把这些词都记住了。",
-      "py": "Ān nà yì biān kàn yì biān xiào, hěn kuài jiù bǎ zhè xiē cí dōu jì zhù le.",
-      "en": "Anna laughs as she reads, and soon she has learned all the words.",
-      "tr": {
-        "vi": "Anna vừa xem vừa cười, chẳng mấy chốc đã nhớ hết những từ này.",
-        "pt": "A Anna ri enquanto lê e logo decora todas as palavras.",
-        "es": "Anna se ríe mientras lee, y muy pronto se aprende todas esas palabras.",
-        "fr": "Anna rit en lisant, et elle retient très vite tous ces mots.",
-        "am": "አና እያነበበች ሳቀች፤ ቃላቱንም ሁሉ ቶሎ ያዘቻቸው።"
-      },
-      "start": 41.428,
-      "end": 46.18,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to read; to see; to look at; to watch",
-          ""
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "soon; rapid; quick",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a clause of action) as soon as; immediately after",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "这些",
-          "zhè xiē",
-          "these",
-          ""
-        ],
-        [
-          "词",
-          "cí",
-          "word; statement; speech; lyrics",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "记住",
-          "jì zhu",
-          "to learn by heart; to remember; to bear in mind",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "回到学校，她把本子拿给杰克看，别的同学也都过来看。",
-      "py": "huí dào xué xiào, tā bǎ běn zi ná gěi Jié kè kàn, bié de tóng xué yě dōu guò lái kàn.",
-      "en": "Back at school, she shows the notebook to Jack, and the other classmates all come over to look too.",
-      "tr": {
-        "vi": "Quay lại trường, cô đưa vở cho Jack xem, các bạn khác cũng đều xúm lại xem.",
-        "pt": "De volta à escola, ela mostra o caderno para Jack, e os outros colegas também vêm ver.",
-        "es": "De vuelta en la escuela, le enseña la libreta a Jack, y los demás compañeros también se acercan a verla.",
-        "fr": "De retour à l’école, elle montre le cahier à Jack, et les autres élèves viennent tous regarder aussi.",
-        "am": "ትምህርት ቤት ስትመለስ ደብተሩን ለጃክ አሳየችው፤ ሌሎቹ ተማሪዎችም ሊያዩ መጡ።"
-      },
-      "start": 46.88,
-      "end": 52.808,
-      "tokens": [
-        [
-          "回到",
-          "huí dào",
-          "to return to",
-          ""
-        ],
-        [
-          "学校",
-          "xué xiào",
-          "school",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "本子",
-          "běn zi",
-          "notebook; book",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "别的",
-          "bié de",
-          "other; else",
-          ""
-        ],
-        [
-          "同学",
-          "tóng xué",
-          "to study at the same school; classmate; fellow student",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "过来",
-          "guò lái",
-          "to come over; to manage; to handle",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这时候，李老师走了进来，教室里一下子安静了。",
-      "py": "zhè shí hou, Lǐ lǎo shī zǒu le jìn lái, jiào shì lǐ yí xià zi ān jìng le.",
-      "en": "Just then, Teacher Li walks in, and the classroom goes quiet at once.",
-      "tr": {
-        "vi": "Đúng lúc đó, cô Lý bước vào, lớp học bỗng chốc im phăng phắc.",
-        "pt": "Nessa hora, a professora Li entra, e a sala fica em silêncio na mesma hora.",
-        "es": "En ese momento entra la profesora Li, y el salón se queda en silencio de golpe.",
-        "fr": "À ce moment-là, la professeure Li entre, et la classe devient silencieuse d’un coup.",
-        "am": "በዚያን ጊዜ መምህርት ሊ ገባች፤ ክፍሉ ወዲያው ጸጥ አለ።"
-      },
-      "start": 53.508,
-      "end": 59.004,
-      "tokens": [
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "候",
-          "hòu",
-          "to wait; to inquire after; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "进来",
-          "jìn lái",
-          "to come in",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "教室",
-          "jiào shì",
-          "classroom",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "once; one time; all at once; all of a sudden",
-          ""
-        ],
-        [
-          "安静",
-          "ān jìng",
-          "quiet; peaceful; calm",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李老师拿起本子，正好看到了那个生气的自己。",
-      "py": "Lǐ lǎo shī ná qǐ běn zi, zhèng hǎo kàn dào le nà ge shēng qì de zì jǐ.",
-      "en": "Teacher Li picks up the notebook and opens it right at the angry picture of herself.",
-      "tr": {
-        "vi": "Cô Lý cầm cuốn vở lên, đúng lúc nhìn thấy hình mình đang tức giận.",
-        "pt": "A professora Li pega o caderno e abre justamente no desenho dela zangada.",
-        "es": "La profesora Li toma la libreta y ve justo el dibujo de ella misma enojada.",
-        "fr": "La professeure Li prend le cahier et tombe justement sur le dessin d’elle-même en colère.",
-        "am": "መምህርት ሊ ደብተሩን አንሥታ ልክ የተናደደችውን ራሷን አየች።"
-      },
-      "start": 59.704,
-      "end": 64.72,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "拿起",
-          "ná qǐ",
-          "to pick up",
-          ""
-        ],
-        [
-          "本子",
-          "běn zi",
-          "notebook; book",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "正好",
-          "zhèng hǎo",
-          "just right; just (in time); just enough",
-          ""
-        ],
-        [
-          "看到",
-          "kàn dào",
-          "to see",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "那个",
-          "nà ge",
-          "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)",
-          ""
-        ],
-        [
-          "生气",
-          "shēng qì",
-          "to get angry; to be furious; vitality; liveliness",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "山田的脸一下子红了：“老师，对不起……”",
-      "py": "Shān tián de liǎn yí xià zi hóng le: “lǎo shī, duì bu qǐ……”",
-      "en": "Yamada turns red. \"I'm sorry, Teacher...\"",
-      "tr": {
-        "vi": "Mặt Yamada lập tức đỏ bừng: “Cô ơi, em xin lỗi…”",
-        "pt": "A Yamada fica vermelha na hora: “Professora, desculpe…”",
-        "es": "Yamada se pone roja de golpe: «Profesora, perdón…».",
-        "fr": "Yamada devient toute rouge : « Madame, je suis désolée… »",
-        "am": "የያማዳ ፊት ወዲያው ቀላ። «መምህርት፣ ይቅርታ…»"
-      },
-      "start": 65.42,
-      "end": 70.412,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "脸",
-          "liǎn",
-          "face",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "once; one time; (following a verb) for a moment; briefly",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "对不起",
-          "duì bu qǐ",
-          "I'm sorry; excuse me; I beg your pardon",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "李老师看了很久，突然笑了：“画得真像！我生气的时候就是这样吗？”",
-      "py": "Lǐ lǎo shī kàn le hěn jiǔ, tū rán xiào le: “huà de zhēn xiàng! wǒ shēng qì de shí hou jiù shì zhè yàng ma?”",
-      "en": "Teacher Li looks at it for a long time, then suddenly laughs. \"That's just like me! Is that what I look like when I'm angry?\"",
-      "tr": {
-        "vi": "Cô Lý nhìn rất lâu, bỗng bật cười: “Vẽ giống thật! Lúc cô giận trông như thế này à?”",
-        "pt": "A professora Li olha por muito tempo e de repente ri: “Ficou igualzinho! É assim que eu fico quando estou zangada?”",
-        "es": "La profesora Li lo mira un buen rato y de repente se ríe: «¡Qué parecido! ¿Así me pongo cuando me enojo?».",
-        "fr": "La professeure Li regarde longtemps, puis elle éclate de rire : « C’est tout à fait moi ! C’est comme ça que je suis quand je me fâche ? »",
-        "am": "መምህርት ሊ ለረጅም ጊዜ አየችና ድንገት ሳቀች። «በጣም ይመስላል! ስናደድ እንዲህ ነኝ እንዴ?»"
-      },
-      "start": 71.112,
-      "end": 78.48,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "久",
-          "jiǔ",
-          "(of a period of time) long",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "突然",
-          "tū rán",
-          "sudden; abrupt; unexpected",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "画",
-          "huà",
-          "to draw; to paint; picture; painting; to draw (a line)",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "真",
-          "zhēn",
-          "really; truly; indeed",
-          ""
-        ],
-        [
-          "像",
-          "xiàng",
-          "to be like; to look as if; to resemble",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "生气",
-          "shēng qì",
-          "to get angry; to be furious; vitality; liveliness",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "only; simply; just; exactly; precisely",
-          ""
-        ],
-        [
-          "这样",
-          "zhè yàng",
-          "this way; like this; so; (before a noun) this kind of; such",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "她又说：“看着画儿记生词，比只看书容易多了。山田，以后你能帮我给练习画几张画儿吗？”",
-      "py": "tā yòu shuō: “kàn zhe huà r jì shēng cí, bǐ zhǐ kàn shū róng yì duō le. Shān tián, yǐ hòu nǐ néng bāng wǒ gěi liàn xí huà jǐ zhāng huà r ma?”",
-      "en": "Then she says, \"Learning new words from pictures is much easier than just reading the book. Yamada, could you do some drawings for my exercises from now on?\"",
-      "tr": {
-        "vi": "Cô lại nói: “Nhìn tranh để nhớ từ mới dễ hơn nhiều so với chỉ đọc sách. Yamada, sau này em có thể vẽ giúp cô vài bức tranh cho bài tập không?”",
-        "pt": "Depois, ela diz: “Aprender palavras novas com desenhos é muito mais fácil do que só ler o livro. Yamada, de agora em diante, você pode fazer alguns desenhos para os meus exercícios?”",
-        "es": "Y añade: «Aprender palabras nuevas con dibujos es mucho más fácil que solo leer el libro. Yamada, ¿de ahora en adelante podrías hacerme unos dibujos para los ejercicios?».",
-        "fr": "Puis elle dit : « Apprendre les nouveaux mots avec des dessins, c’est bien plus facile que de seulement lire le livre. Yamada, est-ce que tu pourrais faire des dessins pour mes exercices, à partir de maintenant ? »",
-        "am": "ቀጥላም «አዲስ ቃላትን በሥዕል ማጥናት መጽሐፍ ብቻ ከማንበብ በጣም ይቀላል። ያማዳ፣ ከአሁን በኋላ ለመልመጃዎቼ ጥቂት ሥዕሎች ልትሥዪልኝ ትችያለሽ?» አለች።"
-      },
-      "start": 79.18,
-      "end": 89.14,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "看",
-          "kàn",
-          "to read; to see; to look at; to watch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "画儿",
-          "huà r",
-          "picture; drawing; painting",
-          ""
-        ],
-        [
-          "记",
-          "jì",
-          "to record; to note; to memorize",
-          ""
-        ],
-        [
-          "生词",
-          "shēng cí",
-          "new word (in textbook)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "比",
-          "bǐ",
-          "(followed by a noun and adjective) more {adj.} than {noun}",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
-          ""
-        ],
-        [
-          "看书",
-          "kàn shū",
-          "to read; to study",
-          ""
-        ],
-        [
-          "容易",
-          "róng yì",
-          "easy; straightforward; likely; liable to; apt to",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "帮",
-          "bāng",
-          "to help; to assist; to support",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "练习",
-          "liàn xí",
-          "exercise; to practice; drill",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "to draw; to paint; picture; painting; to draw (a line)",
-          ""
-        ],
-        [
-          "几",
-          "jǐ",
-          "how many; how much; several; a few",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "画儿",
-          "huà r",
-          "picture; drawing; painting",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "现在，李老师的每一张练习纸上都有山田的画儿。",
-      "py": "xiàn zài, Lǐ lǎo shī de měi yì zhāng liàn xí zhǐ shàng dōu yǒu Shān tián de huà r.",
-      "en": "Now every one of Teacher Li's exercise sheets has Yamada's drawings on it.",
-      "tr": {
-        "vi": "Bây giờ, tờ bài tập nào của cô Lý cũng có tranh của Yamada.",
-        "pt": "Agora, todas as folhas de exercício da professora Li têm desenhos da Yamada.",
-        "es": "Ahora, cada hoja de ejercicios de la profesora Li tiene dibujos de Yamada.",
-        "fr": "Maintenant, sur chaque feuille d’exercices de la professeure Li, il y a des dessins de Yamada.",
-        "am": "አሁን በመምህርት ሊ እያንዳንዱ የመልመጃ ወረቀት ላይ የያማዳ ሥዕሎች አሉ።"
-      },
-      "start": 89.84,
-      "end": 94.856,
-      "tokens": [
-        [
-          "现在",
-          "xiàn zài",
-          "now; at present; currently",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "每",
-          "měi",
-          "every; each",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; sheet of paper",
-          ""
-        ],
-        [
-          "练习",
-          "liàn xí",
-          "exercise; to practice; drill",
-          ""
-        ],
-        [
-          "纸",
-          "zhǐ",
-          "paper; classifier for documents, letters etc",
-          ""
-        ],
-        [
-          "上都",
-          "shàng dū",
-          "Shangdu, also known as Xanadu, summer capital of the Yuan Dynasty (1279-1368)",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "画儿",
-          "huà r",
-          "drawing; picture; painting",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "不过，那个生气的李老师没有放进去。李老师说：“那张画儿，你自己留着吧！”",
-      "py": "bú guò, nà ge shēng qì de Lǐ lǎo shī méi yǒu fàng jìn qù. Lǐ lǎo shī shuō: “nà zhāng huà r, nǐ zì jǐ liú zhe ba!”",
-      "en": "The angry Teacher Li isn't on any of them, though. Teacher Li says, \"That one you can keep for yourself!\"",
-      "tr": {
-        "vi": "Nhưng bức cô Lý đang tức giận thì không được đưa vào. Cô Lý nói: “Bức tranh đó, em cứ giữ lại cho mình nhé!”",
-        "pt": "Mas a professora Li zangada não entrou em nenhuma. A professora Li diz: “Esse desenho você pode guardar para você!”",
-        "es": "Pero la profesora Li enojada no aparece en ninguna. La profesora Li dice: «¡Ese dibujo quédatelo tú!».",
-        "fr": "Mais la professeure Li en colère n’y est pas. Elle a dit à Yamada : « Ce dessin-là, garde-le pour toi ! »",
-        "am": "የተናደደችው መምህርት ሊ ግን አልገባችም። መምህርት ሊ «ያንን ሥዕል ለራስሽ አስቀምጪው!» አለች።"
-      },
-      "start": 95.556,
-      "end": 103.836,
-      "tokens": [
-        [
-          "不过",
-          "bù guò",
-          "only; merely; no more than",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那个",
-          "nà ge",
-          "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)",
-          ""
-        ],
-        [
-          "生气",
-          "shēng qì",
-          "to get angry; to be furious; vitality; liveliness",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "放进",
-          "fàng jìn",
-          "to put into",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "画儿",
-          "huà r",
-          "picture; drawing; painting",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "留",
-          "liú",
-          "to keep; to leave (a message etc); to retain",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 328,
-  "first": "安娜感冒了，一个星期没去上课。",
-  "newWords": [
-    {
-      "w": "笔记",
-      "py": "bǐjì",
-      "en": "notes"
-    },
-    {
-      "w": "画儿",
-      "py": "huàr",
-      "en": "picture, drawing"
-    },
-    {
-      "w": "记住",
-      "py": "jìzhù",
-      "en": "to remember"
-    },
-    {
-      "w": "正好",
-      "py": "zhènghǎo",
-      "en": "just right"
-    },
-    {
-      "w": "留",
-      "py": "liú",
-      "en": "to stay"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-20.mp3?v=1791720628"
+  {
+   "text": "她给山田打电话：“你能把上课的笔记借给我看看吗？”",
+   "py": "tā gěi Shān tián dǎ diàn huà: “nǐ néng bǎ shàng kè de bǐ jì jiè gěi wǒ kàn kàn ma?”",
+   "en": "She phones Yamada. \"Could you lend me your class notes?\"",
+   "tr": {
+    "vi": "Cô gọi điện cho Yamada: “Bạn có thể cho mình mượn vở ghi chép trên lớp xem không?”",
+    "pt": "Ela liga para a Yamada: “Você pode me emprestar as suas anotações da aula?”",
+    "es": "Llama a Yamada: «¿Me prestas tus apuntes de clase?».",
+    "fr": "Elle appelle Yamada : « Tu peux me prêter tes notes de cours ? »",
+    "am": "ለያማዳ ደወለች። «የክፍል ማስታወሻሽን ልታውሺኝ ትችያለሽ?»",
+    "fa": "به یامادا زنگ می‌زنه: «می‌شه جزوه‌هات رو بهم قرض بدی؟»"
+   },
+   "start": 7.376,
+   "end": 12.608,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "上课",
+     "shàng kè",
+     "to go to class; to attend class; to go to teach a class",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "笔记",
+     "bǐ jì",
+     "notes; to take down (in writing)",
+     ""
+    ],
+    [
+     "借给",
+     "jiè gěi",
+     "to lend to sb",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "看看",
+     "kàn kan",
+     "to take a look at; to examine; to survey",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "山田有点儿不好意思：“可以是可以，不过我的笔记有点儿奇怪。”",
+   "py": "Shān tián yǒu diǎn r bù hǎo yì sī: “kě yǐ shì kě yǐ, bú guò wǒ de bǐ jì yǒu diǎn r qí guài.”",
+   "en": "Yamada sounds a little shy. \"Sure, but my notes are a bit strange.\"",
+   "tr": {
+    "vi": "Yamada hơi ngại: “Được thì được, nhưng vở ghi của mình hơi kỳ lạ.”",
+    "pt": "A Yamada fica um pouco sem graça: “Posso, mas as minhas anotações são meio estranhas.”",
+    "es": "Yamada se apena un poco: «Sí, claro, pero mis apuntes son un poco raros».",
+    "fr": "Yamada est un peu gênée : « Oui, bien sûr, mais mes notes sont un peu bizarres. »",
+    "am": "ያማዳ ትንሽ አፈረች። «እችላለሁ፤ ግን ማስታወሻዬ ትንሽ እንግዳ ነው።»",
+    "fa": "صدای یامادا یه کم خجالتیه: «باشه، ولی جزوه‌هام یه کم عجیب‌ان.»"
+   },
+   "start": 13.308,
+   "end": 20.676,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "有点儿",
+     "yǒu diǎn r",
+     "a little; slightly; somewhat",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to feel embarrassed; to find it embarrassing",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "可以",
+     "kě yǐ",
+     "can; may; possible",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "可以",
+     "kě yǐ",
+     "can; may; possible",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不过",
+     "bù guò",
+     "but; only; merely",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "笔记",
+     "bǐ jì",
+     "notes; to take down (in writing)",
+     ""
+    ],
+    [
+     "有点儿",
+     "yǒu diǎn r",
+     "a little; slightly; somewhat",
+     ""
+    ],
+    [
+     "奇怪",
+     "qí guài",
+     "strange; odd; to marvel",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "第二天，安娜打开山田的笔记本，吃了一惊。",
+   "py": "dì èr tiān, Ān nà dǎ kāi Shān tián de bǐ jì běn, chī le yì jīng.",
+   "en": "The next day, Anna opens Yamada's notebook and gets quite a surprise.",
+   "tr": {
+    "vi": "Hôm sau, Anna mở vở của Yamada ra, giật cả mình.",
+    "pt": "No dia seguinte, a Anna abre o caderno da Yamada e leva um susto.",
+    "es": "Al día siguiente, Anna abre la libreta de Yamada y se lleva una sorpresa.",
+    "fr": "Le lendemain, Anna ouvre le cahier de Yamada et a une grosse surprise.",
+    "am": "በማግስቱ አና የያማዳን ደብተር ስትከፍት ተገረመች።",
+    "fa": "فرداش، آنا دفترچه‌ی یامادا رو باز می‌کنه و حسابی تعجب می‌کنه."
+   },
+   "start": 21.376,
+   "end": 26.104,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "笔记本",
+     "bǐ jì běn",
+     "notebook (stationery)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "惊",
+     "jīng",
+     "to startle; to be frightened; to be scared",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "本子里除了汉字和拼音，还有很多小画儿。",
+   "py": "běn zi lǐ chú le hàn zì hé pīn yīn, hái yǒu hěn duō xiǎo huà r.",
+   "en": "As well as characters and pinyin, the notebook is full of little drawings.",
+   "tr": {
+    "vi": "Trong vở ngoài chữ Hán và pinyin, còn có rất nhiều hình vẽ nhỏ.",
+    "pt": "Além dos caracteres e do pinyin, o caderno está cheio de desenhinhos.",
+    "es": "Además de caracteres y pinyin, la libreta tiene muchos dibujitos.",
+    "fr": "En plus des caractères et du pinyin, le cahier est plein de petits dessins.",
+    "am": "ደብተሩ ውስጥ ከሆሄያትና ከPinyin በተጨማሪ ብዙ ትናንሽ ሥዕሎች ነበሩ።",
+    "fa": "دفترچه علاوه بر کاراکترها و پین‌یین، پر از نقاشی‌های کوچولوئه."
+   },
+   "start": 26.804,
+   "end": 31.076,
+   "tokens": [
+    [
+     "本子",
+     "běn zi",
+     "notebook; book",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "除了",
+     "chú le",
+     "apart from; besides; in addition to (used to exclude, as in 除了他，除了他，谁也没来 \"apart from him, nobody came\", or to include, as in 除了英語，除了英语，他也会法语 \"in addition to English, he also knows French\")",
+     ""
+    ],
+    [
+     "汉字",
+     "hàn zì",
+     "Chinese character(s)",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(sports) to draw; to tie",
+     ""
+    ],
+    [
+     "拼音",
+     "pīn yīn",
+     "pinyin (Chinese romanization); phonetic writing",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "画儿",
+     "huà r",
+     "drawing; picture; painting",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "学“打电话”，旁边就画着一只打电话的猫；学“生气”，旁边就画着一个生气的李老师。",
+   "py": "xué “dǎ diàn huà”, páng biān jiù huà zhe yì zhī dǎ diàn huà de māo; xué “shēng qì”, páng biān jiù huà zhe yí gè shēng qì de Lǐ lǎo shī.",
+   "en": "Next to \"make a phone call\" there's a cat on the phone; next to \"angry\" there's an angry Teacher Li.",
+   "tr": {
+    "vi": "Học “gọi điện thoại” thì bên cạnh vẽ một con mèo đang gọi điện; học “tức giận” thì bên cạnh vẽ một cô Lý đang tức giận.",
+    "pt": "Ao lado de “telefonar” tem um gato falando ao telefone; ao lado de “zangado” tem uma professora Li zangada.",
+    "es": "Junto a «llamar por teléfono» hay un gato hablando por teléfono; junto a «enojarse», una profesora Li enojada.",
+    "fr": "À côté de « téléphoner », il y a un chat au téléphone ; à côté de « être en colère », il y a la professeure Li en colère.",
+    "am": "«ስልክ መደወል» ከሚለው ቃል አጠገብ ስልክ የምትደውል ድመት፤ «መናደድ» ከሚለው አጠገብ ደግሞ የተናደደች መምህርት ሊ ተሥላለች።",
+    "fa": "کنار \"زنگ زدن\" یه گربه‌ی پشت تلفن کشیده؛ کنار \"عصبانی\"، یه معلم لیِ عصبانی."
+   },
+   "start": 31.776,
+   "end": 40.728,
+   "tokens": [
+    [
+     "学",
+     "xué",
+     "to learn; to study; to imitate",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "，"
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "(calligraphy) horizontal stroke; to draw; to paint",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "猫",
+     "māo",
+     "cat; (dialect) to hide oneself; (loanword) (coll.) modem",
+     ""
+    ],
+    [
+     "；"
+    ],
+    [
+     "学",
+     "xué",
+     "to learn; to study; to imitate",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "生气",
+     "shēng qì",
+     "to get angry; to be furious; vitality; liveliness",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "，"
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "(calligraphy) horizontal stroke; to draw; to paint",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "生气",
+     "shēng qì",
+     "to get angry; to be furious; vitality; liveliness",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜一边看一边笑，很快就把这些词都记住了。",
+   "py": "Ān nà yì biān kàn yì biān xiào, hěn kuài jiù bǎ zhè xiē cí dōu jì zhù le.",
+   "en": "Anna laughs as she reads, and soon she has learned all the words.",
+   "tr": {
+    "vi": "Anna vừa xem vừa cười, chẳng mấy chốc đã nhớ hết những từ này.",
+    "pt": "A Anna ri enquanto lê e logo decora todas as palavras.",
+    "es": "Anna se ríe mientras lee, y muy pronto se aprende todas esas palabras.",
+    "fr": "Anna rit en lisant, et elle retient très vite tous ces mots.",
+    "am": "አና እያነበበች ሳቀች፤ ቃላቱንም ሁሉ ቶሎ ያዘቻቸው።",
+    "fa": "آنا در حال خوندن می‌خنده و به‌زودی همه‌ی کلمه‌ها رو یاد گرفته."
+   },
+   "start": 41.428,
+   "end": 46.18,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to read; to see; to look at; to watch",
+     ""
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "soon; rapid; quick",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a clause of action) as soon as; immediately after",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "这些",
+     "zhè xiē",
+     "these",
+     ""
+    ],
+    [
+     "词",
+     "cí",
+     "word; statement; speech; lyrics",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "记住",
+     "jì zhu",
+     "to learn by heart; to remember; to bear in mind",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "回到学校，她把本子拿给杰克看，别的同学也都过来看。",
+   "py": "huí dào xué xiào, tā bǎ běn zi ná gěi Jié kè kàn, bié de tóng xué yě dōu guò lái kàn.",
+   "en": "Back at school, she shows the notebook to Jack, and the other classmates all come over to look too.",
+   "tr": {
+    "vi": "Quay lại trường, cô đưa vở cho Jack xem, các bạn khác cũng đều xúm lại xem.",
+    "pt": "De volta à escola, ela mostra o caderno para Jack, e os outros colegas também vêm ver.",
+    "es": "De vuelta en la escuela, le enseña la libreta a Jack, y los demás compañeros también se acercan a verla.",
+    "fr": "De retour à l’école, elle montre le cahier à Jack, et les autres élèves viennent tous regarder aussi.",
+    "am": "ትምህርት ቤት ስትመለስ ደብተሩን ለጃክ አሳየችው፤ ሌሎቹ ተማሪዎችም ሊያዩ መጡ።",
+    "fa": "برمی‌گرده مدرسه، دفترچه رو نشون جک می‌ده و بقیه‌ی همکلاسی‌ها هم می‌ان دورش نگاه کنن."
+   },
+   "start": 46.88,
+   "end": 52.808,
+   "tokens": [
+    [
+     "回到",
+     "huí dào",
+     "to return to",
+     ""
+    ],
+    [
+     "学校",
+     "xué xiào",
+     "school",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "本子",
+     "běn zi",
+     "notebook; book",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "别的",
+     "bié de",
+     "other; else",
+     ""
+    ],
+    [
+     "同学",
+     "tóng xué",
+     "to study at the same school; classmate; fellow student",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "过来",
+     "guò lái",
+     "to come over; to manage; to handle",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这时候，李老师走了进来，教室里一下子安静了。",
+   "py": "zhè shí hou, Lǐ lǎo shī zǒu le jìn lái, jiào shì lǐ yí xià zi ān jìng le.",
+   "en": "Just then, Teacher Li walks in, and the classroom goes quiet at once.",
+   "tr": {
+    "vi": "Đúng lúc đó, cô Lý bước vào, lớp học bỗng chốc im phăng phắc.",
+    "pt": "Nessa hora, a professora Li entra, e a sala fica em silêncio na mesma hora.",
+    "es": "En ese momento entra la profesora Li, y el salón se queda en silencio de golpe.",
+    "fr": "À ce moment-là, la professeure Li entre, et la classe devient silencieuse d’un coup.",
+    "am": "በዚያን ጊዜ መምህርት ሊ ገባች፤ ክፍሉ ወዲያው ጸጥ አለ።",
+    "fa": "همین موقع معلم لی پا می‌شه تو و کلاس فوری ساکت می‌شه."
+   },
+   "start": 53.508,
+   "end": 59.004,
+   "tokens": [
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "候",
+     "hòu",
+     "to wait; to inquire after; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "进来",
+     "jìn lái",
+     "to come in",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "教室",
+     "jiào shì",
+     "classroom",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "once; one time; all at once; all of a sudden",
+     ""
+    ],
+    [
+     "安静",
+     "ān jìng",
+     "quiet; peaceful; calm",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李老师拿起本子，正好看到了那个生气的自己。",
+   "py": "Lǐ lǎo shī ná qǐ běn zi, zhèng hǎo kàn dào le nà ge shēng qì de zì jǐ.",
+   "en": "Teacher Li picks up the notebook and opens it right at the angry picture of herself.",
+   "tr": {
+    "vi": "Cô Lý cầm cuốn vở lên, đúng lúc nhìn thấy hình mình đang tức giận.",
+    "pt": "A professora Li pega o caderno e abre justamente no desenho dela zangada.",
+    "es": "La profesora Li toma la libreta y ve justo el dibujo de ella misma enojada.",
+    "fr": "La professeure Li prend le cahier et tombe justement sur le dessin d’elle-même en colère.",
+    "am": "መምህርት ሊ ደብተሩን አንሥታ ልክ የተናደደችውን ራሷን አየች።",
+    "fa": "معلم لی دفترچه رو برمی‌داره و دقیقاً صفحه‌ی عکسِ عصبانیشو باز می‌کنه."
+   },
+   "start": 59.704,
+   "end": 64.72,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "拿起",
+     "ná qǐ",
+     "to pick up",
+     ""
+    ],
+    [
+     "本子",
+     "běn zi",
+     "notebook; book",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "正好",
+     "zhèng hǎo",
+     "just right; just (in time); just enough",
+     ""
+    ],
+    [
+     "看到",
+     "kàn dào",
+     "to see",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "那个",
+     "nà ge",
+     "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)",
+     ""
+    ],
+    [
+     "生气",
+     "shēng qì",
+     "to get angry; to be furious; vitality; liveliness",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "山田的脸一下子红了：“老师，对不起……”",
+   "py": "Shān tián de liǎn yí xià zi hóng le: “lǎo shī, duì bu qǐ……”",
+   "en": "Yamada turns red. \"I'm sorry, Teacher...\"",
+   "tr": {
+    "vi": "Mặt Yamada lập tức đỏ bừng: “Cô ơi, em xin lỗi…”",
+    "pt": "A Yamada fica vermelha na hora: “Professora, desculpe…”",
+    "es": "Yamada se pone roja de golpe: «Profesora, perdón…».",
+    "fr": "Yamada devient toute rouge : « Madame, je suis désolée… »",
+    "am": "የያማዳ ፊት ወዲያው ቀላ። «መምህርት፣ ይቅርታ…»",
+    "fa": "یامادا سرخ می‌شه: «ببخشید، خانم معلم...»"
+   },
+   "start": 65.42,
+   "end": 70.412,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "脸",
+     "liǎn",
+     "face",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "once; one time; (following a verb) for a moment; briefly",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "对不起",
+     "duì bu qǐ",
+     "I'm sorry; excuse me; I beg your pardon",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "李老师看了很久，突然笑了：“画得真像！我生气的时候就是这样吗？”",
+   "py": "Lǐ lǎo shī kàn le hěn jiǔ, tū rán xiào le: “huà de zhēn xiàng! wǒ shēng qì de shí hou jiù shì zhè yàng ma?”",
+   "en": "Teacher Li looks at it for a long time, then suddenly laughs. \"That's just like me! Is that what I look like when I'm angry?\"",
+   "tr": {
+    "vi": "Cô Lý nhìn rất lâu, bỗng bật cười: “Vẽ giống thật! Lúc cô giận trông như thế này à?”",
+    "pt": "A professora Li olha por muito tempo e de repente ri: “Ficou igualzinho! É assim que eu fico quando estou zangada?”",
+    "es": "La profesora Li lo mira un buen rato y de repente se ríe: «¡Qué parecido! ¿Así me pongo cuando me enojo?».",
+    "fr": "La professeure Li regarde longtemps, puis elle éclate de rire : « C’est tout à fait moi ! C’est comme ça que je suis quand je me fâche ? »",
+    "am": "መምህርት ሊ ለረጅም ጊዜ አየችና ድንገት ሳቀች። «በጣም ይመስላል! ስናደድ እንዲህ ነኝ እንዴ?»",
+    "fa": "معلم لی مدت زیادی بهش نگاه می‌کنه و بعد یهو می‌خنده: «دقیقاً شبیه خودممه! من وقتی عصبانی می‌شم این‌جوری دیده می‌شم؟»"
+   },
+   "start": 71.112,
+   "end": 78.48,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "久",
+     "jiǔ",
+     "(of a period of time) long",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "突然",
+     "tū rán",
+     "sudden; abrupt; unexpected",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "画",
+     "huà",
+     "to draw; to paint; picture; painting; to draw (a line)",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "真",
+     "zhēn",
+     "really; truly; indeed",
+     ""
+    ],
+    [
+     "像",
+     "xiàng",
+     "to be like; to look as if; to resemble",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "生气",
+     "shēng qì",
+     "to get angry; to be furious; vitality; liveliness",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "only; simply; just; exactly; precisely",
+     ""
+    ],
+    [
+     "这样",
+     "zhè yàng",
+     "this way; like this; so; (before a noun) this kind of; such",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "她又说：“看着画儿记生词，比只看书容易多了。山田，以后你能帮我给练习画几张画儿吗？”",
+   "py": "tā yòu shuō: “kàn zhe huà r jì shēng cí, bǐ zhǐ kàn shū róng yì duō le. Shān tián, yǐ hòu nǐ néng bāng wǒ gěi liàn xí huà jǐ zhāng huà r ma?”",
+   "en": "Then she says, \"Learning new words from pictures is much easier than just reading the book. Yamada, could you do some drawings for my exercises from now on?\"",
+   "tr": {
+    "vi": "Cô lại nói: “Nhìn tranh để nhớ từ mới dễ hơn nhiều so với chỉ đọc sách. Yamada, sau này em có thể vẽ giúp cô vài bức tranh cho bài tập không?”",
+    "pt": "Depois, ela diz: “Aprender palavras novas com desenhos é muito mais fácil do que só ler o livro. Yamada, de agora em diante, você pode fazer alguns desenhos para os meus exercícios?”",
+    "es": "Y añade: «Aprender palabras nuevas con dibujos es mucho más fácil que solo leer el libro. Yamada, ¿de ahora en adelante podrías hacerme unos dibujos para los ejercicios?».",
+    "fr": "Puis elle dit : « Apprendre les nouveaux mots avec des dessins, c’est bien plus facile que de seulement lire le livre. Yamada, est-ce que tu pourrais faire des dessins pour mes exercices, à partir de maintenant ? »",
+    "am": "ቀጥላም «አዲስ ቃላትን በሥዕል ማጥናት መጽሐፍ ብቻ ከማንበብ በጣም ይቀላል። ያማዳ፣ ከአሁን በኋላ ለመልመጃዎቼ ጥቂት ሥዕሎች ልትሥዪልኝ ትችያለሽ?» አለች።",
+    "fa": "بعد می‌گه: «یاد گرفتن کلمه‌های نو با نقاشی خیلی راحت‌تره از فقط کتاب خوندن. یامادا، از این به بعد می‌شه برای برگه‌های تمرین منم نقاشی بکشی؟»"
+   },
+   "start": 79.18,
+   "end": 89.14,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "看",
+     "kàn",
+     "to read; to see; to look at; to watch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "画儿",
+     "huà r",
+     "picture; drawing; painting",
+     ""
+    ],
+    [
+     "记",
+     "jì",
+     "to record; to note; to memorize",
+     ""
+    ],
+    [
+     "生词",
+     "shēng cí",
+     "new word (in textbook)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "比",
+     "bǐ",
+     "(followed by a noun and adjective) more {adj.} than {noun}",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
+     ""
+    ],
+    [
+     "看书",
+     "kàn shū",
+     "to read; to study",
+     ""
+    ],
+    [
+     "容易",
+     "róng yì",
+     "easy; straightforward; likely; liable to; apt to",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "帮",
+     "bāng",
+     "to help; to assist; to support",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "练习",
+     "liàn xí",
+     "exercise; to practice; drill",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "to draw; to paint; picture; painting; to draw (a line)",
+     ""
+    ],
+    [
+     "几",
+     "jǐ",
+     "how many; how much; several; a few",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "画儿",
+     "huà r",
+     "picture; drawing; painting",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "现在，李老师的每一张练习纸上都有山田的画儿。",
+   "py": "xiàn zài, Lǐ lǎo shī de měi yì zhāng liàn xí zhǐ shàng dōu yǒu Shān tián de huà r.",
+   "en": "Now every one of Teacher Li's exercise sheets has Yamada's drawings on it.",
+   "tr": {
+    "vi": "Bây giờ, tờ bài tập nào của cô Lý cũng có tranh của Yamada.",
+    "pt": "Agora, todas as folhas de exercício da professora Li têm desenhos da Yamada.",
+    "es": "Ahora, cada hoja de ejercicios de la profesora Li tiene dibujos de Yamada.",
+    "fr": "Maintenant, sur chaque feuille d’exercices de la professeure Li, il y a des dessins de Yamada.",
+    "am": "አሁን በመምህርት ሊ እያንዳንዱ የመልመጃ ወረቀት ላይ የያማዳ ሥዕሎች አሉ።",
+    "fa": "حالا روی هر برگه‌ی تمرینِ معلم لی نقاشی‌های یامادا هست."
+   },
+   "start": 89.84,
+   "end": 94.856,
+   "tokens": [
+    [
+     "现在",
+     "xiàn zài",
+     "now; at present; currently",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "每",
+     "měi",
+     "every; each",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; sheet of paper",
+     ""
+    ],
+    [
+     "练习",
+     "liàn xí",
+     "exercise; to practice; drill",
+     ""
+    ],
+    [
+     "纸",
+     "zhǐ",
+     "paper; classifier for documents, letters etc",
+     ""
+    ],
+    [
+     "上都",
+     "shàng dū",
+     "Shangdu, also known as Xanadu, summer capital of the Yuan Dynasty (1279-1368)",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "画儿",
+     "huà r",
+     "drawing; picture; painting",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "不过，那个生气的李老师没有放进去。李老师说：“那张画儿，你自己留着吧！”",
+   "py": "bú guò, nà ge shēng qì de Lǐ lǎo shī méi yǒu fàng jìn qù. Lǐ lǎo shī shuō: “nà zhāng huà r, nǐ zì jǐ liú zhe ba!”",
+   "en": "The angry Teacher Li isn't on any of them, though. Teacher Li says, \"That one you can keep for yourself!\"",
+   "tr": {
+    "vi": "Nhưng bức cô Lý đang tức giận thì không được đưa vào. Cô Lý nói: “Bức tranh đó, em cứ giữ lại cho mình nhé!”",
+    "pt": "Mas a professora Li zangada não entrou em nenhuma. A professora Li diz: “Esse desenho você pode guardar para você!”",
+    "es": "Pero la profesora Li enojada no aparece en ninguna. La profesora Li dice: «¡Ese dibujo quédatelo tú!».",
+    "fr": "Mais la professeure Li en colère n’y est pas. Elle a dit à Yamada : « Ce dessin-là, garde-le pour toi ! »",
+    "am": "የተናደደችው መምህርት ሊ ግን አልገባችም። መምህርት ሊ «ያንን ሥዕል ለራስሽ አስቀምጪው!» አለች።",
+    "fa": "ولی معلم لیِ عصبانی روی هیچ‌کدومش نیست. معلم لی می‌گه: «اون یکی مال خودت باشه!»"
+   },
+   "start": 95.556,
+   "end": 103.836,
+   "tokens": [
+    [
+     "不过",
+     "bù guò",
+     "only; merely; no more than",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那个",
+     "nà ge",
+     "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)",
+     ""
+    ],
+    [
+     "生气",
+     "shēng qì",
+     "to get angry; to be furious; vitality; liveliness",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "放进",
+     "fàng jìn",
+     "to put into",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "画儿",
+     "huà r",
+     "picture; drawing; painting",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "留",
+     "liú",
+     "to keep; to leave (a message etc); to retain",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 328,
+ "first": "安娜感冒了，一个星期没去上课。",
+ "newWords": [
+  {
+   "w": "笔记",
+   "py": "bǐjì",
+   "en": "notes"
+  },
+  {
+   "w": "画儿",
+   "py": "huàr",
+   "en": "picture, drawing"
+  },
+  {
+   "w": "记住",
+   "py": "jìzhù",
+   "en": "to remember"
+  },
+  {
+   "w": "正好",
+   "py": "zhènghǎo",
+   "en": "just right"
+  },
+  {
+   "w": "留",
+   "py": "liú",
+   "en": "to stay"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-20.mp3?v=1791720628"
 }

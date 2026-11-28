@@ -1,3157 +1,3179 @@
 {
-  "id": "h6-10",
-  "level": 6,
-  "no": 10,
-  "title": "外卖上的纸条",
-  "title_py": "wài mài shàng de zhǐ tiáo",
-  "title_en": "The notes on the takeaway",
-  "title_tr": {
-    "am": "በምግብ ዕቃው ላይ ያለው ማስታወሻ",
-    "fa": "یادداشت‌های روی بسته‌های غذای بیرون‌بر"
+ "id": "h6-10",
+ "level": 6,
+ "no": 10,
+ "title": "外卖上的纸条",
+ "title_py": "wài mài shàng de zhǐ tiáo",
+ "title_en": "The notes on the takeaway",
+ "title_tr": {
+  "am": "በምግብ ዕቃው ላይ ያለው ማስታወሻ",
+  "fa": "یادداشت‌های روی بسته‌های غذای بیرون‌بر"
+ },
+ "topic": "food",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h6-10.jpg",
+ "duration": 187.124,
+ "lines": [
+  {
+   "text": "山田最近常常点附近一家小饭馆的外卖，她最爱吃他们的番茄牛腩饭。",
+   "py": "Shān tián zuì jìn cháng cháng diǎn fù jìn yì jiā xiǎo fàn guǎn de wài mài, tā zuì ài chī tā men de fān qié niú nǎn fàn.",
+   "en": "Lately Yamada often orders takeaway from a little restaurant nearby. Her favourite is their tomato and beef brisket rice.",
+   "tr": {
+    "am": "ያማዳ ሰሞኑን ከአቅራቢያ ካለች ትንሽ ምግብ ቤት ብዙ ጊዜ ምግብ ታዝዛለች፤ በጣም የምትወደው የቲማቲምና የበሬ ሥጋ ሩዝ ነው።",
+    "fa": "این روزها یامادا اغلب از یه رستوران کوچیک نزدیک غذا بیرون‌بر سفارش می‌ده. غذای مورد علاقه‌ش برنج گوجه و گوشت سینه گاو."
+   },
+   "start": 2.884,
+   "end": 10.444,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "最近",
+     "zuì jìn",
+     "recently; soon; nearest",
+     ""
+    ],
+    [
+     "常常",
+     "cháng cháng",
+     "frequently; often",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to order (food etc); to select; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "附近",
+     "fù jìn",
+     "nearby; neighboring; (in the) vicinity (of); neighborhood",
+     ""
+    ],
+    [
+     "一家",
+     "yī jiā",
+     "the whole family; the same family",
+     ""
+    ],
+    [
+     "小饭馆",
+     "xiǎo fàn guǎn",
+     "tearoom; canteen; cafeteria",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "外卖",
+     "wài mài",
+     "(of a restaurant) to provide a takeout or home delivery meal",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "最",
+     "zuì",
+     "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+     ""
+    ],
+    [
+     "爱",
+     "ài",
+     "to love; to be fond of; to like; affection",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "番茄",
+     "fān qié",
+     "tomato",
+     ""
+    ],
+    [
+     "牛腩",
+     "niú nǎn",
+     "brisket (esp. Cantonese); belly beef",
+     ""
+    ],
+    [
+     "饭",
+     "fàn",
+     "cooked rice; meal; (loanword) fan",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "food",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h6-10.jpg",
-  "duration": 187.124,
-  "lines": [
-    {
-      "text": "山田最近常常点附近一家小饭馆的外卖，她最爱吃他们的番茄牛腩饭。",
-      "py": "Shān tián zuì jìn cháng cháng diǎn fù jìn yì jiā xiǎo fàn guǎn de wài mài, tā zuì ài chī tā men de fān qié niú nǎn fàn.",
-      "en": "Lately Yamada often orders takeaway from a little restaurant nearby. Her favourite is their tomato and beef brisket rice.",
-      "tr": {
-        "am": "ያማዳ ሰሞኑን ከአቅራቢያ ካለች ትንሽ ምግብ ቤት ብዙ ጊዜ ምግብ ታዝዛለች፤ በጣም የምትወደው የቲማቲምና የበሬ ሥጋ ሩዝ ነው።"
-      },
-      "start": 2.884,
-      "end": 10.444,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "最近",
-          "zuì jìn",
-          "recently; soon; nearest",
-          ""
-        ],
-        [
-          "常常",
-          "cháng cháng",
-          "frequently; often",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to order (food etc); to select; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "附近",
-          "fù jìn",
-          "nearby; neighboring; (in the) vicinity (of); neighborhood",
-          ""
-        ],
-        [
-          "一家",
-          "yī jiā",
-          "the whole family; the same family",
-          ""
-        ],
-        [
-          "小饭馆",
-          "xiǎo fàn guǎn",
-          "tearoom; canteen; cafeteria",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "外卖",
-          "wài mài",
-          "(of a restaurant) to provide a takeout or home delivery meal",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "最",
-          "zuì",
-          "(before an adjective or verb) to the highest degree; (the) most ...; -est",
-          ""
-        ],
-        [
-          "爱",
-          "ài",
-          "to love; to be fond of; to like; affection",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "番茄",
-          "fān qié",
-          "tomato",
-          ""
-        ],
-        [
-          "牛腩",
-          "niú nǎn",
-          "brisket (esp. Cantonese); belly beef",
-          ""
-        ],
-        [
-          "饭",
-          "fàn",
-          "cooked rice; meal; (loanword) fan",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "为了练习汉语，她每次下单，都要在备注里认认真真地写上一句话。",
-      "py": "wèi le liàn xí Hàn yǔ, tā měi cì xià dān, dōu yào zài bèi zhù lǐ rèn rèn zhēn zhēn de xiě shàng yí jù huà.",
-      "en": "To practise her Chinese, every time she orders, she carefully writes a sentence in the notes box.",
-      "tr": {
-        "am": "ቻይንኛ ለመለማመድ በምታዝዝ ቁጥር በማስታወሻ ሳጥኑ ውስጥ አንድ ዓረፍተ ነገር በጥንቃቄ ትጽፋለች።"
-      },
-      "start": 11.144,
-      "end": 17.576,
-      "tokens": [
-        [
-          "为了",
-          "wèi le",
-          "for; for the purpose of; in order to",
-          ""
-        ],
-        [
-          "练习",
-          "liàn xí",
-          "to practice; exercise; drill",
-          ""
-        ],
-        [
-          "汉语",
-          "hàn yǔ",
-          "Chinese language",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "每次",
-          "měi cì",
-          "every time",
-          ""
-        ],
-        [
-          "下单",
-          "xià dān",
-          "to place an order; to order",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "备注",
-          "bèi zhù",
-          "remarks; notes (written in such a column)",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "认",
-          "rèn",
-          "to recognize; to know; to admit",
-          ""
-        ],
-        [
-          "认真",
-          "rèn zhēn",
-          "conscientious; earnest; serious",
-          ""
-        ],
-        [
-          "真",
-          "zhēn",
-          "really; truly; indeed",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "一句话",
-          "yī jù huà",
-          "in a word; in short",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这一次，她写的是：“不要香菜，辣多一点儿，谢谢老板！”",
-      "py": "zhè yí cì, tā xiě de shì: “bú yào xiāng cài, là duō yì diǎn r, xiè xie lǎo bǎn!”",
-      "en": "This time she writes: \"No coriander, spicy a bit more, thank you, boss!\"",
-      "tr": {
-        "am": "በዚህ ጊዜ የጻፈችው «ኮሪደር አትጨምሩ፤ ቅመም ብዙ ትንሽ፤ አመሰግናለሁ ባለቤት!» ነበር።"
-      },
-      "start": 18.276,
-      "end": 24.708,
-      "tokens": [
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "一次",
-          "yī cì",
-          "first time; first; once",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "不要",
-          "bù yào",
-          "don't!; must not",
-          ""
-        ],
-        [
-          "香菜",
-          "xiāng cài",
-          "coriander; cilantro; Coriandrum sativum",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "辣",
-          "là",
-          "hot (spicy); pungent",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "半个小时以后，外卖送到了，饭盒上贴着一张黄色的小纸条。",
-      "py": "bàn gè xiǎo shí yǐ hòu, wài mài sòng dào le, fàn hé shàng tiē zhe yì zhāng huáng sè de xiǎo zhǐ tiáo.",
-      "en": "Half an hour later the food arrives, with a little yellow note stuck on the box.",
-      "tr": {
-        "am": "ከግማሽ ሰዓት በኋላ ምግቡ ደረሰ፤ በዕቃው ላይ ትንሽ ቢጫ ማስታወሻ ተለጥፎ ነበር።"
-      },
-      "start": 25.408,
-      "end": 31.84,
-      "tokens": [
-        [
-          "半个",
-          "bàn ge",
-          "half of sth",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "外卖",
-          "wài mài",
-          "(of a restaurant) to provide a takeout or home delivery meal",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "饭盒",
-          "fàn hé",
-          "lunchbox; mess tin",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "贴",
-          "tiē",
-          "allowance (e.g. money for food or housing); to stick",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "黄色",
-          "huáng sè",
-          "yellow; vulgar; lewd; pornographic",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "纸条",
-          "zhǐ tiáo",
-          "slip of paper",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "纸条上写着：“没放香菜，多放了辣。另外，‘多放一点儿辣’比‘辣多一点儿’更地道。”",
-      "py": "zhǐ tiáo shàng xiě zhe: “méi fàng xiāng cài, duō fàng le là. lìng wài, ‘duō fàng yì diǎn r là’ bǐ ‘là duō yì diǎn r’ gèng de dao.”",
-      "en": "The note says: \"No coriander, extra chilli. Also, 'put in a bit more chilli' sounds more natural than 'spicy a bit more'.\"",
-      "tr": {
-        "am": "ማስታወሻው እንዲህ ይላል፦ «ኮሪደር አልጨመርንም፤ ቅመም አብዝተናል። በተጨማሪም ‹ቅመም ብዙ ትንሽ› ከማለት ‹ትንሽ ተጨማሪ ቅመም ጨምሩ› ማለት ይበልጥ ትክክል ነው።»"
-      },
-      "start": 32.54,
-      "end": 41.756,
-      "tokens": [
-        [
-          "纸条",
-          "zhǐ tiáo",
-          "slip of paper",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "香菜",
-          "xiāng cài",
-          "coriander; cilantro; Coriandrum sativum",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "多放",
-          "duō fàng",
-          "add extra (of a spice etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "辣",
-          "là",
-          "hot (spicy); pungent",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "另外",
-          "lìng wài",
-          "moreover; additional; in addition",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "‘"
-        ],
-        [
-          "多放",
-          "duō fàng",
-          "add extra (of a spice etc)",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "辣",
-          "là",
-          "hot (spicy); pungent",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "比",
-          "bǐ",
-          "(followed by a noun and adjective) more {adj.} than {noun}",
-          ""
-        ],
-        [
-          "‘"
-        ],
-        [
-          "辣",
-          "là",
-          "hot (spicy); pungent",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "更",
-          "gèng",
-          "more; even more; still more",
-          ""
-        ],
-        [
-          "地道",
-          "dì dao",
-          "authentic; genuine; proper",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "山田先是一愣，接着笑了：点一份外卖，还送一节汉语课？",
-      "py": "Shān tián xiān shì yí lèng, jiē zhe xiào le: diǎn yí fèn wài mài, hái sòng yì jié Hàn yǔ kè?",
-      "en": "Yamada is taken aback at first, then laughs: order a takeaway and get a free Chinese lesson?",
-      "tr": {
-        "am": "ያማዳ መጀመሪያ ክው አለች፤ ከዚያም ሳቀች፦ አንድ ምግብ ብታዝዝ የቻይንኛ ትምህርትም በነፃ ይመጣል?"
-      },
-      "start": 42.456,
-      "end": 49.056,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "\"one\" radical in Chinese characters (Kangxi radical 1); one",
-          ""
-        ],
-        [
-          "愣",
-          "lèng",
-          "to look distracted; to stare blankly; distracted",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "接着",
-          "jiē zhe",
-          "then; to catch and hold on; to continue",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "点",
-          "diǎn",
-          "to order (food etc); to select",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "\"one\" radical in Chinese characters (Kangxi radical 1); one",
-          ""
-        ],
-        [
-          "份",
-          "fèn",
-          "classifier for gifts, newspaper, magazine, papers, reports, contracts etc",
-          ""
-        ],
-        [
-          "外卖",
-          "wài mài",
-          "(of a restaurant) to provide a takeout or home delivery meal",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "\"one\" radical in Chinese characters (Kangxi radical 1); one",
-          ""
-        ],
-        [
-          "节",
-          "jié",
-          "classifier for segments: lessons, train wagons, biblical verses etc",
-          ""
-        ],
-        [
-          "汉语",
-          "hàn yǔ",
-          "Chinese language",
-          ""
-        ],
-        [
-          "课",
-          "kè",
-          "lesson; subject; course",
-          ""
-        ],
-        [
-          "？"
-        ]
-      ]
-    },
-    {
-      "text": "从那以后，她每次点餐，最期待的不是饭，而是那张小纸条。",
-      "py": "cóng nà yǐ hòu, tā měi cì diǎn cān, zuì qī dài de bú shì fàn, ér shì nà zhāng xiǎo zhǐ tiáo.",
-      "en": "From then on, what she looks forward to most when she orders isn't the food but the little note.",
-      "tr": {
-        "am": "ከዚያ ወዲህ ባዘዘች ቁጥር በጣም የምትጓጓለት ምግቡ ሳይሆን ያቺ ትንሽ ማስታወሻ ሆነች።"
-      },
-      "start": 49.756,
-      "end": 57.1,
-      "tokens": [
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "每次",
-          "měi cì",
-          "every time",
-          ""
-        ],
-        [
-          "点餐",
-          "diǎn cān",
-          "(at a restaurant) to order a meal",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "最",
-          "zuì",
-          "(before an adjective or verb) to the highest degree; (the) most ...; -est",
-          ""
-        ],
-        [
-          "期待",
-          "qī dài",
-          "to look forward to; to await; expectation",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "不是",
-          "bù shì",
-          "no; is not; not",
-          ""
-        ],
-        [
-          "饭",
-          "fàn",
-          "cooked rice; meal; (loanword) fan",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "而是",
-          "ér shì",
-          "rather",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "纸条",
-          "zhǐ tiáo",
-          "slip of paper",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她写“你们的饭太好吃了，我每天都想吃了”，纸条上就写：“谢谢！‘每天都想吃’后面不用加‘了’。”",
-      "py": "tā xiě “nǐ men de fàn tài hǎo chī le, wǒ měi tiān dōu xiǎng chī le”, zhǐ tiáo shàng jiù xiě: “xiè xie! ‘měi tiān dōu xiǎng chī’ hòu mian bú yòng jiā ‘le’.”",
-      "en": "She writes, \"Your food is so good, I want to eat it every day le,\" and the note replies, \"Thank you! You don't need le after 'want to eat it every day'.\"",
-      "tr": {
-        "am": "«ምግባችሁ በጣም ጣፋጭ ነው፤ በየቀኑ መብላት እፈልጋለሁ 了» ብላ ስትጽፍ፣ ማስታወሻው «አመሰግናለሁ! ከ‹በየቀኑ መብላት እፈልጋለሁ› በኋላ 了 መጨመር አያስፈልግም» ይላል።"
-      },
-      "start": 57.8,
-      "end": 67.736,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "饭",
-          "fàn",
-          "cooked rice; meal; (loanword) fan",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "highest; greatest; too (much)",
-          ""
-        ],
-        [
-          "好吃",
-          "hǎo chī",
-          "tasty; delicious",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "，"
-        ],
-        [
-          "纸条",
-          "zhǐ tiáo",
-          "slip of paper",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "‘"
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "后面",
-          "hòu mian",
-          "later; afterwards; the back; the rear; the last bit",
-          ""
-        ],
-        [
-          "不用",
-          "bù yòng",
-          "need not",
-          ""
-        ],
-        [
-          "加",
-          "jiā",
-          "(used before a disyllabic verb, often after an adverb like 不, 大, 稍 etc, to indicate that the action applies to sth previously mentioned, as in 稍加改良 \"make some minor improvements to (it)\")",
-          ""
-        ],
-        [
-          "‘"
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "她把“渴”写成了“喝”，纸条上就会把正确的字工工整整地写一遍，旁边还画一个笑脸。",
-      "py": "tā bǎ “kě” xiě chéng le “hē”, zhǐ tiáo shàng jiù huì bǎ zhèng què de zì gōng gōng zhěng zhěng de xiě yí biàn, páng biān hái huà yí gè xiào liǎn.",
-      "en": "When she writes the character for \"drink\" instead of \"thirsty\", the note writes the right one out neatly, with a smiley face beside it.",
-      "tr": {
-        "am": "«መጠማት» የሚለውን «渴» በስህተት «喝» ብላ ስትጽፍ፣ ማስታወሻው ትክክለኛውን ሆሄ በጥንቃቄ ይጽፍላታል፤ አጠገቡም የፈገግታ ፊት ይሥላል።"
-      },
-      "start": 68.436,
-      "end": 77.676,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "渴",
-          "kě",
-          "thirsty",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "成了",
-          "chéng le",
-          "to be done; to be ready; that's enough!",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "，"
-        ],
-        [
-          "纸条",
-          "zhǐ tiáo",
-          "slip of paper",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "正确",
-          "zhèng què",
-          "correct; sound; right; proper",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "字",
-          "zì",
-          "character; letter; symbol",
-          ""
-        ],
-        [
-          "工",
-          "gōng",
-          "work; worker; skill",
-          ""
-        ],
-        [
-          "工整",
-          "gōng zhěng",
-          "carefully and neatly done; fine work",
-          ""
-        ],
-        [
-          "整地",
-          "zhěng dì",
-          "to prepare the soil (agriculture)",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "一遍",
-          "yī biàn",
-          "one time (all the way through); once through",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "stroke of a Chinese character; to draw; to paint",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "笑脸",
-          "xiào liǎn",
-          "smiling face; smiley :) ☺",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一个月下来，山田的备注越写越长，纸条上要纠正的地方却越来越少。",
-      "py": "yí gè yuè xià lái, Shān tián de bèi zhù yuè xiě yuè cháng, zhǐ tiáo shàng yào jiū zhèng de dì fang què yuè lái yuè shǎo.",
-      "en": "After a month, Yamada's notes keep getting longer, but there's less and less for the notes to correct.",
-      "tr": {
-        "am": "ከአንድ ወር በኋላ የያማዳ ማስታወሻዎች እየረዘሙ ሄዱ፤ በማስታወሻው ላይ የሚታረመው ግን እየቀነሰ ሄደ።"
-      },
-      "start": 78.376,
-      "end": 85.96,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "下来",
-          "xià lai",
-          "(after verb of motion, indicates motion down and towards us, also fig.)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "备注",
-          "bèi zhù",
-          "remarks; notes (written in such a column)",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "to exceed; to climb over; to surpass",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "to exceed; to climb over; to surpass",
-          ""
-        ],
-        [
-          "长",
-          "cháng",
-          "long; (bound form) length; (bound form) strong point; forte",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "纸条",
-          "zhǐ tiáo",
-          "slip of paper",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "纠正",
-          "jiū zhèng",
-          "to correct; to make right",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "地方",
-          "dì fang",
-          "place; location; area; space; territory; aspect; part",
-          ""
-        ],
-        [
-          "却",
-          "què",
-          "but; yet; however",
-          ""
-        ],
-        [
-          "越来越",
-          "yuè lái yuè",
-          "more and more",
-          ""
-        ],
-        [
-          "少",
-          "shǎo",
-          "less; few; to lack",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她把每一张纸条都贴在冰箱门上，米米常常蹲在冰箱前面盯着看，好像也在学习。",
-      "py": "tā bǎ měi yì zhāng zhǐ tiáo dōu tiē zài bīng xiāng mén shàng, Mǐ mi cháng cháng dūn zài bīng xiāng qián mian dīng zhe kàn, hǎo xiàng yě zài xué xí.",
-      "en": "She sticks every note on the fridge door, and Mimi often sits in front of it staring, as if she's studying too.",
-      "tr": {
-        "am": "እያንዳንዷን ማስታወሻ በፍሪጁ በር ላይ ለጠፈች፤ ሚሚ ብዙ ጊዜ ከፍሪጁ ፊት ቁጭ ብላ ታፈጥባቸዋለች፤ እሷም የምትማር ይመስል።"
-      },
-      "start": 86.66,
-      "end": 94.964,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "每",
-          "měi",
-          "every; each",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "纸条",
-          "zhǐ tiáo",
-          "slip of paper",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "贴",
-          "tiē",
-          "to stick; to paste; to post (e.g. on a blog)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "冰箱",
-          "bīng xiāng",
-          "refrigerator; (old) icebox",
-          ""
-        ],
-        [
-          "门",
-          "mén",
-          "gate; door; doorway; gateway; opening",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "常常",
-          "cháng cháng",
-          "frequently; often",
-          ""
-        ],
-        [
-          "蹲",
-          "dūn",
-          "to crouch; to squat; to stay (somewhere)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "冰箱",
-          "bīng xiāng",
-          "refrigerator; (old) icebox",
-          ""
-        ],
-        [
-          "前面",
-          "qián miàn",
-          "in front; ahead; preceding",
-          ""
-        ],
-        [
-          "盯",
-          "dīng",
-          "to watch attentively; to fix one's attention on; to stare at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "好像",
-          "hǎo xiàng",
-          "as if; to seem like",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "学习",
-          "xué xí",
-          "to learn; to study",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "有一天，她想试试对方到底有多认真，就故意又写了一遍：“不要香菜，辣多一点儿。”",
-      "py": "yǒu yì tiān, tā xiǎng shì shì duì fāng dào dǐ yǒu duō rèn zhēn, jiù gù yì yòu xiě le yí biàn: “bú yào xiāng cài, là duō yì diǎn r.”",
-      "en": "One day, to test just how careful they are, she deliberately writes it the old way again: \"No coriander, spicy a bit more.\"",
-      "tr": {
-        "am": "አንድ ቀን እነሱ ምን ያህል ጥንቁቆች እንደሆኑ ለመፈተን ሆን ብላ እንደገና «ኮሪደር አትጨምሩ፤ ቅመም ብዙ ትንሽ» ብላ ጻፈች።"
-      },
-      "start": 95.664,
-      "end": 104.16,
-      "tokens": [
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "试",
-          "shì",
-          "to test; test; to try",
-          ""
-        ],
-        [
-          "试",
-          "shì",
-          "to test; test; to try",
-          ""
-        ],
-        [
-          "对方",
-          "duì fāng",
-          "the other person; the other side; the other party",
-          ""
-        ],
-        [
-          "到底",
-          "dào dǐ",
-          "finally; in the end; when all is said and done",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; how (to what extent)",
-          ""
-        ],
-        [
-          "认真",
-          "rèn zhēn",
-          "conscientious; earnest; serious",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "故意",
-          "gù yì",
-          "deliberately; on purpose",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一遍",
-          "yī biàn",
-          "one time (all the way through); once through",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "不要",
-          "bù yào",
-          "don't!; must not",
-          ""
-        ],
-        [
-          "香菜",
-          "xiāng cài",
-          "coriander; cilantro; Coriandrum sativum",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "辣",
-          "là",
-          "hot (spicy); pungent",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; how (to what extent)",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "这一次，纸条上的话有点儿不客气了：“这个错你一个月以前就改过了，是故意的吧？”",
-      "py": "zhè yí cì, zhǐ tiáo shàng de huà yǒu diǎn r bú kè qi le: “zhè ge cuò nǐ yí gè yuè yǐ qián jiù gǎi guò le, shì gù yì de ba?”",
-      "en": "This time the note is a bit less polite: \"You fixed this mistake a month ago. You did it on purpose, didn't you?\"",
-      "tr": {
-        "am": "በዚህ ጊዜ በማስታወሻው ላይ ያለው ቃል ትንሽ ጨዋነት የጎደለው ነበር፦ «ይህን ስህተት ከአንድ ወር በፊት አርመሽው ነበር፤ ሆን ብለሽ ነው አይደል?»"
-      },
-      "start": 104.86,
-      "end": 112.924,
-      "tokens": [
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "一次",
-          "yī cì",
-          "first time; first; once",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "纸条",
-          "zhǐ tiáo",
-          "slip of paper",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "的话",
-          "de huà",
-          "if (coming after a conditional clause)",
-          ""
-        ],
-        [
-          "有点儿",
-          "yǒu diǎn r",
-          "slightly; a little; somewhat",
-          ""
-        ],
-        [
-          "不客气",
-          "bù kè qi",
-          "you're welcome; don't mention it; impolite",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "错",
-          "cuò",
-          "mistake; wrong; bad",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "以前",
-          "yǐ qián",
-          "ago; before; formerly",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "改过",
-          "gǎi guò",
-          "to correct one's errors; to mend one's ways",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是故",
-          "shì gù",
-          "therefore; so; consequently",
-          ""
-        ],
-        [
-          "意",
-          "yì",
-          "(bound form) idea; thought; meaning; sense",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "下面还画了一个叉着腰的小人儿。",
-      "py": "xià miàn hái huà le yí gè chā zhe yāo de xiǎo rén r.",
-      "en": "Underneath is a little drawing of a figure with its hands on its hips.",
-      "tr": {
-        "am": "ከታች ደግሞ ወገቡን የያዘ ትንሽ ሰው ተሥሎ ነበር።"
-      },
-      "start": 113.624,
-      "end": 116.96,
-      "tokens": [
-        [
-          "下面",
-          "xià miàn",
-          "under; below; next",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "to draw; to paint; to draw (a line); picture; painting",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "叉",
-          "chā",
-          "fork; pitchfork; prong",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "腰",
-          "yāo",
-          "the waist and lower back",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "小人",
-          "xiǎo rén",
-          "person of low social status (old)",
-          ""
-        ],
-        [
-          "儿",
-          "ér",
-          "child; son",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "山田又好笑又好奇，第二天下午，她决定亲自去饭馆看看。",
-      "py": "Shān tián yòu hǎo xiào yòu hào qí, dì èr tiān xià wǔ, tā jué dìng qīn zì qù fàn guǎn kàn kàn.",
-      "en": "Yamada is amused and curious, and the next afternoon she decides to go to the restaurant and see for herself.",
-      "tr": {
-        "am": "ያማዳ አሳቃትም፣ አጓጓትም፤ በማግስቱ ከሰዓት በኋላ ራሷ ሄዳ ምግብ ቤቱን ለማየት ወሰነች።"
-      },
-      "start": 117.66,
-      "end": 124.572,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "好笑",
-          "hǎo xiào",
-          "laughable; funny; ridiculous",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "好奇",
-          "hào qí",
-          "curious; inquisitive; inquisitiveness",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "决定",
-          "jué dìng",
-          "to decide; to determine; to make up one's mind; decision",
-          ""
-        ],
-        [
-          "亲自",
-          "qīn zì",
-          "personally; in person; oneself",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "饭馆",
-          "fàn guǎn",
-          "restaurant",
-          ""
-        ],
-        [
-          "看看",
-          "kàn kan",
-          "to take a look at; to examine; to survey",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "饭馆不大，老板在厨房里炒菜，老板娘在门口打包。",
-      "py": "fàn guǎn bú dà, lǎo bǎn zài chú fáng lǐ chǎo cài, lǎo bǎn niáng zài mén kǒu dǎ bāo.",
-      "en": "It's a small place: the owner is cooking in the kitchen, and his wife is packing orders by the door.",
-      "tr": {
-        "am": "ምግብ ቤቱ ትልቅ አይደለም፤ ባለቤቱ ወጥ ቤት ውስጥ ምግብ ያበስላል፤ ሚስቱ ደግሞ በር ላይ ትዕዛዞችን ታሽጋለች።"
-      },
-      "start": 125.272,
-      "end": 131.224,
-      "tokens": [
-        [
-          "饭馆",
-          "fàn guǎn",
-          "restaurant",
-          ""
-        ],
-        [
-          "不大",
-          "bù dà",
-          "not very (clear, far away etc); not too",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "厨房",
-          "chú fáng",
-          "kitchen",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "炒菜",
-          "chǎo cài",
-          "to do the cooking; to stir-fry; stir-fried dish",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "老板娘",
-          "lǎo bǎn niáng",
-          "boss's wife; female proprietor; lady boss",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "门口",
-          "mén kǒu",
-          "doorway; gate",
-          ""
-        ],
-        [
-          "打包",
-          "dǎ bāo",
-          "to wrap; to pack",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "角落的小桌子旁边坐着一个十来岁的小女孩，一边写作业，一边往饭盒上贴纸条。",
-      "py": "jiǎo luò de xiǎo zhuō zi páng biān zuò zhe yí gè shí lái suì de xiǎo nǚ hái, yì biān xiě zuò yè, yì biān wǎng fàn hé shàng tiē zhǐ tiáo.",
-      "en": "At a little table in the corner sits a girl of about ten, doing her homework and sticking notes on the boxes as she goes.",
-      "tr": {
-        "am": "ጥግ ላይ ባለች ትንሽ ጠረጴዛ አጠገብ አሥር ዓመት ገደማ የሆናት አንዲት ልጅ ተቀምጣ የቤት ሥራዋን እየሠራች በምግብ ዕቃዎቹ ላይ ማስታወሻ ትለጥፋለች።"
-      },
-      "start": 131.924,
-      "end": 141.14,
-      "tokens": [
-        [
-          "角落",
-          "jiǎo luò",
-          "corner (of a room, courtyard etc); (fig.) remote spot; nook",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "桌子",
-          "zhuō zi",
-          "table; desk",
-          ""
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "岁",
-          "suì",
-          "years old; classifier for years (of age); year",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "小女",
-          "xiǎo nǚ",
-          "my daughter (humble)",
-          ""
-        ],
-        [
-          "孩",
-          "hái",
-          "(bound form) child",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一边",
-          "yī biān",
-          "doing while; one side; either side",
-          ""
-        ],
-        [
-          "写作",
-          "xiě zuò",
-          "to write; to compose; writing",
-          ""
-        ],
-        [
-          "业",
-          "yè",
-          "line of business; industry; occupation",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一边",
-          "yī biān",
-          "doing while; one side; either side",
-          ""
-        ],
-        [
-          "往",
-          "wǎng",
-          "to go (in a direction); to; towards",
-          ""
-        ],
-        [
-          "饭盒",
-          "fàn hé",
-          "lunchbox; mess tin",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "贴纸",
-          "tiē zhǐ",
-          "sticker",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "strip; item; article",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "老板娘不好意思地说：“这是我女儿，上四年级。她说改顾客的备注，比写作业有意思多了。”",
-      "py": "lǎo bǎn niáng bù hǎo yì sī de shuō: “zhè shì wǒ nǚ ér, shàng sì nián jí. tā shuō gǎi gù kè de bèi zhù, bǐ xiě zuò yè yǒu yì si duō le.”",
-      "en": "The owner's wife says, a little embarrassed, \"This is my daughter. She's in her fourth year at primary school. She says correcting the customers' notes is much more fun than homework.\"",
-      "tr": {
-        "am": "የባለቤቱ ሚስት አፍራ «ይህች ልጄ ናት፤ አራተኛ ክፍል ናት። የደንበኞችን ማስታወሻ ማረም ከቤት ሥራ በጣም ይበልጥ ያስደስታል ትላለች» አለች።"
-      },
-      "start": 141.84,
-      "end": 151.104,
-      "tokens": [
-        [
-          "老板娘",
-          "lǎo bǎn niáng",
-          "boss's wife; female proprietor; lady boss",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to feel embarrassed; to find it embarrassing",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "correct; right; true; to be (followed by substantives only)",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "女儿",
-          "nǚ ér",
-          "daughter",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "四",
-          "sì",
-          "four; 4",
-          ""
-        ],
-        [
-          "年级",
-          "nián jí",
-          "year (in school, college etc); grade",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "改",
-          "gǎi",
-          "to correct; to change; to alter",
-          ""
-        ],
-        [
-          "顾客",
-          "gù kè",
-          "customer; client",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "备注",
-          "bèi zhù",
-          "remarks; notes (written in such a column)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "比",
-          "bǐ",
-          "(followed by a noun and adjective) more {adj.} than {noun}",
-          ""
-        ],
-        [
-          "写作",
-          "xiě zuò",
-          "to write; to compose; writing",
-          ""
-        ],
-        [
-          "业",
-          "yè",
-          "school studies; line of business; industry",
-          ""
-        ],
-        [
-          "有意思",
-          "yǒu yì si",
-          "fun; interesting; meaningful",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "山田恍然大悟：难怪纸条上的字迹总是歪歪扭扭的，可是她的错，却一个也没漏掉。",
-      "py": "Shān tián huǎng rán dà wù: nán guài zhǐ tiáo shàng de zì jì zǒng shì wāi wāi niǔ niǔ de, kě shì tā de cuò, què yí gè yě méi lòu diào.",
-      "en": "Now it all makes sense to Yamada: no wonder the handwriting on the notes was always wobbly — and yet not one of her mistakes ever slipped past.",
-      "tr": {
-        "am": "ያማዳ ሁሉ ነገር ገባት፦ የማስታወሻዎቹ ጽሕፈት ሁልጊዜ የተንጋደደ የነበረው ለዚህ ነው፤ ግን አንድም ስህተቷ አላመለጠም።"
-      },
-      "start": 151.804,
-      "end": 161.284,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "恍然大悟",
-          "huǎng rán dà wù",
-          "(idiom) to suddenly realize; to suddenly see the light",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "难怪",
-          "nán guài",
-          "(it's) no wonder (that...); (it's) not surprising (that)",
-          ""
-        ],
-        [
-          "纸条",
-          "zhǐ tiáo",
-          "slip of paper",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "字迹",
-          "zì jì",
-          "handwriting",
-          ""
-        ],
-        [
-          "总是",
-          "zǒng shì",
-          "always",
-          ""
-        ],
-        [
-          "歪歪扭扭",
-          "wāi wāi niǔ niǔ",
-          "crooked; askew",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "错",
-          "cuò",
-          "mistake; to let slip; wrong",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "却",
-          "què",
-          "yet; but; however",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "漏掉",
-          "lòu diào",
-          "to slip through; to miss; to leave out",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小女孩看见山田手里的黄纸条，眼睛一亮：“你就是那个‘辣多一点儿’吧？”",
-      "py": "xiǎo nǚ hái kàn jiàn Shān tián shǒu lǐ de huáng zhǐ tiáo, yǎn jing yí liàng: “nǐ jiù shì nà ge ‘là duō yì diǎn r’ ba?”",
-      "en": "The girl spots the yellow note in Yamada's hand, and her eyes light up. \"You're Miss 'Spicy a Bit More', aren't you?\"",
-      "tr": {
-        "am": "ልጅቷ በያማዳ እጅ ያለውን ቢጫ ማስታወሻ አይታ ዓይኖቿ በሩ፦ «አንቺ ያቺ ‹ቅመም ብዙ ትንሽ› ነሽ አይደል?»"
-      },
-      "start": 161.984,
-      "end": 169.352,
-      "tokens": [
-        [
-          "小女",
-          "xiǎo nǚ",
-          "my daughter (humble)",
-          ""
-        ],
-        [
-          "孩",
-          "hái",
-          "(bound form) child",
-          ""
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "手里",
-          "shǒu lǐ",
-          "in hand; (a situation is) in sb's hands",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "黄",
-          "huáng",
-          "yellow; pornographic; to fall through",
-          ""
-        ],
-        [
-          "纸条",
-          "zhǐ tiáo",
-          "slip of paper",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "眼睛",
-          "yǎn jing",
-          "eye",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "亮",
-          "liàng",
-          "bright; light; to shine; to flash; loud and clear",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
-          ""
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "exactly; precisely; only; simply; just",
-          ""
-        ],
-        [
-          "那个",
-          "nà ge",
-          "that one; that thing; that (as opposed to this)",
-          ""
-        ],
-        [
-          "‘"
-        ],
-        [
-          "辣",
-          "là",
-          "hot (spicy); pungent",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "那天，山田在店里吃了一碗番茄牛腩饭，还教了小女孩几句日语。",
-      "py": "nà tiān, Shān tián zài diàn lǐ chī le yì wǎn fān qié niú nǎn fàn, hái jiāo le xiǎo nǚ hái jǐ jù rì yǔ.",
-      "en": "That day Yamada eats a bowl of tomato and beef brisket rice in the restaurant, and teaches the girl a few words of Japanese.",
-      "tr": {
-        "am": "በዚያ ቀን ያማዳ ምግብ ቤቱ ውስጥ አንድ ሳህን የቲማቲምና የበሬ ሥጋ ሩዝ በላች፤ ለልጅቷም ጥቂት የጃፓንኛ ቃላት አስተማረቻት።"
-      },
-      "start": 170.052,
-      "end": 176.916,
-      "tokens": [
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "店",
-          "diàn",
-          "inn; old-style hotel; (bound form) shop; store",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "番茄",
-          "fān qié",
-          "tomato",
-          ""
-        ],
-        [
-          "牛腩",
-          "niú nǎn",
-          "brisket (esp. Cantonese); belly beef",
-          ""
-        ],
-        [
-          "饭",
-          "fàn",
-          "cooked rice; meal; (loanword) fan",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "教",
-          "jiāo",
-          "to teach; to instruct",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "小女",
-          "xiǎo nǚ",
-          "my daughter (humble)",
-          ""
-        ],
-        [
-          "孩",
-          "hái",
-          "(bound form) child",
-          ""
-        ],
-        [
-          "几",
-          "jǐ",
-          "several; a few; how many; how much",
-          ""
-        ],
-        [
-          "句",
-          "jù",
-          "classifier for phrases or lines of verse; sentence; clause",
-          ""
-        ],
-        [
-          "日语",
-          "rì yǔ",
-          "Japanese language",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "从那以后，山田的备注里多了一行日语，小女孩的纸条上，也多了一行歪歪扭扭的日语。",
-      "py": "cóng nà yǐ hòu, Shān tián de bèi zhù lǐ duō le yì xíng rì yǔ, xiǎo nǚ hái de zhǐ tiáo shàng, yě duō le yì xíng wāi wāi niǔ niǔ de rì yǔ.",
-      "en": "From then on, Yamada's notes have an extra line in Japanese — and so do the girl's notes, in wobbly handwriting.",
-      "tr": {
-        "am": "ከዚያ ወዲህ በያማዳ ማስታወሻዎች ላይ አንድ መስመር ጃፓንኛ ተጨመረ፤ በልጅቷ ማስታወሻዎች ላይም አንድ መስመር የተንጋደደ ጃፓንኛ ተጨመረ።"
-      },
-      "start": 177.616,
-      "end": 186.424,
-      "tokens": [
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "备注",
-          "bèi zhù",
-          "remarks; notes (written in such a column)",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一行",
-          "yī xíng",
-          "party; delegation",
-          ""
-        ],
-        [
-          "日语",
-          "rì yǔ",
-          "Japanese language",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小女",
-          "xiǎo nǚ",
-          "my daughter (humble)",
-          ""
-        ],
-        [
-          "孩",
-          "hái",
-          "(bound form) child",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "纸条",
-          "zhǐ tiáo",
-          "slip of paper",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一行",
-          "yī xíng",
-          "party; delegation",
-          ""
-        ],
-        [
-          "歪歪扭扭",
-          "wāi wāi niǔ niǔ",
-          "crooked; askew",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "日语",
-          "rì yǔ",
-          "Japanese language",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 616,
-  "first": "山田最近常常点附近一家小饭馆的外卖，她最爱吃他们的番茄牛腩饭。",
-  "newWords": [
-    {
-      "w": "备注",
-      "py": "bèi zhù",
-      "en": "remarks column (abbr. for 备注栏)"
-    },
-    {
-      "w": "纠正",
-      "py": "jiūzhèng",
-      "en": "to fix an error or mistake"
-    },
-    {
-      "w": "故意",
-      "py": "gùyì",
-      "en": "on purpose"
-    },
-    {
-      "w": "恍然大悟",
-      "py": "huǎngrándàwù",
-      "en": "to suddenly understand something clearly"
-    },
-    {
-      "w": "字迹",
-      "py": "zì jì",
-      "en": "handwriting"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h6-10.mp3?v=1791720847"
+  {
+   "text": "为了练习汉语，她每次下单，都要在备注里认认真真地写上一句话。",
+   "py": "wèi le liàn xí Hàn yǔ, tā měi cì xià dān, dōu yào zài bèi zhù lǐ rèn rèn zhēn zhēn de xiě shàng yí jù huà.",
+   "en": "To practise her Chinese, every time she orders, she carefully writes a sentence in the notes box.",
+   "tr": {
+    "am": "ቻይንኛ ለመለማመድ በምታዝዝ ቁጥር በማስታወሻ ሳጥኑ ውስጥ አንድ ዓረፍተ ነገር በጥንቃቄ ትጽፋለች።",
+    "fa": "برای تمرین چینی، هر بار که سفارش می‌ده با دقت یه جمله تو قسمت توضیحات می‌نویسه."
+   },
+   "start": 11.144,
+   "end": 17.576,
+   "tokens": [
+    [
+     "为了",
+     "wèi le",
+     "for; for the purpose of; in order to",
+     ""
+    ],
+    [
+     "练习",
+     "liàn xí",
+     "to practice; exercise; drill",
+     ""
+    ],
+    [
+     "汉语",
+     "hàn yǔ",
+     "Chinese language",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "每次",
+     "měi cì",
+     "every time",
+     ""
+    ],
+    [
+     "下单",
+     "xià dān",
+     "to place an order; to order",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "备注",
+     "bèi zhù",
+     "remarks; notes (written in such a column)",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "认",
+     "rèn",
+     "to recognize; to know; to admit",
+     ""
+    ],
+    [
+     "认真",
+     "rèn zhēn",
+     "conscientious; earnest; serious",
+     ""
+    ],
+    [
+     "真",
+     "zhēn",
+     "really; truly; indeed",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "一句话",
+     "yī jù huà",
+     "in a word; in short",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这一次，她写的是：“不要香菜，辣多一点儿，谢谢老板！”",
+   "py": "zhè yí cì, tā xiě de shì: “bú yào xiāng cài, là duō yì diǎn r, xiè xie lǎo bǎn!”",
+   "en": "This time she writes: \"No coriander, spicy a bit more, thank you, boss!\"",
+   "tr": {
+    "am": "በዚህ ጊዜ የጻፈችው «ኮሪደር አትጨምሩ፤ ቅመም ብዙ ትንሽ፤ አመሰግናለሁ ባለቤት!» ነበር።",
+    "fa": "این‌بار می‌نویسه: «بدون گشنیز، تند یه‌کم بیشتر، ممنون آقا!»"
+   },
+   "start": 18.276,
+   "end": 24.708,
+   "tokens": [
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "一次",
+     "yī cì",
+     "first time; first; once",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "不要",
+     "bù yào",
+     "don't!; must not",
+     ""
+    ],
+    [
+     "香菜",
+     "xiāng cài",
+     "coriander; cilantro; Coriandrum sativum",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "辣",
+     "là",
+     "hot (spicy); pungent",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "半个小时以后，外卖送到了，饭盒上贴着一张黄色的小纸条。",
+   "py": "bàn gè xiǎo shí yǐ hòu, wài mài sòng dào le, fàn hé shàng tiē zhe yì zhāng huáng sè de xiǎo zhǐ tiáo.",
+   "en": "Half an hour later the food arrives, with a little yellow note stuck on the box.",
+   "tr": {
+    "am": "ከግማሽ ሰዓት በኋላ ምግቡ ደረሰ፤ በዕቃው ላይ ትንሽ ቢጫ ማስታወሻ ተለጥፎ ነበር።",
+    "fa": "نیم ساعت بعد غذا می‌رسه با یه یادداشت زرد کوچیک چسبیده به جعبه."
+   },
+   "start": 25.408,
+   "end": 31.84,
+   "tokens": [
+    [
+     "半个",
+     "bàn ge",
+     "half of sth",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "外卖",
+     "wài mài",
+     "(of a restaurant) to provide a takeout or home delivery meal",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "饭盒",
+     "fàn hé",
+     "lunchbox; mess tin",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "贴",
+     "tiē",
+     "allowance (e.g. money for food or housing); to stick",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "黄色",
+     "huáng sè",
+     "yellow; vulgar; lewd; pornographic",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "纸条",
+     "zhǐ tiáo",
+     "slip of paper",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "纸条上写着：“没放香菜，多放了辣。另外，‘多放一点儿辣’比‘辣多一点儿’更地道。”",
+   "py": "zhǐ tiáo shàng xiě zhe: “méi fàng xiāng cài, duō fàng le là. lìng wài, ‘duō fàng yì diǎn r là’ bǐ ‘là duō yì diǎn r’ gèng de dao.”",
+   "en": "The note says: \"No coriander, extra chilli. Also, 'put in a bit more chilli' sounds more natural than 'spicy a bit more'.\"",
+   "tr": {
+    "am": "ማስታወሻው እንዲህ ይላል፦ «ኮሪደር አልጨመርንም፤ ቅመም አብዝተናል። በተጨማሪም ‹ቅመም ብዙ ትንሽ› ከማለት ‹ትንሽ ተጨማሪ ቅመም ጨምሩ› ማለት ይበልጥ ትክክል ነው።»",
+    "fa": "یادداشت نوشته: «بدون گشنیز، فلفل بیشتر. ضمناً 'یه‌کم فلفل بذارین' طبیعی‌تره تا 'تند یه‌کم بیشتر'.»"
+   },
+   "start": 32.54,
+   "end": 41.756,
+   "tokens": [
+    [
+     "纸条",
+     "zhǐ tiáo",
+     "slip of paper",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "香菜",
+     "xiāng cài",
+     "coriander; cilantro; Coriandrum sativum",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "多放",
+     "duō fàng",
+     "add extra (of a spice etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "辣",
+     "là",
+     "hot (spicy); pungent",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "另外",
+     "lìng wài",
+     "moreover; additional; in addition",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "‘"
+    ],
+    [
+     "多放",
+     "duō fàng",
+     "add extra (of a spice etc)",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "辣",
+     "là",
+     "hot (spicy); pungent",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "比",
+     "bǐ",
+     "(followed by a noun and adjective) more {adj.} than {noun}",
+     ""
+    ],
+    [
+     "‘"
+    ],
+    [
+     "辣",
+     "là",
+     "hot (spicy); pungent",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "更",
+     "gèng",
+     "more; even more; still more",
+     ""
+    ],
+    [
+     "地道",
+     "dì dao",
+     "authentic; genuine; proper",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "山田先是一愣，接着笑了：点一份外卖，还送一节汉语课？",
+   "py": "Shān tián xiān shì yí lèng, jiē zhe xiào le: diǎn yí fèn wài mài, hái sòng yì jié Hàn yǔ kè?",
+   "en": "Yamada is taken aback at first, then laughs: order a takeaway and get a free Chinese lesson?",
+   "tr": {
+    "am": "ያማዳ መጀመሪያ ክው አለች፤ ከዚያም ሳቀች፦ አንድ ምግብ ብታዝዝ የቻይንኛ ትምህርትም በነፃ ይመጣል?",
+    "fa": "یامادا اول جا می‌خوره، بعد می‌خنده: سفارش غذا می‌دی و یه درس مجانی چینی هم می‌گیری؟"
+   },
+   "start": 42.456,
+   "end": 49.056,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "\"one\" radical in Chinese characters (Kangxi radical 1); one",
+     ""
+    ],
+    [
+     "愣",
+     "lèng",
+     "to look distracted; to stare blankly; distracted",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "接着",
+     "jiē zhe",
+     "then; to catch and hold on; to continue",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "点",
+     "diǎn",
+     "to order (food etc); to select",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "\"one\" radical in Chinese characters (Kangxi radical 1); one",
+     ""
+    ],
+    [
+     "份",
+     "fèn",
+     "classifier for gifts, newspaper, magazine, papers, reports, contracts etc",
+     ""
+    ],
+    [
+     "外卖",
+     "wài mài",
+     "(of a restaurant) to provide a takeout or home delivery meal",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "\"one\" radical in Chinese characters (Kangxi radical 1); one",
+     ""
+    ],
+    [
+     "节",
+     "jié",
+     "classifier for segments: lessons, train wagons, biblical verses etc",
+     ""
+    ],
+    [
+     "汉语",
+     "hàn yǔ",
+     "Chinese language",
+     ""
+    ],
+    [
+     "课",
+     "kè",
+     "lesson; subject; course",
+     ""
+    ],
+    [
+     "？"
+    ]
+   ]
+  },
+  {
+   "text": "从那以后，她每次点餐，最期待的不是饭，而是那张小纸条。",
+   "py": "cóng nà yǐ hòu, tā měi cì diǎn cān, zuì qī dài de bú shì fàn, ér shì nà zhāng xiǎo zhǐ tiáo.",
+   "en": "From then on, what she looks forward to most when she orders isn't the food but the little note.",
+   "tr": {
+    "am": "ከዚያ ወዲህ ባዘዘች ቁጥር በጣም የምትጓጓለት ምግቡ ሳይሆን ያቺ ትንሽ ማስታወሻ ሆነች።",
+    "fa": "از اون به بعد چیزی که موقع سفارش بیشتر از همه منتظرشه، غذا نیست؛ اون یادداشت کوچیکه."
+   },
+   "start": 49.756,
+   "end": 57.1,
+   "tokens": [
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "每次",
+     "měi cì",
+     "every time",
+     ""
+    ],
+    [
+     "点餐",
+     "diǎn cān",
+     "(at a restaurant) to order a meal",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "最",
+     "zuì",
+     "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+     ""
+    ],
+    [
+     "期待",
+     "qī dài",
+     "to look forward to; to await; expectation",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "不是",
+     "bù shì",
+     "no; is not; not",
+     ""
+    ],
+    [
+     "饭",
+     "fàn",
+     "cooked rice; meal; (loanword) fan",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "而是",
+     "ér shì",
+     "rather",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "纸条",
+     "zhǐ tiáo",
+     "slip of paper",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她写“你们的饭太好吃了，我每天都想吃了”，纸条上就写：“谢谢！‘每天都想吃’后面不用加‘了’。”",
+   "py": "tā xiě “nǐ men de fàn tài hǎo chī le, wǒ měi tiān dōu xiǎng chī le”, zhǐ tiáo shàng jiù xiě: “xiè xie! ‘měi tiān dōu xiǎng chī’ hòu mian bú yòng jiā ‘le’.”",
+   "en": "She writes, \"Your food is so good, I want to eat it every day le,\" and the note replies, \"Thank you! You don't need le after 'want to eat it every day'.\"",
+   "tr": {
+    "am": "«ምግባችሁ በጣም ጣፋጭ ነው፤ በየቀኑ መብላት እፈልጋለሁ 了» ብላ ስትጽፍ፣ ማስታወሻው «አመሰግናለሁ! ከ‹በየቀኑ መብላት እፈልጋለሁ› በኋላ 了 መጨመር አያስፈልግም» ይላል።",
+    "fa": "می‌نویسه: «غذاتون اون‌قدر خوشمزه‌ست که می‌خوام هر روز بخورم-له» و یادداشت جواب می‌ده: «ممنون! بعد از 'می‌خوام هر روز بخورم' لازم نیست 'له' بگید.»"
+   },
+   "start": 57.8,
+   "end": 67.736,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "饭",
+     "fàn",
+     "cooked rice; meal; (loanword) fan",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "highest; greatest; too (much)",
+     ""
+    ],
+    [
+     "好吃",
+     "hǎo chī",
+     "tasty; delicious",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "，"
+    ],
+    [
+     "纸条",
+     "zhǐ tiáo",
+     "slip of paper",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "‘"
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "后面",
+     "hòu mian",
+     "later; afterwards; the back; the rear; the last bit",
+     ""
+    ],
+    [
+     "不用",
+     "bù yòng",
+     "need not",
+     ""
+    ],
+    [
+     "加",
+     "jiā",
+     "(used before a disyllabic verb, often after an adverb like 不, 大, 稍 etc, to indicate that the action applies to sth previously mentioned, as in 稍加改良 \"make some minor improvements to (it)\")",
+     ""
+    ],
+    [
+     "‘"
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "她把“渴”写成了“喝”，纸条上就会把正确的字工工整整地写一遍，旁边还画一个笑脸。",
+   "py": "tā bǎ “kě” xiě chéng le “hē”, zhǐ tiáo shàng jiù huì bǎ zhèng què de zì gōng gōng zhěng zhěng de xiě yí biàn, páng biān hái huà yí gè xiào liǎn.",
+   "en": "When she writes the character for \"drink\" instead of \"thirsty\", the note writes the right one out neatly, with a smiley face beside it.",
+   "tr": {
+    "am": "«መጠማት» የሚለውን «渴» በስህተት «喝» ብላ ስትጽፍ፣ ማስታወሻው ትክክለኛውን ሆሄ በጥንቃቄ ይጽፍላታል፤ አጠገቡም የፈገግታ ፊት ይሥላል።",
+    "fa": "وقتی به جای «渴»یِ تشنگی اشتباهی «喝»یِ نوشیدن می‌نویسه، یادداشت اون کاراکتر درست رو مرتب و خوش‌خط می‌نویسه و کنارش یه شکلک خنده می‌ذاره."
+   },
+   "start": 68.436,
+   "end": 77.676,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "渴",
+     "kě",
+     "thirsty",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "成了",
+     "chéng le",
+     "to be done; to be ready; that's enough!",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "，"
+    ],
+    [
+     "纸条",
+     "zhǐ tiáo",
+     "slip of paper",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "正确",
+     "zhèng què",
+     "correct; sound; right; proper",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "字",
+     "zì",
+     "character; letter; symbol",
+     ""
+    ],
+    [
+     "工",
+     "gōng",
+     "work; worker; skill",
+     ""
+    ],
+    [
+     "工整",
+     "gōng zhěng",
+     "carefully and neatly done; fine work",
+     ""
+    ],
+    [
+     "整地",
+     "zhěng dì",
+     "to prepare the soil (agriculture)",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "一遍",
+     "yī biàn",
+     "one time (all the way through); once through",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "stroke of a Chinese character; to draw; to paint",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "笑脸",
+     "xiào liǎn",
+     "smiling face; smiley :) ☺",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一个月下来，山田的备注越写越长，纸条上要纠正的地方却越来越少。",
+   "py": "yí gè yuè xià lái, Shān tián de bèi zhù yuè xiě yuè cháng, zhǐ tiáo shàng yào jiū zhèng de dì fang què yuè lái yuè shǎo.",
+   "en": "After a month, Yamada's notes keep getting longer, but there's less and less for the notes to correct.",
+   "tr": {
+    "am": "ከአንድ ወር በኋላ የያማዳ ማስታወሻዎች እየረዘሙ ሄዱ፤ በማስታወሻው ላይ የሚታረመው ግን እየቀነሰ ሄደ።",
+    "fa": "بعد از یه ماه یادداشت‌های یامادا داره طولانی‌تر می‌شن، ولی چیزی که برای تصحیح بمونه کمتر و کمتر می‌شه."
+   },
+   "start": 78.376,
+   "end": 85.96,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "下来",
+     "xià lai",
+     "(after verb of motion, indicates motion down and towards us, also fig.)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "备注",
+     "bèi zhù",
+     "remarks; notes (written in such a column)",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "to exceed; to climb over; to surpass",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "to exceed; to climb over; to surpass",
+     ""
+    ],
+    [
+     "长",
+     "cháng",
+     "long; (bound form) length; (bound form) strong point; forte",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "纸条",
+     "zhǐ tiáo",
+     "slip of paper",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "纠正",
+     "jiū zhèng",
+     "to correct; to make right",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "地方",
+     "dì fang",
+     "place; location; area; space; territory; aspect; part",
+     ""
+    ],
+    [
+     "却",
+     "què",
+     "but; yet; however",
+     ""
+    ],
+    [
+     "越来越",
+     "yuè lái yuè",
+     "more and more",
+     ""
+    ],
+    [
+     "少",
+     "shǎo",
+     "less; few; to lack",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她把每一张纸条都贴在冰箱门上，米米常常蹲在冰箱前面盯着看，好像也在学习。",
+   "py": "tā bǎ měi yì zhāng zhǐ tiáo dōu tiē zài bīng xiāng mén shàng, Mǐ mi cháng cháng dūn zài bīng xiāng qián mian dīng zhe kàn, hǎo xiàng yě zài xué xí.",
+   "en": "She sticks every note on the fridge door, and Mimi often sits in front of it staring, as if she's studying too.",
+   "tr": {
+    "am": "እያንዳንዷን ማስታወሻ በፍሪጁ በር ላይ ለጠፈች፤ ሚሚ ብዙ ጊዜ ከፍሪጁ ፊት ቁጭ ብላ ታፈጥባቸዋለች፤ እሷም የምትማር ይመስል።",
+    "fa": "هر یادداشت رو می‌چسبونه درِ یخچال و مییمی اغلب جلوش می‌شینه و خیر می‌مونه؛ انگار اونم داره درس می‌خونه."
+   },
+   "start": 86.66,
+   "end": 94.964,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "每",
+     "měi",
+     "every; each",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "纸条",
+     "zhǐ tiáo",
+     "slip of paper",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "贴",
+     "tiē",
+     "to stick; to paste; to post (e.g. on a blog)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "冰箱",
+     "bīng xiāng",
+     "refrigerator; (old) icebox",
+     ""
+    ],
+    [
+     "门",
+     "mén",
+     "gate; door; doorway; gateway; opening",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "常常",
+     "cháng cháng",
+     "frequently; often",
+     ""
+    ],
+    [
+     "蹲",
+     "dūn",
+     "to crouch; to squat; to stay (somewhere)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "冰箱",
+     "bīng xiāng",
+     "refrigerator; (old) icebox",
+     ""
+    ],
+    [
+     "前面",
+     "qián miàn",
+     "in front; ahead; preceding",
+     ""
+    ],
+    [
+     "盯",
+     "dīng",
+     "to watch attentively; to fix one's attention on; to stare at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "好像",
+     "hǎo xiàng",
+     "as if; to seem like",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "学习",
+     "xué xí",
+     "to learn; to study",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "有一天，她想试试对方到底有多认真，就故意又写了一遍：“不要香菜，辣多一点儿。”",
+   "py": "yǒu yì tiān, tā xiǎng shì shì duì fāng dào dǐ yǒu duō rèn zhēn, jiù gù yì yòu xiě le yí biàn: “bú yào xiāng cài, là duō yì diǎn r.”",
+   "en": "One day, to test just how careful they are, she deliberately writes it the old way again: \"No coriander, spicy a bit more.\"",
+   "tr": {
+    "am": "አንድ ቀን እነሱ ምን ያህል ጥንቁቆች እንደሆኑ ለመፈተን ሆን ብላ እንደገና «ኮሪደር አትጨምሩ፤ ቅመም ብዙ ትንሽ» ብላ ጻፈች።",
+    "fa": "یه روز، برای امتحان کردن دقت‌شون، عمداً از همون روش قدیمی می‌نویسه: «بدون گشنیز، تند یه‌کم بیشتر.»"
+   },
+   "start": 95.664,
+   "end": 104.16,
+   "tokens": [
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "试",
+     "shì",
+     "to test; test; to try",
+     ""
+    ],
+    [
+     "试",
+     "shì",
+     "to test; test; to try",
+     ""
+    ],
+    [
+     "对方",
+     "duì fāng",
+     "the other person; the other side; the other party",
+     ""
+    ],
+    [
+     "到底",
+     "dào dǐ",
+     "finally; in the end; when all is said and done",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; how (to what extent)",
+     ""
+    ],
+    [
+     "认真",
+     "rèn zhēn",
+     "conscientious; earnest; serious",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "故意",
+     "gù yì",
+     "deliberately; on purpose",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一遍",
+     "yī biàn",
+     "one time (all the way through); once through",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "不要",
+     "bù yào",
+     "don't!; must not",
+     ""
+    ],
+    [
+     "香菜",
+     "xiāng cài",
+     "coriander; cilantro; Coriandrum sativum",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "辣",
+     "là",
+     "hot (spicy); pungent",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; how (to what extent)",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "这一次，纸条上的话有点儿不客气了：“这个错你一个月以前就改过了，是故意的吧？”",
+   "py": "zhè yí cì, zhǐ tiáo shàng de huà yǒu diǎn r bú kè qi le: “zhè ge cuò nǐ yí gè yuè yǐ qián jiù gǎi guò le, shì gù yì de ba?”",
+   "en": "This time the note is a bit less polite: \"You fixed this mistake a month ago. You did it on purpose, didn't you?\"",
+   "tr": {
+    "am": "በዚህ ጊዜ በማስታወሻው ላይ ያለው ቃል ትንሽ ጨዋነት የጎደለው ነበር፦ «ይህን ስህተት ከአንድ ወር በፊት አርመሽው ነበር፤ ሆን ብለሽ ነው አይደል?»",
+    "fa": "این‌بار یادداشت یه‌کم کمتر مؤدبانه‌ست: «این غلطت رو یه ماه پیش درست کردی. عمداً این کارو کردی، نه؟»"
+   },
+   "start": 104.86,
+   "end": 112.924,
+   "tokens": [
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "一次",
+     "yī cì",
+     "first time; first; once",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "纸条",
+     "zhǐ tiáo",
+     "slip of paper",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "的话",
+     "de huà",
+     "if (coming after a conditional clause)",
+     ""
+    ],
+    [
+     "有点儿",
+     "yǒu diǎn r",
+     "slightly; a little; somewhat",
+     ""
+    ],
+    [
+     "不客气",
+     "bù kè qi",
+     "you're welcome; don't mention it; impolite",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "错",
+     "cuò",
+     "mistake; wrong; bad",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "以前",
+     "yǐ qián",
+     "ago; before; formerly",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "改过",
+     "gǎi guò",
+     "to correct one's errors; to mend one's ways",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是故",
+     "shì gù",
+     "therefore; so; consequently",
+     ""
+    ],
+    [
+     "意",
+     "yì",
+     "(bound form) idea; thought; meaning; sense",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "下面还画了一个叉着腰的小人儿。",
+   "py": "xià miàn hái huà le yí gè chā zhe yāo de xiǎo rén r.",
+   "en": "Underneath is a little drawing of a figure with its hands on its hips.",
+   "tr": {
+    "am": "ከታች ደግሞ ወገቡን የያዘ ትንሽ ሰው ተሥሎ ነበር።",
+    "fa": "زیرش هم یه شکل کوچیک کشیده شده از یه آدم که دست‌هاش روی کمرشه."
+   },
+   "start": 113.624,
+   "end": 116.96,
+   "tokens": [
+    [
+     "下面",
+     "xià miàn",
+     "under; below; next",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "to draw; to paint; to draw (a line); picture; painting",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "叉",
+     "chā",
+     "fork; pitchfork; prong",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "腰",
+     "yāo",
+     "the waist and lower back",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "小人",
+     "xiǎo rén",
+     "person of low social status (old)",
+     ""
+    ],
+    [
+     "儿",
+     "ér",
+     "child; son",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "山田又好笑又好奇，第二天下午，她决定亲自去饭馆看看。",
+   "py": "Shān tián yòu hǎo xiào yòu hào qí, dì èr tiān xià wǔ, tā jué dìng qīn zì qù fàn guǎn kàn kàn.",
+   "en": "Yamada is amused and curious, and the next afternoon she decides to go to the restaurant and see for herself.",
+   "tr": {
+    "am": "ያማዳ አሳቃትም፣ አጓጓትም፤ በማግስቱ ከሰዓት በኋላ ራሷ ሄዳ ምግብ ቤቱን ለማየት ወሰነች።",
+    "fa": "یامادا حسابی مشتاق و کنجکاو می‌شه و فرداش بعدازظهر تصمیم می‌گیره بره رستوران و خودش ببینه."
+   },
+   "start": 117.66,
+   "end": 124.572,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "好笑",
+     "hǎo xiào",
+     "laughable; funny; ridiculous",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "好奇",
+     "hào qí",
+     "curious; inquisitive; inquisitiveness",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "决定",
+     "jué dìng",
+     "to decide; to determine; to make up one's mind; decision",
+     ""
+    ],
+    [
+     "亲自",
+     "qīn zì",
+     "personally; in person; oneself",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "饭馆",
+     "fàn guǎn",
+     "restaurant",
+     ""
+    ],
+    [
+     "看看",
+     "kàn kan",
+     "to take a look at; to examine; to survey",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "饭馆不大，老板在厨房里炒菜，老板娘在门口打包。",
+   "py": "fàn guǎn bú dà, lǎo bǎn zài chú fáng lǐ chǎo cài, lǎo bǎn niáng zài mén kǒu dǎ bāo.",
+   "en": "It's a small place: the owner is cooking in the kitchen, and his wife is packing orders by the door.",
+   "tr": {
+    "am": "ምግብ ቤቱ ትልቅ አይደለም፤ ባለቤቱ ወጥ ቤት ውስጥ ምግብ ያበስላል፤ ሚስቱ ደግሞ በር ላይ ትዕዛዞችን ታሽጋለች።",
+    "fa": "جا کوچیکه: صاحبش تو آشپزخونه آشپزی می‌کنه و همسرش کنار در سفارش‌ها رو بسته‌بندی می‌کنه."
+   },
+   "start": 125.272,
+   "end": 131.224,
+   "tokens": [
+    [
+     "饭馆",
+     "fàn guǎn",
+     "restaurant",
+     ""
+    ],
+    [
+     "不大",
+     "bù dà",
+     "not very (clear, far away etc); not too",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "厨房",
+     "chú fáng",
+     "kitchen",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "炒菜",
+     "chǎo cài",
+     "to do the cooking; to stir-fry; stir-fried dish",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "老板娘",
+     "lǎo bǎn niáng",
+     "boss's wife; female proprietor; lady boss",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "门口",
+     "mén kǒu",
+     "doorway; gate",
+     ""
+    ],
+    [
+     "打包",
+     "dǎ bāo",
+     "to wrap; to pack",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "角落的小桌子旁边坐着一个十来岁的小女孩，一边写作业，一边往饭盒上贴纸条。",
+   "py": "jiǎo luò de xiǎo zhuō zi páng biān zuò zhe yí gè shí lái suì de xiǎo nǚ hái, yì biān xiě zuò yè, yì biān wǎng fàn hé shàng tiē zhǐ tiáo.",
+   "en": "At a little table in the corner sits a girl of about ten, doing her homework and sticking notes on the boxes as she goes.",
+   "tr": {
+    "am": "ጥግ ላይ ባለች ትንሽ ጠረጴዛ አጠገብ አሥር ዓመት ገደማ የሆናት አንዲት ልጅ ተቀምጣ የቤት ሥራዋን እየሠራች በምግብ ዕቃዎቹ ላይ ማስታወሻ ትለጥፋለች።",
+    "fa": "پشت یه میز کوچیک تو گوشه، دخترکی حدوداً ده ساله‌ای نشسته و مشغول کارهای مدرسه‌شه و همزمان یادداشت‌ها رو روی جعبه‌ها می‌چسبونه."
+   },
+   "start": 131.924,
+   "end": 141.14,
+   "tokens": [
+    [
+     "角落",
+     "jiǎo luò",
+     "corner (of a room, courtyard etc); (fig.) remote spot; nook",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "桌子",
+     "zhuō zi",
+     "table; desk",
+     ""
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "岁",
+     "suì",
+     "years old; classifier for years (of age); year",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "小女",
+     "xiǎo nǚ",
+     "my daughter (humble)",
+     ""
+    ],
+    [
+     "孩",
+     "hái",
+     "(bound form) child",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一边",
+     "yī biān",
+     "doing while; one side; either side",
+     ""
+    ],
+    [
+     "写作",
+     "xiě zuò",
+     "to write; to compose; writing",
+     ""
+    ],
+    [
+     "业",
+     "yè",
+     "line of business; industry; occupation",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一边",
+     "yī biān",
+     "doing while; one side; either side",
+     ""
+    ],
+    [
+     "往",
+     "wǎng",
+     "to go (in a direction); to; towards",
+     ""
+    ],
+    [
+     "饭盒",
+     "fàn hé",
+     "lunchbox; mess tin",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "贴纸",
+     "tiē zhǐ",
+     "sticker",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "strip; item; article",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "老板娘不好意思地说：“这是我女儿，上四年级。她说改顾客的备注，比写作业有意思多了。”",
+   "py": "lǎo bǎn niáng bù hǎo yì sī de shuō: “zhè shì wǒ nǚ ér, shàng sì nián jí. tā shuō gǎi gù kè de bèi zhù, bǐ xiě zuò yè yǒu yì si duō le.”",
+   "en": "The owner's wife says, a little embarrassed, \"This is my daughter. She's in her fourth year at primary school. She says correcting the customers' notes is much more fun than homework.\"",
+   "tr": {
+    "am": "የባለቤቱ ሚስት አፍራ «ይህች ልጄ ናት፤ አራተኛ ክፍል ናት። የደንበኞችን ማስታወሻ ማረም ከቤት ሥራ በጣም ይበልጥ ያስደስታል ትላለች» አለች።",
+    "fa": "خانم صاحب رستوران یه‌کم خجالت‌زده می‌گه: «این دخترمه؛ سال چهارم دبستانشه. می‌گه تصحیح کردن یادداشت‌های مشتری‌ها از کارهای مدرسه خیلی جالب‌تره.»"
+   },
+   "start": 141.84,
+   "end": 151.104,
+   "tokens": [
+    [
+     "老板娘",
+     "lǎo bǎn niáng",
+     "boss's wife; female proprietor; lady boss",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to feel embarrassed; to find it embarrassing",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "correct; right; true; to be (followed by substantives only)",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "女儿",
+     "nǚ ér",
+     "daughter",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "四",
+     "sì",
+     "four; 4",
+     ""
+    ],
+    [
+     "年级",
+     "nián jí",
+     "year (in school, college etc); grade",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "改",
+     "gǎi",
+     "to correct; to change; to alter",
+     ""
+    ],
+    [
+     "顾客",
+     "gù kè",
+     "customer; client",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "备注",
+     "bèi zhù",
+     "remarks; notes (written in such a column)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "比",
+     "bǐ",
+     "(followed by a noun and adjective) more {adj.} than {noun}",
+     ""
+    ],
+    [
+     "写作",
+     "xiě zuò",
+     "to write; to compose; writing",
+     ""
+    ],
+    [
+     "业",
+     "yè",
+     "school studies; line of business; industry",
+     ""
+    ],
+    [
+     "有意思",
+     "yǒu yì si",
+     "fun; interesting; meaningful",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "山田恍然大悟：难怪纸条上的字迹总是歪歪扭扭的，可是她的错，却一个也没漏掉。",
+   "py": "Shān tián huǎng rán dà wù: nán guài zhǐ tiáo shàng de zì jì zǒng shì wāi wāi niǔ niǔ de, kě shì tā de cuò, què yí gè yě méi lòu diào.",
+   "en": "Now it all makes sense to Yamada: no wonder the handwriting on the notes was always wobbly — and yet not one of her mistakes ever slipped past.",
+   "tr": {
+    "am": "ያማዳ ሁሉ ነገር ገባት፦ የማስታወሻዎቹ ጽሕፈት ሁልጊዜ የተንጋደደ የነበረው ለዚህ ነው፤ ግን አንድም ስህተቷ አላመለጠም።",
+    "fa": "حالا همه‌چیز برای یامادا معنا پیدا می‌کنه: به‌جای این‌که خط یادداشت‌ها همیشه لرزون بود — و با این حال حتی یه غلطش هم از دستش در نمی‌رفت."
+   },
+   "start": 151.804,
+   "end": 161.284,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "恍然大悟",
+     "huǎng rán dà wù",
+     "(idiom) to suddenly realize; to suddenly see the light",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "难怪",
+     "nán guài",
+     "(it's) no wonder (that...); (it's) not surprising (that)",
+     ""
+    ],
+    [
+     "纸条",
+     "zhǐ tiáo",
+     "slip of paper",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "字迹",
+     "zì jì",
+     "handwriting",
+     ""
+    ],
+    [
+     "总是",
+     "zǒng shì",
+     "always",
+     ""
+    ],
+    [
+     "歪歪扭扭",
+     "wāi wāi niǔ niǔ",
+     "crooked; askew",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "错",
+     "cuò",
+     "mistake; to let slip; wrong",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "却",
+     "què",
+     "yet; but; however",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "漏掉",
+     "lòu diào",
+     "to slip through; to miss; to leave out",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小女孩看见山田手里的黄纸条，眼睛一亮：“你就是那个‘辣多一点儿’吧？”",
+   "py": "xiǎo nǚ hái kàn jiàn Shān tián shǒu lǐ de huáng zhǐ tiáo, yǎn jing yí liàng: “nǐ jiù shì nà ge ‘là duō yì diǎn r’ ba?”",
+   "en": "The girl spots the yellow note in Yamada's hand, and her eyes light up. \"You're Miss 'Spicy a Bit More', aren't you?\"",
+   "tr": {
+    "am": "ልጅቷ በያማዳ እጅ ያለውን ቢጫ ማስታወሻ አይታ ዓይኖቿ በሩ፦ «አንቺ ያቺ ‹ቅመም ብዙ ትንሽ› ነሽ አይደል?»",
+    "fa": "دخترک یادداشت زرد تو دست یامادا رو می‌بینه و چشم‌هاش برق می‌زنه: «تو همون خانمِ 'تند یه‌کم بیشتر' هستین، نه؟»"
+   },
+   "start": 161.984,
+   "end": 169.352,
+   "tokens": [
+    [
+     "小女",
+     "xiǎo nǚ",
+     "my daughter (humble)",
+     ""
+    ],
+    [
+     "孩",
+     "hái",
+     "(bound form) child",
+     ""
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "手里",
+     "shǒu lǐ",
+     "in hand; (a situation is) in sb's hands",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "黄",
+     "huáng",
+     "yellow; pornographic; to fall through",
+     ""
+    ],
+    [
+     "纸条",
+     "zhǐ tiáo",
+     "slip of paper",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "眼睛",
+     "yǎn jing",
+     "eye",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "亮",
+     "liàng",
+     "bright; light; to shine; to flash; loud and clear",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
+     ""
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "exactly; precisely; only; simply; just",
+     ""
+    ],
+    [
+     "那个",
+     "nà ge",
+     "that one; that thing; that (as opposed to this)",
+     ""
+    ],
+    [
+     "‘"
+    ],
+    [
+     "辣",
+     "là",
+     "hot (spicy); pungent",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "那天，山田在店里吃了一碗番茄牛腩饭，还教了小女孩几句日语。",
+   "py": "nà tiān, Shān tián zài diàn lǐ chī le yì wǎn fān qié niú nǎn fàn, hái jiāo le xiǎo nǚ hái jǐ jù rì yǔ.",
+   "en": "That day Yamada eats a bowl of tomato and beef brisket rice in the restaurant, and teaches the girl a few words of Japanese.",
+   "tr": {
+    "am": "በዚያ ቀን ያማዳ ምግብ ቤቱ ውስጥ አንድ ሳህን የቲማቲምና የበሬ ሥጋ ሩዝ በላች፤ ለልጅቷም ጥቂት የጃፓንኛ ቃላት አስተማረቻት።",
+    "fa": "اون روز یامادا تو رستوران یه کاسه برنج گوجه و سینه گاو می‌خوره و چند تا کلمه ژاپنی هم به دخترک یاد می‌ده."
+   },
+   "start": 170.052,
+   "end": 176.916,
+   "tokens": [
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "店",
+     "diàn",
+     "inn; old-style hotel; (bound form) shop; store",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "番茄",
+     "fān qié",
+     "tomato",
+     ""
+    ],
+    [
+     "牛腩",
+     "niú nǎn",
+     "brisket (esp. Cantonese); belly beef",
+     ""
+    ],
+    [
+     "饭",
+     "fàn",
+     "cooked rice; meal; (loanword) fan",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "教",
+     "jiāo",
+     "to teach; to instruct",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "小女",
+     "xiǎo nǚ",
+     "my daughter (humble)",
+     ""
+    ],
+    [
+     "孩",
+     "hái",
+     "(bound form) child",
+     ""
+    ],
+    [
+     "几",
+     "jǐ",
+     "several; a few; how many; how much",
+     ""
+    ],
+    [
+     "句",
+     "jù",
+     "classifier for phrases or lines of verse; sentence; clause",
+     ""
+    ],
+    [
+     "日语",
+     "rì yǔ",
+     "Japanese language",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "从那以后，山田的备注里多了一行日语，小女孩的纸条上，也多了一行歪歪扭扭的日语。",
+   "py": "cóng nà yǐ hòu, Shān tián de bèi zhù lǐ duō le yì xíng rì yǔ, xiǎo nǚ hái de zhǐ tiáo shàng, yě duō le yì xíng wāi wāi niǔ niǔ de rì yǔ.",
+   "en": "From then on, Yamada's notes have an extra line in Japanese — and so do the girl's notes, in wobbly handwriting.",
+   "tr": {
+    "am": "ከዚያ ወዲህ በያማዳ ማስታወሻዎች ላይ አንድ መስመር ጃፓንኛ ተጨመረ፤ በልጅቷ ማስታወሻዎች ላይም አንድ መስመር የተንጋደደ ጃፓንኛ ተጨመረ።",
+    "fa": "از اون به بعد یادداشت‌های یامادا یه خط ژاپنی هم دارن — و یادداشت‌های دخترک هم، با اون خط لرزون."
+   },
+   "start": 177.616,
+   "end": 186.424,
+   "tokens": [
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "备注",
+     "bèi zhù",
+     "remarks; notes (written in such a column)",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一行",
+     "yī xíng",
+     "party; delegation",
+     ""
+    ],
+    [
+     "日语",
+     "rì yǔ",
+     "Japanese language",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小女",
+     "xiǎo nǚ",
+     "my daughter (humble)",
+     ""
+    ],
+    [
+     "孩",
+     "hái",
+     "(bound form) child",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "纸条",
+     "zhǐ tiáo",
+     "slip of paper",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一行",
+     "yī xíng",
+     "party; delegation",
+     ""
+    ],
+    [
+     "歪歪扭扭",
+     "wāi wāi niǔ niǔ",
+     "crooked; askew",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "日语",
+     "rì yǔ",
+     "Japanese language",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 616,
+ "first": "山田最近常常点附近一家小饭馆的外卖，她最爱吃他们的番茄牛腩饭。",
+ "newWords": [
+  {
+   "w": "备注",
+   "py": "bèi zhù",
+   "en": "remarks column (abbr. for 备注栏)"
+  },
+  {
+   "w": "纠正",
+   "py": "jiūzhèng",
+   "en": "to fix an error or mistake"
+  },
+  {
+   "w": "故意",
+   "py": "gùyì",
+   "en": "on purpose"
+  },
+  {
+   "w": "恍然大悟",
+   "py": "huǎngrándàwù",
+   "en": "to suddenly understand something clearly"
+  },
+  {
+   "w": "字迹",
+   "py": "zì jì",
+   "en": "handwriting"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h6-10.mp3?v=1791720847"
 }

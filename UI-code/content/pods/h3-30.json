@@ -1,1695 +1,1710 @@
 {
-  "id": "h3-30",
-  "level": 3,
-  "no": 30,
-  "title": "公园里下象棋",
-  "title_py": "gōng yuán lǐ xià xiàng qí",
-  "title_en": "Chess in the park",
-  "title_tr": {
-    "vi": "Đánh cờ tướng trong công viên",
-    "pt": "Xadrez chinês no parque",
-    "es": "Ajedrez en el parque",
-    "fr": "Échecs chinois au parc",
-    "am": "በፓርክ ውስጥ ቼዝ",
-    "fa": "شطرنج چینی در پارک"
+ "id": "h3-30",
+ "level": 3,
+ "no": 30,
+ "title": "公园里下象棋",
+ "title_py": "gōng yuán lǐ xià xiàng qí",
+ "title_en": "Chess in the park",
+ "title_tr": {
+  "vi": "Đánh cờ tướng trong công viên",
+  "pt": "Xadrez chinês no parque",
+  "es": "Ajedrez en el parque",
+  "fr": "Échecs chinois au parc",
+  "am": "በፓርክ ውስጥ ቼዝ",
+  "fa": "شطرنج چینی در پارک"
+ },
+ "topic": "out",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h3-30.jpg",
+ "duration": 99.064,
+ "lines": [
+  {
+   "text": "每天下午，刘爷爷都在公园里下象棋。",
+   "py": "měi tiān xià wǔ, Liú yé ye dōu zài gōng yuán lǐ xià xiàng qí.",
+   "en": "Every afternoon, Grandpa Liu plays Chinese chess in the park.",
+   "tr": {
+    "vi": "Chiều nào ông Lưu cũng chơi cờ tướng trong công viên.",
+    "pt": "Toda tarde, o vovô Liu joga xadrez chinês no parque.",
+    "es": "Todas las tardes, el abuelo Liu juega ajedrez chino en el parque.",
+    "fr": "Tous les après-midi, papi Liu joue aux échecs chinois dans le parc.",
+    "am": "ሁልጊዜ ከሰዓት በኋላ አያት ሊዩ በፓርኩ ውስጥ የቻይና ቼዝ ይጫወታሉ።",
+    "fa": "پدربزرگ لیو هر عصر تو پارک شطرنج چینی بازی می‌کنه."
+   },
+   "start": 2.884,
+   "end": 7.156,
+   "tokens": [
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "公园",
+     "gōng yuán",
+     "park (for public recreation)",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "象棋",
+     "xiàng qí",
+     "Chinese chess",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "out",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h3-30.jpg",
-  "duration": 99.064,
-  "lines": [
-    {
-      "text": "每天下午，刘爷爷都在公园里下象棋。",
-      "py": "měi tiān xià wǔ, Liú yé ye dōu zài gōng yuán lǐ xià xiàng qí.",
-      "en": "Every afternoon, Grandpa Liu plays Chinese chess in the park.",
-      "tr": {
-        "vi": "Chiều nào ông Lưu cũng chơi cờ tướng trong công viên.",
-        "pt": "Toda tarde, o vovô Liu joga xadrez chinês no parque.",
-        "es": "Todas las tardes, el abuelo Liu juega ajedrez chino en el parque.",
-        "fr": "Tous les après-midi, papi Liu joue aux échecs chinois dans le parc.",
-        "am": "ሁልጊዜ ከሰዓት በኋላ አያት ሊዩ በፓርኩ ውስጥ የቻይና ቼዝ ይጫወታሉ።"
-      },
-      "start": 2.884,
-      "end": 7.156,
-      "tokens": [
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "公园",
-          "gōng yuán",
-          "park (for public recreation)",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "象棋",
-          "xiàng qí",
-          "Chinese chess",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克觉得很有意思，就请刘爷爷教他。",
-      "py": "Jié kè jué de hěn yǒu yì si, jiù qǐng Liú yé ye jiāo tā.",
-      "en": "Jack thinks it looks fun, so he asks Grandpa Liu to teach him.",
-      "tr": {
-        "vi": "Jack thấy rất thú vị, nên nhờ ông Lưu dạy mình.",
-        "pt": "Jack acha interessante e pede ao vovô Liu para ensiná-lo.",
-        "es": "A Jack le parece muy interesante, así que le pide al abuelo Liu que le enseñe.",
-        "fr": "Jack trouve ça intéressant, alors il demande à papi Liu de lui apprendre.",
-        "am": "ጃክ ጨዋታው አስደሳች መሰለው፣ ስለዚህ አያት ሊዩ እንዲያስተምሩት ጠየቃቸው።"
-      },
-      "start": 7.856,
-      "end": 11.672,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "有意思",
-          "yǒu yì si",
-          "fun; interesting; meaningful",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "请",
-          "qǐng",
-          "to ask; to invite; please (do sth)",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "教",
-          "jiāo",
-          "to teach; to instruct",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "学了一个月，杰克已经会下了，可是他从来没赢过刘爷爷。",
-      "py": "xué le yí gè yuè, Jié kè yǐ jīng huì xià le, kě shì tā cóng lái méi yíng guò Liú yé ye.",
-      "en": "After a month, Jack knows how to play, but he has never once beaten Grandpa Liu.",
-      "tr": {
-        "vi": "Học được một tháng, Jack đã biết chơi, nhưng chưa thắng ông Lưu lần nào.",
-        "pt": "Depois de um mês, Jack já sabe jogar, mas nunca ganhou do vovô Liu.",
-        "es": "Después de un mes, Jack ya sabe jugar, pero nunca le ha ganado al abuelo Liu.",
-        "fr": "Au bout d’un mois, Jack sait jouer, mais il n’a jamais battu papi Liu.",
-        "am": "ጃክ ለአንድ ወር ተምሮ መጫወት ቻለ፣ ግን አያት ሊዩን አንድም ጊዜ አሸንፎ አያውቅም።"
-      },
-      "start": 12.372,
-      "end": 18.804,
-      "tokens": [
-        [
-          "学",
-          "xué",
-          "to learn; to study; to imitate",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "从来没",
-          "cóng lái méi",
-          "have never; has never",
-          ""
-        ],
-        [
-          "赢",
-          "yíng",
-          "to beat; to win; to profit",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他们下棋的时候，旁边总是站着几个爷爷，一边看一边给杰克出主意。",
-      "py": "tā men xià qí de shí hou, páng biān zǒng shì zhàn zhe jǐ gè yé ye, yì biān kàn yì biān gěi Jié kè chū zhǔ yi.",
-      "en": "Whenever they play, a few old men stand around watching and giving Jack advice.",
-      "tr": {
-        "vi": "Mỗi lần họ chơi cờ, bên cạnh lúc nào cũng có mấy ông đứng xem, vừa xem vừa mách nước cho Jack.",
-        "pt": "Sempre que eles jogam, alguns senhores ficam em volta olhando e dando palpites para Jack.",
-        "es": "Cuando juegan, siempre hay unos señores mayores alrededor que miran y le dan consejos a Jack.",
-        "fr": "Quand ils jouent, il y a toujours quelques papis debout à côté, qui regardent et donnent des conseils à Jack.",
-        "am": "ሲጫወቱ ሁልጊዜ ጥቂት አያቶች አጠገባቸው ቆመው እያዩ ለጃክ ምክር ይሰጡታል።"
-      },
-      "start": 19.504,
-      "end": 26.872,
-      "tokens": [
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "下棋",
-          "xià qí",
-          "to play chess",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "总是",
-          "zǒng shì",
-          "always",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "几个",
-          "jǐ ge",
-          "a few; several; how many",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to watch; to watch out for; to see; to look at",
-          ""
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "出主意",
-          "chū zhǔ yi",
-          "to offer advice; to come up with ideas; to make suggestions",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷不高兴地说：“看棋别说话！你们别帮他！”",
-      "py": "Liú yé ye bù gāo xìng de shuō: “kàn qí bié shuō huà! nǐ men bié bāng tā!”",
-      "en": "Grandpa Liu grumbles, \"Watchers keep quiet! Stop helping him!\"",
-      "tr": {
-        "vi": "Ông Lưu không vui, nói: “Xem cờ thì đừng nói! Các ông đừng giúp nó!”",
-        "pt": "O vovô Liu reclama: “Quem está assistindo fica calado! Não ajudem ele!”",
-        "es": "El abuelo Liu dice, molesto: «¡El que mira, no habla! ¡No lo ayuden!».",
-        "fr": "Papi Liu dit, mécontent : « Quand on regarde, on se tait ! Ne l’aidez pas ! »",
-        "am": "አያት ሊዩ ተበሳጭተው «ቼዝ የሚያይ ዝም ይበል! አትርዱት!» አሉ።"
-      },
-      "start": 27.572,
-      "end": 33.068,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "看",
-          "kàn",
-          "to watch; to watch out for; to see; to look at",
-          ""
-        ],
-        [
-          "棋",
-          "qí",
-          "chess; chess-like game; a game of chess",
-          ""
-        ],
-        [
-          "别说",
-          "bié shuō",
-          "to say nothing of; not to mention; let alone",
-          ""
-        ],
-        [
-          "话",
-          "huà",
-          "dialect; language; spoken words",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "别",
-          "bié",
-          "to leave; to part (from)",
-          ""
-        ],
-        [
-          "帮",
-          "bāng",
-          "to help; for sb (i.e. as a help); to assist",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "这个星期六，他们又下了一盘。旁边的爷爷们真的一句话也不说了。",
-      "py": "zhè ge xīng qī liù, tā men yòu xià le yì pán. páng biān de yé ye men zhēn de yí jù huà yě bù shuō le.",
-      "en": "This Saturday they play another game. This time the old men around them really don't say a word.",
-      "tr": {
-        "vi": "Thứ Bảy tuần này, họ lại chơi một ván. Mấy ông đứng bên cạnh đúng là không nói một câu nào nữa.",
-        "pt": "Neste sábado, eles jogam mais uma partida. Os senhores em volta realmente não dizem uma palavra.",
-        "es": "Este sábado juegan otra partida. Los señores de alrededor de verdad no dicen ni una palabra.",
-        "fr": "Ce samedi, ils font encore une partie. Cette fois, les papis autour ne disent vraiment pas un mot.",
-        "am": "በዚህ ቅዳሜ እንደገና አንድ ዙር ተጫወቱ። አጠገባቸው ያሉት አያቶች በእውነት አንድም ቃል አልተናገሩም።"
-      },
-      "start": 33.768,
-      "end": 40.68,
-      "tokens": [
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "measure word to show the frequency of an action; down",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "盘",
-          "pán",
-          "classifier for games or matches (chess, table tennis etc)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "们",
-          "men",
-          "plural marker for pronouns, and nouns referring to individuals",
-          ""
-        ],
-        [
-          "真的",
-          "zhēn de",
-          "really; truly; indeed; real; true; genuine; (math.) proper",
-          ""
-        ],
-        [
-          "一句话",
-          "yī jù huà",
-          "in a word; in short",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "可是每次杰克要走错的时候，旁边就有人轻轻地咳嗽一声。",
-      "py": "kě shì měi cì Jié kè yào zǒu cuò de shí hou, páng biān jiù yǒu rén qīng qīng de ké sou yì shēng.",
-      "en": "But every time Jack is about to make a wrong move, someone nearby gives a little cough.",
-      "tr": {
-        "vi": "Nhưng mỗi lần Jack sắp đi sai, bên cạnh lại có người khẽ ho một tiếng.",
-        "pt": "Mas toda vez que Jack vai fazer uma jogada errada, alguém do lado dá uma tossidinha.",
-        "es": "Pero cada vez que Jack está a punto de hacer una mala jugada, alguien tose bajito.",
-        "fr": "Mais chaque fois que Jack va jouer un mauvais coup, quelqu’un à côté tousse doucement.",
-        "am": "ነገር ግን ጃክ የተሳሳተ እንቅስቃሴ ሊያደርግ ሲል ሁሉ፣ አጠገቡ ያለ አንድ ሰው ቀስ ብሎ ያስላል።"
-      },
-      "start": 41.38,
-      "end": 47.572,
-      "tokens": [
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "每次",
-          "měi cì",
-          "every time",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "will; shall; about to; to want; to need; to ask for",
-          ""
-        ],
-        [
-          "走错",
-          "zǒu cuò",
-          "to go the wrong way; to take the wrong (road, exit etc)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; there is someone there; people",
-          ""
-        ],
-        [
-          "轻轻",
-          "qīng qīng",
-          "lightly; softly",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "咳嗽",
-          "ké sou",
-          "to cough",
-          ""
-        ],
-        [
-          "一声",
-          "yī shēng",
-          "first tone in Mandarin (high, level tone)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克听见咳嗽，就把手拿回来，再想一想。",
-      "py": "Jié kè tīng jiàn ké sou, jiù bǎ shǒu ná huí lái, zài xiǎng yì xiǎng.",
-      "en": "Whenever Jack hears a cough, he pulls his hand back and thinks again.",
-      "tr": {
-        "vi": "Jack nghe thấy tiếng ho là rụt tay lại, nghĩ thêm một chút.",
-        "pt": "Quando Jack ouve a tosse, puxa a mão de volta e pensa de novo.",
-        "es": "Cuando Jack oye la tos, retira la mano y lo piensa otra vez.",
-        "fr": "Quand Jack entend tousser, il retire sa main et réfléchit encore.",
-        "am": "ጃክ ሳሉን ሲሰማ እጁን መልሶ እንደገና ያስባል።"
-      },
-      "start": 48.272,
-      "end": 53.024,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "听见",
-          "tīng jiàn",
-          "to hear",
-          ""
-        ],
-        [
-          "咳嗽",
-          "ké sou",
-          "to cough",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "把手",
-          "bǎ shǒu",
-          "to shake hands",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "回来",
-          "huí lai",
-          "to return; to come back",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; further; beyond this point of time",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克越下越好，刘爷爷越下越着急。",
-      "py": "Jié kè yuè xià yuè hǎo, Liú yé ye yuè xià yuè zháo jí.",
-      "en": "The longer they play, the better Jack does and the more worried Grandpa Liu gets.",
-      "tr": {
-        "vi": "Jack càng chơi càng hay, ông Lưu càng chơi càng sốt ruột.",
-        "pt": "Quanto mais eles jogam, melhor Jack joga e mais nervoso o vovô Liu fica.",
-        "es": "Cuanto más juegan, mejor juega Jack y más nervioso se pone el abuelo Liu.",
-        "fr": "Plus la partie avance, mieux Jack joue, et plus papi Liu s’inquiète.",
-        "am": "ጃክ በተጫወተ ቁጥር እየተሻሻለ ሄደ፣ አያት ሊዩ ደግሞ ይበልጥ እየተጨነቁ ሄዱ።"
-      },
-      "start": 53.724,
-      "end": 58.74,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "the more... the more; to exceed; to climb over",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "the more... the more; to exceed; to climb over",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "the more... the more; to exceed; to climb over",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "the more... the more; to exceed; to climb over",
-          ""
-        ],
-        [
-          "着急",
-          "zháo jí",
-          "to worry; to feel anxious",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "最后，杰克终于赢了！",
-      "py": "zuì hòu, Jié kè zhōng yú yíng le!",
-      "en": "In the end, Jack finally wins!",
-      "tr": {
-        "vi": "Cuối cùng, Jack đã thắng!",
-        "pt": "No fim, Jack finalmente ganha!",
-        "es": "¡Al final, Jack por fin gana!",
-        "fr": "À la fin, Jack gagne enfin !",
-        "am": "በመጨረሻም ጃክ አሸነፈ!"
-      },
-      "start": 59.44,
-      "end": 62.296,
-      "tokens": [
-        [
-          "最后",
-          "zuì hòu",
-          "final; last; ultimate; finally; in the end",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "in the end; finally; at last",
-          ""
-        ],
-        [
-          "赢",
-          "yíng",
-          "to beat; to win; to profit",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    },
-    {
-      "text": "他高兴得跳了起来：“我赢了！我赢了刘爷爷！”",
-      "py": "tā gāo xìng de tiào le qǐ lái: “wǒ yíng le! wǒ yíng le Liú yé ye!”",
-      "en": "He jumps up with joy. \"I won! I beat Grandpa Liu!\"",
-      "tr": {
-        "vi": "Cậu ấy vui đến nhảy cẫng lên: “Cháu thắng rồi! Cháu thắng ông Lưu rồi!”",
-        "pt": "Ele pula de alegria: “Ganhei! Ganhei do vovô Liu!”",
-        "es": "Salta de alegría: «¡Gané! ¡Le gané al abuelo Liu!».",
-        "fr": "Il saute de joie : « J’ai gagné ! J’ai battu papi Liu ! »",
-        "am": "በደስታ ዘሎ ተነሣ። «አሸነፍኩ! አያት ሊዩን አሸነፍኩ!»"
-      },
-      "start": 62.996,
-      "end": 68.444,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "跳",
-          "tiào",
-          "to jump; to hop; to skip over",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "赢",
-          "yíng",
-          "to beat; to win; to profit",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "赢",
-          "yíng",
-          "to beat; to win; to profit",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷看了看他的老朋友们：“今天咳嗽的人怎么这么多？是不是都感冒了？”",
-      "py": "Liú yé ye kàn le kàn tā de lǎo péng you men: “jīn tiān ké sou de rén zěn me zhè me duō? shì bú shì dōu gǎn mào le?”",
-      "en": "Grandpa Liu looks round at his old friends. \"Why is everyone coughing so much today? Have you all caught colds?\"",
-      "tr": {
-        "vi": "Ông Lưu nhìn mấy người bạn già của mình: “Sao hôm nay nhiều người ho thế? Có phải ai cũng bị cảm cả rồi không?”",
-        "pt": "O vovô Liu olha para os velhos amigos: “Por que tem tanta gente tossindo hoje? Estão todos resfriados?”",
-        "es": "El abuelo Liu mira a sus viejos amigos: «¿Por qué tose tanta gente hoy? ¿Todos se resfriaron?».",
-        "fr": "Papi Liu regarde ses vieux amis : « Pourquoi il y a autant de gens qui toussent aujourd’hui ? Vous êtes tous enrhumés ? »",
-        "am": "አያት ሊዩ የድሮ ጓደኞቻቸውን ተመለከቱ። «ዛሬ የሚያስለው ሰው ለምን በዛ? ሁላችሁም ጉንፋን ያዛችሁ እንዴ?»"
-      },
-      "start": 69.144,
-      "end": 76.488,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "老朋友",
-          "lǎo péng you",
-          "old friend; (slang) period; menstruation",
-          ""
-        ],
-        [
-          "们",
-          "men",
-          "plural marker for pronouns, and nouns referring to individuals",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "咳嗽",
-          "ké sou",
-          "to cough",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "why?; how?; what?",
-          ""
-        ],
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "是不是",
-          "shì bu shì",
-          "is or is not (used to form yes-no questions)",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "感冒",
-          "gǎn mào",
-          "to catch cold; (common) cold",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "一个爷爷笑着说：“老刘，你赢了三十年了，也该输一次了。”",
-      "py": "yí gè yé ye xiào zhe shuō: “lǎo liú, nǐ yíng le sān shí nián le, yě gāi shū yí cì le.”",
-      "en": "One of them laughs. \"Old Liu, you've been winning for thirty years. It's time you lost once.\"",
-      "tr": {
-        "vi": "Một ông cười nói: “Lão Lưu à, ông thắng ba mươi năm rồi, cũng nên thua một lần chứ.”",
-        "pt": "Um deles ri: “Liu, meu velho, você ganha há trinta anos. Já está na hora de perder uma vez.”",
-        "es": "Uno de ellos dice riendo: «Viejo Liu, llevas treinta años ganando. Ya te toca perder una vez».",
-        "fr": "L’un d’eux dit en riant : « Vieux Liu, tu gagnes depuis trente ans. Il est temps que tu perdes une fois. »",
-        "am": "አንዱ አያት እየሳቁ «ሊዩ፣ ለሠላሳ ዓመት አሸንፈሃል። አንድ ጊዜ መሸነፍ አለብህ» አሉ።"
-      },
-      "start": 77.188,
-      "end": 84.1,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "老",
-          "lǎo",
-          "old (of people); all the time",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "赢",
-          "yíng",
-          "to beat; to win; to profit",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "三十",
-          "sān shí",
-          "thirty; 30",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; harvest (old); grain",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "该",
-          "gāi",
-          "should; ought to; probably",
-          ""
-        ],
-        [
-          "输",
-          "shū",
-          "to lose; to be beaten; (bound form) to transport",
-          ""
-        ],
-        [
-          "一次",
-          "yī cì",
-          "first time; once; first",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷也笑了：“今天不算！不是杰克一个人赢的，是你们五个人赢了我一个。”",
-      "py": "Liú yé ye yě xiào le: “jīn tiān bú suàn! bú shì Jié kè yí gè rén yíng de, shì nǐ men wǔ gè rén yíng le wǒ yí gè.”",
-      "en": "Grandpa Liu laughs too. \"Today doesn't count! Jack didn't win on his own. It was five of you against me.\"",
-      "tr": {
-        "vi": "Ông Lưu cũng cười: “Hôm nay không tính! Không phải một mình Jack thắng, mà là năm người các ông thắng một mình tôi.”",
-        "pt": "O vovô Liu também ri: “Hoje não vale! Não foi o Jack sozinho que ganhou. Foram vocês cinco contra mim.”",
-        "es": "El abuelo Liu también se ríe: «¡Hoy no cuenta! No me ganó Jack solo, me ganaron ustedes cinco a mí solo».",
-        "fr": "Papi Liu rit aussi : « Aujourd’hui, ça ne compte pas ! Jack n’a pas gagné tout seul : vous étiez cinq contre moi. »",
-        "am": "አያት ሊዩም ሳቁ። «ዛሬ አይቆጠርም! ጃክ ብቻውን አላሸነፈም። እናንተ አምስታችሁ ናችሁ እኔን አንዱን ያሸነፋችሁት።»"
-      },
-      "start": 84.8,
-      "end": 92.672,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "不算",
-          "bù suàn",
-          "to not count; to not calculate; to not be considered (as)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "不是",
-          "bù shì",
-          "no; is not; not",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "一个人",
-          "yī gè rén",
-          "by oneself (without assistance); alone (without company)",
-          ""
-        ],
-        [
-          "赢",
-          "yíng",
-          "to win; to beat; to profit",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "赢",
-          "yíng",
-          "to win; to beat; to profit",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“明天再来！不过，谁再咳嗽，谁就回家！”",
-      "py": "“míng tiān zài lái! bú guò, shéi zài ké sou, shéi jiù huí jiā!”",
-      "en": "\"Come back tomorrow! But anyone who coughs goes home!\"",
-      "tr": {
-        "vi": "“Mai lại chơi tiếp! Nhưng ai mà còn ho thì về nhà!”",
-        "pt": "“Voltem amanhã! Mas quem tossir vai para casa!”",
-        "es": "«¡Vuelvan mañana! Pero el que tosa, ¡se va a su casa!»",
-        "fr": "« Revenez demain ! Mais le premier qui tousse rentre chez lui ! »",
-        "am": "«ነገ እንደገና ኑ! ግን ዳግመኛ ያሳለ ሰው ወደ ቤቱ ይሄዳል!»"
-      },
-      "start": 93.372,
-      "end": 98.364,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "明天",
-          "míng tiān",
-          "tomorrow",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; further; beyond this point of time",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "不过",
-          "bù guò",
-          "but; anyway (to get back to a previous topic); only",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "谁",
-          "shéi",
-          "who; also pr.",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; further; beyond this point of time",
-          ""
-        ],
-        [
-          "咳嗽",
-          "ké sou",
-          "to cough",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "谁",
-          "shéi",
-          "who; also pr.",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 301,
-  "first": "每天下午，刘爷爷都在公园里下象棋。",
-  "newWords": [
-    {
-      "w": "象棋",
-      "py": "xiàngqí",
-      "en": "traditional Chinese strategy board game"
-    },
-    {
-      "w": "赢",
-      "py": "yíng",
-      "en": "to win"
-    },
-    {
-      "w": "输",
-      "py": "shū",
-      "en": "to lose a game"
-    },
-    {
-      "w": "咳嗽",
-      "py": "késou",
-      "en": "to cough"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-30.mp3?v=1791720833"
+  {
+   "text": "杰克觉得很有意思，就请刘爷爷教他。",
+   "py": "Jié kè jué de hěn yǒu yì si, jiù qǐng Liú yé ye jiāo tā.",
+   "en": "Jack thinks it looks fun, so he asks Grandpa Liu to teach him.",
+   "tr": {
+    "vi": "Jack thấy rất thú vị, nên nhờ ông Lưu dạy mình.",
+    "pt": "Jack acha interessante e pede ao vovô Liu para ensiná-lo.",
+    "es": "A Jack le parece muy interesante, así que le pide al abuelo Liu que le enseñe.",
+    "fr": "Jack trouve ça intéressant, alors il demande à papi Liu de lui apprendre.",
+    "am": "ጃክ ጨዋታው አስደሳች መሰለው፣ ስለዚህ አያት ሊዩ እንዲያስተምሩት ጠየቃቸው።",
+    "fa": "جک فکر می‌کنه بامزه به نظر می‌رسه، پس از پدربزرگ لیو می‌خواد یادش بده."
+   },
+   "start": 7.856,
+   "end": 11.672,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "有意思",
+     "yǒu yì si",
+     "fun; interesting; meaningful",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "请",
+     "qǐng",
+     "to ask; to invite; please (do sth)",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "教",
+     "jiāo",
+     "to teach; to instruct",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "学了一个月，杰克已经会下了，可是他从来没赢过刘爷爷。",
+   "py": "xué le yí gè yuè, Jié kè yǐ jīng huì xià le, kě shì tā cóng lái méi yíng guò Liú yé ye.",
+   "en": "After a month, Jack knows how to play, but he has never once beaten Grandpa Liu.",
+   "tr": {
+    "vi": "Học được một tháng, Jack đã biết chơi, nhưng chưa thắng ông Lưu lần nào.",
+    "pt": "Depois de um mês, Jack já sabe jogar, mas nunca ganhou do vovô Liu.",
+    "es": "Después de un mes, Jack ya sabe jugar, pero nunca le ha ganado al abuelo Liu.",
+    "fr": "Au bout d’un mois, Jack sait jouer, mais il n’a jamais battu papi Liu.",
+    "am": "ጃክ ለአንድ ወር ተምሮ መጫወት ቻለ፣ ግን አያት ሊዩን አንድም ጊዜ አሸንፎ አያውቅም።",
+    "fa": "بعد از یه ماه، جک بلده بازی کنه، ولی حتی یه بار هم نتونسته پدربزرگ لیو رو ببره."
+   },
+   "start": 12.372,
+   "end": 18.804,
+   "tokens": [
+    [
+     "学",
+     "xué",
+     "to learn; to study; to imitate",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "从来没",
+     "cóng lái méi",
+     "have never; has never",
+     ""
+    ],
+    [
+     "赢",
+     "yíng",
+     "to beat; to win; to profit",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他们下棋的时候，旁边总是站着几个爷爷，一边看一边给杰克出主意。",
+   "py": "tā men xià qí de shí hou, páng biān zǒng shì zhàn zhe jǐ gè yé ye, yì biān kàn yì biān gěi Jié kè chū zhǔ yi.",
+   "en": "Whenever they play, a few old men stand around watching and giving Jack advice.",
+   "tr": {
+    "vi": "Mỗi lần họ chơi cờ, bên cạnh lúc nào cũng có mấy ông đứng xem, vừa xem vừa mách nước cho Jack.",
+    "pt": "Sempre que eles jogam, alguns senhores ficam em volta olhando e dando palpites para Jack.",
+    "es": "Cuando juegan, siempre hay unos señores mayores alrededor que miran y le dan consejos a Jack.",
+    "fr": "Quand ils jouent, il y a toujours quelques papis debout à côté, qui regardent et donnent des conseils à Jack.",
+    "am": "ሲጫወቱ ሁልጊዜ ጥቂት አያቶች አጠገባቸው ቆመው እያዩ ለጃክ ምክር ይሰጡታል።",
+    "fa": "هر بار که بازی می‌کنن، چند تا پیرمرد دورشون جمع می‌شن که تماشا کنن و به جک نصیحت بدن."
+   },
+   "start": 19.504,
+   "end": 26.872,
+   "tokens": [
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "下棋",
+     "xià qí",
+     "to play chess",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "总是",
+     "zǒng shì",
+     "always",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "几个",
+     "jǐ ge",
+     "a few; several; how many",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to watch; to watch out for; to see; to look at",
+     ""
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "出主意",
+     "chū zhǔ yi",
+     "to offer advice; to come up with ideas; to make suggestions",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷不高兴地说：“看棋别说话！你们别帮他！”",
+   "py": "Liú yé ye bù gāo xìng de shuō: “kàn qí bié shuō huà! nǐ men bié bāng tā!”",
+   "en": "Grandpa Liu grumbles, \"Watchers keep quiet! Stop helping him!\"",
+   "tr": {
+    "vi": "Ông Lưu không vui, nói: “Xem cờ thì đừng nói! Các ông đừng giúp nó!”",
+    "pt": "O vovô Liu reclama: “Quem está assistindo fica calado! Não ajudem ele!”",
+    "es": "El abuelo Liu dice, molesto: «¡El que mira, no habla! ¡No lo ayuden!».",
+    "fr": "Papi Liu dit, mécontent : « Quand on regarde, on se tait ! Ne l’aidez pas ! »",
+    "am": "አያት ሊዩ ተበሳጭተው «ቼዝ የሚያይ ዝም ይበል! አትርዱት!» አሉ።",
+    "fa": "پدربزرگ لیو غر می‌زنه: «تماشاچی‌ها ساکت! دیگه بهش کمک نکنید!»"
+   },
+   "start": 27.572,
+   "end": 33.068,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "看",
+     "kàn",
+     "to watch; to watch out for; to see; to look at",
+     ""
+    ],
+    [
+     "棋",
+     "qí",
+     "chess; chess-like game; a game of chess",
+     ""
+    ],
+    [
+     "别说",
+     "bié shuō",
+     "to say nothing of; not to mention; let alone",
+     ""
+    ],
+    [
+     "话",
+     "huà",
+     "dialect; language; spoken words",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "别",
+     "bié",
+     "to leave; to part (from)",
+     ""
+    ],
+    [
+     "帮",
+     "bāng",
+     "to help; for sb (i.e. as a help); to assist",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "这个星期六，他们又下了一盘。旁边的爷爷们真的一句话也不说了。",
+   "py": "zhè ge xīng qī liù, tā men yòu xià le yì pán. páng biān de yé ye men zhēn de yí jù huà yě bù shuō le.",
+   "en": "This Saturday they play another game. This time the old men around them really don't say a word.",
+   "tr": {
+    "vi": "Thứ Bảy tuần này, họ lại chơi một ván. Mấy ông đứng bên cạnh đúng là không nói một câu nào nữa.",
+    "pt": "Neste sábado, eles jogam mais uma partida. Os senhores em volta realmente não dizem uma palavra.",
+    "es": "Este sábado juegan otra partida. Los señores de alrededor de verdad no dicen ni una palabra.",
+    "fr": "Ce samedi, ils font encore une partie. Cette fois, les papis autour ne disent vraiment pas un mot.",
+    "am": "በዚህ ቅዳሜ እንደገና አንድ ዙር ተጫወቱ። አጠገባቸው ያሉት አያቶች በእውነት አንድም ቃል አልተናገሩም።",
+    "fa": "این شنبه یه بازی دیگه می‌کنن. این بار پیرمردهای دورشون واقعاً حتی یه کلمه هم نمی‌گن."
+   },
+   "start": 33.768,
+   "end": 40.68,
+   "tokens": [
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "measure word to show the frequency of an action; down",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "盘",
+     "pán",
+     "classifier for games or matches (chess, table tennis etc)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "们",
+     "men",
+     "plural marker for pronouns, and nouns referring to individuals",
+     ""
+    ],
+    [
+     "真的",
+     "zhēn de",
+     "really; truly; indeed; real; true; genuine; (math.) proper",
+     ""
+    ],
+    [
+     "一句话",
+     "yī jù huà",
+     "in a word; in short",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "可是每次杰克要走错的时候，旁边就有人轻轻地咳嗽一声。",
+   "py": "kě shì měi cì Jié kè yào zǒu cuò de shí hou, páng biān jiù yǒu rén qīng qīng de ké sou yì shēng.",
+   "en": "But every time Jack is about to make a wrong move, someone nearby gives a little cough.",
+   "tr": {
+    "vi": "Nhưng mỗi lần Jack sắp đi sai, bên cạnh lại có người khẽ ho một tiếng.",
+    "pt": "Mas toda vez que Jack vai fazer uma jogada errada, alguém do lado dá uma tossidinha.",
+    "es": "Pero cada vez que Jack está a punto de hacer una mala jugada, alguien tose bajito.",
+    "fr": "Mais chaque fois que Jack va jouer un mauvais coup, quelqu’un à côté tousse doucement.",
+    "am": "ነገር ግን ጃክ የተሳሳተ እንቅስቃሴ ሊያደርግ ሲል ሁሉ፣ አጠገቡ ያለ አንድ ሰው ቀስ ብሎ ያስላል።",
+    "fa": "ولی هر بار که جک در شرفِ یه حرکتِ اشتباهه، یه‌جایی یه نفر آروم سرفه می‌کنه."
+   },
+   "start": 41.38,
+   "end": 47.572,
+   "tokens": [
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "每次",
+     "měi cì",
+     "every time",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "will; shall; about to; to want; to need; to ask for",
+     ""
+    ],
+    [
+     "走错",
+     "zǒu cuò",
+     "to go the wrong way; to take the wrong (road, exit etc)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; there is someone there; people",
+     ""
+    ],
+    [
+     "轻轻",
+     "qīng qīng",
+     "lightly; softly",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "咳嗽",
+     "ké sou",
+     "to cough",
+     ""
+    ],
+    [
+     "一声",
+     "yī shēng",
+     "first tone in Mandarin (high, level tone)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克听见咳嗽，就把手拿回来，再想一想。",
+   "py": "Jié kè tīng jiàn ké sou, jiù bǎ shǒu ná huí lái, zài xiǎng yì xiǎng.",
+   "en": "Whenever Jack hears a cough, he pulls his hand back and thinks again.",
+   "tr": {
+    "vi": "Jack nghe thấy tiếng ho là rụt tay lại, nghĩ thêm một chút.",
+    "pt": "Quando Jack ouve a tosse, puxa a mão de volta e pensa de novo.",
+    "es": "Cuando Jack oye la tos, retira la mano y lo piensa otra vez.",
+    "fr": "Quand Jack entend tousser, il retire sa main et réfléchit encore.",
+    "am": "ጃክ ሳሉን ሲሰማ እጁን መልሶ እንደገና ያስባል።",
+    "fa": "هر وقت جک سرفه رو می‌شنوه، دستشو برمی‌گردونه و دوباره فکر می‌کنه."
+   },
+   "start": 48.272,
+   "end": 53.024,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "听见",
+     "tīng jiàn",
+     "to hear",
+     ""
+    ],
+    [
+     "咳嗽",
+     "ké sou",
+     "to cough",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "把手",
+     "bǎ shǒu",
+     "to shake hands",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "回来",
+     "huí lai",
+     "to return; to come back",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; further; beyond this point of time",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克越下越好，刘爷爷越下越着急。",
+   "py": "Jié kè yuè xià yuè hǎo, Liú yé ye yuè xià yuè zháo jí.",
+   "en": "The longer they play, the better Jack does and the more worried Grandpa Liu gets.",
+   "tr": {
+    "vi": "Jack càng chơi càng hay, ông Lưu càng chơi càng sốt ruột.",
+    "pt": "Quanto mais eles jogam, melhor Jack joga e mais nervoso o vovô Liu fica.",
+    "es": "Cuanto más juegan, mejor juega Jack y más nervioso se pone el abuelo Liu.",
+    "fr": "Plus la partie avance, mieux Jack joue, et plus papi Liu s’inquiète.",
+    "am": "ጃክ በተጫወተ ቁጥር እየተሻሻለ ሄደ፣ አያት ሊዩ ደግሞ ይበልጥ እየተጨነቁ ሄዱ።",
+    "fa": "هرچی بیشتر بازی می‌کنن، جک بهتر می‌شه و پدربزرگ لیو بیشتر نگران می‌شه."
+   },
+   "start": 53.724,
+   "end": 58.74,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "the more... the more; to exceed; to climb over",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "the more... the more; to exceed; to climb over",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "the more... the more; to exceed; to climb over",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "the more... the more; to exceed; to climb over",
+     ""
+    ],
+    [
+     "着急",
+     "zháo jí",
+     "to worry; to feel anxious",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "最后，杰克终于赢了！",
+   "py": "zuì hòu, Jié kè zhōng yú yíng le!",
+   "en": "In the end, Jack finally wins!",
+   "tr": {
+    "vi": "Cuối cùng, Jack đã thắng!",
+    "pt": "No fim, Jack finalmente ganha!",
+    "es": "¡Al final, Jack por fin gana!",
+    "fr": "À la fin, Jack gagne enfin !",
+    "am": "በመጨረሻም ጃክ አሸነፈ!",
+    "fa": "بالاخره جک می‌بره!"
+   },
+   "start": 59.44,
+   "end": 62.296,
+   "tokens": [
+    [
+     "最后",
+     "zuì hòu",
+     "final; last; ultimate; finally; in the end",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "in the end; finally; at last",
+     ""
+    ],
+    [
+     "赢",
+     "yíng",
+     "to beat; to win; to profit",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  },
+  {
+   "text": "他高兴得跳了起来：“我赢了！我赢了刘爷爷！”",
+   "py": "tā gāo xìng de tiào le qǐ lái: “wǒ yíng le! wǒ yíng le Liú yé ye!”",
+   "en": "He jumps up with joy. \"I won! I beat Grandpa Liu!\"",
+   "tr": {
+    "vi": "Cậu ấy vui đến nhảy cẫng lên: “Cháu thắng rồi! Cháu thắng ông Lưu rồi!”",
+    "pt": "Ele pula de alegria: “Ganhei! Ganhei do vovô Liu!”",
+    "es": "Salta de alegría: «¡Gané! ¡Le gané al abuelo Liu!».",
+    "fr": "Il saute de joie : « J’ai gagné ! J’ai battu papi Liu ! »",
+    "am": "በደስታ ዘሎ ተነሣ። «አሸነፍኩ! አያት ሊዩን አሸነፍኩ!»",
+    "fa": "از خوشحالی می‌پره بالا: «بردم! پدربزرگ لیو رو بردم!»"
+   },
+   "start": 62.996,
+   "end": 68.444,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "跳",
+     "tiào",
+     "to jump; to hop; to skip over",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "赢",
+     "yíng",
+     "to beat; to win; to profit",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "赢",
+     "yíng",
+     "to beat; to win; to profit",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷看了看他的老朋友们：“今天咳嗽的人怎么这么多？是不是都感冒了？”",
+   "py": "Liú yé ye kàn le kàn tā de lǎo péng you men: “jīn tiān ké sou de rén zěn me zhè me duō? shì bú shì dōu gǎn mào le?”",
+   "en": "Grandpa Liu looks round at his old friends. \"Why is everyone coughing so much today? Have you all caught colds?\"",
+   "tr": {
+    "vi": "Ông Lưu nhìn mấy người bạn già của mình: “Sao hôm nay nhiều người ho thế? Có phải ai cũng bị cảm cả rồi không?”",
+    "pt": "O vovô Liu olha para os velhos amigos: “Por que tem tanta gente tossindo hoje? Estão todos resfriados?”",
+    "es": "El abuelo Liu mira a sus viejos amigos: «¿Por qué tose tanta gente hoy? ¿Todos se resfriaron?».",
+    "fr": "Papi Liu regarde ses vieux amis : « Pourquoi il y a autant de gens qui toussent aujourd’hui ? Vous êtes tous enrhumés ? »",
+    "am": "አያት ሊዩ የድሮ ጓደኞቻቸውን ተመለከቱ። «ዛሬ የሚያስለው ሰው ለምን በዛ? ሁላችሁም ጉንፋን ያዛችሁ እንዴ?»",
+    "fa": "پدربزرگ لیو به دوست‌های قدیمی‌ش نگاه می‌کنه: «چرا امروز انقدر همه دارن سرفه می‌کنن؟ همه‌تون سرما خوردید؟»"
+   },
+   "start": 69.144,
+   "end": 76.488,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "老朋友",
+     "lǎo péng you",
+     "old friend; (slang) period; menstruation",
+     ""
+    ],
+    [
+     "们",
+     "men",
+     "plural marker for pronouns, and nouns referring to individuals",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "咳嗽",
+     "ké sou",
+     "to cough",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "why?; how?; what?",
+     ""
+    ],
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "是不是",
+     "shì bu shì",
+     "is or is not (used to form yes-no questions)",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "感冒",
+     "gǎn mào",
+     "to catch cold; (common) cold",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "一个爷爷笑着说：“老刘，你赢了三十年了，也该输一次了。”",
+   "py": "yí gè yé ye xiào zhe shuō: “lǎo liú, nǐ yíng le sān shí nián le, yě gāi shū yí cì le.”",
+   "en": "One of them laughs. \"Old Liu, you've been winning for thirty years. It's time you lost once.\"",
+   "tr": {
+    "vi": "Một ông cười nói: “Lão Lưu à, ông thắng ba mươi năm rồi, cũng nên thua một lần chứ.”",
+    "pt": "Um deles ri: “Liu, meu velho, você ganha há trinta anos. Já está na hora de perder uma vez.”",
+    "es": "Uno de ellos dice riendo: «Viejo Liu, llevas treinta años ganando. Ya te toca perder una vez».",
+    "fr": "L’un d’eux dit en riant : « Vieux Liu, tu gagnes depuis trente ans. Il est temps que tu perdes une fois. »",
+    "am": "አንዱ አያት እየሳቁ «ሊዩ፣ ለሠላሳ ዓመት አሸንፈሃል። አንድ ጊዜ መሸነፍ አለብህ» አሉ።",
+    "fa": "یکی‌شون می‌خنده: «لیوی عزیز، سی ساله داری می‌بری. دیگه وقتشه یه بارم ببازی.»"
+   },
+   "start": 77.188,
+   "end": 84.1,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "老",
+     "lǎo",
+     "old (of people); all the time",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "赢",
+     "yíng",
+     "to beat; to win; to profit",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "三十",
+     "sān shí",
+     "thirty; 30",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; harvest (old); grain",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "该",
+     "gāi",
+     "should; ought to; probably",
+     ""
+    ],
+    [
+     "输",
+     "shū",
+     "to lose; to be beaten; (bound form) to transport",
+     ""
+    ],
+    [
+     "一次",
+     "yī cì",
+     "first time; once; first",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷也笑了：“今天不算！不是杰克一个人赢的，是你们五个人赢了我一个。”",
+   "py": "Liú yé ye yě xiào le: “jīn tiān bú suàn! bú shì Jié kè yí gè rén yíng de, shì nǐ men wǔ gè rén yíng le wǒ yí gè.”",
+   "en": "Grandpa Liu laughs too. \"Today doesn't count! Jack didn't win on his own. It was five of you against me.\"",
+   "tr": {
+    "vi": "Ông Lưu cũng cười: “Hôm nay không tính! Không phải một mình Jack thắng, mà là năm người các ông thắng một mình tôi.”",
+    "pt": "O vovô Liu também ri: “Hoje não vale! Não foi o Jack sozinho que ganhou. Foram vocês cinco contra mim.”",
+    "es": "El abuelo Liu también se ríe: «¡Hoy no cuenta! No me ganó Jack solo, me ganaron ustedes cinco a mí solo».",
+    "fr": "Papi Liu rit aussi : « Aujourd’hui, ça ne compte pas ! Jack n’a pas gagné tout seul : vous étiez cinq contre moi. »",
+    "am": "አያት ሊዩም ሳቁ። «ዛሬ አይቆጠርም! ጃክ ብቻውን አላሸነፈም። እናንተ አምስታችሁ ናችሁ እኔን አንዱን ያሸነፋችሁት።»",
+    "fa": "پدربزرگ لیوم می‌خنده: «امروز حساب نمی‌شه! جک تنها نبرد؛ شما پنج نفره با من بازی کردید.»"
+   },
+   "start": 84.8,
+   "end": 92.672,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "不算",
+     "bù suàn",
+     "to not count; to not calculate; to not be considered (as)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "不是",
+     "bù shì",
+     "no; is not; not",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "一个人",
+     "yī gè rén",
+     "by oneself (without assistance); alone (without company)",
+     ""
+    ],
+    [
+     "赢",
+     "yíng",
+     "to win; to beat; to profit",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "赢",
+     "yíng",
+     "to win; to beat; to profit",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“明天再来！不过，谁再咳嗽，谁就回家！”",
+   "py": "“míng tiān zài lái! bú guò, shéi zài ké sou, shéi jiù huí jiā!”",
+   "en": "\"Come back tomorrow! But anyone who coughs goes home!\"",
+   "tr": {
+    "vi": "“Mai lại chơi tiếp! Nhưng ai mà còn ho thì về nhà!”",
+    "pt": "“Voltem amanhã! Mas quem tossir vai para casa!”",
+    "es": "«¡Vuelvan mañana! Pero el que tosa, ¡se va a su casa!»",
+    "fr": "« Revenez demain ! Mais le premier qui tousse rentre chez lui ! »",
+    "am": "«ነገ እንደገና ኑ! ግን ዳግመኛ ያሳለ ሰው ወደ ቤቱ ይሄዳል!»",
+    "fa": "«فردا برگردید! ولی هرکی سرفه کنه برمی‌گرده خونه!»"
+   },
+   "start": 93.372,
+   "end": 98.364,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "明天",
+     "míng tiān",
+     "tomorrow",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; further; beyond this point of time",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "不过",
+     "bù guò",
+     "but; anyway (to get back to a previous topic); only",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "谁",
+     "shéi",
+     "who; also pr.",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; further; beyond this point of time",
+     ""
+    ],
+    [
+     "咳嗽",
+     "ké sou",
+     "to cough",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "谁",
+     "shéi",
+     "who; also pr.",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 301,
+ "first": "每天下午，刘爷爷都在公园里下象棋。",
+ "newWords": [
+  {
+   "w": "象棋",
+   "py": "xiàngqí",
+   "en": "traditional Chinese strategy board game"
+  },
+  {
+   "w": "赢",
+   "py": "yíng",
+   "en": "to win"
+  },
+  {
+   "w": "输",
+   "py": "shū",
+   "en": "to lose a game"
+  },
+  {
+   "w": "咳嗽",
+   "py": "késou",
+   "en": "to cough"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-30.mp3?v=1791720833"
 }

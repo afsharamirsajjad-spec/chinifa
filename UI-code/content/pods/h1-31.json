@@ -1,797 +1,806 @@
 {
-  "id": "h1-31",
-  "level": 1,
-  "no": 31,
-  "title": "山田回来了",
-  "title_py": "Shān tián huí lái le",
-  "title_en": "Yamada is back",
-  "title_tr": {
-    "vi": "Yamada đã về",
-    "pt": "A Yamada voltou",
-    "es": "Yamada ha vuelto",
-    "fr": "Yamada est de retour",
-    "am": "ያማዳ ተመለሰች",
-    "fa": "این کتاب مال کیه؟"
+ "id": "h1-31",
+ "level": 1,
+ "no": 31,
+ "title": "山田回来了",
+ "title_py": "Shān tián huí lái le",
+ "title_en": "Yamada is back",
+ "title_tr": {
+  "vi": "Yamada đã về",
+  "pt": "A Yamada voltou",
+  "es": "Yamada ha vuelto",
+  "fr": "Yamada est de retour",
+  "am": "ያማዳ ተመለሰች",
+  "fa": "این کتاب مال کیه؟"
+ },
+ "topic": "travel",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-31.jpg",
+ "duration": 45.016,
+ "lines": [
+  {
+   "text": "山田回日本看妈妈了。",
+   "py": "Shān tián huí rì běn kàn mā ma le.",
+   "en": "Yamada has gone back to Japan to see her mum.",
+   "tr": {
+    "vi": "Yamada về Nhật Bản thăm mẹ.",
+    "pt": "A Yamada voltou ao Japão para ver a mãe.",
+    "es": "Yamada volvió a Japón a ver a su mamá.",
+    "fr": "Yamada est rentrée au Japon voir sa mère.",
+    "am": "ያማዳ እናቷን ለማየት ወደ ጃፓን ሄዳ ነበር።",
+    "fa": "یامادا رفته ژاپن دیدن مامانش."
+   },
+   "start": 2.404,
+   "end": 4.78,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "日本",
+     "rì běn",
+     "Japan",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "travel",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-31.jpg",
-  "duration": 45.016,
-  "lines": [
-    {
-      "text": "山田回日本看妈妈了。",
-      "py": "Shān tián huí rì běn kàn mā ma le.",
-      "en": "Yamada has gone back to Japan to see her mum.",
-      "tr": {
-        "vi": "Yamada về Nhật Bản thăm mẹ.",
-        "pt": "A Yamada voltou ao Japão para ver a mãe.",
-        "es": "Yamada volvió a Japón a ver a su mamá.",
-        "fr": "Yamada est rentrée au Japon voir sa mère.",
-        "am": "ያማዳ እናቷን ለማየት ወደ ጃፓን ሄዳ ነበር።"
-      },
-      "start": 2.404,
-      "end": 4.78,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "日本",
-          "rì běn",
-          "Japan",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "星期六，她回来了。杰克和安娜去机场等她。",
-      "py": "xīng qī liù, tā huí lái le. Jié kè hé Ān nà qù jī chǎng děng tā.",
-      "en": "On Saturday, she comes back. Jack and Anna go to the airport to meet her.",
-      "tr": {
-        "vi": "Thứ Bảy, cô ấy trở về. Jack và Anna ra sân bay đón cô ấy.",
-        "pt": "No sábado, ela volta. O Jack e a Anna vão ao aeroporto esperar por ela.",
-        "es": "El sábado regresa. Jack y Anna van al aeropuerto a esperarla.",
-        "fr": "Samedi, elle revient. Jack et Anna vont l'attendre à l'aéroport.",
-        "am": "ቅዳሜ ተመለሰች። ጃክ እና አና አየር ማረፊያ ሄደው ጠበቋት።"
-      },
-      "start": 5.48,
-      "end": 11.168,
-      "tokens": [
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "回来",
-          "huí lai",
-          "to return; to come back",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "机场",
-          "jī chǎng",
-          "airport; airfield",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "山田来了。她的东西很多很多！",
-      "py": "Shān tián lái le. tā de dōng xi hěn duō hěn duō!",
-      "en": "Here comes Yamada, with lots and lots of things!",
-      "tr": {
-        "vi": "Yamada đến rồi. Đồ của cô ấy nhiều ơi là nhiều!",
-        "pt": "Lá vem a Yamada, com muitas, muitas coisas!",
-        "es": "Ahí viene Yamada. ¡Trae muchísimas cosas!",
-        "fr": "Voilà Yamada. Elle a beaucoup, beaucoup d'affaires !",
-        "am": "ያማዳ መጣች። ዕቃዋ በጣም ብዙ ነው!"
-      },
-      "start": 11.868,
-      "end": 16.116,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“山田，你的东西太多了！”",
-      "py": "Jié kè shuō: “Shān tián, nǐ de dōng xi tài duō le!”",
-      "en": "Jack says, \"Yamada, you've got so much stuff!\"",
-      "tr": {
-        "vi": "Jack nói: “Yamada, đồ của bạn nhiều quá!”",
-        "pt": "O Jack diz: “Yamada, você trouxe coisa demais!”",
-        "es": "Jack dice: «¡Yamada, traes demasiadas cosas!»",
-        "fr": "Jack dit : « Yamada, tu as beaucoup trop d'affaires ! »",
-        "am": "ጃክ «ያማዳ፣ ዕቃሽ በጣም ብዙ ነው!» አለ።"
-      },
-      "start": 16.816,
-      "end": 21.544,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "stuff; thing; person",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "山田笑了：“这是给张阿姨的，这是给李老师的……”",
-      "py": "Shān tián xiào le: “zhè shì gěi Zhāng ā yí de, zhè shì gěi Lǐ lǎo shī de……”",
-      "en": "Yamada laughs. \"This is for Auntie Zhang, this is for Teacher Li...\"",
-      "tr": {
-        "vi": "Yamada cười: “Cái này cho dì Trương, cái này cho cô Lý...”",
-        "pt": "A Yamada ri: “Isto é para a tia Zhang, isto é para a professora Li...”",
-        "es": "Yamada se ríe: «Esto es para la señora Zhang, esto es para la profesora Li…»",
-        "fr": "Yamada rit : « Ça, c'est pour tante Zhang, ça, c'est pour la professeure Li… »",
-        "am": "ያማዳ ሳቀች። «ይሄ ለእትዬ ዣንግ ነው፤ ይሄ ለመምህርት ሊ ነው…»"
-      },
-      "start": 22.244,
-      "end": 27.908,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“这是给安娜的，这是给杰克的。”",
-      "py": "“zhè shì gěi Ān nà de, zhè shì gěi Jié kè de.”",
-      "en": "\"This is for Anna, and this is for Jack.\"",
-      "tr": {
-        "vi": "“Cái này cho Anna, cái này cho Jack.”",
-        "pt": "“Isto é para a Anna, e isto é para o Jack.”",
-        "es": "«Esto es para Anna, y esto es para Jack».",
-        "fr": "« Ça, c'est pour Anna, et ça, c'est pour Jack. »",
-        "am": "«ይሄ ለአና ነው፤ ይሄ ለጃክ ነው።»"
-      },
-      "start": 28.608,
-      "end": 31.944,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“这些，都是米米的！”",
-      "py": "“zhè xiē, dōu shì Mǐ mi de!”",
-      "en": "\"And these are all for Mimi!\"",
-      "tr": {
-        "vi": "“Còn mấy cái này, đều là của Mễ Mễ!”",
-        "pt": "“E isto aqui é tudo da Mimi!”",
-        "es": "«¡Y todo esto es para Mimi!»",
-        "fr": "« Et tout ça, c'est pour Mimi ! »",
-        "am": "«እነዚህ ደግሞ ሁሉም የሚሚ ናቸው!»"
-      },
-      "start": 32.644,
-      "end": 35.308,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "这些",
-          "zhè xiē",
-          "these",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜说：“那你的东西呢？”",
-      "py": "Ān nà shuō: “nà nǐ de dōng xi ne?”",
-      "en": "Anna says, \"So where are your things?\"",
-      "tr": {
-        "vi": "Anna nói: “Vậy đồ của bạn đâu?”",
-        "pt": "A Anna diz: “E as suas coisas?”",
-        "es": "Anna dice: «¿Y tus cosas?»",
-        "fr": "Anna dit : « Et tes affaires à toi ? »",
-        "am": "አና «ታዲያ ያንቺ ዕቃ የታለ?» አለች።"
-      },
-      "start": 36.008,
-      "end": 38.864,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "那",
-          "nà",
-          "(pronoun) that (referring to persons, things or situations)",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "呢",
-          "ne",
-          "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "山田说：“我的？我的东西很少！”",
-      "py": "Shān tián shuō: “wǒ de? wǒ de dōng xi hěn shǎo!”",
-      "en": "Yamada says, \"Mine? I've hardly got anything!\"",
-      "tr": {
-        "vi": "Yamada nói: “Của mình á? Đồ của mình ít lắm!”",
-        "pt": "A Yamada diz: “As minhas? Eu quase não trouxe nada!”",
-        "es": "Yamada dice: «¿Las mías? ¡Casi no traigo nada!»",
-        "fr": "Yamada dit : « Les miennes ? J'en ai très peu ! »",
-        "am": "ያማዳ «የእኔ? የእኔ ዕቃ በጣም ጥቂት ነው!» አለች።"
-      },
-      "start": 39.564,
-      "end": 44.316,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "少",
-          "shǎo",
-          "few; less; to lack",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 107,
-  "first": "山田回日本看妈妈了。",
-  "newWords": [
-    {
-      "w": "日本",
-      "py": "Rìběn",
-      "en": "Japan"
-    },
-    {
-      "w": "机场",
-      "py": "jīchǎng",
-      "en": "airport"
-    },
-    {
-      "w": "等",
-      "py": "děng",
-      "en": "to wait"
-    },
-    {
-      "w": "给",
-      "py": "gěi",
-      "en": "to give"
-    },
-    {
-      "w": "笑",
-      "py": "xiào",
-      "en": "to smile"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-31.mp3?v=1791720665"
+  {
+   "text": "星期六，她回来了。杰克和安娜去机场等她。",
+   "py": "xīng qī liù, tā huí lái le. Jié kè hé Ān nà qù jī chǎng děng tā.",
+   "en": "On Saturday, she comes back. Jack and Anna go to the airport to meet her.",
+   "tr": {
+    "vi": "Thứ Bảy, cô ấy trở về. Jack và Anna ra sân bay đón cô ấy.",
+    "pt": "No sábado, ela volta. O Jack e a Anna vão ao aeroporto esperar por ela.",
+    "es": "El sábado regresa. Jack y Anna van al aeropuerto a esperarla.",
+    "fr": "Samedi, elle revient. Jack et Anna vont l'attendre à l'aéroport.",
+    "am": "ቅዳሜ ተመለሰች። ጃክ እና አና አየር ማረፊያ ሄደው ጠበቋት።",
+    "fa": "جمعه برمی‌گردد. جک و آنا می‌روند فرودگاه منتظرش."
+   },
+   "start": 5.48,
+   "end": 11.168,
+   "tokens": [
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "回来",
+     "huí lai",
+     "to return; to come back",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "机场",
+     "jī chǎng",
+     "airport; airfield",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "山田来了。她的东西很多很多！",
+   "py": "Shān tián lái le. tā de dōng xi hěn duō hěn duō!",
+   "en": "Here comes Yamada, with lots and lots of things!",
+   "tr": {
+    "vi": "Yamada đến rồi. Đồ của cô ấy nhiều ơi là nhiều!",
+    "pt": "Lá vem a Yamada, com muitas, muitas coisas!",
+    "es": "Ahí viene Yamada. ¡Trae muchísimas cosas!",
+    "fr": "Voilà Yamada. Elle a beaucoup, beaucoup d'affaires !",
+    "am": "ያማዳ መጣች። ዕቃዋ በጣም ብዙ ነው!",
+    "fa": "یامادا می‌رسد. کلی کلی وسایل با خودش آورده!"
+   },
+   "start": 11.868,
+   "end": 16.116,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  },
+  {
+   "text": "杰克说：“山田，你的东西太多了！”",
+   "py": "Jié kè shuō: “Shān tián, nǐ de dōng xi tài duō le!”",
+   "en": "Jack says, \"Yamada, you've got so much stuff!\"",
+   "tr": {
+    "vi": "Jack nói: “Yamada, đồ của bạn nhiều quá!”",
+    "pt": "O Jack diz: “Yamada, você trouxe coisa demais!”",
+    "es": "Jack dice: «¡Yamada, traes demasiadas cosas!»",
+    "fr": "Jack dit : « Yamada, tu as beaucoup trop d'affaires ! »",
+    "am": "ጃክ «ያማዳ፣ ዕቃሽ በጣም ብዙ ነው!» አለ።",
+    "fa": "جک می‌گوید: «یامادا، وسایلت خیلی زیاده!»"
+   },
+   "start": 16.816,
+   "end": 21.544,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "stuff; thing; person",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "山田笑了：“这是给张阿姨的，这是给李老师的……”",
+   "py": "Shān tián xiào le: “zhè shì gěi Zhāng ā yí de, zhè shì gěi Lǐ lǎo shī de……”",
+   "en": "Yamada laughs. \"This is for Auntie Zhang, this is for Teacher Li...\"",
+   "tr": {
+    "vi": "Yamada cười: “Cái này cho dì Trương, cái này cho cô Lý...”",
+    "pt": "A Yamada ri: “Isto é para a tia Zhang, isto é para a professora Li...”",
+    "es": "Yamada se ríe: «Esto es para la señora Zhang, esto es para la profesora Li…»",
+    "fr": "Yamada rit : « Ça, c'est pour tante Zhang, ça, c'est pour la professeure Li… »",
+    "am": "ያማዳ ሳቀች። «ይሄ ለእትዬ ዣንግ ነው፤ ይሄ ለመምህርት ሊ ነው…»",
+    "fa": "یامادا می‌خندد: «این مال خاله ژانگه، اینم مال معلم لی…»"
+   },
+   "start": 22.244,
+   "end": 27.908,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“这是给安娜的，这是给杰克的。”",
+   "py": "“zhè shì gěi Ān nà de, zhè shì gěi Jié kè de.”",
+   "en": "\"This is for Anna, and this is for Jack.\"",
+   "tr": {
+    "vi": "“Cái này cho Anna, cái này cho Jack.”",
+    "pt": "“Isto é para a Anna, e isto é para o Jack.”",
+    "es": "«Esto es para Anna, y esto es para Jack».",
+    "fr": "« Ça, c'est pour Anna, et ça, c'est pour Jack. »",
+    "am": "«ይሄ ለአና ነው፤ ይሄ ለጃክ ነው።»",
+    "fa": "«این مال آناست، اینم مال جک.»"
+   },
+   "start": 28.608,
+   "end": 31.944,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“这些，都是米米的！”",
+   "py": "“zhè xiē, dōu shì Mǐ mi de!”",
+   "en": "\"And these are all for Mimi!\"",
+   "tr": {
+    "vi": "“Còn mấy cái này, đều là của Mễ Mễ!”",
+    "pt": "“E isto aqui é tudo da Mimi!”",
+    "es": "«¡Y todo esto es para Mimi!»",
+    "fr": "« Et tout ça, c'est pour Mimi ! »",
+    "am": "«እነዚህ ደግሞ ሁሉም የሚሚ ናቸው!»",
+    "fa": "«و این‌ها هم همه‌شون مال میمی‌ان!»"
+   },
+   "start": 32.644,
+   "end": 35.308,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "这些",
+     "zhè xiē",
+     "these",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜说：“那你的东西呢？”",
+   "py": "Ān nà shuō: “nà nǐ de dōng xi ne?”",
+   "en": "Anna says, \"So where are your things?\"",
+   "tr": {
+    "vi": "Anna nói: “Vậy đồ của bạn đâu?”",
+    "pt": "A Anna diz: “E as suas coisas?”",
+    "es": "Anna dice: «¿Y tus cosas?»",
+    "fr": "Anna dit : « Et tes affaires à toi ? »",
+    "am": "አና «ታዲያ ያንቺ ዕቃ የታለ?» አለች።",
+    "fa": "آنا می‌گوید: «پس وسایل خودت کو؟»"
+   },
+   "start": 36.008,
+   "end": 38.864,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "那",
+     "nà",
+     "(pronoun) that (referring to persons, things or situations)",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "呢",
+     "ne",
+     "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "山田说：“我的？我的东西很少！”",
+   "py": "Shān tián shuō: “wǒ de? wǒ de dōng xi hěn shǎo!”",
+   "en": "Yamada says, \"Mine? I've hardly got anything!\"",
+   "tr": {
+    "vi": "Yamada nói: “Của mình á? Đồ của mình ít lắm!”",
+    "pt": "A Yamada diz: “As minhas? Eu quase não trouxe nada!”",
+    "es": "Yamada dice: «¿Las mías? ¡Casi no traigo nada!»",
+    "fr": "Yamada dit : « Les miennes ? J'en ai très peu ! »",
+    "am": "ያማዳ «የእኔ? የእኔ ዕቃ በጣም ጥቂት ነው!» አለች።",
+    "fa": "یامادا می‌گوید: «مال من؟ من که چیزی ندارم!»"
+   },
+   "start": 39.564,
+   "end": 44.316,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "少",
+     "shǎo",
+     "few; less; to lack",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 107,
+ "first": "山田回日本看妈妈了。",
+ "newWords": [
+  {
+   "w": "日本",
+   "py": "Rìběn",
+   "en": "Japan"
+  },
+  {
+   "w": "机场",
+   "py": "jīchǎng",
+   "en": "airport"
+  },
+  {
+   "w": "等",
+   "py": "děng",
+   "en": "to wait"
+  },
+  {
+   "w": "给",
+   "py": "gěi",
+   "en": "to give"
+  },
+  {
+   "w": "笑",
+   "py": "xiào",
+   "en": "to smile"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-31.mp3?v=1791720665"
 }

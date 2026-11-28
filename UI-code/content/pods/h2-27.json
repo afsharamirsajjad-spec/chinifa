@@ -1,1228 +1,1241 @@
 {
-  "id": "h2-27",
-  "level": 2,
-  "no": 27,
-  "title": "一杯奶茶",
-  "title_py": "yī bēi nǎi chá",
-  "title_en": "One milk tea",
-  "title_tr": {
-    "vi": "Một ly trà sữa",
-    "pt": "Um chá com leite",
-    "es": "Un té con leche",
-    "fr": "Un thé au lait",
-    "am": "አንድ የወተት ሻይ",
-    "fa": "یک لیوان چای شیر"
+ "id": "h2-27",
+ "level": 2,
+ "no": 27,
+ "title": "一杯奶茶",
+ "title_py": "yī bēi nǎi chá",
+ "title_en": "One milk tea",
+ "title_tr": {
+  "vi": "Một ly trà sữa",
+  "pt": "Um chá com leite",
+  "es": "Un té con leche",
+  "fr": "Un thé au lait",
+  "am": "አንድ የወተት ሻይ",
+  "fa": "یک لیوان چای شیر"
+ },
+ "topic": "food",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h2-27.jpg",
+ "duration": 67.856,
+ "lines": [
+  {
+   "text": "学校旁边新开了一家奶茶店，每天都有很多人。",
+   "py": "xué xiào páng biān xīn kāi le yì jiā nǎi chá diàn, měi tiān dōu yǒu hěn duō rén.",
+   "en": "A new milk tea shop has opened next to the school, and it's busy every day.",
+   "tr": {
+    "vi": "Bên cạnh trường mới mở một quán trà sữa, ngày nào cũng đông khách.",
+    "pt": "Abriu uma loja nova de chá com leite ao lado da escola, e todo dia tem muita gente.",
+    "es": "Abrieron una tienda nueva de té con leche junto a la escuela, y todos los días está llena.",
+    "fr": "Un nouveau bar à thé au lait a ouvert à côté de l’école, et il y a du monde tous les jours.",
+    "am": "ከትምህርት ቤቱ አጠገብ አዲስ የወተት ሻይ ቤት ተከፍቷል፤ በየቀኑ ብዙ ሰው አለ።",
+    "fa": "کنار مدرسه یه چای‌شیری جدید باز شده و هر روز کلی مشتری داره."
+   },
+   "start": 2.62,
+   "end": 7.348,
+   "tokens": [
+    [
+     "学校",
+     "xué xiào",
+     "school",
+     ""
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "新",
+     "xīn",
+     "new; newly; meso- (chemistry)",
+     ""
+    ],
+    [
+     "开",
+     "kāi",
+     "to open (transitive or intransitive)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一家",
+     "yī jiā",
+     "the whole family; the same family",
+     ""
+    ],
+    [
+     "奶茶",
+     "nǎi chá",
+     "milk tea",
+     ""
+    ],
+    [
+     "店",
+     "diàn",
+     "(bound form) shop; store; inn; old-style hotel",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "food",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h2-27.jpg",
-  "duration": 67.856,
-  "lines": [
-    {
-      "text": "学校旁边新开了一家奶茶店，每天都有很多人。",
-      "py": "xué xiào páng biān xīn kāi le yì jiā nǎi chá diàn, měi tiān dōu yǒu hěn duō rén.",
-      "en": "A new milk tea shop has opened next to the school, and it's busy every day.",
-      "tr": {
-        "vi": "Bên cạnh trường mới mở một quán trà sữa, ngày nào cũng đông khách.",
-        "pt": "Abriu uma loja nova de chá com leite ao lado da escola, e todo dia tem muita gente.",
-        "es": "Abrieron una tienda nueva de té con leche junto a la escuela, y todos los días está llena.",
-        "fr": "Un nouveau bar à thé au lait a ouvert à côté de l’école, et il y a du monde tous les jours.",
-        "am": "ከትምህርት ቤቱ አጠገብ አዲስ የወተት ሻይ ቤት ተከፍቷል፤ በየቀኑ ብዙ ሰው አለ።"
-      },
-      "start": 2.62,
-      "end": 7.348,
-      "tokens": [
-        [
-          "学校",
-          "xué xiào",
-          "school",
-          ""
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "新",
-          "xīn",
-          "new; newly; meso- (chemistry)",
-          ""
-        ],
-        [
-          "开",
-          "kāi",
-          "to open (transitive or intransitive)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一家",
-          "yī jiā",
-          "the whole family; the same family",
-          ""
-        ],
-        [
-          "奶茶",
-          "nǎi chá",
-          "milk tea",
-          ""
-        ],
-        [
-          "店",
-          "diàn",
-          "(bound form) shop; store; inn; old-style hotel",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "晚上下课以后，安娜带山田去喝奶茶。",
-      "py": "wǎn shang xià kè yǐ hòu, Ān nà dài Shān tián qù hē nǎi chá.",
-      "en": "After evening class, Anna takes Yamada for milk tea.",
-      "tr": {
-        "vi": "Tối tan học, Anna dẫn Yamada đi uống trà sữa.",
-        "pt": "Depois da aula da noite, Anna leva Yamada para tomar chá com leite.",
-        "es": "En la noche, después de clase, Anna lleva a Yamada a tomar té con leche.",
-        "fr": "Après le cours du soir, Anna emmène Yamada boire un thé au lait.",
-        "am": "ምሽት ከትምህርት በኋላ አና ያማዳን ይዛ የወተት ሻይ ልትጠጣ ሄደች።"
-      },
-      "start": 8.048,
-      "end": 12.32,
-      "tokens": [
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "下课",
-          "xià kè",
-          "to finish class; to get out of class",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; afterwards; later",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "to take along; to look after; band",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "奶茶",
-          "nǎi chá",
-          "milk tea",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜说：“我要一杯大的，多放冰，多放糖！”",
-      "py": "Ān nà shuō: “wǒ yào yì bēi dà de, duō fàng bīng, duō fàng táng!”",
-      "en": "Anna says, \"A large one for me, with lots of ice and lots of sugar!\"",
-      "tr": {
-        "vi": "Anna nói: “Cho tôi một cốc cỡ lớn, nhiều đá, nhiều đường!”",
-        "pt": "Anna diz: “Para mim, um grande, com bastante gelo e bastante açúcar!”",
-        "es": "Anna dice: «¡Yo quiero uno grande, con mucho hielo y mucha azúcar!»",
-        "fr": "Anna dit : « Pour moi, un grand, avec beaucoup de glaçons et beaucoup de sucre ! »",
-        "am": "አና «ትልቁን እፈልጋለሁ፤ ብዙ በረዶ፣ ብዙ ስኳር!» አለች።"
-      },
-      "start": 13.02,
-      "end": 17.748,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "杯",
-          "bēi",
-          "classifier for certain containers of liquids: glass, cup",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "多放",
-          "duō fàng",
-          "add extra (of a spice etc)",
-          ""
-        ],
-        [
-          "冰",
-          "bīng",
-          "ice; to chill sth; (of an object or substance) to feel cold",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "多放",
-          "duō fàng",
-          "add extra (of a spice etc)",
-          ""
-        ],
-        [
-          "糖",
-          "táng",
-          "sugar; sweets; candy",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "服务员问山田：“您呢？”",
-      "py": "fú wù yuán wèn Shān tián: “nín ne?”",
-      "en": "The server asks Yamada, \"And for you?\"",
-      "tr": {
-        "vi": "Nhân viên hỏi Yamada: “Còn chị thì sao ạ?”",
-        "pt": "O atendente pergunta à Yamada: “E para você?”",
-        "es": "La empleada le pregunta a Yamada: «¿Y usted?»",
-        "fr": "Le serveur demande à Yamada : « Et pour vous ? »",
-        "am": "አስተናጋጁ ያማዳን «እርስዎስ?» ብሎ ጠየቀ።"
-      },
-      "start": 18.448,
-      "end": 21.304,
-      "tokens": [
-        [
-          "服务员",
-          "fú wù yuán",
-          "waiter; waitress; attendant",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "呢",
-          "ne",
-          "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "山田说：“我不喜欢太甜的，不要糖。”",
-      "py": "Shān tián shuō: “wǒ bù xǐ huan tài tián de, bú yào táng.”",
-      "en": "Yamada says, \"I don't like it too sweet, so no sugar.\"",
-      "tr": {
-        "vi": "Yamada nói: “Tôi không thích ngọt quá, không lấy đường.”",
-        "pt": "Yamada diz: “Não gosto de nada muito doce. Sem açúcar.”",
-        "es": "Yamada dice: «No me gusta muy dulce. Sin azúcar».",
-        "fr": "Yamada dit : « Je n’aime pas quand c’est trop sucré, donc sans sucre. »",
-        "am": "ያማዳ «በጣም ጣፋጭ አልወድም፤ ስኳር አይግባበት» አለች።"
-      },
-      "start": 22.004,
-      "end": 26.276,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "喜欢",
-          "xǐ huan",
-          "to like; to be fond of",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "甜",
-          "tián",
-          "sweet; (fig.) pleasant; endearing; lovely",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不要",
-          "bù yào",
-          "don't!; must not",
-          ""
-        ],
-        [
-          "糖",
-          "táng",
-          "sugar; sweets; candy",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“今天有点儿冷，也不要冰。”",
-      "py": "“jīn tiān yǒu diǎn r lěng, yě bú yào bīng.”",
-      "en": "\"And it's a bit cold today, so no ice either.\"",
-      "tr": {
-        "vi": "“Hôm nay hơi lạnh, cũng không lấy đá.”",
-        "pt": "“Hoje está um pouco frio, então sem gelo também.”",
-        "es": "«Hoy hace un poco de frío, así que sin hielo también».",
-        "fr": "« Il fait un peu froid aujourd’hui, donc sans glaçons non plus. »",
-        "am": "«ዛሬ ትንሽ ይበርዳል፤ በረዶም አይግባበት።»"
-      },
-      "start": 26.976,
-      "end": 29.64,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "有点儿",
-          "yǒu diǎn r",
-          "slightly; a little; somewhat",
-          ""
-        ],
-        [
-          "冷",
-          "lěng",
-          "cold",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不要",
-          "bù yào",
-          "don't!; must not",
-          ""
-        ],
-        [
-          "冰",
-          "bīng",
-          "ice; (of an object or substance) to feel cold",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“里面那些黑色的小东西，我也不要。”",
-      "py": "“lǐ miàn nà xiē hēi sè de xiǎo dōng xi, wǒ yě bú yào.”",
-      "en": "\"And those little black balls in it — I don't want those either.\"",
-      "tr": {
-        "vi": "“Mấy viên nhỏ màu đen ở trong, tôi cũng không lấy.”",
-        "pt": "“E aquelas bolinhas pretas aí dentro, também não quero.”",
-        "es": "«Y esas cositas negras que lleva adentro tampoco las quiero».",
-        "fr": "« Et les petites boules noires dedans, je n’en veux pas non plus. »",
-        "am": "«ውስጡ ያሉትን ጥቁር ትንንሽ ነገሮችም አልፈልግም።»"
-      },
-      "start": 30.34,
-      "end": 33.676,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "里面",
-          "lǐ miàn",
-          "inside; interior; also pr.",
-          ""
-        ],
-        [
-          "那些",
-          "nà xiē",
-          "those",
-          ""
-        ],
-        [
-          "黑色",
-          "hēi sè",
-          "black",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不要",
-          "bù yào",
-          "don't!; must not",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“还有，晚上喝茶我会睡不着，所以也不要茶。”",
-      "py": "“hái yǒu, wǎn shang hē chá wǒ huì shuì bù zháo, suǒ yǐ yě bú yào chá.”",
-      "en": "\"Oh, and if I drink tea in the evening I can't sleep, so no tea either.\"",
-      "tr": {
-        "vi": "“Còn nữa, buổi tối uống trà tôi sẽ mất ngủ, nên cũng không lấy trà.”",
-        "pt": "“Ah, e se eu tomar chá à noite, não consigo dormir. Então sem chá também.”",
-        "es": "«Ah, y si tomo té en la noche no puedo dormir, así que sin té también».",
-        "fr": "« Et puis, si je bois du thé le soir, je ne dors pas, donc sans thé non plus. »",
-        "am": "«ደግሞ ማታ ሻይ ከጠጣሁ እንቅልፍ አይወስደኝም፤ ስለዚህ ሻይም አይግባበት።»"
-      },
-      "start": 34.376,
-      "end": 39.872,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "喝茶",
-          "hē chá",
-          "to drink tea; to get engaged; to have a serious conversation",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "睡",
-          "shuì",
-          "to sleep; to lie down",
-          ""
-        ],
-        [
-          "不着",
-          "bù zháo",
-          "no need; need not",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "所以",
-          "suǒ yǐ",
-          "therefore; as a result; so",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不要",
-          "bù yào",
-          "don't!; must not",
-          ""
-        ],
-        [
-          "茶",
-          "chá",
-          "tea; tea plant",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "服务员想了想：“不要糖，不要冰，也不要茶……那就是一杯热牛奶了。”",
-      "py": "fú wù yuán xiǎng le xiǎng: “bú yào táng, bú yào bīng, yě bú yào chá…… nà jiù shì yì bēi rè niú nǎi le.”",
-      "en": "The server thinks for a moment. \"No sugar, no ice, no tea... So that's a cup of hot milk.\"",
-      "tr": {
-        "vi": "Nhân viên nghĩ một lúc: “Không đường, không đá, cũng không trà... vậy là một cốc sữa nóng rồi.”",
-        "pt": "O atendente pensa um pouco: “Sem açúcar, sem gelo, sem chá… Então é um copo de leite quente.”",
-        "es": "La empleada lo piensa un momento: «Sin azúcar, sin hielo, sin té… Entonces es un vaso de leche caliente».",
-        "fr": "Le serveur réfléchit un instant : « Sans sucre, sans glaçons, sans thé… Alors, c’est un lait chaud. »",
-        "am": "አስተናጋጁ ትንሽ አሰበ። «ስኳር የለም፣ በረዶ የለም፣ ሻይም የለም… እንግዲያው ትኩስ ወተት ነው ማለት ነው።»"
-      },
-      "start": 40.572,
-      "end": 48.612,
-      "tokens": [
-        [
-          "服务员",
-          "fú wù yuán",
-          "waiter; waitress; attendant",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "不要",
-          "bù yào",
-          "don't!; must not",
-          ""
-        ],
-        [
-          "糖",
-          "táng",
-          "sugar; sweets; candy",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不要",
-          "bù yào",
-          "don't!; must not",
-          ""
-        ],
-        [
-          "冰",
-          "bīng",
-          "ice; to chill sth; (of an object or substance) to feel cold",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不要",
-          "bù yào",
-          "don't!; must not",
-          ""
-        ],
-        [
-          "茶",
-          "chá",
-          "tea; tea plant",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "exactly; precisely; only; simply; just",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "杯",
-          "bēi",
-          "classifier for certain containers of liquids: glass, cup",
-          ""
-        ],
-        [
-          "热",
-          "rè",
-          "hot (of weather); to warm up; to heat up",
-          ""
-        ],
-        [
-          "牛奶",
-          "niú nǎi",
-          "cow's milk",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜笑得说不出话来。",
-      "py": "Ān nà xiào de shuō bù chū huà lái.",
-      "en": "Anna laughs so hard she can't speak.",
-      "tr": {
-        "vi": "Anna cười đến mức không nói nên lời.",
-        "pt": "Anna ri tanto que não consegue falar.",
-        "es": "Anna se ríe tanto que no puede hablar.",
-        "fr": "Anna rit tellement qu’elle ne peut plus parler.",
-        "am": "አና ከሳቋ የተነሣ መናገር አቃታት።"
-      },
-      "start": 49.312,
-      "end": 51.976,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "说不出话来",
-          "shuō bù chū huà lái",
-          "speechless",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "山田也笑了：“对，那我就要一杯热牛奶！”",
-      "py": "Shān tián yě xiào le: “duì, nà wǒ jiù yào yì bēi rè niú nǎi!”",
-      "en": "Yamada laughs too. \"That's right! Then I'll have a hot milk!\"",
-      "tr": {
-        "vi": "Yamada cũng cười: “Đúng vậy, thế tôi lấy một cốc sữa nóng!”",
-        "pt": "Yamada também ri: “Isso! Então eu quero um leite quente!”",
-        "es": "Yamada también se ríe: «¡Sí! ¡Entonces quiero un vaso de leche caliente!»",
-        "fr": "Yamada rit aussi : « C’est vrai ! Alors je prends un lait chaud ! »",
-        "am": "ያማዳም ሳቀች። «ልክ ነው፤ እንግዲያው አንድ ትኩስ ወተት!»"
-      },
-      "start": 52.676,
-      "end": 57.428,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "对",
-          "duì",
-          "right; correct; towards; at; for; concerning; regarding",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "就要",
-          "jiù yào",
-          "will; shall; to be going to",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "杯",
-          "bēi",
-          "classifier for certain containers of liquids: glass, cup",
-          ""
-        ],
-        [
-          "热",
-          "rè",
-          "hot (of weather); to warm up; to heat up",
-          ""
-        ],
-        [
-          "牛奶",
-          "niú nǎi",
-          "cow's milk",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "服务员给了她一杯热牛奶，说：“这杯不要钱。”",
-      "py": "fú wù yuán gěi le tā yì bēi rè niú nǎi, shuō: “zhè bēi bú yào qián.”",
-      "en": "The server hands her a hot milk and says, \"This one's on the house.\"",
-      "tr": {
-        "vi": "Nhân viên đưa cho cô một cốc sữa nóng, nói: “Cốc này không lấy tiền.”",
-        "pt": "O atendente entrega um leite quente para ela e diz: “Este é por conta da casa.”",
-        "es": "La empleada le da un vaso de leche caliente y le dice: «Este es gratis».",
-        "fr": "Le serveur lui donne un lait chaud et dit : « Celui-ci est offert. »",
-        "am": "አስተናጋጁ ትኩስ ወተት ሰጣትና «ይሄ በነፃ ነው» አለ።"
-      },
-      "start": 58.128,
-      "end": 63.12,
-      "tokens": [
-        [
-          "服务员",
-          "fú wù yuán",
-          "waiter; waitress; attendant",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "杯",
-          "bēi",
-          "classifier for certain containers of liquids: glass, cup",
-          ""
-        ],
-        [
-          "热",
-          "rè",
-          "hot (of weather); to warm up; to heat up",
-          ""
-        ],
-        [
-          "牛奶",
-          "niú nǎi",
-          "cow's milk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "杯",
-          "bēi",
-          "classifier for certain containers of liquids: glass, cup",
-          ""
-        ],
-        [
-          "不要",
-          "bù yào",
-          "don't!; must not",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "coin; money; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“你是第一个在我们店里要牛奶的人！”",
-      "py": "“nǐ shì dì yí gè zài wǒ men diàn lǐ yào niú nǎi de rén!”",
-      "en": "\"You're the first person ever to order milk in our shop!\"",
-      "tr": {
-        "vi": "“Chị là người đầu tiên gọi sữa ở quán chúng em đấy!”",
-        "pt": "“Você é a primeira pessoa que pede leite na nossa loja!”",
-        "es": "«¡Usted es la primera persona que pide leche en nuestra tienda!»",
-        "fr": "« Vous êtes la première personne à commander du lait dans notre boutique ! »",
-        "am": "«በእኛ ቤት ወተት ያዘዝሽ የመጀመሪያ ሰው አንቺ ነሽ!»"
-      },
-      "start": 63.82,
-      "end": 67.156,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "第一",
-          "dì yī",
-          "first; most important; primary; foremost",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "店",
-          "diàn",
-          "(bound form) shop; store; inn; old-style hotel",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "牛奶",
-          "niú nǎi",
-          "cow's milk",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 192,
-  "first": "学校旁边新开了一家奶茶店，每天都有很多人。",
-  "newWords": [
-    {
-      "w": "甜",
-      "py": "tián",
-      "en": "sweet"
-    },
-    {
-      "w": "糖",
-      "py": "táng",
-      "en": "sugar"
-    },
-    {
-      "w": "冰",
-      "py": "bīng",
-      "en": "ice"
-    },
-    {
-      "w": "服务员",
-      "py": "fúwùyuán",
-      "en": "waiter"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h2-27.mp3?v=1791720675"
+  {
+   "text": "晚上下课以后，安娜带山田去喝奶茶。",
+   "py": "wǎn shang xià kè yǐ hòu, Ān nà dài Shān tián qù hē nǎi chá.",
+   "en": "After evening class, Anna takes Yamada for milk tea.",
+   "tr": {
+    "vi": "Tối tan học, Anna dẫn Yamada đi uống trà sữa.",
+    "pt": "Depois da aula da noite, Anna leva Yamada para tomar chá com leite.",
+    "es": "En la noche, después de clase, Anna lleva a Yamada a tomar té con leche.",
+    "fr": "Après le cours du soir, Anna emmène Yamada boire un thé au lait.",
+    "am": "ምሽት ከትምህርት በኋላ አና ያማዳን ይዛ የወተት ሻይ ልትጠጣ ሄደች።",
+    "fa": "بعد از کلاس شب، آنا یامادا رو می‌بره چای شیری بخورن."
+   },
+   "start": 8.048,
+   "end": 12.32,
+   "tokens": [
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "下课",
+     "xià kè",
+     "to finish class; to get out of class",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; afterwards; later",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "to take along; to look after; band",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "奶茶",
+     "nǎi chá",
+     "milk tea",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜说：“我要一杯大的，多放冰，多放糖！”",
+   "py": "Ān nà shuō: “wǒ yào yì bēi dà de, duō fàng bīng, duō fàng táng!”",
+   "en": "Anna says, \"A large one for me, with lots of ice and lots of sugar!\"",
+   "tr": {
+    "vi": "Anna nói: “Cho tôi một cốc cỡ lớn, nhiều đá, nhiều đường!”",
+    "pt": "Anna diz: “Para mim, um grande, com bastante gelo e bastante açúcar!”",
+    "es": "Anna dice: «¡Yo quiero uno grande, con mucho hielo y mucha azúcar!»",
+    "fr": "Anna dit : « Pour moi, un grand, avec beaucoup de glaçons et beaucoup de sucre ! »",
+    "am": "አና «ትልቁን እፈልጋለሁ፤ ብዙ በረዶ፣ ብዙ ስኳር!» አለች።",
+    "fa": "آنا می‌گه: «برای من یه بزرگ، پر یخ و پر قند!»"
+   },
+   "start": 13.02,
+   "end": 17.748,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "杯",
+     "bēi",
+     "classifier for certain containers of liquids: glass, cup",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "多放",
+     "duō fàng",
+     "add extra (of a spice etc)",
+     ""
+    ],
+    [
+     "冰",
+     "bīng",
+     "ice; to chill sth; (of an object or substance) to feel cold",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "多放",
+     "duō fàng",
+     "add extra (of a spice etc)",
+     ""
+    ],
+    [
+     "糖",
+     "táng",
+     "sugar; sweets; candy",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "服务员问山田：“您呢？”",
+   "py": "fú wù yuán wèn Shān tián: “nín ne?”",
+   "en": "The server asks Yamada, \"And for you?\"",
+   "tr": {
+    "vi": "Nhân viên hỏi Yamada: “Còn chị thì sao ạ?”",
+    "pt": "O atendente pergunta à Yamada: “E para você?”",
+    "es": "La empleada le pregunta a Yamada: «¿Y usted?»",
+    "fr": "Le serveur demande à Yamada : « Et pour vous ? »",
+    "am": "አስተናጋጁ ያማዳን «እርስዎስ?» ብሎ ጠየቀ።",
+    "fa": "خدمتکار از یامادا می‌پرسه: «شما چی؟»"
+   },
+   "start": 18.448,
+   "end": 21.304,
+   "tokens": [
+    [
+     "服务员",
+     "fú wù yuán",
+     "waiter; waitress; attendant",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "呢",
+     "ne",
+     "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "山田说：“我不喜欢太甜的，不要糖。”",
+   "py": "Shān tián shuō: “wǒ bù xǐ huan tài tián de, bú yào táng.”",
+   "en": "Yamada says, \"I don't like it too sweet, so no sugar.\"",
+   "tr": {
+    "vi": "Yamada nói: “Tôi không thích ngọt quá, không lấy đường.”",
+    "pt": "Yamada diz: “Não gosto de nada muito doce. Sem açúcar.”",
+    "es": "Yamada dice: «No me gusta muy dulce. Sin azúcar».",
+    "fr": "Yamada dit : « Je n’aime pas quand c’est trop sucré, donc sans sucre. »",
+    "am": "ያማዳ «በጣም ጣፋጭ አልወድም፤ ስኳር አይግባበት» አለች።",
+    "fa": "یامادا می‌گه: «من شیرین زیاد دوست ندارم؛ بدون قند لطفاً.»"
+   },
+   "start": 22.004,
+   "end": 26.276,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "喜欢",
+     "xǐ huan",
+     "to like; to be fond of",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "甜",
+     "tián",
+     "sweet; (fig.) pleasant; endearing; lovely",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不要",
+     "bù yào",
+     "don't!; must not",
+     ""
+    ],
+    [
+     "糖",
+     "táng",
+     "sugar; sweets; candy",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“今天有点儿冷，也不要冰。”",
+   "py": "“jīn tiān yǒu diǎn r lěng, yě bú yào bīng.”",
+   "en": "\"And it's a bit cold today, so no ice either.\"",
+   "tr": {
+    "vi": "“Hôm nay hơi lạnh, cũng không lấy đá.”",
+    "pt": "“Hoje está um pouco frio, então sem gelo também.”",
+    "es": "«Hoy hace un poco de frío, así que sin hielo también».",
+    "fr": "« Il fait un peu froid aujourd’hui, donc sans glaçons non plus. »",
+    "am": "«ዛሬ ትንሽ ይበርዳል፤ በረዶም አይግባበት።»",
+    "fa": "«امروز هوا یه کم سردعه؛ یخ هم نمی‌خوام.»"
+   },
+   "start": 26.976,
+   "end": 29.64,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "有点儿",
+     "yǒu diǎn r",
+     "slightly; a little; somewhat",
+     ""
+    ],
+    [
+     "冷",
+     "lěng",
+     "cold",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不要",
+     "bù yào",
+     "don't!; must not",
+     ""
+    ],
+    [
+     "冰",
+     "bīng",
+     "ice; (of an object or substance) to feel cold",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“里面那些黑色的小东西，我也不要。”",
+   "py": "“lǐ miàn nà xiē hēi sè de xiǎo dōng xi, wǒ yě bú yào.”",
+   "en": "\"And those little black balls in it — I don't want those either.\"",
+   "tr": {
+    "vi": "“Mấy viên nhỏ màu đen ở trong, tôi cũng không lấy.”",
+    "pt": "“E aquelas bolinhas pretas aí dentro, também não quero.”",
+    "es": "«Y esas cositas negras que lleva adentro tampoco las quiero».",
+    "fr": "« Et les petites boules noires dedans, je n’en veux pas non plus. »",
+    "am": "«ውስጡ ያሉትን ጥቁር ትንንሽ ነገሮችም አልፈልግም።»",
+    "fa": "«اون گلوله‌های سیاه کوچولوی داخلش هم که من نمی‌خوام.»"
+   },
+   "start": 30.34,
+   "end": 33.676,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "里面",
+     "lǐ miàn",
+     "inside; interior; also pr.",
+     ""
+    ],
+    [
+     "那些",
+     "nà xiē",
+     "those",
+     ""
+    ],
+    [
+     "黑色",
+     "hēi sè",
+     "black",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不要",
+     "bù yào",
+     "don't!; must not",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“还有，晚上喝茶我会睡不着，所以也不要茶。”",
+   "py": "“hái yǒu, wǎn shang hē chá wǒ huì shuì bù zháo, suǒ yǐ yě bú yào chá.”",
+   "en": "\"Oh, and if I drink tea in the evening I can't sleep, so no tea either.\"",
+   "tr": {
+    "vi": "“Còn nữa, buổi tối uống trà tôi sẽ mất ngủ, nên cũng không lấy trà.”",
+    "pt": "“Ah, e se eu tomar chá à noite, não consigo dormir. Então sem chá também.”",
+    "es": "«Ah, y si tomo té en la noche no puedo dormir, así que sin té también».",
+    "fr": "« Et puis, si je bois du thé le soir, je ne dors pas, donc sans thé non plus. »",
+    "am": "«ደግሞ ማታ ሻይ ከጠጣሁ እንቅልፍ አይወስደኝም፤ ስለዚህ ሻይም አይግባበት።»",
+    "fa": "«راستی، اگه شب چای بخورم خوابم نمی‌بره؛ پس چای هم نه.»"
+   },
+   "start": 34.376,
+   "end": 39.872,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "喝茶",
+     "hē chá",
+     "to drink tea; to get engaged; to have a serious conversation",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "睡",
+     "shuì",
+     "to sleep; to lie down",
+     ""
+    ],
+    [
+     "不着",
+     "bù zháo",
+     "no need; need not",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "所以",
+     "suǒ yǐ",
+     "therefore; as a result; so",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不要",
+     "bù yào",
+     "don't!; must not",
+     ""
+    ],
+    [
+     "茶",
+     "chá",
+     "tea; tea plant",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "服务员想了想：“不要糖，不要冰，也不要茶……那就是一杯热牛奶了。”",
+   "py": "fú wù yuán xiǎng le xiǎng: “bú yào táng, bú yào bīng, yě bú yào chá…… nà jiù shì yì bēi rè niú nǎi le.”",
+   "en": "The server thinks for a moment. \"No sugar, no ice, no tea... So that's a cup of hot milk.\"",
+   "tr": {
+    "vi": "Nhân viên nghĩ một lúc: “Không đường, không đá, cũng không trà... vậy là một cốc sữa nóng rồi.”",
+    "pt": "O atendente pensa um pouco: “Sem açúcar, sem gelo, sem chá… Então é um copo de leite quente.”",
+    "es": "La empleada lo piensa un momento: «Sin azúcar, sin hielo, sin té… Entonces es un vaso de leche caliente».",
+    "fr": "Le serveur réfléchit un instant : « Sans sucre, sans glaçons, sans thé… Alors, c’est un lait chaud. »",
+    "am": "አስተናጋጁ ትንሽ አሰበ። «ስኳር የለም፣ በረዶ የለም፣ ሻይም የለም… እንግዲያው ትኩስ ወተት ነው ማለት ነው።»",
+    "fa": "خدمتکار یه لحظه فکر می‌کنه: «بدون قند، بدون یخ، بدون چای… پس می‌شه یه لیوان شیر گرم.»"
+   },
+   "start": 40.572,
+   "end": 48.612,
+   "tokens": [
+    [
+     "服务员",
+     "fú wù yuán",
+     "waiter; waitress; attendant",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "不要",
+     "bù yào",
+     "don't!; must not",
+     ""
+    ],
+    [
+     "糖",
+     "táng",
+     "sugar; sweets; candy",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不要",
+     "bù yào",
+     "don't!; must not",
+     ""
+    ],
+    [
+     "冰",
+     "bīng",
+     "ice; to chill sth; (of an object or substance) to feel cold",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不要",
+     "bù yào",
+     "don't!; must not",
+     ""
+    ],
+    [
+     "茶",
+     "chá",
+     "tea; tea plant",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "exactly; precisely; only; simply; just",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "杯",
+     "bēi",
+     "classifier for certain containers of liquids: glass, cup",
+     ""
+    ],
+    [
+     "热",
+     "rè",
+     "hot (of weather); to warm up; to heat up",
+     ""
+    ],
+    [
+     "牛奶",
+     "niú nǎi",
+     "cow's milk",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜笑得说不出话来。",
+   "py": "Ān nà xiào de shuō bù chū huà lái.",
+   "en": "Anna laughs so hard she can't speak.",
+   "tr": {
+    "vi": "Anna cười đến mức không nói nên lời.",
+    "pt": "Anna ri tanto que não consegue falar.",
+    "es": "Anna se ríe tanto que no puede hablar.",
+    "fr": "Anna rit tellement qu’elle ne peut plus parler.",
+    "am": "አና ከሳቋ የተነሣ መናገር አቃታት።",
+    "fa": "آنا آن‌قدر می‌خنده که نمی‌تونه حرف بزنه."
+   },
+   "start": 49.312,
+   "end": 51.976,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "说不出话来",
+     "shuō bù chū huà lái",
+     "speechless",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "山田也笑了：“对，那我就要一杯热牛奶！”",
+   "py": "Shān tián yě xiào le: “duì, nà wǒ jiù yào yì bēi rè niú nǎi!”",
+   "en": "Yamada laughs too. \"That's right! Then I'll have a hot milk!\"",
+   "tr": {
+    "vi": "Yamada cũng cười: “Đúng vậy, thế tôi lấy một cốc sữa nóng!”",
+    "pt": "Yamada também ri: “Isso! Então eu quero um leite quente!”",
+    "es": "Yamada también se ríe: «¡Sí! ¡Entonces quiero un vaso de leche caliente!»",
+    "fr": "Yamada rit aussi : « C’est vrai ! Alors je prends un lait chaud ! »",
+    "am": "ያማዳም ሳቀች። «ልክ ነው፤ እንግዲያው አንድ ትኩስ ወተት!»",
+    "fa": "یامادا هم می‌خنده: «آره دقیقاً! پس برای من یه شیر گرم بيارید!»"
+   },
+   "start": 52.676,
+   "end": 57.428,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "对",
+     "duì",
+     "right; correct; towards; at; for; concerning; regarding",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "就要",
+     "jiù yào",
+     "will; shall; to be going to",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "杯",
+     "bēi",
+     "classifier for certain containers of liquids: glass, cup",
+     ""
+    ],
+    [
+     "热",
+     "rè",
+     "hot (of weather); to warm up; to heat up",
+     ""
+    ],
+    [
+     "牛奶",
+     "niú nǎi",
+     "cow's milk",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "服务员给了她一杯热牛奶，说：“这杯不要钱。”",
+   "py": "fú wù yuán gěi le tā yì bēi rè niú nǎi, shuō: “zhè bēi bú yào qián.”",
+   "en": "The server hands her a hot milk and says, \"This one's on the house.\"",
+   "tr": {
+    "vi": "Nhân viên đưa cho cô một cốc sữa nóng, nói: “Cốc này không lấy tiền.”",
+    "pt": "O atendente entrega um leite quente para ela e diz: “Este é por conta da casa.”",
+    "es": "La empleada le da un vaso de leche caliente y le dice: «Este es gratis».",
+    "fr": "Le serveur lui donne un lait chaud et dit : « Celui-ci est offert. »",
+    "am": "አስተናጋጁ ትኩስ ወተት ሰጣትና «ይሄ በነፃ ነው» አለ።",
+    "fa": "خدمتکار شیر گرم رو میاره و می‌گه: «این یکی مهمون ما.»"
+   },
+   "start": 58.128,
+   "end": 63.12,
+   "tokens": [
+    [
+     "服务员",
+     "fú wù yuán",
+     "waiter; waitress; attendant",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "杯",
+     "bēi",
+     "classifier for certain containers of liquids: glass, cup",
+     ""
+    ],
+    [
+     "热",
+     "rè",
+     "hot (of weather); to warm up; to heat up",
+     ""
+    ],
+    [
+     "牛奶",
+     "niú nǎi",
+     "cow's milk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "杯",
+     "bēi",
+     "classifier for certain containers of liquids: glass, cup",
+     ""
+    ],
+    [
+     "不要",
+     "bù yào",
+     "don't!; must not",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "coin; money; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“你是第一个在我们店里要牛奶的人！”",
+   "py": "“nǐ shì dì yí gè zài wǒ men diàn lǐ yào niú nǎi de rén!”",
+   "en": "\"You're the first person ever to order milk in our shop!\"",
+   "tr": {
+    "vi": "“Chị là người đầu tiên gọi sữa ở quán chúng em đấy!”",
+    "pt": "“Você é a primeira pessoa que pede leite na nossa loja!”",
+    "es": "«¡Usted es la primera persona que pide leche en nuestra tienda!»",
+    "fr": "« Vous êtes la première personne à commander du lait dans notre boutique ! »",
+    "am": "«በእኛ ቤት ወተት ያዘዝሽ የመጀመሪያ ሰው አንቺ ነሽ!»",
+    "fa": "«تو اولین آدمی که توی مغازه ما شیر سفارش داده!»"
+   },
+   "start": 63.82,
+   "end": 67.156,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "第一",
+     "dì yī",
+     "first; most important; primary; foremost",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "店",
+     "diàn",
+     "(bound form) shop; store; inn; old-style hotel",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "牛奶",
+     "niú nǎi",
+     "cow's milk",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 192,
+ "first": "学校旁边新开了一家奶茶店，每天都有很多人。",
+ "newWords": [
+  {
+   "w": "甜",
+   "py": "tián",
+   "en": "sweet"
+  },
+  {
+   "w": "糖",
+   "py": "táng",
+   "en": "sugar"
+  },
+  {
+   "w": "冰",
+   "py": "bīng",
+   "en": "ice"
+  },
+  {
+   "w": "服务员",
+   "py": "fúwùyuán",
+   "en": "waiter"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h2-27.mp3?v=1791720675"
 }

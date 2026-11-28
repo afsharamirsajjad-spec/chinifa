@@ -13818,6 +13818,118 @@ html[dir="rtl"] .tl-drow__main .tl-dthumb--hz {
 
 
 
+/* ============================================================
+   بخش پخش‌کننده داستان/پادکست در RTL + هم‌ترازی راست متن‌های فارسی
+   (متن‌های کارت‌ها و ردیف‌ها که در نسخه چپ‌به‌راست left بودند)
+   ============================================================ */
+html[dir="rtl"] .pd-ln{flex-direction:row-reverse}
+html[dir="rtl"] .pd-ln__zh{text-align:right}
+html[dir="rtl"] .pd-ln__zh.pd-rb{text-align:right}
+html[dir="rtl"] button.pd-ln__en{text-align:right}
+html[dir="rtl"] .pd-player--story .pd-ln{padding-left:0;padding-right:16px}
+
+/* پلیر پادکست/داستان: عنوان فصل‌ها، قسمت‌ها و مینی‌پلیر */
+html[dir="rtl"] .pd-hero__txt,
+html[dir="rtl"] .pd-chap,
+html[dir="rtl"] .pd-ep,
+html[dir="rtl"] .pd-mini__tx,
+html[dir="rtl"] .pd-dock__tx,
+html[dir="rtl"] button.pd-ln__en { text-align: right; }
+
+/* هم‌ترازی راست برای کارت‌ها و ردیف‌هایی که در LTR چپ‌تراز بودند */
+html[dir="rtl"] .hero,
+html[dir="rtl"] .hm-step,
+html[dir="rtl"] .hm-course,
+html[dir="rtl"] .hm-next__row,
+html[dir="rtl"] .hm-town,
+html[dir="rtl"] .hm-path__row,
+html[dir="rtl"] .vc-book__top,
+html[dir="rtl"] .vc-list,
+html[dir="rtl"] .cq-ask--left,
+html[dir="rtl"] .cq-opt,
+html[dir="rtl"] .ln-crow,
+html[dir="rtl"] .ln-lrow,
+html[dir="rtl"] .ln-inbook>span,
+html[dir="rtl"] .me-footnote--left,
+html[dir="rtl"] .vb-row,
+html[dir="rtl"] .vb-book__main,
+html[dir="rtl"] .vb-addrow,
+html[dir="rtl"] .vb-log__row,
+html[dir="rtl"] .vb-empty__book,
+html[dir="rtl"] .vb-plan__row,
+html[dir="rtl"] .tl-crow--soon,
+html[dir="rtl"] .tl-crow,
+html[dir="rtl"] .tl-grow,
+html[dir="rtl"] .ln-tl__row,
+html[dir="rtl"] .em-nudge__txt,
+html[dir="rtl"] .ac-rem__row,
+html[dir="rtl"] .cs-certrow,
+html[dir="rtl"] .cs-crows,
+html[dir="rtl"] .gp-cont,
+html[dir="rtl"] .ld-card,
+html[dir="rtl"] .pw-banner,
+html[dir="rtl"] button.ls-grp,
+html[dir="rtl"] .ls-next,
+html[dir="rtl"] .cs-part,
+html[dir="rtl"] .ivc,
+html[dir="rtl"] .ivl,
+html[dir="rtl"] .mw-hero,
+html[dir="rtl"] .mw-wsrow,
+html[dir="rtl"] .mw-cd,
+html[dir="rtl"] .nm-ex,
+html[dir="rtl"] .nm-ms,
+html[dir="rtl"] .sr-home,
+html[dir="rtl"] .sr-games,
+html[dir="rtl"] .lv__card,
+html[dir="rtl"] .pc-mix,
+html[dir="rtl"] .pc-cmp__row span,
+html[dir="rtl"] .pc-pr,
+html[dir="rtl"] .hm-up,
+html[dir="rtl"] .pw2-plan,
+html[dir="rtl"] .mk-opt,
+html[dir="rtl"] .sheet.ws,
+html[dir="rtl"] .mp-tip__main,
+html[dir="rtl"] .mp-cb__row,
+html[dir="rtl"] .ln-freebox,
+html[dir="rtl"] .ob2-row,
+html[dir="rtl"] .ob2-opt,
+html[dir="rtl"] .ob2-rt,
+html[dir="rtl"] .ex-search,
+html[dir="rtl"] .ex-hsk,
+html[dir="rtl"] .st-words,
+html[dir="rtl"] .pc-new__main,
+html[dir="rtl"] .sr-lv,
+html[dir="rtl"] .sr-tp,
+html[dir="rtl"] .pro-mini,
+html[dir="rtl"] .cs-sr,
+html[dir="rtl"] .pc-ch__h--row,
+html[dir="rtl"] .rc-card,
+html[dir="rtl"] .vb-empty__shelf,
+html[dir="rtl"] .ex-work,
+html[dir="rtl"] .jr-node,
+html[dir="rtl"] .jr-cs__row,
+html[dir="rtl"] .jr-sm__lb,
+html[dir="rtl"] .jr-cs__from,
+html[dir="rtl"] .tc .tl-qask,
+html[dir="rtl"] .ls-tbl th,
+html[dir="rtl"] .dg-row,
+html[dir="rtl"] .dg-stat,
+html[dir="rtl"] .lv__rem,
+html[dir="rtl"] .hub-t,
+html[dir="rtl"] .ob3-opt,
+html[dir="rtl"] .gd-card,
+html[dir="rtl"] .sv-card,
+html[dir="rtl"] .gd-goal,
+html[dir="rtl"] .ls-sw__line,
+html[dir="rtl"] .ls-mopt,
+html[dir="rtl"] .pw-local,
+html[dir="rtl"] .pw-busy .pw-local,
+html[dir="rtl"] button.jr-next,
+html[dir="rtl"] .pw2-q__b,
+html[dir="rtl"] .ls-who,
+html[dir="rtl"] .ac-meant,
+html[dir="rtl"] .vc-write { text-align: right; }
+
 
 /* === css/home-enhanced.css === */
 /* ============================================================

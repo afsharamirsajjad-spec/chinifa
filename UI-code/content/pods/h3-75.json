@@ -1,1747 +1,1762 @@
 {
-  "id": "h3-75",
-  "level": 3,
-  "no": 75,
-  "title": "七分满",
-  "title_py": "qī fēn mǎn",
-  "title_en": "Seven-tenths full",
-  "title_tr": {
-    "vi": "Rót bảy phần",
-    "pt": "Até sete décimos",
-    "es": "Lleno a siete décimos",
-    "fr": "Rempli aux sept dixièmes",
-    "am": "ሰባት አሥረኛ ሙሉ",
-    "fa": "هفت‌دهم فنجان پر شود"
+ "id": "h3-75",
+ "level": 3,
+ "no": 75,
+ "title": "七分满",
+ "title_py": "qī fēn mǎn",
+ "title_en": "Seven-tenths full",
+ "title_tr": {
+  "vi": "Rót bảy phần",
+  "pt": "Até sete décimos",
+  "es": "Lleno a siete décimos",
+  "fr": "Rempli aux sept dixièmes",
+  "am": "ሰባት አሥረኛ ሙሉ",
+  "fa": "هفت‌دهم فنجان پر شود"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_dining",
+ "cover": "https://media.kanchinese.app/review/stories/h3-75.jpg",
+ "duration": 94.36,
+ "lines": [
+  {
+   "text": "杰克第一次跟周经理请客户吃饭，他很想做得好一点儿。",
+   "py": "Jié kè dì yī cì gēn Zhōu jīng lǐ qǐng kè hù chī fàn, tā hěn xiǎng zuò de hǎo yì diǎn r.",
+   "en": "It's the first time Jack has taken a client out to dinner with Manager Zhou, and he really wants to do well.",
+   "tr": {
+    "vi": "Lần đầu tiên Jack cùng giám đốc Chu mời khách hàng ăn cơm, anh ấy rất muốn làm cho tốt.",
+    "pt": "É a primeira vez que Jack vai com a gerente Zhou levar um cliente para jantar, e ele quer muito fazer tudo direitinho.",
+    "es": "Es la primera vez que Jack invita a cenar a un cliente con la gerente Zhou, y tiene muchas ganas de hacerlo bien.",
+    "fr": "C'est la première fois que Jack invite un client à dîner avec la directrice Zhou, et il veut vraiment bien faire.",
+    "am": "ጃክ ከሥራ አስኪያጅ ጆው ጋር ደንበኛ ሲጋብዝ ይህ የመጀመሪያው ነው፣ ጥሩ አድርጎ ለመሥራትም በጣም ፈልጓል።",
+    "fa": "اولین باره جک با مدیر جو یه مشتری رو برده بیرون شام و حسابی دوست داره کارش خوب باشه."
+   },
+   "start": 2.14,
+   "end": 7.636,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "第一次",
+     "dì yī cì",
+     "the first time; for the first time",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "请客",
+     "qǐng kè",
+     "to give a dinner party; to invite to dinner",
+     ""
+    ],
+    [
+     "户",
+     "hù",
+     "a household; door; family",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_dining",
-  "cover": "https://media.kanchinese.app/review/stories/h3-75.jpg",
-  "duration": 94.36,
-  "lines": [
-    {
-      "text": "杰克第一次跟周经理请客户吃饭，他很想做得好一点儿。",
-      "py": "Jié kè dì yī cì gēn Zhōu jīng lǐ qǐng kè hù chī fàn, tā hěn xiǎng zuò de hǎo yì diǎn r.",
-      "en": "It's the first time Jack has taken a client out to dinner with Manager Zhou, and he really wants to do well.",
-      "tr": {
-        "vi": "Lần đầu tiên Jack cùng giám đốc Chu mời khách hàng ăn cơm, anh ấy rất muốn làm cho tốt.",
-        "pt": "É a primeira vez que Jack vai com a gerente Zhou levar um cliente para jantar, e ele quer muito fazer tudo direitinho.",
-        "es": "Es la primera vez que Jack invita a cenar a un cliente con la gerente Zhou, y tiene muchas ganas de hacerlo bien.",
-        "fr": "C'est la première fois que Jack invite un client à dîner avec la directrice Zhou, et il veut vraiment bien faire.",
-        "am": "ጃክ ከሥራ አስኪያጅ ጆው ጋር ደንበኛ ሲጋብዝ ይህ የመጀመሪያው ነው፣ ጥሩ አድርጎ ለመሥራትም በጣም ፈልጓል።"
-      },
-      "start": 2.14,
-      "end": 7.636,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "第一次",
-          "dì yī cì",
-          "the first time; for the first time",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "请客",
-          "qǐng kè",
-          "to give a dinner party; to invite to dinner",
-          ""
-        ],
-        [
-          "户",
-          "hù",
-          "a household; door; family",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "菜还没上，他就拿起茶壶，给客户倒茶。",
-      "py": "cài hái méi shàng, tā jiù ná qǐ chá hú, gěi kè hù dào chá.",
-      "en": "Before the dishes have arrived, he picks up the teapot and pours the client some tea.",
-      "tr": {
-        "vi": "Món ăn chưa lên, anh ấy đã cầm ấm trà rót trà cho khách hàng.",
-        "pt": "Antes de os pratos chegarem, ele pega o bule e serve chá ao cliente.",
-        "es": "Antes de que lleguen los platos, toma la tetera y le sirve té al cliente.",
-        "fr": "Avant même que les plats arrivent, il prend la théière et sert du thé au client.",
-        "am": "ምግቡ ገና ሳይቀርብ የሻይ ማንቆርቆሪያውን አንሥቶ ለደንበኛው ሻይ ቀዳ።"
-      },
-      "start": 8.336,
-      "end": 13.328,
-      "tokens": [
-        [
-          "菜",
-          "cài",
-          "dish (of food); vegetable; greens",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(bound form) other; another; some other (as in 他日 and 他人)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "拿起",
-          "ná qǐ",
-          "to pick up",
-          ""
-        ],
-        [
-          "茶壶",
-          "chá hú",
-          "teapot",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out",
-          ""
-        ],
-        [
-          "茶",
-          "chá",
-          "tea; tea plant",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "为了表示尊重，他倒得又慢又小心，一直倒到了杯子的最上面。",
-      "py": "wèi le biǎo shì zūn zhòng, tā dào de yòu màn yòu xiǎo xīn, yì zhí dào dào le bēi zi de zuì shàng miàn.",
-      "en": "To show respect, he pours slowly and carefully, right up to the very top of the cup.",
-      "tr": {
-        "vi": "Để tỏ lòng tôn trọng, anh ấy rót vừa chậm vừa cẩn thận, rót đến tận miệng cốc.",
-        "pt": "Para mostrar respeito, ele serve bem devagar e com cuidado, até a borda do copo.",
-        "es": "Para mostrar respeto, sirve despacio y con cuidado, hasta el borde mismo de la taza.",
-        "fr": "Pour montrer son respect, il verse lentement et avec précaution, jusqu'en haut de la tasse.",
-        "am": "አክብሮት ለማሳየት ቀስ ብሎና በጥንቃቄ እስከ ሲኒው አፍ ድረስ ሞላው።"
-      },
-      "start": 14.028,
-      "end": 20.652,
-      "tokens": [
-        [
-          "为了",
-          "wèi le",
-          "for; for the purpose of; in order to",
-          ""
-        ],
-        [
-          "表示",
-          "biǎo shì",
-          "(of sb) to express; to state; to show",
-          ""
-        ],
-        [
-          "尊重",
-          "zūn zhòng",
-          "to respect; to esteem; to honor",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "慢",
-          "màn",
-          "slow",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "小心",
-          "xiǎo xīn",
-          "to be careful; to take care",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "最",
-          "zuì",
-          "(before an adjective or verb) to the highest degree; (the) most ...; -est",
-          ""
-        ],
-        [
-          "上面",
-          "shàng miàn",
-          "on top of; above-mentioned; also pr.",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "茶太满了，客户拿不起来，只好低下头，在桌子上喝了一口。",
-      "py": "chá tài mǎn le, kè hù ná bù qǐ lái, zhǐ hǎo dī xià tou, zài zhuō zi shàng hē le yì kǒu.",
-      "en": "The tea is so full that the client can't pick the cup up, so he has to bend down and take a sip with it still on the table.",
-      "tr": {
-        "vi": "Trà đầy quá, khách hàng không nhấc lên được, đành cúi đầu xuống, uống một ngụm ngay trên bàn.",
-        "pt": "O copo está tão cheio que o cliente não consegue levantá-lo e tem que se abaixar para tomar um gole com o copo ainda na mesa.",
-        "es": "La taza está tan llena que el cliente no puede levantarla, así que tiene que agacharse y tomar un sorbo con la taza en la mesa.",
-        "fr": "La tasse est trop pleine : le client ne peut pas la soulever, alors il doit se pencher pour boire une gorgée, la tasse posée sur la table.",
-        "am": "ሻዩ በጣም ስለሞላ ደንበኛው ሲኒውን ማንሣት አልቻለም። ስለዚህ ጎንበስ ብሎ ጠረጴዛው ላይ እንዳለ ፉት አለ።"
-      },
-      "start": 21.352,
-      "end": 28.432,
-      "tokens": [
-        [
-          "茶",
-          "chá",
-          "tea; tea plant",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "highest; greatest; too (much)",
-          ""
-        ],
-        [
-          "满",
-          "mǎn",
-          "full; fully; to fill",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to take; to hold; to seize",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只好",
-          "zhǐ hǎo",
-          "to have no other option but to ...; to have to; to be forced to",
-          ""
-        ],
-        [
-          "低下",
-          "dī xià",
-          "low status; lowly; to lower (one's head)",
-          ""
-        ],
-        [
-          "头",
-          "tóu",
-          "head; hair style; the top",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "桌子",
-          "zhuō zi",
-          "table; desk",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一口",
-          "yī kǒu",
-          "readily; flatly (deny, admit and so on); a mouthful",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理在旁边笑了笑，什么也没说。",
-      "py": "Zhōu jīng lǐ zài páng biān xiào le xiào, shén me yě méi shuō.",
-      "en": "Manager Zhou smiles beside him but says nothing.",
-      "tr": {
-        "vi": "Giám đốc Chu ngồi bên cạnh mỉm cười, không nói gì.",
-        "pt": "A gerente Zhou sorri ao lado, sem dizer nada.",
-        "es": "La gerente Zhou sonríe a su lado, sin decir nada.",
-        "fr": "À côté, la directrice Zhou sourit, mais ne dit rien.",
-        "am": "ሥራ አስኪያጅ ጆው አጠገቡ ሆነው ፈገግ አሉ፣ ምንም ግን አልተናገሩም።"
-      },
-      "start": 29.132,
-      "end": 32.924,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "在旁",
-          "zài páng",
-          "alongside; nearby",
-          ""
-        ],
-        [
-          "边",
-          "biān",
-          "side; edge; margin",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "回去的路上，她告诉杰克：“倒茶不要倒满，七分满就够了，太满了，客人拿不起来。”",
-      "py": "huí qù de lù shàng, tā gào su Jié kè: “dào chá bú yào dào mǎn, qī fēn mǎn jiù gòu le, tài mǎn le, kè rén ná bù qǐ lái.”",
-      "en": "On the way back, she tells Jack, \"Don't fill a cup of tea to the top. Seven-tenths full is enough. Too full, and the guest can't pick it up.\"",
-      "tr": {
-        "vi": "Trên đường về, cô ấy nói với Jack: “Rót trà đừng rót đầy, bảy phần là đủ rồi, đầy quá khách không cầm lên được.”",
-        "pt": "Na volta, ela diz a Jack: “Não encha o copo de chá até em cima. Até setenta por cento do copo já basta. Se ficar cheio demais, o convidado não consegue pegar.”",
-        "es": "De regreso, le dice a Jack: «El té no se sirve hasta arriba. Basta con llenar la taza a un setenta por ciento; si está muy llena, el invitado no puede levantarla».",
-        "fr": "Sur le chemin du retour, elle dit à Jack : « Ne remplissez pas la tasse de thé jusqu'en haut. Aux sept dixièmes, ça suffit. Trop pleine, l'invité ne peut pas la prendre. »",
-        "am": "ሲመለሱ ጃክን «ሻይ ስትቀዳ እስከ አፉ አትሙላ። ሰባት አሥረኛ ብቻ ይበቃል። በጣም ከሞላ እንግዳው ማንሣት አይችልም» አሉት።"
-      },
-      "start": 33.624,
-      "end": 42.888,
-      "tokens": [
-        [
-          "回去",
-          "huí qu",
-          "to go back; to return",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "路上",
-          "lù shang",
-          "on the way; en route; on the road",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "告诉",
-          "gào su",
-          "to tell; to inform; to let know",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "倒",
-          "dào",
-          "to invert; to place upside down or frontside back",
-          ""
-        ],
-        [
-          "茶",
-          "chá",
-          "tea; tea plant",
-          ""
-        ],
-        [
-          "不要",
-          "bù yào",
-          "don't!; must not",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to invert; to place upside down or frontside back",
-          ""
-        ],
-        [
-          "满",
-          "mǎn",
-          "to fill; full; filled",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "分",
-          "fēn",
-          "one tenth (of certain units); to divide; to separate",
-          ""
-        ],
-        [
-          "满",
-          "mǎn",
-          "to fill; full; filled",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "够",
-          "gòu",
-          "enough (sufficient); enough (too much)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "满",
-          "mǎn",
-          "to fill; full; filled",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "客人",
-          "kè rén",
-          "guest; visitor; customer",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“老人常说：倒酒要满，倒茶要半。”",
-      "py": "“lǎo rén cháng shuō: dào jiǔ yào mǎn, dào chá yào bàn.”",
-      "en": "\"As older people often say: wine full, tea half.\"",
-      "tr": {
-        "vi": "“Người già thường nói: rót rượu phải đầy, rót trà phải nửa.”",
-        "pt": "“Como dizem os mais velhos: bebida, copo cheio; chá, só pela metade.”",
-        "es": "«Como dicen los mayores: el vino, lleno; el té, a la mitad».",
-        "fr": "« Les anciens disent souvent : l'alcool, on le sert plein ; le thé, à moitié. »",
-        "am": "«አዛውንቶች እንደሚሉት፣ መጠጥ ሲቀዳ ይሙላ፣ ሻይ ሲቀዳ ግማሽ ይሁን።»"
-      },
-      "start": 43.588,
-      "end": 47.668,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "老人",
-          "lǎo rén",
-          "old man or woman; the elderly",
-          ""
-        ],
-        [
-          "常",
-          "cháng",
-          "often; always; ever",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "倒",
-          "dào",
-          "to invert; to place upside down or frontside back",
-          ""
-        ],
-        [
-          "酒",
-          "jiǔ",
-          "wine (esp. rice wine); liquor; spirits",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "满",
-          "mǎn",
-          "full; fully; to fill",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "倒",
-          "dào",
-          "to invert; to place upside down or frontside back",
-          ""
-        ],
-        [
-          "茶",
-          "chá",
-          "tea; tea plant",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "半",
-          "bàn",
-          "half; (after a number) and a half; semi-",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克认真地把这句话记在了本子上。",
-      "py": "Jié kè rèn zhēn de bǎ zhè jù huà jì zài le běn zi shàng.",
-      "en": "Jack writes the saying carefully in his notebook.",
-      "tr": {
-        "vi": "Jack chăm chú ghi câu này vào sổ.",
-        "pt": "Jack anota a frase com cuidado no caderno.",
-        "es": "Jack anota la frase con cuidado en su cuaderno.",
-        "fr": "Jack note sérieusement cette phrase dans son carnet.",
-        "am": "ጃክ ይህን አባባል በጥንቃቄ ደብተሩ ላይ ጻፈ።"
-      },
-      "start": 48.368,
-      "end": 52.184,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "认真",
-          "rèn zhēn",
-          "conscientious; earnest; serious",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "句",
-          "jù",
-          "classifier for phrases or lines of verse; sentence; clause",
-          ""
-        ],
-        [
-          "话",
-          "huà",
-          "dialect; language; spoken words",
-          ""
-        ],
-        [
-          "记",
-          "jì",
-          "to note; to record; to memorize",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "本子",
-          "běn zi",
-          "notebook; book",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一个月以后，他又跟这位客户吃饭。",
-      "py": "yí gè yuè yǐ hòu, tā yòu gēn zhè wèi kè hù chī fàn.",
-      "en": "A month later, he has dinner with the same client again.",
-      "tr": {
-        "vi": "Một tháng sau, anh ấy lại ăn cơm với vị khách này.",
-        "pt": "Um mês depois, ele janta de novo com o mesmo cliente.",
-        "es": "Un mes después, vuelve a cenar con ese cliente.",
-        "fr": "Un mois plus tard, il dîne de nouveau avec ce client.",
-        "am": "ከአንድ ወር በኋላ ከዚሁ ደንበኛ ጋር እንደገና ራት በላ።"
-      },
-      "start": 52.884,
-      "end": 56.22,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "这位",
-          "zhè wèi",
-          "this (person)",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这次，他给客户倒茶，只倒了一半；倒酒的时候，他想了想，也只倒了一半。",
-      "py": "zhè cì, tā gěi kè hù dào chá, zhǐ dào le yí bàn; dào jiǔ de shí hou, tā xiǎng le xiǎng, yě zhǐ dào le yí bàn.",
-      "en": "This time, he pours the client's tea only half full. When he pours the wine, he thinks for a moment, and pours that only half full too.",
-      "tr": {
-        "vi": "Lần này, anh ấy rót trà cho khách chỉ rót một nửa; lúc rót rượu, anh ấy nghĩ một lát, cũng chỉ rót một nửa.",
-        "pt": "Desta vez, ele serve o chá do cliente só até a metade. Na hora de servir a bebida, pensa um pouco e também serve só até a metade.",
-        "es": "Esta vez le sirve el té solo hasta la mitad; cuando sirve el vino, lo piensa un poco y también lo sirve solo hasta la mitad.",
-        "fr": "Cette fois, il ne remplit la tasse de thé du client qu'à moitié ; et quand il sert l'alcool, après un instant de réflexion, il ne remplit le verre qu'à moitié aussi.",
-        "am": "በዚህ ጊዜ ለደንበኛው ሻይ ሲቀዳ ግማሽ ብቻ ቀዳ። መጠጥ ሲቀዳ ትንሽ አስቦ እሱንም ግማሽ ብቻ ቀዳ።"
-      },
-      "start": 56.92,
-      "end": 65.704,
-      "tokens": [
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "次",
-          "cì",
-          "classifier for enumerated events: time",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out",
-          ""
-        ],
-        [
-          "茶",
-          "chá",
-          "tea; tea plant",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一半",
-          "yī bàn",
-          "half",
-          ""
-        ],
-        [
-          "；"
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out",
-          ""
-        ],
-        [
-          "酒",
-          "jiǔ",
-          "wine (esp. rice wine); liquor; spirits",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一半",
-          "yī bàn",
-          "half",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理看了他一眼：“杰克，酒要倒满。”",
-      "py": "Zhōu jīng lǐ kàn le tā yì yǎn: “Jié kè, jiǔ yào dào mǎn.”",
-      "en": "Manager Zhou gives him a look. \"Jack, wine should be filled up.\"",
-      "tr": {
-        "vi": "Giám đốc Chu liếc nhìn anh ấy: “Jack, rượu phải rót đầy.”",
-        "pt": "A gerente Zhou lança um olhar para ele: “Jack, a bebida é para encher o copo.”",
-        "es": "La gerente Zhou lo mira: «Jack, el vino se sirve lleno».",
-        "fr": "La directrice Zhou lui lance un regard : « Jack, l'alcool, on le sert plein. »",
-        "am": "ሥራ አስኪያጅ ጆው አንድ ጊዜ ተመለከቱት። «ጃክ፣ መጠጥ ሙሉ መቀዳት አለበት።»"
-      },
-      "start": 66.404,
-      "end": 71.156,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一眼",
-          "yī yǎn",
-          "a quick look; a glance; a glimpse",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "酒",
-          "jiǔ",
-          "wine (esp. rice wine); liquor; spirits",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "need to; should; to want; to need; to ask for",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to invert; to place upside down or frontside back",
-          ""
-        ],
-        [
-          "满",
-          "mǎn",
-          "to fill; filled; full",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克还没说话，客户就先笑了：“别改，别改！”",
-      "py": "Jié kè hái méi shuō huà, kè hù jiù xiān xiào le: “bié gǎi, bié gǎi!”",
-      "en": "Before Jack can say anything, the client laughs. \"Don't change it, don't change it!\"",
-      "tr": {
-        "vi": "Jack còn chưa kịp nói gì, khách hàng đã cười trước: “Đừng sửa, đừng sửa!”",
-        "pt": "Antes que Jack diga alguma coisa, o cliente ri: “Não mude, não mude!”",
-        "es": "Antes de que Jack diga nada, el cliente se ríe: «¡No lo cambies, no lo cambies!».",
-        "fr": "Avant que Jack ait pu répondre, le client rit : « Ne changez rien, ne changez rien ! »",
-        "am": "ጃክ ገና ሳይናገር ደንበኛው ቀድሞ ሳቀ። «አትቀይረው፣ አትቀይረው!»"
-      },
-      "start": 71.856,
-      "end": 78,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "说话",
-          "shuō huà",
-          "to say; to speak; to talk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "别",
-          "bié",
-          "don't ...!; to leave; to part (from)",
-          ""
-        ],
-        [
-          "改",
-          "gǎi",
-          "to change; to alter; to transform",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "别",
-          "bié",
-          "don't ...!; to leave; to part (from)",
-          ""
-        ],
-        [
-          "改",
-          "gǎi",
-          "to change; to alter; to transform",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“医生让我少喝酒，我太太让我多喝茶。”",
-      "py": "“yī shēng ràng wǒ shǎo hē jiǔ, wǒ tài tai ràng wǒ duō hē chá.”",
-      "en": "\"My doctor tells me to drink less wine, and my wife tells me to drink more tea.\"",
-      "tr": {
-        "vi": "“Bác sĩ bảo tôi uống ít rượu, vợ tôi bảo tôi uống nhiều trà.”",
-        "pt": "“O médico me mandou beber menos álcool, e a minha esposa me manda tomar mais chá.”",
-        "es": "«El médico me dice que tome menos alcohol, y mi esposa me dice que tome más té».",
-        "fr": "« Mon médecin me dit de boire moins d'alcool, et ma femme me dit de boire plus de thé. »",
-        "am": "«ሐኪሜ መጠጥ ቀንስ ይለኛል፣ ባለቤቴ ደግሞ ሻይ አብዛ ትለኛለች።»"
-      },
-      "start": 78.7,
-      "end": 82.3,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "医生",
-          "yī shēng",
-          "doctor; medical practitioner",
-          ""
-        ],
-        [
-          "让",
-          "ràng",
-          "to yield; to permit; to let sb do sth",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "少",
-          "shǎo",
-          "less; few; to lack",
-          ""
-        ],
-        [
-          "喝酒",
-          "hē jiǔ",
-          "to drink (alcohol)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "太太",
-          "tài tai",
-          "wife; married woman; Mrs.",
-          ""
-        ],
-        [
-          "让",
-          "ràng",
-          "to yield; to permit; to let sb do sth",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "喝茶",
-          "hē chá",
-          "to drink tea; to get engaged; to have a serious conversation",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“你这样倒，我太太一定很喜欢你。”",
-      "py": "“nǐ zhè yàng dào, wǒ tài tai yí dìng hěn xǐ huan nǐ.”",
-      "en": "\"If you pour like that, my wife is going to love you.\"",
-      "tr": {
-        "vi": "“Anh rót thế này, vợ tôi chắc chắn sẽ rất quý anh.”",
-        "pt": "“Servindo assim, a minha esposa com certeza vai gostar muito de você.”",
-        "es": "«Si sirves así, a mi esposa le vas a caer muy bien».",
-        "fr": "« Si vous servez comme ça, ma femme va vous adorer. »",
-        "am": "«እንዲህ ከቀዳህ ባለቤቴ በእርግጠኝነት ትወድሃለች።»"
-      },
-      "start": 83,
-      "end": 86.336,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "这样",
-          "zhè yàng",
-          "this way; like this; so; (before a noun) this kind of; such",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "太太",
-          "tài tai",
-          "wife; married woman; Mrs.",
-          ""
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "喜欢",
-          "xǐ huan",
-          "to like; to be fond of",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "从那以后，每次跟这位客户吃饭，大家都说：“杰克，酒你来倒。”",
-      "py": "cóng nà yǐ hòu, měi cì gēn zhè wèi kè hù chī fàn, dà jiā dōu shuō: “Jié kè, jiǔ nǐ lái dào.”",
-      "en": "From then on, whenever they have dinner with this client, everyone says, \"Jack, you pour the wine.\"",
-      "tr": {
-        "vi": "Từ đó về sau, mỗi lần ăn cơm với vị khách này, mọi người đều nói: “Jack, rượu để anh rót.”",
-        "pt": "Desde então, sempre que jantam com esse cliente, todo mundo diz: “Jack, a bebida você serve.”",
-        "es": "Desde entonces, cada vez que cenan con ese cliente, todos dicen: «Jack, el vino lo sirves tú».",
-        "fr": "Depuis, chaque fois qu'ils dînent avec ce client, tout le monde dit : « Jack, l'alcool, c'est vous qui le servez. »",
-        "am": "ከዚያ ወዲህ ከዚህ ደንበኛ ጋር በበሉ ቁጥር ሁሉም «ጃክ፣ መጠጡን አንተ ቅዳ» ይላሉ።"
-      },
-      "start": 87.036,
-      "end": 93.66,
-      "tokens": [
-        [
-          "从",
-          "cóng",
-          "(used before a negative) ever; from; through; via",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每次",
-          "měi cì",
-          "every time",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "这位",
-          "zhè wèi",
-          "this (person)",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "酒",
-          "jiǔ",
-          "wine (esp. rice wine); liquor; spirits",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "ever since (as in 自古以来); to come",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 281,
-  "first": "杰克第一次跟周经理请客户吃饭，他很想做得好一点儿。",
-  "newWords": [
-    {
-      "w": "表示",
-      "py": "biǎoshì",
-      "en": "to express"
-    },
-    {
-      "w": "尊重",
-      "py": "zūnzhòng",
-      "en": "to respect"
-    },
-    {
-      "w": "一半",
-      "py": "yī bàn",
-      "en": "half"
-    },
-    {
-      "w": "满",
-      "py": "mǎn",
-      "en": "full"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-75.mp3?v=1791721779"
+  {
+   "text": "菜还没上，他就拿起茶壶，给客户倒茶。",
+   "py": "cài hái méi shàng, tā jiù ná qǐ chá hú, gěi kè hù dào chá.",
+   "en": "Before the dishes have arrived, he picks up the teapot and pours the client some tea.",
+   "tr": {
+    "vi": "Món ăn chưa lên, anh ấy đã cầm ấm trà rót trà cho khách hàng.",
+    "pt": "Antes de os pratos chegarem, ele pega o bule e serve chá ao cliente.",
+    "es": "Antes de que lleguen los platos, toma la tetera y le sirve té al cliente.",
+    "fr": "Avant même que les plats arrivent, il prend la théière et sert du thé au client.",
+    "am": "ምግቡ ገና ሳይቀርብ የሻይ ማንቆርቆሪያውን አንሥቶ ለደንበኛው ሻይ ቀዳ።",
+    "fa": "قبل از اینکه غذاها بیاد، کتری رو برمی‌داره و برای مشتری چای می‌ریزه."
+   },
+   "start": 8.336,
+   "end": 13.328,
+   "tokens": [
+    [
+     "菜",
+     "cài",
+     "dish (of food); vegetable; greens",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(bound form) other; another; some other (as in 他日 and 他人)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "拿起",
+     "ná qǐ",
+     "to pick up",
+     ""
+    ],
+    [
+     "茶壶",
+     "chá hú",
+     "teapot",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out",
+     ""
+    ],
+    [
+     "茶",
+     "chá",
+     "tea; tea plant",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "为了表示尊重，他倒得又慢又小心，一直倒到了杯子的最上面。",
+   "py": "wèi le biǎo shì zūn zhòng, tā dào de yòu màn yòu xiǎo xīn, yì zhí dào dào le bēi zi de zuì shàng miàn.",
+   "en": "To show respect, he pours slowly and carefully, right up to the very top of the cup.",
+   "tr": {
+    "vi": "Để tỏ lòng tôn trọng, anh ấy rót vừa chậm vừa cẩn thận, rót đến tận miệng cốc.",
+    "pt": "Para mostrar respeito, ele serve bem devagar e com cuidado, até a borda do copo.",
+    "es": "Para mostrar respeto, sirve despacio y con cuidado, hasta el borde mismo de la taza.",
+    "fr": "Pour montrer son respect, il verse lentement et avec précaution, jusqu'en haut de la tasse.",
+    "am": "አክብሮት ለማሳየት ቀስ ብሎና በጥንቃቄ እስከ ሲኒው አፍ ድረስ ሞላው።",
+    "fa": "برای نشون دادن احترام، آروم و با دقت می‌ریزه، تا بالای فنجون."
+   },
+   "start": 14.028,
+   "end": 20.652,
+   "tokens": [
+    [
+     "为了",
+     "wèi le",
+     "for; for the purpose of; in order to",
+     ""
+    ],
+    [
+     "表示",
+     "biǎo shì",
+     "(of sb) to express; to state; to show",
+     ""
+    ],
+    [
+     "尊重",
+     "zūn zhòng",
+     "to respect; to esteem; to honor",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "慢",
+     "màn",
+     "slow",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "小心",
+     "xiǎo xīn",
+     "to be careful; to take care",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "最",
+     "zuì",
+     "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+     ""
+    ],
+    [
+     "上面",
+     "shàng miàn",
+     "on top of; above-mentioned; also pr.",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "茶太满了，客户拿不起来，只好低下头，在桌子上喝了一口。",
+   "py": "chá tài mǎn le, kè hù ná bù qǐ lái, zhǐ hǎo dī xià tou, zài zhuō zi shàng hē le yì kǒu.",
+   "en": "The tea is so full that the client can't pick the cup up, so he has to bend down and take a sip with it still on the table.",
+   "tr": {
+    "vi": "Trà đầy quá, khách hàng không nhấc lên được, đành cúi đầu xuống, uống một ngụm ngay trên bàn.",
+    "pt": "O copo está tão cheio que o cliente não consegue levantá-lo e tem que se abaixar para tomar um gole com o copo ainda na mesa.",
+    "es": "La taza está tan llena que el cliente no puede levantarla, así que tiene que agacharse y tomar un sorbo con la taza en la mesa.",
+    "fr": "La tasse est trop pleine : le client ne peut pas la soulever, alors il doit se pencher pour boire une gorgée, la tasse posée sur la table.",
+    "am": "ሻዩ በጣም ስለሞላ ደንበኛው ሲኒውን ማንሣት አልቻለም። ስለዚህ ጎንበስ ብሎ ጠረጴዛው ላይ እንዳለ ፉት አለ።",
+    "fa": "چای انقدر پُره که مشتری نمی‌تونه فنجونو برداره، پس مجبور می‌شه خم شه و همون‌طور که رو میزه یه جرعه بنوشه."
+   },
+   "start": 21.352,
+   "end": 28.432,
+   "tokens": [
+    [
+     "茶",
+     "chá",
+     "tea; tea plant",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "highest; greatest; too (much)",
+     ""
+    ],
+    [
+     "满",
+     "mǎn",
+     "full; fully; to fill",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to take; to hold; to seize",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只好",
+     "zhǐ hǎo",
+     "to have no other option but to ...; to have to; to be forced to",
+     ""
+    ],
+    [
+     "低下",
+     "dī xià",
+     "low status; lowly; to lower (one's head)",
+     ""
+    ],
+    [
+     "头",
+     "tóu",
+     "head; hair style; the top",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "桌子",
+     "zhuō zi",
+     "table; desk",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一口",
+     "yī kǒu",
+     "readily; flatly (deny, admit and so on); a mouthful",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "周经理在旁边笑了笑，什么也没说。",
+   "py": "Zhōu jīng lǐ zài páng biān xiào le xiào, shén me yě méi shuō.",
+   "en": "Manager Zhou smiles beside him but says nothing.",
+   "tr": {
+    "vi": "Giám đốc Chu ngồi bên cạnh mỉm cười, không nói gì.",
+    "pt": "A gerente Zhou sorri ao lado, sem dizer nada.",
+    "es": "La gerente Zhou sonríe a su lado, sin decir nada.",
+    "fr": "À côté, la directrice Zhou sourit, mais ne dit rien.",
+    "am": "ሥራ አስኪያጅ ጆው አጠገቡ ሆነው ፈገግ አሉ፣ ምንም ግን አልተናገሩም።",
+    "fa": "مدیر جو کنارش لبخند می‌زنه ولی هیچی نمی‌گه."
+   },
+   "start": 29.132,
+   "end": 32.924,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "在旁",
+     "zài páng",
+     "alongside; nearby",
+     ""
+    ],
+    [
+     "边",
+     "biān",
+     "side; edge; margin",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "回去的路上，她告诉杰克：“倒茶不要倒满，七分满就够了，太满了，客人拿不起来。”",
+   "py": "huí qù de lù shàng, tā gào su Jié kè: “dào chá bú yào dào mǎn, qī fēn mǎn jiù gòu le, tài mǎn le, kè rén ná bù qǐ lái.”",
+   "en": "On the way back, she tells Jack, \"Don't fill a cup of tea to the top. Seven-tenths full is enough. Too full, and the guest can't pick it up.\"",
+   "tr": {
+    "vi": "Trên đường về, cô ấy nói với Jack: “Rót trà đừng rót đầy, bảy phần là đủ rồi, đầy quá khách không cầm lên được.”",
+    "pt": "Na volta, ela diz a Jack: “Não encha o copo de chá até em cima. Até setenta por cento do copo já basta. Se ficar cheio demais, o convidado não consegue pegar.”",
+    "es": "De regreso, le dice a Jack: «El té no se sirve hasta arriba. Basta con llenar la taza a un setenta por ciento; si está muy llena, el invitado no puede levantarla».",
+    "fr": "Sur le chemin du retour, elle dit à Jack : « Ne remplissez pas la tasse de thé jusqu'en haut. Aux sept dixièmes, ça suffit. Trop pleine, l'invité ne peut pas la prendre. »",
+    "am": "ሲመለሱ ጃክን «ሻይ ስትቀዳ እስከ አፉ አትሙላ። ሰባት አሥረኛ ብቻ ይበቃል። በጣም ከሞላ እንግዳው ማንሣት አይችልም» አሉት።",
+    "fa": "تو راه برگشت به جک می‌گه: «فنجون چایو تا ته پُر نکن. هفت‌دهمش کافیه. اگه زیادی پُر باشه، مهمون نمی‌تونه برداره‌ش.»"
+   },
+   "start": 33.624,
+   "end": 42.888,
+   "tokens": [
+    [
+     "回去",
+     "huí qu",
+     "to go back; to return",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "路上",
+     "lù shang",
+     "on the way; en route; on the road",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "告诉",
+     "gào su",
+     "to tell; to inform; to let know",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "倒",
+     "dào",
+     "to invert; to place upside down or frontside back",
+     ""
+    ],
+    [
+     "茶",
+     "chá",
+     "tea; tea plant",
+     ""
+    ],
+    [
+     "不要",
+     "bù yào",
+     "don't!; must not",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to invert; to place upside down or frontside back",
+     ""
+    ],
+    [
+     "满",
+     "mǎn",
+     "to fill; full; filled",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "分",
+     "fēn",
+     "one tenth (of certain units); to divide; to separate",
+     ""
+    ],
+    [
+     "满",
+     "mǎn",
+     "to fill; full; filled",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "够",
+     "gòu",
+     "enough (sufficient); enough (too much)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "满",
+     "mǎn",
+     "to fill; full; filled",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "客人",
+     "kè rén",
+     "guest; visitor; customer",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“老人常说：倒酒要满，倒茶要半。”",
+   "py": "“lǎo rén cháng shuō: dào jiǔ yào mǎn, dào chá yào bàn.”",
+   "en": "\"As older people often say: wine full, tea half.\"",
+   "tr": {
+    "vi": "“Người già thường nói: rót rượu phải đầy, rót trà phải nửa.”",
+    "pt": "“Como dizem os mais velhos: bebida, copo cheio; chá, só pela metade.”",
+    "es": "«Como dicen los mayores: el vino, lleno; el té, a la mitad».",
+    "fr": "« Les anciens disent souvent : l'alcool, on le sert plein ; le thé, à moitié. »",
+    "am": "«አዛውንቶች እንደሚሉት፣ መጠጥ ሲቀዳ ይሙላ፣ ሻይ ሲቀዳ ግማሽ ይሁን።»",
+    "fa": "«مثل همون‌جوری که بزرگ‌ترها همیشه می‌گن: شراب پر، چای نصفه.»"
+   },
+   "start": 43.588,
+   "end": 47.668,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "老人",
+     "lǎo rén",
+     "old man or woman; the elderly",
+     ""
+    ],
+    [
+     "常",
+     "cháng",
+     "often; always; ever",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "倒",
+     "dào",
+     "to invert; to place upside down or frontside back",
+     ""
+    ],
+    [
+     "酒",
+     "jiǔ",
+     "wine (esp. rice wine); liquor; spirits",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "满",
+     "mǎn",
+     "full; fully; to fill",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "倒",
+     "dào",
+     "to invert; to place upside down or frontside back",
+     ""
+    ],
+    [
+     "茶",
+     "chá",
+     "tea; tea plant",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "半",
+     "bàn",
+     "half; (after a number) and a half; semi-",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克认真地把这句话记在了本子上。",
+   "py": "Jié kè rèn zhēn de bǎ zhè jù huà jì zài le běn zi shàng.",
+   "en": "Jack writes the saying carefully in his notebook.",
+   "tr": {
+    "vi": "Jack chăm chú ghi câu này vào sổ.",
+    "pt": "Jack anota a frase com cuidado no caderno.",
+    "es": "Jack anota la frase con cuidado en su cuaderno.",
+    "fr": "Jack note sérieusement cette phrase dans son carnet.",
+    "am": "ጃክ ይህን አባባል በጥንቃቄ ደብተሩ ላይ ጻፈ።",
+    "fa": "جک اون ضرب‌المثلو با دقت تو دفترچه‌ش می‌نویسه."
+   },
+   "start": 48.368,
+   "end": 52.184,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "认真",
+     "rèn zhēn",
+     "conscientious; earnest; serious",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "句",
+     "jù",
+     "classifier for phrases or lines of verse; sentence; clause",
+     ""
+    ],
+    [
+     "话",
+     "huà",
+     "dialect; language; spoken words",
+     ""
+    ],
+    [
+     "记",
+     "jì",
+     "to note; to record; to memorize",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "本子",
+     "běn zi",
+     "notebook; book",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一个月以后，他又跟这位客户吃饭。",
+   "py": "yí gè yuè yǐ hòu, tā yòu gēn zhè wèi kè hù chī fàn.",
+   "en": "A month later, he has dinner with the same client again.",
+   "tr": {
+    "vi": "Một tháng sau, anh ấy lại ăn cơm với vị khách này.",
+    "pt": "Um mês depois, ele janta de novo com o mesmo cliente.",
+    "es": "Un mes después, vuelve a cenar con ese cliente.",
+    "fr": "Un mois plus tard, il dîne de nouveau avec ce client.",
+    "am": "ከአንድ ወር በኋላ ከዚሁ ደንበኛ ጋር እንደገና ራት በላ።",
+    "fa": "یه ماه بعد با همون مشتری دوباره شام می‌خوره."
+   },
+   "start": 52.884,
+   "end": 56.22,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "这位",
+     "zhè wèi",
+     "this (person)",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这次，他给客户倒茶，只倒了一半；倒酒的时候，他想了想，也只倒了一半。",
+   "py": "zhè cì, tā gěi kè hù dào chá, zhǐ dào le yí bàn; dào jiǔ de shí hou, tā xiǎng le xiǎng, yě zhǐ dào le yí bàn.",
+   "en": "This time, he pours the client's tea only half full. When he pours the wine, he thinks for a moment, and pours that only half full too.",
+   "tr": {
+    "vi": "Lần này, anh ấy rót trà cho khách chỉ rót một nửa; lúc rót rượu, anh ấy nghĩ một lát, cũng chỉ rót một nửa.",
+    "pt": "Desta vez, ele serve o chá do cliente só até a metade. Na hora de servir a bebida, pensa um pouco e também serve só até a metade.",
+    "es": "Esta vez le sirve el té solo hasta la mitad; cuando sirve el vino, lo piensa un poco y también lo sirve solo hasta la mitad.",
+    "fr": "Cette fois, il ne remplit la tasse de thé du client qu'à moitié ; et quand il sert l'alcool, après un instant de réflexion, il ne remplit le verre qu'à moitié aussi.",
+    "am": "በዚህ ጊዜ ለደንበኛው ሻይ ሲቀዳ ግማሽ ብቻ ቀዳ። መጠጥ ሲቀዳ ትንሽ አስቦ እሱንም ግማሽ ብቻ ቀዳ።",
+    "fa": "این بار چای مشتری رو فقط نصفه می‌ریزه. وقتی می‌رسه به شراب، یه لحظه فکر می‌کنه و اونم فقط نصفه می‌ریزه."
+   },
+   "start": 56.92,
+   "end": 65.704,
+   "tokens": [
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "次",
+     "cì",
+     "classifier for enumerated events: time",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out",
+     ""
+    ],
+    [
+     "茶",
+     "chá",
+     "tea; tea plant",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一半",
+     "yī bàn",
+     "half",
+     ""
+    ],
+    [
+     "；"
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out",
+     ""
+    ],
+    [
+     "酒",
+     "jiǔ",
+     "wine (esp. rice wine); liquor; spirits",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一半",
+     "yī bàn",
+     "half",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "周经理看了他一眼：“杰克，酒要倒满。”",
+   "py": "Zhōu jīng lǐ kàn le tā yì yǎn: “Jié kè, jiǔ yào dào mǎn.”",
+   "en": "Manager Zhou gives him a look. \"Jack, wine should be filled up.\"",
+   "tr": {
+    "vi": "Giám đốc Chu liếc nhìn anh ấy: “Jack, rượu phải rót đầy.”",
+    "pt": "A gerente Zhou lança um olhar para ele: “Jack, a bebida é para encher o copo.”",
+    "es": "La gerente Zhou lo mira: «Jack, el vino se sirve lleno».",
+    "fr": "La directrice Zhou lui lance un regard : « Jack, l'alcool, on le sert plein. »",
+    "am": "ሥራ አስኪያጅ ጆው አንድ ጊዜ ተመለከቱት። «ጃክ፣ መጠጥ ሙሉ መቀዳት አለበት።»",
+    "fa": "مدیر جو بهش نگاه می‌کنه: «جک، شراب باید پُر بشه.»"
+   },
+   "start": 66.404,
+   "end": 71.156,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一眼",
+     "yī yǎn",
+     "a quick look; a glance; a glimpse",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "酒",
+     "jiǔ",
+     "wine (esp. rice wine); liquor; spirits",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "need to; should; to want; to need; to ask for",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to invert; to place upside down or frontside back",
+     ""
+    ],
+    [
+     "满",
+     "mǎn",
+     "to fill; filled; full",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克还没说话，客户就先笑了：“别改，别改！”",
+   "py": "Jié kè hái méi shuō huà, kè hù jiù xiān xiào le: “bié gǎi, bié gǎi!”",
+   "en": "Before Jack can say anything, the client laughs. \"Don't change it, don't change it!\"",
+   "tr": {
+    "vi": "Jack còn chưa kịp nói gì, khách hàng đã cười trước: “Đừng sửa, đừng sửa!”",
+    "pt": "Antes que Jack diga alguma coisa, o cliente ri: “Não mude, não mude!”",
+    "es": "Antes de que Jack diga nada, el cliente se ríe: «¡No lo cambies, no lo cambies!».",
+    "fr": "Avant que Jack ait pu répondre, le client rit : « Ne changez rien, ne changez rien ! »",
+    "am": "ጃክ ገና ሳይናገር ደንበኛው ቀድሞ ሳቀ። «አትቀይረው፣ አትቀይረው!»",
+    "fa": "قبل از اینکه جک چیزی بگه، مشتری می‌خنده: «عوضش نکن، عوضش نکن!»"
+   },
+   "start": 71.856,
+   "end": 78,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "说话",
+     "shuō huà",
+     "to say; to speak; to talk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "别",
+     "bié",
+     "don't ...!; to leave; to part (from)",
+     ""
+    ],
+    [
+     "改",
+     "gǎi",
+     "to change; to alter; to transform",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "别",
+     "bié",
+     "don't ...!; to leave; to part (from)",
+     ""
+    ],
+    [
+     "改",
+     "gǎi",
+     "to change; to alter; to transform",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“医生让我少喝酒，我太太让我多喝茶。”",
+   "py": "“yī shēng ràng wǒ shǎo hē jiǔ, wǒ tài tai ràng wǒ duō hē chá.”",
+   "en": "\"My doctor tells me to drink less wine, and my wife tells me to drink more tea.\"",
+   "tr": {
+    "vi": "“Bác sĩ bảo tôi uống ít rượu, vợ tôi bảo tôi uống nhiều trà.”",
+    "pt": "“O médico me mandou beber menos álcool, e a minha esposa me manda tomar mais chá.”",
+    "es": "«El médico me dice que tome menos alcohol, y mi esposa me dice que tome más té».",
+    "fr": "« Mon médecin me dit de boire moins d'alcool, et ma femme me dit de boire plus de thé. »",
+    "am": "«ሐኪሜ መጠጥ ቀንስ ይለኛል፣ ባለቤቴ ደግሞ ሻይ አብዛ ትለኛለች።»",
+    "fa": "«دکترم می‌گه کمتر شراب بخور و خانمم می‌گه بیشتر چای بخور.»"
+   },
+   "start": 78.7,
+   "end": 82.3,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "医生",
+     "yī shēng",
+     "doctor; medical practitioner",
+     ""
+    ],
+    [
+     "让",
+     "ràng",
+     "to yield; to permit; to let sb do sth",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "少",
+     "shǎo",
+     "less; few; to lack",
+     ""
+    ],
+    [
+     "喝酒",
+     "hē jiǔ",
+     "to drink (alcohol)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "太太",
+     "tài tai",
+     "wife; married woman; Mrs.",
+     ""
+    ],
+    [
+     "让",
+     "ràng",
+     "to yield; to permit; to let sb do sth",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "喝茶",
+     "hē chá",
+     "to drink tea; to get engaged; to have a serious conversation",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“你这样倒，我太太一定很喜欢你。”",
+   "py": "“nǐ zhè yàng dào, wǒ tài tai yí dìng hěn xǐ huan nǐ.”",
+   "en": "\"If you pour like that, my wife is going to love you.\"",
+   "tr": {
+    "vi": "“Anh rót thế này, vợ tôi chắc chắn sẽ rất quý anh.”",
+    "pt": "“Servindo assim, a minha esposa com certeza vai gostar muito de você.”",
+    "es": "«Si sirves así, a mi esposa le vas a caer muy bien».",
+    "fr": "« Si vous servez comme ça, ma femme va vous adorer. »",
+    "am": "«እንዲህ ከቀዳህ ባለቤቴ በእርግጠኝነት ትወድሃለች።»",
+    "fa": "«اگه همیشه این‌جوری بریزی، خانمم عاشقت می‌شه.»"
+   },
+   "start": 83,
+   "end": 86.336,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "这样",
+     "zhè yàng",
+     "this way; like this; so; (before a noun) this kind of; such",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "太太",
+     "tài tai",
+     "wife; married woman; Mrs.",
+     ""
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "喜欢",
+     "xǐ huan",
+     "to like; to be fond of",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "从那以后，每次跟这位客户吃饭，大家都说：“杰克，酒你来倒。”",
+   "py": "cóng nà yǐ hòu, měi cì gēn zhè wèi kè hù chī fàn, dà jiā dōu shuō: “Jié kè, jiǔ nǐ lái dào.”",
+   "en": "From then on, whenever they have dinner with this client, everyone says, \"Jack, you pour the wine.\"",
+   "tr": {
+    "vi": "Từ đó về sau, mỗi lần ăn cơm với vị khách này, mọi người đều nói: “Jack, rượu để anh rót.”",
+    "pt": "Desde então, sempre que jantam com esse cliente, todo mundo diz: “Jack, a bebida você serve.”",
+    "es": "Desde entonces, cada vez que cenan con ese cliente, todos dicen: «Jack, el vino lo sirves tú».",
+    "fr": "Depuis, chaque fois qu'ils dînent avec ce client, tout le monde dit : « Jack, l'alcool, c'est vous qui le servez. »",
+    "am": "ከዚያ ወዲህ ከዚህ ደንበኛ ጋር በበሉ ቁጥር ሁሉም «ጃክ፣ መጠጡን አንተ ቅዳ» ይላሉ።",
+    "fa": "از اون به بعد، هر بار که با این مشتری شام می‌خورن، همه می‌گن: «جک، تو شرابو بریز.»"
+   },
+   "start": 87.036,
+   "end": 93.66,
+   "tokens": [
+    [
+     "从",
+     "cóng",
+     "(used before a negative) ever; from; through; via",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每次",
+     "měi cì",
+     "every time",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "这位",
+     "zhè wèi",
+     "this (person)",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "酒",
+     "jiǔ",
+     "wine (esp. rice wine); liquor; spirits",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "ever since (as in 自古以来); to come",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 281,
+ "first": "杰克第一次跟周经理请客户吃饭，他很想做得好一点儿。",
+ "newWords": [
+  {
+   "w": "表示",
+   "py": "biǎoshì",
+   "en": "to express"
+  },
+  {
+   "w": "尊重",
+   "py": "zūnzhòng",
+   "en": "to respect"
+  },
+  {
+   "w": "一半",
+   "py": "yī bàn",
+   "en": "half"
+  },
+  {
+   "w": "满",
+   "py": "mǎn",
+   "en": "full"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-75.mp3?v=1791721779"
 }

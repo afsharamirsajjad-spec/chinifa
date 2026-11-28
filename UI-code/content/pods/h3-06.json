@@ -1,1443 +1,1458 @@
 {
-  "id": "h3-06",
-  "level": 3,
-  "no": 6,
-  "title": "下大雪了",
-  "title_py": "xià dà xuě le",
-  "title_en": "The big snow",
-  "title_tr": {
-    "vi": "Tuyết rơi dày",
-    "pt": "A grande nevasca",
-    "es": "Una gran nevada",
-    "fr": "Une grosse chute de neige",
-    "am": "ብዙ በረዶ ጣለ",
-    "fa": "برف سنگین"
+ "id": "h3-06",
+ "level": 3,
+ "no": 6,
+ "title": "下大雪了",
+ "title_py": "xià dà xuě le",
+ "title_en": "The big snow",
+ "title_tr": {
+  "vi": "Tuyết rơi dày",
+  "pt": "A grande nevasca",
+  "es": "Una gran nevada",
+  "fr": "Une grosse chute de neige",
+  "am": "ብዙ በረዶ ጣለ",
+  "fa": "برف سنگین"
+ },
+ "topic": "daily",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h3-06.jpg",
+ "duration": 82.648,
+ "lines": [
+  {
+   "text": "今年冬天的第一场雪下了一个晚上。",
+   "py": "jīn nián dōng tiān de dì yī cháng xuě xià le yí gè wǎn shang.",
+   "en": "This winter's first snow falls all night long.",
+   "tr": {
+    "vi": "Trận tuyết đầu tiên của mùa đông năm nay rơi suốt một đêm.",
+    "pt": "A primeira neve deste inverno cai a noite toda.",
+    "es": "La primera nevada de este invierno dura toda la noche.",
+    "fr": "Cet hiver, la première neige tombe toute la nuit.",
+    "am": "የዘንድሮው ክረምት የመጀመሪያው በረዶ ሌሊቱን ሙሉ ጣለ።",
+    "fa": "اولین برفِ این زمستون تمام شب می‌باره."
+   },
+   "start": 2.62,
+   "end": 6.22,
+   "tokens": [
+    [
+     "今年",
+     "jīn nián",
+     "this year",
+     ""
+    ],
+    [
+     "冬天",
+     "dōng tiān",
+     "winter",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "第一",
+     "dì yī",
+     "first; most important; primary; foremost",
+     ""
+    ],
+    [
+     "场",
+     "cháng",
+     "classifier for events and happenings: spell, episode, bout",
+     ""
+    ],
+    [
+     "雪",
+     "xuě",
+     "snow; (literary) to wipe away (a humiliation etc)",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "daily",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h3-06.jpg",
-  "duration": 82.648,
-  "lines": [
-    {
-      "text": "今年冬天的第一场雪下了一个晚上。",
-      "py": "jīn nián dōng tiān de dì yī cháng xuě xià le yí gè wǎn shang.",
-      "en": "This winter's first snow falls all night long.",
-      "tr": {
-        "vi": "Trận tuyết đầu tiên của mùa đông năm nay rơi suốt một đêm.",
-        "pt": "A primeira neve deste inverno cai a noite toda.",
-        "es": "La primera nevada de este invierno dura toda la noche.",
-        "fr": "Cet hiver, la première neige tombe toute la nuit.",
-        "am": "የዘንድሮው ክረምት የመጀመሪያው በረዶ ሌሊቱን ሙሉ ጣለ።"
-      },
-      "start": 2.62,
-      "end": 6.22,
-      "tokens": [
-        [
-          "今年",
-          "jīn nián",
-          "this year",
-          ""
-        ],
-        [
-          "冬天",
-          "dōng tiān",
-          "winter",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "第一",
-          "dì yī",
-          "first; most important; primary; foremost",
-          ""
-        ],
-        [
-          "场",
-          "cháng",
-          "classifier for events and happenings: spell, episode, bout",
-          ""
-        ],
-        [
-          "雪",
-          "xuě",
-          "snow; (literary) to wipe away (a humiliation etc)",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "星期天早上，杰克往窗外一看，路上、树上都是白的。",
-      "py": "xīng qī tiān zǎo shang, Jié kè wǎng chuāng wài yí kàn, lù shàng, shù shàng dōu shì bái de.",
-      "en": "On Sunday morning, Jack looks out of the window: the roads and the trees are all white.",
-      "tr": {
-        "vi": "Sáng Chủ nhật, Jack nhìn ra ngoài cửa sổ, đường phố, cây cối đều trắng xóa.",
-        "pt": "No domingo de manhã, Jack olha pela janela: as ruas e as árvores estão todas brancas.",
-        "es": "El domingo por la mañana, Jack se asoma por la ventana: las calles y los árboles están todos blancos.",
-        "fr": "Dimanche matin, Jack regarde par la fenêtre : les rues et les arbres sont tout blancs.",
-        "am": "እሑድ ጠዋት ጃክ በመስኮት ሲመለከት መንገዱም ዛፎቹም ነጭ ሆነዋል።"
-      },
-      "start": 6.92,
-      "end": 13.088,
-      "tokens": [
-        [
-          "星期天",
-          "xīng qī tiān",
-          "Sunday",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "往",
-          "wǎng",
-          "to go (in a direction); to; towards",
-          ""
-        ],
-        [
-          "窗",
-          "chuāng",
-          "window",
-          ""
-        ],
-        [
-          "外",
-          "wài",
-          "outside; in addition; foreign",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to watch out for",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "路上",
-          "lù shang",
-          "on the road; on the way; en route",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "树",
-          "shù",
-          "tree; to cultivate; to set up",
-          ""
-        ],
-        [
-          "上都",
-          "shàng dū",
-          "Shangdu, also known as Xanadu, summer capital of the Yuan Dynasty (1279-1368)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "白",
-          "bái",
-          "white; (bound form) to give a disdainful look (e.g. 白了他一眼)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他很高兴，穿上衣服就跑了出去。",
-      "py": "tā hěn gāo xìng, chuān shàng yī fu jiù pǎo le chū qù.",
-      "en": "He's delighted, puts on his clothes and runs outside.",
-      "tr": {
-        "vi": "Anh rất vui, mặc quần áo vào rồi chạy ra ngoài.",
-        "pt": "Ele fica muito contente, põe a roupa e sai correndo.",
-        "es": "Se pone muy contento, se viste y sale corriendo.",
-        "fr": "Il est ravi, il s’habille et sort en courant.",
-        "am": "በጣም ተደስቶ ልብሱን ለብሶ እየሮጠ ወጣ።"
-      },
-      "start": 13.788,
-      "end": 17.364,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "穿上",
-          "chuān shang",
-          "to put on (clothes etc)",
-          ""
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "to run; to run away; to escape",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "出去",
-          "chū qù",
-          "to go out",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "超市门口，张阿姨一个人正在扫雪。",
-      "py": "chāo shì mén kǒu, Zhāng ā yí yí gè rén zhèng zài sǎo xuě.",
-      "en": "Outside the supermarket, Auntie Zhang is sweeping the snow all by herself.",
-      "tr": {
-        "vi": "Trước cửa siêu thị, dì Trương đang một mình quét tuyết.",
-        "pt": "Na porta do supermercado, a tia Zhang está varrendo a neve sozinha.",
-        "es": "En la puerta del supermercado, la señora Zhang está quitando la nieve ella sola.",
-        "fr": "Devant le supermarché, tante Zhang déblaie la neige toute seule.",
-        "am": "ከሱፐርማርኬቱ በር ላይ እትዬ ዣንግ ብቻቸውን በረዶ እየጠረጉ ነበር።"
-      },
-      "start": 18.064,
-      "end": 22.336,
-      "tokens": [
-        [
-          "超市",
-          "chāo shì",
-          "supermarket (abbr. for 超级市场)",
-          ""
-        ],
-        [
-          "门口",
-          "mén kǒu",
-          "doorway; gate",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "一个人",
-          "yī gè rén",
-          "by oneself (without assistance); alone (without company)",
-          ""
-        ],
-        [
-          "正在",
-          "zhèng zài",
-          "to be in the process of (doing sth); to be currently ...-ing",
-          ""
-        ],
-        [
-          "扫",
-          "sǎo",
-          "to sweep (with a brush or broom)",
-          ""
-        ],
-        [
-          "雪",
-          "xuě",
-          "snow; (literary) to wipe away (a humiliation etc)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "雪太多了，她扫了半天，才扫干净一小块地方。",
-      "py": "xuě tài duō le, tā sǎo le bàn tiān, cái sǎo gān jìng yì xiǎo kuài dì fang.",
-      "en": "There's so much snow that after a long time she has cleared only a small patch.",
-      "tr": {
-        "vi": "Tuyết nhiều quá, dì quét mãi mới sạch được một khoảng nhỏ.",
-        "pt": "Tem tanta neve que, depois de muito tempo varrendo, ela só limpou um pedacinho.",
-        "es": "Hay tanta nieve que, después de mucho rato, solo ha limpiado un pedacito.",
-        "fr": "Il y a tellement de neige qu’après un long moment, elle n’a dégagé qu’un petit coin.",
-        "am": "በረዶው በጣም ብዙ ስለነበር ለረጅም ጊዜ ጠርገው ያጸዱት ትንሽ ቦታ ብቻ ነው።"
-      },
-      "start": 23.036,
-      "end": 28.964,
-      "tokens": [
-        [
-          "雪",
-          "xuě",
-          "snow; (literary) to wipe away (a humiliation etc)",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; (after a numeral) ... odd",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "扫",
-          "sǎo",
-          "to sweep (with a brush or broom)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "a long time; half of the day; quite a while",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "才",
-          "cái",
-          "then and only then; (before an expression of quantity) only",
-          ""
-        ],
-        [
-          "扫",
-          "sǎo",
-          "to sweep (with a brush or broom)",
-          ""
-        ],
-        [
-          "干净",
-          "gān jìng",
-          "clean; neat",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "块",
-          "kuài",
-          "lump; chunk; piece",
-          ""
-        ],
-        [
-          "地方",
-          "dì fang",
-          "place; location; area; space; territory; aspect; part",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“阿姨，您休息一下，我来帮您！”",
-      "py": "Jié kè shuō: “ā yí, nín xiū xi yí xià, wǒ lái bāng nín!”",
-      "en": "Jack says, \"Auntie, take a rest. Let me help you!\"",
-      "tr": {
-        "vi": "Jack nói: “Dì ơi, dì nghỉ một chút đi, để cháu giúp dì!”",
-        "pt": "Jack diz: “Tia, descanse um pouco, eu ajudo a senhora!”",
-        "es": "Jack dice: «Señora, descanse un poco. ¡Yo la ayudo!».",
-        "fr": "Jack dit : « Tante Zhang, reposez-vous un peu, je vais vous aider ! »",
-        "am": "ጃክ «አክስቴ፣ ትንሽ ያርፉ፤ እኔ ላግዝዎት!» አለ።"
-      },
-      "start": 29.664,
-      "end": 34.656,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "休息",
-          "xiū xi",
-          "rest; to rest",
-          ""
-        ],
-        [
-          "一下",
-          "yī xià",
-          "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "帮",
-          "bāng",
-          "to help; for sb (i.e. as a help); to assist",
-          ""
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "过了一会儿，刘爷爷和李强也出来帮忙了。",
-      "py": "guò le yí huì r, Liú yé ye hé Lǐ Qiáng yě chū lái bāng máng le.",
-      "en": "After a while, Grandpa Liu and Li Qiang come out to help too.",
-      "tr": {
-        "vi": "Một lúc sau, ông Lưu và Lý Cường cũng ra giúp.",
-        "pt": "Pouco depois, o vovô Liu e o Li Qiang também saem para ajudar.",
-        "es": "Al rato, el abuelo Liu y Li Qiang también salen a ayudar.",
-        "fr": "Un peu plus tard, papi Liu et Li Qiang sortent aussi pour aider.",
-        "am": "ትንሽ ቆይቶ አያት ሊዩ እና ሊ ቺያንግም ሊያግዙ ወጡ።"
-      },
-      "start": 35.356,
-      "end": 39.652,
-      "tokens": [
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一会儿",
-          "yī huì r",
-          "a while; a moment; in a moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "出来",
-          "chū lái",
-          "to come out; to appear; to arise",
-          ""
-        ],
-        [
-          "帮忙",
-          "bāng máng",
-          "to help; to lend a hand; to do a favor",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "大家一边扫，一边聊天，一点儿也不觉得冷。",
-      "py": "dà jiā yì biān sǎo, yì biān liáo tiān, yì diǎn r yě bù jué de lěng.",
-      "en": "Everyone chats as they sweep, and nobody feels cold at all.",
-      "tr": {
-        "vi": "Mọi người vừa quét vừa trò chuyện, chẳng thấy lạnh chút nào.",
-        "pt": "Todos conversam enquanto varrem, e ninguém sente frio nenhum.",
-        "es": "Todos conversan mientras barren, y nadie siente nada de frío.",
-        "fr": "Tout le monde balaie en bavardant, et personne n’a froid du tout.",
-        "am": "ሁሉም እየጠረጉ ይጨዋወቱ ነበር፤ ምንም አልበረዳቸውም።"
-      },
-      "start": 40.352,
-      "end": 44.648,
-      "tokens": [
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "扫",
-          "sǎo",
-          "to sweep (with a brush or broom)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "聊天",
-          "liáo tiān",
-          "to chat; to gossip",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不觉",
-          "bù jué",
-          "unconsciously",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "冷",
-          "lěng",
-          "cold",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "不到一个小时，超市前面的路就干净了。",
-      "py": "bú dào yí gè xiǎo shí, chāo shì qián mian de lù jiù gān jìng le.",
-      "en": "In less than an hour, the road in front of the supermarket is clear.",
-      "tr": {
-        "vi": "Chưa đến một tiếng, con đường trước siêu thị đã sạch sẽ.",
-        "pt": "Em menos de uma hora, a rua na frente do supermercado está limpa.",
-        "es": "En menos de una hora, la calle frente al supermercado queda limpia.",
-        "fr": "En moins d’une heure, la rue devant le supermarché est dégagée.",
-        "am": "በአንድ ሰዓት ውስጥ ከሱፐርማርኬቱ ፊት ያለው መንገድ ጸዳ።"
-      },
-      "start": 45.348,
-      "end": 49.596,
-      "tokens": [
-        [
-          "不到",
-          "bù dào",
-          "less than; not to arrive; not reaching",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "超市",
-          "chāo shì",
-          "supermarket (abbr. for 超级市场)",
-          ""
-        ],
-        [
-          "前面",
-          "qián miàn",
-          "in front; ahead; preceding",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "路",
-          "lù",
-          "road; journey; route",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "干净",
-          "gān jìng",
-          "clean; neat",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李强用剩下的雪做了一个大雪人。",
-      "py": "Lǐ Qiáng yòng shèng xià de xuě zuò le yí gè dà xuě rén.",
-      "en": "Li Qiang makes a big snowman out of the leftover snow.",
-      "tr": {
-        "vi": "Lý Cường dùng chỗ tuyết còn lại đắp một người tuyết thật to.",
-        "pt": "O Li Qiang faz um boneco de neve grande com a neve que sobrou.",
-        "es": "Con la nieve que sobró, Li Qiang hace un muñeco de nieve grande.",
-        "fr": "Avec la neige qui reste, Li Qiang fait un grand bonhomme de neige.",
-        "am": "ሊ ቺያንግ በተረፈው በረዶ ትልቅ የበረዶ ሰው ሠራ።"
-      },
-      "start": 50.296,
-      "end": 53.872,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "剩下",
-          "shèng xià",
-          "to remain; to be left over",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "雪",
-          "xuě",
-          "snow; (literary) to wipe away (a humiliation etc)",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "大雪",
-          "dà xuě",
-          "Daxue or Great Snow, 21st of the 24 solar terms 二十四节气 7th-21st December",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷把自己的帽子给雪人戴上了。",
-      "py": "Liú yé ye bǎ zì jǐ de mào zi gěi xuě rén dài shàng le.",
-      "en": "Grandpa Liu puts his own hat on the snowman.",
-      "tr": {
-        "vi": "Ông Lưu đội mũ của mình cho người tuyết.",
-        "pt": "O vovô Liu coloca o próprio chapéu no boneco de neve.",
-        "es": "El abuelo Liu le pone su propio gorro al muñeco de nieve.",
-        "fr": "Papi Liu met son propre chapeau sur la tête du bonhomme de neige.",
-        "am": "አያት ሊዩ የራሳቸውን ኮፍያ ለበረዶው ሰው አጠለቁለት።"
-      },
-      "start": 54.572,
-      "end": 58.172,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "帽子",
-          "mào zi",
-          "hat; cap; (fig.) label",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "雪人",
-          "xuě rén",
-          "snowman; yeti",
-          ""
-        ],
-        [
-          "戴上",
-          "dài shang",
-          "to put on (hat etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "张阿姨从超市里拿出几杯热牛奶：“谢谢大家！今天的牛奶免费！”",
-      "py": "Zhāng ā yí cóng chāo shì lǐ ná chū jǐ bēi rè niú nǎi: “xiè xie dà jiā! jīn tiān de niú nǎi miǎn fèi!”",
-      "en": "Auntie Zhang brings a few cups of hot milk out of the shop. \"Thank you, everyone! The milk is free today!\"",
-      "tr": {
-        "vi": "Dì Trương mang từ trong siêu thị ra mấy cốc sữa nóng: “Cảm ơn mọi người! Sữa hôm nay miễn phí!”",
-        "pt": "A tia Zhang traz do supermercado alguns copos de leite quente: “Obrigada, pessoal! Hoje o leite é de graça!”",
-        "es": "La señora Zhang saca del supermercado unos vasos de leche caliente: «¡Gracias a todos! ¡Hoy la leche es gratis!».",
-        "fr": "Tante Zhang sort du supermarché avec quelques tasses de lait chaud : « Merci à tous ! Aujourd’hui, le lait est gratuit ! »",
-        "am": "እትዬ ዣንግ ከሱፐርማርኬቱ ጥቂት ብርጭቆ ትኩስ ወተት አመጡ። «ሁላችሁንም አመሰግናለሁ! የዛሬው ወተት በነፃ ነው!»"
-      },
-      "start": 58.872,
-      "end": 65.304,
-      "tokens": [
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "从",
-          "cóng",
-          "(used before a negative) ever; from; through; via",
-          ""
-        ],
-        [
-          "超市",
-          "chāo shì",
-          "supermarket (abbr. for 超级市场)",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "几",
-          "jǐ",
-          "several; a few; how many; how much",
-          ""
-        ],
-        [
-          "杯",
-          "bēi",
-          "classifier for certain containers of liquids: glass, cup",
-          ""
-        ],
-        [
-          "热",
-          "rè",
-          "hot (of weather); to warm up; to heat up",
-          ""
-        ],
-        [
-          "牛奶",
-          "niú nǎi",
-          "cow's milk",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "牛奶",
-          "niú nǎi",
-          "cow's milk",
-          ""
-        ],
-        [
-          "免费",
-          "miǎn fèi",
-          "free (of charge)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“在我们国家，很少下这么大的雪。”",
-      "py": "Jié kè shuō: “zài wǒ men guó jiā, hěn shǎo xià zhè me dà de xuě.”",
-      "en": "Jack says, \"In my country, it hardly ever snows this much.\"",
-      "tr": {
-        "vi": "Jack nói: “Ở nước cháu, rất ít khi tuyết rơi nhiều như thế này.”",
-        "pt": "Jack diz: “No meu país, quase nunca neva tanto assim.”",
-        "es": "Jack dice: «En mi país casi nunca nieva tanto».",
-        "fr": "Jack dit : « Dans mon pays, il neige rarement autant. »",
-        "am": "ጃክ «በእኛ አገር እንዲህ ያለ ብዙ በረዶ እምብዛም አይጥልም» አለ።"
-      },
-      "start": 66.004,
-      "end": 71.452,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "国家",
-          "guó jiā",
-          "country; nation; state",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "少",
-          "shǎo",
-          "few; less; to lack",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "雪",
-          "xuě",
-          "snow; (literary) to wipe away (a humiliation etc)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷笑着说：“那你今天要多玩儿一会儿！”",
-      "py": "Liú yé ye xiào zhe shuō: “nà nǐ jīn tiān yào duō wán r yí huì r!”",
-      "en": "Grandpa Liu laughs. \"Then you should play out here a bit longer today!\"",
-      "tr": {
-        "vi": "Ông Lưu cười nói: “Vậy hôm nay cháu phải chơi thêm một lúc nữa nhé!”",
-        "pt": "O vovô Liu diz rindo: “Então hoje você tem que brincar mais um pouco!”",
-        "es": "El abuelo Liu dice riendo: «¡Entonces hoy juega un rato más!».",
-        "fr": "Papi Liu dit en riant : « Alors aujourd’hui, profite et joue un peu plus longtemps ! »",
-        "am": "አያት ሊዩ እየሳቁ «እንግዲያው ዛሬ ትንሽ ተጨማሪ ተጫወት!» አሉ።"
-      },
-      "start": 72.152,
-      "end": 76.232,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "need to; should; to want; to need; to ask for",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "玩儿",
-          "wán r",
-          "to play; to hang out; to have fun",
-          ""
-        ],
-        [
-          "一会儿",
-          "yī huì r",
-          "a moment; a while; in a moment",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "第二天，楼里的孩子们都叫这个雪人“刘爷爷”。",
-      "py": "dì èr tiān, lóu lǐ de hái zi men dōu jiào zhè ge xuě rén “Liú yé ye”.",
-      "en": "The next day, all the children in the building call the snowman \"Grandpa Liu\".",
-      "tr": {
-        "vi": "Hôm sau, bọn trẻ trong tòa nhà đều gọi người tuyết này là “ông Lưu”.",
-        "pt": "No dia seguinte, todas as crianças do prédio chamam o boneco de neve de “Vovô Liu”.",
-        "es": "Al día siguiente, todos los niños del edificio le dicen a ese muñeco de nieve «abuelo Liu».",
-        "fr": "Le lendemain, tous les enfants de l’immeuble appellent le bonhomme de neige « Papi Liu ».",
-        "am": "በማግስቱ በህንፃው ያሉ ልጆች ሁሉ ይሄን የበረዶ ሰው «አያት ሊዩ» ብለው ጠሩት።"
-      },
-      "start": 76.932,
-      "end": 81.948,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "楼",
-          "lóu",
-          "storied building; house with more than 1 story; floor",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "孩子们",
-          "hái zi men",
-          "children",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to call; to be called; to shout",
-          ""
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "雪人",
-          "xuě rén",
-          "snowman; yeti",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 249,
-  "first": "今年冬天的第一场雪下了一个晚上。",
-  "newWords": [
-    {
-      "w": "场",
-      "py": "chǎng",
-      "en": "measure word for events"
-    },
-    {
-      "w": "剩",
-      "py": "shèng",
-      "en": "to remain"
-    },
-    {
-      "w": "戴",
-      "py": "dài",
-      "en": "to wear"
-    },
-    {
-      "w": "免费",
-      "py": "miǎnfèi",
-      "en": "free of charge"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-06.mp3?v=1791720596"
+  {
+   "text": "星期天早上，杰克往窗外一看，路上、树上都是白的。",
+   "py": "xīng qī tiān zǎo shang, Jié kè wǎng chuāng wài yí kàn, lù shàng, shù shàng dōu shì bái de.",
+   "en": "On Sunday morning, Jack looks out of the window: the roads and the trees are all white.",
+   "tr": {
+    "vi": "Sáng Chủ nhật, Jack nhìn ra ngoài cửa sổ, đường phố, cây cối đều trắng xóa.",
+    "pt": "No domingo de manhã, Jack olha pela janela: as ruas e as árvores estão todas brancas.",
+    "es": "El domingo por la mañana, Jack se asoma por la ventana: las calles y los árboles están todos blancos.",
+    "fr": "Dimanche matin, Jack regarde par la fenêtre : les rues et les arbres sont tout blancs.",
+    "am": "እሑድ ጠዋት ጃክ በመስኮት ሲመለከት መንገዱም ዛፎቹም ነጭ ሆነዋል።",
+    "fa": "صبح یکشنبه، جک از پشت پنجره نگاه می‌کنه: خیابون‌ها و درخت‌ها همه سفیدن."
+   },
+   "start": 6.92,
+   "end": 13.088,
+   "tokens": [
+    [
+     "星期天",
+     "xīng qī tiān",
+     "Sunday",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "往",
+     "wǎng",
+     "to go (in a direction); to; towards",
+     ""
+    ],
+    [
+     "窗",
+     "chuāng",
+     "window",
+     ""
+    ],
+    [
+     "外",
+     "wài",
+     "outside; in addition; foreign",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to watch out for",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "路上",
+     "lù shang",
+     "on the road; on the way; en route",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "树",
+     "shù",
+     "tree; to cultivate; to set up",
+     ""
+    ],
+    [
+     "上都",
+     "shàng dū",
+     "Shangdu, also known as Xanadu, summer capital of the Yuan Dynasty (1279-1368)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "白",
+     "bái",
+     "white; (bound form) to give a disdainful look (e.g. 白了他一眼)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他很高兴，穿上衣服就跑了出去。",
+   "py": "tā hěn gāo xìng, chuān shàng yī fu jiù pǎo le chū qù.",
+   "en": "He's delighted, puts on his clothes and runs outside.",
+   "tr": {
+    "vi": "Anh rất vui, mặc quần áo vào rồi chạy ra ngoài.",
+    "pt": "Ele fica muito contente, põe a roupa e sai correndo.",
+    "es": "Se pone muy contento, se viste y sale corriendo.",
+    "fr": "Il est ravi, il s’habille et sort en courant.",
+    "am": "በጣም ተደስቶ ልብሱን ለብሶ እየሮጠ ወጣ።",
+    "fa": "حسابی خوشحال می‌شه، لباس می‌پوشه و می‌دوه بیرون."
+   },
+   "start": 13.788,
+   "end": 17.364,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "穿上",
+     "chuān shang",
+     "to put on (clothes etc)",
+     ""
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "to run; to run away; to escape",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "出去",
+     "chū qù",
+     "to go out",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "超市门口，张阿姨一个人正在扫雪。",
+   "py": "chāo shì mén kǒu, Zhāng ā yí yí gè rén zhèng zài sǎo xuě.",
+   "en": "Outside the supermarket, Auntie Zhang is sweeping the snow all by herself.",
+   "tr": {
+    "vi": "Trước cửa siêu thị, dì Trương đang một mình quét tuyết.",
+    "pt": "Na porta do supermercado, a tia Zhang está varrendo a neve sozinha.",
+    "es": "En la puerta del supermercado, la señora Zhang está quitando la nieve ella sola.",
+    "fr": "Devant le supermarché, tante Zhang déblaie la neige toute seule.",
+    "am": "ከሱፐርማርኬቱ በር ላይ እትዬ ዣንግ ብቻቸውን በረዶ እየጠረጉ ነበር።",
+    "fa": "بیرونِ سوپرمارکت، خاله ژانگ تنها داره برفو جارو می‌کنه."
+   },
+   "start": 18.064,
+   "end": 22.336,
+   "tokens": [
+    [
+     "超市",
+     "chāo shì",
+     "supermarket (abbr. for 超级市场)",
+     ""
+    ],
+    [
+     "门口",
+     "mén kǒu",
+     "doorway; gate",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "一个人",
+     "yī gè rén",
+     "by oneself (without assistance); alone (without company)",
+     ""
+    ],
+    [
+     "正在",
+     "zhèng zài",
+     "to be in the process of (doing sth); to be currently ...-ing",
+     ""
+    ],
+    [
+     "扫",
+     "sǎo",
+     "to sweep (with a brush or broom)",
+     ""
+    ],
+    [
+     "雪",
+     "xuě",
+     "snow; (literary) to wipe away (a humiliation etc)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "雪太多了，她扫了半天，才扫干净一小块地方。",
+   "py": "xuě tài duō le, tā sǎo le bàn tiān, cái sǎo gān jìng yì xiǎo kuài dì fang.",
+   "en": "There's so much snow that after a long time she has cleared only a small patch.",
+   "tr": {
+    "vi": "Tuyết nhiều quá, dì quét mãi mới sạch được một khoảng nhỏ.",
+    "pt": "Tem tanta neve que, depois de muito tempo varrendo, ela só limpou um pedacinho.",
+    "es": "Hay tanta nieve que, después de mucho rato, solo ha limpiado un pedacito.",
+    "fr": "Il y a tellement de neige qu’après un long moment, elle n’a dégagé qu’un petit coin.",
+    "am": "በረዶው በጣም ብዙ ስለነበር ለረጅም ጊዜ ጠርገው ያጸዱት ትንሽ ቦታ ብቻ ነው።",
+    "fa": "برف انقدر زیاده که بعد از مدت‌ها فقط یه تکه‌ی کوچیک رو تموم کرده."
+   },
+   "start": 23.036,
+   "end": 28.964,
+   "tokens": [
+    [
+     "雪",
+     "xuě",
+     "snow; (literary) to wipe away (a humiliation etc)",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; (after a numeral) ... odd",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "扫",
+     "sǎo",
+     "to sweep (with a brush or broom)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "a long time; half of the day; quite a while",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "才",
+     "cái",
+     "then and only then; (before an expression of quantity) only",
+     ""
+    ],
+    [
+     "扫",
+     "sǎo",
+     "to sweep (with a brush or broom)",
+     ""
+    ],
+    [
+     "干净",
+     "gān jìng",
+     "clean; neat",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "块",
+     "kuài",
+     "lump; chunk; piece",
+     ""
+    ],
+    [
+     "地方",
+     "dì fang",
+     "place; location; area; space; territory; aspect; part",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克说：“阿姨，您休息一下，我来帮您！”",
+   "py": "Jié kè shuō: “ā yí, nín xiū xi yí xià, wǒ lái bāng nín!”",
+   "en": "Jack says, \"Auntie, take a rest. Let me help you!\"",
+   "tr": {
+    "vi": "Jack nói: “Dì ơi, dì nghỉ một chút đi, để cháu giúp dì!”",
+    "pt": "Jack diz: “Tia, descanse um pouco, eu ajudo a senhora!”",
+    "es": "Jack dice: «Señora, descanse un poco. ¡Yo la ayudo!».",
+    "fr": "Jack dit : « Tante Zhang, reposez-vous un peu, je vais vous aider ! »",
+    "am": "ጃክ «አክስቴ፣ ትንሽ ያርፉ፤ እኔ ላግዝዎት!» አለ።",
+    "fa": "جک می‌گه: «خاله، یه استراحتی بکن. بذار من کمکت کنم!»"
+   },
+   "start": 29.664,
+   "end": 34.656,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "休息",
+     "xiū xi",
+     "rest; to rest",
+     ""
+    ],
+    [
+     "一下",
+     "yī xià",
+     "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "帮",
+     "bāng",
+     "to help; for sb (i.e. as a help); to assist",
+     ""
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "过了一会儿，刘爷爷和李强也出来帮忙了。",
+   "py": "guò le yí huì r, Liú yé ye hé Lǐ Qiáng yě chū lái bāng máng le.",
+   "en": "After a while, Grandpa Liu and Li Qiang come out to help too.",
+   "tr": {
+    "vi": "Một lúc sau, ông Lưu và Lý Cường cũng ra giúp.",
+    "pt": "Pouco depois, o vovô Liu e o Li Qiang também saem para ajudar.",
+    "es": "Al rato, el abuelo Liu y Li Qiang también salen a ayudar.",
+    "fr": "Un peu plus tard, papi Liu et Li Qiang sortent aussi pour aider.",
+    "am": "ትንሽ ቆይቶ አያት ሊዩ እና ሊ ቺያንግም ሊያግዙ ወጡ።",
+    "fa": "بعد از مدتی، پدربزرگ لیو و لی چیانگم می‌ان کمک."
+   },
+   "start": 35.356,
+   "end": 39.652,
+   "tokens": [
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一会儿",
+     "yī huì r",
+     "a while; a moment; in a moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "出来",
+     "chū lái",
+     "to come out; to appear; to arise",
+     ""
+    ],
+    [
+     "帮忙",
+     "bāng máng",
+     "to help; to lend a hand; to do a favor",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "大家一边扫，一边聊天，一点儿也不觉得冷。",
+   "py": "dà jiā yì biān sǎo, yì biān liáo tiān, yì diǎn r yě bù jué de lěng.",
+   "en": "Everyone chats as they sweep, and nobody feels cold at all.",
+   "tr": {
+    "vi": "Mọi người vừa quét vừa trò chuyện, chẳng thấy lạnh chút nào.",
+    "pt": "Todos conversam enquanto varrem, e ninguém sente frio nenhum.",
+    "es": "Todos conversan mientras barren, y nadie siente nada de frío.",
+    "fr": "Tout le monde balaie en bavardant, et personne n’a froid du tout.",
+    "am": "ሁሉም እየጠረጉ ይጨዋወቱ ነበር፤ ምንም አልበረዳቸውም።",
+    "fa": "همه در حال جارو زدن گپ می‌زنن و هیچ‌کی اصلاً حس سرما نمی‌کنه."
+   },
+   "start": 40.352,
+   "end": 44.648,
+   "tokens": [
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "扫",
+     "sǎo",
+     "to sweep (with a brush or broom)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "聊天",
+     "liáo tiān",
+     "to chat; to gossip",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不觉",
+     "bù jué",
+     "unconsciously",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "冷",
+     "lěng",
+     "cold",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "不到一个小时，超市前面的路就干净了。",
+   "py": "bú dào yí gè xiǎo shí, chāo shì qián mian de lù jiù gān jìng le.",
+   "en": "In less than an hour, the road in front of the supermarket is clear.",
+   "tr": {
+    "vi": "Chưa đến một tiếng, con đường trước siêu thị đã sạch sẽ.",
+    "pt": "Em menos de uma hora, a rua na frente do supermercado está limpa.",
+    "es": "En menos de una hora, la calle frente al supermercado queda limpia.",
+    "fr": "En moins d’une heure, la rue devant le supermarché est dégagée.",
+    "am": "በአንድ ሰዓት ውስጥ ከሱፐርማርኬቱ ፊት ያለው መንገድ ጸዳ።",
+    "fa": "کمتر از یه ساعت، جلوی سوپرمارکت پاک می‌شه."
+   },
+   "start": 45.348,
+   "end": 49.596,
+   "tokens": [
+    [
+     "不到",
+     "bù dào",
+     "less than; not to arrive; not reaching",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "超市",
+     "chāo shì",
+     "supermarket (abbr. for 超级市场)",
+     ""
+    ],
+    [
+     "前面",
+     "qián miàn",
+     "in front; ahead; preceding",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "路",
+     "lù",
+     "road; journey; route",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "干净",
+     "gān jìng",
+     "clean; neat",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李强用剩下的雪做了一个大雪人。",
+   "py": "Lǐ Qiáng yòng shèng xià de xuě zuò le yí gè dà xuě rén.",
+   "en": "Li Qiang makes a big snowman out of the leftover snow.",
+   "tr": {
+    "vi": "Lý Cường dùng chỗ tuyết còn lại đắp một người tuyết thật to.",
+    "pt": "O Li Qiang faz um boneco de neve grande com a neve que sobrou.",
+    "es": "Con la nieve que sobró, Li Qiang hace un muñeco de nieve grande.",
+    "fr": "Avec la neige qui reste, Li Qiang fait un grand bonhomme de neige.",
+    "am": "ሊ ቺያንግ በተረፈው በረዶ ትልቅ የበረዶ ሰው ሠራ።",
+    "fa": "لی چیانگ از برف‌های اضافه یه آدم‌برفی بزرگ می‌سازه."
+   },
+   "start": 50.296,
+   "end": 53.872,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "剩下",
+     "shèng xià",
+     "to remain; to be left over",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "雪",
+     "xuě",
+     "snow; (literary) to wipe away (a humiliation etc)",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "大雪",
+     "dà xuě",
+     "Daxue or Great Snow, 21st of the 24 solar terms 二十四节气 7th-21st December",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷把自己的帽子给雪人戴上了。",
+   "py": "Liú yé ye bǎ zì jǐ de mào zi gěi xuě rén dài shàng le.",
+   "en": "Grandpa Liu puts his own hat on the snowman.",
+   "tr": {
+    "vi": "Ông Lưu đội mũ của mình cho người tuyết.",
+    "pt": "O vovô Liu coloca o próprio chapéu no boneco de neve.",
+    "es": "El abuelo Liu le pone su propio gorro al muñeco de nieve.",
+    "fr": "Papi Liu met son propre chapeau sur la tête du bonhomme de neige.",
+    "am": "አያት ሊዩ የራሳቸውን ኮፍያ ለበረዶው ሰው አጠለቁለት።",
+    "fa": "پدربزرگ لیو کلاه خودشو می‌ذاره سرِ آدم‌برفی."
+   },
+   "start": 54.572,
+   "end": 58.172,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "帽子",
+     "mào zi",
+     "hat; cap; (fig.) label",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "雪人",
+     "xuě rén",
+     "snowman; yeti",
+     ""
+    ],
+    [
+     "戴上",
+     "dài shang",
+     "to put on (hat etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "张阿姨从超市里拿出几杯热牛奶：“谢谢大家！今天的牛奶免费！”",
+   "py": "Zhāng ā yí cóng chāo shì lǐ ná chū jǐ bēi rè niú nǎi: “xiè xie dà jiā! jīn tiān de niú nǎi miǎn fèi!”",
+   "en": "Auntie Zhang brings a few cups of hot milk out of the shop. \"Thank you, everyone! The milk is free today!\"",
+   "tr": {
+    "vi": "Dì Trương mang từ trong siêu thị ra mấy cốc sữa nóng: “Cảm ơn mọi người! Sữa hôm nay miễn phí!”",
+    "pt": "A tia Zhang traz do supermercado alguns copos de leite quente: “Obrigada, pessoal! Hoje o leite é de graça!”",
+    "es": "La señora Zhang saca del supermercado unos vasos de leche caliente: «¡Gracias a todos! ¡Hoy la leche es gratis!».",
+    "fr": "Tante Zhang sort du supermarché avec quelques tasses de lait chaud : « Merci à tous ! Aujourd’hui, le lait est gratuit ! »",
+    "am": "እትዬ ዣንግ ከሱፐርማርኬቱ ጥቂት ብርጭቆ ትኩስ ወተት አመጡ። «ሁላችሁንም አመሰግናለሁ! የዛሬው ወተት በነፃ ነው!»",
+    "fa": "خاله ژانگ از مغازه چند تا لیوان شیر داغ میاره: «ممنون از همه! امروز شیرها مجانیه!»"
+   },
+   "start": 58.872,
+   "end": 65.304,
+   "tokens": [
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "从",
+     "cóng",
+     "(used before a negative) ever; from; through; via",
+     ""
+    ],
+    [
+     "超市",
+     "chāo shì",
+     "supermarket (abbr. for 超级市场)",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "几",
+     "jǐ",
+     "several; a few; how many; how much",
+     ""
+    ],
+    [
+     "杯",
+     "bēi",
+     "classifier for certain containers of liquids: glass, cup",
+     ""
+    ],
+    [
+     "热",
+     "rè",
+     "hot (of weather); to warm up; to heat up",
+     ""
+    ],
+    [
+     "牛奶",
+     "niú nǎi",
+     "cow's milk",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "牛奶",
+     "niú nǎi",
+     "cow's milk",
+     ""
+    ],
+    [
+     "免费",
+     "miǎn fèi",
+     "free (of charge)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克说：“在我们国家，很少下这么大的雪。”",
+   "py": "Jié kè shuō: “zài wǒ men guó jiā, hěn shǎo xià zhè me dà de xuě.”",
+   "en": "Jack says, \"In my country, it hardly ever snows this much.\"",
+   "tr": {
+    "vi": "Jack nói: “Ở nước cháu, rất ít khi tuyết rơi nhiều như thế này.”",
+    "pt": "Jack diz: “No meu país, quase nunca neva tanto assim.”",
+    "es": "Jack dice: «En mi país casi nunca nieva tanto».",
+    "fr": "Jack dit : « Dans mon pays, il neige rarement autant. »",
+    "am": "ጃክ «በእኛ አገር እንዲህ ያለ ብዙ በረዶ እምብዛም አይጥልም» አለ።",
+    "fa": "جک می‌گه: «تو کشور ما به این سختی برف نمیاد.»"
+   },
+   "start": 66.004,
+   "end": 71.452,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "国家",
+     "guó jiā",
+     "country; nation; state",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "少",
+     "shǎo",
+     "few; less; to lack",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "雪",
+     "xuě",
+     "snow; (literary) to wipe away (a humiliation etc)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷笑着说：“那你今天要多玩儿一会儿！”",
+   "py": "Liú yé ye xiào zhe shuō: “nà nǐ jīn tiān yào duō wán r yí huì r!”",
+   "en": "Grandpa Liu laughs. \"Then you should play out here a bit longer today!\"",
+   "tr": {
+    "vi": "Ông Lưu cười nói: “Vậy hôm nay cháu phải chơi thêm một lúc nữa nhé!”",
+    "pt": "O vovô Liu diz rindo: “Então hoje você tem que brincar mais um pouco!”",
+    "es": "El abuelo Liu dice riendo: «¡Entonces hoy juega un rato más!».",
+    "fr": "Papi Liu dit en riant : « Alors aujourd’hui, profite et joue un peu plus longtemps ! »",
+    "am": "አያት ሊዩ እየሳቁ «እንግዲያው ዛሬ ትንሽ ተጨማሪ ተጫወት!» አሉ።",
+    "fa": "پدربزرگ لیو می‌خنده: «پس امروز باید یه مدت بیشتر همین بیرون بازی کنی!»"
+   },
+   "start": 72.152,
+   "end": 76.232,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "need to; should; to want; to need; to ask for",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "玩儿",
+     "wán r",
+     "to play; to hang out; to have fun",
+     ""
+    ],
+    [
+     "一会儿",
+     "yī huì r",
+     "a moment; a while; in a moment",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "第二天，楼里的孩子们都叫这个雪人“刘爷爷”。",
+   "py": "dì èr tiān, lóu lǐ de hái zi men dōu jiào zhè ge xuě rén “Liú yé ye”.",
+   "en": "The next day, all the children in the building call the snowman \"Grandpa Liu\".",
+   "tr": {
+    "vi": "Hôm sau, bọn trẻ trong tòa nhà đều gọi người tuyết này là “ông Lưu”.",
+    "pt": "No dia seguinte, todas as crianças do prédio chamam o boneco de neve de “Vovô Liu”.",
+    "es": "Al día siguiente, todos los niños del edificio le dicen a ese muñeco de nieve «abuelo Liu».",
+    "fr": "Le lendemain, tous les enfants de l’immeuble appellent le bonhomme de neige « Papi Liu ».",
+    "am": "በማግስቱ በህንፃው ያሉ ልጆች ሁሉ ይሄን የበረዶ ሰው «አያት ሊዩ» ብለው ጠሩት።",
+    "fa": "فردا، همه‌ی بچه‌های ساختمون به آدم‌برفی می‌گن \"پدربزرگ لیو\"."
+   },
+   "start": 76.932,
+   "end": 81.948,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "楼",
+     "lóu",
+     "storied building; house with more than 1 story; floor",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "孩子们",
+     "hái zi men",
+     "children",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to call; to be called; to shout",
+     ""
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "雪人",
+     "xuě rén",
+     "snowman; yeti",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 249,
+ "first": "今年冬天的第一场雪下了一个晚上。",
+ "newWords": [
+  {
+   "w": "场",
+   "py": "chǎng",
+   "en": "measure word for events"
+  },
+  {
+   "w": "剩",
+   "py": "shèng",
+   "en": "to remain"
+  },
+  {
+   "w": "戴",
+   "py": "dài",
+   "en": "to wear"
+  },
+  {
+   "w": "免费",
+   "py": "miǎnfèi",
+   "en": "free of charge"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-06.mp3?v=1791720596"
 }

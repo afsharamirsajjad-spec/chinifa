@@ -1,2336 +1,2354 @@
 {
-  "id": "h4-44",
-  "level": 4,
-  "no": 44,
-  "title": "绿了的蒜",
-  "title_py": "lǜ le de suàn",
-  "title_en": "The garlic that turned green",
-  "title_tr": {
-    "am": "አረንጓዴ የሆነው ነጭ ሽንኩርት",
-    "fa": "سیر ترشی که سبز شد"
+ "id": "h4-44",
+ "level": 4,
+ "no": 44,
+ "title": "绿了的蒜",
+ "title_py": "lǜ le de suàn",
+ "title_en": "The garlic that turned green",
+ "title_tr": {
+  "am": "አረንጓዴ የሆነው ነጭ ሽንኩርት",
+  "fa": "سیر ترشی که سبز شد"
+ },
+ "topic": "festival",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h4-44.jpg",
+ "duration": 135.844,
+ "lines": [
+  {
+   "text": "农历腊月初八是腊八节。这天早上，刘爷爷请安娜到家里喝腊八粥。",
+   "py": "nóng lì là yuè chū bā shì là bā jié. zhè tiān zǎo shang, Liú yé ye qǐng Ān nà dào jiā lǐ hē là bā zhōu.",
+   "en": "The eighth day of the twelfth lunar month is the Laba Festival. That morning, Grandpa Liu invites Anna round for Laba porridge.",
+   "tr": {
+    "am": "በጨረቃ አቆጣጠር የአሥራ ሁለተኛው ወር ስምንተኛ ቀን የላባ በዓል ነው። በዚያ ጠዋት አያት ሊዩ አናን የላባ ገንፎ እንድትበላ ቤቱ ጋበዛት።",
+    "fa": "روز هشتم ماه دوازدهم قمری، جشن لاباست. همون صبح، پدربزرگ لیو آنا رو دعوت می‌کنه که فرنی لابا بخوره."
+   },
+   "start": 2.404,
+   "end": 9.484,
+   "tokens": [
+    [
+     "农历",
+     "nóng lì",
+     "the lunar calendar; the traditional Chinese calendar",
+     ""
+    ],
+    [
+     "腊月",
+     "là yuè",
+     "twelfth lunar month",
+     ""
+    ],
+    [
+     "初",
+     "chū",
+     "(bound form) (in lunar calendar dates, before numerals 1–10) days 1 to 10 of a month, as in 初三 \"the third\"",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "腊八节",
+     "là bā jié",
+     "Laba rice porridge festival, on the 8th day of the 12th lunar month",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "这天",
+     "zhè tiān",
+     "this day",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "请安",
+     "qǐng ān",
+     "to pay respects; to wish good health",
+     ""
+    ],
+    [
+     "娜",
+     "nà",
+     "used esp. in female names such as Anna 安娜 or Diana 黛安娜",
+     ""
+    ],
+    [
+     "到家",
+     "dào jiā",
+     "perfect; excellent; brought to the utmost degree",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "腊八粥",
+     "là bā zhōu",
+     "Laba congee, ceremonial rice porridge dish eaten on the 8th day of the 12th month in the Chinese calendar",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "festival",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h4-44.jpg",
-  "duration": 135.844,
-  "lines": [
-    {
-      "text": "农历腊月初八是腊八节。这天早上，刘爷爷请安娜到家里喝腊八粥。",
-      "py": "nóng lì là yuè chū bā shì là bā jié. zhè tiān zǎo shang, Liú yé ye qǐng Ān nà dào jiā lǐ hē là bā zhōu.",
-      "en": "The eighth day of the twelfth lunar month is the Laba Festival. That morning, Grandpa Liu invites Anna round for Laba porridge.",
-      "tr": {
-        "am": "በጨረቃ አቆጣጠር የአሥራ ሁለተኛው ወር ስምንተኛ ቀን የላባ በዓል ነው። በዚያ ጠዋት አያት ሊዩ አናን የላባ ገንፎ እንድትበላ ቤቱ ጋበዛት።"
-      },
-      "start": 2.404,
-      "end": 9.484,
-      "tokens": [
-        [
-          "农历",
-          "nóng lì",
-          "the lunar calendar; the traditional Chinese calendar",
-          ""
-        ],
-        [
-          "腊月",
-          "là yuè",
-          "twelfth lunar month",
-          ""
-        ],
-        [
-          "初",
-          "chū",
-          "(bound form) (in lunar calendar dates, before numerals 1–10) days 1 to 10 of a month, as in 初三 \"the third\"",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "腊八节",
-          "là bā jié",
-          "Laba rice porridge festival, on the 8th day of the 12th lunar month",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "这天",
-          "zhè tiān",
-          "this day",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "请安",
-          "qǐng ān",
-          "to pay respects; to wish good health",
-          ""
-        ],
-        [
-          "娜",
-          "nà",
-          "used esp. in female names such as Anna 安娜 or Diana 黛安娜",
-          ""
-        ],
-        [
-          "到家",
-          "dào jiā",
-          "perfect; excellent; brought to the utmost degree",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "腊八粥",
-          "là bā zhōu",
-          "Laba congee, ceremonial rice porridge dish eaten on the 8th day of the 12th month in the Chinese calendar",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "粥里有米、红豆、花生、红枣，还有好几种安娜叫不出名字的东西，又香又甜。",
-      "py": "zhōu lǐ yǒu mǐ, hóng dòu, huā shēng, hóng zǎo, hái yǒu hǎo jǐ zhǒng Ān nà jiào bù chū míng zi de dōng xi, yòu xiāng yòu tián.",
-      "en": "The porridge has rice, red beans, peanuts and red dates in it, plus several other things Anna can't name. It's fragrant and sweet.",
-      "tr": {
-        "am": "ገንፎው ውስጥ ሩዝ፣ ቀይ ባቄላ፣ ኦቾሎኒ፣ ቀይ ተምር እና አና ስማቸውን የማታውቃቸው ሌሎች በርካታ ነገሮች ነበሩ። መዓዛው ጥሩ፣ ጣዕሙም ጣፋጭ ነበር።"
-      },
-      "start": 10.184,
-      "end": 20.336,
-      "tokens": [
-        [
-          "粥",
-          "zhōu",
-          "porridge; congee; gruel",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "红豆",
-          "hóng dòu",
-          "azuki bean; red bean",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "花生",
-          "huā shēng",
-          "peanut",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "红枣",
-          "hóng zǎo",
-          "red date; jujube",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "好几",
-          "hǎo jǐ",
-          "several; quite a few",
-          ""
-        ],
-        [
-          "种",
-          "zhǒng",
-          "classifier for types, kinds, sorts; seed; species",
-          ""
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to shout; to call; to order",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "出名",
-          "chū míng",
-          "to lend one's name (to an event, endeavor etc)",
-          ""
-        ],
-        [
-          "字",
-          "zì",
-          "courtesy or style name traditionally given to males aged 20 in dynastic China",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "香",
-          "xiāng",
-          "fragrant; sweet smelling; aromatic",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "甜",
-          "tián",
-          "sweet; (fig.) pleasant; endearing; lovely",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "喝完粥，刘爷爷拿出一个玻璃瓶，里面装满了剥好的大蒜和醋。",
-      "py": "hē wán zhōu, Liú yé ye ná chū yí gè bō li píng, lǐ miàn zhuāng mǎn le bō hǎo de dà suàn hé cù.",
-      "en": "After the porridge, Grandpa Liu brings out a glass jar filled with peeled garlic cloves and vinegar.",
-      "tr": {
-        "am": "ገንፎውን ከጨረሱ በኋላ አያት ሊዩ የተላጠ ነጭ ሽንኩርትና ኮምጣጤ የሞላበት የብርጭቆ ጠርሙስ አወጣ።"
-      },
-      "start": 21.036,
-      "end": 27.66,
-      "tokens": [
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "粥",
-          "zhōu",
-          "porridge; congee; gruel",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "玻璃",
-          "bō li",
-          "glass; (slang) male homosexual",
-          ""
-        ],
-        [
-          "瓶",
-          "píng",
-          "bottle; vase; pitcher",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "里面",
-          "lǐ miàn",
-          "inside; interior; also pr.",
-          ""
-        ],
-        [
-          "装满",
-          "zhuāng mǎn",
-          "to fill up",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "剥",
-          "bāo",
-          "to peel; to skin; to shell",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "(after a personal pronoun) hello; good; appropriate; proper",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "大蒜",
-          "dà suàn",
-          "garlic",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "醋",
-          "cù",
-          "vinegar; jealousy (in love rivalry)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“这叫腊八蒜。今天泡上，到了除夕包饺子的时候，正好能吃。”",
-      "py": "“zhè jiào là bā suàn. jīn tiān pào shàng, dào le chú xī bāo jiǎo zi de shí hou, zhèng hǎo néng chī.”",
-      "en": "\"This is Laba garlic. If you soak it today, it'll be just right by the time we make dumplings on New Year's Eve.\"",
-      "tr": {
-        "am": "«ይህ የላባ ነጭ ሽንኩርት ይባላል። ዛሬ ከዘፈዘፍሽው፣ በአዲስ ዓመት ዋዜማ ዱምፕሊንግ ስንሠራ ለመብላት ልክ ይደርሳል።»"
-      },
-      "start": 28.36,
-      "end": 34.984,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to shout; to call; to order",
-          ""
-        ],
-        [
-          "腊",
-          "xī",
-          "dried meat; also pr.",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "蒜",
-          "suàn",
-          "garlic",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "泡",
-          "pào",
-          "to soak; to steep; to infuse; bubble; foam; blister",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "除夕",
-          "chú xī",
-          "lunar New Year's Eve",
-          ""
-        ],
-        [
-          "包饺子",
-          "bāo jiǎo zi",
-          "to wrap jiaozi (dumplings or potstickers)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "正好",
-          "zhèng hǎo",
-          "just (in time); just right; just enough",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜把瓶子带回家，放进了厨房的柜子里，后来就忘了。",
-      "py": "Ān nà bǎ píng zi dài huí jiā, fàng jìn le chú fáng de guì zi lǐ, hòu lái jiù wàng le.",
-      "en": "Anna takes the jar home, puts it in a kitchen cupboard, and then forgets all about it.",
-      "tr": {
-        "am": "አና ጠርሙሱን ቤቷ ወስዳ በኩሽና ቁም ሣጥን ውስጥ አስቀመጠችው፣ ከዚያም ረሳችው።"
-      },
-      "start": 35.684,
-      "end": 41.612,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "瓶子",
-          "píng zi",
-          "bottle",
-          ""
-        ],
-        [
-          "带回",
-          "dài huí",
-          "to bring back; to take back with one",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "放进",
-          "fàng jìn",
-          "to put into",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "厨房",
-          "chú fáng",
-          "kitchen",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "柜子",
-          "guì zi",
-          "cupboard; cabinet",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "后来",
-          "hòu lái",
-          "afterwards; later; newly arrived",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "忘",
-          "wàng",
-          "to forget; to overlook; to neglect",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "过了两个多星期，她找东西的时候打开柜子，吓了一跳。",
-      "py": "guò le liǎng gè duō xīng qī, tā zhǎo dōng xi de shí hou dǎ kāi guì zi, xià le yí tiào.",
-      "en": "More than two weeks later, she opens the cupboard looking for something and gets a fright.",
-      "tr": {
-        "am": "ከሁለት ሳምንት በላይ ካለፈ በኋላ የሆነ ነገር ስትፈልግ ቁም ሣጥኑን ከፈተች፣ እናም ደነገጠች።"
-      },
-      "start": 42.312,
-      "end": 47.808,
-      "tokens": [
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; some; both",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "多星",
-          "duō xīng",
-          "starry",
-          ""
-        ],
-        [
-          "期",
-          "qī",
-          "period; cycle; a period of time",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "找",
-          "zhǎo",
-          "to look for; to try to find; to call on sb",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "柜子",
-          "guì zi",
-          "cupboard; cabinet",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "吓",
-          "xià",
-          "to frighten; to scare",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "跳",
-          "tiào",
-          "to jump; to hop; to skip over",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "瓶子里的蒜全都变成了绿色，绿得发亮！",
-      "py": "píng zi lǐ de suàn quán dōu biàn chéng le lǜ sè, lǜ de fā liàng!",
-      "en": "All the garlic in the jar has turned green — bright, shiny green!",
-      "tr": {
-        "am": "በጠርሙሱ ውስጥ ያለው ነጭ ሽንኩርት በሙሉ አረንጓዴ ሆኗል፣ የሚያብረቀርቅ አረንጓዴ!"
-      },
-      "start": 48.508,
-      "end": 53.236,
-      "tokens": [
-        [
-          "瓶子",
-          "píng zi",
-          "bottle",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "蒜",
-          "suàn",
-          "garlic",
-          ""
-        ],
-        [
-          "全都",
-          "quán dōu",
-          "all; without exception",
-          ""
-        ],
-        [
-          "变成",
-          "biàn chéng",
-          "to turn into; to change into; to become",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "绿色",
-          "lǜ sè",
-          "green",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "绿",
-          "lǜ",
-          "green",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "发亮",
-          "fā liàng",
-          "shiny; to shine",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    },
-    {
-      "text": "安娜想：糟糕，一定是坏了。要是让刘爷爷知道，他肯定很难过。",
-      "py": "Ān nà xiǎng: zāo gāo, yí dìng shì huài le. yào shi ràng Liú yé ye zhī dào, tā kěn dìng hěn nán guò.",
-      "en": "Anna thinks: oh no, it must have gone bad. If Grandpa Liu finds out, he's sure to be upset.",
-      "tr": {
-        "am": "አና አሰበች፦ ወይኔ፣ በእርግጥ ተበላሽቷል። አያት ሊዩ ቢያውቅ በጣም ያዝናል።"
-      },
-      "start": 53.936,
-      "end": 61.52,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "糟糕",
-          "zāo gāo",
-          "too bad; what bad luck; bad",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "坏了",
-          "huài le",
-          "shoot!; gosh!; oh, no!",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "要是",
-          "yào shi",
-          "(coll.) if",
-          ""
-        ],
-        [
-          "让",
-          "ràng",
-          "to have sb do sth; to yield; to permit",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "知道",
-          "zhī dào",
-          "to know; to become aware of; also pr.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "肯定",
-          "kěn dìng",
-          "to be certain; to be positive; assuredly; definitely",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "难过",
-          "nán guò",
-          "to feel sad; to feel unwell; (of life) to be difficult",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她把蒜倒掉，把瓶子洗得干干净净，又去张阿姨店里买了新的蒜和醋，重新泡了一瓶。",
-      "py": "tā bǎ suàn dào diào, bǎ píng zi xǐ de gān gān jìng jìng, yòu qù Zhāng ā yí diàn lǐ mǎi le xīn de suàn hé cù, chóng xīn pào le yì píng.",
-      "en": "She throws the garlic away, washes the jar until it's spotless, buys new garlic and vinegar at Auntie Zhang's shop, and soaks a fresh jar.",
-      "tr": {
-        "am": "ነጭ ሽንኩርቱን ደፋችው፣ ጠርሙሱን ጥርት አድርጋ አጠበች፣ ከዚያም ከእትዬ ዣንግ ሱቅ አዲስ ነጭ ሽንኩርትና ኮምጣጤ ገዝታ እንደገና አንድ ጠርሙስ ዘፈዘፈች።"
-      },
-      "start": 62.22,
-      "end": 71.22,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "蒜",
-          "suàn",
-          "garlic",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to invert; to place upside down or frontside back",
-          ""
-        ],
-        [
-          "掉",
-          "diào",
-          "to fall; to drop; to lag behind",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "瓶子",
-          "píng zi",
-          "bottle",
-          ""
-        ],
-        [
-          "洗",
-          "xǐ",
-          "to wash; to bathe; to develop (photographs)",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "干",
-          "gān",
-          "dry; dried food; empty; hollow",
-          ""
-        ],
-        [
-          "干净",
-          "gān jìng",
-          "clean; neat",
-          ""
-        ],
-        [
-          "净",
-          "jìng",
-          "clean; completely; only",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(after a verb of motion indicates movement away from the speaker)",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "店",
-          "diàn",
-          "(bound form) shop; store; inn; old-style hotel",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "新",
-          "xīn",
-          "new; newly; meso- (chemistry)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "蒜",
-          "suàn",
-          "garlic",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "醋",
-          "cù",
-          "vinegar; jealousy (in love rivalry)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "重新",
-          "chóng xīn",
-          "again; once more; re-",
-          ""
-        ],
-        [
-          "泡",
-          "pào",
-          "to soak; to steep; to infuse; bubble; foam; blister",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "瓶",
-          "píng",
-          "classifier for wine and liquids; bottle; vase",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "除夕那天，大家在刘爷爷家包饺子。刘爷爷问：“安娜，你的腊八蒜带来了吗？”",
-      "py": "chú xī nà tiān, dà jiā zài Liú yé ye jiā bāo jiǎo zi. Liú yé ye wèn: “Ān nà, nǐ de là bā suàn dài lái le ma?”",
-      "en": "On New Year's Eve, everyone is making dumplings at Grandpa Liu's. He asks, \"Anna, have you brought your Laba garlic?\"",
-      "tr": {
-        "am": "በአዲስ ዓመት ዋዜማ ሁሉም በአያት ሊዩ ቤት ዱምፕሊንግ ይሠሩ ነበር። አያት ሊዩ ጠየቀ፦ «አና፣ የላባ ነጭ ሽንኩርትሽን አመጣሽ?»"
-      },
-      "start": 71.92,
-      "end": 80.44,
-      "tokens": [
-        [
-          "除夕",
-          "chú xī",
-          "lunar New Year's Eve",
-          ""
-        ],
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "包饺子",
-          "bāo jiǎo zi",
-          "to wrap jiaozi (dumplings or potstickers)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "腊",
-          "xī",
-          "dried meat; also pr.",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "蒜",
-          "suàn",
-          "garlic",
-          ""
-        ],
-        [
-          "带来",
-          "dài lái",
-          "to bring; (fig.) to bring about; to produce",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜拿出瓶子，里面的蒜白白的，一点儿也没变。",
-      "py": "Ān nà ná chū píng zi, lǐ miàn de suàn bái bái de, yì diǎn r yě méi biàn.",
-      "en": "Anna takes out the jar. The garlic inside is white and hasn't changed at all.",
-      "tr": {
-        "am": "አና ጠርሙሱን አወጣች። ውስጡ ያለው ነጭ ሽንኩርት ነጭ ነበር፣ ምንም አልተለወጠም።"
-      },
-      "start": 81.14,
-      "end": 86.348,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "瓶子",
-          "píng zi",
-          "bottle",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "里面",
-          "lǐ miàn",
-          "inside; interior; also pr.",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "蒜",
-          "suàn",
-          "garlic",
-          ""
-        ],
-        [
-          "白白",
-          "bái bái",
-          "white; in vain; to no purpose",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "变",
-          "biàn",
-          "to change; to become different; to transform",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷很奇怪：“怎么还是白的？泡了这么多天，应该绿了啊。”",
-      "py": "Liú yé ye hěn qí guài: “zěn me hái shi bái de? pào le zhè me duō tiān, yīng gāi lǜ le a.”",
-      "en": "Grandpa Liu is puzzled. \"Why is it still white? After all this time, it should be green.\"",
-      "tr": {
-        "am": "አያት ሊዩ ገረመው፦ «እንዴት አሁንም ነጭ ሆነ? ይህን ያህል ቀን ተዘፍዝፎ አረንጓዴ መሆን ነበረበት እኮ።»"
-      },
-      "start": 87.048,
-      "end": 93.672,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "奇怪",
-          "qí guài",
-          "strange; odd; to marvel",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "why?; how?; what?",
-          ""
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "白",
-          "bái",
-          "white; in vain; free of charge",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "泡",
-          "pào",
-          "bubble; foam; blister; to soak; to steep; to infuse",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "(after a numeral) ... odd; many; much; more; a lot of",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "应该",
-          "yīng gāi",
-          "ought to; should; must",
-          ""
-        ],
-        [
-          "绿",
-          "lǜ",
-          "green",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "啊",
-          "a",
-          "modal particle ending sentence, showing affirmation, approval, or consent",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜愣住了：“应该……是绿的？”",
-      "py": "Ān nà lèng zhù le: “yīng gāi…… shì lǜ de?”",
-      "en": "Anna is stunned. \"It's... supposed to be green?\"",
-      "tr": {
-        "am": "አና ደንግጣ ቆመች፦ «አረንጓዴ… መሆን ነበረበት?»"
-      },
-      "start": 94.372,
-      "end": 98.164,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "愣",
-          "lèng",
-          "to look distracted; to stare blankly; distracted",
-          ""
-        ],
-        [
-          "住",
-          "zhù",
-          "to live; to reside; to stay; to stop; to cease",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "应该",
-          "yīng gāi",
-          "ought to; should; must",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "绿",
-          "lǜ",
-          "green",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷打开自己的瓶子给她看：满满一瓶绿绿的蒜，像玉一样漂亮。",
-      "py": "Liú yé ye dǎ kāi zì jǐ de píng zi gěi tā kàn: mǎn mǎn yì píng lǜ lǜ de suàn, xiàng yù yí yàng piào liang.",
-      "en": "Grandpa Liu opens his own jar to show her: a whole jar of green garlic, as beautiful as jade.",
-      "tr": {
-        "am": "አያት ሊዩ የራሱን ጠርሙስ ከፍቶ አሳያት፦ ሙሉ ጠርሙስ አረንጓዴ ነጭ ሽንኩርት፣ እንደ ዕንቁ የሚያምር።"
-      },
-      "start": 98.864,
-      "end": 105.776,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "瓶子",
-          "píng zi",
-          "bottle",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "满满",
-          "mǎn mǎn",
-          "full; closely packed",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "瓶",
-          "píng",
-          "classifier for wine and liquids; bottle; vase",
-          ""
-        ],
-        [
-          "绿绿",
-          "lǜ lǜ",
-          "(derog.) (slang) Muslim person",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "蒜",
-          "suàn",
-          "garlic",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "像",
-          "xiàng",
-          "to resemble; to be like; to look as if",
-          ""
-        ],
-        [
-          "玉",
-          "yù",
-          "jade",
-          ""
-        ],
-        [
-          "一样",
-          "yī yàng",
-          "same; like; equal to",
-          ""
-        ],
-        [
-          "漂亮",
-          "piào liang",
-          "pretty; beautiful",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“腊八蒜就是要变绿才好吃。蒜绿了，年也就到了。”",
-      "py": "“là bā suàn jiù shì yào biàn lǜ cái hǎo chī. suàn lǜ le, nián yě jiù dào le.”",
-      "en": "\"Laba garlic only tastes good once it turns green. When the garlic goes green, the New Year is here.\"",
-      "tr": {
-        "am": "«የላባ ነጭ ሽንኩርት የሚጣፍጠው አረንጓዴ ሲሆን ነው። ነጭ ሽንኩርቱ አረንጓዴ ሲሆን አዲስ ዓመቱም ደረሰ ማለት ነው።»"
-      },
-      "start": 106.476,
-      "end": 112.164,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "腊",
-          "xī",
-          "dried meat; also pr.",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "蒜",
-          "suàn",
-          "garlic",
-          ""
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "only; simply; just; exactly; precisely",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "变",
-          "biàn",
-          "to change; to become different; to transform",
-          ""
-        ],
-        [
-          "绿",
-          "lǜ",
-          "green",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "then and only then; (before an expression of quantity) only",
-          ""
-        ],
-        [
-          "好吃",
-          "hǎo chī",
-          "tasty; delicious",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "蒜",
-          "suàn",
-          "garlic",
-          ""
-        ],
-        [
-          "绿",
-          "lǜ",
-          "green",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "only; as little as",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜不好意思地把事情说了一遍，大家笑得饺子都包不下去了。",
-      "py": "Ān nà bù hǎo yì sī de bǎ shì qing shuō le yí biàn, dà jiā xiào de jiǎo zi dōu bāo bú xià qù le.",
-      "en": "Anna sheepishly tells them what happened, and everyone laughs so hard they can't carry on making dumplings.",
-      "tr": {
-        "am": "አና አፍራ የሆነውን ሁሉ ተናገረች፣ ሁሉም ከመሳቃቸው የተነሳ ዱምፕሊንግ መሥራት አቃታቸው።"
-      },
-      "start": 112.864,
-      "end": 118.816,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to feel embarrassed; to find it embarrassing",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "事情",
-          "shì qing",
-          "affair; matter; thing; business",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一遍",
-          "yī biàn",
-          "one time (all the way through); once through",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "to cover; to wrap; to hold",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "下去",
-          "xià qù",
-          "to go down; to descend; to go on",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷给她夹了一瓣绿蒜。安娜咬了一口，又酸又辣，配饺子正好。",
-      "py": "Liú yé ye gěi tā jiā le yí bàn lǜ suàn. Ān nà yǎo le yì kǒu, yòu suān yòu là, pèi jiǎo zi zhèng hǎo.",
-      "en": "Grandpa Liu picks out a green clove for her. Anna takes a bite. It's sour and sharp, perfect with dumplings.",
-      "tr": {
-        "am": "አያት ሊዩ አንድ አረንጓዴ ፍሬ ነጭ ሽንኩርት አነሳላት። አና ነከሰችው፦ ኮምጣጣና የሚያቃጥል ሆኖ ከዱምፕሊንግ ጋር በጣም ይስማማል።"
-      },
-      "start": 119.516,
-      "end": 126.86,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "夹",
-          "jiā",
-          "to press from either side; to place in between; to sandwich",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "瓣",
-          "bàn",
-          "clove (of garlic); classifier for pieces, segments etc",
-          ""
-        ],
-        [
-          "绿",
-          "lǜ",
-          "green",
-          ""
-        ],
-        [
-          "蒜",
-          "suàn",
-          "garlic",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "咬",
-          "yǎo",
-          "to bite; to nip",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一口",
-          "yī kǒu",
-          "a bite; readily; flatly (deny, admit and so on)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "酸",
-          "suān",
-          "sour; tart; sick at heart",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "辣",
-          "là",
-          "hot (spicy); pungent",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "配",
-          "pèi",
-          "to join; to fit; to mate",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "正好",
-          "zhèng hǎo",
-          "just (in time); just right; just enough",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她说：“明年腊八，我也泡一瓶。这次，绿得越漂亮越好！”",
-      "py": "tā shuō: “míng nián là bā, wǒ yě pào yì píng. zhè cì, lǜ de yuè piào liang yuè hǎo!”",
-      "en": "She says, \"Next Laba, I'll soak a jar too. And this time, the greener the better!\"",
-      "tr": {
-        "am": "እንዲህ አለች፦ «በሚቀጥለው ላባ እኔም አንድ ጠርሙስ እዘፈዝፋለሁ። በዚህ ጊዜ ደግሞ አረንጓዴነቱ ባማረ ቁጥር ይሻላል!»"
-      },
-      "start": 127.56,
-      "end": 135.144,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "明年",
-          "míng nián",
-          "next year",
-          ""
-        ],
-        [
-          "腊",
-          "xī",
-          "dried meat; also pr.",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "泡",
-          "pào",
-          "to soak; to steep; to infuse; bubble; foam; blister",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "瓶",
-          "píng",
-          "classifier for wine and liquids; bottle; vase",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "次",
-          "cì",
-          "classifier for enumerated events: time; next in sequence",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "绿",
-          "lǜ",
-          "green",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "to exceed; to climb over; to surpass",
-          ""
-        ],
-        [
-          "漂亮",
-          "piào liang",
-          "pretty; beautiful",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "to exceed; to climb over; to surpass",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 421,
-  "first": "农历腊月初八是腊八节。这天早上，刘爷爷请安娜到家里喝腊八粥。",
-  "newWords": [
-    {
-      "w": "糟糕",
-      "py": "zāogāo",
-      "en": "extremely bad or unfortunate situation"
-    },
-    {
-      "w": "肯定",
-      "py": "kěndìng",
-      "en": "definitely"
-    },
-    {
-      "w": "重新",
-      "py": "chóngxīn",
-      "en": "again"
-    },
-    {
-      "w": "酸",
-      "py": "suān",
-      "en": "sour"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h4-44.mp3?v=1791721661"
+  {
+   "text": "粥里有米、红豆、花生、红枣，还有好几种安娜叫不出名字的东西，又香又甜。",
+   "py": "zhōu lǐ yǒu mǐ, hóng dòu, huā shēng, hóng zǎo, hái yǒu hǎo jǐ zhǒng Ān nà jiào bù chū míng zi de dōng xi, yòu xiāng yòu tián.",
+   "en": "The porridge has rice, red beans, peanuts and red dates in it, plus several other things Anna can't name. It's fragrant and sweet.",
+   "tr": {
+    "am": "ገንፎው ውስጥ ሩዝ፣ ቀይ ባቄላ፣ ኦቾሎኒ፣ ቀይ ተምር እና አና ስማቸውን የማታውቃቸው ሌሎች በርካታ ነገሮች ነበሩ። መዓዛው ጥሩ፣ ጣዕሙም ጣፋጭ ነበር።",
+    "fa": "توی فرنی برنج، لوبیا قرمز، بادام‌زمینی و خرمای قرمز هست، به‌علاوه‌ی چند تا چیز دیگه که آنا اسمشون رو نمی‌دونه. خوش‌عطر و شیرینه."
+   },
+   "start": 10.184,
+   "end": 20.336,
+   "tokens": [
+    [
+     "粥",
+     "zhōu",
+     "porridge; congee; gruel",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "红豆",
+     "hóng dòu",
+     "azuki bean; red bean",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "花生",
+     "huā shēng",
+     "peanut",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "红枣",
+     "hóng zǎo",
+     "red date; jujube",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "好几",
+     "hǎo jǐ",
+     "several; quite a few",
+     ""
+    ],
+    [
+     "种",
+     "zhǒng",
+     "classifier for types, kinds, sorts; seed; species",
+     ""
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to shout; to call; to order",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "出名",
+     "chū míng",
+     "to lend one's name (to an event, endeavor etc)",
+     ""
+    ],
+    [
+     "字",
+     "zì",
+     "courtesy or style name traditionally given to males aged 20 in dynastic China",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "香",
+     "xiāng",
+     "fragrant; sweet smelling; aromatic",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "甜",
+     "tián",
+     "sweet; (fig.) pleasant; endearing; lovely",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "喝完粥，刘爷爷拿出一个玻璃瓶，里面装满了剥好的大蒜和醋。",
+   "py": "hē wán zhōu, Liú yé ye ná chū yí gè bō li píng, lǐ miàn zhuāng mǎn le bō hǎo de dà suàn hé cù.",
+   "en": "After the porridge, Grandpa Liu brings out a glass jar filled with peeled garlic cloves and vinegar.",
+   "tr": {
+    "am": "ገንፎውን ከጨረሱ በኋላ አያት ሊዩ የተላጠ ነጭ ሽንኩርትና ኮምጣጤ የሞላበት የብርጭቆ ጠርሙስ አወጣ።",
+    "fa": "بعد از فرنی، پدربزرگ لیو یه شیشه پر از سیرهای پوست‌کنده و سرکه درمیاره."
+   },
+   "start": 21.036,
+   "end": 27.66,
+   "tokens": [
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "粥",
+     "zhōu",
+     "porridge; congee; gruel",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "玻璃",
+     "bō li",
+     "glass; (slang) male homosexual",
+     ""
+    ],
+    [
+     "瓶",
+     "píng",
+     "bottle; vase; pitcher",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "里面",
+     "lǐ miàn",
+     "inside; interior; also pr.",
+     ""
+    ],
+    [
+     "装满",
+     "zhuāng mǎn",
+     "to fill up",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "剥",
+     "bāo",
+     "to peel; to skin; to shell",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "(after a personal pronoun) hello; good; appropriate; proper",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "大蒜",
+     "dà suàn",
+     "garlic",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "醋",
+     "cù",
+     "vinegar; jealousy (in love rivalry)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“这叫腊八蒜。今天泡上，到了除夕包饺子的时候，正好能吃。”",
+   "py": "“zhè jiào là bā suàn. jīn tiān pào shàng, dào le chú xī bāo jiǎo zi de shí hou, zhèng hǎo néng chī.”",
+   "en": "\"This is Laba garlic. If you soak it today, it'll be just right by the time we make dumplings on New Year's Eve.\"",
+   "tr": {
+    "am": "«ይህ የላባ ነጭ ሽንኩርት ይባላል። ዛሬ ከዘፈዘፍሽው፣ በአዲስ ዓመት ዋዜማ ዱምፕሊንግ ስንሠራ ለመብላት ልክ ይደርሳል።»",
+    "fa": "«این سیر لاباست. اگه امروز بخیسونیش، تا وقتی که شب سال نو راویولی می‌سازیم، درست می‌شه.»"
+   },
+   "start": 28.36,
+   "end": 34.984,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to shout; to call; to order",
+     ""
+    ],
+    [
+     "腊",
+     "xī",
+     "dried meat; also pr.",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "蒜",
+     "suàn",
+     "garlic",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "泡",
+     "pào",
+     "to soak; to steep; to infuse; bubble; foam; blister",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "除夕",
+     "chú xī",
+     "lunar New Year's Eve",
+     ""
+    ],
+    [
+     "包饺子",
+     "bāo jiǎo zi",
+     "to wrap jiaozi (dumplings or potstickers)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "正好",
+     "zhèng hǎo",
+     "just (in time); just right; just enough",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜把瓶子带回家，放进了厨房的柜子里，后来就忘了。",
+   "py": "Ān nà bǎ píng zi dài huí jiā, fàng jìn le chú fáng de guì zi lǐ, hòu lái jiù wàng le.",
+   "en": "Anna takes the jar home, puts it in a kitchen cupboard, and then forgets all about it.",
+   "tr": {
+    "am": "አና ጠርሙሱን ቤቷ ወስዳ በኩሽና ቁም ሣጥን ውስጥ አስቀመጠችው፣ ከዚያም ረሳችው።",
+    "fa": "آنا شیشه رو می‌بره خونه، می‌ذاره توی یه کابینت آشپزخونه و بعدش کامل یادش می‌ره."
+   },
+   "start": 35.684,
+   "end": 41.612,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "瓶子",
+     "píng zi",
+     "bottle",
+     ""
+    ],
+    [
+     "带回",
+     "dài huí",
+     "to bring back; to take back with one",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "放进",
+     "fàng jìn",
+     "to put into",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "厨房",
+     "chú fáng",
+     "kitchen",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "柜子",
+     "guì zi",
+     "cupboard; cabinet",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "后来",
+     "hòu lái",
+     "afterwards; later; newly arrived",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "忘",
+     "wàng",
+     "to forget; to overlook; to neglect",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "过了两个多星期，她找东西的时候打开柜子，吓了一跳。",
+   "py": "guò le liǎng gè duō xīng qī, tā zhǎo dōng xi de shí hou dǎ kāi guì zi, xià le yí tiào.",
+   "en": "More than two weeks later, she opens the cupboard looking for something and gets a fright.",
+   "tr": {
+    "am": "ከሁለት ሳምንት በላይ ካለፈ በኋላ የሆነ ነገር ስትፈልግ ቁም ሣጥኑን ከፈተች፣ እናም ደነገጠች።",
+    "fa": "بیش از دو هفته بعد، دنبال یه چیزی کابینت رو باز می‌کنه و جا می‌خوره."
+   },
+   "start": 42.312,
+   "end": 47.808,
+   "tokens": [
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; some; both",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "多星",
+     "duō xīng",
+     "starry",
+     ""
+    ],
+    [
+     "期",
+     "qī",
+     "period; cycle; a period of time",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "找",
+     "zhǎo",
+     "to look for; to try to find; to call on sb",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "柜子",
+     "guì zi",
+     "cupboard; cabinet",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "吓",
+     "xià",
+     "to frighten; to scare",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "跳",
+     "tiào",
+     "to jump; to hop; to skip over",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "瓶子里的蒜全都变成了绿色，绿得发亮！",
+   "py": "píng zi lǐ de suàn quán dōu biàn chéng le lǜ sè, lǜ de fā liàng!",
+   "en": "All the garlic in the jar has turned green — bright, shiny green!",
+   "tr": {
+    "am": "በጠርሙሱ ውስጥ ያለው ነጭ ሽንኩርት በሙሉ አረንጓዴ ሆኗል፣ የሚያብረቀርቅ አረንጓዴ!",
+    "fa": "همه‌ی سیرهای توی شیشه سبز شدن — یه سبزِ روشن و براق!"
+   },
+   "start": 48.508,
+   "end": 53.236,
+   "tokens": [
+    [
+     "瓶子",
+     "píng zi",
+     "bottle",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "蒜",
+     "suàn",
+     "garlic",
+     ""
+    ],
+    [
+     "全都",
+     "quán dōu",
+     "all; without exception",
+     ""
+    ],
+    [
+     "变成",
+     "biàn chéng",
+     "to turn into; to change into; to become",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "绿色",
+     "lǜ sè",
+     "green",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "绿",
+     "lǜ",
+     "green",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "发亮",
+     "fā liàng",
+     "shiny; to shine",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  },
+  {
+   "text": "安娜想：糟糕，一定是坏了。要是让刘爷爷知道，他肯定很难过。",
+   "py": "Ān nà xiǎng: zāo gāo, yí dìng shì huài le. yào shi ràng Liú yé ye zhī dào, tā kěn dìng hěn nán guò.",
+   "en": "Anna thinks: oh no, it must have gone bad. If Grandpa Liu finds out, he's sure to be upset.",
+   "tr": {
+    "am": "አና አሰበች፦ ወይኔ፣ በእርግጥ ተበላሽቷል። አያት ሊዩ ቢያውቅ በጣም ያዝናል።",
+    "fa": "آنا فکر می‌کنه: وای، حتماً خراب شده. اگه پدربزرگ لیو بفهمه، حتماً ناراحت می‌شه."
+   },
+   "start": 53.936,
+   "end": 61.52,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "糟糕",
+     "zāo gāo",
+     "too bad; what bad luck; bad",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "坏了",
+     "huài le",
+     "shoot!; gosh!; oh, no!",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "要是",
+     "yào shi",
+     "(coll.) if",
+     ""
+    ],
+    [
+     "让",
+     "ràng",
+     "to have sb do sth; to yield; to permit",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "知道",
+     "zhī dào",
+     "to know; to become aware of; also pr.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "肯定",
+     "kěn dìng",
+     "to be certain; to be positive; assuredly; definitely",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "难过",
+     "nán guò",
+     "to feel sad; to feel unwell; (of life) to be difficult",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她把蒜倒掉，把瓶子洗得干干净净，又去张阿姨店里买了新的蒜和醋，重新泡了一瓶。",
+   "py": "tā bǎ suàn dào diào, bǎ píng zi xǐ de gān gān jìng jìng, yòu qù Zhāng ā yí diàn lǐ mǎi le xīn de suàn hé cù, chóng xīn pào le yì píng.",
+   "en": "She throws the garlic away, washes the jar until it's spotless, buys new garlic and vinegar at Auntie Zhang's shop, and soaks a fresh jar.",
+   "tr": {
+    "am": "ነጭ ሽንኩርቱን ደፋችው፣ ጠርሙሱን ጥርት አድርጋ አጠበች፣ ከዚያም ከእትዬ ዣንግ ሱቅ አዲስ ነጭ ሽንኩርትና ኮምጣጤ ገዝታ እንደገና አንድ ጠርሙስ ዘፈዘፈች።",
+    "fa": "سیرها رو می‌ندازه دور، شیشه رو تا جایی که تمیز تمیزه می‌شوره، از مغازه‌ی خاله ژانگ سیر و سرکه‌ی نو می‌خره و یه شیشه‌ی تازه می‌خیسونه."
+   },
+   "start": 62.22,
+   "end": 71.22,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "蒜",
+     "suàn",
+     "garlic",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to invert; to place upside down or frontside back",
+     ""
+    ],
+    [
+     "掉",
+     "diào",
+     "to fall; to drop; to lag behind",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "瓶子",
+     "píng zi",
+     "bottle",
+     ""
+    ],
+    [
+     "洗",
+     "xǐ",
+     "to wash; to bathe; to develop (photographs)",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "干",
+     "gān",
+     "dry; dried food; empty; hollow",
+     ""
+    ],
+    [
+     "干净",
+     "gān jìng",
+     "clean; neat",
+     ""
+    ],
+    [
+     "净",
+     "jìng",
+     "clean; completely; only",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(after a verb of motion indicates movement away from the speaker)",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "店",
+     "diàn",
+     "(bound form) shop; store; inn; old-style hotel",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "新",
+     "xīn",
+     "new; newly; meso- (chemistry)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "蒜",
+     "suàn",
+     "garlic",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "醋",
+     "cù",
+     "vinegar; jealousy (in love rivalry)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "重新",
+     "chóng xīn",
+     "again; once more; re-",
+     ""
+    ],
+    [
+     "泡",
+     "pào",
+     "to soak; to steep; to infuse; bubble; foam; blister",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "瓶",
+     "píng",
+     "classifier for wine and liquids; bottle; vase",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "除夕那天，大家在刘爷爷家包饺子。刘爷爷问：“安娜，你的腊八蒜带来了吗？”",
+   "py": "chú xī nà tiān, dà jiā zài Liú yé ye jiā bāo jiǎo zi. Liú yé ye wèn: “Ān nà, nǐ de là bā suàn dài lái le ma?”",
+   "en": "On New Year's Eve, everyone is making dumplings at Grandpa Liu's. He asks, \"Anna, have you brought your Laba garlic?\"",
+   "tr": {
+    "am": "በአዲስ ዓመት ዋዜማ ሁሉም በአያት ሊዩ ቤት ዱምፕሊንግ ይሠሩ ነበር። አያት ሊዩ ጠየቀ፦ «አና፣ የላባ ነጭ ሽንኩርትሽን አመጣሽ?»",
+    "fa": "شب سال نو، همه توی خونه‌ی پدربزرگ لیو دارن راویولی می‌سازن. اون می‌پرسه: «آنا، سیر لابات رو آوردی؟»"
+   },
+   "start": 71.92,
+   "end": 80.44,
+   "tokens": [
+    [
+     "除夕",
+     "chú xī",
+     "lunar New Year's Eve",
+     ""
+    ],
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "包饺子",
+     "bāo jiǎo zi",
+     "to wrap jiaozi (dumplings or potstickers)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "腊",
+     "xī",
+     "dried meat; also pr.",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "蒜",
+     "suàn",
+     "garlic",
+     ""
+    ],
+    [
+     "带来",
+     "dài lái",
+     "to bring; (fig.) to bring about; to produce",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜拿出瓶子，里面的蒜白白的，一点儿也没变。",
+   "py": "Ān nà ná chū píng zi, lǐ miàn de suàn bái bái de, yì diǎn r yě méi biàn.",
+   "en": "Anna takes out the jar. The garlic inside is white and hasn't changed at all.",
+   "tr": {
+    "am": "አና ጠርሙሱን አወጣች። ውስጡ ያለው ነጭ ሽንኩርት ነጭ ነበር፣ ምንም አልተለወጠም።",
+    "fa": "آنا شیشه رو درمیاره. سیرهای توش سفیدن و اصلاً عوض نشدن."
+   },
+   "start": 81.14,
+   "end": 86.348,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "瓶子",
+     "píng zi",
+     "bottle",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "里面",
+     "lǐ miàn",
+     "inside; interior; also pr.",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "蒜",
+     "suàn",
+     "garlic",
+     ""
+    ],
+    [
+     "白白",
+     "bái bái",
+     "white; in vain; to no purpose",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "变",
+     "biàn",
+     "to change; to become different; to transform",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷很奇怪：“怎么还是白的？泡了这么多天，应该绿了啊。”",
+   "py": "Liú yé ye hěn qí guài: “zěn me hái shi bái de? pào le zhè me duō tiān, yīng gāi lǜ le a.”",
+   "en": "Grandpa Liu is puzzled. \"Why is it still white? After all this time, it should be green.\"",
+   "tr": {
+    "am": "አያት ሊዩ ገረመው፦ «እንዴት አሁንም ነጭ ሆነ? ይህን ያህል ቀን ተዘፍዝፎ አረንጓዴ መሆን ነበረበት እኮ።»",
+    "fa": "پدربزرگ لیو گیج می‌شه: «چرا هنوز سفیده؟ بعد از این همه مدت، باید سبز می‌شد.»"
+   },
+   "start": 87.048,
+   "end": 93.672,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "奇怪",
+     "qí guài",
+     "strange; odd; to marvel",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "why?; how?; what?",
+     ""
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "白",
+     "bái",
+     "white; in vain; free of charge",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "泡",
+     "pào",
+     "bubble; foam; blister; to soak; to steep; to infuse",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "(after a numeral) ... odd; many; much; more; a lot of",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "应该",
+     "yīng gāi",
+     "ought to; should; must",
+     ""
+    ],
+    [
+     "绿",
+     "lǜ",
+     "green",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "啊",
+     "a",
+     "modal particle ending sentence, showing affirmation, approval, or consent",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜愣住了：“应该……是绿的？”",
+   "py": "Ān nà lèng zhù le: “yīng gāi…… shì lǜ de?”",
+   "en": "Anna is stunned. \"It's... supposed to be green?\"",
+   "tr": {
+    "am": "አና ደንግጣ ቆመች፦ «አረንጓዴ… መሆን ነበረበት?»",
+    "fa": "آنا خشکش می‌زنه: «باید... باید سبز می‌شد؟»"
+   },
+   "start": 94.372,
+   "end": 98.164,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "愣",
+     "lèng",
+     "to look distracted; to stare blankly; distracted",
+     ""
+    ],
+    [
+     "住",
+     "zhù",
+     "to live; to reside; to stay; to stop; to cease",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "应该",
+     "yīng gāi",
+     "ought to; should; must",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "绿",
+     "lǜ",
+     "green",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷打开自己的瓶子给她看：满满一瓶绿绿的蒜，像玉一样漂亮。",
+   "py": "Liú yé ye dǎ kāi zì jǐ de píng zi gěi tā kàn: mǎn mǎn yì píng lǜ lǜ de suàn, xiàng yù yí yàng piào liang.",
+   "en": "Grandpa Liu opens his own jar to show her: a whole jar of green garlic, as beautiful as jade.",
+   "tr": {
+    "am": "አያት ሊዩ የራሱን ጠርሙስ ከፍቶ አሳያት፦ ሙሉ ጠርሙስ አረንጓዴ ነጭ ሽንኩርት፣ እንደ ዕንቁ የሚያምር።",
+    "fa": "پدربزرگ لیو شیشه‌ی خودش رو باز می‌کنه که نشونش بده: یه شیشه کامل سیر سبز، به قشنگی یشم."
+   },
+   "start": 98.864,
+   "end": 105.776,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "瓶子",
+     "píng zi",
+     "bottle",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "满满",
+     "mǎn mǎn",
+     "full; closely packed",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "瓶",
+     "píng",
+     "classifier for wine and liquids; bottle; vase",
+     ""
+    ],
+    [
+     "绿绿",
+     "lǜ lǜ",
+     "(derog.) (slang) Muslim person",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "蒜",
+     "suàn",
+     "garlic",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "像",
+     "xiàng",
+     "to resemble; to be like; to look as if",
+     ""
+    ],
+    [
+     "玉",
+     "yù",
+     "jade",
+     ""
+    ],
+    [
+     "一样",
+     "yī yàng",
+     "same; like; equal to",
+     ""
+    ],
+    [
+     "漂亮",
+     "piào liang",
+     "pretty; beautiful",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“腊八蒜就是要变绿才好吃。蒜绿了，年也就到了。”",
+   "py": "“là bā suàn jiù shì yào biàn lǜ cái hǎo chī. suàn lǜ le, nián yě jiù dào le.”",
+   "en": "\"Laba garlic only tastes good once it turns green. When the garlic goes green, the New Year is here.\"",
+   "tr": {
+    "am": "«የላባ ነጭ ሽንኩርት የሚጣፍጠው አረንጓዴ ሲሆን ነው። ነጭ ሽንኩርቱ አረንጓዴ ሲሆን አዲስ ዓመቱም ደረሰ ማለት ነው።»",
+    "fa": "«سیر لابا فقط وقتی سبز می‌شه خوش‌مزه می‌شه. وقتی سیر سبز می‌شه، یعنی سال نو رسیده.»"
+   },
+   "start": 106.476,
+   "end": 112.164,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "腊",
+     "xī",
+     "dried meat; also pr.",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "蒜",
+     "suàn",
+     "garlic",
+     ""
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "only; simply; just; exactly; precisely",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "变",
+     "biàn",
+     "to change; to become different; to transform",
+     ""
+    ],
+    [
+     "绿",
+     "lǜ",
+     "green",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "then and only then; (before an expression of quantity) only",
+     ""
+    ],
+    [
+     "好吃",
+     "hǎo chī",
+     "tasty; delicious",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "蒜",
+     "suàn",
+     "garlic",
+     ""
+    ],
+    [
+     "绿",
+     "lǜ",
+     "green",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "only; as little as",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜不好意思地把事情说了一遍，大家笑得饺子都包不下去了。",
+   "py": "Ān nà bù hǎo yì sī de bǎ shì qing shuō le yí biàn, dà jiā xiào de jiǎo zi dōu bāo bú xià qù le.",
+   "en": "Anna sheepishly tells them what happened, and everyone laughs so hard they can't carry on making dumplings.",
+   "tr": {
+    "am": "አና አፍራ የሆነውን ሁሉ ተናገረች፣ ሁሉም ከመሳቃቸው የተነሳ ዱምፕሊንግ መሥራት አቃታቸው።",
+    "fa": "آنا با خجالت ماجرا رو براشون می‌گه و همه اون‌قدر می‌خندن که نمی‌تونن راویولی ساختن رو ادامه بدن."
+   },
+   "start": 112.864,
+   "end": 118.816,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to feel embarrassed; to find it embarrassing",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "事情",
+     "shì qing",
+     "affair; matter; thing; business",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一遍",
+     "yī biàn",
+     "one time (all the way through); once through",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "to cover; to wrap; to hold",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "下去",
+     "xià qù",
+     "to go down; to descend; to go on",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷给她夹了一瓣绿蒜。安娜咬了一口，又酸又辣，配饺子正好。",
+   "py": "Liú yé ye gěi tā jiā le yí bàn lǜ suàn. Ān nà yǎo le yì kǒu, yòu suān yòu là, pèi jiǎo zi zhèng hǎo.",
+   "en": "Grandpa Liu picks out a green clove for her. Anna takes a bite. It's sour and sharp, perfect with dumplings.",
+   "tr": {
+    "am": "አያት ሊዩ አንድ አረንጓዴ ፍሬ ነጭ ሽንኩርት አነሳላት። አና ነከሰችው፦ ኮምጣጣና የሚያቃጥል ሆኖ ከዱምፕሊንግ ጋር በጣም ይስማማል።",
+    "fa": "پدربزرگ لیو یه بند سیر سبز براش برمی‌داره. آنا یه گاز می‌زنه. ترش و تیزه، با راویولی عالیه."
+   },
+   "start": 119.516,
+   "end": 126.86,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "夹",
+     "jiā",
+     "to press from either side; to place in between; to sandwich",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "瓣",
+     "bàn",
+     "clove (of garlic); classifier for pieces, segments etc",
+     ""
+    ],
+    [
+     "绿",
+     "lǜ",
+     "green",
+     ""
+    ],
+    [
+     "蒜",
+     "suàn",
+     "garlic",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "咬",
+     "yǎo",
+     "to bite; to nip",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一口",
+     "yī kǒu",
+     "a bite; readily; flatly (deny, admit and so on)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "酸",
+     "suān",
+     "sour; tart; sick at heart",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "辣",
+     "là",
+     "hot (spicy); pungent",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "配",
+     "pèi",
+     "to join; to fit; to mate",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "正好",
+     "zhèng hǎo",
+     "just (in time); just right; just enough",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她说：“明年腊八，我也泡一瓶。这次，绿得越漂亮越好！”",
+   "py": "tā shuō: “míng nián là bā, wǒ yě pào yì píng. zhè cì, lǜ de yuè piào liang yuè hǎo!”",
+   "en": "She says, \"Next Laba, I'll soak a jar too. And this time, the greener the better!\"",
+   "tr": {
+    "am": "እንዲህ አለች፦ «በሚቀጥለው ላባ እኔም አንድ ጠርሙስ እዘፈዝፋለሁ። በዚህ ጊዜ ደግሞ አረንጓዴነቱ ባማረ ቁጥር ይሻላል!»",
+    "fa": "می‌گه: «لابای سال بعد، منم یه شیشه می‌خیسونم. و این بار، هر چی سبزتر بهتر!»"
+   },
+   "start": 127.56,
+   "end": 135.144,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "明年",
+     "míng nián",
+     "next year",
+     ""
+    ],
+    [
+     "腊",
+     "xī",
+     "dried meat; also pr.",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "泡",
+     "pào",
+     "to soak; to steep; to infuse; bubble; foam; blister",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "瓶",
+     "píng",
+     "classifier for wine and liquids; bottle; vase",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "次",
+     "cì",
+     "classifier for enumerated events: time; next in sequence",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "绿",
+     "lǜ",
+     "green",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "to exceed; to climb over; to surpass",
+     ""
+    ],
+    [
+     "漂亮",
+     "piào liang",
+     "pretty; beautiful",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "to exceed; to climb over; to surpass",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 421,
+ "first": "农历腊月初八是腊八节。这天早上，刘爷爷请安娜到家里喝腊八粥。",
+ "newWords": [
+  {
+   "w": "糟糕",
+   "py": "zāogāo",
+   "en": "extremely bad or unfortunate situation"
+  },
+  {
+   "w": "肯定",
+   "py": "kěndìng",
+   "en": "definitely"
+  },
+  {
+   "w": "重新",
+   "py": "chóngxīn",
+   "en": "again"
+  },
+  {
+   "w": "酸",
+   "py": "suān",
+   "en": "sour"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h4-44.mp3?v=1791721661"
 }

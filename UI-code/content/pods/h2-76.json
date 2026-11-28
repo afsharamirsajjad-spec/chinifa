@@ -1,1460 +1,1473 @@
 {
-  "id": "h2-76",
-  "level": 2,
-  "no": 76,
-  "title": "收到",
-  "title_py": "shōu dào",
-  "title_en": "Got it",
-  "title_tr": {
-    "vi": "Đã nhận",
-    "pt": "Recebido",
-    "es": "Recibido",
-    "fr": "Bien reçu",
-    "am": "ደርሶኛል",
-    "fa": "دریافت شد"
+ "id": "h2-76",
+ "level": 2,
+ "no": 76,
+ "title": "收到",
+ "title_py": "shōu dào",
+ "title_en": "Got it",
+ "title_tr": {
+  "vi": "Đã nhận",
+  "pt": "Recebido",
+  "es": "Recibido",
+  "fr": "Bien reçu",
+  "am": "ደርሶኛል",
+  "fa": "دریافت شد"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_comms",
+ "cover": "https://media.kanchinese.app/review/stories/h2-76.jpg",
+ "duration": 84.584,
+ "lines": [
+  {
+   "text": "杰克的公司有一个工作群，周经理常常在群里发消息。",
+   "py": "Jié kè de gōng sī yǒu yí gè gōng zuò qún, Zhōu jīng lǐ cháng cháng zài qún lǐ fā xiāo xi.",
+   "en": "Jack's company has a work group chat, and Manager Zhou often posts messages in it.",
+   "tr": {
+    "vi": "Công ty của Jack có một nhóm chat công việc, giám đốc Chu thường nhắn tin trong nhóm.",
+    "pt": "A empresa de Jack tem um grupo de mensagens do trabalho, e a gerente Zhou costuma mandar mensagens lá.",
+    "es": "La empresa de Jack tiene un chat de trabajo, y la gerente Zhou suele publicar mensajes ahí.",
+    "fr": "Dans l’entreprise de Jack, il y a un groupe de discussion pour le travail, et la directrice Zhou y poste souvent des messages.",
+    "am": "የጃክ ድርጅት የሥራ ቡድን ቻት አለው፤ ሥራ አስኪያጅ ጆው ብዙ ጊዜ እዚያ መልእክት ትልካለች።",
+    "fa": "شرکت جک یه گروهِ کاری تو وی‌چت داره و مدیر جو اغلب تو اون پیام می‌ذاره."
+   },
+   "start": 2.428,
+   "end": 8.116,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "群",
+     "qún",
+     "group; crowd; flock, herd, pack etc",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "常常",
+     "cháng cháng",
+     "frequently; often",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "群",
+     "qún",
+     "group; crowd; flock, herd, pack etc",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "message; (piece of) news; information",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_comms",
-  "cover": "https://media.kanchinese.app/review/stories/h2-76.jpg",
-  "duration": 84.584,
-  "lines": [
-    {
-      "text": "杰克的公司有一个工作群，周经理常常在群里发消息。",
-      "py": "Jié kè de gōng sī yǒu yí gè gōng zuò qún, Zhōu jīng lǐ cháng cháng zài qún lǐ fā xiāo xi.",
-      "en": "Jack's company has a work group chat, and Manager Zhou often posts messages in it.",
-      "tr": {
-        "vi": "Công ty của Jack có một nhóm chat công việc, giám đốc Chu thường nhắn tin trong nhóm.",
-        "pt": "A empresa de Jack tem um grupo de mensagens do trabalho, e a gerente Zhou costuma mandar mensagens lá.",
-        "es": "La empresa de Jack tiene un chat de trabajo, y la gerente Zhou suele publicar mensajes ahí.",
-        "fr": "Dans l’entreprise de Jack, il y a un groupe de discussion pour le travail, et la directrice Zhou y poste souvent des messages.",
-        "am": "የጃክ ድርጅት የሥራ ቡድን ቻት አለው፤ ሥራ አስኪያጅ ጆው ብዙ ጊዜ እዚያ መልእክት ትልካለች።"
-      },
-      "start": 2.428,
-      "end": 8.116,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "群",
-          "qún",
-          "group; crowd; flock, herd, pack etc",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "常常",
-          "cháng cháng",
-          "frequently; often",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "群",
-          "qún",
-          "group; crowd; flock, herd, pack etc",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "message; (piece of) news; information",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "每次周经理发了消息，同事们都马上回两个字：“收到。”",
-      "py": "měi cì Zhōu jīng lǐ fā le xiāo xi, tóng shì men dōu mǎ shàng huí liǎng gè zì: “shōu dào.”",
-      "en": "Every time Manager Zhou posts something, her colleagues instantly reply with the same two characters: \"Got it.\"",
-      "tr": {
-        "vi": "Mỗi lần giám đốc Chu nhắn tin, đồng nghiệp đều trả lời ngay hai chữ: “Đã nhận.”",
-        "pt": "Toda vez que a gerente Zhou manda uma mensagem, os colegas respondem na hora com os mesmos dois caracteres: “Recebido.”",
-        "es": "Cada vez que la gerente Zhou publica algo, sus compañeros responden enseguida con los mismos dos caracteres: «Recibido» (收到, shōudào).",
-        "fr": "Chaque fois que la directrice Zhou envoie un message, ses collègues répondent aussitôt avec les deux mêmes caractères : 收到, « Bien reçu ».",
-        "am": "ሥራ አስኪያጅ ጆው መልእክት በላከች ቁጥር ባልደረቦቹ ወዲያው «收到»፣ ማለትም «ደርሶኛል» ብለው ይመልሳሉ።"
-      },
-      "start": 8.816,
-      "end": 14.024,
-      "tokens": [
-        [
-          "每次",
-          "měi cì",
-          "every time",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "(piece of) news; information; message",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "同事",
-          "tóng shì",
-          "colleague; co-worker",
-          ""
-        ],
-        [
-          "们",
-          "men",
-          "plural marker for pronouns, and nouns referring to individuals",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "at once; right away; immediately",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to reply; to answer; classifier for occurrences or times",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; some; both",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "字",
-          "zì",
-          "character; letter; symbol",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "收到",
-          "shōu dào",
-          "to receive",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克以前总是回很长的话：“好的，周经理，我知道了，明天我一定早点儿来。”",
-      "py": "Jié kè yǐ qián zǒng shì huí hěn cháng de huà: “hǎo de, Zhōu jīng lǐ, wǒ zhī dào le, míng tiān wǒ yí dìng zǎo diǎn r lái.”",
-      "en": "Jack used to reply with long messages: \"OK, Manager Zhou, understood. I'll definitely come in early tomorrow.\"",
-      "tr": {
-        "vi": "Trước đây Jack luôn trả lời rất dài: “Vâng ạ, giám đốc Chu, tôi biết rồi, ngày mai tôi nhất định sẽ đến sớm.”",
-        "pt": "Antes, Jack sempre respondia com mensagens compridas: “Tudo bem, gerente Zhou, entendi. Amanhã com certeza chego mais cedo.”",
-        "es": "Antes, Jack siempre respondía con mensajes largos: «Sí, gerente Zhou, entendido. Mañana sin falta llego temprano».",
-        "fr": "Avant, Jack répondait toujours par de longs messages : « D’accord, madame Zhou, j’ai compris. Demain, je viendrai plus tôt, c’est promis. »",
-        "am": "ጃክ ከዚህ በፊት ሁልጊዜ ረጅም መልስ ይጽፍ ነበር፦ «እሺ ሥራ አስኪያጅ ጆው፣ ተረድቻለሁ፤ ነገ በእርግጠኝነት ቀደም ብዬ እመጣለሁ።»"
-      },
-      "start": 14.724,
-      "end": 22.74,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "以前",
-          "yǐ qián",
-          "before; formerly; previous",
-          ""
-        ],
-        [
-          "总是",
-          "zǒng shì",
-          "always",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to reply; to answer",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "长",
-          "cháng",
-          "long; (bound form) length; (bound form) strong point; forte",
-          ""
-        ],
-        [
-          "的话",
-          "de huà",
-          "if (coming after a conditional clause)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "知道了",
-          "zhī dào le",
-          "OK!; Got it!",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "明天",
-          "míng tiān",
-          "tomorrow",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "早点儿",
-          "zǎo diǎn r",
-          "a bit earlier",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨告诉他：“回‘收到’就可以了，意思是‘我看到了，我知道了’。”",
-      "py": "Xiǎo yǔ gào su tā: “huí ‘shōu dào’ jiù kě yǐ le, yì si shì ‘wǒ kàn dào le, wǒ zhī dào le’.”",
-      "en": "Xiaoyu tells him, \"Just reply 'got it'. It means 'I've seen it, and I understand'.\"",
-      "tr": {
-        "vi": "Tiểu Vũ bảo anh: “Trả lời ‘Đã nhận’ là được rồi, nghĩa là ‘tôi thấy rồi, tôi biết rồi’.”",
-        "pt": "A Xiaoyu diz a ele: “É só responder ‘Recebido’. Quer dizer ‘eu vi e entendi’.”",
-        "es": "Xiaoyu le dice: «Basta con responder “Recibido”. Significa “Lo vi y lo entendí”».",
-        "fr": "Xiaoyu lui dit : « Réponds juste “Bien reçu”. Ça veut dire “J’ai vu, j’ai compris”. »",
-        "am": "ሺያውዩ «‹ደርሶኛል› ብለህ መመለስ ይበቃል፤ ‹አይቼዋለሁ፣ ተረድቻለሁ› ማለት ነው» አለችው።"
-      },
-      "start": 23.44,
-      "end": 30.064,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "告诉",
-          "gào su",
-          "to tell; to inform; to let know",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "回",
-          "huí",
-          "to reply; to answer",
-          ""
-        ],
-        [
-          "‘"
-        ],
-        [
-          "收到",
-          "shōu dào",
-          "to receive",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "可以",
-          "kě yǐ",
-          "can; may; possible",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "意思",
-          "yì si",
-          "idea; opinion; meaning",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "‘"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "看到",
-          "kàn dào",
-          "to see",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "知道了",
-          "zhī dào le",
-          "Got it!; OK!",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克觉得“收到”太好用了。",
-      "py": "Jié kè jué de “shōu dào” tài hǎo yòng le.",
-      "en": "Jack thinks \"got it\" is incredibly handy.",
-      "tr": {
-        "vi": "Jack thấy “Đã nhận” dùng tiện thật.",
-        "pt": "Jack acha “Recebido” muito prático.",
-        "es": "A Jack, «Recibido» le parece utilísimo.",
-        "fr": "Jack trouve « Bien reçu » vraiment pratique.",
-        "am": "ጃክ «ደርሶኛል» በጣም ምቹ ሆኖ አገኘው።"
-      },
-      "start": 30.764,
-      "end": 34.1,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "收到",
-          "shōu dào",
-          "to receive",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "太",
-          "tài",
-          "highest; greatest; too (much)",
-          ""
-        ],
-        [
-          "好用",
-          "hǎo yòng",
-          "handy; useful; serviceable",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理说三点开会，他回：“收到。”",
-      "py": "Zhōu jīng lǐ shuō sān diǎn kāi huì, tā huí: “shōu dào.”",
-      "en": "Manager Zhou says there's a meeting at three. He replies, \"Got it.\"",
-      "tr": {
-        "vi": "Giám đốc Chu nói ba giờ họp, anh trả lời: “Đã nhận.”",
-        "pt": "A gerente Zhou diz que tem reunião às três. Ele responde: “Recebido.”",
-        "es": "La gerente Zhou dice que hay reunión a las tres. Él responde: «Recibido».",
-        "fr": "La directrice Zhou annonce une réunion à trois heures. Il répond : « Bien reçu. »",
-        "am": "ሥራ አስኪያጅ ጆው 3:00 ላይ ስብሰባ አለ ስትል «ደርሶኛል» ብሎ መለሰ።"
-      },
-      "start": 34.8,
-      "end": 38.4,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "点开",
-          "diǎn kāi",
-          "(computing) to open (a link, file etc) by clicking or tapping",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "to meet; to get together; meeting; gathering",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "收到",
-          "shōu dào",
-          "to receive",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "客户说明天来公司，他也回：“收到。”",
-      "py": "kè hù shuō míng tiān lái gōng sī, tā yě huí: “shōu dào.”",
-      "en": "A client says he'll come to the office tomorrow. He replies, \"Got it,\" too.",
-      "tr": {
-        "vi": "Khách hàng nói ngày mai đến công ty, anh cũng trả lời: “Đã nhận.”",
-        "pt": "Um cliente diz que vem à empresa amanhã. Ele também responde: “Recebido.”",
-        "es": "Un cliente dice que mañana viene a la oficina. Él también responde: «Recibido».",
-        "fr": "Un client dit qu’il viendra au bureau demain. Il répond encore : « Bien reçu. »",
-        "am": "አንድ ደንበኛ ነገ ወደ ድርጅቱ እንደሚመጣ ሲናገር እሱም «ደርሶኛል» ብሎ መለሰ።"
-      },
-      "start": 39.1,
-      "end": 42.892,
-      "tokens": [
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "说明",
-          "shuō míng",
-          "to explain; to illustrate; to indicate",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "收到",
-          "shōu dào",
-          "to receive",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨问他晚上要不要一起吃饭，他还是回：“收到。”",
-      "py": "Xiǎo yǔ wèn tā wǎn shang yào bú yào yì qǐ chī fàn, tā hái shi huí: “shōu dào.”",
-      "en": "Xiaoyu asks whether he wants to have dinner together this evening, and again he replies, \"Got it.\"",
-      "tr": {
-        "vi": "Tiểu Vũ hỏi anh tối nay có muốn đi ăn cùng không, anh vẫn trả lời: “Đã nhận.”",
-        "pt": "A Xiaoyu pergunta se ele quer jantar com ela hoje à noite, e ele responde de novo: “Recebido.”",
-        "es": "Xiaoyu le pregunta si quiere cenar con ella esta noche, y él vuelve a responder: «Recibido».",
-        "fr": "Xiaoyu lui demande s’il veut dîner avec elle ce soir, et encore une fois, il répond : « Bien reçu. »",
-        "am": "ሺያውዩ ማታ አብረው ራት መብላት ይፈልግ እንደሆነ ስትጠይቀው አሁንም «ደርሶኛል» ብሎ መለሰ።"
-      },
-      "start": 43.592,
-      "end": 49.04,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "要不",
-          "yào bù",
-          "otherwise; or else; how about...?",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "一起",
-          "yī qǐ",
-          "together; in company (with); (in) the same place",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "收到",
-          "shōu dào",
-          "to receive",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨说：“杰克，你到底去不去？”",
-      "py": "Xiǎo yǔ shuō: “Jié kè, nǐ dào dǐ qù bú qù?”",
-      "en": "Xiaoyu says, \"Jack, are you coming or not?\"",
-      "tr": {
-        "vi": "Tiểu Vũ nói: “Jack, rốt cuộc anh có đi hay không?”",
-        "pt": "A Xiaoyu diz: “Jack, afinal, você vai ou não vai?”",
-        "es": "Xiaoyu dice: «Jack, al final, ¿vienes o no?».",
-        "fr": "Xiaoyu dit : « Jack, tu viens, oui ou non ? »",
-        "am": "ሺያውዩ «ጃክ፣ ለመሆኑ ትመጣለህ ወይስ አትመጣም?» አለች።"
-      },
-      "start": 49.74,
-      "end": 53.82,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "到底",
-          "dào dǐ",
-          "finally; in the end; when all is said and done",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "星期六是杰克的生日。早上，妈妈从英国发来消息：“儿子，生日快乐！妈妈爱你。”",
-      "py": "xīng qī liù shì Jié kè de shēng rì. zǎo shang, mā ma cóng yīng guó fā lái xiāo xi: “ér zi, shēng rì kuài lè! mā ma ài nǐ.”",
-      "en": "Saturday is Jack's birthday. In the morning, his mum sends a message from Britain: \"Happy birthday, son! Love, Mum.\"",
-      "tr": {
-        "vi": "Thứ Bảy là sinh nhật Jack. Buổi sáng, mẹ anh từ Anh nhắn tin: “Con trai, chúc mừng sinh nhật! Mẹ yêu con.”",
-        "pt": "Sábado é o aniversário de Jack. De manhã, a mãe dele manda uma mensagem da Inglaterra: “Feliz aniversário, filho! A mamãe ama você.”",
-        "es": "El sábado es el cumpleaños de Jack. Por la mañana, su mamá le manda un mensaje desde Inglaterra: «¡Feliz cumpleaños, hijo! Mamá te quiere».",
-        "fr": "Samedi, c’est l’anniversaire de Jack. Le matin, sa mère lui envoie un message d’Angleterre : « Joyeux anniversaire, mon fils ! Maman t’aime. »",
-        "am": "ቅዳሜ የጃክ ልደት ነው። ጠዋት እናቱ ከእንግሊዝ መልእክት ላከች፦ «ልጄ፣ መልካም ልደት! እናትህ ትወድሃለች።»"
-      },
-      "start": 54.52,
-      "end": 63.784,
-      "tokens": [
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "生日",
-          "shēng rì",
-          "birthday",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "英国",
-          "yīng guó",
-          "United Kingdom (UK); Britain",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "message; (piece of) news; information",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "儿子",
-          "ér zi",
-          "son",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "生日快乐",
-          "shēng rì kuài lè",
-          "Happy birthday",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "爱",
-          "ài",
-          "to love; to be fond of; to like; affection",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克还没睡醒，拿起手机就回了两个字：“收到。”",
-      "py": "Jié kè hái méi shuì xǐng, ná qǐ shǒu jī jiù huí le liǎng gè zì: “shōu dào.”",
-      "en": "Jack is still half asleep. He picks up his phone and replies with two characters: \"Got it.\"",
-      "tr": {
-        "vi": "Jack còn chưa tỉnh ngủ, cầm điện thoại lên là trả lời luôn hai chữ: “Đã nhận.”",
-        "pt": "Jack ainda está meio dormindo. Pega o celular e responde com dois caracteres: “Recebido.”",
-        "es": "Jack todavía está medio dormido. Agarra el teléfono y responde con dos caracteres: «Recibido».",
-        "fr": "Jack n’est pas encore bien réveillé. Il prend son téléphone et répond avec deux caractères : 收到, « Bien reçu ».",
-        "am": "ጃክ ገና በደንብ አልነቃም ነበር፤ ስልኩን አንሥቶ «收到» የሚሉትን ሁለት ሆሄያት ላከ።"
-      },
-      "start": 64.484,
-      "end": 69.692,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "睡醒",
-          "shuì xǐng",
-          "to wake up",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "拿起",
-          "ná qǐ",
-          "to pick up",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(pattern: 就 ... 也 ...) even if ... still ...",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "字",
-          "zì",
-          "character; letter; symbol",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "收到",
-          "shōu dào",
-          "to receive",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "五分钟以后，妈妈打来了电话：“杰克，这两个汉字是什么意思？”",
-      "py": "wǔ fēn zhōng yǐ hòu, mā ma dǎ lái le diàn huà: “Jié kè, zhè liǎng gè hàn zì shì shén me yì si?”",
-      "en": "Five minutes later, his mum phones. \"Jack, what do those two Chinese characters mean?\"",
-      "tr": {
-        "vi": "Năm phút sau, mẹ gọi điện đến: “Jack, hai chữ Hán này nghĩa là gì vậy?”",
-        "pt": "Cinco minutos depois, a mãe liga: “Jack, o que querem dizer esses dois caracteres chineses?”",
-        "es": "Cinco minutos después, su mamá lo llama: «Jack, ¿qué significan esos dos caracteres chinos?».",
-        "fr": "Cinq minutes plus tard, sa mère l’appelle : « Jack, qu’est-ce qu’ils veulent dire, ces deux caractères chinois ? »",
-        "am": "ከአምስት ደቂቃ በኋላ እናቱ ደወለች። «ጃክ፣ እነዚህ ሁለት የቻይንኛ ሆሄያት ምን ማለት ናቸው?»"
-      },
-      "start": 70.392,
-      "end": 77.04,
-      "tokens": [
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "分钟",
-          "fēn zhōng",
-          "minute",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "打",
-          "dǎ",
-          "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "(between two verbs) in order to; to come",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "phone call; phone number; telephone",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "汉字",
-          "hàn zì",
-          "Chinese character(s)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "意思",
-          "yì si",
-          "meaning; idea; opinion",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克一下子醒了：“妈妈，意思是……我也爱你！”",
-      "py": "Jié kè yí xià zi xǐng le: “mā ma, yì si shì…… wǒ yě ài nǐ!”",
-      "en": "Jack is suddenly wide awake. \"Mum, it means... I love you too!\"",
-      "tr": {
-        "vi": "Jack tỉnh hẳn ngay lập tức: “Mẹ ơi, nghĩa là… con cũng yêu mẹ!”",
-        "pt": "Jack acorda de vez: “Mãe, quer dizer… eu também amo você!”",
-        "es": "Jack se despierta de golpe: «Mamá, significa… ¡que yo también te quiero!».",
-        "fr": "Jack se réveille d’un coup : « Maman, ça veut dire… moi aussi, je t’aime ! »",
-        "am": "ጃክ ድንገት ነቃ። «እማዬ፣ ትርጉሙ… እኔም እወድሻለሁ ማለት ነው!»"
-      },
-      "start": 77.74,
-      "end": 83.884,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "all at once; all of a sudden; once; one time",
-          ""
-        ],
-        [
-          "醒",
-          "xǐng",
-          "to be awake; to wake up; to become aware",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "意思",
-          "yì si",
-          "idea; opinion; meaning",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "爱",
-          "ài",
-          "to love; to be fond of; to like; affection",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 248,
-  "first": "杰克的公司有一个工作群，周经理常常在群里发消息。",
-  "newWords": [
-    {
-      "w": "收到",
-      "py": "shōu dào",
-      "en": "to receive"
-    },
-    {
-      "w": "回",
-      "py": "huí",
-      "en": "to return"
-    },
-    {
-      "w": "意思",
-      "py": "yìsi",
-      "en": "meaning"
-    },
-    {
-      "w": "以前",
-      "py": "yǐqián",
-      "en": "before"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h2-76.mp3?v=1791721531"
+  {
+   "text": "每次周经理发了消息，同事们都马上回两个字：“收到。”",
+   "py": "měi cì Zhōu jīng lǐ fā le xiāo xi, tóng shì men dōu mǎ shàng huí liǎng gè zì: “shōu dào.”",
+   "en": "Every time Manager Zhou posts something, her colleagues instantly reply with the same two characters: \"Got it.\"",
+   "tr": {
+    "vi": "Mỗi lần giám đốc Chu nhắn tin, đồng nghiệp đều trả lời ngay hai chữ: “Đã nhận.”",
+    "pt": "Toda vez que a gerente Zhou manda uma mensagem, os colegas respondem na hora com os mesmos dois caracteres: “Recebido.”",
+    "es": "Cada vez que la gerente Zhou publica algo, sus compañeros responden enseguida con los mismos dos caracteres: «Recibido» (收到, shōudào).",
+    "fr": "Chaque fois que la directrice Zhou envoie un message, ses collègues répondent aussitôt avec les deux mêmes caractères : 收到, « Bien reçu ».",
+    "am": "ሥራ አስኪያጅ ጆው መልእክት በላከች ቁጥር ባልደረቦቹ ወዲያው «收到»፣ ማለትም «ደርሶኛል» ብለው ይመልሳሉ።",
+    "fa": "هر بار مدیر جو چیزی می‌ذاره، همکارا همون لحظه با همون دو تا کاراکتر جواب می‌دن: \"دریافت شد.\""
+   },
+   "start": 8.816,
+   "end": 14.024,
+   "tokens": [
+    [
+     "每次",
+     "měi cì",
+     "every time",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "(piece of) news; information; message",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "同事",
+     "tóng shì",
+     "colleague; co-worker",
+     ""
+    ],
+    [
+     "们",
+     "men",
+     "plural marker for pronouns, and nouns referring to individuals",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "at once; right away; immediately",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to reply; to answer; classifier for occurrences or times",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; some; both",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "字",
+     "zì",
+     "character; letter; symbol",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "收到",
+     "shōu dào",
+     "to receive",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克以前总是回很长的话：“好的，周经理，我知道了，明天我一定早点儿来。”",
+   "py": "Jié kè yǐ qián zǒng shì huí hěn cháng de huà: “hǎo de, Zhōu jīng lǐ, wǒ zhī dào le, míng tiān wǒ yí dìng zǎo diǎn r lái.”",
+   "en": "Jack used to reply with long messages: \"OK, Manager Zhou, understood. I'll definitely come in early tomorrow.\"",
+   "tr": {
+    "vi": "Trước đây Jack luôn trả lời rất dài: “Vâng ạ, giám đốc Chu, tôi biết rồi, ngày mai tôi nhất định sẽ đến sớm.”",
+    "pt": "Antes, Jack sempre respondia com mensagens compridas: “Tudo bem, gerente Zhou, entendi. Amanhã com certeza chego mais cedo.”",
+    "es": "Antes, Jack siempre respondía con mensajes largos: «Sí, gerente Zhou, entendido. Mañana sin falta llego temprano».",
+    "fr": "Avant, Jack répondait toujours par de longs messages : « D’accord, madame Zhou, j’ai compris. Demain, je viendrai plus tôt, c’est promis. »",
+    "am": "ጃክ ከዚህ በፊት ሁልጊዜ ረጅም መልስ ይጽፍ ነበር፦ «እሺ ሥራ አስኪያጅ ጆው፣ ተረድቻለሁ፤ ነገ በእርግጠኝነት ቀደም ብዬ እመጣለሁ።»",
+    "fa": "جک قبلاً با پیام‌های بلند جواب می‌داد: «باشه مدیر جو، فهمیدم. فردا حتماً زود میام.»"
+   },
+   "start": 14.724,
+   "end": 22.74,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "以前",
+     "yǐ qián",
+     "before; formerly; previous",
+     ""
+    ],
+    [
+     "总是",
+     "zǒng shì",
+     "always",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to reply; to answer",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "长",
+     "cháng",
+     "long; (bound form) length; (bound form) strong point; forte",
+     ""
+    ],
+    [
+     "的话",
+     "de huà",
+     "if (coming after a conditional clause)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "知道了",
+     "zhī dào le",
+     "OK!; Got it!",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "明天",
+     "míng tiān",
+     "tomorrow",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "早点儿",
+     "zǎo diǎn r",
+     "a bit earlier",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨告诉他：“回‘收到’就可以了，意思是‘我看到了，我知道了’。”",
+   "py": "Xiǎo yǔ gào su tā: “huí ‘shōu dào’ jiù kě yǐ le, yì si shì ‘wǒ kàn dào le, wǒ zhī dào le’.”",
+   "en": "Xiaoyu tells him, \"Just reply 'got it'. It means 'I've seen it, and I understand'.\"",
+   "tr": {
+    "vi": "Tiểu Vũ bảo anh: “Trả lời ‘Đã nhận’ là được rồi, nghĩa là ‘tôi thấy rồi, tôi biết rồi’.”",
+    "pt": "A Xiaoyu diz a ele: “É só responder ‘Recebido’. Quer dizer ‘eu vi e entendi’.”",
+    "es": "Xiaoyu le dice: «Basta con responder “Recibido”. Significa “Lo vi y lo entendí”».",
+    "fr": "Xiaoyu lui dit : « Réponds juste “Bien reçu”. Ça veut dire “J’ai vu, j’ai compris”. »",
+    "am": "ሺያውዩ «‹ደርሶኛል› ብለህ መመለስ ይበቃል፤ ‹አይቼዋለሁ፣ ተረድቻለሁ› ማለት ነው» አለችው።",
+    "fa": "شیائویو بهش می‌گه: «فقط بنویس \"دریافت شد\". یعنی \"دیدمش و فهمیدمش\".»"
+   },
+   "start": 23.44,
+   "end": 30.064,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "告诉",
+     "gào su",
+     "to tell; to inform; to let know",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "回",
+     "huí",
+     "to reply; to answer",
+     ""
+    ],
+    [
+     "‘"
+    ],
+    [
+     "收到",
+     "shōu dào",
+     "to receive",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "可以",
+     "kě yǐ",
+     "can; may; possible",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "意思",
+     "yì si",
+     "idea; opinion; meaning",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "‘"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "看到",
+     "kàn dào",
+     "to see",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "知道了",
+     "zhī dào le",
+     "Got it!; OK!",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克觉得“收到”太好用了。",
+   "py": "Jié kè jué de “shōu dào” tài hǎo yòng le.",
+   "en": "Jack thinks \"got it\" is incredibly handy.",
+   "tr": {
+    "vi": "Jack thấy “Đã nhận” dùng tiện thật.",
+    "pt": "Jack acha “Recebido” muito prático.",
+    "es": "A Jack, «Recibido» le parece utilísimo.",
+    "fr": "Jack trouve « Bien reçu » vraiment pratique.",
+    "am": "ጃክ «ደርሶኛል» በጣም ምቹ ሆኖ አገኘው።",
+    "fa": "جک \"دریافت شد\" رو فوق‌العاده کاربردی می‌بینه."
+   },
+   "start": 30.764,
+   "end": 34.1,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "收到",
+     "shōu dào",
+     "to receive",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "太",
+     "tài",
+     "highest; greatest; too (much)",
+     ""
+    ],
+    [
+     "好用",
+     "hǎo yòng",
+     "handy; useful; serviceable",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "周经理说三点开会，他回：“收到。”",
+   "py": "Zhōu jīng lǐ shuō sān diǎn kāi huì, tā huí: “shōu dào.”",
+   "en": "Manager Zhou says there's a meeting at three. He replies, \"Got it.\"",
+   "tr": {
+    "vi": "Giám đốc Chu nói ba giờ họp, anh trả lời: “Đã nhận.”",
+    "pt": "A gerente Zhou diz que tem reunião às três. Ele responde: “Recebido.”",
+    "es": "La gerente Zhou dice que hay reunión a las tres. Él responde: «Recibido».",
+    "fr": "La directrice Zhou annonce une réunion à trois heures. Il répond : « Bien reçu. »",
+    "am": "ሥራ አስኪያጅ ጆው 3:00 ላይ ስብሰባ አለ ስትል «ደርሶኛል» ብሎ መለሰ።",
+    "fa": "مدیر جو می‌گه ساعت سه جلسه‌ست. جواب می‌ده: \"دریافت شد.\""
+   },
+   "start": 34.8,
+   "end": 38.4,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "点开",
+     "diǎn kāi",
+     "(computing) to open (a link, file etc) by clicking or tapping",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "to meet; to get together; meeting; gathering",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "收到",
+     "shōu dào",
+     "to receive",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "客户说明天来公司，他也回：“收到。”",
+   "py": "kè hù shuō míng tiān lái gōng sī, tā yě huí: “shōu dào.”",
+   "en": "A client says he'll come to the office tomorrow. He replies, \"Got it,\" too.",
+   "tr": {
+    "vi": "Khách hàng nói ngày mai đến công ty, anh cũng trả lời: “Đã nhận.”",
+    "pt": "Um cliente diz que vem à empresa amanhã. Ele também responde: “Recebido.”",
+    "es": "Un cliente dice que mañana viene a la oficina. Él también responde: «Recibido».",
+    "fr": "Un client dit qu’il viendra au bureau demain. Il répond encore : « Bien reçu. »",
+    "am": "አንድ ደንበኛ ነገ ወደ ድርጅቱ እንደሚመጣ ሲናገር እሱም «ደርሶኛል» ብሎ መለሰ።",
+    "fa": "یه مشتری می‌گه فردا میاد شرکت. اونم جواب می‌ده: \"دریافت شد.\""
+   },
+   "start": 39.1,
+   "end": 42.892,
+   "tokens": [
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "说明",
+     "shuō míng",
+     "to explain; to illustrate; to indicate",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "收到",
+     "shōu dào",
+     "to receive",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨问他晚上要不要一起吃饭，他还是回：“收到。”",
+   "py": "Xiǎo yǔ wèn tā wǎn shang yào bú yào yì qǐ chī fàn, tā hái shi huí: “shōu dào.”",
+   "en": "Xiaoyu asks whether he wants to have dinner together this evening, and again he replies, \"Got it.\"",
+   "tr": {
+    "vi": "Tiểu Vũ hỏi anh tối nay có muốn đi ăn cùng không, anh vẫn trả lời: “Đã nhận.”",
+    "pt": "A Xiaoyu pergunta se ele quer jantar com ela hoje à noite, e ele responde de novo: “Recebido.”",
+    "es": "Xiaoyu le pregunta si quiere cenar con ella esta noche, y él vuelve a responder: «Recibido».",
+    "fr": "Xiaoyu lui demande s’il veut dîner avec elle ce soir, et encore une fois, il répond : « Bien reçu. »",
+    "am": "ሺያውዩ ማታ አብረው ራት መብላት ይፈልግ እንደሆነ ስትጠይቀው አሁንም «ደርሶኛል» ብሎ መለሰ።",
+    "fa": "شیائویو می‌پرسه امشب می‌خواد با هم شام بخورن یا نه؛ بازم جواب می‌ده: \"دریافت شد.\""
+   },
+   "start": 43.592,
+   "end": 49.04,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "要不",
+     "yào bù",
+     "otherwise; or else; how about...?",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "一起",
+     "yī qǐ",
+     "together; in company (with); (in) the same place",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "收到",
+     "shōu dào",
+     "to receive",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨说：“杰克，你到底去不去？”",
+   "py": "Xiǎo yǔ shuō: “Jié kè, nǐ dào dǐ qù bú qù?”",
+   "en": "Xiaoyu says, \"Jack, are you coming or not?\"",
+   "tr": {
+    "vi": "Tiểu Vũ nói: “Jack, rốt cuộc anh có đi hay không?”",
+    "pt": "A Xiaoyu diz: “Jack, afinal, você vai ou não vai?”",
+    "es": "Xiaoyu dice: «Jack, al final, ¿vienes o no?».",
+    "fr": "Xiaoyu dit : « Jack, tu viens, oui ou non ? »",
+    "am": "ሺያውዩ «ጃክ፣ ለመሆኑ ትመጣለህ ወይስ አትመጣም?» አለች።",
+    "fa": "شیائویو می‌گه: «جک، میای یا نه؟»"
+   },
+   "start": 49.74,
+   "end": 53.82,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "到底",
+     "dào dǐ",
+     "finally; in the end; when all is said and done",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "星期六是杰克的生日。早上，妈妈从英国发来消息：“儿子，生日快乐！妈妈爱你。”",
+   "py": "xīng qī liù shì Jié kè de shēng rì. zǎo shang, mā ma cóng yīng guó fā lái xiāo xi: “ér zi, shēng rì kuài lè! mā ma ài nǐ.”",
+   "en": "Saturday is Jack's birthday. In the morning, his mum sends a message from Britain: \"Happy birthday, son! Love, Mum.\"",
+   "tr": {
+    "vi": "Thứ Bảy là sinh nhật Jack. Buổi sáng, mẹ anh từ Anh nhắn tin: “Con trai, chúc mừng sinh nhật! Mẹ yêu con.”",
+    "pt": "Sábado é o aniversário de Jack. De manhã, a mãe dele manda uma mensagem da Inglaterra: “Feliz aniversário, filho! A mamãe ama você.”",
+    "es": "El sábado es el cumpleaños de Jack. Por la mañana, su mamá le manda un mensaje desde Inglaterra: «¡Feliz cumpleaños, hijo! Mamá te quiere».",
+    "fr": "Samedi, c’est l’anniversaire de Jack. Le matin, sa mère lui envoie un message d’Angleterre : « Joyeux anniversaire, mon fils ! Maman t’aime. »",
+    "am": "ቅዳሜ የጃክ ልደት ነው። ጠዋት እናቱ ከእንግሊዝ መልእክት ላከች፦ «ልጄ፣ መልካም ልደት! እናትህ ትወድሃለች።»",
+    "fa": "شنبه تولد جکه. صبح، مامانش از انگلستان پیام می‌فرسته: «تولدت مبارک پسرم! دوستت دارم، مامان.»"
+   },
+   "start": 54.52,
+   "end": 63.784,
+   "tokens": [
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "生日",
+     "shēng rì",
+     "birthday",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "英国",
+     "yīng guó",
+     "United Kingdom (UK); Britain",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "message; (piece of) news; information",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "儿子",
+     "ér zi",
+     "son",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "生日快乐",
+     "shēng rì kuài lè",
+     "Happy birthday",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "爱",
+     "ài",
+     "to love; to be fond of; to like; affection",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克还没睡醒，拿起手机就回了两个字：“收到。”",
+   "py": "Jié kè hái méi shuì xǐng, ná qǐ shǒu jī jiù huí le liǎng gè zì: “shōu dào.”",
+   "en": "Jack is still half asleep. He picks up his phone and replies with two characters: \"Got it.\"",
+   "tr": {
+    "vi": "Jack còn chưa tỉnh ngủ, cầm điện thoại lên là trả lời luôn hai chữ: “Đã nhận.”",
+    "pt": "Jack ainda está meio dormindo. Pega o celular e responde com dois caracteres: “Recebido.”",
+    "es": "Jack todavía está medio dormido. Agarra el teléfono y responde con dos caracteres: «Recibido».",
+    "fr": "Jack n’est pas encore bien réveillé. Il prend son téléphone et répond avec deux caractères : 收到, « Bien reçu ».",
+    "am": "ጃክ ገና በደንብ አልነቃም ነበር፤ ስልኩን አንሥቶ «收到» የሚሉትን ሁለት ሆሄያት ላከ።",
+    "fa": "جک هنوز نصفه خوابه. گوشیو برمی‌داره و با دو تا کاراکتر جواب می‌ده: \"دریافت شد.\""
+   },
+   "start": 64.484,
+   "end": 69.692,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "睡醒",
+     "shuì xǐng",
+     "to wake up",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "拿起",
+     "ná qǐ",
+     "to pick up",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(pattern: 就 ... 也 ...) even if ... still ...",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "字",
+     "zì",
+     "character; letter; symbol",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "收到",
+     "shōu dào",
+     "to receive",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "五分钟以后，妈妈打来了电话：“杰克，这两个汉字是什么意思？”",
+   "py": "wǔ fēn zhōng yǐ hòu, mā ma dǎ lái le diàn huà: “Jié kè, zhè liǎng gè hàn zì shì shén me yì si?”",
+   "en": "Five minutes later, his mum phones. \"Jack, what do those two Chinese characters mean?\"",
+   "tr": {
+    "vi": "Năm phút sau, mẹ gọi điện đến: “Jack, hai chữ Hán này nghĩa là gì vậy?”",
+    "pt": "Cinco minutos depois, a mãe liga: “Jack, o que querem dizer esses dois caracteres chineses?”",
+    "es": "Cinco minutos después, su mamá lo llama: «Jack, ¿qué significan esos dos caracteres chinos?».",
+    "fr": "Cinq minutes plus tard, sa mère l’appelle : « Jack, qu’est-ce qu’ils veulent dire, ces deux caractères chinois ? »",
+    "am": "ከአምስት ደቂቃ በኋላ እናቱ ደወለች። «ጃክ፣ እነዚህ ሁለት የቻይንኛ ሆሄያት ምን ማለት ናቸው?»",
+    "fa": "پنج دقیقه بعد، مامانش زنگ می‌زنه: «جک، این دو تا کاراکترِ چینی یعنی چی؟»"
+   },
+   "start": 70.392,
+   "end": 77.04,
+   "tokens": [
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "分钟",
+     "fēn zhōng",
+     "minute",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "打",
+     "dǎ",
+     "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "(between two verbs) in order to; to come",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "phone call; phone number; telephone",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "汉字",
+     "hàn zì",
+     "Chinese character(s)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "意思",
+     "yì si",
+     "meaning; idea; opinion",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克一下子醒了：“妈妈，意思是……我也爱你！”",
+   "py": "Jié kè yí xià zi xǐng le: “mā ma, yì si shì…… wǒ yě ài nǐ!”",
+   "en": "Jack is suddenly wide awake. \"Mum, it means... I love you too!\"",
+   "tr": {
+    "vi": "Jack tỉnh hẳn ngay lập tức: “Mẹ ơi, nghĩa là… con cũng yêu mẹ!”",
+    "pt": "Jack acorda de vez: “Mãe, quer dizer… eu também amo você!”",
+    "es": "Jack se despierta de golpe: «Mamá, significa… ¡que yo también te quiero!».",
+    "fr": "Jack se réveille d’un coup : « Maman, ça veut dire… moi aussi, je t’aime ! »",
+    "am": "ጃክ ድንገት ነቃ። «እማዬ፣ ትርጉሙ… እኔም እወድሻለሁ ማለት ነው!»",
+    "fa": "جک یهو حسابی بیدار می‌شه: «مامان، یعنی... منم دوستت دارم!»"
+   },
+   "start": 77.74,
+   "end": 83.884,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "all at once; all of a sudden; once; one time",
+     ""
+    ],
+    [
+     "醒",
+     "xǐng",
+     "to be awake; to wake up; to become aware",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "意思",
+     "yì si",
+     "idea; opinion; meaning",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "爱",
+     "ài",
+     "to love; to be fond of; to like; affection",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 248,
+ "first": "杰克的公司有一个工作群，周经理常常在群里发消息。",
+ "newWords": [
+  {
+   "w": "收到",
+   "py": "shōu dào",
+   "en": "to receive"
+  },
+  {
+   "w": "回",
+   "py": "huí",
+   "en": "to return"
+  },
+  {
+   "w": "意思",
+   "py": "yìsi",
+   "en": "meaning"
+  },
+  {
+   "w": "以前",
+   "py": "yǐqián",
+   "en": "before"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h2-76.mp3?v=1791721531"
 }

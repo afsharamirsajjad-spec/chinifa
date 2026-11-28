@@ -1,697 +1,708 @@
 {
-  "id": "h1-02",
-  "level": 1,
-  "no": 2,
-  "title": "去看医生",
-  "title_py": "qù kàn yī shēng",
-  "title_en": "Seeing the doctor",
-  "title_tr": {
-    "vi": "Đi khám bác sĩ",
-    "pt": "Indo ao médico",
-    "fr": "Chez le médecin",
-    "es": "Al médico",
-    "am": "ሐኪም ዘንድ",
-    "fa": "مراجعه به پزشک"
+ "id": "h1-02",
+ "level": 1,
+ "no": 2,
+ "title": "去看医生",
+ "title_py": "qù kàn yī shēng",
+ "title_en": "Seeing the doctor",
+ "title_tr": {
+  "vi": "Đi khám bác sĩ",
+  "pt": "Indo ao médico",
+  "fr": "Chez le médecin",
+  "es": "Al médico",
+  "am": "ሐኪም ዘንድ",
+  "fa": "مراجعه به پزشک"
+ },
+ "topic": "health",
+ "free": true,
+ "cover": "https://media.kanchinese.app/review/stories/h1-02.jpg",
+ "duration": 42.432,
+ "lines": [
+  {
+   "text": "今天安娜不想吃东西。",
+   "py": "jīn tiān Ān nà bù xiǎng chī dōng xi.",
+   "en": "Today Anna doesn't feel like eating anything.",
+   "tr": {
+    "vi": "Hôm nay Anna không muốn ăn gì.",
+    "pt": "Hoje a Anna não está com vontade de comer nada.",
+    "fr": "Aujourd’hui, Anna n’a envie de rien manger.",
+    "es": "Hoy Anna no tiene ganas de comer nada.",
+    "am": "ዛሬ አና ምንም መብላት አልፈለገችም።",
+    "fa": "امروز حوصله‌ی آنا برای خوردن هیچ چیزی نیست."
+   },
+   "start": 2.404,
+   "end": 5.044,
+   "tokens": [
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "不想",
+     "bù xiǎng",
+     "unexpectedly; to one's surprise",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "health",
-  "free": true,
-  "cover": "https://media.kanchinese.app/review/stories/h1-02.jpg",
-  "duration": 42.432,
-  "lines": [
-    {
-      "text": "今天安娜不想吃东西。",
-      "py": "jīn tiān Ān nà bù xiǎng chī dōng xi.",
-      "en": "Today Anna doesn't feel like eating anything.",
-      "tr": {
-        "vi": "Hôm nay Anna không muốn ăn gì.",
-        "pt": "Hoje a Anna não está com vontade de comer nada.",
-        "fr": "Aujourd’hui, Anna n’a envie de rien manger.",
-        "es": "Hoy Anna no tiene ganas de comer nada.",
-        "am": "ዛሬ አና ምንም መብላት አልፈለገችም።"
-      },
-      "start": 2.404,
-      "end": 5.044,
-      "tokens": [
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "不想",
-          "bù xiǎng",
-          "unexpectedly; to one's surprise",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她觉得很冷，很累。",
-      "py": "tā jué de hěn lěng, hěn lèi.",
-      "en": "She feels cold and very tired.",
-      "tr": {
-        "vi": "Cô ấy thấy lạnh và rất mệt.",
-        "pt": "Ela sente frio e está muito cansada.",
-        "fr": "Elle a froid et elle est très fatiguée.",
-        "es": "Tiene frío y está muy cansada.",
-        "am": "በጣም በረዳት፤ በጣም ደከማት።"
-      },
-      "start": 5.744,
-      "end": 8.6,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "冷",
-          "lěng",
-          "cold",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "累",
-          "lèi",
-          "tired; weary; to strain",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "下午，她坐出租车去医院。",
-      "py": "xià wǔ, tā zuò chū zū chē qù yī yuàn.",
-      "en": "In the afternoon, she takes a taxi to the hospital.",
-      "tr": {
-        "vi": "Buổi chiều, cô ấy đi taxi đến bệnh viện.",
-        "pt": "À tarde, ela pega um táxi para o hospital.",
-        "fr": "L’après-midi, elle prend un taxi pour aller à l’hôpital.",
-        "es": "Por la tarde, toma un taxi al hospital.",
-        "am": "ከሰዓት በታክሲ ወደ ሆስፒታል ሄደች።"
-      },
-      "start": 9.3,
-      "end": 12.9,
-      "tokens": [
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to take a seat; to take (a bus, airplane etc); to sit",
-          ""
-        ],
-        [
-          "出租车",
-          "chū zū chē",
-          "taxi; (Tw) rental car",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "医院",
-          "yī yuàn",
-          "hospital",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "医生说：“你好！你怎么了？”",
-      "py": "yī shēng shuō: “nǐ hǎo! nǐ zěn me le?”",
-      "en": "The doctor says, \"Hello! What's the matter?\"",
-      "tr": {
-        "vi": "Bác sĩ nói: “Chào cô! Cô bị sao vậy?”",
-        "pt": "O médico diz: “Olá! O que você tem?”",
-        "fr": "Le médecin dit : « Bonjour ! Qu’est-ce qui ne va pas ? »",
-        "es": "El médico dice: «¡Hola! ¿Qué te pasa?»",
-        "am": "ሐኪሙ «ሰላም! ምን ሆንሽ?» አለ።"
-      },
-      "start": 13.6,
-      "end": 17.176,
-      "tokens": [
-        [
-          "医生",
-          "yī shēng",
-          "doctor; medical practitioner",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你好",
-          "nǐ hǎo",
-          "hello; hi",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "怎么了",
-          "zěn me le",
-          "What's up?; What's going on?; What happened?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我很冷，不想吃东西。”",
-      "py": "“wǒ hěn lěng, bù xiǎng chī dōng xi.”",
-      "en": "\"I feel cold, and I don't want to eat anything.\"",
-      "tr": {
-        "vi": "“Tôi thấy lạnh, không muốn ăn gì.”",
-        "pt": "“Estou com frio e não quero comer nada.”",
-        "fr": "« J’ai froid, et je n’ai envie de rien manger. »",
-        "es": "«Tengo frío y no quiero comer nada.»",
-        "am": "«በጣም በርዶኛል፤ መብላትም አልፈልግም።»"
-      },
-      "start": 17.876,
-      "end": 20.732,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "冷",
-          "lěng",
-          "cold",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不想",
-          "bù xiǎng",
-          "unexpectedly; to one's surprise",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "医生看了看她，说：“你生病了。”",
-      "py": "yī shēng kàn le kàn tā, shuō: “nǐ shēng bìng le.”",
-      "en": "The doctor looks her over and says, \"You're ill.\"",
-      "tr": {
-        "vi": "Bác sĩ khám cho cô ấy, rồi nói: “Cô bị ốm rồi.”",
-        "pt": "O médico a examina e diz: “Você está doente.”",
-        "fr": "Le médecin l’examine et dit : « Vous êtes malade. »",
-        "es": "El médico la examina y dice: «Estás enferma.»",
-        "am": "ሐኪሙ ተመለከታትና «ታመሻል» አለ።"
-      },
-      "start": 21.432,
-      "end": 25.704,
-      "tokens": [
-        [
-          "医生",
-          "yī shēng",
-          "doctor; medical practitioner",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "生病",
-          "shēng bìng",
-          "to fall ill",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我要吃药吗？”",
-      "py": "“wǒ yào chī yào ma?”",
-      "en": "\"Do I need to take medicine?\"",
-      "tr": {
-        "vi": "“Tôi có phải uống thuốc không?”",
-        "pt": "“Eu preciso tomar remédio?”",
-        "fr": "« Je dois prendre des médicaments ? »",
-        "es": "«¿Tengo que tomar medicina?»",
-        "am": "«መድኃኒት መውሰድ አለብኝ?»"
-      },
-      "start": 26.404,
-      "end": 28.108,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; need to; should",
-          ""
-        ],
-        [
-          "吃药",
-          "chī yào",
-          "to take medicine",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“要。请多喝水，多睡觉。”",
-      "py": "“yào. qǐng duō hē shuǐ, duō shuì jiào.”",
-      "en": "\"Yes. And please drink lots of water and get plenty of sleep.\"",
-      "tr": {
-        "vi": "“Có. Cô uống nhiều nước, ngủ nhiều vào nhé.”",
-        "pt": "“Precisa. E beba muita água e durma bastante.”",
-        "fr": "« Oui. Et buvez beaucoup d’eau, dormez beaucoup. »",
-        "es": "«Sí. Y bebe mucha agua y duerme mucho.»",
-        "am": "«አዎ። ብዙ ውሃ ጠጪ፤ ብዙ ተኚ።»"
-      },
-      "start": 28.808,
-      "end": 32.144,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "请",
-          "qǐng",
-          "please (do sth); to ask; to invite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to sleep; to go to bed",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜说：“谢谢医生！”",
-      "py": "Ān nà shuō: “xiè xie yī shēng!”",
-      "en": "Anna says, \"Thank you, doctor!\"",
-      "tr": {
-        "vi": "Anna nói: “Cảm ơn bác sĩ!”",
-        "pt": "A Anna diz: “Obrigada, doutor!”",
-        "fr": "Anna dit : « Merci, docteur ! »",
-        "es": "Anna dice: «¡Gracias, doctor!»",
-        "am": "አና «አመሰግናለሁ ዶክተር!» አለች።"
-      },
-      "start": 32.844,
-      "end": 35.508,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "医生",
-          "yī shēng",
-          "doctor; medical practitioner",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "她回家睡觉了。",
-      "py": "tā huí jiā shuì jiào le.",
-      "en": "She goes home and goes to bed.",
-      "tr": {
-        "vi": "Cô ấy về nhà đi ngủ.",
-        "pt": "Ela vai para casa e dorme.",
-        "fr": "Elle rentre chez elle et va se coucher.",
-        "es": "Se va a casa y se acuesta.",
-        "am": "ወደ ቤቷ ሄዳ ተኛች።"
-      },
-      "start": 36.208,
-      "end": 38.392,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to go to bed; to sleep",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "明天，她会好的。",
-      "py": "míng tiān, tā huì hǎo de.",
-      "en": "She'll be better tomorrow.",
-      "tr": {
-        "vi": "Ngày mai, cô ấy sẽ khỏe thôi.",
-        "pt": "Amanhã ela vai ficar boa.",
-        "fr": "Demain, elle ira mieux.",
-        "es": "Mañana se pondrá bien.",
-        "am": "ነገ ትድናለች።"
-      },
-      "start": 39.092,
-      "end": 41.732,
-      "tokens": [
-        [
-          "明天",
-          "míng tiān",
-          "tomorrow",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 86,
-  "first": "今天安娜不想吃东西。",
-  "newWords": [
-    {
-      "w": "觉得",
-      "py": "juéde",
-      "en": "to feel"
-    },
-    {
-      "w": "累",
-      "py": "lèi",
-      "en": "tired"
-    },
-    {
-      "w": "生病",
-      "py": "shēngbìng",
-      "en": "to get sick"
-    },
-    {
-      "w": "要",
-      "py": "yào",
-      "en": "to want"
-    },
-    {
-      "w": "药",
-      "py": "yào",
-      "en": "medicine"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-02.mp3?v=1791594932"
+  {
+   "text": "她觉得很冷，很累。",
+   "py": "tā jué de hěn lěng, hěn lèi.",
+   "en": "She feels cold and very tired.",
+   "tr": {
+    "vi": "Cô ấy thấy lạnh và rất mệt.",
+    "pt": "Ela sente frio e está muito cansada.",
+    "fr": "Elle a froid et elle est très fatiguée.",
+    "es": "Tiene frío y está muy cansada.",
+    "am": "በጣም በረዳት፤ በጣም ደከማት።",
+    "fa": "احساس سرما و خستگی خیلی می‌کند."
+   },
+   "start": 5.744,
+   "end": 8.6,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "冷",
+     "lěng",
+     "cold",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "累",
+     "lèi",
+     "tired; weary; to strain",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "下午，她坐出租车去医院。",
+   "py": "xià wǔ, tā zuò chū zū chē qù yī yuàn.",
+   "en": "In the afternoon, she takes a taxi to the hospital.",
+   "tr": {
+    "vi": "Buổi chiều, cô ấy đi taxi đến bệnh viện.",
+    "pt": "À tarde, ela pega um táxi para o hospital.",
+    "fr": "L’après-midi, elle prend un taxi pour aller à l’hôpital.",
+    "es": "Por la tarde, toma un taxi al hospital.",
+    "am": "ከሰዓት በታክሲ ወደ ሆስፒታል ሄደች።",
+    "fa": "بعدازظهر با تاکسی می‌رود بیمارستان."
+   },
+   "start": 9.3,
+   "end": 12.9,
+   "tokens": [
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to take a seat; to take (a bus, airplane etc); to sit",
+     ""
+    ],
+    [
+     "出租车",
+     "chū zū chē",
+     "taxi; (Tw) rental car",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "医院",
+     "yī yuàn",
+     "hospital",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "医生说：“你好！你怎么了？”",
+   "py": "yī shēng shuō: “nǐ hǎo! nǐ zěn me le?”",
+   "en": "The doctor says, \"Hello! What's the matter?\"",
+   "tr": {
+    "vi": "Bác sĩ nói: “Chào cô! Cô bị sao vậy?”",
+    "pt": "O médico diz: “Olá! O que você tem?”",
+    "fr": "Le médecin dit : « Bonjour ! Qu’est-ce qui ne va pas ? »",
+    "es": "El médico dice: «¡Hola! ¿Qué te pasa?»",
+    "am": "ሐኪሙ «ሰላም! ምን ሆንሽ?» አለ።",
+    "fa": "دکتر می‌گوید: «سلام! چه مشکلی دارید؟»"
+   },
+   "start": 13.6,
+   "end": 17.176,
+   "tokens": [
+    [
+     "医生",
+     "yī shēng",
+     "doctor; medical practitioner",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你好",
+     "nǐ hǎo",
+     "hello; hi",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "怎么了",
+     "zěn me le",
+     "What's up?; What's going on?; What happened?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我很冷，不想吃东西。”",
+   "py": "“wǒ hěn lěng, bù xiǎng chī dōng xi.”",
+   "en": "\"I feel cold, and I don't want to eat anything.\"",
+   "tr": {
+    "vi": "“Tôi thấy lạnh, không muốn ăn gì.”",
+    "pt": "“Estou com frio e não quero comer nada.”",
+    "fr": "« J’ai froid, et je n’ai envie de rien manger. »",
+    "es": "«Tengo frío y no quiero comer nada.»",
+    "am": "«በጣም በርዶኛል፤ መብላትም አልፈልግም።»",
+    "fa": "«خیلی سردم است و حوصله‌ی خوردن چیزی را ندارم.»"
+   },
+   "start": 17.876,
+   "end": 20.732,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "冷",
+     "lěng",
+     "cold",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不想",
+     "bù xiǎng",
+     "unexpectedly; to one's surprise",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "医生看了看她，说：“你生病了。”",
+   "py": "yī shēng kàn le kàn tā, shuō: “nǐ shēng bìng le.”",
+   "en": "The doctor looks her over and says, \"You're ill.\"",
+   "tr": {
+    "vi": "Bác sĩ khám cho cô ấy, rồi nói: “Cô bị ốm rồi.”",
+    "pt": "O médico a examina e diz: “Você está doente.”",
+    "fr": "Le médecin l’examine et dit : « Vous êtes malade. »",
+    "es": "El médico la examina y dice: «Estás enferma.»",
+    "am": "ሐኪሙ ተመለከታትና «ታመሻል» አለ።",
+    "fa": "دکتر معاینه‌اش می‌کند و می‌گوید: «مریض شده‌ای.»"
+   },
+   "start": 21.432,
+   "end": 25.704,
+   "tokens": [
+    [
+     "医生",
+     "yī shēng",
+     "doctor; medical practitioner",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "生病",
+     "shēng bìng",
+     "to fall ill",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我要吃药吗？”",
+   "py": "“wǒ yào chī yào ma?”",
+   "en": "\"Do I need to take medicine?\"",
+   "tr": {
+    "vi": "“Tôi có phải uống thuốc không?”",
+    "pt": "“Eu preciso tomar remédio?”",
+    "fr": "« Je dois prendre des médicaments ? »",
+    "es": "«¿Tengo que tomar medicina?»",
+    "am": "«መድኃኒት መውሰድ አለብኝ?»",
+    "fa": "«باید دارو بخورم؟»"
+   },
+   "start": 26.404,
+   "end": 28.108,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; need to; should",
+     ""
+    ],
+    [
+     "吃药",
+     "chī yào",
+     "to take medicine",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“要。请多喝水，多睡觉。”",
+   "py": "“yào. qǐng duō hē shuǐ, duō shuì jiào.”",
+   "en": "\"Yes. And please drink lots of water and get plenty of sleep.\"",
+   "tr": {
+    "vi": "“Có. Cô uống nhiều nước, ngủ nhiều vào nhé.”",
+    "pt": "“Precisa. E beba muita água e durma bastante.”",
+    "fr": "« Oui. Et buvez beaucoup d’eau, dormez beaucoup. »",
+    "es": "«Sí. Y bebe mucha agua y duerme mucho.»",
+    "am": "«አዎ። ብዙ ውሃ ጠጪ፤ ብዙ ተኚ።»",
+    "fa": "«بله. و لطفاً آب زیاد بخور و خوب استراحت کن.»"
+   },
+   "start": 28.808,
+   "end": 32.144,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "请",
+     "qǐng",
+     "please (do sth); to ask; to invite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to sleep; to go to bed",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜说：“谢谢医生！”",
+   "py": "Ān nà shuō: “xiè xie yī shēng!”",
+   "en": "Anna says, \"Thank you, doctor!\"",
+   "tr": {
+    "vi": "Anna nói: “Cảm ơn bác sĩ!”",
+    "pt": "A Anna diz: “Obrigada, doutor!”",
+    "fr": "Anna dit : « Merci, docteur ! »",
+    "es": "Anna dice: «¡Gracias, doctor!»",
+    "am": "አና «አመሰግናለሁ ዶክተር!» አለች።",
+    "fa": "آنا می‌گوید: «ممنون دکتر!»"
+   },
+   "start": 32.844,
+   "end": 35.508,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "医生",
+     "yī shēng",
+     "doctor; medical practitioner",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "她回家睡觉了。",
+   "py": "tā huí jiā shuì jiào le.",
+   "en": "She goes home and goes to bed.",
+   "tr": {
+    "vi": "Cô ấy về nhà đi ngủ.",
+    "pt": "Ela vai para casa e dorme.",
+    "fr": "Elle rentre chez elle et va se coucher.",
+    "es": "Se va a casa y se acuesta.",
+    "am": "ወደ ቤቷ ሄዳ ተኛች።",
+    "fa": "برمی‌گردد خانه و می‌خوابد."
+   },
+   "start": 36.208,
+   "end": 38.392,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to go to bed; to sleep",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "明天，她会好的。",
+   "py": "míng tiān, tā huì hǎo de.",
+   "en": "She'll be better tomorrow.",
+   "tr": {
+    "vi": "Ngày mai, cô ấy sẽ khỏe thôi.",
+    "pt": "Amanhã ela vai ficar boa.",
+    "fr": "Demain, elle ira mieux.",
+    "es": "Mañana se pondrá bien.",
+    "am": "ነገ ትድናለች።",
+    "fa": "فردا حالش خوب می‌شود."
+   },
+   "start": 39.092,
+   "end": 41.732,
+   "tokens": [
+    [
+     "明天",
+     "míng tiān",
+     "tomorrow",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 86,
+ "first": "今天安娜不想吃东西。",
+ "newWords": [
+  {
+   "w": "觉得",
+   "py": "juéde",
+   "en": "to feel"
+  },
+  {
+   "w": "累",
+   "py": "lèi",
+   "en": "tired"
+  },
+  {
+   "w": "生病",
+   "py": "shēngbìng",
+   "en": "to get sick"
+  },
+  {
+   "w": "要",
+   "py": "yào",
+   "en": "to want"
+  },
+  {
+   "w": "药",
+   "py": "yào",
+   "en": "medicine"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-02.mp3?v=1791594932"
 }

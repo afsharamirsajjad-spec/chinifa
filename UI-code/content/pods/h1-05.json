@@ -1,670 +1,680 @@
 {
-  "id": "h1-05",
-  "level": 1,
-  "no": 5,
-  "title": "哪个杯子",
-  "title_py": "nǎ ge bēi zi",
-  "title_en": "Which cup?",
-  "title_tr": {
-    "vi": "Cái cốc nào?",
-    "pt": "Qual xícara?",
-    "fr": "Quelle tasse ?",
-    "es": "¿Qué taza?",
-    "am": "የትኛው ኩባያ?",
-    "fa": "کدام لیوان؟"
+ "id": "h1-05",
+ "level": 1,
+ "no": 5,
+ "title": "哪个杯子",
+ "title_py": "nǎ ge bēi zi",
+ "title_en": "Which cup?",
+ "title_tr": {
+  "vi": "Cái cốc nào?",
+  "pt": "Qual xícara?",
+  "fr": "Quelle tasse ?",
+  "es": "¿Qué taza?",
+  "am": "የትኛው ኩባያ?",
+  "fa": "کدام لیوان؟"
+ },
+ "topic": "shop",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-05.jpg",
+ "duration": 37.988,
+ "lines": [
+  {
+   "text": "安娜想买一个杯子。",
+   "py": "Ān nà xiǎng mǎi yí gè bēi zi.",
+   "en": "Anna wants to buy a cup.",
+   "tr": {
+    "vi": "Anna muốn mua một cái cốc.",
+    "pt": "A Anna quer comprar uma xícara.",
+    "fr": "Anna veut acheter une tasse.",
+    "es": "Anna quiere comprar una taza.",
+    "am": "አና ኩባያ መግዛት ፈለገች።",
+    "fa": "آنا می‌خواهد یک لیوان بخرد."
+   },
+   "start": 2.62,
+   "end": 5.02,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "shop",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-05.jpg",
-  "duration": 37.988,
-  "lines": [
-    {
-      "text": "安娜想买一个杯子。",
-      "py": "Ān nà xiǎng mǎi yí gè bēi zi.",
-      "en": "Anna wants to buy a cup.",
-      "tr": {
-        "vi": "Anna muốn mua một cái cốc.",
-        "pt": "A Anna quer comprar uma xícara.",
-        "fr": "Anna veut acheter une tasse.",
-        "es": "Anna quiere comprar una taza.",
-        "am": "አና ኩባያ መግዛት ፈለገች።"
-      },
-      "start": 2.62,
-      "end": 5.02,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她去商店。商店里有很多杯子。",
-      "py": "tā qù shāng diàn. shāng diàn lǐ yǒu hěn duō bēi zi.",
-      "en": "She goes to a shop. There are lots of cups in the shop.",
-      "tr": {
-        "vi": "Cô ấy đi đến cửa hàng. Trong cửa hàng có rất nhiều cốc.",
-        "pt": "Ela vai a uma loja. Na loja tem muitas xícaras.",
-        "fr": "Elle va dans un magasin. Il y a plein de tasses.",
-        "es": "Va a una tienda. En la tienda hay muchas tazas.",
-        "am": "ወደ ሱቅ ሄደች። ሱቁ ውስጥ ብዙ ኩባያዎች ነበሩ።"
-      },
-      "start": 5.72,
-      "end": 9.512,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "商店",
-          "shāng diàn",
-          "store; shop",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "商店",
-          "shāng diàn",
-          "store; shop",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "服务员问：“您好！您想买什么？”",
-      "py": "fú wù yuán wèn: “nín hǎo! nín xiǎng mǎi shén me?”",
-      "en": "The shop assistant asks, \"Hello! What would you like to buy?\"",
-      "tr": {
-        "vi": "Nhân viên hỏi: “Xin chào! Chị muốn mua gì ạ?”",
-        "pt": "A vendedora pergunta: “Olá! O que a senhora deseja?”",
-        "fr": "La vendeuse demande : « Bonjour ! Vous désirez ? »",
-        "es": "La dependienta pregunta: «¡Hola! ¿Qué desea comprar?»",
-        "am": "ሻጩ «ጤና ይስጥልኝ! ምን መግዛት ይፈልጋሉ?» ብሎ ጠየቀ።"
-      },
-      "start": 10.212,
-      "end": 14.244,
-      "tokens": [
-        [
-          "服务员",
-          "fú wù yuán",
-          "waiter; waitress; attendant",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "您好",
-          "nín hǎo",
-          "hello (polite)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我想买一个杯子。”",
-      "py": "“wǒ xiǎng mǎi yí gè bēi zi.”",
-      "en": "\"I'd like to buy a cup.\"",
-      "tr": {
-        "vi": "“Tôi muốn mua một cái cốc.”",
-        "pt": "“Quero comprar uma xícara.”",
-        "fr": "« Je voudrais une tasse. »",
-        "es": "«Quiero comprar una taza.»",
-        "am": "«ኩባያ መግዛት እፈልጋለሁ።»"
-      },
-      "start": 14.944,
-      "end": 16.84,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“这个怎么样？很漂亮！”",
-      "py": "“zhè ge zěn me yàng? hěn piào liang!”",
-      "en": "\"How about this one? It's very pretty!\"",
-      "tr": {
-        "vi": "“Cái này thế nào? Đẹp lắm!”",
-        "pt": "“Que tal esta? É muito bonita!”",
-        "fr": "« Celle-ci, ça vous plaît ? Elle est très jolie ! »",
-        "es": "«¿Qué tal esta? ¡Es muy bonita!»",
-        "am": "«ይሄስ? በጣም ያምራል!»"
-      },
-      "start": 17.54,
-      "end": 19.94,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "怎么样",
-          "zěn me yàng",
-          "how?; how about?; how was it?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "漂亮",
-          "piào liang",
-          "pretty; beautiful",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“太小了。我喜欢大的。”",
-      "py": "“tài xiǎo le. wǒ xǐ huan dà de.”",
-      "en": "\"It's too small. I like big ones.\"",
-      "tr": {
-        "vi": "“Nhỏ quá. Tôi thích cái to.”",
-        "pt": "“É pequena demais. Eu gosto das grandes.”",
-        "fr": "« Trop petite. J’aime les grandes. »",
-        "es": "«Es demasiado pequeña. Me gustan las grandes.»",
-        "am": "«በጣም ትንሽ ነው። ትልቅ እወዳለሁ።»"
-      },
-      "start": 20.64,
-      "end": 23.976,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "喜欢",
-          "xǐ huan",
-          "to like; to be fond of",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“那这个大的呢？”",
-      "py": "“nà zhè ge dà de ne?”",
-      "en": "\"Then what about this big one?\"",
-      "tr": {
-        "vi": "“Vậy cái to này thì sao?”",
-        "pt": "“Então, e esta grande?”",
-        "fr": "« Alors, et cette grande-là ? »",
-        "es": "«¿Y esta grande, entonces?»",
-        "am": "«እንግዲያው ይሄ ትልቁስ?»"
-      },
-      "start": 24.676,
-      "end": 26.572,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "呢",
-          "ne",
-          "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜看了看，说：“我买这个。多少钱？”",
-      "py": "Ān nà kàn le kàn, shuō: “wǒ mǎi zhè ge. duō shao qián?”",
-      "en": "Anna looks at it and says, \"I'll take this one. How much is it?\"",
-      "tr": {
-        "vi": "Anna nhìn một lúc rồi nói: “Tôi mua cái này. Bao nhiêu tiền?”",
-        "pt": "A Anna olha e diz: “Vou levar esta. Quanto é?”",
-        "fr": "Anna regarde et dit : « Je prends celle-ci. C’est combien ? »",
-        "es": "Anna la mira y dice: «Me llevo esta. ¿Cuánto es?»",
-        "am": "አና አየችውና «ይሄን እገዛለሁ። ስንት ነው?» አለች።"
-      },
-      "start": 27.272,
-      "end": 31.808,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "多少",
-          "duō shao",
-          "how much?; how many?",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "coin; money; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“二十块。”",
-      "py": "“èr shí kuài.”",
-      "en": "\"Twenty yuan.\"",
-      "tr": {
-        "vi": "“Hai mươi tệ.”",
-        "pt": "“Vinte yuans.”",
-        "fr": "« Vingt yuans. »",
-        "es": "«Veinte yuanes.»",
-        "am": "«ሃያ ዩዋን።»"
-      },
-      "start": 32.508,
-      "end": 33.948,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "二十",
-          "èr shí",
-          "twenty; 20",
-          ""
-        ],
-        [
-          "块",
-          "kuài",
-          "classifier for pieces of cloth, cake, soap etc",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜很喜欢她的新杯子。",
-      "py": "Ān nà hěn xǐ huan tā de xīn bēi zi.",
-      "en": "Anna really likes her new cup.",
-      "tr": {
-        "vi": "Anna rất thích cái cốc mới của mình.",
-        "pt": "A Anna adora a xícara nova.",
-        "fr": "Anna aime beaucoup sa nouvelle tasse.",
-        "es": "A Anna le encanta su taza nueva.",
-        "am": "አና አዲሱን ኩባያዋን በጣም ወደደችው።"
-      },
-      "start": 34.648,
-      "end": 37.288,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "喜欢",
-          "xǐ huan",
-          "to like; to be fond of",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "新",
-          "xīn",
-          "new; newly; meso- (chemistry)",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 86,
-  "first": "安娜想买一个杯子。",
-  "newWords": [
-    {
-      "w": "服务员",
-      "py": "fúwùyuán",
-      "en": "waiter"
-    },
-    {
-      "w": "问",
-      "py": "wèn",
-      "en": "to ask"
-    },
-    {
-      "w": "您",
-      "py": "nín",
-      "en": "you"
-    },
-    {
-      "w": "新",
-      "py": "xīn",
-      "en": "new"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-05.mp3?v=1791594957"
+  {
+   "text": "她去商店。商店里有很多杯子。",
+   "py": "tā qù shāng diàn. shāng diàn lǐ yǒu hěn duō bēi zi.",
+   "en": "She goes to a shop. There are lots of cups in the shop.",
+   "tr": {
+    "vi": "Cô ấy đi đến cửa hàng. Trong cửa hàng có rất nhiều cốc.",
+    "pt": "Ela vai a uma loja. Na loja tem muitas xícaras.",
+    "fr": "Elle va dans un magasin. Il y a plein de tasses.",
+    "es": "Va a una tienda. En la tienda hay muchas tazas.",
+    "am": "ወደ ሱቅ ሄደች። ሱቁ ውስጥ ብዙ ኩባያዎች ነበሩ።",
+    "fa": "می‌رود مغازه. توی مغازه کلی لیوان هست."
+   },
+   "start": 5.72,
+   "end": 9.512,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "商店",
+     "shāng diàn",
+     "store; shop",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "商店",
+     "shāng diàn",
+     "store; shop",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "服务员问：“您好！您想买什么？”",
+   "py": "fú wù yuán wèn: “nín hǎo! nín xiǎng mǎi shén me?”",
+   "en": "The shop assistant asks, \"Hello! What would you like to buy?\"",
+   "tr": {
+    "vi": "Nhân viên hỏi: “Xin chào! Chị muốn mua gì ạ?”",
+    "pt": "A vendedora pergunta: “Olá! O que a senhora deseja?”",
+    "fr": "La vendeuse demande : « Bonjour ! Vous désirez ? »",
+    "es": "La dependienta pregunta: «¡Hola! ¿Qué desea comprar?»",
+    "am": "ሻጩ «ጤና ይስጥልኝ! ምን መግዛት ይፈልጋሉ?» ብሎ ጠየቀ።",
+    "fa": "فروشنده می‌پرسد: «سلام! چی می‌خوای بخری؟»"
+   },
+   "start": 10.212,
+   "end": 14.244,
+   "tokens": [
+    [
+     "服务员",
+     "fú wù yuán",
+     "waiter; waitress; attendant",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "您好",
+     "nín hǎo",
+     "hello (polite)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我想买一个杯子。”",
+   "py": "“wǒ xiǎng mǎi yí gè bēi zi.”",
+   "en": "\"I'd like to buy a cup.\"",
+   "tr": {
+    "vi": "“Tôi muốn mua một cái cốc.”",
+    "pt": "“Quero comprar uma xícara.”",
+    "fr": "« Je voudrais une tasse. »",
+    "es": "«Quiero comprar una taza.»",
+    "am": "«ኩባያ መግዛት እፈልጋለሁ።»",
+    "fa": "«می‌خوام یک لیوان بخرم.»"
+   },
+   "start": 14.944,
+   "end": 16.84,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“这个怎么样？很漂亮！”",
+   "py": "“zhè ge zěn me yàng? hěn piào liang!”",
+   "en": "\"How about this one? It's very pretty!\"",
+   "tr": {
+    "vi": "“Cái này thế nào? Đẹp lắm!”",
+    "pt": "“Que tal esta? É muito bonita!”",
+    "fr": "« Celle-ci, ça vous plaît ? Elle est très jolie ! »",
+    "es": "«¿Qué tal esta? ¡Es muy bonita!»",
+    "am": "«ይሄስ? በጣም ያምራል!»",
+    "fa": "«این چطور؟ خیلی قشنگه!»"
+   },
+   "start": 17.54,
+   "end": 19.94,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "怎么样",
+     "zěn me yàng",
+     "how?; how about?; how was it?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "漂亮",
+     "piào liang",
+     "pretty; beautiful",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“太小了。我喜欢大的。”",
+   "py": "“tài xiǎo le. wǒ xǐ huan dà de.”",
+   "en": "\"It's too small. I like big ones.\"",
+   "tr": {
+    "vi": "“Nhỏ quá. Tôi thích cái to.”",
+    "pt": "“É pequena demais. Eu gosto das grandes.”",
+    "fr": "« Trop petite. J’aime les grandes. »",
+    "es": "«Es demasiado pequeña. Me gustan las grandes.»",
+    "am": "«በጣም ትንሽ ነው። ትልቅ እወዳለሁ።»",
+    "fa": "«خیلی کوچیکه. من بزرگش رو دوست دارم.»"
+   },
+   "start": 20.64,
+   "end": 23.976,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "喜欢",
+     "xǐ huan",
+     "to like; to be fond of",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“那这个大的呢？”",
+   "py": "“nà zhè ge dà de ne?”",
+   "en": "\"Then what about this big one?\"",
+   "tr": {
+    "vi": "“Vậy cái to này thì sao?”",
+    "pt": "“Então, e esta grande?”",
+    "fr": "« Alors, et cette grande-là ? »",
+    "es": "«¿Y esta grande, entonces?»",
+    "am": "«እንግዲያው ይሄ ትልቁስ?»",
+    "fa": "«پس این بزرگه چطور؟»"
+   },
+   "start": 24.676,
+   "end": 26.572,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "呢",
+     "ne",
+     "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜看了看，说：“我买这个。多少钱？”",
+   "py": "Ān nà kàn le kàn, shuō: “wǒ mǎi zhè ge. duō shao qián?”",
+   "en": "Anna looks at it and says, \"I'll take this one. How much is it?\"",
+   "tr": {
+    "vi": "Anna nhìn một lúc rồi nói: “Tôi mua cái này. Bao nhiêu tiền?”",
+    "pt": "A Anna olha e diz: “Vou levar esta. Quanto é?”",
+    "fr": "Anna regarde et dit : « Je prends celle-ci. C’est combien ? »",
+    "es": "Anna la mira y dice: «Me llevo esta. ¿Cuánto es?»",
+    "am": "አና አየችውና «ይሄን እገዛለሁ። ስንት ነው?» አለች።",
+    "fa": "آنا نگاهش می‌کند و می‌گوید: «همین رو برمی‌دارم. چنده؟»"
+   },
+   "start": 27.272,
+   "end": 31.808,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "多少",
+     "duō shao",
+     "how much?; how many?",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "coin; money; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“二十块。”",
+   "py": "“èr shí kuài.”",
+   "en": "\"Twenty yuan.\"",
+   "tr": {
+    "vi": "“Hai mươi tệ.”",
+    "pt": "“Vinte yuans.”",
+    "fr": "« Vingt yuans. »",
+    "es": "«Veinte yuanes.»",
+    "am": "«ሃያ ዩዋን።»",
+    "fa": "«بیست یوان.»"
+   },
+   "start": 32.508,
+   "end": 33.948,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "二十",
+     "èr shí",
+     "twenty; 20",
+     ""
+    ],
+    [
+     "块",
+     "kuài",
+     "classifier for pieces of cloth, cake, soap etc",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜很喜欢她的新杯子。",
+   "py": "Ān nà hěn xǐ huan tā de xīn bēi zi.",
+   "en": "Anna really likes her new cup.",
+   "tr": {
+    "vi": "Anna rất thích cái cốc mới của mình.",
+    "pt": "A Anna adora a xícara nova.",
+    "fr": "Anna aime beaucoup sa nouvelle tasse.",
+    "es": "A Anna le encanta su taza nueva.",
+    "am": "አና አዲሱን ኩባያዋን በጣም ወደደችው።",
+    "fa": "آنا لیوان جدیدش رو خیلی دوست دارد."
+   },
+   "start": 34.648,
+   "end": 37.288,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "喜欢",
+     "xǐ huan",
+     "to like; to be fond of",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "新",
+     "xīn",
+     "new; newly; meso- (chemistry)",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 86,
+ "first": "安娜想买一个杯子。",
+ "newWords": [
+  {
+   "w": "服务员",
+   "py": "fúwùyuán",
+   "en": "waiter"
+  },
+  {
+   "w": "问",
+   "py": "wèn",
+   "en": "to ask"
+  },
+  {
+   "w": "您",
+   "py": "nín",
+   "en": "you"
+  },
+  {
+   "w": "新",
+   "py": "xīn",
+   "en": "new"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-05.mp3?v=1791594957"
 }

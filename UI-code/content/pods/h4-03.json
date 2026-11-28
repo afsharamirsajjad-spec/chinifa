@@ -1,2012 +1,2029 @@
 {
-  "id": "h4-03",
-  "level": 4,
-  "no": 3,
-  "title": "备用钥匙",
-  "title_py": "bèi yòng yào shi",
-  "title_en": "The spare key",
-  "title_tr": {
-    "am": "ትርፍ ቁልፍ",
-    "fa": "کلید یدکی خانه"
+ "id": "h4-03",
+ "level": 4,
+ "no": 3,
+ "title": "备用钥匙",
+ "title_py": "bèi yòng yào shi",
+ "title_en": "The spare key",
+ "title_tr": {
+  "am": "ትርፍ ቁልፍ",
+  "fa": "کلید یدکی خانه"
+ },
+ "topic": "daily",
+ "free": true,
+ "cover": "https://media.kanchinese.app/review/stories/h4-03.jpg",
+ "duration": 116.64,
+ "lines": [
+  {
+   "text": "星期六下午，王明下楼扔垃圾，门“砰”的一声在他身后关上了。",
+   "py": "xīng qī liù xià wǔ, Wáng Míng xià lóu rēng lā jī, mén “pēng” de yì shēng zài tā shēn hòu guān shàng le.",
+   "en": "On Saturday afternoon, Wang Ming goes downstairs to take out the rubbish, and the door slams shut behind him.",
+   "tr": {
+    "am": "ቅዳሜ ከሰዓት በኋላ ዋንግ ሚንግ ቆሻሻ ሊጥል ወደ ታች ወረደ፣ በሩም ከኋላው «ድው!» ብሎ ተዘጋ።",
+    "fa": "عصر شنبه، وانگ مینگ می‌ره پایین زباله بندازه و پشت سرش در محکم بسته می‌شه."
+   },
+   "start": 2.404,
+   "end": 9.316,
+   "tokens": [
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "下楼",
+     "xià lóu",
+     "to go downstairs",
+     ""
+    ],
+    [
+     "扔",
+     "rēng",
+     "to throw; to throw away",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "门",
+     "mén",
+     "gate; door; doorway; gateway; opening",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "砰",
+     "pēng",
+     "(onom.) bang; thump",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "一声",
+     "yī shēng",
+     "first tone in Mandarin (high, level tone)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "身后",
+     "shēn hòu",
+     "the time after one's death; a place behind sb",
+     ""
+    ],
+    [
+     "关上",
+     "guān shàng",
+     "to close (a door)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "daily",
-  "free": true,
-  "cover": "https://media.kanchinese.app/review/stories/h4-03.jpg",
-  "duration": 116.64,
-  "lines": [
-    {
-      "text": "星期六下午，王明下楼扔垃圾，门“砰”的一声在他身后关上了。",
-      "py": "xīng qī liù xià wǔ, Wáng Míng xià lóu rēng lā jī, mén “pēng” de yì shēng zài tā shēn hòu guān shàng le.",
-      "en": "On Saturday afternoon, Wang Ming goes downstairs to take out the rubbish, and the door slams shut behind him.",
-      "tr": {
-        "am": "ቅዳሜ ከሰዓት በኋላ ዋንግ ሚንግ ቆሻሻ ሊጥል ወደ ታች ወረደ፣ በሩም ከኋላው «ድው!» ብሎ ተዘጋ።"
-      },
-      "start": 2.404,
-      "end": 9.316,
-      "tokens": [
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "下楼",
-          "xià lóu",
-          "to go downstairs",
-          ""
-        ],
-        [
-          "扔",
-          "rēng",
-          "to throw; to throw away",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "门",
-          "mén",
-          "gate; door; doorway; gateway; opening",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "砰",
-          "pēng",
-          "(onom.) bang; thump",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "一声",
-          "yī shēng",
-          "first tone in Mandarin (high, level tone)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "身后",
-          "shēn hòu",
-          "the time after one's death; a place behind sb",
-          ""
-        ],
-        [
-          "关上",
-          "guān shàng",
-          "to close (a door)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他一摸口袋，才发现钥匙还在家里。",
-      "py": "tā yì mō kǒu dài, cái fā xiàn yào shi hái zài jiā lǐ.",
-      "en": "He feels his pockets, and only then realises his keys are still inside.",
-      "tr": {
-        "am": "ኪሱን ሲዳብስ ቁልፉ ቤት ውስጥ እንደቀረ አወቀ።"
-      },
-      "start": 10.016,
-      "end": 14.288,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "摸",
-          "mō",
-          "to feel with the hand; to touch; to stroke",
-          ""
-        ],
-        [
-          "口袋",
-          "kǒu dài",
-          "pocket; bag; sack",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "才",
-          "cái",
-          "then and only then; (before an expression of quantity) only",
-          ""
-        ],
-        [
-          "发现",
-          "fā xiàn",
-          "to notice; to become aware of",
-          ""
-        ],
-        [
-          "钥匙",
-          "yào shi",
-          "key",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "在家",
-          "zài jiā",
-          "to be at home",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "inside; lining; interior",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨去外地出差了，后天才回来。",
-      "py": "Xiǎo yǔ qù wài dì chū chāi le, hòu tiān cái huí lái.",
-      "en": "Xiaoyu is away on a business trip and won't be back until the day after tomorrow.",
-      "tr": {
-        "am": "ሺያውዩ ለሥራ ወደ ሌላ ከተማ ሄዳለች፣ የምትመለሰው ከነገ ወዲያ ነው።"
-      },
-      "start": 14.988,
-      "end": 18.804,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "外地",
-          "wài dì",
-          "parts of the country other than where one is",
-          ""
-        ],
-        [
-          "出差",
-          "chū chāi",
-          "to go on an official or business trip",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "后天",
-          "hòu tiān",
-          "the day after tomorrow",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "ability; talent; sb of a certain type; a capable individual",
-          ""
-        ],
-        [
-          "回来",
-          "huí lai",
-          "to return; to come back",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明只好在手机上找了一个开锁师傅。师傅说路上堵车，一个小时以后才能到。",
-      "py": "Wáng Míng zhǐ hǎo zài shǒu jī shàng zhǎo le yí gè kāi suǒ shī fu. shī fu shuō lù shàng dǔ chē, yí gè xiǎo shí yǐ hòu cái néng dào.",
-      "en": "Wang Ming has no choice but to find a locksmith on his phone. The locksmith says the traffic is bad and he won't get there for an hour.",
-      "tr": {
-        "am": "ዋንግ ሚንግ በስልኩ ቁልፍ ከፋች ባለሙያ ከመፈለግ ሌላ ምርጫ አልነበረውም። ባለሙያው መንገዱ ስለተጨናነቀ የሚደርሰው ከአንድ ሰዓት በኋላ እንደሆነ ተናገረ።"
-      },
-      "start": 19.504,
-      "end": 27.328,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "只好",
-          "zhǐ hǎo",
-          "to have no other option but to ...; to have to; to be forced to",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "to climb; to get onto; to go up",
-          ""
-        ],
-        [
-          "找",
-          "zhǎo",
-          "to try to find; to find; to look for",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "开锁",
-          "kāi suǒ",
-          "to unlock",
-          ""
-        ],
-        [
-          "师傅",
-          "shī fu",
-          "master; qualified worker",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "师傅",
-          "shī fu",
-          "master; qualified worker",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "路上",
-          "lù shang",
-          "on the road; on the way; en route",
-          ""
-        ],
-        [
-          "堵车",
-          "dǔ chē",
-          "traffic jam; (of traffic) to get congested",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "才能",
-          "cái néng",
-          "talent; ability; capacity",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明穿着拖鞋站在楼道里，又冷又无聊。",
-      "py": "Wáng Míng chuān zhe tuō xié zhàn zài lóu dào lǐ, yòu lěng yòu wú liáo.",
-      "en": "Wang Ming stands in the stairwell in his slippers, cold and bored.",
-      "tr": {
-        "am": "ዋንግ ሚንግ ነጠላ ጫማ አድርጎ ደረጃው ላይ ቆሞ ይበርደዋል፣ ይሰለቸዋልም።"
-      },
-      "start": 28.028,
-      "end": 32.78,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "穿着",
-          "chuān zhuó",
-          "attire; clothes; dress",
-          ""
-        ],
-        [
-          "拖鞋",
-          "tuō xié",
-          "slippers; sandals; flip-flops",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "楼道",
-          "lóu dào",
-          "corridor; passageway (in storied building)",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "冷",
-          "lěng",
-          "cold",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "无聊",
-          "wú liáo",
-          "bored; boring; senseless",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这时候，刘爷爷买菜回来了，看见他就问：“怎么站在这儿？”",
-      "py": "zhè shí hou, Liú yé ye mǎi cài huí lái le, kàn jiàn tā jiù wèn: “zěn me zhàn zài zhè r?”",
-      "en": "Just then, Grandpa Liu comes back from buying vegetables. He sees him and asks, \"What are you doing standing out here?\"",
-      "tr": {
-        "am": "በዚህ ጊዜ አያት ሊዩ አትክልት ገዝተው ተመለሱ፣ አይተውትም «እዚህ ለምን ቆመሃል?» ብለው ጠየቁ።"
-      },
-      "start": 33.48,
-      "end": 39.624,
-      "tokens": [
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "候",
-          "hòu",
-          "to wait; to inquire after; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "买菜",
-          "mǎi cài",
-          "to buy groceries",
-          ""
-        ],
-        [
-          "回来",
-          "huí lai",
-          "to return; to come back",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "what?; how?; why?",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "这儿",
-          "zhè r",
-          "here",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "听王明说完，刘爷爷说：“别在这儿冻着了，来我家喝杯茶吧。”",
-      "py": "tīng Wáng Míng shuō wán, Liú yé ye shuō: “bié zài zhè r dòng zhe le, lái wǒ jiā hē bēi chá ba.”",
-      "en": "When Wang Ming has explained, Grandpa Liu says, \"Don't stand here freezing. Come and have a cup of tea at my place.\"",
-      "tr": {
-        "am": "ዋንግ ሚንግ ነግሯቸው ሲጨርስ አያት ሊዩ «እዚህ ቆመህ አትበርድ፣ ቤቴ መጥተህ ሻይ ጠጣ» አሉ።"
-      },
-      "start": 40.324,
-      "end": 46.276,
-      "tokens": [
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to explain; to comment; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to explain; to comment; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "别",
-          "bié",
-          "don't ...!; to leave; to part (from)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "这儿",
-          "zhè r",
-          "here",
-          ""
-        ],
-        [
-          "冻",
-          "dòng",
-          "to freeze; to feel very cold; aspic or jelly",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "杯",
-          "bēi",
-          "cup; trophy cup",
-          ""
-        ],
-        [
-          "茶",
-          "chá",
-          "tea; tea plant",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "一个小时过得很快，刘爷爷给他讲了很多这栋楼以前的故事。",
-      "py": "yí gè xiǎo shí guò de hěn kuài, Liú yé ye gěi tā jiǎng le hěn duō zhè dòng lóu yǐ qián de gù shi.",
-      "en": "The hour goes by quickly. Grandpa Liu tells him lots of stories about the building in the old days.",
-      "tr": {
-        "am": "አንድ ሰዓቱ በፍጥነት አለፈ። አያት ሊዩ ስለዚህ ሕንፃ የድሮ ብዙ ታሪኮችን ነገሩት።"
-      },
-      "start": 46.976,
-      "end": 53.144,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "过得",
-          "guò dé",
-          "How are you getting by?; How's life?",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "quick; rapid; speed",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "讲",
-          "jiǎng",
-          "to be particular about; to speak; to explain",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "栋",
-          "dòng",
-          "classifier for houses or buildings; ridgepole (old)",
-          ""
-        ],
-        [
-          "楼",
-          "lóu",
-          "storied building; house with more than 1 story; floor",
-          ""
-        ],
-        [
-          "以前",
-          "yǐ qián",
-          "before; formerly; previous",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "故事",
-          "gù shi",
-          "narrative; story; tale",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "师傅终于来了，拿出工具，不到一分钟就把门打开了。",
-      "py": "shī fu zhōng yú lái le, ná chū gōng jù, bú dào yì fēn zhōng jiù bǎ mén dǎ kāi le.",
-      "en": "The locksmith finally arrives, takes out his tools and has the door open in under a minute.",
-      "tr": {
-        "am": "ባለሙያው በመጨረሻ መጣ፣ መሣሪያውን አውጥቶም ከአንድ ደቂቃ ባነሰ ጊዜ በሩን ከፈተ።"
-      },
-      "start": 53.844,
-      "end": 59.34,
-      "tokens": [
-        [
-          "师傅",
-          "shī fu",
-          "master; qualified worker",
-          ""
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "finally; at last; in the end",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "工具",
-          "gōng jù",
-          "tool; instrument; utensil",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不到",
-          "bù dào",
-          "not to arrive; not reaching; insufficient",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "分钟",
-          "fēn zhōng",
-          "minute",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "to undertake; to engage in",
-          ""
-        ],
-        [
-          "把门",
-          "bǎ mén",
-          "to stand as a goalkeeper; to keep guard on a gate",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明付了一百五十块钱，心里又高兴又心疼。",
-      "py": "Wáng Míng fù le yì bǎi wǔ shí kuài qián, xīn lǐ yòu gāo xìng yòu xīn téng.",
-      "en": "Wang Ming pays a hundred and fifty yuan, relieved but sorry to see the money go.",
-      "tr": {
-        "am": "ዋንግ ሚንግ አንድ መቶ ሃምሳ ዩዋን ከፈለ። ደስም አለው፣ ገንዘቡም አንገበገበው።"
-      },
-      "start": 60.04,
-      "end": 64.792,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "付",
-          "fù",
-          "to pay; to hand over to",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "hundred; numerous; all kinds of",
-          ""
-        ],
-        [
-          "五十",
-          "wǔ shí",
-          "fifty",
-          ""
-        ],
-        [
-          "块",
-          "kuài",
-          "(coll.) classifier for money and currency units",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "money; coin; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "心里",
-          "xīn li",
-          "chest; heart; mind",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "心疼",
-          "xīn téng",
-          "to feel sorry for sb; to love dearly; to regret",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他回到刘爷爷家，想再跟他说一声谢谢。",
-      "py": "tā huí dào Liú yé ye jiā, xiǎng zài gēn tā shuō yì shēng xiè xie.",
-      "en": "He goes back to Grandpa Liu's to thank him again.",
-      "tr": {
-        "am": "እንደገና ሊያመሰግናቸው ወደ አያት ሊዩ ቤት ተመለሰ።"
-      },
-      "start": 65.492,
-      "end": 69.764,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "回到",
-          "huí dào",
-          "to return to",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; further; beyond this point of time",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "一声",
-          "yī shēng",
-          "first tone in Mandarin (high, level tone)",
-          ""
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷听说花了一百五十块，一下子站了起来：“哎呀，我怎么忘了！”",
-      "py": "Liú yé ye tīng shuō huā le yì bǎi wǔ shí kuài, yí xià zi zhàn le qǐ lái: “āi yā, wǒ zěn me wàng le!”",
-      "en": "When Grandpa Liu hears it cost a hundred and fifty yuan, he jumps to his feet. \"Oh dear, how could I forget!\"",
-      "tr": {
-        "am": "አያት ሊዩ አንድ መቶ ሃምሳ ዩዋን እንደወጣ ሲሰሙ ድንገት ተነሡ። «ወይኔ፣ እንዴት ረሳሁ!»"
-      },
-      "start": 70.464,
-      "end": 77.352,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "听说",
-          "tīng shuō",
-          "to hear (sth said); one hears (that); hearsay",
-          ""
-        ],
-        [
-          "花",
-          "huā",
-          "flower; blossom; fancy pattern",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "hundred; numerous; all kinds of",
-          ""
-        ],
-        [
-          "五十",
-          "wǔ shí",
-          "fifty",
-          ""
-        ],
-        [
-          "块",
-          "kuài",
-          "classifier for pieces of cloth, cake, soap etc",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "once; one time; (following a verb) for a moment; briefly",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "station; to stand; to halt",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "哎呀",
-          "āi yā",
-          "interjection of wonder, shock or admiration",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "忘",
-          "wàng",
-          "to forget; to overlook; to neglect",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "他打开抽屉，拿出一把钥匙，上面挂着一个小牌子，写着“王明、小雨家”。",
-      "py": "tā dǎ kāi chōu ti, ná chū yì bǎ yào shi, shàng miàn guà zhe yí gè xiǎo pái zi, xiě zhe “Wáng Míng, Xiǎo yǔ jiā”.",
-      "en": "He opens a drawer and takes out a key. Hanging from it is a little tag that says \"Wang Ming and Xiaoyu's\".",
-      "tr": {
-        "am": "መሳቢያቸውን ከፍተው አንድ ቁልፍ አወጡ። በላዩም «የዋንግ ሚንግና የሺያውዩ ቤት» የሚል ትንሽ መለያ ተንጠልጥሏል።"
-      },
-      "start": 78.052,
-      "end": 86.836,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "抽屉",
-          "chōu ti",
-          "drawer",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "钥匙",
-          "yào shi",
-          "key",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "上面",
-          "shàng miàn",
-          "on top of; above-mentioned; also pr.",
-          ""
-        ],
-        [
-          "挂",
-          "guà",
-          "to hang; to suspend (from a hook etc)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "牌子",
-          "pái zi",
-          "sign; trademark; brand",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“这是去年小雨给我的。她说你常常忘带钥匙，让我帮你们留一把。”",
-      "py": "“zhè shì qù nián Xiǎo yǔ gěi wǒ de. tā shuō nǐ cháng cháng wàng dài yào shi, ràng wǒ bāng nǐ men liú yì bǎ.”",
-      "en": "\"Xiaoyu gave me this last year. She said you often forget your keys, so she asked me to keep one for you.\"",
-      "tr": {
-        "am": "«ይህን ባለፈው ዓመት ሺያውዩ ሰጠችኝ። ብዙ ጊዜ ቁልፍህን ትረሳለህ ብላ አንድ እንዳስቀምጥላችሁ ጠየቀችኝ።»"
-      },
-      "start": 87.536,
-      "end": 93.68,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "去年",
-          "qù nián",
-          "last year",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "常常",
-          "cháng cháng",
-          "frequently; often",
-          ""
-        ],
-        [
-          "忘",
-          "wàng",
-          "to forget; to overlook; to neglect",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "band; belt; girdle",
-          ""
-        ],
-        [
-          "钥匙",
-          "yào shi",
-          "key",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "让",
-          "ràng",
-          "to yield; to permit; to let sb do sth",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "帮",
-          "bāng",
-          "to help; to assist; to support",
-          ""
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "留",
-          "liú",
-          "to keep; to leave (a message etc); to retain",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明看着那把钥匙，半天说不出话来。",
-      "py": "Wáng Míng kàn zhe nà bǎ yào shi, bàn tiān shuō bù chū huà lái.",
-      "en": "Wang Ming stares at the key and can't say a word for a long time.",
-      "tr": {
-        "am": "ዋንግ ሚንግ ያንን ቁልፍ እያየ ለረጅም ጊዜ መናገር አቃተው።"
-      },
-      "start": 94.38,
-      "end": 99.132,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "钥匙",
-          "yào shi",
-          "key",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "a long time; half of the day; quite a while",
-          ""
-        ],
-        [
-          "说不出话来",
-          "shuō bù chū huà lái",
-          "speechless",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷不好意思地笑了：“下次你再忘带钥匙，记得先来敲我的门。”",
-      "py": "Liú yé ye bù hǎo yì sī de xiào le: “xià cì nǐ zài wàng dài yào shi, jì de xiān lái qiāo wǒ de mén.”",
-      "en": "Grandpa Liu gives an embarrassed smile. \"Next time you forget your keys, remember to knock on my door first.\"",
-      "tr": {
-        "am": "አያት ሊዩ እያፈሩ ሳቁ። «በሚቀጥለው ጊዜ ቁልፍህን ስትረሳ መጀመሪያ የእኔን በር ማንኳኳትህን አስታውስ።»"
-      },
-      "start": 99.832,
-      "end": 106.72,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to feel embarrassed; to find it embarrassing",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "下次",
-          "xià cì",
-          "next time",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "further; beyond this point of time; again; once more; re-",
-          ""
-        ],
-        [
-          "忘",
-          "wàng",
-          "to forget; to overlook; to neglect",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "band; belt; girdle",
-          ""
-        ],
-        [
-          "钥匙",
-          "yào shi",
-          "key",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "记得",
-          "jì de",
-          "to remember",
-          ""
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "for the past (amount of time)",
-          ""
-        ],
-        [
-          "敲",
-          "qiāo",
-          "to knock; to hit; to strike",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "门",
-          "mén",
-          "gate; door; doorway; gateway; opening",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明叹了口气：“刘爷爷，下次我一定先来找您。您也一定要记得这把钥匙啊！”",
-      "py": "Wáng Míng tàn le kǒu qì: “Liú yé ye, xià cì wǒ yí dìng xiān lái zhǎo nín. nín yě yí dìng yào jì de zhè bǎ yào shi a!”",
-      "en": "Wang Ming sighs. \"Grandpa Liu, next time I'll definitely come to you first. And you've got to remember this key too!\"",
-      "tr": {
-        "am": "ዋንግ ሚንግ ተነፈሰ። «አያት ሊዩ፣ በሚቀጥለው በእርግጠኝነት መጀመሪያ ወደ እርስዎ እመጣለሁ። እርስዎም ይህን ቁልፍ ማስታወስ አለብዎት!»"
-      },
-      "start": 107.42,
-      "end": 115.94,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "叹",
-          "tàn",
-          "to sigh; to exclaim",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "口气",
-          "kǒu qì",
-          "tone of voice; the way one speaks; manner of expression",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "下次",
-          "xià cì",
-          "next time",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; for the past (amount of time)",
-          ""
-        ],
-        [
-          "找",
-          "zhǎo",
-          "to try to find; to look for; to call on sb",
-          ""
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "记得",
-          "jì de",
-          "to remember",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "钥匙",
-          "yào shi",
-          "key",
-          ""
-        ],
-        [
-          "啊",
-          "a",
-          "modal particle ending sentence, showing affirmation, approval, or consent",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 374,
-  "first": "星期六下午，王明下楼扔垃圾，门“砰”的一声在他身后关上了。",
-  "newWords": [
-    {
-      "w": "钥匙",
-      "py": "yàoshi",
-      "en": "key"
-    },
-    {
-      "w": "师傅",
-      "py": "shīfu",
-      "en": "master worker"
-    },
-    {
-      "w": "无聊",
-      "py": "wúliáo",
-      "en": "boring"
-    },
-    {
-      "w": "抽屉",
-      "py": "chōuti",
-      "en": "sliding storage compartment in furniture"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h4-03.mp3?v=1791720618"
+  {
+   "text": "他一摸口袋，才发现钥匙还在家里。",
+   "py": "tā yì mō kǒu dài, cái fā xiàn yào shi hái zài jiā lǐ.",
+   "en": "He feels his pockets, and only then realises his keys are still inside.",
+   "tr": {
+    "am": "ኪሱን ሲዳብስ ቁልፉ ቤት ውስጥ እንደቀረ አወቀ።",
+    "fa": "جیب‌هاشو می‌کنه و تازه می‌فهمه کلیداش هنوز تون."
+   },
+   "start": 10.016,
+   "end": 14.288,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "摸",
+     "mō",
+     "to feel with the hand; to touch; to stroke",
+     ""
+    ],
+    [
+     "口袋",
+     "kǒu dài",
+     "pocket; bag; sack",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "才",
+     "cái",
+     "then and only then; (before an expression of quantity) only",
+     ""
+    ],
+    [
+     "发现",
+     "fā xiàn",
+     "to notice; to become aware of",
+     ""
+    ],
+    [
+     "钥匙",
+     "yào shi",
+     "key",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "在家",
+     "zài jiā",
+     "to be at home",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "inside; lining; interior",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨去外地出差了，后天才回来。",
+   "py": "Xiǎo yǔ qù wài dì chū chāi le, hòu tiān cái huí lái.",
+   "en": "Xiaoyu is away on a business trip and won't be back until the day after tomorrow.",
+   "tr": {
+    "am": "ሺያውዩ ለሥራ ወደ ሌላ ከተማ ሄዳለች፣ የምትመለሰው ከነገ ወዲያ ነው።",
+    "fa": "شیائویو مأموریته و پس‌فردا برمی‌گرده."
+   },
+   "start": 14.988,
+   "end": 18.804,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "外地",
+     "wài dì",
+     "parts of the country other than where one is",
+     ""
+    ],
+    [
+     "出差",
+     "chū chāi",
+     "to go on an official or business trip",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "后天",
+     "hòu tiān",
+     "the day after tomorrow",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "ability; talent; sb of a certain type; a capable individual",
+     ""
+    ],
+    [
+     "回来",
+     "huí lai",
+     "to return; to come back",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明只好在手机上找了一个开锁师傅。师傅说路上堵车，一个小时以后才能到。",
+   "py": "Wáng Míng zhǐ hǎo zài shǒu jī shàng zhǎo le yí gè kāi suǒ shī fu. shī fu shuō lù shàng dǔ chē, yí gè xiǎo shí yǐ hòu cái néng dào.",
+   "en": "Wang Ming has no choice but to find a locksmith on his phone. The locksmith says the traffic is bad and he won't get there for an hour.",
+   "tr": {
+    "am": "ዋንግ ሚንግ በስልኩ ቁልፍ ከፋች ባለሙያ ከመፈለግ ሌላ ምርጫ አልነበረውም። ባለሙያው መንገዱ ስለተጨናነቀ የሚደርሰው ከአንድ ሰዓት በኋላ እንደሆነ ተናገረ።",
+    "fa": "وانگ مینگ چاره‌ای نداره جز اینکه با گوشیش یه کلیدساز پیدا کنه. کلیدساز می‌گه ترافیک سنگینه و تا یه ساعت دیگه نمی‌رسه."
+   },
+   "start": 19.504,
+   "end": 27.328,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "只好",
+     "zhǐ hǎo",
+     "to have no other option but to ...; to have to; to be forced to",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "to climb; to get onto; to go up",
+     ""
+    ],
+    [
+     "找",
+     "zhǎo",
+     "to try to find; to find; to look for",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "开锁",
+     "kāi suǒ",
+     "to unlock",
+     ""
+    ],
+    [
+     "师傅",
+     "shī fu",
+     "master; qualified worker",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "师傅",
+     "shī fu",
+     "master; qualified worker",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "路上",
+     "lù shang",
+     "on the road; on the way; en route",
+     ""
+    ],
+    [
+     "堵车",
+     "dǔ chē",
+     "traffic jam; (of traffic) to get congested",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "才能",
+     "cái néng",
+     "talent; ability; capacity",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明穿着拖鞋站在楼道里，又冷又无聊。",
+   "py": "Wáng Míng chuān zhe tuō xié zhàn zài lóu dào lǐ, yòu lěng yòu wú liáo.",
+   "en": "Wang Ming stands in the stairwell in his slippers, cold and bored.",
+   "tr": {
+    "am": "ዋንግ ሚንግ ነጠላ ጫማ አድርጎ ደረጃው ላይ ቆሞ ይበርደዋል፣ ይሰለቸዋልም።",
+    "fa": "وانگ مینگ با دمپایی‌ها تو راهرویِ پله‌ها وایساده؛ سرد و حوصله‌سررفته."
+   },
+   "start": 28.028,
+   "end": 32.78,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "穿着",
+     "chuān zhuó",
+     "attire; clothes; dress",
+     ""
+    ],
+    [
+     "拖鞋",
+     "tuō xié",
+     "slippers; sandals; flip-flops",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "楼道",
+     "lóu dào",
+     "corridor; passageway (in storied building)",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "冷",
+     "lěng",
+     "cold",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "无聊",
+     "wú liáo",
+     "bored; boring; senseless",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这时候，刘爷爷买菜回来了，看见他就问：“怎么站在这儿？”",
+   "py": "zhè shí hou, Liú yé ye mǎi cài huí lái le, kàn jiàn tā jiù wèn: “zěn me zhàn zài zhè r?”",
+   "en": "Just then, Grandpa Liu comes back from buying vegetables. He sees him and asks, \"What are you doing standing out here?\"",
+   "tr": {
+    "am": "በዚህ ጊዜ አያት ሊዩ አትክልት ገዝተው ተመለሱ፣ አይተውትም «እዚህ ለምን ቆመሃል?» ብለው ጠየቁ።",
+    "fa": "همین موقع پدربزرگ لیو از خرید سبزی برمی‌گرده. می‌بینتش و می‌پرسه: «چی‌کار می‌کنی وایسادی اینجا؟»"
+   },
+   "start": 33.48,
+   "end": 39.624,
+   "tokens": [
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "候",
+     "hòu",
+     "to wait; to inquire after; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "买菜",
+     "mǎi cài",
+     "to buy groceries",
+     ""
+    ],
+    [
+     "回来",
+     "huí lai",
+     "to return; to come back",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "what?; how?; why?",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "这儿",
+     "zhè r",
+     "here",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "听王明说完，刘爷爷说：“别在这儿冻着了，来我家喝杯茶吧。”",
+   "py": "tīng Wáng Míng shuō wán, Liú yé ye shuō: “bié zài zhè r dòng zhe le, lái wǒ jiā hē bēi chá ba.”",
+   "en": "When Wang Ming has explained, Grandpa Liu says, \"Don't stand here freezing. Come and have a cup of tea at my place.\"",
+   "tr": {
+    "am": "ዋንግ ሚንግ ነግሯቸው ሲጨርስ አያት ሊዩ «እዚህ ቆመህ አትበርድ፣ ቤቴ መጥተህ ሻይ ጠጣ» አሉ።",
+    "fa": "وقتی وانگ مینگ توضیح می‌ده، پدربزرگ لیو می‌گه: «نمی‌خواد تو این سرما وایسی. بیا خونه‌ی من یه فنجون چای بخور.»"
+   },
+   "start": 40.324,
+   "end": 46.276,
+   "tokens": [
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to explain; to comment; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to explain; to comment; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "别",
+     "bié",
+     "don't ...!; to leave; to part (from)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "这儿",
+     "zhè r",
+     "here",
+     ""
+    ],
+    [
+     "冻",
+     "dòng",
+     "to freeze; to feel very cold; aspic or jelly",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "杯",
+     "bēi",
+     "cup; trophy cup",
+     ""
+    ],
+    [
+     "茶",
+     "chá",
+     "tea; tea plant",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "一个小时过得很快，刘爷爷给他讲了很多这栋楼以前的故事。",
+   "py": "yí gè xiǎo shí guò de hěn kuài, Liú yé ye gěi tā jiǎng le hěn duō zhè dòng lóu yǐ qián de gù shi.",
+   "en": "The hour goes by quickly. Grandpa Liu tells him lots of stories about the building in the old days.",
+   "tr": {
+    "am": "አንድ ሰዓቱ በፍጥነት አለፈ። አያት ሊዩ ስለዚህ ሕንፃ የድሮ ብዙ ታሪኮችን ነገሩት።",
+    "fa": "اون ساعت سریع می‌گذره. پدربزرگ لیو کلی قصه از روزای قدیمِ ساختمون براش تعریف می‌کنه."
+   },
+   "start": 46.976,
+   "end": 53.144,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "过得",
+     "guò dé",
+     "How are you getting by?; How's life?",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "quick; rapid; speed",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "讲",
+     "jiǎng",
+     "to be particular about; to speak; to explain",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "栋",
+     "dòng",
+     "classifier for houses or buildings; ridgepole (old)",
+     ""
+    ],
+    [
+     "楼",
+     "lóu",
+     "storied building; house with more than 1 story; floor",
+     ""
+    ],
+    [
+     "以前",
+     "yǐ qián",
+     "before; formerly; previous",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "故事",
+     "gù shi",
+     "narrative; story; tale",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "师傅终于来了，拿出工具，不到一分钟就把门打开了。",
+   "py": "shī fu zhōng yú lái le, ná chū gōng jù, bú dào yì fēn zhōng jiù bǎ mén dǎ kāi le.",
+   "en": "The locksmith finally arrives, takes out his tools and has the door open in under a minute.",
+   "tr": {
+    "am": "ባለሙያው በመጨረሻ መጣ፣ መሣሪያውን አውጥቶም ከአንድ ደቂቃ ባነሰ ጊዜ በሩን ከፈተ።",
+    "fa": "کلیدساز بالاخره میاد، ابزارشو درمیاره و کمتر از یه دقیقه درو باز می‌کنه."
+   },
+   "start": 53.844,
+   "end": 59.34,
+   "tokens": [
+    [
+     "师傅",
+     "shī fu",
+     "master; qualified worker",
+     ""
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "finally; at last; in the end",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "工具",
+     "gōng jù",
+     "tool; instrument; utensil",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不到",
+     "bù dào",
+     "not to arrive; not reaching; insufficient",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "分钟",
+     "fēn zhōng",
+     "minute",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "to undertake; to engage in",
+     ""
+    ],
+    [
+     "把门",
+     "bǎ mén",
+     "to stand as a goalkeeper; to keep guard on a gate",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明付了一百五十块钱，心里又高兴又心疼。",
+   "py": "Wáng Míng fù le yì bǎi wǔ shí kuài qián, xīn lǐ yòu gāo xìng yòu xīn téng.",
+   "en": "Wang Ming pays a hundred and fifty yuan, relieved but sorry to see the money go.",
+   "tr": {
+    "am": "ዋንግ ሚንግ አንድ መቶ ሃምሳ ዩዋን ከፈለ። ደስም አለው፣ ገንዘቡም አንገበገበው።",
+    "fa": "وانگ مینگ صدوپنجاه یوان می‌ده؛ راحت شده ولی حسرتِ اون پولو می‌خوره."
+   },
+   "start": 60.04,
+   "end": 64.792,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "付",
+     "fù",
+     "to pay; to hand over to",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "hundred; numerous; all kinds of",
+     ""
+    ],
+    [
+     "五十",
+     "wǔ shí",
+     "fifty",
+     ""
+    ],
+    [
+     "块",
+     "kuài",
+     "(coll.) classifier for money and currency units",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "money; coin; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "心里",
+     "xīn li",
+     "chest; heart; mind",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "心疼",
+     "xīn téng",
+     "to feel sorry for sb; to love dearly; to regret",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他回到刘爷爷家，想再跟他说一声谢谢。",
+   "py": "tā huí dào Liú yé ye jiā, xiǎng zài gēn tā shuō yì shēng xiè xie.",
+   "en": "He goes back to Grandpa Liu's to thank him again.",
+   "tr": {
+    "am": "እንደገና ሊያመሰግናቸው ወደ አያት ሊዩ ቤት ተመለሰ።",
+    "fa": "برمی‌گرده خونه‌ی پدربزرگ لیو که بازم ازش تشکر کنه."
+   },
+   "start": 65.492,
+   "end": 69.764,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "回到",
+     "huí dào",
+     "to return to",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; further; beyond this point of time",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "一声",
+     "yī shēng",
+     "first tone in Mandarin (high, level tone)",
+     ""
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷听说花了一百五十块，一下子站了起来：“哎呀，我怎么忘了！”",
+   "py": "Liú yé ye tīng shuō huā le yì bǎi wǔ shí kuài, yí xià zi zhàn le qǐ lái: “āi yā, wǒ zěn me wàng le!”",
+   "en": "When Grandpa Liu hears it cost a hundred and fifty yuan, he jumps to his feet. \"Oh dear, how could I forget!\"",
+   "tr": {
+    "am": "አያት ሊዩ አንድ መቶ ሃምሳ ዩዋን እንደወጣ ሲሰሙ ድንገት ተነሡ። «ወይኔ፣ እንዴት ረሳሁ!»",
+    "fa": "پدربزرگ لیو که می‌شنوه صدوپنجاه یوان اومده، فوری بلند می‌شه: «وای، چطور می‌شد یادم بره!»"
+   },
+   "start": 70.464,
+   "end": 77.352,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "听说",
+     "tīng shuō",
+     "to hear (sth said); one hears (that); hearsay",
+     ""
+    ],
+    [
+     "花",
+     "huā",
+     "flower; blossom; fancy pattern",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "hundred; numerous; all kinds of",
+     ""
+    ],
+    [
+     "五十",
+     "wǔ shí",
+     "fifty",
+     ""
+    ],
+    [
+     "块",
+     "kuài",
+     "classifier for pieces of cloth, cake, soap etc",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "once; one time; (following a verb) for a moment; briefly",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "station; to stand; to halt",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "哎呀",
+     "āi yā",
+     "interjection of wonder, shock or admiration",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "忘",
+     "wàng",
+     "to forget; to overlook; to neglect",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "他打开抽屉，拿出一把钥匙，上面挂着一个小牌子，写着“王明、小雨家”。",
+   "py": "tā dǎ kāi chōu ti, ná chū yì bǎ yào shi, shàng miàn guà zhe yí gè xiǎo pái zi, xiě zhe “Wáng Míng, Xiǎo yǔ jiā”.",
+   "en": "He opens a drawer and takes out a key. Hanging from it is a little tag that says \"Wang Ming and Xiaoyu's\".",
+   "tr": {
+    "am": "መሳቢያቸውን ከፍተው አንድ ቁልፍ አወጡ። በላዩም «የዋንግ ሚንግና የሺያውዩ ቤት» የሚል ትንሽ መለያ ተንጠልጥሏል።",
+    "fa": "یه کشو باز می‌کنه و یه کلید درمیاره؛ یه اتیکتِ کوچولو بهش آویزونه که روش نوشته \"مالِ وانگ مینگ و شیائویو\"."
+   },
+   "start": 78.052,
+   "end": 86.836,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "抽屉",
+     "chōu ti",
+     "drawer",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "钥匙",
+     "yào shi",
+     "key",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "上面",
+     "shàng miàn",
+     "on top of; above-mentioned; also pr.",
+     ""
+    ],
+    [
+     "挂",
+     "guà",
+     "to hang; to suspend (from a hook etc)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "牌子",
+     "pái zi",
+     "sign; trademark; brand",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“这是去年小雨给我的。她说你常常忘带钥匙，让我帮你们留一把。”",
+   "py": "“zhè shì qù nián Xiǎo yǔ gěi wǒ de. tā shuō nǐ cháng cháng wàng dài yào shi, ràng wǒ bāng nǐ men liú yì bǎ.”",
+   "en": "\"Xiaoyu gave me this last year. She said you often forget your keys, so she asked me to keep one for you.\"",
+   "tr": {
+    "am": "«ይህን ባለፈው ዓመት ሺያውዩ ሰጠችኝ። ብዙ ጊዜ ቁልፍህን ትረሳለህ ብላ አንድ እንዳስቀምጥላችሁ ጠየቀችኝ።»",
+    "fa": "«پارسال شیائویو اینو به من داد. گفت تو اغلب کلیداتو یادت می‌ره، برای همین ازم خواست یکی نگه دارم برات.»"
+   },
+   "start": 87.536,
+   "end": 93.68,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "去年",
+     "qù nián",
+     "last year",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "常常",
+     "cháng cháng",
+     "frequently; often",
+     ""
+    ],
+    [
+     "忘",
+     "wàng",
+     "to forget; to overlook; to neglect",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "band; belt; girdle",
+     ""
+    ],
+    [
+     "钥匙",
+     "yào shi",
+     "key",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "让",
+     "ràng",
+     "to yield; to permit; to let sb do sth",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "帮",
+     "bāng",
+     "to help; to assist; to support",
+     ""
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "留",
+     "liú",
+     "to keep; to leave (a message etc); to retain",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明看着那把钥匙，半天说不出话来。",
+   "py": "Wáng Míng kàn zhe nà bǎ yào shi, bàn tiān shuō bù chū huà lái.",
+   "en": "Wang Ming stares at the key and can't say a word for a long time.",
+   "tr": {
+    "am": "ዋንግ ሚንግ ያንን ቁልፍ እያየ ለረጅም ጊዜ መናገር አቃተው።",
+    "fa": "وانگ مینگ به کلید خیره می‌مونه و مدت زیادی نمی‌تونه حرف بزنه."
+   },
+   "start": 94.38,
+   "end": 99.132,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "钥匙",
+     "yào shi",
+     "key",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "a long time; half of the day; quite a while",
+     ""
+    ],
+    [
+     "说不出话来",
+     "shuō bù chū huà lái",
+     "speechless",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷不好意思地笑了：“下次你再忘带钥匙，记得先来敲我的门。”",
+   "py": "Liú yé ye bù hǎo yì sī de xiào le: “xià cì nǐ zài wàng dài yào shi, jì de xiān lái qiāo wǒ de mén.”",
+   "en": "Grandpa Liu gives an embarrassed smile. \"Next time you forget your keys, remember to knock on my door first.\"",
+   "tr": {
+    "am": "አያት ሊዩ እያፈሩ ሳቁ። «በሚቀጥለው ጊዜ ቁልፍህን ስትረሳ መጀመሪያ የእኔን በር ማንኳኳትህን አስታውስ።»",
+    "fa": "پدربزرگ لیو با یه لبخندِ خجالتی می‌گه: «دفعه‌ی بعد که کلیدات یادت رفت، اول یادت باشه درِ منو بزنی.»"
+   },
+   "start": 99.832,
+   "end": 106.72,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to feel embarrassed; to find it embarrassing",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "下次",
+     "xià cì",
+     "next time",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "further; beyond this point of time; again; once more; re-",
+     ""
+    ],
+    [
+     "忘",
+     "wàng",
+     "to forget; to overlook; to neglect",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "band; belt; girdle",
+     ""
+    ],
+    [
+     "钥匙",
+     "yào shi",
+     "key",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "记得",
+     "jì de",
+     "to remember",
+     ""
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "for the past (amount of time)",
+     ""
+    ],
+    [
+     "敲",
+     "qiāo",
+     "to knock; to hit; to strike",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "门",
+     "mén",
+     "gate; door; doorway; gateway; opening",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明叹了口气：“刘爷爷，下次我一定先来找您。您也一定要记得这把钥匙啊！”",
+   "py": "Wáng Míng tàn le kǒu qì: “Liú yé ye, xià cì wǒ yí dìng xiān lái zhǎo nín. nín yě yí dìng yào jì de zhè bǎ yào shi a!”",
+   "en": "Wang Ming sighs. \"Grandpa Liu, next time I'll definitely come to you first. And you've got to remember this key too!\"",
+   "tr": {
+    "am": "ዋንግ ሚንግ ተነፈሰ። «አያት ሊዩ፣ በሚቀጥለው በእርግጠኝነት መጀመሪያ ወደ እርስዎ እመጣለሁ። እርስዎም ይህን ቁልፍ ማስታወስ አለብዎት!»",
+    "fa": "وانگ مینگ آه می‌کشه: «پدربزرگ لیو، دفعه‌ی بعد حتماً اول می‌ام پیش شما. ولی شمام باید این کلیدو یادت بمونه!»"
+   },
+   "start": 107.42,
+   "end": 115.94,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "叹",
+     "tàn",
+     "to sigh; to exclaim",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "口气",
+     "kǒu qì",
+     "tone of voice; the way one speaks; manner of expression",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "下次",
+     "xià cì",
+     "next time",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; for the past (amount of time)",
+     ""
+    ],
+    [
+     "找",
+     "zhǎo",
+     "to try to find; to look for; to call on sb",
+     ""
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "记得",
+     "jì de",
+     "to remember",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "钥匙",
+     "yào shi",
+     "key",
+     ""
+    ],
+    [
+     "啊",
+     "a",
+     "modal particle ending sentence, showing affirmation, approval, or consent",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 374,
+ "first": "星期六下午，王明下楼扔垃圾，门“砰”的一声在他身后关上了。",
+ "newWords": [
+  {
+   "w": "钥匙",
+   "py": "yàoshi",
+   "en": "key"
+  },
+  {
+   "w": "师傅",
+   "py": "shīfu",
+   "en": "master worker"
+  },
+  {
+   "w": "无聊",
+   "py": "wúliáo",
+   "en": "boring"
+  },
+  {
+   "w": "抽屉",
+   "py": "chōuti",
+   "en": "sliding storage compartment in furniture"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h4-03.mp3?v=1791720618"
 }

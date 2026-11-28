@@ -1,1537 +1,1553 @@
 {
-  "id": "h3-09",
-  "level": 3,
-  "no": 9,
-  "title": "包饺子",
-  "title_py": "bāo jiǎo zi",
-  "title_en": "Making dumplings",
-  "title_tr": {
-    "vi": "Gói sủi cảo",
-    "pt": "Fazendo jiaozi",
-    "es": "Hacer dumplings",
-    "fr": "On fait des raviolis",
-    "am": "ዱምፕሊንግ መሥራት",
-    "fa": "پیچیدن دامپلینگ (جیائوزی)"
+ "id": "h3-09",
+ "level": 3,
+ "no": 9,
+ "title": "包饺子",
+ "title_py": "bāo jiǎo zi",
+ "title_en": "Making dumplings",
+ "title_tr": {
+  "vi": "Gói sủi cảo",
+  "pt": "Fazendo jiaozi",
+  "es": "Hacer dumplings",
+  "fr": "On fait des raviolis",
+  "am": "ዱምፕሊንግ መሥራት",
+  "fa": "پیچیدن دامپلینگ (جیائوزی)"
+ },
+ "topic": "festival",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h3-09.jpg",
+ "duration": 90.068,
+ "lines": [
+  {
+   "text": "春节快到了，小雨和王明请安娜和杰克来家里过年。",
+   "py": "chūn jié kuài dào le, Xiǎo yǔ hé Wáng Míng qǐng Ān nà hé Jié kè lái jiā lǐ guò nián.",
+   "en": "Spring Festival is coming, and Xiaoyu and Wang Ming invite Anna and Jack to spend the New Year at their home.",
+   "tr": {
+    "vi": "Tết Xuân sắp đến, Tiểu Vũ và Vương Minh mời Anna và Jack đến nhà đón Tết.",
+    "pt": "A Festa da Primavera está chegando, e a Xiaoyu e o Wang Ming convidam a Anna e Jack para passar o Ano-Novo na casa deles.",
+    "es": "Se acerca la Fiesta de la Primavera, y Xiaoyu y Wang Ming invitan a Anna y a Jack a pasar el Año Nuevo en su casa.",
+    "fr": "La fête du Printemps approche. Xiaoyu et Wang Ming invitent Anna et Jack chez eux pour fêter le Nouvel An.",
+    "am": "የቻይና አዲስ ዓመት ተቃርቧል፤ ሺያውዩ እና ዋንግ ሚንግ አናን እና ጃክን አዲሱን ዓመት ቤታቸው እንዲያከብሩ ጋበዙ።",
+    "fa": "جشن بهاره نزدیکه و شیائویو و وانگ مینگ آنا و جک رو دعوت می‌کنن سال نو رو پیشِ هم بگذرونن."
+   },
+   "start": 2.404,
+   "end": 8.572,
+   "tokens": [
+    [
+     "春节",
+     "chūn jié",
+     "Spring Festival (Chinese New Year)",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "rapid; quick; speed",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "请安",
+     "qǐng ān",
+     "to pay respects; to wish good health",
+     ""
+    ],
+    [
+     "娜",
+     "nà",
+     "used esp. in female names such as Anna 安娜 or Diana 黛安娜",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "(prefix) the coming ...; the next ... (as in 来世); to come",
+     ""
+    ],
+    [
+     "家里",
+     "jiā lǐ",
+     "home",
+     ""
+    ],
+    [
+     "过年",
+     "guò nián",
+     "to celebrate the Chinese New Year",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "festival",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h3-09.jpg",
-  "duration": 90.068,
-  "lines": [
-    {
-      "text": "春节快到了，小雨和王明请安娜和杰克来家里过年。",
-      "py": "chūn jié kuài dào le, Xiǎo yǔ hé Wáng Míng qǐng Ān nà hé Jié kè lái jiā lǐ guò nián.",
-      "en": "Spring Festival is coming, and Xiaoyu and Wang Ming invite Anna and Jack to spend the New Year at their home.",
-      "tr": {
-        "vi": "Tết Xuân sắp đến, Tiểu Vũ và Vương Minh mời Anna và Jack đến nhà đón Tết.",
-        "pt": "A Festa da Primavera está chegando, e a Xiaoyu e o Wang Ming convidam a Anna e Jack para passar o Ano-Novo na casa deles.",
-        "es": "Se acerca la Fiesta de la Primavera, y Xiaoyu y Wang Ming invitan a Anna y a Jack a pasar el Año Nuevo en su casa.",
-        "fr": "La fête du Printemps approche. Xiaoyu et Wang Ming invitent Anna et Jack chez eux pour fêter le Nouvel An.",
-        "am": "የቻይና አዲስ ዓመት ተቃርቧል፤ ሺያውዩ እና ዋንግ ሚንግ አናን እና ጃክን አዲሱን ዓመት ቤታቸው እንዲያከብሩ ጋበዙ።"
-      },
-      "start": 2.404,
-      "end": 8.572,
-      "tokens": [
-        [
-          "春节",
-          "chūn jié",
-          "Spring Festival (Chinese New Year)",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "rapid; quick; speed",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "请安",
-          "qǐng ān",
-          "to pay respects; to wish good health",
-          ""
-        ],
-        [
-          "娜",
-          "nà",
-          "used esp. in female names such as Anna 安娜 or Diana 黛安娜",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "(prefix) the coming ...; the next ... (as in 来世); to come",
-          ""
-        ],
-        [
-          "家里",
-          "jiā lǐ",
-          "home",
-          ""
-        ],
-        [
-          "过年",
-          "guò nián",
-          "to celebrate the Chinese New Year",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "大年三十晚上，大家一起包饺子。",
-      "py": "dà nián sān shí wǎn shang, dà jiā yì qǐ bāo jiǎo zi.",
-      "en": "On New Year's Eve, they all make dumplings together.",
-      "tr": {
-        "vi": "Tối Ba mươi Tết, mọi người cùng nhau gói sủi cảo.",
-        "pt": "Na véspera do Ano-Novo, todos fazem jiaozi juntos.",
-        "es": "La noche de fin de año, todos hacen jiaozi juntos.",
-        "fr": "Le soir du réveillon, tout le monde fait des raviolis ensemble.",
-        "am": "በአዲስ ዓመት ዋዜማ ምሽት ሁሉም አብረው ዱምፕሊንግ ሠሩ።"
-      },
-      "start": 9.272,
-      "end": 12.872,
-      "tokens": [
-        [
-          "大年三十",
-          "dà nián sān shí",
-          "last day of the lunar year; Chinese New Year's Eve",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; night; in the evening",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "一起",
-          "yī qǐ",
-          "together; in company (with); (in) the same place",
-          ""
-        ],
-        [
-          "包饺子",
-          "bāo jiǎo zi",
-          "to wrap jiaozi (dumplings or potstickers)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明教他们：“先放一点儿肉，再把它包好。”",
-      "py": "Wáng Míng jiāo tā men: “xiān fàng yì diǎn r ròu, zài bǎ tā bāo hǎo.”",
-      "en": "Wang Ming shows them how. \"Put in a little meat first, then wrap it up.\"",
-      "tr": {
-        "vi": "Vương Minh hướng dẫn họ: “Cho một chút thịt vào trước, rồi gói lại cho khéo.”",
-        "pt": "O Wang Ming ensina: “Primeiro coloque um pouco de carne, depois feche bem.”",
-        "es": "Wang Ming les enseña: «Primero pones un poco de carne y luego lo cierras bien».",
-        "fr": "Wang Ming leur montre : « D’abord, on met un peu de viande, ensuite on referme bien. »",
-        "am": "ዋንግ ሚንግ አስተማራቸው። «መጀመሪያ ትንሽ ሥጋ አድርጉ፤ ከዚያ በደንብ ጠቅልሉት።»"
-      },
-      "start": 13.572,
-      "end": 18.324,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "教",
-          "jiāo",
-          "to teach; to instruct",
-          ""
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "肉",
-          "ròu",
-          "meat; flesh; pulp (of a fruit)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "再",
-          "zài",
-          "then (after sth, and not until then)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "(used to put the object before the verb: 把 + {noun} + {verb})",
-          ""
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "to wrap; wrapper; to cover",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克包得很快，也很好看。",
-      "py": "Jié kè bāo de hěn kuài, yě hěn hǎo kàn.",
-      "en": "Jack makes them quickly, and they look nice too.",
-      "tr": {
-        "vi": "Jack gói rất nhanh, lại còn đẹp.",
-        "pt": "Jack faz rápido, e os dele ficam bonitos também.",
-        "es": "Jack los hace rápido y le quedan bonitos.",
-        "fr": "Jack les fait vite, et ils sont jolis.",
-        "am": "ጃክ በፍጥነት ሠራ፤ ያምራሉም።"
-      },
-      "start": 19.024,
-      "end": 21.88,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "to cover; to wrap; to hold",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "quick; to make haste; rapid",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "好看",
-          "hǎo kàn",
-          "good-looking; nice-looking",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜包的饺子却一个比一个大，有的像小鸟，有的像小船。",
-      "py": "Ān nà bāo de jiǎo zi què yí gè bǐ yí gè dà, yǒu de xiàng xiǎo niǎo, yǒu de xiàng xiǎo chuán.",
-      "en": "Anna's dumplings, though, get bigger and bigger. Some look like little birds, some like little boats.",
-      "tr": {
-        "vi": "Còn sủi cảo Anna gói thì cái sau to hơn cái trước, có cái giống con chim nhỏ, có cái giống chiếc thuyền nhỏ.",
-        "pt": "Já os jiaozi da Anna ficam cada vez maiores: uns parecem passarinhos, outros parecem barquinhos.",
-        "es": "En cambio, los jiaozi de Anna salen cada vez más grandes: unos parecen pajaritos y otros, barquitos.",
-        "fr": "Mais les raviolis d’Anna sont de plus en plus gros : certains ressemblent à des petits oiseaux, d’autres à des petits bateaux.",
-        "am": "አና የሠራቻቸው ግን አንዱ ከሌላው እየተለቀ ሄደ፤ አንዳንዶቹ ትንሽ ወፍ፣ አንዳንዶቹ ትንሽ ጀልባ ይመስላሉ።"
-      },
-      "start": 22.58,
-      "end": 28.724,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "to cover; to wrap; to hold",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "却",
-          "què",
-          "even though; but; yet",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "比",
-          "bǐ",
-          "(Taiwan pr. in some compounds derived from Classical Chinese)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有的",
-          "yǒu de",
-          "(there are) some (who are...); some (exist)",
-          ""
-        ],
-        [
-          "像",
-          "xiàng",
-          "to be like; to look as if; to resemble",
-          ""
-        ],
-        [
-          "小鸟",
-          "xiǎo niǎo",
-          "small bird",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有的",
-          "yǒu de",
-          "(there are) some (who are...); some (exist)",
-          ""
-        ],
-        [
-          "像",
-          "xiàng",
-          "to be like; to look as if; to resemble",
-          ""
-        ],
-        [
-          "小船",
-          "xiǎo chuán",
-          "boat",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨笑着说：“没关系，好吃就好。”",
-      "py": "Xiǎo yǔ xiào zhe shuō: “méi guān xi, hǎo chī jiù hǎo.”",
-      "en": "Xiaoyu laughs and says, \"Never mind. As long as they taste good.\"",
-      "tr": {
-        "vi": "Tiểu Vũ cười nói: “Không sao, ngon là được.”",
-        "pt": "A Xiaoyu ri: “Não tem problema. O importante é ficar gostoso.”",
-        "es": "Xiaoyu dice riendo: «No importa. Con que estén ricos, basta».",
-        "fr": "Xiaoyu dit en riant : « Ce n’est pas grave, du moment qu’ils sont bons. »",
-        "am": "ሺያውዩ እየሳቀች «ችግር የለም፤ ዋናው መጣፈጡ ነው» አለች።"
-      },
-      "start": 29.424,
-      "end": 34.152,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "没关系",
-          "méi guān xi",
-          "it doesn't matter",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "好吃",
-          "hǎo chī",
-          "tasty; delicious",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; (before a verb) good to; appropriate; proper",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "然后，她拿出一块钱，放进了一个饺子里。",
-      "py": "rán hòu, tā ná chū yí kuài qián, fàng jìn le yí gè jiǎo zi lǐ.",
-      "en": "Then she takes out a one-yuan coin and puts it into one of the dumplings.",
-      "tr": {
-        "vi": "Sau đó, cô lấy ra một đồng một tệ, bỏ vào trong một chiếc sủi cảo.",
-        "pt": "Depois, ela pega uma moeda de um yuan e coloca dentro de um dos jiaozi.",
-        "es": "Luego saca una moneda de un yuan y la mete dentro de un jiaozi.",
-        "fr": "Ensuite, elle sort une pièce d’un yuan et la met dans un des raviolis.",
-        "am": "ከዚያ አንድ ዩዋን ሳንቲም አውጥታ በአንድ ዱምፕሊንግ ውስጥ አስገባች።"
-      },
-      "start": 34.852,
-      "end": 39.58,
-      "tokens": [
-        [
-          "然后",
-          "rán hòu",
-          "then; after that; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "一块",
-          "yī kuài",
-          "(coll.) one yuan; a dollar; a piece; a chunk",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "coin; money; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "放进",
-          "fàng jìn",
-          "to put into",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“这是什么意思？”杰克问。",
-      "py": "“zhè shì shén me yì si?” Jié kè wèn.",
-      "en": "\"What's that for?\" Jack asks.",
-      "tr": {
-        "vi": "“Cái này có ý nghĩa gì vậy?” Jack hỏi.",
-        "pt": "“Para que isso?”, pergunta Jack.",
-        "es": "«¿Y eso qué significa?», pregunta Jack.",
-        "fr": "« Ça veut dire quoi ? » demande Jack.",
-        "am": "«ይሄ ምን ማለት ነው?» ብሎ ጃክ ጠየቀ።"
-      },
-      "start": 40.28,
-      "end": 43.136,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "意思",
-          "yì si",
-          "idea; opinion; meaning",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“谁吃到这个饺子，谁新的一年就会特别顺利。”",
-      "py": "“shéi chī dào zhè ge jiǎo zi, shéi xīn de yì nián jiù huì tè bié shùn lì.”",
-      "en": "\"Whoever gets this dumpling will have a really good year.\"",
-      "tr": {
-        "vi": "“Ai ăn trúng chiếc sủi cảo này, năm mới người đó sẽ đặc biệt thuận lợi.”",
-        "pt": "“Quem pegar este jiaozi vai ter um ano novo de muita sorte.”",
-        "es": "«Al que le toque este jiaozi, le va a ir muy bien en el año nuevo».",
-        "fr": "« Celui qui tombe sur ce ravioli aura une très bonne année. »",
-        "am": "«ይሄን ዱምፕሊንግ ያገኘ ሰው አዲሱ ዓመት በጣም ይቃናለታል።»"
-      },
-      "start": 43.836,
-      "end": 48.588,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "谁",
-          "shéi",
-          "who; also pr.",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "谁",
-          "shéi",
-          "who; also pr.",
-          ""
-        ],
-        [
-          "新",
-          "xīn",
-          "new; newly; meso- (chemistry)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "特别",
-          "tè bié",
-          "unusual; special; very; especially; particularly",
-          ""
-        ],
-        [
-          "顺利",
-          "shùn lì",
-          "smoothly; without a hitch",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "饺子做好了，大家一边吃一边看电视。",
-      "py": "jiǎo zi zuò hǎo le, dà jiā yì biān chī yì biān kàn diàn shì.",
-      "en": "When the dumplings are ready, everyone eats while watching TV.",
-      "tr": {
-        "vi": "Sủi cảo chín rồi, mọi người vừa ăn vừa xem tivi.",
-        "pt": "Quando os jiaozi ficam prontos, todos comem vendo televisão.",
-        "es": "Cuando los jiaozi están listos, todos comen mientras ven la tele.",
-        "fr": "Quand les raviolis sont prêts, tout le monde mange en regardant la télé.",
-        "am": "ዱምፕሊንጉ ደረሰ፤ ሁሉም እየበሉ ቴሌቪዥን አዩ።"
-      },
-      "start": 49.288,
-      "end": 53.56,
-      "tokens": [
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "一边",
-          "yī biān",
-          "doing while; one side; either side",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "一边",
-          "yī biān",
-          "doing while; one side; either side",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to read; to watch; to watch out for",
-          ""
-        ],
-        [
-          "电视",
-          "diàn shì",
-          "television; TV",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "突然，安娜叫了起来：“我吃到了！”",
-      "py": "tū rán, Ān nà jiào le qǐ lái: “wǒ chī dào le!”",
-      "en": "Suddenly Anna cries out, \"I got it!\"",
-      "tr": {
-        "vi": "Đột nhiên, Anna reo lên: “Mình ăn trúng rồi!”",
-        "pt": "De repente, a Anna grita: “Peguei!”",
-        "es": "De repente, Anna grita: «¡Me tocó a mí!».",
-        "fr": "Soudain, Anna s’écrie : « Je l’ai ! »",
-        "am": "ድንገት አና «አገኘሁት!» ብላ ጮኸች።"
-      },
-      "start": 54.26,
-      "end": 58.532,
-      "tokens": [
-        [
-          "突然",
-          "tū rán",
-          "sudden; abrupt; unexpected",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to shout; to call; to order",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "她手里拿着那一块钱，高兴得像个孩子。",
-      "py": "tā shǒu lǐ ná zhe nà yí kuài qián, gāo xìng de xiàng gè hái zi.",
-      "en": "She holds up the coin, as happy as a child.",
-      "tr": {
-        "vi": "Cô cầm đồng một tệ trong tay, vui như một đứa trẻ.",
-        "pt": "Ela mostra a moeda na mão, feliz como uma criança.",
-        "es": "Tiene la moneda en la mano y está feliz como una niña.",
-        "fr": "Elle tient la pièce dans sa main, heureuse comme une enfant.",
-        "am": "ሳንቲሙን ይዛ እንደ ልጅ ተደሰተች።"
-      },
-      "start": 59.232,
-      "end": 63.48,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "手里",
-          "shǒu lǐ",
-          "in hand; (a situation is) in sb's hands",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "一块",
-          "yī kuài",
-          "a piece; a chunk",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "coin; money; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "像",
-          "xiàng",
-          "to resemble; to be like; to look as if",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "孩子",
-          "hái zi",
-          "child",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克看了看她的碗：“这么大的饺子，一定是你自己包的吧？”",
-      "py": "Jié kè kàn le kàn tā de wǎn: “zhè me dà de jiǎo zi, yí dìng shì nǐ zì jǐ bāo de ba?”",
-      "en": "Jack looks at her bowl. \"A dumpling that big must be one you made yourself!\"",
-      "tr": {
-        "vi": "Jack nhìn bát của cô: “Chiếc sủi cảo to thế này, chắc chắn là bạn tự gói phải không?”",
-        "pt": "Jack olha a tigela dela: “Um jiaozi desse tamanho, com certeza foi você que fez!”",
-        "es": "Jack mira su tazón: «Un jiaozi así de grande seguro lo hiciste tú, ¿verdad?».",
-        "fr": "Jack regarde son bol : « Un ravioli aussi gros, c’est sûrement toi qui l’as fait, non ? »",
-        "am": "ጃክ ሳህኗን አየ። «ይሄን ያህል ትልቅ ዱምፕሊንግ በእርግጥ ራስሽ የሠራሽው ነው!»"
-      },
-      "start": 64.18,
-      "end": 70.612,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "to cover; to wrap; to hold",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨看了王明一眼，两个人都笑了。",
-      "py": "Xiǎo yǔ kàn le Wáng Míng yì yǎn, liǎng gè rén dōu xiào le.",
-      "en": "Xiaoyu glances at Wang Ming, and they both smile.",
-      "tr": {
-        "vi": "Tiểu Vũ liếc nhìn Vương Minh, cả hai đều cười.",
-        "pt": "A Xiaoyu olha para o Wang Ming, e os dois sorriem.",
-        "es": "Xiaoyu mira a Wang Ming, y los dos sonríen.",
-        "fr": "Xiaoyu jette un coup d’œil à Wang Ming, et ils sourient tous les deux.",
-        "am": "ሺያውዩ ዋንግ ሚንግን ሰረቅ አድርጋ አየችው፤ ሁለቱም ፈገግ አሉ።"
-      },
-      "start": 71.312,
-      "end": 75.368,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "一眼",
-          "yī yǎn",
-          "a glance; a quick look; a glimpse",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "两",
-          "liǎng",
-          "both; two; some",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "其实，那一块钱是小雨故意放进安娜的大饺子里的。",
-      "py": "qí shí, nà yí kuài qián shì Xiǎo yǔ gù yì fàng jìn Ān nà de dà jiǎo zi lǐ de.",
-      "en": "In fact, Xiaoyu put the coin into one of Anna's big dumplings on purpose.",
-      "tr": {
-        "vi": "Thật ra, đồng một tệ đó là Tiểu Vũ cố ý bỏ vào chiếc sủi cảo to của Anna.",
-        "pt": "Na verdade, a Xiaoyu colocou a moeda de propósito num dos jiaozi grandes da Anna.",
-        "es": "En realidad, Xiaoyu metió la moneda a propósito en uno de los jiaozi grandes de Anna.",
-        "fr": "En fait, c’est exprès que Xiaoyu a mis la pièce dans un des gros raviolis d’Anna.",
-        "am": "እንዲያውም ሳንቲሙን ሆን ብላ በአና ትልቅ ዱምፕሊንግ ውስጥ ያስገባችው ሺያውዩ ናት።"
-      },
-      "start": 76.068,
-      "end": 81.564,
-      "tokens": [
-        [
-          "其实",
-          "qí shí",
-          "actually; in fact; really",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "一块",
-          "yī kuài",
-          "a piece; a chunk",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "coin; money; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "故意",
-          "gù yì",
-          "deliberately; on purpose",
-          ""
-        ],
-        [
-          "放进",
-          "fàng jìn",
-          "to put into",
-          ""
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她小声对王明说：“安娜第一次在中国过春节，当然要有一个好的开始！”",
-      "py": "tā xiǎo shēng duì Wáng Míng shuō: “Ān nà dì yī cì zài Zhōng guó guò chūn jié, dāng rán yào yǒu yí gè hǎo de kāi shǐ!”",
-      "en": "She whispers to Wang Ming, \"It's Anna's first Spring Festival in China. Of course it should get off to a good start!\"",
-      "tr": {
-        "vi": "Cô khẽ nói với Vương Minh: “Lần đầu Anna đón Tết Xuân ở Trung Quốc, tất nhiên phải có một khởi đầu tốt đẹp chứ!”",
-        "pt": "Ela cochicha para o Wang Ming: “É a primeira Festa da Primavera da Anna na China. Claro que ela tem que começar bem!”",
-        "es": "Le dice a Wang Ming en voz baja: «Es la primera Fiesta de la Primavera de Anna en China. ¡Claro que tiene que empezar con buen pie!».",
-        "fr": "Elle murmure à Wang Ming : « C’est la première fête du Printemps d’Anna en Chine. Bien sûr qu’il lui faut un bon début ! »",
-        "am": "ሺያውዩ በሹክሹክታ ዋንግ ሚንግን «አና የቻይናን አዲስ ዓመት ቻይና ውስጥ ስታከብር የመጀመሪያዋ ነው፤ በእርግጥ ጥሩ ጅምር ሊኖራት ይገባል!» አለችው።"
-      },
-      "start": 82.264,
-      "end": 89.368,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "小声",
-          "xiǎo shēng",
-          "(speak) in whispers; in a low voice",
-          ""
-        ],
-        [
-          "对",
-          "duì",
-          "right; correct; towards; at; for; concerning; regarding",
-          ""
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "第一次",
-          "dì yī cì",
-          "the first time; for the first time",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "中国",
-          "zhōng guó",
-          "China",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "春节",
-          "chūn jié",
-          "Spring Festival (Chinese New Year)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "当然",
-          "dāng rán",
-          "as it should be; of course; only natural",
-          ""
-        ],
-        [
-          "要有",
-          "yào yǒu",
-          "to need; to require; must have",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; (before a verb) good to; appropriate; proper",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 267,
-  "first": "春节快到了，小雨和王明请安娜和杰克来家里过年。",
-  "newWords": [
-    {
-      "w": "饺子",
-      "py": "jiǎozi",
-      "en": "dumpling"
-    },
-    {
-      "w": "却",
-      "py": "què",
-      "en": "however"
-    },
-    {
-      "w": "顺利",
-      "py": "shùnlì",
-      "en": "smoothly"
-    },
-    {
-      "w": "故意",
-      "py": "gùyì",
-      "en": "on purpose"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-09.mp3?v=1791720598"
+  {
+   "text": "大年三十晚上，大家一起包饺子。",
+   "py": "dà nián sān shí wǎn shang, dà jiā yì qǐ bāo jiǎo zi.",
+   "en": "On New Year's Eve, they all make dumplings together.",
+   "tr": {
+    "vi": "Tối Ba mươi Tết, mọi người cùng nhau gói sủi cảo.",
+    "pt": "Na véspera do Ano-Novo, todos fazem jiaozi juntos.",
+    "es": "La noche de fin de año, todos hacen jiaozi juntos.",
+    "fr": "Le soir du réveillon, tout le monde fait des raviolis ensemble.",
+    "am": "በአዲስ ዓመት ዋዜማ ምሽት ሁሉም አብረው ዱምፕሊንግ ሠሩ።",
+    "fa": "شب سال نو، همه با هم راویولی می‌سازن."
+   },
+   "start": 9.272,
+   "end": 12.872,
+   "tokens": [
+    [
+     "大年三十",
+     "dà nián sān shí",
+     "last day of the lunar year; Chinese New Year's Eve",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; night; in the evening",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "一起",
+     "yī qǐ",
+     "together; in company (with); (in) the same place",
+     ""
+    ],
+    [
+     "包饺子",
+     "bāo jiǎo zi",
+     "to wrap jiaozi (dumplings or potstickers)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明教他们：“先放一点儿肉，再把它包好。”",
+   "py": "Wáng Míng jiāo tā men: “xiān fàng yì diǎn r ròu, zài bǎ tā bāo hǎo.”",
+   "en": "Wang Ming shows them how. \"Put in a little meat first, then wrap it up.\"",
+   "tr": {
+    "vi": "Vương Minh hướng dẫn họ: “Cho một chút thịt vào trước, rồi gói lại cho khéo.”",
+    "pt": "O Wang Ming ensina: “Primeiro coloque um pouco de carne, depois feche bem.”",
+    "es": "Wang Ming les enseña: «Primero pones un poco de carne y luego lo cierras bien».",
+    "fr": "Wang Ming leur montre : « D’abord, on met un peu de viande, ensuite on referme bien. »",
+    "am": "ዋንግ ሚንግ አስተማራቸው። «መጀመሪያ ትንሽ ሥጋ አድርጉ፤ ከዚያ በደንብ ጠቅልሉት።»",
+    "fa": "وانگ مینگ بهشون یاد می‌ده: «اول یه کم گوشت بذار، بعد لِه‌شو بگیر.»"
+   },
+   "start": 13.572,
+   "end": 18.324,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "教",
+     "jiāo",
+     "to teach; to instruct",
+     ""
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "肉",
+     "ròu",
+     "meat; flesh; pulp (of a fruit)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "再",
+     "zài",
+     "then (after sth, and not until then)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "(used to put the object before the verb: 把 + {noun} + {verb})",
+     ""
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "to wrap; wrapper; to cover",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克包得很快，也很好看。",
+   "py": "Jié kè bāo de hěn kuài, yě hěn hǎo kàn.",
+   "en": "Jack makes them quickly, and they look nice too.",
+   "tr": {
+    "vi": "Jack gói rất nhanh, lại còn đẹp.",
+    "pt": "Jack faz rápido, e os dele ficam bonitos também.",
+    "es": "Jack los hace rápido y le quedan bonitos.",
+    "fr": "Jack les fait vite, et ils sont jolis.",
+    "am": "ጃክ በፍጥነት ሠራ፤ ያምራሉም።",
+    "fa": "جک سریع می‌سازتشون و ظاهرشونم خوبه."
+   },
+   "start": 19.024,
+   "end": 21.88,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "to cover; to wrap; to hold",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "quick; to make haste; rapid",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "好看",
+     "hǎo kàn",
+     "good-looking; nice-looking",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜包的饺子却一个比一个大，有的像小鸟，有的像小船。",
+   "py": "Ān nà bāo de jiǎo zi què yí gè bǐ yí gè dà, yǒu de xiàng xiǎo niǎo, yǒu de xiàng xiǎo chuán.",
+   "en": "Anna's dumplings, though, get bigger and bigger. Some look like little birds, some like little boats.",
+   "tr": {
+    "vi": "Còn sủi cảo Anna gói thì cái sau to hơn cái trước, có cái giống con chim nhỏ, có cái giống chiếc thuyền nhỏ.",
+    "pt": "Já os jiaozi da Anna ficam cada vez maiores: uns parecem passarinhos, outros parecem barquinhos.",
+    "es": "En cambio, los jiaozi de Anna salen cada vez más grandes: unos parecen pajaritos y otros, barquitos.",
+    "fr": "Mais les raviolis d’Anna sont de plus en plus gros : certains ressemblent à des petits oiseaux, d’autres à des petits bateaux.",
+    "am": "አና የሠራቻቸው ግን አንዱ ከሌላው እየተለቀ ሄደ፤ አንዳንዶቹ ትንሽ ወፍ፣ አንዳንዶቹ ትንሽ ጀልባ ይመስላሉ።",
+    "fa": "ولی راویولی‌های آنا هی بزرگ‌تر می‌شن. بعضیاشون شبیه پرنده‌های کوچولون، بعضیاشون شبیه قایق‌های کوچولو."
+   },
+   "start": 22.58,
+   "end": 28.724,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "to cover; to wrap; to hold",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "却",
+     "què",
+     "even though; but; yet",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "比",
+     "bǐ",
+     "(Taiwan pr. in some compounds derived from Classical Chinese)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有的",
+     "yǒu de",
+     "(there are) some (who are...); some (exist)",
+     ""
+    ],
+    [
+     "像",
+     "xiàng",
+     "to be like; to look as if; to resemble",
+     ""
+    ],
+    [
+     "小鸟",
+     "xiǎo niǎo",
+     "small bird",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有的",
+     "yǒu de",
+     "(there are) some (who are...); some (exist)",
+     ""
+    ],
+    [
+     "像",
+     "xiàng",
+     "to be like; to look as if; to resemble",
+     ""
+    ],
+    [
+     "小船",
+     "xiǎo chuán",
+     "boat",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨笑着说：“没关系，好吃就好。”",
+   "py": "Xiǎo yǔ xiào zhe shuō: “méi guān xi, hǎo chī jiù hǎo.”",
+   "en": "Xiaoyu laughs and says, \"Never mind. As long as they taste good.\"",
+   "tr": {
+    "vi": "Tiểu Vũ cười nói: “Không sao, ngon là được.”",
+    "pt": "A Xiaoyu ri: “Não tem problema. O importante é ficar gostoso.”",
+    "es": "Xiaoyu dice riendo: «No importa. Con que estén ricos, basta».",
+    "fr": "Xiaoyu dit en riant : « Ce n’est pas grave, du moment qu’ils sont bons. »",
+    "am": "ሺያውዩ እየሳቀች «ችግር የለም፤ ዋናው መጣፈጡ ነው» አለች።",
+    "fa": "شیائویو می‌خنده و می‌گه: «عیبی نداره. مهم اینه که خوش‌مزه باشن.»"
+   },
+   "start": 29.424,
+   "end": 34.152,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "没关系",
+     "méi guān xi",
+     "it doesn't matter",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "好吃",
+     "hǎo chī",
+     "tasty; delicious",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; (before a verb) good to; appropriate; proper",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "然后，她拿出一块钱，放进了一个饺子里。",
+   "py": "rán hòu, tā ná chū yí kuài qián, fàng jìn le yí gè jiǎo zi lǐ.",
+   "en": "Then she takes out a one-yuan coin and puts it into one of the dumplings.",
+   "tr": {
+    "vi": "Sau đó, cô lấy ra một đồng một tệ, bỏ vào trong một chiếc sủi cảo.",
+    "pt": "Depois, ela pega uma moeda de um yuan e coloca dentro de um dos jiaozi.",
+    "es": "Luego saca una moneda de un yuan y la mete dentro de un jiaozi.",
+    "fr": "Ensuite, elle sort une pièce d’un yuan et la met dans un des raviolis.",
+    "am": "ከዚያ አንድ ዩዋን ሳንቲም አውጥታ በአንድ ዱምፕሊንግ ውስጥ አስገባች።",
+    "fa": "بعد یه سکه‌ی یک یوانی درمیاره و می‌ندازه تو یکی از راویولی‌ها."
+   },
+   "start": 34.852,
+   "end": 39.58,
+   "tokens": [
+    [
+     "然后",
+     "rán hòu",
+     "then; after that; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "一块",
+     "yī kuài",
+     "(coll.) one yuan; a dollar; a piece; a chunk",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "coin; money; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "放进",
+     "fàng jìn",
+     "to put into",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“这是什么意思？”杰克问。",
+   "py": "“zhè shì shén me yì si?” Jié kè wèn.",
+   "en": "\"What's that for?\" Jack asks.",
+   "tr": {
+    "vi": "“Cái này có ý nghĩa gì vậy?” Jack hỏi.",
+    "pt": "“Para que isso?”, pergunta Jack.",
+    "es": "«¿Y eso qué significa?», pregunta Jack.",
+    "fr": "« Ça veut dire quoi ? » demande Jack.",
+    "am": "«ይሄ ምን ማለት ነው?» ብሎ ጃክ ጠየቀ።",
+    "fa": "جک می‌پرسه: «این برای چیه؟»"
+   },
+   "start": 40.28,
+   "end": 43.136,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "意思",
+     "yì si",
+     "idea; opinion; meaning",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“谁吃到这个饺子，谁新的一年就会特别顺利。”",
+   "py": "“shéi chī dào zhè ge jiǎo zi, shéi xīn de yì nián jiù huì tè bié shùn lì.”",
+   "en": "\"Whoever gets this dumpling will have a really good year.\"",
+   "tr": {
+    "vi": "“Ai ăn trúng chiếc sủi cảo này, năm mới người đó sẽ đặc biệt thuận lợi.”",
+    "pt": "“Quem pegar este jiaozi vai ter um ano novo de muita sorte.”",
+    "es": "«Al que le toque este jiaozi, le va a ir muy bien en el año nuevo».",
+    "fr": "« Celui qui tombe sur ce ravioli aura une très bonne année. »",
+    "am": "«ይሄን ዱምፕሊንግ ያገኘ ሰው አዲሱ ዓመት በጣም ይቃናለታል።»",
+    "fa": "«هرکی این راویولیو بگیره، سالش خیلی خوب می‌شه.»"
+   },
+   "start": 43.836,
+   "end": 48.588,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "谁",
+     "shéi",
+     "who; also pr.",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "谁",
+     "shéi",
+     "who; also pr.",
+     ""
+    ],
+    [
+     "新",
+     "xīn",
+     "new; newly; meso- (chemistry)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "特别",
+     "tè bié",
+     "unusual; special; very; especially; particularly",
+     ""
+    ],
+    [
+     "顺利",
+     "shùn lì",
+     "smoothly; without a hitch",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "饺子做好了，大家一边吃一边看电视。",
+   "py": "jiǎo zi zuò hǎo le, dà jiā yì biān chī yì biān kàn diàn shì.",
+   "en": "When the dumplings are ready, everyone eats while watching TV.",
+   "tr": {
+    "vi": "Sủi cảo chín rồi, mọi người vừa ăn vừa xem tivi.",
+    "pt": "Quando os jiaozi ficam prontos, todos comem vendo televisão.",
+    "es": "Cuando los jiaozi están listos, todos comen mientras ven la tele.",
+    "fr": "Quand les raviolis sont prêts, tout le monde mange en regardant la télé.",
+    "am": "ዱምፕሊንጉ ደረሰ፤ ሁሉም እየበሉ ቴሌቪዥን አዩ።",
+    "fa": "راویولی‌ها که آماده می‌شن، همه جلوی تلویزیون می‌شینن و غذا می‌خورن."
+   },
+   "start": 49.288,
+   "end": 53.56,
+   "tokens": [
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "一边",
+     "yī biān",
+     "doing while; one side; either side",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "一边",
+     "yī biān",
+     "doing while; one side; either side",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to read; to watch; to watch out for",
+     ""
+    ],
+    [
+     "电视",
+     "diàn shì",
+     "television; TV",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "突然，安娜叫了起来：“我吃到了！”",
+   "py": "tū rán, Ān nà jiào le qǐ lái: “wǒ chī dào le!”",
+   "en": "Suddenly Anna cries out, \"I got it!\"",
+   "tr": {
+    "vi": "Đột nhiên, Anna reo lên: “Mình ăn trúng rồi!”",
+    "pt": "De repente, a Anna grita: “Peguei!”",
+    "es": "De repente, Anna grita: «¡Me tocó a mí!».",
+    "fr": "Soudain, Anna s’écrie : « Je l’ai ! »",
+    "am": "ድንገት አና «አገኘሁት!» ብላ ጮኸች።",
+    "fa": "یهو آنا داد می‌زنه: «گرفتمش!»"
+   },
+   "start": 54.26,
+   "end": 58.532,
+   "tokens": [
+    [
+     "突然",
+     "tū rán",
+     "sudden; abrupt; unexpected",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to shout; to call; to order",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "她手里拿着那一块钱，高兴得像个孩子。",
+   "py": "tā shǒu lǐ ná zhe nà yí kuài qián, gāo xìng de xiàng gè hái zi.",
+   "en": "She holds up the coin, as happy as a child.",
+   "tr": {
+    "vi": "Cô cầm đồng một tệ trong tay, vui như một đứa trẻ.",
+    "pt": "Ela mostra a moeda na mão, feliz como uma criança.",
+    "es": "Tiene la moneda en la mano y está feliz como una niña.",
+    "fr": "Elle tient la pièce dans sa main, heureuse comme une enfant.",
+    "am": "ሳንቲሙን ይዛ እንደ ልጅ ተደሰተች።",
+    "fa": "سکه رو بالا می‌گیره؛ به اندازه‌ی یه بچه خوشحاله."
+   },
+   "start": 59.232,
+   "end": 63.48,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "手里",
+     "shǒu lǐ",
+     "in hand; (a situation is) in sb's hands",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "一块",
+     "yī kuài",
+     "a piece; a chunk",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "coin; money; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "像",
+     "xiàng",
+     "to resemble; to be like; to look as if",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "孩子",
+     "hái zi",
+     "child",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克看了看她的碗：“这么大的饺子，一定是你自己包的吧？”",
+   "py": "Jié kè kàn le kàn tā de wǎn: “zhè me dà de jiǎo zi, yí dìng shì nǐ zì jǐ bāo de ba?”",
+   "en": "Jack looks at her bowl. \"A dumpling that big must be one you made yourself!\"",
+   "tr": {
+    "vi": "Jack nhìn bát của cô: “Chiếc sủi cảo to thế này, chắc chắn là bạn tự gói phải không?”",
+    "pt": "Jack olha a tigela dela: “Um jiaozi desse tamanho, com certeza foi você que fez!”",
+    "es": "Jack mira su tazón: «Un jiaozi así de grande seguro lo hiciste tú, ¿verdad?».",
+    "fr": "Jack regarde son bol : « Un ravioli aussi gros, c’est sûrement toi qui l’as fait, non ? »",
+    "am": "ጃክ ሳህኗን አየ። «ይሄን ያህል ትልቅ ዱምፕሊንግ በእርግጥ ራስሽ የሠራሽው ነው!»",
+    "fa": "جک به کاسه‌ش نگاه می‌کنه: «راویولی‌ای به این بزرگی حتماً خودت ساختیش!»"
+   },
+   "start": 64.18,
+   "end": 70.612,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "to cover; to wrap; to hold",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨看了王明一眼，两个人都笑了。",
+   "py": "Xiǎo yǔ kàn le Wáng Míng yì yǎn, liǎng gè rén dōu xiào le.",
+   "en": "Xiaoyu glances at Wang Ming, and they both smile.",
+   "tr": {
+    "vi": "Tiểu Vũ liếc nhìn Vương Minh, cả hai đều cười.",
+    "pt": "A Xiaoyu olha para o Wang Ming, e os dois sorriem.",
+    "es": "Xiaoyu mira a Wang Ming, y los dos sonríen.",
+    "fr": "Xiaoyu jette un coup d’œil à Wang Ming, et ils sourient tous les deux.",
+    "am": "ሺያውዩ ዋንግ ሚንግን ሰረቅ አድርጋ አየችው፤ ሁለቱም ፈገግ አሉ።",
+    "fa": "شیائویو به وانگ مینگ نگاه می‌کنه و هر دوم لبخند می‌زنن."
+   },
+   "start": 71.312,
+   "end": 75.368,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "一眼",
+     "yī yǎn",
+     "a glance; a quick look; a glimpse",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "两",
+     "liǎng",
+     "both; two; some",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "其实，那一块钱是小雨故意放进安娜的大饺子里的。",
+   "py": "qí shí, nà yí kuài qián shì Xiǎo yǔ gù yì fàng jìn Ān nà de dà jiǎo zi lǐ de.",
+   "en": "In fact, Xiaoyu put the coin into one of Anna's big dumplings on purpose.",
+   "tr": {
+    "vi": "Thật ra, đồng một tệ đó là Tiểu Vũ cố ý bỏ vào chiếc sủi cảo to của Anna.",
+    "pt": "Na verdade, a Xiaoyu colocou a moeda de propósito num dos jiaozi grandes da Anna.",
+    "es": "En realidad, Xiaoyu metió la moneda a propósito en uno de los jiaozi grandes de Anna.",
+    "fr": "En fait, c’est exprès que Xiaoyu a mis la pièce dans un des gros raviolis d’Anna.",
+    "am": "እንዲያውም ሳንቲሙን ሆን ብላ በአና ትልቅ ዱምፕሊንግ ውስጥ ያስገባችው ሺያውዩ ናት።",
+    "fa": "در واقع، شیائویو از قبل سکه رو عمداً گذاشته بود تو یکی از راویولی‌های بزرگِ آنا."
+   },
+   "start": 76.068,
+   "end": 81.564,
+   "tokens": [
+    [
+     "其实",
+     "qí shí",
+     "actually; in fact; really",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "一块",
+     "yī kuài",
+     "a piece; a chunk",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "coin; money; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "故意",
+     "gù yì",
+     "deliberately; on purpose",
+     ""
+    ],
+    [
+     "放进",
+     "fàng jìn",
+     "to put into",
+     ""
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她小声对王明说：“安娜第一次在中国过春节，当然要有一个好的开始！”",
+   "py": "tā xiǎo shēng duì Wáng Míng shuō: “Ān nà dì yī cì zài Zhōng guó guò chūn jié, dāng rán yào yǒu yí gè hǎo de kāi shǐ!”",
+   "en": "She whispers to Wang Ming, \"It's Anna's first Spring Festival in China. Of course it should get off to a good start!\"",
+   "tr": {
+    "vi": "Cô khẽ nói với Vương Minh: “Lần đầu Anna đón Tết Xuân ở Trung Quốc, tất nhiên phải có một khởi đầu tốt đẹp chứ!”",
+    "pt": "Ela cochicha para o Wang Ming: “É a primeira Festa da Primavera da Anna na China. Claro que ela tem que começar bem!”",
+    "es": "Le dice a Wang Ming en voz baja: «Es la primera Fiesta de la Primavera de Anna en China. ¡Claro que tiene que empezar con buen pie!».",
+    "fr": "Elle murmure à Wang Ming : « C’est la première fête du Printemps d’Anna en Chine. Bien sûr qu’il lui faut un bon début ! »",
+    "am": "ሺያውዩ በሹክሹክታ ዋንግ ሚንግን «አና የቻይናን አዲስ ዓመት ቻይና ውስጥ ስታከብር የመጀመሪያዋ ነው፤ በእርግጥ ጥሩ ጅምር ሊኖራት ይገባል!» አለችው።",
+    "fa": "زیر لب به وانگ مینگ می‌گه: «این اولین جشن بهاره‌ی آنا تو چینئه؛ باید از همین اول شروع خوبی بشه!»"
+   },
+   "start": 82.264,
+   "end": 89.368,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "小声",
+     "xiǎo shēng",
+     "(speak) in whispers; in a low voice",
+     ""
+    ],
+    [
+     "对",
+     "duì",
+     "right; correct; towards; at; for; concerning; regarding",
+     ""
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "第一次",
+     "dì yī cì",
+     "the first time; for the first time",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "中国",
+     "zhōng guó",
+     "China",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "春节",
+     "chūn jié",
+     "Spring Festival (Chinese New Year)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "当然",
+     "dāng rán",
+     "as it should be; of course; only natural",
+     ""
+    ],
+    [
+     "要有",
+     "yào yǒu",
+     "to need; to require; must have",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; (before a verb) good to; appropriate; proper",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 267,
+ "first": "春节快到了，小雨和王明请安娜和杰克来家里过年。",
+ "newWords": [
+  {
+   "w": "饺子",
+   "py": "jiǎozi",
+   "en": "dumpling"
+  },
+  {
+   "w": "却",
+   "py": "què",
+   "en": "however"
+  },
+  {
+   "w": "顺利",
+   "py": "shùnlì",
+   "en": "smoothly"
+  },
+  {
+   "w": "故意",
+   "py": "gùyì",
+   "en": "on purpose"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-09.mp3?v=1791720598"
 }

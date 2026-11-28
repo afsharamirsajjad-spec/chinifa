@@ -1,1625 +1,1642 @@
 {
-  "id": "h3-03",
-  "level": 3,
-  "no": 3,
-  "title": "那条裙子",
-  "title_py": "nà tiáo qún zi",
-  "title_en": "That dress",
-  "title_tr": {
-    "vi": "Chiếc váy đó",
-    "pt": "Aquele vestido",
-    "es": "Ese vestido",
-    "fr": "Cette robe",
-    "am": "ያ ቀሚስ",
-    "fa": "آن پیراهن زنانه"
+ "id": "h3-03",
+ "level": 3,
+ "no": 3,
+ "title": "那条裙子",
+ "title_py": "nà tiáo qún zi",
+ "title_en": "That dress",
+ "title_tr": {
+  "vi": "Chiếc váy đó",
+  "pt": "Aquele vestido",
+  "es": "Ese vestido",
+  "fr": "Cette robe",
+  "am": "ያ ቀሚስ",
+  "fa": "آن پیراهن زنانه"
+ },
+ "topic": "shop",
+ "free": true,
+ "cover": "https://media.kanchinese.app/review/stories/h3-03.jpg",
+ "duration": 96.528,
+ "lines": [
+  {
+   "text": "星期六，小雨和王明去商店买东西。",
+   "py": "xīng qī liù, Xiǎo yǔ hé Wáng Míng qù shāng diàn mǎi dōng xi.",
+   "en": "On Saturday, Xiaoyu and Wang Ming go shopping.",
+   "tr": {
+    "vi": "Thứ Bảy, Tiểu Vũ và Vương Minh đi mua sắm.",
+    "pt": "No sábado, a Xiaoyu e o Wang Ming vão às compras.",
+    "es": "El sábado, Xiaoyu y Wang Ming van de compras.",
+    "fr": "Samedi, Xiaoyu et Wang Ming vont faire les magasins.",
+    "am": "ቅዳሜ ሺያውዩ እና ዋንግ ሚንግ ለመገበያየት ወደ ሱቅ ሄዱ።",
+    "fa": "شنبه، شیائویو و وانگ مینگ می‌رن خرید."
+   },
+   "start": 2.404,
+   "end": 6.676,
+   "tokens": [
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "商店",
+     "shāng diàn",
+     "store; shop",
+     ""
+    ],
+    [
+     "买东西",
+     "mǎi dōng xi",
+     "to do one's shopping",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "shop",
-  "free": true,
-  "cover": "https://media.kanchinese.app/review/stories/h3-03.jpg",
-  "duration": 96.528,
-  "lines": [
-    {
-      "text": "星期六，小雨和王明去商店买东西。",
-      "py": "xīng qī liù, Xiǎo yǔ hé Wáng Míng qù shāng diàn mǎi dōng xi.",
-      "en": "On Saturday, Xiaoyu and Wang Ming go shopping.",
-      "tr": {
-        "vi": "Thứ Bảy, Tiểu Vũ và Vương Minh đi mua sắm.",
-        "pt": "No sábado, a Xiaoyu e o Wang Ming vão às compras.",
-        "es": "El sábado, Xiaoyu y Wang Ming van de compras.",
-        "fr": "Samedi, Xiaoyu et Wang Ming vont faire les magasins.",
-        "am": "ቅዳሜ ሺያውዩ እና ዋንግ ሚንግ ለመገበያየት ወደ ሱቅ ሄዱ።"
-      },
-      "start": 2.404,
-      "end": 6.676,
-      "tokens": [
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "商店",
-          "shāng diàn",
-          "store; shop",
-          ""
-        ],
-        [
-          "买东西",
-          "mǎi dōng xi",
-          "to do one's shopping",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨看见了一条蓝色的裙子，非常漂亮。",
-      "py": "Xiǎo yǔ kàn jiàn le yì tiáo lán sè de qún zi, fēi cháng piào liang.",
-      "en": "Xiaoyu sees a blue dress. It's really beautiful.",
-      "tr": {
-        "vi": "Tiểu Vũ nhìn thấy một chiếc váy màu xanh lam, đẹp vô cùng.",
-        "pt": "A Xiaoyu vê um vestido azul lindíssimo.",
-        "es": "Xiaoyu ve un vestido azul precioso.",
-        "fr": "Xiaoyu voit une robe bleue, vraiment très belle.",
-        "am": "ሺያውዩ አንድ ሰማያዊ ቀሚስ አየች፤ በጣም ያምራል።"
-      },
-      "start": 7.376,
-      "end": 12.128,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "蓝色",
-          "lán sè",
-          "blue (color)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "裙子",
-          "qún zi",
-          "skirt",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "非常",
-          "fēi cháng",
-          "very; really; unusual; extraordinary",
-          ""
-        ],
-        [
-          "漂亮",
-          "piào liang",
-          "pretty; beautiful",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她穿上试了试，不大也不小。",
-      "py": "tā chuān shàng shì le shì, bú dà yě bù xiǎo.",
-      "en": "She tries it on: not too big and not too small.",
-      "tr": {
-        "vi": "Cô mặc thử, không rộng cũng không chật.",
-        "pt": "Ela experimenta: nem grande nem pequeno.",
-        "es": "Se lo prueba: ni grande ni pequeño.",
-        "fr": "Elle l’essaie : ni trop grande ni trop petite.",
-        "am": "ለብሳ ሞከረችው፤ ትልቅም ትንሽም አይደለም።"
-      },
-      "start": 12.828,
-      "end": 16.596,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "穿上",
-          "chuān shang",
-          "to put on (clothes etc)",
-          ""
-        ],
-        [
-          "试",
-          "shì",
-          "to test; to try; experiment",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "试",
-          "shì",
-          "to test; to try; experiment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不大",
-          "bù dà",
-          "not very (clear, far away etc); not too",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "可是一看价格，她就不想买了：八百块！",
-      "py": "kě shì yí kàn jià gé, tā jiù bù xiǎng mǎi le: bā bǎi kuài!",
-      "en": "But as soon as she sees the price, she doesn't want it any more: eight hundred yuan!",
-      "tr": {
-        "vi": "Nhưng vừa nhìn giá, cô liền không muốn mua nữa: tám trăm tệ!",
-        "pt": "Mas, quando vê o preço, desiste de comprar: oitocentos yuans!",
-        "es": "Pero en cuanto ve el precio, ya no lo quiere comprar: ¡ochocientos yuanes!",
-        "fr": "Mais dès qu’elle voit le prix, elle n’a plus envie de l’acheter : huit cents yuans !",
-        "am": "ግን ዋጋውን እንዳየች መግዛት አልፈለገችም፤ ስምንት መቶ ዩዋን!"
-      },
-      "start": 17.296,
-      "end": 22.504,
-      "tokens": [
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "as soon as; one; single",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "价格",
-          "jià gé",
-          "price",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a clause of action) as soon as; immediately after",
-          ""
-        ],
-        [
-          "不想",
-          "bù xiǎng",
-          "unexpectedly; to one's surprise",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "hundred; numerous; all kinds of",
-          ""
-        ],
-        [
-          "块",
-          "kuài",
-          "classifier for pieces of cloth, cake, soap etc",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    },
-    {
-      "text": "“太贵了，等打折的时候再来买吧。”",
-      "py": "“tài guì le, děng dǎ zhé de shí hou zài lái mǎi ba.”",
-      "en": "\"It's too expensive. I'll come back and buy it when it's on sale.\"",
-      "tr": {
-        "vi": "“Đắt quá, đợi khi nào giảm giá rồi đến mua.”",
-        "pt": "“É caro demais. Volto para comprar quando estiver em promoção.”",
-        "es": "«Es demasiado caro. Vuelvo a comprarlo cuando esté en oferta».",
-        "fr": "« C’est trop cher. Je reviendrai l’acheter quand il y aura des soldes. »",
-        "am": "«በጣም ውድ ነው፤ ቅናሽ ሲኖር መጥቼ እገዛዋለሁ።»"
-      },
-      "start": 23.204,
-      "end": 27.26,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "贵",
-          "guì",
-          "expensive; (bound form) highly valued; precious",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "等",
-          "děng",
-          "by the time; when; till; to wait for; to await",
-          ""
-        ],
-        [
-          "打折",
-          "dǎ zhé",
-          "to give a discount",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; further; beyond this point of time",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明说：“你这么喜欢，就买吧。”可是小雨还是走出了商店。",
-      "py": "Wáng Míng shuō: “nǐ zhè me xǐ huan, jiù mǎi ba.” kě shì Xiǎo yǔ hái shi zǒu chū le shāng diàn.",
-      "en": "Wang Ming says, \"If you like it so much, just buy it.\" But Xiaoyu still walks out of the shop.",
-      "tr": {
-        "vi": "Vương Minh nói: “Em thích thế thì mua đi.” Nhưng Tiểu Vũ vẫn bước ra khỏi cửa hàng.",
-        "pt": "O Wang Ming diz: “Se você gostou tanto, compre.” Mas a Xiaoyu sai da loja mesmo assim.",
-        "es": "Wang Ming dice: «Si tanto te gusta, cómpralo». Pero Xiaoyu sale de la tienda de todos modos.",
-        "fr": "Wang Ming dit : « Si elle te plaît autant, achète-la. » Mais Xiaoyu sort quand même du magasin.",
-        "am": "ዋንግ ሚንግ «ይሄን ያህል ከወደድሽው ግዢው» አለ። ሺያውዩ ግን ከሱቁ ወጣች።"
-      },
-      "start": 27.96,
-      "end": 34.608,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
-          ""
-        ],
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "喜欢",
-          "xǐ huan",
-          "to like; to be fond of",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "走出",
-          "zǒu chū",
-          "to leave (a room etc); to go out through (a door etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "商店",
-          "shāng diàn",
-          "store; shop",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一个星期以后，那个商店真的打折了。",
-      "py": "yí gè xīng qī yǐ hòu, nà ge shāng diàn zhēn de dǎ zhé le.",
-      "en": "A week later, the shop really does have a sale.",
-      "tr": {
-        "vi": "Một tuần sau, cửa hàng đó giảm giá thật.",
-        "pt": "Uma semana depois, a loja entra mesmo em promoção.",
-        "es": "Una semana después, la tienda de verdad pone ofertas.",
-        "fr": "Une semaine plus tard, le magasin fait vraiment des soldes.",
-        "am": "ከአንድ ሳምንት በኋላ ሱቁ በእርግጥ ቅናሽ አደረገ።"
-      },
-      "start": 35.308,
-      "end": 39.364,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "星期",
-          "xīng qī",
-          "week; day of the week; Sunday",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那个",
-          "nà ge",
-          "that one; that thing; that (as opposed to this)",
-          ""
-        ],
-        [
-          "商店",
-          "shāng diàn",
-          "store; shop",
-          ""
-        ],
-        [
-          "真的",
-          "zhēn de",
-          "really; truly; indeed; real; true; genuine; (math.) proper",
-          ""
-        ],
-        [
-          "打折",
-          "dǎ zhé",
-          "to give a discount",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨一下班就跑了过去，可是那条蓝色的裙子已经没有了。",
-      "py": "Xiǎo yǔ yí xià bān jiù pǎo le guò qù, kě shì nà tiáo lán sè de qún zi yǐ jīng méi yǒu le.",
-      "en": "Xiaoyu rushes over as soon as she finishes work, but the blue dress is already gone.",
-      "tr": {
-        "vi": "Tiểu Vũ vừa tan làm đã chạy đến, nhưng chiếc váy xanh đó đã không còn nữa.",
-        "pt": "Assim que sai do trabalho, a Xiaoyu corre até a loja, mas o vestido azul não está mais lá.",
-        "es": "En cuanto sale del trabajo, Xiaoyu va corriendo, pero el vestido azul ya no está.",
-        "fr": "Dès la fin du travail, Xiaoyu y court, mais la robe bleue n’est plus là.",
-        "am": "ሺያውዩ ከሥራ እንደወጣች እየሮጠች ሄደች፤ ያ ሰማያዊ ቀሚስ ግን አልነበረም።"
-      },
-      "start": 40.064,
-      "end": 46.208,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "一下",
-          "yī xià",
-          "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
-          ""
-        ],
-        [
-          "班",
-          "bān",
-          "work shift; team; class; grade; (military) squad",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a clause of action) as soon as; immediately after",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "to run; to run away; to escape",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "过去",
-          "guò qù",
-          "to go over; to pass by; (in the) past; former; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "蓝色",
-          "lán sè",
-          "blue (color)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "裙子",
-          "qún zi",
-          "skirt",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她很难过，回到家一句话也不说。",
-      "py": "tā hěn nán guò, huí dào jiā yí jù huà yě bù shuō.",
-      "en": "She's very upset and doesn't say a word when she gets home.",
-      "tr": {
-        "vi": "Cô rất buồn, về đến nhà không nói một lời nào.",
-        "pt": "Ela fica muito triste e, ao chegar em casa, não diz uma palavra.",
-        "es": "Se pone muy triste y, al llegar a casa, no dice ni una palabra.",
-        "fr": "Elle est très triste et, rentrée à la maison, elle ne dit pas un mot.",
-        "am": "በጣም አዘነች፤ ቤት ስትመለስ አንድም ቃል አልተናገረችም።"
-      },
-      "start": 46.908,
-      "end": 51.18,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "难过",
-          "nán guò",
-          "to feel sad; to feel unwell; (of life) to be difficult",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "回到",
-          "huí dào",
-          "to return to",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "一句话",
-          "yī jù huà",
-          "in a word; in short",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明问她怎么了，她说：“我的裙子被别人买走了。”",
-      "py": "Wáng Míng wèn tā zěn me le, tā shuō: “wǒ de qún zi bèi bié ren mǎi zǒu le.”",
-      "en": "Wang Ming asks her what's wrong. She says, \"Someone else bought my dress.\"",
-      "tr": {
-        "vi": "Vương Minh hỏi cô sao vậy, cô nói: “Chiếc váy của em bị người khác mua mất rồi.”",
-        "pt": "O Wang Ming pergunta o que aconteceu, e ela diz: “Outra pessoa comprou o meu vestido.”",
-        "es": "Wang Ming le pregunta qué le pasa, y ella dice: «Otra persona compró mi vestido».",
-        "fr": "Wang Ming lui demande ce qui ne va pas. Elle dit : « Quelqu’un d’autre a acheté ma robe. »",
-        "am": "ዋንግ ሚንግ ምን እንደሆነች ጠየቃት፤ «ቀሚሴን ሌላ ሰው ገዝቶ ወሰደው» አለች።"
-      },
-      "start": 51.88,
-      "end": 57.112,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "怎么了",
-          "zěn me le",
-          "What's up?; What's going on?; What happened?",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "裙子",
-          "qún zi",
-          "skirt",
-          ""
-        ],
-        [
-          "被",
-          "bèi",
-          "quilt; to cover (with); (literary) to suffer (a misfortune)",
-          ""
-        ],
-        [
-          "别人",
-          "bié ren",
-          "other people; others; other person",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明笑了笑，从房间里拿出一个大盒子。",
-      "py": "Wáng Míng xiào le xiào, cóng fáng jiān lǐ ná chū yí gè dà hé zi.",
-      "en": "Wang Ming smiles and brings a big box out of the bedroom.",
-      "tr": {
-        "vi": "Vương Minh mỉm cười, từ trong phòng mang ra một chiếc hộp to.",
-        "pt": "O Wang Ming sorri e traz uma caixa grande do quarto.",
-        "es": "Wang Ming sonríe y saca una caja grande del cuarto.",
-        "fr": "Wang Ming sourit et sort une grande boîte de la chambre.",
-        "am": "ዋንግ ሚንግ ፈገግ አለና ከመኝታ ቤቱ አንድ ትልቅ ሣጥን አወጣ።"
-      },
-      "start": 57.812,
-      "end": 62.108,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "房间",
-          "fáng jiān",
-          "room",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "盒子",
-          "hé zi",
-          "box; case",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“后天就是你的生日，我本来想那天再给你。快打开看看！”",
-      "py": "“hòu tiān jiù shì nǐ de shēng rì, wǒ běn lái xiǎng nà tiān zài gěi nǐ. kuài dǎ kāi kàn kàn!”",
-      "en": "\"Your birthday is the day after tomorrow. I was going to give you this then. Go on, open it!\"",
-      "tr": {
-        "vi": "“Ngày kia là sinh nhật em, anh định hôm đó mới tặng em. Mở ra xem đi!”",
-        "pt": "“Depois de amanhã é seu aniversário. Eu ia dar a você nesse dia. Abra logo para ver!”",
-        "es": "«Pasado mañana es tu cumpleaños. Quería dártelo ese día. ¡Anda, ábrelo!».",
-        "fr": "« Après-demain, c’est ton anniversaire. Je voulais te la donner ce jour-là. Allez, ouvre-la ! »",
-        "am": "«ከነገ ወዲያ ልደትሽ ነው፤ በዚያ ቀን ልሰጥሽ አስቤ ነበር። በይ ክፈቺው!»"
-      },
-      "start": 62.808,
-      "end": 68.52,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "后天",
-          "hòu tiān",
-          "the day after tomorrow",
-          ""
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "exactly; precisely; only; simply; just",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "生日",
-          "shēng rì",
-          "birthday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "本来",
-          "běn lái",
-          "original; originally; at first",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "then (after sth, and not until then)",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to give; to; for",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "快",
-          "kuài",
-          "rapid; quick; speed",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "看看",
-          "kàn kan",
-          "to take a look at; to examine; to survey",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨打开盒子，里面就是那条蓝色的裙子！",
-      "py": "Xiǎo yǔ dǎ kāi hé zi, lǐ miàn jiù shì nà tiáo lán sè de qún zi!",
-      "en": "Xiaoyu opens the box, and inside is that very blue dress!",
-      "tr": {
-        "vi": "Tiểu Vũ mở hộp ra, bên trong chính là chiếc váy xanh đó!",
-        "pt": "A Xiaoyu abre a caixa, e lá dentro está aquele mesmo vestido azul!",
-        "es": "Xiaoyu abre la caja, ¡y adentro está aquel vestido azul!",
-        "fr": "Xiaoyu ouvre la boîte : dedans, il y a justement la robe bleue !",
-        "am": "ሺያውዩ ሣጥኑን ስትከፍት ውስጡ ያው ሰማያዊ ቀሚስ ነበር!"
-      },
-      "start": 69.22,
-      "end": 73.756,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "盒子",
-          "hé zi",
-          "box; case",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "里面",
-          "lǐ miàn",
-          "inside; interior; also pr.",
-          ""
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "exactly; precisely; only; simply; just",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "蓝色",
-          "lán sè",
-          "blue (color)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "裙子",
-          "qún zi",
-          "skirt",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    },
-    {
-      "text": "小雨问：“你什么时候买的？”",
-      "py": "Xiǎo yǔ wèn: “nǐ shén me shí hou mǎi de?”",
-      "en": "Xiaoyu asks, \"When did you buy it?\"",
-      "tr": {
-        "vi": "Tiểu Vũ hỏi: “Anh mua lúc nào vậy?”",
-        "pt": "A Xiaoyu pergunta: “Quando você comprou?”",
-        "es": "Xiaoyu pregunta: «¿Cuándo lo compraste?».",
-        "fr": "Xiaoyu demande : « Quand est-ce que tu l’as achetée ? »",
-        "am": "ሺያውዩ «መቼ ገዛኸው?» ብላ ጠየቀች።"
-      },
-      "start": 74.456,
-      "end": 77.552,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "什么时候",
-          "shén me shí hou",
-          "when?; at what time?",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明说：“就是那天。你走出商店以后，我又回去把它买了下来。”",
-      "py": "Wáng Míng shuō: “jiù shì nà tiān. nǐ zǒu chū shāng diàn yǐ hòu, wǒ yòu huí qù bǎ tā mǎi le xià lái.”",
-      "en": "Wang Ming says, \"That same day. After you walked out of the shop, I went back and bought it.\"",
-      "tr": {
-        "vi": "Vương Minh nói: “Chính hôm đó. Sau khi em ra khỏi cửa hàng, anh đã quay lại mua nó.”",
-        "pt": "O Wang Ming diz: “Naquele mesmo dia. Depois que você saiu da loja, eu voltei e comprei.”",
-        "es": "Wang Ming dice: «Ese mismo día. Cuando saliste de la tienda, volví y lo compré».",
-        "fr": "Wang Ming dit : « Le jour même. Après que tu es sortie du magasin, j’y suis retourné et je l’ai achetée. »",
-        "am": "ዋንግ ሚንግ «በዚያው ቀን ነው። ከሱቁ ከወጣሽ በኋላ ተመልሼ ገዛሁት» አለ።"
-      },
-      "start": 78.252,
-      "end": 84.876,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "exactly; precisely; only; simply; just",
-          ""
-        ],
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "走出",
-          "zǒu chū",
-          "to leave (a room etc); to go out through (a door etc)",
-          ""
-        ],
-        [
-          "商店",
-          "shāng diàn",
-          "store; shop",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; afterwards; later",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "回去",
-          "huí qu",
-          "to go back; to return",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "下来",
-          "xià lai",
-          "(after verb of motion, indicates motion down and towards us, also fig.)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨说：“可是现在打折了，你多花了很多钱！”",
-      "py": "Xiǎo yǔ shuō: “kě shì xiàn zài dǎ zhé le, nǐ duō huā le hěn duō qián!”",
-      "en": "Xiaoyu says, \"But now it's on sale. You paid a lot more!\"",
-      "tr": {
-        "vi": "Tiểu Vũ nói: “Nhưng bây giờ giảm giá rồi, anh trả đắt hơn nhiều quá!”",
-        "pt": "A Xiaoyu diz: “Mas agora está em promoção, você gastou muito mais!”",
-        "es": "Xiaoyu dice: «¡Pero ahora está en oferta! ¡Pagaste mucho más!».",
-        "fr": "Xiaoyu dit : « Mais maintenant, elle est en solde. Tu as payé beaucoup plus cher ! »",
-        "am": "ሺያውዩ «ግን አሁን ቅናሽ ተደርጓል፤ ብዙ ትርፍ ገንዘብ ከፈልክ!» አለች።"
-      },
-      "start": 85.576,
-      "end": 91.072,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "现在",
-          "xiàn zài",
-          "now; at present; currently",
-          ""
-        ],
-        [
-          "打折",
-          "dǎ zhé",
-          "to give a discount",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "花",
-          "huā",
-          "flower; blossom; fancy pattern",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "coin; money; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明说：“没关系，你高兴就好。”",
-      "py": "Wáng Míng shuō: “méi guān xi, nǐ gāo xìng jiù hǎo.”",
-      "en": "Wang Ming says, \"That doesn't matter. As long as you're happy.\"",
-      "tr": {
-        "vi": "Vương Minh nói: “Không sao, em vui là được.”",
-        "pt": "O Wang Ming diz: “Não tem problema. O importante é você ficar feliz.”",
-        "es": "Wang Ming dice: «No importa. Con que tú estés contenta, basta».",
-        "fr": "Wang Ming dit : « Ce n’est pas grave. Du moment que tu es contente. »",
-        "am": "ዋንግ ሚንግ «ምንም አይደል፤ አንቺ ደስ ካለሽ በቂ ነው» አለ።"
-      },
-      "start": 91.772,
-      "end": 95.828,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "没关系",
-          "méi guān xi",
-          "it doesn't matter",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 279,
-  "first": "星期六，小雨和王明去商店买东西。",
-  "newWords": [
-    {
-      "w": "价格",
-      "py": "jiàgé",
-      "en": "price"
-    },
-    {
-      "w": "打折",
-      "py": "dǎzhé",
-      "en": "to discount"
-    },
-    {
-      "w": "盒子",
-      "py": "hézi",
-      "en": "box"
-    },
-    {
-      "w": "本来",
-      "py": "běnlái",
-      "en": "originally"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-03.mp3?v=1791720572"
+  {
+   "text": "小雨看见了一条蓝色的裙子，非常漂亮。",
+   "py": "Xiǎo yǔ kàn jiàn le yì tiáo lán sè de qún zi, fēi cháng piào liang.",
+   "en": "Xiaoyu sees a blue dress. It's really beautiful.",
+   "tr": {
+    "vi": "Tiểu Vũ nhìn thấy một chiếc váy màu xanh lam, đẹp vô cùng.",
+    "pt": "A Xiaoyu vê um vestido azul lindíssimo.",
+    "es": "Xiaoyu ve un vestido azul precioso.",
+    "fr": "Xiaoyu voit une robe bleue, vraiment très belle.",
+    "am": "ሺያውዩ አንድ ሰማያዊ ቀሚስ አየች፤ በጣም ያምራል።",
+    "fa": "شیائویو یه پیراهن آبی می‌بینه. واقعاً قشنگه."
+   },
+   "start": 7.376,
+   "end": 12.128,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "蓝色",
+     "lán sè",
+     "blue (color)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "裙子",
+     "qún zi",
+     "skirt",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "非常",
+     "fēi cháng",
+     "very; really; unusual; extraordinary",
+     ""
+    ],
+    [
+     "漂亮",
+     "piào liang",
+     "pretty; beautiful",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她穿上试了试，不大也不小。",
+   "py": "tā chuān shàng shì le shì, bú dà yě bù xiǎo.",
+   "en": "She tries it on: not too big and not too small.",
+   "tr": {
+    "vi": "Cô mặc thử, không rộng cũng không chật.",
+    "pt": "Ela experimenta: nem grande nem pequeno.",
+    "es": "Se lo prueba: ni grande ni pequeño.",
+    "fr": "Elle l’essaie : ni trop grande ni trop petite.",
+    "am": "ለብሳ ሞከረችው፤ ትልቅም ትንሽም አይደለም።",
+    "fa": "پرو می‌کنه: نه زیادی بزرگه نه زیادی کوچیک."
+   },
+   "start": 12.828,
+   "end": 16.596,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "穿上",
+     "chuān shang",
+     "to put on (clothes etc)",
+     ""
+    ],
+    [
+     "试",
+     "shì",
+     "to test; to try; experiment",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "试",
+     "shì",
+     "to test; to try; experiment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不大",
+     "bù dà",
+     "not very (clear, far away etc); not too",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "可是一看价格，她就不想买了：八百块！",
+   "py": "kě shì yí kàn jià gé, tā jiù bù xiǎng mǎi le: bā bǎi kuài!",
+   "en": "But as soon as she sees the price, she doesn't want it any more: eight hundred yuan!",
+   "tr": {
+    "vi": "Nhưng vừa nhìn giá, cô liền không muốn mua nữa: tám trăm tệ!",
+    "pt": "Mas, quando vê o preço, desiste de comprar: oitocentos yuans!",
+    "es": "Pero en cuanto ve el precio, ya no lo quiere comprar: ¡ochocientos yuanes!",
+    "fr": "Mais dès qu’elle voit le prix, elle n’a plus envie de l’acheter : huit cents yuans !",
+    "am": "ግን ዋጋውን እንዳየች መግዛት አልፈለገችም፤ ስምንት መቶ ዩዋን!",
+    "fa": "ولی همون که قیمتو می‌بینه، دیگه دوستش نداره: هشتصد یوان!"
+   },
+   "start": 17.296,
+   "end": 22.504,
+   "tokens": [
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "as soon as; one; single",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "价格",
+     "jià gé",
+     "price",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a clause of action) as soon as; immediately after",
+     ""
+    ],
+    [
+     "不想",
+     "bù xiǎng",
+     "unexpectedly; to one's surprise",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "hundred; numerous; all kinds of",
+     ""
+    ],
+    [
+     "块",
+     "kuài",
+     "classifier for pieces of cloth, cake, soap etc",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  },
+  {
+   "text": "“太贵了，等打折的时候再来买吧。”",
+   "py": "“tài guì le, děng dǎ zhé de shí hou zài lái mǎi ba.”",
+   "en": "\"It's too expensive. I'll come back and buy it when it's on sale.\"",
+   "tr": {
+    "vi": "“Đắt quá, đợi khi nào giảm giá rồi đến mua.”",
+    "pt": "“É caro demais. Volto para comprar quando estiver em promoção.”",
+    "es": "«Es demasiado caro. Vuelvo a comprarlo cuando esté en oferta».",
+    "fr": "« C’est trop cher. Je reviendrai l’acheter quand il y aura des soldes. »",
+    "am": "«በጣም ውድ ነው፤ ቅናሽ ሲኖር መጥቼ እገዛዋለሁ።»",
+    "fa": "«خیلی گرونه. وقتی حراج شد، برمی‌گردم می‌خرمش.»"
+   },
+   "start": 23.204,
+   "end": 27.26,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "贵",
+     "guì",
+     "expensive; (bound form) highly valued; precious",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "等",
+     "děng",
+     "by the time; when; till; to wait for; to await",
+     ""
+    ],
+    [
+     "打折",
+     "dǎ zhé",
+     "to give a discount",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; further; beyond this point of time",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明说：“你这么喜欢，就买吧。”可是小雨还是走出了商店。",
+   "py": "Wáng Míng shuō: “nǐ zhè me xǐ huan, jiù mǎi ba.” kě shì Xiǎo yǔ hái shi zǒu chū le shāng diàn.",
+   "en": "Wang Ming says, \"If you like it so much, just buy it.\" But Xiaoyu still walks out of the shop.",
+   "tr": {
+    "vi": "Vương Minh nói: “Em thích thế thì mua đi.” Nhưng Tiểu Vũ vẫn bước ra khỏi cửa hàng.",
+    "pt": "O Wang Ming diz: “Se você gostou tanto, compre.” Mas a Xiaoyu sai da loja mesmo assim.",
+    "es": "Wang Ming dice: «Si tanto te gusta, cómpralo». Pero Xiaoyu sale de la tienda de todos modos.",
+    "fr": "Wang Ming dit : « Si elle te plaît autant, achète-la. » Mais Xiaoyu sort quand même du magasin.",
+    "am": "ዋንግ ሚንግ «ይሄን ያህል ከወደድሽው ግዢው» አለ። ሺያውዩ ግን ከሱቁ ወጣች።",
+    "fa": "وانگ مینگ می‌گه: «انقدر دوستش داری، همون بخرش.» ولی شیائویو بازم از مغازه میاد بیرون."
+   },
+   "start": 27.96,
+   "end": 34.608,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
+     ""
+    ],
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "喜欢",
+     "xǐ huan",
+     "to like; to be fond of",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "走出",
+     "zǒu chū",
+     "to leave (a room etc); to go out through (a door etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "商店",
+     "shāng diàn",
+     "store; shop",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一个星期以后，那个商店真的打折了。",
+   "py": "yí gè xīng qī yǐ hòu, nà ge shāng diàn zhēn de dǎ zhé le.",
+   "en": "A week later, the shop really does have a sale.",
+   "tr": {
+    "vi": "Một tuần sau, cửa hàng đó giảm giá thật.",
+    "pt": "Uma semana depois, a loja entra mesmo em promoção.",
+    "es": "Una semana después, la tienda de verdad pone ofertas.",
+    "fr": "Une semaine plus tard, le magasin fait vraiment des soldes.",
+    "am": "ከአንድ ሳምንት በኋላ ሱቁ በእርግጥ ቅናሽ አደረገ።",
+    "fa": "یه هفته بعد، مغازه واقعاً حراج می‌ذاره."
+   },
+   "start": 35.308,
+   "end": 39.364,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "星期",
+     "xīng qī",
+     "week; day of the week; Sunday",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那个",
+     "nà ge",
+     "that one; that thing; that (as opposed to this)",
+     ""
+    ],
+    [
+     "商店",
+     "shāng diàn",
+     "store; shop",
+     ""
+    ],
+    [
+     "真的",
+     "zhēn de",
+     "really; truly; indeed; real; true; genuine; (math.) proper",
+     ""
+    ],
+    [
+     "打折",
+     "dǎ zhé",
+     "to give a discount",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨一下班就跑了过去，可是那条蓝色的裙子已经没有了。",
+   "py": "Xiǎo yǔ yí xià bān jiù pǎo le guò qù, kě shì nà tiáo lán sè de qún zi yǐ jīng méi yǒu le.",
+   "en": "Xiaoyu rushes over as soon as she finishes work, but the blue dress is already gone.",
+   "tr": {
+    "vi": "Tiểu Vũ vừa tan làm đã chạy đến, nhưng chiếc váy xanh đó đã không còn nữa.",
+    "pt": "Assim que sai do trabalho, a Xiaoyu corre até a loja, mas o vestido azul não está mais lá.",
+    "es": "En cuanto sale del trabajo, Xiaoyu va corriendo, pero el vestido azul ya no está.",
+    "fr": "Dès la fin du travail, Xiaoyu y court, mais la robe bleue n’est plus là.",
+    "am": "ሺያውዩ ከሥራ እንደወጣች እየሮጠች ሄደች፤ ያ ሰማያዊ ቀሚስ ግን አልነበረም።",
+    "fa": "شیائویو تازه کارش تموم می‌شه که یه‌عالمه سرکشی می‌کنه، ولی پیراهن آبی از قبل رفته."
+   },
+   "start": 40.064,
+   "end": 46.208,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "一下",
+     "yī xià",
+     "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
+     ""
+    ],
+    [
+     "班",
+     "bān",
+     "work shift; team; class; grade; (military) squad",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a clause of action) as soon as; immediately after",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "to run; to run away; to escape",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "过去",
+     "guò qù",
+     "to go over; to pass by; (in the) past; former; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "蓝色",
+     "lán sè",
+     "blue (color)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "裙子",
+     "qún zi",
+     "skirt",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她很难过，回到家一句话也不说。",
+   "py": "tā hěn nán guò, huí dào jiā yí jù huà yě bù shuō.",
+   "en": "She's very upset and doesn't say a word when she gets home.",
+   "tr": {
+    "vi": "Cô rất buồn, về đến nhà không nói một lời nào.",
+    "pt": "Ela fica muito triste e, ao chegar em casa, não diz uma palavra.",
+    "es": "Se pone muy triste y, al llegar a casa, no dice ni una palabra.",
+    "fr": "Elle est très triste et, rentrée à la maison, elle ne dit pas un mot.",
+    "am": "በጣም አዘነች፤ ቤት ስትመለስ አንድም ቃል አልተናገረችም።",
+    "fa": "حسابی ناراحته و تا می‌رسه خونه، هیچی نمی‌گه."
+   },
+   "start": 46.908,
+   "end": 51.18,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "难过",
+     "nán guò",
+     "to feel sad; to feel unwell; (of life) to be difficult",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "回到",
+     "huí dào",
+     "to return to",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "一句话",
+     "yī jù huà",
+     "in a word; in short",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明问她怎么了，她说：“我的裙子被别人买走了。”",
+   "py": "Wáng Míng wèn tā zěn me le, tā shuō: “wǒ de qún zi bèi bié ren mǎi zǒu le.”",
+   "en": "Wang Ming asks her what's wrong. She says, \"Someone else bought my dress.\"",
+   "tr": {
+    "vi": "Vương Minh hỏi cô sao vậy, cô nói: “Chiếc váy của em bị người khác mua mất rồi.”",
+    "pt": "O Wang Ming pergunta o que aconteceu, e ela diz: “Outra pessoa comprou o meu vestido.”",
+    "es": "Wang Ming le pregunta qué le pasa, y ella dice: «Otra persona compró mi vestido».",
+    "fr": "Wang Ming lui demande ce qui ne va pas. Elle dit : « Quelqu’un d’autre a acheté ma robe. »",
+    "am": "ዋንግ ሚንግ ምን እንደሆነች ጠየቃት፤ «ቀሚሴን ሌላ ሰው ገዝቶ ወሰደው» አለች።",
+    "fa": "وانگ مینگ می‌پرسه چی شده. می‌گه: «یکی دیگه پیراهنمو خرید.»"
+   },
+   "start": 51.88,
+   "end": 57.112,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "怎么了",
+     "zěn me le",
+     "What's up?; What's going on?; What happened?",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "裙子",
+     "qún zi",
+     "skirt",
+     ""
+    ],
+    [
+     "被",
+     "bèi",
+     "quilt; to cover (with); (literary) to suffer (a misfortune)",
+     ""
+    ],
+    [
+     "别人",
+     "bié ren",
+     "other people; others; other person",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明笑了笑，从房间里拿出一个大盒子。",
+   "py": "Wáng Míng xiào le xiào, cóng fáng jiān lǐ ná chū yí gè dà hé zi.",
+   "en": "Wang Ming smiles and brings a big box out of the bedroom.",
+   "tr": {
+    "vi": "Vương Minh mỉm cười, từ trong phòng mang ra một chiếc hộp to.",
+    "pt": "O Wang Ming sorri e traz uma caixa grande do quarto.",
+    "es": "Wang Ming sonríe y saca una caja grande del cuarto.",
+    "fr": "Wang Ming sourit et sort une grande boîte de la chambre.",
+    "am": "ዋንግ ሚንግ ፈገግ አለና ከመኝታ ቤቱ አንድ ትልቅ ሣጥን አወጣ።",
+    "fa": "وانگ مینگ لبخند می‌زنه و یه جعبه‌ی بزرگ از اتاق خواب میاره بیرون."
+   },
+   "start": 57.812,
+   "end": 62.108,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "房间",
+     "fáng jiān",
+     "room",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "盒子",
+     "hé zi",
+     "box; case",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“后天就是你的生日，我本来想那天再给你。快打开看看！”",
+   "py": "“hòu tiān jiù shì nǐ de shēng rì, wǒ běn lái xiǎng nà tiān zài gěi nǐ. kuài dǎ kāi kàn kàn!”",
+   "en": "\"Your birthday is the day after tomorrow. I was going to give you this then. Go on, open it!\"",
+   "tr": {
+    "vi": "“Ngày kia là sinh nhật em, anh định hôm đó mới tặng em. Mở ra xem đi!”",
+    "pt": "“Depois de amanhã é seu aniversário. Eu ia dar a você nesse dia. Abra logo para ver!”",
+    "es": "«Pasado mañana es tu cumpleaños. Quería dártelo ese día. ¡Anda, ábrelo!».",
+    "fr": "« Après-demain, c’est ton anniversaire. Je voulais te la donner ce jour-là. Allez, ouvre-la ! »",
+    "am": "«ከነገ ወዲያ ልደትሽ ነው፤ በዚያ ቀን ልሰጥሽ አስቤ ነበር። በይ ክፈቺው!»",
+    "fa": "«فردا تولدته. می‌خواستم همون موقع اینو بدم بهت. بفرما، بازش کن!»"
+   },
+   "start": 62.808,
+   "end": 68.52,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "后天",
+     "hòu tiān",
+     "the day after tomorrow",
+     ""
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "exactly; precisely; only; simply; just",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "生日",
+     "shēng rì",
+     "birthday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "本来",
+     "běn lái",
+     "original; originally; at first",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "then (after sth, and not until then)",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to give; to; for",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "快",
+     "kuài",
+     "rapid; quick; speed",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "看看",
+     "kàn kan",
+     "to take a look at; to examine; to survey",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨打开盒子，里面就是那条蓝色的裙子！",
+   "py": "Xiǎo yǔ dǎ kāi hé zi, lǐ miàn jiù shì nà tiáo lán sè de qún zi!",
+   "en": "Xiaoyu opens the box, and inside is that very blue dress!",
+   "tr": {
+    "vi": "Tiểu Vũ mở hộp ra, bên trong chính là chiếc váy xanh đó!",
+    "pt": "A Xiaoyu abre a caixa, e lá dentro está aquele mesmo vestido azul!",
+    "es": "Xiaoyu abre la caja, ¡y adentro está aquel vestido azul!",
+    "fr": "Xiaoyu ouvre la boîte : dedans, il y a justement la robe bleue !",
+    "am": "ሺያውዩ ሣጥኑን ስትከፍት ውስጡ ያው ሰማያዊ ቀሚስ ነበር!",
+    "fa": "شیائویو جعبه رو باز می‌کنه؛ همون پیراهن آبی توشه!"
+   },
+   "start": 69.22,
+   "end": 73.756,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "盒子",
+     "hé zi",
+     "box; case",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "里面",
+     "lǐ miàn",
+     "inside; interior; also pr.",
+     ""
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "exactly; precisely; only; simply; just",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "蓝色",
+     "lán sè",
+     "blue (color)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "裙子",
+     "qún zi",
+     "skirt",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  },
+  {
+   "text": "小雨问：“你什么时候买的？”",
+   "py": "Xiǎo yǔ wèn: “nǐ shén me shí hou mǎi de?”",
+   "en": "Xiaoyu asks, \"When did you buy it?\"",
+   "tr": {
+    "vi": "Tiểu Vũ hỏi: “Anh mua lúc nào vậy?”",
+    "pt": "A Xiaoyu pergunta: “Quando você comprou?”",
+    "es": "Xiaoyu pregunta: «¿Cuándo lo compraste?».",
+    "fr": "Xiaoyu demande : « Quand est-ce que tu l’as achetée ? »",
+    "am": "ሺያውዩ «መቼ ገዛኸው?» ብላ ጠየቀች።",
+    "fa": "شیائویو می‌پرسه: «کی خریدیش؟»"
+   },
+   "start": 74.456,
+   "end": 77.552,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "什么时候",
+     "shén me shí hou",
+     "when?; at what time?",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明说：“就是那天。你走出商店以后，我又回去把它买了下来。”",
+   "py": "Wáng Míng shuō: “jiù shì nà tiān. nǐ zǒu chū shāng diàn yǐ hòu, wǒ yòu huí qù bǎ tā mǎi le xià lái.”",
+   "en": "Wang Ming says, \"That same day. After you walked out of the shop, I went back and bought it.\"",
+   "tr": {
+    "vi": "Vương Minh nói: “Chính hôm đó. Sau khi em ra khỏi cửa hàng, anh đã quay lại mua nó.”",
+    "pt": "O Wang Ming diz: “Naquele mesmo dia. Depois que você saiu da loja, eu voltei e comprei.”",
+    "es": "Wang Ming dice: «Ese mismo día. Cuando saliste de la tienda, volví y lo compré».",
+    "fr": "Wang Ming dit : « Le jour même. Après que tu es sortie du magasin, j’y suis retourné et je l’ai achetée. »",
+    "am": "ዋንግ ሚንግ «በዚያው ቀን ነው። ከሱቁ ከወጣሽ በኋላ ተመልሼ ገዛሁት» አለ።",
+    "fa": "وانگ مینگ می‌گه: «همون روز. بعد اینکه تو از مغازه اومدی بیرون، برگشتم و خریدمش.»"
+   },
+   "start": 78.252,
+   "end": 84.876,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "exactly; precisely; only; simply; just",
+     ""
+    ],
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "走出",
+     "zǒu chū",
+     "to leave (a room etc); to go out through (a door etc)",
+     ""
+    ],
+    [
+     "商店",
+     "shāng diàn",
+     "store; shop",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; afterwards; later",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "回去",
+     "huí qu",
+     "to go back; to return",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "下来",
+     "xià lai",
+     "(after verb of motion, indicates motion down and towards us, also fig.)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨说：“可是现在打折了，你多花了很多钱！”",
+   "py": "Xiǎo yǔ shuō: “kě shì xiàn zài dǎ zhé le, nǐ duō huā le hěn duō qián!”",
+   "en": "Xiaoyu says, \"But now it's on sale. You paid a lot more!\"",
+   "tr": {
+    "vi": "Tiểu Vũ nói: “Nhưng bây giờ giảm giá rồi, anh trả đắt hơn nhiều quá!”",
+    "pt": "A Xiaoyu diz: “Mas agora está em promoção, você gastou muito mais!”",
+    "es": "Xiaoyu dice: «¡Pero ahora está en oferta! ¡Pagaste mucho más!».",
+    "fr": "Xiaoyu dit : « Mais maintenant, elle est en solde. Tu as payé beaucoup plus cher ! »",
+    "am": "ሺያውዩ «ግን አሁን ቅናሽ ተደርጓል፤ ብዙ ትርፍ ገንዘብ ከፈልክ!» አለች።",
+    "fa": "شیائویو می‌گه: «ولی الان که حراج شده؛ تو خیلی بیشتر پول دادی!»"
+   },
+   "start": 85.576,
+   "end": 91.072,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "现在",
+     "xiàn zài",
+     "now; at present; currently",
+     ""
+    ],
+    [
+     "打折",
+     "dǎ zhé",
+     "to give a discount",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "花",
+     "huā",
+     "flower; blossom; fancy pattern",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "coin; money; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明说：“没关系，你高兴就好。”",
+   "py": "Wáng Míng shuō: “méi guān xi, nǐ gāo xìng jiù hǎo.”",
+   "en": "Wang Ming says, \"That doesn't matter. As long as you're happy.\"",
+   "tr": {
+    "vi": "Vương Minh nói: “Không sao, em vui là được.”",
+    "pt": "O Wang Ming diz: “Não tem problema. O importante é você ficar feliz.”",
+    "es": "Wang Ming dice: «No importa. Con que tú estés contenta, basta».",
+    "fr": "Wang Ming dit : « Ce n’est pas grave. Du moment que tu es contente. »",
+    "am": "ዋንግ ሚንግ «ምንም አይደል፤ አንቺ ደስ ካለሽ በቂ ነው» አለ።",
+    "fa": "وانگ مینگ می‌گه: «مهم نیست. تا وقتی تو خوشحال باشی.»"
+   },
+   "start": 91.772,
+   "end": 95.828,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "没关系",
+     "méi guān xi",
+     "it doesn't matter",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 279,
+ "first": "星期六，小雨和王明去商店买东西。",
+ "newWords": [
+  {
+   "w": "价格",
+   "py": "jiàgé",
+   "en": "price"
+  },
+  {
+   "w": "打折",
+   "py": "dǎzhé",
+   "en": "to discount"
+  },
+  {
+   "w": "盒子",
+   "py": "hézi",
+   "en": "box"
+  },
+  {
+   "w": "本来",
+   "py": "běnlái",
+   "en": "originally"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-03.mp3?v=1791720572"
 }

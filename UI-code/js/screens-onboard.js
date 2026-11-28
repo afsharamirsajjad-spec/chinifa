@@ -51,7 +51,7 @@ return '<div class="col au">'+
     '<p class="ob3-wl__s" style="font-size:13.5px;line-height:1.7;padding:0 24px;color:var(--text2,#555);">'+o(subFa)+'</p>'+
     '<div class="ob3-wl__pts" style="margin:16px 0 24px;"><span><i></i>۱۵ درس تعاملی</span><span>HSK 1</span><span>تلفظ صوتی بومی</span></div>'+
     '<div class="ob3-cta">'+
-      '<button class="ob3-btn" '+s("onbStart")+' style="font-size:16px;padding:14px 28px;">بزن بریم 🌸</button>'+
+      '<button class="ob3-btn" '+s("go",{s:"pick"})+' style="font-size:16px;padding:14px 28px;">بزن بریم 🌸</button>'+
       '<button class="ob3-btn ob3-btn--ghost" '+s("goAuth")+'>قبلاً حساب دارم</button>'+
     '</div>'+
   '</div>';

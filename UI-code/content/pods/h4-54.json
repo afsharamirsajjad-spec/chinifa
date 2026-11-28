@@ -1,1943 +1,1961 @@
 {
-  "id": "h4-54",
-  "level": 4,
-  "no": 54,
-  "title": "提前",
-  "title_py": "tí qián",
-  "title_en": "Brought forward",
-  "title_tr": {
-    "am": "ቀኑ ተቀደመ",
-    "fa": "جلو انداختن موعد تحویل"
+ "id": "h4-54",
+ "level": 4,
+ "no": 54,
+ "title": "提前",
+ "title_py": "tí qián",
+ "title_en": "Brought forward",
+ "title_tr": {
+  "am": "ቀኑ ተቀደመ",
+  "fa": "جلو انداختن موعد تحویل"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_meeting",
+ "cover": "https://media.kanchinese.app/review/stories/h4-54.jpg",
+ "duration": 122.14,
+ "lines": [
+  {
+   "text": "星期一下午，客户突然打来电话：原来说好星期五交的方案，要提前到星期三。",
+   "py": "xīng qī yí xià wǔ, kè hù tū rán dǎ lái diàn huà: yuán lái shuō hǎo xīng qī wǔ jiāo de fāng àn, yào tí qián dào xīng qī sān.",
+   "en": "On Monday afternoon, a client suddenly phones: the proposal they'd agreed to deliver on Friday has to be brought forward to Wednesday.",
+   "tr": {
+    "am": "ሰኞ ከሰዓት በኋላ አንድ ደንበኛ ድንገት ደወለ፦ ዓርብ እንዲደርስ የተስማሙበት ፕሮፖዛል ወደ ረቡዕ መቅደም አለበት።",
+    "fa": "دوشنبه بعدازظهر، یه مشتری یهو زنگ می‌زنه: پیشنهادی که قرار بود جمعه تحویل بشه باید به چهارشنبه جلو انداخته شه."
+   },
+   "start": 2.404,
+   "end": 10.708,
+   "tokens": [
+    [
+     "星期一",
+     "xīng qī yī",
+     "Monday",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "突然",
+     "tū rán",
+     "sudden; abrupt; unexpected",
+     ""
+    ],
+    [
+     "打",
+     "dǎ",
+     "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
+     ""
+    ],
+    [
+     "来电",
+     "lái diàn",
+     "to phone in; to send in a telegram",
+     ""
+    ],
+    [
+     "话",
+     "huà",
+     "dialect; language; spoken words",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "原来",
+     "yuán lái",
+     "original; former; originally; formerly; at first",
+     ""
+    ],
+    [
+     "说好",
+     "shuō hǎo",
+     "to come to an agreement; to complete negotiations",
+     ""
+    ],
+    [
+     "星期五",
+     "xīng qī wǔ",
+     "Friday",
+     ""
+    ],
+    [
+     "交",
+     "jiāo",
+     "to hand over; to deliver; to pay (money); to turn over",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "方案",
+     "fāng àn",
+     "proposal; plan; program (for action etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "提前",
+     "tí qián",
+     "to shift to an earlier date; to do sth ahead of time",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "星期三",
+     "xīng qī sān",
+     "Wednesday",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_meeting",
-  "cover": "https://media.kanchinese.app/review/stories/h4-54.jpg",
-  "duration": 122.14,
-  "lines": [
-    {
-      "text": "星期一下午，客户突然打来电话：原来说好星期五交的方案，要提前到星期三。",
-      "py": "xīng qī yí xià wǔ, kè hù tū rán dǎ lái diàn huà: yuán lái shuō hǎo xīng qī wǔ jiāo de fāng àn, yào tí qián dào xīng qī sān.",
-      "en": "On Monday afternoon, a client suddenly phones: the proposal they'd agreed to deliver on Friday has to be brought forward to Wednesday.",
-      "tr": {
-        "am": "ሰኞ ከሰዓት በኋላ አንድ ደንበኛ ድንገት ደወለ፦ ዓርብ እንዲደርስ የተስማሙበት ፕሮፖዛል ወደ ረቡዕ መቅደም አለበት።"
-      },
-      "start": 2.404,
-      "end": 10.708,
-      "tokens": [
-        [
-          "星期一",
-          "xīng qī yī",
-          "Monday",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "突然",
-          "tū rán",
-          "sudden; abrupt; unexpected",
-          ""
-        ],
-        [
-          "打",
-          "dǎ",
-          "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
-          ""
-        ],
-        [
-          "来电",
-          "lái diàn",
-          "to phone in; to send in a telegram",
-          ""
-        ],
-        [
-          "话",
-          "huà",
-          "dialect; language; spoken words",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "原来",
-          "yuán lái",
-          "original; former; originally; formerly; at first",
-          ""
-        ],
-        [
-          "说好",
-          "shuō hǎo",
-          "to come to an agreement; to complete negotiations",
-          ""
-        ],
-        [
-          "星期五",
-          "xīng qī wǔ",
-          "Friday",
-          ""
-        ],
-        [
-          "交",
-          "jiāo",
-          "to hand over; to deliver; to pay (money); to turn over",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "方案",
-          "fāng àn",
-          "proposal; plan; program (for action etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "提前",
-          "tí qián",
-          "to shift to an earlier date; to do sth ahead of time",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "星期三",
-          "xīng qī sān",
-          "Wednesday",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理马上把大家叫到会议室开会。",
-      "py": "Zhōu jīng lǐ mǎ shàng bǎ dà jiā jiào dào huì yì shì kāi huì.",
-      "en": "Manager Zhou immediately calls everyone into the meeting room.",
-      "tr": {
-        "am": "ሥራ አስኪያጅ ጆው ወዲያው ሁሉንም ለስብሰባ ወደ ስብሰባ ክፍሉ ጠራች።"
-      },
-      "start": 11.408,
-      "end": 14.984,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "immediately; at once; right away",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to call; to shout; to order",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "会议室",
-          "huì yì shì",
-          "meeting room; conference room",
-          ""
-        ],
-        [
-          "开会",
-          "kāi huì",
-          "to hold a meeting; to attend a meeting",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“只有两天了，时间很紧，我们得重新分工。”",
-      "py": "“zhǐ yǒu liǎng tiān le, shí jiān hěn jǐn, wǒ men děi chóng xīn fēn gōng.”",
-      "en": "\"We've only got two days. Time is tight, so we need to divide up the work again.\"",
-      "tr": {
-        "am": "«የቀሩት ሁለት ቀን ብቻ ናቸው፣ ጊዜው በጣም ጠባብ ነው፣ ሥራውን እንደገና መከፋፈል አለብን።»"
-      },
-      "start": 15.684,
-      "end": 20.7,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "只有",
-          "zhǐ yǒu",
-          "only have ...; there is only ...",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "时间",
-          "shí jiān",
-          "(concept of) time; (duration of) time; (point in) time",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "紧",
-          "jǐn",
-          "tight; to tighten; strict",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "重新",
-          "chóng xīn",
-          "again; once more; re-",
-          ""
-        ],
-        [
-          "分工",
-          "fēn gōng",
-          "to divide up the work; division of labor",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "她在白板上写下了要做的事：杰克写报告，小雨做价格表，另外两个同事准备样品的照片。",
-      "py": "tā zài bái bǎn shàng xiě xià le yào zuò de shì: Jié kè xiě bào gào, Xiǎo yǔ zuò jià gé biǎo, lìng wài liǎng gè tóng shì zhǔn bèi yàng pǐn de zhào piàn.",
-      "en": "She writes what needs doing on the whiteboard: Jack writes the report, Xiaoyu does the price list, and two other colleagues get the sample photos ready.",
-      "tr": {
-        "am": "የሚሠሩትን በነጭ ሰሌዳው ላይ ጻፈች፦ ጃክ ሪፖርቱን ይጽፋል፣ ሺያውዩ የዋጋ ዝርዝሩን ታዘጋጃለች፣ ሌሎች ሁለት ባልደረቦች የናሙናዎቹን ፎቶ ያዘጋጃሉ።"
-      },
-      "start": 21.4,
-      "end": 31.096,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "白板",
-          "bái bǎn",
-          "whiteboard; tabula rasa; blank slate",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "to climb; to get onto; to go up",
-          ""
-        ],
-        [
-          "写下",
-          "xiě xià",
-          "to write down",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; need to; should",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to write; to compose; to make; to produce",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "matter; thing; item",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "报告",
-          "bào gào",
-          "to report; report; to inform",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to write; to compose; to make; to produce",
-          ""
-        ],
-        [
-          "价格表",
-          "jià gé biǎo",
-          "price list; pricing table",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "另外",
-          "lìng wài",
-          "other; additional; in addition",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "同事",
-          "tóng shì",
-          "colleague; co-worker",
-          ""
-        ],
-        [
-          "准备",
-          "zhǔn bèi",
-          "preparation; to prepare; to intend",
-          ""
-        ],
-        [
-          "样品",
-          "yàng pǐn",
-          "sample; specimen",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克问：“来得及吗？”",
-      "py": "Jié kè wèn: “lái de jí ma?”",
-      "en": "Jack asks, \"Can we make it in time?\"",
-      "tr": {
-        "am": "ጃክ ጠየቀ፦ «ይደርሳል?»"
-      },
-      "start": 31.796,
-      "end": 34.652,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "来得及",
-          "lái de jí",
-          "to have enough time; can do it in time; can still make it",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "周经理说：“抓紧一点儿，就来得及。每天晚上六点，我们再开个短会，看看进度。”",
-      "py": "Zhōu jīng lǐ shuō: “zhuā jǐn yì diǎn r, jiù lái de jí. měi tiān wǎn shang liù diǎn, wǒ men zài kāi gè duǎn huì, kàn kàn jìn dù.”",
-      "en": "Manager Zhou says, \"If we get a move on, we can. At six every evening, we'll have a quick meeting to check progress.\"",
-      "tr": {
-        "am": "ሥራ አስኪያጅ ጆው አለች፦ «ትንሽ ከፈጠንን ይደርሳል። በየምሽቱ 6:00 ላይ ሥራው የት እንደደረሰ ለማየት አጭር ስብሰባ እናደርጋለን።»"
-      },
-      "start": 35.352,
-      "end": 43.2,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "抓紧",
-          "zhuā jǐn",
-          "to keep a firm grip on; to pay close attention to",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "to approach; to move towards",
-          ""
-        ],
-        [
-          "来得及",
-          "lái de jí",
-          "to have enough time; can do it in time; can still make it",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to mark with a dot; to check off (on a list)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; further; beyond this point of time",
-          ""
-        ],
-        [
-          "开",
-          "kāi",
-          "to write out (a prescription, check, invoice etc)",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "短",
-          "duǎn",
-          "short; brief; to lack",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "看看",
-          "kàn kan",
-          "to take a look at; to examine; to survey",
-          ""
-        ],
-        [
-          "进度",
-          "jìn dù",
-          "rate of progress",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "两天里，大家中午只吃外卖，晚上一直忙到十点多。",
-      "py": "liǎng tiān lǐ, dà jiā zhōng wǔ zhǐ chī wài mài, wǎn shang yì zhí máng dào shí diǎn duō.",
-      "en": "For two days, everyone eats takeaway at lunch and works until after ten at night.",
-      "tr": {
-        "am": "በሁለቱ ቀናት ሁሉም ምሳ ላይ የታዘዘ ምግብ ብቻ በሉ፣ ማታ ከ10:00 በኋላ ድረስ ሠሩ።"
-      },
-      "start": 43.9,
-      "end": 49.612,
-      "tokens": [
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "外卖",
-          "wài mài",
-          "(of a restaurant) to provide a takeout or home delivery meal",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "忙",
-          "máng",
-          "busy; hurriedly; to hurry",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to (a place); until (a time); up to (a point)",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "(after a numeral) ... odd; many; much; more; a lot of",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "星期二晚上十一点，方案终于做完了，大家累得站都站不起来。",
-      "py": "xīng qī èr wǎn shang shí yì diǎn, fāng àn zhōng yú zuò wán le, dà jiā lèi de zhàn dōu zhàn bù qǐ lái.",
-      "en": "At eleven on Tuesday night, the proposal is finally finished. Everyone is too tired to even stand up.",
-      "tr": {
-        "am": "ማክሰኞ ምሽት 11:00 ላይ ፕሮፖዛሉ በመጨረሻ ተጠናቀቀ፣ ሁሉም ደክመው መቆም እንኳ አቃታቸው።"
-      },
-      "start": 50.312,
-      "end": 56.744,
-      "tokens": [
-        [
-          "星期二",
-          "xīng qī èr",
-          "Tuesday",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; night; in the evening",
-          ""
-        ],
-        [
-          "十一",
-          "shí yī",
-          "eleven; 11; PRC National Day (October 1st)",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "方案",
-          "fāng àn",
-          "proposal; plan; program (for action etc)",
-          ""
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "finally; eventually; at last",
-          ""
-        ],
-        [
-          "做完",
-          "zuò wán",
-          "to finish; to complete the task",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "累",
-          "lèi",
-          "tired; weary; to strain",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "(used for emphasis) even; all; both; entirely; already",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨笑着说：“我们终于做到了！”",
-      "py": "Xiǎo yǔ xiào zhe shuō: “wǒ men zhōng yú zuò dào le!”",
-      "en": "Xiaoyu smiles. \"We've actually done it!\"",
-      "tr": {
-        "am": "ሺያውዩ ፈገግ ብላ አለች፦ «በመጨረሻ ተሳካልን!»"
-      },
-      "start": 57.444,
-      "end": 61.236,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "at last; in the end; finally",
-          ""
-        ],
-        [
-          "做到",
-          "zuò dào",
-          "to accomplish; to achieve",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "星期三早上九点，周经理准时把方案发给了客户。",
-      "py": "xīng qī sān zǎo shang jiǔ diǎn, Zhōu jīng lǐ zhǔn shí bǎ fāng àn fā gěi le kè hù.",
-      "en": "At nine on Wednesday morning, Manager Zhou sends the proposal to the client right on time.",
-      "tr": {
-        "am": "ረቡዕ ጠዋት 9:00 ላይ ሥራ አስኪያጅ ጆው ፕሮፖዛሉን በሰዓቱ ለደንበኛው ላከች።"
-      },
-      "start": 61.936,
-      "end": 67.408,
-      "tokens": [
-        [
-          "星期三",
-          "xīng qī sān",
-          "Wednesday",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "九",
-          "jiǔ",
-          "nine; 9",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "point in time or space; classifier for small amounts",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "准时",
-          "zhǔn shí",
-          "on time; punctual; on schedule",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "方案",
-          "fāng àn",
-          "proposal; plan; program (for action etc)",
-          ""
-        ],
-        [
-          "发给",
-          "fā gěi",
-          "to issue; to grant; to distribute",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "十分钟以后，客户回了电话。",
-      "py": "shí fēn zhōng yǐ hòu, kè hù huí le diàn huà.",
-      "en": "Ten minutes later, the client calls back.",
-      "tr": {
-        "am": "ከአሥር ደቂቃ በኋላ ደንበኛው መልሶ ደወለ።"
-      },
-      "start": 68.108,
-      "end": 71.252,
-      "tokens": [
-        [
-          "十分",
-          "shí fēn",
-          "to divide into ten equal parts; very; completely",
-          ""
-        ],
-        [
-          "钟",
-          "zhōng",
-          "handleless cup; goblet",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "phone call; telephone; phone number",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“周经理，真不好意思。我们老板下个星期才回来，方案可以推迟到下周五再交。”",
-      "py": "“Zhōu jīng lǐ, zhēn bù hǎo yì sī. wǒ men lǎo bǎn xià gè xīng qī cái huí lái, fāng àn kě yǐ tuī chí dào xià zhōu wǔ zài jiāo.”",
-      "en": "\"Manager Zhou, I'm so sorry. Our boss won't be back until next week, so the proposal can wait until next Friday.\"",
-      "tr": {
-        "am": "«ሥራ አስኪያጅ ጆው፣ በጣም ይቅርታ። አለቃችን የሚመለሱት በሚቀጥለው ሳምንት ነው፣ ፕሮፖዛሉን እስከሚቀጥለው ዓርብ ማዘግየት ይቻላል።»"
-      },
-      "start": 71.952,
-      "end": 80.472,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "周",
-          "zhōu",
-          "week; weekly; Zhou Dynasty (1046–256 BC)",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "真",
-          "zhēn",
-          "really; truly; indeed",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to be sorry (for inconveniencing sb); to feel embarrassed",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "下个星期",
-          "xià gè xīng qī",
-          "next week",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "ability; talent; sb of a certain type; a capable individual",
-          ""
-        ],
-        [
-          "回来",
-          "huí lai",
-          "to return; to come back",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "方案",
-          "fāng àn",
-          "proposal; plan; program (for action etc)",
-          ""
-        ],
-        [
-          "可以",
-          "kě yǐ",
-          "can; may; possible",
-          ""
-        ],
-        [
-          "推迟",
-          "tuī chí",
-          "to postpone; to put off; to defer",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to (a place); until (a time); up to (a point)",
-          ""
-        ],
-        [
-          "下周",
-          "xià zhōu",
-          "next week",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "then (after sth, and not until then); again; once more; re-",
-          ""
-        ],
-        [
-          "交",
-          "jiāo",
-          "to hand over; to deliver; to pay (money); to turn over",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "周经理放下电话，看了看大家红红的眼睛，半天没说话。",
-      "py": "Zhōu jīng lǐ fàng xià diàn huà, kàn le kàn dà jiā hóng hóng de yǎn jing, bàn tiān méi shuō huà.",
-      "en": "Manager Zhou puts down the phone and looks at everyone's red eyes. For a long time she says nothing.",
-      "tr": {
-        "am": "ሥራ አስኪያጅ ጆው ስልኩን አስቀመጠች፣ የሁሉንም የቀሉ ዓይኖች አየች፣ ለረጅም ጊዜ ምንም አልተናገረችም።"
-      },
-      "start": 81.172,
-      "end": 87.148,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "放下",
-          "fàng xià",
-          "to lay down; to put down",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "phone call; phone number; telephone",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "眼睛",
-          "yǎn jing",
-          "eye",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "a long time; half of the day; quite a while",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "说话",
-          "shuō huà",
-          "to speak; to say; to talk",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克小声问：“那……我们这两天是白忙了吗？”",
-      "py": "Jié kè xiǎo shēng wèn: “nà…… wǒ men zhè liǎng tiān shì bái máng le ma?”",
-      "en": "Jack asks quietly, \"So... were these two days for nothing?\"",
-      "tr": {
-        "am": "ጃክ በዝግታ ጠየቀ፦ «ታዲያ… እነዚህን ሁለት ቀናት በከንቱ ደከምን?»"
-      },
-      "start": 87.848,
-      "end": 93.296,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "小声",
-          "xiǎo shēng",
-          "in a low voice; (speak) in whispers",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "白",
-          "bái",
-          "white; in vain; free of charge",
-          ""
-        ],
-        [
-          "忙",
-          "máng",
-          "busy; hurriedly; to hurry",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "周经理突然笑了：“没白忙。方案已经交了，下个星期就没事了。”",
-      "py": "Zhōu jīng lǐ tū rán xiào le: “méi bái máng. fāng àn yǐ jīng jiāo le, xià gè xīng qī jiù méi shì le.”",
-      "en": "Manager Zhou suddenly laughs. \"Not for nothing. The proposal's in, so next week there's nothing left to do on it.\"",
-      "tr": {
-        "am": "ሥራ አስኪያጅ ጆው ድንገት ሳቀች፦ «በከንቱ አይደለም። ፕሮፖዛሉ ተልኳል፣ በሚቀጥለው ሳምንት ምንም ሥራ አይኖርም።»"
-      },
-      "start": 93.996,
-      "end": 101.076,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "week; weekly; Zhou Dynasty (1046–256 BC)",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "突然",
-          "tū rán",
-          "sudden; abrupt; unexpected",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "白",
-          "bái",
-          "white; in vain; free of charge",
-          ""
-        ],
-        [
-          "忙",
-          "máng",
-          "busy; hurriedly; to hurry",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "方案",
-          "fāng àn",
-          "proposal; plan; program (for action etc)",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "交",
-          "jiāo",
-          "to hand over; to deliver; to pay (money); to turn over",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "下个星期",
-          "xià gè xīng qī",
-          "next week",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "没事",
-          "méi shì",
-          "it's nothing; to have nothing to do; it's not important",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“从今天下午开始，大家回家休息，星期四、星期五也算调休，不用来了。”",
-      "py": "“cóng jīn tiān xià wǔ kāi shǐ, dà jiā huí jiā xiū xi, xīng qī sì, xīng qī wǔ yě suàn diào xiū, bú yòng lái le.”",
-      "en": "\"From this afternoon, everyone go home and rest. Thursday and Friday count as time off in lieu, so don't come in.\"",
-      "tr": {
-        "am": "«ከዛሬ ከሰዓት ጀምሮ ሁላችሁም ቤት ሄዳችሁ አርፉ። ሐሙስና ዓርብም እንደ ማካካሻ ዕረፍት ይቆጠራል፣ መምጣት አያስፈልግም።»"
-      },
-      "start": 101.776,
-      "end": 108.88,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "从",
-          "cóng",
-          "(used before a negative) ever; from; through; via",
-          ""
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "the present time; now; today",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "休息",
-          "xiū xi",
-          "rest; to rest",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "星期四",
-          "xīng qī sì",
-          "Thursday",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "星期五",
-          "xīng qī wǔ",
-          "Friday",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
-          ""
-        ],
-        [
-          "算",
-          "suàn",
-          "to include; to count in",
-          ""
-        ],
-        [
-          "调休",
-          "tiáo xiū",
-          "to compensate for working on a holiday by resting on a workday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不用",
-          "bù yòng",
-          "need not",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; ever since (as in 自古以来)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "办公室里一下子热闹起来，大家都忘了累。",
-      "py": "bàn gōng shì lǐ yí xià zi rè nao qǐ lái, dà jiā dōu wàng le lèi.",
-      "en": "The office comes alive at once, and everyone forgets how tired they are.",
-      "tr": {
-        "am": "ቢሮው በአንድ ጊዜ ደመቀ፣ ሁሉም ድካማቸውን ረሱ።"
-      },
-      "start": 109.58,
-      "end": 113.852,
-      "tokens": [
-        [
-          "办公室",
-          "bàn gōng shì",
-          "office; business premises",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "once; one time; all at once; all of a sudden",
-          ""
-        ],
-        [
-          "热闹",
-          "rè nao",
-          "bustling with noise and excitement; lively",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "忘",
-          "wàng",
-          "to forget; to overlook; to neglect",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "累",
-          "lèi",
-          "tired; weary; to strain",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "走出大楼的时候，杰克说：“我第一次希望客户每个星期都提前。”",
-      "py": "zǒu chū dà lóu de shí hou, Jié kè shuō: “wǒ dì yī cì xī wàng kè hù měi gè xīng qī dōu tí qián.”",
-      "en": "As they leave the building, Jack says, \"For the first time ever, I wish clients would bring things forward every week.\"",
-      "tr": {
-        "am": "ከሕንፃው ሲወጡ ጃክ አለ፦ «ደንበኞች በየሳምንቱ ቀኑን እንዲያቀድሙ ስመኝ ይህ የመጀመሪያዬ ነው።»"
-      },
-      "start": 114.552,
-      "end": 121.44,
-      "tokens": [
-        [
-          "走出",
-          "zǒu chū",
-          "to leave (a room etc); to go out through (a door etc)",
-          ""
-        ],
-        [
-          "大楼",
-          "dà lóu",
-          "building (a relatively large, multistory one)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "第一次",
-          "dì yī cì",
-          "the first time; for the first time",
-          ""
-        ],
-        [
-          "希望",
-          "xī wàng",
-          "a hope; a wish; to hope",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "每个",
-          "měi gè",
-          "each; every",
-          ""
-        ],
-        [
-          "星期",
-          "xīng qī",
-          "week; day of the week; Sunday",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "提前",
-          "tí qián",
-          "to do sth ahead of time; to shift to an earlier date",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 385,
-  "first": "星期一下午，客户突然打来电话：原来说好星期五交的方案，要提前到星期三。",
-  "newWords": [
-    {
-      "w": "提前",
-      "py": "tíqián",
-      "en": "ahead of time"
-    },
-    {
-      "w": "分工",
-      "py": "fēn gōng",
-      "en": "to divide up the work"
-    },
-    {
-      "w": "抓紧",
-      "py": "zhuājǐn",
-      "en": "to act urgently and firmly"
-    },
-    {
-      "w": "进度",
-      "py": "jìn dù",
-      "en": "rate of progress"
-    },
-    {
-      "w": "推迟",
-      "py": "tuīchí",
-      "en": "to postpone"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h4-54.mp3?v=1791721917"
+  {
+   "text": "周经理马上把大家叫到会议室开会。",
+   "py": "Zhōu jīng lǐ mǎ shàng bǎ dà jiā jiào dào huì yì shì kāi huì.",
+   "en": "Manager Zhou immediately calls everyone into the meeting room.",
+   "tr": {
+    "am": "ሥራ አስኪያጅ ጆው ወዲያው ሁሉንም ለስብሰባ ወደ ስብሰባ ክፍሉ ጠራች።",
+    "fa": "مدیر جو همون دم همه رو صدا می‌کنه اتاق جلسه."
+   },
+   "start": 11.408,
+   "end": 14.984,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "immediately; at once; right away",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to call; to shout; to order",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "会议室",
+     "huì yì shì",
+     "meeting room; conference room",
+     ""
+    ],
+    [
+     "开会",
+     "kāi huì",
+     "to hold a meeting; to attend a meeting",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“只有两天了，时间很紧，我们得重新分工。”",
+   "py": "“zhǐ yǒu liǎng tiān le, shí jiān hěn jǐn, wǒ men děi chóng xīn fēn gōng.”",
+   "en": "\"We've only got two days. Time is tight, so we need to divide up the work again.\"",
+   "tr": {
+    "am": "«የቀሩት ሁለት ቀን ብቻ ናቸው፣ ጊዜው በጣም ጠባብ ነው፣ ሥራውን እንደገና መከፋፈል አለብን።»",
+    "fa": "«فقط دو روز داریم. وقت تنگه، پس باید کار رو دوباره تقسیم کنیم.»"
+   },
+   "start": 15.684,
+   "end": 20.7,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "只有",
+     "zhǐ yǒu",
+     "only have ...; there is only ...",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "时间",
+     "shí jiān",
+     "(concept of) time; (duration of) time; (point in) time",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "紧",
+     "jǐn",
+     "tight; to tighten; strict",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "重新",
+     "chóng xīn",
+     "again; once more; re-",
+     ""
+    ],
+    [
+     "分工",
+     "fēn gōng",
+     "to divide up the work; division of labor",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "她在白板上写下了要做的事：杰克写报告，小雨做价格表，另外两个同事准备样品的照片。",
+   "py": "tā zài bái bǎn shàng xiě xià le yào zuò de shì: Jié kè xiě bào gào, Xiǎo yǔ zuò jià gé biǎo, lìng wài liǎng gè tóng shì zhǔn bèi yàng pǐn de zhào piàn.",
+   "en": "She writes what needs doing on the whiteboard: Jack writes the report, Xiaoyu does the price list, and two other colleagues get the sample photos ready.",
+   "tr": {
+    "am": "የሚሠሩትን በነጭ ሰሌዳው ላይ ጻፈች፦ ጃክ ሪፖርቱን ይጽፋል፣ ሺያውዩ የዋጋ ዝርዝሩን ታዘጋጃለች፣ ሌሎች ሁለት ባልደረቦች የናሙናዎቹን ፎቶ ያዘጋጃሉ።",
+    "fa": "کارهایی که باید انجام بشه رو روی وایت‌برد می‌نویسه: جک گزارش رو می‌نویسه، شیائویو لیست قیمت رو درست می‌کنه و دو همکار دیگه عکس‌های نمونه رو آماده می‌کنن."
+   },
+   "start": 21.4,
+   "end": 31.096,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "白板",
+     "bái bǎn",
+     "whiteboard; tabula rasa; blank slate",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "to climb; to get onto; to go up",
+     ""
+    ],
+    [
+     "写下",
+     "xiě xià",
+     "to write down",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; need to; should",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to write; to compose; to make; to produce",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "matter; thing; item",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "报告",
+     "bào gào",
+     "to report; report; to inform",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to write; to compose; to make; to produce",
+     ""
+    ],
+    [
+     "价格表",
+     "jià gé biǎo",
+     "price list; pricing table",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "另外",
+     "lìng wài",
+     "other; additional; in addition",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "同事",
+     "tóng shì",
+     "colleague; co-worker",
+     ""
+    ],
+    [
+     "准备",
+     "zhǔn bèi",
+     "preparation; to prepare; to intend",
+     ""
+    ],
+    [
+     "样品",
+     "yàng pǐn",
+     "sample; specimen",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克问：“来得及吗？”",
+   "py": "Jié kè wèn: “lái de jí ma?”",
+   "en": "Jack asks, \"Can we make it in time?\"",
+   "tr": {
+    "am": "ጃክ ጠየቀ፦ «ይደርሳል?»",
+    "fa": "جک می‌پرسه: «می‌رسیم به‌موقع؟»"
+   },
+   "start": 31.796,
+   "end": 34.652,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "来得及",
+     "lái de jí",
+     "to have enough time; can do it in time; can still make it",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "周经理说：“抓紧一点儿，就来得及。每天晚上六点，我们再开个短会，看看进度。”",
+   "py": "Zhōu jīng lǐ shuō: “zhuā jǐn yì diǎn r, jiù lái de jí. měi tiān wǎn shang liù diǎn, wǒ men zài kāi gè duǎn huì, kàn kàn jìn dù.”",
+   "en": "Manager Zhou says, \"If we get a move on, we can. At six every evening, we'll have a quick meeting to check progress.\"",
+   "tr": {
+    "am": "ሥራ አስኪያጅ ጆው አለች፦ «ትንሽ ከፈጠንን ይደርሳል። በየምሽቱ 6:00 ላይ ሥራው የት እንደደረሰ ለማየት አጭር ስብሰባ እናደርጋለን።»",
+    "fa": "مدیر جو می‌گه: «اگه تند پیش بریم، می‌رسیم. هر روز ساعت شیش عصر، یه جلسه‌ی سریع می‌ذاریم که پیشرفت رو چک کنیم.»"
+   },
+   "start": 35.352,
+   "end": 43.2,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "抓紧",
+     "zhuā jǐn",
+     "to keep a firm grip on; to pay close attention to",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "to approach; to move towards",
+     ""
+    ],
+    [
+     "来得及",
+     "lái de jí",
+     "to have enough time; can do it in time; can still make it",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to mark with a dot; to check off (on a list)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; further; beyond this point of time",
+     ""
+    ],
+    [
+     "开",
+     "kāi",
+     "to write out (a prescription, check, invoice etc)",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "短",
+     "duǎn",
+     "short; brief; to lack",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "看看",
+     "kàn kan",
+     "to take a look at; to examine; to survey",
+     ""
+    ],
+    [
+     "进度",
+     "jìn dù",
+     "rate of progress",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "两天里，大家中午只吃外卖，晚上一直忙到十点多。",
+   "py": "liǎng tiān lǐ, dà jiā zhōng wǔ zhǐ chī wài mài, wǎn shang yì zhí máng dào shí diǎn duō.",
+   "en": "For two days, everyone eats takeaway at lunch and works until after ten at night.",
+   "tr": {
+    "am": "በሁለቱ ቀናት ሁሉም ምሳ ላይ የታዘዘ ምግብ ብቻ በሉ፣ ማታ ከ10:00 በኋላ ድረስ ሠሩ።",
+    "fa": "برای دو روز، همه موقع ناهار غذای بیرون‌بر می‌خورن و تا بعد از ده شب کار می‌کنن."
+   },
+   "start": 43.9,
+   "end": 49.612,
+   "tokens": [
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "外卖",
+     "wài mài",
+     "(of a restaurant) to provide a takeout or home delivery meal",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "忙",
+     "máng",
+     "busy; hurriedly; to hurry",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to (a place); until (a time); up to (a point)",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "(after a numeral) ... odd; many; much; more; a lot of",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "星期二晚上十一点，方案终于做完了，大家累得站都站不起来。",
+   "py": "xīng qī èr wǎn shang shí yì diǎn, fāng àn zhōng yú zuò wán le, dà jiā lèi de zhàn dōu zhàn bù qǐ lái.",
+   "en": "At eleven on Tuesday night, the proposal is finally finished. Everyone is too tired to even stand up.",
+   "tr": {
+    "am": "ማክሰኞ ምሽት 11:00 ላይ ፕሮፖዛሉ በመጨረሻ ተጠናቀቀ፣ ሁሉም ደክመው መቆም እንኳ አቃታቸው።",
+    "fa": "ساعت یازده شب سه‌شنبه، پیشنهاد بالاخره تموم می‌شه. همه اون‌قدر خسته‌ان که حتی نمی‌تونن بلند شن."
+   },
+   "start": 50.312,
+   "end": 56.744,
+   "tokens": [
+    [
+     "星期二",
+     "xīng qī èr",
+     "Tuesday",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; night; in the evening",
+     ""
+    ],
+    [
+     "十一",
+     "shí yī",
+     "eleven; 11; PRC National Day (October 1st)",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "方案",
+     "fāng àn",
+     "proposal; plan; program (for action etc)",
+     ""
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "finally; eventually; at last",
+     ""
+    ],
+    [
+     "做完",
+     "zuò wán",
+     "to finish; to complete the task",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "累",
+     "lèi",
+     "tired; weary; to strain",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "(used for emphasis) even; all; both; entirely; already",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨笑着说：“我们终于做到了！”",
+   "py": "Xiǎo yǔ xiào zhe shuō: “wǒ men zhōng yú zuò dào le!”",
+   "en": "Xiaoyu smiles. \"We've actually done it!\"",
+   "tr": {
+    "am": "ሺያውዩ ፈገግ ብላ አለች፦ «በመጨረሻ ተሳካልን!»",
+    "fa": "شیائویو می‌خنده: «واقعاً تمومش کردیم!»"
+   },
+   "start": 57.444,
+   "end": 61.236,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "at last; in the end; finally",
+     ""
+    ],
+    [
+     "做到",
+     "zuò dào",
+     "to accomplish; to achieve",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "星期三早上九点，周经理准时把方案发给了客户。",
+   "py": "xīng qī sān zǎo shang jiǔ diǎn, Zhōu jīng lǐ zhǔn shí bǎ fāng àn fā gěi le kè hù.",
+   "en": "At nine on Wednesday morning, Manager Zhou sends the proposal to the client right on time.",
+   "tr": {
+    "am": "ረቡዕ ጠዋት 9:00 ላይ ሥራ አስኪያጅ ጆው ፕሮፖዛሉን በሰዓቱ ለደንበኛው ላከች።",
+    "fa": "چهارشنبه ساعت نه صبح، مدیر جو پیشنهاد رو دقیقاً به‌موقع برای مشتری می‌فرسته."
+   },
+   "start": 61.936,
+   "end": 67.408,
+   "tokens": [
+    [
+     "星期三",
+     "xīng qī sān",
+     "Wednesday",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "九",
+     "jiǔ",
+     "nine; 9",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "point in time or space; classifier for small amounts",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "准时",
+     "zhǔn shí",
+     "on time; punctual; on schedule",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "方案",
+     "fāng àn",
+     "proposal; plan; program (for action etc)",
+     ""
+    ],
+    [
+     "发给",
+     "fā gěi",
+     "to issue; to grant; to distribute",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "十分钟以后，客户回了电话。",
+   "py": "shí fēn zhōng yǐ hòu, kè hù huí le diàn huà.",
+   "en": "Ten minutes later, the client calls back.",
+   "tr": {
+    "am": "ከአሥር ደቂቃ በኋላ ደንበኛው መልሶ ደወለ።",
+    "fa": "ده دقیقه بعد، مشتری زنگ می‌زنه."
+   },
+   "start": 68.108,
+   "end": 71.252,
+   "tokens": [
+    [
+     "十分",
+     "shí fēn",
+     "to divide into ten equal parts; very; completely",
+     ""
+    ],
+    [
+     "钟",
+     "zhōng",
+     "handleless cup; goblet",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "phone call; telephone; phone number",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“周经理，真不好意思。我们老板下个星期才回来，方案可以推迟到下周五再交。”",
+   "py": "“Zhōu jīng lǐ, zhēn bù hǎo yì sī. wǒ men lǎo bǎn xià gè xīng qī cái huí lái, fāng àn kě yǐ tuī chí dào xià zhōu wǔ zài jiāo.”",
+   "en": "\"Manager Zhou, I'm so sorry. Our boss won't be back until next week, so the proposal can wait until next Friday.\"",
+   "tr": {
+    "am": "«ሥራ አስኪያጅ ጆው፣ በጣም ይቅርታ። አለቃችን የሚመለሱት በሚቀጥለው ሳምንት ነው፣ ፕሮፖዛሉን እስከሚቀጥለው ዓርብ ማዘግየት ይቻላል።»",
+    "fa": "«مدیر جو، واقعاً ببخشید. رئیس ما تا هفته‌ی بعد برنمی‌گرده، پس پیشنهاد می‌تونه تا جمعه‌ی بعد صبر کنه.»"
+   },
+   "start": 71.952,
+   "end": 80.472,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "周",
+     "zhōu",
+     "week; weekly; Zhou Dynasty (1046–256 BC)",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "真",
+     "zhēn",
+     "really; truly; indeed",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to be sorry (for inconveniencing sb); to feel embarrassed",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "下个星期",
+     "xià gè xīng qī",
+     "next week",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "ability; talent; sb of a certain type; a capable individual",
+     ""
+    ],
+    [
+     "回来",
+     "huí lai",
+     "to return; to come back",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "方案",
+     "fāng àn",
+     "proposal; plan; program (for action etc)",
+     ""
+    ],
+    [
+     "可以",
+     "kě yǐ",
+     "can; may; possible",
+     ""
+    ],
+    [
+     "推迟",
+     "tuī chí",
+     "to postpone; to put off; to defer",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to (a place); until (a time); up to (a point)",
+     ""
+    ],
+    [
+     "下周",
+     "xià zhōu",
+     "next week",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "then (after sth, and not until then); again; once more; re-",
+     ""
+    ],
+    [
+     "交",
+     "jiāo",
+     "to hand over; to deliver; to pay (money); to turn over",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "周经理放下电话，看了看大家红红的眼睛，半天没说话。",
+   "py": "Zhōu jīng lǐ fàng xià diàn huà, kàn le kàn dà jiā hóng hóng de yǎn jing, bàn tiān méi shuō huà.",
+   "en": "Manager Zhou puts down the phone and looks at everyone's red eyes. For a long time she says nothing.",
+   "tr": {
+    "am": "ሥራ አስኪያጅ ጆው ስልኩን አስቀመጠች፣ የሁሉንም የቀሉ ዓይኖች አየች፣ ለረጅም ጊዜ ምንም አልተናገረችም።",
+    "fa": "مدیر جو گوشی رو می‌ذاره و به چشم‌های سرخ همه نگاه می‌کنه. مدت‌ها هیچی نمی‌گه."
+   },
+   "start": 81.172,
+   "end": 87.148,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "放下",
+     "fàng xià",
+     "to lay down; to put down",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "phone call; phone number; telephone",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "眼睛",
+     "yǎn jing",
+     "eye",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "a long time; half of the day; quite a while",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "说话",
+     "shuō huà",
+     "to speak; to say; to talk",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克小声问：“那……我们这两天是白忙了吗？”",
+   "py": "Jié kè xiǎo shēng wèn: “nà…… wǒ men zhè liǎng tiān shì bái máng le ma?”",
+   "en": "Jack asks quietly, \"So... were these two days for nothing?\"",
+   "tr": {
+    "am": "ጃክ በዝግታ ጠየቀ፦ «ታዲያ… እነዚህን ሁለት ቀናት በከንቱ ደከምን?»",
+    "fa": "جک آروم می‌پرسه: «پس... این دو روز بیهوده بود؟»"
+   },
+   "start": 87.848,
+   "end": 93.296,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "小声",
+     "xiǎo shēng",
+     "in a low voice; (speak) in whispers",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "白",
+     "bái",
+     "white; in vain; free of charge",
+     ""
+    ],
+    [
+     "忙",
+     "máng",
+     "busy; hurriedly; to hurry",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "周经理突然笑了：“没白忙。方案已经交了，下个星期就没事了。”",
+   "py": "Zhōu jīng lǐ tū rán xiào le: “méi bái máng. fāng àn yǐ jīng jiāo le, xià gè xīng qī jiù méi shì le.”",
+   "en": "Manager Zhou suddenly laughs. \"Not for nothing. The proposal's in, so next week there's nothing left to do on it.\"",
+   "tr": {
+    "am": "ሥራ አስኪያጅ ጆው ድንገት ሳቀች፦ «በከንቱ አይደለም። ፕሮፖዛሉ ተልኳል፣ በሚቀጥለው ሳምንት ምንም ሥራ አይኖርም።»",
+    "fa": "مدیر جو یهو می‌خنده: «بیهوده نبود. پیشنهاد تحویل شده، پس هفته‌ی بعد دیگه کاری روش نمونده.»"
+   },
+   "start": 93.996,
+   "end": 101.076,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "week; weekly; Zhou Dynasty (1046–256 BC)",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "突然",
+     "tū rán",
+     "sudden; abrupt; unexpected",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "白",
+     "bái",
+     "white; in vain; free of charge",
+     ""
+    ],
+    [
+     "忙",
+     "máng",
+     "busy; hurriedly; to hurry",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "方案",
+     "fāng àn",
+     "proposal; plan; program (for action etc)",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "交",
+     "jiāo",
+     "to hand over; to deliver; to pay (money); to turn over",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "下个星期",
+     "xià gè xīng qī",
+     "next week",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "没事",
+     "méi shì",
+     "it's nothing; to have nothing to do; it's not important",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“从今天下午开始，大家回家休息，星期四、星期五也算调休，不用来了。”",
+   "py": "“cóng jīn tiān xià wǔ kāi shǐ, dà jiā huí jiā xiū xi, xīng qī sì, xīng qī wǔ yě suàn diào xiū, bú yòng lái le.”",
+   "en": "\"From this afternoon, everyone go home and rest. Thursday and Friday count as time off in lieu, so don't come in.\"",
+   "tr": {
+    "am": "«ከዛሬ ከሰዓት ጀምሮ ሁላችሁም ቤት ሄዳችሁ አርፉ። ሐሙስና ዓርብም እንደ ማካካሻ ዕረፍት ይቆጠራል፣ መምጣት አያስፈልግም።»",
+    "fa": "«از همین بعدازظهر، همه برید خونه استراحت کنید. پنجشنبه و جمعه حساب مرخصی جایگزین می‌شن، پس نیاید سر کار.»"
+   },
+   "start": 101.776,
+   "end": 108.88,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "从",
+     "cóng",
+     "(used before a negative) ever; from; through; via",
+     ""
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "the present time; now; today",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "休息",
+     "xiū xi",
+     "rest; to rest",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "星期四",
+     "xīng qī sì",
+     "Thursday",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "星期五",
+     "xīng qī wǔ",
+     "Friday",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+     ""
+    ],
+    [
+     "算",
+     "suàn",
+     "to include; to count in",
+     ""
+    ],
+    [
+     "调休",
+     "tiáo xiū",
+     "to compensate for working on a holiday by resting on a workday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不用",
+     "bù yòng",
+     "need not",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; ever since (as in 自古以来)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "办公室里一下子热闹起来，大家都忘了累。",
+   "py": "bàn gōng shì lǐ yí xià zi rè nao qǐ lái, dà jiā dōu wàng le lèi.",
+   "en": "The office comes alive at once, and everyone forgets how tired they are.",
+   "tr": {
+    "am": "ቢሮው በአንድ ጊዜ ደመቀ፣ ሁሉም ድካማቸውን ረሱ።",
+    "fa": "دفتر همون دم جون می‌گیره و همه یادشون می‌ره چقدر خسته‌ان."
+   },
+   "start": 109.58,
+   "end": 113.852,
+   "tokens": [
+    [
+     "办公室",
+     "bàn gōng shì",
+     "office; business premises",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "once; one time; all at once; all of a sudden",
+     ""
+    ],
+    [
+     "热闹",
+     "rè nao",
+     "bustling with noise and excitement; lively",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "忘",
+     "wàng",
+     "to forget; to overlook; to neglect",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "累",
+     "lèi",
+     "tired; weary; to strain",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "走出大楼的时候，杰克说：“我第一次希望客户每个星期都提前。”",
+   "py": "zǒu chū dà lóu de shí hou, Jié kè shuō: “wǒ dì yī cì xī wàng kè hù měi gè xīng qī dōu tí qián.”",
+   "en": "As they leave the building, Jack says, \"For the first time ever, I wish clients would bring things forward every week.\"",
+   "tr": {
+    "am": "ከሕንፃው ሲወጡ ጃክ አለ፦ «ደንበኞች በየሳምንቱ ቀኑን እንዲያቀድሙ ስመኝ ይህ የመጀመሪያዬ ነው።»",
+    "fa": "وقتی دارن ساختمون رو ترک می‌کنن، جک می‌گه: «برای اولین بار در عمرم، کاش مشتری‌ها هر هفته کارها رو جلو می‌نداختن.»"
+   },
+   "start": 114.552,
+   "end": 121.44,
+   "tokens": [
+    [
+     "走出",
+     "zǒu chū",
+     "to leave (a room etc); to go out through (a door etc)",
+     ""
+    ],
+    [
+     "大楼",
+     "dà lóu",
+     "building (a relatively large, multistory one)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "第一次",
+     "dì yī cì",
+     "the first time; for the first time",
+     ""
+    ],
+    [
+     "希望",
+     "xī wàng",
+     "a hope; a wish; to hope",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "每个",
+     "měi gè",
+     "each; every",
+     ""
+    ],
+    [
+     "星期",
+     "xīng qī",
+     "week; day of the week; Sunday",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "提前",
+     "tí qián",
+     "to do sth ahead of time; to shift to an earlier date",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 385,
+ "first": "星期一下午，客户突然打来电话：原来说好星期五交的方案，要提前到星期三。",
+ "newWords": [
+  {
+   "w": "提前",
+   "py": "tíqián",
+   "en": "ahead of time"
+  },
+  {
+   "w": "分工",
+   "py": "fēn gōng",
+   "en": "to divide up the work"
+  },
+  {
+   "w": "抓紧",
+   "py": "zhuājǐn",
+   "en": "to act urgently and firmly"
+  },
+  {
+   "w": "进度",
+   "py": "jìn dù",
+   "en": "rate of progress"
+  },
+  {
+   "w": "推迟",
+   "py": "tuīchí",
+   "en": "to postpone"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h4-54.mp3?v=1791721917"
 }

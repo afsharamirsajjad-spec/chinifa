@@ -1,2288 +1,2307 @@
 {
-  "id": "h5-04",
-  "level": 5,
-  "no": 4,
-  "title": "碗不能空着还",
-  "title_py": "wǎn bù néng kōng zhe hái",
-  "title_en": "Never return an empty bowl",
-  "title_tr": {
-    "am": "ሳህን ባዶውን አይመለስም",
-    "fa": "کاسه همسایه را هرگز خالی پس نده!"
+ "id": "h5-04",
+ "level": 5,
+ "no": 4,
+ "title": "碗不能空着还",
+ "title_py": "wǎn bù néng kōng zhe hái",
+ "title_en": "Never return an empty bowl",
+ "title_tr": {
+  "am": "ሳህን ባዶውን አይመለስም",
+  "fa": "کاسه همسایه را هرگز خالی پس نده!"
+ },
+ "topic": "daily",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h5-04.jpg",
+ "duration": 132.68,
+ "lines": [
+  {
+   "text": "安娜刚搬了家，没想到隔壁住的正好是刘爷爷。",
+   "py": "Ān nà gāng bān le jiā, méi xiǎng dào gé bì zhù de zhèng hǎo shì Liú yé ye.",
+   "en": "Anna has just moved, and to her surprise, her new next-door neighbour is Grandpa Liu.",
+   "tr": {
+    "am": "አና ገና ቤት ቀይራለች፣ ሳታስበው የጎረቤቷ ቤት የአያት ሊዩ ሆኖ አገኘችው።",
+    "fa": "آنا تازه اسباب‌کشی کرده و با تعجب می‌بینه همسایه‌ی جدید کنارش پدربزرگ لیوئه."
+   },
+   "start": 2.884,
+   "end": 8.092,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "刚",
+     "gāng",
+     "barely; only just; just; only a short while ago",
+     ""
+    ],
+    [
+     "搬",
+     "bān",
+     "to move (i.e. relocate oneself)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "没想到",
+     "méi xiǎng dào",
+     "didn't expect",
+     ""
+    ],
+    [
+     "隔壁",
+     "gé bì",
+     "next door; neighbor",
+     ""
+    ],
+    [
+     "住",
+     "zhù",
+     "to live; to reside; to stay; to stop; to cease",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "正好",
+     "zhèng hǎo",
+     "just (in time); just right; just enough",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "daily",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h5-04.jpg",
-  "duration": 132.68,
-  "lines": [
-    {
-      "text": "安娜刚搬了家，没想到隔壁住的正好是刘爷爷。",
-      "py": "Ān nà gāng bān le jiā, méi xiǎng dào gé bì zhù de zhèng hǎo shì Liú yé ye.",
-      "en": "Anna has just moved, and to her surprise, her new next-door neighbour is Grandpa Liu.",
-      "tr": {
-        "am": "አና ገና ቤት ቀይራለች፣ ሳታስበው የጎረቤቷ ቤት የአያት ሊዩ ሆኖ አገኘችው።"
-      },
-      "start": 2.884,
-      "end": 8.092,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "刚",
-          "gāng",
-          "barely; only just; just; only a short while ago",
-          ""
-        ],
-        [
-          "搬",
-          "bān",
-          "to move (i.e. relocate oneself)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "没想到",
-          "méi xiǎng dào",
-          "didn't expect",
-          ""
-        ],
-        [
-          "隔壁",
-          "gé bì",
-          "next door; neighbor",
-          ""
-        ],
-        [
-          "住",
-          "zhù",
-          "to live; to reside; to stay; to stop; to cease",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "正好",
-          "zhèng hǎo",
-          "just (in time); just right; just enough",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "搬家的第二天，刘爷爷就端来一大碗饺子：“刚包的，趁热吃。”",
-      "py": "bān jiā de dì èr tiān, Liú yé ye jiù duān lái yí dà wǎn jiǎo zi: “gāng bāo de, chèn rè chī.”",
-      "en": "The day after she moves in, Grandpa Liu brings round a big bowl of dumplings. \"Freshly made. Eat them while they're hot.\"",
-      "tr": {
-        "am": "በገባች በሁለተኛው ቀን አያት ሊዩ አንድ ትልቅ ሳህን ዱምፕሊንግ ይዞ መጣ፦ «አሁን የተሠራ ነው፣ ትኩስ እያለ ብዪ።»"
-      },
-      "start": 8.792,
-      "end": 15.44,
-      "tokens": [
-        [
-          "搬家",
-          "bān jiā",
-          "to move house; to relocate; to remove (sth)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "端",
-          "duān",
-          "(bound form) tip; end; extremity; (bound form) aspect; facet",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "(after a round number) approximately",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "刚",
-          "gāng",
-          "just; only a short while ago; (literary) hard; firm; strong",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "to cover; to wrap; to hold",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "趁热",
-          "chèn rè",
-          "while it's still hot",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "饺子是白菜猪肉馅儿的，安娜一口气吃了二十个。",
-      "py": "jiǎo zi shì bái cài zhū ròu xiàn r de, Ān nà yì kǒu qì chī le èr shí gè.",
-      "en": "They're filled with pork and Chinese cabbage, and Anna eats twenty in one go.",
-      "tr": {
-        "am": "ዱምፕሊንጉ በጎመንና በአሳማ ሥጋ የተሞላ ነበር፣ አና በአንድ ጊዜ ሃያ በላች።"
-      },
-      "start": 16.14,
-      "end": 21.132,
-      "tokens": [
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "白菜",
-          "bái cài",
-          "Chinese cabbage, esp. napa cabbage (Brassica rapa subsp. pekinensis)",
-          ""
-        ],
-        [
-          "猪肉",
-          "zhū ròu",
-          "pork",
-          ""
-        ],
-        [
-          "馅儿",
-          "xiàn r",
-          "filling inside dumplings or pastries",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "一口气",
-          "yī kǒu qì",
-          "one breath; in one breath; at a stretch",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "二十",
-          "èr shí",
-          "twenty; 20",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "吃完以后，她把碗洗得干干净净，第二天就给刘爷爷送了回去。",
-      "py": "chī wán yǐ hòu, tā bǎ wǎn xǐ de gān gān jìng jìng, dì èr tiān jiù gěi Liú yé ye sòng le huí qù.",
-      "en": "When she's finished, she washes the bowl until it's spotless and takes it back to Grandpa Liu the next day.",
-      "tr": {
-        "am": "ከበላች በኋላ ሳህኑን ጥርት አድርጋ አጠበችና በማግሥቱ ለአያት ሊዩ መለሰችለት።"
-      },
-      "start": 21.832,
-      "end": 28.48,
-      "tokens": [
-        [
-          "吃完",
-          "chī wán",
-          "to finish eating",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "洗",
-          "xǐ",
-          "to wash; to bathe; to develop (photographs)",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "干",
-          "gān",
-          "dry; dried food; empty; hollow",
-          ""
-        ],
-        [
-          "干净",
-          "gān jìng",
-          "clean; neat",
-          ""
-        ],
-        [
-          "净",
-          "jìng",
-          "clean; completely; only",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "回去",
-          "huí qu",
-          "to go back; to return",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷接过空碗，笑了笑，好像想说什么，最后又没说。",
-      "py": "Liú yé ye jiē guò kōng wǎn, xiào le xiào, hǎo xiàng xiǎng shuō shén me, zuì hòu yòu méi shuō.",
-      "en": "Grandpa Liu takes the empty bowl and smiles, as if he wants to say something, but in the end he doesn't.",
-      "tr": {
-        "am": "አያት ሊዩ ባዶውን ሳህን ተቀብሎ ፈገግ አለ፣ የሆነ ነገር ሊል የፈለገ ይመስል ነበር፣ በመጨረሻ ግን ምንም አላለም።"
-      },
-      "start": 29.18,
-      "end": 35.588,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "接过",
-          "jiē guò",
-          "to take (sth proffered)",
-          ""
-        ],
-        [
-          "空",
-          "kōng",
-          "empty; air; sky",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "好像",
-          "hǎo xiàng",
-          "as if; to seem like",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "something; anything; what?",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "最后",
-          "zuì hòu",
-          "finally; in the end; final; last; ultimate",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "晚上，安娜给小雨打电话，说起了这件事。",
-      "py": "wǎn shang, Ān nà gěi Xiǎo yǔ dǎ diàn huà, shuō qǐ le zhè jiàn shì.",
-      "en": "That evening, Anna phones Xiaoyu and tells her about it.",
-      "tr": {
-        "am": "ምሽት ላይ አና ለሺያውዩ ደውላ ይህን ነገረቻት።"
-      },
-      "start": 36.288,
-      "end": 41.04,
-      "tokens": [
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "说起",
-          "shuō qǐ",
-          "to mention; to bring up (a subject); with regard to",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "matter; thing; item",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨一听就笑了：“很多地方都有个讲究：别人用碗给你送吃的，碗不能空着还回去。”",
-      "py": "Xiǎo yǔ yì tīng jiù xiào le: “hěn duō dì fang dōu yǒu gè jiǎng jiu: bié ren yòng wǎn gěi nǐ sòng chī de, wǎn bù néng kōng zhe hái huí qù.”",
-      "en": "Xiaoyu laughs as soon as she hears. \"In lots of places there's a custom: if someone brings you food in a bowl, you don't give the bowl back empty.\"",
-      "tr": {
-        "am": "ሺያውዩ እንደሰማች ሳቀች፦ «በብዙ ቦታዎች አንድ ልማድ አለ፦ ሌላ ሰው በሳህን ምግብ ካመጣልሽ ሳህኑን ባዶውን አትመልሺም።»"
-      },
-      "start": 41.74,
-      "end": 50.5,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "as soon as; one; single",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; classifier for canned beverages",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a clause of action) as soon as; immediately after",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "地方",
-          "dì fang",
-          "place; location; area; space; territory; aspect; part",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "讲究",
-          "jiǎng jiu",
-          "to pay particular attention to",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "别人",
-          "bié ren",
-          "other people; others; other person",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "(literary) hence; therefore",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to give; to; for",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to give (as a present); to send; to deliver; to transmit",
-          ""
-        ],
-        [
-          "吃的",
-          "chī de",
-          "(coll.) food",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "空",
-          "kōng",
-          "empty; air; sky",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "回去",
-          "huí qu",
-          "to go back; to return",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“那我应该放什么？”",
-      "py": "“nà wǒ yīng gāi fàng shén me?”",
-      "en": "\"So what should I put in it?\"",
-      "tr": {
-        "am": "«ታዲያ ምን ላስገባበት?»"
-      },
-      "start": 51.2,
-      "end": 53.576,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "应该",
-          "yīng gāi",
-          "ought to; should; must",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“放什么都行，水果、点心都可以，你自己做的东西最好。”",
-      "py": "“fàng shén me dōu xíng, shuǐ guǒ, diǎn xin dōu kě yǐ, nǐ zì jǐ zuò de dōng xi zuì hǎo.”",
-      "en": "\"Anything. Fruit, snacks, whatever. Something you've made yourself is best.\"",
-      "tr": {
-        "am": "«ምንም ቢሆን ይቻላል፣ ፍራፍሬም ሆነ መክሰስ። ራስሽ የሠራሽው ነገር ከሁሉም ይሻላል።»"
-      },
-      "start": 54.276,
-      "end": 60.444,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "行",
-          "xíng",
-          "(bound form) to walk; to go; to travel",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "水果",
-          "shuǐ guǒ",
-          "fruit",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "点心",
-          "diǎn xin",
-          "light refreshments; pastry; dim sum (in Cantonese cooking)",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "可以",
-          "kě yǐ",
-          "can; may; possible",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "最好",
-          "zuì hǎo",
-          "best; had better ...; it would be best to ...",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜这才明白刘爷爷那天为什么是那个表情，脸一下子红了。",
-      "py": "Ān nà zhè cái míng bai Liú yé ye nà tiān wèi shén me shì nà ge biǎo qíng, liǎn yí xià zi hóng le.",
-      "en": "Only then does Anna understand the look on Grandpa Liu's face, and she goes bright red.",
-      "tr": {
-        "am": "አና ያን ቀን አያት ሊዩ ለምን እንደዚያ ፊት እንዳሳየ ያኔ ገባት፣ ፊቷም ድንገት ቀላ።"
-      },
-      "start": 61.144,
-      "end": 67.096,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "then and only then; (before an expression of quantity) only",
-          ""
-        ],
-        [
-          "明白",
-          "míng bai",
-          "to understand; to realize; clear; obvious; unequivocal",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "为什么",
-          "wèi shén me",
-          "why?; for what reason?",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "那个",
-          "nà ge",
-          "that one; that thing; that (as opposed to this)",
-          ""
-        ],
-        [
-          "表情",
-          "biǎo qíng",
-          "(facial) expression; to express one's feelings",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "脸",
-          "liǎn",
-          "face",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "once; one time; (following a verb) for a moment; briefly",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "过了几天，刘爷爷又送来一碗包子，这次安娜还碗的时候，在里面装满了自己烤的饼干。",
-      "py": "guò le jǐ tiān, Liú yé ye yòu sòng lái yì wǎn bāo zi, zhè cì Ān nà hái wǎn de shí hou, zài lǐ miàn zhuāng mǎn le zì jǐ kǎo de bǐng gān.",
-      "en": "A few days later, Grandpa Liu brings round a bowl of steamed buns. This time, when Anna returns the bowl, she fills it with biscuits she's baked herself.",
-      "tr": {
-        "am": "ከጥቂት ቀናት በኋላ አያት ሊዩ እንደገና አንድ ሳህን የእንፋሎት ዳቦ አመጣ፣ በዚህ ጊዜ አና ሳህኑን ስትመልስ ራሷ በጋገረችው ብስኩት ሞላችው።"
-      },
-      "start": 67.796,
-      "end": 76.556,
-      "tokens": [
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "几天",
-          "jǐ tiān",
-          "several days",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "for the past (amount of time)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "包子",
-          "bāo zi",
-          "baozi; bao (steamed stuffed bun)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "次",
-          "cì",
-          "classifier for enumerated events: time",
-          ""
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "里面",
-          "lǐ miàn",
-          "inside; interior; also pr.",
-          ""
-        ],
-        [
-          "装满",
-          "zhuāng mǎn",
-          "to fill up",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "烤",
-          "kǎo",
-          "to roast; to grill; to broil; to bake; to toast (bread)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "饼干",
-          "bǐng gān",
-          "biscuit; cracker; cookie",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "第二天，碗又回来了，里面是刘爷爷做的红烧肉。",
-      "py": "dì èr tiān, wǎn yòu huí lái le, lǐ miàn shì Liú yé ye zuò de hóng shāo ròu.",
-      "en": "The next day, the bowl comes back again, this time with Grandpa Liu's braised pork in it.",
-      "tr": {
-        "am": "በማግሥቱ ሳህኑ እንደገና ተመለሰ፣ ውስጡም አያት ሊዩ የሠራው የአሳማ ወጥ ነበር።"
-      },
-      "start": 77.256,
-      "end": 82.464,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "回来",
-          "huí lai",
-          "to return; to come back",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "里面",
-          "lǐ miàn",
-          "inside; interior; also pr.",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "红烧肉",
-          "hóng shāo ròu",
-          "red braised pork",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜不能让碗空着回去，就烤了一个苹果派放了进去。",
-      "py": "Ān nà bù néng ràng wǎn kōng zhe huí qù, jiù kǎo le yí gè píng guǒ pài fàng le jìn qù.",
-      "en": "Anna can't send the bowl back empty, so she bakes an apple pie and puts it inside.",
-      "tr": {
-        "am": "አና ሳህኑን ባዶውን መመለስ ስላልቻለች የአፕል ፓይ ጋግራ አስገባችበት።"
-      },
-      "start": 83.164,
-      "end": 88.66,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "让",
-          "ràng",
-          "to yield; to permit; to let sb do sth",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "空",
-          "kōng",
-          "empty; air; sky",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "回去",
-          "huí qu",
-          "to go back; to return",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "烤",
-          "kǎo",
-          "to roast; to grill; to broil; to bake; to toast (bread)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "苹果派",
-          "píng guǒ pài",
-          "apple pie",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "进去",
-          "jìn qù",
-          "to go in",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷收到苹果派，马上又盛了一碗炸酱面送了过来。",
-      "py": "Liú yé ye shōu dào píng guǒ pài, mǎ shàng yòu shèng le yì wǎn zhá jiàng miàn sòng le guò lái.",
-      "en": "Grandpa Liu gets the apple pie and straight away sends over a bowl of noodles with soybean sauce.",
-      "tr": {
-        "am": "አያት ሊዩ የአፕል ፓዩን ተቀብሎ ወዲያው አንድ ሳህን የአኩሪ አተር ስጎ ያለበት ኑድል ላከላት።"
-      },
-      "start": 89.36,
-      "end": 94.832,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "收到",
-          "shōu dào",
-          "to receive",
-          ""
-        ],
-        [
-          "苹果派",
-          "píng guǒ pài",
-          "apple pie",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "right away; at once; immediately",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "盛",
-          "chéng",
-          "to hold; to contain; to ladle",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "炸酱面",
-          "zhá jiàng miàn",
-          "zhajiang mian, thick wheat noodles served with ground pork simmered in salty fermented soybean paste (or other sauce)",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "过来",
-          "guò lái",
-          "to come over; to manage; to handle",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "就这样，这个蓝色的大碗在两家之间走来走去，一个月都没停过。",
-      "py": "jiù zhè yàng, zhè ge lán sè de dà wǎn zài liǎng jiā zhī jiān zǒu lái zǒu qù, yí gè yuè dōu méi tíng guò.",
-      "en": "And so the big blue bowl goes back and forth between the two flats, and for a whole month it never stops.",
-      "tr": {
-        "am": "እንዲህ እያለ ይህ ሰማያዊ ትልቅ ሳህን በሁለቱ ቤቶች መካከል ይመላለስ ጀመር፣ ለአንድ ወር ሙሉ አላቆመም።"
-      },
-      "start": 95.532,
-      "end": 102.18,
-      "tokens": [
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "这样",
-          "zhè yàng",
-          "this way; like this; so; (before a noun) this kind of; such",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "蓝色",
-          "lán sè",
-          "blue (color)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "classifier for families or businesses; home; family",
-          ""
-        ],
-        [
-          "之间",
-          "zhī jiān",
-          "(after a noun) between; among; amid",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "(between two verbs) in order to; to come",
-          ""
-        ],
-        [
-          "走去",
-          "zǒu qù",
-          "to walk over (to)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "停",
-          "tíng",
-          "to stop; to halt; to park (a car)",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜做饭的水平越来越高，胃口也越来越大，裤子都有点儿紧了。",
-      "py": "Ān nà zuò fàn de shuǐ píng yuè lái yuè gāo, wèi kǒu yě yuè lái yuè dà, kù zi dōu yǒu diǎn r jǐn le.",
-      "en": "Anna's cooking gets better and better, her appetite gets bigger and bigger, and her trousers start to feel a bit tight.",
-      "tr": {
-        "am": "የአና የምግብ አሠራር ችሎታ እየጨመረ፣ የምግብ ፍላጎቷም እየጨመረ ሄደ፣ ሱሪዋም ትንሽ ጠበባት።"
-      },
-      "start": 102.88,
-      "end": 109.288,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "做饭",
-          "zuò fàn",
-          "to cook; to prepare a meal",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "水平",
-          "shuǐ píng",
-          "horizontal; level",
-          ""
-        ],
-        [
-          "越来越",
-          "yuè lái yuè",
-          "more and more",
-          ""
-        ],
-        [
-          "高",
-          "gāo",
-          "high; tall; above average",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "胃口",
-          "wèi kǒu",
-          "appetite; liking",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "越来越",
-          "yuè lái yuè",
-          "more and more",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "裤子",
-          "kù zi",
-          "trousers; pants",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "有点儿",
-          "yǒu diǎn r",
-          "slightly; a little; somewhat",
-          ""
-        ],
-        [
-          "紧",
-          "jǐn",
-          "tight; to tighten; strict",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "有一天，她端着一碗刚做好的土豆汤去敲门，忍不住问：“刘爷爷，这个碗我们是不是永远都还不完了？”",
-      "py": "yǒu yì tiān, tā duān zhe yì wǎn gāng zuò hǎo de tǔ dòu tāng qù qiāo mén, rěn bu zhù wèn: “Liú yé ye, zhè ge wǎn wǒ men shì bú shì yǒng yuǎn dōu hái bù wán le?”",
-      "en": "One day, carrying a bowl of potato soup she's just made, she knocks on his door and can't help asking, \"Grandpa Liu, are we ever going to finish returning this bowl?\"",
-      "tr": {
-        "am": "አንድ ቀን አሁን የሠራችውን የድንች ሾርባ በሳህን ይዛ በሩን አንኳኳች፣ መጠየቅም አላስቻላትም፦ «አያት ሊዩ፣ ይህን ሳህን መመለስ ፈጽሞ አንጨርስም እንዴ?»"
-      },
-      "start": 109.988,
-      "end": 120.86,
-      "tokens": [
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "端",
-          "duān",
-          "to hold sth level with both hands; to carry",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "刚",
-          "gāng",
-          "barely; only just; just; only a short while ago",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "土豆",
-          "tǔ dòu",
-          "potato; (Tw) peanut",
-          ""
-        ],
-        [
-          "汤",
-          "tāng",
-          "soup; hot or boiling water; decoction of medicinal herbs",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "just passed; to go; to go to (a place)",
-          ""
-        ],
-        [
-          "敲门",
-          "qiāo mén",
-          "to knock on a door",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "忍不住",
-          "rěn bu zhù",
-          "cannot help; unable to bear",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "是不是",
-          "shì bu shì",
-          "is or is not (used to form yes-no questions)",
-          ""
-        ],
-        [
-          "永远",
-          "yǒng yuǎn",
-          "forever; eternal",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "完了",
-          "wán le",
-          "to be finished; to be done for; ruined",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷接过汤，笑眯眯地说：“还不完才好呢。”",
-      "py": "Liú yé ye jiē guò tāng, xiào mī mī de shuō: “hái bù wán cái hǎo ne.”",
-      "en": "Grandpa Liu takes the soup and beams. \"It's better if we never do.\"",
-      "tr": {
-        "am": "አያት ሊዩ ሾርባውን ተቀብሎ ፈገግ እያለ አለ፦ «ባንጨርሰው ነው የሚሻለው።»"
-      },
-      "start": 121.56,
-      "end": 127.008,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "接过",
-          "jiē guò",
-          "to take (sth proffered)",
-          ""
-        ],
-        [
-          "汤",
-          "tāng",
-          "soup; hot or boiling water; decoction of medicinal herbs",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "笑眯眯",
-          "xiào mī mī",
-          "beaming; all smiles",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "ability; talent; sb of a certain type; a capable individual",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "呢",
-          "ne",
-          "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“碗一直在走，说明咱们两家一直有来往。”",
-      "py": "“wǎn yì zhí zài zǒu, shuō míng zán men liǎng jiā yì zhí yǒu lái wǎng.”",
-      "en": "\"As long as the bowl keeps travelling, it means our two homes keep in touch.\"",
-      "tr": {
-        "am": "«ሳህኑ እስከተመላለሰ ድረስ ሁለቱ ቤቶቻችን ሁልጊዜ እየተገናኙ ነው ማለት ነው።»"
-      },
-      "start": 127.708,
-      "end": 131.98,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "说明",
-          "shuō míng",
-          "to explain; to illustrate; to indicate",
-          ""
-        ],
-        [
-          "咱们",
-          "zán men",
-          "we or us (including both the speaker and the person(s) spoken to)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; classifier for families or businesses; family",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "来往",
-          "lái wǎng",
-          "to come and go; to have dealings with",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 433,
-  "first": "安娜刚搬了家，没想到隔壁住的正好是刘爷爷。",
-  "newWords": [
-    {
-      "w": "隔壁",
-      "py": "gébì",
-      "en": "the house or room next door"
-    },
-    {
-      "w": "趁",
-      "py": "chèn",
-      "en": "to use an opportunity wisely"
-    },
-    {
-      "w": "讲究",
-      "py": "jiǎngjiu",
-      "en": "to care deeply about quality"
-    },
-    {
-      "w": "胃口",
-      "py": "wèikǒu",
-      "en": "the desire to eat food"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h5-04.mp3?v=1791720655"
+  {
+   "text": "搬家的第二天，刘爷爷就端来一大碗饺子：“刚包的，趁热吃。”",
+   "py": "bān jiā de dì èr tiān, Liú yé ye jiù duān lái yí dà wǎn jiǎo zi: “gāng bāo de, chèn rè chī.”",
+   "en": "The day after she moves in, Grandpa Liu brings round a big bowl of dumplings. \"Freshly made. Eat them while they're hot.\"",
+   "tr": {
+    "am": "በገባች በሁለተኛው ቀን አያት ሊዩ አንድ ትልቅ ሳህን ዱምፕሊንግ ይዞ መጣ፦ «አሁን የተሠራ ነው፣ ትኩስ እያለ ብዪ።»",
+    "fa": "روز بعد از اسباب‌کشی، پدربزرگ لیو یه کاسه بزرگ راویولی میاره: «تازه درست شده. داغ بخورشون.»"
+   },
+   "start": 8.792,
+   "end": 15.44,
+   "tokens": [
+    [
+     "搬家",
+     "bān jiā",
+     "to move house; to relocate; to remove (sth)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "端",
+     "duān",
+     "(bound form) tip; end; extremity; (bound form) aspect; facet",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "(after a round number) approximately",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "刚",
+     "gāng",
+     "just; only a short while ago; (literary) hard; firm; strong",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "to cover; to wrap; to hold",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "趁热",
+     "chèn rè",
+     "while it's still hot",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "饺子是白菜猪肉馅儿的，安娜一口气吃了二十个。",
+   "py": "jiǎo zi shì bái cài zhū ròu xiàn r de, Ān nà yì kǒu qì chī le èr shí gè.",
+   "en": "They're filled with pork and Chinese cabbage, and Anna eats twenty in one go.",
+   "tr": {
+    "am": "ዱምፕሊንጉ በጎመንና በአሳማ ሥጋ የተሞላ ነበር፣ አና በአንድ ጊዜ ሃያ በላች።",
+    "fa": "توشون گوشت و کلم چینیه و آنا بیست‌تا رو یه‌جا می‌خوره."
+   },
+   "start": 16.14,
+   "end": 21.132,
+   "tokens": [
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "白菜",
+     "bái cài",
+     "Chinese cabbage, esp. napa cabbage (Brassica rapa subsp. pekinensis)",
+     ""
+    ],
+    [
+     "猪肉",
+     "zhū ròu",
+     "pork",
+     ""
+    ],
+    [
+     "馅儿",
+     "xiàn r",
+     "filling inside dumplings or pastries",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "一口气",
+     "yī kǒu qì",
+     "one breath; in one breath; at a stretch",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "二十",
+     "èr shí",
+     "twenty; 20",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "吃完以后，她把碗洗得干干净净，第二天就给刘爷爷送了回去。",
+   "py": "chī wán yǐ hòu, tā bǎ wǎn xǐ de gān gān jìng jìng, dì èr tiān jiù gěi Liú yé ye sòng le huí qù.",
+   "en": "When she's finished, she washes the bowl until it's spotless and takes it back to Grandpa Liu the next day.",
+   "tr": {
+    "am": "ከበላች በኋላ ሳህኑን ጥርት አድርጋ አጠበችና በማግሥቱ ለአያት ሊዩ መለሰችለት።",
+    "fa": "وقتی کارش تموم می‌شه، کاسه رو تا جایی که تمیز تمیزه می‌شوره و فرداش برمی‌گردونه پیش پدربزرگ لیو."
+   },
+   "start": 21.832,
+   "end": 28.48,
+   "tokens": [
+    [
+     "吃完",
+     "chī wán",
+     "to finish eating",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "洗",
+     "xǐ",
+     "to wash; to bathe; to develop (photographs)",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "干",
+     "gān",
+     "dry; dried food; empty; hollow",
+     ""
+    ],
+    [
+     "干净",
+     "gān jìng",
+     "clean; neat",
+     ""
+    ],
+    [
+     "净",
+     "jìng",
+     "clean; completely; only",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "回去",
+     "huí qu",
+     "to go back; to return",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷接过空碗，笑了笑，好像想说什么，最后又没说。",
+   "py": "Liú yé ye jiē guò kōng wǎn, xiào le xiào, hǎo xiàng xiǎng shuō shén me, zuì hòu yòu méi shuō.",
+   "en": "Grandpa Liu takes the empty bowl and smiles, as if he wants to say something, but in the end he doesn't.",
+   "tr": {
+    "am": "አያት ሊዩ ባዶውን ሳህን ተቀብሎ ፈገግ አለ፣ የሆነ ነገር ሊል የፈለገ ይመስል ነበር፣ በመጨረሻ ግን ምንም አላለም።",
+    "fa": "پدربزرگ لیو کاسه‌ی خالی رو می‌گیره و می‌خنده، انگار می‌خواد چیزی بگه، ولی آخرش نمی‌گه."
+   },
+   "start": 29.18,
+   "end": 35.588,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "接过",
+     "jiē guò",
+     "to take (sth proffered)",
+     ""
+    ],
+    [
+     "空",
+     "kōng",
+     "empty; air; sky",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "好像",
+     "hǎo xiàng",
+     "as if; to seem like",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "something; anything; what?",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "最后",
+     "zuì hòu",
+     "finally; in the end; final; last; ultimate",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "晚上，安娜给小雨打电话，说起了这件事。",
+   "py": "wǎn shang, Ān nà gěi Xiǎo yǔ dǎ diàn huà, shuō qǐ le zhè jiàn shì.",
+   "en": "That evening, Anna phones Xiaoyu and tells her about it.",
+   "tr": {
+    "am": "ምሽት ላይ አና ለሺያውዩ ደውላ ይህን ነገረቻት።",
+    "fa": "همون عصر، آنا به شیائویو زنگ می‌زنه و ماجرا رو براش تعریف می‌کنه."
+   },
+   "start": 36.288,
+   "end": 41.04,
+   "tokens": [
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "说起",
+     "shuō qǐ",
+     "to mention; to bring up (a subject); with regard to",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "matter; thing; item",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨一听就笑了：“很多地方都有个讲究：别人用碗给你送吃的，碗不能空着还回去。”",
+   "py": "Xiǎo yǔ yì tīng jiù xiào le: “hěn duō dì fang dōu yǒu gè jiǎng jiu: bié ren yòng wǎn gěi nǐ sòng chī de, wǎn bù néng kōng zhe hái huí qù.”",
+   "en": "Xiaoyu laughs as soon as she hears. \"In lots of places there's a custom: if someone brings you food in a bowl, you don't give the bowl back empty.\"",
+   "tr": {
+    "am": "ሺያውዩ እንደሰማች ሳቀች፦ «በብዙ ቦታዎች አንድ ልማድ አለ፦ ሌላ ሰው በሳህን ምግብ ካመጣልሽ ሳህኑን ባዶውን አትመልሺም።»",
+    "fa": "شیائویو به محض شنیدنش می‌خنده: «توی خیلی جاها یه رسم هست: اگه یکی برای تو غذایی توی کاسه بیاره، کاسه رو خالی پس نمی‌دی.»"
+   },
+   "start": 41.74,
+   "end": 50.5,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "as soon as; one; single",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; classifier for canned beverages",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a clause of action) as soon as; immediately after",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "地方",
+     "dì fang",
+     "place; location; area; space; territory; aspect; part",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "讲究",
+     "jiǎng jiu",
+     "to pay particular attention to",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "别人",
+     "bié ren",
+     "other people; others; other person",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "(literary) hence; therefore",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to give; to; for",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to give (as a present); to send; to deliver; to transmit",
+     ""
+    ],
+    [
+     "吃的",
+     "chī de",
+     "(coll.) food",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "空",
+     "kōng",
+     "empty; air; sky",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "回去",
+     "huí qu",
+     "to go back; to return",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“那我应该放什么？”",
+   "py": "“nà wǒ yīng gāi fàng shén me?”",
+   "en": "\"So what should I put in it?\"",
+   "tr": {
+    "am": "«ታዲያ ምን ላስገባበት?»",
+    "fa": "«پس چی باید توش بذارم؟»"
+   },
+   "start": 51.2,
+   "end": 53.576,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "应该",
+     "yīng gāi",
+     "ought to; should; must",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“放什么都行，水果、点心都可以，你自己做的东西最好。”",
+   "py": "“fàng shén me dōu xíng, shuǐ guǒ, diǎn xin dōu kě yǐ, nǐ zì jǐ zuò de dōng xi zuì hǎo.”",
+   "en": "\"Anything. Fruit, snacks, whatever. Something you've made yourself is best.\"",
+   "tr": {
+    "am": "«ምንም ቢሆን ይቻላል፣ ፍራፍሬም ሆነ መክሰስ። ራስሽ የሠራሽው ነገር ከሁሉም ይሻላል።»",
+    "fa": "«هر چیزی. میوه، تنقلات، هرچی. چیزی که خودت درست کرده باشی بهترینه.»"
+   },
+   "start": 54.276,
+   "end": 60.444,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "行",
+     "xíng",
+     "(bound form) to walk; to go; to travel",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "水果",
+     "shuǐ guǒ",
+     "fruit",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "点心",
+     "diǎn xin",
+     "light refreshments; pastry; dim sum (in Cantonese cooking)",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "可以",
+     "kě yǐ",
+     "can; may; possible",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "最好",
+     "zuì hǎo",
+     "best; had better ...; it would be best to ...",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜这才明白刘爷爷那天为什么是那个表情，脸一下子红了。",
+   "py": "Ān nà zhè cái míng bai Liú yé ye nà tiān wèi shén me shì nà ge biǎo qíng, liǎn yí xià zi hóng le.",
+   "en": "Only then does Anna understand the look on Grandpa Liu's face, and she goes bright red.",
+   "tr": {
+    "am": "አና ያን ቀን አያት ሊዩ ለምን እንደዚያ ፊት እንዳሳየ ያኔ ገባት፣ ፊቷም ድንገት ቀላ።",
+    "fa": "تازه اون‌موقع آنا اون نگاه روی صورت پدربزرگ لیو رو می‌فهمه و حسابی سرخ می‌شه."
+   },
+   "start": 61.144,
+   "end": 67.096,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "then and only then; (before an expression of quantity) only",
+     ""
+    ],
+    [
+     "明白",
+     "míng bai",
+     "to understand; to realize; clear; obvious; unequivocal",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "为什么",
+     "wèi shén me",
+     "why?; for what reason?",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "那个",
+     "nà ge",
+     "that one; that thing; that (as opposed to this)",
+     ""
+    ],
+    [
+     "表情",
+     "biǎo qíng",
+     "(facial) expression; to express one's feelings",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "脸",
+     "liǎn",
+     "face",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "once; one time; (following a verb) for a moment; briefly",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "过了几天，刘爷爷又送来一碗包子，这次安娜还碗的时候，在里面装满了自己烤的饼干。",
+   "py": "guò le jǐ tiān, Liú yé ye yòu sòng lái yì wǎn bāo zi, zhè cì Ān nà hái wǎn de shí hou, zài lǐ miàn zhuāng mǎn le zì jǐ kǎo de bǐng gān.",
+   "en": "A few days later, Grandpa Liu brings round a bowl of steamed buns. This time, when Anna returns the bowl, she fills it with biscuits she's baked herself.",
+   "tr": {
+    "am": "ከጥቂት ቀናት በኋላ አያት ሊዩ እንደገና አንድ ሳህን የእንፋሎት ዳቦ አመጣ፣ በዚህ ጊዜ አና ሳህኑን ስትመልስ ራሷ በጋገረችው ብስኩት ሞላችው።",
+    "fa": "چند روز بعد، پدربزرگ لیو یه کاسه نان بخارپوی چینی میاره. این بار، وقتی آنا کاسه رو برمی‌گردونه، پرش می‌کنه با بیسکویت‌هایی که خودش پخته."
+   },
+   "start": 67.796,
+   "end": 76.556,
+   "tokens": [
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "几天",
+     "jǐ tiān",
+     "several days",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "for the past (amount of time)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "包子",
+     "bāo zi",
+     "baozi; bao (steamed stuffed bun)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "次",
+     "cì",
+     "classifier for enumerated events: time",
+     ""
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "里面",
+     "lǐ miàn",
+     "inside; interior; also pr.",
+     ""
+    ],
+    [
+     "装满",
+     "zhuāng mǎn",
+     "to fill up",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "烤",
+     "kǎo",
+     "to roast; to grill; to broil; to bake; to toast (bread)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "饼干",
+     "bǐng gān",
+     "biscuit; cracker; cookie",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "第二天，碗又回来了，里面是刘爷爷做的红烧肉。",
+   "py": "dì èr tiān, wǎn yòu huí lái le, lǐ miàn shì Liú yé ye zuò de hóng shāo ròu.",
+   "en": "The next day, the bowl comes back again, this time with Grandpa Liu's braised pork in it.",
+   "tr": {
+    "am": "በማግሥቱ ሳህኑ እንደገና ተመለሰ፣ ውስጡም አያት ሊዩ የሠራው የአሳማ ወጥ ነበር።",
+    "fa": "فردا، کاسه دوباره برمی‌گرده، این بار با گوشت تفت‌داده‌ی پدربزرگ لیو توش."
+   },
+   "start": 77.256,
+   "end": 82.464,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "回来",
+     "huí lai",
+     "to return; to come back",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "里面",
+     "lǐ miàn",
+     "inside; interior; also pr.",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "红烧肉",
+     "hóng shāo ròu",
+     "red braised pork",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜不能让碗空着回去，就烤了一个苹果派放了进去。",
+   "py": "Ān nà bù néng ràng wǎn kōng zhe huí qù, jiù kǎo le yí gè píng guǒ pài fàng le jìn qù.",
+   "en": "Anna can't send the bowl back empty, so she bakes an apple pie and puts it inside.",
+   "tr": {
+    "am": "አና ሳህኑን ባዶውን መመለስ ስላልቻለች የአፕል ፓይ ጋግራ አስገባችበት።",
+    "fa": "آنا نمی‌تونه کاسه رو خالی پس بده، پس یه پای سیب می‌پزه و می‌ذاره توش."
+   },
+   "start": 83.164,
+   "end": 88.66,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "让",
+     "ràng",
+     "to yield; to permit; to let sb do sth",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "空",
+     "kōng",
+     "empty; air; sky",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "回去",
+     "huí qu",
+     "to go back; to return",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "烤",
+     "kǎo",
+     "to roast; to grill; to broil; to bake; to toast (bread)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "苹果派",
+     "píng guǒ pài",
+     "apple pie",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "进去",
+     "jìn qù",
+     "to go in",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷收到苹果派，马上又盛了一碗炸酱面送了过来。",
+   "py": "Liú yé ye shōu dào píng guǒ pài, mǎ shàng yòu shèng le yì wǎn zhá jiàng miàn sòng le guò lái.",
+   "en": "Grandpa Liu gets the apple pie and straight away sends over a bowl of noodles with soybean sauce.",
+   "tr": {
+    "am": "አያት ሊዩ የአፕል ፓዩን ተቀብሎ ወዲያው አንድ ሳህን የአኩሪ አተር ስጎ ያለበት ኑድል ላከላት።",
+    "fa": "پدربزرگ لیو پای سیب رو می‌گیره و همون دم یه کاسه نودل با سس سویا می‌فرسته."
+   },
+   "start": 89.36,
+   "end": 94.832,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "收到",
+     "shōu dào",
+     "to receive",
+     ""
+    ],
+    [
+     "苹果派",
+     "píng guǒ pài",
+     "apple pie",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "right away; at once; immediately",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "盛",
+     "chéng",
+     "to hold; to contain; to ladle",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "炸酱面",
+     "zhá jiàng miàn",
+     "zhajiang mian, thick wheat noodles served with ground pork simmered in salty fermented soybean paste (or other sauce)",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "过来",
+     "guò lái",
+     "to come over; to manage; to handle",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "就这样，这个蓝色的大碗在两家之间走来走去，一个月都没停过。",
+   "py": "jiù zhè yàng, zhè ge lán sè de dà wǎn zài liǎng jiā zhī jiān zǒu lái zǒu qù, yí gè yuè dōu méi tíng guò.",
+   "en": "And so the big blue bowl goes back and forth between the two flats, and for a whole month it never stops.",
+   "tr": {
+    "am": "እንዲህ እያለ ይህ ሰማያዊ ትልቅ ሳህን በሁለቱ ቤቶች መካከል ይመላለስ ጀመር፣ ለአንድ ወር ሙሉ አላቆመም።",
+    "fa": "و این‌طور کاسه‌ی بزرگ آبی بین دو تا آپارتمان رفت‌وبرگشت می‌کنه و یه کل ماه هیچ‌وقت نمی‌ایسته."
+   },
+   "start": 95.532,
+   "end": 102.18,
+   "tokens": [
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "这样",
+     "zhè yàng",
+     "this way; like this; so; (before a noun) this kind of; such",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "蓝色",
+     "lán sè",
+     "blue (color)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "classifier for families or businesses; home; family",
+     ""
+    ],
+    [
+     "之间",
+     "zhī jiān",
+     "(after a noun) between; among; amid",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "(between two verbs) in order to; to come",
+     ""
+    ],
+    [
+     "走去",
+     "zǒu qù",
+     "to walk over (to)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "停",
+     "tíng",
+     "to stop; to halt; to park (a car)",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜做饭的水平越来越高，胃口也越来越大，裤子都有点儿紧了。",
+   "py": "Ān nà zuò fàn de shuǐ píng yuè lái yuè gāo, wèi kǒu yě yuè lái yuè dà, kù zi dōu yǒu diǎn r jǐn le.",
+   "en": "Anna's cooking gets better and better, her appetite gets bigger and bigger, and her trousers start to feel a bit tight.",
+   "tr": {
+    "am": "የአና የምግብ አሠራር ችሎታ እየጨመረ፣ የምግብ ፍላጎቷም እየጨመረ ሄደ፣ ሱሪዋም ትንሽ ጠበባት።",
+    "fa": "آشپزی آنا هی بهتر می‌شه، اشتهاش هی بیشتر می‌شه و شلوارهاش شروع می‌کنن یه کم تنگ می‌شن."
+   },
+   "start": 102.88,
+   "end": 109.288,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "做饭",
+     "zuò fàn",
+     "to cook; to prepare a meal",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "水平",
+     "shuǐ píng",
+     "horizontal; level",
+     ""
+    ],
+    [
+     "越来越",
+     "yuè lái yuè",
+     "more and more",
+     ""
+    ],
+    [
+     "高",
+     "gāo",
+     "high; tall; above average",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "胃口",
+     "wèi kǒu",
+     "appetite; liking",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "越来越",
+     "yuè lái yuè",
+     "more and more",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "裤子",
+     "kù zi",
+     "trousers; pants",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "有点儿",
+     "yǒu diǎn r",
+     "slightly; a little; somewhat",
+     ""
+    ],
+    [
+     "紧",
+     "jǐn",
+     "tight; to tighten; strict",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "有一天，她端着一碗刚做好的土豆汤去敲门，忍不住问：“刘爷爷，这个碗我们是不是永远都还不完了？”",
+   "py": "yǒu yì tiān, tā duān zhe yì wǎn gāng zuò hǎo de tǔ dòu tāng qù qiāo mén, rěn bu zhù wèn: “Liú yé ye, zhè ge wǎn wǒ men shì bú shì yǒng yuǎn dōu hái bù wán le?”",
+   "en": "One day, carrying a bowl of potato soup she's just made, she knocks on his door and can't help asking, \"Grandpa Liu, are we ever going to finish returning this bowl?\"",
+   "tr": {
+    "am": "አንድ ቀን አሁን የሠራችውን የድንች ሾርባ በሳህን ይዛ በሩን አንኳኳች፣ መጠየቅም አላስቻላትም፦ «አያት ሊዩ፣ ይህን ሳህን መመለስ ፈጽሞ አንጨርስም እንዴ?»",
+    "fa": "یه روز، با یه کاسه سوپ سیب‌زمینی که همین الان درست کرده، درش رو می‌زنه و نمی‌تونه نپرسه: «پدربزرگ لیو، بازگشت این کاسه هیچ‌وقت تموم می‌شه؟»"
+   },
+   "start": 109.988,
+   "end": 120.86,
+   "tokens": [
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "端",
+     "duān",
+     "to hold sth level with both hands; to carry",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "刚",
+     "gāng",
+     "barely; only just; just; only a short while ago",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "土豆",
+     "tǔ dòu",
+     "potato; (Tw) peanut",
+     ""
+    ],
+    [
+     "汤",
+     "tāng",
+     "soup; hot or boiling water; decoction of medicinal herbs",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "just passed; to go; to go to (a place)",
+     ""
+    ],
+    [
+     "敲门",
+     "qiāo mén",
+     "to knock on a door",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "忍不住",
+     "rěn bu zhù",
+     "cannot help; unable to bear",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "是不是",
+     "shì bu shì",
+     "is or is not (used to form yes-no questions)",
+     ""
+    ],
+    [
+     "永远",
+     "yǒng yuǎn",
+     "forever; eternal",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "完了",
+     "wán le",
+     "to be finished; to be done for; ruined",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷接过汤，笑眯眯地说：“还不完才好呢。”",
+   "py": "Liú yé ye jiē guò tāng, xiào mī mī de shuō: “hái bù wán cái hǎo ne.”",
+   "en": "Grandpa Liu takes the soup and beams. \"It's better if we never do.\"",
+   "tr": {
+    "am": "አያት ሊዩ ሾርባውን ተቀብሎ ፈገግ እያለ አለ፦ «ባንጨርሰው ነው የሚሻለው።»",
+    "fa": "پدربزرگ لیو سوپ رو می‌گیره و با چهره‌ی خوشحال می‌گه: «بهتره که هیچ‌وقت تموم نشه.»"
+   },
+   "start": 121.56,
+   "end": 127.008,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "接过",
+     "jiē guò",
+     "to take (sth proffered)",
+     ""
+    ],
+    [
+     "汤",
+     "tāng",
+     "soup; hot or boiling water; decoction of medicinal herbs",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "笑眯眯",
+     "xiào mī mī",
+     "beaming; all smiles",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "ability; talent; sb of a certain type; a capable individual",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "呢",
+     "ne",
+     "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“碗一直在走，说明咱们两家一直有来往。”",
+   "py": "“wǎn yì zhí zài zǒu, shuō míng zán men liǎng jiā yì zhí yǒu lái wǎng.”",
+   "en": "\"As long as the bowl keeps travelling, it means our two homes keep in touch.\"",
+   "tr": {
+    "am": "«ሳህኑ እስከተመላለሰ ድረስ ሁለቱ ቤቶቻችን ሁልጊዜ እየተገናኙ ነው ማለት ነው።»",
+    "fa": "«تا وقتی که کاسه همچنان سفر می‌کنه، یعنی این دو تا خونه همچنان در تماسن.»"
+   },
+   "start": 127.708,
+   "end": 131.98,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "说明",
+     "shuō míng",
+     "to explain; to illustrate; to indicate",
+     ""
+    ],
+    [
+     "咱们",
+     "zán men",
+     "we or us (including both the speaker and the person(s) spoken to)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; classifier for families or businesses; family",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "来往",
+     "lái wǎng",
+     "to come and go; to have dealings with",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 433,
+ "first": "安娜刚搬了家，没想到隔壁住的正好是刘爷爷。",
+ "newWords": [
+  {
+   "w": "隔壁",
+   "py": "gébì",
+   "en": "the house or room next door"
+  },
+  {
+   "w": "趁",
+   "py": "chèn",
+   "en": "to use an opportunity wisely"
+  },
+  {
+   "w": "讲究",
+   "py": "jiǎngjiu",
+   "en": "to care deeply about quality"
+  },
+  {
+   "w": "胃口",
+   "py": "wèikǒu",
+   "en": "the desire to eat food"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h5-04.mp3?v=1791720655"
 }

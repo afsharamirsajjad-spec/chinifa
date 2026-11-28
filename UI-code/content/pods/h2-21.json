@@ -1,1415 +1,1429 @@
 {
-  "id": "h2-21",
-  "level": 2,
-  "no": 21,
-  "title": "半夜的电话",
-  "title_py": "bàn yè de diàn huà",
-  "title_en": "The midnight calls",
-  "title_tr": {
-    "vi": "Những cuộc gọi nửa đêm",
-    "pt": "As ligações da meia-noite",
-    "es": "Las llamadas de medianoche",
-    "fr": "Les appels en pleine nuit",
-    "am": "የእኩለ ሌሊት ስልክ",
-    "fa": "تماس‌های نیمه‌شب"
+ "id": "h2-21",
+ "level": 2,
+ "no": 21,
+ "title": "半夜的电话",
+ "title_py": "bàn yè de diàn huà",
+ "title_en": "The midnight calls",
+ "title_tr": {
+  "vi": "Những cuộc gọi nửa đêm",
+  "pt": "As ligações da meia-noite",
+  "es": "Las llamadas de medianoche",
+  "fr": "Les appels en pleine nuit",
+  "am": "የእኩለ ሌሊት ስልክ",
+  "fa": "تماس‌های نیمه‌شب"
+ },
+ "topic": "daily",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h2-21.jpg",
+ "duration": 87.108,
+ "lines": [
+  {
+   "text": "星期二晚上十二点，安娜已经睡觉了，这时候，她的手机突然响了。",
+   "py": "xīng qī èr wǎn shang shí èr diǎn, Ān nà yǐ jīng shuì jiào le, zhè shí hou, tā de shǒu jī tū rán xiǎng le.",
+   "en": "At twelve o'clock on Tuesday night, Anna is already asleep when her phone suddenly rings.",
+   "tr": {
+    "vi": "Mười hai giờ đêm thứ Ba, Anna đã ngủ rồi, đúng lúc đó điện thoại của cô bỗng reo.",
+    "pt": "Terça-feira, meia-noite. Anna já está dormindo quando o celular dela toca de repente.",
+    "es": "El martes a las doce de la noche, Anna ya está dormida cuando de repente suena su celular.",
+    "fr": "Mardi soir, à minuit, Anna dort déjà quand son téléphone sonne tout à coup.",
+    "am": "ማክሰኞ ሌሊት 12:00 ላይ አና ተኝታ ነበር፤ በዚያን ጊዜ ስልኳ ድንገት ጮኸ።",
+    "fa": "سه‌شنبه شب ساعت دوازده، آنا خوابه که یهو گوشی‌ش زنگ می‌خوره."
+   },
+   "start": 2.62,
+   "end": 10.204,
+   "tokens": [
+    [
+     "星期二",
+     "xīng qī èr",
+     "Tuesday",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock; classifier for small amounts",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to go to bed; to sleep",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "候",
+     "hòu",
+     "to wait; to inquire after; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "突然",
+     "tū rán",
+     "sudden; abrupt; unexpected",
+     ""
+    ],
+    [
+     "响",
+     "xiǎng",
+     "to ring; echo; sound",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "daily",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h2-21.jpg",
-  "duration": 87.108,
-  "lines": [
-    {
-      "text": "星期二晚上十二点，安娜已经睡觉了，这时候，她的手机突然响了。",
-      "py": "xīng qī èr wǎn shang shí èr diǎn, Ān nà yǐ jīng shuì jiào le, zhè shí hou, tā de shǒu jī tū rán xiǎng le.",
-      "en": "At twelve o'clock on Tuesday night, Anna is already asleep when her phone suddenly rings.",
-      "tr": {
-        "vi": "Mười hai giờ đêm thứ Ba, Anna đã ngủ rồi, đúng lúc đó điện thoại của cô bỗng reo.",
-        "pt": "Terça-feira, meia-noite. Anna já está dormindo quando o celular dela toca de repente.",
-        "es": "El martes a las doce de la noche, Anna ya está dormida cuando de repente suena su celular.",
-        "fr": "Mardi soir, à minuit, Anna dort déjà quand son téléphone sonne tout à coup.",
-        "am": "ማክሰኞ ሌሊት 12:00 ላይ አና ተኝታ ነበር፤ በዚያን ጊዜ ስልኳ ድንገት ጮኸ።"
-      },
-      "start": 2.62,
-      "end": 10.204,
-      "tokens": [
-        [
-          "星期二",
-          "xīng qī èr",
-          "Tuesday",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock; classifier for small amounts",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to go to bed; to sleep",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "候",
-          "hòu",
-          "to wait; to inquire after; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "突然",
-          "tū rán",
-          "sudden; abrupt; unexpected",
-          ""
-        ],
-        [
-          "响",
-          "xiǎng",
-          "to ring; echo; sound",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "是山田打来的。",
-      "py": "shì Shān tián dǎ lái de.",
-      "en": "It's Yamada calling.",
-      "tr": {
-        "vi": "Là Yamada gọi đến.",
-        "pt": "É a Yamada ligando.",
-        "es": "Es Yamada.",
-        "fr": "C’est Yamada qui appelle.",
-        "am": "የደወለችው ያማዳ ነበረች።"
-      },
-      "start": 10.904,
-      "end": 12.824,
-      "tokens": [
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "打",
-          "dǎ",
-          "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜问：“山田，这么晚了，有什么事吗？”",
-      "py": "Ān nà wèn: “Shān tián, zhè me wǎn le, yǒu shén me shì ma?”",
-      "en": "Anna asks, \"Yamada, it's so late. Is something wrong?\"",
-      "tr": {
-        "vi": "Anna hỏi: “Yamada, khuya thế này rồi, có chuyện gì à?”",
-        "pt": "Anna pergunta: “Yamada, tão tarde assim, aconteceu alguma coisa?”",
-        "es": "Anna pregunta: «Yamada, es muy tarde. ¿Pasa algo?»",
-        "fr": "Anna demande : « Yamada, il est si tard, qu’est-ce qui se passe ? »",
-        "am": "አና «ያማዳ፣ ይሄን ያህል መሽቷል፤ ምን ሆነሽ ነው?» ብላ ጠየቀች።"
-      },
-      "start": 13.524,
-      "end": 18.54,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "晚",
-          "wǎn",
-          "late; evening; night",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "什么事",
-          "shén me shì",
-          "What's up?; Is something the matter?",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "电话里没有人说话，只有一个很小的声音。",
-      "py": "diàn huà lǐ méi yǒu rén shuō huà, zhǐ yǒu yí gè hěn xiǎo de shēng yīn.",
-      "en": "Nobody on the line says anything. There's only a very soft little sound.",
-      "tr": {
-        "vi": "Trong điện thoại không ai nói gì, chỉ có một âm thanh rất nhỏ.",
-        "pt": "Ninguém fala do outro lado da linha. Só se ouve um barulhinho bem baixo.",
-        "es": "Nadie habla al otro lado de la línea. Solo se oye un ruidito muy bajo.",
-        "fr": "Au téléphone, personne ne parle. Il n’y a qu’un tout petit bruit.",
-        "am": "በስልኩ ማንም አልተናገረም፤ በጣም ቀጭን ድምፅ ብቻ ይሰማል።"
-      },
-      "start": 19.24,
-      "end": 23.776,
-      "tokens": [
-        [
-          "电话",
-          "diàn huà",
-          "telephone; phone call; phone number",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "说话",
-          "shuō huà",
-          "to speak; to say; to talk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只有",
-          "zhǐ yǒu",
-          "only have ...; there is only ...",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "小的",
-          "xiǎo de",
-          "(coll.) young child; the little one(s) of the family",
-          ""
-        ],
-        [
-          "声音",
-          "shēng yīn",
-          "sound; voice",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜说了很多次“喂”，最后只好又去睡觉了。",
-      "py": "Ān nà shuō le hěn duō cì “wèi”, zuì hòu zhǐ hǎo yòu qù shuì jiào le.",
-      "en": "Anna says \"Hello?\" again and again, and in the end she gives up and goes back to sleep.",
-      "tr": {
-        "vi": "Anna nói “A lô” rất nhiều lần, cuối cùng đành đi ngủ tiếp.",
-        "pt": "Anna diz “Alô?” várias vezes e, no fim, desiste e volta a dormir.",
-        "es": "Anna dice «¿Hola?» muchas veces y al final no le queda más que volver a dormirse.",
-        "fr": "Anna dit « Allô ? » plusieurs fois, puis finit par se rendormir.",
-        "am": "አና ብዙ ጊዜ «ሄሎ» አለች፤ በመጨረሻ ተመልሳ ተኛች።"
-      },
-      "start": 24.476,
-      "end": 29.492,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多次",
-          "duō cì",
-          "many times; repeatedly",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "喂",
-          "wèi",
-          "hey; to feed (an animal, baby, invalid etc); to feed",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "，"
-        ],
-        [
-          "最后",
-          "zuì hòu",
-          "finally; in the end; final; last; ultimate",
-          ""
-        ],
-        [
-          "只好",
-          "zhǐ hǎo",
-          "to have no other option but to ...; to have to; to be forced to",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to sleep; to go to bed",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "星期三晚上十二点，电话又响了。还是山田，还是没有人说话。",
-      "py": "xīng qī sān wǎn shang shí èr diǎn, diàn huà yòu xiǎng le. hái shi Shān tián, hái shi méi yǒu rén shuō huà.",
-      "en": "At twelve on Wednesday night, the phone rings again. It's Yamada again, and again nobody says a word.",
-      "tr": {
-        "vi": "Mười hai giờ đêm thứ Tư, điện thoại lại reo. Vẫn là Yamada, vẫn không ai nói gì.",
-        "pt": "Quarta-feira, meia-noite, o telefone toca de novo. É a Yamada outra vez, e outra vez ninguém fala.",
-        "es": "El miércoles a las doce de la noche, el teléfono vuelve a sonar. Otra vez es Yamada, y otra vez nadie habla.",
-        "fr": "Mercredi soir, à minuit, le téléphone sonne encore. C’est encore Yamada, et encore personne ne parle.",
-        "am": "ረቡዕ ሌሊት 12:00 ላይ ስልኩ እንደገና ጮኸ። አሁንም ያማዳ ናት፤ አሁንም ማንም አይናገርም።"
-      },
-      "start": 30.192,
-      "end": 37.752,
-      "tokens": [
-        [
-          "星期三",
-          "xīng qī sān",
-          "Wednesday",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "phone call; phone number; telephone",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "响",
-          "xiǎng",
-          "to ring; echo; sound",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "说话",
-          "shuō huà",
-          "word; to speak; to say",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "第二天早上，安娜问山田：“这两天你为什么半夜给我打电话？”",
-      "py": "dì èr tiān zǎo shang, Ān nà wèn Shān tián: “zhè liǎng tiān nǐ wèi shén me bàn yè gěi wǒ dǎ diàn huà?”",
-      "en": "The next morning, Anna asks Yamada, \"Why have you been calling me in the middle of the night?\"",
-      "tr": {
-        "vi": "Sáng hôm sau, Anna hỏi Yamada: “Mấy hôm nay sao cậu cứ nửa đêm gọi cho mình thế?”",
-        "pt": "Na manhã seguinte, Anna pergunta à Yamada: “Por que você me ligou no meio da noite nesses últimos dias?”",
-        "es": "A la mañana siguiente, Anna le pregunta a Yamada: «¿Por qué me llamaste a medianoche estos dos días?»",
-        "fr": "Le lendemain matin, Anna demande à Yamada : « Pourquoi tu m’appelles en pleine nuit depuis deux jours ? »",
-        "am": "በማግስቱ ጠዋት አና ያማዳን «በእነዚህ ሁለት ቀናት ለምን እኩለ ሌሊት ላይ ትደውዪልኛለሽ?» ብላ ጠየቀቻት።"
-      },
-      "start": 38.452,
-      "end": 44.86,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "为什么",
-          "wèi shén me",
-          "why?; for what reason?",
-          ""
-        ],
-        [
-          "半夜",
-          "bàn yè",
-          "in the middle of the night; midnight",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "山田觉得很奇怪：“没有啊！我每天十点就睡觉了。”",
-      "py": "Shān tián jué de hěn qí guài: “méi yǒu a! wǒ měi tiān shí diǎn jiù shuì jiào le.”",
-      "en": "Yamada is puzzled. \"I haven't! I'm in bed by ten every night.\"",
-      "tr": {
-        "vi": "Yamada thấy rất lạ: “Đâu có! Ngày nào mình cũng mười giờ là đi ngủ rồi.”",
-        "pt": "Yamada acha muito estranho: “Eu não liguei! Eu vou dormir às dez todo dia.”",
-        "es": "A Yamada le parece muy raro: «¡Yo no te llamé! Todos los días me duermo a las diez».",
-        "fr": "Yamada est étonnée : « Mais non ! Je me couche tous les soirs à dix heures. »",
-        "am": "ያማዳ ገረማት። «አልደወልኩም! በየቀኑ 10:00 ላይ እተኛለሁ።»"
-      },
-      "start": 45.56,
-      "end": 51.512,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "奇怪",
-          "qí guài",
-          "strange; odd; to marvel",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; to not have; hasn't",
-          ""
-        ],
-        [
-          "啊",
-          "a",
-          "modal particle ending sentence, showing affirmation, approval, or consent",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to go to bed; to sleep",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "那天晚上，安娜住在山田家，想看看是怎么回事。",
-      "py": "nà tiān wǎn shang, Ān nà zhù zài Shān tián jiā, xiǎng kàn kàn shì zěn me huí shì.",
-      "en": "That night, Anna stays at Yamada's place to find out what's going on.",
-      "tr": {
-        "vi": "Tối hôm đó, Anna ngủ lại nhà Yamada, muốn xem rốt cuộc là chuyện gì.",
-        "pt": "Naquela noite, Anna dorme na casa da Yamada para ver o que está acontecendo.",
-        "es": "Esa noche, Anna se queda en casa de Yamada para ver qué pasa.",
-        "fr": "Ce soir-là, Anna dort chez Yamada pour voir ce qui se passe.",
-        "am": "በዚያ ምሽት አና ምን እየሆነ እንደሆነ ለማየት ያማዳ ቤት አደረች።"
-      },
-      "start": 52.212,
-      "end": 58.164,
-      "tokens": [
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "住",
-          "zhù",
-          "to live; to reside; to stay; to stop; to cease",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "看看",
-          "kàn kan",
-          "to take a look at; to examine; to survey",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "怎么回事",
-          "zěn me huí shì",
-          "what's the matter?; what's going on?; what's it all about?",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "十二点，山田已经睡着了，手机就在她的床上。",
-      "py": "shí èr diǎn, Shān tián yǐ jīng shuì zháo le, shǒu jī jiù zài tā de chuáng shàng.",
-      "en": "At twelve, Yamada is fast asleep, with her phone lying on the bed.",
-      "tr": {
-        "vi": "Mười hai giờ, Yamada đã ngủ say, điện thoại để ngay trên giường.",
-        "pt": "À meia-noite, Yamada já está dormindo, com o celular em cima da cama.",
-        "es": "A las doce, Yamada ya está dormida, con el celular en la cama.",
-        "fr": "À minuit, Yamada dort déjà, son téléphone posé sur le lit.",
-        "am": "12:00 ላይ ያማዳ እንቅልፍ ወስዷት ነበር፤ ስልኳ አልጋዋ ላይ ነበር።"
-      },
-      "start": 58.864,
-      "end": 64.312,
-      "tokens": [
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "睡着",
-          "shuì zháo",
-          "to fall asleep",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "床",
-          "chuáng",
-          "bed; couch (furniture that one can lie down on)",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "山田的猫米米跳上床，在手机上走了几步，然后睡在了上面。",
-      "py": "Shān tián de māo Mǐ mi tiào shàng chuáng, zài shǒu jī shàng zǒu le jǐ bù, rán hòu shuì zài le shàng miàn.",
-      "en": "Yamada's cat Mimi jumps onto the bed, takes a few steps across the phone and lies down on it to sleep.",
-      "tr": {
-        "vi": "Con mèo Mễ Mễ của Yamada nhảy lên giường, đi mấy bước trên điện thoại, rồi nằm ngủ luôn trên đó.",
-        "pt": "Mimi, a gata da Yamada, pula na cama, dá alguns passos em cima do celular e depois se deita em cima dele para dormir.",
-        "es": "Mimi, la gata de Yamada, se sube a la cama, camina unos pasos sobre el celular y luego se duerme encima.",
-        "fr": "Mimi, le chat de Yamada, saute sur le lit, fait quelques pas sur le téléphone, puis se couche dessus pour dormir.",
-        "am": "የያማዳ ድመት ሚሚ አልጋው ላይ ዘላ ወጣች፤ ስልኩ ላይ ጥቂት ተራመደችና በላዩ ላይ ተኛች።"
-      },
-      "start": 65.012,
-      "end": 71.9,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "猫",
-          "māo",
-          "cat; (dialect) to hide oneself; (loanword) (coll.) modem",
-          ""
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "跳",
-          "tiào",
-          "to jump; to hop; to skip over",
-          ""
-        ],
-        [
-          "上床",
-          "shàng chuáng",
-          "to go to bed; (coll.) to have sex",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "to climb; to get onto; to go up",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "几",
-          "jǐ",
-          "several; a few; how many; how much",
-          ""
-        ],
-        [
-          "步",
-          "bù",
-          "a step; a pace; walk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "然后",
-          "rán hòu",
-          "then; after that; afterwards",
-          ""
-        ],
-        [
-          "睡",
-          "shuì",
-          "to sleep; to lie down",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "上面",
-          "shàng miàn",
-          "on top of; above-mentioned; also pr.",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这时候，安娜的手机响了！",
-      "py": "zhè shí hou, Ān nà de shǒu jī xiǎng le!",
-      "en": "Just then, Anna's phone rings!",
-      "tr": {
-        "vi": "Đúng lúc đó, điện thoại của Anna reo!",
-        "pt": "Nesse momento, o celular da Anna toca!",
-        "es": "En ese momento, ¡suena el celular de Anna!",
-        "fr": "À ce moment-là, le téléphone d’Anna sonne !",
-        "am": "በዚያን ጊዜ የአና ስልክ ጮኸ!"
-      },
-      "start": 72.6,
-      "end": 75.936,
-      "tokens": [
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "候",
-          "hòu",
-          "to wait; to inquire after; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "响",
-          "xiǎng",
-          "to ring; echo; sound",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    },
-    {
-      "text": "她拿起来一听，又是那个很小的声音。",
-      "py": "tā ná qǐ lái yì tīng, yòu shì nà ge hěn xiǎo de shēng yīn.",
-      "en": "She picks it up and listens. It's that soft little sound again.",
-      "tr": {
-        "vi": "Cô nhấc máy nghe, lại là âm thanh rất nhỏ ấy.",
-        "pt": "Ela atende e escuta. É aquele barulhinho bem baixo de novo.",
-        "es": "Contesta y escucha: otra vez ese ruidito tan bajo.",
-        "fr": "Elle décroche et écoute : c’est encore ce tout petit bruit.",
-        "am": "አንሥታ ስትሰማ ያው ቀጭን ድምፅ ነው።"
-      },
-      "start": 76.636,
-      "end": 80.692,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "拿起",
-          "ná qǐ",
-          "to pick up",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; classifier for canned beverages",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "那个",
-          "nà ge",
-          "that one; that thing; that (as opposed to this)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "小的",
-          "xiǎo de",
-          "(coll.) young child; the little one(s) of the family",
-          ""
-        ],
-        [
-          "声音",
-          "shēng yīn",
-          "sound; voice",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜笑了：“我知道了，这是米米睡觉的声音！”",
-      "py": "Ān nà xiào le: “wǒ zhī dào le, zhè shì Mǐ mi shuì jiào de shēng yīn!”",
-      "en": "Anna laughs. \"Now I know. It's the sound of Mimi sleeping!\"",
-      "tr": {
-        "vi": "Anna cười: “Mình biết rồi, đây là tiếng Mễ Mễ ngủ!”",
-        "pt": "Anna ri: “Agora entendi. É o barulho da Mimi dormindo!”",
-        "es": "Anna se ríe: «¡Ya entendí! ¡Es el ruido de Mimi durmiendo!»",
-        "fr": "Anna rit : « J’ai compris : c’est le bruit de Mimi qui dort ! »",
-        "am": "አና ሳቀች። «አወቅሁ፤ ይሄ ሚሚ ስትተኛ የምታወጣው ድምፅ ነው!»"
-      },
-      "start": 81.392,
-      "end": 86.408,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "知道了",
-          "zhī dào le",
-          "OK!; Got it!",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "米",
-          "mǐ",
-          "uncooked rice; meter (unit of length); (slang) Chinese yuan",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to sleep; to go to bed",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "声音",
-          "shēng yīn",
-          "sound; voice",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 250,
-  "first": "星期二晚上十二点，安娜已经睡觉了，这时候，她的手机突然响了。",
-  "newWords": [
-    {
-      "w": "突然",
-      "py": "tūrán",
-      "en": "sudden"
-    },
-    {
-      "w": "声音",
-      "py": "shēngyīn",
-      "en": "voice"
-    },
-    {
-      "w": "奇怪",
-      "py": "qíguài",
-      "en": "strange"
-    },
-    {
-      "w": "只好",
-      "py": "zhǐhǎo",
-      "en": "have no choice but"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h2-21.mp3?v=1791720580"
+  {
+   "text": "是山田打来的。",
+   "py": "shì Shān tián dǎ lái de.",
+   "en": "It's Yamada calling.",
+   "tr": {
+    "vi": "Là Yamada gọi đến.",
+    "pt": "É a Yamada ligando.",
+    "es": "Es Yamada.",
+    "fr": "C’est Yamada qui appelle.",
+    "am": "የደወለችው ያማዳ ነበረች።",
+    "fa": "یاماداست که زنگ زده."
+   },
+   "start": 10.904,
+   "end": 12.824,
+   "tokens": [
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "打",
+     "dǎ",
+     "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜问：“山田，这么晚了，有什么事吗？”",
+   "py": "Ān nà wèn: “Shān tián, zhè me wǎn le, yǒu shén me shì ma?”",
+   "en": "Anna asks, \"Yamada, it's so late. Is something wrong?\"",
+   "tr": {
+    "vi": "Anna hỏi: “Yamada, khuya thế này rồi, có chuyện gì à?”",
+    "pt": "Anna pergunta: “Yamada, tão tarde assim, aconteceu alguma coisa?”",
+    "es": "Anna pregunta: «Yamada, es muy tarde. ¿Pasa algo?»",
+    "fr": "Anna demande : « Yamada, il est si tard, qu’est-ce qui se passe ? »",
+    "am": "አና «ያማዳ፣ ይሄን ያህል መሽቷል፤ ምን ሆነሽ ነው?» ብላ ጠየቀች።",
+    "fa": "آنا می‌پرسه: «یامادا، این ساعت شب چی شده؟»"
+   },
+   "start": 13.524,
+   "end": 18.54,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "晚",
+     "wǎn",
+     "late; evening; night",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "什么事",
+     "shén me shì",
+     "What's up?; Is something the matter?",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "电话里没有人说话，只有一个很小的声音。",
+   "py": "diàn huà lǐ méi yǒu rén shuō huà, zhǐ yǒu yí gè hěn xiǎo de shēng yīn.",
+   "en": "Nobody on the line says anything. There's only a very soft little sound.",
+   "tr": {
+    "vi": "Trong điện thoại không ai nói gì, chỉ có một âm thanh rất nhỏ.",
+    "pt": "Ninguém fala do outro lado da linha. Só se ouve um barulhinho bem baixo.",
+    "es": "Nadie habla al otro lado de la línea. Solo se oye un ruidito muy bajo.",
+    "fr": "Au téléphone, personne ne parle. Il n’y a qu’un tout petit bruit.",
+    "am": "በስልኩ ማንም አልተናገረም፤ በጣም ቀጭን ድምፅ ብቻ ይሰማል።",
+    "fa": "توی تلفن هیچ‌کی حرف نمی‌زنه؛ فقط یه صدای خیلی آروم هست."
+   },
+   "start": 19.24,
+   "end": 23.776,
+   "tokens": [
+    [
+     "电话",
+     "diàn huà",
+     "telephone; phone call; phone number",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "说话",
+     "shuō huà",
+     "to speak; to say; to talk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只有",
+     "zhǐ yǒu",
+     "only have ...; there is only ...",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "小的",
+     "xiǎo de",
+     "(coll.) young child; the little one(s) of the family",
+     ""
+    ],
+    [
+     "声音",
+     "shēng yīn",
+     "sound; voice",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜说了很多次“喂”，最后只好又去睡觉了。",
+   "py": "Ān nà shuō le hěn duō cì “wèi”, zuì hòu zhǐ hǎo yòu qù shuì jiào le.",
+   "en": "Anna says \"Hello?\" again and again, and in the end she gives up and goes back to sleep.",
+   "tr": {
+    "vi": "Anna nói “A lô” rất nhiều lần, cuối cùng đành đi ngủ tiếp.",
+    "pt": "Anna diz “Alô?” várias vezes e, no fim, desiste e volta a dormir.",
+    "es": "Anna dice «¿Hola?» muchas veces y al final no le queda más que volver a dormirse.",
+    "fr": "Anna dit « Allô ? » plusieurs fois, puis finit par se rendormir.",
+    "am": "አና ብዙ ጊዜ «ሄሎ» አለች፤ በመጨረሻ ተመልሳ ተኛች።",
+    "fa": "آنا کلی بار «الو» می‌گه و بالاخره بی‌خیال می‌شه و برمی‌گرده می‌خوابه."
+   },
+   "start": 24.476,
+   "end": 29.492,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多次",
+     "duō cì",
+     "many times; repeatedly",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "喂",
+     "wèi",
+     "hey; to feed (an animal, baby, invalid etc); to feed",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "，"
+    ],
+    [
+     "最后",
+     "zuì hòu",
+     "finally; in the end; final; last; ultimate",
+     ""
+    ],
+    [
+     "只好",
+     "zhǐ hǎo",
+     "to have no other option but to ...; to have to; to be forced to",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to sleep; to go to bed",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "星期三晚上十二点，电话又响了。还是山田，还是没有人说话。",
+   "py": "xīng qī sān wǎn shang shí èr diǎn, diàn huà yòu xiǎng le. hái shi Shān tián, hái shi méi yǒu rén shuō huà.",
+   "en": "At twelve on Wednesday night, the phone rings again. It's Yamada again, and again nobody says a word.",
+   "tr": {
+    "vi": "Mười hai giờ đêm thứ Tư, điện thoại lại reo. Vẫn là Yamada, vẫn không ai nói gì.",
+    "pt": "Quarta-feira, meia-noite, o telefone toca de novo. É a Yamada outra vez, e outra vez ninguém fala.",
+    "es": "El miércoles a las doce de la noche, el teléfono vuelve a sonar. Otra vez es Yamada, y otra vez nadie habla.",
+    "fr": "Mercredi soir, à minuit, le téléphone sonne encore. C’est encore Yamada, et encore personne ne parle.",
+    "am": "ረቡዕ ሌሊት 12:00 ላይ ስልኩ እንደገና ጮኸ። አሁንም ያማዳ ናት፤ አሁንም ማንም አይናገርም።",
+    "fa": "چهارشنبه شب ساعت دوازده دوباره تلفن زنگ می‌خوره. بازم یاماداست، بازم هیچ‌کی حرف نمی‌زنه."
+   },
+   "start": 30.192,
+   "end": 37.752,
+   "tokens": [
+    [
+     "星期三",
+     "xīng qī sān",
+     "Wednesday",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "phone call; phone number; telephone",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "响",
+     "xiǎng",
+     "to ring; echo; sound",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "说话",
+     "shuō huà",
+     "word; to speak; to say",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "第二天早上，安娜问山田：“这两天你为什么半夜给我打电话？”",
+   "py": "dì èr tiān zǎo shang, Ān nà wèn Shān tián: “zhè liǎng tiān nǐ wèi shén me bàn yè gěi wǒ dǎ diàn huà?”",
+   "en": "The next morning, Anna asks Yamada, \"Why have you been calling me in the middle of the night?\"",
+   "tr": {
+    "vi": "Sáng hôm sau, Anna hỏi Yamada: “Mấy hôm nay sao cậu cứ nửa đêm gọi cho mình thế?”",
+    "pt": "Na manhã seguinte, Anna pergunta à Yamada: “Por que você me ligou no meio da noite nesses últimos dias?”",
+    "es": "A la mañana siguiente, Anna le pregunta a Yamada: «¿Por qué me llamaste a medianoche estos dos días?»",
+    "fr": "Le lendemain matin, Anna demande à Yamada : « Pourquoi tu m’appelles en pleine nuit depuis deux jours ? »",
+    "am": "በማግስቱ ጠዋት አና ያማዳን «በእነዚህ ሁለት ቀናት ለምን እኩለ ሌሊት ላይ ትደውዪልኛለሽ?» ብላ ጠየቀቻት።",
+    "fa": "فرداش صبح آنا از یامادا می‌پرسه: «این دو شب چرا وسط شب بهم زنگ می‌زدی؟»"
+   },
+   "start": 38.452,
+   "end": 44.86,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "为什么",
+     "wèi shén me",
+     "why?; for what reason?",
+     ""
+    ],
+    [
+     "半夜",
+     "bàn yè",
+     "in the middle of the night; midnight",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "山田觉得很奇怪：“没有啊！我每天十点就睡觉了。”",
+   "py": "Shān tián jué de hěn qí guài: “méi yǒu a! wǒ měi tiān shí diǎn jiù shuì jiào le.”",
+   "en": "Yamada is puzzled. \"I haven't! I'm in bed by ten every night.\"",
+   "tr": {
+    "vi": "Yamada thấy rất lạ: “Đâu có! Ngày nào mình cũng mười giờ là đi ngủ rồi.”",
+    "pt": "Yamada acha muito estranho: “Eu não liguei! Eu vou dormir às dez todo dia.”",
+    "es": "A Yamada le parece muy raro: «¡Yo no te llamé! Todos los días me duermo a las diez».",
+    "fr": "Yamada est étonnée : « Mais non ! Je me couche tous les soirs à dix heures. »",
+    "am": "ያማዳ ገረማት። «አልደወልኩም! በየቀኑ 10:00 ላይ እተኛለሁ።»",
+    "fa": "یامادا عجیبه براش: «کجا! من هر شب ساعت ده می‌خوابم.»"
+   },
+   "start": 45.56,
+   "end": 51.512,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "奇怪",
+     "qí guài",
+     "strange; odd; to marvel",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; to not have; hasn't",
+     ""
+    ],
+    [
+     "啊",
+     "a",
+     "modal particle ending sentence, showing affirmation, approval, or consent",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to go to bed; to sleep",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "那天晚上，安娜住在山田家，想看看是怎么回事。",
+   "py": "nà tiān wǎn shang, Ān nà zhù zài Shān tián jiā, xiǎng kàn kàn shì zěn me huí shì.",
+   "en": "That night, Anna stays at Yamada's place to find out what's going on.",
+   "tr": {
+    "vi": "Tối hôm đó, Anna ngủ lại nhà Yamada, muốn xem rốt cuộc là chuyện gì.",
+    "pt": "Naquela noite, Anna dorme na casa da Yamada para ver o que está acontecendo.",
+    "es": "Esa noche, Anna se queda en casa de Yamada para ver qué pasa.",
+    "fr": "Ce soir-là, Anna dort chez Yamada pour voir ce qui se passe.",
+    "am": "በዚያ ምሽት አና ምን እየሆነ እንደሆነ ለማየት ያማዳ ቤት አደረች።",
+    "fa": "اون شب آنا می‌ره خونه‌ی یامادا ببینه قضیه چیه."
+   },
+   "start": 52.212,
+   "end": 58.164,
+   "tokens": [
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "住",
+     "zhù",
+     "to live; to reside; to stay; to stop; to cease",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "看看",
+     "kàn kan",
+     "to take a look at; to examine; to survey",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "怎么回事",
+     "zěn me huí shì",
+     "what's the matter?; what's going on?; what's it all about?",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "十二点，山田已经睡着了，手机就在她的床上。",
+   "py": "shí èr diǎn, Shān tián yǐ jīng shuì zháo le, shǒu jī jiù zài tā de chuáng shàng.",
+   "en": "At twelve, Yamada is fast asleep, with her phone lying on the bed.",
+   "tr": {
+    "vi": "Mười hai giờ, Yamada đã ngủ say, điện thoại để ngay trên giường.",
+    "pt": "À meia-noite, Yamada já está dormindo, com o celular em cima da cama.",
+    "es": "A las doce, Yamada ya está dormida, con el celular en la cama.",
+    "fr": "À minuit, Yamada dort déjà, son téléphone posé sur le lit.",
+    "am": "12:00 ላይ ያማዳ እንቅልፍ ወስዷት ነበር፤ ስልኳ አልጋዋ ላይ ነበር።",
+    "fa": "ساعت دوازده یامادا محکم خوابه و گوشی هم روی تختشه."
+   },
+   "start": 58.864,
+   "end": 64.312,
+   "tokens": [
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "睡着",
+     "shuì zháo",
+     "to fall asleep",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "床",
+     "chuáng",
+     "bed; couch (furniture that one can lie down on)",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "山田的猫米米跳上床，在手机上走了几步，然后睡在了上面。",
+   "py": "Shān tián de māo Mǐ mi tiào shàng chuáng, zài shǒu jī shàng zǒu le jǐ bù, rán hòu shuì zài le shàng miàn.",
+   "en": "Yamada's cat Mimi jumps onto the bed, takes a few steps across the phone and lies down on it to sleep.",
+   "tr": {
+    "vi": "Con mèo Mễ Mễ của Yamada nhảy lên giường, đi mấy bước trên điện thoại, rồi nằm ngủ luôn trên đó.",
+    "pt": "Mimi, a gata da Yamada, pula na cama, dá alguns passos em cima do celular e depois se deita em cima dele para dormir.",
+    "es": "Mimi, la gata de Yamada, se sube a la cama, camina unos pasos sobre el celular y luego se duerme encima.",
+    "fr": "Mimi, le chat de Yamada, saute sur le lit, fait quelques pas sur le téléphone, puis se couche dessus pour dormir.",
+    "am": "የያማዳ ድመት ሚሚ አልጋው ላይ ዘላ ወጣች፤ ስልኩ ላይ ጥቂት ተራመደችና በላዩ ላይ ተኛች።",
+    "fa": "گربه‌ی یامادا، میمی، می‌پره روی تخت، چند قدم روی گوشی راه می‌ره و بعد رویش می‌خوابه."
+   },
+   "start": 65.012,
+   "end": 71.9,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "猫",
+     "māo",
+     "cat; (dialect) to hide oneself; (loanword) (coll.) modem",
+     ""
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "跳",
+     "tiào",
+     "to jump; to hop; to skip over",
+     ""
+    ],
+    [
+     "上床",
+     "shàng chuáng",
+     "to go to bed; (coll.) to have sex",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "to climb; to get onto; to go up",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "几",
+     "jǐ",
+     "several; a few; how many; how much",
+     ""
+    ],
+    [
+     "步",
+     "bù",
+     "a step; a pace; walk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "然后",
+     "rán hòu",
+     "then; after that; afterwards",
+     ""
+    ],
+    [
+     "睡",
+     "shuì",
+     "to sleep; to lie down",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "上面",
+     "shàng miàn",
+     "on top of; above-mentioned; also pr.",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这时候，安娜的手机响了！",
+   "py": "zhè shí hou, Ān nà de shǒu jī xiǎng le!",
+   "en": "Just then, Anna's phone rings!",
+   "tr": {
+    "vi": "Đúng lúc đó, điện thoại của Anna reo!",
+    "pt": "Nesse momento, o celular da Anna toca!",
+    "es": "En ese momento, ¡suena el celular de Anna!",
+    "fr": "À ce moment-là, le téléphone d’Anna sonne !",
+    "am": "በዚያን ጊዜ የአና ስልክ ጮኸ!",
+    "fa": "در همین حین گوشی آنا زنگ می‌خوره!"
+   },
+   "start": 72.6,
+   "end": 75.936,
+   "tokens": [
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "候",
+     "hòu",
+     "to wait; to inquire after; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "响",
+     "xiǎng",
+     "to ring; echo; sound",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  },
+  {
+   "text": "她拿起来一听，又是那个很小的声音。",
+   "py": "tā ná qǐ lái yì tīng, yòu shì nà ge hěn xiǎo de shēng yīn.",
+   "en": "She picks it up and listens. It's that soft little sound again.",
+   "tr": {
+    "vi": "Cô nhấc máy nghe, lại là âm thanh rất nhỏ ấy.",
+    "pt": "Ela atende e escuta. É aquele barulhinho bem baixo de novo.",
+    "es": "Contesta y escucha: otra vez ese ruidito tan bajo.",
+    "fr": "Elle décroche et écoute : c’est encore ce tout petit bruit.",
+    "am": "አንሥታ ስትሰማ ያው ቀጭን ድምፅ ነው።",
+    "fa": "برمی‌داره و گوش می‌ده؛ بازم همون صدای خیلی آرومه."
+   },
+   "start": 76.636,
+   "end": 80.692,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "拿起",
+     "ná qǐ",
+     "to pick up",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; classifier for canned beverages",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "那个",
+     "nà ge",
+     "that one; that thing; that (as opposed to this)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "小的",
+     "xiǎo de",
+     "(coll.) young child; the little one(s) of the family",
+     ""
+    ],
+    [
+     "声音",
+     "shēng yīn",
+     "sound; voice",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜笑了：“我知道了，这是米米睡觉的声音！”",
+   "py": "Ān nà xiào le: “wǒ zhī dào le, zhè shì Mǐ mi shuì jiào de shēng yīn!”",
+   "en": "Anna laughs. \"Now I know. It's the sound of Mimi sleeping!\"",
+   "tr": {
+    "vi": "Anna cười: “Mình biết rồi, đây là tiếng Mễ Mễ ngủ!”",
+    "pt": "Anna ri: “Agora entendi. É o barulho da Mimi dormindo!”",
+    "es": "Anna se ríe: «¡Ya entendí! ¡Es el ruido de Mimi durmiendo!»",
+    "fr": "Anna rit : « J’ai compris : c’est le bruit de Mimi qui dort ! »",
+    "am": "አና ሳቀች። «አወቅሁ፤ ይሄ ሚሚ ስትተኛ የምታወጣው ድምፅ ነው!»",
+    "fa": "آنا می‌خنده: «فهمیدم! این صدای خوابیدن میمیه!»"
+   },
+   "start": 81.392,
+   "end": 86.408,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "知道了",
+     "zhī dào le",
+     "OK!; Got it!",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "米",
+     "mǐ",
+     "uncooked rice; meter (unit of length); (slang) Chinese yuan",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to sleep; to go to bed",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "声音",
+     "shēng yīn",
+     "sound; voice",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 250,
+ "first": "星期二晚上十二点，安娜已经睡觉了，这时候，她的手机突然响了。",
+ "newWords": [
+  {
+   "w": "突然",
+   "py": "tūrán",
+   "en": "sudden"
+  },
+  {
+   "w": "声音",
+   "py": "shēngyīn",
+   "en": "voice"
+  },
+  {
+   "w": "奇怪",
+   "py": "qíguài",
+   "en": "strange"
+  },
+  {
+   "w": "只好",
+   "py": "zhǐhǎo",
+   "en": "have no choice but"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h2-21.mp3?v=1791720580"
 }

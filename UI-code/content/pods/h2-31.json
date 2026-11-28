@@ -1,1458 +1,1471 @@
 {
-  "id": "h2-31",
-  "level": 2,
-  "no": 31,
-  "title": "有人问我路",
-  "title_py": "yǒu rén wèn wǒ lù",
-  "title_en": "Someone asked me the way",
-  "title_tr": {
-    "vi": "Có người hỏi đường tôi",
-    "pt": "Alguém me pediu informação",
-    "es": "Alguien me preguntó el camino",
-    "fr": "On m'a demandé le chemin",
-    "am": "አንድ ሰው መንገድ ጠየቀኝ",
-    "fa": "کسی از من آدرس پرسید"
+ "id": "h2-31",
+ "level": 2,
+ "no": 31,
+ "title": "有人问我路",
+ "title_py": "yǒu rén wèn wǒ lù",
+ "title_en": "Someone asked me the way",
+ "title_tr": {
+  "vi": "Có người hỏi đường tôi",
+  "pt": "Alguém me pediu informação",
+  "es": "Alguien me preguntó el camino",
+  "fr": "On m'a demandé le chemin",
+  "am": "አንድ ሰው መንገድ ጠየቀኝ",
+  "fa": "کسی از من آدرس پرسید"
+ },
+ "topic": "out",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h2-31.jpg",
+ "duration": 83.744,
+ "lines": [
+  {
+   "text": "杰克刚来中国的时候，常常找不到路，每次都要问别人。",
+   "py": "Jié kè gāng lái Zhōng guó de shí hou, cháng cháng zhǎo bú dào lù, měi cì dōu yào wèn bié ren.",
+   "en": "When Jack first came to China, he often got lost and always had to ask people the way.",
+   "tr": {
+    "vi": "Hồi mới đến Trung Quốc, Jack thường xuyên lạc đường, lần nào cũng phải hỏi người khác.",
+    "pt": "Quando Jack chegou à China, ele vivia se perdendo e sempre tinha que pedir informação.",
+    "es": "Cuando Jack recién llegó a China, se perdía muy seguido y siempre tenía que preguntarle a la gente.",
+    "fr": "Quand Jack est arrivé en Chine, il se perdait souvent et devait toujours demander son chemin.",
+    "am": "ጃክ ቻይና እንደመጣ ብዙ ጊዜ መንገድ ይጠፋበት ነበር፤ ሁልጊዜም ሰው ይጠይቅ ነበር።",
+    "fa": "وقتی جک تازه اومده بود چین، همیشه گم می‌شد و هر بار باید از بقیه راه می‌پرسید."
+   },
+   "start": 2.62,
+   "end": 8.092,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "刚",
+     "gāng",
+     "(literary) hard; firm; strong; exactly; precisely",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "中国",
+     "zhōng guó",
+     "China",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "常常",
+     "cháng cháng",
+     "frequently; often",
+     ""
+    ],
+    [
+     "找不到",
+     "zhǎo bu dào",
+     "can't find",
+     ""
+    ],
+    [
+     "路",
+     "lù",
+     "road; journey; route",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每次",
+     "měi cì",
+     "every time",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "别人",
+     "bié ren",
+     "other people; others; other person",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "out",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h2-31.jpg",
-  "duration": 83.744,
-  "lines": [
-    {
-      "text": "杰克刚来中国的时候，常常找不到路，每次都要问别人。",
-      "py": "Jié kè gāng lái Zhōng guó de shí hou, cháng cháng zhǎo bú dào lù, měi cì dōu yào wèn bié ren.",
-      "en": "When Jack first came to China, he often got lost and always had to ask people the way.",
-      "tr": {
-        "vi": "Hồi mới đến Trung Quốc, Jack thường xuyên lạc đường, lần nào cũng phải hỏi người khác.",
-        "pt": "Quando Jack chegou à China, ele vivia se perdendo e sempre tinha que pedir informação.",
-        "es": "Cuando Jack recién llegó a China, se perdía muy seguido y siempre tenía que preguntarle a la gente.",
-        "fr": "Quand Jack est arrivé en Chine, il se perdait souvent et devait toujours demander son chemin.",
-        "am": "ጃክ ቻይና እንደመጣ ብዙ ጊዜ መንገድ ይጠፋበት ነበር፤ ሁልጊዜም ሰው ይጠይቅ ነበር።"
-      },
-      "start": 2.62,
-      "end": 8.092,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "刚",
-          "gāng",
-          "(literary) hard; firm; strong; exactly; precisely",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "中国",
-          "zhōng guó",
-          "China",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "常常",
-          "cháng cháng",
-          "frequently; often",
-          ""
-        ],
-        [
-          "找不到",
-          "zhǎo bu dào",
-          "can't find",
-          ""
-        ],
-        [
-          "路",
-          "lù",
-          "road; journey; route",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每次",
-          "měi cì",
-          "every time",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "别人",
-          "bié ren",
-          "other people; others; other person",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "现在他在这儿住了一年，已经很清楚这里的路了。",
-      "py": "xiàn zài tā zài zhè r zhù le yì nián, yǐ jīng hěn qīng chu zhè lǐ de lù le.",
-      "en": "Now he's lived here for a year, and he knows the streets well.",
-      "tr": {
-        "vi": "Bây giờ anh đã sống ở đây một năm, đường sá ở đây anh đã rất rành.",
-        "pt": "Agora ele já mora aqui há um ano e conhece bem as ruas.",
-        "es": "Ahora ya lleva un año viviendo aquí y conoce muy bien las calles.",
-        "fr": "Maintenant, il habite ici depuis un an et connaît bien les rues du coin.",
-        "am": "አሁን እዚህ ከኖረ አንድ ዓመት ሆኖታል፤ የአካባቢውን መንገዶች በደንብ ያውቃል።"
-      },
-      "start": 8.792,
-      "end": 13.544,
-      "tokens": [
-        [
-          "现在",
-          "xiàn zài",
-          "now; at present; currently",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "这儿",
-          "zhè r",
-          "here",
-          ""
-        ],
-        [
-          "住",
-          "zhù",
-          "to live; to reside; to stay; to stop; to cease",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "清楚",
-          "qīng chu",
-          "clear; distinct; to understand thoroughly",
-          ""
-        ],
-        [
-          "这里",
-          "zhè lǐ",
-          "here",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "路",
-          "lù",
-          "road; journey; route",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "星期天下午，一个年轻人拿着地图走过来：“请问，去火车站怎么走？”",
-      "py": "xīng qī tiān xià wǔ, yí gè nián qīng rén ná zhe dì tú zǒu guò lái: “qǐng wèn, qù huǒ chē zhàn zěn me zǒu?”",
-      "en": "On Sunday afternoon, a young man holding a map comes up to him. \"Excuse me, how do I get to the train station?\"",
-      "tr": {
-        "vi": "Chiều Chủ nhật, một chàng trai cầm bản đồ đi tới: “Xin hỏi, đến ga tàu hỏa đi đường nào ạ?”",
-        "pt": "No domingo à tarde, um rapaz com um mapa na mão se aproxima: “Com licença, como eu chego à estação de trem?”",
-        "es": "El domingo por la tarde, un muchacho con un mapa en la mano se le acerca: «Disculpa, ¿cómo llego a la estación de tren?»",
-        "fr": "Dimanche après-midi, un jeune homme, un plan à la main, s’approche de lui : « Excusez-moi, pour aller à la gare, s’il vous plaît ? »",
-        "am": "እሑድ ከሰዓት አንድ ወጣት ካርታ ይዞ መጣ። «ይቅርታ፣ ወደ ባቡር ጣቢያ እንዴት ልሂድ?»"
-      },
-      "start": 14.244,
-      "end": 21.804,
-      "tokens": [
-        [
-          "星期天",
-          "xīng qī tiān",
-          "Sunday",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "年轻人",
-          "nián qīng rén",
-          "young people; youngster",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "地图",
-          "dì tú",
-          "map",
-          ""
-        ],
-        [
-          "走过",
-          "zǒu guò",
-          "to walk past; to pass by",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (after a round number) approximately",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "请问",
-          "qǐng wèn",
-          "Excuse me, may I ask...?",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "去火",
-          "qù huǒ",
-          "to reduce internal heat (TCM)",
-          ""
-        ],
-        [
-          "车站",
-          "chē zhàn",
-          "rail station; bus stop",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克心里很高兴：“有人问我路了！”",
-      "py": "Jié kè xīn lǐ hěn gāo xìng: “yǒu rén wèn wǒ lù le!”",
-      "en": "Jack is thrilled. \"Someone's asking me the way!\"",
-      "tr": {
-        "vi": "Jack mừng thầm: “Có người hỏi đường mình rồi!”",
-        "pt": "Jack fica muito contente: “Alguém está me pedindo informação!”",
-        "es": "Jack se pone muy contento: «¡Alguien me está preguntando cómo llegar!»",
-        "fr": "Jack est ravi : « Quelqu’un me demande son chemin ! »",
-        "am": "ጃክ በልቡ በጣም ተደሰተ። «አንድ ሰው መንገድ ጠየቀኝ!»"
-      },
-      "start": 22.504,
-      "end": 26.08,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "心里",
-          "xīn li",
-          "chest; heart; mind",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; there is someone there; people",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "路",
-          "lù",
-          "road; journey; route",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "他说：“往前走，到了银行往左，再走五分钟就到了。”",
-      "py": "tā shuō: “wǎng qián zǒu, dào le yín háng wǎng zuǒ, zài zǒu wǔ fēn zhōng jiù dào le.”",
-      "en": "He says, \"Go straight on, turn left at the bank, then walk another five minutes and you're there.\"",
-      "tr": {
-        "vi": "Anh nói: “Cứ đi thẳng, đến ngân hàng thì rẽ trái, đi thêm năm phút nữa là đến.”",
-        "pt": "Ele diz: “Siga em frente, no banco vire à esquerda, e mais cinco minutos você chega.”",
-        "es": "Le dice: «Sigue derecho, en el banco doblas a la izquierda, caminas cinco minutos más y llegas».",
-        "fr": "Il dit : « Allez tout droit, tournez à gauche à la banque, puis marchez encore cinq minutes, et vous y êtes. »",
-        "am": "«ቀጥ ብለህ ሂድ፤ ባንኩ ጋ ስትደርስ ወደ ግራ ታጠፍ፤ አምስት ደቂቃ ከሄድክ ትደርሳለህ» አለ።"
-      },
-      "start": 26.78,
-      "end": 32.732,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(bound form) other; another; some other (as in 他日 and 他人)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "往前",
-          "wǎng qián",
-          "(in) the past; ahead; forward; in the future",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "银行",
-          "yín háng",
-          "bank",
-          ""
-        ],
-        [
-          "往",
-          "wǎng",
-          "to go (in a direction); to; towards",
-          ""
-        ],
-        [
-          "左",
-          "zuǒ",
-          "left; the Left (politics); east",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "再",
-          "zài",
-          "then (after sth, and not until then)",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "分钟",
-          "fēn zhōng",
-          "minute",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "年轻人说：“谢谢！你的汉语说得真好！”",
-      "py": "nián qīng rén shuō: “xiè xie! nǐ de Hàn yǔ shuō de zhēn hǎo!”",
-      "en": "The young man says, \"Thanks! Your Chinese is really good!\"",
-      "tr": {
-        "vi": "Chàng trai nói: “Cảm ơn anh! Anh nói tiếng Trung giỏi thật!”",
-        "pt": "O rapaz diz: “Obrigado! Você fala chinês muito bem!”",
-        "es": "El muchacho dice: «¡Gracias! ¡Hablas muy bien chino!»",
-        "fr": "Le jeune homme dit : « Merci ! Vous parlez vraiment bien chinois ! »",
-        "am": "ወጣቱ «አመሰግናለሁ! ቻይንኛ በጣም ጥሩ ትናገራለህ!» አለ።"
-      },
-      "start": 33.432,
-      "end": 38.448,
-      "tokens": [
-        [
-          "年轻人",
-          "nián qīng rén",
-          "young people; youngster",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "汉语",
-          "hàn yǔ",
-          "Chinese language",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "真",
-          "zhēn",
-          "really; real; truly",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; (before a verb) good to; appropriate; proper",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "年轻人走了以后，杰克马上给小雨打电话：“今天有人问我路了！”",
-      "py": "nián qīng rén zǒu le yǐ hòu, Jié kè mǎ shàng gěi Xiǎo yǔ dǎ diàn huà: “jīn tiān yǒu rén wèn wǒ lù le!”",
-      "en": "After the young man has gone, Jack calls Xiaoyu straight away. \"Someone asked me the way today!\"",
-      "tr": {
-        "vi": "Chàng trai đi rồi, Jack liền gọi điện cho Tiểu Vũ: “Hôm nay có người hỏi đường mình đấy!”",
-        "pt": "Depois que o rapaz vai embora, Jack liga na hora para Xiaoyu: “Hoje alguém me pediu informação!”",
-        "es": "Cuando el muchacho se va, Jack llama enseguida a Xiaoyu: «¡Hoy alguien me preguntó cómo llegar a un lugar!»",
-        "fr": "Une fois le jeune homme parti, Jack appelle aussitôt Xiaoyu : « Aujourd’hui, quelqu’un m’a demandé son chemin ! »",
-        "am": "ወጣቱ ከሄደ በኋላ ጃክ ወዲያው ለሺያውዩ ደወለ። «ዛሬ አንድ ሰው መንገድ ጠየቀኝ!»"
-      },
-      "start": 39.148,
-      "end": 45.556,
-      "tokens": [
-        [
-          "年轻人",
-          "nián qīng rén",
-          "young people; youngster",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to go away; away (in compound verbs, such as 撤走); to walk",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; afterwards; later",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "right away; at once; immediately",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; there is someone there; people",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "路",
-          "lù",
-          "road; journey; route",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨问：“是吗？你是怎么告诉他的？”",
-      "py": "Xiǎo yǔ wèn: “shì ma? nǐ shì zěn me gào su tā de?”",
-      "en": "Xiaoyu asks, \"Really? What did you tell him?\"",
-      "tr": {
-        "vi": "Tiểu Vũ hỏi: “Thế à? Cậu chỉ cho người ta thế nào?”",
-        "pt": "Xiaoyu pergunta: “É mesmo? E o que você disse a ele?”",
-        "es": "Xiaoyu pregunta: «¿En serio? ¿Y qué le dijiste?»",
-        "fr": "Xiaoyu demande : « Ah bon ? Et qu’est-ce que tu lui as dit ? »",
-        "am": "ሺያውዩ «እውነት? ምን ብለህ ነገርከው?» ብላ ጠየቀች።"
-      },
-      "start": 46.256,
-      "end": 50.312,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "what?; how?; why?",
-          ""
-        ],
-        [
-          "告诉",
-          "gào su",
-          "to tell; to inform; to let know",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“往前走，到了银行往左……”说着说着，他突然停下来了。",
-      "py": "Jié kè shuō: “wǎng qián zǒu, dào le yín háng wǎng zuǒ……” shuō zhe shuō zhe, tā tū rán tíng xià lái le.",
-      "en": "Jack says, \"Go straight on, turn left at the bank...\" Halfway through, he suddenly stops.",
-      "tr": {
-        "vi": "Jack nói: “Đi thẳng, đến ngân hàng thì rẽ trái...” Đang nói, anh bỗng dừng lại.",
-        "pt": "Jack diz: “Siga em frente, no banco vire à esquerda…” No meio da frase, ele para de repente.",
-        "es": "Jack dice: «Sigue derecho, en el banco doblas a la izquierda…» A media frase, se detiene de repente.",
-        "fr": "Jack dit : « Allez tout droit, tournez à gauche à la banque… » Au milieu de sa phrase, il s’arrête net.",
-        "am": "ጃክ «ቀጥ ብለህ ሂድ፤ ባንኩ ጋ ስትደርስ ወደ ግራ…» እያለ ድንገት ቆመ።"
-      },
-      "start": 51.012,
-      "end": 59.796,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "往前",
-          "wǎng qián",
-          "(in) the past; ahead; forward; in the future",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "through; to walk; to go",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "银行",
-          "yín háng",
-          "bank",
-          ""
-        ],
-        [
-          "往",
-          "wǎng",
-          "to go (in a direction); to; towards",
-          ""
-        ],
-        [
-          "左",
-          "zuǒ",
-          "left; the Left (politics); east",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "”"
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "突然",
-          "tū rán",
-          "sudden; abrupt; unexpected",
-          ""
-        ],
-        [
-          "停下来",
-          "tíng xià lái",
-          "to stop",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“不对！是往右！”",
-      "py": "“bú duì! shì wǎng yòu!”",
-      "en": "\"No! It's right!\"",
-      "tr": {
-        "vi": "“Sai rồi! Là rẽ phải!”",
-        "pt": "“Errado! É à direita!”",
-        "es": "«¡No! ¡Es a la derecha!»",
-        "fr": "« Non ! C’est à droite ! »",
-        "am": "«አይደለም! ወደ ቀኝ ነው!»"
-      },
-      "start": 60.496,
-      "end": 62.416,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "不对",
-          "bù duì",
-          "incorrect; wrong; amiss",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "是",
-          "shì",
-          "correct; right; true; to be (followed by substantives only)",
-          ""
-        ],
-        [
-          "往",
-          "wǎng",
-          "to go (in a direction); to; towards",
-          ""
-        ],
-        [
-          "右",
-          "yòu",
-          "(bound form) right; right-hand side",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "他马上往前跑，跑了十分钟，终于找到了那个年轻人。",
-      "py": "tā mǎ shàng wǎng qián pǎo, pǎo le shí fēn zhōng, zhōng yú zhǎo dào le nà ge nián qīng rén.",
-      "en": "He runs off up the street, and after ten minutes he finally finds the young man.",
-      "tr": {
-        "vi": "Anh lập tức chạy về phía trước, chạy mười phút, cuối cùng cũng tìm thấy chàng trai đó.",
-        "pt": "Ele sai correndo rua acima e, depois de dez minutos, finalmente encontra o rapaz.",
-        "es": "Sale corriendo calle adelante, corre diez minutos y por fin encuentra al muchacho.",
-        "fr": "Il part en courant, et au bout de dix minutes, il retrouve enfin le jeune homme.",
-        "am": "ወዲያው ወደ ፊት ሮጠ፤ ለአሥር ደቂቃ ሮጦ በመጨረሻ ወጣቱን አገኘው።"
-      },
-      "start": 63.116,
-      "end": 68.324,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "at once; right away; immediately",
-          ""
-        ],
-        [
-          "往前",
-          "wǎng qián",
-          "(in) the past; ahead; forward; in the future",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "off; to run; to run away",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "跑",
-          "pǎo",
-          "off; to run; to run away",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "十分",
-          "shí fēn",
-          "to divide into ten equal parts; very; completely",
-          ""
-        ],
-        [
-          "钟",
-          "zhōng",
-          "handleless cup; goblet",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "finally; at last; in the end",
-          ""
-        ],
-        [
-          "找到",
-          "zhǎo dào",
-          "to find",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "那个",
-          "nà ge",
-          "that one; that thing; that (as opposed to this)",
-          ""
-        ],
-        [
-          "年轻人",
-          "nián qīng rén",
-          "young people; youngster",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“对不起，我说错了，到了银行应该往右。我带你去吧！”",
-      "py": "“duì bu qǐ, wǒ shuō cuò le, dào le yín háng yīng gāi wǎng yòu. wǒ dài nǐ qù ba!”",
-      "en": "\"Sorry, I got it wrong. You turn right at the bank. Let me take you there!\"",
-      "tr": {
-        "vi": "“Xin lỗi, tôi chỉ sai rồi, đến ngân hàng phải rẽ phải. Để tôi đưa cậu đi!”",
-        "pt": "“Desculpe, eu falei errado. No banco é para virar à direita. Eu levo você lá!”",
-        "es": "«Perdón, me equivoqué. En el banco hay que doblar a la derecha. ¡Te llevo!»",
-        "fr": "« Pardon, je me suis trompé : à la banque, il faut tourner à droite. Je vous y emmène ! »",
-        "am": "«ይቅርታ፣ ተሳስቼ ነበር፤ ባንኩ ጋ ስትደርስ ወደ ቀኝ ነው። ልውሰድህ!»"
-      },
-      "start": 69.024,
-      "end": 74.976,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "对不起",
-          "duì bu qǐ",
-          "I'm sorry; excuse me; I beg your pardon",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "错",
-          "cuò",
-          "wrong; to let slip; mistake",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "银行",
-          "yín háng",
-          "bank",
-          ""
-        ],
-        [
-          "应该",
-          "yīng gāi",
-          "ought to; should; must",
-          ""
-        ],
-        [
-          "往",
-          "wǎng",
-          "to go (in a direction); to; towards",
-          ""
-        ],
-        [
-          "右",
-          "yòu",
-          "(bound form) right; right-hand side",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "to take along; band; belt",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "...right?; (modal particle indicating suggestion or surmise)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "到了火车站，年轻人笑着说：“你的汉语很好，可是左右还要再学一学！”",
-      "py": "dào le huǒ chē zhàn, nián qīng rén xiào zhe shuō: “nǐ de Hàn yǔ hěn hǎo, kě shì zuǒ yòu hái yào zài xué yì xué!”",
-      "en": "At the station, the young man smiles. \"Your Chinese is great, but you might want to practise left and right!\"",
-      "tr": {
-        "vi": "Đến ga tàu, chàng trai cười nói: “Anh nói tiếng Trung rất giỏi, nhưng trái phải thì phải học thêm chút nữa đấy!”",
-        "pt": "Na estação, o rapaz sorri: “Seu chinês é muito bom, mas esquerda e direita você ainda precisa estudar mais um pouco!”",
-        "es": "Al llegar a la estación, el muchacho sonríe: «Hablas muy bien chino, ¡pero te falta practicar la izquierda y la derecha!»",
-        "fr": "À la gare, le jeune homme dit en souriant : « Votre chinois est très bon, mais la gauche et la droite, il faut encore les travailler ! »",
-        "am": "ባቡር ጣቢያ ሲደርሱ ወጣቱ ፈገግ ብሎ «ቻይንኛህ በጣም ጥሩ ነው፤ ግን ግራና ቀኝን ትንሽ መማር አለብህ!» አለ።"
-      },
-      "start": 75.676,
-      "end": 83.044,
-      "tokens": [
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "火车站",
-          "huǒ chē zhàn",
-          "train station",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "年轻人",
-          "nián qīng rén",
-          "young people; youngster",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "汉语",
-          "hàn yǔ",
-          "Chinese language",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "all right!; good; appropriate; proper",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "左右",
-          "zuǒ yòu",
-          "left and right; nearby; approximately",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; further; beyond this point of time",
-          ""
-        ],
-        [
-          "学",
-          "xué",
-          "to learn; to study; to imitate",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "\"one\" radical in Chinese characters (Kangxi radical 1)",
-          ""
-        ],
-        [
-          "学",
-          "xué",
-          "to learn; to study; to imitate",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 248,
-  "first": "杰克刚来中国的时候，常常找不到路，每次都要问别人。",
-  "newWords": [
-    {
-      "w": "清楚",
-      "py": "qīngchu",
-      "en": "(be) clear"
-    },
-    {
-      "w": "地图",
-      "py": "dìtú",
-      "en": "map"
-    },
-    {
-      "w": "银行",
-      "py": "yínháng",
-      "en": "bank"
-    },
-    {
-      "w": "往",
-      "py": "wǎng",
-      "en": "toward"
-    },
-    {
-      "w": "终于",
-      "py": "zhōngyú",
-      "en": "at last"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h2-31.mp3?v=1791720742"
+  {
+   "text": "现在他在这儿住了一年，已经很清楚这里的路了。",
+   "py": "xiàn zài tā zài zhè r zhù le yì nián, yǐ jīng hěn qīng chu zhè lǐ de lù le.",
+   "en": "Now he's lived here for a year, and he knows the streets well.",
+   "tr": {
+    "vi": "Bây giờ anh đã sống ở đây một năm, đường sá ở đây anh đã rất rành.",
+    "pt": "Agora ele já mora aqui há um ano e conhece bem as ruas.",
+    "es": "Ahora ya lleva un año viviendo aquí y conoce muy bien las calles.",
+    "fr": "Maintenant, il habite ici depuis un an et connaît bien les rues du coin.",
+    "am": "አሁን እዚህ ከኖረ አንድ ዓመት ሆኖታል፤ የአካባቢውን መንገዶች በደንብ ያውቃል።",
+    "fa": "الان یه ساله اینجاست و خیابون‌ها رو خوب بلده."
+   },
+   "start": 8.792,
+   "end": 13.544,
+   "tokens": [
+    [
+     "现在",
+     "xiàn zài",
+     "now; at present; currently",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "这儿",
+     "zhè r",
+     "here",
+     ""
+    ],
+    [
+     "住",
+     "zhù",
+     "to live; to reside; to stay; to stop; to cease",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "清楚",
+     "qīng chu",
+     "clear; distinct; to understand thoroughly",
+     ""
+    ],
+    [
+     "这里",
+     "zhè lǐ",
+     "here",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "路",
+     "lù",
+     "road; journey; route",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "星期天下午，一个年轻人拿着地图走过来：“请问，去火车站怎么走？”",
+   "py": "xīng qī tiān xià wǔ, yí gè nián qīng rén ná zhe dì tú zǒu guò lái: “qǐng wèn, qù huǒ chē zhàn zěn me zǒu?”",
+   "en": "On Sunday afternoon, a young man holding a map comes up to him. \"Excuse me, how do I get to the train station?\"",
+   "tr": {
+    "vi": "Chiều Chủ nhật, một chàng trai cầm bản đồ đi tới: “Xin hỏi, đến ga tàu hỏa đi đường nào ạ?”",
+    "pt": "No domingo à tarde, um rapaz com um mapa na mão se aproxima: “Com licença, como eu chego à estação de trem?”",
+    "es": "El domingo por la tarde, un muchacho con un mapa en la mano se le acerca: «Disculpa, ¿cómo llego a la estación de tren?»",
+    "fr": "Dimanche après-midi, un jeune homme, un plan à la main, s’approche de lui : « Excusez-moi, pour aller à la gare, s’il vous plaît ? »",
+    "am": "እሑድ ከሰዓት አንድ ወጣት ካርታ ይዞ መጣ። «ይቅርታ፣ ወደ ባቡር ጣቢያ እንዴት ልሂድ?»",
+    "fa": "یکشنبه بعدازظهر یه جوون با نقشه دستش میاد پیشش: «ببخشید، ایستگاه قطار چ‌طوری برم؟»"
+   },
+   "start": 14.244,
+   "end": 21.804,
+   "tokens": [
+    [
+     "星期天",
+     "xīng qī tiān",
+     "Sunday",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "年轻人",
+     "nián qīng rén",
+     "young people; youngster",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "地图",
+     "dì tú",
+     "map",
+     ""
+    ],
+    [
+     "走过",
+     "zǒu guò",
+     "to walk past; to pass by",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (after a round number) approximately",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "请问",
+     "qǐng wèn",
+     "Excuse me, may I ask...?",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "去火",
+     "qù huǒ",
+     "to reduce internal heat (TCM)",
+     ""
+    ],
+    [
+     "车站",
+     "chē zhàn",
+     "rail station; bus stop",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克心里很高兴：“有人问我路了！”",
+   "py": "Jié kè xīn lǐ hěn gāo xìng: “yǒu rén wèn wǒ lù le!”",
+   "en": "Jack is thrilled. \"Someone's asking me the way!\"",
+   "tr": {
+    "vi": "Jack mừng thầm: “Có người hỏi đường mình rồi!”",
+    "pt": "Jack fica muito contente: “Alguém está me pedindo informação!”",
+    "es": "Jack se pone muy contento: «¡Alguien me está preguntando cómo llegar!»",
+    "fr": "Jack est ravi : « Quelqu’un me demande son chemin ! »",
+    "am": "ጃክ በልቡ በጣም ተደሰተ። «አንድ ሰው መንገድ ጠየቀኝ!»",
+    "fa": "جک توی دلش خوشحاله: «یکی از من راه پرسید!»"
+   },
+   "start": 22.504,
+   "end": 26.08,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "心里",
+     "xīn li",
+     "chest; heart; mind",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; there is someone there; people",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "路",
+     "lù",
+     "road; journey; route",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "他说：“往前走，到了银行往左，再走五分钟就到了。”",
+   "py": "tā shuō: “wǎng qián zǒu, dào le yín háng wǎng zuǒ, zài zǒu wǔ fēn zhōng jiù dào le.”",
+   "en": "He says, \"Go straight on, turn left at the bank, then walk another five minutes and you're there.\"",
+   "tr": {
+    "vi": "Anh nói: “Cứ đi thẳng, đến ngân hàng thì rẽ trái, đi thêm năm phút nữa là đến.”",
+    "pt": "Ele diz: “Siga em frente, no banco vire à esquerda, e mais cinco minutos você chega.”",
+    "es": "Le dice: «Sigue derecho, en el banco doblas a la izquierda, caminas cinco minutos más y llegas».",
+    "fr": "Il dit : « Allez tout droit, tournez à gauche à la banque, puis marchez encore cinq minutes, et vous y êtes. »",
+    "am": "«ቀጥ ብለህ ሂድ፤ ባንኩ ጋ ስትደርስ ወደ ግራ ታጠፍ፤ አምስት ደቂቃ ከሄድክ ትደርሳለህ» አለ።",
+    "fa": "می‌گه: «مستقیم برو، رسیدی بانک بپیچ چپ، پنج دقیقه دیگه هم می‌رسی.»"
+   },
+   "start": 26.78,
+   "end": 32.732,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(bound form) other; another; some other (as in 他日 and 他人)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "往前",
+     "wǎng qián",
+     "(in) the past; ahead; forward; in the future",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "银行",
+     "yín háng",
+     "bank",
+     ""
+    ],
+    [
+     "往",
+     "wǎng",
+     "to go (in a direction); to; towards",
+     ""
+    ],
+    [
+     "左",
+     "zuǒ",
+     "left; the Left (politics); east",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "再",
+     "zài",
+     "then (after sth, and not until then)",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "分钟",
+     "fēn zhōng",
+     "minute",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "年轻人说：“谢谢！你的汉语说得真好！”",
+   "py": "nián qīng rén shuō: “xiè xie! nǐ de Hàn yǔ shuō de zhēn hǎo!”",
+   "en": "The young man says, \"Thanks! Your Chinese is really good!\"",
+   "tr": {
+    "vi": "Chàng trai nói: “Cảm ơn anh! Anh nói tiếng Trung giỏi thật!”",
+    "pt": "O rapaz diz: “Obrigado! Você fala chinês muito bem!”",
+    "es": "El muchacho dice: «¡Gracias! ¡Hablas muy bien chino!»",
+    "fr": "Le jeune homme dit : « Merci ! Vous parlez vraiment bien chinois ! »",
+    "am": "ወጣቱ «አመሰግናለሁ! ቻይንኛ በጣም ጥሩ ትናገራለህ!» አለ።",
+    "fa": "اون جوون می‌گه: «ممنون! چینی‌ت واقعاً خوبه!»"
+   },
+   "start": 33.432,
+   "end": 38.448,
+   "tokens": [
+    [
+     "年轻人",
+     "nián qīng rén",
+     "young people; youngster",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "汉语",
+     "hàn yǔ",
+     "Chinese language",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "真",
+     "zhēn",
+     "really; real; truly",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; (before a verb) good to; appropriate; proper",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "年轻人走了以后，杰克马上给小雨打电话：“今天有人问我路了！”",
+   "py": "nián qīng rén zǒu le yǐ hòu, Jié kè mǎ shàng gěi Xiǎo yǔ dǎ diàn huà: “jīn tiān yǒu rén wèn wǒ lù le!”",
+   "en": "After the young man has gone, Jack calls Xiaoyu straight away. \"Someone asked me the way today!\"",
+   "tr": {
+    "vi": "Chàng trai đi rồi, Jack liền gọi điện cho Tiểu Vũ: “Hôm nay có người hỏi đường mình đấy!”",
+    "pt": "Depois que o rapaz vai embora, Jack liga na hora para Xiaoyu: “Hoje alguém me pediu informação!”",
+    "es": "Cuando el muchacho se va, Jack llama enseguida a Xiaoyu: «¡Hoy alguien me preguntó cómo llegar a un lugar!»",
+    "fr": "Une fois le jeune homme parti, Jack appelle aussitôt Xiaoyu : « Aujourd’hui, quelqu’un m’a demandé son chemin ! »",
+    "am": "ወጣቱ ከሄደ በኋላ ጃክ ወዲያው ለሺያውዩ ደወለ። «ዛሬ አንድ ሰው መንገድ ጠየቀኝ!»",
+    "fa": "جوون که می‌ره، جک همون لحظه به شیائویو زنگ می‌زنه: «امروز یکی از من راه پرسید!»"
+   },
+   "start": 39.148,
+   "end": 45.556,
+   "tokens": [
+    [
+     "年轻人",
+     "nián qīng rén",
+     "young people; youngster",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to go away; away (in compound verbs, such as 撤走); to walk",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; afterwards; later",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "right away; at once; immediately",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; there is someone there; people",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "路",
+     "lù",
+     "road; journey; route",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨问：“是吗？你是怎么告诉他的？”",
+   "py": "Xiǎo yǔ wèn: “shì ma? nǐ shì zěn me gào su tā de?”",
+   "en": "Xiaoyu asks, \"Really? What did you tell him?\"",
+   "tr": {
+    "vi": "Tiểu Vũ hỏi: “Thế à? Cậu chỉ cho người ta thế nào?”",
+    "pt": "Xiaoyu pergunta: “É mesmo? E o que você disse a ele?”",
+    "es": "Xiaoyu pregunta: «¿En serio? ¿Y qué le dijiste?»",
+    "fr": "Xiaoyu demande : « Ah bon ? Et qu’est-ce que tu lui as dit ? »",
+    "am": "ሺያውዩ «እውነት? ምን ብለህ ነገርከው?» ብላ ጠየቀች።",
+    "fa": "شیائویو می‌پرسه: «جدی؟ چی گفتی بهش؟»"
+   },
+   "start": 46.256,
+   "end": 50.312,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "what?; how?; why?",
+     ""
+    ],
+    [
+     "告诉",
+     "gào su",
+     "to tell; to inform; to let know",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克说：“往前走，到了银行往左……”说着说着，他突然停下来了。",
+   "py": "Jié kè shuō: “wǎng qián zǒu, dào le yín háng wǎng zuǒ……” shuō zhe shuō zhe, tā tū rán tíng xià lái le.",
+   "en": "Jack says, \"Go straight on, turn left at the bank...\" Halfway through, he suddenly stops.",
+   "tr": {
+    "vi": "Jack nói: “Đi thẳng, đến ngân hàng thì rẽ trái...” Đang nói, anh bỗng dừng lại.",
+    "pt": "Jack diz: “Siga em frente, no banco vire à esquerda…” No meio da frase, ele para de repente.",
+    "es": "Jack dice: «Sigue derecho, en el banco doblas a la izquierda…» A media frase, se detiene de repente.",
+    "fr": "Jack dit : « Allez tout droit, tournez à gauche à la banque… » Au milieu de sa phrase, il s’arrête net.",
+    "am": "ጃክ «ቀጥ ብለህ ሂድ፤ ባንኩ ጋ ስትደርስ ወደ ግራ…» እያለ ድንገት ቆመ።",
+    "fa": "جک می‌گه: «مستقیم برو، رسیدی بانک بپیچ چپ…» وسط حرفش یهو می‌ایسته."
+   },
+   "start": 51.012,
+   "end": 59.796,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "往前",
+     "wǎng qián",
+     "(in) the past; ahead; forward; in the future",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "through; to walk; to go",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "银行",
+     "yín háng",
+     "bank",
+     ""
+    ],
+    [
+     "往",
+     "wǎng",
+     "to go (in a direction); to; towards",
+     ""
+    ],
+    [
+     "左",
+     "zuǒ",
+     "left; the Left (politics); east",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "”"
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "突然",
+     "tū rán",
+     "sudden; abrupt; unexpected",
+     ""
+    ],
+    [
+     "停下来",
+     "tíng xià lái",
+     "to stop",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“不对！是往右！”",
+   "py": "“bú duì! shì wǎng yòu!”",
+   "en": "\"No! It's right!\"",
+   "tr": {
+    "vi": "“Sai rồi! Là rẽ phải!”",
+    "pt": "“Errado! É à direita!”",
+    "es": "«¡No! ¡Es a la derecha!»",
+    "fr": "« Non ! C’est à droite ! »",
+    "am": "«አይደለም! ወደ ቀኝ ነው!»",
+    "fa": "«نه بابا! راست باید بپیچونه!»"
+   },
+   "start": 60.496,
+   "end": 62.416,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "不对",
+     "bù duì",
+     "incorrect; wrong; amiss",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "是",
+     "shì",
+     "correct; right; true; to be (followed by substantives only)",
+     ""
+    ],
+    [
+     "往",
+     "wǎng",
+     "to go (in a direction); to; towards",
+     ""
+    ],
+    [
+     "右",
+     "yòu",
+     "(bound form) right; right-hand side",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "他马上往前跑，跑了十分钟，终于找到了那个年轻人。",
+   "py": "tā mǎ shàng wǎng qián pǎo, pǎo le shí fēn zhōng, zhōng yú zhǎo dào le nà ge nián qīng rén.",
+   "en": "He runs off up the street, and after ten minutes he finally finds the young man.",
+   "tr": {
+    "vi": "Anh lập tức chạy về phía trước, chạy mười phút, cuối cùng cũng tìm thấy chàng trai đó.",
+    "pt": "Ele sai correndo rua acima e, depois de dez minutos, finalmente encontra o rapaz.",
+    "es": "Sale corriendo calle adelante, corre diez minutos y por fin encuentra al muchacho.",
+    "fr": "Il part en courant, et au bout de dix minutes, il retrouve enfin le jeune homme.",
+    "am": "ወዲያው ወደ ፊት ሮጠ፤ ለአሥር ደቂቃ ሮጦ በመጨረሻ ወጣቱን አገኘው።",
+    "fa": "همین‌جا می‌دوه جلو؛ ده دقیقه می‌دوه تا بالاخره اون جوون رو پیدا می‌کنه."
+   },
+   "start": 63.116,
+   "end": 68.324,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "at once; right away; immediately",
+     ""
+    ],
+    [
+     "往前",
+     "wǎng qián",
+     "(in) the past; ahead; forward; in the future",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "off; to run; to run away",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "跑",
+     "pǎo",
+     "off; to run; to run away",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "十分",
+     "shí fēn",
+     "to divide into ten equal parts; very; completely",
+     ""
+    ],
+    [
+     "钟",
+     "zhōng",
+     "handleless cup; goblet",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "finally; at last; in the end",
+     ""
+    ],
+    [
+     "找到",
+     "zhǎo dào",
+     "to find",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "那个",
+     "nà ge",
+     "that one; that thing; that (as opposed to this)",
+     ""
+    ],
+    [
+     "年轻人",
+     "nián qīng rén",
+     "young people; youngster",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“对不起，我说错了，到了银行应该往右。我带你去吧！”",
+   "py": "“duì bu qǐ, wǒ shuō cuò le, dào le yín háng yīng gāi wǎng yòu. wǒ dài nǐ qù ba!”",
+   "en": "\"Sorry, I got it wrong. You turn right at the bank. Let me take you there!\"",
+   "tr": {
+    "vi": "“Xin lỗi, tôi chỉ sai rồi, đến ngân hàng phải rẽ phải. Để tôi đưa cậu đi!”",
+    "pt": "“Desculpe, eu falei errado. No banco é para virar à direita. Eu levo você lá!”",
+    "es": "«Perdón, me equivoqué. En el banco hay que doblar a la derecha. ¡Te llevo!»",
+    "fr": "« Pardon, je me suis trompé : à la banque, il faut tourner à droite. Je vous y emmène ! »",
+    "am": "«ይቅርታ፣ ተሳስቼ ነበር፤ ባንኩ ጋ ስትደርስ ወደ ቀኝ ነው። ልውሰድህ!»",
+    "fa": "«ببخشید، اشتباه گفتم؛ جلوی بانک باید راست بپیچی. منم می‌برمت!»"
+   },
+   "start": 69.024,
+   "end": 74.976,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "对不起",
+     "duì bu qǐ",
+     "I'm sorry; excuse me; I beg your pardon",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "错",
+     "cuò",
+     "wrong; to let slip; mistake",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "银行",
+     "yín háng",
+     "bank",
+     ""
+    ],
+    [
+     "应该",
+     "yīng gāi",
+     "ought to; should; must",
+     ""
+    ],
+    [
+     "往",
+     "wǎng",
+     "to go (in a direction); to; towards",
+     ""
+    ],
+    [
+     "右",
+     "yòu",
+     "(bound form) right; right-hand side",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "to take along; band; belt",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "...right?; (modal particle indicating suggestion or surmise)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "到了火车站，年轻人笑着说：“你的汉语很好，可是左右还要再学一学！”",
+   "py": "dào le huǒ chē zhàn, nián qīng rén xiào zhe shuō: “nǐ de Hàn yǔ hěn hǎo, kě shì zuǒ yòu hái yào zài xué yì xué!”",
+   "en": "At the station, the young man smiles. \"Your Chinese is great, but you might want to practise left and right!\"",
+   "tr": {
+    "vi": "Đến ga tàu, chàng trai cười nói: “Anh nói tiếng Trung rất giỏi, nhưng trái phải thì phải học thêm chút nữa đấy!”",
+    "pt": "Na estação, o rapaz sorri: “Seu chinês é muito bom, mas esquerda e direita você ainda precisa estudar mais um pouco!”",
+    "es": "Al llegar a la estación, el muchacho sonríe: «Hablas muy bien chino, ¡pero te falta practicar la izquierda y la derecha!»",
+    "fr": "À la gare, le jeune homme dit en souriant : « Votre chinois est très bon, mais la gauche et la droite, il faut encore les travailler ! »",
+    "am": "ባቡር ጣቢያ ሲደርሱ ወጣቱ ፈገግ ብሎ «ቻይንኛህ በጣም ጥሩ ነው፤ ግን ግራና ቀኝን ትንሽ መማር አለብህ!» አለ።",
+    "fa": "ایستگاه قطار که می‌رسن، اون جوون با لبخند می‌گه: «چینی‌ت خیلی خوبه، ولی چپ و راست رو باید یه تمرینی بکنی!»"
+   },
+   "start": 75.676,
+   "end": 83.044,
+   "tokens": [
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "火车站",
+     "huǒ chē zhàn",
+     "train station",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "年轻人",
+     "nián qīng rén",
+     "young people; youngster",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "汉语",
+     "hàn yǔ",
+     "Chinese language",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "all right!; good; appropriate; proper",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "左右",
+     "zuǒ yòu",
+     "left and right; nearby; approximately",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; further; beyond this point of time",
+     ""
+    ],
+    [
+     "学",
+     "xué",
+     "to learn; to study; to imitate",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "\"one\" radical in Chinese characters (Kangxi radical 1)",
+     ""
+    ],
+    [
+     "学",
+     "xué",
+     "to learn; to study; to imitate",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 248,
+ "first": "杰克刚来中国的时候，常常找不到路，每次都要问别人。",
+ "newWords": [
+  {
+   "w": "清楚",
+   "py": "qīngchu",
+   "en": "(be) clear"
+  },
+  {
+   "w": "地图",
+   "py": "dìtú",
+   "en": "map"
+  },
+  {
+   "w": "银行",
+   "py": "yínháng",
+   "en": "bank"
+  },
+  {
+   "w": "往",
+   "py": "wǎng",
+   "en": "toward"
+  },
+  {
+   "w": "终于",
+   "py": "zhōngyú",
+   "en": "at last"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h2-31.mp3?v=1791720742"
 }

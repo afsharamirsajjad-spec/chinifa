@@ -1,1645 +1,1660 @@
 {
-  "id": "h3-02",
-  "level": 3,
-  "no": 2,
-  "title": "护照呢？",
-  "title_py": "hù zhào ne?",
-  "title_en": "Where's the passport?",
-  "title_tr": {
-    "vi": "Hộ chiếu đâu?",
-    "pt": "Cadê o passaporte?",
-    "es": "¿Y el pasaporte?",
-    "fr": "Et le passeport ?",
-    "am": "ፓስፖርቱ የት አለ?",
-    "fa": "گذرنامه کجاست؟"
+ "id": "h3-02",
+ "level": 3,
+ "no": 2,
+ "title": "护照呢？",
+ "title_py": "hù zhào ne?",
+ "title_en": "Where's the passport?",
+ "title_tr": {
+  "vi": "Hộ chiếu đâu?",
+  "pt": "Cadê o passaporte?",
+  "es": "¿Y el pasaporte?",
+  "fr": "Et le passeport ?",
+  "am": "ፓስፖርቱ የት አለ?",
+  "fa": "گذرنامه کجاست؟"
+ },
+ "topic": "travel",
+ "free": true,
+ "cover": "https://media.kanchinese.app/review/stories/h3-02.jpg",
+ "duration": 87.736,
+ "lines": [
+  {
+   "text": "放假了，安娜和山田打算坐飞机去西安玩儿。",
+   "py": "fàng jià le, Ān nà hé Shān tián dǎ suàn zuò fēi jī qù xī ān wán r.",
+   "en": "The holidays have started, and Anna and Yamada plan to fly to Xi'an for a trip.",
+   "tr": {
+    "vi": "Được nghỉ rồi, Anna và Yamada định đi máy bay đến Tây An chơi.",
+    "pt": "Começaram as férias, e a Anna e a Yamada planejam viajar de avião para passear em Xi’an.",
+    "es": "Empezaron las vacaciones, y Anna y Yamada piensan ir en avión de paseo a Xi'an.",
+    "fr": "C’est les vacances, et Anna et Yamada ont prévu de prendre l’avion pour aller visiter Xi’an.",
+    "am": "ዕረፍት ደረሰ፤ አና እና ያማዳ በአውሮፕላን ወደ ሺአን ሄደው ለመዝናናት አቀዱ።",
+    "fa": "تعطیلات شروع شده و آنا و یامادا تصمیم می‌گیرن با هواپیما برن شی‌آن سفر."
+   },
+   "start": 1.924,
+   "end": 6.94,
+   "tokens": [
+    [
+     "放假",
+     "fàng jià",
+     "to have a holiday or vacation",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "打算",
+     "dǎ suàn",
+     "to plan; plan; to intend",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "飞机",
+     "fēi jī",
+     "airplane",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "西安",
+     "xī ān",
+     "see 西安市",
+     ""
+    ],
+    [
+     "玩儿",
+     "wán r",
+     "to have fun; to play; to hang out",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "travel",
-  "free": true,
-  "cover": "https://media.kanchinese.app/review/stories/h3-02.jpg",
-  "duration": 87.736,
-  "lines": [
-    {
-      "text": "放假了，安娜和山田打算坐飞机去西安玩儿。",
-      "py": "fàng jià le, Ān nà hé Shān tián dǎ suàn zuò fēi jī qù xī ān wán r.",
-      "en": "The holidays have started, and Anna and Yamada plan to fly to Xi'an for a trip.",
-      "tr": {
-        "vi": "Được nghỉ rồi, Anna và Yamada định đi máy bay đến Tây An chơi.",
-        "pt": "Começaram as férias, e a Anna e a Yamada planejam viajar de avião para passear em Xi’an.",
-        "es": "Empezaron las vacaciones, y Anna y Yamada piensan ir en avión de paseo a Xi'an.",
-        "fr": "C’est les vacances, et Anna et Yamada ont prévu de prendre l’avion pour aller visiter Xi’an.",
-        "am": "ዕረፍት ደረሰ፤ አና እና ያማዳ በአውሮፕላን ወደ ሺአን ሄደው ለመዝናናት አቀዱ።"
-      },
-      "start": 1.924,
-      "end": 6.94,
-      "tokens": [
-        [
-          "放假",
-          "fàng jià",
-          "to have a holiday or vacation",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "打算",
-          "dǎ suàn",
-          "to plan; plan; to intend",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "飞机",
-          "fēi jī",
-          "airplane",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "西安",
-          "xī ān",
-          "see 西安市",
-          ""
-        ],
-        [
-          "玩儿",
-          "wán r",
-          "to have fun; to play; to hang out",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "航班是上午十点的，她们八点就到了机场。",
-      "py": "háng bān shì shàng wǔ shí diǎn de, tā men bā diǎn jiù dào le jī chǎng.",
-      "en": "Their flight is at ten in the morning, and they get to the airport at eight.",
-      "tr": {
-        "vi": "Chuyến bay lúc mười giờ sáng, tám giờ hai người đã đến sân bay.",
-        "pt": "O voo é às dez da manhã, e elas chegam ao aeroporto às oito.",
-        "es": "Su vuelo sale a las diez de la mañana, y ellas llegan al aeropuerto a las ocho.",
-        "fr": "Leur vol est à dix heures du matin, mais elles arrivent à l’aéroport dès huit heures.",
-        "am": "በረራው ጠዋት 10:00 ላይ ነው፤ እነሱ 8:00 ላይ አየር ማረፊያ ደረሱ።"
-      },
-      "start": 7.64,
-      "end": 12.176,
-      "tokens": [
-        [
-          "航班",
-          "háng bān",
-          "(scheduled) flight; (scheduled) sailing",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "上午",
-          "shàng wǔ",
-          "morning",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她们",
-          "tā men",
-          "they; them (females)",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "机场",
-          "jī chǎng",
-          "airport; airfield",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一下出租车，山田就问：“你的护照带了吗？”",
-      "py": "yí xià chū zū chē, Shān tián jiù wèn: “nǐ de hù zhào dài le ma?”",
-      "en": "As soon as they get out of the taxi, Yamada asks, \"Have you got your passport?\"",
-      "tr": {
-        "vi": "Vừa xuống taxi, Yamada đã hỏi: “Bạn mang hộ chiếu chưa?”",
-        "pt": "Assim que descem do táxi, a Yamada pergunta: “Você trouxe o passaporte?”",
-        "es": "En cuanto bajan del taxi, Yamada pregunta: «¿Trajiste el pasaporte?».",
-        "fr": "À peine descendue du taxi, Yamada demande : « Tu as pris ton passeport ? »",
-        "am": "ከታክሲ እንደወረዱ ያማዳ «ፓስፖርትሽን ይዘሻል?» ብላ ጠየቀች።"
-      },
-      "start": 12.876,
-      "end": 17.628,
-      "tokens": [
-        [
-          "一下",
-          "yī xià",
-          "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
-          ""
-        ],
-        [
-          "出租车",
-          "chū zū chē",
-          "taxi; (Tw) rental car",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a clause of action) as soon as; immediately after",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "护照",
-          "hù zhào",
-          "passport",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "to bear (i.e. to have); band; belt",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜说：“当然带了，我昨天晚上就把它放进包里了。”",
-      "py": "Ān nà shuō: “dāng rán dài le, wǒ zuó tiān wǎn shang jiù bǎ tā fàng jìn bāo lǐ le.”",
-      "en": "Anna says, \"Of course. I put it in my bag last night.\"",
-      "tr": {
-        "vi": "Anna nói: “Tất nhiên là mang rồi, tối qua mình đã bỏ nó vào túi rồi.”",
-        "pt": "A Anna diz: “Claro que trouxe. Ontem à noite já coloquei na bolsa.”",
-        "es": "Anna dice: «Claro que sí. Lo puse en la bolsa anoche».",
-        "fr": "Anna dit : « Bien sûr. Je l’ai mis dans mon sac hier soir. »",
-        "am": "አና «እንዴታ፤ ትናንት ማታ ቦርሳዬ ውስጥ አስገብቼዋለሁ» አለች።"
-      },
-      "start": 18.328,
-      "end": 23.368,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "当然",
-          "dāng rán",
-          "of course; only natural; as it should be",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "band; belt; girdle",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "昨天",
-          "zuó tiān",
-          "yesterday",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "(used to put the object before the verb: 把 + {noun} + {verb})",
-          ""
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "放进",
-          "fàng jìn",
-          "to put into",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "bag; to cover; to wrap",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "可是她打开包找了半天，只找到了钱和手机。",
-      "py": "kě shì tā dǎ kāi bāo zhǎo le bàn tiān, zhǐ zhǎo dào le qián hé shǒu jī.",
-      "en": "But when she opens the bag and searches for ages, she finds only money and her phone.",
-      "tr": {
-        "vi": "Nhưng cô mở túi ra tìm mãi, chỉ thấy tiền và điện thoại.",
-        "pt": "Mas ela abre a bolsa, procura por um bom tempo e só encontra o dinheiro e o celular.",
-        "es": "Pero abre la bolsa, busca y busca, y solo encuentra dinero y el teléfono.",
-        "fr": "Mais elle ouvre son sac et cherche longtemps : elle ne trouve que son argent et son téléphone.",
-        "am": "ግን ቦርሳዋን ከፍታ ለረጅም ጊዜ ፈለገች፤ ያገኘችው ገንዘብና ስልክ ብቻ ነው።"
-      },
-      "start": 24.068,
-      "end": 28.82,
-      "tokens": [
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "bag; to cover; to wrap",
-          ""
-        ],
-        [
-          "找",
-          "zhǎo",
-          "to try to find; to find; to look for",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "half of the day; a long time; quite a while",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "找到",
-          "zhǎo dào",
-          "to find",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "money; coin; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“奇怪，我的护照呢？”安娜越找越着急。",
-      "py": "“qí guài, wǒ de hù zhào ne?” Ān nà yuè zhǎo yuè zháo jí.",
-      "en": "\"That's strange. Where's my passport?\" The longer Anna looks, the more worried she gets.",
-      "tr": {
-        "vi": "“Lạ thật, hộ chiếu của mình đâu rồi?” Anna càng tìm càng cuống.",
-        "pt": "“Que estranho, onde está meu passaporte?” Quanto mais a Anna procura, mais aflita fica.",
-        "es": "«Qué raro, ¿y mi pasaporte?». Cuanto más busca Anna, más nerviosa se pone.",
-        "fr": "« C’est bizarre, où est mon passeport ? » Plus Anna cherche, plus elle s’inquiète.",
-        "am": "«ይገርማል፤ ፓስፖርቴ የት ገባ?» አና በፈለገች ቁጥር ይበልጥ ተጨነቀች።"
-      },
-      "start": 29.52,
-      "end": 34.992,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "奇怪",
-          "qí guài",
-          "strange; odd; to marvel",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "护照",
-          "hù zhào",
-          "passport",
-          ""
-        ],
-        [
-          "呢",
-          "ne",
-          "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "the more... the more; to exceed; to climb over",
-          ""
-        ],
-        [
-          "找",
-          "zhǎo",
-          "to look for; to try to find; to call on sb",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "the more... the more; to exceed; to climb over",
-          ""
-        ],
-        [
-          "着急",
-          "zháo jí",
-          "to worry; to feel anxious",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "山田说：“别着急，还来得及。你再想想，昨天晚上你还做了什么？”",
-      "py": "Shān tián shuō: “bié zháo jí, hái lái de jí. nǐ zài xiǎng xiǎng, zuó tiān wǎn shang nǐ hái zuò le shén me?”",
-      "en": "Yamada says, \"Don't worry, there's still time. Think again. What else did you do last night?\"",
-      "tr": {
-        "vi": "Yamada nói: “Đừng lo, vẫn còn kịp. Bạn nghĩ lại xem, tối qua bạn còn làm gì nữa?”",
-        "pt": "A Yamada diz: “Calma, ainda dá tempo. Pense bem: o que mais você fez ontem à noite?”",
-        "es": "Yamada dice: «Tranquila, todavía hay tiempo. Piensa otra vez: ¿qué más hiciste anoche?».",
-        "fr": "Yamada dit : « Ne t’inquiète pas, on a encore le temps. Réfléchis : qu’est-ce que tu as fait d’autre hier soir ? »",
-        "am": "ያማዳ «አትጨነቂ፤ ገና ጊዜ አለ። እስቲ አስቢ፤ ትናንት ማታ ሌላ ምን አደረግሽ?» አለች።"
-      },
-      "start": 35.692,
-      "end": 42.772,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "别",
-          "bié",
-          "don't ...!; to leave; to part (from)",
-          ""
-        ],
-        [
-          "着急",
-          "zháo jí",
-          "to worry; to feel anxious",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "来得及",
-          "lái de jí",
-          "to have enough time; can do it in time; can still make it",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; further; beyond this point of time",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "昨天",
-          "zuó tiān",
-          "yesterday",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我把东西都拿出来，放进了行李箱，又换了一个包……”",
-      "py": "“wǒ bǎ dōng xi dōu ná chū lái, fàng jìn le xíng li xiāng, yòu huàn le yí gè bāo……”",
-      "en": "\"I took everything out, put it in the suitcase, and changed to a different bag...\"",
-      "tr": {
-        "vi": "“Mình lấy hết đồ ra, cho vào va li, rồi đổi sang một cái túi khác…”",
-        "pt": "“Eu tirei tudo, coloquei na mala, depois troquei de bolsa…”",
-        "es": "«Saqué todo, lo metí en la maleta y cambié de bolsa…».",
-        "fr": "« J’ai tout sorti, je l’ai mis dans la valise, et puis j’ai changé de sac… »",
-        "am": "«ዕቃዎቹን ሁሉ አውጥቼ ሻንጣ ውስጥ አስገባሁ፤ ቦርሳም ቀየርኩ…»"
-      },
-      "start": 43.472,
-      "end": 48.2,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "(used to put the object before the verb: 把 + {noun} + {verb})",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to put forward (a proposal)",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "ever since (as in 自古以来); to come",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "放进",
-          "fàng jìn",
-          "to put into",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "行李箱",
-          "xíng li xiāng",
-          "suitcase; baggage compartment; overhead bin",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "换",
-          "huàn",
-          "to change (clothes etc); to exchange; to substitute",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "bag; to cover; to wrap",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "山田想了想，突然笑了起来。",
-      "py": "Shān tián xiǎng le xiǎng, tū rán xiào le qǐ lái.",
-      "en": "Yamada thinks for a moment and suddenly starts to laugh.",
-      "tr": {
-        "vi": "Yamada nghĩ một lúc, bỗng bật cười.",
-        "pt": "A Yamada pensa um pouco e de repente começa a rir.",
-        "es": "Yamada lo piensa un momento y, de repente, se echa a reír.",
-        "fr": "Yamada réfléchit un instant, puis elle se met soudain à rire.",
-        "am": "ያማዳ ትንሽ አሰበችና ድንገት መሳቅ ጀመረች።"
-      },
-      "start": 48.9,
-      "end": 52.5,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "突然",
-          "tū rán",
-          "sudden; abrupt; unexpected",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她从自己的包里拿出了两本护照。",
-      "py": "tā cóng zì jǐ de bāo lǐ ná chū le liǎng běn hù zhào.",
-      "en": "She takes two passports out of her own bag.",
-      "tr": {
-        "vi": "Cô lấy từ trong túi của mình ra hai cuốn hộ chiếu.",
-        "pt": "Ela tira dois passaportes da própria bolsa.",
-        "es": "Saca dos pasaportes de su propia bolsa.",
-        "fr": "Elle sort deux passeports de son propre sac.",
-        "am": "ከራሷ ቦርሳ ሁለት ፓስፖርቶችን አወጣች።"
-      },
-      "start": 53.2,
-      "end": 56.512,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "to take charge of; bag; to cover",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "本",
-          "běn",
-          "(bound form) one's own; this",
-          ""
-        ],
-        [
-          "护照",
-          "hù zhào",
-          "passport",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“你忘了吗？昨天晚上你把护照给了我，你说你太粗心，让我帮你拿着。”",
-      "py": "“nǐ wàng le ma? zuó tiān wǎn shang nǐ bǎ hù zhào gěi le wǒ, nǐ shuō nǐ tài cū xīn, ràng wǒ bāng nǐ ná zhe.”",
-      "en": "\"Did you forget? Last night you gave me your passport. You said you were too careless and asked me to keep it for you.\"",
-      "tr": {
-        "vi": "“Bạn quên rồi à? Tối qua bạn đưa hộ chiếu cho mình, bạn bảo bạn bất cẩn lắm, nhờ mình giữ giúp.”",
-        "pt": "“Você esqueceu? Ontem à noite você me deu seu passaporte. Disse que era muito distraída e pediu para eu guardar para você.”",
-        "es": "«¿Se te olvidó? Anoche me diste tu pasaporte. Dijiste que eras muy despistada y me pediste que te lo guardara».",
-        "fr": "« Tu as oublié ? Hier soir, tu m’as donné ton passeport. Tu as dit que tu étais trop étourdie et tu m’as demandé de le garder pour toi. »",
-        "am": "«ረሳሽው? ትናንት ማታ ፓስፖርትሽን ሰጠሽኝ፤ ‹በጣም ዝንጉ ነኝ፤ ያዢልኝ› አልሽኝ።»"
-      },
-      "start": 57.212,
-      "end": 64.316,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "忘",
-          "wàng",
-          "to forget; to overlook; to neglect",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "昨天",
-          "zuó tiān",
-          "yesterday",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "护照",
-          "hù zhào",
-          "passport",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "粗心",
-          "cū xīn",
-          "careless; thoughtless",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "让",
-          "ràng",
-          "to yield; to permit; to let sb do sth",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "帮",
-          "bāng",
-          "to help; to assist; to support",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜不好意思地说：“我只记得把它放好了，不记得放在哪儿了。”",
-      "py": "Ān nà bù hǎo yì sī de shuō: “wǒ zhǐ jì de bǎ tā fàng hǎo le, bú jì de fàng zài nǎ r le.”",
-      "en": "Anna says, embarrassed, \"I only remembered putting it somewhere safe, not where.\"",
-      "tr": {
-        "vi": "Anna ngượng ngùng nói: “Mình chỉ nhớ là đã cất nó cẩn thận, không nhớ cất ở đâu.”",
-        "pt": "A Anna diz, sem graça: “Eu só lembrava que tinha guardado bem, não lembrava onde.”",
-        "es": "Anna dice, avergonzada: «Solo me acordaba de que lo había guardado bien, no de dónde».",
-        "fr": "Anna dit, un peu gênée : « Je me souvenais seulement de l’avoir bien rangé, pas de l’endroit où je l’avais mis. »",
-        "am": "አና እያፈረች «በደህና ቦታ እንዳስቀመጥኩት ብቻ ነው የማስታውሰው፤ የት እንዳስቀመጥኩት አላስታውስም» አለች።"
-      },
-      "start": 65.016,
-      "end": 71.16,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to feel embarrassed; to find it embarrassing",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
-          ""
-        ],
-        [
-          "记得",
-          "jì de",
-          "to remember",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "记得",
-          "jì de",
-          "to remember",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "哪儿",
-          "nǎ r",
-          "where?; wherever; anywhere; somewhere",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "两个人笑着走进了机场。",
-      "py": "liǎng gè rén xiào zhe zǒu jìn le jī chǎng.",
-      "en": "The two of them walk into the airport, laughing.",
-      "tr": {
-        "vi": "Hai người cười vui vẻ bước vào sân bay.",
-        "pt": "As duas entram no aeroporto rindo.",
-        "es": "Las dos entran riendo en el aeropuerto.",
-        "fr": "Les deux amies entrent dans l’aéroport en riant.",
-        "am": "ሁለቱም እየሳቁ ወደ አየር ማረፊያው ገቡ።"
-      },
-      "start": 71.86,
-      "end": 74.236,
-      "tokens": [
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "走进",
-          "zǒu jìn",
-          "to enter; to step into",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "机场",
-          "jī chǎng",
-          "airport; airfield",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "山田说：“这次旅行，你的护照和机票都放在我这儿吧。”",
-      "py": "Shān tián shuō: “zhè cì lǚ xíng, nǐ de hù zhào hé jī piào dōu fàng zài wǒ zhè r ba.”",
-      "en": "Yamada says, \"On this trip, let me keep your passport and your plane ticket.\"",
-      "tr": {
-        "vi": "Yamada nói: “Chuyến đi này, hộ chiếu và vé máy bay của bạn cứ để mình giữ nhé.”",
-        "pt": "A Yamada diz: “Nesta viagem, deixe o seu passaporte e a sua passagem comigo.”",
-        "es": "Yamada dice: «En este viaje, mejor yo guardo tu pasaporte y tu boleto de avión».",
-        "fr": "Yamada dit : « Pendant ce voyage, c’est moi qui garde ton passeport et ton billet d’avion. »",
-        "am": "ያማዳ «በዚህ ጉዞ ፓስፖርትሽንም ትኬትሽንም እኔ ልያዝልሽ» አለች።"
-      },
-      "start": 74.936,
-      "end": 81.08,
-      "tokens": [
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "次",
-          "cì",
-          "classifier for enumerated events: time; next in sequence",
-          ""
-        ],
-        [
-          "旅行",
-          "lǚ xíng",
-          "journey; trip; to travel",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "护照",
-          "hù zhào",
-          "passport",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "机票",
-          "jī piào",
-          "plane ticket; airline ticket",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to let go; to let out; to put",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "我这儿",
-          "wǒ zhe r",
-          "where I am; my place",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜马上说：“好！除了护照，我的钱也给你！”",
-      "py": "Ān nà mǎ shàng shuō: “hǎo! chú le hù zhào, wǒ de qián yě gěi nǐ!”",
-      "en": "Anna says at once, \"Deal! And besides the passport, you can have my money too!\"",
-      "tr": {
-        "vi": "Anna lập tức nói: “Được! Ngoài hộ chiếu ra, tiền của mình cũng đưa bạn giữ luôn!”",
-        "pt": "A Anna responde na hora: “Combinado! Além do passaporte, pode ficar com o meu dinheiro também!”",
-        "es": "Anna dice enseguida: «¡Trato hecho! ¡Y además del pasaporte, te doy también mi dinero!».",
-        "fr": "Anna répond aussitôt : « D’accord ! Et en plus du passeport, je te donne aussi mon argent ! »",
-        "am": "አና ወዲያው «እሺ! ከፓስፖርቱ በተጨማሪ ገንዘቤንም ውሰጂ!» አለች።"
-      },
-      "start": 81.78,
-      "end": 87.036,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "at once; right away; immediately",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "除了",
-          "chú le",
-          "apart from; besides; in addition to (used to exclude, as in 除了他，除了他，谁也没来 \"apart from him, nobody came\", or to include, as in 除了英語，除了英语，他也会法语 \"in addition to English, he also knows French\")",
-          ""
-        ],
-        [
-          "护照",
-          "hù zhào",
-          "passport",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "money; coin; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 271,
-  "first": "放假了，安娜和山田打算坐飞机去西安玩儿。",
-  "newWords": [
-    {
-      "w": "来得及",
-      "py": "láidejí",
-      "en": "in time to do"
-    },
-    {
-      "w": "粗心",
-      "py": "cūxīn",
-      "en": "careless"
-    },
-    {
-      "w": "旅行",
-      "py": "lǚxíng",
-      "en": "travel"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-02.mp3?v=1791720571"
+  {
+   "text": "航班是上午十点的，她们八点就到了机场。",
+   "py": "háng bān shì shàng wǔ shí diǎn de, tā men bā diǎn jiù dào le jī chǎng.",
+   "en": "Their flight is at ten in the morning, and they get to the airport at eight.",
+   "tr": {
+    "vi": "Chuyến bay lúc mười giờ sáng, tám giờ hai người đã đến sân bay.",
+    "pt": "O voo é às dez da manhã, e elas chegam ao aeroporto às oito.",
+    "es": "Su vuelo sale a las diez de la mañana, y ellas llegan al aeropuerto a las ocho.",
+    "fr": "Leur vol est à dix heures du matin, mais elles arrivent à l’aéroport dès huit heures.",
+    "am": "በረራው ጠዋት 10:00 ላይ ነው፤ እነሱ 8:00 ላይ አየር ማረፊያ ደረሱ።",
+    "fa": "پروازشون ساعت ده صبحه و ساعت هشت می‌رسن فرودگاه."
+   },
+   "start": 7.64,
+   "end": 12.176,
+   "tokens": [
+    [
+     "航班",
+     "háng bān",
+     "(scheduled) flight; (scheduled) sailing",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "上午",
+     "shàng wǔ",
+     "morning",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她们",
+     "tā men",
+     "they; them (females)",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "机场",
+     "jī chǎng",
+     "airport; airfield",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一下出租车，山田就问：“你的护照带了吗？”",
+   "py": "yí xià chū zū chē, Shān tián jiù wèn: “nǐ de hù zhào dài le ma?”",
+   "en": "As soon as they get out of the taxi, Yamada asks, \"Have you got your passport?\"",
+   "tr": {
+    "vi": "Vừa xuống taxi, Yamada đã hỏi: “Bạn mang hộ chiếu chưa?”",
+    "pt": "Assim que descem do táxi, a Yamada pergunta: “Você trouxe o passaporte?”",
+    "es": "En cuanto bajan del taxi, Yamada pregunta: «¿Trajiste el pasaporte?».",
+    "fr": "À peine descendue du taxi, Yamada demande : « Tu as pris ton passeport ? »",
+    "am": "ከታክሲ እንደወረዱ ያማዳ «ፓስፖርትሽን ይዘሻል?» ብላ ጠየቀች።",
+    "fa": "تازه از تاکسی پیاده شدن که یامادا می‌پرسه: «پاسپورتتو برداشتی؟»"
+   },
+   "start": 12.876,
+   "end": 17.628,
+   "tokens": [
+    [
+     "一下",
+     "yī xià",
+     "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
+     ""
+    ],
+    [
+     "出租车",
+     "chū zū chē",
+     "taxi; (Tw) rental car",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a clause of action) as soon as; immediately after",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "护照",
+     "hù zhào",
+     "passport",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "to bear (i.e. to have); band; belt",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜说：“当然带了，我昨天晚上就把它放进包里了。”",
+   "py": "Ān nà shuō: “dāng rán dài le, wǒ zuó tiān wǎn shang jiù bǎ tā fàng jìn bāo lǐ le.”",
+   "en": "Anna says, \"Of course. I put it in my bag last night.\"",
+   "tr": {
+    "vi": "Anna nói: “Tất nhiên là mang rồi, tối qua mình đã bỏ nó vào túi rồi.”",
+    "pt": "A Anna diz: “Claro que trouxe. Ontem à noite já coloquei na bolsa.”",
+    "es": "Anna dice: «Claro que sí. Lo puse en la bolsa anoche».",
+    "fr": "Anna dit : « Bien sûr. Je l’ai mis dans mon sac hier soir. »",
+    "am": "አና «እንዴታ፤ ትናንት ማታ ቦርሳዬ ውስጥ አስገብቼዋለሁ» አለች።",
+    "fa": "آنا می‌گه: «البته. دیشب گذاشتمش تو کیفم.»"
+   },
+   "start": 18.328,
+   "end": 23.368,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "当然",
+     "dāng rán",
+     "of course; only natural; as it should be",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "band; belt; girdle",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "昨天",
+     "zuó tiān",
+     "yesterday",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "(used to put the object before the verb: 把 + {noun} + {verb})",
+     ""
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "放进",
+     "fàng jìn",
+     "to put into",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "bag; to cover; to wrap",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "可是她打开包找了半天，只找到了钱和手机。",
+   "py": "kě shì tā dǎ kāi bāo zhǎo le bàn tiān, zhǐ zhǎo dào le qián hé shǒu jī.",
+   "en": "But when she opens the bag and searches for ages, she finds only money and her phone.",
+   "tr": {
+    "vi": "Nhưng cô mở túi ra tìm mãi, chỉ thấy tiền và điện thoại.",
+    "pt": "Mas ela abre a bolsa, procura por um bom tempo e só encontra o dinheiro e o celular.",
+    "es": "Pero abre la bolsa, busca y busca, y solo encuentra dinero y el teléfono.",
+    "fr": "Mais elle ouvre son sac et cherche longtemps : elle ne trouve que son argent et son téléphone.",
+    "am": "ግን ቦርሳዋን ከፍታ ለረጅም ጊዜ ፈለገች፤ ያገኘችው ገንዘብና ስልክ ብቻ ነው።",
+    "fa": "ولی وقتی کیفو باز می‌کنه و مدت‌ها می‌گرده، فقط پول و گوشیشو پیدا می‌کنه."
+   },
+   "start": 24.068,
+   "end": 28.82,
+   "tokens": [
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "bag; to cover; to wrap",
+     ""
+    ],
+    [
+     "找",
+     "zhǎo",
+     "to try to find; to find; to look for",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "half of the day; a long time; quite a while",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "找到",
+     "zhǎo dào",
+     "to find",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "money; coin; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“奇怪，我的护照呢？”安娜越找越着急。",
+   "py": "“qí guài, wǒ de hù zhào ne?” Ān nà yuè zhǎo yuè zháo jí.",
+   "en": "\"That's strange. Where's my passport?\" The longer Anna looks, the more worried she gets.",
+   "tr": {
+    "vi": "“Lạ thật, hộ chiếu của mình đâu rồi?” Anna càng tìm càng cuống.",
+    "pt": "“Que estranho, onde está meu passaporte?” Quanto mais a Anna procura, mais aflita fica.",
+    "es": "«Qué raro, ¿y mi pasaporte?». Cuanto más busca Anna, más nerviosa se pone.",
+    "fr": "« C’est bizarre, où est mon passeport ? » Plus Anna cherche, plus elle s’inquiète.",
+    "am": "«ይገርማል፤ ፓስፖርቴ የት ገባ?» አና በፈለገች ቁጥር ይበልጥ ተጨነቀች።",
+    "fa": "«چقدر عجیبه. پس پاسپورتم کو؟» هرچی آنا بیشتر می‌گرده، بیشتر نگران می‌شه."
+   },
+   "start": 29.52,
+   "end": 34.992,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "奇怪",
+     "qí guài",
+     "strange; odd; to marvel",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "护照",
+     "hù zhào",
+     "passport",
+     ""
+    ],
+    [
+     "呢",
+     "ne",
+     "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "the more... the more; to exceed; to climb over",
+     ""
+    ],
+    [
+     "找",
+     "zhǎo",
+     "to look for; to try to find; to call on sb",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "the more... the more; to exceed; to climb over",
+     ""
+    ],
+    [
+     "着急",
+     "zháo jí",
+     "to worry; to feel anxious",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "山田说：“别着急，还来得及。你再想想，昨天晚上你还做了什么？”",
+   "py": "Shān tián shuō: “bié zháo jí, hái lái de jí. nǐ zài xiǎng xiǎng, zuó tiān wǎn shang nǐ hái zuò le shén me?”",
+   "en": "Yamada says, \"Don't worry, there's still time. Think again. What else did you do last night?\"",
+   "tr": {
+    "vi": "Yamada nói: “Đừng lo, vẫn còn kịp. Bạn nghĩ lại xem, tối qua bạn còn làm gì nữa?”",
+    "pt": "A Yamada diz: “Calma, ainda dá tempo. Pense bem: o que mais você fez ontem à noite?”",
+    "es": "Yamada dice: «Tranquila, todavía hay tiempo. Piensa otra vez: ¿qué más hiciste anoche?».",
+    "fr": "Yamada dit : « Ne t’inquiète pas, on a encore le temps. Réfléchis : qu’est-ce que tu as fait d’autre hier soir ? »",
+    "am": "ያማዳ «አትጨነቂ፤ ገና ጊዜ አለ። እስቲ አስቢ፤ ትናንት ማታ ሌላ ምን አደረግሽ?» አለች።",
+    "fa": "یامادا می‌گه: «نگران نباش، هنوز وقت داریم. دوباره فکر کن. دیشب دیگه چی‌کار کردی؟»"
+   },
+   "start": 35.692,
+   "end": 42.772,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "别",
+     "bié",
+     "don't ...!; to leave; to part (from)",
+     ""
+    ],
+    [
+     "着急",
+     "zháo jí",
+     "to worry; to feel anxious",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "来得及",
+     "lái de jí",
+     "to have enough time; can do it in time; can still make it",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; further; beyond this point of time",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "昨天",
+     "zuó tiān",
+     "yesterday",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我把东西都拿出来，放进了行李箱，又换了一个包……”",
+   "py": "“wǒ bǎ dōng xi dōu ná chū lái, fàng jìn le xíng li xiāng, yòu huàn le yí gè bāo……”",
+   "en": "\"I took everything out, put it in the suitcase, and changed to a different bag...\"",
+   "tr": {
+    "vi": "“Mình lấy hết đồ ra, cho vào va li, rồi đổi sang một cái túi khác…”",
+    "pt": "“Eu tirei tudo, coloquei na mala, depois troquei de bolsa…”",
+    "es": "«Saqué todo, lo metí en la maleta y cambié de bolsa…».",
+    "fr": "« J’ai tout sorti, je l’ai mis dans la valise, et puis j’ai changé de sac… »",
+    "am": "«ዕቃዎቹን ሁሉ አውጥቼ ሻንጣ ውስጥ አስገባሁ፤ ቦርሳም ቀየርኩ…»",
+    "fa": "«همه‌چیزو درآوردم، تو چمدون گذاشتم، و کیفمو عوض کردم به یه کیف دیگه...»"
+   },
+   "start": 43.472,
+   "end": 48.2,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "(used to put the object before the verb: 把 + {noun} + {verb})",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to put forward (a proposal)",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "ever since (as in 自古以来); to come",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "放进",
+     "fàng jìn",
+     "to put into",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "行李箱",
+     "xíng li xiāng",
+     "suitcase; baggage compartment; overhead bin",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "换",
+     "huàn",
+     "to change (clothes etc); to exchange; to substitute",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "bag; to cover; to wrap",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "山田想了想，突然笑了起来。",
+   "py": "Shān tián xiǎng le xiǎng, tū rán xiào le qǐ lái.",
+   "en": "Yamada thinks for a moment and suddenly starts to laugh.",
+   "tr": {
+    "vi": "Yamada nghĩ một lúc, bỗng bật cười.",
+    "pt": "A Yamada pensa um pouco e de repente começa a rir.",
+    "es": "Yamada lo piensa un momento y, de repente, se echa a reír.",
+    "fr": "Yamada réfléchit un instant, puis elle se met soudain à rire.",
+    "am": "ያማዳ ትንሽ አሰበችና ድንገት መሳቅ ጀመረች።",
+    "fa": "یامادا یه لحظه فکر می‌کنه و یهو می‌خنده."
+   },
+   "start": 48.9,
+   "end": 52.5,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "突然",
+     "tū rán",
+     "sudden; abrupt; unexpected",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她从自己的包里拿出了两本护照。",
+   "py": "tā cóng zì jǐ de bāo lǐ ná chū le liǎng běn hù zhào.",
+   "en": "She takes two passports out of her own bag.",
+   "tr": {
+    "vi": "Cô lấy từ trong túi của mình ra hai cuốn hộ chiếu.",
+    "pt": "Ela tira dois passaportes da própria bolsa.",
+    "es": "Saca dos pasaportes de su propia bolsa.",
+    "fr": "Elle sort deux passeports de son propre sac.",
+    "am": "ከራሷ ቦርሳ ሁለት ፓስፖርቶችን አወጣች።",
+    "fa": "دو تا پاسپورت از کیف خودش درمیاره."
+   },
+   "start": 53.2,
+   "end": 56.512,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "to take charge of; bag; to cover",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "本",
+     "běn",
+     "(bound form) one's own; this",
+     ""
+    ],
+    [
+     "护照",
+     "hù zhào",
+     "passport",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“你忘了吗？昨天晚上你把护照给了我，你说你太粗心，让我帮你拿着。”",
+   "py": "“nǐ wàng le ma? zuó tiān wǎn shang nǐ bǎ hù zhào gěi le wǒ, nǐ shuō nǐ tài cū xīn, ràng wǒ bāng nǐ ná zhe.”",
+   "en": "\"Did you forget? Last night you gave me your passport. You said you were too careless and asked me to keep it for you.\"",
+   "tr": {
+    "vi": "“Bạn quên rồi à? Tối qua bạn đưa hộ chiếu cho mình, bạn bảo bạn bất cẩn lắm, nhờ mình giữ giúp.”",
+    "pt": "“Você esqueceu? Ontem à noite você me deu seu passaporte. Disse que era muito distraída e pediu para eu guardar para você.”",
+    "es": "«¿Se te olvidó? Anoche me diste tu pasaporte. Dijiste que eras muy despistada y me pediste que te lo guardara».",
+    "fr": "« Tu as oublié ? Hier soir, tu m’as donné ton passeport. Tu as dit que tu étais trop étourdie et tu m’as demandé de le garder pour toi. »",
+    "am": "«ረሳሽው? ትናንት ማታ ፓስፖርትሽን ሰጠሽኝ፤ ‹በጣም ዝንጉ ነኝ፤ ያዢልኝ› አልሽኝ።»",
+    "fa": "«یادت رفته؟ دیشب پاسپورتتو به من دادی. گفتی خیلی فراموشکاری و ازم خواستی برات نگهش دارم.»"
+   },
+   "start": 57.212,
+   "end": 64.316,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "忘",
+     "wàng",
+     "to forget; to overlook; to neglect",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "昨天",
+     "zuó tiān",
+     "yesterday",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "护照",
+     "hù zhào",
+     "passport",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "粗心",
+     "cū xīn",
+     "careless; thoughtless",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "让",
+     "ràng",
+     "to yield; to permit; to let sb do sth",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "帮",
+     "bāng",
+     "to help; to assist; to support",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜不好意思地说：“我只记得把它放好了，不记得放在哪儿了。”",
+   "py": "Ān nà bù hǎo yì sī de shuō: “wǒ zhǐ jì de bǎ tā fàng hǎo le, bú jì de fàng zài nǎ r le.”",
+   "en": "Anna says, embarrassed, \"I only remembered putting it somewhere safe, not where.\"",
+   "tr": {
+    "vi": "Anna ngượng ngùng nói: “Mình chỉ nhớ là đã cất nó cẩn thận, không nhớ cất ở đâu.”",
+    "pt": "A Anna diz, sem graça: “Eu só lembrava que tinha guardado bem, não lembrava onde.”",
+    "es": "Anna dice, avergonzada: «Solo me acordaba de que lo había guardado bien, no de dónde».",
+    "fr": "Anna dit, un peu gênée : « Je me souvenais seulement de l’avoir bien rangé, pas de l’endroit où je l’avais mis. »",
+    "am": "አና እያፈረች «በደህና ቦታ እንዳስቀመጥኩት ብቻ ነው የማስታውሰው፤ የት እንዳስቀመጥኩት አላስታውስም» አለች።",
+    "fa": "آنا خجالت‌زده می‌گه: «فقط یادم اومد که یه جای امن گذاشتمش؛ یادم نیست کجا.»"
+   },
+   "start": 65.016,
+   "end": 71.16,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to feel embarrassed; to find it embarrassing",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
+     ""
+    ],
+    [
+     "记得",
+     "jì de",
+     "to remember",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "记得",
+     "jì de",
+     "to remember",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "哪儿",
+     "nǎ r",
+     "where?; wherever; anywhere; somewhere",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "两个人笑着走进了机场。",
+   "py": "liǎng gè rén xiào zhe zǒu jìn le jī chǎng.",
+   "en": "The two of them walk into the airport, laughing.",
+   "tr": {
+    "vi": "Hai người cười vui vẻ bước vào sân bay.",
+    "pt": "As duas entram no aeroporto rindo.",
+    "es": "Las dos entran riendo en el aeropuerto.",
+    "fr": "Les deux amies entrent dans l’aéroport en riant.",
+    "am": "ሁለቱም እየሳቁ ወደ አየር ማረፊያው ገቡ።",
+    "fa": "اون دو نفر با خنده وارد فرودگاه می‌شن."
+   },
+   "start": 71.86,
+   "end": 74.236,
+   "tokens": [
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "走进",
+     "zǒu jìn",
+     "to enter; to step into",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "机场",
+     "jī chǎng",
+     "airport; airfield",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "山田说：“这次旅行，你的护照和机票都放在我这儿吧。”",
+   "py": "Shān tián shuō: “zhè cì lǚ xíng, nǐ de hù zhào hé jī piào dōu fàng zài wǒ zhè r ba.”",
+   "en": "Yamada says, \"On this trip, let me keep your passport and your plane ticket.\"",
+   "tr": {
+    "vi": "Yamada nói: “Chuyến đi này, hộ chiếu và vé máy bay của bạn cứ để mình giữ nhé.”",
+    "pt": "A Yamada diz: “Nesta viagem, deixe o seu passaporte e a sua passagem comigo.”",
+    "es": "Yamada dice: «En este viaje, mejor yo guardo tu pasaporte y tu boleto de avión».",
+    "fr": "Yamada dit : « Pendant ce voyage, c’est moi qui garde ton passeport et ton billet d’avion. »",
+    "am": "ያማዳ «በዚህ ጉዞ ፓስፖርትሽንም ትኬትሽንም እኔ ልያዝልሽ» አለች።",
+    "fa": "یامادا می‌گه: «این سفر، پاسپورت و بلیطِ هواپییمو تو نگه دار.»"
+   },
+   "start": 74.936,
+   "end": 81.08,
+   "tokens": [
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "次",
+     "cì",
+     "classifier for enumerated events: time; next in sequence",
+     ""
+    ],
+    [
+     "旅行",
+     "lǚ xíng",
+     "journey; trip; to travel",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "护照",
+     "hù zhào",
+     "passport",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "机票",
+     "jī piào",
+     "plane ticket; airline ticket",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to let go; to let out; to put",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "我这儿",
+     "wǒ zhe r",
+     "where I am; my place",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜马上说：“好！除了护照，我的钱也给你！”",
+   "py": "Ān nà mǎ shàng shuō: “hǎo! chú le hù zhào, wǒ de qián yě gěi nǐ!”",
+   "en": "Anna says at once, \"Deal! And besides the passport, you can have my money too!\"",
+   "tr": {
+    "vi": "Anna lập tức nói: “Được! Ngoài hộ chiếu ra, tiền của mình cũng đưa bạn giữ luôn!”",
+    "pt": "A Anna responde na hora: “Combinado! Além do passaporte, pode ficar com o meu dinheiro também!”",
+    "es": "Anna dice enseguida: «¡Trato hecho! ¡Y además del pasaporte, te doy también mi dinero!».",
+    "fr": "Anna répond aussitôt : « D’accord ! Et en plus du passeport, je te donne aussi mon argent ! »",
+    "am": "አና ወዲያው «እሺ! ከፓስፖርቱ በተጨማሪ ገንዘቤንም ውሰጂ!» አለች።",
+    "fa": "آنا فوری می‌گه: «قراره! و غیر از پاسپورت، پولمو هم می‌سپرم پیشت!»"
+   },
+   "start": 81.78,
+   "end": 87.036,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "at once; right away; immediately",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "除了",
+     "chú le",
+     "apart from; besides; in addition to (used to exclude, as in 除了他，除了他，谁也没来 \"apart from him, nobody came\", or to include, as in 除了英語，除了英语，他也会法语 \"in addition to English, he also knows French\")",
+     ""
+    ],
+    [
+     "护照",
+     "hù zhào",
+     "passport",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "money; coin; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 271,
+ "first": "放假了，安娜和山田打算坐飞机去西安玩儿。",
+ "newWords": [
+  {
+   "w": "来得及",
+   "py": "láidejí",
+   "en": "in time to do"
+  },
+  {
+   "w": "粗心",
+   "py": "cūxīn",
+   "en": "careless"
+  },
+  {
+   "w": "旅行",
+   "py": "lǚxíng",
+   "en": "travel"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-02.mp3?v=1791720571"
 }

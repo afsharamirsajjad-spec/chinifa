@@ -1,2358 +1,2377 @@
 {
-  "id": "h5-65",
-  "level": 5,
-  "no": 65,
-  "title": "下午三点的雨",
-  "title_py": "xià wǔ sān diǎn de yǔ",
-  "title_en": "The three o'clock rain",
-  "title_tr": {
-    "am": "የከሰዓቱ 3:00 ዝናብ",
-    "fa": "باران ناگهانی ساعت سه بعدازظهر"
+ "id": "h5-65",
+ "level": 5,
+ "no": 65,
+ "title": "下午三点的雨",
+ "title_py": "xià wǔ sān diǎn de yǔ",
+ "title_en": "The three o'clock rain",
+ "title_tr": {
+  "am": "የከሰዓቱ 3:00 ዝናብ",
+  "fa": "باران ناگهانی ساعت سه بعدازظهر"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_factory",
+ "cover": "https://media.kanchinese.app/review/stories/h5-65.jpg",
+ "duration": 147.392,
+ "lines": [
+  {
+   "text": "公司在马来西亚盖一个新仓库，十月，周经理派杰克去工地看看进度。",
+   "py": "gōng sī zài mǎ lái xī yà gài yí gè xīn cāng kù, shí yuè, Zhōu jīng lǐ pài Jié kè qù gōng de kàn kàn jìn dù.",
+   "en": "The company is building a new warehouse in Malaysia, and in October Manager Zhou sends Jack to the site to check on progress.",
+   "tr": {
+    "am": "ድርጅቱ በማሌዥያ አዲስ መጋዘን እየገነባ ነው፤ በኦክቶበር ሥራ አስኪያጅ ጆው ጃክን የሥራውን ሂደት እንዲያይ ወደ ግንባታ ቦታው ላከችው።",
+    "fa": "شرکت تو مالزی داره یه انبار جدید می‌سازه؛ تو ماه اکتبر مدیر جو جک رو می‌فرسته سرِ پروژه تا پیشرفت کار رو ببینه."
+   },
+   "start": 2.86,
+   "end": 9.964,
+   "tokens": [
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "(used before a verb to indicate an action in progress)",
+     ""
+    ],
+    [
+     "马来西亚",
+     "mǎ lái xī yà",
+     "Malaysia",
+     ""
+    ],
+    [
+     "盖",
+     "gài",
+     "to build; lid; top",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "新",
+     "xīn",
+     "new; newly; meso- (chemistry)",
+     ""
+    ],
+    [
+     "仓库",
+     "cāng kù",
+     "warehouse; depot; storehouse",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "十月",
+     "shí yuè",
+     "October; tenth month (of the lunar year)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "派",
+     "pài",
+     "to send (a person or resource); to dispatch; to allocate (a resource or task); to appoint (sb)",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to send; to go; to go to (a place)",
+     ""
+    ],
+    [
+     "工地",
+     "gōng dì",
+     "construction site",
+     ""
+    ],
+    [
+     "看看",
+     "kàn kan",
+     "to take a look at; to examine; to survey",
+     ""
+    ],
+    [
+     "进度",
+     "jìn dù",
+     "rate of progress",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_factory",
-  "cover": "https://media.kanchinese.app/review/stories/h5-65.jpg",
-  "duration": 147.392,
-  "lines": [
-    {
-      "text": "公司在马来西亚盖一个新仓库，十月，周经理派杰克去工地看看进度。",
-      "py": "gōng sī zài mǎ lái xī yà gài yí gè xīn cāng kù, shí yuè, Zhōu jīng lǐ pài Jié kè qù gōng de kàn kàn jìn dù.",
-      "en": "The company is building a new warehouse in Malaysia, and in October Manager Zhou sends Jack to the site to check on progress.",
-      "tr": {
-        "am": "ድርጅቱ በማሌዥያ አዲስ መጋዘን እየገነባ ነው፤ በኦክቶበር ሥራ አስኪያጅ ጆው ጃክን የሥራውን ሂደት እንዲያይ ወደ ግንባታ ቦታው ላከችው።"
-      },
-      "start": 2.86,
-      "end": 9.964,
-      "tokens": [
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "(used before a verb to indicate an action in progress)",
-          ""
-        ],
-        [
-          "马来西亚",
-          "mǎ lái xī yà",
-          "Malaysia",
-          ""
-        ],
-        [
-          "盖",
-          "gài",
-          "to build; lid; top",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "新",
-          "xīn",
-          "new; newly; meso- (chemistry)",
-          ""
-        ],
-        [
-          "仓库",
-          "cāng kù",
-          "warehouse; depot; storehouse",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "十月",
-          "shí yuè",
-          "October; tenth month (of the lunar year)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "派",
-          "pài",
-          "to send (a person or resource); to dispatch; to allocate (a resource or task); to appoint (sb)",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to send; to go; to go to (a place)",
-          ""
-        ],
-        [
-          "工地",
-          "gōng dì",
-          "construction site",
-          ""
-        ],
-        [
-          "看看",
-          "kàn kan",
-          "to take a look at; to examine; to survey",
-          ""
-        ],
-        [
-          "进度",
-          "jìn dù",
-          "rate of progress",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "负责工地的是一位刚从中国北方调过来的经理，做事雷厉风行。",
-      "py": "fù zé gōng de de shì yí wèi gāng cóng Zhōng guó běi fāng diào guò lái de jīng lǐ, zuò shì léi lì fēng xíng.",
-      "en": "The site is run by a manager who has just been transferred from northern China, a man who gets things done at lightning speed.",
-      "tr": {
-        "am": "የግንባታ ቦታውን የሚመራው ገና ከሰሜን ቻይና የተዛወረ ሥራ አስኪያጅ ነው፤ ሥራን በመብረቅ ፍጥነት የሚሠራ ሰው ነው።"
-      },
-      "start": 10.664,
-      "end": 17.072,
-      "tokens": [
-        [
-          "负责",
-          "fù zé",
-          "to be responsible for; to be in charge of; to bear responsibility for",
-          ""
-        ],
-        [
-          "工地",
-          "gōng dì",
-          "construction site",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "刚",
-          "gāng",
-          "barely; only just; just; only a short while ago",
-          ""
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "中国",
-          "zhōng guó",
-          "China",
-          ""
-        ],
-        [
-          "北方",
-          "běi fāng",
-          "north; the northern part a country",
-          ""
-        ],
-        [
-          "调",
-          "diào",
-          "to transfer; to move (troops or cadres); to investigate",
-          ""
-        ],
-        [
-          "过来",
-          "guò lái",
-          "to manage; to come over; to handle",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "做事",
-          "zuò shì",
-          "to work; to handle matters; to have a job",
-          ""
-        ],
-        [
-          "雷厉风行",
-          "léi lì fēng xíng",
-          "pass like thunder and move like the wind (idiom); swift and decisive reaction",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他一来就定了时间表：早上八点开工，下午六点收工，每天都一样，一分钟也不能耽误。",
-      "py": "tā yì lái jiù dìng le shí jiān biǎo: zǎo shang bā diǎn kāi gōng, xià wǔ liù diǎn shōu gōng, měi tiān dōu yí yàng, yì fēn zhōng yě bù néng dān wu.",
-      "en": "As soon as he arrives, he sets a timetable: work starts at eight and finishes at six, the same every day, and not a minute is to be wasted.",
-      "tr": {
-        "am": "ገና እንደመጣ የጊዜ ሰሌዳ አወጣ፦ ጠዋት 8:00 ሥራ ይጀመራል፤ ከሰዓት 6:00 ይጠናቀቃል፤ በየቀኑ ተመሳሳይ፤ አንድ ደቂቃም መባከን የለበትም።"
-      },
-      "start": 17.772,
-      "end": 27.276,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "as soon as; one; single",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "ever since (as in 自古以来); for the past (amount of time)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a clause of action) as soon as; immediately after",
-          ""
-        ],
-        [
-          "定",
-          "dìng",
-          "to fix; to set; to make definite",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "时间表",
-          "shí jiān biǎo",
-          "timetable; schedule",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "点开",
-          "diǎn kāi",
-          "(computing) to open (a link, file etc) by clicking or tapping",
-          ""
-        ],
-        [
-          "工",
-          "gōng",
-          "work; worker; skill",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "点收",
-          "diǎn shōu",
-          "to check sth and accept it",
-          ""
-        ],
-        [
-          "工",
-          "gōng",
-          "work; worker; skill",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "一样",
-          "yī yàng",
-          "same; the same as; like",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "as soon as; one; single",
-          ""
-        ],
-        [
-          "分钟",
-          "fēn zhōng",
-          "minute",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "耽误",
-          "dān wu",
-          "to waste time; to delay; to hold up",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "当地的工头小声提醒他：“经理，这个季节，下午三点左右常常下大雨。”",
-      "py": "dāng dì de gōng tóu xiǎo shēng tí xǐng tā: “jīng lǐ, zhè ge jì jié, xià wǔ sān diǎn zuǒ yòu cháng cháng xià dà yǔ.”",
-      "en": "The local foreman quietly warns him, \"Sir, at this time of year, it often pours at around three in the afternoon.\"",
-      "tr": {
-        "am": "የአካባቢው የሠራተኞች አለቃ በለሆሳስ አስታወሰው፦ «ሥራ አስኪያጅ፣ በዚህ ወቅት ከሰዓት 3:00 አካባቢ ብዙ ጊዜ ኃይለኛ ዝናብ ይዘንባል።»"
-      },
-      "start": 27.976,
-      "end": 35.848,
-      "tokens": [
-        [
-          "当地",
-          "dāng dì",
-          "local",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "工头",
-          "gōng tóu",
-          "foreman",
-          ""
-        ],
-        [
-          "小声",
-          "xiǎo shēng",
-          "in a low voice; (speak) in whispers",
-          ""
-        ],
-        [
-          "提醒",
-          "tí xǐng",
-          "to warn of; to remind; to call attention to",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "季节",
-          "jì jié",
-          "time; season; period",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "point in time or space; (after a number) o'clock",
-          ""
-        ],
-        [
-          "左右",
-          "zuǒ yòu",
-          "left and right; nearby; approximately",
-          ""
-        ],
-        [
-          "常常",
-          "cháng cháng",
-          "frequently; often",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "大雨",
-          "dà yǔ",
-          "heavy rain",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "经理打开手机看了看天气预报：“今天是晴天，不会下的。”",
-      "py": "jīng lǐ dǎ kāi shǒu jī kàn le kàn tiān qì yù bào: “jīn tiān shì qíng tiān, bú huì xià de.”",
-      "en": "The manager checks the weather forecast on his phone. \"It says sunny today. It won't rain.\"",
-      "tr": {
-        "am": "ሥራ አስኪያጁ ስልኩን ከፍቶ የአየር ትንበያውን አየ፦ «ዛሬ ፀሐያማ ነው፤ አይዘንብም።»"
-      },
-      "start": 36.548,
-      "end": 42.476,
-      "tokens": [
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "天气预报",
-          "tiān qì yù bào",
-          "weather forecast",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "晴天",
-          "qíng tiān",
-          "sunny day; clear sky",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不会",
-          "bù huì",
-          "improbable; unlikely; will not (act, happen etc)",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "那天下午两点，工人们开始浇水泥。",
-      "py": "nà tiān xià wǔ liǎng diǎn, gōng rén men kāi shǐ jiāo shuǐ ní.",
-      "en": "At two that afternoon, the workers start pouring concrete.",
-      "tr": {
-        "am": "በዚያ ቀን ከሰዓት 2:00 ላይ ሠራተኞቹ ሲሚንቶ ማፍሰስ ጀመሩ።"
-      },
-      "start": 43.176,
-      "end": 46.968,
-      "tokens": [
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "工人",
-          "gōng rén",
-          "worker",
-          ""
-        ],
-        [
-          "们",
-          "men",
-          "plural marker for pronouns, and nouns referring to individuals",
-          ""
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "浇水",
-          "jiāo shuǐ",
-          "to water (plants etc)",
-          ""
-        ],
-        [
-          "泥",
-          "ní",
-          "mud; clay; paste",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "三点刚过，天一下子黑了，紧接着就是一场雷阵雨，雨大得连对面的人都看不清。",
-      "py": "sān diǎn gāng guò, tiān yí xià zi hēi le, jǐn jiē zhe jiù shì yì cháng léi zhèn yǔ, yǔ dà de lián duì miàn de rén dōu kàn bù qīng.",
-      "en": "Just after three, the sky suddenly goes dark, and then a thunderstorm breaks, so heavy you can't even see the person opposite you.",
-      "tr": {
-        "am": "ልክ 3:00 እንዳለፈ ሰማዩ ድንገት ጨለመ፤ ወዲያውኑ ነጎድጓዳማ ዝናብ ወረደ፤ ዝናቡ ከመብዛቱ የተነሳ ፊት ለፊት ያለውን ሰው እንኳ ማየት አይቻልም ነበር።"
-      },
-      "start": 47.668,
-      "end": 56.164,
-      "tokens": [
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to mention; to bring up (a topic or person)",
-          ""
-        ],
-        [
-          "刚",
-          "gāng",
-          "barely; only just; just; only a short while ago",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "天",
-          "tiān",
-          "sky; day; heaven",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "all at once; all of a sudden; once; one time",
-          ""
-        ],
-        [
-          "黑",
-          "hēi",
-          "dark; black; sinister",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "紧接着",
-          "jǐn jiē zhe",
-          "immediately afterwards; shortly after that",
-          ""
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "only; simply; just",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "场",
-          "cháng",
-          "classifier for events and happenings: spell, episode, bout",
-          ""
-        ],
-        [
-          "雷阵雨",
-          "léi zhèn yǔ",
-          "thundershower",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "雨",
-          "yǔ",
-          "rain",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "older (than another person); big; large; great",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "连",
-          "lián",
-          "(used with 也, 都 etc) even; to link; to join",
-          ""
-        ],
-        [
-          "对面",
-          "duì miàn",
-          "opposite; across (the street etc)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "(used for emphasis) even; all; both; entirely; already",
-          ""
-        ],
-        [
-          "看不清",
-          "kàn bu qīng",
-          "not able to see clearly",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "半个小时以后，雨停了，太阳又出来了，可是刚浇的水泥全被冲坏了。",
-      "py": "bàn gè xiǎo shí yǐ hòu, yǔ tíng le, tài yáng yòu chū lái le, kě shì gāng jiāo de shuǐ ní quán bèi chōng huài le.",
-      "en": "Half an hour later, the rain stops and the sun comes out again, but the freshly poured concrete has been ruined by the rain.",
-      "tr": {
-        "am": "ከግማሽ ሰዓት በኋላ ዝናቡ ቆመ፤ ፀሐይም እንደገና ወጣች፤ ገና የፈሰሰው ሲሚንቶ ግን በሙሉ በዝናቡ ተበላሸ።"
-      },
-      "start": 56.864,
-      "end": 65.168,
-      "tokens": [
-        [
-          "半个",
-          "bàn ge",
-          "half of sth",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "雨",
-          "yǔ",
-          "rain",
-          ""
-        ],
-        [
-          "停",
-          "tíng",
-          "to stop; to halt; to park (a car)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "太阳",
-          "tài yang",
-          "sun; sunlight; sunshine",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "出来",
-          "chū lái",
-          "to come out; to appear; to arise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "刚",
-          "gāng",
-          "(literary) hard; firm; strong; exactly; precisely",
-          ""
-        ],
-        [
-          "浇",
-          "jiāo",
-          "to pour liquid; to irrigate (using waterwheel); to water",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "水泥",
-          "shuǐ ní",
-          "cement",
-          ""
-        ],
-        [
-          "全",
-          "quán",
-          "all; whole; entire",
-          ""
-        ],
-        [
-          "被",
-          "bèi",
-          "quilt; to cover (with); (literary) to suffer (a misfortune)",
-          ""
-        ],
-        [
-          "冲",
-          "chōng",
-          "(of water) to dash against; to mix with water; to infuse",
-          ""
-        ],
-        [
-          "坏了",
-          "huài le",
-          "shoot!; gosh!; oh, no!",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "第二天、第三天，下午三点左右，雨又准时来了。",
-      "py": "dì èr tiān, dì sān tiān, xià wǔ sān diǎn zuǒ yòu, yǔ yòu zhǔn shí lái le.",
-      "en": "The next day and the day after, at about three in the afternoon, the rain comes again, right on time.",
-      "tr": {
-        "am": "በሁለተኛውና በሦስተኛው ቀንም ከሰዓት 3:00 አካባቢ ዝናቡ በሰዓቱ እንደገና መጣ።"
-      },
-      "start": 65.868,
-      "end": 71.796,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "第",
-          "dì",
-          "(prefix indicating ordinal number, as in 第六 \"sixth\")",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "point in time or space; (after a number) o'clock",
-          ""
-        ],
-        [
-          "左右",
-          "zuǒ yòu",
-          "left and right; nearby; approximately",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "雨",
-          "yǔ",
-          "rain",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "准时",
-          "zhǔn shí",
-          "on time; punctual; on schedule",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; for the past (amount of time)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "经理终于服了，去找工头商量，把时间表全改了。",
-      "py": "jīng lǐ zhōng yú fú le, qù zhǎo gōng tóu shāng liang, bǎ shí jiān biǎo quán gǎi le.",
-      "en": "The manager finally gives in. He goes to talk it over with the foreman, and changes the whole timetable.",
-      "tr": {
-        "am": "ሥራ አስኪያጁ በመጨረሻ እጅ ሰጠ፤ ከሠራተኞቹ አለቃ ጋር ተመካክሮ የጊዜ ሰሌዳውን በሙሉ ቀየረ።"
-      },
-      "start": 72.496,
-      "end": 78.16,
-      "tokens": [
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "finally; at last; in the end",
-          ""
-        ],
-        [
-          "服",
-          "fú",
-          "clothes; dress; garment",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "去",
-          "qù",
-          "(of a time etc) last; to be apart from in space or time",
-          ""
-        ],
-        [
-          "找",
-          "zhǎo",
-          "to give change; to try to find; to look for",
-          ""
-        ],
-        [
-          "工头",
-          "gōng tóu",
-          "foreman",
-          ""
-        ],
-        [
-          "商量",
-          "shāng liang",
-          "to talk over; to consult; to discuss",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "时间表",
-          "shí jiān biǎo",
-          "timetable; schedule",
-          ""
-        ],
-        [
-          "全",
-          "quán",
-          "whole; all; entire",
-          ""
-        ],
-        [
-          "改",
-          "gǎi",
-          "to change; to alter; to transform",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "早上七点开工，最重要的活儿中午以前干完；下午三点以后，只干屋里的活儿。",
-      "py": "zǎo shang qī diǎn kāi gōng, zuì zhòng yào de huó r zhōng wǔ yǐ qián gàn wán; xià wǔ sān diǎn yǐ hòu, zhǐ gàn wū lǐ de huó r.",
-      "en": "Work now starts at seven, and the most important jobs are done before noon. After three, they only do work under cover.",
-      "tr": {
-        "am": "ጠዋት 7:00 ሥራ ይጀመራል፤ በጣም አስፈላጊዎቹ ሥራዎች ከቀትር በፊት ይጠናቀቃሉ፤ ከሰዓት 3:00 በኋላ ደግሞ ጣሪያ ስር ያሉ ሥራዎች ብቻ ይሠራሉ።"
-      },
-      "start": 78.86,
-      "end": 86.42,
-      "tokens": [
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "点开",
-          "diǎn kāi",
-          "(computing) to open (a link, file etc) by clicking or tapping",
-          ""
-        ],
-        [
-          "工",
-          "gōng",
-          "work; worker; skill",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "最",
-          "zuì",
-          "(before an adjective or verb) to the highest degree; (the) most ...; -est",
-          ""
-        ],
-        [
-          "重要",
-          "zhòng yào",
-          "important; significant; major",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "活儿",
-          "huó r",
-          "work; (lots of) things to do",
-          ""
-        ],
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "以前",
-          "yǐ qián",
-          "before; formerly; previous",
-          ""
-        ],
-        [
-          "干",
-          "gān",
-          "dry; dried food; empty; hollow",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "；"
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; afterwards; later",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "干",
-          "gān",
-          "dry; dried food; empty; hollow",
-          ""
-        ],
-        [
-          "屋",
-          "wū",
-          "(bound form) house; (bound form) room",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "活儿",
-          "huó r",
-          "work; (lots of) things to do",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一个星期下来，进度不但没有慢，反而比原来快了。",
-      "py": "yí gè xīng qī xià lái, jìn dù bú dàn méi yǒu màn, fǎn ér bǐ yuán lái kuài le.",
-      "en": "After a week, far from slowing down, the work is actually going faster than before.",
-      "tr": {
-        "am": "ሳምንቱ ሲያልቅ ሥራው አልዘገየም፤ እንዲያውም ከበፊቱ ፈጠነ።"
-      },
-      "start": 87.12,
-      "end": 92.136,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "星期",
-          "xīng qī",
-          "week; day of the week; Sunday",
-          ""
-        ],
-        [
-          "下来",
-          "xià lai",
-          "to come down",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "进度",
-          "jìn dù",
-          "rate of progress",
-          ""
-        ],
-        [
-          "不但",
-          "bù dàn",
-          "not only (... but also ...)",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "慢",
-          "màn",
-          "slow",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "反而",
-          "fǎn ér",
-          "on the contrary; instead",
-          ""
-        ],
-        [
-          "比",
-          "bǐ",
-          "(followed by a noun and adjective) more {adj.} than {noun}",
-          ""
-        ],
-        [
-          "原来",
-          "yuán lái",
-          "so, actually, as it turns out; original; former",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "rapid; quick; speed",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克在工地上待了几天，每天下午都跟工人们坐在棚子底下，一边喝咖啡一边看雨。",
-      "py": "Jié kè zài gōng dì shàng dài le jǐ tiān, měi tiān xià wǔ dōu gēn gōng rén men zuò zài péng zi dǐ xià, yì biān hē kā fēi yì biān kàn yǔ.",
-      "en": "Jack spends a few days on the site, and every afternoon he sits under the shelter with the workers, drinking coffee and watching the rain.",
-      "tr": {
-        "am": "ጃክ በግንባታ ቦታው ጥቂት ቀናት ቆየ፤ በየከሰዓቱ ከሠራተኞቹ ጋር በመጠለያው ስር ተቀምጦ ቡና እየጠጣ ዝናቡን ያይ ነበር።"
-      },
-      "start": 92.836,
-      "end": 101.62,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "工地",
-          "gōng dì",
-          "construction site",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "待",
-          "dāi",
-          "to stay; to remain",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "几天",
-          "jǐ tiān",
-          "several days",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "工人",
-          "gōng rén",
-          "worker",
-          ""
-        ],
-        [
-          "们",
-          "men",
-          "plural marker for pronouns, and nouns referring to individuals",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "棚子",
-          "péng zi",
-          "shack; shed",
-          ""
-        ],
-        [
-          "底下",
-          "dǐ xia",
-          "the location below sth; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "咖啡",
-          "kā fēi",
-          "(loanword) coffee",
-          ""
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to watch; to look after; (after a verb) to give it a try",
-          ""
-        ],
-        [
-          "雨",
-          "yǔ",
-          "rain",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他好奇地问工头：“天气预报都不准，你怎么知道一定会下？”",
-      "py": "tā hào qí de wèn gōng tóu: “tiān qì yù bào dōu bù zhǔn, nǐ zěn me zhī dào yí dìng huì xià?”",
-      "en": "He asks the foreman curiously, \"If even the weather forecast gets it wrong, how do you know it's going to rain?\"",
-      "tr": {
-        "am": "የሠራተኞቹን አለቃ በጉጉት ጠየቀው፦ «የአየር ትንበያው እንኳ ትክክል ካልሆነ፣ እንደሚዘንብ እንዴት ታውቃለህ?»"
-      },
-      "start": 102.32,
-      "end": 108.704,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "好奇",
-          "hào qí",
-          "curious; inquisitive; inquisitiveness",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "工头",
-          "gōng tóu",
-          "foreman",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "天气预报",
-          "tiān qì yù bào",
-          "weather forecast",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "(used for emphasis) even; all; both; entirely; already",
-          ""
-        ],
-        [
-          "不准",
-          "bù zhǔn",
-          "not to allow; to forbid; to prohibit",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "知道",
-          "zhī dào",
-          "to know; to become aware of; also pr.",
-          ""
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "工头笑着说：“我是在这儿长大的。这个季节，老天爷比经理还准时。”",
-      "py": "gōng tóu xiào zhe shuō: “wǒ shì zài zhè r zhǎng dà de. zhè ge jì jié, lǎo tiān yé bǐ jīng lǐ hái zhǔn shí.”",
-      "en": "The foreman laughs. \"I grew up here. At this time of year, the sky is more punctual than the manager.\"",
-      "tr": {
-        "am": "አለቃው እየሳቀ «ያደግሁት እዚሁ ነው። በዚህ ወቅት ሰማዩ ከሥራ አስኪያጁ የበለጠ ሰዓት አክባሪ ነው» አለ።"
-      },
-      "start": 109.404,
-      "end": 117.252,
-      "tokens": [
-        [
-          "工头",
-          "gōng tóu",
-          "foreman",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "这儿",
-          "zhè r",
-          "here",
-          ""
-        ],
-        [
-          "长大",
-          "zhǎng dà",
-          "to grow up",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "季节",
-          "jì jié",
-          "time; season; period",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "老天爷",
-          "lǎo tiān yé",
-          "God; Heavens",
-          ""
-        ],
-        [
-          "比",
-          "bǐ",
-          "(followed by a noun and adjective) more {adj.} than {noun}",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still more; even more; still",
-          ""
-        ],
-        [
-          "准时",
-          "zhǔn shí",
-          "on time; punctual; on schedule",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "过了几个月，到了二月，杰克又去了一次工地。",
-      "py": "guò le jǐ gè yuè, dào le èr yuè, Jié kè yòu qù le yí cì gōng de.",
-      "en": "A few months later, in February, Jack visits the site again.",
-      "tr": {
-        "am": "ከጥቂት ወራት በኋላ፣ በፌብሩዋሪ፣ ጃክ እንደገና ወደ ግንባታ ቦታው ሄደ።"
-      },
-      "start": 117.952,
-      "end": 123.184,
-      "tokens": [
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "几个",
-          "jǐ ge",
-          "a few; several; how many",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; moon; monthly",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "二月",
-          "èr yuè",
-          "February; second month (of the lunar year)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一次",
-          "yī cì",
-          "first; first time; once",
-          ""
-        ],
-        [
-          "工地",
-          "gōng dì",
-          "construction site",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "下午三点，太阳火辣辣的，天上一片云也没有，可是整个工地却安安静静的，大家都坐在棚子底下等着。",
-      "py": "xià wǔ sān diǎn, tài yáng huǒ là là de, tiān shàng yí piàn yún yě méi yǒu, kě shì zhěng gè gōng de què ān ān jìng jìng de, dà jiā dōu zuò zài péng zi dǐ xià děng zhe.",
-      "en": "At three in the afternoon, the sun is blazing and there isn't a cloud in the sky, yet the whole site is silent, with everyone sitting under the shelter, waiting.",
-      "tr": {
-        "am": "ከሰዓት 3:00 ላይ ፀሐዩ ያቃጥላል፤ ሰማዩ ላይ አንድም ደመና የለም፤ ቢሆንም የግንባታ ቦታው በሙሉ ጸጥ ብሏል፤ ሁሉም በመጠለያው ስር ተቀምጦ ይጠብቃል።"
-      },
-      "start": 123.884,
-      "end": 135.524,
-      "tokens": [
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "太阳",
-          "tài yang",
-          "sun; sunlight; sunshine",
-          ""
-        ],
-        [
-          "火辣辣",
-          "huǒ là là",
-          "scorching hot; (of a burn or other injury) painful; burning",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "天上",
-          "tiān shàng",
-          "the sky; the heavens",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "片",
-          "piàn",
-          "classifier for slices, tablets, tract of land, area of water",
-          ""
-        ],
-        [
-          "云",
-          "yún",
-          "cloud; (classical) to say; short name for Yunnan 云南",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "整个",
-          "zhěng gè",
-          "whole; entire; total",
-          ""
-        ],
-        [
-          "工地",
-          "gōng dì",
-          "construction site",
-          ""
-        ],
-        [
-          "却",
-          "què",
-          "yet; but; however",
-          ""
-        ],
-        [
-          "安安",
-          "ān ān",
-          "(Tw) (Internet slang) Greetings! (used when it's unknown what time the reader will see one's post, or just to be cute)",
-          ""
-        ],
-        [
-          "静",
-          "jìng",
-          "still; calm; quiet",
-          ""
-        ],
-        [
-          "静",
-          "jìng",
-          "still; calm; quiet",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "棚子",
-          "péng zi",
-          "shack; shed",
-          ""
-        ],
-        [
-          "底下",
-          "dǐ xia",
-          "the location below sth; afterwards",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "经理看着天，皱着眉头说：“怎么还不下？”",
-      "py": "jīng lǐ kàn zhe tiān, zhòu zhe méi tóu shuō: “zěn me hái bú xià?”",
-      "en": "The manager looks up at the sky and frowns. \"Why hasn't it started yet?\"",
-      "tr": {
-        "am": "ሥራ አስኪያጁ ሰማዩን እያየ ግንባሩን ቋጥሮ «ለምን እስካሁን አልዘነበም?» አለ።"
-      },
-      "start": 136.224,
-      "end": 141.24,
-      "tokens": [
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "sky; day; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "皱",
-          "zhòu",
-          "to wrinkle; wrinkled; to crease",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "眉头",
-          "méi tóu",
-          "brows",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "why?; how?; what?",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "yet; still; still in progress",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "工头忍不住笑了：“经理，雨季早就过去了。”",
-      "py": "gōng tóu rěn bu zhù xiào le: “jīng lǐ, yǔ jì zǎo jiù guò qù le.”",
-      "en": "The foreman can't help laughing. \"Sir, the rainy season ended ages ago.\"",
-      "tr": {
-        "am": "አለቃው ሳቁን መቆጣጠር አልቻለም፦ «ሥራ አስኪያጅ፣ የዝናብ ወቅቱ ካለፈ ቆየ እኮ።»"
-      },
-      "start": 141.94,
-      "end": 146.692,
-      "tokens": [
-        [
-          "工头",
-          "gōng tóu",
-          "foreman",
-          ""
-        ],
-        [
-          "忍不住",
-          "rěn bu zhù",
-          "cannot help; unable to bear",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "雨季",
-          "yǔ jì",
-          "rainy season",
-          ""
-        ],
-        [
-          "早就",
-          "zǎo jiù",
-          "already at an earlier time",
-          ""
-        ],
-        [
-          "过去",
-          "guò qù",
-          "(in the) past; former; previous; to go over; to pass by",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 471,
-  "first": "公司在马来西亚盖一个新仓库，十月，周经理派杰克去工地看看进度。",
-  "newWords": [
-    {
-      "w": "工地",
-      "py": "gōng dì",
-      "en": "construction site"
-    },
-    {
-      "w": "耽误",
-      "py": "dānwu",
-      "en": "cause delay or waste time"
-    },
-    {
-      "w": "天气预报",
-      "py": "tiān qì yù bào",
-      "en": "weather forecast"
-    },
-    {
-      "w": "雷阵雨",
-      "py": "léi zhèn yǔ",
-      "en": "thundershower"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h5-65.mp3?v=1791722329"
+  {
+   "text": "负责工地的是一位刚从中国北方调过来的经理，做事雷厉风行。",
+   "py": "fù zé gōng de de shì yí wèi gāng cóng Zhōng guó běi fāng diào guò lái de jīng lǐ, zuò shì léi lì fēng xíng.",
+   "en": "The site is run by a manager who has just been transferred from northern China, a man who gets things done at lightning speed.",
+   "tr": {
+    "am": "የግንባታ ቦታውን የሚመራው ገና ከሰሜን ቻይና የተዛወረ ሥራ አስኪያጅ ነው፤ ሥራን በመብረቅ ፍጥነት የሚሠራ ሰው ነው።",
+    "fa": "مسئول پروژه مدیری‌ست که تازه از شمال چین منتقل شده و کارها رو با سرعت نور جلو می‌بره."
+   },
+   "start": 10.664,
+   "end": 17.072,
+   "tokens": [
+    [
+     "负责",
+     "fù zé",
+     "to be responsible for; to be in charge of; to bear responsibility for",
+     ""
+    ],
+    [
+     "工地",
+     "gōng dì",
+     "construction site",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "刚",
+     "gāng",
+     "barely; only just; just; only a short while ago",
+     ""
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "中国",
+     "zhōng guó",
+     "China",
+     ""
+    ],
+    [
+     "北方",
+     "běi fāng",
+     "north; the northern part a country",
+     ""
+    ],
+    [
+     "调",
+     "diào",
+     "to transfer; to move (troops or cadres); to investigate",
+     ""
+    ],
+    [
+     "过来",
+     "guò lái",
+     "to manage; to come over; to handle",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "做事",
+     "zuò shì",
+     "to work; to handle matters; to have a job",
+     ""
+    ],
+    [
+     "雷厉风行",
+     "léi lì fēng xíng",
+     "pass like thunder and move like the wind (idiom); swift and decisive reaction",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他一来就定了时间表：早上八点开工，下午六点收工，每天都一样，一分钟也不能耽误。",
+   "py": "tā yì lái jiù dìng le shí jiān biǎo: zǎo shang bā diǎn kāi gōng, xià wǔ liù diǎn shōu gōng, měi tiān dōu yí yàng, yì fēn zhōng yě bù néng dān wu.",
+   "en": "As soon as he arrives, he sets a timetable: work starts at eight and finishes at six, the same every day, and not a minute is to be wasted.",
+   "tr": {
+    "am": "ገና እንደመጣ የጊዜ ሰሌዳ አወጣ፦ ጠዋት 8:00 ሥራ ይጀመራል፤ ከሰዓት 6:00 ይጠናቀቃል፤ በየቀኑ ተመሳሳይ፤ አንድ ደቂቃም መባከን የለበትም።",
+    "fa": "همون اول یه جدول زمانی می‌ذاره: کار ساعت هشت صبح شروع می‌شه و ساعت شش عصر تموم؛ هر روز همینه و حتی یه دقیقه هم نباید تلف شه."
+   },
+   "start": 17.772,
+   "end": 27.276,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "as soon as; one; single",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "ever since (as in 自古以来); for the past (amount of time)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a clause of action) as soon as; immediately after",
+     ""
+    ],
+    [
+     "定",
+     "dìng",
+     "to fix; to set; to make definite",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "时间表",
+     "shí jiān biǎo",
+     "timetable; schedule",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "点开",
+     "diǎn kāi",
+     "(computing) to open (a link, file etc) by clicking or tapping",
+     ""
+    ],
+    [
+     "工",
+     "gōng",
+     "work; worker; skill",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "点收",
+     "diǎn shōu",
+     "to check sth and accept it",
+     ""
+    ],
+    [
+     "工",
+     "gōng",
+     "work; worker; skill",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "一样",
+     "yī yàng",
+     "same; the same as; like",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "as soon as; one; single",
+     ""
+    ],
+    [
+     "分钟",
+     "fēn zhōng",
+     "minute",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "耽误",
+     "dān wu",
+     "to waste time; to delay; to hold up",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "当地的工头小声提醒他：“经理，这个季节，下午三点左右常常下大雨。”",
+   "py": "dāng dì de gōng tóu xiǎo shēng tí xǐng tā: “jīng lǐ, zhè ge jì jié, xià wǔ sān diǎn zuǒ yòu cháng cháng xià dà yǔ.”",
+   "en": "The local foreman quietly warns him, \"Sir, at this time of year, it often pours at around three in the afternoon.\"",
+   "tr": {
+    "am": "የአካባቢው የሠራተኞች አለቃ በለሆሳስ አስታወሰው፦ «ሥራ አስኪያጅ፣ በዚህ ወቅት ከሰዓት 3:00 አካባቢ ብዙ ጊዜ ኃይለኛ ዝናብ ይዘንባል።»",
+    "fa": "سرکارگرِ محلی آروم بهش گوشزد می‌کنه: «آقا، تو این فصل، حدود ساعت سه بعدازظهر معمولاً بارون شدید میاد.»"
+   },
+   "start": 27.976,
+   "end": 35.848,
+   "tokens": [
+    [
+     "当地",
+     "dāng dì",
+     "local",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "工头",
+     "gōng tóu",
+     "foreman",
+     ""
+    ],
+    [
+     "小声",
+     "xiǎo shēng",
+     "in a low voice; (speak) in whispers",
+     ""
+    ],
+    [
+     "提醒",
+     "tí xǐng",
+     "to warn of; to remind; to call attention to",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "季节",
+     "jì jié",
+     "time; season; period",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "point in time or space; (after a number) o'clock",
+     ""
+    ],
+    [
+     "左右",
+     "zuǒ yòu",
+     "left and right; nearby; approximately",
+     ""
+    ],
+    [
+     "常常",
+     "cháng cháng",
+     "frequently; often",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "大雨",
+     "dà yǔ",
+     "heavy rain",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "经理打开手机看了看天气预报：“今天是晴天，不会下的。”",
+   "py": "jīng lǐ dǎ kāi shǒu jī kàn le kàn tiān qì yù bào: “jīn tiān shì qíng tiān, bú huì xià de.”",
+   "en": "The manager checks the weather forecast on his phone. \"It says sunny today. It won't rain.\"",
+   "tr": {
+    "am": "ሥራ አስኪያጁ ስልኩን ከፍቶ የአየር ትንበያውን አየ፦ «ዛሬ ፀሐያማ ነው፤ አይዘንብም።»",
+    "fa": "مدیر گوشی‌ش رو باز می‌کنه و پیش‌بینی هوا رو نگاه می‌کنه: «امروز آفتابیه؛ بارون نمیاد.»"
+   },
+   "start": 36.548,
+   "end": 42.476,
+   "tokens": [
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "天气预报",
+     "tiān qì yù bào",
+     "weather forecast",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "晴天",
+     "qíng tiān",
+     "sunny day; clear sky",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不会",
+     "bù huì",
+     "improbable; unlikely; will not (act, happen etc)",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "那天下午两点，工人们开始浇水泥。",
+   "py": "nà tiān xià wǔ liǎng diǎn, gōng rén men kāi shǐ jiāo shuǐ ní.",
+   "en": "At two that afternoon, the workers start pouring concrete.",
+   "tr": {
+    "am": "በዚያ ቀን ከሰዓት 2:00 ላይ ሠራተኞቹ ሲሚንቶ ማፍሰስ ጀመሩ።",
+    "fa": "همون روز ساعت دو بعدازظهر، کارگرها شروع می‌کنن به ریختن بتن."
+   },
+   "start": 43.176,
+   "end": 46.968,
+   "tokens": [
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "工人",
+     "gōng rén",
+     "worker",
+     ""
+    ],
+    [
+     "们",
+     "men",
+     "plural marker for pronouns, and nouns referring to individuals",
+     ""
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "浇水",
+     "jiāo shuǐ",
+     "to water (plants etc)",
+     ""
+    ],
+    [
+     "泥",
+     "ní",
+     "mud; clay; paste",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "三点刚过，天一下子黑了，紧接着就是一场雷阵雨，雨大得连对面的人都看不清。",
+   "py": "sān diǎn gāng guò, tiān yí xià zi hēi le, jǐn jiē zhe jiù shì yì cháng léi zhèn yǔ, yǔ dà de lián duì miàn de rén dōu kàn bù qīng.",
+   "en": "Just after three, the sky suddenly goes dark, and then a thunderstorm breaks, so heavy you can't even see the person opposite you.",
+   "tr": {
+    "am": "ልክ 3:00 እንዳለፈ ሰማዩ ድንገት ጨለመ፤ ወዲያውኑ ነጎድጓዳማ ዝናብ ወረደ፤ ዝናቡ ከመብዛቱ የተነሳ ፊት ለፊት ያለውን ሰው እንኳ ማየት አይቻልም ነበር።",
+    "fa": "کمی بعد از سه، هوا یهو تاریک می‌شه و بعدش رعد و برق و بارونی میاد که اون یکی طرف رو هم نمی‌تونی ببینی."
+   },
+   "start": 47.668,
+   "end": 56.164,
+   "tokens": [
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to mention; to bring up (a topic or person)",
+     ""
+    ],
+    [
+     "刚",
+     "gāng",
+     "barely; only just; just; only a short while ago",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "天",
+     "tiān",
+     "sky; day; heaven",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "all at once; all of a sudden; once; one time",
+     ""
+    ],
+    [
+     "黑",
+     "hēi",
+     "dark; black; sinister",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "紧接着",
+     "jǐn jiē zhe",
+     "immediately afterwards; shortly after that",
+     ""
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "only; simply; just",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "场",
+     "cháng",
+     "classifier for events and happenings: spell, episode, bout",
+     ""
+    ],
+    [
+     "雷阵雨",
+     "léi zhèn yǔ",
+     "thundershower",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "雨",
+     "yǔ",
+     "rain",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "older (than another person); big; large; great",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "连",
+     "lián",
+     "(used with 也, 都 etc) even; to link; to join",
+     ""
+    ],
+    [
+     "对面",
+     "duì miàn",
+     "opposite; across (the street etc)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "(used for emphasis) even; all; both; entirely; already",
+     ""
+    ],
+    [
+     "看不清",
+     "kàn bu qīng",
+     "not able to see clearly",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "半个小时以后，雨停了，太阳又出来了，可是刚浇的水泥全被冲坏了。",
+   "py": "bàn gè xiǎo shí yǐ hòu, yǔ tíng le, tài yáng yòu chū lái le, kě shì gāng jiāo de shuǐ ní quán bèi chōng huài le.",
+   "en": "Half an hour later, the rain stops and the sun comes out again, but the freshly poured concrete has been ruined by the rain.",
+   "tr": {
+    "am": "ከግማሽ ሰዓት በኋላ ዝናቡ ቆመ፤ ፀሐይም እንደገና ወጣች፤ ገና የፈሰሰው ሲሚንቶ ግን በሙሉ በዝናቡ ተበላሸ።",
+    "fa": "نیم ساعت بعد بارون بند میاد و آفتاب برمی‌گرده، ولی بتنِ تازه ریخته‌شده همه‌ش خراب شده."
+   },
+   "start": 56.864,
+   "end": 65.168,
+   "tokens": [
+    [
+     "半个",
+     "bàn ge",
+     "half of sth",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "雨",
+     "yǔ",
+     "rain",
+     ""
+    ],
+    [
+     "停",
+     "tíng",
+     "to stop; to halt; to park (a car)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "太阳",
+     "tài yang",
+     "sun; sunlight; sunshine",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "出来",
+     "chū lái",
+     "to come out; to appear; to arise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "刚",
+     "gāng",
+     "(literary) hard; firm; strong; exactly; precisely",
+     ""
+    ],
+    [
+     "浇",
+     "jiāo",
+     "to pour liquid; to irrigate (using waterwheel); to water",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "水泥",
+     "shuǐ ní",
+     "cement",
+     ""
+    ],
+    [
+     "全",
+     "quán",
+     "all; whole; entire",
+     ""
+    ],
+    [
+     "被",
+     "bèi",
+     "quilt; to cover (with); (literary) to suffer (a misfortune)",
+     ""
+    ],
+    [
+     "冲",
+     "chōng",
+     "(of water) to dash against; to mix with water; to infuse",
+     ""
+    ],
+    [
+     "坏了",
+     "huài le",
+     "shoot!; gosh!; oh, no!",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "第二天、第三天，下午三点左右，雨又准时来了。",
+   "py": "dì èr tiān, dì sān tiān, xià wǔ sān diǎn zuǒ yòu, yǔ yòu zhǔn shí lái le.",
+   "en": "The next day and the day after, at about three in the afternoon, the rain comes again, right on time.",
+   "tr": {
+    "am": "በሁለተኛውና በሦስተኛው ቀንም ከሰዓት 3:00 አካባቢ ዝናቡ በሰዓቱ እንደገና መጣ።",
+    "fa": "فرداش و پس‌فرداش، حدود ساعت سه، بارون دوباره سر وقتش میاد."
+   },
+   "start": 65.868,
+   "end": 71.796,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "第",
+     "dì",
+     "(prefix indicating ordinal number, as in 第六 \"sixth\")",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "point in time or space; (after a number) o'clock",
+     ""
+    ],
+    [
+     "左右",
+     "zuǒ yòu",
+     "left and right; nearby; approximately",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "雨",
+     "yǔ",
+     "rain",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "准时",
+     "zhǔn shí",
+     "on time; punctual; on schedule",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; for the past (amount of time)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "经理终于服了，去找工头商量，把时间表全改了。",
+   "py": "jīng lǐ zhōng yú fú le, qù zhǎo gōng tóu shāng liang, bǎ shí jiān biǎo quán gǎi le.",
+   "en": "The manager finally gives in. He goes to talk it over with the foreman, and changes the whole timetable.",
+   "tr": {
+    "am": "ሥራ አስኪያጁ በመጨረሻ እጅ ሰጠ፤ ከሠራተኞቹ አለቃ ጋር ተመካክሮ የጊዜ ሰሌዳውን በሙሉ ቀየረ።",
+    "fa": "مدیر بالاخره تسلیم می‌شه؛ می‌ره با سرکارگر صحبت کنه و کل جدول زمانی رو عوض می‌کنه."
+   },
+   "start": 72.496,
+   "end": 78.16,
+   "tokens": [
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "finally; at last; in the end",
+     ""
+    ],
+    [
+     "服",
+     "fú",
+     "clothes; dress; garment",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "去",
+     "qù",
+     "(of a time etc) last; to be apart from in space or time",
+     ""
+    ],
+    [
+     "找",
+     "zhǎo",
+     "to give change; to try to find; to look for",
+     ""
+    ],
+    [
+     "工头",
+     "gōng tóu",
+     "foreman",
+     ""
+    ],
+    [
+     "商量",
+     "shāng liang",
+     "to talk over; to consult; to discuss",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "时间表",
+     "shí jiān biǎo",
+     "timetable; schedule",
+     ""
+    ],
+    [
+     "全",
+     "quán",
+     "whole; all; entire",
+     ""
+    ],
+    [
+     "改",
+     "gǎi",
+     "to change; to alter; to transform",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "早上七点开工，最重要的活儿中午以前干完；下午三点以后，只干屋里的活儿。",
+   "py": "zǎo shang qī diǎn kāi gōng, zuì zhòng yào de huó r zhōng wǔ yǐ qián gàn wán; xià wǔ sān diǎn yǐ hòu, zhǐ gàn wū lǐ de huó r.",
+   "en": "Work now starts at seven, and the most important jobs are done before noon. After three, they only do work under cover.",
+   "tr": {
+    "am": "ጠዋት 7:00 ሥራ ይጀመራል፤ በጣም አስፈላጊዎቹ ሥራዎች ከቀትር በፊት ይጠናቀቃሉ፤ ከሰዓት 3:00 በኋላ ደግሞ ጣሪያ ስር ያሉ ሥራዎች ብቻ ይሠራሉ።",
+    "fa": "حالا کارها ساعت هفت صبح شروع می‌شه و کارهای مهم قبل از ظهر تموم می‌شن؛ بعد از ساعت سه فقط کارهای زیر سقف انجام می‌شه."
+   },
+   "start": 78.86,
+   "end": 86.42,
+   "tokens": [
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "点开",
+     "diǎn kāi",
+     "(computing) to open (a link, file etc) by clicking or tapping",
+     ""
+    ],
+    [
+     "工",
+     "gōng",
+     "work; worker; skill",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "最",
+     "zuì",
+     "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+     ""
+    ],
+    [
+     "重要",
+     "zhòng yào",
+     "important; significant; major",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "活儿",
+     "huó r",
+     "work; (lots of) things to do",
+     ""
+    ],
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "以前",
+     "yǐ qián",
+     "before; formerly; previous",
+     ""
+    ],
+    [
+     "干",
+     "gān",
+     "dry; dried food; empty; hollow",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "；"
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; afterwards; later",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "干",
+     "gān",
+     "dry; dried food; empty; hollow",
+     ""
+    ],
+    [
+     "屋",
+     "wū",
+     "(bound form) house; (bound form) room",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "活儿",
+     "huó r",
+     "work; (lots of) things to do",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一个星期下来，进度不但没有慢，反而比原来快了。",
+   "py": "yí gè xīng qī xià lái, jìn dù bú dàn méi yǒu màn, fǎn ér bǐ yuán lái kuài le.",
+   "en": "After a week, far from slowing down, the work is actually going faster than before.",
+   "tr": {
+    "am": "ሳምንቱ ሲያልቅ ሥራው አልዘገየም፤ እንዲያውም ከበፊቱ ፈጠነ።",
+    "fa": "یه هفته که می‌گذره، معلوم می‌شه کارها نه فقط کند نشده، بلکه از قبل هم سریع‌تر شده."
+   },
+   "start": 87.12,
+   "end": 92.136,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "星期",
+     "xīng qī",
+     "week; day of the week; Sunday",
+     ""
+    ],
+    [
+     "下来",
+     "xià lai",
+     "to come down",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "进度",
+     "jìn dù",
+     "rate of progress",
+     ""
+    ],
+    [
+     "不但",
+     "bù dàn",
+     "not only (... but also ...)",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "慢",
+     "màn",
+     "slow",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "反而",
+     "fǎn ér",
+     "on the contrary; instead",
+     ""
+    ],
+    [
+     "比",
+     "bǐ",
+     "(followed by a noun and adjective) more {adj.} than {noun}",
+     ""
+    ],
+    [
+     "原来",
+     "yuán lái",
+     "so, actually, as it turns out; original; former",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "rapid; quick; speed",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克在工地上待了几天，每天下午都跟工人们坐在棚子底下，一边喝咖啡一边看雨。",
+   "py": "Jié kè zài gōng dì shàng dài le jǐ tiān, měi tiān xià wǔ dōu gēn gōng rén men zuò zài péng zi dǐ xià, yì biān hē kā fēi yì biān kàn yǔ.",
+   "en": "Jack spends a few days on the site, and every afternoon he sits under the shelter with the workers, drinking coffee and watching the rain.",
+   "tr": {
+    "am": "ጃክ በግንባታ ቦታው ጥቂት ቀናት ቆየ፤ በየከሰዓቱ ከሠራተኞቹ ጋር በመጠለያው ስር ተቀምጦ ቡና እየጠጣ ዝናቡን ያይ ነበር።",
+    "fa": "جک چند روزی تو پروژه می‌مونه و هر بعدازظهر با کارگرها زیر سایه‌بان می‌شینه؛ همزمان قهوه می‌خورن و بارون رو تماشا می‌کنن."
+   },
+   "start": 92.836,
+   "end": 101.62,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "工地",
+     "gōng dì",
+     "construction site",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "待",
+     "dāi",
+     "to stay; to remain",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "几天",
+     "jǐ tiān",
+     "several days",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "工人",
+     "gōng rén",
+     "worker",
+     ""
+    ],
+    [
+     "们",
+     "men",
+     "plural marker for pronouns, and nouns referring to individuals",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "棚子",
+     "péng zi",
+     "shack; shed",
+     ""
+    ],
+    [
+     "底下",
+     "dǐ xia",
+     "the location below sth; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "咖啡",
+     "kā fēi",
+     "(loanword) coffee",
+     ""
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to watch; to look after; (after a verb) to give it a try",
+     ""
+    ],
+    [
+     "雨",
+     "yǔ",
+     "rain",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他好奇地问工头：“天气预报都不准，你怎么知道一定会下？”",
+   "py": "tā hào qí de wèn gōng tóu: “tiān qì yù bào dōu bù zhǔn, nǐ zěn me zhī dào yí dìng huì xià?”",
+   "en": "He asks the foreman curiously, \"If even the weather forecast gets it wrong, how do you know it's going to rain?\"",
+   "tr": {
+    "am": "የሠራተኞቹን አለቃ በጉጉት ጠየቀው፦ «የአየር ትንበያው እንኳ ትክክል ካልሆነ፣ እንደሚዘንብ እንዴት ታውቃለህ?»",
+    "fa": "با کنجکاوی از سرکارگر می‌پرسه: «وقتی حتی پیش‌بینی هوا هم خطا می‌کنه، تو از کجا می‌دونی حتماً بارون میاد؟»"
+   },
+   "start": 102.32,
+   "end": 108.704,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "好奇",
+     "hào qí",
+     "curious; inquisitive; inquisitiveness",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "工头",
+     "gōng tóu",
+     "foreman",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "天气预报",
+     "tiān qì yù bào",
+     "weather forecast",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "(used for emphasis) even; all; both; entirely; already",
+     ""
+    ],
+    [
+     "不准",
+     "bù zhǔn",
+     "not to allow; to forbid; to prohibit",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "知道",
+     "zhī dào",
+     "to know; to become aware of; also pr.",
+     ""
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "工头笑着说：“我是在这儿长大的。这个季节，老天爷比经理还准时。”",
+   "py": "gōng tóu xiào zhe shuō: “wǒ shì zài zhè r zhǎng dà de. zhè ge jì jié, lǎo tiān yé bǐ jīng lǐ hái zhǔn shí.”",
+   "en": "The foreman laughs. \"I grew up here. At this time of year, the sky is more punctual than the manager.\"",
+   "tr": {
+    "am": "አለቃው እየሳቀ «ያደግሁት እዚሁ ነው። በዚህ ወቅት ሰማዩ ከሥራ አስኪያጁ የበለጠ ሰዓት አክባሪ ነው» አለ።",
+    "fa": "سرکارگر می‌خنده: «من همین‌جا بزرگ شدم. تو این فصل، آسمون از مدیر هم سر وقت‌تره.»"
+   },
+   "start": 109.404,
+   "end": 117.252,
+   "tokens": [
+    [
+     "工头",
+     "gōng tóu",
+     "foreman",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "这儿",
+     "zhè r",
+     "here",
+     ""
+    ],
+    [
+     "长大",
+     "zhǎng dà",
+     "to grow up",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "季节",
+     "jì jié",
+     "time; season; period",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "老天爷",
+     "lǎo tiān yé",
+     "God; Heavens",
+     ""
+    ],
+    [
+     "比",
+     "bǐ",
+     "(followed by a noun and adjective) more {adj.} than {noun}",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still more; even more; still",
+     ""
+    ],
+    [
+     "准时",
+     "zhǔn shí",
+     "on time; punctual; on schedule",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "过了几个月，到了二月，杰克又去了一次工地。",
+   "py": "guò le jǐ gè yuè, dào le èr yuè, Jié kè yòu qù le yí cì gōng de.",
+   "en": "A few months later, in February, Jack visits the site again.",
+   "tr": {
+    "am": "ከጥቂት ወራት በኋላ፣ በፌብሩዋሪ፣ ጃክ እንደገና ወደ ግንባታ ቦታው ሄደ።",
+    "fa": "چند ماه بعد، تو ماه فوریه، جک دوباره می‌ره پروژه."
+   },
+   "start": 117.952,
+   "end": 123.184,
+   "tokens": [
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "几个",
+     "jǐ ge",
+     "a few; several; how many",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; moon; monthly",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "二月",
+     "èr yuè",
+     "February; second month (of the lunar year)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一次",
+     "yī cì",
+     "first; first time; once",
+     ""
+    ],
+    [
+     "工地",
+     "gōng dì",
+     "construction site",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "下午三点，太阳火辣辣的，天上一片云也没有，可是整个工地却安安静静的，大家都坐在棚子底下等着。",
+   "py": "xià wǔ sān diǎn, tài yáng huǒ là là de, tiān shàng yí piàn yún yě méi yǒu, kě shì zhěng gè gōng de què ān ān jìng jìng de, dà jiā dōu zuò zài péng zi dǐ xià děng zhe.",
+   "en": "At three in the afternoon, the sun is blazing and there isn't a cloud in the sky, yet the whole site is silent, with everyone sitting under the shelter, waiting.",
+   "tr": {
+    "am": "ከሰዓት 3:00 ላይ ፀሐዩ ያቃጥላል፤ ሰማዩ ላይ አንድም ደመና የለም፤ ቢሆንም የግንባታ ቦታው በሙሉ ጸጥ ብሏል፤ ሁሉም በመጠለያው ስር ተቀምጦ ይጠብቃል።",
+    "fa": "ساعت سه بعدازظهر آفتاب حسابی تابیده و تو آسمون حتی یه ابر هم نیست، ولی کل پروژه ساکته و همه زیر سایه‌بان نشستن و منتظرن."
+   },
+   "start": 123.884,
+   "end": 135.524,
+   "tokens": [
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "太阳",
+     "tài yang",
+     "sun; sunlight; sunshine",
+     ""
+    ],
+    [
+     "火辣辣",
+     "huǒ là là",
+     "scorching hot; (of a burn or other injury) painful; burning",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "天上",
+     "tiān shàng",
+     "the sky; the heavens",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "片",
+     "piàn",
+     "classifier for slices, tablets, tract of land, area of water",
+     ""
+    ],
+    [
+     "云",
+     "yún",
+     "cloud; (classical) to say; short name for Yunnan 云南",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "整个",
+     "zhěng gè",
+     "whole; entire; total",
+     ""
+    ],
+    [
+     "工地",
+     "gōng dì",
+     "construction site",
+     ""
+    ],
+    [
+     "却",
+     "què",
+     "yet; but; however",
+     ""
+    ],
+    [
+     "安安",
+     "ān ān",
+     "(Tw) (Internet slang) Greetings! (used when it's unknown what time the reader will see one's post, or just to be cute)",
+     ""
+    ],
+    [
+     "静",
+     "jìng",
+     "still; calm; quiet",
+     ""
+    ],
+    [
+     "静",
+     "jìng",
+     "still; calm; quiet",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "棚子",
+     "péng zi",
+     "shack; shed",
+     ""
+    ],
+    [
+     "底下",
+     "dǐ xia",
+     "the location below sth; afterwards",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "经理看着天，皱着眉头说：“怎么还不下？”",
+   "py": "jīng lǐ kàn zhe tiān, zhòu zhe méi tóu shuō: “zěn me hái bú xià?”",
+   "en": "The manager looks up at the sky and frowns. \"Why hasn't it started yet?\"",
+   "tr": {
+    "am": "ሥራ አስኪያጁ ሰማዩን እያየ ግንባሩን ቋጥሮ «ለምን እስካሁን አልዘነበም?» አለ።",
+    "fa": "مدیر به آسمون نگاه می‌کنه و با اخم می‌گه: «چرا هنوز بارون نمیاد؟»"
+   },
+   "start": 136.224,
+   "end": 141.24,
+   "tokens": [
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "sky; day; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "皱",
+     "zhòu",
+     "to wrinkle; wrinkled; to crease",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "眉头",
+     "méi tóu",
+     "brows",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "why?; how?; what?",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "yet; still; still in progress",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "工头忍不住笑了：“经理，雨季早就过去了。”",
+   "py": "gōng tóu rěn bu zhù xiào le: “jīng lǐ, yǔ jì zǎo jiù guò qù le.”",
+   "en": "The foreman can't help laughing. \"Sir, the rainy season ended ages ago.\"",
+   "tr": {
+    "am": "አለቃው ሳቁን መቆጣጠር አልቻለም፦ «ሥራ አስኪያጅ፣ የዝናብ ወቅቱ ካለፈ ቆየ እኮ።»",
+    "fa": "سرکارگر نمی‌تونه نخنده: «آقا، فصل بارون‌ها مدت‌هاست تموم شده.»"
+   },
+   "start": 141.94,
+   "end": 146.692,
+   "tokens": [
+    [
+     "工头",
+     "gōng tóu",
+     "foreman",
+     ""
+    ],
+    [
+     "忍不住",
+     "rěn bu zhù",
+     "cannot help; unable to bear",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "雨季",
+     "yǔ jì",
+     "rainy season",
+     ""
+    ],
+    [
+     "早就",
+     "zǎo jiù",
+     "already at an earlier time",
+     ""
+    ],
+    [
+     "过去",
+     "guò qù",
+     "(in the) past; former; previous; to go over; to pass by",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 471,
+ "first": "公司在马来西亚盖一个新仓库，十月，周经理派杰克去工地看看进度。",
+ "newWords": [
+  {
+   "w": "工地",
+   "py": "gōng dì",
+   "en": "construction site"
+  },
+  {
+   "w": "耽误",
+   "py": "dānwu",
+   "en": "cause delay or waste time"
+  },
+  {
+   "w": "天气预报",
+   "py": "tiān qì yù bào",
+   "en": "weather forecast"
+  },
+  {
+   "w": "雷阵雨",
+   "py": "léi zhèn yǔ",
+   "en": "thundershower"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h5-65.mp3?v=1791722329"
 }

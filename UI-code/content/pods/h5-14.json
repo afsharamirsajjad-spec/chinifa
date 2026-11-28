@@ -1,2482 +1,2501 @@
 {
-  "id": "h5-14",
-  "level": 5,
-  "no": 14,
-  "title": "二手吉他",
-  "title_py": "èr shǒu jí tā",
-  "title_en": "The second-hand guitar",
-  "title_tr": {
-    "am": "ያገለገለ ጊታር",
-    "fa": "گیتار دست دوم"
+ "id": "h5-14",
+ "level": 5,
+ "no": 14,
+ "title": "二手吉他",
+ "title_py": "èr shǒu jí tā",
+ "title_en": "The second-hand guitar",
+ "title_tr": {
+  "am": "ያገለገለ ጊታር",
+  "fa": "گیتار دست دوم"
+ },
+ "topic": "shop",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h5-14.jpg",
+ "duration": 140.408,
+ "lines": [
+  {
+   "text": "王明的床底下有一把吉他，是他上大学的时候花一千五百块买的。",
+   "py": "Wáng Míng de chuáng dǐ xià yǒu yì bǎ jí tā, shì tā shàng dà xué de shí hou huā yì qiān wǔ bǎi kuài mǎi de.",
+   "en": "There's a guitar under Wang Ming's bed. He bought it for 1,500 yuan when he was at university.",
+   "tr": {
+    "am": "በዋንግ ሚንግ አልጋ ሥር አንድ ጊታር አለ፣ ዩኒቨርሲቲ ሳለ በ1500 ዩዋን የገዛው ነው።",
+    "fa": "زیر تخت وانگ مینگ یه گیتار هست. اون موقع که دانشگاه می‌خوند برای هزار و پونصد یوان خریده."
+   },
+   "start": 2.62,
+   "end": 9.724,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "床",
+     "chuáng",
+     "bed; couch (furniture that one can lie down on)",
+     ""
+    ],
+    [
+     "底下",
+     "dǐ xia",
+     "the location below sth; afterwards",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "吉他",
+     "jí tā",
+     "(loanword) guitar",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "to attend (class or university)",
+     ""
+    ],
+    [
+     "大学",
+     "dà xué",
+     "university; college",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "花",
+     "huā",
+     "flower; blossom; fancy pattern",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "千",
+     "qiān",
+     "thousand",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "hundred; numerous; all kinds of",
+     ""
+    ],
+    [
+     "块",
+     "kuài",
+     "classifier for pieces of cloth, cake, soap etc",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "shop",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h5-14.jpg",
-  "duration": 140.408,
-  "lines": [
-    {
-      "text": "王明的床底下有一把吉他，是他上大学的时候花一千五百块买的。",
-      "py": "Wáng Míng de chuáng dǐ xià yǒu yì bǎ jí tā, shì tā shàng dà xué de shí hou huā yì qiān wǔ bǎi kuài mǎi de.",
-      "en": "There's a guitar under Wang Ming's bed. He bought it for 1,500 yuan when he was at university.",
-      "tr": {
-        "am": "በዋንግ ሚንግ አልጋ ሥር አንድ ጊታር አለ፣ ዩኒቨርሲቲ ሳለ በ1500 ዩዋን የገዛው ነው።"
-      },
-      "start": 2.62,
-      "end": 9.724,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "床",
-          "chuáng",
-          "bed; couch (furniture that one can lie down on)",
-          ""
-        ],
-        [
-          "底下",
-          "dǐ xia",
-          "the location below sth; afterwards",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "吉他",
-          "jí tā",
-          "(loanword) guitar",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "to attend (class or university)",
-          ""
-        ],
-        [
-          "大学",
-          "dà xué",
-          "university; college",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "花",
-          "huā",
-          "flower; blossom; fancy pattern",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "千",
-          "qiān",
-          "thousand",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "hundred; numerous; all kinds of",
-          ""
-        ],
-        [
-          "块",
-          "kuài",
-          "classifier for pieces of cloth, cake, soap etc",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "工作以后，他再也没弹过，吉他上落满了灰。",
-      "py": "gōng zuò yǐ hòu, tā zài yě méi dàn guò, jí tā shàng luò mǎn le huī.",
-      "en": "Since he started work, he hasn't played it once, and it's covered in dust.",
-      "tr": {
-        "am": "ሥራ ከጀመረ በኋላ አንድም ጊዜ አልተጫወተበትም፣ ጊታሩ በአቧራ ተሸፍኗል።"
-      },
-      "start": 10.424,
-      "end": 15.92,
-      "tokens": [
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "再也",
-          "zài yě",
-          "(not) ever again; (not) any longer",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "弹",
-          "dàn",
-          "crossball; bullet; shot",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "吉他",
-          "jí tā",
-          "(loanword) guitar",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "落",
-          "là",
-          "to leave out; to be missing",
-          ""
-        ],
-        [
-          "满",
-          "mǎn",
-          "to fill; full; filled",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "灰",
-          "huī",
-          "dust; ash; lime",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨说：“放着也是浪费，不如卖了吧。”",
-      "py": "Xiǎo yǔ shuō: “fàng zhe yě shì làng fèi, bù rú mài le ba.”",
-      "en": "Xiaoyu says, \"It's a waste just leaving it there. You might as well sell it.\"",
-      "tr": {
-        "am": "ሺያውዩ አለች፦ «ዝም ብሎ ቢቀመጥ ብክነት ነው፣ ብትሸጠው ይሻላል።»"
-      },
-      "start": 16.62,
-      "end": 20.892,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "(respectful acknowledgement of a command) very well",
-          ""
-        ],
-        [
-          "浪费",
-          "làng fèi",
-          "to waste; to squander",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不如",
-          "bù rú",
-          "not equal to; not as good as; inferior to",
-          ""
-        ],
-        [
-          "卖",
-          "mài",
-          "to sell; to betray; to spare no effort",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明把吉他擦干净，拍了几张照片，放到了一个二手网站上，价格五百。",
-      "py": "Wáng Míng bǎ jí tā cā gān jìng, pāi le jǐ zhāng zhào piàn, fàng dào le yí gè èr shǒu wǎng zhàn shàng, jià gé wǔ bǎi.",
-      "en": "Wang Ming wipes it clean, takes a few photos and puts it up on a second-hand website for 500 yuan.",
-      "tr": {
-        "am": "ዋንግ ሚንግ ጊታሩን አጽድቶ ጥቂት ፎቶዎችን አንሥቶ ያገለገሉ ዕቃዎች በሚሸጡበት ድረ ገጽ ላይ በ500 ዩዋን አስቀመጠው።"
-      },
-      "start": 21.592,
-      "end": 29.176,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "handlebar; classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "吉他",
-          "jí tā",
-          "(loanword) guitar",
-          ""
-        ],
-        [
-          "擦干",
-          "cā gān",
-          "to wipe dry",
-          ""
-        ],
-        [
-          "净",
-          "jìng",
-          "clean; completely; only",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "拍",
-          "pāi",
-          "to take (a photo); to pat; to clap",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "几",
-          "jǐ",
-          "several; a few; how many; how much",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "二手",
-          "èr shǒu",
-          "second-hand (information, equipment etc)",
-          ""
-        ],
-        [
-          "网站",
-          "wǎng zhàn",
-          "website",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "价格",
-          "jià gé",
-          "price",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "hundred; numerous; all kinds of",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "第二天就有人发来消息：“你好，吉他还在吗？能便宜一点儿吗？”",
-      "py": "dì èr tiān jiù yǒu rén fā lái xiāo xi: “nǐ hǎo, jí tā hái zài ma? néng pián yi yì diǎn r ma?”",
-      "en": "The next day, someone sends a message: \"Hi, is the guitar still available? Could you go a bit lower?\"",
-      "tr": {
-        "am": "በማግሥቱ አንድ ሰው መልእክት ላከ፦ «ሰላም፣ ጊታሩ አሁንም አለ? ትንሽ መቀነስ ይቻላል?»"
-      },
-      "start": 29.876,
-      "end": 36.044,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(pattern: 就 ... 也 ...) even if ... still ...",
-          ""
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; there is someone there; people",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "(prefix) the coming ...; the next ... (as in 来世); to come",
-          ""
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "message; (piece of) news; information",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你好",
-          "nǐ hǎo",
-          "hello; hi",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "吉他",
-          "jí tā",
-          "(loanword) guitar",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "便宜",
-          "pián yi",
-          "cheap; inexpensive; a petty advantage; to let sb off lightly",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明回答：“已经很便宜了，最低四百八。”",
-      "py": "Wáng Míng huí dá: “yǐ jīng hěn pián yi le, zuì dī sì bǎi bā.”",
-      "en": "Wang Ming replies, \"It's already cheap. The lowest I'll go is 480.\"",
-      "tr": {
-        "am": "ዋንግ ሚንግ መለሰ፦ «ቀድሞውኑ በጣም ርካሽ ነው፣ ዝቅተኛው 480 ነው።»"
-      },
-      "start": 36.744,
-      "end": 41.28,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "回答",
-          "huí dá",
-          "to reply; to answer; reply; answer",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "便宜",
-          "pián yi",
-          "cheap; inexpensive; a petty advantage; to let sb off lightly",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "最",
-          "zuì",
-          "(before an adjective or verb) to the highest degree; (the) most ...; -est",
-          ""
-        ],
-        [
-          "低",
-          "dī",
-          "low; beneath; to lower (one's head)",
-          ""
-        ],
-        [
-          "四",
-          "sì",
-          "four; 4",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "hundred; numerous; all kinds of",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "对方说：“我只有三百块，是我暑假打工攒的。”",
-      "py": "duì fāng shuō: “wǒ zhǐ yǒu sān bǎi kuài, shì wǒ shǔ jià dǎ gōng zǎn de.”",
-      "en": "The buyer says, \"I've only got 300. I saved it from my summer job.\"",
-      "tr": {
-        "am": "ገዢው አለ፦ «ያለኝ 300 ዩዋን ብቻ ነው፣ በበጋ ዕረፍት ሠርቼ ያጠራቀምኩት ነው።»"
-      },
-      "start": 41.98,
-      "end": 47.452,
-      "tokens": [
-        [
-          "对方",
-          "duì fāng",
-          "the other person; the other side; the other party",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "只有",
-          "zhǐ yǒu",
-          "only have ...; there is only ...",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "hundred; numerous; all kinds of",
-          ""
-        ],
-        [
-          "块",
-          "kuài",
-          "classifier for pieces of cloth, cake, soap etc",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "暑假",
-          "shǔ jià",
-          "summer vacation",
-          ""
-        ],
-        [
-          "打工",
-          "dǎ gōng",
-          "to work a temporary or casual job",
-          ""
-        ],
-        [
-          "攒",
-          "zǎn",
-          "to save; to collect; to hoard",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明本来不想再讨价还价了，可是对方接着又发来一段话。",
-      "py": "Wáng Míng běn lái bù xiǎng zài tǎo jià huán jià le, kě shì duì fāng jiē zhe yòu fā lái yí duàn huà.",
-      "en": "Wang Ming doesn't really want to haggle any more, but then the buyer sends another message.",
-      "tr": {
-        "am": "ዋንግ ሚንግ ከዚያ በላይ መከራከር አልፈለገም ነበር፣ ግን ገዢው ቀጥሎ ሌላ መልእክት ላከ።"
-      },
-      "start": 48.152,
-      "end": 54.296,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "本来",
-          "běn lái",
-          "original; originally; at first",
-          ""
-        ],
-        [
-          "不想",
-          "bù xiǎng",
-          "unexpectedly; to one's surprise",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; (before an adjective) more",
-          ""
-        ],
-        [
-          "讨价还价",
-          "tǎo jià huán jià",
-          "to haggle over price; to bargain",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "对方",
-          "duì fāng",
-          "the other person; the other side; the other party",
-          ""
-        ],
-        [
-          "接着",
-          "jiē zhe",
-          "then; to catch and hold on; to continue",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "(used as a substitute for a more specific verb); to come",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "段",
-          "duàn",
-          "classifier for stories, periods of time, lengths of thread etc",
-          ""
-        ],
-        [
-          "话",
-          "huà",
-          "dialect; language; spoken words",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“我现在练琴用的是朋友的吉他，他下个月就要拿回去了。我每天都练，一定会好好爱护它的。”",
-      "py": "“wǒ xiàn zài liàn qín yòng de shì péng you de jí tā, tā xià gè yuè jiù yào ná huí qù le. wǒ měi tiān dōu liàn, yí dìng huì hǎo hǎo ài hù tā de.”",
-      "en": "\"Right now I practise on a friend's guitar, and he wants it back next month. I practise every day, and I promise I'll take really good care of it.\"",
-      "tr": {
-        "am": "«አሁን የምለማመደው በጓደኛዬ ጊታር ነው፣ እሱ በሚቀጥለው ወር ይወስደዋል። በየቀኑ እለማመዳለሁ፣ በእርግጠኝነት በደንብ እንከባከበዋለሁ።»"
-      },
-      "start": 54.996,
-      "end": 63.324,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "现在",
-          "xiàn zài",
-          "now; at present; currently",
-          ""
-        ],
-        [
-          "练",
-          "liàn",
-          "to practice; to train; to drill",
-          ""
-        ],
-        [
-          "琴",
-          "qín",
-          "guqin 古琴 (a type of zither); musical instrument in general",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "correct; right; true; to be (followed by substantives only)",
-          ""
-        ],
-        [
-          "朋友",
-          "péng you",
-          "friend",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "吉他",
-          "jí tā",
-          "(loanword) guitar",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "下个月",
-          "xià gè yuè",
-          "next month",
-          ""
-        ],
-        [
-          "就要",
-          "jiù yào",
-          "will; shall; to be going to",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to take; to hold; to seize",
-          ""
-        ],
-        [
-          "回去",
-          "huí qu",
-          "to go back; to return",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "练",
-          "liàn",
-          "to practice; to train; to drill",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "好好",
-          "hǎo hǎo",
-          "well; carefully; nicely; properly",
-          ""
-        ],
-        [
-          "爱护",
-          "ài hù",
-          "to take care of; to cherish; to treasure",
-          ""
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "话说得很诚恳，王明看了好几遍，最后回了一句：“三百就三百吧。”",
-      "py": "huà shuō de hěn chéng kěn, Wáng Míng kàn le hǎo jǐ biàn, zuì hòu huí le yí jù: “sān bǎi jiù sān bǎi ba.”",
-      "en": "It sounds so sincere that Wang Ming reads it several times. In the end he replies, \"All right, 300 it is.\"",
-      "tr": {
-        "am": "ቃሉ በጣም ቅን ስለነበር ዋንግ ሚንግ ብዙ ጊዜ አነበበው፣ በመጨረሻም መለሰ፦ «እሺ፣ 300 ይሁን።»"
-      },
-      "start": 64.024,
-      "end": 71.584,
-      "tokens": [
-        [
-          "话说",
-          "huà shuō",
-          "It is said that ... (at the start of a narrative)",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "诚恳",
-          "chéng kěn",
-          "sincere; honest; cordial",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to read; to see; to look at; to watch",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "好几",
-          "hǎo jǐ",
-          "several; quite a few",
-          ""
-        ],
-        [
-          "遍",
-          "biàn",
-          "classifier for actions: one time; all over; everywhere",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "最后",
-          "zuì hòu",
-          "finally; in the end; final; last; ultimate",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "classifier for occurrences or times",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一句",
-          "yī jù",
-          "a line of verse; a sentence",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "all kinds of; hundred; numerous",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "all kinds of; hundred; numerous",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "...right?; (modal particle indicating suggestion or surmise)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "他们约好晚上七点在王明家楼下见面。",
-      "py": "tā men yuē hǎo wǎn shang qī diǎn zài Wáng Míng jiā lóu xià jiàn miàn.",
-      "en": "They arrange to meet outside Wang Ming's building at seven that evening.",
-      "tr": {
-        "am": "ምሽት 7:00 ላይ በዋንግ ሚንግ ሕንፃ ሥር ለመገናኘት ተቀጣጠሩ።"
-      },
-      "start": 72.284,
-      "end": 76.34,
-      "tokens": [
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "约",
-          "yāo",
-          "to weigh in a balance or on a scale",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "楼下",
-          "lóu xià",
-          "downstairs",
-          ""
-        ],
-        [
-          "见面",
-          "jiàn miàn",
-          "to meet; to see each other",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明抱着吉他下了楼，看见一个穿着球衣的男孩已经在等了，手里拿着一个信封。",
-      "py": "Wáng Míng bào zhe jí tā xià le lóu, kàn jiàn yí gè chuān zhe qiú yī de nán hái yǐ jīng zài děng le, shǒu lǐ ná zhe yí gè xìn fēng.",
-      "en": "Wang Ming carries the guitar downstairs and sees a boy in a football shirt already waiting, holding an envelope.",
-      "tr": {
-        "am": "ዋንግ ሚንግ ጊታሩን አቅፎ ሲወርድ የኳስ ማሊያ የለበሰ አንድ ልጅ በእጁ ፖስታ ይዞ ቀድሞ ሲጠብቅ አየ።"
-      },
-      "start": 77.04,
-      "end": 85.08,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "抱",
-          "bào",
-          "to hold; to carry (in one's arms); to hug",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "吉他",
-          "jí tā",
-          "(loanword) guitar",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; to go down; downwards",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "楼",
-          "lóu",
-          "house with more than 1 story; storied building; floor",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "穿着",
-          "chuān zhuó",
-          "attire; clothes; dress",
-          ""
-        ],
-        [
-          "球",
-          "qiú",
-          "ball used for playing games; ball; sphere",
-          ""
-        ],
-        [
-          "衣",
-          "yī",
-          "clothes; Kangxi radical 145",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "男孩",
-          "nán hái",
-          "boy",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "手里",
-          "shǒu lǐ",
-          "in hand; (a situation is) in sb's hands",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "信封",
-          "xìn fēng",
-          "envelope",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "两个人看见对方，都愣住了——原来是住在六楼的李强。",
-      "py": "liǎng gè rén kàn jiàn duì fāng, dōu lèng zhù le—— yuán lái shì zhù zài liù lóu de Lǐ Qiáng.",
-      "en": "When they see each other, they both freeze. It's Li Qiang from the sixth floor.",
-      "tr": {
-        "am": "ሁለቱ ሲተያዩ ደነገጡ — ለካ ስድስተኛ ፎቅ የሚኖረው ሊ ቺያንግ ነው።"
-      },
-      "start": 85.78,
-      "end": 92.212,
-      "tokens": [
-        [
-          "两",
-          "liǎng",
-          "both; two; some",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "对方",
-          "duì fāng",
-          "the other person; the other side; the other party",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "愣",
-          "lèng",
-          "to look distracted; to stare blankly; distracted",
-          ""
-        ],
-        [
-          "住",
-          "zhù",
-          "to live; to reside; to stay; to stop; to cease",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "—"
-        ],
-        [
-          "—"
-        ],
-        [
-          "原来",
-          "yuán lái",
-          "original; former; originally; formerly; at first",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "住",
-          "zhù",
-          "to live; to reside; to stay; to stop; to cease",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "楼",
-          "lóu",
-          "floor; house with more than 1 story; storied building",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李强的脸一下子红了：“王明哥，原来是你啊……我不知道是你的。”",
-      "py": "Lǐ Qiáng de liǎn yí xià zi hóng le: “Wáng Míng gē, yuán lái shì nǐ a…… wǒ bù zhī dào shì nǐ de.”",
-      "en": "Li Qiang goes red. \"Wang Ming! It's you... I didn't know it was yours.\"",
-      "tr": {
-        "am": "የሊ ቺያንግ ፊት ድንገት ቀላ፦ «ወንድሜ ዋንግ ሚንግ፣ ለካ አንተ ነህ… ያንተ መሆኑን አላወቅሁም።»"
-      },
-      "start": 92.912,
-      "end": 100.76,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "脸",
-          "liǎn",
-          "face",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "once; one time; (following a verb) for a moment; briefly",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "哥",
-          "gē",
-          "elder brother",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "原来",
-          "yuán lái",
-          "original; former; originally; formerly; at first",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "啊",
-          "a",
-          "modal particle ending sentence, showing affirmation, approval, or consent",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "不知",
-          "bù zhī",
-          "not to know; unaware; unknowingly",
-          ""
-        ],
-        [
-          "道",
-          "dào",
-          "road; path; (bound form) way; reason; principle",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明把吉他递给他，突然有点儿舍不得了。",
-      "py": "Wáng Míng bǎ jí tā dì gěi tā, tū rán yǒu diǎn r shě bu dé liǎo.",
-      "en": "Wang Ming hands him the guitar and suddenly finds it a bit hard to let go.",
-      "tr": {
-        "am": "ዋንግ ሚንግ ጊታሩን ሰጠው፣ ድንገት ግን ሊለየው ትንሽ ከበደው።"
-      },
-      "start": 101.46,
-      "end": 105.54,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "吉他",
-          "jí tā",
-          "(loanword) guitar",
-          ""
-        ],
-        [
-          "递给",
-          "dì gěi",
-          "to hand it (i.e. the aforementioned item) to (sb)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "突然",
-          "tū rán",
-          "sudden; abrupt; unexpected",
-          ""
-        ],
-        [
-          "有点儿",
-          "yǒu diǎn r",
-          "slightly; a little; somewhat",
-          ""
-        ],
-        [
-          "舍不得",
-          "shě bu de",
-          "to hate to do sth; to hate to part with; to begrudge",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李强好像看出来了，小声说：“你要是想它了，随时可以来我家弹。”",
-      "py": "Lǐ Qiáng hǎo xiàng kàn chū lái le, xiǎo shēng shuō: “nǐ yào shi xiǎng tā le, suí shí kě yǐ lái wǒ jiā dàn.”",
-      "en": "Li Qiang seems to notice, and says quietly, \"If you miss it, you can come round and play it any time.\"",
-      "tr": {
-        "am": "ሊ ቺያንግ ያስተዋለ ይመስላል፣ በለሆሳስ አለ፦ «ከናፈቀህ በማንኛውም ጊዜ ወደ ቤቴ መጥተህ መጫወት ትችላለህ።»"
-      },
-      "start": 106.24,
-      "end": 113.632,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "好像",
-          "hǎo xiàng",
-          "to seem like; as if",
-          ""
-        ],
-        [
-          "看出",
-          "kàn chū",
-          "to make out; to see",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; for the past (amount of time)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小声",
-          "xiǎo shēng",
-          "in a low voice; (speak) in whispers",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "要是",
-          "yào shi",
-          "(coll.) if",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to miss (feel wistful about the absence of)",
-          ""
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "随时",
-          "suí shí",
-          "at any time; at all times",
-          ""
-        ],
-        [
-          "可以",
-          "kě yǐ",
-          "can; may; possible",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; for the past (amount of time)",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "弹",
-          "dàn",
-          "crossball; bullet; shot",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明笑了，从信封里拿出一百块，塞回到李强手里：“两百就够了，再送你十节课。”",
-      "py": "Wáng Míng xiào le, cóng xìn fēng lǐ ná chū yì bǎi kuài, sāi huí dào Lǐ Qiáng shǒu lǐ: “liǎng bǎi jiù gòu le, zài sòng nǐ shí jié kè.”",
-      "en": "Wang Ming smiles, takes a hundred yuan out of the envelope and presses it back into Li Qiang's hand. \"Two hundred is enough. And I'll throw in ten lessons.\"",
-      "tr": {
-        "am": "ዋንግ ሚንግ ፈገግ አለና ከፖስታው መቶ ዩዋን አውጥቶ ወደ ሊ ቺያንግ እጅ መለሰ፦ «ሁለት መቶ ይበቃል፣ በዚያ ላይ አሥር ትምህርት በነፃ እሰጥሃለሁ።»"
-      },
-      "start": 114.332,
-      "end": 123.116,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "信封",
-          "xìn fēng",
-          "envelope",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "hundred; numerous; all kinds of",
-          ""
-        ],
-        [
-          "块",
-          "kuài",
-          "classifier for pieces of cloth, cake, soap etc",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "塞",
-          "sāi",
-          "to plug; to stop up; to stuff in",
-          ""
-        ],
-        [
-          "回到",
-          "huí dào",
-          "to return to",
-          ""
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "手里",
-          "shǒu lǐ",
-          "in hand; (a situation is) in sb's hands",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "hundred; numerous; all kinds of",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "够",
-          "gòu",
-          "enough (sufficient); enough (too much)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; further; beyond this point of time",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "节",
-          "jié",
-          "classifier for segments: lessons, train wagons, biblical verses etc",
-          ""
-        ],
-        [
-          "课",
-          "kè",
-          "lesson; subject; course",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "从那以后，每个星期六下午，楼下的长椅上都会传来两个人的吉他声。",
-      "py": "cóng nà yǐ hòu, měi gè xīng qī liù xià wǔ, lóu xià de cháng yǐ shàng dōu huì chuán lái liǎng gè rén de jí tā shēng.",
-      "en": "From then on, every Saturday afternoon, the sound of two people playing guitar drifts up from the bench downstairs.",
-      "tr": {
-        "am": "ከዚያ ጊዜ ጀምሮ በየቅዳሜው ከሰዓት በኋላ ከሕንፃው ሥር ካለው ወንበር የሁለት ሰዎች የጊታር ድምፅ ይሰማል።"
-      },
-      "start": 123.816,
-      "end": 131.16,
-      "tokens": [
-        [
-          "从",
-          "cóng",
-          "(used before a negative) ever; from; through; via",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每个",
-          "měi gè",
-          "each; every",
-          ""
-        ],
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "楼下",
-          "lóu xià",
-          "downstairs",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "长椅",
-          "cháng yǐ",
-          "bench",
-          ""
-        ],
-        [
-          "上都",
-          "shàng dū",
-          "Shangdu, also known as Xanadu, summer capital of the Yuan Dynasty (1279-1368)",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "传来",
-          "chuán lái",
-          "(of a sound) to come through; to be heard",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "吉他",
-          "jí tā",
-          "(loanword) guitar",
-          ""
-        ],
-        [
-          "声",
-          "shēng",
-          "sound; classifier for sounds; voice",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨在阳台上听着，笑着说：“你把吉他卖了，怎么弹得比以前还多了？”",
-      "py": "Xiǎo yǔ zài yáng tái shàng tīng zhe, xiào zhe shuō: “nǐ bǎ jí tā mài le, zěn me dàn de bǐ yǐ qián hái duō le?”",
-      "en": "Listening from the balcony, Xiaoyu laughs. \"You sold your guitar, so how come you're playing more than ever?\"",
-      "tr": {
-        "am": "ሺያውዩ ከበረንዳው ሆና እያዳመጠች ሳቀች፦ «ጊታሩን ሸጠህ እንዴት ከበፊቱ የበለጠ ትጫወታለህ?»"
-      },
-      "start": 131.86,
-      "end": 139.708,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "阳台",
-          "yáng tái",
-          "balcony; porch",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "吉他",
-          "jí tā",
-          "(loanword) guitar",
-          ""
-        ],
-        [
-          "卖",
-          "mài",
-          "to sell; to betray; to spare no effort",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "弹",
-          "dàn",
-          "crossball; bullet; shot",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "比",
-          "bǐ",
-          "(followed by a noun and adjective) more {adj.} than {noun}",
-          ""
-        ],
-        [
-          "以前",
-          "yǐ qián",
-          "before; formerly; previous",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still more; even more; still",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; how (to what extent)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 450,
-  "first": "王明的床底下有一把吉他，是他上大学的时候花一千五百块买的。",
-  "newWords": [
-    {
-      "w": "讨价还价",
-      "py": "tǎojiàhuánjià",
-      "en": "to bargain over price"
-    },
-    {
-      "w": "诚恳",
-      "py": "chéngkěn",
-      "en": "genuinely sincere and open"
-    },
-    {
-      "w": "爱护",
-      "py": "àihù",
-      "en": "to care for and protect"
-    },
-    {
-      "w": "舍不得",
-      "py": "shěbude",
-      "en": "reluctant to let go"
-    },
-    {
-      "w": "随时",
-      "py": "suíshí",
-      "en": "at any moment without warning"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h5-14.mp3?v=1791720929"
+  {
+   "text": "工作以后，他再也没弹过，吉他上落满了灰。",
+   "py": "gōng zuò yǐ hòu, tā zài yě méi dàn guò, jí tā shàng luò mǎn le huī.",
+   "en": "Since he started work, he hasn't played it once, and it's covered in dust.",
+   "tr": {
+    "am": "ሥራ ከጀመረ በኋላ አንድም ጊዜ አልተጫወተበትም፣ ጊታሩ በአቧራ ተሸፍኗል።",
+    "fa": "از وقتی کار شروع کرده، حتی یه بار هم نوازشش نکرده و پر از غباره."
+   },
+   "start": 10.424,
+   "end": 15.92,
+   "tokens": [
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "再也",
+     "zài yě",
+     "(not) ever again; (not) any longer",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "弹",
+     "dàn",
+     "crossball; bullet; shot",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "吉他",
+     "jí tā",
+     "(loanword) guitar",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "落",
+     "là",
+     "to leave out; to be missing",
+     ""
+    ],
+    [
+     "满",
+     "mǎn",
+     "to fill; full; filled",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "灰",
+     "huī",
+     "dust; ash; lime",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨说：“放着也是浪费，不如卖了吧。”",
+   "py": "Xiǎo yǔ shuō: “fàng zhe yě shì làng fèi, bù rú mài le ba.”",
+   "en": "Xiaoyu says, \"It's a waste just leaving it there. You might as well sell it.\"",
+   "tr": {
+    "am": "ሺያውዩ አለች፦ «ዝም ብሎ ቢቀመጥ ብክነት ነው፣ ብትሸጠው ይሻላል።»",
+    "fa": "شیائویو می‌گه: «هدر می‌ره که همین‌طوری اون‌جا بمونه. بهتره بفروشیش.»"
+   },
+   "start": 16.62,
+   "end": 20.892,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "(respectful acknowledgement of a command) very well",
+     ""
+    ],
+    [
+     "浪费",
+     "làng fèi",
+     "to waste; to squander",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不如",
+     "bù rú",
+     "not equal to; not as good as; inferior to",
+     ""
+    ],
+    [
+     "卖",
+     "mài",
+     "to sell; to betray; to spare no effort",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明把吉他擦干净，拍了几张照片，放到了一个二手网站上，价格五百。",
+   "py": "Wáng Míng bǎ jí tā cā gān jìng, pāi le jǐ zhāng zhào piàn, fàng dào le yí gè èr shǒu wǎng zhàn shàng, jià gé wǔ bǎi.",
+   "en": "Wang Ming wipes it clean, takes a few photos and puts it up on a second-hand website for 500 yuan.",
+   "tr": {
+    "am": "ዋንግ ሚንግ ጊታሩን አጽድቶ ጥቂት ፎቶዎችን አንሥቶ ያገለገሉ ዕቃዎች በሚሸጡበት ድረ ገጽ ላይ በ500 ዩዋን አስቀመጠው።",
+    "fa": "وانگ مینگ تمیزش می‌کنه، چند تا عکس می‌گیره و با پونصد یوان می‌ذاره‌ش یه سایت دست‌دوم."
+   },
+   "start": 21.592,
+   "end": 29.176,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "handlebar; classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "吉他",
+     "jí tā",
+     "(loanword) guitar",
+     ""
+    ],
+    [
+     "擦干",
+     "cā gān",
+     "to wipe dry",
+     ""
+    ],
+    [
+     "净",
+     "jìng",
+     "clean; completely; only",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "拍",
+     "pāi",
+     "to take (a photo); to pat; to clap",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "几",
+     "jǐ",
+     "several; a few; how many; how much",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "二手",
+     "èr shǒu",
+     "second-hand (information, equipment etc)",
+     ""
+    ],
+    [
+     "网站",
+     "wǎng zhàn",
+     "website",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "价格",
+     "jià gé",
+     "price",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "hundred; numerous; all kinds of",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "第二天就有人发来消息：“你好，吉他还在吗？能便宜一点儿吗？”",
+   "py": "dì èr tiān jiù yǒu rén fā lái xiāo xi: “nǐ hǎo, jí tā hái zài ma? néng pián yi yì diǎn r ma?”",
+   "en": "The next day, someone sends a message: \"Hi, is the guitar still available? Could you go a bit lower?\"",
+   "tr": {
+    "am": "በማግሥቱ አንድ ሰው መልእክት ላከ፦ «ሰላም፣ ጊታሩ አሁንም አለ? ትንሽ መቀነስ ይቻላል?»",
+    "fa": "فردا، یکی یه پیام می‌فرسته: «سلام، گیتار هنوز موجوده؟ می‌شه یه کمی پایین‌تر؟»"
+   },
+   "start": 29.876,
+   "end": 36.044,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(pattern: 就 ... 也 ...) even if ... still ...",
+     ""
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; there is someone there; people",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "(prefix) the coming ...; the next ... (as in 来世); to come",
+     ""
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "message; (piece of) news; information",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你好",
+     "nǐ hǎo",
+     "hello; hi",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "吉他",
+     "jí tā",
+     "(loanword) guitar",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "便宜",
+     "pián yi",
+     "cheap; inexpensive; a petty advantage; to let sb off lightly",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明回答：“已经很便宜了，最低四百八。”",
+   "py": "Wáng Míng huí dá: “yǐ jīng hěn pián yi le, zuì dī sì bǎi bā.”",
+   "en": "Wang Ming replies, \"It's already cheap. The lowest I'll go is 480.\"",
+   "tr": {
+    "am": "ዋንግ ሚንግ መለሰ፦ «ቀድሞውኑ በጣም ርካሽ ነው፣ ዝቅተኛው 480 ነው።»",
+    "fa": "وانگ مینگ جواب می‌ده: «از قبل ارزون‌تره. کمترینی که می‌دم چهارصد‌وهشتاده.»"
+   },
+   "start": 36.744,
+   "end": 41.28,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "回答",
+     "huí dá",
+     "to reply; to answer; reply; answer",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "便宜",
+     "pián yi",
+     "cheap; inexpensive; a petty advantage; to let sb off lightly",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "最",
+     "zuì",
+     "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+     ""
+    ],
+    [
+     "低",
+     "dī",
+     "low; beneath; to lower (one's head)",
+     ""
+    ],
+    [
+     "四",
+     "sì",
+     "four; 4",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "hundred; numerous; all kinds of",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "对方说：“我只有三百块，是我暑假打工攒的。”",
+   "py": "duì fāng shuō: “wǒ zhǐ yǒu sān bǎi kuài, shì wǒ shǔ jià dǎ gōng zǎn de.”",
+   "en": "The buyer says, \"I've only got 300. I saved it from my summer job.\"",
+   "tr": {
+    "am": "ገዢው አለ፦ «ያለኝ 300 ዩዋን ብቻ ነው፣ በበጋ ዕረፍት ሠርቼ ያጠራቀምኩት ነው።»",
+    "fa": "خریدار می‌گه: «فقط سیصدتای دارم. از کار تابستونم پس‌انداز کردم.»"
+   },
+   "start": 41.98,
+   "end": 47.452,
+   "tokens": [
+    [
+     "对方",
+     "duì fāng",
+     "the other person; the other side; the other party",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "只有",
+     "zhǐ yǒu",
+     "only have ...; there is only ...",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "hundred; numerous; all kinds of",
+     ""
+    ],
+    [
+     "块",
+     "kuài",
+     "classifier for pieces of cloth, cake, soap etc",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "暑假",
+     "shǔ jià",
+     "summer vacation",
+     ""
+    ],
+    [
+     "打工",
+     "dǎ gōng",
+     "to work a temporary or casual job",
+     ""
+    ],
+    [
+     "攒",
+     "zǎn",
+     "to save; to collect; to hoard",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明本来不想再讨价还价了，可是对方接着又发来一段话。",
+   "py": "Wáng Míng běn lái bù xiǎng zài tǎo jià huán jià le, kě shì duì fāng jiē zhe yòu fā lái yí duàn huà.",
+   "en": "Wang Ming doesn't really want to haggle any more, but then the buyer sends another message.",
+   "tr": {
+    "am": "ዋንግ ሚንግ ከዚያ በላይ መከራከር አልፈለገም ነበር፣ ግን ገዢው ቀጥሎ ሌላ መልእክት ላከ።",
+    "fa": "وانگ مینگ دیگه زیاد نمی‌خواد چونه بزنه، ولی بعد خریدار یه پیام دیگه می‌فرسته."
+   },
+   "start": 48.152,
+   "end": 54.296,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "本来",
+     "běn lái",
+     "original; originally; at first",
+     ""
+    ],
+    [
+     "不想",
+     "bù xiǎng",
+     "unexpectedly; to one's surprise",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; (before an adjective) more",
+     ""
+    ],
+    [
+     "讨价还价",
+     "tǎo jià huán jià",
+     "to haggle over price; to bargain",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "对方",
+     "duì fāng",
+     "the other person; the other side; the other party",
+     ""
+    ],
+    [
+     "接着",
+     "jiē zhe",
+     "then; to catch and hold on; to continue",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "(used as a substitute for a more specific verb); to come",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "段",
+     "duàn",
+     "classifier for stories, periods of time, lengths of thread etc",
+     ""
+    ],
+    [
+     "话",
+     "huà",
+     "dialect; language; spoken words",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“我现在练琴用的是朋友的吉他，他下个月就要拿回去了。我每天都练，一定会好好爱护它的。”",
+   "py": "“wǒ xiàn zài liàn qín yòng de shì péng you de jí tā, tā xià gè yuè jiù yào ná huí qù le. wǒ měi tiān dōu liàn, yí dìng huì hǎo hǎo ài hù tā de.”",
+   "en": "\"Right now I practise on a friend's guitar, and he wants it back next month. I practise every day, and I promise I'll take really good care of it.\"",
+   "tr": {
+    "am": "«አሁን የምለማመደው በጓደኛዬ ጊታር ነው፣ እሱ በሚቀጥለው ወር ይወስደዋል። በየቀኑ እለማመዳለሁ፣ በእርግጠኝነት በደንብ እንከባከበዋለሁ።»",
+    "fa": "«الان روی گیتار دوستم تمرین می‌کنم و اون ماه بعد می‌خوادش رو پس بگیره. هر روز تمرین می‌کنم و قول می‌دم خیلی خوب ازش مراقبت کنم.»"
+   },
+   "start": 54.996,
+   "end": 63.324,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "现在",
+     "xiàn zài",
+     "now; at present; currently",
+     ""
+    ],
+    [
+     "练",
+     "liàn",
+     "to practice; to train; to drill",
+     ""
+    ],
+    [
+     "琴",
+     "qín",
+     "guqin 古琴 (a type of zither); musical instrument in general",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "correct; right; true; to be (followed by substantives only)",
+     ""
+    ],
+    [
+     "朋友",
+     "péng you",
+     "friend",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "吉他",
+     "jí tā",
+     "(loanword) guitar",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "下个月",
+     "xià gè yuè",
+     "next month",
+     ""
+    ],
+    [
+     "就要",
+     "jiù yào",
+     "will; shall; to be going to",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to take; to hold; to seize",
+     ""
+    ],
+    [
+     "回去",
+     "huí qu",
+     "to go back; to return",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "练",
+     "liàn",
+     "to practice; to train; to drill",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "好好",
+     "hǎo hǎo",
+     "well; carefully; nicely; properly",
+     ""
+    ],
+    [
+     "爱护",
+     "ài hù",
+     "to take care of; to cherish; to treasure",
+     ""
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "话说得很诚恳，王明看了好几遍，最后回了一句：“三百就三百吧。”",
+   "py": "huà shuō de hěn chéng kěn, Wáng Míng kàn le hǎo jǐ biàn, zuì hòu huí le yí jù: “sān bǎi jiù sān bǎi ba.”",
+   "en": "It sounds so sincere that Wang Ming reads it several times. In the end he replies, \"All right, 300 it is.\"",
+   "tr": {
+    "am": "ቃሉ በጣም ቅን ስለነበር ዋንግ ሚንግ ብዙ ጊዜ አነበበው፣ በመጨረሻም መለሰ፦ «እሺ፣ 300 ይሁን።»",
+    "fa": "اون‌قدر صادقانه به نظر می‌رسه که وانگ مینگ چند بار می‌خونه‌ش. آخرش جواب می‌ده: «باشه، سیصد.»"
+   },
+   "start": 64.024,
+   "end": 71.584,
+   "tokens": [
+    [
+     "话说",
+     "huà shuō",
+     "It is said that ... (at the start of a narrative)",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "诚恳",
+     "chéng kěn",
+     "sincere; honest; cordial",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to read; to see; to look at; to watch",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "好几",
+     "hǎo jǐ",
+     "several; quite a few",
+     ""
+    ],
+    [
+     "遍",
+     "biàn",
+     "classifier for actions: one time; all over; everywhere",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "最后",
+     "zuì hòu",
+     "finally; in the end; final; last; ultimate",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "classifier for occurrences or times",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一句",
+     "yī jù",
+     "a line of verse; a sentence",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "all kinds of; hundred; numerous",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "all kinds of; hundred; numerous",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "...right?; (modal particle indicating suggestion or surmise)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "他们约好晚上七点在王明家楼下见面。",
+   "py": "tā men yuē hǎo wǎn shang qī diǎn zài Wáng Míng jiā lóu xià jiàn miàn.",
+   "en": "They arrange to meet outside Wang Ming's building at seven that evening.",
+   "tr": {
+    "am": "ምሽት 7:00 ላይ በዋንግ ሚንግ ሕንፃ ሥር ለመገናኘት ተቀጣጠሩ።",
+    "fa": "قرار می‌ذارن که همون عصر ساعت هفت بیرون ساختمون وانگ مینگ همدیگه رو ببینن."
+   },
+   "start": 72.284,
+   "end": 76.34,
+   "tokens": [
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "约",
+     "yāo",
+     "to weigh in a balance or on a scale",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "楼下",
+     "lóu xià",
+     "downstairs",
+     ""
+    ],
+    [
+     "见面",
+     "jiàn miàn",
+     "to meet; to see each other",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明抱着吉他下了楼，看见一个穿着球衣的男孩已经在等了，手里拿着一个信封。",
+   "py": "Wáng Míng bào zhe jí tā xià le lóu, kàn jiàn yí gè chuān zhe qiú yī de nán hái yǐ jīng zài děng le, shǒu lǐ ná zhe yí gè xìn fēng.",
+   "en": "Wang Ming carries the guitar downstairs and sees a boy in a football shirt already waiting, holding an envelope.",
+   "tr": {
+    "am": "ዋንግ ሚንግ ጊታሩን አቅፎ ሲወርድ የኳስ ማሊያ የለበሰ አንድ ልጅ በእጁ ፖስታ ይዞ ቀድሞ ሲጠብቅ አየ።",
+    "fa": "وانگ مینگ گیتار رو می‌بره پایین و می‌بینه یه پسر با پیراهن فوتبال از قبل منتظره، یه پاکت دستشه."
+   },
+   "start": 77.04,
+   "end": 85.08,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "抱",
+     "bào",
+     "to hold; to carry (in one's arms); to hug",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "吉他",
+     "jí tā",
+     "(loanword) guitar",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; to go down; downwards",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "楼",
+     "lóu",
+     "house with more than 1 story; storied building; floor",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "穿着",
+     "chuān zhuó",
+     "attire; clothes; dress",
+     ""
+    ],
+    [
+     "球",
+     "qiú",
+     "ball used for playing games; ball; sphere",
+     ""
+    ],
+    [
+     "衣",
+     "yī",
+     "clothes; Kangxi radical 145",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "男孩",
+     "nán hái",
+     "boy",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "手里",
+     "shǒu lǐ",
+     "in hand; (a situation is) in sb's hands",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "信封",
+     "xìn fēng",
+     "envelope",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "两个人看见对方，都愣住了——原来是住在六楼的李强。",
+   "py": "liǎng gè rén kàn jiàn duì fāng, dōu lèng zhù le—— yuán lái shì zhù zài liù lóu de Lǐ Qiáng.",
+   "en": "When they see each other, they both freeze. It's Li Qiang from the sixth floor.",
+   "tr": {
+    "am": "ሁለቱ ሲተያዩ ደነገጡ — ለካ ስድስተኛ ፎቅ የሚኖረው ሊ ቺያንግ ነው።",
+    "fa": "وقتی همدیگه رو می‌بینن، هر دو خشکشون می‌زنه. لی چیانگِ طبقه‌ی ششمه."
+   },
+   "start": 85.78,
+   "end": 92.212,
+   "tokens": [
+    [
+     "两",
+     "liǎng",
+     "both; two; some",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "对方",
+     "duì fāng",
+     "the other person; the other side; the other party",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "愣",
+     "lèng",
+     "to look distracted; to stare blankly; distracted",
+     ""
+    ],
+    [
+     "住",
+     "zhù",
+     "to live; to reside; to stay; to stop; to cease",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "—"
+    ],
+    [
+     "—"
+    ],
+    [
+     "原来",
+     "yuán lái",
+     "original; former; originally; formerly; at first",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "住",
+     "zhù",
+     "to live; to reside; to stay; to stop; to cease",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "楼",
+     "lóu",
+     "floor; house with more than 1 story; storied building",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李强的脸一下子红了：“王明哥，原来是你啊……我不知道是你的。”",
+   "py": "Lǐ Qiáng de liǎn yí xià zi hóng le: “Wáng Míng gē, yuán lái shì nǐ a…… wǒ bù zhī dào shì nǐ de.”",
+   "en": "Li Qiang goes red. \"Wang Ming! It's you... I didn't know it was yours.\"",
+   "tr": {
+    "am": "የሊ ቺያንግ ፊት ድንገት ቀላ፦ «ወንድሜ ዋንግ ሚንግ፣ ለካ አንተ ነህ… ያንተ መሆኑን አላወቅሁም።»",
+    "fa": "لی چیانگ سرخ می‌شه: «وانگ مینگ! توئه... نمی‌دونستم مال توئه.»"
+   },
+   "start": 92.912,
+   "end": 100.76,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "脸",
+     "liǎn",
+     "face",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "once; one time; (following a verb) for a moment; briefly",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "哥",
+     "gē",
+     "elder brother",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "原来",
+     "yuán lái",
+     "original; former; originally; formerly; at first",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "啊",
+     "a",
+     "modal particle ending sentence, showing affirmation, approval, or consent",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "不知",
+     "bù zhī",
+     "not to know; unaware; unknowingly",
+     ""
+    ],
+    [
+     "道",
+     "dào",
+     "road; path; (bound form) way; reason; principle",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明把吉他递给他，突然有点儿舍不得了。",
+   "py": "Wáng Míng bǎ jí tā dì gěi tā, tū rán yǒu diǎn r shě bu dé liǎo.",
+   "en": "Wang Ming hands him the guitar and suddenly finds it a bit hard to let go.",
+   "tr": {
+    "am": "ዋንግ ሚንግ ጊታሩን ሰጠው፣ ድንገት ግን ሊለየው ትንሽ ከበደው።",
+    "fa": "وانگ مینگ گیتار رو دستش می‌ده و یهو می‌بینه یه کمی سخته که ولش کنه."
+   },
+   "start": 101.46,
+   "end": 105.54,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "吉他",
+     "jí tā",
+     "(loanword) guitar",
+     ""
+    ],
+    [
+     "递给",
+     "dì gěi",
+     "to hand it (i.e. the aforementioned item) to (sb)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "突然",
+     "tū rán",
+     "sudden; abrupt; unexpected",
+     ""
+    ],
+    [
+     "有点儿",
+     "yǒu diǎn r",
+     "slightly; a little; somewhat",
+     ""
+    ],
+    [
+     "舍不得",
+     "shě bu de",
+     "to hate to do sth; to hate to part with; to begrudge",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李强好像看出来了，小声说：“你要是想它了，随时可以来我家弹。”",
+   "py": "Lǐ Qiáng hǎo xiàng kàn chū lái le, xiǎo shēng shuō: “nǐ yào shi xiǎng tā le, suí shí kě yǐ lái wǒ jiā dàn.”",
+   "en": "Li Qiang seems to notice, and says quietly, \"If you miss it, you can come round and play it any time.\"",
+   "tr": {
+    "am": "ሊ ቺያንግ ያስተዋለ ይመስላል፣ በለሆሳስ አለ፦ «ከናፈቀህ በማንኛውም ጊዜ ወደ ቤቴ መጥተህ መጫወት ትችላለህ።»",
+    "fa": "لی چیانگ به نظر می‌رسه متوجه می‌شه و آروم می‌گه: «اگه دلتنگش شدی، هر وقت می‌تونی بیای و نوازشش کنی.»"
+   },
+   "start": 106.24,
+   "end": 113.632,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "好像",
+     "hǎo xiàng",
+     "to seem like; as if",
+     ""
+    ],
+    [
+     "看出",
+     "kàn chū",
+     "to make out; to see",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; for the past (amount of time)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小声",
+     "xiǎo shēng",
+     "in a low voice; (speak) in whispers",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "要是",
+     "yào shi",
+     "(coll.) if",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to miss (feel wistful about the absence of)",
+     ""
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "随时",
+     "suí shí",
+     "at any time; at all times",
+     ""
+    ],
+    [
+     "可以",
+     "kě yǐ",
+     "can; may; possible",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; for the past (amount of time)",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "弹",
+     "dàn",
+     "crossball; bullet; shot",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明笑了，从信封里拿出一百块，塞回到李强手里：“两百就够了，再送你十节课。”",
+   "py": "Wáng Míng xiào le, cóng xìn fēng lǐ ná chū yì bǎi kuài, sāi huí dào Lǐ Qiáng shǒu lǐ: “liǎng bǎi jiù gòu le, zài sòng nǐ shí jié kè.”",
+   "en": "Wang Ming smiles, takes a hundred yuan out of the envelope and presses it back into Li Qiang's hand. \"Two hundred is enough. And I'll throw in ten lessons.\"",
+   "tr": {
+    "am": "ዋንግ ሚንግ ፈገግ አለና ከፖስታው መቶ ዩዋን አውጥቶ ወደ ሊ ቺያንግ እጅ መለሰ፦ «ሁለት መቶ ይበቃል፣ በዚያ ላይ አሥር ትምህርት በነፃ እሰጥሃለሁ።»",
+    "fa": "وانگ مینگ می‌خنده، یه صد یوان از پاکت درمیاره و برمی‌گردونه توی دست لی چیانگ: «دویست کافیه. و ده درس هم بمانک می‌دم.»"
+   },
+   "start": 114.332,
+   "end": 123.116,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "信封",
+     "xìn fēng",
+     "envelope",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "hundred; numerous; all kinds of",
+     ""
+    ],
+    [
+     "块",
+     "kuài",
+     "classifier for pieces of cloth, cake, soap etc",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "塞",
+     "sāi",
+     "to plug; to stop up; to stuff in",
+     ""
+    ],
+    [
+     "回到",
+     "huí dào",
+     "to return to",
+     ""
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "手里",
+     "shǒu lǐ",
+     "in hand; (a situation is) in sb's hands",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "hundred; numerous; all kinds of",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "够",
+     "gòu",
+     "enough (sufficient); enough (too much)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; further; beyond this point of time",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "节",
+     "jié",
+     "classifier for segments: lessons, train wagons, biblical verses etc",
+     ""
+    ],
+    [
+     "课",
+     "kè",
+     "lesson; subject; course",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "从那以后，每个星期六下午，楼下的长椅上都会传来两个人的吉他声。",
+   "py": "cóng nà yǐ hòu, měi gè xīng qī liù xià wǔ, lóu xià de cháng yǐ shàng dōu huì chuán lái liǎng gè rén de jí tā shēng.",
+   "en": "From then on, every Saturday afternoon, the sound of two people playing guitar drifts up from the bench downstairs.",
+   "tr": {
+    "am": "ከዚያ ጊዜ ጀምሮ በየቅዳሜው ከሰዓት በኋላ ከሕንፃው ሥር ካለው ወንበር የሁለት ሰዎች የጊታር ድምፅ ይሰማል።",
+    "fa": "از اون به بعد، هر جمعه عصر، صدای دو نفر که گیتار می‌زنن از نیمکت پایین بالا می‌اد."
+   },
+   "start": 123.816,
+   "end": 131.16,
+   "tokens": [
+    [
+     "从",
+     "cóng",
+     "(used before a negative) ever; from; through; via",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每个",
+     "měi gè",
+     "each; every",
+     ""
+    ],
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "楼下",
+     "lóu xià",
+     "downstairs",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "长椅",
+     "cháng yǐ",
+     "bench",
+     ""
+    ],
+    [
+     "上都",
+     "shàng dū",
+     "Shangdu, also known as Xanadu, summer capital of the Yuan Dynasty (1279-1368)",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "传来",
+     "chuán lái",
+     "(of a sound) to come through; to be heard",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "吉他",
+     "jí tā",
+     "(loanword) guitar",
+     ""
+    ],
+    [
+     "声",
+     "shēng",
+     "sound; classifier for sounds; voice",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨在阳台上听着，笑着说：“你把吉他卖了，怎么弹得比以前还多了？”",
+   "py": "Xiǎo yǔ zài yáng tái shàng tīng zhe, xiào zhe shuō: “nǐ bǎ jí tā mài le, zěn me dàn de bǐ yǐ qián hái duō le?”",
+   "en": "Listening from the balcony, Xiaoyu laughs. \"You sold your guitar, so how come you're playing more than ever?\"",
+   "tr": {
+    "am": "ሺያውዩ ከበረንዳው ሆና እያዳመጠች ሳቀች፦ «ጊታሩን ሸጠህ እንዴት ከበፊቱ የበለጠ ትጫወታለህ?»",
+    "fa": "شیائویو از بالکن گوش می‌ده و می‌خنده: «گیتارت رو فروختی، پس چطور بیشتر از همیشه داری می‌زنی؟»"
+   },
+   "start": 131.86,
+   "end": 139.708,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "阳台",
+     "yáng tái",
+     "balcony; porch",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "吉他",
+     "jí tā",
+     "(loanword) guitar",
+     ""
+    ],
+    [
+     "卖",
+     "mài",
+     "to sell; to betray; to spare no effort",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "弹",
+     "dàn",
+     "crossball; bullet; shot",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "比",
+     "bǐ",
+     "(followed by a noun and adjective) more {adj.} than {noun}",
+     ""
+    ],
+    [
+     "以前",
+     "yǐ qián",
+     "before; formerly; previous",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still more; even more; still",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; how (to what extent)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 450,
+ "first": "王明的床底下有一把吉他，是他上大学的时候花一千五百块买的。",
+ "newWords": [
+  {
+   "w": "讨价还价",
+   "py": "tǎojiàhuánjià",
+   "en": "to bargain over price"
+  },
+  {
+   "w": "诚恳",
+   "py": "chéngkěn",
+   "en": "genuinely sincere and open"
+  },
+  {
+   "w": "爱护",
+   "py": "àihù",
+   "en": "to care for and protect"
+  },
+  {
+   "w": "舍不得",
+   "py": "shěbude",
+   "en": "reluctant to let go"
+  },
+  {
+   "w": "随时",
+   "py": "suíshí",
+   "en": "at any moment without warning"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h5-14.mp3?v=1791720929"
 }

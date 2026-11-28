@@ -1,856 +1,866 @@
 {
-  "id": "h1-35",
-  "level": 1,
-  "no": 35,
-  "title": "谁先回家？",
-  "title_py": "shéi xiān huí jiā?",
-  "title_en": "Who goes home first?",
-  "title_tr": {
-    "vi": "Ai về nhà trước?",
-    "pt": "Quem vai para casa primeiro?",
-    "es": "¿Quién se va primero a casa?",
-    "fr": "Qui rentre en premier ?",
-    "am": "ማን ቀድሞ ይሄዳል?",
-    "fa": "می‌خواهم سیب بخرم"
+ "id": "h1-35",
+ "level": 1,
+ "no": 35,
+ "title": "谁先回家？",
+ "title_py": "shéi xiān huí jiā?",
+ "title_en": "Who goes home first?",
+ "title_tr": {
+  "vi": "Ai về nhà trước?",
+  "pt": "Quem vai para casa primeiro?",
+  "es": "¿Quién se va primero a casa?",
+  "fr": "Qui rentre en premier ?",
+  "am": "ማን ቀድሞ ይሄዳል?",
+  "fa": "می‌خواهم سیب بخرم"
+ },
+ "topic": "work",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-35.jpg",
+ "duration": 52.868,
+ "lines": [
+  {
+   "text": "星期五下午五点，杰克的工作做好了。",
+   "py": "xīng qī wǔ xià wǔ wǔ diǎn, Jié kè de gōng zuò zuò hǎo le.",
+   "en": "At five on Friday afternoon, Jack has finished his work.",
+   "tr": {
+    "vi": "Năm giờ chiều thứ Sáu, Jack đã làm xong việc.",
+    "pt": "Na sexta, às cinco da tarde, o Jack termina o trabalho.",
+    "es": "El viernes a las cinco de la tarde, Jack ya terminó su trabajo.",
+    "fr": "Vendredi, à cinq heures de l'après-midi, Jack a fini son travail.",
+    "am": "ዓርብ ከሰዓት 5:00 ላይ ጃክ ሥራውን ጨረሰ።",
+    "fa": "جمعه ساعت پنج بعدازظهر، کار جک تمام شده."
+   },
+   "start": 2.404,
+   "end": 6.652,
+   "tokens": [
+    [
+     "星期五",
+     "xīng qī wǔ",
+     "Friday",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "(after a personal pronoun) hello; good; appropriate; proper",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-35.jpg",
-  "duration": 52.868,
-  "lines": [
-    {
-      "text": "星期五下午五点，杰克的工作做好了。",
-      "py": "xīng qī wǔ xià wǔ wǔ diǎn, Jié kè de gōng zuò zuò hǎo le.",
-      "en": "At five on Friday afternoon, Jack has finished his work.",
-      "tr": {
-        "vi": "Năm giờ chiều thứ Sáu, Jack đã làm xong việc.",
-        "pt": "Na sexta, às cinco da tarde, o Jack termina o trabalho.",
-        "es": "El viernes a las cinco de la tarde, Jack ya terminó su trabajo.",
-        "fr": "Vendredi, à cinq heures de l'après-midi, Jack a fini son travail.",
-        "am": "ዓርብ ከሰዓት 5:00 ላይ ጃክ ሥራውን ጨረሰ።"
-      },
-      "start": 2.404,
-      "end": 6.652,
-      "tokens": [
-        [
-          "星期五",
-          "xīng qī wǔ",
-          "Friday",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "(after a personal pronoun) hello; good; appropriate; proper",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理还在工作。",
-      "py": "Zhōu jīng lǐ hái zài gōng zuò.",
-      "en": "Manager Zhou is still working.",
-      "tr": {
-        "vi": "Giám đốc Chu vẫn đang làm việc.",
-        "pt": "A gerente Zhou ainda está trabalhando.",
-        "es": "La gerente Zhou sigue trabajando.",
-        "fr": "La directrice Zhou travaille encore.",
-        "am": "ሥራ አስኪያጅ ጆው ግን ገና እየሠራች ነበር።"
-      },
-      "start": 7.352,
-      "end": 9.536,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克想：周经理没有回家，我不能回家。",
-      "py": "Jié kè xiǎng: Zhōu jīng lǐ méi yǒu huí jiā, wǒ bù néng huí jiā.",
-      "en": "Jack thinks, \"Manager Zhou hasn't gone home, so I can't go home.\"",
-      "tr": {
-        "vi": "Jack nghĩ: giám đốc Chu chưa về, mình không thể về.",
-        "pt": "O Jack pensa: a gerente Zhou não foi para casa, então eu não posso ir.",
-        "es": "Jack piensa: «La gerente Zhou no se ha ido a casa, así que yo no me puedo ir».",
-        "fr": "Jack se dit : la directrice Zhou n'est pas rentrée, je ne peux pas rentrer.",
-        "am": "ጃክ «ሥራ አስኪያጅ ጆው ሳይሄዱ እኔ ወደ ቤት መሄድ አልችልም» ብሎ አሰበ።"
-      },
-      "start": 10.236,
-      "end": 15.708,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "hasn't; haven't; doesn't exist",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "六点了，七点了，周经理还在工作。",
-      "py": "liù diǎn le, qī diǎn le, Zhōu jīng lǐ hái zài gōng zuò.",
-      "en": "Six o'clock, seven o'clock... Manager Zhou is still working.",
-      "tr": {
-        "vi": "Sáu giờ rồi, bảy giờ rồi, giám đốc Chu vẫn đang làm việc.",
-        "pt": "Seis horas, sete horas... a gerente Zhou continua trabalhando.",
-        "es": "Son las seis, son las siete… y la gerente Zhou sigue trabajando.",
-        "fr": "Six heures, sept heures… La directrice Zhou travaille toujours.",
-        "am": "6:00 ሆነ፣ 7:00 ሆነ፤ ሥራ አስኪያጅ ጆው አሁንም እየሠራች ነው።"
-      },
-      "start": 16.408,
-      "end": 20.656,
-      "tokens": [
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock; classifier for small amounts",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock; classifier for small amounts",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "八点了，杰克很想回家。他去看周经理。",
-      "py": "bā diǎn le, Jié kè hěn xiǎng huí jiā. tā qù kàn Zhōu jīng lǐ.",
-      "en": "At eight, Jack really wants to go home. He goes over to Manager Zhou.",
-      "tr": {
-        "vi": "Tám giờ, Jack rất muốn về nhà. Anh ấy đến chỗ giám đốc Chu.",
-        "pt": "Às oito, o Jack está louco para ir para casa. Ele vai até a gerente Zhou.",
-        "es": "A las ocho, Jack tiene muchas ganas de irse a casa. Va a ver a la gerente Zhou.",
-        "fr": "À huit heures, Jack a très envie de rentrer. Il va voir la directrice Zhou.",
-        "am": "8:00 ሆነ፤ ጃክ ወደ ቤት መሄድ በጣም ፈለገ። ወደ ሥራ አስኪያጅ ጆው ሄደ።"
-      },
-      "start": 21.356,
-      "end": 27.068,
-      "tokens": [
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "all over; Zhou Dynasty (1046–256 BC); to make a circuit",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理说：“杰克，你怎么还没有回家？”",
-      "py": "Zhōu jīng lǐ shuō: “Jié kè, nǐ zěn me hái méi yǒu huí jiā?”",
-      "en": "Manager Zhou says, \"Jack, why haven't you gone home yet?\"",
-      "tr": {
-        "vi": "Giám đốc Chu nói: “Jack, sao em vẫn chưa về?”",
-        "pt": "A gerente Zhou diz: “Jack, por que você ainda não foi para casa?”",
-        "es": "La gerente Zhou dice: «Jack, ¿por qué todavía no te has ido a casa?»",
-        "fr": "La directrice Zhou dit : « Jack, pourquoi vous n'êtes pas encore rentré ? »",
-        "am": "ሥራ አስኪያጅ ጆው «ጃክ፣ ለምን እስካሁን ወደ ቤት አልሄድክም?» አለች።"
-      },
-      "start": 27.768,
-      "end": 32.04,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "why?; how?; what?",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "yet; still; still in progress",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; to not have; hasn't",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“您没有回家，我……”",
-      "py": "Jié kè shuō: “nín méi yǒu huí jiā, wǒ……”",
-      "en": "Jack says, \"You haven't gone home, so I...\"",
-      "tr": {
-        "vi": "Jack nói: “Chị chưa về, nên em...”",
-        "pt": "O Jack diz: “A senhora não foi para casa, então eu...”",
-        "es": "Jack dice: «Usted no se ha ido a casa, así que yo…»",
-        "fr": "Jack dit : « Vous n'êtes pas rentrée, alors je… »",
-        "am": "ጃክ «እርስዎ ሳይሄዱ፣ እኔ…» አለ።"
-      },
-      "start": 32.74,
-      "end": 36.532,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; to not have; hasn't",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "周经理笑了：“我？我在等你回家！”",
-      "py": "Zhōu jīng lǐ xiào le: “wǒ? wǒ zài děng nǐ huí jiā!”",
-      "en": "Manager Zhou laughs. \"Me? I'm waiting for you to go home!\"",
-      "tr": {
-        "vi": "Giám đốc Chu cười: “Chị á? Chị đang đợi em về đấy!”",
-        "pt": "A gerente Zhou ri: “Eu? Eu estou esperando você ir para casa!”",
-        "es": "La gerente Zhou se ríe: «¿Yo? ¡Yo estoy esperando a que tú te vayas!»",
-        "fr": "La directrice Zhou rit : « Moi ? J'attends que vous rentriez ! »",
-        "am": "ሥራ አስኪያጅ ጆው ሳቀች። «እኔ? እኔ እኮ አንተ እስክትሄድ እየጠበቅሁ ነው!»"
-      },
-      "start": 37.232,
-      "end": 41.984,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我想：杰克还在工作，我不能回家！”",
-      "py": "“wǒ xiǎng: Jié kè hái zài gōng zuò, wǒ bù néng huí jiā!”",
-      "en": "\"I thought, Jack's still working, so I can't go home!\"",
-      "tr": {
-        "vi": "“Chị nghĩ: Jack vẫn đang làm, chị không thể về!”",
-        "pt": "“Eu pensei: o Jack ainda está trabalhando, então eu não posso ir!”",
-        "es": "«Pensé: Jack sigue trabajando, ¡así que yo no me puedo ir!»",
-        "fr": "« Je me disais : Jack travaille encore, je ne peux pas rentrer ! »",
-        "am": "«‹ጃክ ገና እየሠራ ነው፤ እኔ መሄድ አልችልም› ብዬ ነበር!»"
-      },
-      "start": 42.684,
-      "end": 46.956,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "他们都笑了。现在，他们能回家了！",
-      "py": "tā men dōu xiào le. xiàn zài, tā men néng huí jiā le!",
-      "en": "They both laugh. Now they can both go home!",
-      "tr": {
-        "vi": "Cả hai đều cười. Bây giờ thì họ về nhà được rồi!",
-        "pt": "Os dois riem. Agora eles podem ir para casa!",
-        "es": "Los dos se ríen. ¡Ahora sí se pueden ir a casa!",
-        "fr": "Ils rient tous les deux. Maintenant, ils peuvent rentrer !",
-        "am": "ሁለቱም ሳቁ። አሁን ወደ ቤት መሄድ ይችላሉ!"
-      },
-      "start": 47.656,
-      "end": 52.168,
-      "tokens": [
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "现在",
-          "xiàn zài",
-          "now; at present; currently",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    }
-  ],
-  "chars": 126,
-  "first": "星期五下午五点，杰克的工作做好了。",
-  "newWords": [
-    {
-      "w": "还",
-      "py": "hái",
-      "en": "still"
-    },
-    {
-      "w": "您",
-      "py": "nín",
-      "en": "you"
-    },
-    {
-      "w": "等",
-      "py": "děng",
-      "en": "to wait"
-    },
-    {
-      "w": "笑",
-      "py": "xiào",
-      "en": "to smile"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-35.mp3?v=1791720708"
+  {
+   "text": "周经理还在工作。",
+   "py": "Zhōu jīng lǐ hái zài gōng zuò.",
+   "en": "Manager Zhou is still working.",
+   "tr": {
+    "vi": "Giám đốc Chu vẫn đang làm việc.",
+    "pt": "A gerente Zhou ainda está trabalhando.",
+    "es": "La gerente Zhou sigue trabajando.",
+    "fr": "La directrice Zhou travaille encore.",
+    "am": "ሥራ አስኪያጅ ጆው ግን ገና እየሠራች ነበር።",
+    "fa": "مدیر جو هنوز دارد کار می‌کند."
+   },
+   "start": 7.352,
+   "end": 9.536,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克想：周经理没有回家，我不能回家。",
+   "py": "Jié kè xiǎng: Zhōu jīng lǐ méi yǒu huí jiā, wǒ bù néng huí jiā.",
+   "en": "Jack thinks, \"Manager Zhou hasn't gone home, so I can't go home.\"",
+   "tr": {
+    "vi": "Jack nghĩ: giám đốc Chu chưa về, mình không thể về.",
+    "pt": "O Jack pensa: a gerente Zhou não foi para casa, então eu não posso ir.",
+    "es": "Jack piensa: «La gerente Zhou no se ha ido a casa, así que yo no me puedo ir».",
+    "fr": "Jack se dit : la directrice Zhou n'est pas rentrée, je ne peux pas rentrer.",
+    "am": "ጃክ «ሥራ አስኪያጅ ጆው ሳይሄዱ እኔ ወደ ቤት መሄድ አልችልም» ብሎ አሰበ።",
+    "fa": "جک با خودش فکر می‌کند: «مدیر جو نرفته خونه، من هم نمی‌تونم برم.»"
+   },
+   "start": 10.236,
+   "end": 15.708,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "hasn't; haven't; doesn't exist",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "六点了，七点了，周经理还在工作。",
+   "py": "liù diǎn le, qī diǎn le, Zhōu jīng lǐ hái zài gōng zuò.",
+   "en": "Six o'clock, seven o'clock... Manager Zhou is still working.",
+   "tr": {
+    "vi": "Sáu giờ rồi, bảy giờ rồi, giám đốc Chu vẫn đang làm việc.",
+    "pt": "Seis horas, sete horas... a gerente Zhou continua trabalhando.",
+    "es": "Son las seis, son las siete… y la gerente Zhou sigue trabajando.",
+    "fr": "Six heures, sept heures… La directrice Zhou travaille toujours.",
+    "am": "6:00 ሆነ፣ 7:00 ሆነ፤ ሥራ አስኪያጅ ጆው አሁንም እየሠራች ነው።",
+    "fa": "ساعت شش شد، ساعت هفت شد؛ مدیر جو هنوز سر کاره."
+   },
+   "start": 16.408,
+   "end": 20.656,
+   "tokens": [
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock; classifier for small amounts",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock; classifier for small amounts",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "八点了，杰克很想回家。他去看周经理。",
+   "py": "bā diǎn le, Jié kè hěn xiǎng huí jiā. tā qù kàn Zhōu jīng lǐ.",
+   "en": "At eight, Jack really wants to go home. He goes over to Manager Zhou.",
+   "tr": {
+    "vi": "Tám giờ, Jack rất muốn về nhà. Anh ấy đến chỗ giám đốc Chu.",
+    "pt": "Às oito, o Jack está louco para ir para casa. Ele vai até a gerente Zhou.",
+    "es": "A las ocho, Jack tiene muchas ganas de irse a casa. Va a ver a la gerente Zhou.",
+    "fr": "À huit heures, Jack a très envie de rentrer. Il va voir la directrice Zhou.",
+    "am": "8:00 ሆነ፤ ጃክ ወደ ቤት መሄድ በጣም ፈለገ። ወደ ሥራ አስኪያጅ ጆው ሄደ።",
+    "fa": "ساعت هشت، جک حسابی دلتنگ خانه شده. می‌رود پیش مدیر جو."
+   },
+   "start": 21.356,
+   "end": 27.068,
+   "tokens": [
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "all over; Zhou Dynasty (1046–256 BC); to make a circuit",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "周经理说：“杰克，你怎么还没有回家？”",
+   "py": "Zhōu jīng lǐ shuō: “Jié kè, nǐ zěn me hái méi yǒu huí jiā?”",
+   "en": "Manager Zhou says, \"Jack, why haven't you gone home yet?\"",
+   "tr": {
+    "vi": "Giám đốc Chu nói: “Jack, sao em vẫn chưa về?”",
+    "pt": "A gerente Zhou diz: “Jack, por que você ainda não foi para casa?”",
+    "es": "La gerente Zhou dice: «Jack, ¿por qué todavía no te has ido a casa?»",
+    "fr": "La directrice Zhou dit : « Jack, pourquoi vous n'êtes pas encore rentré ? »",
+    "am": "ሥራ አስኪያጅ ጆው «ጃክ፣ ለምን እስካሁን ወደ ቤት አልሄድክም?» አለች።",
+    "fa": "مدیر جو می‌گوید: «جک، تو چرا هنوز نرفتی خونه؟»"
+   },
+   "start": 27.768,
+   "end": 32.04,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "why?; how?; what?",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "yet; still; still in progress",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; to not have; hasn't",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克说：“您没有回家，我……”",
+   "py": "Jié kè shuō: “nín méi yǒu huí jiā, wǒ……”",
+   "en": "Jack says, \"You haven't gone home, so I...\"",
+   "tr": {
+    "vi": "Jack nói: “Chị chưa về, nên em...”",
+    "pt": "O Jack diz: “A senhora não foi para casa, então eu...”",
+    "es": "Jack dice: «Usted no se ha ido a casa, así que yo…»",
+    "fr": "Jack dit : « Vous n'êtes pas rentrée, alors je… »",
+    "am": "ጃክ «እርስዎ ሳይሄዱ፣ እኔ…» አለ።",
+    "fa": "جک می‌گوید: «شما نرفتید خونه، من…»"
+   },
+   "start": 32.74,
+   "end": 36.532,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; to not have; hasn't",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "周经理笑了：“我？我在等你回家！”",
+   "py": "Zhōu jīng lǐ xiào le: “wǒ? wǒ zài děng nǐ huí jiā!”",
+   "en": "Manager Zhou laughs. \"Me? I'm waiting for you to go home!\"",
+   "tr": {
+    "vi": "Giám đốc Chu cười: “Chị á? Chị đang đợi em về đấy!”",
+    "pt": "A gerente Zhou ri: “Eu? Eu estou esperando você ir para casa!”",
+    "es": "La gerente Zhou se ríe: «¿Yo? ¡Yo estoy esperando a que tú te vayas!»",
+    "fr": "La directrice Zhou rit : « Moi ? J'attends que vous rentriez ! »",
+    "am": "ሥራ አስኪያጅ ጆው ሳቀች። «እኔ? እኔ እኮ አንተ እስክትሄድ እየጠበቅሁ ነው!»",
+    "fa": "مدیر جو می‌خندد: «من؟ منتظرتم بری خونه!»"
+   },
+   "start": 37.232,
+   "end": 41.984,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我想：杰克还在工作，我不能回家！”",
+   "py": "“wǒ xiǎng: Jié kè hái zài gōng zuò, wǒ bù néng huí jiā!”",
+   "en": "\"I thought, Jack's still working, so I can't go home!\"",
+   "tr": {
+    "vi": "“Chị nghĩ: Jack vẫn đang làm, chị không thể về!”",
+    "pt": "“Eu pensei: o Jack ainda está trabalhando, então eu não posso ir!”",
+    "es": "«Pensé: Jack sigue trabajando, ¡así que yo no me puedo ir!»",
+    "fr": "« Je me disais : Jack travaille encore, je ne peux pas rentrer ! »",
+    "am": "«‹ጃክ ገና እየሠራ ነው፤ እኔ መሄድ አልችልም› ብዬ ነበር!»",
+    "fa": "«با خودم گفتم جک هنوز سر کاره، من هم نمی‌تونم برم!»"
+   },
+   "start": 42.684,
+   "end": 46.956,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "他们都笑了。现在，他们能回家了！",
+   "py": "tā men dōu xiào le. xiàn zài, tā men néng huí jiā le!",
+   "en": "They both laugh. Now they can both go home!",
+   "tr": {
+    "vi": "Cả hai đều cười. Bây giờ thì họ về nhà được rồi!",
+    "pt": "Os dois riem. Agora eles podem ir para casa!",
+    "es": "Los dos se ríen. ¡Ahora sí se pueden ir a casa!",
+    "fr": "Ils rient tous les deux. Maintenant, ils peuvent rentrer !",
+    "am": "ሁለቱም ሳቁ። አሁን ወደ ቤት መሄድ ይችላሉ!",
+    "fa": "هر دو می‌خندند. حالا می‌تونن برن خونه!"
+   },
+   "start": 47.656,
+   "end": 52.168,
+   "tokens": [
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "现在",
+     "xiàn zài",
+     "now; at present; currently",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  }
+ ],
+ "chars": 126,
+ "first": "星期五下午五点，杰克的工作做好了。",
+ "newWords": [
+  {
+   "w": "还",
+   "py": "hái",
+   "en": "still"
+  },
+  {
+   "w": "您",
+   "py": "nín",
+   "en": "you"
+  },
+  {
+   "w": "等",
+   "py": "děng",
+   "en": "to wait"
+  },
+  {
+   "w": "笑",
+   "py": "xiào",
+   "en": "to smile"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-35.mp3?v=1791720708"
 }

@@ -1,2513 +1,2532 @@
 {
-  "id": "h5-17",
-  "level": 5,
-  "no": 17,
-  "title": "老年卡",
-  "title_py": "lǎo nián kǎ",
-  "title_en": "The senior card",
-  "title_tr": {
-    "am": "የአረጋውያን ካርድ",
-    "fa": "کارت منزلت بازنشستگان و سالمندان"
+ "id": "h5-17",
+ "level": 5,
+ "no": 17,
+ "title": "老年卡",
+ "title_py": "lǎo nián kǎ",
+ "title_en": "The senior card",
+ "title_tr": {
+  "am": "የአረጋውያን ካርድ",
+  "fa": "کارت منزلت بازنشستگان و سالمندان"
+ },
+ "topic": "out",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h5-17.jpg",
+ "duration": 141.704,
+ "lines": [
+  {
+   "text": "星期一早上，杰克在张阿姨的超市里买早饭，刘爷爷正好也来买牛奶。",
+   "py": "xīng qī yì zǎo shang, Jié kè zài Zhāng ā yí de chāo shì lǐ mǎi zǎo fàn, Liú yé ye zhèng hǎo yě lái mǎi niú nǎi.",
+   "en": "On Monday morning, Jack is buying breakfast at Auntie Zhang's supermarket, and Grandpa Liu happens to come in for milk.",
+   "tr": {
+    "am": "ሰኞ ጠዋት ጃክ በእትዬ ዣንግ ሱፐርማርኬት ቁርስ ይገዛ ነበር፣ አያት ሊዩም በአጋጣሚ ወተት ሊገዛ መጣ።",
+    "fa": "دوشنبه صبح، جک داره توی سوپرمارکت خاله ژانگ صبحانه می‌خره و اتفاقاً پدربزرگ لیو برای شیر میاد تو."
+   },
+   "start": 2.404,
+   "end": 9.988,
+   "tokens": [
+    [
+     "星期一",
+     "xīng qī yī",
+     "Monday",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "超市",
+     "chāo shì",
+     "supermarket (abbr. for 超级市场)",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "早饭",
+     "zǎo fàn",
+     "breakfast",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "正好",
+     "zhèng hǎo",
+     "to happen to; it just so happens that; just (in time)",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "牛奶",
+     "niú nǎi",
+     "cow's milk",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "out",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h5-17.jpg",
-  "duration": 141.704,
-  "lines": [
-    {
-      "text": "星期一早上，杰克在张阿姨的超市里买早饭，刘爷爷正好也来买牛奶。",
-      "py": "xīng qī yì zǎo shang, Jié kè zài Zhāng ā yí de chāo shì lǐ mǎi zǎo fàn, Liú yé ye zhèng hǎo yě lái mǎi niú nǎi.",
-      "en": "On Monday morning, Jack is buying breakfast at Auntie Zhang's supermarket, and Grandpa Liu happens to come in for milk.",
-      "tr": {
-        "am": "ሰኞ ጠዋት ጃክ በእትዬ ዣንግ ሱፐርማርኬት ቁርስ ይገዛ ነበር፣ አያት ሊዩም በአጋጣሚ ወተት ሊገዛ መጣ።"
-      },
-      "start": 2.404,
-      "end": 9.988,
-      "tokens": [
-        [
-          "星期一",
-          "xīng qī yī",
-          "Monday",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "超市",
-          "chāo shì",
-          "supermarket (abbr. for 超级市场)",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "早饭",
-          "zǎo fàn",
-          "breakfast",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "正好",
-          "zhèng hǎo",
-          "to happen to; it just so happens that; just (in time)",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "牛奶",
-          "niú nǎi",
-          "cow's milk",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "两个人付钱的时候，都把公交卡放在了柜台上，两张卡都是蓝色的，看起来差不多。",
-      "py": "liǎng gè rén fù qián de shí hou, dōu bǎ gōng jiāo kǎ fàng zài le guì tái shàng, liǎng zhāng kǎ dōu shì lán sè de, kàn qǐ lái chà bu duō.",
-      "en": "When they pay, they both put their bus cards on the counter. Both cards are blue and look much the same.",
-      "tr": {
-        "am": "ሁለቱ ሲከፍሉ የአውቶቡስ ካርዳቸውን ካውንተሩ ላይ አስቀመጡ፣ ሁለቱም ካርዶች ሰማያዊ ናቸው፣ ተመሳሳይም ይመስላሉ።"
-      },
-      "start": 10.688,
-      "end": 19.472,
-      "tokens": [
-        [
-          "两",
-          "liǎng",
-          "both; two; some",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "付钱",
-          "fù qián",
-          "to pay",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "(used to put the object before the verb: 把 + {noun} + {verb})",
-          ""
-        ],
-        [
-          "公交卡",
-          "gōng jiāo kǎ",
-          "IC card used for paying fares on public transportation systems such as buses and subways",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "柜台",
-          "guì tái",
-          "sales counter; front desk; bar",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "两",
-          "liǎng",
-          "both; two; some",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "卡",
-          "kǎ",
-          "(loanword) card; to stop; to block",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "蓝色",
-          "lán sè",
-          "blue (color)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "看起来",
-          "kàn qǐ lai",
-          "seemingly; apparently; looks as if; appears to be; gives the impression that; seems on the face of it to be",
-          ""
-        ],
-        [
-          "差不多",
-          "chà bu duō",
-          "about the same; almost; nearly",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克随手拿起一张，说了声再见，就跑去赶公交车了。",
-      "py": "Jié kè suí shǒu ná qǐ yì zhāng, shuō le shēng zài jiàn, jiù pǎo qù gǎn gōng jiāo chē le.",
-      "en": "Jack grabs one, says goodbye and runs off to catch the bus.",
-      "tr": {
-        "am": "ጃክ ሳያስብ አንዱን አንሥቶ ደህና ሁኑ ብሎ አውቶቡስ ለመያዝ ሮጠ።"
-      },
-      "start": 20.172,
-      "end": 26.076,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "随手",
-          "suí shǒu",
-          "conveniently; without extra trouble; while doing it",
-          ""
-        ],
-        [
-          "拿起",
-          "ná qǐ",
-          "to pick up",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "声",
-          "shēng",
-          "sound; voice; tone",
-          ""
-        ],
-        [
-          "再见",
-          "zài jiàn",
-          "goodbye; see you again later",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "off; to run; to run away",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "赶",
-          "gǎn",
-          "to overtake; to catch up with; to try to catch (the bus etc)",
-          ""
-        ],
-        [
-          "公交车",
-          "gōng jiāo chē",
-          "town bus; public transport vehicle",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "车来了，他上车刷了一下卡，刷卡机马上用很大的声音说：“老年卡！”",
-      "py": "chē lái le, tā shàng chē shuā le yí xià kǎ, shuā kǎ jī mǎ shàng yòng hěn dà de shēng yīn shuō: “lǎo nián kǎ!”",
-      "en": "The bus comes. He gets on and taps the card, and the card reader announces loudly: \"Senior card!\"",
-      "tr": {
-        "am": "አውቶቡሱ መጣ፣ ገብቶ ካርዱን አስነካ፣ ማሽኑም ወዲያው በከፍተኛ ድምፅ አለ፦ «የአረጋውያን ካርድ!»"
-      },
-      "start": 26.776,
-      "end": 34.816,
-      "tokens": [
-        [
-          "车",
-          "chē",
-          "car; vehicle; machine",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "上车",
-          "shàng chē",
-          "to get on or into (a bus, train, car etc)",
-          ""
-        ],
-        [
-          "刷",
-          "shuā",
-          "to swipe (a card); a brush; to paint; to daub",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一下",
-          "yī xià",
-          "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
-          ""
-        ],
-        [
-          "卡",
-          "kǎ",
-          "(loanword) card; to stop; to block",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刷卡",
-          "shuā kǎ",
-          "to use a credit card (or swipe card, smart card etc)",
-          ""
-        ],
-        [
-          "机",
-          "jī",
-          "(bound form) machine; mechanism; (bound form) aircraft",
-          ""
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "at once; right away; immediately",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "声音",
-          "shēng yīn",
-          "sound; voice",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "老年",
-          "lǎo nián",
-          "elderly; old age; autumn of one's years",
-          ""
-        ],
-        [
-          "卡",
-          "kǎ",
-          "(loanword) card; to stop; to block",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "车上的人一下子都转过头来看他。",
-      "py": "chē shàng de rén yí xià zi dōu zhuǎn guò tóu lái kàn tā.",
-      "en": "Everyone on the bus turns to look at him.",
-      "tr": {
-        "am": "በአውቶቡሱ ያሉ ሰዎች ሁሉ ድንገት ዞረው አዩት።"
-      },
-      "start": 35.516,
-      "end": 39.116,
-      "tokens": [
-        [
-          "车",
-          "chē",
-          "car; vehicle; machine",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "once; one time; (following a verb) for a moment; briefly",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "转",
-          "zhuǎn",
-          "to turn; to change direction; to transfer",
-          ""
-        ],
-        [
-          "过头",
-          "guò tóu",
-          "to overdo it; to overstep the limit; excessively",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "ever since (as in 自古以来); to come",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "有的人在偷偷地笑，有的人一脸奇怪：这个高高的外国小伙子，怎么用的是老年卡？",
-      "py": "yǒu de rén zài tōu tōu de xiào, yǒu de rén yì liǎn qí guài: zhè ge gāo gāo de wài guó xiǎo huǒ zi, zěn me yòng de shì lǎo nián kǎ?",
-      "en": "Some people are trying not to laugh, and some look puzzled. Why is this tall young foreigner using a senior card?",
-      "tr": {
-        "am": "አንዳንዶቹ በድብቅ ይስቃሉ፣ አንዳንዶቹ ግራ ተጋብተዋል፦ ይህ ረጅም የውጭ አገር ወጣት እንዴት የአረጋውያን ካርድ ይጠቀማል?"
-      },
-      "start": 39.816,
-      "end": 48.144,
-      "tokens": [
-        [
-          "有的",
-          "yǒu de",
-          "(there are) some (who are...); some (exist)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "偷偷",
-          "tōu tōu",
-          "stealthily; secretly; covertly",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有的",
-          "yǒu de",
-          "(there are) some (who are...); some (exist)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "脸",
-          "liǎn",
-          "face",
-          ""
-        ],
-        [
-          "奇怪",
-          "qí guài",
-          "strange; odd; to marvel",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "高",
-          "gāo",
-          "tall; high; above average",
-          ""
-        ],
-        [
-          "高",
-          "gāo",
-          "tall; high; above average",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "外国",
-          "wài guó",
-          "foreign country",
-          ""
-        ],
-        [
-          "小伙子",
-          "xiǎo huǒ zi",
-          "(coll.) young man; young fellow; lad",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "why?; how?; what?",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "(coverb) with; using; to use; to make use of; to employ",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "老年",
-          "lǎo nián",
-          "elderly; old age; autumn of one's years",
-          ""
-        ],
-        [
-          "卡",
-          "kǎ",
-          "(loanword) card; to stop; to block",
-          ""
-        ],
-        [
-          "？"
-        ]
-      ]
-    },
-    {
-      "text": "司机也从镜子里看着他：“小伙子，你今年多大了？”",
-      "py": "sī jī yě cóng jìng zi lǐ kàn zhe tā: “xiǎo huǒ zi, nǐ jīn nián duō dà le?”",
-      "en": "The driver looks at him in the mirror too. \"Young man, how old are you?\"",
-      "tr": {
-        "am": "ሹፌሩም በመስታወቱ እያየው ጠየቀ፦ «ወጣት፣ ዕድሜህ ስንት ነው?»"
-      },
-      "start": 48.844,
-      "end": 55.252,
-      "tokens": [
-        [
-          "司机",
-          "sī jī",
-          "chauffeur; driver",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "镜子",
-          "jìng zi",
-          "mirror",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "小伙子",
-          "xiǎo huǒ zi",
-          "(coll.) young man; young fellow; lad",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "今年",
-          "jīn nián",
-          "this year",
-          ""
-        ],
-        [
-          "多大",
-          "duō dà",
-          "how old?; how big?; how much?",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克没听明白：“二十六岁，怎么了？”",
-      "py": "Jié kè méi tīng míng bai: “èr shí liù suì, zěn me le?”",
-      "en": "Jack doesn't understand. \"Twenty-six. Why?\"",
-      "tr": {
-        "am": "ጃክ አልገባውም፦ «ሃያ ስድስት፣ ምነው?»"
-      },
-      "start": 55.952,
-      "end": 60.008,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "明白",
-          "míng bai",
-          "to understand; to realize; clear; obvious; unequivocal",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "二十",
-          "èr shí",
-          "twenty; 20",
-          ""
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "岁",
-          "suì",
-          "classifier for years (of age); years old; year",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "怎么了",
-          "zěn me le",
-          "What's up?; What's going on?; What happened?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "司机笑了：“二十六岁就办老年卡，你比我还着急退休啊？”",
-      "py": "sī jī xiào le: “èr shí liù suì jiù bàn lǎo nián kǎ, nǐ bǐ wǒ hái zháo jí tuì xiū a?”",
-      "en": "The driver laughs. \"Twenty-six and you've got a senior card? You're in more of a hurry to retire than I am!\"",
-      "tr": {
-        "am": "ሹፌሩ ሳቀ፦ «በሃያ ስድስት ዓመትህ የአረጋውያን ካርድ? ጡረታ ለመውጣት ከኔም በላይ ቸኩለሃል እንዴ?»"
-      },
-      "start": 60.708,
-      "end": 66.876,
-      "tokens": [
-        [
-          "司机",
-          "sī jī",
-          "chauffeur; driver",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "二十",
-          "èr shí",
-          "twenty; 20",
-          ""
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "岁",
-          "suì",
-          "classifier for years (of age); years old; year",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "办",
-          "bàn",
-          "to take care of (a matter); to deal with (a task, procedure etc); to organize (an event)",
-          ""
-        ],
-        [
-          "老年",
-          "lǎo nián",
-          "elderly; old age; autumn of one's years",
-          ""
-        ],
-        [
-          "卡",
-          "kǎ",
-          "(loanword) card; to stop; to block",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "比",
-          "bǐ",
-          "(followed by a noun and adjective) more {adj.} than {noun}",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still more; even more; still",
-          ""
-        ],
-        [
-          "着急",
-          "zháo jí",
-          "to feel a sense of urgency; to be in a hurry",
-          ""
-        ],
-        [
-          "退休",
-          "tuì xiū",
-          "to retire (from the workforce); to go into retirement",
-          ""
-        ],
-        [
-          "啊",
-          "a",
-          "modal particle ending sentence, showing affirmation, approval, or consent",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "全车的人都笑了起来。",
-      "py": "quán chē de rén dōu xiào le qǐ lái.",
-      "en": "The whole bus bursts out laughing.",
-      "tr": {
-        "am": "በአውቶቡሱ ያሉ ሰዎች ሁሉ ሳቁ።"
-      },
-      "start": 67.576,
-      "end": 70.24,
-      "tokens": [
-        [
-          "全",
-          "quán",
-          "whole; all; entire",
-          ""
-        ],
-        [
-          "车",
-          "chē",
-          "car; vehicle; machine",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克低头看了看手里的卡，卡上有一张照片：一位白头发的老人正笑眯眯地看着他——是刘爷爷。",
-      "py": "Jié kè dī tóu kàn le kàn shǒu lǐ de kǎ, kǎ shàng yǒu yì zhāng zhào piàn: yí wèi bái tóu fa de lǎo rén zhèng xiào mī mī de kàn zhe tā—— shì Liú yé ye.",
-      "en": "Jack looks down at the card in his hand. There's a photo on it: a white-haired old man smiling up at him. It's Grandpa Liu.",
-      "tr": {
-        "am": "ጃክ በእጁ ያለውን ካርድ ተመለከተ፣ በካርዱ ላይ ፎቶ ነበር፦ ፀጉረ ነጭ አዛውንት ፈገግ እያሉ ያዩታል — አያት ሊዩ ነው።"
-      },
-      "start": 70.94,
-      "end": 81.14,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "低头",
-          "dī tóu",
-          "to bow the head; to yield; to give in",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "手里",
-          "shǒu lǐ",
-          "in hand; (a situation is) in sb's hands",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "卡",
-          "kǎ",
-          "(loanword) card; to stop; to block",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "卡",
-          "kǎ",
-          "(loanword) card; to stop; to block",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "白头",
-          "bái tóu",
-          "old age; hoary head",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "老人",
-          "lǎo rén",
-          "old man or woman; one's aged parents or grandparents",
-          ""
-        ],
-        [
-          "正",
-          "zhèng",
-          "straight; upright; proper",
-          ""
-        ],
-        [
-          "笑眯眯",
-          "xiào mī mī",
-          "beaming; all smiles",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "—"
-        ],
-        [
-          "—"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他的脸一下子红到了耳朵根，赶紧跟司机解释，又用手机扫码付了车费。",
-      "py": "tā de liǎn yí xià zi hóng dào le ěr duo gēn, gǎn jǐn gēn sī jī jiě shì, yòu yòng shǒu jī sǎo mǎ fù le chē fèi.",
-      "en": "He goes red right up to his ears, quickly explains to the driver and pays his fare by scanning the code on his phone.",
-      "tr": {
-        "am": "ፊቱ እስከ ጆሮው ድረስ ቀላ፣ ቶሎ ለሹፌሩ አስረዳ፣ በስልኩም ኮዱን ቃኝቶ የጉዞ ዋጋውን ከፈለ።"
-      },
-      "start": 81.84,
-      "end": 89.184,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "脸",
-          "liǎn",
-          "face",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "once; one time; (following a verb) for a moment; briefly",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "耳朵",
-          "ěr duo",
-          "ear; handle (on a cup)",
-          ""
-        ],
-        [
-          "根",
-          "gēn",
-          "root; basis",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "赶紧",
-          "gǎn jǐn",
-          "hurriedly; without delay",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "司机",
-          "sī jī",
-          "chauffeur; driver",
-          ""
-        ],
-        [
-          "解释",
-          "jiě shì",
-          "to explain; explanation; to interpret",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "扫码",
-          "sǎo mǎ",
-          "to scan a QR code or barcode",
-          ""
-        ],
-        [
-          "付",
-          "fù",
-          "to pay; to hand over to",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "车费",
-          "chē fèi",
-          "passenger fare",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "下了车，他马上给刘爷爷打电话：“刘爷爷，我拿错卡了！您拿的是我的卡！”",
-      "py": "xià le chē, tā mǎ shàng gěi Liú yé ye dǎ diàn huà: “Liú yé ye, wǒ ná cuò kǎ le! nín ná de shì wǒ de kǎ!”",
-      "en": "When he gets off, he phones Grandpa Liu straight away. \"Grandpa Liu, I took the wrong card! You've got mine!\"",
-      "tr": {
-        "am": "ከአውቶቡሱ እንደወረደ ለአያት ሊዩ ደወለ፦ «አያት ሊዩ፣ ካርድ ተሳስቼ ወሰድኩ! እርስዎ የያዙት የኔን ካርድ ነው!»"
-      },
-      "start": 89.884,
-      "end": 98.188,
-      "tokens": [
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "车",
-          "chē",
-          "car; vehicle; machine",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "right away; at once; immediately",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "错",
-          "cuò",
-          "wrong; mistake; bad",
-          ""
-        ],
-        [
-          "卡",
-          "kǎ",
-          "(loanword) card; to stop; to block",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "卡",
-          "kǎ",
-          "(loanword) card; to stop; to block",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "没想到刘爷爷在电话那头笑得很开心：“我知道，我刚坐了一趟车。”",
-      "py": "méi xiǎng dào Liú yé ye zài diàn huà nà tóu xiào de hěn kāi xīn: “wǒ zhī dào, wǒ gāng zuò le yí tàng chē.”",
-      "en": "To his surprise, Grandpa Liu is laughing happily on the other end. \"I know. I've just been on the bus.\"",
-      "tr": {
-        "am": "ሳይጠብቀው አያት ሊዩ በስልኩ በዚያ በኩል በደስታ እየሳቀ ነበር፦ «አውቃለሁ፣ አሁን አንድ ጊዜ በአውቶቡስ ተሳፍሬያለሁ።»"
-      },
-      "start": 98.888,
-      "end": 105.776,
-      "tokens": [
-        [
-          "没想到",
-          "méi xiǎng dào",
-          "didn't expect",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "telephone; phone call; phone number",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "头",
-          "tóu",
-          "end; beginning or end; classifier for pigs or livestock",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "开心",
-          "kāi xīn",
-          "to feel happy; to rejoice; to have a great time",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "知道",
-          "zhī dào",
-          "to know; to become aware of; also pr.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "刚",
-          "gāng",
-          "barely; only just; just; only a short while ago",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to take (a bus, airplane etc); to sit; to take a seat",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "趟",
-          "tàng",
-          "classifier for times, round trips or rows; a time; a trip",
-          ""
-        ],
-        [
-          "车",
-          "chē",
-          "car; vehicle; machine",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“刷你的卡，那个机器只‘嘀’了一声，什么也没说，也没有人给我让座。”",
-      "py": "“shuā nǐ de kǎ, nà ge jī qì zhǐ ‘dí’ le yì shēng, shén me yě méi shuō, yě méi yǒu rén gěi wǒ ràng zuò.”",
-      "en": "\"With your card, the machine just beeped. It didn't say anything, and nobody gave up their seat for me.\"",
-      "tr": {
-        "am": "«ባንተ ካርድ ሳስነካ ማሽኑ ‹ቲክ› ብቻ አለ፣ ምንም አልተናገረም፣ ማንም ወንበሩን አልለቀቀልኝም።»"
-      },
-      "start": 106.476,
-      "end": 113.34,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "刷",
-          "shuā",
-          "to swipe (a card); a brush; to paint; to daub",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "卡",
-          "kǎ",
-          "(loanword) card; to stop; to block",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那个",
-          "nà ge",
-          "that one; that thing; that (as opposed to this)",
-          ""
-        ],
-        [
-          "机器",
-          "jī qì",
-          "machine",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "‘"
-        ],
-        [
-          "嘀",
-          "dī",
-          "(onom.) sound of dripping water, a ticking clock etc",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一声",
-          "yī shēng",
-          "first tone in Mandarin (high, level tone)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "什么",
-          "shén me",
-          "something; anything; what?",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "让座",
-          "ràng zuò",
-          "to give up one's seat for sb",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“后来有个小姑娘问我：‘大爷，您这么早，是去上班吗？’”",
-      "py": "“hòu lái yǒu gè xiǎo gū niang wèn wǒ: ‘dà yé, nín zhè me zǎo, shì qù shàng bān ma? ’”",
-      "en": "\"Then a young girl asked me, 'Are you on your way to work this early?'\"",
-      "tr": {
-        "am": "«ከዚያ አንዲት ልጅ ጠየቀችኝ፦ ‹አባባ፣ በዚህ ማለዳ ወደ ሥራ እየሄዱ ነው?›»"
-      },
-      "start": 114.04,
-      "end": 119.728,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "后来",
-          "hòu lái",
-          "afterwards; later; newly arrived",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "小姑",
-          "xiǎo gū",
-          "father's youngest sister",
-          ""
-        ],
-        [
-          "娘",
-          "niáng",
-          "young lady; mother; (coll.) effeminate",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "‘"
-        ],
-        [
-          "大爷",
-          "dà yé",
-          "arrogant idler; self-centered show-off",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "这么",
-          "zhè me",
-          "this way; so much; this much",
-          ""
-        ],
-        [
-          "早",
-          "zǎo",
-          "early; morning; Good morning!",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "上班",
-          "shàng bān",
-          "to go to work; to start work; to be on duty",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "’"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷越说越高兴：“我已经十几年没被人当成上班的人了！”",
-      "py": "Liú yé ye yuè shuō yuè gāo xìng: “wǒ yǐ jīng shí jǐ nián méi bèi rén dàng chéng shàng bān de rén le!”",
-      "en": "The more Grandpa Liu talks, the happier he sounds. \"Nobody's taken me for someone going to work in over ten years!\"",
-      "tr": {
-        "am": "አያት ሊዩ ባወራ ቁጥር ይበልጥ ተደሰተ፦ «ሰው ወደ ሥራ የሚሄድ ሰው አድርጎ ካየኝ ከአሥር ዓመት በላይ ሆኖኛል!»"
-      },
-      "start": 120.428,
-      "end": 126.572,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "to climb over; the more... the more; to exceed",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "to climb over; the more... the more; to exceed",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "十几",
-          "shí jǐ",
-          "more than ten; a dozen or more",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "被",
-          "bèi",
-          "quilt; to cover (with); (literary) to suffer (a misfortune)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "当成",
-          "dàng chéng",
-          "to consider as; to take to be",
-          ""
-        ],
-        [
-          "上班",
-          "shàng bān",
-          "to go to work; to start work; to be on duty",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "晚上，杰克去刘爷爷家把卡换了回来。",
-      "py": "wǎn shang, Jié kè qù Liú yé ye jiā bǎ kǎ huàn le huí lái.",
-      "en": "That evening, Jack goes round to Grandpa Liu's to swap the cards back.",
-      "tr": {
-        "am": "ምሽት ላይ ጃክ ወደ አያት ሊዩ ቤት ሄዶ ካርዶቹን ተቀያየሩ።"
-      },
-      "start": 127.272,
-      "end": 131.808,
-      "tokens": [
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "卡",
-          "kǎ",
-          "(loanword) card; to stop; to block",
-          ""
-        ],
-        [
-          "换",
-          "huàn",
-          "to exchange; to change (clothes etc); to substitute",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "回来",
-          "huí lai",
-          "to return; to come back",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷把卡递给他的时候，还有点儿舍不得：“下次你要是不急，再借我坐两天。”",
-      "py": "Liú yé ye bǎ kǎ dì gěi tā de shí hou, hái yǒu diǎn r shě bu de: “xià cì nǐ yào shi bù jí, zài jiè wǒ zuò liǎng tiān.”",
-      "en": "When Grandpa Liu hands Jack's card back, he seems a little reluctant. \"Next time, if you're not in a hurry, lend it to me for a couple more days.\"",
-      "tr": {
-        "am": "አያት ሊዩ ካርዱን ሲሰጠው ትንሽ ሊለየው አልፈለገም፦ «በሚቀጥለው የማትቸኩል ከሆነ ለሁለት ቀን ደግሞ አውሰኝ።»"
-      },
-      "start": 132.508,
-      "end": 141.004,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "卡",
-          "kǎ",
-          "(loanword) card; to stop; to block",
-          ""
-        ],
-        [
-          "递给",
-          "dì gěi",
-          "to hand it (i.e. the aforementioned item) to (sb)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "点儿",
-          "diǎn r",
-          "erhua variant of 点",
-          ""
-        ],
-        [
-          "舍不得",
-          "shě bu de",
-          "to hate to do sth; to hate to part with; to begrudge",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "下次",
-          "xià cì",
-          "next time",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "要是",
-          "yào shi",
-          "(coll.) if",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "急",
-          "jí",
-          "urgent; pressing; rapid",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; further; beyond this point of time",
-          ""
-        ],
-        [
-          "借",
-          "jiè",
-          "(used in combination with 给 or 出 etc) to lend; to borrow",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 455,
-  "first": "星期一早上，杰克在张阿姨的超市里买早饭，刘爷爷正好也来买牛奶。",
-  "newWords": [
-    {
-      "w": "退休",
-      "py": "tuìxiū",
-      "en": "stop working permanently"
-    },
-    {
-      "w": "解释",
-      "py": "jiěshì",
-      "en": "to explain"
-    },
-    {
-      "w": "赶",
-      "py": "gǎn",
-      "en": "to catch up"
-    },
-    {
-      "w": "让座",
-      "py": "ràng zuò",
-      "en": "to give up one's seat for sb"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h5-17.mp3?v=1791721022"
+  {
+   "text": "两个人付钱的时候，都把公交卡放在了柜台上，两张卡都是蓝色的，看起来差不多。",
+   "py": "liǎng gè rén fù qián de shí hou, dōu bǎ gōng jiāo kǎ fàng zài le guì tái shàng, liǎng zhāng kǎ dōu shì lán sè de, kàn qǐ lái chà bu duō.",
+   "en": "When they pay, they both put their bus cards on the counter. Both cards are blue and look much the same.",
+   "tr": {
+    "am": "ሁለቱ ሲከፍሉ የአውቶቡስ ካርዳቸውን ካውንተሩ ላይ አስቀመጡ፣ ሁለቱም ካርዶች ሰማያዊ ናቸው፣ ተመሳሳይም ይመስላሉ።",
+    "fa": "وقتی حساب می‌دن، هر دو کارت اتوبوسشون رو می‌ذارن روی پیشخوان. هر دو کارت آبی‌ان و خیلی شبیه هم به نظر می‌رسن."
+   },
+   "start": 10.688,
+   "end": 19.472,
+   "tokens": [
+    [
+     "两",
+     "liǎng",
+     "both; two; some",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "付钱",
+     "fù qián",
+     "to pay",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "(used to put the object before the verb: 把 + {noun} + {verb})",
+     ""
+    ],
+    [
+     "公交卡",
+     "gōng jiāo kǎ",
+     "IC card used for paying fares on public transportation systems such as buses and subways",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "柜台",
+     "guì tái",
+     "sales counter; front desk; bar",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "两",
+     "liǎng",
+     "both; two; some",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "卡",
+     "kǎ",
+     "(loanword) card; to stop; to block",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "蓝色",
+     "lán sè",
+     "blue (color)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "看起来",
+     "kàn qǐ lai",
+     "seemingly; apparently; looks as if; appears to be; gives the impression that; seems on the face of it to be",
+     ""
+    ],
+    [
+     "差不多",
+     "chà bu duō",
+     "about the same; almost; nearly",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克随手拿起一张，说了声再见，就跑去赶公交车了。",
+   "py": "Jié kè suí shǒu ná qǐ yì zhāng, shuō le shēng zài jiàn, jiù pǎo qù gǎn gōng jiāo chē le.",
+   "en": "Jack grabs one, says goodbye and runs off to catch the bus.",
+   "tr": {
+    "am": "ጃክ ሳያስብ አንዱን አንሥቶ ደህና ሁኑ ብሎ አውቶቡስ ለመያዝ ሮጠ።",
+    "fa": "جک یکی رو برمی‌داره، خداحافظی می‌کنه و می‌دوه که اتوبوس رو بگیره."
+   },
+   "start": 20.172,
+   "end": 26.076,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "随手",
+     "suí shǒu",
+     "conveniently; without extra trouble; while doing it",
+     ""
+    ],
+    [
+     "拿起",
+     "ná qǐ",
+     "to pick up",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "声",
+     "shēng",
+     "sound; voice; tone",
+     ""
+    ],
+    [
+     "再见",
+     "zài jiàn",
+     "goodbye; see you again later",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "off; to run; to run away",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "赶",
+     "gǎn",
+     "to overtake; to catch up with; to try to catch (the bus etc)",
+     ""
+    ],
+    [
+     "公交车",
+     "gōng jiāo chē",
+     "town bus; public transport vehicle",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "车来了，他上车刷了一下卡，刷卡机马上用很大的声音说：“老年卡！”",
+   "py": "chē lái le, tā shàng chē shuā le yí xià kǎ, shuā kǎ jī mǎ shàng yòng hěn dà de shēng yīn shuō: “lǎo nián kǎ!”",
+   "en": "The bus comes. He gets on and taps the card, and the card reader announces loudly: \"Senior card!\"",
+   "tr": {
+    "am": "አውቶቡሱ መጣ፣ ገብቶ ካርዱን አስነካ፣ ማሽኑም ወዲያው በከፍተኛ ድምፅ አለ፦ «የአረጋውያን ካርድ!»",
+    "fa": "اتوبوس میاد. سوار می‌شه و کارت رو می‌زنه و کارت‌خوان با صدای بلند اعلام می‌کنه: «کارت سالمند!»"
+   },
+   "start": 26.776,
+   "end": 34.816,
+   "tokens": [
+    [
+     "车",
+     "chē",
+     "car; vehicle; machine",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "上车",
+     "shàng chē",
+     "to get on or into (a bus, train, car etc)",
+     ""
+    ],
+    [
+     "刷",
+     "shuā",
+     "to swipe (a card); a brush; to paint; to daub",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一下",
+     "yī xià",
+     "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
+     ""
+    ],
+    [
+     "卡",
+     "kǎ",
+     "(loanword) card; to stop; to block",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刷卡",
+     "shuā kǎ",
+     "to use a credit card (or swipe card, smart card etc)",
+     ""
+    ],
+    [
+     "机",
+     "jī",
+     "(bound form) machine; mechanism; (bound form) aircraft",
+     ""
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "at once; right away; immediately",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "声音",
+     "shēng yīn",
+     "sound; voice",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "老年",
+     "lǎo nián",
+     "elderly; old age; autumn of one's years",
+     ""
+    ],
+    [
+     "卡",
+     "kǎ",
+     "(loanword) card; to stop; to block",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "车上的人一下子都转过头来看他。",
+   "py": "chē shàng de rén yí xià zi dōu zhuǎn guò tóu lái kàn tā.",
+   "en": "Everyone on the bus turns to look at him.",
+   "tr": {
+    "am": "በአውቶቡሱ ያሉ ሰዎች ሁሉ ድንገት ዞረው አዩት።",
+    "fa": "همه توی اتوبوس برمی‌گردن و نگاهش می‌کنن."
+   },
+   "start": 35.516,
+   "end": 39.116,
+   "tokens": [
+    [
+     "车",
+     "chē",
+     "car; vehicle; machine",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "once; one time; (following a verb) for a moment; briefly",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "转",
+     "zhuǎn",
+     "to turn; to change direction; to transfer",
+     ""
+    ],
+    [
+     "过头",
+     "guò tóu",
+     "to overdo it; to overstep the limit; excessively",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "ever since (as in 自古以来); to come",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "有的人在偷偷地笑，有的人一脸奇怪：这个高高的外国小伙子，怎么用的是老年卡？",
+   "py": "yǒu de rén zài tōu tōu de xiào, yǒu de rén yì liǎn qí guài: zhè ge gāo gāo de wài guó xiǎo huǒ zi, zěn me yòng de shì lǎo nián kǎ?",
+   "en": "Some people are trying not to laugh, and some look puzzled. Why is this tall young foreigner using a senior card?",
+   "tr": {
+    "am": "አንዳንዶቹ በድብቅ ይስቃሉ፣ አንዳንዶቹ ግራ ተጋብተዋል፦ ይህ ረጅም የውጭ አገር ወጣት እንዴት የአረጋውያን ካርድ ይጠቀማል?",
+    "fa": "بعضی‌ها سعی می‌کنن نخندن و بعضی‌ها گیج به نظر می‌رسن. چرا این خارجی جوونِ بلند قده از کارت سالمند استفاده می‌کنه؟"
+   },
+   "start": 39.816,
+   "end": 48.144,
+   "tokens": [
+    [
+     "有的",
+     "yǒu de",
+     "(there are) some (who are...); some (exist)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "偷偷",
+     "tōu tōu",
+     "stealthily; secretly; covertly",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有的",
+     "yǒu de",
+     "(there are) some (who are...); some (exist)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "脸",
+     "liǎn",
+     "face",
+     ""
+    ],
+    [
+     "奇怪",
+     "qí guài",
+     "strange; odd; to marvel",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "高",
+     "gāo",
+     "tall; high; above average",
+     ""
+    ],
+    [
+     "高",
+     "gāo",
+     "tall; high; above average",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "外国",
+     "wài guó",
+     "foreign country",
+     ""
+    ],
+    [
+     "小伙子",
+     "xiǎo huǒ zi",
+     "(coll.) young man; young fellow; lad",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "why?; how?; what?",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "(coverb) with; using; to use; to make use of; to employ",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "老年",
+     "lǎo nián",
+     "elderly; old age; autumn of one's years",
+     ""
+    ],
+    [
+     "卡",
+     "kǎ",
+     "(loanword) card; to stop; to block",
+     ""
+    ],
+    [
+     "？"
+    ]
+   ]
+  },
+  {
+   "text": "司机也从镜子里看着他：“小伙子，你今年多大了？”",
+   "py": "sī jī yě cóng jìng zi lǐ kàn zhe tā: “xiǎo huǒ zi, nǐ jīn nián duō dà le?”",
+   "en": "The driver looks at him in the mirror too. \"Young man, how old are you?\"",
+   "tr": {
+    "am": "ሹፌሩም በመስታወቱ እያየው ጠየቀ፦ «ወጣት፣ ዕድሜህ ስንት ነው?»",
+    "fa": "راننده هم توی آینه بهش نگاه می‌کنه: «پسر جوون، چند سالته؟»"
+   },
+   "start": 48.844,
+   "end": 55.252,
+   "tokens": [
+    [
+     "司机",
+     "sī jī",
+     "chauffeur; driver",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "镜子",
+     "jìng zi",
+     "mirror",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "小伙子",
+     "xiǎo huǒ zi",
+     "(coll.) young man; young fellow; lad",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "今年",
+     "jīn nián",
+     "this year",
+     ""
+    ],
+    [
+     "多大",
+     "duō dà",
+     "how old?; how big?; how much?",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克没听明白：“二十六岁，怎么了？”",
+   "py": "Jié kè méi tīng míng bai: “èr shí liù suì, zěn me le?”",
+   "en": "Jack doesn't understand. \"Twenty-six. Why?\"",
+   "tr": {
+    "am": "ጃክ አልገባውም፦ «ሃያ ስድስት፣ ምነው?»",
+    "fa": "جک نمی‌فهمه: «بیست‌وشش. چرا؟»"
+   },
+   "start": 55.952,
+   "end": 60.008,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "明白",
+     "míng bai",
+     "to understand; to realize; clear; obvious; unequivocal",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "二十",
+     "èr shí",
+     "twenty; 20",
+     ""
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "岁",
+     "suì",
+     "classifier for years (of age); years old; year",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "怎么了",
+     "zěn me le",
+     "What's up?; What's going on?; What happened?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "司机笑了：“二十六岁就办老年卡，你比我还着急退休啊？”",
+   "py": "sī jī xiào le: “èr shí liù suì jiù bàn lǎo nián kǎ, nǐ bǐ wǒ hái zháo jí tuì xiū a?”",
+   "en": "The driver laughs. \"Twenty-six and you've got a senior card? You're in more of a hurry to retire than I am!\"",
+   "tr": {
+    "am": "ሹፌሩ ሳቀ፦ «በሃያ ስድስት ዓመትህ የአረጋውያን ካርድ? ጡረታ ለመውጣት ከኔም በላይ ቸኩለሃል እንዴ?»",
+    "fa": "راننده می‌خنده: «بیست‌وشش سالته و کارت سالمند داری؟ بیشتر از من عجله داری که بازنشسته شی!»"
+   },
+   "start": 60.708,
+   "end": 66.876,
+   "tokens": [
+    [
+     "司机",
+     "sī jī",
+     "chauffeur; driver",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "二十",
+     "èr shí",
+     "twenty; 20",
+     ""
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "岁",
+     "suì",
+     "classifier for years (of age); years old; year",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "办",
+     "bàn",
+     "to take care of (a matter); to deal with (a task, procedure etc); to organize (an event)",
+     ""
+    ],
+    [
+     "老年",
+     "lǎo nián",
+     "elderly; old age; autumn of one's years",
+     ""
+    ],
+    [
+     "卡",
+     "kǎ",
+     "(loanword) card; to stop; to block",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "比",
+     "bǐ",
+     "(followed by a noun and adjective) more {adj.} than {noun}",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still more; even more; still",
+     ""
+    ],
+    [
+     "着急",
+     "zháo jí",
+     "to feel a sense of urgency; to be in a hurry",
+     ""
+    ],
+    [
+     "退休",
+     "tuì xiū",
+     "to retire (from the workforce); to go into retirement",
+     ""
+    ],
+    [
+     "啊",
+     "a",
+     "modal particle ending sentence, showing affirmation, approval, or consent",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "全车的人都笑了起来。",
+   "py": "quán chē de rén dōu xiào le qǐ lái.",
+   "en": "The whole bus bursts out laughing.",
+   "tr": {
+    "am": "በአውቶቡሱ ያሉ ሰዎች ሁሉ ሳቁ።",
+    "fa": "کل اتوبوس از خنده ترکیدن می‌کنه."
+   },
+   "start": 67.576,
+   "end": 70.24,
+   "tokens": [
+    [
+     "全",
+     "quán",
+     "whole; all; entire",
+     ""
+    ],
+    [
+     "车",
+     "chē",
+     "car; vehicle; machine",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克低头看了看手里的卡，卡上有一张照片：一位白头发的老人正笑眯眯地看着他——是刘爷爷。",
+   "py": "Jié kè dī tóu kàn le kàn shǒu lǐ de kǎ, kǎ shàng yǒu yì zhāng zhào piàn: yí wèi bái tóu fa de lǎo rén zhèng xiào mī mī de kàn zhe tā—— shì Liú yé ye.",
+   "en": "Jack looks down at the card in his hand. There's a photo on it: a white-haired old man smiling up at him. It's Grandpa Liu.",
+   "tr": {
+    "am": "ጃክ በእጁ ያለውን ካርድ ተመለከተ፣ በካርዱ ላይ ፎቶ ነበር፦ ፀጉረ ነጭ አዛውንት ፈገግ እያሉ ያዩታል — አያት ሊዩ ነው።",
+    "fa": "جک به کارت توی دستش نگاه می‌کنه. یه عکس روشه: یه پیرمرد با موهای سفید که داره بهش لبخند می‌زنه. پدربزرگ لیوئه."
+   },
+   "start": 70.94,
+   "end": 81.14,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "低头",
+     "dī tóu",
+     "to bow the head; to yield; to give in",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "手里",
+     "shǒu lǐ",
+     "in hand; (a situation is) in sb's hands",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "卡",
+     "kǎ",
+     "(loanword) card; to stop; to block",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "卡",
+     "kǎ",
+     "(loanword) card; to stop; to block",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "白头",
+     "bái tóu",
+     "old age; hoary head",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "老人",
+     "lǎo rén",
+     "old man or woman; one's aged parents or grandparents",
+     ""
+    ],
+    [
+     "正",
+     "zhèng",
+     "straight; upright; proper",
+     ""
+    ],
+    [
+     "笑眯眯",
+     "xiào mī mī",
+     "beaming; all smiles",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "—"
+    ],
+    [
+     "—"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他的脸一下子红到了耳朵根，赶紧跟司机解释，又用手机扫码付了车费。",
+   "py": "tā de liǎn yí xià zi hóng dào le ěr duo gēn, gǎn jǐn gēn sī jī jiě shì, yòu yòng shǒu jī sǎo mǎ fù le chē fèi.",
+   "en": "He goes red right up to his ears, quickly explains to the driver and pays his fare by scanning the code on his phone.",
+   "tr": {
+    "am": "ፊቱ እስከ ጆሮው ድረስ ቀላ፣ ቶሎ ለሹፌሩ አስረዳ፣ በስልኩም ኮዱን ቃኝቶ የጉዞ ዋጋውን ከፈለ።",
+    "fa": "تا گوش‌هاش سرخ می‌شه، سریع به راننده توضیح می‌ده و کرایه‌ش رو با اسکن کد روی گوشیش می‌ده."
+   },
+   "start": 81.84,
+   "end": 89.184,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "脸",
+     "liǎn",
+     "face",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "once; one time; (following a verb) for a moment; briefly",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "耳朵",
+     "ěr duo",
+     "ear; handle (on a cup)",
+     ""
+    ],
+    [
+     "根",
+     "gēn",
+     "root; basis",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "赶紧",
+     "gǎn jǐn",
+     "hurriedly; without delay",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "司机",
+     "sī jī",
+     "chauffeur; driver",
+     ""
+    ],
+    [
+     "解释",
+     "jiě shì",
+     "to explain; explanation; to interpret",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "扫码",
+     "sǎo mǎ",
+     "to scan a QR code or barcode",
+     ""
+    ],
+    [
+     "付",
+     "fù",
+     "to pay; to hand over to",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "车费",
+     "chē fèi",
+     "passenger fare",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "下了车，他马上给刘爷爷打电话：“刘爷爷，我拿错卡了！您拿的是我的卡！”",
+   "py": "xià le chē, tā mǎ shàng gěi Liú yé ye dǎ diàn huà: “Liú yé ye, wǒ ná cuò kǎ le! nín ná de shì wǒ de kǎ!”",
+   "en": "When he gets off, he phones Grandpa Liu straight away. \"Grandpa Liu, I took the wrong card! You've got mine!\"",
+   "tr": {
+    "am": "ከአውቶቡሱ እንደወረደ ለአያት ሊዩ ደወለ፦ «አያት ሊዩ፣ ካርድ ተሳስቼ ወሰድኩ! እርስዎ የያዙት የኔን ካርድ ነው!»",
+    "fa": "وقتی پیاده می‌شه، همون دم به پدربزرگ لیو زنگ می‌زنه: «پدربزرگ لیو، کارت اشتباهی رو بردم! مال من پیش توئه!»"
+   },
+   "start": 89.884,
+   "end": 98.188,
+   "tokens": [
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "车",
+     "chē",
+     "car; vehicle; machine",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "right away; at once; immediately",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "错",
+     "cuò",
+     "wrong; mistake; bad",
+     ""
+    ],
+    [
+     "卡",
+     "kǎ",
+     "(loanword) card; to stop; to block",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "卡",
+     "kǎ",
+     "(loanword) card; to stop; to block",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "没想到刘爷爷在电话那头笑得很开心：“我知道，我刚坐了一趟车。”",
+   "py": "méi xiǎng dào Liú yé ye zài diàn huà nà tóu xiào de hěn kāi xīn: “wǒ zhī dào, wǒ gāng zuò le yí tàng chē.”",
+   "en": "To his surprise, Grandpa Liu is laughing happily on the other end. \"I know. I've just been on the bus.\"",
+   "tr": {
+    "am": "ሳይጠብቀው አያት ሊዩ በስልኩ በዚያ በኩል በደስታ እየሳቀ ነበር፦ «አውቃለሁ፣ አሁን አንድ ጊዜ በአውቶቡስ ተሳፍሬያለሁ።»",
+    "fa": "به تعجبش، پدربزرگ لیو اون‌سر خط با خوشحالی داره می‌خنده: «می‌دونم. همین الان بودم اتوبوس.»"
+   },
+   "start": 98.888,
+   "end": 105.776,
+   "tokens": [
+    [
+     "没想到",
+     "méi xiǎng dào",
+     "didn't expect",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "telephone; phone call; phone number",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "头",
+     "tóu",
+     "end; beginning or end; classifier for pigs or livestock",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "开心",
+     "kāi xīn",
+     "to feel happy; to rejoice; to have a great time",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "知道",
+     "zhī dào",
+     "to know; to become aware of; also pr.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "刚",
+     "gāng",
+     "barely; only just; just; only a short while ago",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to take (a bus, airplane etc); to sit; to take a seat",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "趟",
+     "tàng",
+     "classifier for times, round trips or rows; a time; a trip",
+     ""
+    ],
+    [
+     "车",
+     "chē",
+     "car; vehicle; machine",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“刷你的卡，那个机器只‘嘀’了一声，什么也没说，也没有人给我让座。”",
+   "py": "“shuā nǐ de kǎ, nà ge jī qì zhǐ ‘dí’ le yì shēng, shén me yě méi shuō, yě méi yǒu rén gěi wǒ ràng zuò.”",
+   "en": "\"With your card, the machine just beeped. It didn't say anything, and nobody gave up their seat for me.\"",
+   "tr": {
+    "am": "«ባንተ ካርድ ሳስነካ ማሽኑ ‹ቲክ› ብቻ አለ፣ ምንም አልተናገረም፣ ማንም ወንበሩን አልለቀቀልኝም።»",
+    "fa": "«با کارت تو، دستگاه فقط بوق زد. هیچی نگفت و هیچ‌کس جاش رو برای من نداد.»"
+   },
+   "start": 106.476,
+   "end": 113.34,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "刷",
+     "shuā",
+     "to swipe (a card); a brush; to paint; to daub",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "卡",
+     "kǎ",
+     "(loanword) card; to stop; to block",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那个",
+     "nà ge",
+     "that one; that thing; that (as opposed to this)",
+     ""
+    ],
+    [
+     "机器",
+     "jī qì",
+     "machine",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "‘"
+    ],
+    [
+     "嘀",
+     "dī",
+     "(onom.) sound of dripping water, a ticking clock etc",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一声",
+     "yī shēng",
+     "first tone in Mandarin (high, level tone)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "什么",
+     "shén me",
+     "something; anything; what?",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "让座",
+     "ràng zuò",
+     "to give up one's seat for sb",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“后来有个小姑娘问我：‘大爷，您这么早，是去上班吗？’”",
+   "py": "“hòu lái yǒu gè xiǎo gū niang wèn wǒ: ‘dà yé, nín zhè me zǎo, shì qù shàng bān ma? ’”",
+   "en": "\"Then a young girl asked me, 'Are you on your way to work this early?'\"",
+   "tr": {
+    "am": "«ከዚያ አንዲት ልጅ ጠየቀችኝ፦ ‹አባባ፣ በዚህ ማለዳ ወደ ሥራ እየሄዱ ነው?›»",
+    "fa": "«بعد یه دختر جوون ازم پرسید، \"این‌قدر صبح هنوز داری می‌ری سر کار؟\"»"
+   },
+   "start": 114.04,
+   "end": 119.728,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "后来",
+     "hòu lái",
+     "afterwards; later; newly arrived",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "小姑",
+     "xiǎo gū",
+     "father's youngest sister",
+     ""
+    ],
+    [
+     "娘",
+     "niáng",
+     "young lady; mother; (coll.) effeminate",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "‘"
+    ],
+    [
+     "大爷",
+     "dà yé",
+     "arrogant idler; self-centered show-off",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "这么",
+     "zhè me",
+     "this way; so much; this much",
+     ""
+    ],
+    [
+     "早",
+     "zǎo",
+     "early; morning; Good morning!",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "上班",
+     "shàng bān",
+     "to go to work; to start work; to be on duty",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "’"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷越说越高兴：“我已经十几年没被人当成上班的人了！”",
+   "py": "Liú yé ye yuè shuō yuè gāo xìng: “wǒ yǐ jīng shí jǐ nián méi bèi rén dàng chéng shàng bān de rén le!”",
+   "en": "The more Grandpa Liu talks, the happier he sounds. \"Nobody's taken me for someone going to work in over ten years!\"",
+   "tr": {
+    "am": "አያት ሊዩ ባወራ ቁጥር ይበልጥ ተደሰተ፦ «ሰው ወደ ሥራ የሚሄድ ሰው አድርጎ ካየኝ ከአሥር ዓመት በላይ ሆኖኛል!»",
+    "fa": "هر چی پدربزرگ لیو بیشتر حرف می‌زنه، خوشحال‌تر به نظر می‌رسه: «بیش از ده ساله هیچ‌کس منو حساب نکرده بود کسیه که می‌ره سر کار!»"
+   },
+   "start": 120.428,
+   "end": 126.572,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "to climb over; the more... the more; to exceed",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "to climb over; the more... the more; to exceed",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "十几",
+     "shí jǐ",
+     "more than ten; a dozen or more",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "被",
+     "bèi",
+     "quilt; to cover (with); (literary) to suffer (a misfortune)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "当成",
+     "dàng chéng",
+     "to consider as; to take to be",
+     ""
+    ],
+    [
+     "上班",
+     "shàng bān",
+     "to go to work; to start work; to be on duty",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "晚上，杰克去刘爷爷家把卡换了回来。",
+   "py": "wǎn shang, Jié kè qù Liú yé ye jiā bǎ kǎ huàn le huí lái.",
+   "en": "That evening, Jack goes round to Grandpa Liu's to swap the cards back.",
+   "tr": {
+    "am": "ምሽት ላይ ጃክ ወደ አያት ሊዩ ቤት ሄዶ ካርዶቹን ተቀያየሩ።",
+    "fa": "همون عصر، جک می‌ره خونه‌ی پدربزرگ لیو که کارت‌ها رو عوض کنه."
+   },
+   "start": 127.272,
+   "end": 131.808,
+   "tokens": [
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "卡",
+     "kǎ",
+     "(loanword) card; to stop; to block",
+     ""
+    ],
+    [
+     "换",
+     "huàn",
+     "to exchange; to change (clothes etc); to substitute",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "回来",
+     "huí lai",
+     "to return; to come back",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷把卡递给他的时候，还有点儿舍不得：“下次你要是不急，再借我坐两天。”",
+   "py": "Liú yé ye bǎ kǎ dì gěi tā de shí hou, hái yǒu diǎn r shě bu de: “xià cì nǐ yào shi bù jí, zài jiè wǒ zuò liǎng tiān.”",
+   "en": "When Grandpa Liu hands Jack's card back, he seems a little reluctant. \"Next time, if you're not in a hurry, lend it to me for a couple more days.\"",
+   "tr": {
+    "am": "አያት ሊዩ ካርዱን ሲሰጠው ትንሽ ሊለየው አልፈለገም፦ «በሚቀጥለው የማትቸኩል ከሆነ ለሁለት ቀን ደግሞ አውሰኝ።»",
+    "fa": "وقتی پدربزرگ لیو کارت جک رو پس می‌ده، یه کمی ناخواسته به نظر می‌رسه: «دفعه‌ی بعد، اگه عجله نداشتی، چند روز دیگه‌م قرض بده من.»"
+   },
+   "start": 132.508,
+   "end": 141.004,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "卡",
+     "kǎ",
+     "(loanword) card; to stop; to block",
+     ""
+    ],
+    [
+     "递给",
+     "dì gěi",
+     "to hand it (i.e. the aforementioned item) to (sb)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "点儿",
+     "diǎn r",
+     "erhua variant of 点",
+     ""
+    ],
+    [
+     "舍不得",
+     "shě bu de",
+     "to hate to do sth; to hate to part with; to begrudge",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "下次",
+     "xià cì",
+     "next time",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "要是",
+     "yào shi",
+     "(coll.) if",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "急",
+     "jí",
+     "urgent; pressing; rapid",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; further; beyond this point of time",
+     ""
+    ],
+    [
+     "借",
+     "jiè",
+     "(used in combination with 给 or 出 etc) to lend; to borrow",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 455,
+ "first": "星期一早上，杰克在张阿姨的超市里买早饭，刘爷爷正好也来买牛奶。",
+ "newWords": [
+  {
+   "w": "退休",
+   "py": "tuìxiū",
+   "en": "stop working permanently"
+  },
+  {
+   "w": "解释",
+   "py": "jiěshì",
+   "en": "to explain"
+  },
+  {
+   "w": "赶",
+   "py": "gǎn",
+   "en": "to catch up"
+  },
+  {
+   "w": "让座",
+   "py": "ràng zuò",
+   "en": "to give up one's seat for sb"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h5-17.mp3?v=1791721022"
 }

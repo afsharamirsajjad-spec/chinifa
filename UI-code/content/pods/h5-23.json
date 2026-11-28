@@ -1,2300 +1,2320 @@
 {
-  "id": "h5-23",
-  "level": 5,
-  "no": 23,
-  "title": "海景房",
-  "title_py": "hǎi jǐng fáng",
-  "title_en": "The sea-view room",
-  "title_tr": {
-    "am": "የባሕር እይታ ያለው ክፍል",
-    "fa": "اتاق با چشم‌انداز دریا"
+ "id": "h5-23",
+ "level": 5,
+ "no": 23,
+ "title": "海景房",
+ "title_py": "hǎi jǐng fáng",
+ "title_en": "The sea-view room",
+ "title_tr": {
+  "am": "የባሕር እይታ ያለው ክፍል",
+  "fa": "اتاق با چشم‌انداز دریا"
+ },
+ "topic": "travel",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h5-23.jpg",
+ "duration": 136.932,
+ "lines": [
+  {
+   "text": "七月，杰克和小周请了几天假，去青岛玩儿了三天。",
+   "py": "qī yuè, Jié kè hé Xiǎo Zhōu qǐng le jǐ tiān jiǎ, qù qīng dǎo wán r le sān tiān.",
+   "en": "In July, Jack and Xiao Zhou take a few days off and go to Qingdao for three days.",
+   "tr": {
+    "am": "በጁላይ ጃክና ሺያው ጆው ጥቂት ቀን ፈቃድ ወስደው ለሦስት ቀን ወደ ቺንግዳው ሄዱ።",
+    "fa": "توی ژوئیه، جک و شیائو جو چند روز مرخصی می‌گیرن و سه روز می‌رن چینگ‌دائو."
+   },
+   "start": 2.62,
+   "end": 8.572,
+   "tokens": [
+    [
+     "七月",
+     "qī yuè",
+     "July; seventh month (of the lunar year)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "few; small; tiny",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "请",
+     "qǐng",
+     "to ask; to invite; please (do sth)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "几天",
+     "jǐ tiān",
+     "several days",
+     ""
+    ],
+    [
+     "假",
+     "jiǎ",
+     "fake; false; artificial",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "青岛",
+     "qīng dǎo",
+     "see 青岛市",
+     ""
+    ],
+    [
+     "玩儿",
+     "wán r",
+     "to play; to have fun; to hang out",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "travel",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h5-23.jpg",
-  "duration": 136.932,
-  "lines": [
-    {
-      "text": "七月，杰克和小周请了几天假，去青岛玩儿了三天。",
-      "py": "qī yuè, Jié kè hé Xiǎo Zhōu qǐng le jǐ tiān jiǎ, qù qīng dǎo wán r le sān tiān.",
-      "en": "In July, Jack and Xiao Zhou take a few days off and go to Qingdao for three days.",
-      "tr": {
-        "am": "በጁላይ ጃክና ሺያው ጆው ጥቂት ቀን ፈቃድ ወስደው ለሦስት ቀን ወደ ቺንግዳው ሄዱ።"
-      },
-      "start": 2.62,
-      "end": 8.572,
-      "tokens": [
-        [
-          "七月",
-          "qī yuè",
-          "July; seventh month (of the lunar year)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "few; small; tiny",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "请",
-          "qǐng",
-          "to ask; to invite; please (do sth)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "几天",
-          "jǐ tiān",
-          "several days",
-          ""
-        ],
-        [
-          "假",
-          "jiǎ",
-          "fake; false; artificial",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "青岛",
-          "qīng dǎo",
-          "see 青岛市",
-          ""
-        ],
-        [
-          "玩儿",
-          "wán r",
-          "to play; to have fun; to hang out",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "订酒店的时候，杰克特意多花了两百块，订了一间“海景房”。",
-      "py": "dìng jiǔ diàn de shí hou, Jié kè tè yì duō huā le liǎng bǎi kuài, dìng le yì jiān “hǎi jǐng fáng”.",
-      "en": "When he books the hotel, Jack deliberately pays an extra 200 yuan for a \"sea-view room\".",
-      "tr": {
-        "am": "ሆቴል ሲይዝ ጃክ ሆን ብሎ ሁለት መቶ ዩዋን ጨምሮ «የባሕር እይታ ያለው ክፍል» ያዘ።"
-      },
-      "start": 9.272,
-      "end": 15.44,
-      "tokens": [
-        [
-          "订",
-          "dìng",
-          "to agree; to conclude; to draw up",
-          ""
-        ],
-        [
-          "酒店",
-          "jiǔ diàn",
-          "hotel; wine shop; pub (public house)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "特意",
-          "tè yì",
-          "specially; intentionally",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "花",
-          "huā",
-          "flower; blossom; fancy pattern",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "hundred; numerous; all kinds of",
-          ""
-        ],
-        [
-          "块",
-          "kuài",
-          "classifier for pieces of cloth, cake, soap etc",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "订",
-          "dìng",
-          "to agree; to conclude; to draw up",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "间",
-          "jiān",
-          "classifier for rooms; room",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "海景",
-          "hǎi jǐng",
-          "sea view; seascape",
-          ""
-        ],
-        [
-          "房",
-          "fáng",
-          "room; house; branch of an extended family",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "网上的照片里，房间有一扇巨大的窗户，窗外就是蓝蓝的大海。",
-      "py": "wǎng shàng de zhào piàn lǐ, fáng jiān yǒu yí shàn jù dà de chuāng hu, chuāng wài jiù shì lán lán de dà hǎi.",
-      "en": "In the photos online, the room has a huge window with the blue sea right outside.",
-      "tr": {
-        "am": "በኢንተርኔት ፎቶዎቹ ላይ ክፍሉ ትልቅ መስኮት አለው፣ ከመስኮቱ ውጭ ሰማያዊው ባሕር ይታያል።"
-      },
-      "start": 16.14,
-      "end": 23.028,
-      "tokens": [
-        [
-          "网上",
-          "wǎng shàng",
-          "online",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "房间",
-          "fáng jiān",
-          "room",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "扇",
-          "shàn",
-          "classifier for doors, windows etc; fan",
-          ""
-        ],
-        [
-          "巨大",
-          "jù dà",
-          "huge; immense; enormous; gigantic",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "窗户",
-          "chuāng hu",
-          "window",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "窗",
-          "chuāng",
-          "window",
-          ""
-        ],
-        [
-          "外",
-          "wài",
-          "outside; in addition; foreign",
-          ""
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "exactly; precisely; only; simply; just",
-          ""
-        ],
-        [
-          "蓝",
-          "lán",
-          "blue; indigo plant",
-          ""
-        ],
-        [
-          "蓝",
-          "lán",
-          "blue; indigo plant",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "大海",
-          "dà hǎi",
-          "sea; ocean",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "到了酒店，他们一进房间就跑到了窗前。",
-      "py": "dào le jiǔ diàn, tā men yí jìn fáng jiān jiù pǎo dào le chuāng qián.",
-      "en": "When they get to the hotel, they rush to the window as soon as they're in the room.",
-      "tr": {
-        "am": "ሆቴሉ ሲደርሱ ክፍሉ እንደገቡ ወደ መስኮቱ ሮጡ።"
-      },
-      "start": 23.728,
-      "end": 28,
-      "tokens": [
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "酒店",
-          "jiǔ diàn",
-          "hotel; wine shop; pub (public house)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "as soon as",
-          ""
-        ],
-        [
-          "进",
-          "jìn",
-          "classifier for sections in a building or residential compound",
-          ""
-        ],
-        [
-          "房间",
-          "fáng jiān",
-          "room",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a clause of action) as soon as; immediately after",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "to run; to run away; to escape",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "窗",
-          "chuāng",
-          "window",
-          ""
-        ],
-        [
-          "前",
-          "qián",
-          "front; forward; ahead",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "窗外是一面灰色的墙，墙上还挂着几台空调外机。",
-      "py": "chuāng wài shì yí miàn huī sè de qiáng, qiáng shàng hái guà zhe jǐ tái kōng tiáo wài jī.",
-      "en": "Outside the window is a grey wall with several air-conditioning units on it.",
-      "tr": {
-        "am": "ከመስኮቱ ውጭ ግራጫ ግድግዳ ነበር፣ በግድግዳው ላይም ጥቂት የኤሲ የውጭ ማሽኖች ተሰቅለዋል።"
-      },
-      "start": 28.7,
-      "end": 34.652,
-      "tokens": [
-        [
-          "窗",
-          "chuāng",
-          "window",
-          ""
-        ],
-        [
-          "外",
-          "wài",
-          "outside; in addition; foreign",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "一面",
-          "yī miàn",
-          "one side; one aspect; simultaneously... (and...)",
-          ""
-        ],
-        [
-          "灰色",
-          "huī sè",
-          "gray; ash gray; grizzly",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "墙",
-          "qiáng",
-          "wall; (slang) to block (a website) (usu. in the passive: 被墙)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "墙",
-          "qiáng",
-          "wall; (slang) to block (a website) (usu. in the passive: 被墙)",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "挂",
-          "guà",
-          "to hang; to suspend (from a hook etc)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "几",
-          "jǐ",
-          "several; a few; how many; how much",
-          ""
-        ],
-        [
-          "台",
-          "tái",
-          "classifier for vehicles or machines",
-          ""
-        ],
-        [
-          "空调",
-          "kōng tiáo",
-          "air conditioning",
-          ""
-        ],
-        [
-          "外",
-          "wài",
-          "outside; in addition; foreign",
-          ""
-        ],
-        [
-          "机",
-          "jī",
-          "(bound form) machine; mechanism; (bound form) aircraft",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小周揉了揉眼睛：“海呢？”",
-      "py": "Xiǎo Zhōu róu le róu yǎn jing: “hǎi ne?”",
-      "en": "Xiao Zhou rubs his eyes. \"Where's the sea?\"",
-      "tr": {
-        "am": "ሺያው ጆው ዓይኑን አሻሸ፦ «ባሕሩስ?»"
-      },
-      "start": 35.352,
-      "end": 38.688,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "揉",
-          "róu",
-          "to knead; to massage; to rub",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "揉",
-          "róu",
-          "to knead; to massage; to rub",
-          ""
-        ],
-        [
-          "眼睛",
-          "yǎn jing",
-          "eye",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "海",
-          "hǎi",
-          "sea; ocean; great number of people or things",
-          ""
-        ],
-        [
-          "呢",
-          "ne",
-          "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克马上下楼去问前台，前台的姑娘看了看电脑，很有礼貌地说：“先生，没错，您订的就是海景房。”",
-      "py": "Jié kè mǎ shàng xià lóu qù wèn qián tái, qián tái de gū niang kàn le kàn diàn nǎo, hěn yǒu lǐ mào de shuō: “xiān sheng, méi cuò, nín dìng de jiù shì hǎi jǐng fáng.”",
-      "en": "Jack goes straight down to reception. The young woman at the desk checks her computer and says politely, \"That's right, sir. You've booked a sea-view room.\"",
-      "tr": {
-        "am": "ጃክ ወዲያው ወደ እንግዳ መቀበያው ወርዶ ጠየቀ። የእንግዳ መቀበያዋ ወጣት ኮምፒውተሩን አይታ በትሕትና አለች፦ «ጌታዬ፣ ትክክል ነው፣ የያዙት የባሕር እይታ ያለው ክፍል ነው።»"
-      },
-      "start": 39.388,
-      "end": 50.26,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "right away; at once; immediately",
-          ""
-        ],
-        [
-          "下楼",
-          "xià lóu",
-          "to go downstairs",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "前台",
-          "qián tái",
-          "front desk; reception desk; stage",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "前台",
-          "qián tái",
-          "front desk; reception desk; stage",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "姑娘",
-          "gū niang",
-          "young woman; young lady; girl",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "电脑",
-          "diàn nǎo",
-          "computer",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "有礼貌",
-          "yǒu lǐ mào",
-          "courteous; polite",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "先生",
-          "xiān sheng",
-          "gentleman; sir; mister (Mr.); teacher; husband",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "没错",
-          "méi cuò",
-          "that's right; sure!; rest assured!",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "订",
-          "dìng",
-          "to agree; to conclude; to draw up",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "exactly; precisely; only; simply; just",
-          ""
-        ],
-        [
-          "海景",
-          "hǎi jǐng",
-          "sea view; seascape",
-          ""
-        ],
-        [
-          "房",
-          "fáng",
-          "room; house; branch of an extended family",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“可是窗外只有一面墙啊！”",
-      "py": "“kě shì chuāng wài zhǐ yǒu yí miàn qiáng a!”",
-      "en": "\"But there's nothing outside the window but a wall!\"",
-      "tr": {
-        "am": "«ግን ከመስኮቱ ውጭ ያለው ግድግዳ ብቻ ነው እኮ!»"
-      },
-      "start": 50.96,
-      "end": 53.816,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "窗",
-          "chuāng",
-          "window",
-          ""
-        ],
-        [
-          "外",
-          "wài",
-          "outside; in addition; foreign",
-          ""
-        ],
-        [
-          "只有",
-          "zhǐ yǒu",
-          "only have ...; there is only ...",
-          ""
-        ],
-        [
-          "一面",
-          "yī miàn",
-          "one side; one aspect; simultaneously... (and...)",
-          ""
-        ],
-        [
-          "墙",
-          "qiáng",
-          "wall; (slang) to block (a website) (usu. in the passive: 被墙)",
-          ""
-        ],
-        [
-          "啊",
-          "a",
-          "modal particle ending sentence, showing affirmation, approval, or consent",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "姑娘微笑着说：“海景在卫生间。”",
-      "py": "gū niang wēi xiào zhe shuō: “hǎi jǐng zài wèi shēng jiān.”",
-      "en": "She smiles. \"The sea view is in the bathroom.\"",
-      "tr": {
-        "am": "ወጣቷ ፈገግ ብላ አለች፦ «የባሕሩ እይታ በመታጠቢያ ቤቱ ውስጥ ነው።»"
-      },
-      "start": 54.516,
-      "end": 58.572,
-      "tokens": [
-        [
-          "姑娘",
-          "gū niang",
-          "girl; young woman; young lady",
-          ""
-        ],
-        [
-          "微笑",
-          "wēi xiào",
-          "smile; to smile",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "海景",
-          "hǎi jǐng",
-          "sea view; seascape",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "卫生间",
-          "wèi shēng jiān",
-          "bathroom; toilet; WC",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "两个人半信半疑地回到房间，推开了卫生间的门。",
-      "py": "liǎng gè rén bàn xìn bàn yí de huí dào fáng jiān, tuī kāi le wèi shēng jiān de mén.",
-      "en": "Not quite believing it, the two of them go back to the room and open the bathroom door.",
-      "tr": {
-        "am": "ሁለቱ ግማሽ አምነው ግማሽ ተጠራጥረው ወደ ክፍሉ ተመልሰው የመታጠቢያ ቤቱን በር ከፈቱ።"
-      },
-      "start": 59.272,
-      "end": 64.48,
-      "tokens": [
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "半信半疑",
-          "bàn xìn bàn yí",
-          "(idiom) half believing, half doubting; not quite convinced; skeptical",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "回到",
-          "huí dào",
-          "to return to",
-          ""
-        ],
-        [
-          "房间",
-          "fáng jiān",
-          "room",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "推开",
-          "tuī kāi",
-          "to push open (a gate etc); to push away; to reject",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "卫生间",
-          "wèi shēng jiān",
-          "bathroom; toilet; WC",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "门",
-          "mén",
-          "gate; door; doorway; gateway; opening",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "卫生间的墙上，很高的地方有一扇小窗户。",
-      "py": "wèi shēng jiān de qiáng shàng, hěn gāo de dì fang yǒu yí shàn xiǎo chuāng hu.",
-      "en": "High up on the bathroom wall is a little window.",
-      "tr": {
-        "am": "በመታጠቢያ ቤቱ ግድግዳ ላይ በጣም ከፍ ባለ ቦታ አንድ ትንሽ መስኮት ነበር።"
-      },
-      "start": 65.18,
-      "end": 69.908,
-      "tokens": [
-        [
-          "卫生间",
-          "wèi shēng jiān",
-          "bathroom; toilet; WC",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "墙",
-          "qiáng",
-          "wall; (slang) to block (a website) (usu. in the passive: 被墙)",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "高",
-          "gāo",
-          "high; tall; above average",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "地方",
-          "dì fang",
-          "place; location; area; space; territory; aspect; part",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "扇",
-          "shàn",
-          "classifier for doors, windows etc; fan",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "窗户",
-          "chuāng hu",
-          "window",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克个子高，踮起脚往外一看，果然，在两座楼中间，有一小块蓝蓝的海。",
-      "py": "Jié kè gè zi gāo, diǎn qǐ jiǎo wǎng wài yí kàn, guǒ rán, zài liǎng zuò lóu zhōng jiān, yǒu yì xiǎo kuài lán lán de hǎi.",
-      "en": "Jack is tall. He stands on tiptoe and looks out, and sure enough, between two buildings there's a little patch of blue sea.",
-      "tr": {
-        "am": "ጃክ ረጅም ነው፣ በእግር ጣቶቹ ቆሞ ወደ ውጭ ሲያይ በእርግጥ በሁለት ሕንፃዎች መሀል ትንሽ ሰማያዊ ባሕር ነበር።"
-      },
-      "start": 70.608,
-      "end": 79.392,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "个子",
-          "gè zi",
-          "stature; height; size (of a person or object)",
-          ""
-        ],
-        [
-          "高",
-          "gāo",
-          "tall; high; above average",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "踮",
-          "diǎn",
-          "to stand on tiptoe; Taiwan pr.",
-          ""
-        ],
-        [
-          "起",
-          "qǐ",
-          "to set out; to rise; to raise",
-          ""
-        ],
-        [
-          "脚",
-          "jiǎo",
-          "foot; leg (of an animal or an object); base (of an object)",
-          ""
-        ],
-        [
-          "往外",
-          "wǎng wài",
-          "out; outbound; departing",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to watch out for",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "果然",
-          "guǒ rán",
-          "sure enough; really; as expected",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "座",
-          "zuò",
-          "classifier for large immovable objects such as buildings, mountains, bridges etc",
-          ""
-        ],
-        [
-          "楼",
-          "lóu",
-          "storied building; house with more than 1 story; floor",
-          ""
-        ],
-        [
-          "中间",
-          "zhōng jiān",
-          "in the middle; within; between; among",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "块",
-          "kuài",
-          "lump; chunk; piece",
-          ""
-        ],
-        [
-          "蓝",
-          "lán",
-          "blue; indigo plant",
-          ""
-        ],
-        [
-          "蓝",
-          "lán",
-          "blue; indigo plant",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "海",
-          "hǎi",
-          "sea; ocean; great number of people or things",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“真的有海！”他兴奋地喊了起来。",
-      "py": "“zhēn de yǒu hǎi!” tā xīng fèn de hǎn le qǐ lái.",
-      "en": "\"There really is a sea!\" he shouts excitedly.",
-      "tr": {
-        "am": "«በእርግጥ ባሕር አለ!» ብሎ በደስታ ጮኸ።"
-      },
-      "start": 80.092,
-      "end": 84.124,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "真的",
-          "zhēn de",
-          "really; truly; indeed; real; true; genuine; (math.) proper",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "海",
-          "hǎi",
-          "sea; ocean; great number of people or things",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "兴奋",
-          "xīng fèn",
-          "excited; excitement; (physiology) excitation",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "喊",
-          "hǎn",
-          "to shout; to yell; to call out for (a person)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小周也踮起脚，可是他只看见了天空和一根电线。",
-      "py": "Xiǎo Zhōu yě diǎn qǐ jiǎo, kě shì tā zhǐ kàn jiàn le tiān kōng hé yì gēn diàn xiàn.",
-      "en": "Xiao Zhou stands on tiptoe too, but all he can see is sky and an electric cable.",
-      "tr": {
-        "am": "ሺያው ጆውም በእግር ጣቶቹ ቆመ፣ ግን ያየው ሰማይና አንድ የኤሌክትሪክ ሽቦ ብቻ ነበር።"
-      },
-      "start": 84.824,
-      "end": 90.296,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "all; all over; Zhou Dynasty (1046–256 BC)",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "踮",
-          "diǎn",
-          "to stand on tiptoe; Taiwan pr.",
-          ""
-        ],
-        [
-          "起",
-          "qǐ",
-          "to rise; to raise; to get up",
-          ""
-        ],
-        [
-          "脚",
-          "jiǎo",
-          "foot; leg (of an animal or an object); base (of an object)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "天空",
-          "tiān kōng",
-          "sky",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "根",
-          "gēn",
-          "classifier for long slender objects, e.g. cigarettes, guitar strings",
-          ""
-        ],
-        [
-          "电线",
-          "diàn xiàn",
-          "wire; power cord",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他又站到马桶盖上，这才看见那一小块海，还没有手机屏幕大。",
-      "py": "tā yòu zhàn dào mǎ tǒng gài shàng, zhè cái kàn jiàn nà yì xiǎo kuài hǎi, hái méi yǒu shǒu jī píng mù dà.",
-      "en": "Then he climbs onto the toilet lid, and only then can he see the patch of sea. It's smaller than a phone screen.",
-      "tr": {
-        "am": "ከዚያ በመጸዳጃው ክዳን ላይ ቆሞ ነው ያቺን ትንሽ ባሕር ያየው፣ ከስልክ ስክሪን እንኳ ታንሳለች።"
-      },
-      "start": 90.996,
-      "end": 97.62,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "station; to stand; to halt",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "马桶",
-          "mǎ tǒng",
-          "wooden pan used as toilet; toilet bowl; chamber pot",
-          ""
-        ],
-        [
-          "盖上",
-          "gài shang",
-          "to cover",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "then and only then; (before an expression of quantity) only",
-          ""
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "块",
-          "kuài",
-          "lump; chunk; piece",
-          ""
-        ],
-        [
-          "海",
-          "hǎi",
-          "sea; ocean; great number of people or things",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "屏幕",
-          "píng mù",
-          "screen (TV, computer or movie)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "older (than another person); big; large; great",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克想去前台要求换房，小周说：“算了，我们又不是来看墙的。”",
-      "py": "Jié kè xiǎng qù qián tái yāo qiú huàn fáng, Xiǎo Zhōu shuō: “suàn le, wǒ men yòu bú shì lái kàn qiáng de.”",
-      "en": "Jack wants to go back to reception and ask for another room, but Xiao Zhou says, \"Forget it. We didn't come here to look at walls.\"",
-      "tr": {
-        "am": "ጃክ ወደ እንግዳ መቀበያው ሄዶ ክፍል እንዲቀየር መጠየቅ ፈለገ፣ ሺያው ጆው ግን አለ፦ «ተወው፣ የመጣነው ግድግዳ ለማየት አይደለም።»"
-      },
-      "start": 98.32,
-      "end": 105.208,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "前台",
-          "qián tái",
-          "reception desk; stage; proscenium",
-          ""
-        ],
-        [
-          "要求",
-          "yāo qiú",
-          "to ask; to request; to require",
-          ""
-        ],
-        [
-          "换",
-          "huàn",
-          "to exchange; to change (clothes etc); to substitute",
-          ""
-        ],
-        [
-          "房",
-          "fáng",
-          "room; house; branch of an extended family",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "算了",
-          "suàn le",
-          "forget about it; let it be; let it pass",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "不是",
-          "bù shì",
-          "no; is not; not",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "墙",
-          "qiáng",
-          "wall; (slang) to block (a website) (usu. in the passive: 被墙)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "接下来的三天，他们每天一早就出门，在海边散步、游泳、吃海鲜，很晚才回酒店，一回来倒头就睡。",
-      "py": "jiē xià lái de sān tiān, tā men měi tiān yì zǎo jiù chū mén, zài hǎi biān sàn bù, yóu yǒng, chī hǎi xiān, hěn wǎn cái huí jiǔ diàn, yì huí lái dǎo tóu jiù shuì.",
-      "en": "For the next three days, they go out early every morning, walk by the sea, swim and eat seafood, and they don't get back to the hotel until late, when they fall straight into bed.",
-      "tr": {
-        "am": "በቀጣዮቹ ሦስት ቀናት በየቀኑ ማለዳ ወጥተው በባሕር ዳር ተንሸራሸሩ፣ ዋኙ፣ የባሕር ምግብ በሉ፣ በጣም አምሽተው ሆቴል ይመለሱና ወዲያው ይተኙ ነበር።"
-      },
-      "start": 105.908,
-      "end": 116.78,
-      "tokens": [
-        [
-          "接下来",
-          "jiē xià lái",
-          "next; to accept; to take",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "一早",
-          "yī zǎo",
-          "early in the morning; at dawn",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "出门",
-          "chū mén",
-          "to go out; (of a woman) to get married; to leave home",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "海边",
-          "hǎi biān",
-          "coast; seaside; seashore; beach",
-          ""
-        ],
-        [
-          "散步",
-          "sàn bù",
-          "to take a walk; to go for a walk",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "游泳",
-          "yóu yǒng",
-          "swimming; to swim",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "海鲜",
-          "hǎi xiān",
-          "seafood",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "晚",
-          "wǎn",
-          "late; evening; night",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "ability; talent; sb of a certain type; a capable individual",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "酒店",
-          "jiǔ diàn",
-          "hotel; wine shop; pub (public house)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "回来",
-          "huí lai",
-          "to return; to come back",
-          ""
-        ],
-        [
-          "倒头",
-          "dǎo tóu",
-          "to lie down; to die",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "睡",
-          "shuì",
-          "to sleep; to lie down",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "离开那天，前台请他们给酒店写一个评价。",
-      "py": "lí kāi nà tiān, qián tái qǐng tā men gěi jiǔ diàn xiě yí gè píng jià.",
-      "en": "On the day they leave, the receptionist asks them to write a review of the hotel.",
-      "tr": {
-        "am": "በሚሄዱበት ቀን የእንግዳ መቀበያዋ ስለ ሆቴሉ አስተያየት እንዲጽፉ ጠየቀቻቸው።"
-      },
-      "start": 117.48,
-      "end": 122.232,
-      "tokens": [
-        [
-          "离开",
-          "lí kāi",
-          "to depart; to leave",
-          ""
-        ],
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "前台",
-          "qián tái",
-          "reception desk; stage; proscenium",
-          ""
-        ],
-        [
-          "请",
-          "qǐng",
-          "to ask; to invite; please (do sth)",
-          ""
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "酒店",
-          "jiǔ diàn",
-          "hotel; wine shop; pub (public house)",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "评价",
-          "píng jià",
-          "to evaluate; to assess",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克想了想，写道：“海景很美，就是需要一点儿身高。”",
-      "py": "Jié kè xiǎng le xiǎng, xiě dào: “hǎi jǐng hěn měi, jiù shì xū yào yì diǎn r shēn gāo.”",
-      "en": "Jack thinks for a moment, then writes: \"The sea view is beautiful, but you need to be a bit tall.\"",
-      "tr": {
-        "am": "ጃክ ትንሽ አስቦ ጻፈ፦ «የባሕሩ እይታ በጣም ያምራል፣ ብቻ ትንሽ ቁመት ያስፈልጋል።»"
-      },
-      "start": 122.932,
-      "end": 129.58,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "写道",
-          "xiě dào",
-          "to write (used before or after a quoted passage)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "海景",
-          "hǎi jǐng",
-          "sea view; seascape",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "美",
-          "měi",
-          "beautiful; very satisfactory; good; to beautify",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "exactly; precisely; only; simply; just",
-          ""
-        ],
-        [
-          "需要",
-          "xū yào",
-          "to need; to want; to demand; to require; needs",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "身高",
-          "shēn gāo",
-          "(a person's) height",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小周在后面加了一句：“个子不高的客人，请自带凳子。”",
-      "py": "Xiǎo Zhōu zài hòu mian jiā le yí jù: “gè zi bù gāo de kè rén, qǐng zì dài dèng zi.”",
-      "en": "Xiao Zhou adds a line: \"Shorter guests, please bring your own stool.\"",
-      "tr": {
-        "am": "ሺያው ጆው ከኋላው አንድ ዓረፍተ ነገር ጨመረ፦ «አጭር እንግዶች፣ እባካችሁ የራሳችሁን በርጩማ ይዛችሁ ኑ።»"
-      },
-      "start": 130.28,
-      "end": 136.232,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "在后",
-          "zài hòu",
-          "behind",
-          ""
-        ],
-        [
-          "面",
-          "miàn",
-          "face; side; surface",
-          ""
-        ],
-        [
-          "加",
-          "jiā",
-          "to add; (math.) plus; to increase; to augment",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一句",
-          "yī jù",
-          "a line of verse; a sentence",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "个子",
-          "gè zi",
-          "stature; height; size (of a person or object)",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "高",
-          "gāo",
-          "high; tall; above average",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "客人",
-          "kè rén",
-          "guest; visitor; customer",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "请",
-          "qǐng",
-          "please (do sth); to ask; to invite",
-          ""
-        ],
-        [
-          "自带",
-          "zì dài",
-          "to bring one's own; BYO; (of software) preinstalled",
-          ""
-        ],
-        [
-          "凳子",
-          "dèng zi",
-          "stool; small seat",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 415,
-  "first": "七月，杰克和小周请了几天假，去青岛玩儿了三天。",
-  "newWords": [
-    {
-      "w": "特意",
-      "py": "tèyì",
-      "en": "done on purpose, not by chance"
-    },
-    {
-      "w": "半信半疑",
-      "py": "bàn xìn bàn yí",
-      "en": "(idiom) half believing, half doubting"
-    },
-    {
-      "w": "果然",
-      "py": "guǒrán",
-      "en": "just as expected"
-    },
-    {
-      "w": "评价",
-      "py": "píngjià",
-      "en": "judge quality"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h5-23.mp3?v=1791721200"
+  {
+   "text": "订酒店的时候，杰克特意多花了两百块，订了一间“海景房”。",
+   "py": "dìng jiǔ diàn de shí hou, Jié kè tè yì duō huā le liǎng bǎi kuài, dìng le yì jiān “hǎi jǐng fáng”.",
+   "en": "When he books the hotel, Jack deliberately pays an extra 200 yuan for a \"sea-view room\".",
+   "tr": {
+    "am": "ሆቴል ሲይዝ ጃክ ሆን ብሎ ሁለት መቶ ዩዋን ጨምሮ «የባሕር እይታ ያለው ክፍል» ያዘ።",
+    "fa": "وقتی هتل رزرو می‌کنه، جک عمداً دویست یوان اضافه می‌ده برای یه «اتاق با منظره‌ی دریا»."
+   },
+   "start": 9.272,
+   "end": 15.44,
+   "tokens": [
+    [
+     "订",
+     "dìng",
+     "to agree; to conclude; to draw up",
+     ""
+    ],
+    [
+     "酒店",
+     "jiǔ diàn",
+     "hotel; wine shop; pub (public house)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "特意",
+     "tè yì",
+     "specially; intentionally",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "花",
+     "huā",
+     "flower; blossom; fancy pattern",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "hundred; numerous; all kinds of",
+     ""
+    ],
+    [
+     "块",
+     "kuài",
+     "classifier for pieces of cloth, cake, soap etc",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "订",
+     "dìng",
+     "to agree; to conclude; to draw up",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "间",
+     "jiān",
+     "classifier for rooms; room",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "海景",
+     "hǎi jǐng",
+     "sea view; seascape",
+     ""
+    ],
+    [
+     "房",
+     "fáng",
+     "room; house; branch of an extended family",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "网上的照片里，房间有一扇巨大的窗户，窗外就是蓝蓝的大海。",
+   "py": "wǎng shàng de zhào piàn lǐ, fáng jiān yǒu yí shàn jù dà de chuāng hu, chuāng wài jiù shì lán lán de dà hǎi.",
+   "en": "In the photos online, the room has a huge window with the blue sea right outside.",
+   "tr": {
+    "am": "በኢንተርኔት ፎቶዎቹ ላይ ክፍሉ ትልቅ መስኮት አለው፣ ከመስኮቱ ውጭ ሰማያዊው ባሕር ይታያል።",
+    "fa": "توی عکس‌های آنلاین، اتاق یه پنجره‌ی بزرگ داره با دریای آبی درست بیرونش."
+   },
+   "start": 16.14,
+   "end": 23.028,
+   "tokens": [
+    [
+     "网上",
+     "wǎng shàng",
+     "online",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "房间",
+     "fáng jiān",
+     "room",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "扇",
+     "shàn",
+     "classifier for doors, windows etc; fan",
+     ""
+    ],
+    [
+     "巨大",
+     "jù dà",
+     "huge; immense; enormous; gigantic",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "窗户",
+     "chuāng hu",
+     "window",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "窗",
+     "chuāng",
+     "window",
+     ""
+    ],
+    [
+     "外",
+     "wài",
+     "outside; in addition; foreign",
+     ""
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "exactly; precisely; only; simply; just",
+     ""
+    ],
+    [
+     "蓝",
+     "lán",
+     "blue; indigo plant",
+     ""
+    ],
+    [
+     "蓝",
+     "lán",
+     "blue; indigo plant",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "大海",
+     "dà hǎi",
+     "sea; ocean",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "到了酒店，他们一进房间就跑到了窗前。",
+   "py": "dào le jiǔ diàn, tā men yí jìn fáng jiān jiù pǎo dào le chuāng qián.",
+   "en": "When they get to the hotel, they rush to the window as soon as they're in the room.",
+   "tr": {
+    "am": "ሆቴሉ ሲደርሱ ክፍሉ እንደገቡ ወደ መስኮቱ ሮጡ።",
+    "fa": "وقتی می‌رسن هتل، همون که وارد اتاق می‌شن، می‌دون سمت پنجره."
+   },
+   "start": 23.728,
+   "end": 28,
+   "tokens": [
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "酒店",
+     "jiǔ diàn",
+     "hotel; wine shop; pub (public house)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "as soon as",
+     ""
+    ],
+    [
+     "进",
+     "jìn",
+     "classifier for sections in a building or residential compound",
+     ""
+    ],
+    [
+     "房间",
+     "fáng jiān",
+     "room",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a clause of action) as soon as; immediately after",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "to run; to run away; to escape",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "窗",
+     "chuāng",
+     "window",
+     ""
+    ],
+    [
+     "前",
+     "qián",
+     "front; forward; ahead",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "窗外是一面灰色的墙，墙上还挂着几台空调外机。",
+   "py": "chuāng wài shì yí miàn huī sè de qiáng, qiáng shàng hái guà zhe jǐ tái kōng tiáo wài jī.",
+   "en": "Outside the window is a grey wall with several air-conditioning units on it.",
+   "tr": {
+    "am": "ከመስኮቱ ውጭ ግራጫ ግድግዳ ነበር፣ በግድግዳው ላይም ጥቂት የኤሲ የውጭ ማሽኖች ተሰቅለዋል።",
+    "fa": "بیرون پنجره یه دیوار خاکستریه با چند تا یونیت کولر روش."
+   },
+   "start": 28.7,
+   "end": 34.652,
+   "tokens": [
+    [
+     "窗",
+     "chuāng",
+     "window",
+     ""
+    ],
+    [
+     "外",
+     "wài",
+     "outside; in addition; foreign",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "一面",
+     "yī miàn",
+     "one side; one aspect; simultaneously... (and...)",
+     ""
+    ],
+    [
+     "灰色",
+     "huī sè",
+     "gray; ash gray; grizzly",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "墙",
+     "qiáng",
+     "wall; (slang) to block (a website) (usu. in the passive: 被墙)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "墙",
+     "qiáng",
+     "wall; (slang) to block (a website) (usu. in the passive: 被墙)",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "挂",
+     "guà",
+     "to hang; to suspend (from a hook etc)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "几",
+     "jǐ",
+     "several; a few; how many; how much",
+     ""
+    ],
+    [
+     "台",
+     "tái",
+     "classifier for vehicles or machines",
+     ""
+    ],
+    [
+     "空调",
+     "kōng tiáo",
+     "air conditioning",
+     ""
+    ],
+    [
+     "外",
+     "wài",
+     "outside; in addition; foreign",
+     ""
+    ],
+    [
+     "机",
+     "jī",
+     "(bound form) machine; mechanism; (bound form) aircraft",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小周揉了揉眼睛：“海呢？”",
+   "py": "Xiǎo Zhōu róu le róu yǎn jing: “hǎi ne?”",
+   "en": "Xiao Zhou rubs his eyes. \"Where's the sea?\"",
+   "tr": {
+    "am": "ሺያው ጆው ዓይኑን አሻሸ፦ «ባሕሩስ?»",
+    "fa": "شیائو جو چشماش رو می‌ماله: «دریا کجاست؟»"
+   },
+   "start": 35.352,
+   "end": 38.688,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "揉",
+     "róu",
+     "to knead; to massage; to rub",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "揉",
+     "róu",
+     "to knead; to massage; to rub",
+     ""
+    ],
+    [
+     "眼睛",
+     "yǎn jing",
+     "eye",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "海",
+     "hǎi",
+     "sea; ocean; great number of people or things",
+     ""
+    ],
+    [
+     "呢",
+     "ne",
+     "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克马上下楼去问前台，前台的姑娘看了看电脑，很有礼貌地说：“先生，没错，您订的就是海景房。”",
+   "py": "Jié kè mǎ shàng xià lóu qù wèn qián tái, qián tái de gū niang kàn le kàn diàn nǎo, hěn yǒu lǐ mào de shuō: “xiān sheng, méi cuò, nín dìng de jiù shì hǎi jǐng fáng.”",
+   "en": "Jack goes straight down to reception. The young woman at the desk checks her computer and says politely, \"That's right, sir. You've booked a sea-view room.\"",
+   "tr": {
+    "am": "ጃክ ወዲያው ወደ እንግዳ መቀበያው ወርዶ ጠየቀ። የእንግዳ መቀበያዋ ወጣት ኮምፒውተሩን አይታ በትሕትና አለች፦ «ጌታዬ፣ ትክክል ነው፣ የያዙት የባሕር እይታ ያለው ክፍል ነው።»",
+    "fa": "جک مستقیم می‌ره پایین پذیرش. خانم جوون پشت میز کامپیوترش رو چک می‌کنه و مؤدبانه می‌گه: «درسته قربان. اتاق با منظره‌ی دریا رزرو کردید.»"
+   },
+   "start": 39.388,
+   "end": 50.26,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "right away; at once; immediately",
+     ""
+    ],
+    [
+     "下楼",
+     "xià lóu",
+     "to go downstairs",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "前台",
+     "qián tái",
+     "front desk; reception desk; stage",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "前台",
+     "qián tái",
+     "front desk; reception desk; stage",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "姑娘",
+     "gū niang",
+     "young woman; young lady; girl",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "电脑",
+     "diàn nǎo",
+     "computer",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "有礼貌",
+     "yǒu lǐ mào",
+     "courteous; polite",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "先生",
+     "xiān sheng",
+     "gentleman; sir; mister (Mr.); teacher; husband",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "没错",
+     "méi cuò",
+     "that's right; sure!; rest assured!",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "订",
+     "dìng",
+     "to agree; to conclude; to draw up",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "exactly; precisely; only; simply; just",
+     ""
+    ],
+    [
+     "海景",
+     "hǎi jǐng",
+     "sea view; seascape",
+     ""
+    ],
+    [
+     "房",
+     "fáng",
+     "room; house; branch of an extended family",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“可是窗外只有一面墙啊！”",
+   "py": "“kě shì chuāng wài zhǐ yǒu yí miàn qiáng a!”",
+   "en": "\"But there's nothing outside the window but a wall!\"",
+   "tr": {
+    "am": "«ግን ከመስኮቱ ውጭ ያለው ግድግዳ ብቻ ነው እኮ!»",
+    "fa": "«ولی بیرون پنجره غیر از یه دیوار هیچی نیست!»"
+   },
+   "start": 50.96,
+   "end": 53.816,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "窗",
+     "chuāng",
+     "window",
+     ""
+    ],
+    [
+     "外",
+     "wài",
+     "outside; in addition; foreign",
+     ""
+    ],
+    [
+     "只有",
+     "zhǐ yǒu",
+     "only have ...; there is only ...",
+     ""
+    ],
+    [
+     "一面",
+     "yī miàn",
+     "one side; one aspect; simultaneously... (and...)",
+     ""
+    ],
+    [
+     "墙",
+     "qiáng",
+     "wall; (slang) to block (a website) (usu. in the passive: 被墙)",
+     ""
+    ],
+    [
+     "啊",
+     "a",
+     "modal particle ending sentence, showing affirmation, approval, or consent",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "姑娘微笑着说：“海景在卫生间。”",
+   "py": "gū niang wēi xiào zhe shuō: “hǎi jǐng zài wèi shēng jiān.”",
+   "en": "She smiles. \"The sea view is in the bathroom.\"",
+   "tr": {
+    "am": "ወጣቷ ፈገግ ብላ አለች፦ «የባሕሩ እይታ በመታጠቢያ ቤቱ ውስጥ ነው።»",
+    "fa": "اون می‌خنده: «منظره‌ی دریا توی سرویس بهداشتیه.»"
+   },
+   "start": 54.516,
+   "end": 58.572,
+   "tokens": [
+    [
+     "姑娘",
+     "gū niang",
+     "girl; young woman; young lady",
+     ""
+    ],
+    [
+     "微笑",
+     "wēi xiào",
+     "smile; to smile",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "海景",
+     "hǎi jǐng",
+     "sea view; seascape",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "卫生间",
+     "wèi shēng jiān",
+     "bathroom; toilet; WC",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "两个人半信半疑地回到房间，推开了卫生间的门。",
+   "py": "liǎng gè rén bàn xìn bàn yí de huí dào fáng jiān, tuī kāi le wèi shēng jiān de mén.",
+   "en": "Not quite believing it, the two of them go back to the room and open the bathroom door.",
+   "tr": {
+    "am": "ሁለቱ ግማሽ አምነው ግማሽ ተጠራጥረው ወደ ክፍሉ ተመልሰው የመታጠቢያ ቤቱን በር ከፈቱ።",
+    "fa": "بدون اینکه خیلی باورشون شه، اون دو نفر برمی‌گردن اتاق و در سرویس رو باز می‌کنن."
+   },
+   "start": 59.272,
+   "end": 64.48,
+   "tokens": [
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "半信半疑",
+     "bàn xìn bàn yí",
+     "(idiom) half believing, half doubting; not quite convinced; skeptical",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "回到",
+     "huí dào",
+     "to return to",
+     ""
+    ],
+    [
+     "房间",
+     "fáng jiān",
+     "room",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "推开",
+     "tuī kāi",
+     "to push open (a gate etc); to push away; to reject",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "卫生间",
+     "wèi shēng jiān",
+     "bathroom; toilet; WC",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "门",
+     "mén",
+     "gate; door; doorway; gateway; opening",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "卫生间的墙上，很高的地方有一扇小窗户。",
+   "py": "wèi shēng jiān de qiáng shàng, hěn gāo de dì fang yǒu yí shàn xiǎo chuāng hu.",
+   "en": "High up on the bathroom wall is a little window.",
+   "tr": {
+    "am": "በመታጠቢያ ቤቱ ግድግዳ ላይ በጣም ከፍ ባለ ቦታ አንድ ትንሽ መስኮት ነበር።",
+    "fa": "توی قسمت بالای دیوار سرویس یه پنجره‌ی کوچولوئه."
+   },
+   "start": 65.18,
+   "end": 69.908,
+   "tokens": [
+    [
+     "卫生间",
+     "wèi shēng jiān",
+     "bathroom; toilet; WC",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "墙",
+     "qiáng",
+     "wall; (slang) to block (a website) (usu. in the passive: 被墙)",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "高",
+     "gāo",
+     "high; tall; above average",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "地方",
+     "dì fang",
+     "place; location; area; space; territory; aspect; part",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "扇",
+     "shàn",
+     "classifier for doors, windows etc; fan",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "窗户",
+     "chuāng hu",
+     "window",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克个子高，踮起脚往外一看，果然，在两座楼中间，有一小块蓝蓝的海。",
+   "py": "Jié kè gè zi gāo, diǎn qǐ jiǎo wǎng wài yí kàn, guǒ rán, zài liǎng zuò lóu zhōng jiān, yǒu yì xiǎo kuài lán lán de hǎi.",
+   "en": "Jack is tall. He stands on tiptoe and looks out, and sure enough, between two buildings there's a little patch of blue sea.",
+   "tr": {
+    "am": "ጃክ ረጅም ነው፣ በእግር ጣቶቹ ቆሞ ወደ ውጭ ሲያይ በእርግጥ በሁለት ሕንፃዎች መሀል ትንሽ ሰማያዊ ባሕር ነበር።",
+    "fa": "جک بلند قده. پنجه پا می‌شه و بیرون رو نگاه می‌کنه و واقعاً، بین دو ساختمون یه تیکه کوچولوی دریای آبی هست."
+   },
+   "start": 70.608,
+   "end": 79.392,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "个子",
+     "gè zi",
+     "stature; height; size (of a person or object)",
+     ""
+    ],
+    [
+     "高",
+     "gāo",
+     "tall; high; above average",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "踮",
+     "diǎn",
+     "to stand on tiptoe; Taiwan pr.",
+     ""
+    ],
+    [
+     "起",
+     "qǐ",
+     "to set out; to rise; to raise",
+     ""
+    ],
+    [
+     "脚",
+     "jiǎo",
+     "foot; leg (of an animal or an object); base (of an object)",
+     ""
+    ],
+    [
+     "往外",
+     "wǎng wài",
+     "out; outbound; departing",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to watch out for",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "果然",
+     "guǒ rán",
+     "sure enough; really; as expected",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "座",
+     "zuò",
+     "classifier for large immovable objects such as buildings, mountains, bridges etc",
+     ""
+    ],
+    [
+     "楼",
+     "lóu",
+     "storied building; house with more than 1 story; floor",
+     ""
+    ],
+    [
+     "中间",
+     "zhōng jiān",
+     "in the middle; within; between; among",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "块",
+     "kuài",
+     "lump; chunk; piece",
+     ""
+    ],
+    [
+     "蓝",
+     "lán",
+     "blue; indigo plant",
+     ""
+    ],
+    [
+     "蓝",
+     "lán",
+     "blue; indigo plant",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "海",
+     "hǎi",
+     "sea; ocean; great number of people or things",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“真的有海！”他兴奋地喊了起来。",
+   "py": "“zhēn de yǒu hǎi!” tā xīng fèn de hǎn le qǐ lái.",
+   "en": "\"There really is a sea!\" he shouts excitedly.",
+   "tr": {
+    "am": "«በእርግጥ ባሕር አለ!» ብሎ በደስታ ጮኸ።",
+    "fa": "«واقعاً دریا هست!» با هیجان داد می‌زنه."
+   },
+   "start": 80.092,
+   "end": 84.124,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "真的",
+     "zhēn de",
+     "really; truly; indeed; real; true; genuine; (math.) proper",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "海",
+     "hǎi",
+     "sea; ocean; great number of people or things",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "兴奋",
+     "xīng fèn",
+     "excited; excitement; (physiology) excitation",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "喊",
+     "hǎn",
+     "to shout; to yell; to call out for (a person)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小周也踮起脚，可是他只看见了天空和一根电线。",
+   "py": "Xiǎo Zhōu yě diǎn qǐ jiǎo, kě shì tā zhǐ kàn jiàn le tiān kōng hé yì gēn diàn xiàn.",
+   "en": "Xiao Zhou stands on tiptoe too, but all he can see is sky and an electric cable.",
+   "tr": {
+    "am": "ሺያው ጆውም በእግር ጣቶቹ ቆመ፣ ግን ያየው ሰማይና አንድ የኤሌክትሪክ ሽቦ ብቻ ነበር።",
+    "fa": "شیائو جو اونم پنجه پا می‌شه، ولی فقط آسمون و یه کابل برق می‌بینه."
+   },
+   "start": 84.824,
+   "end": 90.296,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "all; all over; Zhou Dynasty (1046–256 BC)",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "踮",
+     "diǎn",
+     "to stand on tiptoe; Taiwan pr.",
+     ""
+    ],
+    [
+     "起",
+     "qǐ",
+     "to rise; to raise; to get up",
+     ""
+    ],
+    [
+     "脚",
+     "jiǎo",
+     "foot; leg (of an animal or an object); base (of an object)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "天空",
+     "tiān kōng",
+     "sky",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "根",
+     "gēn",
+     "classifier for long slender objects, e.g. cigarettes, guitar strings",
+     ""
+    ],
+    [
+     "电线",
+     "diàn xiàn",
+     "wire; power cord",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他又站到马桶盖上，这才看见那一小块海，还没有手机屏幕大。",
+   "py": "tā yòu zhàn dào mǎ tǒng gài shàng, zhè cái kàn jiàn nà yì xiǎo kuài hǎi, hái méi yǒu shǒu jī píng mù dà.",
+   "en": "Then he climbs onto the toilet lid, and only then can he see the patch of sea. It's smaller than a phone screen.",
+   "tr": {
+    "am": "ከዚያ በመጸዳጃው ክዳን ላይ ቆሞ ነው ያቺን ትንሽ ባሕር ያየው፣ ከስልክ ስክሪን እንኳ ታንሳለች።",
+    "fa": "بعد می‌پره روی درِ توالت فرنگی و تازه اون‌موقع می‌تونه اون تیکه‌ی دریا رو ببینه. کوچک‌تر از صفحه‌ی گوشیه."
+   },
+   "start": 90.996,
+   "end": 97.62,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "station; to stand; to halt",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "马桶",
+     "mǎ tǒng",
+     "wooden pan used as toilet; toilet bowl; chamber pot",
+     ""
+    ],
+    [
+     "盖上",
+     "gài shang",
+     "to cover",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "then and only then; (before an expression of quantity) only",
+     ""
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "块",
+     "kuài",
+     "lump; chunk; piece",
+     ""
+    ],
+    [
+     "海",
+     "hǎi",
+     "sea; ocean; great number of people or things",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "屏幕",
+     "píng mù",
+     "screen (TV, computer or movie)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "older (than another person); big; large; great",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克想去前台要求换房，小周说：“算了，我们又不是来看墙的。”",
+   "py": "Jié kè xiǎng qù qián tái yāo qiú huàn fáng, Xiǎo Zhōu shuō: “suàn le, wǒ men yòu bú shì lái kàn qiáng de.”",
+   "en": "Jack wants to go back to reception and ask for another room, but Xiao Zhou says, \"Forget it. We didn't come here to look at walls.\"",
+   "tr": {
+    "am": "ጃክ ወደ እንግዳ መቀበያው ሄዶ ክፍል እንዲቀየር መጠየቅ ፈለገ፣ ሺያው ጆው ግን አለ፦ «ተወው፣ የመጣነው ግድግዳ ለማየት አይደለም።»",
+    "fa": "جک می‌خواد بره پذیرش که اتاق دیگه‌ای بخواد، ولی شیائو جو می‌گه: «بی‌خیال. ما که نیومدیم دیوار ببینیم.»"
+   },
+   "start": 98.32,
+   "end": 105.208,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "前台",
+     "qián tái",
+     "reception desk; stage; proscenium",
+     ""
+    ],
+    [
+     "要求",
+     "yāo qiú",
+     "to ask; to request; to require",
+     ""
+    ],
+    [
+     "换",
+     "huàn",
+     "to exchange; to change (clothes etc); to substitute",
+     ""
+    ],
+    [
+     "房",
+     "fáng",
+     "room; house; branch of an extended family",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "算了",
+     "suàn le",
+     "forget about it; let it be; let it pass",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "不是",
+     "bù shì",
+     "no; is not; not",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "墙",
+     "qiáng",
+     "wall; (slang) to block (a website) (usu. in the passive: 被墙)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "接下来的三天，他们每天一早就出门，在海边散步、游泳、吃海鲜，很晚才回酒店，一回来倒头就睡。",
+   "py": "jiē xià lái de sān tiān, tā men měi tiān yì zǎo jiù chū mén, zài hǎi biān sàn bù, yóu yǒng, chī hǎi xiān, hěn wǎn cái huí jiǔ diàn, yì huí lái dǎo tóu jiù shuì.",
+   "en": "For the next three days, they go out early every morning, walk by the sea, swim and eat seafood, and they don't get back to the hotel until late, when they fall straight into bed.",
+   "tr": {
+    "am": "በቀጣዮቹ ሦስት ቀናት በየቀኑ ማለዳ ወጥተው በባሕር ዳር ተንሸራሸሩ፣ ዋኙ፣ የባሕር ምግብ በሉ፣ በጣም አምሽተው ሆቴል ይመለሱና ወዲያው ይተኙ ነበር።",
+    "fa": "برای سه روز بعد، هر صبح زود می‌رن بیرون، کنار دریا قدم می‌زنن، شنا می‌کنن و غذاهای دریایی می‌خورن و تا دیر وقت برنمی‌گردن هتل، که مستقیم می‌افتن رو تخت."
+   },
+   "start": 105.908,
+   "end": 116.78,
+   "tokens": [
+    [
+     "接下来",
+     "jiē xià lái",
+     "next; to accept; to take",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "一早",
+     "yī zǎo",
+     "early in the morning; at dawn",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "出门",
+     "chū mén",
+     "to go out; (of a woman) to get married; to leave home",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "海边",
+     "hǎi biān",
+     "coast; seaside; seashore; beach",
+     ""
+    ],
+    [
+     "散步",
+     "sàn bù",
+     "to take a walk; to go for a walk",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "游泳",
+     "yóu yǒng",
+     "swimming; to swim",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "海鲜",
+     "hǎi xiān",
+     "seafood",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "晚",
+     "wǎn",
+     "late; evening; night",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "ability; talent; sb of a certain type; a capable individual",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "酒店",
+     "jiǔ diàn",
+     "hotel; wine shop; pub (public house)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "回来",
+     "huí lai",
+     "to return; to come back",
+     ""
+    ],
+    [
+     "倒头",
+     "dǎo tóu",
+     "to lie down; to die",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "睡",
+     "shuì",
+     "to sleep; to lie down",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "离开那天，前台请他们给酒店写一个评价。",
+   "py": "lí kāi nà tiān, qián tái qǐng tā men gěi jiǔ diàn xiě yí gè píng jià.",
+   "en": "On the day they leave, the receptionist asks them to write a review of the hotel.",
+   "tr": {
+    "am": "በሚሄዱበት ቀን የእንግዳ መቀበያዋ ስለ ሆቴሉ አስተያየት እንዲጽፉ ጠየቀቻቸው።",
+    "fa": "روزی که می‌رن، پذیرش ازشون می‌خواد یه نظر درباره‌ی هتل بنویسن."
+   },
+   "start": 117.48,
+   "end": 122.232,
+   "tokens": [
+    [
+     "离开",
+     "lí kāi",
+     "to depart; to leave",
+     ""
+    ],
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "前台",
+     "qián tái",
+     "reception desk; stage; proscenium",
+     ""
+    ],
+    [
+     "请",
+     "qǐng",
+     "to ask; to invite; please (do sth)",
+     ""
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "酒店",
+     "jiǔ diàn",
+     "hotel; wine shop; pub (public house)",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "评价",
+     "píng jià",
+     "to evaluate; to assess",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克想了想，写道：“海景很美，就是需要一点儿身高。”",
+   "py": "Jié kè xiǎng le xiǎng, xiě dào: “hǎi jǐng hěn měi, jiù shì xū yào yì diǎn r shēn gāo.”",
+   "en": "Jack thinks for a moment, then writes: \"The sea view is beautiful, but you need to be a bit tall.\"",
+   "tr": {
+    "am": "ጃክ ትንሽ አስቦ ጻፈ፦ «የባሕሩ እይታ በጣም ያምራል፣ ብቻ ትንሽ ቁመት ያስፈልጋል።»",
+    "fa": "جک یه لحظه فکر می‌کنه، بعد می‌نویسه: «منظره‌ی دریا قشنگه، ولی باید یه کمی بلند قد باشی.»"
+   },
+   "start": 122.932,
+   "end": 129.58,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "写道",
+     "xiě dào",
+     "to write (used before or after a quoted passage)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "海景",
+     "hǎi jǐng",
+     "sea view; seascape",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "美",
+     "měi",
+     "beautiful; very satisfactory; good; to beautify",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "exactly; precisely; only; simply; just",
+     ""
+    ],
+    [
+     "需要",
+     "xū yào",
+     "to need; to want; to demand; to require; needs",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "身高",
+     "shēn gāo",
+     "(a person's) height",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小周在后面加了一句：“个子不高的客人，请自带凳子。”",
+   "py": "Xiǎo Zhōu zài hòu mian jiā le yí jù: “gè zi bù gāo de kè rén, qǐng zì dài dèng zi.”",
+   "en": "Xiao Zhou adds a line: \"Shorter guests, please bring your own stool.\"",
+   "tr": {
+    "am": "ሺያው ጆው ከኋላው አንድ ዓረፍተ ነገር ጨመረ፦ «አጭር እንግዶች፣ እባካችሁ የራሳችሁን በርጩማ ይዛችሁ ኑ።»",
+    "fa": "شیائو جو یه خط اضافه می‌کنه: «مهمون‌های کوتاه‌قدتر، لطفاً چهارپایه‌ی خودتون رو بیارید.»"
+   },
+   "start": 130.28,
+   "end": 136.232,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "在后",
+     "zài hòu",
+     "behind",
+     ""
+    ],
+    [
+     "面",
+     "miàn",
+     "face; side; surface",
+     ""
+    ],
+    [
+     "加",
+     "jiā",
+     "to add; (math.) plus; to increase; to augment",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一句",
+     "yī jù",
+     "a line of verse; a sentence",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "个子",
+     "gè zi",
+     "stature; height; size (of a person or object)",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "高",
+     "gāo",
+     "high; tall; above average",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "客人",
+     "kè rén",
+     "guest; visitor; customer",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "请",
+     "qǐng",
+     "please (do sth); to ask; to invite",
+     ""
+    ],
+    [
+     "自带",
+     "zì dài",
+     "to bring one's own; BYO; (of software) preinstalled",
+     ""
+    ],
+    [
+     "凳子",
+     "dèng zi",
+     "stool; small seat",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 415,
+ "first": "七月，杰克和小周请了几天假，去青岛玩儿了三天。",
+ "newWords": [
+  {
+   "w": "特意",
+   "py": "tèyì",
+   "en": "done on purpose, not by chance"
+  },
+  {
+   "w": "半信半疑",
+   "py": "bàn xìn bàn yí",
+   "en": "(idiom) half believing, half doubting"
+  },
+  {
+   "w": "果然",
+   "py": "guǒrán",
+   "en": "just as expected"
+  },
+  {
+   "w": "评价",
+   "py": "píngjià",
+   "en": "judge quality"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h5-23.mp3?v=1791721200"
 }

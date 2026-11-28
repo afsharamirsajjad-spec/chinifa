@@ -1,1861 +1,1876 @@
 {
-  "id": "h3-68",
-  "level": 3,
-  "no": 68,
-  "title": "高铁上的外卖",
-  "title_py": "gāo tiě shàng de wài mài",
-  "title_en": "Takeaway on the train",
-  "title_tr": {
-    "vi": "Đồ ăn giao lên tàu cao tốc",
-    "pt": "Entrega de comida no trem-bala",
-    "es": "Comida a domicilio en el tren",
-    "fr": "Un repas livré dans le train",
-    "am": "በባቡር ላይ የታዘዘ ምግብ",
-    "fa": "سفارش غذای بیرون‌بر در قطار سریع‌السیر"
+ "id": "h3-68",
+ "level": 3,
+ "no": 68,
+ "title": "高铁上的外卖",
+ "title_py": "gāo tiě shàng de wài mài",
+ "title_en": "Takeaway on the train",
+ "title_tr": {
+  "vi": "Đồ ăn giao lên tàu cao tốc",
+  "pt": "Entrega de comida no trem-bala",
+  "es": "Comida a domicilio en el tren",
+  "fr": "Un repas livré dans le train",
+  "am": "በባቡር ላይ የታዘዘ ምግብ",
+  "fa": "سفارش غذای بیرون‌بر در قطار سریع‌السیر"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_trip",
+ "cover": "https://media.kanchinese.app/review/stories/h3-68.jpg",
+ "duration": 103.264,
+ "lines": [
+  {
+   "text": "杰克坐高铁去上海出差，要坐五个小时。",
+   "py": "Jié kè zuò gāo tiě qù shàng hǎi chū chāi, yào zuò wǔ gè xiǎo shí.",
+   "en": "Jack takes the high-speed train to Shanghai on business. It's a five-hour journey.",
+   "tr": {
+    "vi": "Jack đi tàu cao tốc đến Thượng Hải công tác, phải ngồi năm tiếng.",
+    "pt": "Jack vai a Xangai de trem-bala a trabalho. A viagem é de cinco horas.",
+    "es": "Jack va en tren de alta velocidad a Shanghái en viaje de trabajo. Son cinco horas de viaje.",
+    "fr": "Jack prend le train à grande vitesse pour un voyage d'affaires à Shanghai : il en a pour cinq heures.",
+    "am": "ጃክ ለሥራ ወደ ሻንግሃይ በፈጣን ባቡር ሄደ። ጉዞው አምስት ሰዓት ይፈጃል።",
+    "fa": "جک با قطار تندرو می‌ره شانگهای مأموریت. سفر پنج ساعت طول می‌کشه."
+   },
+   "start": 2.62,
+   "end": 7.348,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to take a seat; to take (a bus, airplane etc); to sit",
+     ""
+    ],
+    [
+     "高铁",
+     "gāo tiě",
+     "high speed rail",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "上海",
+     "shàng hǎi",
+     "Shanghai municipality (short name 沪)",
+     ""
+    ],
+    [
+     "出差",
+     "chū chāi",
+     "to go on an official or business trip",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to take a seat; to take (a bus, airplane etc); to sit",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_trip",
-  "cover": "https://media.kanchinese.app/review/stories/h3-68.jpg",
-  "duration": 103.264,
-  "lines": [
-    {
-      "text": "杰克坐高铁去上海出差，要坐五个小时。",
-      "py": "Jié kè zuò gāo tiě qù shàng hǎi chū chāi, yào zuò wǔ gè xiǎo shí.",
-      "en": "Jack takes the high-speed train to Shanghai on business. It's a five-hour journey.",
-      "tr": {
-        "vi": "Jack đi tàu cao tốc đến Thượng Hải công tác, phải ngồi năm tiếng.",
-        "pt": "Jack vai a Xangai de trem-bala a trabalho. A viagem é de cinco horas.",
-        "es": "Jack va en tren de alta velocidad a Shanghái en viaje de trabajo. Son cinco horas de viaje.",
-        "fr": "Jack prend le train à grande vitesse pour un voyage d'affaires à Shanghai : il en a pour cinq heures.",
-        "am": "ጃክ ለሥራ ወደ ሻንግሃይ በፈጣን ባቡር ሄደ። ጉዞው አምስት ሰዓት ይፈጃል።"
-      },
-      "start": 2.62,
-      "end": 7.348,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to take a seat; to take (a bus, airplane etc); to sit",
-          ""
-        ],
-        [
-          "高铁",
-          "gāo tiě",
-          "high speed rail",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "上海",
-          "shàng hǎi",
-          "Shanghai municipality (short name 沪)",
-          ""
-        ],
-        [
-          "出差",
-          "chū chāi",
-          "to go on an official or business trip",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to take a seat; to take (a bus, airplane etc); to sit",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "中午，他饿了，可是车上的盒饭已经卖完了。",
-      "py": "zhōng wǔ, tā è le, kě shì chē shàng de hé fàn yǐ jīng mài wán le.",
-      "en": "At noon he's hungry, but the boxed lunches on the train have already sold out.",
-      "tr": {
-        "vi": "Buổi trưa, anh ấy đói, nhưng cơm hộp trên tàu đã bán hết.",
-        "pt": "Ao meio-dia, ele está com fome, mas as marmitas do trem já acabaram.",
-        "es": "Al mediodía tiene hambre, pero las cajas de comida del tren ya se agotaron.",
-        "fr": "À midi, il a faim, mais les plateaux-repas du train sont déjà tous vendus.",
-        "am": "ቀትር ላይ ራበው፣ ግን በባቡሩ ላይ የሚሸጠው የሣጥን ምግብ አልቋል።"
-      },
-      "start": 8.048,
-      "end": 13.064,
-      "tokens": [
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "饿",
-          "è",
-          "hungry; to starve (sb)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "车",
-          "chē",
-          "car; vehicle; machine",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "盒饭",
-          "hé fàn",
-          "meal in a partitioned box",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "卖完",
-          "mài wán",
-          "to be sold out",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "坐在旁边的一位阿姨告诉他：“你可以在手机上点外卖，送到你的座位上。”",
-      "py": "zuò zài páng biān de yí wèi ā yí gào su tā: “nǐ kě yǐ zài shǒu jī shàng diǎn wài mài, sòng dào nǐ de zuò wèi shàng.”",
-      "en": "The woman sitting next to him tells him, \"You can order a takeaway on your phone, and they'll bring it to your seat.\"",
-      "tr": {
-        "vi": "Một cô ngồi bên cạnh nói với anh ấy: “Cháu có thể đặt đồ ăn trên điện thoại, người ta mang đến tận ghế cho cháu.”",
-        "pt": "Uma senhora sentada ao lado dele diz: “Você pode pedir comida pelo celular, e eles entregam no seu assento.”",
-        "es": "Una señora sentada a su lado le dice: «Puedes pedir comida a domicilio en el teléfono, y te la traen a tu asiento».",
-        "fr": "La dame assise à côté de lui lui dit : « Vous pouvez commander un repas à livrer sur votre téléphone, on vous l'apporte à votre place. »",
-        "am": "አጠገቡ የተቀመጡ አንዲት ሴት «በስልክህ ምግብ ማዘዝ ትችላለህ፣ እስከ ወንበርህ ያመጡልሃል» አሉት።"
-      },
-      "start": 13.764,
-      "end": 20.388,
-      "tokens": [
-        [
-          "坐",
-          "zuò",
-          "to take a seat; to take (a bus, airplane etc); to sit",
-          ""
-        ],
-        [
-          "在旁",
-          "zài páng",
-          "alongside; nearby",
-          ""
-        ],
-        [
-          "边",
-          "biān",
-          "side; edge; margin",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "seat; classifier for people (honorific)",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "woman of similar age to one's parents (term of address used by child)",
-          ""
-        ],
-        [
-          "告诉",
-          "gào su",
-          "to tell; to inform; to let know",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "可以",
-          "kě yǐ",
-          "can; may; possible",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to order (food etc); to select",
-          ""
-        ],
-        [
-          "外卖",
-          "wài mài",
-          "(of a restaurant) to provide a takeout or home delivery meal",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "座位",
-          "zuò wèi",
-          "seat",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克不相信：“火车开得这么快，外卖怎么送上来？”",
-      "py": "Jié kè bù xiāng xìn: “huǒ chē kāi de zhè me kuài, wài mài zěn me sòng shàng lái?”",
-      "en": "Jack doesn't believe her. \"The train's going so fast. How can a takeaway get on board?\"",
-      "tr": {
-        "vi": "Jack không tin: “Tàu chạy nhanh thế này, đồ ăn mang lên kiểu gì ạ?”",
-        "pt": "Jack não acredita: “O trem anda tão rápido. Como a entrega vai chegar aqui?”",
-        "es": "Jack no le cree: «Si el tren va tan rápido, ¿cómo te van a subir la comida?».",
-        "fr": "Jack ne la croit pas : « Le train roule si vite, comment on peut livrer un repas ? »",
-        "am": "ጃክ አላመነም። «ባቡሩ እንዲህ እየፈጠነ የታዘዘ ምግብ እንዴት ሊደርስ ይችላል?»"
-      },
-      "start": 21.088,
-      "end": 26.56,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "相信",
-          "xiāng xìn",
-          "to believe; to be convinced; to accept as true",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "火车",
-          "huǒ chē",
-          "train",
-          ""
-        ],
-        [
-          "开",
-          "kāi",
-          "to open (transitive or intransitive)",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "这么",
-          "zhè me",
-          "how much?; so much; this much",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "rapid; quick; speed",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "外卖",
-          "wài mài",
-          "(of a restaurant) to provide a takeout or home delivery meal",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "上来",
-          "shàng lái",
-          "to come up; to approach",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "阿姨笑了：“火车到下一站的时候，有人给你送上来。”",
-      "py": "ā yí xiào le: “huǒ chē dào xià yí zhàn de shí hou, yǒu rén gěi nǐ sòng shàng lái.”",
-      "en": "She laughs. \"When the train gets to the next station, someone brings it on for you.\"",
-      "tr": {
-        "vi": "Cô ấy cười: “Lúc tàu đến ga sau, sẽ có người mang lên cho cháu.”",
-        "pt": "A senhora ri: “Quando o trem chega à próxima estação, alguém traz para você.”",
-        "es": "La señora se ríe: «Cuando el tren llega a la siguiente estación, alguien te la sube».",
-        "fr": "La dame rit : « Quand le train arrive à la gare suivante, quelqu'un vous l'apporte dans le train. »",
-        "am": "ሴትዮዋ ሳቁ። «ባቡሩ የሚቀጥለው ጣቢያ ሲደርስ አንድ ሰው ያመጣልሃል።»"
-      },
-      "start": 27.26,
-      "end": 32.468,
-      "tokens": [
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "火车",
-          "huǒ chē",
-          "train",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "下一站",
-          "xià yī zhàn",
-          "the next stop (of a bus etc)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; there is someone there; people",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "上来",
-          "shàng lái",
-          "to come up; to approach",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克点了一碗牛肉面，写上了车厢号和座位号。",
-      "py": "Jié kè diǎn le yì wǎn niú ròu miàn, xiě shàng le chē xiāng hào hé zuò wèi hào.",
-      "en": "Jack orders a bowl of beef noodles and enters his carriage and seat number.",
-      "tr": {
-        "vi": "Jack đặt một bát mì bò, điền số toa và số ghế.",
-        "pt": "Jack pede uma tigela de macarrão com carne e escreve o número do vagão e do assento.",
-        "es": "Jack pide un tazón de fideos con carne de res y escribe el número de vagón y de asiento.",
-        "fr": "Jack commande un bol de nouilles au bœuf et indique son numéro de voiture et de siège.",
-        "am": "ጃክ አንድ ሳህን የበሬ ሥጋ ኑድል አዘዘ፣ የፉርጎ ቁጥሩንና የወንበር ቁጥሩንም ጻፈ።"
-      },
-      "start": 33.168,
-      "end": 37.92,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to order (food etc); to select; (after a number) o'clock",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "牛肉面",
-          "niú ròu miàn",
-          "beef noodle soup",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "车厢",
-          "chē xiāng",
-          "carriage",
-          ""
-        ],
-        [
-          "号",
-          "hào",
-          "to mark; to label; to assign a number",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "座位",
-          "zuò wèi",
-          "seat",
-          ""
-        ],
-        [
-          "号",
-          "hào",
-          "to mark; to label; to assign a number",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "到了南京，火车只停两分钟。",
-      "py": "dào le nán jīng, huǒ chē zhǐ tíng liǎng fēn zhōng.",
-      "en": "At Nanjing, the train stops for only two minutes.",
-      "tr": {
-        "vi": "Đến Nam Kinh, tàu chỉ dừng hai phút.",
-        "pt": "Em Nanquim, o trem para só dois minutos.",
-        "es": "En Nankín, el tren para solo dos minutos.",
-        "fr": "À Nankin, le train ne s'arrête que deux minutes.",
-        "am": "ናንጂንግ ሲደርሱ ባቡሩ የሚቆመው ሁለት ደቂቃ ብቻ ነው።"
-      },
-      "start": 38.62,
-      "end": 42.196,
-      "tokens": [
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "南京",
-          "nán jīng",
-          "Nanjing, capital of the Ming dynasty (1368–1421) and of the Republic of China (1927–1937 and 1946–1949)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "火车",
-          "huǒ chē",
-          "train",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "停",
-          "tíng",
-          "to stop; to halt; to park (a car)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "分钟",
-          "fēn zhōng",
-          "minute",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一个穿黄衣服的小伙子拿着一碗面，一路跑到了杰克的车厢。",
-      "py": "yí gè chuān huáng yī fu de xiǎo huǒ zi ná zhe yì wǎn miàn, yí lù pǎo dào le Jié kè de chē xiāng.",
-      "en": "A young man in a yellow jacket comes running all the way to Jack's carriage, holding a bowl of noodles.",
-      "tr": {
-        "vi": "Một chàng trai mặc áo vàng cầm một bát mì, chạy một mạch đến toa của Jack.",
-        "pt": "Um rapaz de roupa amarela vem correndo até o vagão de Jack com uma tigela de macarrão.",
-        "es": "Un muchacho con ropa amarilla llega corriendo hasta el vagón de Jack con un tazón de fideos.",
-        "fr": "Un jeune homme en jaune court jusqu'à la voiture de Jack avec un bol de nouilles.",
-        "am": "ቢጫ ልብስ የለበሰ አንድ ወጣት አንድ ሳህን ኑድል ይዞ እስከ ጃክ ፉርጎ ድረስ እየሮጠ መጣ።"
-      },
-      "start": 42.896,
-      "end": 49.064,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "穿",
-          "chuān",
-          "to bore through; to pierce; to perforate",
-          ""
-        ],
-        [
-          "黄",
-          "huáng",
-          "yellow; pornographic; to fall through",
-          ""
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "小伙子",
-          "xiǎo huǒ zi",
-          "(coll.) young man; young fellow; lad",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "面",
-          "miàn",
-          "noodles; face; side",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一路",
-          "yī lù",
-          "all the way; going the same way; the whole journey",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "to run; to run away; to escape",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "车厢",
-          "chē xiāng",
-          "carriage",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他把面送到杰克手里：“您的面，慢慢吃！”",
-      "py": "tā bǎ miàn sòng dào Jié kè shǒu lǐ: “nín de miàn, màn màn chī!”",
-      "en": "He hands the noodles to Jack. \"Your noodles. Enjoy!\"",
-      "tr": {
-        "vi": "Cậu ấy đưa mì tận tay Jack: “Mì của anh đây, ăn ngon miệng nhé!”",
-        "pt": "Ele entrega o macarrão nas mãos de Jack: “O seu macarrão. Bom apetite!”",
-        "es": "Le pone los fideos en las manos a Jack: «Sus fideos. ¡Buen provecho!».",
-        "fr": "Il met les nouilles dans les mains de Jack : « Vos nouilles, bon appétit ! »",
-        "am": "ኑድሉን ለጃክ እጅ ሰጠው። «ኑድልዎ ይኸውና፣ በደስታ ይመገቡ!»"
-      },
-      "start": 49.764,
-      "end": 54.3,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "面",
-          "miàn",
-          "noodles; face; side",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "手里",
-          "shǒu lǐ",
-          "in hand; (a situation is) in sb's hands",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "面",
-          "miàn",
-          "noodles; face; side",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "慢慢吃",
-          "màn màn chī",
-          "Enjoy your meal!; Bon appetit!",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "说完，他转身就跑。他刚下车，车门就关上了。",
-      "py": "shuō wán, tā zhuǎn shēn jiù pǎo. tā gāng xià chē, chē mén jiù guān shàng le.",
-      "en": "And with that, he turns and runs. The moment he's off the train, the doors close.",
-      "tr": {
-        "vi": "Nói xong, cậu ấy quay người chạy luôn. Cậu ấy vừa xuống tàu, cửa tàu đã đóng lại.",
-        "pt": "Dito isso, ele se vira e sai correndo. Mal ele desce do trem, as portas se fecham.",
-        "es": "Dicho esto, se da vuelta y sale corriendo. Apenas baja del tren, se cierran las puertas.",
-        "fr": "Sur ces mots, il repart en courant. À peine est-il descendu que les portes se ferment.",
-        "am": "ይህን ብሎ ዞሮ ሮጠ። ከባቡሩ እንደወረደ በሩ ተዘጋ።"
-      },
-      "start": 55,
-      "end": 60.448,
-      "tokens": [
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "转身",
-          "zhuǎn shēn",
-          "(of a person) to turn round; to face about",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "off; to run; to run away",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "刚",
-          "gāng",
-          "(literary) hard; firm; strong; exactly; precisely",
-          ""
-        ],
-        [
-          "下车",
-          "xià chē",
-          "to get off or out of (a bus, train, car etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "车门",
-          "chē mén",
-          "car door; door of bus, railway carriage etc",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "关上",
-          "guān shàng",
-          "to close (a door)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克觉得太神奇了，拍了一张面的照片，发给了周经理：“中国的外卖，比高铁还快！”",
-      "py": "Jié kè jué de tài shén qí le, pāi le yì zhāng miàn de zhào piàn, fā gěi le Zhōu jīng lǐ: “Zhōng guó de wài mài, bǐ gāo tiě hái kuài!”",
-      "en": "Jack thinks it's amazing. He takes a photo of the noodles and sends it to Manager Zhou: \"Chinese takeaways are even faster than the high-speed train!\"",
-      "tr": {
-        "vi": "Jack thấy thật thần kỳ, chụp một tấm ảnh bát mì, gửi cho giám đốc Chu: “Giao đồ ăn ở Trung Quốc còn nhanh hơn cả tàu cao tốc!”",
-        "pt": "Jack acha incrível. Tira uma foto do macarrão e manda para a gerente Zhou: “A entrega de comida na China é mais rápida que o trem-bala!”",
-        "es": "A Jack le parece increíble. Le toma una foto a los fideos y se la manda a la gerente Zhou: «¡La comida a domicilio en China es más rápida que el tren de alta velocidad!».",
-        "fr": "Jack trouve ça incroyable. Il prend une photo des nouilles et l'envoie à la directrice Zhou : « En Chine, la livraison de repas va encore plus vite que le train à grande vitesse ! »",
-        "am": "ጃክ በጣም ተደነቀ። የኑድሉን ፎቶ አንሥቶ ለሥራ አስኪያጅ ጆው ላከ። «የቻይና ምግብ አድራሾች ከፈጣን ባቡር እንኳ ይፈጥናሉ!»"
-      },
-      "start": 61.148,
-      "end": 69.932,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "highest; greatest; too (much)",
-          ""
-        ],
-        [
-          "神奇",
-          "shén qí",
-          "magical; mystical; miraculous",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "拍",
-          "pāi",
-          "to take (a photo); to pat; to clap",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "\"one\" radical in Chinese characters (Kangxi radical 1); one",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "面的",
-          "miàn dī",
-          "abbr. of 面包车的士; minivan taxi",
-          ""
-        ],
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "发给",
-          "fā gěi",
-          "to issue; to grant; to distribute",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "中国",
-          "zhōng guó",
-          "China",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "外卖",
-          "wài mài",
-          "(of a restaurant) to provide a takeout or home delivery meal",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "比",
-          "bǐ",
-          "(followed by a noun and adjective) more {adj.} than {noun}",
-          ""
-        ],
-        [
-          "高铁",
-          "gāo tiě",
-          "high speed rail",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "even more; even; still",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "speed; rapid; quick",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "周经理马上回复：“我也在这趟车上，在三号车厢。下一站，也给我点一碗。”",
-      "py": "Zhōu jīng lǐ mǎ shàng huí fù: “wǒ yě zài zhè tàng chē shàng, zài sān hào chē xiāng. xià yí zhàn, yě gěi wǒ diǎn yì wǎn.”",
-      "en": "Manager Zhou replies at once: \"I'm on this train too, in carriage three. At the next stop, order me a bowl as well.\"",
-      "tr": {
-        "vi": "Giám đốc Chu trả lời ngay: “Tôi cũng ở trên chuyến tàu này, ở toa số 3. Ga sau, đặt cho tôi một bát nữa.”",
-        "pt": "A gerente Zhou responde na hora: “Eu também estou neste trem, no vagão três. Na próxima estação, peça uma tigela para mim também.”",
-        "es": "La gerente Zhou responde enseguida: «Yo también voy en este tren, en el vagón tres. En la próxima parada, pídeme un tazón a mí también».",
-        "fr": "La directrice Zhou répond aussitôt : « Je suis dans ce train aussi, voiture 3. À la prochaine gare, commandez-m'en un bol aussi. »",
-        "am": "ሥራ አስኪያጅ ጆው ወዲያው መለሱ። «እኔም በዚሁ ባቡር ላይ ነኝ፣ ሦስተኛው ፉርጎ ውስጥ። በሚቀጥለው ጣቢያ ለእኔም አንድ ሳህን እዘዝልኝ።»"
-      },
-      "start": 70.632,
-      "end": 78.672,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "at once; right away; immediately",
-          ""
-        ],
-        [
-          "回复",
-          "huí fù",
-          "to recover; to revert; to return to (good health, normal condition etc)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "趟",
-          "tàng",
-          "classifier for times, round trips or rows; a time; a trip",
-          ""
-        ],
-        [
-          "车",
-          "chē",
-          "car; vehicle; machine",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "号",
-          "hào",
-          "classifier for numbered people or items",
-          ""
-        ],
-        [
-          "车厢",
-          "chē xiāng",
-          "carriage",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "下一站",
-          "xià yī zhàn",
-          "the next stop (of a bus etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to order (food etc); to select; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克吃了一惊，原来周经理去上海见另一个客户，坐的是同一趟车。",
-      "py": "Jié kè chī le yì jīng, yuán lái Zhōu jīng lǐ qù shàng hǎi jiàn lìng yí gè kè hù, zuò de shì tóng yí tàng chē.",
-      "en": "Jack is startled. It turns out Manager Zhou is going to Shanghai to see a different client, on the very same train.",
-      "tr": {
-        "vi": "Jack giật mình, hóa ra giám đốc Chu đi Thượng Hải gặp một khách hàng khác, ngồi cùng một chuyến tàu.",
-        "pt": "Jack leva um susto: a gerente Zhou está indo a Xangai ver outro cliente, no mesmo trem.",
-        "es": "Jack se sorprende: resulta que la gerente Zhou va a Shanghái a ver a otro cliente, en el mismo tren.",
-        "fr": "Jack est très surpris : en fait, la directrice Zhou va à Shanghai voir un autre client, et elle a pris le même train.",
-        "am": "ጃክ ደነገጠ። ለካ ሥራ አስኪያጅ ጆው ሌላ ደንበኛ ለማግኘት ወደ ሻንግሃይ እየሄዱ ነበር፣ የተሳፈሩትም በዚያው ባቡር ነበር።"
-      },
-      "start": 79.372,
-      "end": 86.956,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "惊",
-          "jīng",
-          "to startle; to be frightened; to be scared",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "原来",
-          "yuán lái",
-          "so, actually, as it turns out; original; former",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "上海",
-          "shàng hǎi",
-          "Shanghai municipality (short name 沪)",
-          ""
-        ],
-        [
-          "见",
-          "jiàn",
-          "to see; to meet; to appear (to be sth)",
-          ""
-        ],
-        [
-          "另一",
-          "lìng yī",
-          "another ...; the other ...",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "(respectful acknowledgement of a command) very well",
-          ""
-        ],
-        [
-          "同一",
-          "tóng yī",
-          "identical; the same",
-          ""
-        ],
-        [
-          "趟",
-          "tàng",
-          "classifier for times, round trips or rows; a time; a trip",
-          ""
-        ],
-        [
-          "车",
-          "chē",
-          "car; vehicle; machine",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "到了下一站，又一个小伙子跑上了车，这次，他把面送到了三号车厢。",
-      "py": "dào le xià yí zhàn, yòu yí gè xiǎo huǒ zi pǎo shàng le chē, zhè cì, tā bǎ miàn sòng dào le sān hào chē xiāng.",
-      "en": "At the next station, another young man runs onto the train, and this time he takes the noodles to carriage three.",
-      "tr": {
-        "vi": "Đến ga sau, lại có một chàng trai chạy lên tàu, lần này cậu ấy mang mì đến toa số 3.",
-        "pt": "Na estação seguinte, outro rapaz entra correndo no trem, e desta vez leva o macarrão até o vagão três.",
-        "es": "En la siguiente estación, otro muchacho sube corriendo al tren, y esta vez lleva los fideos al vagón tres.",
-        "fr": "À la gare suivante, un autre jeune homme monte en courant, et cette fois, il apporte les nouilles à la voiture 3.",
-        "am": "በሚቀጥለው ጣቢያ ሌላ ወጣት ሮጦ ባቡሩ ላይ ወጣ። በዚህ ጊዜ ኑድሉን ወደ ሦስተኛው ፉርጎ አደረሰ።"
-      },
-      "start": 87.656,
-      "end": 95.24,
-      "tokens": [
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "下一站",
-          "xià yī zhàn",
-          "the next stop (of a bus etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "小伙子",
-          "xiǎo huǒ zi",
-          "(coll.) young man; young fellow; lad",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "to run; to run away; to escape",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "to climb; to get onto; to go up",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "车",
-          "chē",
-          "car; vehicle; machine",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "次",
-          "cì",
-          "classifier for enumerated events: time; next in sequence",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(bound form) other; another; some other (as in 他日 and 他人)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "面",
-          "miàn",
-          "noodles; face; side",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "号",
-          "hào",
-          "classifier for numbered people or items",
-          ""
-        ],
-        [
-          "车厢",
-          "chē xiāng",
-          "carriage",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "过了一会儿，杰克收到周经理的一条消息：“这碗面，可以报销。”",
-      "py": "guò le yí huì r, Jié kè shōu dào Zhōu jīng lǐ de yì tiáo xiāo xi: “zhè wǎn miàn, kě yǐ bào xiāo.”",
-      "en": "A little later, Jack gets a message from Manager Zhou: \"You can claim this bowl of noodles on expenses.\"",
-      "tr": {
-        "vi": "Một lát sau, Jack nhận được tin nhắn của giám đốc Chu: “Bát mì này được công ty thanh toán.”",
-        "pt": "Pouco depois, Jack recebe uma mensagem da gerente Zhou: “Este macarrão pode ser reembolsado.”",
-        "es": "Un rato después, Jack recibe un mensaje de la gerente Zhou: «Este tazón de fideos lo puedes pasar como gasto de la empresa».",
-        "fr": "Un peu plus tard, Jack reçoit un message de la directrice Zhou : « Ce bol de nouilles, vous pouvez le passer en note de frais. »",
-        "am": "ትንሽ ቆይቶ ጃክ ከሥራ አስኪያጅ ጆው መልዕክት ደረሰው። «የዚህን ኑድል ወጪ ድርጅቱ ይመልስልሃል።»"
-      },
-      "start": 95.94,
-      "end": 102.564,
-      "tokens": [
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一会儿",
-          "yī huì r",
-          "a moment; a while; in a moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "收到",
-          "shōu dào",
-          "to receive",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "条",
-          "tiáo",
-          "classifier for long thin things (ribbon, river, road, trousers etc)",
-          ""
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "message; (piece of) news; information",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "面",
-          "miàn",
-          "noodles; face; side",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可以",
-          "kě yǐ",
-          "can; may; possible",
-          ""
-        ],
-        [
-          "报销",
-          "bào xiāo",
-          "to submit an expense account; to apply for reimbursement",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 326,
-  "first": "杰克坐高铁去上海出差，要坐五个小时。",
-  "newWords": [
-    {
-      "w": "外卖",
-      "py": "wài mài",
-      "en": "(of a restaurant) to provide a takeout or home delivery meal"
-    },
-    {
-      "w": "座位",
-      "py": "zuòwèi",
-      "en": "seat"
-    },
-    {
-      "w": "趟",
-      "py": "tàng",
-      "en": "trip"
-    },
-    {
-      "w": "神奇",
-      "py": "shénqí",
-      "en": "magical"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-68.mp3?v=1791721633"
+  {
+   "text": "中午，他饿了，可是车上的盒饭已经卖完了。",
+   "py": "zhōng wǔ, tā è le, kě shì chē shàng de hé fàn yǐ jīng mài wán le.",
+   "en": "At noon he's hungry, but the boxed lunches on the train have already sold out.",
+   "tr": {
+    "vi": "Buổi trưa, anh ấy đói, nhưng cơm hộp trên tàu đã bán hết.",
+    "pt": "Ao meio-dia, ele está com fome, mas as marmitas do trem já acabaram.",
+    "es": "Al mediodía tiene hambre, pero las cajas de comida del tren ya se agotaron.",
+    "fr": "À midi, il a faim, mais les plateaux-repas du train sont déjà tous vendus.",
+    "am": "ቀትር ላይ ራበው፣ ግን በባቡሩ ላይ የሚሸጠው የሣጥን ምግብ አልቋል።",
+    "fa": "ظهر گشنشه، ولی غذاهای جعبه‌ایِ قطار از قبل فروش رفته."
+   },
+   "start": 8.048,
+   "end": 13.064,
+   "tokens": [
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "饿",
+     "è",
+     "hungry; to starve (sb)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "车",
+     "chē",
+     "car; vehicle; machine",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "盒饭",
+     "hé fàn",
+     "meal in a partitioned box",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "卖完",
+     "mài wán",
+     "to be sold out",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "坐在旁边的一位阿姨告诉他：“你可以在手机上点外卖，送到你的座位上。”",
+   "py": "zuò zài páng biān de yí wèi ā yí gào su tā: “nǐ kě yǐ zài shǒu jī shàng diǎn wài mài, sòng dào nǐ de zuò wèi shàng.”",
+   "en": "The woman sitting next to him tells him, \"You can order a takeaway on your phone, and they'll bring it to your seat.\"",
+   "tr": {
+    "vi": "Một cô ngồi bên cạnh nói với anh ấy: “Cháu có thể đặt đồ ăn trên điện thoại, người ta mang đến tận ghế cho cháu.”",
+    "pt": "Uma senhora sentada ao lado dele diz: “Você pode pedir comida pelo celular, e eles entregam no seu assento.”",
+    "es": "Una señora sentada a su lado le dice: «Puedes pedir comida a domicilio en el teléfono, y te la traen a tu asiento».",
+    "fr": "La dame assise à côté de lui lui dit : « Vous pouvez commander un repas à livrer sur votre téléphone, on vous l'apporte à votre place. »",
+    "am": "አጠገቡ የተቀመጡ አንዲት ሴት «በስልክህ ምግብ ማዘዝ ትችላለህ፣ እስከ ወንበርህ ያመጡልሃል» አሉት።",
+    "fa": "خانمی که کنارش نشسته بهش می‌گه: «می‌تونی با گوشیت غذای سفارشی بگیری؛ میارن سرِ صندلیت.»"
+   },
+   "start": 13.764,
+   "end": 20.388,
+   "tokens": [
+    [
+     "坐",
+     "zuò",
+     "to take a seat; to take (a bus, airplane etc); to sit",
+     ""
+    ],
+    [
+     "在旁",
+     "zài páng",
+     "alongside; nearby",
+     ""
+    ],
+    [
+     "边",
+     "biān",
+     "side; edge; margin",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "seat; classifier for people (honorific)",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "woman of similar age to one's parents (term of address used by child)",
+     ""
+    ],
+    [
+     "告诉",
+     "gào su",
+     "to tell; to inform; to let know",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "可以",
+     "kě yǐ",
+     "can; may; possible",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to order (food etc); to select",
+     ""
+    ],
+    [
+     "外卖",
+     "wài mài",
+     "(of a restaurant) to provide a takeout or home delivery meal",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "座位",
+     "zuò wèi",
+     "seat",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克不相信：“火车开得这么快，外卖怎么送上来？”",
+   "py": "Jié kè bù xiāng xìn: “huǒ chē kāi de zhè me kuài, wài mài zěn me sòng shàng lái?”",
+   "en": "Jack doesn't believe her. \"The train's going so fast. How can a takeaway get on board?\"",
+   "tr": {
+    "vi": "Jack không tin: “Tàu chạy nhanh thế này, đồ ăn mang lên kiểu gì ạ?”",
+    "pt": "Jack não acredita: “O trem anda tão rápido. Como a entrega vai chegar aqui?”",
+    "es": "Jack no le cree: «Si el tren va tan rápido, ¿cómo te van a subir la comida?».",
+    "fr": "Jack ne la croit pas : « Le train roule si vite, comment on peut livrer un repas ? »",
+    "am": "ጃክ አላመነም። «ባቡሩ እንዲህ እየፈጠነ የታዘዘ ምግብ እንዴት ሊደርስ ይችላል?»",
+    "fa": "جک باور نمی‌کنه: «قطار انقدر تند می‌ره. غذای سفارشی چطوری می‌خواد سوار بشه؟»"
+   },
+   "start": 21.088,
+   "end": 26.56,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "相信",
+     "xiāng xìn",
+     "to believe; to be convinced; to accept as true",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "火车",
+     "huǒ chē",
+     "train",
+     ""
+    ],
+    [
+     "开",
+     "kāi",
+     "to open (transitive or intransitive)",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "这么",
+     "zhè me",
+     "how much?; so much; this much",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "rapid; quick; speed",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "外卖",
+     "wài mài",
+     "(of a restaurant) to provide a takeout or home delivery meal",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "上来",
+     "shàng lái",
+     "to come up; to approach",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "阿姨笑了：“火车到下一站的时候，有人给你送上来。”",
+   "py": "ā yí xiào le: “huǒ chē dào xià yí zhàn de shí hou, yǒu rén gěi nǐ sòng shàng lái.”",
+   "en": "She laughs. \"When the train gets to the next station, someone brings it on for you.\"",
+   "tr": {
+    "vi": "Cô ấy cười: “Lúc tàu đến ga sau, sẽ có người mang lên cho cháu.”",
+    "pt": "A senhora ri: “Quando o trem chega à próxima estação, alguém traz para você.”",
+    "es": "La señora se ríe: «Cuando el tren llega a la siguiente estación, alguien te la sube».",
+    "fr": "La dame rit : « Quand le train arrive à la gare suivante, quelqu'un vous l'apporte dans le train. »",
+    "am": "ሴትዮዋ ሳቁ። «ባቡሩ የሚቀጥለው ጣቢያ ሲደርስ አንድ ሰው ያመጣልሃል።»",
+    "fa": "اون می‌خنده: «وقتی قطار به ایستگاه بعدی می‌رسه، کسی برات سوارش می‌کنه.»"
+   },
+   "start": 27.26,
+   "end": 32.468,
+   "tokens": [
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "火车",
+     "huǒ chē",
+     "train",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "下一站",
+     "xià yī zhàn",
+     "the next stop (of a bus etc)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; there is someone there; people",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "上来",
+     "shàng lái",
+     "to come up; to approach",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克点了一碗牛肉面，写上了车厢号和座位号。",
+   "py": "Jié kè diǎn le yì wǎn niú ròu miàn, xiě shàng le chē xiāng hào hé zuò wèi hào.",
+   "en": "Jack orders a bowl of beef noodles and enters his carriage and seat number.",
+   "tr": {
+    "vi": "Jack đặt một bát mì bò, điền số toa và số ghế.",
+    "pt": "Jack pede uma tigela de macarrão com carne e escreve o número do vagão e do assento.",
+    "es": "Jack pide un tazón de fideos con carne de res y escribe el número de vagón y de asiento.",
+    "fr": "Jack commande un bol de nouilles au bœuf et indique son numéro de voiture et de siège.",
+    "am": "ጃክ አንድ ሳህን የበሬ ሥጋ ኑድል አዘዘ፣ የፉርጎ ቁጥሩንና የወንበር ቁጥሩንም ጻፈ።",
+    "fa": "جک یه کاسه نودل گوشت سفارش می‌ده و شماره واگن و صندلیشو وارد می‌کنه."
+   },
+   "start": 33.168,
+   "end": 37.92,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to order (food etc); to select; (after a number) o'clock",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "牛肉面",
+     "niú ròu miàn",
+     "beef noodle soup",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "车厢",
+     "chē xiāng",
+     "carriage",
+     ""
+    ],
+    [
+     "号",
+     "hào",
+     "to mark; to label; to assign a number",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "座位",
+     "zuò wèi",
+     "seat",
+     ""
+    ],
+    [
+     "号",
+     "hào",
+     "to mark; to label; to assign a number",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "到了南京，火车只停两分钟。",
+   "py": "dào le nán jīng, huǒ chē zhǐ tíng liǎng fēn zhōng.",
+   "en": "At Nanjing, the train stops for only two minutes.",
+   "tr": {
+    "vi": "Đến Nam Kinh, tàu chỉ dừng hai phút.",
+    "pt": "Em Nanquim, o trem para só dois minutos.",
+    "es": "En Nankín, el tren para solo dos minutos.",
+    "fr": "À Nankin, le train ne s'arrête que deux minutes.",
+    "am": "ናንጂንግ ሲደርሱ ባቡሩ የሚቆመው ሁለት ደቂቃ ብቻ ነው።",
+    "fa": "تو نانجینگ قطار فقط دو دقیقه می‌ایسته."
+   },
+   "start": 38.62,
+   "end": 42.196,
+   "tokens": [
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "南京",
+     "nán jīng",
+     "Nanjing, capital of the Ming dynasty (1368–1421) and of the Republic of China (1927–1937 and 1946–1949)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "火车",
+     "huǒ chē",
+     "train",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "停",
+     "tíng",
+     "to stop; to halt; to park (a car)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "分钟",
+     "fēn zhōng",
+     "minute",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一个穿黄衣服的小伙子拿着一碗面，一路跑到了杰克的车厢。",
+   "py": "yí gè chuān huáng yī fu de xiǎo huǒ zi ná zhe yì wǎn miàn, yí lù pǎo dào le Jié kè de chē xiāng.",
+   "en": "A young man in a yellow jacket comes running all the way to Jack's carriage, holding a bowl of noodles.",
+   "tr": {
+    "vi": "Một chàng trai mặc áo vàng cầm một bát mì, chạy một mạch đến toa của Jack.",
+    "pt": "Um rapaz de roupa amarela vem correndo até o vagão de Jack com uma tigela de macarrão.",
+    "es": "Un muchacho con ropa amarilla llega corriendo hasta el vagón de Jack con un tazón de fideos.",
+    "fr": "Un jeune homme en jaune court jusqu'à la voiture de Jack avec un bol de nouilles.",
+    "am": "ቢጫ ልብስ የለበሰ አንድ ወጣት አንድ ሳህን ኑድል ይዞ እስከ ጃክ ፉርጎ ድረስ እየሮጠ መጣ።",
+    "fa": "یه جوون با ژاکت زرد تا واگنِ جک می‌دوه، یه کاسه نودل تو دستش."
+   },
+   "start": 42.896,
+   "end": 49.064,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "穿",
+     "chuān",
+     "to bore through; to pierce; to perforate",
+     ""
+    ],
+    [
+     "黄",
+     "huáng",
+     "yellow; pornographic; to fall through",
+     ""
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "小伙子",
+     "xiǎo huǒ zi",
+     "(coll.) young man; young fellow; lad",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "面",
+     "miàn",
+     "noodles; face; side",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一路",
+     "yī lù",
+     "all the way; going the same way; the whole journey",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "to run; to run away; to escape",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "车厢",
+     "chē xiāng",
+     "carriage",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他把面送到杰克手里：“您的面，慢慢吃！”",
+   "py": "tā bǎ miàn sòng dào Jié kè shǒu lǐ: “nín de miàn, màn màn chī!”",
+   "en": "He hands the noodles to Jack. \"Your noodles. Enjoy!\"",
+   "tr": {
+    "vi": "Cậu ấy đưa mì tận tay Jack: “Mì của anh đây, ăn ngon miệng nhé!”",
+    "pt": "Ele entrega o macarrão nas mãos de Jack: “O seu macarrão. Bom apetite!”",
+    "es": "Le pone los fideos en las manos a Jack: «Sus fideos. ¡Buen provecho!».",
+    "fr": "Il met les nouilles dans les mains de Jack : « Vos nouilles, bon appétit ! »",
+    "am": "ኑድሉን ለጃክ እጅ ሰጠው። «ኑድልዎ ይኸውና፣ በደስታ ይመገቡ!»",
+    "fa": "نودلو می‌ده به جک: «نودلِ شما. نوش جان!»"
+   },
+   "start": 49.764,
+   "end": 54.3,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "面",
+     "miàn",
+     "noodles; face; side",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "手里",
+     "shǒu lǐ",
+     "in hand; (a situation is) in sb's hands",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "面",
+     "miàn",
+     "noodles; face; side",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "慢慢吃",
+     "màn màn chī",
+     "Enjoy your meal!; Bon appetit!",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "说完，他转身就跑。他刚下车，车门就关上了。",
+   "py": "shuō wán, tā zhuǎn shēn jiù pǎo. tā gāng xià chē, chē mén jiù guān shàng le.",
+   "en": "And with that, he turns and runs. The moment he's off the train, the doors close.",
+   "tr": {
+    "vi": "Nói xong, cậu ấy quay người chạy luôn. Cậu ấy vừa xuống tàu, cửa tàu đã đóng lại.",
+    "pt": "Dito isso, ele se vira e sai correndo. Mal ele desce do trem, as portas se fecham.",
+    "es": "Dicho esto, se da vuelta y sale corriendo. Apenas baja del tren, se cierran las puertas.",
+    "fr": "Sur ces mots, il repart en courant. À peine est-il descendu que les portes se ferment.",
+    "am": "ይህን ብሎ ዞሮ ሮጠ። ከባቡሩ እንደወረደ በሩ ተዘጋ።",
+    "fa": "و همین‌طور برمی‌گرده و می‌دوه. تازه که پیاده می‌شه، درا بسته می‌شن."
+   },
+   "start": 55,
+   "end": 60.448,
+   "tokens": [
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "转身",
+     "zhuǎn shēn",
+     "(of a person) to turn round; to face about",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "off; to run; to run away",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "刚",
+     "gāng",
+     "(literary) hard; firm; strong; exactly; precisely",
+     ""
+    ],
+    [
+     "下车",
+     "xià chē",
+     "to get off or out of (a bus, train, car etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "车门",
+     "chē mén",
+     "car door; door of bus, railway carriage etc",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "关上",
+     "guān shàng",
+     "to close (a door)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克觉得太神奇了，拍了一张面的照片，发给了周经理：“中国的外卖，比高铁还快！”",
+   "py": "Jié kè jué de tài shén qí le, pāi le yì zhāng miàn de zhào piàn, fā gěi le Zhōu jīng lǐ: “Zhōng guó de wài mài, bǐ gāo tiě hái kuài!”",
+   "en": "Jack thinks it's amazing. He takes a photo of the noodles and sends it to Manager Zhou: \"Chinese takeaways are even faster than the high-speed train!\"",
+   "tr": {
+    "vi": "Jack thấy thật thần kỳ, chụp một tấm ảnh bát mì, gửi cho giám đốc Chu: “Giao đồ ăn ở Trung Quốc còn nhanh hơn cả tàu cao tốc!”",
+    "pt": "Jack acha incrível. Tira uma foto do macarrão e manda para a gerente Zhou: “A entrega de comida na China é mais rápida que o trem-bala!”",
+    "es": "A Jack le parece increíble. Le toma una foto a los fideos y se la manda a la gerente Zhou: «¡La comida a domicilio en China es más rápida que el tren de alta velocidad!».",
+    "fr": "Jack trouve ça incroyable. Il prend une photo des nouilles et l'envoie à la directrice Zhou : « En Chine, la livraison de repas va encore plus vite que le train à grande vitesse ! »",
+    "am": "ጃክ በጣም ተደነቀ። የኑድሉን ፎቶ አንሥቶ ለሥራ አስኪያጅ ጆው ላከ። «የቻይና ምግብ አድራሾች ከፈጣን ባቡር እንኳ ይፈጥናሉ!»",
+    "fa": "جک فکر می‌کنه فوق‌العاده‌ست. از نودل عکس می‌گیره و می‌فرسته برای مدیر جو: «پیک‌های چینی از قطار تندرو هم تندترن!»"
+   },
+   "start": 61.148,
+   "end": 69.932,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "highest; greatest; too (much)",
+     ""
+    ],
+    [
+     "神奇",
+     "shén qí",
+     "magical; mystical; miraculous",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "拍",
+     "pāi",
+     "to take (a photo); to pat; to clap",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "\"one\" radical in Chinese characters (Kangxi radical 1); one",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "面的",
+     "miàn dī",
+     "abbr. of 面包车的士; minivan taxi",
+     ""
+    ],
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "发给",
+     "fā gěi",
+     "to issue; to grant; to distribute",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "中国",
+     "zhōng guó",
+     "China",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "外卖",
+     "wài mài",
+     "(of a restaurant) to provide a takeout or home delivery meal",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "比",
+     "bǐ",
+     "(followed by a noun and adjective) more {adj.} than {noun}",
+     ""
+    ],
+    [
+     "高铁",
+     "gāo tiě",
+     "high speed rail",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "even more; even; still",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "speed; rapid; quick",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "周经理马上回复：“我也在这趟车上，在三号车厢。下一站，也给我点一碗。”",
+   "py": "Zhōu jīng lǐ mǎ shàng huí fù: “wǒ yě zài zhè tàng chē shàng, zài sān hào chē xiāng. xià yí zhàn, yě gěi wǒ diǎn yì wǎn.”",
+   "en": "Manager Zhou replies at once: \"I'm on this train too, in carriage three. At the next stop, order me a bowl as well.\"",
+   "tr": {
+    "vi": "Giám đốc Chu trả lời ngay: “Tôi cũng ở trên chuyến tàu này, ở toa số 3. Ga sau, đặt cho tôi một bát nữa.”",
+    "pt": "A gerente Zhou responde na hora: “Eu também estou neste trem, no vagão três. Na próxima estação, peça uma tigela para mim também.”",
+    "es": "La gerente Zhou responde enseguida: «Yo también voy en este tren, en el vagón tres. En la próxima parada, pídeme un tazón a mí también».",
+    "fr": "La directrice Zhou répond aussitôt : « Je suis dans ce train aussi, voiture 3. À la prochaine gare, commandez-m'en un bol aussi. »",
+    "am": "ሥራ አስኪያጅ ጆው ወዲያው መለሱ። «እኔም በዚሁ ባቡር ላይ ነኝ፣ ሦስተኛው ፉርጎ ውስጥ። በሚቀጥለው ጣቢያ ለእኔም አንድ ሳህን እዘዝልኝ።»",
+    "fa": "مدیر جو فوری جواب می‌ده: «منم تو همین قطارم، واگن سه. تو ایستگاه بعدی، برای منم یه کاسه سفارش بده.»"
+   },
+   "start": 70.632,
+   "end": 78.672,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "at once; right away; immediately",
+     ""
+    ],
+    [
+     "回复",
+     "huí fù",
+     "to recover; to revert; to return to (good health, normal condition etc)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "趟",
+     "tàng",
+     "classifier for times, round trips or rows; a time; a trip",
+     ""
+    ],
+    [
+     "车",
+     "chē",
+     "car; vehicle; machine",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "号",
+     "hào",
+     "classifier for numbered people or items",
+     ""
+    ],
+    [
+     "车厢",
+     "chē xiāng",
+     "carriage",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "下一站",
+     "xià yī zhàn",
+     "the next stop (of a bus etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to order (food etc); to select; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克吃了一惊，原来周经理去上海见另一个客户，坐的是同一趟车。",
+   "py": "Jié kè chī le yì jīng, yuán lái Zhōu jīng lǐ qù shàng hǎi jiàn lìng yí gè kè hù, zuò de shì tóng yí tàng chē.",
+   "en": "Jack is startled. It turns out Manager Zhou is going to Shanghai to see a different client, on the very same train.",
+   "tr": {
+    "vi": "Jack giật mình, hóa ra giám đốc Chu đi Thượng Hải gặp một khách hàng khác, ngồi cùng một chuyến tàu.",
+    "pt": "Jack leva um susto: a gerente Zhou está indo a Xangai ver outro cliente, no mesmo trem.",
+    "es": "Jack se sorprende: resulta que la gerente Zhou va a Shanghái a ver a otro cliente, en el mismo tren.",
+    "fr": "Jack est très surpris : en fait, la directrice Zhou va à Shanghai voir un autre client, et elle a pris le même train.",
+    "am": "ጃክ ደነገጠ። ለካ ሥራ አስኪያጅ ጆው ሌላ ደንበኛ ለማግኘት ወደ ሻንግሃይ እየሄዱ ነበር፣ የተሳፈሩትም በዚያው ባቡር ነበር።",
+    "fa": "جک می‌خکه. معلوم می‌شه مدیر جو تو همین قطار می‌ره شانگهای که یه مشتری دیگه رو ببینه."
+   },
+   "start": 79.372,
+   "end": 86.956,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "惊",
+     "jīng",
+     "to startle; to be frightened; to be scared",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "原来",
+     "yuán lái",
+     "so, actually, as it turns out; original; former",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "上海",
+     "shàng hǎi",
+     "Shanghai municipality (short name 沪)",
+     ""
+    ],
+    [
+     "见",
+     "jiàn",
+     "to see; to meet; to appear (to be sth)",
+     ""
+    ],
+    [
+     "另一",
+     "lìng yī",
+     "another ...; the other ...",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "(respectful acknowledgement of a command) very well",
+     ""
+    ],
+    [
+     "同一",
+     "tóng yī",
+     "identical; the same",
+     ""
+    ],
+    [
+     "趟",
+     "tàng",
+     "classifier for times, round trips or rows; a time; a trip",
+     ""
+    ],
+    [
+     "车",
+     "chē",
+     "car; vehicle; machine",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "到了下一站，又一个小伙子跑上了车，这次，他把面送到了三号车厢。",
+   "py": "dào le xià yí zhàn, yòu yí gè xiǎo huǒ zi pǎo shàng le chē, zhè cì, tā bǎ miàn sòng dào le sān hào chē xiāng.",
+   "en": "At the next station, another young man runs onto the train, and this time he takes the noodles to carriage three.",
+   "tr": {
+    "vi": "Đến ga sau, lại có một chàng trai chạy lên tàu, lần này cậu ấy mang mì đến toa số 3.",
+    "pt": "Na estação seguinte, outro rapaz entra correndo no trem, e desta vez leva o macarrão até o vagão três.",
+    "es": "En la siguiente estación, otro muchacho sube corriendo al tren, y esta vez lleva los fideos al vagón tres.",
+    "fr": "À la gare suivante, un autre jeune homme monte en courant, et cette fois, il apporte les nouilles à la voiture 3.",
+    "am": "በሚቀጥለው ጣቢያ ሌላ ወጣት ሮጦ ባቡሩ ላይ ወጣ። በዚህ ጊዜ ኑድሉን ወደ ሦስተኛው ፉርጎ አደረሰ።",
+    "fa": "تو ایستگاه بعدی، یه جوون دیگه می‌دوه تو قطار و این بار نودلو می‌بره واگن سه."
+   },
+   "start": 87.656,
+   "end": 95.24,
+   "tokens": [
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "下一站",
+     "xià yī zhàn",
+     "the next stop (of a bus etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "小伙子",
+     "xiǎo huǒ zi",
+     "(coll.) young man; young fellow; lad",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "to run; to run away; to escape",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "to climb; to get onto; to go up",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "车",
+     "chē",
+     "car; vehicle; machine",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "次",
+     "cì",
+     "classifier for enumerated events: time; next in sequence",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(bound form) other; another; some other (as in 他日 and 他人)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "面",
+     "miàn",
+     "noodles; face; side",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "号",
+     "hào",
+     "classifier for numbered people or items",
+     ""
+    ],
+    [
+     "车厢",
+     "chē xiāng",
+     "carriage",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "过了一会儿，杰克收到周经理的一条消息：“这碗面，可以报销。”",
+   "py": "guò le yí huì r, Jié kè shōu dào Zhōu jīng lǐ de yì tiáo xiāo xi: “zhè wǎn miàn, kě yǐ bào xiāo.”",
+   "en": "A little later, Jack gets a message from Manager Zhou: \"You can claim this bowl of noodles on expenses.\"",
+   "tr": {
+    "vi": "Một lát sau, Jack nhận được tin nhắn của giám đốc Chu: “Bát mì này được công ty thanh toán.”",
+    "pt": "Pouco depois, Jack recebe uma mensagem da gerente Zhou: “Este macarrão pode ser reembolsado.”",
+    "es": "Un rato después, Jack recibe un mensaje de la gerente Zhou: «Este tazón de fideos lo puedes pasar como gasto de la empresa».",
+    "fr": "Un peu plus tard, Jack reçoit un message de la directrice Zhou : « Ce bol de nouilles, vous pouvez le passer en note de frais. »",
+    "am": "ትንሽ ቆይቶ ጃክ ከሥራ አስኪያጅ ጆው መልዕክት ደረሰው። «የዚህን ኑድል ወጪ ድርጅቱ ይመልስልሃል።»",
+    "fa": "کمی بعد، جک پیامی از مدیر جو می‌گیره: «این کاسه نودل رو می‌تونی تو هزینه‌های شرکت حساب کنی.»"
+   },
+   "start": 95.94,
+   "end": 102.564,
+   "tokens": [
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一会儿",
+     "yī huì r",
+     "a moment; a while; in a moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "收到",
+     "shōu dào",
+     "to receive",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "条",
+     "tiáo",
+     "classifier for long thin things (ribbon, river, road, trousers etc)",
+     ""
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "message; (piece of) news; information",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "面",
+     "miàn",
+     "noodles; face; side",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可以",
+     "kě yǐ",
+     "can; may; possible",
+     ""
+    ],
+    [
+     "报销",
+     "bào xiāo",
+     "to submit an expense account; to apply for reimbursement",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 326,
+ "first": "杰克坐高铁去上海出差，要坐五个小时。",
+ "newWords": [
+  {
+   "w": "外卖",
+   "py": "wài mài",
+   "en": "(of a restaurant) to provide a takeout or home delivery meal"
+  },
+  {
+   "w": "座位",
+   "py": "zuòwèi",
+   "en": "seat"
+  },
+  {
+   "w": "趟",
+   "py": "tàng",
+   "en": "trip"
+  },
+  {
+   "w": "神奇",
+   "py": "shénqí",
+   "en": "magical"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-68.mp3?v=1791721633"
 }

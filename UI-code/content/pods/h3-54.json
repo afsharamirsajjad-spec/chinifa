@@ -1,1751 +1,1767 @@
 {
-  "id": "h3-54",
-  "level": 3,
-  "no": 54,
-  "title": "搬家的客户",
-  "title_py": "bān jiā de kè hù",
-  "title_en": "The client who moved",
-  "title_tr": {
-    "vi": "Khách hàng chuyển nhà",
-    "pt": "O cliente que se mudou",
-    "es": "El cliente que se mudó",
-    "fr": "Le client qui a déménagé",
-    "am": "ቢሮውን የቀየረው ደንበኛ",
-    "fa": "مشتری که جابه‌جا شد"
+ "id": "h3-54",
+ "level": 3,
+ "no": 54,
+ "title": "搬家的客户",
+ "title_py": "bān jiā de kè hù",
+ "title_en": "The client who moved",
+ "title_tr": {
+  "vi": "Khách hàng chuyển nhà",
+  "pt": "O cliente que se mudou",
+  "es": "El cliente que se mudó",
+  "fr": "Le client qui a déménagé",
+  "am": "ቢሮውን የቀየረው ደንበኛ",
+  "fa": "مشتری که جابه‌جا شد"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_business",
+ "cover": "https://media.kanchinese.app/review/stories/h3-54.jpg",
+ "duration": 103.172,
+ "lines": [
+  {
+   "text": "星期四晚上，一个客户突然给杰克打电话。",
+   "py": "xīng qī sì wǎn shang, yí gè kè hù tū rán gěi Jié kè dǎ diàn huà.",
+   "en": "On Thursday evening, a client suddenly phones Jack.",
+   "tr": {
+    "vi": "Tối thứ Năm, một khách hàng bất ngờ gọi điện cho Jack.",
+    "pt": "Na quinta à noite, um cliente liga de repente para Jack.",
+    "es": "El jueves por la noche, un cliente llama de repente a Jack.",
+    "fr": "Jeudi soir, un client appelle soudain Jack.",
+    "am": "ሐሙስ ምሽት አንድ ደንበኛ ድንገት ለጃክ ደወለ።",
+    "fa": "عصر پنج‌شنبه، یه مشتری یهو به جک زنگ می‌زنه."
+   },
+   "start": 2.884,
+   "end": 7.396,
+   "tokens": [
+    [
+     "星期四",
+     "xīng qī sì",
+     "Thursday",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "突然",
+     "tū rán",
+     "sudden; abrupt; unexpected",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_business",
-  "cover": "https://media.kanchinese.app/review/stories/h3-54.jpg",
-  "duration": 103.172,
-  "lines": [
-    {
-      "text": "星期四晚上，一个客户突然给杰克打电话。",
-      "py": "xīng qī sì wǎn shang, yí gè kè hù tū rán gěi Jié kè dǎ diàn huà.",
-      "en": "On Thursday evening, a client suddenly phones Jack.",
-      "tr": {
-        "vi": "Tối thứ Năm, một khách hàng bất ngờ gọi điện cho Jack.",
-        "pt": "Na quinta à noite, um cliente liga de repente para Jack.",
-        "es": "El jueves por la noche, un cliente llama de repente a Jack.",
-        "fr": "Jeudi soir, un client appelle soudain Jack.",
-        "am": "ሐሙስ ምሽት አንድ ደንበኛ ድንገት ለጃክ ደወለ።"
-      },
-      "start": 2.884,
-      "end": 7.396,
-      "tokens": [
-        [
-          "星期四",
-          "xīng qī sì",
-          "Thursday",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "突然",
-          "tū rán",
-          "sudden; abrupt; unexpected",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“明天上午十点，我们老板要看你们的新杯子，你能送二十盒过来吗？”",
-      "py": "“míng tiān shàng wǔ shí diǎn, wǒ men lǎo bǎn yào kàn nǐ men de xīn bēi zi, nǐ néng sòng èr shí hé guò lái ma?”",
-      "en": "\"At ten tomorrow morning, our boss wants to see your new cups. Can you bring twenty boxes over?\"",
-      "tr": {
-        "vi": "“10 giờ sáng mai, sếp chúng tôi muốn xem cốc mới của các anh, anh mang hai mươi hộp qua được không?”",
-        "pt": "“Amanhã, às dez da manhã, o nosso chefe quer ver os seus copos novos. Você pode trazer vinte caixas?”",
-        "es": "«Mañana a las diez, nuestro jefe quiere ver sus tazas nuevas. ¿Puedes traer veinte cajas?».",
-        "fr": "« Demain à dix heures, notre patron veut voir vos nouvelles tasses. Vous pouvez nous apporter vingt boîtes ? »",
-        "am": "«ነገ ጠዋት 10:00 አለቃችን አዲሶቹን ኩባያዎቻችሁን ማየት ይፈልጋል። ሃያ ሣጥን ልታመጣልን ትችላለህ?»"
-      },
-      "start": 8.096,
-      "end": 14.744,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "明天",
-          "míng tiān",
-          "tomorrow",
-          ""
-        ],
-        [
-          "上午",
-          "shàng wǔ",
-          "morning",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to mention; to bring up (a topic or person)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "要看",
-          "yào kàn",
-          "(it) depends on ...",
-          ""
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "新",
-          "xīn",
-          "new; newly; meso- (chemistry)",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to see (sb) off; to send; to deliver; to transmit",
-          ""
-        ],
-        [
-          "二十",
-          "èr shí",
-          "twenty; 20",
-          ""
-        ],
-        [
-          "盒",
-          "hé",
-          "small box; case",
-          ""
-        ],
-        [
-          "过来",
-          "guò lái",
-          "to come over; to manage; to handle",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "快递说最快也要星期六才能到，杰克决定自己送。",
-      "py": "kuài dì shuō zuì kuài yě yào xīng qī liù cái néng dào, Jié kè jué dìng zì jǐ sòng.",
-      "en": "The courier says Saturday at the earliest, so Jack decides to take them himself.",
-      "tr": {
-        "vi": "Bên chuyển phát nói nhanh nhất cũng phải thứ Bảy mới đến, Jack quyết định tự mình đi giao.",
-        "pt": "A transportadora diz que, na melhor das hipóteses, só chega no sábado, então Jack decide levar ele mesmo.",
-        "es": "La mensajería dice que lo más pronto es el sábado, así que Jack decide llevarlas él mismo.",
-        "fr": "Le service de livraison dit que ça n'arrivera pas avant samedi, alors Jack décide de les livrer lui-même.",
-        "am": "የዕቃ አድራሹ ቢፈጥን እንኳ ቅዳሜ እንደሚደርስ ተናገረ፣ ስለዚህ ጃክ ራሱ ሊያደርስ ወሰነ።"
-      },
-      "start": 15.444,
-      "end": 20.652,
-      "tokens": [
-        [
-          "快递",
-          "kuài dì",
-          "express delivery",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "最",
-          "zuì",
-          "(before an adjective or verb) to the highest degree; (the) most ...; -est",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "rapid; quick; speed",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "才能",
-          "cái néng",
-          "talent; ability; capacity",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "决定",
-          "jué dìng",
-          "to decide; to determine; to make up one's mind; decision",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "第二天早上七点，他把二十盒杯子搬上出租车，从城东坐到了城西。",
-      "py": "dì èr tiān zǎo shang qī diǎn, tā bǎ èr shí hé bēi zi bān shàng chū zū chē, cóng chéng dōng zuò dào le chéng xī.",
-      "en": "At seven the next morning, he loads twenty boxes of cups into a taxi and rides from the east side of the city to the west.",
-      "tr": {
-        "vi": "7 giờ sáng hôm sau, anh ấy chuyển hai mươi hộp cốc lên taxi, đi từ phía đông thành phố sang phía tây.",
-        "pt": "Às sete da manhã do dia seguinte, ele põe as vinte caixas de copos num táxi e atravessa a cidade, do leste até o oeste.",
-        "es": "A las siete de la mañana siguiente, sube las veinte cajas de tazas a un taxi y va del este de la ciudad al oeste.",
-        "fr": "Le lendemain à sept heures, il charge les vingt boîtes de tasses dans un taxi et traverse la ville d'est en ouest.",
-        "am": "በማግሥቱ ጠዋት 7:00 ላይ ሃያ ሣጥን ኩባያ ታክሲ ላይ ጭኖ ከከተማዋ ምሥራቅ ወደ ምዕራብ ሄደ።"
-      },
-      "start": 21.352,
-      "end": 28.912,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "二十",
-          "èr shí",
-          "twenty; 20",
-          ""
-        ],
-        [
-          "盒",
-          "hé",
-          "small box; case",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "搬",
-          "bān",
-          "to move (i.e. relocate oneself)",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "出租车",
-          "chū zū chē",
-          "taxi; (Tw) rental car",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "城东",
-          "chéng dōng",
-          "see 城东区",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "城西",
-          "chéng xī",
-          "see 城西区",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "路上堵车，他到的时候已经八点半了，衣服都湿透了。",
-      "py": "lù shàng dǔ chē, tā dào de shí hou yǐ jīng bā diǎn bàn le, yī fu dōu shī tòu le.",
-      "en": "There's traffic on the way, and by the time he arrives it's half past eight and his clothes are soaked with sweat.",
-      "tr": {
-        "vi": "Trên đường bị tắc, lúc anh ấy đến nơi đã 8 giờ rưỡi, quần áo ướt sũng.",
-        "pt": "O trânsito está parado no caminho. Quando ele chega, já são oito e meia, e a roupa dele está encharcada de suor.",
-        "es": "En el camino hay tráfico; cuando llega ya son las ocho y media y tiene la ropa empapada de sudor.",
-        "fr": "Il y a des embouteillages : quand il arrive, il est déjà huit heures et demie, et ses vêtements sont trempés.",
-        "am": "መንገዱ ተጨናንቆ ስለነበር ሲደርስ 8:30 ሆኖ ነበር፣ ልብሱም በላብ ርሷል።"
-      },
-      "start": 29.612,
-      "end": 35.276,
-      "tokens": [
-        [
-          "路上",
-          "lù shang",
-          "on the way; en route; on the road",
-          ""
-        ],
-        [
-          "堵车",
-          "dǔ chē",
-          "traffic jam; (of traffic) to get congested",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "point in time or space; classifier for small amounts",
-          ""
-        ],
-        [
-          "半",
-          "bàn",
-          "half; (after a number) and a half; semi-",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "湿透",
-          "shī tòu",
-          "drenched; wet through",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他一盒一盒地把杯子搬到了十二楼，敲了敲客户公司的门。",
-      "py": "tā yì hé yì hé de bǎ bēi zi bān dào le shí èr lóu, qiāo le qiāo kè hù gōng sī de mén.",
-      "en": "He carries the cups up to the twelfth floor box by box and knocks on the door of the client's company.",
-      "tr": {
-        "vi": "Anh ấy bê từng hộp cốc lên tầng mười hai, rồi gõ cửa công ty khách hàng.",
-        "pt": "Ele leva os copos até o décimo segundo andar, caixa por caixa, e bate na porta da empresa do cliente.",
-        "es": "Sube las tazas caja por caja hasta el piso doce y toca la puerta de la empresa del cliente.",
-        "fr": "Il monte les tasses au douzième étage, boîte par boîte, et frappe à la porte de l'entreprise du client.",
-        "am": "ኩባያዎቹን ሣጥን በሣጥን ወደ አሥራ ሁለተኛው ፎቅ አወጣ፣ የደንበኛውንም ድርጅት በር አንኳኳ።"
-      },
-      "start": 35.976,
-      "end": 41.928,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "盒",
-          "hé",
-          "small box; case",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "盒",
-          "hé",
-          "small box; case",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "搬",
-          "bān",
-          "to move (i.e. relocate oneself)",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "楼",
-          "lóu",
-          "floor; house with more than 1 story; storied building",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "敲",
-          "qiāo",
-          "to knock; to hit; to strike",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "敲",
-          "qiāo",
-          "to knock; to hit; to strike",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "门",
-          "mén",
-          "gate; door; doorway; gateway; opening",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "开门的是一个年轻的女孩：“您找谁？这里是英语学校。”",
-      "py": "kāi mén de shì yí gè nián qīng de nǚ hái: “nín zhǎo shéi? zhè lǐ shì yīng yǔ xué xiào.”",
-      "en": "A young woman opens the door. \"Who are you looking for? This is an English school.\"",
-      "tr": {
-        "vi": "Người mở cửa là một cô gái trẻ: “Anh tìm ai ạ? Đây là trường dạy tiếng Anh.”",
-        "pt": "Quem abre é uma moça: “Pois não, procura quem? Aqui é uma escola de inglês.”",
-        "es": "Abre una chica joven: «¿A quién busca? Esto es una escuela de inglés».",
-        "fr": "C'est une jeune fille qui ouvre : « Vous cherchez qui ? Ici, c'est une école d'anglais. »",
-        "am": "በሩን የከፈተችው አንዲት ወጣት ልጅ ነበረች። «ማንን ይፈልጋሉ? ይህ የእንግሊዝኛ ትምህርት ቤት ነው።»"
-      },
-      "start": 42.628,
-      "end": 49.036,
-      "tokens": [
-        [
-          "开门",
-          "kāi mén",
-          "(lit. and fig.) to open a door; to open for business",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "年轻",
-          "nián qīng",
-          "young",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "女孩",
-          "nǚ hái",
-          "girl; lass",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "找",
-          "zhǎo",
-          "to look for; to try to find; to call on sb",
-          ""
-        ],
-        [
-          "谁",
-          "shéi",
-          "who; also pr.",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "这里",
-          "zhè lǐ",
-          "here",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "英语",
-          "yīng yǔ",
-          "English (language)",
-          ""
-        ],
-        [
-          "学校",
-          "xué xiào",
-          "school",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克拿出手机，又看了一遍地址，一个字也没错。",
-      "py": "Jié kè ná chū shǒu jī, yòu kàn le yí biàn dì zhǐ, yí gè zì yě méi cuò.",
-      "en": "Jack takes out his phone and checks the address again. Not a single character is wrong.",
-      "tr": {
-        "vi": "Jack lấy điện thoại ra, xem lại địa chỉ một lần nữa, không sai một chữ nào.",
-        "pt": "Jack pega o celular e confere o endereço de novo. Nenhum caractere está errado.",
-        "es": "Jack saca el teléfono y vuelve a mirar la dirección. No hay ni un carácter mal.",
-        "fr": "Jack sort son téléphone et relit l'adresse : pas un seul caractère n'est faux.",
-        "am": "ጃክ ስልኩን አውጥቶ አድራሻውን እንደገና አየ፣ አንድም ፊደል አልተሳሳተም።"
-      },
-      "start": 49.736,
-      "end": 54.728,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to watch out for; to see; to look at; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一遍",
-          "yī biàn",
-          "one time (all the way through); once through",
-          ""
-        ],
-        [
-          "地址",
-          "dì zhǐ",
-          "address",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "字",
-          "zì",
-          "character; letter; symbol",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "没错",
-          "méi cuò",
-          "can't go wrong; that's right; sure!",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他给客户打电话，客户说：“哎呀，忘了告诉你，我们上个星期搬家了！”",
-      "py": "tā gěi kè hù dǎ diàn huà, kè hù shuō: “āi yā, wàng le gào su nǐ, wǒ men shàng gè xīng qī bān jiā le!”",
-      "en": "He phones the client, who says, \"Oh no, I forgot to tell you. We moved last week!\"",
-      "tr": {
-        "vi": "Anh ấy gọi cho khách hàng, khách hàng nói: “Ôi, quên nói với anh, tuần trước chúng tôi chuyển văn phòng rồi!”",
-        "pt": "Ele liga para o cliente, que diz: “Ai, esqueci de avisar você: a gente se mudou na semana passada!”",
-        "es": "Llama al cliente, que dice: «¡Ay, se me olvidó decirte que nos mudamos la semana pasada!».",
-        "fr": "Il appelle le client, qui lui dit : « Oh là là, j'ai oublié de vous le dire : on a déménagé la semaine dernière ! »",
-        "am": "ለደንበኛው ደወለ። ደንበኛው «ወይኔ፣ ልነግርህ ረሳሁ፣ ባለፈው ሳምንት ቢሮ ቀይረናል!» አለ።"
-      },
-      "start": 55.428,
-      "end": 62.532,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "哎呀",
-          "āi yā",
-          "interjection of wonder, shock or admiration",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "忘",
-          "wàng",
-          "to forget; to overlook; to neglect",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "告诉",
-          "gào su",
-          "to tell; to inform; to let know",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "上个星期",
-          "shàng gè xīng qī",
-          "last week",
-          ""
-        ],
-        [
-          "搬家",
-          "bān jiā",
-          "to move house; to relocate; to remove (sth)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“搬到哪儿了？”",
-      "py": "“bān dào nǎ r le?”",
-      "en": "\"Where to?\"",
-      "tr": {
-        "vi": "“Chuyển đi đâu ạ?”",
-        "pt": "“Para onde vocês se mudaram?”",
-        "es": "«¿Adónde?».",
-        "fr": "« Et vous êtes où, maintenant ? »",
-        "am": "«ወዴት ቀየራችሁ?»"
-      },
-      "start": 63.232,
-      "end": 64.672,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "搬",
-          "bān",
-          "to move (i.e. relocate oneself)",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "哪儿",
-          "nǎ r",
-          "where?; wherever; anywhere; somewhere",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“城东，就在你们公司那座楼的二十层。”",
-      "py": "“chéng dōng, jiù zài nǐ men gōng sī nà zuò lóu de èr shí céng.”",
-      "en": "\"The east side. The twentieth floor of your company's building.\"",
-      "tr": {
-        "vi": "“Phía đông thành phố, ngay tầng hai mươi của tòa nhà công ty các anh.”",
-        "pt": "“Para o leste da cidade. No vigésimo andar do prédio da sua empresa.”",
-        "es": "«Al este de la ciudad, en el piso veinte del edificio de tu empresa».",
-        "fr": "« Dans l'est de la ville, au vingtième étage de l'immeuble de votre entreprise. »",
-        "am": "«ወደ ከተማዋ ምሥራቅ፣ እናንተ ድርጅት ያለበት ሕንፃ ሃያኛ ፎቅ።»"
-      },
-      "start": 65.372,
-      "end": 69.452,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "城东",
-          "chéng dōng",
-          "see 城东区",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "座",
-          "zuò",
-          "classifier for large immovable objects such as buildings, mountains, bridges etc",
-          ""
-        ],
-        [
-          "楼",
-          "lóu",
-          "storied building; floor; house with more than 1 story",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "二十",
-          "èr shí",
-          "twenty; 20",
-          ""
-        ],
-        [
-          "层",
-          "céng",
-          "classifier for floors, storeys and layers",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克坐在那堆箱子上，半天说不出话来。",
-      "py": "Jié kè zuò zài nà duī xiāng zi shàng, bàn tiān shuō bù chū huà lái.",
-      "en": "Jack sits down on the pile of boxes and can't say a word for a long time.",
-      "tr": {
-        "vi": "Jack ngồi lên đống thùng, mãi không nói nên lời.",
-        "pt": "Jack se senta em cima da pilha de caixas e fica um bom tempo sem conseguir dizer nada.",
-        "es": "Jack se sienta sobre el montón de cajas y durante un buen rato no puede decir nada.",
-        "fr": "Jack s'assoit sur le tas de cartons et reste longtemps sans pouvoir dire un mot.",
-        "am": "ጃክ በሣጥኖቹ ክምር ላይ ተቀምጦ ለረጅም ጊዜ መናገር አቃተው።"
-      },
-      "start": 70.152,
-      "end": 74.904,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "堆",
-          "duī",
-          "to pile up; pile; to heap up",
-          ""
-        ],
-        [
-          "箱子",
-          "xiāng zi",
-          "suitcase; chest; box",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "a long time; half of the day; quite a while",
-          ""
-        ],
-        [
-          "说不出话来",
-          "shuō bù chū huà lái",
-          "speechless",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "九点五十，他终于把杯子送到了，就在自己办公室楼上两层。",
-      "py": "jiǔ diǎn wǔ shí, tā zhōng yú bǎ bēi zi sòng dào le, jiù zài zì jǐ bàn gōng shì lóu shàng liǎng céng.",
-      "en": "At ten to ten, he finally delivers the cups, just two floors above his own office.",
-      "tr": {
-        "vi": "9 giờ 50, cuối cùng anh ấy cũng giao được cốc, ngay trên văn phòng mình hai tầng.",
-        "pt": "Às dez para as dez, ele finalmente entrega os copos, dois andares acima do próprio escritório.",
-        "es": "A las diez menos diez, por fin entrega las tazas, justo dos pisos arriba de su propia oficina.",
-        "fr": "À dix heures moins dix, il livre enfin les tasses, juste deux étages au-dessus de son propre bureau.",
-        "am": "9:50 ላይ በመጨረሻ ኩባያዎቹን አደረሰ፣ ከራሱ ቢሮ ሁለት ፎቅ ብቻ ከፍ ብሎ።"
-      },
-      "start": 75.604,
-      "end": 82.516,
-      "tokens": [
-        [
-          "九",
-          "jiǔ",
-          "nine; 9",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "五十",
-          "wǔ shí",
-          "fifty",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "finally; at last; in the end",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "finally; at last; in the end",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "办公室",
-          "bàn gōng shì",
-          "office; business premises",
-          ""
-        ],
-        [
-          "楼上",
-          "lóu shàng",
-          "upstairs; (Internet slang) previous poster in a forum thread",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "层",
-          "céng",
-          "classifier for floors, storeys and layers",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "客户的老板看了杯子，非常满意，马上就下了一个大订单。",
-      "py": "kè hù de lǎo bǎn kàn le bēi zi, fēi cháng mǎn yì, mǎ shàng jiù xià le yí gè dà dìng dān.",
-      "en": "The client's boss looks at the cups, is very pleased, and places a big order on the spot.",
-      "tr": {
-        "vi": "Sếp của khách hàng xem cốc, rất hài lòng, đặt ngay một đơn hàng lớn.",
-        "pt": "O chefe do cliente olha os copos, fica muito satisfeito e faz um pedido grande na mesma hora.",
-        "es": "El jefe del cliente mira las tazas, queda muy satisfecho y hace un pedido grande en el acto.",
-        "fr": "Le patron du client regarde les tasses. Il est très content et passe tout de suite une grosse commande.",
-        "am": "የደንበኛው አለቃ ኩባያዎቹን አይቶ በጣም ረካ፣ ወዲያውም ትልቅ ትዕዛዝ ሰጠ።"
-      },
-      "start": 83.216,
-      "end": 89.648,
-      "tokens": [
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "非常",
-          "fēi cháng",
-          "very; really; unusual; extraordinary",
-          ""
-        ],
-        [
-          "满意",
-          "mǎn yì",
-          "pleased; satisfied; to one's satisfaction",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "at once; right away; immediately",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "订单",
-          "dìng dān",
-          "(purchase) order",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "客户笑着说：“以后送货就方便了，你走楼梯上来就行。”",
-      "py": "kè hù xiào zhe shuō: “yǐ hòu sòng huò jiù fāng biàn le, nǐ zǒu lóu tī shàng lái jiù xíng.”",
-      "en": "The client laughs. \"Deliveries will be easy from now on. You can just take the stairs.\"",
-      "tr": {
-        "vi": "Khách hàng cười nói: “Sau này giao hàng tiện rồi, anh đi cầu thang bộ lên là được.”",
-        "pt": "O cliente ri: “Daqui para a frente, entregar vai ser fácil. É só subir de escada.”",
-        "es": "El cliente dice riendo: «A partir de ahora las entregas serán fáciles. Solo tienes que subir por la escalera».",
-        "fr": "Le client dit en riant : « Les livraisons seront faciles maintenant : vous n'aurez qu'à prendre l'escalier. »",
-        "am": "ደንበኛው እየሳቀ «ከአሁን በኋላ ዕቃ ማድረስ ቀላል ነው። በደረጃ ወጥተህ ብትመጣ ይበቃል» አለ።"
-      },
-      "start": 90.348,
-      "end": 96.3,
-      "tokens": [
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "送货",
-          "sòng huò",
-          "to deliver goods",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "方便",
-          "fāng biàn",
-          "to facilitate; to make things easy; convenient; suitable",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "楼梯",
-          "lóu tī",
-          "stair; staircase",
-          ""
-        ],
-        [
-          "上来",
-          "shàng lái",
-          "to come up; to approach",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "行",
-          "xíng",
-          "all right; OK!; will do",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“好，不过下次搬家，请您先告诉我。”",
-      "py": "Jié kè shuō: “hǎo, bú guò xià cì bān jiā, qǐng nín xiān gào su wǒ.”",
-      "en": "Jack says, \"Fine. But next time you move, please tell me first.\"",
-      "tr": {
-        "vi": "Jack nói: “Vâng, nhưng lần sau chuyển văn phòng, xin anh báo tôi trước.”",
-        "pt": "Jack diz: “Está bem. Mas, da próxima vez que se mudarem, por favor, me avisem antes.”",
-        "es": "Jack dice: «Muy bien. Pero la próxima vez que se muden, avíseme primero, por favor».",
-        "fr": "Jack dit : « D'accord. Mais la prochaine fois que vous déménagez, prévenez-moi d'abord, s'il vous plaît. »",
-        "am": "ጃክ «እሺ፣ ግን በሚቀጥለው ጊዜ ቢሮ ስትቀይሩ እባክዎ አስቀድመው ይንገሩኝ» አለ።"
-      },
-      "start": 97,
-      "end": 102.472,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不过",
-          "bù guò",
-          "but; only; merely",
-          ""
-        ],
-        [
-          "下次",
-          "xià cì",
-          "next time",
-          ""
-        ],
-        [
-          "搬家",
-          "bān jiā",
-          "to move house; to relocate; to remove (sth)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "请",
-          "qǐng",
-          "please (do sth); to ask; to invite",
-          ""
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "告诉",
-          "gào su",
-          "to tell; to inform; to let know",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 322,
-  "first": "星期四晚上，一个客户突然给杰克打电话。",
-  "newWords": [
-    {
-      "w": "搬家",
-      "py": "bān jiā",
-      "en": "to move house"
-    },
-    {
-      "w": "地址",
-      "py": "dìzhǐ",
-      "en": "address"
-    },
-    {
-      "w": "堵车",
-      "py": "dǔchē",
-      "en": "traffic jam"
-    },
-    {
-      "w": "满意",
-      "py": "mǎnyì",
-      "en": "satisfied"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-54.mp3?v=1791721339"
+  {
+   "text": "“明天上午十点，我们老板要看你们的新杯子，你能送二十盒过来吗？”",
+   "py": "“míng tiān shàng wǔ shí diǎn, wǒ men lǎo bǎn yào kàn nǐ men de xīn bēi zi, nǐ néng sòng èr shí hé guò lái ma?”",
+   "en": "\"At ten tomorrow morning, our boss wants to see your new cups. Can you bring twenty boxes over?\"",
+   "tr": {
+    "vi": "“10 giờ sáng mai, sếp chúng tôi muốn xem cốc mới của các anh, anh mang hai mươi hộp qua được không?”",
+    "pt": "“Amanhã, às dez da manhã, o nosso chefe quer ver os seus copos novos. Você pode trazer vinte caixas?”",
+    "es": "«Mañana a las diez, nuestro jefe quiere ver sus tazas nuevas. ¿Puedes traer veinte cajas?».",
+    "fr": "« Demain à dix heures, notre patron veut voir vos nouvelles tasses. Vous pouvez nous apporter vingt boîtes ? »",
+    "am": "«ነገ ጠዋት 10:00 አለቃችን አዲሶቹን ኩባያዎቻችሁን ማየት ይፈልጋል። ሃያ ሣጥን ልታመጣልን ትችላለህ?»",
+    "fa": "«فردا ساعت ده صبح، رئیسمون می‌خواد فنجون‌های نوِ شما رو ببینه. می‌شه بیست جعبه بیاری؟»"
+   },
+   "start": 8.096,
+   "end": 14.744,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "明天",
+     "míng tiān",
+     "tomorrow",
+     ""
+    ],
+    [
+     "上午",
+     "shàng wǔ",
+     "morning",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to mention; to bring up (a topic or person)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "要看",
+     "yào kàn",
+     "(it) depends on ...",
+     ""
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "新",
+     "xīn",
+     "new; newly; meso- (chemistry)",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to see (sb) off; to send; to deliver; to transmit",
+     ""
+    ],
+    [
+     "二十",
+     "èr shí",
+     "twenty; 20",
+     ""
+    ],
+    [
+     "盒",
+     "hé",
+     "small box; case",
+     ""
+    ],
+    [
+     "过来",
+     "guò lái",
+     "to come over; to manage; to handle",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "快递说最快也要星期六才能到，杰克决定自己送。",
+   "py": "kuài dì shuō zuì kuài yě yào xīng qī liù cái néng dào, Jié kè jué dìng zì jǐ sòng.",
+   "en": "The courier says Saturday at the earliest, so Jack decides to take them himself.",
+   "tr": {
+    "vi": "Bên chuyển phát nói nhanh nhất cũng phải thứ Bảy mới đến, Jack quyết định tự mình đi giao.",
+    "pt": "A transportadora diz que, na melhor das hipóteses, só chega no sábado, então Jack decide levar ele mesmo.",
+    "es": "La mensajería dice que lo más pronto es el sábado, así que Jack decide llevarlas él mismo.",
+    "fr": "Le service de livraison dit que ça n'arrivera pas avant samedi, alors Jack décide de les livrer lui-même.",
+    "am": "የዕቃ አድራሹ ቢፈጥን እንኳ ቅዳሜ እንደሚደርስ ተናገረ፣ ስለዚህ ጃክ ራሱ ሊያደርስ ወሰነ።",
+    "fa": "پیک می‌گه زودترین وقت شنبه‌ست، پس جک تصمیم می‌گیره خودش ببره."
+   },
+   "start": 15.444,
+   "end": 20.652,
+   "tokens": [
+    [
+     "快递",
+     "kuài dì",
+     "express delivery",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "最",
+     "zuì",
+     "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "rapid; quick; speed",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "才能",
+     "cái néng",
+     "talent; ability; capacity",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "决定",
+     "jué dìng",
+     "to decide; to determine; to make up one's mind; decision",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "第二天早上七点，他把二十盒杯子搬上出租车，从城东坐到了城西。",
+   "py": "dì èr tiān zǎo shang qī diǎn, tā bǎ èr shí hé bēi zi bān shàng chū zū chē, cóng chéng dōng zuò dào le chéng xī.",
+   "en": "At seven the next morning, he loads twenty boxes of cups into a taxi and rides from the east side of the city to the west.",
+   "tr": {
+    "vi": "7 giờ sáng hôm sau, anh ấy chuyển hai mươi hộp cốc lên taxi, đi từ phía đông thành phố sang phía tây.",
+    "pt": "Às sete da manhã do dia seguinte, ele põe as vinte caixas de copos num táxi e atravessa a cidade, do leste até o oeste.",
+    "es": "A las siete de la mañana siguiente, sube las veinte cajas de tazas a un taxi y va del este de la ciudad al oeste.",
+    "fr": "Le lendemain à sept heures, il charge les vingt boîtes de tasses dans un taxi et traverse la ville d'est en ouest.",
+    "am": "በማግሥቱ ጠዋት 7:00 ላይ ሃያ ሣጥን ኩባያ ታክሲ ላይ ጭኖ ከከተማዋ ምሥራቅ ወደ ምዕራብ ሄደ።",
+    "fa": "فرداش ساعت هفت صبح، بیست جعبه فنجون می‌کنه یه تاکسی و از شرقِ شهر می‌ره غرب."
+   },
+   "start": 21.352,
+   "end": 28.912,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "二十",
+     "èr shí",
+     "twenty; 20",
+     ""
+    ],
+    [
+     "盒",
+     "hé",
+     "small box; case",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "搬",
+     "bān",
+     "to move (i.e. relocate oneself)",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "出租车",
+     "chū zū chē",
+     "taxi; (Tw) rental car",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "城东",
+     "chéng dōng",
+     "see 城东区",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "城西",
+     "chéng xī",
+     "see 城西区",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "路上堵车，他到的时候已经八点半了，衣服都湿透了。",
+   "py": "lù shàng dǔ chē, tā dào de shí hou yǐ jīng bā diǎn bàn le, yī fu dōu shī tòu le.",
+   "en": "There's traffic on the way, and by the time he arrives it's half past eight and his clothes are soaked with sweat.",
+   "tr": {
+    "vi": "Trên đường bị tắc, lúc anh ấy đến nơi đã 8 giờ rưỡi, quần áo ướt sũng.",
+    "pt": "O trânsito está parado no caminho. Quando ele chega, já são oito e meia, e a roupa dele está encharcada de suor.",
+    "es": "En el camino hay tráfico; cuando llega ya son las ocho y media y tiene la ropa empapada de sudor.",
+    "fr": "Il y a des embouteillages : quand il arrive, il est déjà huit heures et demie, et ses vêtements sont trempés.",
+    "am": "መንገዱ ተጨናንቆ ስለነበር ሲደርስ 8:30 ሆኖ ነበር፣ ልብሱም በላብ ርሷል።",
+    "fa": "تو راه ترافیک هست و تا می‌رسه، ساعت هشت‌ونیم شده و لباساش یه جو عرق شده."
+   },
+   "start": 29.612,
+   "end": 35.276,
+   "tokens": [
+    [
+     "路上",
+     "lù shang",
+     "on the way; en route; on the road",
+     ""
+    ],
+    [
+     "堵车",
+     "dǔ chē",
+     "traffic jam; (of traffic) to get congested",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "point in time or space; classifier for small amounts",
+     ""
+    ],
+    [
+     "半",
+     "bàn",
+     "half; (after a number) and a half; semi-",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "湿透",
+     "shī tòu",
+     "drenched; wet through",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他一盒一盒地把杯子搬到了十二楼，敲了敲客户公司的门。",
+   "py": "tā yì hé yì hé de bǎ bēi zi bān dào le shí èr lóu, qiāo le qiāo kè hù gōng sī de mén.",
+   "en": "He carries the cups up to the twelfth floor box by box and knocks on the door of the client's company.",
+   "tr": {
+    "vi": "Anh ấy bê từng hộp cốc lên tầng mười hai, rồi gõ cửa công ty khách hàng.",
+    "pt": "Ele leva os copos até o décimo segundo andar, caixa por caixa, e bate na porta da empresa do cliente.",
+    "es": "Sube las tazas caja por caja hasta el piso doce y toca la puerta de la empresa del cliente.",
+    "fr": "Il monte les tasses au douzième étage, boîte par boîte, et frappe à la porte de l'entreprise du client.",
+    "am": "ኩባያዎቹን ሣጥን በሣጥን ወደ አሥራ ሁለተኛው ፎቅ አወጣ፣ የደንበኛውንም ድርጅት በር አንኳኳ።",
+    "fa": "فنجون‌ها رو جعبه‌جعبه تا طبقه‌ی دوازدهم می‌کشه بالا و درِ شرکتِ مشتری رو می‌زنه."
+   },
+   "start": 35.976,
+   "end": 41.928,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "盒",
+     "hé",
+     "small box; case",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "盒",
+     "hé",
+     "small box; case",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "搬",
+     "bān",
+     "to move (i.e. relocate oneself)",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "楼",
+     "lóu",
+     "floor; house with more than 1 story; storied building",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "敲",
+     "qiāo",
+     "to knock; to hit; to strike",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "敲",
+     "qiāo",
+     "to knock; to hit; to strike",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "门",
+     "mén",
+     "gate; door; doorway; gateway; opening",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "开门的是一个年轻的女孩：“您找谁？这里是英语学校。”",
+   "py": "kāi mén de shì yí gè nián qīng de nǚ hái: “nín zhǎo shéi? zhè lǐ shì yīng yǔ xué xiào.”",
+   "en": "A young woman opens the door. \"Who are you looking for? This is an English school.\"",
+   "tr": {
+    "vi": "Người mở cửa là một cô gái trẻ: “Anh tìm ai ạ? Đây là trường dạy tiếng Anh.”",
+    "pt": "Quem abre é uma moça: “Pois não, procura quem? Aqui é uma escola de inglês.”",
+    "es": "Abre una chica joven: «¿A quién busca? Esto es una escuela de inglés».",
+    "fr": "C'est une jeune fille qui ouvre : « Vous cherchez qui ? Ici, c'est une école d'anglais. »",
+    "am": "በሩን የከፈተችው አንዲት ወጣት ልጅ ነበረች። «ማንን ይፈልጋሉ? ይህ የእንግሊዝኛ ትምህርት ቤት ነው።»",
+    "fa": "یه خانم جوون درو باز می‌کنه: «دنبال کی هستید؟ این یه آموزشگاه زبان انگلیسیه.»"
+   },
+   "start": 42.628,
+   "end": 49.036,
+   "tokens": [
+    [
+     "开门",
+     "kāi mén",
+     "(lit. and fig.) to open a door; to open for business",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "年轻",
+     "nián qīng",
+     "young",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "女孩",
+     "nǚ hái",
+     "girl; lass",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "找",
+     "zhǎo",
+     "to look for; to try to find; to call on sb",
+     ""
+    ],
+    [
+     "谁",
+     "shéi",
+     "who; also pr.",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "这里",
+     "zhè lǐ",
+     "here",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "英语",
+     "yīng yǔ",
+     "English (language)",
+     ""
+    ],
+    [
+     "学校",
+     "xué xiào",
+     "school",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克拿出手机，又看了一遍地址，一个字也没错。",
+   "py": "Jié kè ná chū shǒu jī, yòu kàn le yí biàn dì zhǐ, yí gè zì yě méi cuò.",
+   "en": "Jack takes out his phone and checks the address again. Not a single character is wrong.",
+   "tr": {
+    "vi": "Jack lấy điện thoại ra, xem lại địa chỉ một lần nữa, không sai một chữ nào.",
+    "pt": "Jack pega o celular e confere o endereço de novo. Nenhum caractere está errado.",
+    "es": "Jack saca el teléfono y vuelve a mirar la dirección. No hay ni un carácter mal.",
+    "fr": "Jack sort son téléphone et relit l'adresse : pas un seul caractère n'est faux.",
+    "am": "ጃክ ስልኩን አውጥቶ አድራሻውን እንደገና አየ፣ አንድም ፊደል አልተሳሳተም።",
+    "fa": "جک گوشیشو درمیاره و آدرسو دوباره چک می‌کنه. حتی یه کاراکتر هم غلط نیست."
+   },
+   "start": 49.736,
+   "end": 54.728,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to watch out for; to see; to look at; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一遍",
+     "yī biàn",
+     "one time (all the way through); once through",
+     ""
+    ],
+    [
+     "地址",
+     "dì zhǐ",
+     "address",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "字",
+     "zì",
+     "character; letter; symbol",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "没错",
+     "méi cuò",
+     "can't go wrong; that's right; sure!",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他给客户打电话，客户说：“哎呀，忘了告诉你，我们上个星期搬家了！”",
+   "py": "tā gěi kè hù dǎ diàn huà, kè hù shuō: “āi yā, wàng le gào su nǐ, wǒ men shàng gè xīng qī bān jiā le!”",
+   "en": "He phones the client, who says, \"Oh no, I forgot to tell you. We moved last week!\"",
+   "tr": {
+    "vi": "Anh ấy gọi cho khách hàng, khách hàng nói: “Ôi, quên nói với anh, tuần trước chúng tôi chuyển văn phòng rồi!”",
+    "pt": "Ele liga para o cliente, que diz: “Ai, esqueci de avisar você: a gente se mudou na semana passada!”",
+    "es": "Llama al cliente, que dice: «¡Ay, se me olvidó decirte que nos mudamos la semana pasada!».",
+    "fr": "Il appelle le client, qui lui dit : « Oh là là, j'ai oublié de vous le dire : on a déménagé la semaine dernière ! »",
+    "am": "ለደንበኛው ደወለ። ደንበኛው «ወይኔ፣ ልነግርህ ረሳሁ፣ ባለፈው ሳምንት ቢሮ ቀይረናል!» አለ።",
+    "fa": "به مشتری زنگ می‌زنه و اون می‌گه: «اووخ، یادم رفت بگم. هفته‌ی پیش جابه‌جا شدیم!»"
+   },
+   "start": 55.428,
+   "end": 62.532,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "哎呀",
+     "āi yā",
+     "interjection of wonder, shock or admiration",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "忘",
+     "wàng",
+     "to forget; to overlook; to neglect",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "告诉",
+     "gào su",
+     "to tell; to inform; to let know",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "上个星期",
+     "shàng gè xīng qī",
+     "last week",
+     ""
+    ],
+    [
+     "搬家",
+     "bān jiā",
+     "to move house; to relocate; to remove (sth)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“搬到哪儿了？”",
+   "py": "“bān dào nǎ r le?”",
+   "en": "\"Where to?\"",
+   "tr": {
+    "vi": "“Chuyển đi đâu ạ?”",
+    "pt": "“Para onde vocês se mudaram?”",
+    "es": "«¿Adónde?».",
+    "fr": "« Et vous êtes où, maintenant ? »",
+    "am": "«ወዴት ቀየራችሁ?»",
+    "fa": "«کجا؟»"
+   },
+   "start": 63.232,
+   "end": 64.672,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "搬",
+     "bān",
+     "to move (i.e. relocate oneself)",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "哪儿",
+     "nǎ r",
+     "where?; wherever; anywhere; somewhere",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“城东，就在你们公司那座楼的二十层。”",
+   "py": "“chéng dōng, jiù zài nǐ men gōng sī nà zuò lóu de èr shí céng.”",
+   "en": "\"The east side. The twentieth floor of your company's building.\"",
+   "tr": {
+    "vi": "“Phía đông thành phố, ngay tầng hai mươi của tòa nhà công ty các anh.”",
+    "pt": "“Para o leste da cidade. No vigésimo andar do prédio da sua empresa.”",
+    "es": "«Al este de la ciudad, en el piso veinte del edificio de tu empresa».",
+    "fr": "« Dans l'est de la ville, au vingtième étage de l'immeuble de votre entreprise. »",
+    "am": "«ወደ ከተማዋ ምሥራቅ፣ እናንተ ድርጅት ያለበት ሕንፃ ሃያኛ ፎቅ።»",
+    "fa": "«سمت شرق. طبقه‌ی بیستمِ ساختمونِ شرکتِ شما.»"
+   },
+   "start": 65.372,
+   "end": 69.452,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "城东",
+     "chéng dōng",
+     "see 城东区",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "座",
+     "zuò",
+     "classifier for large immovable objects such as buildings, mountains, bridges etc",
+     ""
+    ],
+    [
+     "楼",
+     "lóu",
+     "storied building; floor; house with more than 1 story",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "二十",
+     "èr shí",
+     "twenty; 20",
+     ""
+    ],
+    [
+     "层",
+     "céng",
+     "classifier for floors, storeys and layers",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克坐在那堆箱子上，半天说不出话来。",
+   "py": "Jié kè zuò zài nà duī xiāng zi shàng, bàn tiān shuō bù chū huà lái.",
+   "en": "Jack sits down on the pile of boxes and can't say a word for a long time.",
+   "tr": {
+    "vi": "Jack ngồi lên đống thùng, mãi không nói nên lời.",
+    "pt": "Jack se senta em cima da pilha de caixas e fica um bom tempo sem conseguir dizer nada.",
+    "es": "Jack se sienta sobre el montón de cajas y durante un buen rato no puede decir nada.",
+    "fr": "Jack s'assoit sur le tas de cartons et reste longtemps sans pouvoir dire un mot.",
+    "am": "ጃክ በሣጥኖቹ ክምር ላይ ተቀምጦ ለረጅም ጊዜ መናገር አቃተው።",
+    "fa": "جک می‌شینه رو تلّه‌ی جعبه‌ها و مدت زیادی نمی‌تونه حرف بزنه."
+   },
+   "start": 70.152,
+   "end": 74.904,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "堆",
+     "duī",
+     "to pile up; pile; to heap up",
+     ""
+    ],
+    [
+     "箱子",
+     "xiāng zi",
+     "suitcase; chest; box",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "a long time; half of the day; quite a while",
+     ""
+    ],
+    [
+     "说不出话来",
+     "shuō bù chū huà lái",
+     "speechless",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "九点五十，他终于把杯子送到了，就在自己办公室楼上两层。",
+   "py": "jiǔ diǎn wǔ shí, tā zhōng yú bǎ bēi zi sòng dào le, jiù zài zì jǐ bàn gōng shì lóu shàng liǎng céng.",
+   "en": "At ten to ten, he finally delivers the cups, just two floors above his own office.",
+   "tr": {
+    "vi": "9 giờ 50, cuối cùng anh ấy cũng giao được cốc, ngay trên văn phòng mình hai tầng.",
+    "pt": "Às dez para as dez, ele finalmente entrega os copos, dois andares acima do próprio escritório.",
+    "es": "A las diez menos diez, por fin entrega las tazas, justo dos pisos arriba de su propia oficina.",
+    "fr": "À dix heures moins dix, il livre enfin les tasses, juste deux étages au-dessus de son propre bureau.",
+    "am": "9:50 ላይ በመጨረሻ ኩባያዎቹን አደረሰ፣ ከራሱ ቢሮ ሁለት ፎቅ ብቻ ከፍ ብሎ።",
+    "fa": "ساعت ده به ده، بالاخره فنجون‌ها رو تحویل می‌ده؛ فقط دو طبقه بالاتر از شرکتِ خودش."
+   },
+   "start": 75.604,
+   "end": 82.516,
+   "tokens": [
+    [
+     "九",
+     "jiǔ",
+     "nine; 9",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "五十",
+     "wǔ shí",
+     "fifty",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "finally; at last; in the end",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "finally; at last; in the end",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "办公室",
+     "bàn gōng shì",
+     "office; business premises",
+     ""
+    ],
+    [
+     "楼上",
+     "lóu shàng",
+     "upstairs; (Internet slang) previous poster in a forum thread",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "层",
+     "céng",
+     "classifier for floors, storeys and layers",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "客户的老板看了杯子，非常满意，马上就下了一个大订单。",
+   "py": "kè hù de lǎo bǎn kàn le bēi zi, fēi cháng mǎn yì, mǎ shàng jiù xià le yí gè dà dìng dān.",
+   "en": "The client's boss looks at the cups, is very pleased, and places a big order on the spot.",
+   "tr": {
+    "vi": "Sếp của khách hàng xem cốc, rất hài lòng, đặt ngay một đơn hàng lớn.",
+    "pt": "O chefe do cliente olha os copos, fica muito satisfeito e faz um pedido grande na mesma hora.",
+    "es": "El jefe del cliente mira las tazas, queda muy satisfecho y hace un pedido grande en el acto.",
+    "fr": "Le patron du client regarde les tasses. Il est très content et passe tout de suite une grosse commande.",
+    "am": "የደንበኛው አለቃ ኩባያዎቹን አይቶ በጣም ረካ፣ ወዲያውም ትልቅ ትዕዛዝ ሰጠ።",
+    "fa": "رئیسِ مشتری فنجون‌ها رو نگاه می‌کنه، خیلی راضیه و همون‌جا یه سفارش بزرگ می‌ده."
+   },
+   "start": 83.216,
+   "end": 89.648,
+   "tokens": [
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "非常",
+     "fēi cháng",
+     "very; really; unusual; extraordinary",
+     ""
+    ],
+    [
+     "满意",
+     "mǎn yì",
+     "pleased; satisfied; to one's satisfaction",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "at once; right away; immediately",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "订单",
+     "dìng dān",
+     "(purchase) order",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "客户笑着说：“以后送货就方便了，你走楼梯上来就行。”",
+   "py": "kè hù xiào zhe shuō: “yǐ hòu sòng huò jiù fāng biàn le, nǐ zǒu lóu tī shàng lái jiù xíng.”",
+   "en": "The client laughs. \"Deliveries will be easy from now on. You can just take the stairs.\"",
+   "tr": {
+    "vi": "Khách hàng cười nói: “Sau này giao hàng tiện rồi, anh đi cầu thang bộ lên là được.”",
+    "pt": "O cliente ri: “Daqui para a frente, entregar vai ser fácil. É só subir de escada.”",
+    "es": "El cliente dice riendo: «A partir de ahora las entregas serán fáciles. Solo tienes que subir por la escalera».",
+    "fr": "Le client dit en riant : « Les livraisons seront faciles maintenant : vous n'aurez qu'à prendre l'escalier. »",
+    "am": "ደንበኛው እየሳቀ «ከአሁን በኋላ ዕቃ ማድረስ ቀላል ነው። በደረጃ ወጥተህ ብትመጣ ይበቃል» አለ።",
+    "fa": "مشتری می‌خنده: «از این به بعد پیک کردن راحته. می‌تونی با پله بیای بالا.»"
+   },
+   "start": 90.348,
+   "end": 96.3,
+   "tokens": [
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "送货",
+     "sòng huò",
+     "to deliver goods",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "方便",
+     "fāng biàn",
+     "to facilitate; to make things easy; convenient; suitable",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "楼梯",
+     "lóu tī",
+     "stair; staircase",
+     ""
+    ],
+    [
+     "上来",
+     "shàng lái",
+     "to come up; to approach",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "行",
+     "xíng",
+     "all right; OK!; will do",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克说：“好，不过下次搬家，请您先告诉我。”",
+   "py": "Jié kè shuō: “hǎo, bú guò xià cì bān jiā, qǐng nín xiān gào su wǒ.”",
+   "en": "Jack says, \"Fine. But next time you move, please tell me first.\"",
+   "tr": {
+    "vi": "Jack nói: “Vâng, nhưng lần sau chuyển văn phòng, xin anh báo tôi trước.”",
+    "pt": "Jack diz: “Está bem. Mas, da próxima vez que se mudarem, por favor, me avisem antes.”",
+    "es": "Jack dice: «Muy bien. Pero la próxima vez que se muden, avíseme primero, por favor».",
+    "fr": "Jack dit : « D'accord. Mais la prochaine fois que vous déménagez, prévenez-moi d'abord, s'il vous plaît. »",
+    "am": "ጃክ «እሺ፣ ግን በሚቀጥለው ጊዜ ቢሮ ስትቀይሩ እባክዎ አስቀድመው ይንገሩኝ» አለ።",
+    "fa": "جک می‌گه: «باشه. ولی دفعه‌ی بعد که جابه‌جا شدید، لطفاً اول بهم بگید.»"
+   },
+   "start": 97,
+   "end": 102.472,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不过",
+     "bù guò",
+     "but; only; merely",
+     ""
+    ],
+    [
+     "下次",
+     "xià cì",
+     "next time",
+     ""
+    ],
+    [
+     "搬家",
+     "bān jiā",
+     "to move house; to relocate; to remove (sth)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "请",
+     "qǐng",
+     "please (do sth); to ask; to invite",
+     ""
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "告诉",
+     "gào su",
+     "to tell; to inform; to let know",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 322,
+ "first": "星期四晚上，一个客户突然给杰克打电话。",
+ "newWords": [
+  {
+   "w": "搬家",
+   "py": "bān jiā",
+   "en": "to move house"
+  },
+  {
+   "w": "地址",
+   "py": "dìzhǐ",
+   "en": "address"
+  },
+  {
+   "w": "堵车",
+   "py": "dǔchē",
+   "en": "traffic jam"
+  },
+  {
+   "w": "满意",
+   "py": "mǎnyì",
+   "en": "satisfied"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-54.mp3?v=1791721339"
 }

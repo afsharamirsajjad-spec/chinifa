@@ -1,883 +1,894 @@
 {
-  "id": "h2-07",
-  "level": 2,
-  "no": 7,
-  "title": "汉语考试",
-  "title_py": "Hàn yǔ kǎo shì",
-  "title_en": "The Chinese test",
-  "title_tr": {
-    "vi": "Bài thi tiếng Trung",
-    "pt": "A prova de chinês",
-    "es": "El examen de chino",
-    "fr": "L'examen de chinois",
-    "am": "የቻይንኛ ፈተና",
-    "fa": "آزمون زبان چینی"
+ "id": "h2-07",
+ "level": 2,
+ "no": 7,
+ "title": "汉语考试",
+ "title_py": "Hàn yǔ kǎo shì",
+ "title_en": "The Chinese test",
+ "title_tr": {
+  "vi": "Bài thi tiếng Trung",
+  "pt": "A prova de chinês",
+  "es": "El examen de chino",
+  "fr": "L'examen de chinois",
+  "am": "የቻይንኛ ፈተና",
+  "fa": "آزمون زبان چینی"
+ },
+ "topic": "school",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h2-07.jpg",
+ "duration": 53.544,
+ "lines": [
+  {
+   "text": "明天有汉语考试，安娜很担心。",
+   "py": "míng tiān yǒu Hàn yǔ kǎo shì, Ān nà hěn dān xīn.",
+   "en": "There's a Chinese test tomorrow, and Anna is worried.",
+   "tr": {
+    "vi": "Ngày mai có bài thi tiếng Trung, Anna rất lo.",
+    "pt": "Amanhã tem prova de chinês, e Anna está preocupada.",
+    "es": "Mañana hay examen de chino, y Anna está preocupada.",
+    "fr": "Il y a un examen de chinois demain, et Anna est inquiète.",
+    "am": "ነገ የቻይንኛ ፈተና አለ፤ አና በጣም ተጨንቃለች።",
+    "fa": "فردا امتحان چینی داره و آنا نگرانه."
+   },
+   "start": 2.62,
+   "end": 6.196,
+   "tokens": [
+    [
+     "明天",
+     "míng tiān",
+     "tomorrow",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "汉语",
+     "hàn yǔ",
+     "Chinese language",
+     ""
+    ],
+    [
+     "考试",
+     "kǎo shì",
+     "to take an exam; exam",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "担心",
+     "dān xīn",
+     "worried; anxious; uneasy",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "school",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h2-07.jpg",
-  "duration": 53.544,
-  "lines": [
-    {
-      "text": "明天有汉语考试，安娜很担心。",
-      "py": "míng tiān yǒu Hàn yǔ kǎo shì, Ān nà hěn dān xīn.",
-      "en": "There's a Chinese test tomorrow, and Anna is worried.",
-      "tr": {
-        "vi": "Ngày mai có bài thi tiếng Trung, Anna rất lo.",
-        "pt": "Amanhã tem prova de chinês, e Anna está preocupada.",
-        "es": "Mañana hay examen de chino, y Anna está preocupada.",
-        "fr": "Il y a un examen de chinois demain, et Anna est inquiète.",
-        "am": "ነገ የቻይንኛ ፈተና አለ፤ አና በጣም ተጨንቃለች።"
-      },
-      "start": 2.62,
-      "end": 6.196,
-      "tokens": [
-        [
-          "明天",
-          "míng tiān",
-          "tomorrow",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "汉语",
-          "hàn yǔ",
-          "Chinese language",
-          ""
-        ],
-        [
-          "考试",
-          "kǎo shì",
-          "to take an exam; exam",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "担心",
-          "dān xīn",
-          "worried; anxious; uneasy",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "晚上，她一直复习到十二点。",
-      "py": "wǎn shang, tā yì zhí fù xí dào shí èr diǎn.",
-      "en": "In the evening, she keeps studying until twelve.",
-      "tr": {
-        "vi": "Buổi tối, cô ấy ôn bài đến tận mười hai giờ.",
-        "pt": "À noite, ela estuda até a meia-noite.",
-        "es": "Por la noche, estudia hasta las doce.",
-        "fr": "Le soir, elle révise jusqu’à minuit.",
-        "am": "ምሽት እስከ 12:00 ድረስ ስትከልስ ቆየች።"
-      },
-      "start": 6.896,
-      "end": 10.232,
-      "tokens": [
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "复习",
-          "fù xí",
-          "to review; revision",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to (a place); until (a time); up to (a point)",
-          ""
-        ],
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "早上起床的时候，她觉得很累。",
-      "py": "zǎo shang qǐ chuáng de shí hou, tā jué de hěn lèi.",
-      "en": "When she gets up in the morning, she feels very tired.",
-      "tr": {
-        "vi": "Sáng thức dậy, cô ấy thấy rất mệt.",
-        "pt": "Quando se levanta de manhã, ela se sente muito cansada.",
-        "es": "Cuando se levanta por la mañana, está muy cansada.",
-        "fr": "Le matin, quand elle se lève, elle se sent très fatiguée.",
-        "am": "ጠዋት ስትነሳ በጣም ደክሟት ነበር።"
-      },
-      "start": 10.932,
-      "end": 14.268,
-      "tokens": [
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "起床",
-          "qǐ chuáng",
-          "to get out of bed; to get up",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "累",
-          "lèi",
-          "tired; weary; to strain",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她吃了一个鸡蛋，就去学校了。",
-      "py": "tā chī le yí gè jī dàn, jiù qù xué xiào le.",
-      "en": "She eats an egg and goes off to school.",
-      "tr": {
-        "vi": "Cô ấy ăn một quả trứng rồi đến trường.",
-        "pt": "Ela come um ovo e vai para a escola.",
-        "es": "Se come un huevo y se va a la escuela.",
-        "fr": "Elle mange un œuf et part à l’école.",
-        "am": "አንድ እንቁላል በልታ ወደ ትምህርት ቤት ሄደች።"
-      },
-      "start": 14.968,
-      "end": 18.112,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "鸡蛋",
-          "jī dàn",
-          "(chicken) egg; hen's egg",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "学校",
-          "xué xiào",
-          "school",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "到了教室，她打开书包，发现铅笔没带！",
-      "py": "dào le jiào shì, tā dǎ kāi shū bāo, fā xiàn qiān bǐ méi dài!",
-      "en": "In the classroom, she opens her school bag and finds she hasn't brought a pencil!",
-      "tr": {
-        "vi": "Đến lớp, cô ấy mở cặp ra thì phát hiện quên mang bút chì!",
-        "pt": "Na sala de aula, ela abre a mochila e percebe que não trouxe o lápis!",
-        "es": "En el salón abre la mochila y… ¡descubre que no trajo lápiz!",
-        "fr": "En classe, elle ouvre son cartable et s’aperçoit qu’elle a oublié son crayon !",
-        "am": "ክፍል ደርሳ ቦርሳዋን ስትከፍት እርሳስ እንዳልያዘች አወቀች!"
-      },
-      "start": 18.812,
-      "end": 22.892,
-      "tokens": [
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "教室",
-          "jiào shì",
-          "classroom",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "书包",
-          "shū bāo",
-          "schoolbag; satchel; bookbag",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "发现",
-          "fā xiàn",
-          "to discover; to find; to detect",
-          ""
-        ],
-        [
-          "铅笔",
-          "qiān bǐ",
-          "(lead) pencil",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "band; belt; girdle",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    },
-    {
-      "text": "“不好！怎么办？”",
-      "py": "“bù hǎo! zěn me bàn?”",
-      "en": "\"Oh no! What do I do?\"",
-      "tr": {
-        "vi": "“Chết rồi! Làm sao bây giờ?”",
-        "pt": "“Ai, não! O que eu faço?”",
-        "es": "«¡Ay, no! ¿Qué hago?»",
-        "fr": "« Oh non ! Qu’est-ce que je fais ? »",
-        "am": "«ወይኔ! ምን ላድርግ?»"
-      },
-      "start": 23.592,
-      "end": 25.776,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "不好",
-          "bù hǎo",
-          "no good",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "怎么办",
-          "zěn me bàn",
-          "what's to be done",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "坐在旁边的山田说：“别着急，我这儿还有，你用吧！”",
-      "py": "zuò zài páng biān de Shān tián shuō: “bié zháo jí, wǒ zhè r hái yǒu, nǐ yòng ba!”",
-      "en": "Yamada, sitting next to her, says, \"Don't worry, I've got another one here. Use it!\"",
-      "tr": {
-        "vi": "Yamada ngồi bên cạnh nói: “Đừng lo, mình còn một cái đây, cậu dùng đi!”",
-        "pt": "Yamada, que está sentada ao lado dela, diz: “Calma, eu tenho outro aqui. Pode usar!”",
-        "es": "Yamada, que está sentada a su lado, dice: «No te preocupes, aquí tengo otro. ¡Úsalo!»",
-        "fr": "Yamada, assise à côté d’elle, lui dit : « Ne t’inquiète pas, j’en ai un autre ici. Prends-le ! »",
-        "am": "አጠገቧ የተቀመጠችው ያማዳ «አትጨነቂ፣ እኔ ጋ ሌላ አለ፤ ተጠቀሚበት!» አለች።"
-      },
-      "start": 26.476,
-      "end": 31.684,
-      "tokens": [
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "在旁",
-          "zài páng",
-          "alongside; nearby",
-          ""
-        ],
-        [
-          "边",
-          "biān",
-          "side; edge; margin",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "别",
-          "bié",
-          "(bound form) other; another; different; don't ...!",
-          ""
-        ],
-        [
-          "着急",
-          "zháo jí",
-          "to worry; to feel anxious",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我这儿",
-          "wǒ zhe r",
-          "where I am; my place",
-          ""
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "考试开始了。题不太难，安娜都会做。",
-      "py": "kǎo shì kāi shǐ le. tí bú tài nán, Ān nà dōu huì zuò.",
-      "en": "The test begins. The questions aren't too hard, and Anna can do them all.",
-      "tr": {
-        "vi": "Bài thi bắt đầu. Đề không khó lắm, Anna làm được hết.",
-        "pt": "A prova começa. As perguntas não são muito difíceis, e Anna sabe responder todas.",
-        "es": "Empieza el examen. Las preguntas no son muy difíciles, y Anna puede contestarlas todas.",
-        "fr": "L’examen commence. Les questions ne sont pas trop difficiles, et Anna sait tout faire.",
-        "am": "ፈተናው ተጀመረ። ጥያቄዎቹ ብዙም አይከብዱም፤ አና ሁሉንም መሥራት ቻለች።"
-      },
-      "start": 32.384,
-      "end": 37.136,
-      "tokens": [
-        [
-          "考试",
-          "kǎo shì",
-          "to take an exam; exam",
-          ""
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "题",
-          "tí",
-          "exam question; topic; problem for discussion",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "难",
-          "nán",
-          "difficult (to...); problem; difficulty",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "都会",
-          "dū huì",
-          "city; metropolis",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "星期五，李老师说：“安娜，你这次考得非常好！”",
-      "py": "xīng qī wǔ, Lǐ lǎo shī shuō: “Ān nà, nǐ zhè cì kǎo de fēi cháng hǎo!”",
-      "en": "On Friday, Teacher Li says, \"Anna, you did very well on this test!\"",
-      "tr": {
-        "vi": "Thứ Sáu, cô Lý nói: “Anna, lần này em thi rất tốt!”",
-        "pt": "Na sexta-feira, a professora Li diz: “Anna, você foi muito bem nesta prova!”",
-        "es": "El viernes, la profesora Li dice: «Anna, ¡esta vez te fue muy bien en el examen!»",
-        "fr": "Vendredi, la professeure Li dit : « Anna, tu as très bien réussi cet examen ! »",
-        "am": "ዓርብ መምህርት ሊ «አና፣ በዚህ ፈተና በጣም ጥሩ ውጤት አመጣሽ!» አለች።"
-      },
-      "start": 37.836,
-      "end": 43.788,
-      "tokens": [
-        [
-          "星期五",
-          "xīng qī wǔ",
-          "Friday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "次",
-          "cì",
-          "classifier for enumerated events: time; next in sequence",
-          ""
-        ],
-        [
-          "考",
-          "kǎo",
-          "to test; to beat; to hit",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "非常",
-          "fēi cháng",
-          "very; really; unusual; extraordinary",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜非常高兴。",
-      "py": "Ān nà fēi cháng gāo xìng.",
-      "en": "Anna is very happy.",
-      "tr": {
-        "vi": "Anna rất vui.",
-        "pt": "Anna fica muito feliz.",
-        "es": "Anna está muy contenta.",
-        "fr": "Anna est très contente.",
-        "am": "አና በጣም ተደሰተች።"
-      },
-      "start": 44.488,
-      "end": 46.672,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "非常",
-          "fēi cháng",
-          "very; really; unusual; extraordinary",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她笑着说：“谢谢老师！也谢谢山田的铅笔！”",
-      "py": "tā xiào zhe shuō: “xiè xie lǎo shī! yě xiè xie Shān tián de qiān bǐ!”",
-      "en": "She smiles and says, \"Thank you, Teacher! And thanks to Yamada's pencil!\"",
-      "tr": {
-        "vi": "Cô ấy cười nói: “Em cảm ơn cô! Cũng cảm ơn cây bút chì của Yamada!”",
-        "pt": "Ela sorri e diz: “Obrigada, professora! E obrigada ao lápis da Yamada!”",
-        "es": "Sonríe y dice: «¡Gracias, profesora! ¡Y gracias al lápiz de Yamada!»",
-        "fr": "Elle dit en souriant : « Merci, Madame ! Et merci au crayon de Yamada ! »",
-        "am": "ፈገግ ብላ «አመሰግናለሁ መምህርት! የያማዳንም እርሳስ አመሰግናለሁ!» አለች።"
-      },
-      "start": 47.372,
-      "end": 52.844,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "铅笔",
-          "qiān bǐ",
-          "(lead) pencil",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 139,
-  "first": "明天有汉语考试，安娜很担心。",
-  "newWords": [
-    {
-      "w": "担心",
-      "py": "dānxīn",
-      "en": "anxious"
-    },
-    {
-      "w": "复习",
-      "py": "fùxí",
-      "en": "to revise"
-    },
-    {
-      "w": "一直",
-      "py": "yìzhí",
-      "en": "always"
-    },
-    {
-      "w": "发现",
-      "py": "fāxiàn",
-      "en": "to find"
-    },
-    {
-      "w": "带",
-      "py": "dài",
-      "en": "to bring"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h2-07.mp3?v=1791720553"
+  {
+   "text": "晚上，她一直复习到十二点。",
+   "py": "wǎn shang, tā yì zhí fù xí dào shí èr diǎn.",
+   "en": "In the evening, she keeps studying until twelve.",
+   "tr": {
+    "vi": "Buổi tối, cô ấy ôn bài đến tận mười hai giờ.",
+    "pt": "À noite, ela estuda até a meia-noite.",
+    "es": "Por la noche, estudia hasta las doce.",
+    "fr": "Le soir, elle révise jusqu’à minuit.",
+    "am": "ምሽት እስከ 12:00 ድረስ ስትከልስ ቆየች።",
+    "fa": "شب تا ساعت دوازده درسش رو مرور می‌کنه."
+   },
+   "start": 6.896,
+   "end": 10.232,
+   "tokens": [
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "复习",
+     "fù xí",
+     "to review; revision",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to (a place); until (a time); up to (a point)",
+     ""
+    ],
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "早上起床的时候，她觉得很累。",
+   "py": "zǎo shang qǐ chuáng de shí hou, tā jué de hěn lèi.",
+   "en": "When she gets up in the morning, she feels very tired.",
+   "tr": {
+    "vi": "Sáng thức dậy, cô ấy thấy rất mệt.",
+    "pt": "Quando se levanta de manhã, ela se sente muito cansada.",
+    "es": "Cuando se levanta por la mañana, está muy cansada.",
+    "fr": "Le matin, quand elle se lève, elle se sent très fatiguée.",
+    "am": "ጠዋት ስትነሳ በጣም ደክሟት ነበር።",
+    "fa": "صبح که بیدار می‌شه، احساس خستگی زیادی می‌کنه."
+   },
+   "start": 10.932,
+   "end": 14.268,
+   "tokens": [
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "起床",
+     "qǐ chuáng",
+     "to get out of bed; to get up",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "累",
+     "lèi",
+     "tired; weary; to strain",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她吃了一个鸡蛋，就去学校了。",
+   "py": "tā chī le yí gè jī dàn, jiù qù xué xiào le.",
+   "en": "She eats an egg and goes off to school.",
+   "tr": {
+    "vi": "Cô ấy ăn một quả trứng rồi đến trường.",
+    "pt": "Ela come um ovo e vai para a escola.",
+    "es": "Se come un huevo y se va a la escuela.",
+    "fr": "Elle mange un œuf et part à l’école.",
+    "am": "አንድ እንቁላል በልታ ወደ ትምህርት ቤት ሄደች።",
+    "fa": "یه تخم‌مرغ می‌خوره و می‌ره مدرسه."
+   },
+   "start": 14.968,
+   "end": 18.112,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "鸡蛋",
+     "jī dàn",
+     "(chicken) egg; hen's egg",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "学校",
+     "xué xiào",
+     "school",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "到了教室，她打开书包，发现铅笔没带！",
+   "py": "dào le jiào shì, tā dǎ kāi shū bāo, fā xiàn qiān bǐ méi dài!",
+   "en": "In the classroom, she opens her school bag and finds she hasn't brought a pencil!",
+   "tr": {
+    "vi": "Đến lớp, cô ấy mở cặp ra thì phát hiện quên mang bút chì!",
+    "pt": "Na sala de aula, ela abre a mochila e percebe que não trouxe o lápis!",
+    "es": "En el salón abre la mochila y… ¡descubre que no trajo lápiz!",
+    "fr": "En classe, elle ouvre son cartable et s’aperçoit qu’elle a oublié son crayon !",
+    "am": "ክፍል ደርሳ ቦርሳዋን ስትከፍት እርሳስ እንዳልያዘች አወቀች!",
+    "fa": "توی کلاس کیفش رو باز می‌کنه و می‌بینه مدادش رو جا گذاشته!"
+   },
+   "start": 18.812,
+   "end": 22.892,
+   "tokens": [
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "教室",
+     "jiào shì",
+     "classroom",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "书包",
+     "shū bāo",
+     "schoolbag; satchel; bookbag",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "发现",
+     "fā xiàn",
+     "to discover; to find; to detect",
+     ""
+    ],
+    [
+     "铅笔",
+     "qiān bǐ",
+     "(lead) pencil",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "band; belt; girdle",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  },
+  {
+   "text": "“不好！怎么办？”",
+   "py": "“bù hǎo! zěn me bàn?”",
+   "en": "\"Oh no! What do I do?\"",
+   "tr": {
+    "vi": "“Chết rồi! Làm sao bây giờ?”",
+    "pt": "“Ai, não! O que eu faço?”",
+    "es": "«¡Ay, no! ¿Qué hago?»",
+    "fr": "« Oh non ! Qu’est-ce que je fais ? »",
+    "am": "«ወይኔ! ምን ላድርግ?»",
+    "fa": "«وای! حالا چیکار کنم؟»"
+   },
+   "start": 23.592,
+   "end": 25.776,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "不好",
+     "bù hǎo",
+     "no good",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "怎么办",
+     "zěn me bàn",
+     "what's to be done",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "坐在旁边的山田说：“别着急，我这儿还有，你用吧！”",
+   "py": "zuò zài páng biān de Shān tián shuō: “bié zháo jí, wǒ zhè r hái yǒu, nǐ yòng ba!”",
+   "en": "Yamada, sitting next to her, says, \"Don't worry, I've got another one here. Use it!\"",
+   "tr": {
+    "vi": "Yamada ngồi bên cạnh nói: “Đừng lo, mình còn một cái đây, cậu dùng đi!”",
+    "pt": "Yamada, que está sentada ao lado dela, diz: “Calma, eu tenho outro aqui. Pode usar!”",
+    "es": "Yamada, que está sentada a su lado, dice: «No te preocupes, aquí tengo otro. ¡Úsalo!»",
+    "fr": "Yamada, assise à côté d’elle, lui dit : « Ne t’inquiète pas, j’en ai un autre ici. Prends-le ! »",
+    "am": "አጠገቧ የተቀመጠችው ያማዳ «አትጨነቂ፣ እኔ ጋ ሌላ አለ፤ ተጠቀሚበት!» አለች።",
+    "fa": "یامادا که بغلش نشسته می‌گه: «نگران نباش، یکی دیگه دارم؛ بگیر از این!»"
+   },
+   "start": 26.476,
+   "end": 31.684,
+   "tokens": [
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "在旁",
+     "zài páng",
+     "alongside; nearby",
+     ""
+    ],
+    [
+     "边",
+     "biān",
+     "side; edge; margin",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "别",
+     "bié",
+     "(bound form) other; another; different; don't ...!",
+     ""
+    ],
+    [
+     "着急",
+     "zháo jí",
+     "to worry; to feel anxious",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我这儿",
+     "wǒ zhe r",
+     "where I am; my place",
+     ""
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "考试开始了。题不太难，安娜都会做。",
+   "py": "kǎo shì kāi shǐ le. tí bú tài nán, Ān nà dōu huì zuò.",
+   "en": "The test begins. The questions aren't too hard, and Anna can do them all.",
+   "tr": {
+    "vi": "Bài thi bắt đầu. Đề không khó lắm, Anna làm được hết.",
+    "pt": "A prova começa. As perguntas não são muito difíceis, e Anna sabe responder todas.",
+    "es": "Empieza el examen. Las preguntas no son muy difíciles, y Anna puede contestarlas todas.",
+    "fr": "L’examen commence. Les questions ne sont pas trop difficiles, et Anna sait tout faire.",
+    "am": "ፈተናው ተጀመረ። ጥያቄዎቹ ብዙም አይከብዱም፤ አና ሁሉንም መሥራት ቻለች።",
+    "fa": "امتحان شروع می‌شه. سؤال‌ها زیادی سخت نیستن و آنا همه‌شون رو جواب می‌ده."
+   },
+   "start": 32.384,
+   "end": 37.136,
+   "tokens": [
+    [
+     "考试",
+     "kǎo shì",
+     "to take an exam; exam",
+     ""
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "题",
+     "tí",
+     "exam question; topic; problem for discussion",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "难",
+     "nán",
+     "difficult (to...); problem; difficulty",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "都会",
+     "dū huì",
+     "city; metropolis",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "星期五，李老师说：“安娜，你这次考得非常好！”",
+   "py": "xīng qī wǔ, Lǐ lǎo shī shuō: “Ān nà, nǐ zhè cì kǎo de fēi cháng hǎo!”",
+   "en": "On Friday, Teacher Li says, \"Anna, you did very well on this test!\"",
+   "tr": {
+    "vi": "Thứ Sáu, cô Lý nói: “Anna, lần này em thi rất tốt!”",
+    "pt": "Na sexta-feira, a professora Li diz: “Anna, você foi muito bem nesta prova!”",
+    "es": "El viernes, la profesora Li dice: «Anna, ¡esta vez te fue muy bien en el examen!»",
+    "fr": "Vendredi, la professeure Li dit : « Anna, tu as très bien réussi cet examen ! »",
+    "am": "ዓርብ መምህርት ሊ «አና፣ በዚህ ፈተና በጣም ጥሩ ውጤት አመጣሽ!» አለች።",
+    "fa": "جمعه معلم لی می‌گه: «آنا، تو این امتحان رو واقعاً عالی دادی!»"
+   },
+   "start": 37.836,
+   "end": 43.788,
+   "tokens": [
+    [
+     "星期五",
+     "xīng qī wǔ",
+     "Friday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "次",
+     "cì",
+     "classifier for enumerated events: time; next in sequence",
+     ""
+    ],
+    [
+     "考",
+     "kǎo",
+     "to test; to beat; to hit",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "非常",
+     "fēi cháng",
+     "very; really; unusual; extraordinary",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜非常高兴。",
+   "py": "Ān nà fēi cháng gāo xìng.",
+   "en": "Anna is very happy.",
+   "tr": {
+    "vi": "Anna rất vui.",
+    "pt": "Anna fica muito feliz.",
+    "es": "Anna está muy contenta.",
+    "fr": "Anna est très contente.",
+    "am": "አና በጣም ተደሰተች።",
+    "fa": "آنا خیلی خوشحاله."
+   },
+   "start": 44.488,
+   "end": 46.672,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "非常",
+     "fēi cháng",
+     "very; really; unusual; extraordinary",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她笑着说：“谢谢老师！也谢谢山田的铅笔！”",
+   "py": "tā xiào zhe shuō: “xiè xie lǎo shī! yě xiè xie Shān tián de qiān bǐ!”",
+   "en": "She smiles and says, \"Thank you, Teacher! And thanks to Yamada's pencil!\"",
+   "tr": {
+    "vi": "Cô ấy cười nói: “Em cảm ơn cô! Cũng cảm ơn cây bút chì của Yamada!”",
+    "pt": "Ela sorri e diz: “Obrigada, professora! E obrigada ao lápis da Yamada!”",
+    "es": "Sonríe y dice: «¡Gracias, profesora! ¡Y gracias al lápiz de Yamada!»",
+    "fr": "Elle dit en souriant : « Merci, Madame ! Et merci au crayon de Yamada ! »",
+    "am": "ፈገግ ብላ «አመሰግናለሁ መምህርት! የያማዳንም እርሳስ አመሰግናለሁ!» አለች።",
+    "fa": "با لبخند می‌گه: «ممنون معلم! ممنون از مداد یامادا هم!»"
+   },
+   "start": 47.372,
+   "end": 52.844,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "铅笔",
+     "qiān bǐ",
+     "(lead) pencil",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 139,
+ "first": "明天有汉语考试，安娜很担心。",
+ "newWords": [
+  {
+   "w": "担心",
+   "py": "dānxīn",
+   "en": "anxious"
+  },
+  {
+   "w": "复习",
+   "py": "fùxí",
+   "en": "to revise"
+  },
+  {
+   "w": "一直",
+   "py": "yìzhí",
+   "en": "always"
+  },
+  {
+   "w": "发现",
+   "py": "fāxiàn",
+   "en": "to find"
+  },
+  {
+   "w": "带",
+   "py": "dài",
+   "en": "to bring"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h2-07.mp3?v=1791720553"
 }

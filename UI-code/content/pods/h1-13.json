@@ -1,862 +1,872 @@
 {
-  "id": "h1-13",
-  "level": 1,
-  "no": 13,
-  "title": "你在哪儿？",
-  "title_py": "nǐ zài nǎ r?",
-  "title_en": "Where are you?",
-  "title_tr": {
-    "vi": "Bạn đang ở đâu?",
-    "pt": "Onde você está?",
-    "es": "¿Dónde estás?",
-    "fr": "Tu es où ?",
-    "am": "የት ነህ?",
-    "fa": "کجایی؟"
+ "id": "h1-13",
+ "level": 1,
+ "no": 13,
+ "title": "你在哪儿？",
+ "title_py": "nǐ zài nǎ r?",
+ "title_en": "Where are you?",
+ "title_tr": {
+  "vi": "Bạn đang ở đâu?",
+  "pt": "Onde você está?",
+  "es": "¿Dónde estás?",
+  "fr": "Tu es où ?",
+  "am": "የት ነህ?",
+  "fa": "کجایی؟"
+ },
+ "topic": "out",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-13.jpg",
+ "duration": 47.636,
+ "lines": [
+  {
+   "text": "星期六中午，李强和小周去吃饭。",
+   "py": "xīng qī liù zhōng wǔ, Lǐ Qiáng hé Xiǎo Zhōu qù chī fàn.",
+   "en": "At noon on Saturday, Li Qiang and Xiao Zhou are going out for lunch.",
+   "tr": {
+    "vi": "Trưa thứ Bảy, Lý Cường và Tiểu Chu đi ăn cơm.",
+    "pt": "No sábado ao meio-dia, o Li Qiang e o Xiao Zhou vão almoçar.",
+    "es": "El sábado al mediodía, Li Qiang y Xiao Zhou van a comer.",
+    "fr": "Samedi midi, Li Qiang et Xiao Zhou vont déjeuner.",
+    "am": "ቅዳሜ ቀትር ላይ ሊ ቺያንግ እና ሺያው ጆው ምሳ ለመብላት ወጡ።",
+    "fa": "ظهر جمعه، لی چیانگ و شیائو جو می‌روند بیرون ناهار بخورند."
+   },
+   "start": 2.14,
+   "end": 6.196,
+   "tokens": [
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "out",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-13.jpg",
-  "duration": 47.636,
-  "lines": [
-    {
-      "text": "星期六中午，李强和小周去吃饭。",
-      "py": "xīng qī liù zhōng wǔ, Lǐ Qiáng hé Xiǎo Zhōu qù chī fàn.",
-      "en": "At noon on Saturday, Li Qiang and Xiao Zhou are going out for lunch.",
-      "tr": {
-        "vi": "Trưa thứ Bảy, Lý Cường và Tiểu Chu đi ăn cơm.",
-        "pt": "No sábado ao meio-dia, o Li Qiang e o Xiao Zhou vão almoçar.",
-        "es": "El sábado al mediodía, Li Qiang y Xiao Zhou van a comer.",
-        "fr": "Samedi midi, Li Qiang et Xiao Zhou vont déjeuner.",
-        "am": "ቅዳሜ ቀትር ላይ ሊ ቺያንግ እና ሺያው ጆው ምሳ ለመብላት ወጡ።"
-      },
-      "start": 2.14,
-      "end": 6.196,
-      "tokens": [
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小周说：“十二点，我在小猫饭店前面等你。”",
-      "py": "Xiǎo Zhōu shuō: “shí èr diǎn, wǒ zài xiǎo māo fàn diàn qián mian děng nǐ.”",
-      "en": "Xiao Zhou says, \"I'll wait for you in front of the Little Cat Restaurant at twelve.\"",
-      "tr": {
-        "vi": "Tiểu Chu nói: “Mười hai giờ, mình đợi bạn trước nhà hàng Mèo Nhỏ.”",
-        "pt": "O Xiao Zhou diz: “Ao meio-dia eu espero você na frente do Restaurante Gatinho.”",
-        "es": "Xiao Zhou dice: «A las doce te espero frente al restaurante El Gatito».",
-        "fr": "Xiao Zhou dit : « À midi, je t'attends devant le restaurant du Petit Chat. »",
-        "am": "ሺያው ጆው «12:00 ላይ ከ‹ትንሿ ድመት› ምግብ ቤት ፊት እጠብቅሃለሁ» አለ።"
-      },
-      "start": 6.896,
-      "end": 12.128,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "小猫",
-          "xiǎo māo",
-          "kitten",
-          ""
-        ],
-        [
-          "饭店",
-          "fàn diàn",
-          "restaurant; hotel",
-          ""
-        ],
-        [
-          "前面",
-          "qián miàn",
-          "in front; ahead; preceding",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "十二点，李强来了。他没有看见小周。",
-      "py": "shí èr diǎn, Lǐ Qiáng lái le. tā méi yǒu kàn jiàn Xiǎo Zhōu.",
-      "en": "At twelve, Li Qiang arrives. He can't see Xiao Zhou.",
-      "tr": {
-        "vi": "Mười hai giờ, Lý Cường đến. Cậu ấy không thấy Tiểu Chu.",
-        "pt": "Ao meio-dia, o Li Qiang chega. Ele não vê o Xiao Zhou.",
-        "es": "A las doce llega Li Qiang. No ve a Xiao Zhou.",
-        "fr": "À midi, Li Qiang arrive. Il ne voit pas Xiao Zhou.",
-        "am": "12:00 ላይ ሊ ቺያንግ መጣ። ሺያው ጆውን ግን አላየውም።"
-      },
-      "start": 12.828,
-      "end": 17.604,
-      "tokens": [
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他给小周打电话：“喂，你在哪儿？”",
-      "py": "tā gěi Xiǎo Zhōu dǎ diàn huà: “wèi, nǐ zài nǎ r?”",
-      "en": "He phones Xiao Zhou. \"Hello, where are you?\"",
-      "tr": {
-        "vi": "Cậu ấy gọi điện cho Tiểu Chu: “A lô, bạn đang ở đâu?”",
-        "pt": "Ele liga para o Xiao Zhou: “Alô, onde você está?”",
-        "es": "Llama a Xiao Zhou: «Hola, ¿dónde estás?»",
-        "fr": "Il appelle Xiao Zhou : « Allô, tu es où ? »",
-        "am": "ለሺያው ጆው ደወለ። «ሄሎ፣ የት ነህ?»"
-      },
-      "start": 18.304,
-      "end": 22.36,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "喂",
-          "wèi",
-          "hey; to feed (an animal, baby, invalid etc); to feed",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "哪儿",
-          "nǎ r",
-          "where?; wherever; anywhere; somewhere",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我在饭店前面。你在哪儿？”",
-      "py": "“wǒ zài fàn diàn qián mian. nǐ zài nǎ r?”",
-      "en": "\"I'm in front of the restaurant. Where are you?\"",
-      "tr": {
-        "vi": "“Mình đang ở trước nhà hàng. Bạn đang ở đâu?”",
-        "pt": "“Estou na frente do restaurante. E você, onde está?”",
-        "es": "«Estoy frente al restaurante. ¿Y tú dónde estás?»",
-        "fr": "« Je suis devant le restaurant. Et toi, tu es où ? »",
-        "am": "«ከምግብ ቤቱ ፊት ነኝ። አንተ የት ነህ?»"
-      },
-      "start": 23.06,
-      "end": 25.94,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "饭店",
-          "fàn diàn",
-          "restaurant; hotel",
-          ""
-        ],
-        [
-          "前面",
-          "qián miàn",
-          "in front; ahead; preceding",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "哪儿",
-          "nǎ r",
-          "where?; wherever; anywhere; somewhere",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我也在饭店前面！”",
-      "py": "“wǒ yě zài fàn diàn qián mian!”",
-      "en": "\"I'm in front of the restaurant too!\"",
-      "tr": {
-        "vi": "“Mình cũng đang ở trước nhà hàng!”",
-        "pt": "“Eu também estou na frente do restaurante!”",
-        "es": "«¡Yo también estoy frente al restaurante!»",
-        "fr": "« Moi aussi, je suis devant le restaurant ! »",
-        "am": "«እኔም ከምግብ ቤቱ ፊት ነኝ!»"
-      },
-      "start": 26.64,
-      "end": 28.824,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "饭店",
-          "fàn diàn",
-          "restaurant; hotel",
-          ""
-        ],
-        [
-          "前面",
-          "qián miàn",
-          "in front; ahead; preceding",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "李强看了看前面和后面，没有小周。",
-      "py": "Lǐ Qiáng kàn le kàn qián mian hé hòu mian, méi yǒu Xiǎo Zhōu.",
-      "en": "Li Qiang looks in front of him and behind him. Xiao Zhou isn't there.",
-      "tr": {
-        "vi": "Lý Cường nhìn phía trước rồi nhìn phía sau, không thấy Tiểu Chu.",
-        "pt": "O Li Qiang olha para a frente e para trás. Nada do Xiao Zhou.",
-        "es": "Li Qiang mira adelante y atrás. Xiao Zhou no está.",
-        "fr": "Li Qiang regarde devant lui et derrière lui : pas de Xiao Zhou.",
-        "am": "ሊ ቺያንግ ፊቱንም ኋላውንም አየ፤ ሺያው ጆው የለም።"
-      },
-      "start": 29.524,
-      "end": 33.604,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "前面",
-          "qián miàn",
-          "in front; ahead; preceding",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "后面",
-          "hòu mian",
-          "behind; near the end; at the back",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小周说：“你在哪个饭店前面？”",
-      "py": "Xiǎo Zhōu shuō: “nǐ zài nǎ ge fàn diàn qián mian?”",
-      "en": "Xiao Zhou says, \"Which restaurant are you in front of?\"",
-      "tr": {
-        "vi": "Tiểu Chu nói: “Bạn đang ở trước nhà hàng nào?”",
-        "pt": "O Xiao Zhou diz: “Você está na frente de qual restaurante?”",
-        "es": "Xiao Zhou dice: «¿Frente a qué restaurante estás?»",
-        "fr": "Xiao Zhou demande : « Tu es devant quel restaurant ? »",
-        "am": "ሺያው ጆው «ከየትኛው ምግብ ቤት ፊት ነህ?» አለ።"
-      },
-      "start": 34.304,
-      "end": 37.64,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "哪个",
-          "nǎ ge",
-          "which; who",
-          ""
-        ],
-        [
-          "饭店",
-          "fàn diàn",
-          "restaurant; hotel",
-          ""
-        ],
-        [
-          "前面",
-          "qián miàn",
-          "in front; ahead; preceding",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "李强看了看：“大猫饭店。”",
-      "py": "Lǐ Qiáng kàn le kàn: “dà māo fàn diàn.”",
-      "en": "Li Qiang looks at the sign. \"The Big Cat Restaurant.\"",
-      "tr": {
-        "vi": "Lý Cường nhìn biển hiệu: “Nhà hàng Mèo Lớn.”",
-        "pt": "O Li Qiang olha a placa: “Restaurante Gatão.”",
-        "es": "Li Qiang mira el letrero: «El Gato Grande».",
-        "fr": "Li Qiang regarde : « Le restaurant du Gros Chat. »",
-        "am": "ሊ ቺያንግ ቀና ብሎ አየ። «‹ትልቁ ድመት› ምግብ ቤት።»"
-      },
-      "start": 38.34,
-      "end": 41.484,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "猫饭",
-          "māo fàn",
-          "(coll.) homemade cat food",
-          ""
-        ],
-        [
-          "店",
-          "diàn",
-          "inn; old-style hotel; (bound form) shop; store",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小周笑了：“小猫饭店在大猫饭店后面！”",
-      "py": "Xiǎo Zhōu xiào le: “xiǎo māo fàn diàn zài dà māo fàn diàn hòu mian!”",
-      "en": "Xiao Zhou laughs. \"The Little Cat Restaurant is behind the Big Cat Restaurant!\"",
-      "tr": {
-        "vi": "Tiểu Chu cười: “Nhà hàng Mèo Nhỏ ở sau nhà hàng Mèo Lớn!”",
-        "pt": "O Xiao Zhou ri: “O Restaurante Gatinho fica atrás do Restaurante Gatão!”",
-        "es": "Xiao Zhou se ríe: «¡El Gatito está detrás de El Gato Grande!»",
-        "fr": "Xiao Zhou rit : « Le restaurant du Petit Chat est derrière le restaurant du Gros Chat ! »",
-        "am": "ሺያው ጆው ሳቀ። «‹ትንሿ ድመት› ምግብ ቤት ከ‹ትልቁ ድመት› ምግብ ቤት ጀርባ ነው!»"
-      },
-      "start": 42.184,
-      "end": 46.936,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "小猫",
-          "xiǎo māo",
-          "kitten",
-          ""
-        ],
-        [
-          "饭店",
-          "fàn diàn",
-          "restaurant; hotel",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "猫饭",
-          "māo fàn",
-          "(coll.) homemade cat food",
-          ""
-        ],
-        [
-          "店",
-          "diàn",
-          "inn; old-style hotel; (bound form) shop; store",
-          ""
-        ],
-        [
-          "后面",
-          "hòu mian",
-          "behind; near the end; at the back",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 121,
-  "first": "星期六中午，李强和小周去吃饭。",
-  "newWords": [
-    {
-      "w": "等",
-      "py": "děng",
-      "en": "to wait"
-    },
-    {
-      "w": "给",
-      "py": "gěi",
-      "en": "to give"
-    },
-    {
-      "w": "也",
-      "py": "yě",
-      "en": "also"
-    },
-    {
-      "w": "笑",
-      "py": "xiào",
-      "en": "to smile"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-13.mp3?v=1791720548"
+  {
+   "text": "小周说：“十二点，我在小猫饭店前面等你。”",
+   "py": "Xiǎo Zhōu shuō: “shí èr diǎn, wǒ zài xiǎo māo fàn diàn qián mian děng nǐ.”",
+   "en": "Xiao Zhou says, \"I'll wait for you in front of the Little Cat Restaurant at twelve.\"",
+   "tr": {
+    "vi": "Tiểu Chu nói: “Mười hai giờ, mình đợi bạn trước nhà hàng Mèo Nhỏ.”",
+    "pt": "O Xiao Zhou diz: “Ao meio-dia eu espero você na frente do Restaurante Gatinho.”",
+    "es": "Xiao Zhou dice: «A las doce te espero frente al restaurante El Gatito».",
+    "fr": "Xiao Zhou dit : « À midi, je t'attends devant le restaurant du Petit Chat. »",
+    "am": "ሺያው ጆው «12:00 ላይ ከ‹ትንሿ ድመት› ምግብ ቤት ፊት እጠብቅሃለሁ» አለ።",
+    "fa": "شیائو جو می‌گوید: «ساعت دوازده، جلوی رستوران گربه‌ی کوچولو منتظرت هستم.»"
+   },
+   "start": 6.896,
+   "end": 12.128,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "小猫",
+     "xiǎo māo",
+     "kitten",
+     ""
+    ],
+    [
+     "饭店",
+     "fàn diàn",
+     "restaurant; hotel",
+     ""
+    ],
+    [
+     "前面",
+     "qián miàn",
+     "in front; ahead; preceding",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "十二点，李强来了。他没有看见小周。",
+   "py": "shí èr diǎn, Lǐ Qiáng lái le. tā méi yǒu kàn jiàn Xiǎo Zhōu.",
+   "en": "At twelve, Li Qiang arrives. He can't see Xiao Zhou.",
+   "tr": {
+    "vi": "Mười hai giờ, Lý Cường đến. Cậu ấy không thấy Tiểu Chu.",
+    "pt": "Ao meio-dia, o Li Qiang chega. Ele não vê o Xiao Zhou.",
+    "es": "A las doce llega Li Qiang. No ve a Xiao Zhou.",
+    "fr": "À midi, Li Qiang arrive. Il ne voit pas Xiao Zhou.",
+    "am": "12:00 ላይ ሊ ቺያንግ መጣ። ሺያው ጆውን ግን አላየውም።",
+    "fa": "ساعت دوازده لی چیانگ می‌رسد. شیائو جو را نمی‌بیند."
+   },
+   "start": 12.828,
+   "end": 17.604,
+   "tokens": [
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他给小周打电话：“喂，你在哪儿？”",
+   "py": "tā gěi Xiǎo Zhōu dǎ diàn huà: “wèi, nǐ zài nǎ r?”",
+   "en": "He phones Xiao Zhou. \"Hello, where are you?\"",
+   "tr": {
+    "vi": "Cậu ấy gọi điện cho Tiểu Chu: “A lô, bạn đang ở đâu?”",
+    "pt": "Ele liga para o Xiao Zhou: “Alô, onde você está?”",
+    "es": "Llama a Xiao Zhou: «Hola, ¿dónde estás?»",
+    "fr": "Il appelle Xiao Zhou : « Allô, tu es où ? »",
+    "am": "ለሺያው ጆው ደወለ። «ሄሎ፣ የት ነህ?»",
+    "fa": "به شیائو جو زنگ می‌زند: «الو، کجایی؟»"
+   },
+   "start": 18.304,
+   "end": 22.36,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "喂",
+     "wèi",
+     "hey; to feed (an animal, baby, invalid etc); to feed",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "哪儿",
+     "nǎ r",
+     "where?; wherever; anywhere; somewhere",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我在饭店前面。你在哪儿？”",
+   "py": "“wǒ zài fàn diàn qián mian. nǐ zài nǎ r?”",
+   "en": "\"I'm in front of the restaurant. Where are you?\"",
+   "tr": {
+    "vi": "“Mình đang ở trước nhà hàng. Bạn đang ở đâu?”",
+    "pt": "“Estou na frente do restaurante. E você, onde está?”",
+    "es": "«Estoy frente al restaurante. ¿Y tú dónde estás?»",
+    "fr": "« Je suis devant le restaurant. Et toi, tu es où ? »",
+    "am": "«ከምግብ ቤቱ ፊት ነኝ። አንተ የት ነህ?»",
+    "fa": "«جلوی رستورانم. تو کجایی؟»"
+   },
+   "start": 23.06,
+   "end": 25.94,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "饭店",
+     "fàn diàn",
+     "restaurant; hotel",
+     ""
+    ],
+    [
+     "前面",
+     "qián miàn",
+     "in front; ahead; preceding",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "哪儿",
+     "nǎ r",
+     "where?; wherever; anywhere; somewhere",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我也在饭店前面！”",
+   "py": "“wǒ yě zài fàn diàn qián mian!”",
+   "en": "\"I'm in front of the restaurant too!\"",
+   "tr": {
+    "vi": "“Mình cũng đang ở trước nhà hàng!”",
+    "pt": "“Eu também estou na frente do restaurante!”",
+    "es": "«¡Yo también estoy frente al restaurante!»",
+    "fr": "« Moi aussi, je suis devant le restaurant ! »",
+    "am": "«እኔም ከምግብ ቤቱ ፊት ነኝ!»",
+    "fa": "«منم جلوی رستورانم!»"
+   },
+   "start": 26.64,
+   "end": 28.824,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "饭店",
+     "fàn diàn",
+     "restaurant; hotel",
+     ""
+    ],
+    [
+     "前面",
+     "qián miàn",
+     "in front; ahead; preceding",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "李强看了看前面和后面，没有小周。",
+   "py": "Lǐ Qiáng kàn le kàn qián mian hé hòu mian, méi yǒu Xiǎo Zhōu.",
+   "en": "Li Qiang looks in front of him and behind him. Xiao Zhou isn't there.",
+   "tr": {
+    "vi": "Lý Cường nhìn phía trước rồi nhìn phía sau, không thấy Tiểu Chu.",
+    "pt": "O Li Qiang olha para a frente e para trás. Nada do Xiao Zhou.",
+    "es": "Li Qiang mira adelante y atrás. Xiao Zhou no está.",
+    "fr": "Li Qiang regarde devant lui et derrière lui : pas de Xiao Zhou.",
+    "am": "ሊ ቺያንግ ፊቱንም ኋላውንም አየ፤ ሺያው ጆው የለም።",
+    "fa": "لی چیانگ جلوی خودش و پشت سرش را نگاه می‌کند؛ شیائو جو نیست."
+   },
+   "start": 29.524,
+   "end": 33.604,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "前面",
+     "qián miàn",
+     "in front; ahead; preceding",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "后面",
+     "hòu mian",
+     "behind; near the end; at the back",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小周说：“你在哪个饭店前面？”",
+   "py": "Xiǎo Zhōu shuō: “nǐ zài nǎ ge fàn diàn qián mian?”",
+   "en": "Xiao Zhou says, \"Which restaurant are you in front of?\"",
+   "tr": {
+    "vi": "Tiểu Chu nói: “Bạn đang ở trước nhà hàng nào?”",
+    "pt": "O Xiao Zhou diz: “Você está na frente de qual restaurante?”",
+    "es": "Xiao Zhou dice: «¿Frente a qué restaurante estás?»",
+    "fr": "Xiao Zhou demande : « Tu es devant quel restaurant ? »",
+    "am": "ሺያው ጆው «ከየትኛው ምግብ ቤት ፊት ነህ?» አለ።",
+    "fa": "شیائو جو می‌گوید: «جلوی کدوم رستورانی؟»"
+   },
+   "start": 34.304,
+   "end": 37.64,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "哪个",
+     "nǎ ge",
+     "which; who",
+     ""
+    ],
+    [
+     "饭店",
+     "fàn diàn",
+     "restaurant; hotel",
+     ""
+    ],
+    [
+     "前面",
+     "qián miàn",
+     "in front; ahead; preceding",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "李强看了看：“大猫饭店。”",
+   "py": "Lǐ Qiáng kàn le kàn: “dà māo fàn diàn.”",
+   "en": "Li Qiang looks at the sign. \"The Big Cat Restaurant.\"",
+   "tr": {
+    "vi": "Lý Cường nhìn biển hiệu: “Nhà hàng Mèo Lớn.”",
+    "pt": "O Li Qiang olha a placa: “Restaurante Gatão.”",
+    "es": "Li Qiang mira el letrero: «El Gato Grande».",
+    "fr": "Li Qiang regarde : « Le restaurant du Gros Chat. »",
+    "am": "ሊ ቺያንግ ቀና ብሎ አየ። «‹ትልቁ ድመት› ምግብ ቤት።»",
+    "fa": "لی چیانگ به تابلو نگاه می‌کند: «رستوران گربه‌ی بزرگ.»"
+   },
+   "start": 38.34,
+   "end": 41.484,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "猫饭",
+     "māo fàn",
+     "(coll.) homemade cat food",
+     ""
+    ],
+    [
+     "店",
+     "diàn",
+     "inn; old-style hotel; (bound form) shop; store",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小周笑了：“小猫饭店在大猫饭店后面！”",
+   "py": "Xiǎo Zhōu xiào le: “xiǎo māo fàn diàn zài dà māo fàn diàn hòu mian!”",
+   "en": "Xiao Zhou laughs. \"The Little Cat Restaurant is behind the Big Cat Restaurant!\"",
+   "tr": {
+    "vi": "Tiểu Chu cười: “Nhà hàng Mèo Nhỏ ở sau nhà hàng Mèo Lớn!”",
+    "pt": "O Xiao Zhou ri: “O Restaurante Gatinho fica atrás do Restaurante Gatão!”",
+    "es": "Xiao Zhou se ríe: «¡El Gatito está detrás de El Gato Grande!»",
+    "fr": "Xiao Zhou rit : « Le restaurant du Petit Chat est derrière le restaurant du Gros Chat ! »",
+    "am": "ሺያው ጆው ሳቀ። «‹ትንሿ ድመት› ምግብ ቤት ከ‹ትልቁ ድመት› ምግብ ቤት ጀርባ ነው!»",
+    "fa": "شیائو جو می‌خندد: «رستوران گربه‌ی کوچولو پشت رستوران گربه‌ی بزرگه!»"
+   },
+   "start": 42.184,
+   "end": 46.936,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "小猫",
+     "xiǎo māo",
+     "kitten",
+     ""
+    ],
+    [
+     "饭店",
+     "fàn diàn",
+     "restaurant; hotel",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "猫饭",
+     "māo fàn",
+     "(coll.) homemade cat food",
+     ""
+    ],
+    [
+     "店",
+     "diàn",
+     "inn; old-style hotel; (bound form) shop; store",
+     ""
+    ],
+    [
+     "后面",
+     "hòu mian",
+     "behind; near the end; at the back",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 121,
+ "first": "星期六中午，李强和小周去吃饭。",
+ "newWords": [
+  {
+   "w": "等",
+   "py": "děng",
+   "en": "to wait"
+  },
+  {
+   "w": "给",
+   "py": "gěi",
+   "en": "to give"
+  },
+  {
+   "w": "也",
+   "py": "yě",
+   "en": "also"
+  },
+  {
+   "w": "笑",
+   "py": "xiào",
+   "en": "to smile"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-13.mp3?v=1791720548"
 }

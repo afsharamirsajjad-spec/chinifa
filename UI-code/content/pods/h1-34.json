@@ -1,810 +1,820 @@
 {
-  "id": "h1-34",
-  "level": 1,
-  "no": 34,
-  "title": "妈妈的电话",
-  "title_py": "mā ma de diàn huà",
-  "title_en": "A call from Mum",
-  "title_tr": {
-    "vi": "Cuộc gọi của mẹ",
-    "pt": "Ligação da mamãe",
-    "es": "Una llamada de mamá",
-    "fr": "Un appel de maman",
-    "am": "የእናት ስልክ",
-    "fa": "باران تند بعدازظهر"
+ "id": "h1-34",
+ "level": 1,
+ "no": 34,
+ "title": "妈妈的电话",
+ "title_py": "mā ma de diàn huà",
+ "title_en": "A call from Mum",
+ "title_tr": {
+  "vi": "Cuộc gọi của mẹ",
+  "pt": "Ligação da mamãe",
+  "es": "Una llamada de mamá",
+  "fr": "Un appel de maman",
+  "am": "የእናት ስልክ",
+  "fa": "باران تند بعدازظهر"
+ },
+ "topic": "work",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-34.jpg",
+ "duration": 49.004,
+ "lines": [
+  {
+   "text": "星期三上午，周经理和大家开会。",
+   "py": "xīng qī sān shàng wǔ, Zhōu jīng lǐ hé dà jiā kāi huì.",
+   "en": "On Wednesday morning, Manager Zhou is holding a meeting.",
+   "tr": {
+    "vi": "Sáng thứ Tư, giám đốc Chu họp với mọi người.",
+    "pt": "Na quarta de manhã, a gerente Zhou faz uma reunião com todos.",
+    "es": "El miércoles por la mañana, la gerente Zhou tiene una reunión con todos.",
+    "fr": "Mercredi matin, la directrice Zhou fait une réunion avec tout le monde.",
+    "am": "ረቡዕ ጠዋት ሥራ አስኪያጅ ጆው ከሁሉም ጋር ስብሰባ አደረገች።",
+    "fa": "سه‌شنبه صبح، مدیر جو با همه جلسه گذاشته."
+   },
+   "start": 2.62,
+   "end": 6.436,
+   "tokens": [
+    [
+     "星期三",
+     "xīng qī sān",
+     "Wednesday",
+     ""
+    ],
+    [
+     "上午",
+     "shàng wǔ",
+     "morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "开会",
+     "kāi huì",
+     "to hold a meeting; to attend a meeting",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-34.jpg",
-  "duration": 49.004,
-  "lines": [
-    {
-      "text": "星期三上午，周经理和大家开会。",
-      "py": "xīng qī sān shàng wǔ, Zhōu jīng lǐ hé dà jiā kāi huì.",
-      "en": "On Wednesday morning, Manager Zhou is holding a meeting.",
-      "tr": {
-        "vi": "Sáng thứ Tư, giám đốc Chu họp với mọi người.",
-        "pt": "Na quarta de manhã, a gerente Zhou faz uma reunião com todos.",
-        "es": "El miércoles por la mañana, la gerente Zhou tiene una reunión con todos.",
-        "fr": "Mercredi matin, la directrice Zhou fait une réunion avec tout le monde.",
-        "am": "ረቡዕ ጠዋት ሥራ አስኪያጅ ጆው ከሁሉም ጋር ስብሰባ አደረገች።"
-      },
-      "start": 2.62,
-      "end": 6.436,
-      "tokens": [
-        [
-          "星期三",
-          "xīng qī sān",
-          "Wednesday",
-          ""
-        ],
-        [
-          "上午",
-          "shàng wǔ",
-          "morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "开会",
-          "kāi huì",
-          "to hold a meeting; to attend a meeting",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理说：“开会的时候，请不要看手机。”",
-      "py": "Zhōu jīng lǐ shuō: “kāi huì de shí hou, qǐng bú yào kàn shǒu jī.”",
-      "en": "Manager Zhou says, \"During the meeting, please don't look at your phones.\"",
-      "tr": {
-        "vi": "Giám đốc Chu nói: “Trong lúc họp, xin đừng xem điện thoại.”",
-        "pt": "A gerente Zhou diz: “Durante a reunião, por favor, não olhem o celular.”",
-        "es": "La gerente Zhou dice: «Durante la reunión, por favor no miren el celular».",
-        "fr": "La directrice Zhou dit : « Pendant la réunion, ne regardez pas vos téléphones, s'il vous plaît. »",
-        "am": "ሥራ አስኪያጅ ጆው «በስብሰባ ጊዜ እባካችሁ ስልክ አትዩ» አለች።"
-      },
-      "start": 7.136,
-      "end": 11.864,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "开会",
-          "kāi huì",
-          "to hold a meeting; to attend a meeting",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "请",
-          "qǐng",
-          "please (do sth); to ask; to invite",
-          ""
-        ],
-        [
-          "不要",
-          "bù yào",
-          "don't!; must not",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克和小雨都说：“好！”",
-      "py": "Jié kè hé Xiǎo yǔ dōu shuō: “hǎo!”",
-      "en": "Jack and Xiaoyu both say, \"OK!\"",
-      "tr": {
-        "vi": "Jack và Tiểu Vũ đều nói: “Vâng!”",
-        "pt": "O Jack e a Xiaoyu dizem: “Está bem!”",
-        "es": "Jack y Xiaoyu dicen: «¡Sí!»",
-        "fr": "Jack et Xiaoyu disent tous les deux : « D'accord ! »",
-        "am": "ጃክ እና ሺያውዩ «እሺ!» አሉ።"
-      },
-      "start": 12.564,
-      "end": 15.708,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "开了十分钟会，有人给周经理打电话。",
-      "py": "kāi le shí fēn zhōng huì, yǒu rén gěi Zhōu jīng lǐ dǎ diàn huà.",
-      "en": "Ten minutes into the meeting, someone calls Manager Zhou.",
-      "tr": {
-        "vi": "Họp được mười phút thì có người gọi điện cho giám đốc Chu.",
-        "pt": "Com dez minutos de reunião, alguém liga para a gerente Zhou.",
-        "es": "A los diez minutos de reunión, alguien llama a la gerente Zhou.",
-        "fr": "Au bout de dix minutes de réunion, quelqu'un appelle la directrice Zhou.",
-        "am": "ስብሰባው አሥር ደቂቃ እንደቆየ አንድ ሰው ለሥራ አስኪያጅ ጆው ደወለ።"
-      },
-      "start": 16.408,
-      "end": 20.704,
-      "tokens": [
-        [
-          "开",
-          "kāi",
-          "to open (transitive or intransitive)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "十分",
-          "shí fēn",
-          "to divide into ten equal parts; very; completely",
-          ""
-        ],
-        [
-          "钟",
-          "zhōng",
-          "handleless cup; goblet",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "to meet; to get together; meeting; gathering",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; there is someone there; people",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "大家都看周经理。",
-      "py": "dà jiā dōu kàn Zhōu jīng lǐ.",
-      "en": "Everyone looks at Manager Zhou.",
-      "tr": {
-        "vi": "Mọi người đều nhìn giám đốc Chu.",
-        "pt": "Todos olham para a gerente Zhou.",
-        "es": "Todos miran a la gerente Zhou.",
-        "fr": "Tout le monde regarde la directrice Zhou.",
-        "am": "ሁሉም ሥራ አስኪያጅ ጆውን አዩ።"
-      },
-      "start": 21.404,
-      "end": 23.324,
-      "tokens": [
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理说：“对不起，对不起……喂，妈妈？我在开会！”",
-      "py": "Zhōu jīng lǐ shuō: “duì bu qǐ, duì bu qǐ…… wèi, mā ma? wǒ zài kāi huì!”",
-      "en": "Manager Zhou says, \"Sorry, sorry... Hello, Mum? I'm in a meeting!\"",
-      "tr": {
-        "vi": "Giám đốc Chu nói: “Xin lỗi, xin lỗi... A lô, mẹ ạ? Con đang họp!”",
-        "pt": "A gerente Zhou diz: “Desculpem, desculpem... Alô, mãe? Estou numa reunião!”",
-        "es": "La gerente Zhou dice: «Perdón, perdón… ¿Hola, mamá? ¡Estoy en una reunión!»",
-        "fr": "La directrice Zhou dit : « Pardon, pardon… Allô, maman ? Je suis en réunion ! »",
-        "am": "ሥራ አስኪያጅ ጆው «ይቅርታ፣ ይቅርታ… ሄሎ፣ እማዬ? ስብሰባ ላይ ነኝ!» አለች።"
-      },
-      "start": 24.024,
-      "end": 30,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "对不起",
-          "duì bu qǐ",
-          "I'm sorry; excuse me; I beg your pardon",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "对不起",
-          "duì bu qǐ",
-          "I'm sorry; excuse me; I beg your pardon",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "喂",
-          "wèi",
-          "hey; to feed (an animal, baby, invalid etc); to feed",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "开会",
-          "kāi huì",
-          "to hold a meeting; to attend a meeting",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "她妈妈说：“你今天中午回家吃饭吗？”",
-      "py": "tā mā ma shuō: “nǐ jīn tiān zhōng wǔ huí jiā chī fàn ma?”",
-      "en": "Her mum says, \"Are you coming home for lunch today?\"",
-      "tr": {
-        "vi": "Mẹ chị ấy nói: “Trưa nay con có về nhà ăn cơm không?”",
-        "pt": "A mãe dela diz: “Você vem almoçar em casa hoje?”",
-        "es": "Su mamá dice: «¿Vienes a comer a casa hoy al mediodía?»",
-        "fr": "Sa mère dit : « Tu rentres déjeuner à la maison ce midi ? »",
-        "am": "እናቷ «ዛሬ ቀትር ላይ ምሳ ልትበዪ ቤት ትመጫለሽ?» አለች።"
-      },
-      "start": 30.7,
-      "end": 34.516,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“回，回！再见，妈妈！”",
-      "py": "“huí, huí! zài jiàn, mā ma!”",
-      "en": "\"Yes, yes! Bye, Mum!\"",
-      "tr": {
-        "vi": "“Có, có ạ! Con chào mẹ!”",
-        "pt": "“Vou, vou! Tchau, mãe!”",
-        "es": "«¡Sí, sí! ¡Adiós, mamá!»",
-        "fr": "« Oui, oui ! Au revoir, maman ! »",
-        "am": "«እመጣለሁ፣ እመጣለሁ! ቻው እማዬ!»"
-      },
-      "start": 35.216,
-      "end": 38.336,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "再见",
-          "zài jiàn",
-          "goodbye; see you again later",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克和小雨都笑了。",
-      "py": "Jié kè hé Xiǎo yǔ dōu xiào le.",
-      "en": "Jack and Xiaoyu both laugh.",
-      "tr": {
-        "vi": "Jack và Tiểu Vũ đều cười.",
-        "pt": "O Jack e a Xiaoyu riem.",
-        "es": "Jack y Xiaoyu se ríen.",
-        "fr": "Jack et Xiaoyu rient.",
-        "am": "ጃክ እና ሺያውዩ ሁለቱም ሳቁ።"
-      },
-      "start": 39.036,
-      "end": 41.676,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理也笑了：“对不起。开会的时候……妈妈能打电话！”",
-      "py": "Zhōu jīng lǐ yě xiào le: “duì bu qǐ. kāi huì de shí hou…… mā ma néng dǎ diàn huà!”",
-      "en": "Manager Zhou laughs too. \"Sorry. In meetings... mums are allowed to call!\"",
-      "tr": {
-        "vi": "Giám đốc Chu cũng cười: “Xin lỗi. Lúc họp thì... mẹ được gọi điện!”",
-        "pt": "A gerente Zhou também ri: “Desculpem. Na reunião... mãe pode ligar!”",
-        "es": "La gerente Zhou también se ríe: «Perdón. En las reuniones… ¡las mamás sí pueden llamar!»",
-        "fr": "La directrice Zhou rit aussi : « Pardon. Pendant les réunions… les mamans ont le droit d'appeler ! »",
-        "am": "ሥራ አስኪያጅ ጆውም ሳቀች። «ይቅርታ። በስብሰባ ጊዜ… እናት መደወል ትችላለች!»"
-      },
-      "start": 42.376,
-      "end": 48.304,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "对不起",
-          "duì bu qǐ",
-          "I'm sorry; excuse me; I beg your pardon",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "开会",
-          "kāi huì",
-          "to hold a meeting; to attend a meeting",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 123,
-  "first": "星期三上午，周经理和大家开会。",
-  "newWords": [
-    {
-      "w": "要",
-      "py": "yào",
-      "en": "to want"
-    },
-    {
-      "w": "手机",
-      "py": "shǒujī",
-      "en": "mobile phone"
-    },
-    {
-      "w": "给",
-      "py": "gěi",
-      "en": "to give"
-    },
-    {
-      "w": "笑",
-      "py": "xiào",
-      "en": "to smile"
-    },
-    {
-      "w": "也",
-      "py": "yě",
-      "en": "also"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-34.mp3?v=1791720697"
+  {
+   "text": "周经理说：“开会的时候，请不要看手机。”",
+   "py": "Zhōu jīng lǐ shuō: “kāi huì de shí hou, qǐng bú yào kàn shǒu jī.”",
+   "en": "Manager Zhou says, \"During the meeting, please don't look at your phones.\"",
+   "tr": {
+    "vi": "Giám đốc Chu nói: “Trong lúc họp, xin đừng xem điện thoại.”",
+    "pt": "A gerente Zhou diz: “Durante a reunião, por favor, não olhem o celular.”",
+    "es": "La gerente Zhou dice: «Durante la reunión, por favor no miren el celular».",
+    "fr": "La directrice Zhou dit : « Pendant la réunion, ne regardez pas vos téléphones, s'il vous plaît. »",
+    "am": "ሥራ አስኪያጅ ጆው «በስብሰባ ጊዜ እባካችሁ ስልክ አትዩ» አለች።",
+    "fa": "مدیر جو می‌گوید: «وسط جلسه لطفاً به گوشی نگاه نکنید.»"
+   },
+   "start": 7.136,
+   "end": 11.864,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "开会",
+     "kāi huì",
+     "to hold a meeting; to attend a meeting",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "请",
+     "qǐng",
+     "please (do sth); to ask; to invite",
+     ""
+    ],
+    [
+     "不要",
+     "bù yào",
+     "don't!; must not",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克和小雨都说：“好！”",
+   "py": "Jié kè hé Xiǎo yǔ dōu shuō: “hǎo!”",
+   "en": "Jack and Xiaoyu both say, \"OK!\"",
+   "tr": {
+    "vi": "Jack và Tiểu Vũ đều nói: “Vâng!”",
+    "pt": "O Jack e a Xiaoyu dizem: “Está bem!”",
+    "es": "Jack y Xiaoyu dicen: «¡Sí!»",
+    "fr": "Jack et Xiaoyu disent tous les deux : « D'accord ! »",
+    "am": "ጃክ እና ሺያውዩ «እሺ!» አሉ።",
+    "fa": "جک و شیائویو هر دو می‌گویند: «چشم!»"
+   },
+   "start": 12.564,
+   "end": 15.708,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "开了十分钟会，有人给周经理打电话。",
+   "py": "kāi le shí fēn zhōng huì, yǒu rén gěi Zhōu jīng lǐ dǎ diàn huà.",
+   "en": "Ten minutes into the meeting, someone calls Manager Zhou.",
+   "tr": {
+    "vi": "Họp được mười phút thì có người gọi điện cho giám đốc Chu.",
+    "pt": "Com dez minutos de reunião, alguém liga para a gerente Zhou.",
+    "es": "A los diez minutos de reunión, alguien llama a la gerente Zhou.",
+    "fr": "Au bout de dix minutes de réunion, quelqu'un appelle la directrice Zhou.",
+    "am": "ስብሰባው አሥር ደቂቃ እንደቆየ አንድ ሰው ለሥራ አስኪያጅ ጆው ደወለ።",
+    "fa": "ده دقیقه از جلسه گذشته که یکی به مدیر جو تلفن می‌زند."
+   },
+   "start": 16.408,
+   "end": 20.704,
+   "tokens": [
+    [
+     "开",
+     "kāi",
+     "to open (transitive or intransitive)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "十分",
+     "shí fēn",
+     "to divide into ten equal parts; very; completely",
+     ""
+    ],
+    [
+     "钟",
+     "zhōng",
+     "handleless cup; goblet",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "to meet; to get together; meeting; gathering",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; there is someone there; people",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "大家都看周经理。",
+   "py": "dà jiā dōu kàn Zhōu jīng lǐ.",
+   "en": "Everyone looks at Manager Zhou.",
+   "tr": {
+    "vi": "Mọi người đều nhìn giám đốc Chu.",
+    "pt": "Todos olham para a gerente Zhou.",
+    "es": "Todos miran a la gerente Zhou.",
+    "fr": "Tout le monde regarde la directrice Zhou.",
+    "am": "ሁሉም ሥራ አስኪያጅ ጆውን አዩ።",
+    "fa": "همه نگاهشان به مدیر جو است."
+   },
+   "start": 21.404,
+   "end": 23.324,
+   "tokens": [
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "周经理说：“对不起，对不起……喂，妈妈？我在开会！”",
+   "py": "Zhōu jīng lǐ shuō: “duì bu qǐ, duì bu qǐ…… wèi, mā ma? wǒ zài kāi huì!”",
+   "en": "Manager Zhou says, \"Sorry, sorry... Hello, Mum? I'm in a meeting!\"",
+   "tr": {
+    "vi": "Giám đốc Chu nói: “Xin lỗi, xin lỗi... A lô, mẹ ạ? Con đang họp!”",
+    "pt": "A gerente Zhou diz: “Desculpem, desculpem... Alô, mãe? Estou numa reunião!”",
+    "es": "La gerente Zhou dice: «Perdón, perdón… ¿Hola, mamá? ¡Estoy en una reunión!»",
+    "fr": "La directrice Zhou dit : « Pardon, pardon… Allô, maman ? Je suis en réunion ! »",
+    "am": "ሥራ አስኪያጅ ጆው «ይቅርታ፣ ይቅርታ… ሄሎ፣ እማዬ? ስብሰባ ላይ ነኝ!» አለች።",
+    "fa": "مدیر جو می‌گوید: «ببخشید، ببخشید… الو مامان؟ من جلسه‌ام!»"
+   },
+   "start": 24.024,
+   "end": 30,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "对不起",
+     "duì bu qǐ",
+     "I'm sorry; excuse me; I beg your pardon",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "对不起",
+     "duì bu qǐ",
+     "I'm sorry; excuse me; I beg your pardon",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "喂",
+     "wèi",
+     "hey; to feed (an animal, baby, invalid etc); to feed",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "开会",
+     "kāi huì",
+     "to hold a meeting; to attend a meeting",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "她妈妈说：“你今天中午回家吃饭吗？”",
+   "py": "tā mā ma shuō: “nǐ jīn tiān zhōng wǔ huí jiā chī fàn ma?”",
+   "en": "Her mum says, \"Are you coming home for lunch today?\"",
+   "tr": {
+    "vi": "Mẹ chị ấy nói: “Trưa nay con có về nhà ăn cơm không?”",
+    "pt": "A mãe dela diz: “Você vem almoçar em casa hoje?”",
+    "es": "Su mamá dice: «¿Vienes a comer a casa hoy al mediodía?»",
+    "fr": "Sa mère dit : « Tu rentres déjeuner à la maison ce midi ? »",
+    "am": "እናቷ «ዛሬ ቀትር ላይ ምሳ ልትበዪ ቤት ትመጫለሽ?» አለች።",
+    "fa": "مامانش می‌گوید: «امروز ظهر می‌ای خونه ناهار بخوری؟»"
+   },
+   "start": 30.7,
+   "end": 34.516,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“回，回！再见，妈妈！”",
+   "py": "“huí, huí! zài jiàn, mā ma!”",
+   "en": "\"Yes, yes! Bye, Mum!\"",
+   "tr": {
+    "vi": "“Có, có ạ! Con chào mẹ!”",
+    "pt": "“Vou, vou! Tchau, mãe!”",
+    "es": "«¡Sí, sí! ¡Adiós, mamá!»",
+    "fr": "« Oui, oui ! Au revoir, maman ! »",
+    "am": "«እመጣለሁ፣ እመጣለሁ! ቻው እማዬ!»",
+    "fa": "«می‌ام، می‌ام! خداحافظ مامان!»"
+   },
+   "start": 35.216,
+   "end": 38.336,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "再见",
+     "zài jiàn",
+     "goodbye; see you again later",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克和小雨都笑了。",
+   "py": "Jié kè hé Xiǎo yǔ dōu xiào le.",
+   "en": "Jack and Xiaoyu both laugh.",
+   "tr": {
+    "vi": "Jack và Tiểu Vũ đều cười.",
+    "pt": "O Jack e a Xiaoyu riem.",
+    "es": "Jack y Xiaoyu se ríen.",
+    "fr": "Jack et Xiaoyu rient.",
+    "am": "ጃክ እና ሺያውዩ ሁለቱም ሳቁ።",
+    "fa": "جک و شیائویو هر دو می‌خندند."
+   },
+   "start": 39.036,
+   "end": 41.676,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "周经理也笑了：“对不起。开会的时候……妈妈能打电话！”",
+   "py": "Zhōu jīng lǐ yě xiào le: “duì bu qǐ. kāi huì de shí hou…… mā ma néng dǎ diàn huà!”",
+   "en": "Manager Zhou laughs too. \"Sorry. In meetings... mums are allowed to call!\"",
+   "tr": {
+    "vi": "Giám đốc Chu cũng cười: “Xin lỗi. Lúc họp thì... mẹ được gọi điện!”",
+    "pt": "A gerente Zhou também ri: “Desculpem. Na reunião... mãe pode ligar!”",
+    "es": "La gerente Zhou también se ríe: «Perdón. En las reuniones… ¡las mamás sí pueden llamar!»",
+    "fr": "La directrice Zhou rit aussi : « Pardon. Pendant les réunions… les mamans ont le droit d'appeler ! »",
+    "am": "ሥራ አስኪያጅ ጆውም ሳቀች። «ይቅርታ። በስብሰባ ጊዜ… እናት መደወል ትችላለች!»",
+    "fa": "مدیر جو هم می‌خندد: «ببخشید. وسط جلسه… مامان‌ها حق دارن زنگ بزنن!»"
+   },
+   "start": 42.376,
+   "end": 48.304,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "对不起",
+     "duì bu qǐ",
+     "I'm sorry; excuse me; I beg your pardon",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "开会",
+     "kāi huì",
+     "to hold a meeting; to attend a meeting",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 123,
+ "first": "星期三上午，周经理和大家开会。",
+ "newWords": [
+  {
+   "w": "要",
+   "py": "yào",
+   "en": "to want"
+  },
+  {
+   "w": "手机",
+   "py": "shǒujī",
+   "en": "mobile phone"
+  },
+  {
+   "w": "给",
+   "py": "gěi",
+   "en": "to give"
+  },
+  {
+   "w": "笑",
+   "py": "xiào",
+   "en": "to smile"
+  },
+  {
+   "w": "也",
+   "py": "yě",
+   "en": "also"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-34.mp3?v=1791720697"
 }

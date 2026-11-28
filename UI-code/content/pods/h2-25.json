@@ -1,1541 +1,1555 @@
 {
-  "id": "h2-25",
-  "level": 2,
-  "no": 25,
-  "title": "吃不完",
-  "title_py": "chī bù wán",
-  "title_en": "Too much to finish",
-  "title_tr": {
-    "vi": "Ăn không hết",
-    "pt": "Não consigo comer tudo",
-    "es": "Demasiado para terminar",
-    "fr": "Impossible de tout finir",
-    "am": "መጨረስ አቃታት",
-    "fa": "غذای زیاد تمام‌نشدنی"
+ "id": "h2-25",
+ "level": 2,
+ "no": 25,
+ "title": "吃不完",
+ "title_py": "chī bù wán",
+ "title_en": "Too much to finish",
+ "title_tr": {
+  "vi": "Ăn không hết",
+  "pt": "Não consigo comer tudo",
+  "es": "Demasiado para terminar",
+  "fr": "Impossible de tout finir",
+  "am": "መጨረስ አቃታት",
+  "fa": "غذای زیاد تمام‌نشدنی"
+ },
+ "topic": "food",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h2-25.jpg",
+ "duration": 87.324,
+ "lines": [
+  {
+   "text": "星期天，王明的妈妈来北京看他，小雨请安娜也来家里吃饭。",
+   "py": "xīng qī tiān, Wáng Míng de mā ma lái Běi jīng kàn tā, Xiǎo yǔ qǐng Ān nà yě lái jiā lǐ chī fàn.",
+   "en": "On Sunday, Wang Ming's mum is in Beijing to see him, and Xiaoyu invites Anna over to join them for a meal.",
+   "tr": {
+    "vi": "Chủ nhật, mẹ của Vương Minh đến Bắc Kinh thăm anh, Tiểu Vũ mời cả Anna đến nhà ăn cơm.",
+    "pt": "No domingo, a mãe de Wang Ming vem a Pequim visitá-lo, e Xiaoyu convida Anna para comer com eles.",
+    "es": "El domingo, la mamá de Wang Ming viene a Pekín a verlo, y Xiaoyu invita a Anna a comer en casa.",
+    "fr": "Dimanche, la mère de Wang Ming vient le voir à Pékin, et Xiaoyu invite aussi Anna à manger à la maison.",
+    "am": "እሑድ የዋንግ ሚንግ እናት ልጃቸውን ለማየት ቤጂንግ መጡ፤ ሺያውዩ አናንም ቤት ምግብ ጋበዘቻት።",
+    "fa": "یکشنبه مامان وانگ مینگ اومده پکن ببینتش و شیائویو هم آنا رو برای شام دعوت کرده."
+   },
+   "start": 2.404,
+   "end": 9.028,
+   "tokens": [
+    [
+     "星期天",
+     "xīng qī tiān",
+     "Sunday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "北京",
+     "běi jīng",
+     "Beijing municipality, capital of the People's Republic of China (short name 京)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "请安",
+     "qǐng ān",
+     "in Qing times, a specific form of salutation (see also 打千)",
+     ""
+    ],
+    [
+     "娜",
+     "nà",
+     "used esp. in female names such as Anna 安娜 or Diana 黛安娜",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "家里",
+     "jiā lǐ",
+     "home",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "food",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h2-25.jpg",
-  "duration": 87.324,
-  "lines": [
-    {
-      "text": "星期天，王明的妈妈来北京看他，小雨请安娜也来家里吃饭。",
-      "py": "xīng qī tiān, Wáng Míng de mā ma lái Běi jīng kàn tā, Xiǎo yǔ qǐng Ān nà yě lái jiā lǐ chī fàn.",
-      "en": "On Sunday, Wang Ming's mum is in Beijing to see him, and Xiaoyu invites Anna over to join them for a meal.",
-      "tr": {
-        "vi": "Chủ nhật, mẹ của Vương Minh đến Bắc Kinh thăm anh, Tiểu Vũ mời cả Anna đến nhà ăn cơm.",
-        "pt": "No domingo, a mãe de Wang Ming vem a Pequim visitá-lo, e Xiaoyu convida Anna para comer com eles.",
-        "es": "El domingo, la mamá de Wang Ming viene a Pekín a verlo, y Xiaoyu invita a Anna a comer en casa.",
-        "fr": "Dimanche, la mère de Wang Ming vient le voir à Pékin, et Xiaoyu invite aussi Anna à manger à la maison.",
-        "am": "እሑድ የዋንግ ሚንግ እናት ልጃቸውን ለማየት ቤጂንግ መጡ፤ ሺያውዩ አናንም ቤት ምግብ ጋበዘቻት።"
-      },
-      "start": 2.404,
-      "end": 9.028,
-      "tokens": [
-        [
-          "星期天",
-          "xīng qī tiān",
-          "Sunday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "北京",
-          "běi jīng",
-          "Beijing municipality, capital of the People's Republic of China (short name 京)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "请安",
-          "qǐng ān",
-          "in Qing times, a specific form of salutation (see also 打千)",
-          ""
-        ],
-        [
-          "娜",
-          "nà",
-          "used esp. in female names such as Anna 安娜 or Diana 黛安娜",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "家里",
-          "jiā lǐ",
-          "home",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明的妈妈做了一大桌子菜，有鱼，有羊肉，还有饺子。",
-      "py": "Wáng Míng de mā ma zuò le yí dà zhuō zi cài, yǒu yú, yǒu yáng ròu, hái yǒu jiǎo zi.",
-      "en": "Wang Ming's mum has cooked a whole table of food: fish, lamb and dumplings too.",
-      "tr": {
-        "vi": "Mẹ Vương Minh nấu cả một bàn đầy thức ăn, có cá, có thịt cừu, còn có sủi cảo.",
-        "pt": "A mãe de Wang Ming faz uma mesa cheia de comida: peixe, carne de carneiro e ainda jiaozi.",
-        "es": "La mamá de Wang Ming prepara una mesa llena de comida: pescado, cordero y también jiaozi.",
-        "fr": "La mère de Wang Ming a préparé une table pleine de plats : du poisson, de l’agneau, et aussi des raviolis.",
-        "am": "የዋንግ ሚንግ እናት ጠረጴዛ ሙሉ ምግብ ሠሩ፤ ዓሣ፣ የበግ ሥጋ እና ዱምፕሊንግ ነበር።"
-      },
-      "start": 9.728,
-      "end": 16.16,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "桌子",
-          "zhuō zi",
-          "table; desk",
-          ""
-        ],
-        [
-          "菜",
-          "cài",
-          "dish (of food); vegetable; greens",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "鱼",
-          "yú",
-          "fish",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "羊肉",
-          "yáng ròu",
-          "mutton; goat meat",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜说：“阿姨，您做的菜太好吃了！”",
-      "py": "Ān nà shuō: “ā yí, nín zuò de cài tài hǎo chī le!”",
-      "en": "Anna says, \"Your cooking is delicious!\"",
-      "tr": {
-        "vi": "Anna nói: “Bác ơi, bác nấu ngon quá ạ!”",
-        "pt": "Anna diz: “Tia, a sua comida está deliciosa!”",
-        "es": "Anna dice: «Señora, ¡su comida está riquísima!»",
-        "fr": "Anna dit : « Madame, votre cuisine est délicieuse ! »",
-        "am": "አና «እማማ፣ የሠሩት ምግብ በጣም ይጣፍጣል!» አለች።"
-      },
-      "start": 16.86,
-      "end": 21.396,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "菜",
-          "cài",
-          "vegetable; greens; dish (of food)",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "highest; greatest; too (much)",
-          ""
-        ],
-        [
-          "好吃",
-          "hǎo chī",
-          "tasty; delicious",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明的妈妈很高兴，在她的碗里放了很多菜。",
-      "py": "Wáng Míng de mā ma hěn gāo xìng, zài tā de wǎn lǐ fàng le hěn duō cài.",
-      "en": "Wang Ming's mum is delighted and piles lots of food into Anna's bowl.",
-      "tr": {
-        "vi": "Mẹ Vương Minh rất vui, gắp rất nhiều thức ăn vào bát của Anna.",
-        "pt": "A mãe de Wang Ming fica muito contente e põe muita comida na tigela da Anna.",
-        "es": "La mamá de Wang Ming se pone muy contenta y le sirve mucha comida en el tazón.",
-        "fr": "La mère de Wang Ming est ravie et remplit le bol d’Anna de nourriture.",
-        "am": "የዋንግ ሚንግ እናት በጣም ተደሰቱ፤ በአና ሳህን ውስጥ ብዙ ምግብ አደረጉላት።"
-      },
-      "start": 22.096,
-      "end": 26.632,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "菜",
-          "cài",
-          "dish (of food); vegetable; greens",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜很快就吃完了，碗里什么也没有了。",
-      "py": "Ān nà hěn kuài jiù chī wán le, wǎn lǐ shén me yě méi yǒu le.",
-      "en": "Anna soon finishes, and her bowl is empty.",
-      "tr": {
-        "vi": "Anna ăn hết rất nhanh, trong bát chẳng còn gì.",
-        "pt": "Anna logo termina, e a tigela fica vazia.",
-        "es": "Anna se lo come todo rápido, y el tazón queda vacío.",
-        "fr": "Anna a vite fini : il n’y a plus rien dans son bol.",
-        "am": "አና ቶሎ ጨረሰች፤ ሳህኗ ውስጥ ምንም አልቀረም።"
-      },
-      "start": 27.332,
-      "end": 31.412,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "soon; rapid; quick",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a clause of action) as soon as; immediately after",
-          ""
-        ],
-        [
-          "吃完",
-          "chī wán",
-          "to finish eating",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明的妈妈看见了，马上又给她放了很多。",
-      "py": "Wáng Míng de mā ma kàn jiàn le, mǎ shàng yòu gěi tā fàng le hěn duō.",
-      "en": "Wang Ming's mum sees this and straight away gives her lots more.",
-      "tr": {
-        "vi": "Mẹ Vương Minh thấy vậy, liền gắp thêm cho cô rất nhiều.",
-        "pt": "A mãe de Wang Ming vê e na mesma hora põe muito mais.",
-        "es": "La mamá de Wang Ming lo ve y enseguida le sirve mucho más.",
-        "fr": "La mère de Wang Ming le voit et lui en remet aussitôt beaucoup.",
-        "am": "የዋንግ ሚንግ እናት አይተው ወዲያው ብዙ ጨመሩላት።"
-      },
-      "start": 32.112,
-      "end": 36.384,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "right away; at once; immediately",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to give; to; for",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜又吃完了，王明的妈妈又给她放满了。",
-      "py": "Ān nà yòu chī wán le, Wáng Míng de mā ma yòu gěi tā fàng mǎn le.",
-      "en": "Anna finishes again, and Wang Ming's mum fills her bowl again.",
-      "tr": {
-        "vi": "Anna lại ăn hết, mẹ Vương Minh lại gắp đầy bát cho cô.",
-        "pt": "Anna termina de novo, e a mãe de Wang Ming enche a tigela de novo.",
-        "es": "Anna se lo vuelve a terminar, y la mamá de Wang Ming se lo vuelve a llenar.",
-        "fr": "Anna finit encore, et la mère de Wang Ming remplit encore son bol.",
-        "am": "አና እንደገና ጨረሰች፤ የዋንግ ሚንግ እናትም እንደገና ሞሉላት።"
-      },
-      "start": 37.084,
-      "end": 41.356,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "吃完",
-          "chī wán",
-          "to finish eating",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "满",
-          "mǎn",
-          "to fill; full; filled",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一个小时以后，安娜已经吃得很饱了，碗里还有一个饺子。",
-      "py": "yí gè xiǎo shí yǐ hòu, Ān nà yǐ jīng chī de hěn bǎo le, wǎn lǐ hái yǒu yí gè jiǎo zi.",
-      "en": "An hour later, Anna is really full, and there's still one dumpling in her bowl.",
-      "tr": {
-        "vi": "Một tiếng sau, Anna đã no căng rồi, trong bát vẫn còn một cái sủi cảo.",
-        "pt": "Uma hora depois, Anna já está muito cheia, e ainda tem um jiaozi na tigela.",
-        "es": "Una hora después, Anna ya está llenísima, y todavía le queda un jiaozi en el tazón.",
-        "fr": "Une heure plus tard, Anna n’en peut plus, et il reste encore un ravioli dans son bol.",
-        "am": "ከአንድ ሰዓት በኋላ አና በጣም ጠግባለች፤ ሳህኗ ውስጥ ግን አንድ ዱምፕሊንግ ቀርቷል።"
-      },
-      "start": 42.056,
-      "end": 47.984,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "饱",
-          "bǎo",
-          "to eat till full; satisfied",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她小声问小雨：“我不能再吃了。怎么办？”",
-      "py": "tā xiǎo shēng wèn Xiǎo yǔ: “wǒ bù néng zài chī le. zěn me bàn?”",
-      "en": "She whispers to Xiaoyu, \"I can't eat any more. What do I do?\"",
-      "tr": {
-        "vi": "Cô nói nhỏ với Tiểu Vũ: “Mình không ăn nổi nữa rồi. Làm sao bây giờ?”",
-        "pt": "Ela pergunta baixinho a Xiaoyu: “Não consigo comer mais nada. O que eu faço?”",
-        "es": "Le pregunta a Xiaoyu en voz baja: «Ya no puedo comer más. ¿Qué hago?»",
-        "fr": "Elle demande tout bas à Xiaoyu : « Je ne peux plus rien manger. Qu’est-ce que je fais ? »",
-        "am": "ሺያውዩን በሹክሹክታ «ከዚህ በላይ መብላት አልችልም። ምን ላድርግ?» አለቻት።"
-      },
-      "start": 48.684,
-      "end": 54.636,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "小声",
-          "xiǎo shēng",
-          "(speak) in whispers; in a low voice",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "再",
-          "zài",
-          "again; once more; re-; (before an adjective) more",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "怎么办",
-          "zěn me bàn",
-          "what's to be done",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨小声说：“你的碗里没有菜，阿姨就觉得你还没吃饱。”",
-      "py": "Xiǎo yǔ xiǎo shēng shuō: “nǐ de wǎn lǐ méi yǒu cài, ā yí jiù jué de nǐ hái méi chī bǎo.”",
-      "en": "Xiaoyu whispers back, \"If your bowl is empty, his mum thinks you're still hungry.\"",
-      "tr": {
-        "vi": "Tiểu Vũ nói nhỏ: “Bát cậu hết sạch thì bác ấy nghĩ cậu vẫn chưa no.”",
-        "pt": "Xiaoyu responde baixinho: “Se a sua tigela está vazia, a tia acha que você ainda está com fome.”",
-        "es": "Xiaoyu le dice en voz baja: «Si tu tazón está vacío, la señora piensa que todavía tienes hambre».",
-        "fr": "Xiaoyu répond tout bas : « Quand ton bol est vide, sa mère croit que tu as encore faim. »",
-        "am": "ሺያውዩ በሹክሹክታ «ሳህንሽ ባዶ ከሆነ እማማ ገና እንዳልጠገብሽ ያስባሉ» አለች።"
-      },
-      "start": 55.336,
-      "end": 61.768,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "小声",
-          "xiǎo shēng",
-          "(speak) in whispers; in a low voice",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "菜",
-          "cài",
-          "vegetable; greens; dish (of food)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(pattern: 就 ... 也 ...) even if ... still ...",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "吃饱",
-          "chī bǎo",
-          "to eat one's fill",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“你在碗里留一点儿，她就知道你吃饱了。”",
-      "py": "“nǐ zài wǎn lǐ liú yì diǎn r, tā jiù zhī dào nǐ chī bǎo le.”",
-      "en": "\"Leave a little in your bowl, and she'll know you're full.\"",
-      "tr": {
-        "vi": "“Cậu để lại trong bát một chút, bác ấy sẽ biết cậu no rồi.”",
-        "pt": "“Deixe um pouquinho na tigela, e ela vai saber que você já está satisfeita.”",
-        "es": "«Deja un poquito en el tazón, y así sabrá que ya estás llena».",
-        "fr": "« Laisse un peu dans ton bol, et elle saura que tu n’as plus faim. »",
-        "am": "«ሳህንሽ ውስጥ ትንሽ ብታስቀሪ እንደጠገብሽ ያውቃሉ።»"
-      },
-      "start": 62.468,
-      "end": 66.524,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "留",
-          "liú",
-          "to leave (a message etc); to retain; to stay",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "only; as little as",
-          ""
-        ],
-        [
-          "知道",
-          "zhī dào",
-          "to know; to become aware of; also pr.",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "吃饱",
-          "chī bǎo",
-          "to eat one's fill",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜放下筷子，碗里留了一个饺子。",
-      "py": "Ān nà fàng xià kuài zi, wǎn lǐ liú le yí gè jiǎo zi.",
-      "en": "Anna puts down her chopsticks, leaving one dumpling in her bowl.",
-      "tr": {
-        "vi": "Anna đặt đũa xuống, trong bát để lại một cái sủi cảo.",
-        "pt": "Anna larga os pauzinhos e deixa um jiaozi na tigela.",
-        "es": "Anna pone los palillos en la mesa y deja un jiaozi en el tazón.",
-        "fr": "Anna pose ses baguettes et laisse un ravioli dans son bol.",
-        "am": "አና ቾፕስቲኳን አስቀመጠች፤ ሳህኗ ውስጥ አንድ ዱምፕሊንግ ተወች።"
-      },
-      "start": 67.224,
-      "end": 71.04,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "放下",
-          "fàng xià",
-          "to lay down; to put down",
-          ""
-        ],
-        [
-          "筷子",
-          "kuài zi",
-          "chopsticks",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "留",
-          "liú",
-          "to leave (a message etc); to retain; to stay",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明的妈妈看了看，笑着说：“吃饱了？太好了，那我们吃水果吧！”",
-      "py": "Wáng Míng de mā ma kàn le kàn, xiào zhe shuō: “chī bǎo le? tài hǎo le, nà wǒ men chī shuǐ guǒ ba!”",
-      "en": "Wang Ming's mum takes a look and smiles. \"Full? Good! Then let's have some fruit!\"",
-      "tr": {
-        "vi": "Mẹ Vương Minh nhìn một chút, cười nói: “No rồi à? Tốt quá, thế chúng ta ăn hoa quả nhé!”",
-        "pt": "A mãe de Wang Ming olha e sorri: “Já está satisfeita? Que bom! Então vamos comer fruta!”",
-        "es": "La mamá de Wang Ming lo mira y sonríe: «¿Ya estás llena? ¡Qué bien! ¡Entonces vamos a comer fruta!»",
-        "fr": "La mère de Wang Ming jette un coup d’œil et dit en souriant : « Tu n’as plus faim ? Très bien, alors passons aux fruits ! »",
-        "am": "የዋንግ ሚንግ እናት አዩና ፈገግ ብለው «ጠገብሽ? በጣም ጥሩ፤ እንግዲያው ፍራፍሬ እንብላ!» አሉ።"
-      },
-      "start": 71.74,
-      "end": 79.78,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "吃饱",
-          "chī bǎo",
-          "to eat one's fill",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "太好了",
-          "tài hǎo le",
-          "very good",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "吃水",
-          "chī shuǐ",
-          "drinking water; to obtain water (for daily needs)",
-          ""
-        ],
-        [
-          "果",
-          "guǒ",
-          "fruit; result; resolute",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "她拿来了一大盘水果。安娜看着水果，不知道说什么好。",
-      "py": "tā ná lái le yí dà pán shuǐ guǒ. Ān nà kàn zhe shuǐ guǒ, bù zhī dào shuō shén me hǎo.",
-      "en": "She brings over a huge plate of fruit. Anna looks at it and doesn't know what to say.",
-      "tr": {
-        "vi": "Bác mang ra một đĩa hoa quả to. Anna nhìn đĩa hoa quả, không biết nói gì.",
-        "pt": "Ela traz um pratão de frutas. Anna olha para as frutas e não sabe o que dizer.",
-        "es": "Trae un plato enorme de fruta. Anna lo mira y no sabe qué decir.",
-        "fr": "Elle apporte une grande assiette de fruits. Anna la regarde et ne sait plus quoi dire.",
-        "am": "አንድ ትልቅ ሳህን ፍራፍሬ አመጡ። አና ፍራፍሬውን እያየች ምን እንደምትል ጠፋባት።"
-      },
-      "start": 80.48,
-      "end": 86.624,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "拿来",
-          "ná lái",
-          "to bring; to fetch; to get",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "盘",
-          "pán",
-          "tray; plate; dish",
-          ""
-        ],
-        [
-          "水果",
-          "shuǐ guǒ",
-          "fruit",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "水果",
-          "shuǐ guǒ",
-          "fruit",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不知",
-          "bù zhī",
-          "not to know; unaware; unknowingly",
-          ""
-        ],
-        [
-          "道",
-          "dào",
-          "to say (introducing a direct quotation, as in a novel)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 262,
-  "first": "星期天，王明的妈妈来北京看他，小雨请安娜也来家里吃饭。",
-  "newWords": [
-    {
-      "w": "饱",
-      "py": "bǎo",
-      "en": "to eat till full"
-    },
-    {
-      "w": "碗",
-      "py": "wǎn",
-      "en": "bowl"
-    },
-    {
-      "w": "马上",
-      "py": "mǎshàng",
-      "en": "right away"
-    },
-    {
-      "w": "放",
-      "py": "fàng",
-      "en": "to put"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h2-25.mp3?v=1791720645"
+  {
+   "text": "王明的妈妈做了一大桌子菜，有鱼，有羊肉，还有饺子。",
+   "py": "Wáng Míng de mā ma zuò le yí dà zhuō zi cài, yǒu yú, yǒu yáng ròu, hái yǒu jiǎo zi.",
+   "en": "Wang Ming's mum has cooked a whole table of food: fish, lamb and dumplings too.",
+   "tr": {
+    "vi": "Mẹ Vương Minh nấu cả một bàn đầy thức ăn, có cá, có thịt cừu, còn có sủi cảo.",
+    "pt": "A mãe de Wang Ming faz uma mesa cheia de comida: peixe, carne de carneiro e ainda jiaozi.",
+    "es": "La mamá de Wang Ming prepara una mesa llena de comida: pescado, cordero y también jiaozi.",
+    "fr": "La mère de Wang Ming a préparé une table pleine de plats : du poisson, de l’agneau, et aussi des raviolis.",
+    "am": "የዋንግ ሚንግ እናት ጠረጴዛ ሙሉ ምግብ ሠሩ፤ ዓሣ፣ የበግ ሥጋ እና ዱምፕሊንግ ነበር።",
+    "fa": "مامان وانگ مینگ یه میز کامل غذا درست کرده: ماهی، گوشت بره و راویولی هم هست."
+   },
+   "start": 9.728,
+   "end": 16.16,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "桌子",
+     "zhuō zi",
+     "table; desk",
+     ""
+    ],
+    [
+     "菜",
+     "cài",
+     "dish (of food); vegetable; greens",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "鱼",
+     "yú",
+     "fish",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "羊肉",
+     "yáng ròu",
+     "mutton; goat meat",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜说：“阿姨，您做的菜太好吃了！”",
+   "py": "Ān nà shuō: “ā yí, nín zuò de cài tài hǎo chī le!”",
+   "en": "Anna says, \"Your cooking is delicious!\"",
+   "tr": {
+    "vi": "Anna nói: “Bác ơi, bác nấu ngon quá ạ!”",
+    "pt": "Anna diz: “Tia, a sua comida está deliciosa!”",
+    "es": "Anna dice: «Señora, ¡su comida está riquísima!»",
+    "fr": "Anna dit : « Madame, votre cuisine est délicieuse ! »",
+    "am": "አና «እማማ፣ የሠሩት ምግብ በጣም ይጣፍጣል!» አለች።",
+    "fa": "آنا می‌گه: «خاله، آشپزی شما فوق‌العاده‌ست!»"
+   },
+   "start": 16.86,
+   "end": 21.396,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "菜",
+     "cài",
+     "vegetable; greens; dish (of food)",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "highest; greatest; too (much)",
+     ""
+    ],
+    [
+     "好吃",
+     "hǎo chī",
+     "tasty; delicious",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明的妈妈很高兴，在她的碗里放了很多菜。",
+   "py": "Wáng Míng de mā ma hěn gāo xìng, zài tā de wǎn lǐ fàng le hěn duō cài.",
+   "en": "Wang Ming's mum is delighted and piles lots of food into Anna's bowl.",
+   "tr": {
+    "vi": "Mẹ Vương Minh rất vui, gắp rất nhiều thức ăn vào bát của Anna.",
+    "pt": "A mãe de Wang Ming fica muito contente e põe muita comida na tigela da Anna.",
+    "es": "La mamá de Wang Ming se pone muy contenta y le sirve mucha comida en el tazón.",
+    "fr": "La mère de Wang Ming est ravie et remplit le bol d’Anna de nourriture.",
+    "am": "የዋንግ ሚንግ እናት በጣም ተደሰቱ፤ በአና ሳህን ውስጥ ብዙ ምግብ አደረጉላት።",
+    "fa": "مامان وانگ مینگ خوشحال می‌شه و کلی غذا می‌ذاره توی کاسه‌ی آنا."
+   },
+   "start": 22.096,
+   "end": 26.632,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "菜",
+     "cài",
+     "dish (of food); vegetable; greens",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜很快就吃完了，碗里什么也没有了。",
+   "py": "Ān nà hěn kuài jiù chī wán le, wǎn lǐ shén me yě méi yǒu le.",
+   "en": "Anna soon finishes, and her bowl is empty.",
+   "tr": {
+    "vi": "Anna ăn hết rất nhanh, trong bát chẳng còn gì.",
+    "pt": "Anna logo termina, e a tigela fica vazia.",
+    "es": "Anna se lo come todo rápido, y el tazón queda vacío.",
+    "fr": "Anna a vite fini : il n’y a plus rien dans son bol.",
+    "am": "አና ቶሎ ጨረሰች፤ ሳህኗ ውስጥ ምንም አልቀረም።",
+    "fa": "آنا خیلی زود تمومش می‌کنه و کاسه‌ش خالی می‌شه."
+   },
+   "start": 27.332,
+   "end": 31.412,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "soon; rapid; quick",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a clause of action) as soon as; immediately after",
+     ""
+    ],
+    [
+     "吃完",
+     "chī wán",
+     "to finish eating",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明的妈妈看见了，马上又给她放了很多。",
+   "py": "Wáng Míng de mā ma kàn jiàn le, mǎ shàng yòu gěi tā fàng le hěn duō.",
+   "en": "Wang Ming's mum sees this and straight away gives her lots more.",
+   "tr": {
+    "vi": "Mẹ Vương Minh thấy vậy, liền gắp thêm cho cô rất nhiều.",
+    "pt": "A mãe de Wang Ming vê e na mesma hora põe muito mais.",
+    "es": "La mamá de Wang Ming lo ve y enseguida le sirve mucho más.",
+    "fr": "La mère de Wang Ming le voit et lui en remet aussitôt beaucoup.",
+    "am": "የዋንግ ሚንግ እናት አይተው ወዲያው ብዙ ጨመሩላት።",
+    "fa": "مامان وانگ مینگ می‌بینه و همون لحظه باز براش کلی می‌ریزه."
+   },
+   "start": 32.112,
+   "end": 36.384,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "right away; at once; immediately",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to give; to; for",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜又吃完了，王明的妈妈又给她放满了。",
+   "py": "Ān nà yòu chī wán le, Wáng Míng de mā ma yòu gěi tā fàng mǎn le.",
+   "en": "Anna finishes again, and Wang Ming's mum fills her bowl again.",
+   "tr": {
+    "vi": "Anna lại ăn hết, mẹ Vương Minh lại gắp đầy bát cho cô.",
+    "pt": "Anna termina de novo, e a mãe de Wang Ming enche a tigela de novo.",
+    "es": "Anna se lo vuelve a terminar, y la mamá de Wang Ming se lo vuelve a llenar.",
+    "fr": "Anna finit encore, et la mère de Wang Ming remplit encore son bol.",
+    "am": "አና እንደገና ጨረሰች፤ የዋንግ ሚንግ እናትም እንደገና ሞሉላት።",
+    "fa": "آنا بازم تمومش می‌کنه و مامان وانگ مینگ بازم پروش می‌کنه."
+   },
+   "start": 37.084,
+   "end": 41.356,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "吃完",
+     "chī wán",
+     "to finish eating",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "满",
+     "mǎn",
+     "to fill; full; filled",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一个小时以后，安娜已经吃得很饱了，碗里还有一个饺子。",
+   "py": "yí gè xiǎo shí yǐ hòu, Ān nà yǐ jīng chī de hěn bǎo le, wǎn lǐ hái yǒu yí gè jiǎo zi.",
+   "en": "An hour later, Anna is really full, and there's still one dumpling in her bowl.",
+   "tr": {
+    "vi": "Một tiếng sau, Anna đã no căng rồi, trong bát vẫn còn một cái sủi cảo.",
+    "pt": "Uma hora depois, Anna já está muito cheia, e ainda tem um jiaozi na tigela.",
+    "es": "Una hora después, Anna ya está llenísima, y todavía le queda un jiaozi en el tazón.",
+    "fr": "Une heure plus tard, Anna n’en peut plus, et il reste encore un ravioli dans son bol.",
+    "am": "ከአንድ ሰዓት በኋላ አና በጣም ጠግባለች፤ ሳህኗ ውስጥ ግን አንድ ዱምፕሊንግ ቀርቷል።",
+    "fa": "یه ساعت بعد آنا حسابی سیره ولی هنوز یه راویولی توی کاسه‌ش مونده."
+   },
+   "start": 42.056,
+   "end": 47.984,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "饱",
+     "bǎo",
+     "to eat till full; satisfied",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她小声问小雨：“我不能再吃了。怎么办？”",
+   "py": "tā xiǎo shēng wèn Xiǎo yǔ: “wǒ bù néng zài chī le. zěn me bàn?”",
+   "en": "She whispers to Xiaoyu, \"I can't eat any more. What do I do?\"",
+   "tr": {
+    "vi": "Cô nói nhỏ với Tiểu Vũ: “Mình không ăn nổi nữa rồi. Làm sao bây giờ?”",
+    "pt": "Ela pergunta baixinho a Xiaoyu: “Não consigo comer mais nada. O que eu faço?”",
+    "es": "Le pregunta a Xiaoyu en voz baja: «Ya no puedo comer más. ¿Qué hago?»",
+    "fr": "Elle demande tout bas à Xiaoyu : « Je ne peux plus rien manger. Qu’est-ce que je fais ? »",
+    "am": "ሺያውዩን በሹክሹክታ «ከዚህ በላይ መብላት አልችልም። ምን ላድርግ?» አለቻት።",
+    "fa": "آروم از شیائویو می‌پرسه: «دیگه نمی‌تونم بخورم. حالا چ‌یکار کنم؟»"
+   },
+   "start": 48.684,
+   "end": 54.636,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "小声",
+     "xiǎo shēng",
+     "(speak) in whispers; in a low voice",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "再",
+     "zài",
+     "again; once more; re-; (before an adjective) more",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "怎么办",
+     "zěn me bàn",
+     "what's to be done",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨小声说：“你的碗里没有菜，阿姨就觉得你还没吃饱。”",
+   "py": "Xiǎo yǔ xiǎo shēng shuō: “nǐ de wǎn lǐ méi yǒu cài, ā yí jiù jué de nǐ hái méi chī bǎo.”",
+   "en": "Xiaoyu whispers back, \"If your bowl is empty, his mum thinks you're still hungry.\"",
+   "tr": {
+    "vi": "Tiểu Vũ nói nhỏ: “Bát cậu hết sạch thì bác ấy nghĩ cậu vẫn chưa no.”",
+    "pt": "Xiaoyu responde baixinho: “Se a sua tigela está vazia, a tia acha que você ainda está com fome.”",
+    "es": "Xiaoyu le dice en voz baja: «Si tu tazón está vacío, la señora piensa que todavía tienes hambre».",
+    "fr": "Xiaoyu répond tout bas : « Quand ton bol est vide, sa mère croit que tu as encore faim. »",
+    "am": "ሺያውዩ በሹክሹክታ «ሳህንሽ ባዶ ከሆነ እማማ ገና እንዳልጠገብሽ ያስባሉ» አለች።",
+    "fa": "شیائویو آروم جواب می‌ده: «اگه کاسه‌ت خالی باشه، مامانش فکر می‌کنه هنوز گشنته.»"
+   },
+   "start": 55.336,
+   "end": 61.768,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "小声",
+     "xiǎo shēng",
+     "(speak) in whispers; in a low voice",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "菜",
+     "cài",
+     "vegetable; greens; dish (of food)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(pattern: 就 ... 也 ...) even if ... still ...",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "吃饱",
+     "chī bǎo",
+     "to eat one's fill",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“你在碗里留一点儿，她就知道你吃饱了。”",
+   "py": "“nǐ zài wǎn lǐ liú yì diǎn r, tā jiù zhī dào nǐ chī bǎo le.”",
+   "en": "\"Leave a little in your bowl, and she'll know you're full.\"",
+   "tr": {
+    "vi": "“Cậu để lại trong bát một chút, bác ấy sẽ biết cậu no rồi.”",
+    "pt": "“Deixe um pouquinho na tigela, e ela vai saber que você já está satisfeita.”",
+    "es": "«Deja un poquito en el tazón, y así sabrá que ya estás llena».",
+    "fr": "« Laisse un peu dans ton bol, et elle saura que tu n’as plus faim. »",
+    "am": "«ሳህንሽ ውስጥ ትንሽ ብታስቀሪ እንደጠገብሽ ያውቃሉ።»",
+    "fa": "«یه کمی غذا توی کاسه‌ت بذار بمونه تا بفهمه سیر شدی.»"
+   },
+   "start": 62.468,
+   "end": 66.524,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "留",
+     "liú",
+     "to leave (a message etc); to retain; to stay",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "only; as little as",
+     ""
+    ],
+    [
+     "知道",
+     "zhī dào",
+     "to know; to become aware of; also pr.",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "吃饱",
+     "chī bǎo",
+     "to eat one's fill",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜放下筷子，碗里留了一个饺子。",
+   "py": "Ān nà fàng xià kuài zi, wǎn lǐ liú le yí gè jiǎo zi.",
+   "en": "Anna puts down her chopsticks, leaving one dumpling in her bowl.",
+   "tr": {
+    "vi": "Anna đặt đũa xuống, trong bát để lại một cái sủi cảo.",
+    "pt": "Anna larga os pauzinhos e deixa um jiaozi na tigela.",
+    "es": "Anna pone los palillos en la mesa y deja un jiaozi en el tazón.",
+    "fr": "Anna pose ses baguettes et laisse un ravioli dans son bol.",
+    "am": "አና ቾፕስቲኳን አስቀመጠች፤ ሳህኗ ውስጥ አንድ ዱምፕሊንግ ተወች።",
+    "fa": "آنا چاپستیک رو می‌ذاره زمین و یه راویولی توی کاسه می‌ذاره."
+   },
+   "start": 67.224,
+   "end": 71.04,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "放下",
+     "fàng xià",
+     "to lay down; to put down",
+     ""
+    ],
+    [
+     "筷子",
+     "kuài zi",
+     "chopsticks",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "留",
+     "liú",
+     "to leave (a message etc); to retain; to stay",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明的妈妈看了看，笑着说：“吃饱了？太好了，那我们吃水果吧！”",
+   "py": "Wáng Míng de mā ma kàn le kàn, xiào zhe shuō: “chī bǎo le? tài hǎo le, nà wǒ men chī shuǐ guǒ ba!”",
+   "en": "Wang Ming's mum takes a look and smiles. \"Full? Good! Then let's have some fruit!\"",
+   "tr": {
+    "vi": "Mẹ Vương Minh nhìn một chút, cười nói: “No rồi à? Tốt quá, thế chúng ta ăn hoa quả nhé!”",
+    "pt": "A mãe de Wang Ming olha e sorri: “Já está satisfeita? Que bom! Então vamos comer fruta!”",
+    "es": "La mamá de Wang Ming lo mira y sonríe: «¿Ya estás llena? ¡Qué bien! ¡Entonces vamos a comer fruta!»",
+    "fr": "La mère de Wang Ming jette un coup d’œil et dit en souriant : « Tu n’as plus faim ? Très bien, alors passons aux fruits ! »",
+    "am": "የዋንግ ሚንግ እናት አዩና ፈገግ ብለው «ጠገብሽ? በጣም ጥሩ፤ እንግዲያው ፍራፍሬ እንብላ!» አሉ።",
+    "fa": "مامان وانگ مینگ نگاهی می‌کنه و با لبخند می‌گه: «سیر شدی؟ عالیه، پس بیاید میوه بخوریم!»"
+   },
+   "start": 71.74,
+   "end": 79.78,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "吃饱",
+     "chī bǎo",
+     "to eat one's fill",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "太好了",
+     "tài hǎo le",
+     "very good",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "吃水",
+     "chī shuǐ",
+     "drinking water; to obtain water (for daily needs)",
+     ""
+    ],
+    [
+     "果",
+     "guǒ",
+     "fruit; result; resolute",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "她拿来了一大盘水果。安娜看着水果，不知道说什么好。",
+   "py": "tā ná lái le yí dà pán shuǐ guǒ. Ān nà kàn zhe shuǐ guǒ, bù zhī dào shuō shén me hǎo.",
+   "en": "She brings over a huge plate of fruit. Anna looks at it and doesn't know what to say.",
+   "tr": {
+    "vi": "Bác mang ra một đĩa hoa quả to. Anna nhìn đĩa hoa quả, không biết nói gì.",
+    "pt": "Ela traz um pratão de frutas. Anna olha para as frutas e não sabe o que dizer.",
+    "es": "Trae un plato enorme de fruta. Anna lo mira y no sabe qué decir.",
+    "fr": "Elle apporte une grande assiette de fruits. Anna la regarde et ne sait plus quoi dire.",
+    "am": "አንድ ትልቅ ሳህን ፍራፍሬ አመጡ። አና ፍራፍሬውን እያየች ምን እንደምትል ጠፋባት።",
+    "fa": "یه بشقاب بزرگ میوه میاره. آنا به میوه‌ها نگاه می‌کنه و نمی‌دونه چی بگه."
+   },
+   "start": 80.48,
+   "end": 86.624,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "拿来",
+     "ná lái",
+     "to bring; to fetch; to get",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "盘",
+     "pán",
+     "tray; plate; dish",
+     ""
+    ],
+    [
+     "水果",
+     "shuǐ guǒ",
+     "fruit",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "水果",
+     "shuǐ guǒ",
+     "fruit",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不知",
+     "bù zhī",
+     "not to know; unaware; unknowingly",
+     ""
+    ],
+    [
+     "道",
+     "dào",
+     "to say (introducing a direct quotation, as in a novel)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 262,
+ "first": "星期天，王明的妈妈来北京看他，小雨请安娜也来家里吃饭。",
+ "newWords": [
+  {
+   "w": "饱",
+   "py": "bǎo",
+   "en": "to eat till full"
+  },
+  {
+   "w": "碗",
+   "py": "wǎn",
+   "en": "bowl"
+  },
+  {
+   "w": "马上",
+   "py": "mǎshàng",
+   "en": "right away"
+  },
+  {
+   "w": "放",
+   "py": "fàng",
+   "en": "to put"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h2-25.mp3?v=1791720645"
 }

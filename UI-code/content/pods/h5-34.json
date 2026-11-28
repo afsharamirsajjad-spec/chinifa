@@ -1,1928 +1,1947 @@
 {
-  "id": "h5-34",
-  "level": 5,
-  "no": 34,
-  "title": "认不出来",
-  "title_py": "rèn bù chū lái",
-  "title_en": "It doesn't know me",
-  "title_tr": {
-    "am": "አላወቀኝም",
-    "fa": "سیستم تشخیص چهره مرا نمی‌شناسد!"
+ "id": "h5-34",
+ "level": 5,
+ "no": 34,
+ "title": "认不出来",
+ "title_py": "rèn bù chū lái",
+ "title_en": "It doesn't know me",
+ "title_tr": {
+  "am": "አላወቀኝም",
+  "fa": "سیستم تشخیص چهره مرا نمی‌شناسد!"
+ },
+ "topic": "work",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h5-34.jpg",
+ "duration": 118.424,
+ "lines": [
+  {
+   "text": "公司门口安装了一台新设备：刷脸打卡机。",
+   "py": "gōng sī mén kǒu ān zhuāng le yì tái xīn shè bèi: shuā liǎn dǎ kǎ jī.",
+   "en": "A new device has been installed at the company entrance: a face-scanning clock-in machine.",
+   "tr": {
+    "am": "በኩባንያው በር ላይ አዲስ መሣሪያ ተገጠመ፦ ፊት በመቃኘት የመግቢያ ሰዓት የሚመዘግብ ማሽን።",
+    "fa": "یه دستگاه جدید دم ورودی شرکت نصب شده: یه دستگاه ثبت حضور با اسکن چهره."
+   },
+   "start": 2.404,
+   "end": 6.964,
+   "tokens": [
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "门口",
+     "mén kǒu",
+     "doorway; gate",
+     ""
+    ],
+    [
+     "安装",
+     "ān zhuāng",
+     "to install; to erect; to fix",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "台",
+     "tái",
+     "classifier for vehicles or machines",
+     ""
+    ],
+    [
+     "新",
+     "xīn",
+     "new; newly; meso- (chemistry)",
+     ""
+    ],
+    [
+     "设备",
+     "shè bèi",
+     "equipment; facilities; installations",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "刷脸",
+     "shuā liǎn",
+     "to scan one's face (for identity verification)",
+     ""
+    ],
+    [
+     "打卡",
+     "dǎ kǎ",
+     "(of an employee) to clock on (or off); to punch in (or out)",
+     ""
+    ],
+    [
+     "机",
+     "jī",
+     "(bound form) machine; mechanism; (bound form) aircraft",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h5-34.jpg",
-  "duration": 118.424,
-  "lines": [
-    {
-      "text": "公司门口安装了一台新设备：刷脸打卡机。",
-      "py": "gōng sī mén kǒu ān zhuāng le yì tái xīn shè bèi: shuā liǎn dǎ kǎ jī.",
-      "en": "A new device has been installed at the company entrance: a face-scanning clock-in machine.",
-      "tr": {
-        "am": "በኩባንያው በር ላይ አዲስ መሣሪያ ተገጠመ፦ ፊት በመቃኘት የመግቢያ ሰዓት የሚመዘግብ ማሽን።"
-      },
-      "start": 2.404,
-      "end": 6.964,
-      "tokens": [
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "门口",
-          "mén kǒu",
-          "doorway; gate",
-          ""
-        ],
-        [
-          "安装",
-          "ān zhuāng",
-          "to install; to erect; to fix",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "台",
-          "tái",
-          "classifier for vehicles or machines",
-          ""
-        ],
-        [
-          "新",
-          "xīn",
-          "new; newly; meso- (chemistry)",
-          ""
-        ],
-        [
-          "设备",
-          "shè bèi",
-          "equipment; facilities; installations",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "刷脸",
-          "shuā liǎn",
-          "to scan one's face (for identity verification)",
-          ""
-        ],
-        [
-          "打卡",
-          "dǎ kǎ",
-          "(of an employee) to clock on (or off); to punch in (or out)",
-          ""
-        ],
-        [
-          "机",
-          "jī",
-          "(bound form) machine; mechanism; (bound form) aircraft",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "以后上班不用刷卡了，只要在机器前面站一下，系统就能认出你是谁。",
-      "py": "yǐ hòu shàng bān bú yòng shuā kǎ le, zhǐ yào zài jī qì qián mian zhàn yí xià, xì tǒng jiù néng rèn chū nǐ shì shéi.",
-      "en": "From now on there's no need to swipe a card. You just stand in front of the machine, and the system recognises who you are.",
-      "tr": {
-        "am": "ከአሁን በኋላ ወደ ሥራ ሲገቡ ካርድ ማስነካት አያስፈልግም፣ ማሽኑ ፊት ትንሽ ከቆምክ ሥርዓቱ ማን እንደሆንክ ያውቃል።"
-      },
-      "start": 7.664,
-      "end": 14.552,
-      "tokens": [
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "上班",
-          "shàng bān",
-          "to go to work; to be on duty; to start work",
-          ""
-        ],
-        [
-          "不用",
-          "bù yòng",
-          "need not",
-          ""
-        ],
-        [
-          "刷卡",
-          "shuā kǎ",
-          "to use a credit card (or swipe card, smart card etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只要",
-          "zhǐ yào",
-          "so long as; provided; if",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "机器",
-          "jī qì",
-          "machine",
-          ""
-        ],
-        [
-          "前面",
-          "qián miàn",
-          "in front; ahead; preceding",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "一下",
-          "yī xià",
-          "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "系统",
-          "xì tǒng",
-          "system",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "认出",
-          "rèn chū",
-          "recognition; to recognize",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "谁",
-          "shéi",
-          "who; also pr.",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "拍照片那天是星期一早上八点，大家都还没睡醒。",
-      "py": "pāi zhào piàn nà tiān shì xīng qī yì zǎo shang bā diǎn, dà jiā dōu hái méi shuì xǐng.",
-      "en": "The photos were taken at eight on a Monday morning, when nobody was properly awake yet.",
-      "tr": {
-        "am": "ፎቶ የተነሡበት ቀን ሰኞ ጠዋት 8:00 ነበር፣ ሁሉም ገና በደንብ አልነቁም ነበር።"
-      },
-      "start": 15.252,
-      "end": 20.724,
-      "tokens": [
-        [
-          "拍照",
-          "pāi zhào",
-          "to take a picture",
-          ""
-        ],
-        [
-          "片",
-          "piàn",
-          "thin piece; flake; a slice",
-          ""
-        ],
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "星期一",
-          "xīng qī yī",
-          "Monday",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "yet; still; still in progress",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "睡醒",
-          "shuì xǐng",
-          "to wake up",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "那天下班以后，杰克去理发店把头发剪得很短，还把胡子刮得干干净净。",
-      "py": "nà tiān xià bān yǐ hòu, Jié kè qù lǐ fà diàn bǎ tóu fa jiǎn de hěn duǎn, hái bǎ hú zi guā de gān gān jìng jìng.",
-      "en": "After work that day, Jack gets a very short haircut and shaves his beard right off.",
-      "tr": {
-        "am": "በዚያ ቀን ከሥራ በኋላ ጃክ ወደ ፀጉር ቤት ሄዶ ፀጉሩን በጣም አሳጠረ፣ ጢሙንም ጥርግ አድርጎ ተላጨ።"
-      },
-      "start": 21.424,
-      "end": 29.272,
-      "tokens": [
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "下班",
-          "xià bān",
-          "to finish work; to get off work",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; afterwards; later",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "理发店",
-          "lǐ fà diàn",
-          "barbershop; hairdresser's",
-          ""
-        ],
-        [
-          "把头",
-          "bǎ tóu",
-          "labor contractor; gangmaster",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "剪",
-          "jiǎn",
-          "(bound form) scissors or similar tool",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "短",
-          "duǎn",
-          "short; brief; to lack",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "胡子",
-          "hú zi",
-          "beard; facial hair; mustache or whiskers",
-          ""
-        ],
-        [
-          "刮",
-          "guā",
-          "to shave; to scrape; to blow",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "干",
-          "gān",
-          "dry; dried food; empty; hollow",
-          ""
-        ],
-        [
-          "干净",
-          "gān jìng",
-          "clean; neat",
-          ""
-        ],
-        [
-          "净",
-          "jìng",
-          "clean; completely; only",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "第二天早上，他高高兴兴地站到机器前面，机器却说：“对不起，无法识别。”",
-      "py": "dì èr tiān zǎo shang, tā gāo gāo xìng xìng de zhàn dào jī qì qián mian, jī qì què shuō: “duì bu qǐ, wú fǎ shí bié.”",
-      "en": "The next morning, he cheerfully steps in front of the machine, but it says, \"Sorry, unable to recognise.\"",
-      "tr": {
-        "am": "በማግሥቱ ጠዋት በደስታ ማሽኑ ፊት ቆመ፣ ማሽኑ ግን አለ፦ «ይቅርታ፣ መለየት አልተቻለም።»"
-      },
-      "start": 29.972,
-      "end": 38.012,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "高高兴兴",
-          "gāo gāo xìng xìng",
-          "cheerful and optimistic; in a good mood; gaily",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "station; to stand; to halt",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "机器",
-          "jī qì",
-          "machine",
-          ""
-        ],
-        [
-          "前面",
-          "qián miàn",
-          "in front; ahead; preceding",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "机器",
-          "jī qì",
-          "machine",
-          ""
-        ],
-        [
-          "却",
-          "què",
-          "but; yet; however",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "对不起",
-          "duì bu qǐ",
-          "I'm sorry; excuse me; I beg your pardon",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "无法",
-          "wú fǎ",
-          "unable to; incapable of",
-          ""
-        ],
-        [
-          "识别",
-          "shí bié",
-          "to distinguish; to discern; to identify; to recognize",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "他又试了一次，还是一样。",
-      "py": "tā yòu shì le yí cì, hái shi yí yàng.",
-      "en": "He tries again. Same result.",
-      "tr": {
-        "am": "እንደገና ሞከረ፣ አሁንም እንደዚያው ነበር።"
-      },
-      "start": 38.712,
-      "end": 41.568,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "试",
-          "shì",
-          "to test; to try; experiment",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一次",
-          "yī cì",
-          "first; first time; once",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "一样",
-          "yī yàng",
-          "same; the same as; like",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨在后面说：“你笑一笑试试。”",
-      "py": "Xiǎo yǔ zài hòu mian shuō: “nǐ xiào yí xiào shì shì.”",
-      "en": "Xiaoyu says from behind him, \"Try smiling.\"",
-      "tr": {
-        "am": "ሺያውዩ ከኋላው አለች፦ «ፈገግ ብለህ ሞክር።»"
-      },
-      "start": 42.268,
-      "end": 45.844,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "在后",
-          "zài hòu",
-          "behind",
-          ""
-        ],
-        [
-          "面",
-          "miàn",
-          "face; side; surface",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "试",
-          "shì",
-          "to try; to test; experiment",
-          ""
-        ],
-        [
-          "试",
-          "shì",
-          "to try; to test; experiment",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克笑了，机器还是不认识他。",
-      "py": "Jié kè xiào le, jī qì hái shi bú rèn shi tā.",
-      "en": "Jack smiles, and the machine still doesn't know him.",
-      "tr": {
-        "am": "ጃክ ፈገግ አለ፣ ማሽኑ ግን አሁንም አላወቀውም።"
-      },
-      "start": 46.544,
-      "end": 50.144,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "机器",
-          "jī qì",
-          "machine",
-          ""
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "认识",
-          "rèn shi",
-          "to know; knowledge; to recognize",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他把脸凑近一点儿，又往后退一步，往左转，往右转，机器都不理他。",
-      "py": "tā bǎ liǎn còu jìn yì diǎn r, yòu wǎng hòu tuì yí bù, wǎng zuǒ zhuàn, wǎng yòu zhuàn, jī qì dōu bù lǐ tā.",
-      "en": "He leans in closer, steps back, turns left, turns right, and the machine ignores him every time.",
-      "tr": {
-        "am": "ፊቱን ትንሽ አስጠጋ፣ አንድ እርምጃ ወደ ኋላ ተመለሰ፣ ወደ ግራ ዞረ፣ ወደ ቀኝ ዞረ፣ ማሽኑ ግን ዝም አለው።"
-      },
-      "start": 50.844,
-      "end": 58.404,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "脸",
-          "liǎn",
-          "face",
-          ""
-        ],
-        [
-          "凑近",
-          "còu jìn",
-          "to lean close to; to approach",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "往后",
-          "wǎng hòu",
-          "time to come; from now on; in the future",
-          ""
-        ],
-        [
-          "退",
-          "tuì",
-          "to retreat; to withdraw; to reject; to return (sth)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "步",
-          "bù",
-          "a step; a pace; walk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "往",
-          "wǎng",
-          "to go (in a direction); to; towards",
-          ""
-        ],
-        [
-          "左转",
-          "zuǒ zhuǎn",
-          "to turn left",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "往",
-          "wǎng",
-          "to go (in a direction); to; towards",
-          ""
-        ],
-        [
-          "右转",
-          "yòu zhuǎn",
-          "to turn right",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "机器",
-          "jī qì",
-          "machine",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "不理",
-          "bù lǐ",
-          "to ignore; to refuse to acknowledge; to pay no attention to",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "后面排队的同事越来越多，大家都忍不住笑了。",
-      "py": "hòu mian pái duì de tóng shì yuè lái yuè duō, dà jiā dōu rěn bu zhù xiào le.",
-      "en": "The queue of colleagues behind him grows longer and longer, and they can't help laughing.",
-      "tr": {
-        "am": "ከኋላው የተሰለፉት ባልደረቦች እየበዙ ሄዱ፣ ሁሉም ሳቃቸውን መቆጣጠር አቃታቸው።"
-      },
-      "start": 59.104,
-      "end": 63.856,
-      "tokens": [
-        [
-          "后面",
-          "hòu mian",
-          "behind; near the end; at the back",
-          ""
-        ],
-        [
-          "排队",
-          "pái duì",
-          "to line up",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "同事",
-          "tóng shì",
-          "colleague; co-worker",
-          ""
-        ],
-        [
-          "越来越",
-          "yuè lái yuè",
-          "more and more",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "忍不住",
-          "rěn bu zhù",
-          "cannot help; unable to bear",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这时候，周经理走过来，看了看杰克，又看了看系统里他的照片。",
-      "py": "zhè shí hou, Zhōu jīng lǐ zǒu guò lái, kàn le kàn Jié kè, yòu kàn le kàn xì tǒng lǐ tā de zhào piàn.",
-      "en": "Just then, Manager Zhou comes over, looks at Jack, then looks at his photo in the system.",
-      "tr": {
-        "am": "በዚህ ጊዜ ሥራ አስኪያጅ ጆው መጥታ ጃክን አየች፣ በሥርዓቱ ውስጥ ያለውን ፎቶውንም አየች።"
-      },
-      "start": 64.556,
-      "end": 71.9,
-      "tokens": [
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "候",
-          "hòu",
-          "to wait; to inquire after; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "all over; Zhou Dynasty (1046–256 BC); to make a circuit",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "走过",
-          "zǒu guò",
-          "to walk past; to pass by",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "系统",
-          "xì tǒng",
-          "system",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "照片上的杰克头发乱乱的，眼睛半睁半闭，一脸没睡醒的表情。",
-      "py": "zhào piàn shàng de Jié kè tóu fa luàn luàn de, yǎn jing bàn zhēng bàn bì, yì liǎn méi shuì xǐng de biǎo qíng.",
-      "en": "In the photo, Jack's hair is a mess, his eyes are half closed, and his face is still half asleep.",
-      "tr": {
-        "am": "በፎቶው ላይ ጃክ ፀጉሩ የተመሰቃቀለ፣ ዓይኖቹ ግማሽ የተከፈቱ፣ ፊቱም ገና ከእንቅልፍ ያልነቃ ይመስል ነበር።"
-      },
-      "start": 72.6,
-      "end": 79.728,
-      "tokens": [
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "头发",
-          "tóu fa",
-          "hair (on the head)",
-          ""
-        ],
-        [
-          "乱",
-          "luàn",
-          "in confusion or disorder; in a confused state of mind",
-          ""
-        ],
-        [
-          "乱",
-          "luàn",
-          "in confusion or disorder; in a confused state of mind",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "眼睛",
-          "yǎn jing",
-          "eye",
-          ""
-        ],
-        [
-          "半",
-          "bàn",
-          "half; (after a number) and a half; semi-",
-          ""
-        ],
-        [
-          "睁",
-          "zhēng",
-          "to open (one's eyes)",
-          ""
-        ],
-        [
-          "半",
-          "bàn",
-          "half; (after a number) and a half; semi-",
-          ""
-        ],
-        [
-          "闭",
-          "bì",
-          "to close; to stop up; to shut",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "脸",
-          "liǎn",
-          "face",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "睡醒",
-          "shuì xǐng",
-          "to wake up",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "表情",
-          "biǎo qíng",
-          "(facial) expression; to express one's feelings",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理说：“你做一个照片上的表情试试。”",
-      "py": "Zhōu jīng lǐ shuō: “nǐ zuò yí gè zhào piàn shàng de biǎo qíng shì shì.”",
-      "en": "Manager Zhou says, \"Try making the face in your photo.\"",
-      "tr": {
-        "am": "ሥራ አስኪያጅ ጆው አለች፦ «በፎቶው ላይ ያለውን ፊት አድርገህ ሞክር።»"
-      },
-      "start": 80.428,
-      "end": 84.7,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "表情",
-          "biǎo qíng",
-          "(facial) expression; to express one's feelings",
-          ""
-        ],
-        [
-          "试",
-          "shì",
-          "to try; to test; experiment",
-          ""
-        ],
-        [
-          "试",
-          "shì",
-          "to try; to test; experiment",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克只好把眼睛眯起来，张大嘴巴，好像马上就要睡着了。",
-      "py": "Jié kè zhǐ hǎo bǎ yǎn jing mī qǐ lái, zhāng dà zuǐ bā, hǎo xiàng mǎ shàng jiù yào shuì zháo le.",
-      "en": "Jack has no choice but to squint his eyes and open his mouth wide, as if he's about to nod off.",
-      "tr": {
-        "am": "ጃክ ሳይወድ ዓይኖቹን አጨናነቀ፣ አፉን ከፈተ፣ ሊያንቀላፋ የደረሰ ይመስል።"
-      },
-      "start": 85.4,
-      "end": 91.808,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "只好",
-          "zhǐ hǎo",
-          "to have no other option but to ...; to have to; to be forced to",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "眼睛",
-          "yǎn jing",
-          "eye",
-          ""
-        ],
-        [
-          "眯",
-          "mī",
-          "to narrow one's eyes; to squint; (dialect) to take a nap",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "大嘴巴",
-          "dà zuǐ ba",
-          "bigmouth; blabbermouth",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "好像",
-          "hǎo xiàng",
-          "as if; to seem like",
-          ""
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "at once; right away; immediately",
-          ""
-        ],
-        [
-          "就要",
-          "jiù yào",
-          "will; shall; to be going to",
-          ""
-        ],
-        [
-          "睡着",
-          "shuì zháo",
-          "to fall asleep",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "机器“嘀”的一声：“杰克，早上好！”",
-      "py": "jī qì “dí” de yì shēng: “Jié kè, zǎo shang hǎo!”",
-      "en": "The machine beeps. \"Good morning, Jack!\"",
-      "tr": {
-        "am": "ማሽኑ «ቲክ» አለ፦ «ጃክ፣ እንደምን አደርክ!»"
-      },
-      "start": 92.508,
-      "end": 96.324,
-      "tokens": [
-        [
-          "机器",
-          "jī qì",
-          "machine",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "嘀",
-          "dī",
-          "(onom.) sound of dripping water, a ticking clock etc",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "一声",
-          "yī shēng",
-          "first tone in Mandarin (high, level tone)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "早上好",
-          "zǎo shang hǎo",
-          "Good morning!",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "大家都笑得不行了。",
-      "py": "dà jiā dōu xiào de bù xíng le.",
-      "en": "Everyone is in fits of laughter.",
-      "tr": {
-        "am": "ሁሉም ከመሳቅ ብዛት ተንፈራፈሩ።"
-      },
-      "start": 97.024,
-      "end": 99.208,
-      "tokens": [
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "不行了",
-          "bù xíng le",
-          "(coll.) on the point of death; dying",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理说：“原来系统只认识每天早上的杰克。”",
-      "py": "Zhōu jīng lǐ shuō: “yuán lái xì tǒng zhǐ rèn shi měi tiān zǎo shang de Jié kè.”",
-      "en": "Manager Zhou says, \"So the system only knows the Jack we see every morning.\"",
-      "tr": {
-        "am": "ሥራ አስኪያጅ ጆው አለች፦ «ለካ ሥርዓቱ የሚያውቀው የየጠዋቱን ጃክ ብቻ ነው።»"
-      },
-      "start": 99.908,
-      "end": 104.9,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "原来",
-          "yuán lái",
-          "original; former; originally; formerly; at first",
-          ""
-        ],
-        [
-          "系统",
-          "xì tǒng",
-          "system",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "认识",
-          "rèn shi",
-          "to know; to recognize; to be familiar with",
-          ""
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "后来，公司让杰克重新拍了一张照片，那次是下午拍的，他精神特别好。",
-      "py": "hòu lái, gōng sī ràng Jié kè chóng xīn pāi le yì zhāng zhào piàn, nà cì shì xià wǔ pāi de, tā jīng shén tè bié hǎo.",
-      "en": "Later, the company has Jack retake his photo. This time it's taken in the afternoon, when he's wide awake.",
-      "tr": {
-        "am": "በኋላ ኩባንያው ጃክ እንደገና ፎቶ እንዲነሣ አደረገ። በዚህ ጊዜ የተነሣው ከሰዓት በኋላ ነበር፣ እሱም በጣም ንቁ ነበር።"
-      },
-      "start": 105.6,
-      "end": 112.968,
-      "tokens": [
-        [
-          "后来",
-          "hòu lái",
-          "afterwards; later; newly arrived",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "让",
-          "ràng",
-          "to yield; to permit; to let sb do sth",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "重新",
-          "chóng xīn",
-          "again; once more; re-",
-          ""
-        ],
-        [
-          "拍",
-          "pāi",
-          "to take (a photo); to pat; to clap",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "次",
-          "cì",
-          "classifier for enumerated events: time",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "拍",
-          "pāi",
-          "to take (a photo); to pat; to clap",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "精神",
-          "jīng shén",
-          "spirit; mind; consciousness",
-          ""
-        ],
-        [
-          "特别",
-          "tè bié",
-          "unusual; special; very; especially; particularly",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "(after a personal pronoun) hello; good; appropriate; proper",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "可是第二天早上，机器又不认识他了。",
-      "py": "kě shì dì èr tiān zǎo shang, jī qì yòu bú rèn shi tā le.",
-      "en": "But the next morning, the machine doesn't recognise him again.",
-      "tr": {
-        "am": "ግን በማግሥቱ ጠዋት ማሽኑ እንደገና አላወቀውም።"
-      },
-      "start": 113.668,
-      "end": 117.724,
-      "tokens": [
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "机器",
-          "jī qì",
-          "machine",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "认识",
-          "rèn shi",
-          "to know; to recognize; to be familiar with",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 370,
-  "first": "公司门口安装了一台新设备：刷脸打卡机。",
-  "newWords": [
-    {
-      "w": "安装",
-      "py": "ānzhuāng",
-      "en": "set up device"
-    },
-    {
-      "w": "设备",
-      "py": "shèbèi",
-      "en": "tools or machines"
-    },
-    {
-      "w": "系统",
-      "py": "xìtǒng",
-      "en": "connected working parts"
-    },
-    {
-      "w": "表情",
-      "py": "biǎoqíng",
-      "en": "facial movements showing emotion"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h5-34.mp3?v=1791721500"
+  {
+   "text": "以后上班不用刷卡了，只要在机器前面站一下，系统就能认出你是谁。",
+   "py": "yǐ hòu shàng bān bú yòng shuā kǎ le, zhǐ yào zài jī qì qián mian zhàn yí xià, xì tǒng jiù néng rèn chū nǐ shì shéi.",
+   "en": "From now on there's no need to swipe a card. You just stand in front of the machine, and the system recognises who you are.",
+   "tr": {
+    "am": "ከአሁን በኋላ ወደ ሥራ ሲገቡ ካርድ ማስነካት አያስፈልግም፣ ማሽኑ ፊት ትንሽ ከቆምክ ሥርዓቱ ማን እንደሆንክ ያውቃል።",
+    "fa": "از این به بعد دیگه لازم نیست کارت کشید. فقط جلوی دستگاه می‌ایستی و سیستم تشخیص می‌ده کی هستی."
+   },
+   "start": 7.664,
+   "end": 14.552,
+   "tokens": [
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "上班",
+     "shàng bān",
+     "to go to work; to be on duty; to start work",
+     ""
+    ],
+    [
+     "不用",
+     "bù yòng",
+     "need not",
+     ""
+    ],
+    [
+     "刷卡",
+     "shuā kǎ",
+     "to use a credit card (or swipe card, smart card etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只要",
+     "zhǐ yào",
+     "so long as; provided; if",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "机器",
+     "jī qì",
+     "machine",
+     ""
+    ],
+    [
+     "前面",
+     "qián miàn",
+     "in front; ahead; preceding",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "一下",
+     "yī xià",
+     "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "系统",
+     "xì tǒng",
+     "system",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "认出",
+     "rèn chū",
+     "recognition; to recognize",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "谁",
+     "shéi",
+     "who; also pr.",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "拍照片那天是星期一早上八点，大家都还没睡醒。",
+   "py": "pāi zhào piàn nà tiān shì xīng qī yì zǎo shang bā diǎn, dà jiā dōu hái méi shuì xǐng.",
+   "en": "The photos were taken at eight on a Monday morning, when nobody was properly awake yet.",
+   "tr": {
+    "am": "ፎቶ የተነሡበት ቀን ሰኞ ጠዋት 8:00 ነበር፣ ሁሉም ገና በደንብ አልነቁም ነበር።",
+    "fa": "عکس‌ها ساعت هشت دوشنبه صبح گرفته شدن، وقتی هیچ‌کس هنوز درست بیدار نبود."
+   },
+   "start": 15.252,
+   "end": 20.724,
+   "tokens": [
+    [
+     "拍照",
+     "pāi zhào",
+     "to take a picture",
+     ""
+    ],
+    [
+     "片",
+     "piàn",
+     "thin piece; flake; a slice",
+     ""
+    ],
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "星期一",
+     "xīng qī yī",
+     "Monday",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "yet; still; still in progress",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "睡醒",
+     "shuì xǐng",
+     "to wake up",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "那天下班以后，杰克去理发店把头发剪得很短，还把胡子刮得干干净净。",
+   "py": "nà tiān xià bān yǐ hòu, Jié kè qù lǐ fà diàn bǎ tóu fa jiǎn de hěn duǎn, hái bǎ hú zi guā de gān gān jìng jìng.",
+   "en": "After work that day, Jack gets a very short haircut and shaves his beard right off.",
+   "tr": {
+    "am": "በዚያ ቀን ከሥራ በኋላ ጃክ ወደ ፀጉር ቤት ሄዶ ፀጉሩን በጣም አሳጠረ፣ ጢሙንም ጥርግ አድርጎ ተላጨ።",
+    "fa": "بعد از کار همون روز، جک موهاش رو خیلی کوتاه می‌زنه و ریشش رو کامل می‌تراشه."
+   },
+   "start": 21.424,
+   "end": 29.272,
+   "tokens": [
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "下班",
+     "xià bān",
+     "to finish work; to get off work",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; afterwards; later",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "理发店",
+     "lǐ fà diàn",
+     "barbershop; hairdresser's",
+     ""
+    ],
+    [
+     "把头",
+     "bǎ tóu",
+     "labor contractor; gangmaster",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "剪",
+     "jiǎn",
+     "(bound form) scissors or similar tool",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "短",
+     "duǎn",
+     "short; brief; to lack",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "胡子",
+     "hú zi",
+     "beard; facial hair; mustache or whiskers",
+     ""
+    ],
+    [
+     "刮",
+     "guā",
+     "to shave; to scrape; to blow",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "干",
+     "gān",
+     "dry; dried food; empty; hollow",
+     ""
+    ],
+    [
+     "干净",
+     "gān jìng",
+     "clean; neat",
+     ""
+    ],
+    [
+     "净",
+     "jìng",
+     "clean; completely; only",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "第二天早上，他高高兴兴地站到机器前面，机器却说：“对不起，无法识别。”",
+   "py": "dì èr tiān zǎo shang, tā gāo gāo xìng xìng de zhàn dào jī qì qián mian, jī qì què shuō: “duì bu qǐ, wú fǎ shí bié.”",
+   "en": "The next morning, he cheerfully steps in front of the machine, but it says, \"Sorry, unable to recognise.\"",
+   "tr": {
+    "am": "በማግሥቱ ጠዋት በደስታ ማሽኑ ፊት ቆመ፣ ማሽኑ ግን አለ፦ «ይቅርታ፣ መለየት አልተቻለም።»",
+    "fa": "فرداش صبح، با خوشحالی می‌ره جلوی دستگاه، ولی اون می‌گه: «ببخشید، امکان تشخیص نیست.»"
+   },
+   "start": 29.972,
+   "end": 38.012,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "高高兴兴",
+     "gāo gāo xìng xìng",
+     "cheerful and optimistic; in a good mood; gaily",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "station; to stand; to halt",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "机器",
+     "jī qì",
+     "machine",
+     ""
+    ],
+    [
+     "前面",
+     "qián miàn",
+     "in front; ahead; preceding",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "机器",
+     "jī qì",
+     "machine",
+     ""
+    ],
+    [
+     "却",
+     "què",
+     "but; yet; however",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "对不起",
+     "duì bu qǐ",
+     "I'm sorry; excuse me; I beg your pardon",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "无法",
+     "wú fǎ",
+     "unable to; incapable of",
+     ""
+    ],
+    [
+     "识别",
+     "shí bié",
+     "to distinguish; to discern; to identify; to recognize",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "他又试了一次，还是一样。",
+   "py": "tā yòu shì le yí cì, hái shi yí yàng.",
+   "en": "He tries again. Same result.",
+   "tr": {
+    "am": "እንደገና ሞከረ፣ አሁንም እንደዚያው ነበር።",
+    "fa": "دوباره امتحان می‌کنه. همون نتیجه."
+   },
+   "start": 38.712,
+   "end": 41.568,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "试",
+     "shì",
+     "to test; to try; experiment",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一次",
+     "yī cì",
+     "first; first time; once",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "一样",
+     "yī yàng",
+     "same; the same as; like",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨在后面说：“你笑一笑试试。”",
+   "py": "Xiǎo yǔ zài hòu mian shuō: “nǐ xiào yí xiào shì shì.”",
+   "en": "Xiaoyu says from behind him, \"Try smiling.\"",
+   "tr": {
+    "am": "ሺያውዩ ከኋላው አለች፦ «ፈገግ ብለህ ሞክር።»",
+    "fa": "شیائویو از پشت سرش می‌گه: «امتحان کن لبخند بزنی.»"
+   },
+   "start": 42.268,
+   "end": 45.844,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "在后",
+     "zài hòu",
+     "behind",
+     ""
+    ],
+    [
+     "面",
+     "miàn",
+     "face; side; surface",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "试",
+     "shì",
+     "to try; to test; experiment",
+     ""
+    ],
+    [
+     "试",
+     "shì",
+     "to try; to test; experiment",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克笑了，机器还是不认识他。",
+   "py": "Jié kè xiào le, jī qì hái shi bú rèn shi tā.",
+   "en": "Jack smiles, and the machine still doesn't know him.",
+   "tr": {
+    "am": "ጃክ ፈገግ አለ፣ ማሽኑ ግን አሁንም አላወቀውም።",
+    "fa": "جک لبخند می‌زنه و دستگاه بازم اونو نمی‌شناسه."
+   },
+   "start": 46.544,
+   "end": 50.144,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "机器",
+     "jī qì",
+     "machine",
+     ""
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "认识",
+     "rèn shi",
+     "to know; knowledge; to recognize",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他把脸凑近一点儿，又往后退一步，往左转，往右转，机器都不理他。",
+   "py": "tā bǎ liǎn còu jìn yì diǎn r, yòu wǎng hòu tuì yí bù, wǎng zuǒ zhuàn, wǎng yòu zhuàn, jī qì dōu bù lǐ tā.",
+   "en": "He leans in closer, steps back, turns left, turns right, and the machine ignores him every time.",
+   "tr": {
+    "am": "ፊቱን ትንሽ አስጠጋ፣ አንድ እርምጃ ወደ ኋላ ተመለሰ፣ ወደ ግራ ዞረ፣ ወደ ቀኝ ዞረ፣ ማሽኑ ግን ዝም አለው።",
+    "fa": "نزدیک‌تر می‌شه، عقب می‌ره، چپ می‌شه، راست می‌شه و دستگاه هر بار بهش بی‌اعتناست."
+   },
+   "start": 50.844,
+   "end": 58.404,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "脸",
+     "liǎn",
+     "face",
+     ""
+    ],
+    [
+     "凑近",
+     "còu jìn",
+     "to lean close to; to approach",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "往后",
+     "wǎng hòu",
+     "time to come; from now on; in the future",
+     ""
+    ],
+    [
+     "退",
+     "tuì",
+     "to retreat; to withdraw; to reject; to return (sth)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "步",
+     "bù",
+     "a step; a pace; walk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "往",
+     "wǎng",
+     "to go (in a direction); to; towards",
+     ""
+    ],
+    [
+     "左转",
+     "zuǒ zhuǎn",
+     "to turn left",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "往",
+     "wǎng",
+     "to go (in a direction); to; towards",
+     ""
+    ],
+    [
+     "右转",
+     "yòu zhuǎn",
+     "to turn right",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "机器",
+     "jī qì",
+     "machine",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "不理",
+     "bù lǐ",
+     "to ignore; to refuse to acknowledge; to pay no attention to",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "后面排队的同事越来越多，大家都忍不住笑了。",
+   "py": "hòu mian pái duì de tóng shì yuè lái yuè duō, dà jiā dōu rěn bu zhù xiào le.",
+   "en": "The queue of colleagues behind him grows longer and longer, and they can't help laughing.",
+   "tr": {
+    "am": "ከኋላው የተሰለፉት ባልደረቦች እየበዙ ሄዱ፣ ሁሉም ሳቃቸውን መቆጣጠር አቃታቸው።",
+    "fa": "صف همکارها پشت سرش هی بلندتر می‌شه و نمی‌تونن جلوی خنده‌شون رو بگیرن."
+   },
+   "start": 59.104,
+   "end": 63.856,
+   "tokens": [
+    [
+     "后面",
+     "hòu mian",
+     "behind; near the end; at the back",
+     ""
+    ],
+    [
+     "排队",
+     "pái duì",
+     "to line up",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "同事",
+     "tóng shì",
+     "colleague; co-worker",
+     ""
+    ],
+    [
+     "越来越",
+     "yuè lái yuè",
+     "more and more",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "忍不住",
+     "rěn bu zhù",
+     "cannot help; unable to bear",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这时候，周经理走过来，看了看杰克，又看了看系统里他的照片。",
+   "py": "zhè shí hou, Zhōu jīng lǐ zǒu guò lái, kàn le kàn Jié kè, yòu kàn le kàn xì tǒng lǐ tā de zhào piàn.",
+   "en": "Just then, Manager Zhou comes over, looks at Jack, then looks at his photo in the system.",
+   "tr": {
+    "am": "በዚህ ጊዜ ሥራ አስኪያጅ ጆው መጥታ ጃክን አየች፣ በሥርዓቱ ውስጥ ያለውን ፎቶውንም አየች።",
+    "fa": "همین موقع، مدیر جو میاد سمتش، به جک نگاه می‌کنه، بعد به عکسش توی سیستم."
+   },
+   "start": 64.556,
+   "end": 71.9,
+   "tokens": [
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "候",
+     "hòu",
+     "to wait; to inquire after; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "all over; Zhou Dynasty (1046–256 BC); to make a circuit",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "走过",
+     "zǒu guò",
+     "to walk past; to pass by",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "系统",
+     "xì tǒng",
+     "system",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "照片上的杰克头发乱乱的，眼睛半睁半闭，一脸没睡醒的表情。",
+   "py": "zhào piàn shàng de Jié kè tóu fa luàn luàn de, yǎn jing bàn zhēng bàn bì, yì liǎn méi shuì xǐng de biǎo qíng.",
+   "en": "In the photo, Jack's hair is a mess, his eyes are half closed, and his face is still half asleep.",
+   "tr": {
+    "am": "በፎቶው ላይ ጃክ ፀጉሩ የተመሰቃቀለ፣ ዓይኖቹ ግማሽ የተከፈቱ፣ ፊቱም ገና ከእንቅልፍ ያልነቃ ይመስል ነበር።",
+    "fa": "توی عکس، موهای جک به‌هم‌ریخته، چشماش نیمه‌بسته و صورتش هنوز نصفه خوابه."
+   },
+   "start": 72.6,
+   "end": 79.728,
+   "tokens": [
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "头发",
+     "tóu fa",
+     "hair (on the head)",
+     ""
+    ],
+    [
+     "乱",
+     "luàn",
+     "in confusion or disorder; in a confused state of mind",
+     ""
+    ],
+    [
+     "乱",
+     "luàn",
+     "in confusion or disorder; in a confused state of mind",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "眼睛",
+     "yǎn jing",
+     "eye",
+     ""
+    ],
+    [
+     "半",
+     "bàn",
+     "half; (after a number) and a half; semi-",
+     ""
+    ],
+    [
+     "睁",
+     "zhēng",
+     "to open (one's eyes)",
+     ""
+    ],
+    [
+     "半",
+     "bàn",
+     "half; (after a number) and a half; semi-",
+     ""
+    ],
+    [
+     "闭",
+     "bì",
+     "to close; to stop up; to shut",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "脸",
+     "liǎn",
+     "face",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "睡醒",
+     "shuì xǐng",
+     "to wake up",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "表情",
+     "biǎo qíng",
+     "(facial) expression; to express one's feelings",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "周经理说：“你做一个照片上的表情试试。”",
+   "py": "Zhōu jīng lǐ shuō: “nǐ zuò yí gè zhào piàn shàng de biǎo qíng shì shì.”",
+   "en": "Manager Zhou says, \"Try making the face in your photo.\"",
+   "tr": {
+    "am": "ሥራ አስኪያጅ ጆው አለች፦ «በፎቶው ላይ ያለውን ፊት አድርገህ ሞክር።»",
+    "fa": "مدیر جو می‌گه: «امتحان کن قیافه‌ی توی عکست رو بگیری.»"
+   },
+   "start": 80.428,
+   "end": 84.7,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "表情",
+     "biǎo qíng",
+     "(facial) expression; to express one's feelings",
+     ""
+    ],
+    [
+     "试",
+     "shì",
+     "to try; to test; experiment",
+     ""
+    ],
+    [
+     "试",
+     "shì",
+     "to try; to test; experiment",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克只好把眼睛眯起来，张大嘴巴，好像马上就要睡着了。",
+   "py": "Jié kè zhǐ hǎo bǎ yǎn jing mī qǐ lái, zhāng dà zuǐ bā, hǎo xiàng mǎ shàng jiù yào shuì zháo le.",
+   "en": "Jack has no choice but to squint his eyes and open his mouth wide, as if he's about to nod off.",
+   "tr": {
+    "am": "ጃክ ሳይወድ ዓይኖቹን አጨናነቀ፣ አፉን ከፈተ፣ ሊያንቀላፋ የደረሰ ይመስል።",
+    "fa": "جک چاره‌ای نداره جز اینکه چشماش رو ریز کنه و دهنش رو محکم باز کنه، انگار داره خوابش می‌بره."
+   },
+   "start": 85.4,
+   "end": 91.808,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "只好",
+     "zhǐ hǎo",
+     "to have no other option but to ...; to have to; to be forced to",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "眼睛",
+     "yǎn jing",
+     "eye",
+     ""
+    ],
+    [
+     "眯",
+     "mī",
+     "to narrow one's eyes; to squint; (dialect) to take a nap",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "大嘴巴",
+     "dà zuǐ ba",
+     "bigmouth; blabbermouth",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "好像",
+     "hǎo xiàng",
+     "as if; to seem like",
+     ""
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "at once; right away; immediately",
+     ""
+    ],
+    [
+     "就要",
+     "jiù yào",
+     "will; shall; to be going to",
+     ""
+    ],
+    [
+     "睡着",
+     "shuì zháo",
+     "to fall asleep",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "机器“嘀”的一声：“杰克，早上好！”",
+   "py": "jī qì “dí” de yì shēng: “Jié kè, zǎo shang hǎo!”",
+   "en": "The machine beeps. \"Good morning, Jack!\"",
+   "tr": {
+    "am": "ማሽኑ «ቲክ» አለ፦ «ጃክ፣ እንደምን አደርክ!»",
+    "fa": "دستگاه بوق می‌زنه: «صبح بخیر، جک!»"
+   },
+   "start": 92.508,
+   "end": 96.324,
+   "tokens": [
+    [
+     "机器",
+     "jī qì",
+     "machine",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "嘀",
+     "dī",
+     "(onom.) sound of dripping water, a ticking clock etc",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "一声",
+     "yī shēng",
+     "first tone in Mandarin (high, level tone)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "早上好",
+     "zǎo shang hǎo",
+     "Good morning!",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "大家都笑得不行了。",
+   "py": "dà jiā dōu xiào de bù xíng le.",
+   "en": "Everyone is in fits of laughter.",
+   "tr": {
+    "am": "ሁሉም ከመሳቅ ብዛት ተንፈራፈሩ።",
+    "fa": "همه توی خنده جا می‌شکنن."
+   },
+   "start": 97.024,
+   "end": 99.208,
+   "tokens": [
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "不行了",
+     "bù xíng le",
+     "(coll.) on the point of death; dying",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "周经理说：“原来系统只认识每天早上的杰克。”",
+   "py": "Zhōu jīng lǐ shuō: “yuán lái xì tǒng zhǐ rèn shi měi tiān zǎo shang de Jié kè.”",
+   "en": "Manager Zhou says, \"So the system only knows the Jack we see every morning.\"",
+   "tr": {
+    "am": "ሥራ አስኪያጅ ጆው አለች፦ «ለካ ሥርዓቱ የሚያውቀው የየጠዋቱን ጃክ ብቻ ነው።»",
+    "fa": "مدیر جو می‌گه: «پس سیستم فقط جکی رو می‌شناسه که هر صبح می‌بینیم.»"
+   },
+   "start": 99.908,
+   "end": 104.9,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "原来",
+     "yuán lái",
+     "original; former; originally; formerly; at first",
+     ""
+    ],
+    [
+     "系统",
+     "xì tǒng",
+     "system",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "认识",
+     "rèn shi",
+     "to know; to recognize; to be familiar with",
+     ""
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "后来，公司让杰克重新拍了一张照片，那次是下午拍的，他精神特别好。",
+   "py": "hòu lái, gōng sī ràng Jié kè chóng xīn pāi le yì zhāng zhào piàn, nà cì shì xià wǔ pāi de, tā jīng shén tè bié hǎo.",
+   "en": "Later, the company has Jack retake his photo. This time it's taken in the afternoon, when he's wide awake.",
+   "tr": {
+    "am": "በኋላ ኩባንያው ጃክ እንደገና ፎቶ እንዲነሣ አደረገ። በዚህ ጊዜ የተነሣው ከሰዓት በኋላ ነበር፣ እሱም በጣም ንቁ ነበር።",
+    "fa": "بعدتر، شرکت می‌ذاره جک عکسش رو دوباره بگیره. این بار عصر گرفته می‌شه، وقتی کاملاً بیداره."
+   },
+   "start": 105.6,
+   "end": 112.968,
+   "tokens": [
+    [
+     "后来",
+     "hòu lái",
+     "afterwards; later; newly arrived",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "让",
+     "ràng",
+     "to yield; to permit; to let sb do sth",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "重新",
+     "chóng xīn",
+     "again; once more; re-",
+     ""
+    ],
+    [
+     "拍",
+     "pāi",
+     "to take (a photo); to pat; to clap",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "次",
+     "cì",
+     "classifier for enumerated events: time",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "拍",
+     "pāi",
+     "to take (a photo); to pat; to clap",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "精神",
+     "jīng shén",
+     "spirit; mind; consciousness",
+     ""
+    ],
+    [
+     "特别",
+     "tè bié",
+     "unusual; special; very; especially; particularly",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "(after a personal pronoun) hello; good; appropriate; proper",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "可是第二天早上，机器又不认识他了。",
+   "py": "kě shì dì èr tiān zǎo shang, jī qì yòu bú rèn shi tā le.",
+   "en": "But the next morning, the machine doesn't recognise him again.",
+   "tr": {
+    "am": "ግን በማግሥቱ ጠዋት ማሽኑ እንደገና አላወቀውም።",
+    "fa": "ولی فرداش صبح، دستگاه بازم اونو تشخیص نمی‌ده."
+   },
+   "start": 113.668,
+   "end": 117.724,
+   "tokens": [
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "机器",
+     "jī qì",
+     "machine",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "认识",
+     "rèn shi",
+     "to know; to recognize; to be familiar with",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 370,
+ "first": "公司门口安装了一台新设备：刷脸打卡机。",
+ "newWords": [
+  {
+   "w": "安装",
+   "py": "ānzhuāng",
+   "en": "set up device"
+  },
+  {
+   "w": "设备",
+   "py": "shèbèi",
+   "en": "tools or machines"
+  },
+  {
+   "w": "系统",
+   "py": "xìtǒng",
+   "en": "connected working parts"
+  },
+  {
+   "w": "表情",
+   "py": "biǎoqíng",
+   "en": "facial movements showing emotion"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h5-34.mp3?v=1791721500"
 }

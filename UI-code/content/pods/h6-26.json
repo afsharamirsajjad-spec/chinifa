@@ -1,2647 +1,2668 @@
 {
-  "id": "h6-26",
-  "level": 6,
-  "no": 26,
-  "title": "替人开家长会",
-  "title_py": "tì rén kāi jiā zhǎng huì",
-  "title_en": "Standing in at the parents' meeting",
-  "title_tr": {
-    "am": "ተተኪው ወላጅ",
-    "fa": "شرکت در جلسه اولیا و مربیان به جای دیگری"
+ "id": "h6-26",
+ "level": 6,
+ "no": 26,
+ "title": "替人开家长会",
+ "title_py": "tì rén kāi jiā zhǎng huì",
+ "title_en": "Standing in at the parents' meeting",
+ "title_tr": {
+  "am": "ተተኪው ወላጅ",
+  "fa": "شرکت در جلسه اولیا و مربیان به جای دیگری"
+ },
+ "topic": "school",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h6-26.jpg",
+ "duration": 161.536,
+ "lines": [
+  {
+   "text": "星期五下午，李强的学校要开家长会，可是他爸爸妈妈都在外地出差。",
+   "py": "xīng qī wǔ xià wǔ, Lǐ Qiáng de xué xiào yào kāi jiā zhǎng huì, kě shì tā bà ba mā ma dōu zài wài dì chū chāi.",
+   "en": "On Friday afternoon, Li Qiang's school is holding a parents' meeting, but his mum and dad are both away on business.",
+   "tr": {
+    "am": "አርብ ከሰዓት በኋላ የሊ ቺያንግ ትምህርት ቤት የወላጆች ስብሰባ አለው፣ ግን አባቱም እናቱም ለሥራ ወደ ሌላ ከተማ ሄደዋል።",
+    "fa": "جمعه بعدازظهر مدرسه‌ی لی چیانگ جلسه‌ی والدین داره ولی مامان و باباش هر دو سر کارن."
+   },
+   "start": 3.076,
+   "end": 10.42,
+   "tokens": [
+    [
+     "星期五",
+     "xīng qī wǔ",
+     "Friday",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "学校",
+     "xué xiào",
+     "school",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "开",
+     "kāi",
+     "(directional complement) away; off",
+     ""
+    ],
+    [
+     "家长会",
+     "jiā zhǎng huì",
+     "parent-teacher conference; parents' association",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "爸爸",
+     "bà ba",
+     "(coll.) father; dad",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "在外",
+     "zài wài",
+     "outer; excluded",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "出差",
+     "chū chāi",
+     "to go on an official or business trip",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "school",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h6-26.jpg",
-  "duration": 161.536,
-  "lines": [
-    {
-      "text": "星期五下午，李强的学校要开家长会，可是他爸爸妈妈都在外地出差。",
-      "py": "xīng qī wǔ xià wǔ, Lǐ Qiáng de xué xiào yào kāi jiā zhǎng huì, kě shì tā bà ba mā ma dōu zài wài dì chū chāi.",
-      "en": "On Friday afternoon, Li Qiang's school is holding a parents' meeting, but his mum and dad are both away on business.",
-      "tr": {
-        "am": "አርብ ከሰዓት በኋላ የሊ ቺያንግ ትምህርት ቤት የወላጆች ስብሰባ አለው፣ ግን አባቱም እናቱም ለሥራ ወደ ሌላ ከተማ ሄደዋል።"
-      },
-      "start": 3.076,
-      "end": 10.42,
-      "tokens": [
-        [
-          "星期五",
-          "xīng qī wǔ",
-          "Friday",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "学校",
-          "xué xiào",
-          "school",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "开",
-          "kāi",
-          "(directional complement) away; off",
-          ""
-        ],
-        [
-          "家长会",
-          "jiā zhǎng huì",
-          "parent-teacher conference; parents' association",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "爸爸",
-          "bà ba",
-          "(coll.) father; dad",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "在外",
-          "zài wài",
-          "outer; excluded",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "出差",
-          "chū chāi",
-          "to go on an official or business trip",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "班主任说过，每个学生都必须有一位家长到场。",
-      "py": "bān zhǔ rèn shuō guò, měi gè xué sheng dōu bì xū yǒu yí wèi jiā zhǎng dào chǎng.",
-      "en": "His form teacher has said that every student must have a parent there.",
-      "tr": {
-        "am": "የክፍሉ ኃላፊ መምህርት ለእያንዳንዱ ተማሪ አንድ ወላጅ መገኘት አለበት ብላ ነበር።"
-      },
-      "start": 11.12,
-      "end": 15.872,
-      "tokens": [
-        [
-          "班主任",
-          "bān zhǔ rèn",
-          "teacher in charge of a class",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "(bound form) theory; doctrine; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每个",
-          "měi gè",
-          "each; every",
-          ""
-        ],
-        [
-          "学生",
-          "xué sheng",
-          "student; schoolchild",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "必须",
-          "bì xū",
-          "to have to; must; compulsory",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "家长",
-          "jiā zhǎng",
-          "parent or guardian of a child; head of a household",
-          ""
-        ],
-        [
-          "到场",
-          "dào chǎng",
-          "to show up; present (at the scene)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李强想来想去，只好去求王明：“哥，你就说是我表哥，替我去一趟吧！”",
-      "py": "Lǐ Qiáng xiǎng lái xiǎng qù, zhǐ hǎo qù qiú Wáng Míng: “gē, nǐ jiù shuō shì wǒ biǎo gē, tì wǒ qù yí tàng ba!”",
-      "en": "After racking his brains, Li Qiang has no choice but to beg Wang Ming: \"Please, just say you're my cousin and go in my place!\"",
-      "tr": {
-        "am": "ሊ ቺያንግ ብዙ ካሰበ በኋላ ዋንግ ሚንግን ከመለመን ሌላ ምርጫ አላገኘም፦ «ወንድሜ፣ የአጎቴ ልጅ ነኝ በልና በእኔ ቦታ ሂድልኝ!»"
-      },
-      "start": 16.572,
-      "end": 25.092,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "想来",
-          "xiǎng lái",
-          "it may be assumed that",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go to (a place); just passed",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只好",
-          "zhǐ hǎo",
-          "to have no other option but to ...; to have to; to be forced to",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go to (a place); just passed",
-          ""
-        ],
-        [
-          "求",
-          "qiú",
-          "to seek; to look for; to request",
-          ""
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "哥",
-          "gē",
-          "elder brother",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "表哥",
-          "biǎo gē",
-          "older male cousin through a female relative",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "替",
-          "tì",
-          "to take the place of; to substitute for; to replace",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go to (a place); just passed",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "趟",
-          "tàng",
-          "classifier for times, round trips or rows; a time; a trip",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明有点儿犹豫：“我去开家长会？老师会不会一眼就看出来？”",
-      "py": "Wáng Míng yǒu diǎn r yóu yù: “wǒ qù kāi jiā zhǎng huì? lǎo shī huì bú huì yì yǎn jiù kàn chū lái?”",
-      "en": "Wang Ming hesitates. \"Me, at a parents' meeting? Won't the teacher see through it at a glance?\"",
-      "tr": {
-        "am": "ዋንግ ሚንግ ትንሽ አመነታ፦ «እኔ የወላጆች ስብሰባ ልሂድ? መምህሯ ወዲያው አታውቅብኝም?»"
-      },
-      "start": 25.792,
-      "end": 33.16,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "有点儿",
-          "yǒu diǎn r",
-          "slightly; a little; somewhat",
-          ""
-        ],
-        [
-          "犹豫",
-          "yóu yù",
-          "to hesitate",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "开",
-          "kāi",
-          "to open (transitive or intransitive)",
-          ""
-        ],
-        [
-          "家长会",
-          "jiā zhǎng huì",
-          "parent-teacher conference; parents' association",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "会不会",
-          "huì bù huì",
-          "(posing a question: whether sb, something) can or cannot?",
-          ""
-        ],
-        [
-          "一眼",
-          "yī yǎn",
-          "a glance; a quick look; a glimpse",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "看出",
-          "kàn chū",
-          "to see; to make out",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“不会的！我们班主任今年刚调过来，谁都不认识。”",
-      "py": "“bú huì de! wǒ men bān zhǔ rèn jīn nián gāng diào guò lái, shéi dōu bú rèn shi.”",
-      "en": "\"No way! Our form teacher only moved to our school this year. She doesn't know anybody.\"",
-      "tr": {
-        "am": "«አታውቅም! የክፍላችን ኃላፊ መምህርት ዘንድሮ ገና ተዛውራ ነው የመጣችው፣ ማንንም አታውቅም።»"
-      },
-      "start": 33.86,
-      "end": 38.852,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "不会",
-          "bù huì",
-          "improbable; unlikely; will not (act, happen etc)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "班主任",
-          "bān zhǔ rèn",
-          "teacher in charge of a class",
-          ""
-        ],
-        [
-          "今年",
-          "jīn nián",
-          "this year",
-          ""
-        ],
-        [
-          "刚",
-          "gāng",
-          "barely; only just; just; only a short while ago",
-          ""
-        ],
-        [
-          "调",
-          "diào",
-          "to move (troops or cadres); to transfer; to investigate",
-          ""
-        ],
-        [
-          "过来",
-          "guò lái",
-          "to come over; to manage; to handle",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "谁",
-          "shéi",
-          "who; also pr.",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "(bound form) not; un-; no; not so",
-          ""
-        ],
-        [
-          "认识",
-          "rèn shi",
-          "to know; knowledge; to recognize",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "为了显得成熟一点儿，王明特地穿上了西装，还把头发梳得整整齐齐。",
-      "py": "wèi le xiǎn de chéng shú yì diǎn r, Wáng Míng tè de chuān shàng le xī zhuāng, hái bǎ tóu fa shū de zhěng zhěng qí qí.",
-      "en": "To look a bit more grown-up, Wang Ming makes a point of putting on a suit and combing his hair neatly.",
-      "tr": {
-        "am": "ትንሽ ትልቅ ሰው ለመምሰል ዋንግ ሚንግ ሆን ብሎ ሱፍ ለበሰ፣ ፀጉሩንም በሥርዓት አበጠረ።"
-      },
-      "start": 39.552,
-      "end": 46.44,
-      "tokens": [
-        [
-          "为了",
-          "wèi le",
-          "for; for the purpose of; in order to",
-          ""
-        ],
-        [
-          "显得",
-          "xiǎn de",
-          "to look; to seem; to appear",
-          ""
-        ],
-        [
-          "成熟",
-          "chéng shú",
-          "mature; ripe; to mature; to ripen; Taiwan pr.",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "特地",
-          "tè dì",
-          "specially; for a special purpose",
-          ""
-        ],
-        [
-          "穿上",
-          "chuān shang",
-          "to put on (clothes etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "西装",
-          "xī zhuāng",
-          "suit; Western-style clothes",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still more; even more; still",
-          ""
-        ],
-        [
-          "把头",
-          "bǎ tóu",
-          "labor contractor; gangmaster",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to make a bundle of money; to send out",
-          ""
-        ],
-        [
-          "梳",
-          "shū",
-          "to comb; (bound form) a comb",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "整整齐齐",
-          "zhěng zhěng qí qí",
-          "neat and tidy",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "家长会上，班主任一个一个地介绍学生的情况。讲到李强的时候，她皱了皱眉头。",
-      "py": "jiā zhǎng huì shàng, bān zhǔ rèn yí gè yí gè de jiè shào xué sheng de qíng kuàng. jiǎng dào Lǐ Qiáng de shí hou, tā zhòu le zhòu méi tou.",
-      "en": "At the meeting, the form teacher goes through the students one by one. When she gets to Li Qiang, she frowns.",
-      "tr": {
-        "am": "በስብሰባው ላይ መምህሯ የተማሪዎቹን ሁኔታ አንድ በአንድ አስረዳች። የሊ ቺያንግ ተራ ሲደርስ ፊቷን ቋጠረች።"
-      },
-      "start": 47.14,
-      "end": 55.444,
-      "tokens": [
-        [
-          "家长会",
-          "jiā zhǎng huì",
-          "parent-teacher conference; parents' association",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "班主任",
-          "bān zhǔ rèn",
-          "teacher in charge of a class",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "介绍",
-          "jiè shào",
-          "to introduce (sb to sb); to give a presentation",
-          ""
-        ],
-        [
-          "学生",
-          "xué sheng",
-          "student; schoolchild",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "情况",
-          "qíng kuàng",
-          "circumstances; state of affairs; situation",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "讲到",
-          "jiǎng dào",
-          "to talk about sth",
-          ""
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "皱",
-          "zhòu",
-          "to wrinkle; wrinkled; to crease",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "皱眉头",
-          "zhòu méi tóu",
-          "to scowl; to knit the brows",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“李强篮球打得很好，可是上课老走神，作业也常常交得很晚。”",
-      "py": "“Lǐ Qiáng lán qiú dǎ de hěn hǎo, kě shì shàng kè lǎo zǒu shén, zuò yè yě cháng cháng jiāo de hěn wǎn.”",
-      "en": "\"Li Qiang is very good at basketball, but he's always daydreaming in class, and he often hands his homework in late.\"",
-      "tr": {
-        "am": "«ሊ ቺያንግ ቅርጫት ኳስ በደንብ ይጫወታል፣ ግን በክፍል ውስጥ ሁልጊዜ ሐሳቡ ይበተናል፣ የቤት ሥራውንም ብዙ ጊዜ ዘግይቶ ያስረክባል።»"
-      },
-      "start": 56.144,
-      "end": 62.312,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "篮球",
-          "lán qiú",
-          "basketball",
-          ""
-        ],
-        [
-          "打",
-          "dǎ",
-          "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; (before a verb) good to; appropriate; proper",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "上课",
-          "shàng kè",
-          "to go to class; to attend class; to go to teach a class",
-          ""
-        ],
-        [
-          "老",
-          "lǎo",
-          "always; very",
-          ""
-        ],
-        [
-          "走神",
-          "zǒu shén",
-          "absent-minded; one's mind is wandering",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "作业",
-          "zuò yè",
-          "homework; school assignment; work",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "常常",
-          "cháng cháng",
-          "frequently; often",
-          ""
-        ],
-        [
-          "交",
-          "jiāo",
-          "to hand over; to deliver; to pay (money); to turn over",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "晚",
-          "wǎn",
-          "late; evening; night",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明一边听一边记，认真得像个真正的家长。",
-      "py": "Wáng Míng yì biān tīng yì biān jì, rèn zhēn de xiàng gè zhēn zhèng de jiā zhǎng.",
-      "en": "Wang Ming listens and takes notes, as earnest as a real parent.",
-      "tr": {
-        "am": "ዋንግ ሚንግ እየሰማ ይጽፍ ነበር፣ እንደ እውነተኛ ወላጅ በትኩረት።"
-      },
-      "start": 63.012,
-      "end": 68.004,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "记",
-          "jì",
-          "to note; to record; to memorize",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "认真",
-          "rèn zhēn",
-          "earnest; to take seriously; to take to heart",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "像",
-          "xiàng",
-          "to resemble; to be like; to look as if",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "真正",
-          "zhēn zhèng",
-          "genuine; real; true; really; indeed",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "家长",
-          "jiā zhǎng",
-          "parent or guardian of a child; head of a household",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "会开完了，家长们陆续离开，班主任却叫住了他：“这位家长，请您等一下。”",
-      "py": "huì kāi wán le, jiā zhǎng men lù xù lí kāi, bān zhǔ rèn què jiào zhù le tā: “zhè wèi jiā zhǎng, qǐng nín děng yí xià.”",
-      "en": "When the meeting is over and the parents start drifting off, the form teacher calls him back. \"Excuse me, could you wait a moment?\"",
-      "tr": {
-        "am": "ስብሰባው አልቆ ወላጆች አንድ በአንድ ሲወጡ መምህሯ ግን ጠራችው፦ «ወላጅ፣ እባክዎ ትንሽ ይጠብቁ።»"
-      },
-      "start": 68.704,
-      "end": 76.768,
-      "tokens": [
-        [
-          "会",
-          "huì",
-          "to meet; to get together; meeting; gathering",
-          ""
-        ],
-        [
-          "开",
-          "kāi",
-          "(of ships, vehicles, troops etc) to start",
-          ""
-        ],
-        [
-          "完了",
-          "wán le",
-          "to be finished; to be done for; ruined",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "家长",
-          "jiā zhǎng",
-          "parent or guardian of a child; head of a household",
-          ""
-        ],
-        [
-          "们",
-          "men",
-          "plural marker for pronouns, and nouns referring to individuals",
-          ""
-        ],
-        [
-          "陆续",
-          "lù xù",
-          "in turn; successively; one after the other",
-          ""
-        ],
-        [
-          "离开",
-          "lí kāi",
-          "to depart; to leave",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "班主任",
-          "bān zhǔ rèn",
-          "teacher in charge of a class",
-          ""
-        ],
-        [
-          "却",
-          "què",
-          "to go back; but; yet",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to call; to shout; to order",
-          ""
-        ],
-        [
-          "住",
-          "zhù",
-          "to live; to reside; to stay; to stop; to cease",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这位",
-          "zhè wèi",
-          "this (person)",
-          ""
-        ],
-        [
-          "家长",
-          "jiā zhǎng",
-          "parent or guardian of a child; head of a household",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "请",
-          "qǐng",
-          "to ask; to invite; please (do sth)",
-          ""
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "等一下",
-          "děng yī xià",
-          "to wait a moment; later; in awhile",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明心里一紧：完了，被看出来了。",
-      "py": "Wáng Míng xīn lǐ yì jǐn: wán le, bèi kàn chū lái le.",
-      "en": "Wang Ming's heart sinks: that's it, she's seen through me.",
-      "tr": {
-        "am": "የዋንግ ሚንግ ልብ ደነገጠ፦ አለቀ፣ ደረሰችብኝ።"
-      },
-      "start": 77.468,
-      "end": 81.74,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "心里",
-          "xīn li",
-          "heart; mind; chest",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "紧",
-          "jǐn",
-          "tight; strict; close at hand",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "完了",
-          "wán le",
-          "to be finished; to be done for; ruined",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "被",
-          "bèi",
-          "quilt; to cover (with); (literary) to suffer (a misfortune)",
-          ""
-        ],
-        [
-          "看出",
-          "kàn chū",
-          "to make out; to see",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "班主任仔细打量了他一会儿：“你是……王明吧？”",
-      "py": "bān zhǔ rèn zǐ xì dǎ liang le tā yí huì r: “nǐ shì…… Wáng Míng ba?”",
-      "en": "The teacher studies him carefully for a moment. \"You're... Wang Ming, aren't you?\"",
-      "tr": {
-        "am": "መምህሯ ለጥቂት ጊዜ በደንብ ተመለከተችው፦ «አንተ… ዋንግ ሚንግ ነህ አይደል?»"
-      },
-      "start": 82.44,
-      "end": 88.872,
-      "tokens": [
-        [
-          "班主任",
-          "bān zhǔ rèn",
-          "teacher in charge of a class",
-          ""
-        ],
-        [
-          "仔细",
-          "zǐ xì",
-          "careful; attentive; cautious; to be careful; to look out",
-          ""
-        ],
-        [
-          "打量",
-          "dǎ liang",
-          "to size sb up; to look sb up and down",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一会儿",
-          "yī huì r",
-          "a moment; in a moment; a while",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明吓了一跳：“您……您怎么知道？”",
-      "py": "Wáng Míng xià le yí tiào: “nín…… nín zěn me zhī dào?”",
-      "en": "Wang Ming jumps. \"How... how do you know?\"",
-      "tr": {
-        "am": "ዋንግ ሚንግ ደነገጠ፦ «እርስዎ… እርስዎ እንዴት አወቁ?»"
-      },
-      "start": 89.572,
-      "end": 93.844,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "吓",
-          "xià",
-          "to frighten; to scare",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "跳",
-          "tiào",
-          "to jump; to hop; to skip over",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "知道",
-          "zhī dào",
-          "to know; to become aware of; also pr.",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "班主任笑了：“十几年前，我在另一所中学当过你的班主任。你忘了？初二的时候，你上课老在课本上画小人儿。”",
-      "py": "bān zhǔ rèn xiào le: “shí jǐ nián qián, wǒ zài lìng yì suǒ zhōng xué dāng guò nǐ de bān zhǔ rèn. nǐ wàng le? chū èr de shí hou, nǐ shàng kè lǎo zài kè běn shàng huà xiǎo rén r.”",
-      "en": "The teacher smiles. \"More than ten years ago, at another secondary school, I was your form teacher. Have you forgotten? In your second year, you were always doodling little people in your textbooks in class.\"",
-      "tr": {
-        "am": "መምህሯ ሳቀች፦ «ከአሥር ዓመት በላይ በፊት በሌላ ሁለተኛ ደረጃ ትምህርት ቤት የክፍልህ ኃላፊ መምህርት ነበርኩ። ረሳኸው? ስምንተኛ ክፍል እያለህ በክፍል ውስጥ ሁልጊዜ በመጽሐፍህ ላይ ትናንሽ ሰዎችን ትስል ነበር።»"
-      },
-      "start": 94.544,
-      "end": 106.112,
-      "tokens": [
-        [
-          "班主任",
-          "bān zhǔ rèn",
-          "teacher in charge of a class",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "十几",
-          "shí jǐ",
-          "more than ten; a dozen or more",
-          ""
-        ],
-        [
-          "年前",
-          "nián qián",
-          "by the end of the year",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "另一",
-          "lìng yī",
-          "another ...; the other ...",
-          ""
-        ],
-        [
-          "所",
-          "suǒ",
-          "classifier for houses, small buildings, institutions etc",
-          ""
-        ],
-        [
-          "中学",
-          "zhōng xué",
-          "middle school",
-          ""
-        ],
-        [
-          "当",
-          "dāng",
-          "(onom.) dong; ding dong (bell); to be",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "班主任",
-          "bān zhǔ rèn",
-          "teacher in charge of a class",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "忘",
-          "wàng",
-          "to forget; to overlook; to neglect",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "初二",
-          "chū èr",
-          "second year in junior middle school",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "上课",
-          "shàng kè",
-          "to go to class; to attend class; to go to teach a class",
-          ""
-        ],
-        [
-          "老",
-          "lǎo",
-          "old (of people); always",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "课本",
-          "kè běn",
-          "textbook",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "to draw; to paint; picture; painting; to draw (a line)",
-          ""
-        ],
-        [
-          "小人",
-          "xiǎo rén",
-          "person of low social status (old)",
-          ""
-        ],
-        [
-          "儿",
-          "ér",
-          "child; son",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明的脸一下子红到了耳朵根。他想起来了，眼前这位，正是他当年的班主任。",
-      "py": "Wáng Míng de liǎn yí xià zi hóng dào le ěr duo gēn. tā xiǎng qǐ lái le, yǎn qián zhè wèi, zhèng shì tā dāng nián de bān zhǔ rèn.",
-      "en": "Wang Ming blushes to the tips of his ears. Now he remembers: the woman in front of him is his own form teacher from back then.",
-      "tr": {
-        "am": "የዋንግ ሚንግ ፊት እስከ ጆሮው ድረስ ቀላ። አሁን ትዝ አለው፦ ፊቱ የቆመችው ሴት የዚያን ጊዜዋ የክፍሉ ኃላፊ መምህርት ነበረች።"
-      },
-      "start": 106.812,
-      "end": 115.596,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "脸",
-          "liǎn",
-          "face",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "once; one time; (following a verb) for a moment; briefly",
-          ""
-        ],
-        [
-          "红",
-          "hóng",
-          "red; popular; revolutionary",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "耳朵",
-          "ěr duo",
-          "ear; handle (on a cup)",
-          ""
-        ],
-        [
-          "根",
-          "gēn",
-          "root; basis",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "想起来",
-          "xiǎng qi lai",
-          "to remember; to recall",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "眼前",
-          "yǎn qián",
-          "now; before one's eyes; at present",
-          ""
-        ],
-        [
-          "这位",
-          "zhè wèi",
-          "this (person)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "正是",
-          "zhèng shì",
-          "is precisely",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "当年",
-          "dāng nián",
-          "in those days; back then; in those years",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "班主任",
-          "bān zhǔ rèn",
-          "teacher in charge of a class",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“还有，你们班那次开家长会，来的也是你的‘表哥’。”",
-      "py": "“hái yǒu, nǐ men bān nà cì kāi jiā zhǎng huì, lái de yě shì nǐ de ‘biǎo gē’.”",
-      "en": "\"And when your class had a parents' meeting that time, the person who came was also your 'cousin'.\"",
-      "tr": {
-        "am": "«ደግሞ ያኔ ክፍላችሁ የወላጆች ስብሰባ ሲያደርግ የመጣውም ‹የአጎትህ ልጅ› ነበር።»"
-      },
-      "start": 116.296,
-      "end": 121.504,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "班",
-          "bān",
-          "team; class; grade",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(pronoun) that (referring to persons, things or situations)",
-          ""
-        ],
-        [
-          "次",
-          "cì",
-          "classifier for enumerated events: time",
-          ""
-        ],
-        [
-          "开",
-          "kāi",
-          "to open (transitive or intransitive)",
-          ""
-        ],
-        [
-          "家长会",
-          "jiā zhǎng huì",
-          "parent-teacher conference; parents' association",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "来",
-          "lái",
-          "for the past (amount of time); to come",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "‘"
-        ],
-        [
-          "表哥",
-          "biǎo gē",
-          "older male cousin through a female relative",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明张着嘴，半天说不出话来。",
-      "py": "Wáng Míng zhāng zhe zuǐ, bàn tiān shuō bù chū huà lái.",
-      "en": "Wang Ming stands there open-mouthed, unable to say a word for ages.",
-      "tr": {
-        "am": "ዋንግ ሚንግ አፉን ከፍቶ ለረጅም ጊዜ ቃል ማውጣት አቃተው።"
-      },
-      "start": 122.204,
-      "end": 125.78,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "嘴",
-          "zuǐ",
-          "mouth; beak; nozzle",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "half of the day; a long time; quite a while",
-          ""
-        ],
-        [
-          "说不出话来",
-          "shuō bù chū huà lái",
-          "speechless",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "班主任把李强的作业本递给他：“回去告诉你这位‘表弟’，上课别走神。我教过的学生，走神的都被我抓住过。”",
-      "py": "bān zhǔ rèn bǎ Lǐ Qiáng de zuò yè běn dì gěi tā: “huí qù gào su nǐ zhè wèi ‘biǎo dì’, shàng kè bié zǒu shén. wǒ jiāo guò de xué sheng, zǒu shén de dōu bèi wǒ zhuā zhù guò.”",
-      "en": "The teacher hands him Li Qiang's exercise book. \"Go home and tell this 'cousin' of yours to stop daydreaming in class. Every daydreamer I've ever taught, I've caught.\"",
-      "tr": {
-        "am": "መምህሯ የሊ ቺያንግን የመልመጃ ደብተር ሰጠችው፦ «ሂድና ለዚህ ‹የአጎትህ ልጅ› በክፍል ውስጥ ሐሳቡ እንዳይበተን ንገረው። ካስተማርኳቸው ተማሪዎች ውስጥ ሐሳቡ የሚበተነውን ሁሉ ይዤዋለሁ።»"
-      },
-      "start": 126.48,
-      "end": 137.136,
-      "tokens": [
-        [
-          "班主任",
-          "bān zhǔ rèn",
-          "teacher in charge of a class",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "作业",
-          "zuò yè",
-          "homework; school assignment; work",
-          ""
-        ],
-        [
-          "本",
-          "běn",
-          "classifier for books, periodicals, files etc",
-          ""
-        ],
-        [
-          "递给",
-          "dì gěi",
-          "to hand it (i.e. the aforementioned item) to (sb)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "回去",
-          "huí qu",
-          "to return; to go back",
-          ""
-        ],
-        [
-          "告诉",
-          "gào su",
-          "to tell; to inform; to let know",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "这位",
-          "zhè wèi",
-          "this (person)",
-          ""
-        ],
-        [
-          "‘"
-        ],
-        [
-          "表弟",
-          "biǎo dì",
-          "younger male cousin through a female relative",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "，"
-        ],
-        [
-          "上课",
-          "shàng kè",
-          "to go to class; to attend class; to go to teach a class",
-          ""
-        ],
-        [
-          "别",
-          "bié",
-          "to leave; to part (from)",
-          ""
-        ],
-        [
-          "走神",
-          "zǒu shén",
-          "absent-minded; one's mind is wandering",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "教",
-          "jiāo",
-          "to teach; to instruct",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "学生",
-          "xué sheng",
-          "student; schoolchild",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "走神",
-          "zǒu shén",
-          "absent-minded; one's mind is wandering",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "被",
-          "bèi",
-          "quilt; to cover (with); (literary) to suffer (a misfortune)",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "抓住",
-          "zhuā zhù",
-          "to grab hold of; to capture",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“不过，”她又笑着加了一句，“当年那个在课本上画小人儿的，现在不也挺有出息的吗？”",
-      "py": "“bú guò,” tā yòu xiào zhe jiā le yí jù, “dāng nián nà ge zài kè běn shàng huà xiǎo rén r de, xiàn zài bù yě tǐng yǒu chū xi de ma?”",
-      "en": "\"Still,\" she adds with a smile, \"the boy who doodled in his textbooks turned out pretty well, didn't he?\"",
-      "tr": {
-        "am": "«ቢሆንም፣» ብላ በፈገግታ ጨመረች፣ «ያ ድሮ በመጽሐፉ ላይ ትናንሽ ሰዎችን ይስል የነበረው ልጅ አሁን ጥሩ ሰው ሆኗል፣ አይደል?»"
-      },
-      "start": 137.836,
-      "end": 147.1,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "不过",
-          "bù guò",
-          "only; merely; no more than",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "”"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "加",
-          "jiā",
-          "to add; (math.) plus; to increase; to augment",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一句",
-          "yī jù",
-          "a line of verse; a sentence",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "“"
-        ],
-        [
-          "当年",
-          "dāng nián",
-          "in those days; back then; in those years",
-          ""
-        ],
-        [
-          "那个",
-          "nà ge",
-          "that one; that thing; that (as opposed to this)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "课本",
-          "kè běn",
-          "textbook",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "to draw; to paint; picture; painting; to draw (a line)",
-          ""
-        ],
-        [
-          "小人",
-          "xiǎo rén",
-          "person of low social status (old)",
-          ""
-        ],
-        [
-          "儿",
-          "ér",
-          "child; son",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "现在",
-          "xiàn zài",
-          "now; at present; currently",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "挺",
-          "tǐng",
-          "to stick out (a part of the body); straight; erect",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "出息",
-          "chū xi",
-          "future prospects; profit; to mature",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "回到家，李强紧张地问：“怎么样？老师没发现吧？”",
-      "py": "huí dào jiā, Lǐ Qiáng jǐn zhāng de wèn: “zěn me yàng? lǎo shī méi fā xiàn ba?”",
-      "en": "Back home, Li Qiang asks nervously, \"How did it go? The teacher didn't notice, did she?\"",
-      "tr": {
-        "am": "ቤት ሲመለስ ሊ ቺያንግ በጭንቀት ጠየቀ፦ «እንዴት ነበር? መምህሯ አላወቀችም አይደል?»"
-      },
-      "start": 147.8,
-      "end": 153.488,
-      "tokens": [
-        [
-          "回到",
-          "huí dào",
-          "to return to",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "紧张",
-          "jǐn zhāng",
-          "nervous; keyed up; intense",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "怎么样",
-          "zěn me yàng",
-          "how?; how about?; how was it?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "发现",
-          "fā xiàn",
-          "to notice; to become aware of",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明把作业本往桌上一放：“发现了。不光发现了你，还发现了我。”",
-      "py": "Wáng Míng bǎ zuò yè běn wǎng zhuō shàng yí fàng: “fā xiàn le. bù guāng fā xiàn le nǐ, hái fā xiàn le wǒ.”",
-      "en": "Wang Ming drops the exercise book on the table. \"She noticed. Not just you. Me as well.\"",
-      "tr": {
-        "am": "ዋንግ ሚንግ ደብተሩን ጠረጴዛው ላይ ጣል አደረገ፦ «ደርሳበታለች። አንተን ብቻ ሳይሆን እኔንም ደርሳብኛለች።»"
-      },
-      "start": 154.188,
-      "end": 160.836,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "作业",
-          "zuò yè",
-          "school assignment; homework; work",
-          ""
-        ],
-        [
-          "本",
-          "běn",
-          "classifier for books, periodicals, files etc",
-          ""
-        ],
-        [
-          "往",
-          "wǎng",
-          "to go (in a direction); to; towards",
-          ""
-        ],
-        [
-          "桌",
-          "zhuō",
-          "table; classifier for tables of guests at a banquet etc",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "发现",
-          "fā xiàn",
-          "to notice; to become aware of",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "不光",
-          "bù guāng",
-          "not the only one; not only",
-          ""
-        ],
-        [
-          "发现",
-          "fā xiàn",
-          "to notice; to become aware of",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "发现",
-          "fā xiàn",
-          "to notice; to become aware of",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 511,
-  "first": "星期五下午，李强的学校要开家长会，可是他爸爸妈妈都在外地出差。",
-  "newWords": [
-    {
-      "w": "家长会",
-      "py": "jiā zhǎng huì",
-      "en": "parent-teacher conference"
-    },
-    {
-      "w": "班主任",
-      "py": "bān zhǔ rèn",
-      "en": "teacher in charge of a class"
-    },
-    {
-      "w": "走神",
-      "py": "zǒu shén",
-      "en": "absent-minded"
-    },
-    {
-      "w": "成熟",
-      "py": "chéngshú",
-      "en": "fully developed physically or mentally"
-    },
-    {
-      "w": "出息",
-      "py": "chūxi",
-      "en": "promise and potential for success"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h6-26.mp3?v=1791721347"
+  {
+   "text": "班主任说过，每个学生都必须有一位家长到场。",
+   "py": "bān zhǔ rèn shuō guò, měi gè xué sheng dōu bì xū yǒu yí wèi jiā zhǎng dào chǎng.",
+   "en": "His form teacher has said that every student must have a parent there.",
+   "tr": {
+    "am": "የክፍሉ ኃላፊ መምህርት ለእያንዳንዱ ተማሪ አንድ ወላጅ መገኘት አለበት ብላ ነበር።",
+    "fa": "سرپرست کلاس گفته هر دانش‌آموز باید یه والد حضوری داشته باشه."
+   },
+   "start": 11.12,
+   "end": 15.872,
+   "tokens": [
+    [
+     "班主任",
+     "bān zhǔ rèn",
+     "teacher in charge of a class",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "(bound form) theory; doctrine; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每个",
+     "měi gè",
+     "each; every",
+     ""
+    ],
+    [
+     "学生",
+     "xué sheng",
+     "student; schoolchild",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "必须",
+     "bì xū",
+     "to have to; must; compulsory",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "家长",
+     "jiā zhǎng",
+     "parent or guardian of a child; head of a household",
+     ""
+    ],
+    [
+     "到场",
+     "dào chǎng",
+     "to show up; present (at the scene)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李强想来想去，只好去求王明：“哥，你就说是我表哥，替我去一趟吧！”",
+   "py": "Lǐ Qiáng xiǎng lái xiǎng qù, zhǐ hǎo qù qiú Wáng Míng: “gē, nǐ jiù shuō shì wǒ biǎo gē, tì wǒ qù yí tàng ba!”",
+   "en": "After racking his brains, Li Qiang has no choice but to beg Wang Ming: \"Please, just say you're my cousin and go in my place!\"",
+   "tr": {
+    "am": "ሊ ቺያንግ ብዙ ካሰበ በኋላ ዋንግ ሚንግን ከመለመን ሌላ ምርጫ አላገኘም፦ «ወንድሜ፣ የአጎቴ ልጅ ነኝ በልና በእኔ ቦታ ሂድልኝ!»",
+    "fa": "لی چیانگ هر فکری می‌کنه و آخرش چاره‌ای نداره و از وانگ مینگ التماس می‌کنه: «خواهش می‌کنم، فقط بگو پسرعموم هستی و برو جای من!»"
+   },
+   "start": 16.572,
+   "end": 25.092,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "想来",
+     "xiǎng lái",
+     "it may be assumed that",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go to (a place); just passed",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只好",
+     "zhǐ hǎo",
+     "to have no other option but to ...; to have to; to be forced to",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go to (a place); just passed",
+     ""
+    ],
+    [
+     "求",
+     "qiú",
+     "to seek; to look for; to request",
+     ""
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "哥",
+     "gē",
+     "elder brother",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "表哥",
+     "biǎo gē",
+     "older male cousin through a female relative",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "替",
+     "tì",
+     "to take the place of; to substitute for; to replace",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go to (a place); just passed",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "趟",
+     "tàng",
+     "classifier for times, round trips or rows; a time; a trip",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明有点儿犹豫：“我去开家长会？老师会不会一眼就看出来？”",
+   "py": "Wáng Míng yǒu diǎn r yóu yù: “wǒ qù kāi jiā zhǎng huì? lǎo shī huì bú huì yì yǎn jiù kàn chū lái?”",
+   "en": "Wang Ming hesitates. \"Me, at a parents' meeting? Won't the teacher see through it at a glance?\"",
+   "tr": {
+    "am": "ዋንግ ሚንግ ትንሽ አመነታ፦ «እኔ የወላጆች ስብሰባ ልሂድ? መምህሯ ወዲያው አታውቅብኝም?»",
+    "fa": "وانگ مینگ مردده: «منم تو جلسه‌ی والدین؟ مگه معلم نمی‌کشه همون اول کلکم رو بزنه؟»"
+   },
+   "start": 25.792,
+   "end": 33.16,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "有点儿",
+     "yǒu diǎn r",
+     "slightly; a little; somewhat",
+     ""
+    ],
+    [
+     "犹豫",
+     "yóu yù",
+     "to hesitate",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "开",
+     "kāi",
+     "to open (transitive or intransitive)",
+     ""
+    ],
+    [
+     "家长会",
+     "jiā zhǎng huì",
+     "parent-teacher conference; parents' association",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "会不会",
+     "huì bù huì",
+     "(posing a question: whether sb, something) can or cannot?",
+     ""
+    ],
+    [
+     "一眼",
+     "yī yǎn",
+     "a glance; a quick look; a glimpse",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "看出",
+     "kàn chū",
+     "to see; to make out",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“不会的！我们班主任今年刚调过来，谁都不认识。”",
+   "py": "“bú huì de! wǒ men bān zhǔ rèn jīn nián gāng diào guò lái, shéi dōu bú rèn shi.”",
+   "en": "\"No way! Our form teacher only moved to our school this year. She doesn't know anybody.\"",
+   "tr": {
+    "am": "«አታውቅም! የክፍላችን ኃላፊ መምህርት ዘንድሮ ገና ተዛውራ ነው የመጣችው፣ ማንንም አታውቅም።»",
+    "fa": "«نمی‌شه! سرپرست کلاسمون امسال اومده مدرسه‌مون؛ هیچ‌کی رو نمی‌شناسه.»"
+   },
+   "start": 33.86,
+   "end": 38.852,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "不会",
+     "bù huì",
+     "improbable; unlikely; will not (act, happen etc)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "班主任",
+     "bān zhǔ rèn",
+     "teacher in charge of a class",
+     ""
+    ],
+    [
+     "今年",
+     "jīn nián",
+     "this year",
+     ""
+    ],
+    [
+     "刚",
+     "gāng",
+     "barely; only just; just; only a short while ago",
+     ""
+    ],
+    [
+     "调",
+     "diào",
+     "to move (troops or cadres); to transfer; to investigate",
+     ""
+    ],
+    [
+     "过来",
+     "guò lái",
+     "to come over; to manage; to handle",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "谁",
+     "shéi",
+     "who; also pr.",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "(bound form) not; un-; no; not so",
+     ""
+    ],
+    [
+     "认识",
+     "rèn shi",
+     "to know; knowledge; to recognize",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "为了显得成熟一点儿，王明特地穿上了西装，还把头发梳得整整齐齐。",
+   "py": "wèi le xiǎn de chéng shú yì diǎn r, Wáng Míng tè de chuān shàng le xī zhuāng, hái bǎ tóu fa shū de zhěng zhěng qí qí.",
+   "en": "To look a bit more grown-up, Wang Ming makes a point of putting on a suit and combing his hair neatly.",
+   "tr": {
+    "am": "ትንሽ ትልቅ ሰው ለመምሰል ዋንግ ሚንግ ሆን ብሎ ሱፍ ለበሰ፣ ፀጉሩንም በሥርዓት አበጠረ።",
+    "fa": "برای این‌که یه‌کم بزرگ‌تر به نظر بیاد، وانگ مینگ مخصوصاً کت‌وشلوار می‌پوشه و موهاش رو مرتب شونه می‌زنه."
+   },
+   "start": 39.552,
+   "end": 46.44,
+   "tokens": [
+    [
+     "为了",
+     "wèi le",
+     "for; for the purpose of; in order to",
+     ""
+    ],
+    [
+     "显得",
+     "xiǎn de",
+     "to look; to seem; to appear",
+     ""
+    ],
+    [
+     "成熟",
+     "chéng shú",
+     "mature; ripe; to mature; to ripen; Taiwan pr.",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "特地",
+     "tè dì",
+     "specially; for a special purpose",
+     ""
+    ],
+    [
+     "穿上",
+     "chuān shang",
+     "to put on (clothes etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "西装",
+     "xī zhuāng",
+     "suit; Western-style clothes",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still more; even more; still",
+     ""
+    ],
+    [
+     "把头",
+     "bǎ tóu",
+     "labor contractor; gangmaster",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to make a bundle of money; to send out",
+     ""
+    ],
+    [
+     "梳",
+     "shū",
+     "to comb; (bound form) a comb",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "整整齐齐",
+     "zhěng zhěng qí qí",
+     "neat and tidy",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "家长会上，班主任一个一个地介绍学生的情况。讲到李强的时候，她皱了皱眉头。",
+   "py": "jiā zhǎng huì shàng, bān zhǔ rèn yí gè yí gè de jiè shào xué sheng de qíng kuàng. jiǎng dào Lǐ Qiáng de shí hou, tā zhòu le zhòu méi tou.",
+   "en": "At the meeting, the form teacher goes through the students one by one. When she gets to Li Qiang, she frowns.",
+   "tr": {
+    "am": "በስብሰባው ላይ መምህሯ የተማሪዎቹን ሁኔታ አንድ በአንድ አስረዳች። የሊ ቺያንግ ተራ ሲደርስ ፊቷን ቋጠረች።",
+    "fa": "تو جلسه سرپرست کلاس دانش‌آموزها رو یکی‌یکی رد می‌کنه. به لی چیانگ که می‌رسه اخم می‌کنه."
+   },
+   "start": 47.14,
+   "end": 55.444,
+   "tokens": [
+    [
+     "家长会",
+     "jiā zhǎng huì",
+     "parent-teacher conference; parents' association",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "班主任",
+     "bān zhǔ rèn",
+     "teacher in charge of a class",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "介绍",
+     "jiè shào",
+     "to introduce (sb to sb); to give a presentation",
+     ""
+    ],
+    [
+     "学生",
+     "xué sheng",
+     "student; schoolchild",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "情况",
+     "qíng kuàng",
+     "circumstances; state of affairs; situation",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "讲到",
+     "jiǎng dào",
+     "to talk about sth",
+     ""
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "皱",
+     "zhòu",
+     "to wrinkle; wrinkled; to crease",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "皱眉头",
+     "zhòu méi tóu",
+     "to scowl; to knit the brows",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“李强篮球打得很好，可是上课老走神，作业也常常交得很晚。”",
+   "py": "“Lǐ Qiáng lán qiú dǎ de hěn hǎo, kě shì shàng kè lǎo zǒu shén, zuò yè yě cháng cháng jiāo de hěn wǎn.”",
+   "en": "\"Li Qiang is very good at basketball, but he's always daydreaming in class, and he often hands his homework in late.\"",
+   "tr": {
+    "am": "«ሊ ቺያንግ ቅርጫት ኳስ በደንብ ይጫወታል፣ ግን በክፍል ውስጥ ሁልጊዜ ሐሳቡ ይበተናል፣ የቤት ሥራውንም ብዙ ጊዜ ዘግይቶ ያስረክባል።»",
+    "fa": "«لی چیانگ تو بسکتبال خیلی قویه، ولی همیشه تو کلاس تو رویاهاست و اغلب تکالیفش رو دیر می‌ده.»"
+   },
+   "start": 56.144,
+   "end": 62.312,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "篮球",
+     "lán qiú",
+     "basketball",
+     ""
+    ],
+    [
+     "打",
+     "dǎ",
+     "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; (before a verb) good to; appropriate; proper",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "上课",
+     "shàng kè",
+     "to go to class; to attend class; to go to teach a class",
+     ""
+    ],
+    [
+     "老",
+     "lǎo",
+     "always; very",
+     ""
+    ],
+    [
+     "走神",
+     "zǒu shén",
+     "absent-minded; one's mind is wandering",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "作业",
+     "zuò yè",
+     "homework; school assignment; work",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "常常",
+     "cháng cháng",
+     "frequently; often",
+     ""
+    ],
+    [
+     "交",
+     "jiāo",
+     "to hand over; to deliver; to pay (money); to turn over",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "晚",
+     "wǎn",
+     "late; evening; night",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明一边听一边记，认真得像个真正的家长。",
+   "py": "Wáng Míng yì biān tīng yì biān jì, rèn zhēn de xiàng gè zhēn zhèng de jiā zhǎng.",
+   "en": "Wang Ming listens and takes notes, as earnest as a real parent.",
+   "tr": {
+    "am": "ዋንግ ሚንግ እየሰማ ይጽፍ ነበር፣ እንደ እውነተኛ ወላጅ በትኩረት።",
+    "fa": "وانگ مینگ گوش می‌کنه و یادداشت می‌بره، جدی‌تر از یه والد واقعی."
+   },
+   "start": 63.012,
+   "end": 68.004,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "记",
+     "jì",
+     "to note; to record; to memorize",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "认真",
+     "rèn zhēn",
+     "earnest; to take seriously; to take to heart",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "像",
+     "xiàng",
+     "to resemble; to be like; to look as if",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "真正",
+     "zhēn zhèng",
+     "genuine; real; true; really; indeed",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "家长",
+     "jiā zhǎng",
+     "parent or guardian of a child; head of a household",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "会开完了，家长们陆续离开，班主任却叫住了他：“这位家长，请您等一下。”",
+   "py": "huì kāi wán le, jiā zhǎng men lù xù lí kāi, bān zhǔ rèn què jiào zhù le tā: “zhè wèi jiā zhǎng, qǐng nín děng yí xià.”",
+   "en": "When the meeting is over and the parents start drifting off, the form teacher calls him back. \"Excuse me, could you wait a moment?\"",
+   "tr": {
+    "am": "ስብሰባው አልቆ ወላጆች አንድ በአንድ ሲወጡ መምህሯ ግን ጠራችው፦ «ወላጅ፣ እባክዎ ትንሽ ይጠብቁ።»",
+    "fa": "جلسه که تموم می‌شه و والدین دارن می‌رن پخش می‌شن، سرپرست کلاس صداش می‌کنه: «ببخشید، می‌شه یه لحظه صبر کنید؟»"
+   },
+   "start": 68.704,
+   "end": 76.768,
+   "tokens": [
+    [
+     "会",
+     "huì",
+     "to meet; to get together; meeting; gathering",
+     ""
+    ],
+    [
+     "开",
+     "kāi",
+     "(of ships, vehicles, troops etc) to start",
+     ""
+    ],
+    [
+     "完了",
+     "wán le",
+     "to be finished; to be done for; ruined",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "家长",
+     "jiā zhǎng",
+     "parent or guardian of a child; head of a household",
+     ""
+    ],
+    [
+     "们",
+     "men",
+     "plural marker for pronouns, and nouns referring to individuals",
+     ""
+    ],
+    [
+     "陆续",
+     "lù xù",
+     "in turn; successively; one after the other",
+     ""
+    ],
+    [
+     "离开",
+     "lí kāi",
+     "to depart; to leave",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "班主任",
+     "bān zhǔ rèn",
+     "teacher in charge of a class",
+     ""
+    ],
+    [
+     "却",
+     "què",
+     "to go back; but; yet",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to call; to shout; to order",
+     ""
+    ],
+    [
+     "住",
+     "zhù",
+     "to live; to reside; to stay; to stop; to cease",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这位",
+     "zhè wèi",
+     "this (person)",
+     ""
+    ],
+    [
+     "家长",
+     "jiā zhǎng",
+     "parent or guardian of a child; head of a household",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "请",
+     "qǐng",
+     "to ask; to invite; please (do sth)",
+     ""
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "等一下",
+     "děng yī xià",
+     "to wait a moment; later; in awhile",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明心里一紧：完了，被看出来了。",
+   "py": "Wáng Míng xīn lǐ yì jǐn: wán le, bèi kàn chū lái le.",
+   "en": "Wang Ming's heart sinks: that's it, she's seen through me.",
+   "tr": {
+    "am": "የዋንግ ሚንግ ልብ ደነገጠ፦ አለቀ፣ ደረሰችብኝ።",
+    "fa": "دل وانگ مینگ می‌لرزه: همینه، کلکم رو زد."
+   },
+   "start": 77.468,
+   "end": 81.74,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "心里",
+     "xīn li",
+     "heart; mind; chest",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "紧",
+     "jǐn",
+     "tight; strict; close at hand",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "完了",
+     "wán le",
+     "to be finished; to be done for; ruined",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "被",
+     "bèi",
+     "quilt; to cover (with); (literary) to suffer (a misfortune)",
+     ""
+    ],
+    [
+     "看出",
+     "kàn chū",
+     "to make out; to see",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "班主任仔细打量了他一会儿：“你是……王明吧？”",
+   "py": "bān zhǔ rèn zǐ xì dǎ liang le tā yí huì r: “nǐ shì…… Wáng Míng ba?”",
+   "en": "The teacher studies him carefully for a moment. \"You're... Wang Ming, aren't you?\"",
+   "tr": {
+    "am": "መምህሯ ለጥቂት ጊዜ በደንብ ተመለከተችው፦ «አንተ… ዋንግ ሚንግ ነህ አይደል?»",
+    "fa": "معلم مدتی با دقت نگاهش می‌کنه: «شما... وانگ مینگ هستید، نه؟»"
+   },
+   "start": 82.44,
+   "end": 88.872,
+   "tokens": [
+    [
+     "班主任",
+     "bān zhǔ rèn",
+     "teacher in charge of a class",
+     ""
+    ],
+    [
+     "仔细",
+     "zǐ xì",
+     "careful; attentive; cautious; to be careful; to look out",
+     ""
+    ],
+    [
+     "打量",
+     "dǎ liang",
+     "to size sb up; to look sb up and down",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一会儿",
+     "yī huì r",
+     "a moment; in a moment; a while",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明吓了一跳：“您……您怎么知道？”",
+   "py": "Wáng Míng xià le yí tiào: “nín…… nín zěn me zhī dào?”",
+   "en": "Wang Ming jumps. \"How... how do you know?\"",
+   "tr": {
+    "am": "ዋንግ ሚንግ ደነገጠ፦ «እርስዎ… እርስዎ እንዴት አወቁ?»",
+    "fa": "وانگ مینگ جا می‌پره: «چطور... چطور می‌دونید؟»"
+   },
+   "start": 89.572,
+   "end": 93.844,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "吓",
+     "xià",
+     "to frighten; to scare",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "跳",
+     "tiào",
+     "to jump; to hop; to skip over",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "知道",
+     "zhī dào",
+     "to know; to become aware of; also pr.",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "班主任笑了：“十几年前，我在另一所中学当过你的班主任。你忘了？初二的时候，你上课老在课本上画小人儿。”",
+   "py": "bān zhǔ rèn xiào le: “shí jǐ nián qián, wǒ zài lìng yì suǒ zhōng xué dāng guò nǐ de bān zhǔ rèn. nǐ wàng le? chū èr de shí hou, nǐ shàng kè lǎo zài kè běn shàng huà xiǎo rén r.”",
+   "en": "The teacher smiles. \"More than ten years ago, at another secondary school, I was your form teacher. Have you forgotten? In your second year, you were always doodling little people in your textbooks in class.\"",
+   "tr": {
+    "am": "መምህሯ ሳቀች፦ «ከአሥር ዓመት በላይ በፊት በሌላ ሁለተኛ ደረጃ ትምህርት ቤት የክፍልህ ኃላፊ መምህርት ነበርኩ። ረሳኸው? ስምንተኛ ክፍል እያለህ በክፍል ውስጥ ሁልጊዜ በመጽሐፍህ ላይ ትናንሽ ሰዎችን ትስል ነበር።»",
+    "fa": "معلم می‌خنده: «بیش از ده سال پیش، تو یه مدرسه‌ی راهنمایی دیگه، من سرپرست کلاس شما بودم. یادتونه؟ سال دومتون بود که همیشه تو کلاس تو کتاب‌هاتون آدمک کشیدین.»"
+   },
+   "start": 94.544,
+   "end": 106.112,
+   "tokens": [
+    [
+     "班主任",
+     "bān zhǔ rèn",
+     "teacher in charge of a class",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "十几",
+     "shí jǐ",
+     "more than ten; a dozen or more",
+     ""
+    ],
+    [
+     "年前",
+     "nián qián",
+     "by the end of the year",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "另一",
+     "lìng yī",
+     "another ...; the other ...",
+     ""
+    ],
+    [
+     "所",
+     "suǒ",
+     "classifier for houses, small buildings, institutions etc",
+     ""
+    ],
+    [
+     "中学",
+     "zhōng xué",
+     "middle school",
+     ""
+    ],
+    [
+     "当",
+     "dāng",
+     "(onom.) dong; ding dong (bell); to be",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "班主任",
+     "bān zhǔ rèn",
+     "teacher in charge of a class",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "忘",
+     "wàng",
+     "to forget; to overlook; to neglect",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "初二",
+     "chū èr",
+     "second year in junior middle school",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "上课",
+     "shàng kè",
+     "to go to class; to attend class; to go to teach a class",
+     ""
+    ],
+    [
+     "老",
+     "lǎo",
+     "old (of people); always",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "课本",
+     "kè běn",
+     "textbook",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "to draw; to paint; picture; painting; to draw (a line)",
+     ""
+    ],
+    [
+     "小人",
+     "xiǎo rén",
+     "person of low social status (old)",
+     ""
+    ],
+    [
+     "儿",
+     "ér",
+     "child; son",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明的脸一下子红到了耳朵根。他想起来了，眼前这位，正是他当年的班主任。",
+   "py": "Wáng Míng de liǎn yí xià zi hóng dào le ěr duo gēn. tā xiǎng qǐ lái le, yǎn qián zhè wèi, zhèng shì tā dāng nián de bān zhǔ rèn.",
+   "en": "Wang Ming blushes to the tips of his ears. Now he remembers: the woman in front of him is his own form teacher from back then.",
+   "tr": {
+    "am": "የዋንግ ሚንግ ፊት እስከ ጆሮው ድረስ ቀላ። አሁን ትዝ አለው፦ ፊቱ የቆመችው ሴት የዚያን ጊዜዋ የክፍሉ ኃላፊ መምህርት ነበረች።",
+    "fa": "وانگ مینگ تا ته گوش‌هاش قرمز می‌شه. حالا یادش میاد: زنی که جلوشه همون سرپرست کلاس خودشه در اون سال‌هاست."
+   },
+   "start": 106.812,
+   "end": 115.596,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "脸",
+     "liǎn",
+     "face",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "once; one time; (following a verb) for a moment; briefly",
+     ""
+    ],
+    [
+     "红",
+     "hóng",
+     "red; popular; revolutionary",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "耳朵",
+     "ěr duo",
+     "ear; handle (on a cup)",
+     ""
+    ],
+    [
+     "根",
+     "gēn",
+     "root; basis",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "想起来",
+     "xiǎng qi lai",
+     "to remember; to recall",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "眼前",
+     "yǎn qián",
+     "now; before one's eyes; at present",
+     ""
+    ],
+    [
+     "这位",
+     "zhè wèi",
+     "this (person)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "正是",
+     "zhèng shì",
+     "is precisely",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "当年",
+     "dāng nián",
+     "in those days; back then; in those years",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "班主任",
+     "bān zhǔ rèn",
+     "teacher in charge of a class",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“还有，你们班那次开家长会，来的也是你的‘表哥’。”",
+   "py": "“hái yǒu, nǐ men bān nà cì kāi jiā zhǎng huì, lái de yě shì nǐ de ‘biǎo gē’.”",
+   "en": "\"And when your class had a parents' meeting that time, the person who came was also your 'cousin'.\"",
+   "tr": {
+    "am": "«ደግሞ ያኔ ክፍላችሁ የወላጆች ስብሰባ ሲያደርግ የመጣውም ‹የአጎትህ ልጅ› ነበር።»",
+    "fa": "«و اون بار هم که کلاس شما جلسه‌ی والدین داشت، اونی که اومد باز هم 'پسرعموت' بود.»"
+   },
+   "start": 116.296,
+   "end": 121.504,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "班",
+     "bān",
+     "team; class; grade",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(pronoun) that (referring to persons, things or situations)",
+     ""
+    ],
+    [
+     "次",
+     "cì",
+     "classifier for enumerated events: time",
+     ""
+    ],
+    [
+     "开",
+     "kāi",
+     "to open (transitive or intransitive)",
+     ""
+    ],
+    [
+     "家长会",
+     "jiā zhǎng huì",
+     "parent-teacher conference; parents' association",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "来",
+     "lái",
+     "for the past (amount of time); to come",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "‘"
+    ],
+    [
+     "表哥",
+     "biǎo gē",
+     "older male cousin through a female relative",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明张着嘴，半天说不出话来。",
+   "py": "Wáng Míng zhāng zhe zuǐ, bàn tiān shuō bù chū huà lái.",
+   "en": "Wang Ming stands there open-mouthed, unable to say a word for ages.",
+   "tr": {
+    "am": "ዋንግ ሚንግ አፉን ከፍቶ ለረጅም ጊዜ ቃል ማውጣት አቃተው።",
+    "fa": "وانگ مینگ با دهن باز اون‌جا می‌خشک می‌زنه و مدت‌های طولانی نمی‌تونه حرف بزنه."
+   },
+   "start": 122.204,
+   "end": 125.78,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "嘴",
+     "zuǐ",
+     "mouth; beak; nozzle",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "half of the day; a long time; quite a while",
+     ""
+    ],
+    [
+     "说不出话来",
+     "shuō bù chū huà lái",
+     "speechless",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "班主任把李强的作业本递给他：“回去告诉你这位‘表弟’，上课别走神。我教过的学生，走神的都被我抓住过。”",
+   "py": "bān zhǔ rèn bǎ Lǐ Qiáng de zuò yè běn dì gěi tā: “huí qù gào su nǐ zhè wèi ‘biǎo dì’, shàng kè bié zǒu shén. wǒ jiāo guò de xué sheng, zǒu shén de dōu bèi wǒ zhuā zhù guò.”",
+   "en": "The teacher hands him Li Qiang's exercise book. \"Go home and tell this 'cousin' of yours to stop daydreaming in class. Every daydreamer I've ever taught, I've caught.\"",
+   "tr": {
+    "am": "መምህሯ የሊ ቺያንግን የመልመጃ ደብተር ሰጠችው፦ «ሂድና ለዚህ ‹የአጎትህ ልጅ› በክፍል ውስጥ ሐሳቡ እንዳይበተን ንገረው። ካስተማርኳቸው ተማሪዎች ውስጥ ሐሳቡ የሚበተነውን ሁሉ ይዤዋለሁ።»",
+    "fa": "معلم دفتر تمرین لی چیانگ رو می‌ده دستش: «برو خونه بگو این 'پسرعموت' دیگه تو کلاس تو رویا نباشه. هر دانش‌آموز رویاپدیده‌ای که تا حالا داشتم رو گرفته‌م.»"
+   },
+   "start": 126.48,
+   "end": 137.136,
+   "tokens": [
+    [
+     "班主任",
+     "bān zhǔ rèn",
+     "teacher in charge of a class",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "作业",
+     "zuò yè",
+     "homework; school assignment; work",
+     ""
+    ],
+    [
+     "本",
+     "běn",
+     "classifier for books, periodicals, files etc",
+     ""
+    ],
+    [
+     "递给",
+     "dì gěi",
+     "to hand it (i.e. the aforementioned item) to (sb)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "回去",
+     "huí qu",
+     "to return; to go back",
+     ""
+    ],
+    [
+     "告诉",
+     "gào su",
+     "to tell; to inform; to let know",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "这位",
+     "zhè wèi",
+     "this (person)",
+     ""
+    ],
+    [
+     "‘"
+    ],
+    [
+     "表弟",
+     "biǎo dì",
+     "younger male cousin through a female relative",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "，"
+    ],
+    [
+     "上课",
+     "shàng kè",
+     "to go to class; to attend class; to go to teach a class",
+     ""
+    ],
+    [
+     "别",
+     "bié",
+     "to leave; to part (from)",
+     ""
+    ],
+    [
+     "走神",
+     "zǒu shén",
+     "absent-minded; one's mind is wandering",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "教",
+     "jiāo",
+     "to teach; to instruct",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "学生",
+     "xué sheng",
+     "student; schoolchild",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "走神",
+     "zǒu shén",
+     "absent-minded; one's mind is wandering",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "被",
+     "bèi",
+     "quilt; to cover (with); (literary) to suffer (a misfortune)",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "抓住",
+     "zhuā zhù",
+     "to grab hold of; to capture",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“不过，”她又笑着加了一句，“当年那个在课本上画小人儿的，现在不也挺有出息的吗？”",
+   "py": "“bú guò,” tā yòu xiào zhe jiā le yí jù, “dāng nián nà ge zài kè běn shàng huà xiǎo rén r de, xiàn zài bù yě tǐng yǒu chū xi de ma?”",
+   "en": "\"Still,\" she adds with a smile, \"the boy who doodled in his textbooks turned out pretty well, didn't he?\"",
+   "tr": {
+    "am": "«ቢሆንም፣» ብላ በፈገግታ ጨመረች፣ «ያ ድሮ በመጽሐፉ ላይ ትናንሽ ሰዎችን ይስል የነበረው ልጅ አሁን ጥሩ ሰው ሆኗል፣ አይደል?»",
+    "fa": "«ولی» با لبخند اضافه می‌کنه، «اون پسری که تو کتاب‌هاش آدمک می‌کشید، آخرش حسابی خوب شد، نه؟»"
+   },
+   "start": 137.836,
+   "end": 147.1,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "不过",
+     "bù guò",
+     "only; merely; no more than",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "”"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "加",
+     "jiā",
+     "to add; (math.) plus; to increase; to augment",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一句",
+     "yī jù",
+     "a line of verse; a sentence",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "“"
+    ],
+    [
+     "当年",
+     "dāng nián",
+     "in those days; back then; in those years",
+     ""
+    ],
+    [
+     "那个",
+     "nà ge",
+     "that one; that thing; that (as opposed to this)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "课本",
+     "kè běn",
+     "textbook",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "to draw; to paint; picture; painting; to draw (a line)",
+     ""
+    ],
+    [
+     "小人",
+     "xiǎo rén",
+     "person of low social status (old)",
+     ""
+    ],
+    [
+     "儿",
+     "ér",
+     "child; son",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "现在",
+     "xiàn zài",
+     "now; at present; currently",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "挺",
+     "tǐng",
+     "to stick out (a part of the body); straight; erect",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "出息",
+     "chū xi",
+     "future prospects; profit; to mature",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "回到家，李强紧张地问：“怎么样？老师没发现吧？”",
+   "py": "huí dào jiā, Lǐ Qiáng jǐn zhāng de wèn: “zěn me yàng? lǎo shī méi fā xiàn ba?”",
+   "en": "Back home, Li Qiang asks nervously, \"How did it go? The teacher didn't notice, did she?\"",
+   "tr": {
+    "am": "ቤት ሲመለስ ሊ ቺያንግ በጭንቀት ጠየቀ፦ «እንዴት ነበር? መምህሯ አላወቀችም አይደል?»",
+    "fa": "تو خونه لی چیانگ با استرس می‌پرسه: «چطور شد؟ معلم چیزی نفهمید، نه؟»"
+   },
+   "start": 147.8,
+   "end": 153.488,
+   "tokens": [
+    [
+     "回到",
+     "huí dào",
+     "to return to",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "紧张",
+     "jǐn zhāng",
+     "nervous; keyed up; intense",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "怎么样",
+     "zěn me yàng",
+     "how?; how about?; how was it?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "发现",
+     "fā xiàn",
+     "to notice; to become aware of",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明把作业本往桌上一放：“发现了。不光发现了你，还发现了我。”",
+   "py": "Wáng Míng bǎ zuò yè běn wǎng zhuō shàng yí fàng: “fā xiàn le. bù guāng fā xiàn le nǐ, hái fā xiàn le wǒ.”",
+   "en": "Wang Ming drops the exercise book on the table. \"She noticed. Not just you. Me as well.\"",
+   "tr": {
+    "am": "ዋንግ ሚንግ ደብተሩን ጠረጴዛው ላይ ጣል አደረገ፦ «ደርሳበታለች። አንተን ብቻ ሳይሆን እኔንም ደርሳብኛለች።»",
+    "fa": "وانگ مینگ دفتر تمرین رو می‌ندازه رو میز: «نفهمید چی بشه! نه فقط تو؛ منم.»"
+   },
+   "start": 154.188,
+   "end": 160.836,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "作业",
+     "zuò yè",
+     "school assignment; homework; work",
+     ""
+    ],
+    [
+     "本",
+     "běn",
+     "classifier for books, periodicals, files etc",
+     ""
+    ],
+    [
+     "往",
+     "wǎng",
+     "to go (in a direction); to; towards",
+     ""
+    ],
+    [
+     "桌",
+     "zhuō",
+     "table; classifier for tables of guests at a banquet etc",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "发现",
+     "fā xiàn",
+     "to notice; to become aware of",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "不光",
+     "bù guāng",
+     "not the only one; not only",
+     ""
+    ],
+    [
+     "发现",
+     "fā xiàn",
+     "to notice; to become aware of",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "发现",
+     "fā xiàn",
+     "to notice; to become aware of",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 511,
+ "first": "星期五下午，李强的学校要开家长会，可是他爸爸妈妈都在外地出差。",
+ "newWords": [
+  {
+   "w": "家长会",
+   "py": "jiā zhǎng huì",
+   "en": "parent-teacher conference"
+  },
+  {
+   "w": "班主任",
+   "py": "bān zhǔ rèn",
+   "en": "teacher in charge of a class"
+  },
+  {
+   "w": "走神",
+   "py": "zǒu shén",
+   "en": "absent-minded"
+  },
+  {
+   "w": "成熟",
+   "py": "chéngshú",
+   "en": "fully developed physically or mentally"
+  },
+  {
+   "w": "出息",
+   "py": "chūxi",
+   "en": "promise and potential for success"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h6-26.mp3?v=1791721347"
 }

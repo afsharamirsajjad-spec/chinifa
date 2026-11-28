@@ -1,2316 +1,2335 @@
 {
-  "id": "h5-53",
-  "level": 5,
-  "no": 53,
-  "title": "三句话",
-  "title_py": "sān jù huà",
-  "title_en": "Three sentences",
-  "title_tr": {
-    "am": "ሦስት ዓረፍተ ነገሮች",
-    "fa": "خلاصه در سه جمله"
+ "id": "h5-53",
+ "level": 5,
+ "no": 53,
+ "title": "三句话",
+ "title_py": "sān jù huà",
+ "title_en": "Three sentences",
+ "title_tr": {
+  "am": "ሦስት ዓረፍተ ነገሮች",
+  "fa": "خلاصه در سه جمله"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_meeting",
+ "cover": "https://media.kanchinese.app/review/stories/h5-53.jpg",
+ "duration": 136.808,
+ "lines": [
+  {
+   "text": "下个星期，总部的老板要来北京，听各个部门汇报工作。",
+   "py": "xià gè xīng qī, zǒng bù de lǎo bǎn yào lái Běi jīng, tīng gè gè bù mén huì bào gōng zuò.",
+   "en": "Next week, the boss from head office is coming to Beijing to hear every department report on its work.",
+   "tr": {
+    "am": "በሚቀጥለው ሳምንት የዋናው መሥሪያ ቤት አለቃ የሁሉንም ክፍሎች የሥራ ሪፖርት ለመስማት ወደ ቤይጂንግ ይመጣል።",
+    "fa": "هفته‌ی بعد، رئیسِ ستاد مرکزی میاد پکن تا گزارش کار همه‌ی بخش‌ها رو بشنوه."
+   },
+   "start": 2.404,
+   "end": 8.356,
+   "tokens": [
+    [
+     "下个星期",
+     "xià gè xīng qī",
+     "next week",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "总部",
+     "zǒng bù",
+     "general headquarters",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "ever since (as in 自古以来)",
+     ""
+    ],
+    [
+     "北京",
+     "běi jīng",
+     "Beijing municipality, capital of the People's Republic of China (short name 京)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "各个",
+     "gè gè",
+     "every; various; separately, one by one",
+     ""
+    ],
+    [
+     "部门",
+     "bù mén",
+     "department; branch; section",
+     ""
+    ],
+    [
+     "汇报",
+     "huì bào",
+     "to report; to collect information and report back; report",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_meeting",
-  "cover": "https://media.kanchinese.app/review/stories/h5-53.jpg",
-  "duration": 136.808,
-  "lines": [
-    {
-      "text": "下个星期，总部的老板要来北京，听各个部门汇报工作。",
-      "py": "xià gè xīng qī, zǒng bù de lǎo bǎn yào lái Běi jīng, tīng gè gè bù mén huì bào gōng zuò.",
-      "en": "Next week, the boss from head office is coming to Beijing to hear every department report on its work.",
-      "tr": {
-        "am": "በሚቀጥለው ሳምንት የዋናው መሥሪያ ቤት አለቃ የሁሉንም ክፍሎች የሥራ ሪፖርት ለመስማት ወደ ቤይጂንግ ይመጣል።"
-      },
-      "start": 2.404,
-      "end": 8.356,
-      "tokens": [
-        [
-          "下个星期",
-          "xià gè xīng qī",
-          "next week",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "总部",
-          "zǒng bù",
-          "general headquarters",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "ever since (as in 自古以来)",
-          ""
-        ],
-        [
-          "北京",
-          "běi jīng",
-          "Beijing municipality, capital of the People's Republic of China (short name 京)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "各个",
-          "gè gè",
-          "every; various; separately, one by one",
-          ""
-        ],
-        [
-          "部门",
-          "bù mén",
-          "department; branch; section",
-          ""
-        ],
-        [
-          "汇报",
-          "huì bào",
-          "to report; to collect information and report back; report",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理让杰克代表部门汇报，每个部门只有五分钟。",
-      "py": "Zhōu jīng lǐ ràng Jié kè dài biǎo bù mén huì bào, měi gè bù mén zhǐ yǒu wǔ fēn zhōng.",
-      "en": "Manager Zhou asks Jack to give the report for their department. Each department gets just five minutes.",
-      "tr": {
-        "am": "ሥራ አስኪያጅ ጆው ጃክ ክፍሉን ወክሎ ሪፖርት እንዲያቀርብ አደረገች፤ እያንዳንዱ ክፍል አምስት ደቂቃ ብቻ ነው ያለው።"
-      },
-      "start": 9.056,
-      "end": 14.264,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "让",
-          "ràng",
-          "to yield; to permit; to let sb do sth",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "代表",
-          "dài biǎo",
-          "representative; delegate; to represent",
-          ""
-        ],
-        [
-          "部门",
-          "bù mén",
-          "department; branch; section",
-          ""
-        ],
-        [
-          "汇报",
-          "huì bào",
-          "to report; to give an account of",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每个",
-          "měi gè",
-          "each; every",
-          ""
-        ],
-        [
-          "部门",
-          "bù mén",
-          "department; branch; section",
-          ""
-        ],
-        [
-          "只有",
-          "zhǐ yǒu",
-          "(used to express lack of alternatives) can only; have no choice but to (as in 只有屈服 \"the only thing you can do is give in\")",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "分钟",
-          "fēn zhōng",
-          "minute",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克非常重视，花了三个晚上，做了三十页幻灯片。",
-      "py": "Jié kè fēi cháng zhòng shì, huā le sān gè wǎn shang, zuò le sān shí yè huàn dēng piàn.",
-      "en": "Jack takes it very seriously and spends three evenings making thirty slides.",
-      "tr": {
-        "am": "ጃክ ጉዳዩን በጣም በቁም ነገር ያዘው፤ ሦስት ምሽት ፈጅቶ 30 ስላይዶች አዘጋጀ።"
-      },
-      "start": 14.964,
-      "end": 20.676,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "非常",
-          "fēi cháng",
-          "very; really; unusual; extraordinary",
-          ""
-        ],
-        [
-          "重视",
-          "zhòng shì",
-          "to attach importance to sth; to value",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "花",
-          "huā",
-          "to spend (money, time); flower; blossom",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "三十",
-          "sān shí",
-          "thirty; 30",
-          ""
-        ],
-        [
-          "页",
-          "yè",
-          "page; leaf",
-          ""
-        ],
-        [
-          "幻灯片",
-          "huàn dēng piàn",
-          "(computing) presentation slide; (photography) slide",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "周经理看完，只说了一句：“太多了，改成十页。”",
-      "py": "Zhōu jīng lǐ kàn wán, zhǐ shuō le yí jù: “tài duō le, gǎi chéng shí yè.”",
-      "en": "Manager Zhou looks through them and says only one thing: \"Too many. Make it ten.\"",
-      "tr": {
-        "am": "ሥራ አስኪያጅ ጆው አይታ አንድ ነገር ብቻ አለች፦ «በጣም ብዙ ነው፤ ወደ 10 ቀንሰው።»"
-      },
-      "start": 21.376,
-      "end": 26.872,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "to make a circuit; Zhou Dynasty (1046–256 BC); to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一句",
-          "yī jù",
-          "a line of verse; a sentence",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "改成",
-          "gǎi chéng",
-          "to convert; to turn into (sth else)",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "页",
-          "yè",
-          "page; leaf",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克删了两天，好不容易改成了十页，周经理又说：“还是多，三页就够了。”",
-      "py": "Jié kè shān le liǎng tiān, hǎo bù róng yì gǎi chéng le shí yè, Zhōu jīng lǐ yòu shuō: “hái shi duō, sān yè jiù gòu le.”",
-      "en": "Jack spends two days cutting, and when he finally gets it down to ten, Manager Zhou says, \"Still too many. Three will do.\"",
-      "tr": {
-        "am": "ጃክ ለሁለት ቀን ሲቀንስ ቆይቶ በብዙ ድካም 10 አደረሰው፤ ሥራ አስኪያጅ ጆው እንደገና «አሁንም ብዙ ነው፤ ሦስት ይበቃል» አለች።"
-      },
-      "start": 27.572,
-      "end": 35.612,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "删",
-          "shān",
-          "to delete",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "好不容易",
-          "hǎo bù róng yì",
-          "with great difficulty; very difficult",
-          ""
-        ],
-        [
-          "改成",
-          "gǎi chéng",
-          "to convert; to turn into (sth else)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "页",
-          "yè",
-          "page; leaf",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "页",
-          "yè",
-          "page; leaf",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "as much as; as many as",
-          ""
-        ],
-        [
-          "够",
-          "gòu",
-          "enough (too much); enough (sufficient)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“五分钟的汇报，老板只会记住重点。你想让他记住什么？”",
-      "py": "“wǔ fēn zhōng de huì bào, lǎo bǎn zhǐ huì jì zhù zhòng diǎn. nǐ xiǎng ràng tā jì zhù shén me?”",
-      "en": "\"In a five-minute report, the boss will only remember the main points. What do you want him to remember?\"",
-      "tr": {
-        "am": "«በአምስት ደቂቃ ሪፖርት አለቃው የሚያስታውሰው ዋና ዋናውን ነጥብ ብቻ ነው። ምን እንዲያስታውስ ትፈልጋለህ?»"
-      },
-      "start": 36.312,
-      "end": 41.52,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "分钟",
-          "fēn zhōng",
-          "minute",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "汇报",
-          "huì bào",
-          "to report; to collect information and report back; report",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "记住",
-          "jì zhu",
-          "to remember; to bear in mind; to learn by heart",
-          ""
-        ],
-        [
-          "重点",
-          "zhòng diǎn",
-          "important point; main point; focus; key (project etc)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "让",
-          "ràng",
-          "to yield; to permit; to let sb do sth",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "记住",
-          "jì zhu",
-          "to remember; to bear in mind; to learn by heart",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克看着那十页，每一页都舍不得删。",
-      "py": "Jié kè kàn zhe nà shí yè, měi yí yè dōu shě bu de shān.",
-      "en": "Jack looks at the ten slides and can't bear to delete a single one.",
-      "tr": {
-        "am": "ጃክ እነዚያን 10 ስላይዶች እያየ አንዱንም ማጥፋት አላስችል አለው።"
-      },
-      "start": 42.22,
-      "end": 46.756,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "页",
-          "yè",
-          "page; leaf",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每",
-          "měi",
-          "each; every",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "single; one; a (article)",
-          ""
-        ],
-        [
-          "页",
-          "yè",
-          "page; leaf",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "舍不得",
-          "shě bu de",
-          "to hate to do sth; to hate to part with; to begrudge",
-          ""
-        ],
-        [
-          "删",
-          "shān",
-          "to delete",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "那天晚上，他想了很久，终于把一年的工作总结成了三页，每页只有一句话。",
-      "py": "nà tiān wǎn shang, tā xiǎng le hěn jiǔ, zhōng yú bǎ yì nián de gōng zuò zǒng jié chéng le sān yè, měi yè zhǐ yǒu yí jù huà.",
-      "en": "That night he thinks for a long time, and at last sums up the whole year's work in three slides, with just one sentence on each.",
-      "tr": {
-        "am": "በዚያ ምሽት ለረጅም ጊዜ አሰበ፤ በመጨረሻ የአንድ ዓመቱን ሥራ በሦስት ስላይዶች አጠቃለለ፤ በእያንዳንዱ ላይ አንድ ዓረፍተ ነገር ብቻ።"
-      },
-      "start": 47.456,
-      "end": 55.496,
-      "tokens": [
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "久",
-          "jiǔ",
-          "(of a period of time) long",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "at last; in the end; finally",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used at the end of a declarative sentence for emphasis)",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "总结",
-          "zǒng jié",
-          "to sum up; to conclude; summary",
-          ""
-        ],
-        [
-          "成了",
-          "chéng le",
-          "to be done; to be ready; that's enough!",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "页",
-          "yè",
-          "page; leaf",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每",
-          "měi",
-          "each; every",
-          ""
-        ],
-        [
-          "页",
-          "yè",
-          "page; leaf",
-          ""
-        ],
-        [
-          "只有",
-          "zhǐ yǒu",
-          "only have ...; there is only ...",
-          ""
-        ],
-        [
-          "一句话",
-          "yī jù huà",
-          "in a word; in short",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "汇报那天，老板的飞机晚点了两个小时，下午还要赶回去开别的会。",
-      "py": "huì bào nà tiān, lǎo bǎn de fēi jī wǎn diǎn le liǎng gè xiǎo shí, xià wǔ hái yào gǎn huí qù kāi bié de huì.",
-      "en": "On the day of the reports, the boss's flight is two hours late, and he has to rush back for another meeting in the afternoon.",
-      "tr": {
-        "am": "ሪፖርቱ በሚቀርብበት ቀን የአለቃው አውሮፕላን ሁለት ሰዓት ዘገየ፤ ከሰዓት በኋላ ደግሞ ለሌላ ስብሰባ በፍጥነት መመለስ ነበረበት።"
-      },
-      "start": 56.196,
-      "end": 63.3,
-      "tokens": [
-        [
-          "汇报",
-          "huì bào",
-          "to report; to collect information and report back; report",
-          ""
-        ],
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "飞机",
-          "fēi jī",
-          "airplane",
-          ""
-        ],
-        [
-          "晚点",
-          "wǎn diǎn",
-          "(of trains etc) late; delayed; behind schedule",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "赶",
-          "gǎn",
-          "to hurry; to rush; to overtake; to catch up with",
-          ""
-        ],
-        [
-          "回去",
-          "huí qu",
-          "to go back; to return",
-          ""
-        ],
-        [
-          "开",
-          "kāi",
-          "to open (transitive or intransitive)",
-          ""
-        ],
-        [
-          "别的",
-          "bié de",
-          "else; other",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "to meet; to get together; meeting; gathering",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "前面几个部门都讲得很长，轮到杰克的时候，只剩下一分钟了。",
-      "py": "qián mian jǐ gè bù mén dōu jiǎng de hěn cháng, lún dào Jié kè de shí hou, zhǐ shèng xià yì fēn zhōng le.",
-      "en": "The departments before them all go on for ages, and by the time it's Jack's turn, there's only one minute left.",
-      "tr": {
-        "am": "ቀድመው ያቀረቡት ክፍሎች ሁሉ ረጅም ጊዜ ወሰዱ፤ የጃክ ተራ ሲደርስ አንድ ደቂቃ ብቻ ቀርቶ ነበር።"
-      },
-      "start": 64,
-      "end": 70.624,
-      "tokens": [
-        [
-          "前面",
-          "qián miàn",
-          "ahead; in front; preceding",
-          ""
-        ],
-        [
-          "几个",
-          "jǐ ge",
-          "a few; several; how many",
-          ""
-        ],
-        [
-          "部门",
-          "bù mén",
-          "department; branch; section",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "讲",
-          "jiǎng",
-          "to speak; to explain; to negotiate",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "长",
-          "cháng",
-          "long; (bound form) length; (bound form) strong point; forte",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "轮到",
-          "lún dào",
-          "to be (sb's or sth's) turn",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "剩下",
-          "shèng xià",
-          "to remain; to be left over",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "分钟",
-          "fēn zhōng",
-          "minute",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "主持会议的同事小声说：“杰克，要不你别讲了，把材料发邮件吧。”",
-      "py": "zhǔ chí huì yì de tóng shì xiǎo shēng shuō: “Jié kè, yào bù nǐ bié jiǎng le, bǎ cái liào fā yóu jiàn ba.”",
-      "en": "The colleague chairing the meeting whispers, \"Jack, maybe skip it and just email the materials.\"",
-      "tr": {
-        "am": "ስብሰባውን የሚመራው ባልደረባ በለሆሳስ «ጃክ፣ ባታቀርብስ? ጽሑፉን በኢሜይል ላከው» አለ።"
-      },
-      "start": 71.324,
-      "end": 78.668,
-      "tokens": [
-        [
-          "主持",
-          "zhǔ chí",
-          "to stand for (justice etc); to take charge of",
-          ""
-        ],
-        [
-          "会议",
-          "huì yì",
-          "meeting; conference",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "同事",
-          "tóng shì",
-          "colleague; co-worker",
-          ""
-        ],
-        [
-          "小声",
-          "xiǎo shēng",
-          "(speak) in whispers; in a low voice",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "要不",
-          "yào bù",
-          "otherwise; or else; how about...?",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "别",
-          "bié",
-          "to leave; to part (from)",
-          ""
-        ],
-        [
-          "讲",
-          "jiǎng",
-          "to speak; to explain; to negotiate",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "材料",
-          "cái liào",
-          "(raw) material; data",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "邮件",
-          "yóu jiàn",
-          "email; mail; post",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克站起来说：“一分钟就够了。”",
-      "py": "Jié kè zhàn qǐ lái shuō: “yì fēn zhōng jiù gòu le.”",
-      "en": "Jack stands up. \"One minute is enough.\"",
-      "tr": {
-        "am": "ጃክ ተነሥቶ «አንድ ደቂቃ ይበቃል» አለ።"
-      },
-      "start": 79.368,
-      "end": 82.968,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "站起来",
-          "zhàn qǐ lai",
-          "to stand up",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "分钟",
-          "fēn zhōng",
-          "minute",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "够",
-          "gòu",
-          "enough (sufficient); enough (too much)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "他关掉投影仪：“我们部门今年做了三件事：客户多了一倍，投诉少了一半，没有一个人辞职。”",
-      "py": "tā guān diào tóu yǐng yí: “wǒ men bù mén jīn nián zuò le sān jiàn shì: kè hù duō le yí bèi, tóu sù shǎo le yí bàn, méi yǒu yí gè rén cí zhí.”",
-      "en": "He switches off the projector. \"Our department did three things this year: our clients doubled, our complaints halved, and not one person resigned.\"",
-      "tr": {
-        "am": "ፕሮጀክተሩን አጠፋና «ክፍላችን ዘንድሮ ሦስት ነገር ሠርቷል፦ ደንበኞች በእጥፍ ጨመሩ፣ ቅሬታዎች በግማሽ ቀነሱ፣ አንድም ሰው ሥራ አልለቀቀም» አለ።"
-      },
-      "start": 83.668,
-      "end": 93.868,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "关掉",
-          "guān diào",
-          "to switch off; to shut off",
-          ""
-        ],
-        [
-          "投影仪",
-          "tóu yǐng yí",
-          "projector",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "部门",
-          "bù mén",
-          "department; branch; section",
-          ""
-        ],
-        [
-          "今年",
-          "jīn nián",
-          "this year",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "(of a person) to be (an intermediary, a good student etc); to become (husband and wife, friends etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "thing; matter; item",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "倍",
-          "bèi",
-          "(two, three etc) -fold; double; times (multiplier)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "投诉",
-          "tóu sù",
-          "to lodge a complaint",
-          ""
-        ],
-        [
-          "少",
-          "shǎo",
-          "few; less; to lack",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一半",
-          "yī bàn",
-          "half",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "一个人",
-          "yī gè rén",
-          "by oneself (without assistance); alone (without company)",
-          ""
-        ],
-        [
-          "辞职",
-          "cí zhí",
-          "to resign",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“明年，我们只想做一件事：把这三件事继续做下去。”",
-      "py": "“míng nián, wǒ men zhǐ xiǎng zuò yí jiàn shì: bǎ zhè sān jiàn shì jì xù zuò xià qù.”",
-      "en": "\"Next year, we want to do just one thing: keep doing those three things.\"",
-      "tr": {
-        "am": "«በሚቀጥለው ዓመት አንድ ነገር ብቻ መሥራት እንፈልጋለን፦ እነዚህን ሦስት ነገሮች መቀጠል።»"
-      },
-      "start": 94.568,
-      "end": 100.52,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "明年",
-          "míng nián",
-          "next year",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "(of a thing) to serve as; to be used for",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "thing; matter; item",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier for things with handles; to hold; to grasp",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "thing; matter; item",
-          ""
-        ],
-        [
-          "继续",
-          "jì xù",
-          "to continue; to proceed with; to go on with",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "(of a thing) to serve as; to be used for",
-          ""
-        ],
-        [
-          "下去",
-          "xià qù",
-          "to go down; to descend; to go on",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "说完，他看了看表：四十秒。",
-      "py": "shuō wán, tā kàn le kàn biǎo: sì shí miǎo.",
-      "en": "When he's finished, he checks his watch: forty seconds.",
-      "tr": {
-        "am": "ጨርሶ ሰዓቱን ተመለከተ፦ 40 ሰከንድ።"
-      },
-      "start": 101.22,
-      "end": 105.276,
-      "tokens": [
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to watch; to watch out for; to see; to look at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to watch; to watch out for; to see; to look at",
-          ""
-        ],
-        [
-          "表",
-          "biǎo",
-          "watch (timepiece); exterior surface",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "四十",
-          "sì shí",
-          "forty; 40",
-          ""
-        ],
-        [
-          "秒",
-          "miǎo",
-          "second (unit of time); arc second (angular measurement unit)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "会议室里安静了一下，老板忽然拿起笔，把这几句话写在了本子上。",
-      "py": "huì yì shì lǐ ān jìng le yí xià, lǎo bǎn hū rán ná qǐ bǐ, bǎ zhè jǐ jù huà xiě zài le běn zi shàng.",
-      "en": "The room is quiet for a moment, then the boss suddenly picks up a pen and writes those few sentences in his notebook.",
-      "tr": {
-        "am": "የስብሰባ ክፍሉ ለአፍታ ጸጥ አለ፤ አለቃው ድንገት እስክሪብቶ አንሥቶ እነዚህን ዓረፍተ ነገሮች ማስታወሻ ደብተሩ ላይ ጻፈ።"
-      },
-      "start": 105.976,
-      "end": 112.84,
-      "tokens": [
-        [
-          "会议室",
-          "huì yì shì",
-          "meeting room; conference room",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "安静",
-          "ān jìng",
-          "quiet; peaceful; calm",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一下",
-          "yī xià",
-          "all at once; suddenly",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "忽然",
-          "hū rán",
-          "suddenly; all of a sudden",
-          ""
-        ],
-        [
-          "拿起",
-          "ná qǐ",
-          "to pick up",
-          ""
-        ],
-        [
-          "笔",
-          "bǐ",
-          "writing brush; writing implement (pen, pencil etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "几",
-          "jǐ",
-          "several; a few; how many; how much",
-          ""
-        ],
-        [
-          "句",
-          "jù",
-          "sentence; classifier for phrases or lines of verse; clause",
-          ""
-        ],
-        [
-          "话",
-          "huà",
-          "dialect; language; spoken words",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "本子",
-          "běn zi",
-          "notebook; book",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“这是我今天听到的最清楚的汇报。”",
-      "py": "“zhè shì wǒ jīn tiān tīng dào de zuì qīng chu de huì bào.”",
-      "en": "\"That's the clearest report I've heard all day.\"",
-      "tr": {
-        "am": "«ዛሬ ከሰማሁት ሪፖርት ሁሉ ይህ በጣም ግልጹ ነው።»"
-      },
-      "start": 113.54,
-      "end": 117.14,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "听到",
-          "tīng dào",
-          "to hear",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "最",
-          "zuì",
-          "(before an adjective or verb) to the highest degree; (the) most ...; -est",
-          ""
-        ],
-        [
-          "清楚",
-          "qīng chu",
-          "clear; to be clear about; distinct",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "汇报",
-          "huì bào",
-          "to report; to collect information and report back; report",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "老板走了以后，周经理拍了拍杰克的肩膀：“三十页变成三句话，辛苦你了。”",
-      "py": "lǎo bǎn zǒu le yǐ hòu, Zhōu jīng lǐ pāi le pāi Jié kè de jiān bǎng: “sān shí yè biàn chéng sān jù huà, xīn kǔ nǐ le.”",
-      "en": "After the boss leaves, Manager Zhou pats Jack on the shoulder. \"Thirty slides down to three sentences. That was hard work.\"",
-      "tr": {
-        "am": "አለቃው ከሄደ በኋላ ሥራ አስኪያጅ ጆው የጃክን ትከሻ መታ መታ አደረገች፦ «30 ስላይድ ወደ ሦስት ዓረፍተ ነገር፤ ደክመሃል።»"
-      },
-      "start": 117.84,
-      "end": 126.144,
-      "tokens": [
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to leave; to walk; to go",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; afterwards; later",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "拍",
-          "pāi",
-          "to pat; to clap; to slap",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "拍",
-          "pāi",
-          "to pat; to clap; to slap",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "肩膀",
-          "jiān bǎng",
-          "shoulder",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "三十",
-          "sān shí",
-          "thirty; 30",
-          ""
-        ],
-        [
-          "页",
-          "yè",
-          "page; leaf",
-          ""
-        ],
-        [
-          "变成",
-          "biàn chéng",
-          "to change into; to turn into; to become",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "句",
-          "jù",
-          "sentence; classifier for phrases or lines of verse; clause",
-          ""
-        ],
-        [
-          "话",
-          "huà",
-          "dialect; language; spoken words",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "辛苦",
-          "xīn kǔ",
-          "hard; to work hard; hardship(s)",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克笑着说：“三十页只用了三个晚上，这三句话，却用了我整整一个星期。”",
-      "py": "Jié kè xiào zhe shuō: “sān shí yè zhǐ yòng le sān gè wǎn shang, zhè sān jù huà, què yòng le wǒ zhěng zhěng yí gè xīng qī.”",
-      "en": "Jack smiles. \"The thirty slides took me three evenings. These three sentences took me a whole week.\"",
-      "tr": {
-        "am": "ጃክ እየሳቀ «30ዎቹ ስላይዶች ሦስት ምሽት ብቻ ነው የወሰዱብኝ፤ እነዚህ ሦስት ዓረፍተ ነገሮች ግን ሙሉ ሳምንት ወሰዱብኝ» አለ።"
-      },
-      "start": 126.844,
-      "end": 136.108,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "三十",
-          "sān shí",
-          "thirty; 30",
-          ""
-        ],
-        [
-          "页",
-          "yè",
-          "page; leaf",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "句",
-          "jù",
-          "sentence; classifier for phrases or lines of verse; clause",
-          ""
-        ],
-        [
-          "话",
-          "huà",
-          "dialect; language; spoken words",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "却",
-          "què",
-          "even though; but; yet",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "整整",
-          "zhěng zhěng",
-          "whole; full",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "星期",
-          "xīng qī",
-          "week; day of the week; Sunday",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 429,
-  "first": "下个星期，总部的老板要来北京，听各个部门汇报工作。",
-  "newWords": [
-    {
-      "w": "总部",
-      "py": "zǒng bù",
-      "en": "general headquarters"
-    },
-    {
-      "w": "汇报",
-      "py": "huìbào",
-      "en": "report to superior"
-    },
-    {
-      "w": "重点",
-      "py": "zhòngdiǎn",
-      "en": "key point"
-    },
-    {
-      "w": "总结",
-      "py": "zǒngjié",
-      "en": "to summarize"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h5-53.mp3?v=1791722025"
+  {
+   "text": "周经理让杰克代表部门汇报，每个部门只有五分钟。",
+   "py": "Zhōu jīng lǐ ràng Jié kè dài biǎo bù mén huì bào, měi gè bù mén zhǐ yǒu wǔ fēn zhōng.",
+   "en": "Manager Zhou asks Jack to give the report for their department. Each department gets just five minutes.",
+   "tr": {
+    "am": "ሥራ አስኪያጅ ጆው ጃክ ክፍሉን ወክሎ ሪፖርት እንዲያቀርብ አደረገች፤ እያንዳንዱ ክፍል አምስት ደቂቃ ብቻ ነው ያለው።",
+    "fa": "مدیر جو از جک می‌خواد گزارش بخش‌شون رو بده؛ به هر بخش فقط پنج دقیقه وقت می‌رسه."
+   },
+   "start": 9.056,
+   "end": 14.264,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "让",
+     "ràng",
+     "to yield; to permit; to let sb do sth",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "代表",
+     "dài biǎo",
+     "representative; delegate; to represent",
+     ""
+    ],
+    [
+     "部门",
+     "bù mén",
+     "department; branch; section",
+     ""
+    ],
+    [
+     "汇报",
+     "huì bào",
+     "to report; to give an account of",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每个",
+     "měi gè",
+     "each; every",
+     ""
+    ],
+    [
+     "部门",
+     "bù mén",
+     "department; branch; section",
+     ""
+    ],
+    [
+     "只有",
+     "zhǐ yǒu",
+     "(used to express lack of alternatives) can only; have no choice but to (as in 只有屈服 \"the only thing you can do is give in\")",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "分钟",
+     "fēn zhōng",
+     "minute",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克非常重视，花了三个晚上，做了三十页幻灯片。",
+   "py": "Jié kè fēi cháng zhòng shì, huā le sān gè wǎn shang, zuò le sān shí yè huàn dēng piàn.",
+   "en": "Jack takes it very seriously and spends three evenings making thirty slides.",
+   "tr": {
+    "am": "ጃክ ጉዳዩን በጣም በቁም ነገር ያዘው፤ ሦስት ምሽት ፈጅቶ 30 ስላይዶች አዘጋጀ።",
+    "fa": "جک خیلی جدی می‌گیره و سه شب وقت می‌ذاره و سی تا اسلاید آماده می‌کنه."
+   },
+   "start": 14.964,
+   "end": 20.676,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "非常",
+     "fēi cháng",
+     "very; really; unusual; extraordinary",
+     ""
+    ],
+    [
+     "重视",
+     "zhòng shì",
+     "to attach importance to sth; to value",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "花",
+     "huā",
+     "to spend (money, time); flower; blossom",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "三十",
+     "sān shí",
+     "thirty; 30",
+     ""
+    ],
+    [
+     "页",
+     "yè",
+     "page; leaf",
+     ""
+    ],
+    [
+     "幻灯片",
+     "huàn dēng piàn",
+     "(computing) presentation slide; (photography) slide",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "周经理看完，只说了一句：“太多了，改成十页。”",
+   "py": "Zhōu jīng lǐ kàn wán, zhǐ shuō le yí jù: “tài duō le, gǎi chéng shí yè.”",
+   "en": "Manager Zhou looks through them and says only one thing: \"Too many. Make it ten.\"",
+   "tr": {
+    "am": "ሥራ አስኪያጅ ጆው አይታ አንድ ነገር ብቻ አለች፦ «በጣም ብዙ ነው፤ ወደ 10 ቀንሰው።»",
+    "fa": "مدیر جو یه نگاهی می‌ندازه و فقط یه جمله می‌گه: «خیلی زیاده؛ ده تا کن.»"
+   },
+   "start": 21.376,
+   "end": 26.872,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "to make a circuit; Zhou Dynasty (1046–256 BC); to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一句",
+     "yī jù",
+     "a line of verse; a sentence",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "改成",
+     "gǎi chéng",
+     "to convert; to turn into (sth else)",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "页",
+     "yè",
+     "page; leaf",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克删了两天，好不容易改成了十页，周经理又说：“还是多，三页就够了。”",
+   "py": "Jié kè shān le liǎng tiān, hǎo bù róng yì gǎi chéng le shí yè, Zhōu jīng lǐ yòu shuō: “hái shi duō, sān yè jiù gòu le.”",
+   "en": "Jack spends two days cutting, and when he finally gets it down to ten, Manager Zhou says, \"Still too many. Three will do.\"",
+   "tr": {
+    "am": "ጃክ ለሁለት ቀን ሲቀንስ ቆይቶ በብዙ ድካም 10 አደረሰው፤ ሥራ አስኪያጅ ጆው እንደገና «አሁንም ብዙ ነው፤ ሦስት ይበቃል» አለች።",
+    "fa": "جک دو روز وقتی می‌ذاره و حذف می‌کنه؛ وقتی بالاخره می‌رسه به ده، مدیر جو می‌گه: «هنوز زیاده؛ همین سه تا کافیه.»"
+   },
+   "start": 27.572,
+   "end": 35.612,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "删",
+     "shān",
+     "to delete",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "好不容易",
+     "hǎo bù róng yì",
+     "with great difficulty; very difficult",
+     ""
+    ],
+    [
+     "改成",
+     "gǎi chéng",
+     "to convert; to turn into (sth else)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "页",
+     "yè",
+     "page; leaf",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "页",
+     "yè",
+     "page; leaf",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "as much as; as many as",
+     ""
+    ],
+    [
+     "够",
+     "gòu",
+     "enough (too much); enough (sufficient)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“五分钟的汇报，老板只会记住重点。你想让他记住什么？”",
+   "py": "“wǔ fēn zhōng de huì bào, lǎo bǎn zhǐ huì jì zhù zhòng diǎn. nǐ xiǎng ràng tā jì zhù shén me?”",
+   "en": "\"In a five-minute report, the boss will only remember the main points. What do you want him to remember?\"",
+   "tr": {
+    "am": "«በአምስት ደቂቃ ሪፖርት አለቃው የሚያስታውሰው ዋና ዋናውን ነጥብ ብቻ ነው። ምን እንዲያስታውስ ትፈልጋለህ?»",
+    "fa": "«تو یه گزارش پنج‌دقیقه‌ای، رئیس فقط نکته‌های اصلی رو یادش می‌مونه. دوست داری چی توی ذهنش بمونه؟»"
+   },
+   "start": 36.312,
+   "end": 41.52,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "分钟",
+     "fēn zhōng",
+     "minute",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "汇报",
+     "huì bào",
+     "to report; to collect information and report back; report",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "记住",
+     "jì zhu",
+     "to remember; to bear in mind; to learn by heart",
+     ""
+    ],
+    [
+     "重点",
+     "zhòng diǎn",
+     "important point; main point; focus; key (project etc)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "让",
+     "ràng",
+     "to yield; to permit; to let sb do sth",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "记住",
+     "jì zhu",
+     "to remember; to bear in mind; to learn by heart",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克看着那十页，每一页都舍不得删。",
+   "py": "Jié kè kàn zhe nà shí yè, měi yí yè dōu shě bu de shān.",
+   "en": "Jack looks at the ten slides and can't bear to delete a single one.",
+   "tr": {
+    "am": "ጃክ እነዚያን 10 ስላይዶች እያየ አንዱንም ማጥፋት አላስችል አለው።",
+    "fa": "جک به اون ده اسلاید نگاه می‌کنه؛ دلش نمیاد حتی یکی رو پاک کنه."
+   },
+   "start": 42.22,
+   "end": 46.756,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "页",
+     "yè",
+     "page; leaf",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每",
+     "měi",
+     "each; every",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "single; one; a (article)",
+     ""
+    ],
+    [
+     "页",
+     "yè",
+     "page; leaf",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "舍不得",
+     "shě bu de",
+     "to hate to do sth; to hate to part with; to begrudge",
+     ""
+    ],
+    [
+     "删",
+     "shān",
+     "to delete",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "那天晚上，他想了很久，终于把一年的工作总结成了三页，每页只有一句话。",
+   "py": "nà tiān wǎn shang, tā xiǎng le hěn jiǔ, zhōng yú bǎ yì nián de gōng zuò zǒng jié chéng le sān yè, měi yè zhǐ yǒu yí jù huà.",
+   "en": "That night he thinks for a long time, and at last sums up the whole year's work in three slides, with just one sentence on each.",
+   "tr": {
+    "am": "በዚያ ምሽት ለረጅም ጊዜ አሰበ፤ በመጨረሻ የአንድ ዓመቱን ሥራ በሦስት ስላይዶች አጠቃለለ፤ በእያንዳንዱ ላይ አንድ ዓረፍተ ነገር ብቻ።",
+    "fa": "همون شب کلی فکر می‌کنه و بالاخره کارِ یه سال رو خلاصه می‌کنه تو سه اسلاید که روی هر کدوم فقط یه جمله‌ست."
+   },
+   "start": 47.456,
+   "end": 55.496,
+   "tokens": [
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "久",
+     "jiǔ",
+     "(of a period of time) long",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "at last; in the end; finally",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used at the end of a declarative sentence for emphasis)",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "总结",
+     "zǒng jié",
+     "to sum up; to conclude; summary",
+     ""
+    ],
+    [
+     "成了",
+     "chéng le",
+     "to be done; to be ready; that's enough!",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "页",
+     "yè",
+     "page; leaf",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每",
+     "měi",
+     "each; every",
+     ""
+    ],
+    [
+     "页",
+     "yè",
+     "page; leaf",
+     ""
+    ],
+    [
+     "只有",
+     "zhǐ yǒu",
+     "only have ...; there is only ...",
+     ""
+    ],
+    [
+     "一句话",
+     "yī jù huà",
+     "in a word; in short",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "汇报那天，老板的飞机晚点了两个小时，下午还要赶回去开别的会。",
+   "py": "huì bào nà tiān, lǎo bǎn de fēi jī wǎn diǎn le liǎng gè xiǎo shí, xià wǔ hái yào gǎn huí qù kāi bié de huì.",
+   "en": "On the day of the reports, the boss's flight is two hours late, and he has to rush back for another meeting in the afternoon.",
+   "tr": {
+    "am": "ሪፖርቱ በሚቀርብበት ቀን የአለቃው አውሮፕላን ሁለት ሰዓት ዘገየ፤ ከሰዓት በኋላ ደግሞ ለሌላ ስብሰባ በፍጥነት መመለስ ነበረበት።",
+    "fa": "روزِ ارائه، پرواز رئیس دو ساعت تأخیر داره و باید عصر هم برای یه جلسه‌ی دیگه عجله کنه برگردد."
+   },
+   "start": 56.196,
+   "end": 63.3,
+   "tokens": [
+    [
+     "汇报",
+     "huì bào",
+     "to report; to collect information and report back; report",
+     ""
+    ],
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "飞机",
+     "fēi jī",
+     "airplane",
+     ""
+    ],
+    [
+     "晚点",
+     "wǎn diǎn",
+     "(of trains etc) late; delayed; behind schedule",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "赶",
+     "gǎn",
+     "to hurry; to rush; to overtake; to catch up with",
+     ""
+    ],
+    [
+     "回去",
+     "huí qu",
+     "to go back; to return",
+     ""
+    ],
+    [
+     "开",
+     "kāi",
+     "to open (transitive or intransitive)",
+     ""
+    ],
+    [
+     "别的",
+     "bié de",
+     "else; other",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "to meet; to get together; meeting; gathering",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "前面几个部门都讲得很长，轮到杰克的时候，只剩下一分钟了。",
+   "py": "qián mian jǐ gè bù mén dōu jiǎng de hěn cháng, lún dào Jié kè de shí hou, zhǐ shèng xià yì fēn zhōng le.",
+   "en": "The departments before them all go on for ages, and by the time it's Jack's turn, there's only one minute left.",
+   "tr": {
+    "am": "ቀድመው ያቀረቡት ክፍሎች ሁሉ ረጅም ጊዜ ወሰዱ፤ የጃክ ተራ ሲደርስ አንድ ደቂቃ ብቻ ቀርቶ ነበር።",
+    "fa": "بخش‌های قبلی هر کدوم خیلی طولانی صحبت می‌کنن، و وقتی نوبت جک می‌شه فقط یه دقیقه وقت مونده."
+   },
+   "start": 64,
+   "end": 70.624,
+   "tokens": [
+    [
+     "前面",
+     "qián miàn",
+     "ahead; in front; preceding",
+     ""
+    ],
+    [
+     "几个",
+     "jǐ ge",
+     "a few; several; how many",
+     ""
+    ],
+    [
+     "部门",
+     "bù mén",
+     "department; branch; section",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "讲",
+     "jiǎng",
+     "to speak; to explain; to negotiate",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "长",
+     "cháng",
+     "long; (bound form) length; (bound form) strong point; forte",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "轮到",
+     "lún dào",
+     "to be (sb's or sth's) turn",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "剩下",
+     "shèng xià",
+     "to remain; to be left over",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "分钟",
+     "fēn zhōng",
+     "minute",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "主持会议的同事小声说：“杰克，要不你别讲了，把材料发邮件吧。”",
+   "py": "zhǔ chí huì yì de tóng shì xiǎo shēng shuō: “Jié kè, yào bù nǐ bié jiǎng le, bǎ cái liào fā yóu jiàn ba.”",
+   "en": "The colleague chairing the meeting whispers, \"Jack, maybe skip it and just email the materials.\"",
+   "tr": {
+    "am": "ስብሰባውን የሚመራው ባልደረባ በለሆሳስ «ጃክ፣ ባታቀርብስ? ጽሑፉን በኢሜይል ላከው» አለ።",
+    "fa": "همکاری که جلسه رو اداره می‌کنه آروم می‌گه: «جک، بهتره صرف‌نظر کنی و فقط مطالب رو ایمیلی بفرستی.»"
+   },
+   "start": 71.324,
+   "end": 78.668,
+   "tokens": [
+    [
+     "主持",
+     "zhǔ chí",
+     "to stand for (justice etc); to take charge of",
+     ""
+    ],
+    [
+     "会议",
+     "huì yì",
+     "meeting; conference",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "同事",
+     "tóng shì",
+     "colleague; co-worker",
+     ""
+    ],
+    [
+     "小声",
+     "xiǎo shēng",
+     "(speak) in whispers; in a low voice",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "要不",
+     "yào bù",
+     "otherwise; or else; how about...?",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "别",
+     "bié",
+     "to leave; to part (from)",
+     ""
+    ],
+    [
+     "讲",
+     "jiǎng",
+     "to speak; to explain; to negotiate",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "材料",
+     "cái liào",
+     "(raw) material; data",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "邮件",
+     "yóu jiàn",
+     "email; mail; post",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克站起来说：“一分钟就够了。”",
+   "py": "Jié kè zhàn qǐ lái shuō: “yì fēn zhōng jiù gòu le.”",
+   "en": "Jack stands up. \"One minute is enough.\"",
+   "tr": {
+    "am": "ጃክ ተነሥቶ «አንድ ደቂቃ ይበቃል» አለ።",
+    "fa": "جک می‌ایسته: «همین یه دقیقه کافیه.»"
+   },
+   "start": 79.368,
+   "end": 82.968,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "站起来",
+     "zhàn qǐ lai",
+     "to stand up",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "分钟",
+     "fēn zhōng",
+     "minute",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "够",
+     "gòu",
+     "enough (sufficient); enough (too much)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "他关掉投影仪：“我们部门今年做了三件事：客户多了一倍，投诉少了一半，没有一个人辞职。”",
+   "py": "tā guān diào tóu yǐng yí: “wǒ men bù mén jīn nián zuò le sān jiàn shì: kè hù duō le yí bèi, tóu sù shǎo le yí bàn, méi yǒu yí gè rén cí zhí.”",
+   "en": "He switches off the projector. \"Our department did three things this year: our clients doubled, our complaints halved, and not one person resigned.\"",
+   "tr": {
+    "am": "ፕሮጀክተሩን አጠፋና «ክፍላችን ዘንድሮ ሦስት ነገር ሠርቷል፦ ደንበኞች በእጥፍ ጨመሩ፣ ቅሬታዎች በግማሽ ቀነሱ፣ አንድም ሰው ሥራ አልለቀቀም» አለ።",
+    "fa": "ویدئوپروژکتور رو خاموش می‌کنه: «بخش ما امسال سه تا کار کرد: مشتری‌هامون دو برابر شدن، شکایت‌هامون نصف شدن، و حتی یه نفر هم استعفا نداد.»"
+   },
+   "start": 83.668,
+   "end": 93.868,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "关掉",
+     "guān diào",
+     "to switch off; to shut off",
+     ""
+    ],
+    [
+     "投影仪",
+     "tóu yǐng yí",
+     "projector",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "部门",
+     "bù mén",
+     "department; branch; section",
+     ""
+    ],
+    [
+     "今年",
+     "jīn nián",
+     "this year",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "(of a person) to be (an intermediary, a good student etc); to become (husband and wife, friends etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "thing; matter; item",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "倍",
+     "bèi",
+     "(two, three etc) -fold; double; times (multiplier)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "投诉",
+     "tóu sù",
+     "to lodge a complaint",
+     ""
+    ],
+    [
+     "少",
+     "shǎo",
+     "few; less; to lack",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一半",
+     "yī bàn",
+     "half",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "一个人",
+     "yī gè rén",
+     "by oneself (without assistance); alone (without company)",
+     ""
+    ],
+    [
+     "辞职",
+     "cí zhí",
+     "to resign",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“明年，我们只想做一件事：把这三件事继续做下去。”",
+   "py": "“míng nián, wǒ men zhǐ xiǎng zuò yí jiàn shì: bǎ zhè sān jiàn shì jì xù zuò xià qù.”",
+   "en": "\"Next year, we want to do just one thing: keep doing those three things.\"",
+   "tr": {
+    "am": "«በሚቀጥለው ዓመት አንድ ነገር ብቻ መሥራት እንፈልጋለን፦ እነዚህን ሦስት ነገሮች መቀጠል።»",
+    "fa": "«سال بعد فقط یه کار می‌خوایم بکنیم: همین سه تا کار رو ادامه بدیم.»"
+   },
+   "start": 94.568,
+   "end": 100.52,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "明年",
+     "míng nián",
+     "next year",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "(of a thing) to serve as; to be used for",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "thing; matter; item",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier for things with handles; to hold; to grasp",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "thing; matter; item",
+     ""
+    ],
+    [
+     "继续",
+     "jì xù",
+     "to continue; to proceed with; to go on with",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "(of a thing) to serve as; to be used for",
+     ""
+    ],
+    [
+     "下去",
+     "xià qù",
+     "to go down; to descend; to go on",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "说完，他看了看表：四十秒。",
+   "py": "shuō wán, tā kàn le kàn biǎo: sì shí miǎo.",
+   "en": "When he's finished, he checks his watch: forty seconds.",
+   "tr": {
+    "am": "ጨርሶ ሰዓቱን ተመለከተ፦ 40 ሰከንድ።",
+    "fa": "وقتی تموم می‌شه، به ساعتش نگاه می‌کنه: چهل ثانیه."
+   },
+   "start": 101.22,
+   "end": 105.276,
+   "tokens": [
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to watch; to watch out for; to see; to look at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to watch; to watch out for; to see; to look at",
+     ""
+    ],
+    [
+     "表",
+     "biǎo",
+     "watch (timepiece); exterior surface",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "四十",
+     "sì shí",
+     "forty; 40",
+     ""
+    ],
+    [
+     "秒",
+     "miǎo",
+     "second (unit of time); arc second (angular measurement unit)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "会议室里安静了一下，老板忽然拿起笔，把这几句话写在了本子上。",
+   "py": "huì yì shì lǐ ān jìng le yí xià, lǎo bǎn hū rán ná qǐ bǐ, bǎ zhè jǐ jù huà xiě zài le běn zi shàng.",
+   "en": "The room is quiet for a moment, then the boss suddenly picks up a pen and writes those few sentences in his notebook.",
+   "tr": {
+    "am": "የስብሰባ ክፍሉ ለአፍታ ጸጥ አለ፤ አለቃው ድንገት እስክሪብቶ አንሥቶ እነዚህን ዓረፍተ ነገሮች ማስታወሻ ደብተሩ ላይ ጻፈ።",
+    "fa": "اتاق یه لحظه ساکت می‌شه، بعد رئیس یهو قلم رو برمی‌داره و همون چند جمله رو تو دفترش می‌نویسه."
+   },
+   "start": 105.976,
+   "end": 112.84,
+   "tokens": [
+    [
+     "会议室",
+     "huì yì shì",
+     "meeting room; conference room",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "安静",
+     "ān jìng",
+     "quiet; peaceful; calm",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一下",
+     "yī xià",
+     "all at once; suddenly",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "忽然",
+     "hū rán",
+     "suddenly; all of a sudden",
+     ""
+    ],
+    [
+     "拿起",
+     "ná qǐ",
+     "to pick up",
+     ""
+    ],
+    [
+     "笔",
+     "bǐ",
+     "writing brush; writing implement (pen, pencil etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "几",
+     "jǐ",
+     "several; a few; how many; how much",
+     ""
+    ],
+    [
+     "句",
+     "jù",
+     "sentence; classifier for phrases or lines of verse; clause",
+     ""
+    ],
+    [
+     "话",
+     "huà",
+     "dialect; language; spoken words",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "本子",
+     "běn zi",
+     "notebook; book",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“这是我今天听到的最清楚的汇报。”",
+   "py": "“zhè shì wǒ jīn tiān tīng dào de zuì qīng chu de huì bào.”",
+   "en": "\"That's the clearest report I've heard all day.\"",
+   "tr": {
+    "am": "«ዛሬ ከሰማሁት ሪፖርት ሁሉ ይህ በጣም ግልጹ ነው።»",
+    "fa": "«واضح‌ترین گزارشی بود که امروز تا الان شنیدم.»"
+   },
+   "start": 113.54,
+   "end": 117.14,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "听到",
+     "tīng dào",
+     "to hear",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "最",
+     "zuì",
+     "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+     ""
+    ],
+    [
+     "清楚",
+     "qīng chu",
+     "clear; to be clear about; distinct",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "汇报",
+     "huì bào",
+     "to report; to collect information and report back; report",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "老板走了以后，周经理拍了拍杰克的肩膀：“三十页变成三句话，辛苦你了。”",
+   "py": "lǎo bǎn zǒu le yǐ hòu, Zhōu jīng lǐ pāi le pāi Jié kè de jiān bǎng: “sān shí yè biàn chéng sān jù huà, xīn kǔ nǐ le.”",
+   "en": "After the boss leaves, Manager Zhou pats Jack on the shoulder. \"Thirty slides down to three sentences. That was hard work.\"",
+   "tr": {
+    "am": "አለቃው ከሄደ በኋላ ሥራ አስኪያጅ ጆው የጃክን ትከሻ መታ መታ አደረገች፦ «30 ስላይድ ወደ ሦስት ዓረፍተ ነገር፤ ደክመሃል።»",
+    "fa": "بعد از اینکه رئیس می‌ره، مدیر جو شونه‌ی جک رو می‌زنه: «از سی اسلاید به سه جمله! خسته نباشی.»"
+   },
+   "start": 117.84,
+   "end": 126.144,
+   "tokens": [
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to leave; to walk; to go",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; afterwards; later",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "拍",
+     "pāi",
+     "to pat; to clap; to slap",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "拍",
+     "pāi",
+     "to pat; to clap; to slap",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "肩膀",
+     "jiān bǎng",
+     "shoulder",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "三十",
+     "sān shí",
+     "thirty; 30",
+     ""
+    ],
+    [
+     "页",
+     "yè",
+     "page; leaf",
+     ""
+    ],
+    [
+     "变成",
+     "biàn chéng",
+     "to change into; to turn into; to become",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "句",
+     "jù",
+     "sentence; classifier for phrases or lines of verse; clause",
+     ""
+    ],
+    [
+     "话",
+     "huà",
+     "dialect; language; spoken words",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "辛苦",
+     "xīn kǔ",
+     "hard; to work hard; hardship(s)",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克笑着说：“三十页只用了三个晚上，这三句话，却用了我整整一个星期。”",
+   "py": "Jié kè xiào zhe shuō: “sān shí yè zhǐ yòng le sān gè wǎn shang, zhè sān jù huà, què yòng le wǒ zhěng zhěng yí gè xīng qī.”",
+   "en": "Jack smiles. \"The thirty slides took me three evenings. These three sentences took me a whole week.\"",
+   "tr": {
+    "am": "ጃክ እየሳቀ «30ዎቹ ስላይዶች ሦስት ምሽት ብቻ ነው የወሰዱብኝ፤ እነዚህ ሦስት ዓረፍተ ነገሮች ግን ሙሉ ሳምንት ወሰዱብኝ» አለ።",
+    "fa": "جک می‌خنده: «سی اسلاید سه شب کار داشت؛ ولی همین سه جمله یه هفته‌ی کامل ازم گرفت.»"
+   },
+   "start": 126.844,
+   "end": 136.108,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "三十",
+     "sān shí",
+     "thirty; 30",
+     ""
+    ],
+    [
+     "页",
+     "yè",
+     "page; leaf",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "句",
+     "jù",
+     "sentence; classifier for phrases or lines of verse; clause",
+     ""
+    ],
+    [
+     "话",
+     "huà",
+     "dialect; language; spoken words",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "却",
+     "què",
+     "even though; but; yet",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "整整",
+     "zhěng zhěng",
+     "whole; full",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "星期",
+     "xīng qī",
+     "week; day of the week; Sunday",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 429,
+ "first": "下个星期，总部的老板要来北京，听各个部门汇报工作。",
+ "newWords": [
+  {
+   "w": "总部",
+   "py": "zǒng bù",
+   "en": "general headquarters"
+  },
+  {
+   "w": "汇报",
+   "py": "huìbào",
+   "en": "report to superior"
+  },
+  {
+   "w": "重点",
+   "py": "zhòngdiǎn",
+   "en": "key point"
+  },
+  {
+   "w": "总结",
+   "py": "zǒngjié",
+   "en": "to summarize"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h5-53.mp3?v=1791722025"
 }

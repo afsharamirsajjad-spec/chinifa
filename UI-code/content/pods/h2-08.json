@@ -1,1293 +1,1306 @@
 {
-  "id": "h2-08",
-  "level": 2,
-  "no": 8,
-  "title": "杰克感冒了",
-  "title_py": "Jié kè gǎn mào le",
-  "title_en": "Jack has a cold",
-  "title_tr": {
-    "vi": "Jack bị cảm",
-    "pt": "O Jack está resfriado",
-    "es": "Jack tiene un resfriado",
-    "fr": "Jack a un rhume",
-    "am": "ጃክ ጉንፋን ያዘው",
-    "fa": "جک سرما خورده است"
+ "id": "h2-08",
+ "level": 2,
+ "no": 8,
+ "title": "杰克感冒了",
+ "title_py": "Jié kè gǎn mào le",
+ "title_en": "Jack has a cold",
+ "title_tr": {
+  "vi": "Jack bị cảm",
+  "pt": "O Jack está resfriado",
+  "es": "Jack tiene un resfriado",
+  "fr": "Jack a un rhume",
+  "am": "ጃክ ጉንፋን ያዘው",
+  "fa": "جک سرما خورده است"
+ },
+ "topic": "health",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h2-08.jpg",
+ "duration": 74.504,
+ "lines": [
+  {
+   "text": "星期三早上，杰克觉得身体很不舒服。",
+   "py": "xīng qī sān zǎo shang, Jié kè jué de shēn tǐ hěn bù shū fu.",
+   "en": "On Wednesday morning, Jack feels really unwell.",
+   "tr": {
+    "vi": "Sáng thứ Tư, Jack thấy trong người rất khó chịu.",
+    "pt": "Na quarta-feira de manhã, Jack não está se sentindo nada bem.",
+    "es": "El miércoles por la mañana, Jack se siente muy mal.",
+    "fr": "Mercredi matin, Jack ne se sent vraiment pas bien.",
+    "am": "ረቡዕ ጠዋት ጃክን በጣም አመመው።",
+    "fa": "سه‌شنبه صبح جک احساس ناجوری می‌کنه."
+   },
+   "start": 2.884,
+   "end": 7.42,
+   "tokens": [
+    [
+     "星期三",
+     "xīng qī sān",
+     "Wednesday",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "身体",
+     "shēn tǐ",
+     "the body; one's health",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "不舒服",
+     "bù shū fu",
+     "unwell; to feel uncomfortable; feeling ill",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "health",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h2-08.jpg",
-  "duration": 74.504,
-  "lines": [
-    {
-      "text": "星期三早上，杰克觉得身体很不舒服。",
-      "py": "xīng qī sān zǎo shang, Jié kè jué de shēn tǐ hěn bù shū fu.",
-      "en": "On Wednesday morning, Jack feels really unwell.",
-      "tr": {
-        "vi": "Sáng thứ Tư, Jack thấy trong người rất khó chịu.",
-        "pt": "Na quarta-feira de manhã, Jack não está se sentindo nada bem.",
-        "es": "El miércoles por la mañana, Jack se siente muy mal.",
-        "fr": "Mercredi matin, Jack ne se sent vraiment pas bien.",
-        "am": "ረቡዕ ጠዋት ጃክን በጣም አመመው።"
-      },
-      "start": 2.884,
-      "end": 7.42,
-      "tokens": [
-        [
-          "星期三",
-          "xīng qī sān",
-          "Wednesday",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "身体",
-          "shēn tǐ",
-          "the body; one's health",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "不舒服",
-          "bù shū fu",
-          "unwell; to feel uncomfortable; feeling ill",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他头很疼，一点儿也不想吃东西。",
-      "py": "tā tóu hěn téng, yì diǎn r yě bù xiǎng chī dōng xi.",
-      "en": "He has a bad headache and doesn't want to eat anything at all.",
-      "tr": {
-        "vi": "Anh ấy đau đầu lắm, chẳng muốn ăn gì cả.",
-        "pt": "Ele está com muita dor de cabeça e não quer comer nada.",
-        "es": "Le duele mucho la cabeza y no quiere comer nada.",
-        "fr": "Il a très mal à la tête et n’a pas du tout envie de manger.",
-        "am": "ራሱን በጣም አመመው፤ ምንም መብላት አልፈለገም።"
-      },
-      "start": 8.12,
-      "end": 11.912,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "头",
-          "tóu",
-          "head; hair style; the top",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "疼",
-          "téng",
-          "(it) hurts; sore; to love dearly",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不想",
-          "bù xiǎng",
-          "unexpectedly; to one's surprise",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "张阿姨看他没去上班，就来问：“杰克，你怎么了？”",
-      "py": "Zhāng ā yí kàn tā méi qù shàng bān, jiù lái wèn: “Jié kè, nǐ zěn me le?”",
-      "en": "Auntie Zhang sees he hasn't gone to work and comes to ask, \"Jack, what's wrong?\"",
-      "tr": {
-        "vi": "Dì Trương thấy anh không đi làm, liền sang hỏi: “Jack, cháu sao thế?”",
-        "pt": "A tia Zhang vê que ele não foi trabalhar e vem perguntar: “Jack, o que você tem?”",
-        "es": "La señora Zhang ve que no fue a trabajar y viene a preguntarle: «Jack, ¿qué te pasa?»",
-        "fr": "Voyant qu’il n’est pas parti au travail, tante Zhang vient lui demander : « Jack, qu’est-ce qui ne va pas ? »",
-        "am": "እትዬ ዣንግ ወደ ሥራ እንዳልሄደ አይተው መጡና «ጃክ፣ ምን ሆንክ?» ብለው ጠየቁ።"
-      },
-      "start": 12.612,
-      "end": 17.82,
-      "tokens": [
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; childcare worker; step-mother",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "上班",
-          "shàng bān",
-          "to go to work; to start work; to be on duty",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "怎么了",
-          "zěn me le",
-          "What's up?; What's going on?; What happened?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我好像感冒了，还有点儿发烧。”",
-      "py": "“wǒ hǎo xiàng gǎn mào le, hái yǒu diǎn r fā shāo.”",
-      "en": "\"I think I've got a cold, and I have a bit of a fever.\"",
-      "tr": {
-        "vi": "“Hình như cháu bị cảm rồi, còn hơi sốt nữa.”",
-        "pt": "“Acho que peguei um resfriado, e estou com um pouco de febre.”",
-        "es": "«Creo que me resfrié, y tengo un poco de fiebre».",
-        "fr": "« Je crois que j’ai attrapé un rhume, et j’ai un peu de fièvre. »",
-        "am": "«ጉንፋን የያዘኝ ይመስለኛል፤ ትንሽ ትኩሳትም አለኝ።»"
-      },
-      "start": 18.52,
-      "end": 22.12,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "好像",
-          "hǎo xiàng",
-          "as if; to seem like",
-          ""
-        ],
-        [
-          "感冒",
-          "gǎn mào",
-          "to catch cold; (common) cold",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "点儿",
-          "diǎn r",
-          "erhua variant of 点",
-          ""
-        ],
-        [
-          "发烧",
-          "fā shāo",
-          "to have a high temperature (from illness); to have a fever",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "张阿姨说：“快去床上休息！我去给你拿药。”",
-      "py": "Zhāng ā yí shuō: “kuài qù chuáng shàng xiū xi! wǒ qù gěi nǐ ná yào.”",
-      "en": "Auntie Zhang says, \"Go and rest in bed, quick! I'll go and get you some medicine.\"",
-      "tr": {
-        "vi": "Dì Trương nói: “Mau lên giường nghỉ đi! Dì đi lấy thuốc cho cháu.”",
-        "pt": "A tia Zhang diz: “Vá descansar na cama, rápido! Vou buscar um remédio para você.”",
-        "es": "La señora Zhang dice: «¡Ve a acostarte a descansar! Voy a traerte una medicina».",
-        "fr": "Tante Zhang dit : « Va vite te reposer au lit ! Je vais te chercher des médicaments. »",
-        "am": "እትዬ ዣንግ «ቶሎ አልጋህ ላይ ተኝተህ እረፍ! መድኃኒት አመጣልሃለሁ» አሉ።"
-      },
-      "start": 22.82,
-      "end": 27.092,
-      "tokens": [
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "快",
-          "kuài",
-          "quick; rapid; speed",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to get rid of; to go; to go to (a place)",
-          ""
-        ],
-        [
-          "床",
-          "chuáng",
-          "bed; couch (furniture that one can lie down on)",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "to climb; to get onto; to go up",
-          ""
-        ],
-        [
-          "休息",
-          "xiū xi",
-          "rest; to rest",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to get rid of; to go; to go to (a place)",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "药",
-          "yào",
-          "medicine; leaf of the iris; drug",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克给周经理打电话：“周经理，对不起，我感冒了，今天想请假。”",
-      "py": "Jié kè gěi Zhōu jīng lǐ dǎ diàn huà: “Zhōu jīng lǐ, duì bu qǐ, wǒ gǎn mào le, jīn tiān xiǎng qǐng jià.”",
-      "en": "Jack calls Manager Zhou. \"Manager Zhou, I'm sorry, I've got a cold. I'd like to take today off.\"",
-      "tr": {
-        "vi": "Jack gọi điện cho giám đốc Chu: “Thưa giám đốc Chu, xin lỗi, tôi bị cảm, hôm nay tôi muốn xin nghỉ.”",
-        "pt": "Jack liga para a gerente Zhou: “Gerente Zhou, desculpe, estou resfriado. Queria tirar o dia de folga hoje.”",
-        "es": "Jack llama a la gerente Zhou: «Gerente Zhou, lo siento, estoy resfriado. Quiero pedir el día libre».",
-        "fr": "Jack appelle la directrice Zhou : « Madame Zhou, je suis désolé, j’ai un rhume. Je voudrais prendre ma journée. »",
-        "am": "ጃክ ለሥራ አስኪያጅ ጆው ደወለ። «ሥራ አስኪያጅ ጆው፣ ይቅርታ፣ ጉንፋን ይዞኛል። ዛሬ ፈቃድ መውሰድ እፈልጋለሁ።»"
-      },
-      "start": 27.792,
-      "end": 34.896,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "对不起",
-          "duì bu qǐ",
-          "I'm sorry; excuse me; I beg your pardon",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "感冒",
-          "gǎn mào",
-          "to catch cold; (common) cold",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "请假",
-          "qǐng jià",
-          "to request leave of absence",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "周经理说：“没关系，你好好休息。工作的事情明天再说。”",
-      "py": "Zhōu jīng lǐ shuō: “méi guān xi, nǐ hǎo hǎo xiū xi. gōng zuò de shì qing míng tiān zài shuō.”",
-      "en": "Manager Zhou says, \"That's all right. Get some proper rest. We can talk about work tomorrow.\"",
-      "tr": {
-        "vi": "Giám đốc Chu nói: “Không sao, cậu nghỉ ngơi cho khỏe. Chuyện công việc mai tính.”",
-        "pt": "A gerente Zhou diz: “Não tem problema, descanse bem. A gente fala do trabalho amanhã.”",
-        "es": "La gerente Zhou dice: «No pasa nada, descansa bien. Del trabajo hablamos mañana».",
-        "fr": "La directrice Zhou répond : « Ce n’est pas grave, reposez-vous bien. On parlera du travail demain. »",
-        "am": "ሥራ አስኪያጅ ጆው «ችግር የለም፤ በደንብ እረፍ። ስለ ሥራው ነገ እንነጋገራለን» አለች።"
-      },
-      "start": 35.596,
-      "end": 42.484,
-      "tokens": [
-        [
-          "周",
-          "zhōu",
-          "all; all over; Zhou Dynasty (1046–256 BC)",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "没关系",
-          "méi guān xi",
-          "it doesn't matter",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你好",
-          "nǐ hǎo",
-          "hello; hi",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "appropriate; proper; all right!; good",
-          ""
-        ],
-        [
-          "休息",
-          "xiū xi",
-          "rest; to rest",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "事情",
-          "shì qing",
-          "affair; matter; thing; business",
-          ""
-        ],
-        [
-          "明天",
-          "míng tiān",
-          "tomorrow",
-          ""
-        ],
-        [
-          "再说",
-          "zài shuō",
-          "to say again; to put off a discussion until later; moreover",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "中午，张阿姨给杰克送来了一碗热面条。",
-      "py": "zhōng wǔ, Zhāng ā yí gěi Jié kè sòng lái le yì wǎn rè miàn tiáo.",
-      "en": "At noon, Auntie Zhang brings Jack a bowl of hot noodles.",
-      "tr": {
-        "vi": "Buổi trưa, dì Trương mang sang cho Jack một bát mì nóng.",
-        "pt": "Ao meio-dia, a tia Zhang traz para Jack uma tigela de macarrão quentinho.",
-        "es": "Al mediodía, la señora Zhang le trae a Jack un tazón de fideos calientes.",
-        "fr": "À midi, tante Zhang apporte à Jack un bol de nouilles chaudes.",
-        "am": "ቀትር ላይ እትዬ ዣንግ ለጃክ አንድ ሳህን ትኩስ ኑድል አመጡለት።"
-      },
-      "start": 43.184,
-      "end": 47.48,
-      "tokens": [
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "热",
-          "rè",
-          "hot (of weather); to warm up; to heat up",
-          ""
-        ],
-        [
-          "面条",
-          "miàn tiáo",
-          "noodles",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她说：“多喝水，多睡觉，你很快就会好的。”",
-      "py": "tā shuō: “duō hē shuǐ, duō shuì jiào, nǐ hěn kuài jiù huì hǎo de.”",
-      "en": "She says, \"Drink lots of water and sleep a lot. You'll be better soon.\"",
-      "tr": {
-        "vi": "Dì nói: “Uống nhiều nước, ngủ nhiều vào, cháu sẽ khỏi nhanh thôi.”",
-        "pt": "Ela diz: “Beba bastante água e durma bastante. Logo você vai ficar bom.”",
-        "es": "Le dice: «Toma mucha agua y duerme mucho. Pronto vas a estar bien».",
-        "fr": "Elle dit : « Bois beaucoup d’eau et dors beaucoup. Tu iras vite mieux. »",
-        "am": "«ብዙ ውሃ ጠጣ፤ ብዙ ተኛ፤ ቶሎ ትድናለህ» አሉ።"
-      },
-      "start": 48.18,
-      "end": 53.652,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to sleep; to go to bed",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "soon; rapid; quick",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a clause of action) as soon as; immediately after",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克吃完面条和药，睡了一个下午。",
-      "py": "Jié kè chī wán miàn tiáo hé yào, shuì le yí gè xià wǔ.",
-      "en": "Jack has the noodles and his medicine, and sleeps all afternoon.",
-      "tr": {
-        "vi": "Jack ăn xong mì, uống thuốc rồi ngủ cả buổi chiều.",
-        "pt": "Jack come o macarrão, toma o remédio e dorme a tarde toda.",
-        "es": "Jack se come los fideos, se toma la medicina y duerme toda la tarde.",
-        "fr": "Jack mange ses nouilles, prend ses médicaments et dort tout l’après-midi.",
-        "am": "ጃክ ኑድሉን በልቶ መድኃኒቱን ወሰደ፤ ከሰዓቱን ሙሉ ተኛ።"
-      },
-      "start": 54.352,
-      "end": 58.144,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "吃完",
-          "chī wán",
-          "to finish eating",
-          ""
-        ],
-        [
-          "面条",
-          "miàn tiáo",
-          "noodles",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "药",
-          "yào",
-          "medicine; leaf of the iris; drug",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "睡",
-          "shuì",
-          "to sleep; to lie down",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "晚上，杰克觉得好多了。",
-      "py": "wǎn shang, Jié kè jué de hǎo duō le.",
-      "en": "In the evening, Jack feels much better.",
-      "tr": {
-        "vi": "Buổi tối, Jack thấy khỏe hơn nhiều.",
-        "pt": "À noite, Jack se sente bem melhor.",
-        "es": "Por la noche, Jack se siente mucho mejor.",
-        "fr": "Le soir, Jack se sent beaucoup mieux.",
-        "am": "ምሽት ጃክ በጣም ተሻለው።"
-      },
-      "start": 58.844,
-      "end": 61.964,
-      "tokens": [
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "好多",
-          "hǎo duō",
-          "much better; many; quite a lot",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他对张阿姨说：“谢谢您！您真像我的妈妈！”",
-      "py": "tā duì Zhāng ā yí shuō: “xiè xie nín! nín zhēn xiàng wǒ de mā ma!”",
-      "en": "He says to Auntie Zhang, \"Thank you! You're just like my mum!\"",
-      "tr": {
-        "vi": "Anh nói với dì Trương: “Cháu cảm ơn dì! Dì giống mẹ cháu thật đấy!”",
-        "pt": "Ele diz à tia Zhang: “Obrigado! A senhora é igualzinha à minha mãe!”",
-        "es": "Le dice a la señora Zhang: «¡Gracias! ¡Usted es como mi mamá!»",
-        "fr": "Il dit à tante Zhang : « Merci ! Vous êtes vraiment comme une maman pour moi ! »",
-        "am": "እትዬ ዣንግን «አመሰግናለሁ! ልክ እንደ እናቴ ነዎት!» አላቸው።"
-      },
-      "start": 62.664,
-      "end": 67.416,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "对",
-          "duì",
-          "right; correct; towards; at; for; concerning; regarding",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "真",
-          "zhēn",
-          "really; truly; indeed",
-          ""
-        ],
-        [
-          "像",
-          "xiàng",
-          "to be like; to resemble; to look as if",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "张阿姨笑了：“那你明天要多吃水果，去我的商店买！”",
-      "py": "Zhāng ā yí xiào le: “nà nǐ míng tiān yào duō chī shuǐ guǒ, qù wǒ de shāng diàn mǎi!”",
-      "en": "Auntie Zhang laughs. \"Then eat lots of fruit tomorrow, and buy it at my shop!\"",
-      "tr": {
-        "vi": "Dì Trương cười: “Thế thì mai cháu phải ăn nhiều hoa quả vào, ra cửa hàng của dì mà mua nhé!”",
-        "pt": "A tia Zhang ri: “Então amanhã coma bastante fruta, e compre na minha loja!”",
-        "es": "La señora Zhang se ríe: «Entonces mañana come mucha fruta, ¡y cómprala en mi tienda!»",
-        "fr": "Tante Zhang rit : « Alors demain, mange beaucoup de fruits, et achète-les dans mon magasin ! »",
-        "am": "እትዬ ዣንግ ሳቁ። «እንግዲያው ነገ ብዙ ፍራፍሬ ብላ፤ ከእኔ ሱቅ ግዛ!»"
-      },
-      "start": 68.116,
-      "end": 73.804,
-      "tokens": [
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "明天",
-          "míng tiān",
-          "tomorrow",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "吃水",
-          "chī shuǐ",
-          "drinking water; to obtain water (for daily needs)",
-          ""
-        ],
-        [
-          "果",
-          "guǒ",
-          "fruit; result; resolute",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "商店",
-          "shāng diàn",
-          "store; shop",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 209,
-  "first": "星期三早上，杰克觉得身体很不舒服。",
-  "newWords": [
-    {
-      "w": "舒服",
-      "py": "shūfu",
-      "en": "comfortable"
-    },
-    {
-      "w": "感冒",
-      "py": "gǎnmào",
-      "en": "to catch cold"
-    },
-    {
-      "w": "发烧",
-      "py": "fāshāo",
-      "en": "have a fever"
-    },
-    {
-      "w": "请假",
-      "py": "qǐngjià",
-      "en": "to ask for time off"
-    },
-    {
-      "w": "拿",
-      "py": "ná",
-      "en": "to hold"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h2-08.mp3?v=1791720554"
+  {
+   "text": "他头很疼，一点儿也不想吃东西。",
+   "py": "tā tóu hěn téng, yì diǎn r yě bù xiǎng chī dōng xi.",
+   "en": "He has a bad headache and doesn't want to eat anything at all.",
+   "tr": {
+    "vi": "Anh ấy đau đầu lắm, chẳng muốn ăn gì cả.",
+    "pt": "Ele está com muita dor de cabeça e não quer comer nada.",
+    "es": "Le duele mucho la cabeza y no quiere comer nada.",
+    "fr": "Il a très mal à la tête et n’a pas du tout envie de manger.",
+    "am": "ራሱን በጣም አመመው፤ ምንም መብላት አልፈለገም።",
+    "fa": "سرش شدید درد می‌کنه و اصلاً حوصله غذا خوردن رو نداره."
+   },
+   "start": 8.12,
+   "end": 11.912,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "头",
+     "tóu",
+     "head; hair style; the top",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "疼",
+     "téng",
+     "(it) hurts; sore; to love dearly",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不想",
+     "bù xiǎng",
+     "unexpectedly; to one's surprise",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "张阿姨看他没去上班，就来问：“杰克，你怎么了？”",
+   "py": "Zhāng ā yí kàn tā méi qù shàng bān, jiù lái wèn: “Jié kè, nǐ zěn me le?”",
+   "en": "Auntie Zhang sees he hasn't gone to work and comes to ask, \"Jack, what's wrong?\"",
+   "tr": {
+    "vi": "Dì Trương thấy anh không đi làm, liền sang hỏi: “Jack, cháu sao thế?”",
+    "pt": "A tia Zhang vê que ele não foi trabalhar e vem perguntar: “Jack, o que você tem?”",
+    "es": "La señora Zhang ve que no fue a trabajar y viene a preguntarle: «Jack, ¿qué te pasa?»",
+    "fr": "Voyant qu’il n’est pas parti au travail, tante Zhang vient lui demander : « Jack, qu’est-ce qui ne va pas ? »",
+    "am": "እትዬ ዣንግ ወደ ሥራ እንዳልሄደ አይተው መጡና «ጃክ፣ ምን ሆንክ?» ብለው ጠየቁ።",
+    "fa": "خاله ژانگ می‌بینه سر کار نرفته و میاد می‌پرسه: «جک، چی‌ت شده؟»"
+   },
+   "start": 12.612,
+   "end": 17.82,
+   "tokens": [
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; childcare worker; step-mother",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "上班",
+     "shàng bān",
+     "to go to work; to start work; to be on duty",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "怎么了",
+     "zěn me le",
+     "What's up?; What's going on?; What happened?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我好像感冒了，还有点儿发烧。”",
+   "py": "“wǒ hǎo xiàng gǎn mào le, hái yǒu diǎn r fā shāo.”",
+   "en": "\"I think I've got a cold, and I have a bit of a fever.\"",
+   "tr": {
+    "vi": "“Hình như cháu bị cảm rồi, còn hơi sốt nữa.”",
+    "pt": "“Acho que peguei um resfriado, e estou com um pouco de febre.”",
+    "es": "«Creo que me resfrié, y tengo un poco de fiebre».",
+    "fr": "« Je crois que j’ai attrapé un rhume, et j’ai un peu de fièvre. »",
+    "am": "«ጉንፋን የያዘኝ ይመስለኛል፤ ትንሽ ትኩሳትም አለኝ።»",
+    "fa": "«فکر کنم سرما خوردم؛ یه کمم تب دارم.»"
+   },
+   "start": 18.52,
+   "end": 22.12,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "好像",
+     "hǎo xiàng",
+     "as if; to seem like",
+     ""
+    ],
+    [
+     "感冒",
+     "gǎn mào",
+     "to catch cold; (common) cold",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "点儿",
+     "diǎn r",
+     "erhua variant of 点",
+     ""
+    ],
+    [
+     "发烧",
+     "fā shāo",
+     "to have a high temperature (from illness); to have a fever",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "张阿姨说：“快去床上休息！我去给你拿药。”",
+   "py": "Zhāng ā yí shuō: “kuài qù chuáng shàng xiū xi! wǒ qù gěi nǐ ná yào.”",
+   "en": "Auntie Zhang says, \"Go and rest in bed, quick! I'll go and get you some medicine.\"",
+   "tr": {
+    "vi": "Dì Trương nói: “Mau lên giường nghỉ đi! Dì đi lấy thuốc cho cháu.”",
+    "pt": "A tia Zhang diz: “Vá descansar na cama, rápido! Vou buscar um remédio para você.”",
+    "es": "La señora Zhang dice: «¡Ve a acostarte a descansar! Voy a traerte una medicina».",
+    "fr": "Tante Zhang dit : « Va vite te reposer au lit ! Je vais te chercher des médicaments. »",
+    "am": "እትዬ ዣንግ «ቶሎ አልጋህ ላይ ተኝተህ እረፍ! መድኃኒት አመጣልሃለሁ» አሉ።",
+    "fa": "خاله ژانگ می‌گه: «سریع برو توی تخت استراحت کن! منم دارو رو بیارم.»"
+   },
+   "start": 22.82,
+   "end": 27.092,
+   "tokens": [
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "快",
+     "kuài",
+     "quick; rapid; speed",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to get rid of; to go; to go to (a place)",
+     ""
+    ],
+    [
+     "床",
+     "chuáng",
+     "bed; couch (furniture that one can lie down on)",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "to climb; to get onto; to go up",
+     ""
+    ],
+    [
+     "休息",
+     "xiū xi",
+     "rest; to rest",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to get rid of; to go; to go to (a place)",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "药",
+     "yào",
+     "medicine; leaf of the iris; drug",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克给周经理打电话：“周经理，对不起，我感冒了，今天想请假。”",
+   "py": "Jié kè gěi Zhōu jīng lǐ dǎ diàn huà: “Zhōu jīng lǐ, duì bu qǐ, wǒ gǎn mào le, jīn tiān xiǎng qǐng jià.”",
+   "en": "Jack calls Manager Zhou. \"Manager Zhou, I'm sorry, I've got a cold. I'd like to take today off.\"",
+   "tr": {
+    "vi": "Jack gọi điện cho giám đốc Chu: “Thưa giám đốc Chu, xin lỗi, tôi bị cảm, hôm nay tôi muốn xin nghỉ.”",
+    "pt": "Jack liga para a gerente Zhou: “Gerente Zhou, desculpe, estou resfriado. Queria tirar o dia de folga hoje.”",
+    "es": "Jack llama a la gerente Zhou: «Gerente Zhou, lo siento, estoy resfriado. Quiero pedir el día libre».",
+    "fr": "Jack appelle la directrice Zhou : « Madame Zhou, je suis désolé, j’ai un rhume. Je voudrais prendre ma journée. »",
+    "am": "ጃክ ለሥራ አስኪያጅ ጆው ደወለ። «ሥራ አስኪያጅ ጆው፣ ይቅርታ፣ ጉንፋን ይዞኛል። ዛሬ ፈቃድ መውሰድ እፈልጋለሁ።»",
+    "fa": "جک به مدیر جو زنگ می‌زنه: «مدیر جو، ببخشید، سرما خوردم؛ امروز می‌خوام مرخصی بگیرم.»"
+   },
+   "start": 27.792,
+   "end": 34.896,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "对不起",
+     "duì bu qǐ",
+     "I'm sorry; excuse me; I beg your pardon",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "感冒",
+     "gǎn mào",
+     "to catch cold; (common) cold",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "请假",
+     "qǐng jià",
+     "to request leave of absence",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "周经理说：“没关系，你好好休息。工作的事情明天再说。”",
+   "py": "Zhōu jīng lǐ shuō: “méi guān xi, nǐ hǎo hǎo xiū xi. gōng zuò de shì qing míng tiān zài shuō.”",
+   "en": "Manager Zhou says, \"That's all right. Get some proper rest. We can talk about work tomorrow.\"",
+   "tr": {
+    "vi": "Giám đốc Chu nói: “Không sao, cậu nghỉ ngơi cho khỏe. Chuyện công việc mai tính.”",
+    "pt": "A gerente Zhou diz: “Não tem problema, descanse bem. A gente fala do trabalho amanhã.”",
+    "es": "La gerente Zhou dice: «No pasa nada, descansa bien. Del trabajo hablamos mañana».",
+    "fr": "La directrice Zhou répond : « Ce n’est pas grave, reposez-vous bien. On parlera du travail demain. »",
+    "am": "ሥራ አስኪያጅ ጆው «ችግር የለም፤ በደንብ እረፍ። ስለ ሥራው ነገ እንነጋገራለን» አለች።",
+    "fa": "مدیر جو می‌گوید: «اشکالی نداره، خوب استراحت کن. کارها رو فردا حرف می‌زنیم.»"
+   },
+   "start": 35.596,
+   "end": 42.484,
+   "tokens": [
+    [
+     "周",
+     "zhōu",
+     "all; all over; Zhou Dynasty (1046–256 BC)",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "没关系",
+     "méi guān xi",
+     "it doesn't matter",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你好",
+     "nǐ hǎo",
+     "hello; hi",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "appropriate; proper; all right!; good",
+     ""
+    ],
+    [
+     "休息",
+     "xiū xi",
+     "rest; to rest",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "事情",
+     "shì qing",
+     "affair; matter; thing; business",
+     ""
+    ],
+    [
+     "明天",
+     "míng tiān",
+     "tomorrow",
+     ""
+    ],
+    [
+     "再说",
+     "zài shuō",
+     "to say again; to put off a discussion until later; moreover",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "中午，张阿姨给杰克送来了一碗热面条。",
+   "py": "zhōng wǔ, Zhāng ā yí gěi Jié kè sòng lái le yì wǎn rè miàn tiáo.",
+   "en": "At noon, Auntie Zhang brings Jack a bowl of hot noodles.",
+   "tr": {
+    "vi": "Buổi trưa, dì Trương mang sang cho Jack một bát mì nóng.",
+    "pt": "Ao meio-dia, a tia Zhang traz para Jack uma tigela de macarrão quentinho.",
+    "es": "Al mediodía, la señora Zhang le trae a Jack un tazón de fideos calientes.",
+    "fr": "À midi, tante Zhang apporte à Jack un bol de nouilles chaudes.",
+    "am": "ቀትር ላይ እትዬ ዣንግ ለጃክ አንድ ሳህን ትኩስ ኑድል አመጡለት።",
+    "fa": "ظهر خاله ژانگ برای جک یک کاسه نودل گرم می‌آورد."
+   },
+   "start": 43.184,
+   "end": 47.48,
+   "tokens": [
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "热",
+     "rè",
+     "hot (of weather); to warm up; to heat up",
+     ""
+    ],
+    [
+     "面条",
+     "miàn tiáo",
+     "noodles",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她说：“多喝水，多睡觉，你很快就会好的。”",
+   "py": "tā shuō: “duō hē shuǐ, duō shuì jiào, nǐ hěn kuài jiù huì hǎo de.”",
+   "en": "She says, \"Drink lots of water and sleep a lot. You'll be better soon.\"",
+   "tr": {
+    "vi": "Dì nói: “Uống nhiều nước, ngủ nhiều vào, cháu sẽ khỏi nhanh thôi.”",
+    "pt": "Ela diz: “Beba bastante água e durma bastante. Logo você vai ficar bom.”",
+    "es": "Le dice: «Toma mucha agua y duerme mucho. Pronto vas a estar bien».",
+    "fr": "Elle dit : « Bois beaucoup d’eau et dors beaucoup. Tu iras vite mieux. »",
+    "am": "«ብዙ ውሃ ጠጣ፤ ብዙ ተኛ፤ ቶሎ ትድናለህ» አሉ።",
+    "fa": "می‌گوید: «آب زیاد بخور و خوب بخواب؛ زود خوب می‌شی.»"
+   },
+   "start": 48.18,
+   "end": 53.652,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to sleep; to go to bed",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "soon; rapid; quick",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a clause of action) as soon as; immediately after",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克吃完面条和药，睡了一个下午。",
+   "py": "Jié kè chī wán miàn tiáo hé yào, shuì le yí gè xià wǔ.",
+   "en": "Jack has the noodles and his medicine, and sleeps all afternoon.",
+   "tr": {
+    "vi": "Jack ăn xong mì, uống thuốc rồi ngủ cả buổi chiều.",
+    "pt": "Jack come o macarrão, toma o remédio e dorme a tarde toda.",
+    "es": "Jack se come los fideos, se toma la medicina y duerme toda la tarde.",
+    "fr": "Jack mange ses nouilles, prend ses médicaments et dort tout l’après-midi.",
+    "am": "ጃክ ኑድሉን በልቶ መድኃኒቱን ወሰደ፤ ከሰዓቱን ሙሉ ተኛ።",
+    "fa": "جک نودل و داروش رو می‌خوره و کل بعدازظهر رو می‌خوابه."
+   },
+   "start": 54.352,
+   "end": 58.144,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "吃完",
+     "chī wán",
+     "to finish eating",
+     ""
+    ],
+    [
+     "面条",
+     "miàn tiáo",
+     "noodles",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "药",
+     "yào",
+     "medicine; leaf of the iris; drug",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "睡",
+     "shuì",
+     "to sleep; to lie down",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "晚上，杰克觉得好多了。",
+   "py": "wǎn shang, Jié kè jué de hǎo duō le.",
+   "en": "In the evening, Jack feels much better.",
+   "tr": {
+    "vi": "Buổi tối, Jack thấy khỏe hơn nhiều.",
+    "pt": "À noite, Jack se sente bem melhor.",
+    "es": "Por la noche, Jack se siente mucho mejor.",
+    "fr": "Le soir, Jack se sent beaucoup mieux.",
+    "am": "ምሽት ጃክ በጣም ተሻለው።",
+    "fa": "شب جک احساس خیلی بهتری داره."
+   },
+   "start": 58.844,
+   "end": 61.964,
+   "tokens": [
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "好多",
+     "hǎo duō",
+     "much better; many; quite a lot",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他对张阿姨说：“谢谢您！您真像我的妈妈！”",
+   "py": "tā duì Zhāng ā yí shuō: “xiè xie nín! nín zhēn xiàng wǒ de mā ma!”",
+   "en": "He says to Auntie Zhang, \"Thank you! You're just like my mum!\"",
+   "tr": {
+    "vi": "Anh nói với dì Trương: “Cháu cảm ơn dì! Dì giống mẹ cháu thật đấy!”",
+    "pt": "Ele diz à tia Zhang: “Obrigado! A senhora é igualzinha à minha mãe!”",
+    "es": "Le dice a la señora Zhang: «¡Gracias! ¡Usted es como mi mamá!»",
+    "fr": "Il dit à tante Zhang : « Merci ! Vous êtes vraiment comme une maman pour moi ! »",
+    "am": "እትዬ ዣንግን «አመሰግናለሁ! ልክ እንደ እናቴ ነዎት!» አላቸው።",
+    "fa": "به خاله ژانگ می‌گه: «ممنونم! شما دقیقاً شبیه مامان منید!»"
+   },
+   "start": 62.664,
+   "end": 67.416,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "对",
+     "duì",
+     "right; correct; towards; at; for; concerning; regarding",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "真",
+     "zhēn",
+     "really; truly; indeed",
+     ""
+    ],
+    [
+     "像",
+     "xiàng",
+     "to be like; to resemble; to look as if",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "张阿姨笑了：“那你明天要多吃水果，去我的商店买！”",
+   "py": "Zhāng ā yí xiào le: “nà nǐ míng tiān yào duō chī shuǐ guǒ, qù wǒ de shāng diàn mǎi!”",
+   "en": "Auntie Zhang laughs. \"Then eat lots of fruit tomorrow, and buy it at my shop!\"",
+   "tr": {
+    "vi": "Dì Trương cười: “Thế thì mai cháu phải ăn nhiều hoa quả vào, ra cửa hàng của dì mà mua nhé!”",
+    "pt": "A tia Zhang ri: “Então amanhã coma bastante fruta, e compre na minha loja!”",
+    "es": "La señora Zhang se ríe: «Entonces mañana come mucha fruta, ¡y cómprala en mi tienda!»",
+    "fr": "Tante Zhang rit : « Alors demain, mange beaucoup de fruits, et achète-les dans mon magasin ! »",
+    "am": "እትዬ ዣንግ ሳቁ። «እንግዲያው ነገ ብዙ ፍራፍሬ ብላ፤ ከእኔ ሱቅ ግዛ!»",
+    "fa": "خاله ژانگ می‌خنده: «پس فردا کلی میوه بخور؛ از مغازه خودم بخر!»"
+   },
+   "start": 68.116,
+   "end": 73.804,
+   "tokens": [
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "明天",
+     "míng tiān",
+     "tomorrow",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "吃水",
+     "chī shuǐ",
+     "drinking water; to obtain water (for daily needs)",
+     ""
+    ],
+    [
+     "果",
+     "guǒ",
+     "fruit; result; resolute",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "商店",
+     "shāng diàn",
+     "store; shop",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 209,
+ "first": "星期三早上，杰克觉得身体很不舒服。",
+ "newWords": [
+  {
+   "w": "舒服",
+   "py": "shūfu",
+   "en": "comfortable"
+  },
+  {
+   "w": "感冒",
+   "py": "gǎnmào",
+   "en": "to catch cold"
+  },
+  {
+   "w": "发烧",
+   "py": "fāshāo",
+   "en": "have a fever"
+  },
+  {
+   "w": "请假",
+   "py": "qǐngjià",
+   "en": "to ask for time off"
+  },
+  {
+   "w": "拿",
+   "py": "ná",
+   "en": "to hold"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h2-08.mp3?v=1791720554"
 }

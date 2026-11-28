@@ -1,1619 +1,1634 @@
 {
-  "id": "h3-04",
-  "level": 3,
-  "no": 4,
-  "title": "第一次做菜",
-  "title_py": "dì yī cì zuò cài",
-  "title_en": "Cooking for the first time",
-  "title_tr": {
-    "vi": "Lần đầu nấu ăn",
-    "pt": "Cozinhando pela primeira vez",
-    "es": "Cocinar por primera vez",
-    "fr": "Cuisiner pour la première fois",
-    "am": "የመጀመሪያው ምግብ ሥራ",
-    "fa": "اولین بار آشپزی کردن"
+ "id": "h3-04",
+ "level": 3,
+ "no": 4,
+ "title": "第一次做菜",
+ "title_py": "dì yī cì zuò cài",
+ "title_en": "Cooking for the first time",
+ "title_tr": {
+  "vi": "Lần đầu nấu ăn",
+  "pt": "Cozinhando pela primeira vez",
+  "es": "Cocinar por primera vez",
+  "fr": "Cuisiner pour la première fois",
+  "am": "የመጀመሪያው ምግብ ሥራ",
+  "fa": "اولین بار آشپزی کردن"
+ },
+ "topic": "food",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h3-04.jpg",
+ "duration": 92.248,
+ "lines": [
+  {
+   "text": "李强特别喜欢运动，可是他不会做饭。",
+   "py": "Lǐ Qiáng tè bié xǐ huan yùn dòng, kě shì tā bú huì zuò fàn.",
+   "en": "Li Qiang loves sport, but he can't cook.",
+   "tr": {
+    "vi": "Lý Cường rất thích thể thao, nhưng anh không biết nấu ăn.",
+    "pt": "O Li Qiang adora esportes, mas não sabe cozinhar.",
+    "es": "A Li Qiang le encanta el deporte, pero no sabe cocinar.",
+    "fr": "Li Qiang adore le sport, mais il ne sait pas cuisiner.",
+    "am": "ሊ ቺያንግ ስፖርት በጣም ይወዳል፤ ምግብ መሥራት ግን አይችልም።",
+    "fa": "لی چیانگ عاشق ورزنه، ولی بلد نیست آشپزی کنه."
+   },
+   "start": 2.62,
+   "end": 6.676,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "特别",
+     "tè bié",
+     "unusual; special; very; especially; particularly",
+     ""
+    ],
+    [
+     "喜欢",
+     "xǐ huan",
+     "to like; to be fond of",
+     ""
+    ],
+    [
+     "运动",
+     "yùn dòng",
+     "sports; to move; to exercise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "不会",
+     "bù huì",
+     "improbable; unlikely; will not (act, happen etc)",
+     ""
+    ],
+    [
+     "做饭",
+     "zuò fàn",
+     "to cook; to prepare a meal",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "food",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h3-04.jpg",
-  "duration": 92.248,
-  "lines": [
-    {
-      "text": "李强特别喜欢运动，可是他不会做饭。",
-      "py": "Lǐ Qiáng tè bié xǐ huan yùn dòng, kě shì tā bú huì zuò fàn.",
-      "en": "Li Qiang loves sport, but he can't cook.",
-      "tr": {
-        "vi": "Lý Cường rất thích thể thao, nhưng anh không biết nấu ăn.",
-        "pt": "O Li Qiang adora esportes, mas não sabe cozinhar.",
-        "es": "A Li Qiang le encanta el deporte, pero no sabe cocinar.",
-        "fr": "Li Qiang adore le sport, mais il ne sait pas cuisiner.",
-        "am": "ሊ ቺያንግ ስፖርት በጣም ይወዳል፤ ምግብ መሥራት ግን አይችልም።"
-      },
-      "start": 2.62,
-      "end": 6.676,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "特别",
-          "tè bié",
-          "unusual; special; very; especially; particularly",
-          ""
-        ],
-        [
-          "喜欢",
-          "xǐ huan",
-          "to like; to be fond of",
-          ""
-        ],
-        [
-          "运动",
-          "yùn dòng",
-          "sports; to move; to exercise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "不会",
-          "bù huì",
-          "improbable; unlikely; will not (act, happen etc)",
-          ""
-        ],
-        [
-          "做饭",
-          "zuò fàn",
-          "to cook; to prepare a meal",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这个周末，他请杰克和安娜来家里吃饭。",
-      "py": "zhè ge zhōu mò, tā qǐng Jié kè hé Ān nà lái jiā lǐ chī fàn.",
-      "en": "This weekend, he invites Jack and Anna to his home for dinner.",
-      "tr": {
-        "vi": "Cuối tuần này, anh mời Jack và Anna đến nhà ăn cơm.",
-        "pt": "Neste fim de semana, ele convida Jack e a Anna para jantar na casa dele.",
-        "es": "Este fin de semana, invita a Jack y a Anna a cenar a su casa.",
-        "fr": "Ce week-end, il invite Jack et Anna à dîner chez lui.",
-        "am": "በዚህ ቅዳሜና እሑድ ጃክን እና አናን ቤቱ ምግብ ጋበዘ።"
-      },
-      "start": 7.376,
-      "end": 11.912,
-      "tokens": [
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "周末",
-          "zhōu mò",
-          "weekend",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "请",
-          "qǐng",
-          "to invite; to ask; please (do sth)",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "家里",
-          "jiā lǐ",
-          "home",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他先给小周打电话：“西红柿鸡蛋怎么做？”",
-      "py": "tā xiān gěi Xiǎo Zhōu dǎ diàn huà: “xī hóng shì jī dàn zěn me zuò?”",
-      "en": "First he phones Xiao Zhou. \"How do you make tomato and egg?\"",
-      "tr": {
-        "vi": "Trước tiên anh gọi điện cho Tiểu Chu: “Trứng xào cà chua làm thế nào?”",
-        "pt": "Primeiro, ele liga para o Xiao Zhou: “Como se faz ovo com tomate?”",
-        "es": "Primero llama a Xiao Zhou: «¿Cómo se hace el huevo con tomate?».",
-        "fr": "D’abord, il appelle Xiao Zhou : « Comment on fait les œufs à la tomate ? »",
-        "am": "መጀመሪያ ለሺያው ጆው ደወለ። «የቲማቲም እንቁላል ፍርፍር እንዴት ይሠራል?»"
-      },
-      "start": 12.612,
-      "end": 17.34,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "to make a circuit; Zhou Dynasty (1046–256 BC); to circle",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "西红柿",
-          "xī hóng shì",
-          "tomato",
-          ""
-        ],
-        [
-          "鸡蛋",
-          "jī dàn",
-          "(chicken) egg; hen's egg",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小周在饭馆里很忙，很快地说：“先放鸡蛋，再放西红柿，最后放一点儿盐。”",
-      "py": "Xiǎo Zhōu zài fàn guǎn lǐ hěn máng, hěn kuài de shuō: “xiān fàng jī dàn, zài fàng xī hóng shì, zuì hòu fàng yì diǎn r yán.”",
-      "en": "Xiao Zhou is busy at the restaurant and says quickly, \"Eggs first, then tomatoes, and a little salt at the end.\"",
-      "tr": {
-        "vi": "Tiểu Chu đang bận ở nhà hàng, nói thật nhanh: “Cho trứng trước, rồi cho cà chua, cuối cùng cho một chút muối.”",
-        "pt": "O Xiao Zhou está ocupado no restaurante e responde rápido: “Primeiro os ovos, depois os tomates, e no fim um pouco de sal.”",
-        "es": "Xiao Zhou está muy ocupado en el restaurante y dice rápido: «Primero el huevo, luego el tomate y al final un poco de sal».",
-        "fr": "Xiao Zhou est très occupé au restaurant et répond vite : « D’abord les œufs, ensuite les tomates, et à la fin un peu de sel. »",
-        "am": "ሺያው ጆው ምግብ ቤቱ ውስጥ ሥራ በዝቶበት ነበር፤ በፍጥነት «መጀመሪያ እንቁላል፣ ከዚያ ቲማቲም፣ በመጨረሻ ትንሽ ጨው» አለ።"
-      },
-      "start": 18.04,
-      "end": 26.08,
-      "tokens": [
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "饭馆",
-          "fàn guǎn",
-          "restaurant",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "忙",
-          "máng",
-          "busy; hurriedly; to hurry",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "quick; rapid; speed",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "鸡蛋",
-          "jī dàn",
-          "(chicken) egg; hen's egg",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "再",
-          "zài",
-          "then (after sth, and not until then)",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "西红柿",
-          "xī hóng shì",
-          "tomato",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "最后",
-          "zuì hòu",
-          "finally; in the end; final; last; ultimate",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "盐",
-          "yán",
-          "salt",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "李强把这些都写在了本子上。",
-      "py": "Lǐ Qiáng bǎ zhè xiē dōu xiě zài le běn zi shàng.",
-      "en": "Li Qiang writes all this down in a notebook.",
-      "tr": {
-        "vi": "Lý Cường ghi hết những điều này vào sổ.",
-        "pt": "O Li Qiang anota tudo num caderno.",
-        "es": "Li Qiang lo apunta todo en una libreta.",
-        "fr": "Li Qiang note tout ça dans un carnet.",
-        "am": "ሊ ቺያንግ ይሄን ሁሉ ደብተሩ ላይ ጻፈ።"
-      },
-      "start": 26.78,
-      "end": 29.9,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "这些",
-          "zhè xiē",
-          "these",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "本子",
-          "běn zi",
-          "notebook; book",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "晚上七点，杰克和安娜来了，桌子上已经有三个菜了。",
-      "py": "wǎn shang qī diǎn, Jié kè hé Ān nà lái le, zhuō zi shàng yǐ jīng yǒu sān gè cài le.",
-      "en": "At seven in the evening, Jack and Anna arrive. There are already three dishes on the table.",
-      "tr": {
-        "vi": "Bảy giờ tối, Jack và Anna đến, trên bàn đã có ba món.",
-        "pt": "Às sete da noite, Jack e a Anna chegam. Já há três pratos na mesa.",
-        "es": "A las siete de la tarde llegan Jack y Anna. En la mesa ya hay tres platos.",
-        "fr": "À sept heures du soir, Jack et Anna arrivent. Il y a déjà trois plats sur la table.",
-        "am": "ምሽት 7:00 ላይ ጃክ እና አና መጡ፤ ጠረጴዛው ላይ ሦስት ምግቦች ቀርበው ነበር።"
-      },
-      "start": 30.6,
-      "end": 36.312,
-      "tokens": [
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "桌子",
-          "zhuō zi",
-          "table; desk",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "菜",
-          "cài",
-          "dish (of food); vegetable; greens",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜吃了一口西红柿鸡蛋，没有说话，马上喝了一大杯水。",
-      "py": "Ān nà chī le yì kǒu xī hóng shì jī dàn, méi yǒu shuō huà, mǎ shàng hē le yí dà bēi shuǐ.",
-      "en": "Anna takes a bite of the tomato and egg, says nothing, and drinks a big glass of water at once.",
-      "tr": {
-        "vi": "Anna ăn một miếng trứng xào cà chua, không nói gì, lập tức uống hết một cốc nước to.",
-        "pt": "A Anna come um pedaço do ovo com tomate, não diz nada e logo bebe um copo grande de água.",
-        "es": "Anna prueba un bocado del huevo con tomate, no dice nada y enseguida se toma un vaso grande de agua.",
-        "fr": "Anna goûte les œufs à la tomate, ne dit rien et boit tout de suite un grand verre d’eau.",
-        "am": "አና የቲማቲም እንቁላሉን ቀመሰች፤ ምንም ሳትል ወዲያው አንድ ትልቅ ብርጭቆ ውሃ ጠጣች።"
-      },
-      "start": 37.012,
-      "end": 42.7,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一口",
-          "yī kǒu",
-          "a bite; readily; flatly (deny, admit and so on)",
-          ""
-        ],
-        [
-          "西红柿",
-          "xī hóng shì",
-          "tomato",
-          ""
-        ],
-        [
-          "鸡蛋",
-          "jī dàn",
-          "(chicken) egg; hen's egg",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "说话",
-          "shuō huà",
-          "to speak; to say; to talk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "at once; right away; immediately",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "杯",
-          "bēi",
-          "classifier for certain containers of liquids: glass, cup",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克也吃了一口：“李强，这个菜……怎么是甜的？”",
-      "py": "Jié kè yě chī le yì kǒu: “Lǐ Qiáng, zhè ge cài…… zěn me shì tián de?”",
-      "en": "Jack takes a bite too. \"Li Qiang, this dish... why is it sweet?\"",
-      "tr": {
-        "vi": "Jack cũng ăn một miếng: “Lý Cường, món này… sao lại ngọt thế?”",
-        "pt": "Jack também prova: “Li Qiang, este prato… por que está doce?”",
-        "es": "Jack también prueba un bocado: «Li Qiang, este plato… ¿por qué está dulce?».",
-        "fr": "Jack goûte aussi : « Li Qiang, ce plat… pourquoi il est sucré ? »",
-        "am": "ጃክም ቀመሰ። «ሊ ቺያንግ፣ ይሄ ምግብ… ለምን ጣፋጭ ሆነ?»"
-      },
-      "start": 43.4,
-      "end": 49.112,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一口",
-          "yī kǒu",
-          "a bite; readily; flatly (deny, admit and so on)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "菜",
-          "cài",
-          "dish (of food); vegetable; greens",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "why?; how?; what?",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "甜",
-          "tián",
-          "sweet; (fig.) pleasant; endearing; lovely",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "李强自己吃了一口，才发现他把糖当成盐了。",
-      "py": "Lǐ Qiáng zì jǐ chī le yì kǒu, cái fā xiàn tā bǎ táng dàng chéng yán le.",
-      "en": "Li Qiang tastes it himself and only then realises he used sugar instead of salt.",
-      "tr": {
-        "vi": "Lý Cường tự mình nếm một miếng, lúc này mới phát hiện mình đã nhầm đường thành muối.",
-        "pt": "O Li Qiang prova ele mesmo e só então percebe que usou açúcar no lugar do sal.",
-        "es": "Li Qiang lo prueba él mismo y solo entonces se da cuenta de que usó azúcar en lugar de sal.",
-        "fr": "Li Qiang goûte à son tour et découvre seulement maintenant qu’il a pris le sucre pour du sel.",
-        "am": "ሊ ቺያንግ ራሱ ቀምሶ ነው ስኳርን ጨው መስሎት እንደጨመረ ያወቀው።"
-      },
-      "start": 49.812,
-      "end": 54.828,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一口",
-          "yī kǒu",
-          "readily; flatly (deny, admit and so on); a mouthful",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "才",
-          "cái",
-          "then and only then; (before an expression of quantity) only",
-          ""
-        ],
-        [
-          "发现",
-          "fā xiàn",
-          "to notice; to become aware of",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "糖",
-          "táng",
-          "sugar; sweets; candy",
-          ""
-        ],
-        [
-          "当成",
-          "dàng chéng",
-          "to consider as; to take to be",
-          ""
-        ],
-        [
-          "盐",
-          "yán",
-          "salt",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他很不好意思：“对不起，两个都是白的，我没看清楚。”",
-      "py": "tā hěn bù hǎo yì sī: “duì bu qǐ, liǎng gè dōu shì bái de, wǒ méi kàn qīng chu.”",
-      "en": "He's very embarrassed. \"Sorry, they're both white. I didn't look carefully.\"",
-      "tr": {
-        "vi": "Anh rất ngại: “Xin lỗi, cả hai đều màu trắng, mình không nhìn kỹ.”",
-        "pt": "Ele fica muito sem graça: “Desculpem, os dois são brancos, eu não olhei direito.”",
-        "es": "Le da mucha vergüenza: «Perdón, los dos son blancos y no me fijé bien».",
-        "fr": "Il est très gêné : « Désolé, les deux sont blancs, je n’ai pas bien regardé. »",
-        "am": "በጣም አፈረ። «ይቅርታ፣ ሁለቱም ነጭ ናቸው፤ በደንብ አላየሁም።»"
-      },
-      "start": 55.528,
-      "end": 62.632,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to feel embarrassed; to be sorry (for inconveniencing sb)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "对不起",
-          "duì bu qǐ",
-          "I'm sorry; excuse me; I beg your pardon",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "两",
-          "liǎng",
-          "both; two; some",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "(respectful acknowledgement of a command) very well",
-          ""
-        ],
-        [
-          "白",
-          "bái",
-          "white; (bound form) to give a disdainful look (e.g. 白了他一眼)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "看清",
-          "kàn qīng",
-          "to see clearly",
-          ""
-        ],
-        [
-          "楚",
-          "chǔ",
-          "distinct; clear; orderly",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "这时候，有人在门外叫：“李强，开门！”",
-      "py": "zhè shí hou, yǒu rén zài mén wài jiào: “Lǐ Qiáng, kāi mén!”",
-      "en": "Just then, someone calls from outside the door, \"Li Qiang, open up!\"",
-      "tr": {
-        "vi": "Đúng lúc đó, có người gọi ngoài cửa: “Lý Cường, mở cửa!”",
-        "pt": "Nessa hora, alguém chama do lado de fora da porta: “Li Qiang, abra a porta!”",
-        "es": "En ese momento, alguien grita desde afuera: «¡Li Qiang, abre la puerta!».",
-        "fr": "À ce moment-là, quelqu’un appelle devant la porte : « Li Qiang, ouvre ! »",
-        "am": "በዚያን ጊዜ አንድ ሰው ከበር ውጭ «ሊ ቺያንግ፣ ክፈት!» ብሎ ጠራ።"
-      },
-      "start": 63.332,
-      "end": 67.604,
-      "tokens": [
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "候",
-          "hòu",
-          "to wait; to inquire after; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; there is someone there; people",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "门外",
-          "mén wài",
-          "outside the door",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to call; to shout; to order",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "开门",
-          "kāi mén",
-          "(lit. and fig.) to open a door; to open for business",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "是小周，他手里拿着两个大盒子。",
-      "py": "shì Xiǎo Zhōu, tā shǒu lǐ ná zhe liǎng gè dà hé zi.",
-      "en": "It's Xiao Zhou, holding two big boxes.",
-      "tr": {
-        "vi": "Là Tiểu Chu, trên tay cầm hai chiếc hộp lớn.",
-        "pt": "É o Xiao Zhou, com duas caixas grandes nas mãos.",
-        "es": "Es Xiao Zhou, con dos cajas grandes en las manos.",
-        "fr": "C’est Xiao Zhou, avec deux grandes boîtes dans les mains.",
-        "am": "ሺያው ጆው ነበር፤ ሁለት ትልልቅ ሣጥኖች ይዟል።"
-      },
-      "start": 68.304,
-      "end": 72.576,
-      "tokens": [
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "手里",
-          "shǒu lǐ",
-          "in hand; (a situation is) in sb's hands",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "盒子",
-          "hé zi",
-          "box; case",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“我猜你需要帮忙，就从饭馆带了几个菜过来。”",
-      "py": "“wǒ cāi nǐ xū yào bāng máng, jiù cóng fàn guǎn dài le jǐ gè cài guò lái.”",
-      "en": "\"I guessed you'd need some help, so I brought a few dishes over from the restaurant.\"",
-      "tr": {
-        "vi": "“Mình đoán bạn cần giúp, nên mang mấy món từ nhà hàng qua đây.”",
-        "pt": "“Imaginei que você ia precisar de ajuda, então trouxe uns pratos do restaurante.”",
-        "es": "«Me imaginé que ibas a necesitar ayuda, así que traje unos platos del restaurante».",
-        "fr": "« Je me suis dit que tu aurais besoin d’aide, alors j’ai apporté quelques plats du restaurant. »",
-        "am": "«እርዳታ ያስፈልግሃል ብዬ ገምቼ ከምግብ ቤቱ ጥቂት ምግቦች ይዤ መጣሁ።»"
-      },
-      "start": 73.276,
-      "end": 78.028,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "猜",
-          "cāi",
-          "to guess",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "需要",
-          "xū yào",
-          "to need; to want; to demand; to require; needs",
-          ""
-        ],
-        [
-          "帮忙",
-          "bāng máng",
-          "to help; to lend a hand; to do a favor",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "饭馆",
-          "fàn guǎn",
-          "restaurant",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "band; belt; girdle",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "几个",
-          "jǐ ge",
-          "a few; several; how many",
-          ""
-        ],
-        [
-          "菜",
-          "cài",
-          "dish (of food); vegetable; greens",
-          ""
-        ],
-        [
-          "过来",
-          "guò lái",
-          "to come over; to manage; to handle",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "大家都笑了。那天晚上，他们把菜全吃完了。",
-      "py": "dà jiā dōu xiào le. nà tiān wǎn shang, tā men bǎ cài quán chī wán le.",
-      "en": "Everyone laughs. That evening, they eat every last dish.",
-      "tr": {
-        "vi": "Mọi người đều cười. Tối hôm đó, họ ăn sạch hết các món.",
-        "pt": "Todos riem. Naquela noite, eles comem tudo, até o último prato.",
-        "es": "Todos se ríen. Esa noche se comen todos los platos.",
-        "fr": "Tout le monde rit. Ce soir-là, ils mangent tous les plats jusqu’au dernier.",
-        "am": "ሁሉም ሳቁ። በዚያ ምሽት ምግቡን በሙሉ ጨረሱ።"
-      },
-      "start": 78.728,
-      "end": 83.744,
-      "tokens": [
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "(used for emphasis) even; all; both; entirely; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "菜",
-          "cài",
-          "dish (of food); vegetable; greens",
-          ""
-        ],
-        [
-          "全",
-          "quán",
-          "every; all; whole",
-          ""
-        ],
-        [
-          "吃完",
-          "chī wán",
-          "to finish eating",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "最后，杰克说：“其实甜的西红柿鸡蛋也不错，下次我还要吃！”",
-      "py": "zuì hòu, Jié kè shuō: “qí shí tián de xī hóng shì jī dàn yě bú cuò, xià cì wǒ hái yào chī!”",
-      "en": "At the end, Jack says, \"Actually, sweet tomato and egg isn't bad. I want it again next time!\"",
-      "tr": {
-        "vi": "Cuối cùng, Jack nói: “Thật ra trứng xào cà chua ngọt cũng không tệ, lần sau mình còn muốn ăn nữa!”",
-        "pt": "No final, Jack diz: “Na verdade, ovo com tomate doce não é ruim. Da próxima vez quero de novo!”",
-        "es": "Al final, Jack dice: «La verdad, el huevo con tomate dulce no está nada mal. ¡La próxima vez quiero repetir!».",
-        "fr": "À la fin, Jack dit : « En fait, les œufs à la tomate sucrés, ce n’est pas mal. J’en veux encore la prochaine fois ! »",
-        "am": "በመጨረሻ ጃክ «እውነቱን ለመናገር ጣፋጩ የቲማቲም እንቁላልም መጥፎ አይደለም፤ በሚቀጥለው ጊዜም እበላለሁ!» አለ።"
-      },
-      "start": 84.444,
-      "end": 91.548,
-      "tokens": [
-        [
-          "最后",
-          "zuì hòu",
-          "finally; in the end; final; last; ultimate",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "其实",
-          "qí shí",
-          "actually; in fact; really",
-          ""
-        ],
-        [
-          "甜",
-          "tián",
-          "sweet; (fig.) pleasant; endearing; lovely",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used at the end of a declarative sentence for emphasis)",
-          ""
-        ],
-        [
-          "西红柿",
-          "xī hóng shì",
-          "tomato",
-          ""
-        ],
-        [
-          "鸡蛋",
-          "jī dàn",
-          "(chicken) egg; hen's egg",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不错",
-          "bù cuò",
-          "not bad; correct; right",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "下次",
-          "xià cì",
-          "next time",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 270,
-  "first": "李强特别喜欢运动，可是他不会做饭。",
-  "newWords": [
-    {
-      "w": "西红柿",
-      "py": "xīhóngshì",
-      "en": "tomato"
-    },
-    {
-      "w": "盐",
-      "py": "yán",
-      "en": "salt"
-    },
-    {
-      "w": "糖",
-      "py": "táng",
-      "en": "sugar"
-    },
-    {
-      "w": "猜",
-      "py": "cāi",
-      "en": "to guess"
-    },
-    {
-      "w": "盒子",
-      "py": "hézi",
-      "en": "box"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-04.mp3?v=1791720573"
+  {
+   "text": "这个周末，他请杰克和安娜来家里吃饭。",
+   "py": "zhè ge zhōu mò, tā qǐng Jié kè hé Ān nà lái jiā lǐ chī fàn.",
+   "en": "This weekend, he invites Jack and Anna to his home for dinner.",
+   "tr": {
+    "vi": "Cuối tuần này, anh mời Jack và Anna đến nhà ăn cơm.",
+    "pt": "Neste fim de semana, ele convida Jack e a Anna para jantar na casa dele.",
+    "es": "Este fin de semana, invita a Jack y a Anna a cenar a su casa.",
+    "fr": "Ce week-end, il invite Jack et Anna à dîner chez lui.",
+    "am": "በዚህ ቅዳሜና እሑድ ጃክን እና አናን ቤቱ ምግብ ጋበዘ።",
+    "fa": "این آخر هفته، جک و آنا رو دعوت کرده که برن خونه‌ش شام بخورن."
+   },
+   "start": 7.376,
+   "end": 11.912,
+   "tokens": [
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "周末",
+     "zhōu mò",
+     "weekend",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "请",
+     "qǐng",
+     "to invite; to ask; please (do sth)",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "家里",
+     "jiā lǐ",
+     "home",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他先给小周打电话：“西红柿鸡蛋怎么做？”",
+   "py": "tā xiān gěi Xiǎo Zhōu dǎ diàn huà: “xī hóng shì jī dàn zěn me zuò?”",
+   "en": "First he phones Xiao Zhou. \"How do you make tomato and egg?\"",
+   "tr": {
+    "vi": "Trước tiên anh gọi điện cho Tiểu Chu: “Trứng xào cà chua làm thế nào?”",
+    "pt": "Primeiro, ele liga para o Xiao Zhou: “Como se faz ovo com tomate?”",
+    "es": "Primero llama a Xiao Zhou: «¿Cómo se hace el huevo con tomate?».",
+    "fr": "D’abord, il appelle Xiao Zhou : « Comment on fait les œufs à la tomate ? »",
+    "am": "መጀመሪያ ለሺያው ጆው ደወለ። «የቲማቲም እንቁላል ፍርፍር እንዴት ይሠራል?»",
+    "fa": "اول به شیائو جو زنگ می‌زنه: «گوجه‌با تخم‌مرغ رو چطوری می‌پزن؟»"
+   },
+   "start": 12.612,
+   "end": 17.34,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "to make a circuit; Zhou Dynasty (1046–256 BC); to circle",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "西红柿",
+     "xī hóng shì",
+     "tomato",
+     ""
+    ],
+    [
+     "鸡蛋",
+     "jī dàn",
+     "(chicken) egg; hen's egg",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小周在饭馆里很忙，很快地说：“先放鸡蛋，再放西红柿，最后放一点儿盐。”",
+   "py": "Xiǎo Zhōu zài fàn guǎn lǐ hěn máng, hěn kuài de shuō: “xiān fàng jī dàn, zài fàng xī hóng shì, zuì hòu fàng yì diǎn r yán.”",
+   "en": "Xiao Zhou is busy at the restaurant and says quickly, \"Eggs first, then tomatoes, and a little salt at the end.\"",
+   "tr": {
+    "vi": "Tiểu Chu đang bận ở nhà hàng, nói thật nhanh: “Cho trứng trước, rồi cho cà chua, cuối cùng cho một chút muối.”",
+    "pt": "O Xiao Zhou está ocupado no restaurante e responde rápido: “Primeiro os ovos, depois os tomates, e no fim um pouco de sal.”",
+    "es": "Xiao Zhou está muy ocupado en el restaurante y dice rápido: «Primero el huevo, luego el tomate y al final un poco de sal».",
+    "fr": "Xiao Zhou est très occupé au restaurant et répond vite : « D’abord les œufs, ensuite les tomates, et à la fin un peu de sel. »",
+    "am": "ሺያው ጆው ምግብ ቤቱ ውስጥ ሥራ በዝቶበት ነበር፤ በፍጥነት «መጀመሪያ እንቁላል፣ ከዚያ ቲማቲም፣ በመጨረሻ ትንሽ ጨው» አለ።",
+    "fa": "شیائو جو سرش تو رستوران شلوغه و سریع می‌گه: «اول تخم‌مرغ، بعد گوجه، آخرش هم یه کم نمک.»"
+   },
+   "start": 18.04,
+   "end": 26.08,
+   "tokens": [
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "饭馆",
+     "fàn guǎn",
+     "restaurant",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "忙",
+     "máng",
+     "busy; hurriedly; to hurry",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "quick; rapid; speed",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "鸡蛋",
+     "jī dàn",
+     "(chicken) egg; hen's egg",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "再",
+     "zài",
+     "then (after sth, and not until then)",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "西红柿",
+     "xī hóng shì",
+     "tomato",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "最后",
+     "zuì hòu",
+     "finally; in the end; final; last; ultimate",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "盐",
+     "yán",
+     "salt",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "李强把这些都写在了本子上。",
+   "py": "Lǐ Qiáng bǎ zhè xiē dōu xiě zài le běn zi shàng.",
+   "en": "Li Qiang writes all this down in a notebook.",
+   "tr": {
+    "vi": "Lý Cường ghi hết những điều này vào sổ.",
+    "pt": "O Li Qiang anota tudo num caderno.",
+    "es": "Li Qiang lo apunta todo en una libreta.",
+    "fr": "Li Qiang note tout ça dans un carnet.",
+    "am": "ሊ ቺያንግ ይሄን ሁሉ ደብተሩ ላይ ጻፈ።",
+    "fa": "لی چیانگ همه‌ی اینا رو تو یه دفترچه یادداشت می‌کنه."
+   },
+   "start": 26.78,
+   "end": 29.9,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "这些",
+     "zhè xiē",
+     "these",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "本子",
+     "běn zi",
+     "notebook; book",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "晚上七点，杰克和安娜来了，桌子上已经有三个菜了。",
+   "py": "wǎn shang qī diǎn, Jié kè hé Ān nà lái le, zhuō zi shàng yǐ jīng yǒu sān gè cài le.",
+   "en": "At seven in the evening, Jack and Anna arrive. There are already three dishes on the table.",
+   "tr": {
+    "vi": "Bảy giờ tối, Jack và Anna đến, trên bàn đã có ba món.",
+    "pt": "Às sete da noite, Jack e a Anna chegam. Já há três pratos na mesa.",
+    "es": "A las siete de la tarde llegan Jack y Anna. En la mesa ya hay tres platos.",
+    "fr": "À sept heures du soir, Jack et Anna arrivent. Il y a déjà trois plats sur la table.",
+    "am": "ምሽት 7:00 ላይ ጃክ እና አና መጡ፤ ጠረጴዛው ላይ ሦስት ምግቦች ቀርበው ነበር።",
+    "fa": "ساعت هفت عصر، جک و آنا می‌رسن. سه تا غذا از قبل رو میزه."
+   },
+   "start": 30.6,
+   "end": 36.312,
+   "tokens": [
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "桌子",
+     "zhuō zi",
+     "table; desk",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "菜",
+     "cài",
+     "dish (of food); vegetable; greens",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜吃了一口西红柿鸡蛋，没有说话，马上喝了一大杯水。",
+   "py": "Ān nà chī le yì kǒu xī hóng shì jī dàn, méi yǒu shuō huà, mǎ shàng hē le yí dà bēi shuǐ.",
+   "en": "Anna takes a bite of the tomato and egg, says nothing, and drinks a big glass of water at once.",
+   "tr": {
+    "vi": "Anna ăn một miếng trứng xào cà chua, không nói gì, lập tức uống hết một cốc nước to.",
+    "pt": "A Anna come um pedaço do ovo com tomate, não diz nada e logo bebe um copo grande de água.",
+    "es": "Anna prueba un bocado del huevo con tomate, no dice nada y enseguida se toma un vaso grande de agua.",
+    "fr": "Anna goûte les œufs à la tomate, ne dit rien et boit tout de suite un grand verre d’eau.",
+    "am": "አና የቲማቲም እንቁላሉን ቀመሰች፤ ምንም ሳትል ወዲያው አንድ ትልቅ ብርጭቆ ውሃ ጠጣች።",
+    "fa": "آنا یه لقمه از گوجه‌با تخم‌مرغ می‌خوره، هیچی نمی‌گه و فوری یه لیوان بزرگ آب سر می‌کشه."
+   },
+   "start": 37.012,
+   "end": 42.7,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一口",
+     "yī kǒu",
+     "a bite; readily; flatly (deny, admit and so on)",
+     ""
+    ],
+    [
+     "西红柿",
+     "xī hóng shì",
+     "tomato",
+     ""
+    ],
+    [
+     "鸡蛋",
+     "jī dàn",
+     "(chicken) egg; hen's egg",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "说话",
+     "shuō huà",
+     "to speak; to say; to talk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "at once; right away; immediately",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "杯",
+     "bēi",
+     "classifier for certain containers of liquids: glass, cup",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克也吃了一口：“李强，这个菜……怎么是甜的？”",
+   "py": "Jié kè yě chī le yì kǒu: “Lǐ Qiáng, zhè ge cài…… zěn me shì tián de?”",
+   "en": "Jack takes a bite too. \"Li Qiang, this dish... why is it sweet?\"",
+   "tr": {
+    "vi": "Jack cũng ăn một miếng: “Lý Cường, món này… sao lại ngọt thế?”",
+    "pt": "Jack também prova: “Li Qiang, este prato… por que está doce?”",
+    "es": "Jack también prueba un bocado: «Li Qiang, este plato… ¿por qué está dulce?».",
+    "fr": "Jack goûte aussi : « Li Qiang, ce plat… pourquoi il est sucré ? »",
+    "am": "ጃክም ቀመሰ። «ሊ ቺያንግ፣ ይሄ ምግብ… ለምን ጣፋጭ ሆነ?»",
+    "fa": "جکم یه لقمه می‌خوره: «لی چیانگ، این غذا... چرا شیرینه؟»"
+   },
+   "start": 43.4,
+   "end": 49.112,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一口",
+     "yī kǒu",
+     "a bite; readily; flatly (deny, admit and so on)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "菜",
+     "cài",
+     "dish (of food); vegetable; greens",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "why?; how?; what?",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "甜",
+     "tián",
+     "sweet; (fig.) pleasant; endearing; lovely",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "李强自己吃了一口，才发现他把糖当成盐了。",
+   "py": "Lǐ Qiáng zì jǐ chī le yì kǒu, cái fā xiàn tā bǎ táng dàng chéng yán le.",
+   "en": "Li Qiang tastes it himself and only then realises he used sugar instead of salt.",
+   "tr": {
+    "vi": "Lý Cường tự mình nếm một miếng, lúc này mới phát hiện mình đã nhầm đường thành muối.",
+    "pt": "O Li Qiang prova ele mesmo e só então percebe que usou açúcar no lugar do sal.",
+    "es": "Li Qiang lo prueba él mismo y solo entonces se da cuenta de que usó azúcar en lugar de sal.",
+    "fr": "Li Qiang goûte à son tour et découvre seulement maintenant qu’il a pris le sucre pour du sel.",
+    "am": "ሊ ቺያንግ ራሱ ቀምሶ ነው ስኳርን ጨው መስሎት እንደጨመረ ያወቀው።",
+    "fa": "لی چیانگ خودشم می‌چشه و تازه می‌فهمه به جای نمک، شکر ریخته."
+   },
+   "start": 49.812,
+   "end": 54.828,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一口",
+     "yī kǒu",
+     "readily; flatly (deny, admit and so on); a mouthful",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "才",
+     "cái",
+     "then and only then; (before an expression of quantity) only",
+     ""
+    ],
+    [
+     "发现",
+     "fā xiàn",
+     "to notice; to become aware of",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "糖",
+     "táng",
+     "sugar; sweets; candy",
+     ""
+    ],
+    [
+     "当成",
+     "dàng chéng",
+     "to consider as; to take to be",
+     ""
+    ],
+    [
+     "盐",
+     "yán",
+     "salt",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他很不好意思：“对不起，两个都是白的，我没看清楚。”",
+   "py": "tā hěn bù hǎo yì sī: “duì bu qǐ, liǎng gè dōu shì bái de, wǒ méi kàn qīng chu.”",
+   "en": "He's very embarrassed. \"Sorry, they're both white. I didn't look carefully.\"",
+   "tr": {
+    "vi": "Anh rất ngại: “Xin lỗi, cả hai đều màu trắng, mình không nhìn kỹ.”",
+    "pt": "Ele fica muito sem graça: “Desculpem, os dois são brancos, eu não olhei direito.”",
+    "es": "Le da mucha vergüenza: «Perdón, los dos son blancos y no me fijé bien».",
+    "fr": "Il est très gêné : « Désolé, les deux sont blancs, je n’ai pas bien regardé. »",
+    "am": "በጣም አፈረ። «ይቅርታ፣ ሁለቱም ነጭ ናቸው፤ በደንብ አላየሁም።»",
+    "fa": "حسابی خجالت می‌کشه: «ببخشید؛ هر دومو سفیدن، خوب نگاه نکرده بودم.»"
+   },
+   "start": 55.528,
+   "end": 62.632,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to feel embarrassed; to be sorry (for inconveniencing sb)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "对不起",
+     "duì bu qǐ",
+     "I'm sorry; excuse me; I beg your pardon",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "两",
+     "liǎng",
+     "both; two; some",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "(respectful acknowledgement of a command) very well",
+     ""
+    ],
+    [
+     "白",
+     "bái",
+     "white; (bound form) to give a disdainful look (e.g. 白了他一眼)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "看清",
+     "kàn qīng",
+     "to see clearly",
+     ""
+    ],
+    [
+     "楚",
+     "chǔ",
+     "distinct; clear; orderly",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "这时候，有人在门外叫：“李强，开门！”",
+   "py": "zhè shí hou, yǒu rén zài mén wài jiào: “Lǐ Qiáng, kāi mén!”",
+   "en": "Just then, someone calls from outside the door, \"Li Qiang, open up!\"",
+   "tr": {
+    "vi": "Đúng lúc đó, có người gọi ngoài cửa: “Lý Cường, mở cửa!”",
+    "pt": "Nessa hora, alguém chama do lado de fora da porta: “Li Qiang, abra a porta!”",
+    "es": "En ese momento, alguien grita desde afuera: «¡Li Qiang, abre la puerta!».",
+    "fr": "À ce moment-là, quelqu’un appelle devant la porte : « Li Qiang, ouvre ! »",
+    "am": "በዚያን ጊዜ አንድ ሰው ከበር ውጭ «ሊ ቺያንግ፣ ክፈት!» ብሎ ጠራ።",
+    "fa": "همین موقع یکی از پشت در صدا می‌زنه: «لی چیانگ، باز کن!»"
+   },
+   "start": 63.332,
+   "end": 67.604,
+   "tokens": [
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "候",
+     "hòu",
+     "to wait; to inquire after; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; there is someone there; people",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "门外",
+     "mén wài",
+     "outside the door",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to call; to shout; to order",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "开门",
+     "kāi mén",
+     "(lit. and fig.) to open a door; to open for business",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "是小周，他手里拿着两个大盒子。",
+   "py": "shì Xiǎo Zhōu, tā shǒu lǐ ná zhe liǎng gè dà hé zi.",
+   "en": "It's Xiao Zhou, holding two big boxes.",
+   "tr": {
+    "vi": "Là Tiểu Chu, trên tay cầm hai chiếc hộp lớn.",
+    "pt": "É o Xiao Zhou, com duas caixas grandes nas mãos.",
+    "es": "Es Xiao Zhou, con dos cajas grandes en las manos.",
+    "fr": "C’est Xiao Zhou, avec deux grandes boîtes dans les mains.",
+    "am": "ሺያው ጆው ነበር፤ ሁለት ትልልቅ ሣጥኖች ይዟል።",
+    "fa": "شیائو جوئه، با دو تا جعبه‌ی بزرگ تو دستش."
+   },
+   "start": 68.304,
+   "end": 72.576,
+   "tokens": [
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "手里",
+     "shǒu lǐ",
+     "in hand; (a situation is) in sb's hands",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "盒子",
+     "hé zi",
+     "box; case",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“我猜你需要帮忙，就从饭馆带了几个菜过来。”",
+   "py": "“wǒ cāi nǐ xū yào bāng máng, jiù cóng fàn guǎn dài le jǐ gè cài guò lái.”",
+   "en": "\"I guessed you'd need some help, so I brought a few dishes over from the restaurant.\"",
+   "tr": {
+    "vi": "“Mình đoán bạn cần giúp, nên mang mấy món từ nhà hàng qua đây.”",
+    "pt": "“Imaginei que você ia precisar de ajuda, então trouxe uns pratos do restaurante.”",
+    "es": "«Me imaginé que ibas a necesitar ayuda, así que traje unos platos del restaurante».",
+    "fr": "« Je me suis dit que tu aurais besoin d’aide, alors j’ai apporté quelques plats du restaurant. »",
+    "am": "«እርዳታ ያስፈልግሃል ብዬ ገምቼ ከምግብ ቤቱ ጥቂት ምግቦች ይዤ መጣሁ።»",
+    "fa": "«حدس زدم به کمک احتیاج داری، پس چند تا غذا از رستوران آوردم.»"
+   },
+   "start": 73.276,
+   "end": 78.028,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "猜",
+     "cāi",
+     "to guess",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "需要",
+     "xū yào",
+     "to need; to want; to demand; to require; needs",
+     ""
+    ],
+    [
+     "帮忙",
+     "bāng máng",
+     "to help; to lend a hand; to do a favor",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "饭馆",
+     "fàn guǎn",
+     "restaurant",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "band; belt; girdle",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "几个",
+     "jǐ ge",
+     "a few; several; how many",
+     ""
+    ],
+    [
+     "菜",
+     "cài",
+     "dish (of food); vegetable; greens",
+     ""
+    ],
+    [
+     "过来",
+     "guò lái",
+     "to come over; to manage; to handle",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "大家都笑了。那天晚上，他们把菜全吃完了。",
+   "py": "dà jiā dōu xiào le. nà tiān wǎn shang, tā men bǎ cài quán chī wán le.",
+   "en": "Everyone laughs. That evening, they eat every last dish.",
+   "tr": {
+    "vi": "Mọi người đều cười. Tối hôm đó, họ ăn sạch hết các món.",
+    "pt": "Todos riem. Naquela noite, eles comem tudo, até o último prato.",
+    "es": "Todos se ríen. Esa noche se comen todos los platos.",
+    "fr": "Tout le monde rit. Ce soir-là, ils mangent tous les plats jusqu’au dernier.",
+    "am": "ሁሉም ሳቁ። በዚያ ምሽት ምግቡን በሙሉ ጨረሱ።",
+    "fa": "همه می‌خندن. اون شب حتی آخرین تکه‌ی غذاها رو هم می‌خورن."
+   },
+   "start": 78.728,
+   "end": 83.744,
+   "tokens": [
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "(used for emphasis) even; all; both; entirely; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "菜",
+     "cài",
+     "dish (of food); vegetable; greens",
+     ""
+    ],
+    [
+     "全",
+     "quán",
+     "every; all; whole",
+     ""
+    ],
+    [
+     "吃完",
+     "chī wán",
+     "to finish eating",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "最后，杰克说：“其实甜的西红柿鸡蛋也不错，下次我还要吃！”",
+   "py": "zuì hòu, Jié kè shuō: “qí shí tián de xī hóng shì jī dàn yě bú cuò, xià cì wǒ hái yào chī!”",
+   "en": "At the end, Jack says, \"Actually, sweet tomato and egg isn't bad. I want it again next time!\"",
+   "tr": {
+    "vi": "Cuối cùng, Jack nói: “Thật ra trứng xào cà chua ngọt cũng không tệ, lần sau mình còn muốn ăn nữa!”",
+    "pt": "No final, Jack diz: “Na verdade, ovo com tomate doce não é ruim. Da próxima vez quero de novo!”",
+    "es": "Al final, Jack dice: «La verdad, el huevo con tomate dulce no está nada mal. ¡La próxima vez quiero repetir!».",
+    "fr": "À la fin, Jack dit : « En fait, les œufs à la tomate sucrés, ce n’est pas mal. J’en veux encore la prochaine fois ! »",
+    "am": "በመጨረሻ ጃክ «እውነቱን ለመናገር ጣፋጩ የቲማቲም እንቁላልም መጥፎ አይደለም፤ በሚቀጥለው ጊዜም እበላለሁ!» አለ።",
+    "fa": "آخرش جک می‌گه: «راستش گوجه‌با تخم‌مرغِ شیرین بد نیست. دفعه‌ی بعد دوباره می‌خوامش!»"
+   },
+   "start": 84.444,
+   "end": 91.548,
+   "tokens": [
+    [
+     "最后",
+     "zuì hòu",
+     "finally; in the end; final; last; ultimate",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "其实",
+     "qí shí",
+     "actually; in fact; really",
+     ""
+    ],
+    [
+     "甜",
+     "tián",
+     "sweet; (fig.) pleasant; endearing; lovely",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used at the end of a declarative sentence for emphasis)",
+     ""
+    ],
+    [
+     "西红柿",
+     "xī hóng shì",
+     "tomato",
+     ""
+    ],
+    [
+     "鸡蛋",
+     "jī dàn",
+     "(chicken) egg; hen's egg",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不错",
+     "bù cuò",
+     "not bad; correct; right",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "下次",
+     "xià cì",
+     "next time",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 270,
+ "first": "李强特别喜欢运动，可是他不会做饭。",
+ "newWords": [
+  {
+   "w": "西红柿",
+   "py": "xīhóngshì",
+   "en": "tomato"
+  },
+  {
+   "w": "盐",
+   "py": "yán",
+   "en": "salt"
+  },
+  {
+   "w": "糖",
+   "py": "táng",
+   "en": "sugar"
+  },
+  {
+   "w": "猜",
+   "py": "cāi",
+   "en": "to guess"
+  },
+  {
+   "w": "盒子",
+   "py": "hézi",
+   "en": "box"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-04.mp3?v=1791720573"
 }

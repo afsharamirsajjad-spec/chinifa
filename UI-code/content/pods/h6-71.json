@@ -1,3308 +1,3329 @@
 {
-  "id": "h6-71",
-  "level": 6,
-  "no": 71,
-  "title": "早上一点",
-  "title_py": "zǎo shang yì diǎn",
-  "title_en": "One in the morning",
-  "title_tr": {
-    "am": "ጠዋት 1:00",
-    "fa": "ساعت یک بامداد"
+ "id": "h6-71",
+ "level": 6,
+ "no": 71,
+ "title": "早上一点",
+ "title_py": "zǎo shang yì diǎn",
+ "title_en": "One in the morning",
+ "title_tr": {
+  "am": "ጠዋት 1:00",
+  "fa": "ساعت یک بامداد"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_trip",
+ "cover": "https://media.kanchinese.app/review/stories/h6-71.jpg",
+ "duration": 201.4,
+ "lines": [
+  {
+   "text": "小雨第一次去埃塞俄比亚出差，要去亚的斯亚贝巴郊区的一家合作工厂谈一批新订单。",
+   "py": "Xiǎo yǔ dì yī cì qù āi sāi é bǐ yà chū chāi, yào qù yà de sī yà bèi bā jiāo qū de yì jiā hé zuò gōng chǎng tán yì pī xīn dìng dān.",
+   "en": "It's Xiaoyu's first business trip to Ethiopia: she's going to a partner factory on the outskirts of Addis Ababa to discuss a new order.",
+   "tr": {
+    "am": "ሺያውዩ ለመጀመሪያ ጊዜ ለሥራ ወደ ኢትዮጵያ ሄደች፣ በአዲስ አበባ ዳርቻ ካለ አንድ አጋር ፋብሪካ ጋር ስለ አዲስ ትዕዛዝ ለመነጋገር።",
+    "fa": "شیائویو اولین سفر کاری‌ش به اتیوپیه‌ست؛ باید توی حاشیه‌ی آدیس‌آبابا با یه کارخانه‌ی همکار درباره یه سفارش جدید حرف بزنه."
+   },
+   "start": 2.62,
+   "end": 11.14,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "第一次",
+     "dì yī cì",
+     "the first time; for the first time",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to play (a part)",
+     ""
+    ],
+    [
+     "埃塞俄比亚",
+     "āi sài é bǐ yà",
+     "Ethiopia",
+     ""
+    ],
+    [
+     "出差",
+     "chū chāi",
+     "to go on an official or business trip",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to play (a part)",
+     ""
+    ],
+    [
+     "亚的斯亚贝巴",
+     "yà dì sī yà bèi bā",
+     "Addis Ababa, capital of Ethiopia",
+     ""
+    ],
+    [
+     "郊区",
+     "jiāo qū",
+     "suburban district; outskirts; suburbs",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "一家",
+     "yī jiā",
+     "the whole family; the same family",
+     ""
+    ],
+    [
+     "合作",
+     "hé zuò",
+     "to cooperate; to collaborate; to work together",
+     ""
+    ],
+    [
+     "工厂",
+     "gōng chǎng",
+     "factory",
+     ""
+    ],
+    [
+     "谈",
+     "tán",
+     "to discuss; to speak; to talk",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "批",
+     "pī",
+     "classifier for batches, lots, military flights; to ascertain",
+     ""
+    ],
+    [
+     "新",
+     "xīn",
+     "new; newly; meso- (chemistry)",
+     ""
+    ],
+    [
+     "订单",
+     "dìng dān",
+     "(purchase) order",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_trip",
-  "cover": "https://media.kanchinese.app/review/stories/h6-71.jpg",
-  "duration": 201.4,
-  "lines": [
-    {
-      "text": "小雨第一次去埃塞俄比亚出差，要去亚的斯亚贝巴郊区的一家合作工厂谈一批新订单。",
-      "py": "Xiǎo yǔ dì yī cì qù āi sāi é bǐ yà chū chāi, yào qù yà de sī yà bèi bā jiāo qū de yì jiā hé zuò gōng chǎng tán yì pī xīn dìng dān.",
-      "en": "It's Xiaoyu's first business trip to Ethiopia: she's going to a partner factory on the outskirts of Addis Ababa to discuss a new order.",
-      "tr": {
-        "am": "ሺያውዩ ለመጀመሪያ ጊዜ ለሥራ ወደ ኢትዮጵያ ሄደች፣ በአዲስ አበባ ዳርቻ ካለ አንድ አጋር ፋብሪካ ጋር ስለ አዲስ ትዕዛዝ ለመነጋገር።"
-      },
-      "start": 2.62,
-      "end": 11.14,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "第一次",
-          "dì yī cì",
-          "the first time; for the first time",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to play (a part)",
-          ""
-        ],
-        [
-          "埃塞俄比亚",
-          "āi sài é bǐ yà",
-          "Ethiopia",
-          ""
-        ],
-        [
-          "出差",
-          "chū chāi",
-          "to go on an official or business trip",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to play (a part)",
-          ""
-        ],
-        [
-          "亚的斯亚贝巴",
-          "yà dì sī yà bèi bā",
-          "Addis Ababa, capital of Ethiopia",
-          ""
-        ],
-        [
-          "郊区",
-          "jiāo qū",
-          "suburban district; outskirts; suburbs",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "一家",
-          "yī jiā",
-          "the whole family; the same family",
-          ""
-        ],
-        [
-          "合作",
-          "hé zuò",
-          "to cooperate; to collaborate; to work together",
-          ""
-        ],
-        [
-          "工厂",
-          "gōng chǎng",
-          "factory",
-          ""
-        ],
-        [
-          "谈",
-          "tán",
-          "to discuss; to speak; to talk",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "批",
-          "pī",
-          "classifier for batches, lots, military flights; to ascertain",
-          ""
-        ],
-        [
-          "新",
-          "xīn",
-          "new; newly; meso- (chemistry)",
-          ""
-        ],
-        [
-          "订单",
-          "dìng dān",
-          "(purchase) order",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她晚上十点才到酒店，刚放下行李，工厂的司机就打来电话，用英语说：“明天早上一点，我在酒店门口接您。”",
-      "py": "tā wǎn shang shí diǎn cái dào jiǔ diàn, gāng fàng xià xíng lǐ, gōng chǎng de sī jī jiù dǎ lái diàn huà, yòng yīng yǔ shuō: “míng tiān zǎo shang yì diǎn, wǒ zài jiǔ diàn mén kǒu jiē nín.”",
-      "en": "She doesn't reach the hotel until ten at night, and she's barely put her bags down when the factory's driver phones and says in English, \"Tomorrow morning at one o'clock, I'll pick you up outside the hotel.\"",
-      "tr": {
-        "am": "ምሽት 10:00 ላይ ነው ሆቴል የደረሰችው፣ ሻንጣዋን ገና እንዳስቀመጠች የፋብሪካው ሹፌር ደውሎ በእንግሊዝኛ አለ፦ «ነገ ጠዋት 1:00 ላይ ከሆቴሉ በር እቀበልዎታለሁ።»"
-      },
-      "start": 11.84,
-      "end": 22.976,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to nod (one's head) in agreement; to beckon by moving (one's hand) up and down",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "ability; talent; sb of a certain type; a capable individual",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive",
-          ""
-        ],
-        [
-          "酒店",
-          "jiǔ diàn",
-          "hotel; wine shop; pub (public house)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刚",
-          "gāng",
-          "barely; only just; (literary) hard; firm; strong",
-          ""
-        ],
-        [
-          "放下",
-          "fàng xià",
-          "to lay down; to put down",
-          ""
-        ],
-        [
-          "行李",
-          "xíng li",
-          "luggage",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "工厂",
-          "gōng chǎng",
-          "factory",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "司机",
-          "sī jī",
-          "chauffeur; driver",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(bound form) to reach; to attain (as in 一蹴而就)",
-          ""
-        ],
-        [
-          "打",
-          "dǎ",
-          "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
-          ""
-        ],
-        [
-          "来电",
-          "lái diàn",
-          "to phone in; to send in a telegram",
-          ""
-        ],
-        [
-          "话",
-          "huà",
-          "dialect; language; spoken words",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "英语",
-          "yīng yǔ",
-          "English (language)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "明天",
-          "míng tiān",
-          "tomorrow",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "一点",
-          "yī diǎn",
-          "one o'clock (abbr. for 一点钟); a bit; a little bit",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "酒店",
-          "jiǔ diàn",
-          "hotel; wine shop; pub (public house)",
-          ""
-        ],
-        [
-          "门口",
-          "mén kǒu",
-          "doorway; gate",
-          ""
-        ],
-        [
-          "接",
-          "jiē",
-          "to answer (the phone); to receive; to meet or welcome sb",
-          ""
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨愣了一下，又问了一遍，对方还是说：“对，一点。”",
-      "py": "Xiǎo yǔ lèng le yí xià, yòu wèn le yí biàn, duì fāng hái shi shuō: “duì, yì diǎn.”",
-      "en": "Xiaoyu is taken aback and asks again, but he still says, \"Yes, one o'clock.\"",
-      "tr": {
-        "am": "ሺያውዩ ትንሽ ደነገጠች፣ እንደገና ጠየቀች፣ እሱ ግን አሁንም «አዎ፣ 1:00» አለ።"
-      },
-      "start": 23.676,
-      "end": 30.3,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "愣",
-          "lèng",
-          "to look distracted; to stare blankly; distracted",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一下",
-          "yī xià",
-          "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一遍",
-          "yī biàn",
-          "one time (all the way through); once through",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "对方",
-          "duì fāng",
-          "the other person; the other side; the other party",
-          ""
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "对",
-          "duì",
-          "right; correct; towards; at; for; concerning; regarding",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一点",
-          "yī diǎn",
-          "one o'clock (abbr. for 一点钟); a bit; a little bit",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "她心想，大概是工厂离得远，得赶在天亮以前出发，就定了一个十二点半的闹钟。",
-      "py": "tā xīn xiǎng, dà gài shì gōng chǎng lí de yuǎn, de gǎn zài tiān liàng yǐ qián chū fā, jiù dìng le yí gè shí èr diǎn bàn de nào zhōng.",
-      "en": "She supposes the factory must be a long way off and they need to set out before dawn, so she sets an alarm for half past twelve.",
-      "tr": {
-        "am": "ፋብሪካው ሩቅ ስለሆነ ሳይነጋ መነሣት አለብን ማለቱ ይሆናል ብላ አሰበች፣ ለ12:30 የማንቂያ ደወል ሞላች።"
-      },
-      "start": 31,
-      "end": 39.784,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "心想",
-          "xīn xiǎng",
-          "to think to oneself; to think",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大概",
-          "dà gài",
-          "roughly; probably; rough",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "工厂",
-          "gōng chǎng",
-          "factory",
-          ""
-        ],
-        [
-          "离",
-          "lí",
-          "to leave; to part from; to be away from",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "远",
-          "yuǎn",
-          "far; distant; remote",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "赶",
-          "gǎn",
-          "to overtake; to catch up with; to hurry; to rush",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "(used before a verb to indicate an action in progress)",
-          ""
-        ],
-        [
-          "天亮",
-          "tiān liàng",
-          "to grow light (at daybreak)",
-          ""
-        ],
-        [
-          "以前",
-          "yǐ qián",
-          "before; formerly; previous",
-          ""
-        ],
-        [
-          "出发",
-          "chū fā",
-          "to set off; to start (on a journey)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(pattern: 不 ... 就 ...) if not ... then must be ...",
-          ""
-        ],
-        [
-          "定",
-          "dìng",
-          "to fix; to set; to make definite",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to mark with a dot; to check off (on a list)",
-          ""
-        ],
-        [
-          "半",
-          "bàn",
-          "half; (after a number) and a half; semi-",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "闹钟",
-          "nào zhōng",
-          "alarm clock",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "凌晨一点，她穿戴整齐，抱着电脑包坐在空荡荡的大堂里，前台的小伙子趴在桌子上打瞌睡。",
-      "py": "líng chén yì diǎn, tā chuān dài zhěng qí, bào zhe diàn nǎo bāo zuò zài kōng dàng dàng de dà táng lǐ, qián tái de xiǎo huǒ zi pā zài zhuō zi shàng dǎ kē shuì.",
-      "en": "At one in the morning, fully dressed, she sits in the empty lobby hugging her laptop bag, while the young man on reception dozes with his head on the desk.",
-      "tr": {
-        "am": "ሌሊት 1:00 ላይ ልብሷን በሥርዓት ለብሳ የላፕቶፕ ቦርሳዋን ታቅፋ ባዶው የሆቴል አዳራሽ ውስጥ ተቀመጠች፣ የእንግዳ መቀበያው ወጣት ጠረጴዛው ላይ ተደፍቶ ያንቀላፋ ነበር።"
-      },
-      "start": 40.484,
-      "end": 50.684,
-      "tokens": [
-        [
-          "凌晨",
-          "líng chén",
-          "very early in the morning; in the wee hours",
-          ""
-        ],
-        [
-          "一点",
-          "yī diǎn",
-          "a bit; a little bit",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "穿戴",
-          "chuān dài",
-          "to dress; to be dressed; clothing; apparel",
-          ""
-        ],
-        [
-          "整齐",
-          "zhěng qí",
-          "orderly; neat; even",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "抱",
-          "bào",
-          "to hold; to carry (in one's arms); to hug",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "电脑",
-          "diàn nǎo",
-          "computer",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "bag; to cover; to wrap",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "空荡荡",
-          "kōng dàng dàng",
-          "empty; deserted",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "大堂",
-          "dà táng",
-          "lobby",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "前台",
-          "qián tái",
-          "front desk; reception desk; stage",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "小伙子",
-          "xiǎo huǒ zi",
-          "(coll.) young man; young fellow; lad",
-          ""
-        ],
-        [
-          "趴",
-          "pā",
-          "to lean forward, resting one's upper body (on a desktop etc)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "桌子",
-          "zhuō zi",
-          "desk; table",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "打瞌睡",
-          "dǎ kē shuì",
-          "to doze off",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一点过去了，两点也过去了，门外连一辆车的影子都没有，打司机的电话，一直没人接。",
-      "py": "yì diǎn guò qù le, liǎng diǎn yě guò qù le, mén wài lián yí liàng chē de yǐng zi dōu méi yǒu, dǎ sī jī de diàn huà, yì zhí méi rén jiē.",
-      "en": "One o'clock passes, then two, and there isn't so much as the shadow of a car outside; when she rings the driver, nobody answers.",
-      "tr": {
-        "am": "1:00 አለፈ፣ 2:00ም አለፈ፣ ከበሩ ውጭ የመኪና ጥላ እንኳ የለም፣ ለሹፌሩ ብትደውልም ማንም አያነሣም።"
-      },
-      "start": 51.384,
-      "end": 61.08,
-      "tokens": [
-        [
-          "一点",
-          "yī diǎn",
-          "one o'clock (abbr. for 一点钟); a bit; a little bit",
-          ""
-        ],
-        [
-          "过去",
-          "guò qù",
-          "to go over; to pass by; (in the) past; former; previous",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock; classifier for small amounts",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "过去",
-          "guò qù",
-          "to go over; to pass by; (in the) past; former; previous",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "门外",
-          "mén wài",
-          "outside the door",
-          ""
-        ],
-        [
-          "连",
-          "lián",
-          "to link; to join; to connect",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "辆",
-          "liàng",
-          "classifier for vehicles",
-          ""
-        ],
-        [
-          "车",
-          "chē",
-          "car; vehicle; machine",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "影子",
-          "yǐng zi",
-          "shadow; reflection; (fig.) hint",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "打",
-          "dǎ",
-          "(coll.) from; since (as in 打那以后 \"since then\")",
-          ""
-        ],
-        [
-          "司机",
-          "sī jī",
-          "chauffeur; driver",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "telephone; phone call; phone number",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "接",
-          "jiē",
-          "to answer (the phone); to receive; to meet or welcome sb",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她又困又急，不知不觉在沙发上睡着了，直到有人轻轻拍了拍她的肩膀。",
-      "py": "tā yòu kùn yòu jí, bù zhī bù jué zài shā fā shàng shuì zháo le, zhí dào yǒu rén qīng qīng pāi le pāi tā de jiān bǎng.",
-      "en": "Tired and anxious, she drifts off on the sofa without meaning to, until someone gently taps her on the shoulder.",
-      "tr": {
-        "am": "ደክሟትም ተጨንቃም ሳታውቀው ሶፋው ላይ ተኛች፣ አንድ ሰው ትከሻዋን ቀስ ብሎ እስኪነካት ድረስ።"
-      },
-      "start": 61.78,
-      "end": 70.3,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "困",
-          "kùn",
-          "tired; to trap; to surround",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "急",
-          "jí",
-          "to make (sb) anxious; urgent; pressing",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不知不觉",
-          "bù zhī bù jué",
-          "(idiom) unconsciously; unwittingly",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "沙发",
-          "shā fā",
-          "(loanword) sofa",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "睡着",
-          "shuì zháo",
-          "to fall asleep",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "直到",
-          "zhí dào",
-          "until",
-          ""
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; there is someone there; people",
-          ""
-        ],
-        [
-          "轻轻",
-          "qīng qīng",
-          "lightly; softly",
-          ""
-        ],
-        [
-          "拍",
-          "pāi",
-          "to pat; to clap; to slap",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "拍",
-          "pāi",
-          "to pat; to clap; to slap",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "肩膀",
-          "jiān bǎng",
-          "shoulder",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "外面天已经大亮了，司机笑眯眯地站在她面前：“早上好！一点整，我准时来了。”",
-      "py": "wài miàn tiān yǐ jīng dà liàng le, sī jī xiào mī mī de zhàn zài tā miàn qián: “zǎo shang hǎo! yì diǎn zhěng, wǒ zhǔn shí lái le.”",
-      "en": "Outside it's broad daylight, and the driver is standing in front of her, all smiles. \"Good morning! One o'clock on the dot. Right on time.\"",
-      "tr": {
-        "am": "ውጭው ፍጹም ነግቷል፣ ሹፌሩ በፈገግታ ፊቷ ቆሟል፦ «እንደምን አደሩ! ልክ 1:00፣ በሰዓቱ መጣሁ።»"
-      },
-      "start": 71,
-      "end": 79.52,
-      "tokens": [
-        [
-          "外面",
-          "wài miàn",
-          "outside (also pr. for this sense); surface; exterior",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "亮",
-          "liàng",
-          "bright; light; to shine; to flash; loud and clear",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "司机",
-          "sī jī",
-          "chauffeur; driver",
-          ""
-        ],
-        [
-          "笑眯眯",
-          "xiào mī mī",
-          "all smiles; beaming",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "面前",
-          "miàn qián",
-          "in front of; facing; (in the) presence (of)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "早上好",
-          "zǎo shang hǎo",
-          "Good morning!",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "一点",
-          "yī diǎn",
-          "(calligraphy) dot stroke (、); one o'clock (abbr. for 一点钟)",
-          ""
-        ],
-        [
-          "整",
-          "zhěng",
-          "(bound form) in good order; tidy; neat",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "准时",
-          "zhǔn shí",
-          "on time; punctual; on schedule",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "for the past (amount of time); to come",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨看了一眼手机：早上七点。",
-      "py": "Xiǎo yǔ kàn le yì yǎn shǒu jī: zǎo shang qī diǎn.",
-      "en": "Xiaoyu glances at her phone: seven in the morning.",
-      "tr": {
-        "am": "ሺያውዩ ስልኳን አየች፦ ጠዋት 7:00።"
-      },
-      "start": 80.22,
-      "end": 83.82,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一眼",
-          "yī yǎn",
-          "a glance; a quick look; a glimpse",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "去工厂的路上，司机听说她在大堂坐了一夜，笑得差点儿握不住方向盘。",
-      "py": "qù gōng chǎng de lù shàng, sī jī tīng shuō tā zài dà táng zuò le yí yè, xiào de chà diǎn r wò bú zhù fāng xiàng pán.",
-      "en": "On the way to the factory, when the driver hears she spent the night in the lobby, he laughs so hard he can barely hold the steering wheel.",
-      "tr": {
-        "am": "ወደ ፋብሪካው ሲሄዱ ሹፌሩ ሌሊቱን ሙሉ አዳራሹ ውስጥ እንደተቀመጠች ሲሰማ በሳቅ መሪውን መያዝ ሊያቅተው ትንሽ ቀረው።"
-      },
-      "start": 84.52,
-      "end": 91.624,
-      "tokens": [
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "工厂",
-          "gōng chǎng",
-          "factory",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "路上",
-          "lù shang",
-          "on the way; en route; on the road",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "司机",
-          "sī jī",
-          "chauffeur; driver",
-          ""
-        ],
-        [
-          "听说",
-          "tīng shuō",
-          "to hear (sth said); one hears (that); hearsay",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "大堂",
-          "dà táng",
-          "lobby",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "夜",
-          "yè",
-          "night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "差点儿",
-          "chà diǎn r",
-          "erhua variant of 差点",
-          ""
-        ],
-        [
-          "握",
-          "wò",
-          "to hold; to grasp; to clench (one's fist)",
-          ""
-        ],
-        [
-          "不住",
-          "bù zhù",
-          "(verb complement) unable to firmly or securely (grasp, recall etc)",
-          ""
-        ],
-        [
-          "方向盘",
-          "fāng xiàng pán",
-          "steering wheel",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "原来，埃塞俄比亚人平时说时间有自己的算法：一天不是从半夜开始算，而是从早上六点天亮的时候开始算。",
-      "py": "yuán lái, āi sāi é bǐ yà rén píng shí shuō shí jiān yǒu zì jǐ de suàn fǎ: yì tiān bú shì cóng bàn yè kāi shǐ suàn, ér shì cóng zǎo shang liù diǎn tiān liàng de shí hou kāi shǐ suàn.",
-      "en": "It turns out Ethiopians usually tell the time their own way: the day isn't counted from midnight, but from six in the morning, when it gets light.",
-      "tr": {
-        "am": "ለካ ኢትዮጵያውያን በተለምዶ ሰዓትን የሚቆጥሩት በራሳቸው መንገድ ነው፦ ቀኑ የሚቆጠረው ከእኩለ ሌሊት ሳይሆን ጠዋት 6:00 ላይ ሲነጋ ጀምሮ ነው።"
-      },
-      "start": 92.324,
-      "end": 103.46,
-      "tokens": [
-        [
-          "原来",
-          "yuán lái",
-          "so, actually, as it turns out; original; former",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "埃塞俄比亚",
-          "āi sài é bǐ yà",
-          "Ethiopia",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "平时",
-          "píng shí",
-          "in normal times; ordinarily; in peacetime",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "时间",
-          "shí jiān",
-          "(concept of) time; (duration of) time; (point in) time",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "算法",
-          "suàn fǎ",
-          "arithmetic; algorithm; method of calculation",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "不是",
-          "bù shì",
-          "no; is not; not",
-          ""
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "半夜",
-          "bàn yè",
-          "midnight; in the middle of the night",
-          ""
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "算",
-          "suàn",
-          "to calculate; to figure out; to include; to count in",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "而是",
-          "ér shì",
-          "rather",
-          ""
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to light (a fire, a lamp etc); to ignite",
-          ""
-        ],
-        [
-          "天亮",
-          "tiān liàng",
-          "to grow light (at daybreak)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "算",
-          "suàn",
-          "to calculate; to figure out; to include; to count in",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "所以早上七点是他们的“一点”，中午十二点是“六点”，下午三点，就成了“九点”。",
-      "py": "suǒ yǐ zǎo shang qī diǎn shì tā men de “yì diǎn”, zhōng wǔ shí èr diǎn shì “liù diǎn”, xià wǔ sān diǎn, jiù chéng le “jiǔ diǎn”.",
-      "en": "So seven in the morning is their \"one o'clock\", noon is \"six o'clock\", and three in the afternoon becomes \"nine o'clock\".",
-      "tr": {
-        "am": "ስለዚህ ጠዋት 7:00 የእነሱ «1 ሰዓት» ነው፣ ቀትር 12:00 «6 ሰዓት» ነው፣ ከሰዓት 3:00 ደግሞ «9 ሰዓት» ይሆናል።"
-      },
-      "start": 104.16,
-      "end": 111.264,
-      "tokens": [
-        [
-          "所以",
-          "suǒ yǐ",
-          "therefore; as a result; so",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "一点",
-          "yī diǎn",
-          "(after an adjective, used to form the comparative) a bit more, -er",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "，"
-        ],
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "，"
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "成了",
-          "chéng le",
-          "to be done; to be ready; that's enough!",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "九",
-          "jiǔ",
-          "nine; 9",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "司机说：“我们这儿离赤道近，一年到头差不多都是六点天亮、六点天黑，从天亮开始数，不是更方便吗？”",
-      "py": "sī jī shuō: “wǒ men zhè r lí chì dào jìn, yì nián dào tóu chà bu duō dōu shì liù diǎn tiān liàng, liù diǎn tiān hēi, cóng tiān liàng kāi shǐ shù, bú shì gèng fāng biàn ma?”",
-      "en": "The driver says, \"We're close to the equator. All year round it gets light at about six and dark at about six. Isn't it easier to count from when it gets light?\"",
-      "tr": {
-        "am": "ሹፌሩ እንዲህ አለ፦ «እኛ ለምድር ወገብ ቅርብ ነን፣ ዓመቱን ሙሉ ጠዋት 6:00 ገደማ ይነጋል፣ ምሽት 6:00 ገደማ ይጨልማል፣ ከሚነጋበት ጀምሮ መቁጠር አይቀልም?»"
-      },
-      "start": 111.964,
-      "end": 122.596,
-      "tokens": [
-        [
-          "司机",
-          "sī jī",
-          "chauffeur; driver",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "这儿",
-          "zhè r",
-          "here",
-          ""
-        ],
-        [
-          "离",
-          "lí",
-          "to leave; to part from; to be away from",
-          ""
-        ],
-        [
-          "赤道",
-          "chì dào",
-          "equator (of the earth or a celestial body)",
-          ""
-        ],
-        [
-          "近",
-          "jìn",
-          "close to; near; approximately",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一年到头",
-          "yī nián dào tóu",
-          "all year round",
-          ""
-        ],
-        [
-          "差不多",
-          "chà bu duō",
-          "about the same; almost; nearly",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to light (a fire, a lamp etc); to ignite",
-          ""
-        ],
-        [
-          "天亮",
-          "tiān liàng",
-          "to grow light (at daybreak)",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to light (a fire, a lamp etc); to ignite",
-          ""
-        ],
-        [
-          "天黑",
-          "tiān hēi",
-          "to get dark; dusk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "天亮",
-          "tiān liàng",
-          "to grow light (at daybreak)",
-          ""
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "数",
-          "shù",
-          "number; figure; several; a few",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不是",
-          "bù shì",
-          "no; is not; not",
-          ""
-        ],
-        [
-          "更",
-          "gèng",
-          "more; even more; further",
-          ""
-        ],
-        [
-          "方便",
-          "fāng biàn",
-          "convenient; suitable; to facilitate; to make things easy",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨想了想，竟然觉得很有道理。",
-      "py": "Xiǎo yǔ xiǎng le xiǎng, jìng rán jué de hěn yǒu dào lǐ.",
-      "en": "Xiaoyu thinks about it and, to her own surprise, finds it makes a lot of sense.",
-      "tr": {
-        "am": "ሺያውዩ ትንሽ አሰበች፣ ሳታስበውም በጣም ትክክል መሰላት።"
-      },
-      "start": 123.296,
-      "end": 127.352,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "竟然",
-          "jìng rán",
-          "to one's surprise; unexpectedly; in spite of everything",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "有道理",
-          "yǒu dào li",
-          "to make sense; reasonable",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "到了工厂，谈判倒很顺利，只是谈到交货期的时候，厂长说：“没问题，今年的第十三个月以前，一定交货。”",
-      "py": "dào le gōng chǎng, tán pàn dào hěn shùn lì, zhǐ shì tán dào jiāo huò qī de shí hou, chǎng zhǎng shuō: “méi wèn tí, jīn nián de dì shí sān gè yuè yǐ qián, yí dìng jiāo huò.”",
-      "en": "At the factory the talks go smoothly, except that when they reach the delivery date, the factory manager says, \"No problem. We'll deliver before the thirteenth month of this year.\"",
-      "tr": {
-        "am": "ፋብሪካው ሲደርሱ ድርድሩ በጥሩ ሁኔታ ሄደ፣ ስለ ማስረከቢያ ቀኑ ሲነጋገሩ ግን የፋብሪካው ኃላፊ እንዲህ አሉ፦ «ችግር የለም፣ ከዘንድሮው አሥራ ሦስተኛው ወር በፊት በእርግጠኝነት እናስረክባለን።»"
-      },
-      "start": 128.052,
-      "end": 139.428,
-      "tokens": [
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "工厂",
-          "gōng chǎng",
-          "factory",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "谈判",
-          "tán pàn",
-          "talks; to negotiate; negotiation",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to invert; to place upside down or frontside back",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "(also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)",
-          ""
-        ],
-        [
-          "顺利",
-          "shùn lì",
-          "smoothly; without a hitch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只是",
-          "zhǐ shì",
-          "merely; only; just; nothing but; simply; but; however",
-          ""
-        ],
-        [
-          "谈到",
-          "tán dào",
-          "to talk about; to refer to; to speak about",
-          ""
-        ],
-        [
-          "交货期",
-          "jiāo huò qī",
-          "delivery time (time between ordering goods and receiving the delivery)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "厂长",
-          "chǎng zhǎng",
-          "factory director",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "没问题",
-          "méi wèn tí",
-          "no problem",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "今年",
-          "jīn nián",
-          "this year",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "第",
-          "dì",
-          "(prefix indicating ordinal number, as in 第六 \"sixth\")",
-          ""
-        ],
-        [
-          "十三",
-          "shí sān",
-          "thirteen; 13",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "以前",
-          "yǐ qián",
-          "before; formerly; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "交货",
-          "jiāo huò",
-          "to deliver goods",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨以为对方在开玩笑：“一年哪儿来的十三个月？”",
-      "py": "Xiǎo yǔ yǐ wéi duì fāng zài kāi wán xiào: “yì nián nǎ r lái de shí sān gè yuè?”",
-      "en": "Xiaoyu thinks he's joking. \"Since when does a year have thirteen months?\"",
-      "tr": {
-        "am": "ሺያውዩ የሚቀልዱ መሰላት፦ «አንድ ዓመት አሥራ ሦስት ወር ከየት መጣ?»"
-      },
-      "start": 140.128,
-      "end": 145.12,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "以为",
-          "yǐ wéi",
-          "to think; to believe (often with the implication that the belief is mistaken – unless referring to one's own current belief)",
-          ""
-        ],
-        [
-          "对方",
-          "duì fāng",
-          "the other person; the other side; the other party",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "开玩笑",
-          "kāi wán xiào",
-          "to play a joke; to make fun of; to joke",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "哪儿",
-          "nǎ r",
-          "where?; wherever; anywhere; somewhere",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "ever since (as in 自古以来); to come",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "十三",
-          "shí sān",
-          "thirteen; 13",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; moon; monthly",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "厂长笑着拿出一本挂历：埃塞俄比亚的历法，一年有十二个月，每个月三十天，最后还有一个只有五六天的“第十三个月”，正好在公历的九月初。",
-      "py": "chǎng zhǎng xiào zhe ná chū yì běn guà lì: āi sāi é bǐ yà de lì fǎ, yì nián yǒu shí èr gè yuè, měi gè yuè sān shí tiān, zuì hòu hái yǒu yí gè zhǐ yǒu wǔ liù tiān de “dì shí sān gè yuè”, zhèng hǎo zài gōng lì de jiǔ yuè chū.",
-      "en": "Smiling, the manager takes out a wall calendar: in the Ethiopian calendar there are twelve months of thirty days each, and then a \"thirteenth month\" of just five or six days, which falls in early September.",
-      "tr": {
-        "am": "ኃላፊው እየሳቁ የግድግዳ ቀን መቁጠሪያ አወጡ፦ በኢትዮጵያ አቆጣጠር አንድ ዓመት እያንዳንዳቸው ሠላሳ ቀን ያላቸው አሥራ ሁለት ወራት አሉት፣ በመጨረሻም አምስት ወይም ስድስት ቀን ብቻ ያለው «አሥራ ሦስተኛ ወር» — ጳጉሜን — አለ፣ እሱም በፈረንጆች አቆጣጠር ልክ በሴፕቴምበር መጀመሪያ ላይ ይውላል።"
-      },
-      "start": 145.82,
-      "end": 160.46,
-      "tokens": [
-        [
-          "厂长",
-          "chǎng zhǎng",
-          "factory director",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "本",
-          "běn",
-          "classifier for books, periodicals, files etc",
-          ""
-        ],
-        [
-          "挂历",
-          "guà lì",
-          "wall calendar",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "埃塞俄比亚",
-          "āi sài é bǐ yà",
-          "Ethiopia",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "历法",
-          "lì fǎ",
-          "calendar science; calendar system",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "十二",
-          "shí èr",
-          "twelve; 12",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每个",
-          "měi gè",
-          "each; every",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "三十",
-          "sān shí",
-          "thirty; 30",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "最后",
-          "zuì hòu",
-          "final; last; ultimate; finally; in the end",
-          ""
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "只有",
-          "zhǐ yǒu",
-          "only have ...; there is only ...",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "第",
-          "dì",
-          "(literary) grades in which successful candidates in the imperial examinations were placed",
-          ""
-        ],
-        [
-          "十三",
-          "shí sān",
-          "thirteen; 13",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "，"
-        ],
-        [
-          "正好",
-          "zhèng hǎo",
-          "just (in time); just right; just enough",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "公历",
-          "gōng lì",
-          "Gregorian calendar; solar calendar",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "九月",
-          "jiǔ yuè",
-          "September; ninth month (of the lunar year)",
-          ""
-        ],
-        [
-          "初",
-          "chū",
-          "(bound form) first; early",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨这才放了心，在合同上用两种历法写明了交货期：埃塞俄比亚历第十三个月以前，也就是公历九月六日以前。",
-      "py": "Xiǎo yǔ zhè cái fàng le xīn, zài hé tong shàng yòng liǎng zhǒng lì fǎ xiě míng le jiāo huò qī: āi sāi é bǐ yà lì dì shí sān gè yuè yǐ qián, yě jiù shì gōng lì jiǔ yuè liù rì yǐ qián.",
-      "en": "Only then is Xiaoyu reassured, and in the contract she spells out the delivery date in both calendars: before the thirteenth month of the Ethiopian calendar, that is, before the sixth of September.",
-      "tr": {
-        "am": "ሺያውዩ ያኔ ነው የተረጋጋችው፣ በውሉ ላይ የማስረከቢያ ቀኑን በሁለቱም አቆጣጠሮች በግልጽ ጻፈች፦ ከኢትዮጵያ አቆጣጠር አሥራ ሦስተኛው ወር በፊት፣ ማለትም ከሴፕቴምበር 6 በፊት።"
-      },
-      "start": 161.16,
-      "end": 173.448,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "then and only then; (before an expression of quantity) only",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to let out; to put; to place",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "心",
-          "xīn",
-          "heart; mind; intention",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "(used before a verb to indicate an action in progress)",
-          ""
-        ],
-        [
-          "合同",
-          "hé tong",
-          "contract; agreement",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "both; two; some",
-          ""
-        ],
-        [
-          "种",
-          "zhǒng",
-          "classifier for types, kinds, sorts; seed; species",
-          ""
-        ],
-        [
-          "历法",
-          "lì fǎ",
-          "calendar science; calendar system",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "明了",
-          "míng liǎo",
-          "to understand clearly; to be clear about; plain",
-          ""
-        ],
-        [
-          "交货期",
-          "jiāo huò qī",
-          "delivery time (time between ordering goods and receiving the delivery)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "埃塞俄比亚",
-          "āi sài é bǐ yà",
-          "Ethiopia",
-          ""
-        ],
-        [
-          "历",
-          "lì",
-          "calendar; to experience; to undergo",
-          ""
-        ],
-        [
-          "第",
-          "dì",
-          "(prefix indicating ordinal number, as in 第六 \"sixth\")",
-          ""
-        ],
-        [
-          "十三",
-          "shí sān",
-          "thirteen; 13",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "以前",
-          "yǐ qián",
-          "before; formerly; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "也就是",
-          "yě jiù shì",
-          "in other words; i.e.",
-          ""
-        ],
-        [
-          "公历",
-          "gōng lì",
-          "Gregorian calendar; solar calendar",
-          ""
-        ],
-        [
-          "九月",
-          "jiǔ yuè",
-          "September; ninth month (of the lunar year)",
-          ""
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "日",
-          "rì",
-          "day of the month; (bound form) sun; day",
-          ""
-        ],
-        [
-          "以前",
-          "yǐ qián",
-          "before; formerly; previous",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "回到北京，周经理看了合同，吓了一跳：“第十三个月？这是什么意思？”",
-      "py": "huí dào Běi jīng, Zhōu jīng lǐ kàn le hé tong, xià le yí tiào: “dì shí sān gè yuè? zhè shì shén me yì si?”",
-      "en": "Back in Beijing, Manager Zhou reads the contract and does a double take. \"The thirteenth month? What's that supposed to mean?\"",
-      "tr": {
-        "am": "ቤጂንግ ስትመለስ ሥራ አስኪያጅ ጆው ውሉን አይታ ደነገጠች፦ «አሥራ ሦስተኛው ወር? ይህ ምን ማለት ነው?»"
-      },
-      "start": 174.148,
-      "end": 182.188,
-      "tokens": [
-        [
-          "回到",
-          "huí dào",
-          "to return to",
-          ""
-        ],
-        [
-          "北京",
-          "běi jīng",
-          "Beijing municipality, capital of the People's Republic of China (short name 京)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to read; to see; to look at; to watch",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "合同",
-          "hé tong",
-          "contract; agreement",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "吓",
-          "xià",
-          "to frighten; to scare",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "跳",
-          "tiào",
-          "to jump; to hop; to skip over",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "第",
-          "dì",
-          "(prefix indicating ordinal number, as in 第六 \"sixth\")",
-          ""
-        ],
-        [
-          "十三",
-          "shí sān",
-          "thirteen; 13",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "这",
-          "zhè",
-          "(bound form) this; these (followed by a classifier) (in this sense, commonly pr. , esp. in Beijing)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "意思",
-          "yì si",
-          "meaning; idea; opinion",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨笑着说：“您放心，人家一年也是三百六十五天，只是分法跟我们不一样。”",
-      "py": "Xiǎo yǔ xiào zhe shuō: “nín fàng xīn, rén jia yì nián yě shì sān bǎi liù shí wǔ tiān, zhǐ shì fēn fǎ gēn wǒ men bù yí yàng.”",
-      "en": "Xiaoyu smiles. \"Don't worry. Their year has three hundred and sixty-five days too. They just divide it up differently.\"",
-      "tr": {
-        "am": "ሺያውዩ ፈገግ ብላ አለች፦ «አይጨነቁ፣ የእነሱም ዓመት ሦስት መቶ ስድሳ አምስት ቀን ነው፣ የሚከፋፍሉበት መንገድ ብቻ ነው ከእኛ የሚለየው።»"
-      },
-      "start": 182.888,
-      "end": 191.192,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "放心",
-          "fàng xīn",
-          "to feel relieved; to feel reassured; to be at ease",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "人家",
-          "rén jia",
-          "he, she or they; other people; sb else",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "百",
-          "bǎi",
-          "hundred; numerous; all kinds of",
-          ""
-        ],
-        [
-          "六十",
-          "liù shí",
-          "sixty; 60",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只是",
-          "zhǐ shì",
-          "merely; only; just; nothing but; simply; but; however",
-          ""
-        ],
-        [
-          "分",
-          "fēn",
-          "to divide; to separate; to distribute; to allocate",
-          ""
-        ],
-        [
-          "法",
-          "fǎ",
-          "law; method; way",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "不一样",
-          "bù yī yàng",
-          "different; distinctive; unlike",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "从那以后，小雨跟外国客户约时间，总要多问一句：“您说的一点，是哪一种一点？”",
-      "py": "cóng nà yǐ hòu, Xiǎo yǔ gēn wài guó kè hù yuē shí jiān, zǒng yào duō wèn yí jù: “nín shuō de yì diǎn, shì nǎ yì zhǒng yì diǎn?”",
-      "en": "From then on, whenever Xiaoyu arranges a time with a foreign client, she always asks one more question: \"When you say one o'clock, which one o'clock do you mean?\"",
-      "tr": {
-        "am": "ከዚያ ወዲህ ሺያውዩ ከውጭ አገር ደንበኞች ጋር ቀጠሮ ስትይዝ ሁልጊዜ አንድ ተጨማሪ ጥያቄ ትጠይቃለች፦ «1:00 ሲሉ የትኛውን 1:00 ማለትዎ ነው?»"
-      },
-      "start": 191.892,
-      "end": 200.7,
-      "tokens": [
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "外国",
-          "wài guó",
-          "foreign country",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "约",
-          "yāo",
-          "to weigh in a balance or on a scale",
-          ""
-        ],
-        [
-          "时间",
-          "shí jiān",
-          "(concept of) time; (duration of) time; (point in) time",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "总要",
-          "zǒng yào",
-          "nevertheless",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "一句",
-          "yī jù",
-          "a line of verse; a sentence",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "一点",
-          "yī diǎn",
-          "(after an adjective, used to form the comparative) a bit more, -er",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "哪",
-          "nǎ",
-          "which; how",
-          ""
-        ],
-        [
-          "一种",
-          "yī zhǒng",
-          "one kind of; one type of",
-          ""
-        ],
-        [
-          "一点",
-          "yī diǎn",
-          "(after an adjective, used to form the comparative) a bit more, -er",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 676,
-  "first": "小雨第一次去埃塞俄比亚出差，要去亚的斯亚贝巴郊区的一家合作工厂谈一批新订单。",
-  "newWords": [
-    {
-      "w": "凌晨",
-      "py": "língchén",
-      "en": "pre-dawn hours"
-    },
-    {
-      "w": "赤道",
-      "py": "chìdào",
-      "en": "imaginary line around Earth’s middle"
-    },
-    {
-      "w": "历法",
-      "py": "lì fǎ",
-      "en": "calendar science"
-    },
-    {
-      "w": "公历",
-      "py": "gōng lì",
-      "en": "Gregorian calendar"
-    },
-    {
-      "w": "交货期",
-      "py": "jiāo huò qī",
-      "en": "delivery time (time between ordering goods and receiving the delivery)"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h6-71.mp3?v=1791722764"
+  {
+   "text": "她晚上十点才到酒店，刚放下行李，工厂的司机就打来电话，用英语说：“明天早上一点，我在酒店门口接您。”",
+   "py": "tā wǎn shang shí diǎn cái dào jiǔ diàn, gāng fàng xià xíng lǐ, gōng chǎng de sī jī jiù dǎ lái diàn huà, yòng yīng yǔ shuō: “míng tiān zǎo shang yì diǎn, wǒ zài jiǔ diàn mén kǒu jiē nín.”",
+   "en": "She doesn't reach the hotel until ten at night, and she's barely put her bags down when the factory's driver phones and says in English, \"Tomorrow morning at one o'clock, I'll pick you up outside the hotel.\"",
+   "tr": {
+    "am": "ምሽት 10:00 ላይ ነው ሆቴል የደረሰችው፣ ሻንጣዋን ገና እንዳስቀመጠች የፋብሪካው ሹፌር ደውሎ በእንግሊዝኛ አለ፦ «ነገ ጠዋት 1:00 ላይ ከሆቴሉ በር እቀበልዎታለሁ።»",
+    "fa": "ساعت ده شب می‌رسه هتل؛ هنوز وسایلش رو نذاشته که راننده کارخانه زنگ می‌زنه و به انگلیسی می‌گه: «فردا صبح ساعت یه، جلوی هتل منتظرتونم.»"
+   },
+   "start": 11.84,
+   "end": 22.976,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to nod (one's head) in agreement; to beckon by moving (one's hand) up and down",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "ability; talent; sb of a certain type; a capable individual",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive",
+     ""
+    ],
+    [
+     "酒店",
+     "jiǔ diàn",
+     "hotel; wine shop; pub (public house)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刚",
+     "gāng",
+     "barely; only just; (literary) hard; firm; strong",
+     ""
+    ],
+    [
+     "放下",
+     "fàng xià",
+     "to lay down; to put down",
+     ""
+    ],
+    [
+     "行李",
+     "xíng li",
+     "luggage",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "工厂",
+     "gōng chǎng",
+     "factory",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "司机",
+     "sī jī",
+     "chauffeur; driver",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(bound form) to reach; to attain (as in 一蹴而就)",
+     ""
+    ],
+    [
+     "打",
+     "dǎ",
+     "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
+     ""
+    ],
+    [
+     "来电",
+     "lái diàn",
+     "to phone in; to send in a telegram",
+     ""
+    ],
+    [
+     "话",
+     "huà",
+     "dialect; language; spoken words",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "英语",
+     "yīng yǔ",
+     "English (language)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "明天",
+     "míng tiān",
+     "tomorrow",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "一点",
+     "yī diǎn",
+     "one o'clock (abbr. for 一点钟); a bit; a little bit",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "酒店",
+     "jiǔ diàn",
+     "hotel; wine shop; pub (public house)",
+     ""
+    ],
+    [
+     "门口",
+     "mén kǒu",
+     "doorway; gate",
+     ""
+    ],
+    [
+     "接",
+     "jiē",
+     "to answer (the phone); to receive; to meet or welcome sb",
+     ""
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨愣了一下，又问了一遍，对方还是说：“对，一点。”",
+   "py": "Xiǎo yǔ lèng le yí xià, yòu wèn le yí biàn, duì fāng hái shi shuō: “duì, yì diǎn.”",
+   "en": "Xiaoyu is taken aback and asks again, but he still says, \"Yes, one o'clock.\"",
+   "tr": {
+    "am": "ሺያውዩ ትንሽ ደነገጠች፣ እንደገና ጠየቀች፣ እሱ ግን አሁንም «አዎ፣ 1:00» አለ።",
+    "fa": "شیائویو یه لحظه می‌خشک می‌زنه و دوباره می‌پرسه؛ اون هم می‌گه: «آره، ساعت یه.»"
+   },
+   "start": 23.676,
+   "end": 30.3,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "愣",
+     "lèng",
+     "to look distracted; to stare blankly; distracted",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一下",
+     "yī xià",
+     "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一遍",
+     "yī biàn",
+     "one time (all the way through); once through",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "对方",
+     "duì fāng",
+     "the other person; the other side; the other party",
+     ""
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "对",
+     "duì",
+     "right; correct; towards; at; for; concerning; regarding",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一点",
+     "yī diǎn",
+     "one o'clock (abbr. for 一点钟); a bit; a little bit",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "她心想，大概是工厂离得远，得赶在天亮以前出发，就定了一个十二点半的闹钟。",
+   "py": "tā xīn xiǎng, dà gài shì gōng chǎng lí de yuǎn, de gǎn zài tiān liàng yǐ qián chū fā, jiù dìng le yí gè shí èr diǎn bàn de nào zhōng.",
+   "en": "She supposes the factory must be a long way off and they need to set out before dawn, so she sets an alarm for half past twelve.",
+   "tr": {
+    "am": "ፋብሪካው ሩቅ ስለሆነ ሳይነጋ መነሣት አለብን ማለቱ ይሆናል ብላ አሰበች፣ ለ12:30 የማንቂያ ደወል ሞላች።",
+    "fa": "فکر می‌کنه حتماً کارخانه دورــه و باید قبل روشن شدن هوا حرکت کنن؛ برای همین ساعت‌ش رو می‌ذاره دوازده و نیم."
+   },
+   "start": 31,
+   "end": 39.784,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "心想",
+     "xīn xiǎng",
+     "to think to oneself; to think",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大概",
+     "dà gài",
+     "roughly; probably; rough",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "工厂",
+     "gōng chǎng",
+     "factory",
+     ""
+    ],
+    [
+     "离",
+     "lí",
+     "to leave; to part from; to be away from",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "远",
+     "yuǎn",
+     "far; distant; remote",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "赶",
+     "gǎn",
+     "to overtake; to catch up with; to hurry; to rush",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "(used before a verb to indicate an action in progress)",
+     ""
+    ],
+    [
+     "天亮",
+     "tiān liàng",
+     "to grow light (at daybreak)",
+     ""
+    ],
+    [
+     "以前",
+     "yǐ qián",
+     "before; formerly; previous",
+     ""
+    ],
+    [
+     "出发",
+     "chū fā",
+     "to set off; to start (on a journey)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(pattern: 不 ... 就 ...) if not ... then must be ...",
+     ""
+    ],
+    [
+     "定",
+     "dìng",
+     "to fix; to set; to make definite",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to mark with a dot; to check off (on a list)",
+     ""
+    ],
+    [
+     "半",
+     "bàn",
+     "half; (after a number) and a half; semi-",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "闹钟",
+     "nào zhōng",
+     "alarm clock",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "凌晨一点，她穿戴整齐，抱着电脑包坐在空荡荡的大堂里，前台的小伙子趴在桌子上打瞌睡。",
+   "py": "líng chén yì diǎn, tā chuān dài zhěng qí, bào zhe diàn nǎo bāo zuò zài kōng dàng dàng de dà táng lǐ, qián tái de xiǎo huǒ zi pā zài zhuō zi shàng dǎ kē shuì.",
+   "en": "At one in the morning, fully dressed, she sits in the empty lobby hugging her laptop bag, while the young man on reception dozes with his head on the desk.",
+   "tr": {
+    "am": "ሌሊት 1:00 ላይ ልብሷን በሥርዓት ለብሳ የላፕቶፕ ቦርሳዋን ታቅፋ ባዶው የሆቴል አዳራሽ ውስጥ ተቀመጠች፣ የእንግዳ መቀበያው ወጣት ጠረጴዛው ላይ ተደፍቶ ያንቀላፋ ነበር።",
+    "fa": "ساعت یک بامداد، مرتب و تمیز، با کیف لپ‌تاپ توی لابی خالی می‌شینه؛ پسر جوان پیش‌بازدید سرش رو گذاشته روی میز و چرت می‌زنه."
+   },
+   "start": 40.484,
+   "end": 50.684,
+   "tokens": [
+    [
+     "凌晨",
+     "líng chén",
+     "very early in the morning; in the wee hours",
+     ""
+    ],
+    [
+     "一点",
+     "yī diǎn",
+     "a bit; a little bit",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "穿戴",
+     "chuān dài",
+     "to dress; to be dressed; clothing; apparel",
+     ""
+    ],
+    [
+     "整齐",
+     "zhěng qí",
+     "orderly; neat; even",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "抱",
+     "bào",
+     "to hold; to carry (in one's arms); to hug",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "电脑",
+     "diàn nǎo",
+     "computer",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "bag; to cover; to wrap",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "空荡荡",
+     "kōng dàng dàng",
+     "empty; deserted",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "大堂",
+     "dà táng",
+     "lobby",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "前台",
+     "qián tái",
+     "front desk; reception desk; stage",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "小伙子",
+     "xiǎo huǒ zi",
+     "(coll.) young man; young fellow; lad",
+     ""
+    ],
+    [
+     "趴",
+     "pā",
+     "to lean forward, resting one's upper body (on a desktop etc)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "桌子",
+     "zhuō zi",
+     "desk; table",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "打瞌睡",
+     "dǎ kē shuì",
+     "to doze off",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一点过去了，两点也过去了，门外连一辆车的影子都没有，打司机的电话，一直没人接。",
+   "py": "yì diǎn guò qù le, liǎng diǎn yě guò qù le, mén wài lián yí liàng chē de yǐng zi dōu méi yǒu, dǎ sī jī de diàn huà, yì zhí méi rén jiē.",
+   "en": "One o'clock passes, then two, and there isn't so much as the shadow of a car outside; when she rings the driver, nobody answers.",
+   "tr": {
+    "am": "1:00 አለፈ፣ 2:00ም አለፈ፣ ከበሩ ውጭ የመኪና ጥላ እንኳ የለም፣ ለሹፌሩ ብትደውልም ማንም አያነሣም።",
+    "fa": "ساعت یک می‌گذره، ساعت دو هم می‌گذره؛ بیرون حتی سایه‌ی یه ماشین هم نیست و راننده جواب هیچ تماسی رو نمی‌ده."
+   },
+   "start": 51.384,
+   "end": 61.08,
+   "tokens": [
+    [
+     "一点",
+     "yī diǎn",
+     "one o'clock (abbr. for 一点钟); a bit; a little bit",
+     ""
+    ],
+    [
+     "过去",
+     "guò qù",
+     "to go over; to pass by; (in the) past; former; previous",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock; classifier for small amounts",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "过去",
+     "guò qù",
+     "to go over; to pass by; (in the) past; former; previous",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "门外",
+     "mén wài",
+     "outside the door",
+     ""
+    ],
+    [
+     "连",
+     "lián",
+     "to link; to join; to connect",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "辆",
+     "liàng",
+     "classifier for vehicles",
+     ""
+    ],
+    [
+     "车",
+     "chē",
+     "car; vehicle; machine",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "影子",
+     "yǐng zi",
+     "shadow; reflection; (fig.) hint",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "打",
+     "dǎ",
+     "(coll.) from; since (as in 打那以后 \"since then\")",
+     ""
+    ],
+    [
+     "司机",
+     "sī jī",
+     "chauffeur; driver",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "telephone; phone call; phone number",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "接",
+     "jiē",
+     "to answer (the phone); to receive; to meet or welcome sb",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她又困又急，不知不觉在沙发上睡着了，直到有人轻轻拍了拍她的肩膀。",
+   "py": "tā yòu kùn yòu jí, bù zhī bù jué zài shā fā shàng shuì zháo le, zhí dào yǒu rén qīng qīng pāi le pāi tā de jiān bǎng.",
+   "en": "Tired and anxious, she drifts off on the sofa without meaning to, until someone gently taps her on the shoulder.",
+   "tr": {
+    "am": "ደክሟትም ተጨንቃም ሳታውቀው ሶፋው ላይ ተኛች፣ አንድ ሰው ትከሻዋን ቀስ ብሎ እስኪነካት ድረስ።",
+    "fa": "هم خواب‌آلوده‌ست هم نگران؛ بدون این که بخواد روی مبل خوابش می‌بره، تا وقتی یکی آروم شونه‌ش رو می‌زنه."
+   },
+   "start": 61.78,
+   "end": 70.3,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "困",
+     "kùn",
+     "tired; to trap; to surround",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "急",
+     "jí",
+     "to make (sb) anxious; urgent; pressing",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不知不觉",
+     "bù zhī bù jué",
+     "(idiom) unconsciously; unwittingly",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "沙发",
+     "shā fā",
+     "(loanword) sofa",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "睡着",
+     "shuì zháo",
+     "to fall asleep",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "直到",
+     "zhí dào",
+     "until",
+     ""
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; there is someone there; people",
+     ""
+    ],
+    [
+     "轻轻",
+     "qīng qīng",
+     "lightly; softly",
+     ""
+    ],
+    [
+     "拍",
+     "pāi",
+     "to pat; to clap; to slap",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "拍",
+     "pāi",
+     "to pat; to clap; to slap",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "肩膀",
+     "jiān bǎng",
+     "shoulder",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "外面天已经大亮了，司机笑眯眯地站在她面前：“早上好！一点整，我准时来了。”",
+   "py": "wài miàn tiān yǐ jīng dà liàng le, sī jī xiào mī mī de zhàn zài tā miàn qián: “zǎo shang hǎo! yì diǎn zhěng, wǒ zhǔn shí lái le.”",
+   "en": "Outside it's broad daylight, and the driver is standing in front of her, all smiles. \"Good morning! One o'clock on the dot. Right on time.\"",
+   "tr": {
+    "am": "ውጭው ፍጹም ነግቷል፣ ሹፌሩ በፈገግታ ፊቷ ቆሟል፦ «እንደምን አደሩ! ልክ 1:00፣ በሰዓቱ መጣሁ።»",
+    "fa": "بیرون هوا حسابی روشنه و راننده با روی خوش وایساده جلوش: «صبح بخیر! ساعت یه، دقیق اومدم.»"
+   },
+   "start": 71,
+   "end": 79.52,
+   "tokens": [
+    [
+     "外面",
+     "wài miàn",
+     "outside (also pr. for this sense); surface; exterior",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "亮",
+     "liàng",
+     "bright; light; to shine; to flash; loud and clear",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "司机",
+     "sī jī",
+     "chauffeur; driver",
+     ""
+    ],
+    [
+     "笑眯眯",
+     "xiào mī mī",
+     "all smiles; beaming",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "面前",
+     "miàn qián",
+     "in front of; facing; (in the) presence (of)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "早上好",
+     "zǎo shang hǎo",
+     "Good morning!",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "一点",
+     "yī diǎn",
+     "(calligraphy) dot stroke (、); one o'clock (abbr. for 一点钟)",
+     ""
+    ],
+    [
+     "整",
+     "zhěng",
+     "(bound form) in good order; tidy; neat",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "准时",
+     "zhǔn shí",
+     "on time; punctual; on schedule",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "for the past (amount of time); to come",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨看了一眼手机：早上七点。",
+   "py": "Xiǎo yǔ kàn le yì yǎn shǒu jī: zǎo shang qī diǎn.",
+   "en": "Xiaoyu glances at her phone: seven in the morning.",
+   "tr": {
+    "am": "ሺያውዩ ስልኳን አየች፦ ጠዋት 7:00።",
+    "fa": "شیائویو یه نگاه به گوشی‌ش می‌ندازه: ساعت هفت صبح."
+   },
+   "start": 80.22,
+   "end": 83.82,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一眼",
+     "yī yǎn",
+     "a glance; a quick look; a glimpse",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "去工厂的路上，司机听说她在大堂坐了一夜，笑得差点儿握不住方向盘。",
+   "py": "qù gōng chǎng de lù shàng, sī jī tīng shuō tā zài dà táng zuò le yí yè, xiào de chà diǎn r wò bú zhù fāng xiàng pán.",
+   "en": "On the way to the factory, when the driver hears she spent the night in the lobby, he laughs so hard he can barely hold the steering wheel.",
+   "tr": {
+    "am": "ወደ ፋብሪካው ሲሄዱ ሹፌሩ ሌሊቱን ሙሉ አዳራሹ ውስጥ እንደተቀመጠች ሲሰማ በሳቅ መሪውን መያዝ ሊያቅተው ትንሽ ቀረው።",
+    "fa": "توی مسیر کارخانه، راننده وقتی می‌شنوه اون کل شب رو توی لابی نشسته، آن‌قدر می‌خنده که فرمان رو دستش نمی‌مونه."
+   },
+   "start": 84.52,
+   "end": 91.624,
+   "tokens": [
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "工厂",
+     "gōng chǎng",
+     "factory",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "路上",
+     "lù shang",
+     "on the way; en route; on the road",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "司机",
+     "sī jī",
+     "chauffeur; driver",
+     ""
+    ],
+    [
+     "听说",
+     "tīng shuō",
+     "to hear (sth said); one hears (that); hearsay",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "大堂",
+     "dà táng",
+     "lobby",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "夜",
+     "yè",
+     "night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "差点儿",
+     "chà diǎn r",
+     "erhua variant of 差点",
+     ""
+    ],
+    [
+     "握",
+     "wò",
+     "to hold; to grasp; to clench (one's fist)",
+     ""
+    ],
+    [
+     "不住",
+     "bù zhù",
+     "(verb complement) unable to firmly or securely (grasp, recall etc)",
+     ""
+    ],
+    [
+     "方向盘",
+     "fāng xiàng pán",
+     "steering wheel",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "原来，埃塞俄比亚人平时说时间有自己的算法：一天不是从半夜开始算，而是从早上六点天亮的时候开始算。",
+   "py": "yuán lái, āi sāi é bǐ yà rén píng shí shuō shí jiān yǒu zì jǐ de suàn fǎ: yì tiān bú shì cóng bàn yè kāi shǐ suàn, ér shì cóng zǎo shang liù diǎn tiān liàng de shí hou kāi shǐ suàn.",
+   "en": "It turns out Ethiopians usually tell the time their own way: the day isn't counted from midnight, but from six in the morning, when it gets light.",
+   "tr": {
+    "am": "ለካ ኢትዮጵያውያን በተለምዶ ሰዓትን የሚቆጥሩት በራሳቸው መንገድ ነው፦ ቀኑ የሚቆጠረው ከእኩለ ሌሊት ሳይሆን ጠዋት 6:00 ላይ ሲነጋ ጀምሮ ነው።",
+    "fa": "معلوم می‌شه اتیوپیایی‌ها زمان رو حساب خودشون می‌گن: روز از نیمه‌شب شروع نمی‌شه؛ از ساعت شش صبح، وقتی هوا روشن می‌شه، شروع می‌شه."
+   },
+   "start": 92.324,
+   "end": 103.46,
+   "tokens": [
+    [
+     "原来",
+     "yuán lái",
+     "so, actually, as it turns out; original; former",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "埃塞俄比亚",
+     "āi sài é bǐ yà",
+     "Ethiopia",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "平时",
+     "píng shí",
+     "in normal times; ordinarily; in peacetime",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "时间",
+     "shí jiān",
+     "(concept of) time; (duration of) time; (point in) time",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "算法",
+     "suàn fǎ",
+     "arithmetic; algorithm; method of calculation",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "不是",
+     "bù shì",
+     "no; is not; not",
+     ""
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "半夜",
+     "bàn yè",
+     "midnight; in the middle of the night",
+     ""
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "算",
+     "suàn",
+     "to calculate; to figure out; to include; to count in",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "而是",
+     "ér shì",
+     "rather",
+     ""
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to light (a fire, a lamp etc); to ignite",
+     ""
+    ],
+    [
+     "天亮",
+     "tiān liàng",
+     "to grow light (at daybreak)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "算",
+     "suàn",
+     "to calculate; to figure out; to include; to count in",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "所以早上七点是他们的“一点”，中午十二点是“六点”，下午三点，就成了“九点”。",
+   "py": "suǒ yǐ zǎo shang qī diǎn shì tā men de “yì diǎn”, zhōng wǔ shí èr diǎn shì “liù diǎn”, xià wǔ sān diǎn, jiù chéng le “jiǔ diǎn”.",
+   "en": "So seven in the morning is their \"one o'clock\", noon is \"six o'clock\", and three in the afternoon becomes \"nine o'clock\".",
+   "tr": {
+    "am": "ስለዚህ ጠዋት 7:00 የእነሱ «1 ሰዓት» ነው፣ ቀትር 12:00 «6 ሰዓት» ነው፣ ከሰዓት 3:00 ደግሞ «9 ሰዓት» ይሆናል።",
+    "fa": "پس ساعت هفت صبح برای اون‌ها «یک»ه؛ ظهر می‌شه «شش» و ساعت سه بعدازظهر می‌شه «نه»."
+   },
+   "start": 104.16,
+   "end": 111.264,
+   "tokens": [
+    [
+     "所以",
+     "suǒ yǐ",
+     "therefore; as a result; so",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "一点",
+     "yī diǎn",
+     "(after an adjective, used to form the comparative) a bit more, -er",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "，"
+    ],
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "，"
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "成了",
+     "chéng le",
+     "to be done; to be ready; that's enough!",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "九",
+     "jiǔ",
+     "nine; 9",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "司机说：“我们这儿离赤道近，一年到头差不多都是六点天亮、六点天黑，从天亮开始数，不是更方便吗？”",
+   "py": "sī jī shuō: “wǒ men zhè r lí chì dào jìn, yì nián dào tóu chà bu duō dōu shì liù diǎn tiān liàng, liù diǎn tiān hēi, cóng tiān liàng kāi shǐ shù, bú shì gèng fāng biàn ma?”",
+   "en": "The driver says, \"We're close to the equator. All year round it gets light at about six and dark at about six. Isn't it easier to count from when it gets light?\"",
+   "tr": {
+    "am": "ሹፌሩ እንዲህ አለ፦ «እኛ ለምድር ወገብ ቅርብ ነን፣ ዓመቱን ሙሉ ጠዋት 6:00 ገደማ ይነጋል፣ ምሽት 6:00 ገደማ ይጨልማል፣ ከሚነጋበት ጀምሮ መቁጠር አይቀልም?»",
+    "fa": "راننده می‌گه: «ما به خط استوا نزدیکیم؛ همه‌ی سال تقریباً ساعت شش روشن و ساعت شش تاریک می‌شه. حساب کردن از وقت روشنی، راحت‌تر نیست؟»"
+   },
+   "start": 111.964,
+   "end": 122.596,
+   "tokens": [
+    [
+     "司机",
+     "sī jī",
+     "chauffeur; driver",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "这儿",
+     "zhè r",
+     "here",
+     ""
+    ],
+    [
+     "离",
+     "lí",
+     "to leave; to part from; to be away from",
+     ""
+    ],
+    [
+     "赤道",
+     "chì dào",
+     "equator (of the earth or a celestial body)",
+     ""
+    ],
+    [
+     "近",
+     "jìn",
+     "close to; near; approximately",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一年到头",
+     "yī nián dào tóu",
+     "all year round",
+     ""
+    ],
+    [
+     "差不多",
+     "chà bu duō",
+     "about the same; almost; nearly",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to light (a fire, a lamp etc); to ignite",
+     ""
+    ],
+    [
+     "天亮",
+     "tiān liàng",
+     "to grow light (at daybreak)",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to light (a fire, a lamp etc); to ignite",
+     ""
+    ],
+    [
+     "天黑",
+     "tiān hēi",
+     "to get dark; dusk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "天亮",
+     "tiān liàng",
+     "to grow light (at daybreak)",
+     ""
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "数",
+     "shù",
+     "number; figure; several; a few",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不是",
+     "bù shì",
+     "no; is not; not",
+     ""
+    ],
+    [
+     "更",
+     "gèng",
+     "more; even more; further",
+     ""
+    ],
+    [
+     "方便",
+     "fāng biàn",
+     "convenient; suitable; to facilitate; to make things easy",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨想了想，竟然觉得很有道理。",
+   "py": "Xiǎo yǔ xiǎng le xiǎng, jìng rán jué de hěn yǒu dào lǐ.",
+   "en": "Xiaoyu thinks about it and, to her own surprise, finds it makes a lot of sense.",
+   "tr": {
+    "am": "ሺያውዩ ትንሽ አሰበች፣ ሳታስበውም በጣም ትክክል መሰላት።",
+    "fa": "شیائویو فکر می‌کنه و بی‌اختیار می‌بینه که خیلی هم منطقیه."
+   },
+   "start": 123.296,
+   "end": 127.352,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "竟然",
+     "jìng rán",
+     "to one's surprise; unexpectedly; in spite of everything",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "有道理",
+     "yǒu dào li",
+     "to make sense; reasonable",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "到了工厂，谈判倒很顺利，只是谈到交货期的时候，厂长说：“没问题，今年的第十三个月以前，一定交货。”",
+   "py": "dào le gōng chǎng, tán pàn dào hěn shùn lì, zhǐ shì tán dào jiāo huò qī de shí hou, chǎng zhǎng shuō: “méi wèn tí, jīn nián de dì shí sān gè yuè yǐ qián, yí dìng jiāo huò.”",
+   "en": "At the factory the talks go smoothly, except that when they reach the delivery date, the factory manager says, \"No problem. We'll deliver before the thirteenth month of this year.\"",
+   "tr": {
+    "am": "ፋብሪካው ሲደርሱ ድርድሩ በጥሩ ሁኔታ ሄደ፣ ስለ ማስረከቢያ ቀኑ ሲነጋገሩ ግን የፋብሪካው ኃላፊ እንዲህ አሉ፦ «ችግር የለም፣ ከዘንድሮው አሥራ ሦስተኛው ወር በፊት በእርግጠኝነት እናስረክባለን።»",
+    "fa": "توی کارخانه مذاکره راحت پیش می‌ره؛ فقط وقت بحث موعد تحویل، رئیس کارخانه می‌گه: «اشکالی نداره؛ قبل ماه سیزدهم امسال حتماً تحویل می‌دیم.»"
+   },
+   "start": 128.052,
+   "end": 139.428,
+   "tokens": [
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "工厂",
+     "gōng chǎng",
+     "factory",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "谈判",
+     "tán pàn",
+     "talks; to negotiate; negotiation",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to invert; to place upside down or frontside back",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "(also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)",
+     ""
+    ],
+    [
+     "顺利",
+     "shùn lì",
+     "smoothly; without a hitch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只是",
+     "zhǐ shì",
+     "merely; only; just; nothing but; simply; but; however",
+     ""
+    ],
+    [
+     "谈到",
+     "tán dào",
+     "to talk about; to refer to; to speak about",
+     ""
+    ],
+    [
+     "交货期",
+     "jiāo huò qī",
+     "delivery time (time between ordering goods and receiving the delivery)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "厂长",
+     "chǎng zhǎng",
+     "factory director",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "没问题",
+     "méi wèn tí",
+     "no problem",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "今年",
+     "jīn nián",
+     "this year",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "第",
+     "dì",
+     "(prefix indicating ordinal number, as in 第六 \"sixth\")",
+     ""
+    ],
+    [
+     "十三",
+     "shí sān",
+     "thirteen; 13",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "以前",
+     "yǐ qián",
+     "before; formerly; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "交货",
+     "jiāo huò",
+     "to deliver goods",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨以为对方在开玩笑：“一年哪儿来的十三个月？”",
+   "py": "Xiǎo yǔ yǐ wéi duì fāng zài kāi wán xiào: “yì nián nǎ r lái de shí sān gè yuè?”",
+   "en": "Xiaoyu thinks he's joking. \"Since when does a year have thirteen months?\"",
+   "tr": {
+    "am": "ሺያውዩ የሚቀልዱ መሰላት፦ «አንድ ዓመት አሥራ ሦስት ወር ከየት መጣ?»",
+    "fa": "شیائویو فکر می‌کنه داره شوخی می‌کنه: «کجای یه سال سیزده ماه داره؟»"
+   },
+   "start": 140.128,
+   "end": 145.12,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "以为",
+     "yǐ wéi",
+     "to think; to believe (often with the implication that the belief is mistaken – unless referring to one's own current belief)",
+     ""
+    ],
+    [
+     "对方",
+     "duì fāng",
+     "the other person; the other side; the other party",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "开玩笑",
+     "kāi wán xiào",
+     "to play a joke; to make fun of; to joke",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "哪儿",
+     "nǎ r",
+     "where?; wherever; anywhere; somewhere",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "ever since (as in 自古以来); to come",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "十三",
+     "shí sān",
+     "thirteen; 13",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; moon; monthly",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "厂长笑着拿出一本挂历：埃塞俄比亚的历法，一年有十二个月，每个月三十天，最后还有一个只有五六天的“第十三个月”，正好在公历的九月初。",
+   "py": "chǎng zhǎng xiào zhe ná chū yì běn guà lì: āi sāi é bǐ yà de lì fǎ, yì nián yǒu shí èr gè yuè, měi gè yuè sān shí tiān, zuì hòu hái yǒu yí gè zhǐ yǒu wǔ liù tiān de “dì shí sān gè yuè”, zhèng hǎo zài gōng lì de jiǔ yuè chū.",
+   "en": "Smiling, the manager takes out a wall calendar: in the Ethiopian calendar there are twelve months of thirty days each, and then a \"thirteenth month\" of just five or six days, which falls in early September.",
+   "tr": {
+    "am": "ኃላፊው እየሳቁ የግድግዳ ቀን መቁጠሪያ አወጡ፦ በኢትዮጵያ አቆጣጠር አንድ ዓመት እያንዳንዳቸው ሠላሳ ቀን ያላቸው አሥራ ሁለት ወራት አሉት፣ በመጨረሻም አምስት ወይም ስድስት ቀን ብቻ ያለው «አሥራ ሦስተኛ ወር» — ጳጉሜን — አለ፣ እሱም በፈረንጆች አቆጣጠር ልክ በሴፕቴምበር መጀመሪያ ላይ ይውላል።",
+    "fa": "رئیس کارخانه با لبخند یه تقویم دیواری درمیاره: توی تقویم اتیوپی، سال دوازده ماه سی‌روزه داره و بعدش یه «ماه سیزدهم» پنج‌شش‌روزه، درست اوایل سپتامبر."
+   },
+   "start": 145.82,
+   "end": 160.46,
+   "tokens": [
+    [
+     "厂长",
+     "chǎng zhǎng",
+     "factory director",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "本",
+     "běn",
+     "classifier for books, periodicals, files etc",
+     ""
+    ],
+    [
+     "挂历",
+     "guà lì",
+     "wall calendar",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "埃塞俄比亚",
+     "āi sài é bǐ yà",
+     "Ethiopia",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "历法",
+     "lì fǎ",
+     "calendar science; calendar system",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "十二",
+     "shí èr",
+     "twelve; 12",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每个",
+     "měi gè",
+     "each; every",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "三十",
+     "sān shí",
+     "thirty; 30",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "最后",
+     "zuì hòu",
+     "final; last; ultimate; finally; in the end",
+     ""
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "只有",
+     "zhǐ yǒu",
+     "only have ...; there is only ...",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "第",
+     "dì",
+     "(literary) grades in which successful candidates in the imperial examinations were placed",
+     ""
+    ],
+    [
+     "十三",
+     "shí sān",
+     "thirteen; 13",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "，"
+    ],
+    [
+     "正好",
+     "zhèng hǎo",
+     "just (in time); just right; just enough",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "公历",
+     "gōng lì",
+     "Gregorian calendar; solar calendar",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "九月",
+     "jiǔ yuè",
+     "September; ninth month (of the lunar year)",
+     ""
+    ],
+    [
+     "初",
+     "chū",
+     "(bound form) first; early",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨这才放了心，在合同上用两种历法写明了交货期：埃塞俄比亚历第十三个月以前，也就是公历九月六日以前。",
+   "py": "Xiǎo yǔ zhè cái fàng le xīn, zài hé tong shàng yòng liǎng zhǒng lì fǎ xiě míng le jiāo huò qī: āi sāi é bǐ yà lì dì shí sān gè yuè yǐ qián, yě jiù shì gōng lì jiǔ yuè liù rì yǐ qián.",
+   "en": "Only then is Xiaoyu reassured, and in the contract she spells out the delivery date in both calendars: before the thirteenth month of the Ethiopian calendar, that is, before the sixth of September.",
+   "tr": {
+    "am": "ሺያውዩ ያኔ ነው የተረጋጋችው፣ በውሉ ላይ የማስረከቢያ ቀኑን በሁለቱም አቆጣጠሮች በግልጽ ጻፈች፦ ከኢትዮጵያ አቆጣጠር አሥራ ሦስተኛው ወር በፊት፣ ማለትም ከሴፕቴምበር 6 በፊት።",
+    "fa": "شیائویو بالاخره خیالش راحت می‌شه و موعد تحویل رو با دو تقویم توی قرارداد می‌نویسه: قبل ماه سیزدهم تقویم اتیوپی، یعنی قبل ششم سپتامبر."
+   },
+   "start": 161.16,
+   "end": 173.448,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "then and only then; (before an expression of quantity) only",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to let out; to put; to place",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "心",
+     "xīn",
+     "heart; mind; intention",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "(used before a verb to indicate an action in progress)",
+     ""
+    ],
+    [
+     "合同",
+     "hé tong",
+     "contract; agreement",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "both; two; some",
+     ""
+    ],
+    [
+     "种",
+     "zhǒng",
+     "classifier for types, kinds, sorts; seed; species",
+     ""
+    ],
+    [
+     "历法",
+     "lì fǎ",
+     "calendar science; calendar system",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "明了",
+     "míng liǎo",
+     "to understand clearly; to be clear about; plain",
+     ""
+    ],
+    [
+     "交货期",
+     "jiāo huò qī",
+     "delivery time (time between ordering goods and receiving the delivery)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "埃塞俄比亚",
+     "āi sài é bǐ yà",
+     "Ethiopia",
+     ""
+    ],
+    [
+     "历",
+     "lì",
+     "calendar; to experience; to undergo",
+     ""
+    ],
+    [
+     "第",
+     "dì",
+     "(prefix indicating ordinal number, as in 第六 \"sixth\")",
+     ""
+    ],
+    [
+     "十三",
+     "shí sān",
+     "thirteen; 13",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "以前",
+     "yǐ qián",
+     "before; formerly; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "也就是",
+     "yě jiù shì",
+     "in other words; i.e.",
+     ""
+    ],
+    [
+     "公历",
+     "gōng lì",
+     "Gregorian calendar; solar calendar",
+     ""
+    ],
+    [
+     "九月",
+     "jiǔ yuè",
+     "September; ninth month (of the lunar year)",
+     ""
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "日",
+     "rì",
+     "day of the month; (bound form) sun; day",
+     ""
+    ],
+    [
+     "以前",
+     "yǐ qián",
+     "before; formerly; previous",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "回到北京，周经理看了合同，吓了一跳：“第十三个月？这是什么意思？”",
+   "py": "huí dào Běi jīng, Zhōu jīng lǐ kàn le hé tong, xià le yí tiào: “dì shí sān gè yuè? zhè shì shén me yì si?”",
+   "en": "Back in Beijing, Manager Zhou reads the contract and does a double take. \"The thirteenth month? What's that supposed to mean?\"",
+   "tr": {
+    "am": "ቤጂንግ ስትመለስ ሥራ አስኪያጅ ጆው ውሉን አይታ ደነገጠች፦ «አሥራ ሦስተኛው ወር? ይህ ምን ማለት ነው?»",
+    "fa": "برگردن پکن، مدیر جو قرارداد رو می‌بینه و می‌خشک می‌زنه: «ماه سیزدهم؟ این دیگه چه معنایی داره؟»"
+   },
+   "start": 174.148,
+   "end": 182.188,
+   "tokens": [
+    [
+     "回到",
+     "huí dào",
+     "to return to",
+     ""
+    ],
+    [
+     "北京",
+     "běi jīng",
+     "Beijing municipality, capital of the People's Republic of China (short name 京)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to read; to see; to look at; to watch",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "合同",
+     "hé tong",
+     "contract; agreement",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "吓",
+     "xià",
+     "to frighten; to scare",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "跳",
+     "tiào",
+     "to jump; to hop; to skip over",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "第",
+     "dì",
+     "(prefix indicating ordinal number, as in 第六 \"sixth\")",
+     ""
+    ],
+    [
+     "十三",
+     "shí sān",
+     "thirteen; 13",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "这",
+     "zhè",
+     "(bound form) this; these (followed by a classifier) (in this sense, commonly pr. , esp. in Beijing)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "意思",
+     "yì si",
+     "meaning; idea; opinion",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨笑着说：“您放心，人家一年也是三百六十五天，只是分法跟我们不一样。”",
+   "py": "Xiǎo yǔ xiào zhe shuō: “nín fàng xīn, rén jia yì nián yě shì sān bǎi liù shí wǔ tiān, zhǐ shì fēn fǎ gēn wǒ men bù yí yàng.”",
+   "en": "Xiaoyu smiles. \"Don't worry. Their year has three hundred and sixty-five days too. They just divide it up differently.\"",
+   "tr": {
+    "am": "ሺያውዩ ፈገግ ብላ አለች፦ «አይጨነቁ፣ የእነሱም ዓመት ሦስት መቶ ስድሳ አምስት ቀን ነው፣ የሚከፋፍሉበት መንገድ ብቻ ነው ከእኛ የሚለየው።»",
+    "fa": "شیائویو می‌خنده: «خیالتون راحت؛ سال اون‌ها هم سیصد و شصت و پنج روزه؛ فقط تقسیمش فرق داره.»"
+   },
+   "start": 182.888,
+   "end": 191.192,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "放心",
+     "fàng xīn",
+     "to feel relieved; to feel reassured; to be at ease",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "人家",
+     "rén jia",
+     "he, she or they; other people; sb else",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "百",
+     "bǎi",
+     "hundred; numerous; all kinds of",
+     ""
+    ],
+    [
+     "六十",
+     "liù shí",
+     "sixty; 60",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只是",
+     "zhǐ shì",
+     "merely; only; just; nothing but; simply; but; however",
+     ""
+    ],
+    [
+     "分",
+     "fēn",
+     "to divide; to separate; to distribute; to allocate",
+     ""
+    ],
+    [
+     "法",
+     "fǎ",
+     "law; method; way",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "不一样",
+     "bù yī yàng",
+     "different; distinctive; unlike",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "从那以后，小雨跟外国客户约时间，总要多问一句：“您说的一点，是哪一种一点？”",
+   "py": "cóng nà yǐ hòu, Xiǎo yǔ gēn wài guó kè hù yuē shí jiān, zǒng yào duō wèn yí jù: “nín shuō de yì diǎn, shì nǎ yì zhǒng yì diǎn?”",
+   "en": "From then on, whenever Xiaoyu arranges a time with a foreign client, she always asks one more question: \"When you say one o'clock, which one o'clock do you mean?\"",
+   "tr": {
+    "am": "ከዚያ ወዲህ ሺያውዩ ከውጭ አገር ደንበኞች ጋር ቀጠሮ ስትይዝ ሁልጊዜ አንድ ተጨማሪ ጥያቄ ትጠይቃለች፦ «1:00 ሲሉ የትኛውን 1:00 ማለትዎ ነው?»",
+    "fa": "از اون به بعد، هر بار شیائویو با مشتری خارجی وقت می‌ذاره، یه سؤال اضافه هم می‌پرسه: «وقتی می‌گین ساعت یه، از کدوم یه می‌گین؟»"
+   },
+   "start": 191.892,
+   "end": 200.7,
+   "tokens": [
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "外国",
+     "wài guó",
+     "foreign country",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "约",
+     "yāo",
+     "to weigh in a balance or on a scale",
+     ""
+    ],
+    [
+     "时间",
+     "shí jiān",
+     "(concept of) time; (duration of) time; (point in) time",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "总要",
+     "zǒng yào",
+     "nevertheless",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "一句",
+     "yī jù",
+     "a line of verse; a sentence",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "一点",
+     "yī diǎn",
+     "(after an adjective, used to form the comparative) a bit more, -er",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "哪",
+     "nǎ",
+     "which; how",
+     ""
+    ],
+    [
+     "一种",
+     "yī zhǒng",
+     "one kind of; one type of",
+     ""
+    ],
+    [
+     "一点",
+     "yī diǎn",
+     "(after an adjective, used to form the comparative) a bit more, -er",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 676,
+ "first": "小雨第一次去埃塞俄比亚出差，要去亚的斯亚贝巴郊区的一家合作工厂谈一批新订单。",
+ "newWords": [
+  {
+   "w": "凌晨",
+   "py": "língchén",
+   "en": "pre-dawn hours"
+  },
+  {
+   "w": "赤道",
+   "py": "chìdào",
+   "en": "imaginary line around Earth’s middle"
+  },
+  {
+   "w": "历法",
+   "py": "lì fǎ",
+   "en": "calendar science"
+  },
+  {
+   "w": "公历",
+   "py": "gōng lì",
+   "en": "Gregorian calendar"
+  },
+  {
+   "w": "交货期",
+   "py": "jiāo huò qī",
+   "en": "delivery time (time between ordering goods and receiving the delivery)"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h6-71.mp3?v=1791722764"
 }

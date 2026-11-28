@@ -1,2141 +1,2158 @@
 {
-  "id": "h4-08",
-  "level": 4,
-  "no": 8,
-  "title": "盐要放多少？",
-  "title_py": "yán yào fàng duō shao?",
-  "title_en": "How much salt?",
-  "title_tr": {
-    "am": "ጨው ምን ያህል ይጨመራል?",
-    "fa": "چقدر نمک باید ریخت؟"
+ "id": "h4-08",
+ "level": 4,
+ "no": 8,
+ "title": "盐要放多少？",
+ "title_py": "yán yào fàng duō shao?",
+ "title_en": "How much salt?",
+ "title_tr": {
+  "am": "ጨው ምን ያህል ይጨመራል?",
+  "fa": "چقدر نمک باید ریخت؟"
+ },
+ "topic": "food",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h4-08.jpg",
+ "duration": 133.536,
+ "lines": [
+  {
+   "text": "王明最爱吃妈妈做的红烧肉，可是妈妈住在老家，他一年只能吃上一两次。",
+   "py": "Wáng Míng zuì ài chī mā ma zuò de hóng shāo ròu, kě shì mā ma zhù zài lǎo jiā, tā yì nián zhǐ néng chī shàng yì liǎng cì.",
+   "en": "Wang Ming's favourite dish is his mum's braised pork, but she lives back in his hometown, so he only gets it once or twice a year.",
+   "tr": {
+    "am": "ዋንግ ሚንግ ከሁሉ የሚወደው እናቱ የሚሠሩትን የአሳማ ሥጋ ወጥ ነው። እናቱ ግን የሚኖሩት የትውልድ ቀዬው ስለሆነ በዓመት አንድ ሁለት ጊዜ ብቻ ነው የሚበላው።",
+    "fa": "غذای محبوب وانگ مینگ خورشتِ گوشتِ مامانشه، ولی اون تو زادگاهش زندگی می‌کنه، برای همین سالی یکی دو بار بیشتر نمی‌چشه."
+   },
+   "start": 2.596,
+   "end": 10.18,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "最",
+     "zuì",
+     "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+     ""
+    ],
+    [
+     "爱",
+     "ài",
+     "to love; to be fond of; to like; affection",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "红烧肉",
+     "hóng shāo ròu",
+     "red braised pork",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "住",
+     "zhù",
+     "to live; to reside; to stay; to stop; to cease",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "老家",
+     "lǎo jiā",
+     "home state or region; native place; place of origin",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "只能",
+     "zhǐ néng",
+     "can only; obliged to do sth; to have no other choice",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "次",
+     "cì",
+     "classifier for enumerated events: time; next in sequence",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "food",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h4-08.jpg",
-  "duration": 133.536,
-  "lines": [
-    {
-      "text": "王明最爱吃妈妈做的红烧肉，可是妈妈住在老家，他一年只能吃上一两次。",
-      "py": "Wáng Míng zuì ài chī mā ma zuò de hóng shāo ròu, kě shì mā ma zhù zài lǎo jiā, tā yì nián zhǐ néng chī shàng yì liǎng cì.",
-      "en": "Wang Ming's favourite dish is his mum's braised pork, but she lives back in his hometown, so he only gets it once or twice a year.",
-      "tr": {
-        "am": "ዋንግ ሚንግ ከሁሉ የሚወደው እናቱ የሚሠሩትን የአሳማ ሥጋ ወጥ ነው። እናቱ ግን የሚኖሩት የትውልድ ቀዬው ስለሆነ በዓመት አንድ ሁለት ጊዜ ብቻ ነው የሚበላው።"
-      },
-      "start": 2.596,
-      "end": 10.18,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "最",
-          "zuì",
-          "(before an adjective or verb) to the highest degree; (the) most ...; -est",
-          ""
-        ],
-        [
-          "爱",
-          "ài",
-          "to love; to be fond of; to like; affection",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "红烧肉",
-          "hóng shāo ròu",
-          "red braised pork",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "住",
-          "zhù",
-          "to live; to reside; to stay; to stop; to cease",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "老家",
-          "lǎo jiā",
-          "home state or region; native place; place of origin",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "只能",
-          "zhǐ néng",
-          "can only; obliged to do sth; to have no other choice",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "次",
-          "cì",
-          "classifier for enumerated events: time; next in sequence",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这个周末，他决定自己做，就跟妈妈打视频电话学。",
-      "py": "zhè ge zhōu mò, tā jué dìng zì jǐ zuò, jiù gēn mā ma dǎ shì pín diàn huà xué.",
-      "en": "This weekend, he decides to make it himself, and video-calls his mum to learn how.",
-      "tr": {
-        "am": "በዚህ ቅዳሜና እሁድ ራሱ ለመሥራት ወሰነ፣ ለመማርም ለእናቱ የቪዲዮ ጥሪ አደረገ።"
-      },
-      "start": 10.88,
-      "end": 16.352,
-      "tokens": [
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "周末",
-          "zhōu mò",
-          "weekend",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "决定",
-          "jué dìng",
-          "to decide; to determine; to make up one's mind; decision",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "打",
-          "dǎ",
-          "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
-          ""
-        ],
-        [
-          "视频",
-          "shì pín",
-          "video",
-          ""
-        ],
-        [
-          "电话",
-          "diàn huà",
-          "phone call; telephone; phone number",
-          ""
-        ],
-        [
-          "学",
-          "xué",
-          "to learn; to study; to imitate",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他一边听，一边记下妈妈说的话：“肉切成块，先用水煮一下，再放糖炒……”",
-      "py": "tā yì biān tīng, yì biān jì xià mā ma shuō de huà: “ròu qiē chéng kuài, xiān yòng shuǐ zhǔ yí xià, zài fàng táng chǎo……”",
-      "en": "He listens and writes down what his mum says. \"Cut the pork into chunks, boil it in water first, then fry it with sugar...\"",
-      "tr": {
-        "am": "እያዳመጠ እናቱ ያሉትን ጻፈ። «ሥጋውን ቆራርጠህ መጀመሪያ በውሃ ቀቅለው፣ ከዚያ ስኳር ጨምረህ አቁላው…»"
-      },
-      "start": 17.052,
-      "end": 25.836,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "记",
-          "jì",
-          "to record; to note; to memorize",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; to go down",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "的话",
-          "de huà",
-          "if (coming after a conditional clause)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "肉",
-          "ròu",
-          "meat; flesh; pulp (of a fruit)",
-          ""
-        ],
-        [
-          "切成",
-          "qiē chéng",
-          "to cut up (into pieces); to slice; to carve",
-          ""
-        ],
-        [
-          "块",
-          "kuài",
-          "lump; chunk; piece",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "煮",
-          "zhǔ",
-          "to boil; to cook",
-          ""
-        ],
-        [
-          "一下",
-          "yī xià",
-          "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "再",
-          "zài",
-          "then (after sth, and not until then)",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "糖",
-          "táng",
-          "sugar; sweets; candy",
-          ""
-        ],
-        [
-          "炒",
-          "chǎo",
-          "to sauté; to stir-fry",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "可是不管王明问什么，妈妈的回答都差不多：“糖嘛，放一点儿就行。酱油嘛，看颜色。盐嘛，适量。”",
-      "py": "kě shì bù guǎn Wáng Míng wèn shén me, mā ma de huí dá dōu chà bu duō: “táng ma, fàng yì diǎn r jiù xíng. jiàng yóu ma, kàn yán sè. yán ma, shì liàng.”",
-      "en": "But whatever Wang Ming asks, his mum's answers are much the same. \"Sugar? Just a little. Soy sauce? Go by the colour. Salt? The right amount.\"",
-      "tr": {
-        "am": "ግን ዋንግ ሚንግ ምንም ቢጠይቅ የእናቱ መልስ ተመሳሳይ ነው። «ስኳር? ትንሽ ብቻ። አኩሪ አተር መረቅ? ቀለሙን አይተህ። ጨው? በልኩ።»"
-      },
-      "start": 26.536,
-      "end": 38.824,
-      "tokens": [
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "不管",
-          "bù guǎn",
-          "not to be concerned; regardless of; no matter",
-          ""
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "回答",
-          "huí dá",
-          "to reply; to answer; reply; answer",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "差不多",
-          "chà bu duō",
-          "about the same; almost; nearly",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "糖",
-          "táng",
-          "sugar; sweets; candy",
-          ""
-        ],
-        [
-          "嘛",
-          "ma",
-          "modal particle indicating that sth is obvious",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "行",
-          "xíng",
-          "all right; OK!; will do",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "酱油",
-          "jiàng yóu",
-          "soy sauce",
-          ""
-        ],
-        [
-          "嘛",
-          "ma",
-          "modal particle indicating that sth is obvious",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "颜色",
-          "yán sè",
-          "color; countenance; appearance",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "盐",
-          "yán",
-          "salt",
-          ""
-        ],
-        [
-          "嘛",
-          "ma",
-          "modal particle indicating that sth is obvious",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "适量",
-          "shì liàng",
-          "appropriate amount",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明着急了：“妈，您能不能说得准确一点儿？‘适量’到底是多少？”",
-      "py": "Wáng Míng zháo jí le: “mā, nín néng bù néng shuō de zhǔn què yì diǎn r? ‘shì liàng’ dào dǐ shì duō shao?”",
-      "en": "Wang Ming is getting anxious. \"Mum, can you be a bit more exact? How much is 'the right amount'?\"",
-      "tr": {
-        "am": "ዋንግ ሚንግ ተጨነቀ። «እማዬ፣ ትንሽ በትክክል ሊነግሩኝ አይችሉም? ‹በልኩ› ማለት ስንት ነው?»"
-      },
-      "start": 39.524,
-      "end": 46.412,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "着急",
-          "zháo jí",
-          "to worry; to feel anxious",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "妈",
-          "mā",
-          "ma; mom; mother",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "准确",
-          "zhǔn què",
-          "accurate; exact; precise",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "‘"
-        ],
-        [
-          "适量",
-          "shì liàng",
-          "appropriate amount",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "到底",
-          "dào dǐ",
-          "finally; in the end; when all is said and done",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "correct; right; true; to be (followed by substantives only)",
-          ""
-        ],
-        [
-          "多少",
-          "duō shao",
-          "how much?; how many?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "妈妈笑了：“做多了，你就知道了。”",
-      "py": "mā ma xiào le: “zuò duō le, nǐ jiù zhī dào le.”",
-      "en": "His mum laughs. \"Make it enough times and you'll know.\"",
-      "tr": {
-        "am": "እናቱ ሳቁ። «ብዙ ጊዜ ስትሠራ ታውቀዋለህ።»"
-      },
-      "start": 47.112,
-      "end": 51.648,
-      "tokens": [
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "知道了",
-          "zhī dào le",
-          "OK!; Got it!",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "那天晚上，王明做了第一锅红烧肉。小雨尝了一口，马上去倒水喝。",
-      "py": "nà tiān wǎn shang, Wáng Míng zuò le dì yī guō hóng shāo ròu. Xiǎo yǔ cháng le yì kǒu, mǎ shàng qù dào shuǐ hē.",
-      "en": "That evening, Wang Ming makes his first pot of braised pork. Xiaoyu tries a bite and immediately goes to pour herself some water.",
-      "tr": {
-        "am": "በዚያን ምሽት ዋንግ ሚንግ የመጀመሪያውን ድስት ወጥ ሠራ። ሺያውዩ አንድ ጊዜ ቀምሳ ወዲያው ውሃ ልትቀዳ ሄደች።"
-      },
-      "start": 52.348,
-      "end": 59.452,
-      "tokens": [
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "第一",
-          "dì yī",
-          "first; most important; primary; foremost",
-          ""
-        ],
-        [
-          "锅",
-          "guō",
-          "pot; pan; wok; cauldron; pot-shaped thing",
-          ""
-        ],
-        [
-          "红烧肉",
-          "hóng shāo ròu",
-          "red braised pork",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "尝",
-          "cháng",
-          "to taste; to try (food); to experience",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一口",
-          "yī kǒu",
-          "a bite; readily; flatly (deny, admit and so on)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "immediately; at once; right away",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“太咸了！你放了多少盐？”",
-      "py": "“tài xián le! nǐ fàng le duō shao yán?”",
-      "en": "\"It's far too salty! How much salt did you put in?\"",
-      "tr": {
-        "am": "«በጣም ጨው በዛ! ስንት ጨው ጨመርክ?»"
-      },
-      "start": 60.152,
-      "end": 63.464,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "咸",
-          "xián",
-          "salted; salty; all",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "多少",
-          "duō shao",
-          "how much?; how many?",
-          ""
-        ],
-        [
-          "盐",
-          "yán",
-          "salt",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“适量啊。”王明不好意思地说。",
-      "py": "“shì liàng a.” Wáng Míng bù hǎo yì sī de shuō.",
-      "en": "\"The right amount,\" Wang Ming says sheepishly.",
-      "tr": {
-        "am": "«በልኩ» አለ ዋንግ ሚንግ እያፈረ።"
-      },
-      "start": 64.164,
-      "end": 67.764,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "适量",
-          "shì liàng",
-          "appropriate amount",
-          ""
-        ],
-        [
-          "啊",
-          "a",
-          "modal particle ending sentence, showing affirmation, approval, or consent",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to feel embarrassed; to find it embarrassing",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "后来他又做了三次：一次太甜，一次太淡，还有一次颜色黑得像墨水。",
-      "py": "hòu lái tā yòu zuò le sān cì: yí cì tài tián, yí cì tài dàn, hái yǒu yí cì yán sè hēi de xiàng mò shuǐ.",
-      "en": "He makes it three more times after that: once too sweet, once too bland, and once as black as ink.",
-      "tr": {
-        "am": "ከዚያ በኋላ ሦስት ጊዜ ሠራ። አንድ ጊዜ በጣም ጣፋጭ፣ አንድ ጊዜ ጨው ያነሰው፣ አንድ ጊዜ ደግሞ እንደ ጥቁር ቀለም የጠቆረ ሆነ።"
-      },
-      "start": 68.464,
-      "end": 76.504,
-      "tokens": [
-        [
-          "后来",
-          "hòu lái",
-          "afterwards; later; newly arrived",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "三次",
-          "sān cì",
-          "three times; (math.) degree three, cubic (equation); third",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "一次",
-          "yī cì",
-          "first time; once; first",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "甜",
-          "tián",
-          "sweet; (fig.) pleasant; endearing; lovely",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一次",
-          "yī cì",
-          "first time; once; first",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "淡",
-          "dàn",
-          "insipid; diluted; weak",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "一次",
-          "yī cì",
-          "first time; once; first",
-          ""
-        ],
-        [
-          "颜色",
-          "yán sè",
-          "color; countenance; appearance",
-          ""
-        ],
-        [
-          "黑",
-          "hēi",
-          "black; dark; sinister",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "像",
-          "xiàng",
-          "to resemble; to be like; to look as if",
-          ""
-        ],
-        [
-          "墨水",
-          "mò shuǐ",
-          "ink",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一个月以后，妈妈来看他们。王明说：“妈，您做一次，我在旁边看。”",
-      "py": "yí gè yuè yǐ hòu, mā ma lái kàn tā men. Wáng Míng shuō: “mā, nín zuò yí cì, wǒ zài páng biān kàn.”",
-      "en": "A month later, his mum comes to visit them. Wang Ming says, \"Mum, you make it once and I'll watch.\"",
-      "tr": {
-        "am": "ከአንድ ወር በኋላ እናቱ ሊጠይቋቸው መጡ። ዋንግ ሚንግ «እማዬ፣ አንድ ጊዜ እርስዎ ይሥሩት፣ እኔ አጠገብዎ ሆኜ አያለሁ» አለ።"
-      },
-      "start": 77.204,
-      "end": 85.028,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to watch; to visit; to call on; to watch out for",
-          ""
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "妈",
-          "mā",
-          "ma; mom; mother",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "一次",
-          "yī cì",
-          "once; first; first time",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "在旁",
-          "zài páng",
-          "alongside; nearby",
-          ""
-        ],
-        [
-          "边",
-          "biān",
-          "side; edge; margin",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to watch; to visit; to call on; to watch out for",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "妈妈做菜的时候，小雨拿着一个小电子秤，站在旁边帮忙。",
-      "py": "mā ma zuò cài de shí hou, Xiǎo yǔ ná zhe yí gè xiǎo diàn zi chèng, zhàn zài páng biān bāng máng.",
-      "en": "While his mum cooks, Xiaoyu stands beside her with a little electronic scale, helping out.",
-      "tr": {
-        "am": "እናቱ ምግቡን ሲሠሩ ሺያውዩ ትንሽ የኤሌክትሪክ ሚዛን ይዛ አጠገባቸው ቆማ ታግዝ ነበር።"
-      },
-      "start": 85.728,
-      "end": 91.896,
-      "tokens": [
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "做菜",
-          "zuò cài",
-          "to cook; cooking",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "电子",
-          "diàn zǐ",
-          "electronic; electron (particle physics)",
-          ""
-        ],
-        [
-          "秤",
-          "chèng",
-          "steelyard balance; Roman balance",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "在旁",
-          "zài páng",
-          "alongside; nearby",
-          ""
-        ],
-        [
-          "边",
-          "biān",
-          "side; edge; margin",
-          ""
-        ],
-        [
-          "帮忙",
-          "bāng máng",
-          "to help; to lend a hand; to do a favor",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "妈妈每拿起一勺东西，小雨就接过来称一下，记在本子上，再递回去。",
-      "py": "mā ma měi ná qǐ yì sháo dōng xi, Xiǎo yǔ jiù jiē guò lái chēng yí xià, jì zài běn zi shàng, zài dì huí qù.",
-      "en": "Every time his mum picks up a spoonful of something, Xiaoyu takes it, weighs it, writes it down in a notebook and hands it back.",
-      "tr": {
-        "am": "እናቱ አንድ ማንኪያ ነገር ባነሡ ቁጥር ሺያውዩ ተቀብላ ትመዝነዋለች፣ ደብተር ላይ ጽፋም መልሳ ትሰጣቸዋለች።"
-      },
-      "start": 92.596,
-      "end": 99.964,
-      "tokens": [
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "每",
-          "měi",
-          "every; each",
-          ""
-        ],
-        [
-          "拿起",
-          "ná qǐ",
-          "to pick up",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "勺",
-          "sháo",
-          "spoon; ladle; abbr. for 公勺, centiliter (unit of volume)",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "接过",
-          "jiē guò",
-          "to take (sth proffered)",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "ever since (as in 自古以来); for the past (amount of time)",
-          ""
-        ],
-        [
-          "称",
-          "chēng",
-          "to weigh; to state; to name",
-          ""
-        ],
-        [
-          "一下",
-          "yī xià",
-          "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "记",
-          "jì",
-          "to note; to record; to memorize",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "本子",
-          "běn zi",
-          "notebook; book",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "再",
-          "zài",
-          "further; beyond this point of time; again; once more; re-",
-          ""
-        ],
-        [
-          "递回",
-          "dì huí",
-          "see 递归",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(of a time etc) last; to be apart from in space or time",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "红烧肉做好了，还是王明小时候吃的那个味道。",
-      "py": "hóng shāo ròu zuò hǎo le, hái shi Wáng Míng xiǎo shí hou chī de nà ge wèi dào.",
-      "en": "The braised pork is ready, and it tastes just the way it did when Wang Ming was little.",
-      "tr": {
-        "am": "ወጡ ደረሰ። ዋንግ ሚንግ በልጅነቱ የሚበላው ያው ጣዕም ነበር።"
-      },
-      "start": 100.664,
-      "end": 105.68,
-      "tokens": [
-        [
-          "红烧肉",
-          "hóng shāo ròu",
-          "red braised pork",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "小时候",
-          "xiǎo shí hou",
-          "in one's childhood",
-          ""
-        ],
-        [
-          "吃的",
-          "chī de",
-          "(coll.) food",
-          ""
-        ],
-        [
-          "那个",
-          "nà ge",
-          "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)",
-          ""
-        ],
-        [
-          "味道",
-          "wèi dao",
-          "flavor; taste",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨把本子给妈妈看：“阿姨，糖二十五克，盐四克，酱油三十克。”",
-      "py": "Xiǎo yǔ bǎ běn zi gěi mā ma kàn: “ā yí, táng èr shí wǔ kè, yán sì kè, jiàng yóu sān shí kè.”",
-      "en": "Xiaoyu shows the notebook to his mum. \"Auntie, twenty-five grams of sugar, four grams of salt, thirty grams of soy sauce.\"",
-      "tr": {
-        "am": "ሺያውዩ ደብተሩን ለእናቱ አሳየቻቸው። «እማማ፣ ስኳር ሃያ አምስት ግራም፣ ጨው አራት ግራም፣ አኩሪ አተር መረቅ ሠላሳ ግራም።»"
-      },
-      "start": 106.38,
-      "end": 114.444,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "本子",
-          "běn zi",
-          "notebook; book",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "糖",
-          "táng",
-          "sugar; sweets; candy",
-          ""
-        ],
-        [
-          "二十",
-          "èr shí",
-          "twenty; 20",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "克",
-          "kè",
-          "gram; to be able to; to subdue",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "盐",
-          "yán",
-          "salt",
-          ""
-        ],
-        [
-          "四",
-          "sì",
-          "four; 4",
-          ""
-        ],
-        [
-          "克",
-          "kè",
-          "gram; to be able to; to subdue",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "酱油",
-          "jiàng yóu",
-          "soy sauce",
-          ""
-        ],
-        [
-          "三十",
-          "sān shí",
-          "thirty; 30",
-          ""
-        ],
-        [
-          "克",
-          "kè",
-          "gram; to be able to; to subdue",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "妈妈看了半天，吃惊地说：“我做了三十年红烧肉，今天才知道自己放了多少盐！”",
-      "py": "mā ma kàn le bàn tiān, chī jīng de shuō: “wǒ zuò le sān shí nián hóng shāo ròu, jīn tiān cái zhī dào zì jǐ fàng le duō shao yán!”",
-      "en": "His mum studies it for a while and says in surprise, \"I've been making braised pork for thirty years, and only today do I find out how much salt I put in!\"",
-      "tr": {
-        "am": "እናቱ ለረጅም ጊዜ አይተው በመገረም «ለሠላሳ ዓመት ይህን ወጥ ሠራሁ፣ ምን ያህል ጨው እንደምጨምር ያወቅሁት ዛሬ ነው!» አሉ።"
-      },
-      "start": 115.144,
-      "end": 124.096,
-      "tokens": [
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to watch out for; to see; to look at; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "quite a while; half of the day; a long time",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "吃惊",
-          "chī jīng",
-          "to be startled; to be shocked; to be amazed",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "三十",
-          "sān shí",
-          "thirty; 30",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "红烧肉",
-          "hóng shāo ròu",
-          "red braised pork",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "then and only then; (before an expression of quantity) only",
-          ""
-        ],
-        [
-          "知道",
-          "zhī dào",
-          "to know; to become aware of; also pr.",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to let out; to place",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "多少",
-          "duō shao",
-          "how much?; how many?",
-          ""
-        ],
-        [
-          "盐",
-          "yán",
-          "salt",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "第二天，王明照着本子做了一锅。小雨尝了一口，笑着说：“嗯，适量。”",
-      "py": "dì èr tiān, Wáng Míng zhào zhe běn zi zuò le yì guō. Xiǎo yǔ cháng le yì kǒu, xiào zhe shuō: “ń, shì liàng.”",
-      "en": "The next day, Wang Ming makes a pot following the notebook. Xiaoyu tries a bite and smiles. \"Mm. The right amount.\"",
-      "tr": {
-        "am": "በማግሥቱ ዋንግ ሚንግ ደብተሩን ተከትሎ አንድ ድስት ሠራ። ሺያውዩ ቀምሳ እየሳቀች «እም፣ በልኩ» አለች።"
-      },
-      "start": 124.796,
-      "end": 132.836,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "照",
-          "zhào",
-          "to shine; to illuminate; according to",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "本子",
-          "běn zi",
-          "notebook; book",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "锅",
-          "guō",
-          "pot; pan; wok; cauldron; pot-shaped thing",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "尝",
-          "cháng",
-          "to taste; to try (food); to experience",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一口",
-          "yī kǒu",
-          "a bite; readily; flatly (deny, admit and so on)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "嗯",
-          "èn",
-          "(nonverbal grunt as interjection); OK, yeah; what?",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "适量",
-          "shì liàng",
-          "appropriate amount",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 395,
-  "first": "王明最爱吃妈妈做的红烧肉，可是妈妈住在老家，他一年只能吃上一两次。",
-  "newWords": [
-    {
-      "w": "盐",
-      "py": "yán",
-      "en": "salt"
-    },
-    {
-      "w": "准确",
-      "py": "zhǔnquè",
-      "en": "accurate"
-    },
-    {
-      "w": "称",
-      "py": "chēng",
-      "en": "call by name"
-    },
-    {
-      "w": "克",
-      "py": "kè",
-      "en": "unit of mass"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h4-08.mp3?v=1791720737"
+  {
+   "text": "这个周末，他决定自己做，就跟妈妈打视频电话学。",
+   "py": "zhè ge zhōu mò, tā jué dìng zì jǐ zuò, jiù gēn mā ma dǎ shì pín diàn huà xué.",
+   "en": "This weekend, he decides to make it himself, and video-calls his mum to learn how.",
+   "tr": {
+    "am": "በዚህ ቅዳሜና እሁድ ራሱ ለመሥራት ወሰነ፣ ለመማርም ለእናቱ የቪዲዮ ጥሪ አደረገ።",
+    "fa": "این آخر هفته تصمیم می‌گیره خودش بپزه و با مامانش تماس تصویری می‌گیره که یاد بگیره."
+   },
+   "start": 10.88,
+   "end": 16.352,
+   "tokens": [
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "周末",
+     "zhōu mò",
+     "weekend",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "决定",
+     "jué dìng",
+     "to decide; to determine; to make up one's mind; decision",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "打",
+     "dǎ",
+     "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
+     ""
+    ],
+    [
+     "视频",
+     "shì pín",
+     "video",
+     ""
+    ],
+    [
+     "电话",
+     "diàn huà",
+     "phone call; telephone; phone number",
+     ""
+    ],
+    [
+     "学",
+     "xué",
+     "to learn; to study; to imitate",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他一边听，一边记下妈妈说的话：“肉切成块，先用水煮一下，再放糖炒……”",
+   "py": "tā yì biān tīng, yì biān jì xià mā ma shuō de huà: “ròu qiē chéng kuài, xiān yòng shuǐ zhǔ yí xià, zài fàng táng chǎo……”",
+   "en": "He listens and writes down what his mum says. \"Cut the pork into chunks, boil it in water first, then fry it with sugar...\"",
+   "tr": {
+    "am": "እያዳመጠ እናቱ ያሉትን ጻፈ። «ሥጋውን ቆራርጠህ መጀመሪያ በውሃ ቀቅለው፣ ከዚያ ስኳር ጨምረህ አቁላው…»",
+    "fa": "گوش می‌ده و حرف‌های مامانشو می‌نویسه: «گوشتو تیکه‌تیکه کن، اول تو آب بجوشون، بعد با شکر سرخش کن...»"
+   },
+   "start": 17.052,
+   "end": 25.836,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "记",
+     "jì",
+     "to record; to note; to memorize",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; to go down",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "的话",
+     "de huà",
+     "if (coming after a conditional clause)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "肉",
+     "ròu",
+     "meat; flesh; pulp (of a fruit)",
+     ""
+    ],
+    [
+     "切成",
+     "qiē chéng",
+     "to cut up (into pieces); to slice; to carve",
+     ""
+    ],
+    [
+     "块",
+     "kuài",
+     "lump; chunk; piece",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "煮",
+     "zhǔ",
+     "to boil; to cook",
+     ""
+    ],
+    [
+     "一下",
+     "yī xià",
+     "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "再",
+     "zài",
+     "then (after sth, and not until then)",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "糖",
+     "táng",
+     "sugar; sweets; candy",
+     ""
+    ],
+    [
+     "炒",
+     "chǎo",
+     "to sauté; to stir-fry",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "可是不管王明问什么，妈妈的回答都差不多：“糖嘛，放一点儿就行。酱油嘛，看颜色。盐嘛，适量。”",
+   "py": "kě shì bù guǎn Wáng Míng wèn shén me, mā ma de huí dá dōu chà bu duō: “táng ma, fàng yì diǎn r jiù xíng. jiàng yóu ma, kàn yán sè. yán ma, shì liàng.”",
+   "en": "But whatever Wang Ming asks, his mum's answers are much the same. \"Sugar? Just a little. Soy sauce? Go by the colour. Salt? The right amount.\"",
+   "tr": {
+    "am": "ግን ዋንግ ሚንግ ምንም ቢጠይቅ የእናቱ መልስ ተመሳሳይ ነው። «ስኳር? ትንሽ ብቻ። አኩሪ አተር መረቅ? ቀለሙን አይተህ። ጨው? በልኩ።»",
+    "fa": "ولی هر چی وانگ مینگ می‌پرسه، جواب‌های مامانش تقریباً یه‌جوریه: «شکر؟ یه کم. سس سویا؟ به اندازه‌ای که رنگشو بده. نمک؟ به اندازه‌ی خودش.»"
+   },
+   "start": 26.536,
+   "end": 38.824,
+   "tokens": [
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "不管",
+     "bù guǎn",
+     "not to be concerned; regardless of; no matter",
+     ""
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "回答",
+     "huí dá",
+     "to reply; to answer; reply; answer",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "差不多",
+     "chà bu duō",
+     "about the same; almost; nearly",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "糖",
+     "táng",
+     "sugar; sweets; candy",
+     ""
+    ],
+    [
+     "嘛",
+     "ma",
+     "modal particle indicating that sth is obvious",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "行",
+     "xíng",
+     "all right; OK!; will do",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "酱油",
+     "jiàng yóu",
+     "soy sauce",
+     ""
+    ],
+    [
+     "嘛",
+     "ma",
+     "modal particle indicating that sth is obvious",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "颜色",
+     "yán sè",
+     "color; countenance; appearance",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "盐",
+     "yán",
+     "salt",
+     ""
+    ],
+    [
+     "嘛",
+     "ma",
+     "modal particle indicating that sth is obvious",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "适量",
+     "shì liàng",
+     "appropriate amount",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明着急了：“妈，您能不能说得准确一点儿？‘适量’到底是多少？”",
+   "py": "Wáng Míng zháo jí le: “mā, nín néng bù néng shuō de zhǔn què yì diǎn r? ‘shì liàng’ dào dǐ shì duō shao?”",
+   "en": "Wang Ming is getting anxious. \"Mum, can you be a bit more exact? How much is 'the right amount'?\"",
+   "tr": {
+    "am": "ዋንግ ሚንግ ተጨነቀ። «እማዬ፣ ትንሽ በትክክል ሊነግሩኝ አይችሉም? ‹በልኩ› ማለት ስንት ነው?»",
+    "fa": "وانگ مینگ داره بی‌قرار می‌شه: «مامان، می‌شه یه کم دقیق‌تر بگی؟ \"به اندازه‌ی خودش\" یعنی چقدر؟»"
+   },
+   "start": 39.524,
+   "end": 46.412,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "着急",
+     "zháo jí",
+     "to worry; to feel anxious",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "妈",
+     "mā",
+     "ma; mom; mother",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "准确",
+     "zhǔn què",
+     "accurate; exact; precise",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "‘"
+    ],
+    [
+     "适量",
+     "shì liàng",
+     "appropriate amount",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "到底",
+     "dào dǐ",
+     "finally; in the end; when all is said and done",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "correct; right; true; to be (followed by substantives only)",
+     ""
+    ],
+    [
+     "多少",
+     "duō shao",
+     "how much?; how many?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "妈妈笑了：“做多了，你就知道了。”",
+   "py": "mā ma xiào le: “zuò duō le, nǐ jiù zhī dào le.”",
+   "en": "His mum laughs. \"Make it enough times and you'll know.\"",
+   "tr": {
+    "am": "እናቱ ሳቁ። «ብዙ ጊዜ ስትሠራ ታውቀዋለህ።»",
+    "fa": "مامانش می‌خنده: «انقدر بپزش که بلد می‌شی.»"
+   },
+   "start": 47.112,
+   "end": 51.648,
+   "tokens": [
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "知道了",
+     "zhī dào le",
+     "OK!; Got it!",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "那天晚上，王明做了第一锅红烧肉。小雨尝了一口，马上去倒水喝。",
+   "py": "nà tiān wǎn shang, Wáng Míng zuò le dì yī guō hóng shāo ròu. Xiǎo yǔ cháng le yì kǒu, mǎ shàng qù dào shuǐ hē.",
+   "en": "That evening, Wang Ming makes his first pot of braised pork. Xiaoyu tries a bite and immediately goes to pour herself some water.",
+   "tr": {
+    "am": "በዚያን ምሽት ዋንግ ሚንግ የመጀመሪያውን ድስት ወጥ ሠራ። ሺያውዩ አንድ ጊዜ ቀምሳ ወዲያው ውሃ ልትቀዳ ሄደች።",
+    "fa": "اون عصر، وانگ مینگ اولین دیگِ خورشت گوشتشو می‌پزه. شیائویو یه لقمه می‌چشه و فوری می‌ره براش آب بریزه."
+   },
+   "start": 52.348,
+   "end": 59.452,
+   "tokens": [
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "第一",
+     "dì yī",
+     "first; most important; primary; foremost",
+     ""
+    ],
+    [
+     "锅",
+     "guō",
+     "pot; pan; wok; cauldron; pot-shaped thing",
+     ""
+    ],
+    [
+     "红烧肉",
+     "hóng shāo ròu",
+     "red braised pork",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "尝",
+     "cháng",
+     "to taste; to try (food); to experience",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一口",
+     "yī kǒu",
+     "a bite; readily; flatly (deny, admit and so on)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "immediately; at once; right away",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“太咸了！你放了多少盐？”",
+   "py": "“tài xián le! nǐ fàng le duō shao yán?”",
+   "en": "\"It's far too salty! How much salt did you put in?\"",
+   "tr": {
+    "am": "«በጣም ጨው በዛ! ስንት ጨው ጨመርክ?»",
+    "fa": "«خیلی شوره! چقدر نمک ریختی؟»"
+   },
+   "start": 60.152,
+   "end": 63.464,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "咸",
+     "xián",
+     "salted; salty; all",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "多少",
+     "duō shao",
+     "how much?; how many?",
+     ""
+    ],
+    [
+     "盐",
+     "yán",
+     "salt",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“适量啊。”王明不好意思地说。",
+   "py": "“shì liàng a.” Wáng Míng bù hǎo yì sī de shuō.",
+   "en": "\"The right amount,\" Wang Ming says sheepishly.",
+   "tr": {
+    "am": "«በልኩ» አለ ዋንግ ሚንግ እያፈረ።",
+    "fa": "«به اندازه‌ی خودش،» وانگ مینگ با خجالت می‌گه."
+   },
+   "start": 64.164,
+   "end": 67.764,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "适量",
+     "shì liàng",
+     "appropriate amount",
+     ""
+    ],
+    [
+     "啊",
+     "a",
+     "modal particle ending sentence, showing affirmation, approval, or consent",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to feel embarrassed; to find it embarrassing",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "后来他又做了三次：一次太甜，一次太淡，还有一次颜色黑得像墨水。",
+   "py": "hòu lái tā yòu zuò le sān cì: yí cì tài tián, yí cì tài dàn, hái yǒu yí cì yán sè hēi de xiàng mò shuǐ.",
+   "en": "He makes it three more times after that: once too sweet, once too bland, and once as black as ink.",
+   "tr": {
+    "am": "ከዚያ በኋላ ሦስት ጊዜ ሠራ። አንድ ጊዜ በጣም ጣፋጭ፣ አንድ ጊዜ ጨው ያነሰው፣ አንድ ጊዜ ደግሞ እንደ ጥቁር ቀለም የጠቆረ ሆነ።",
+    "fa": "بعد از اون سه بار دیگه می‌پزه: یه بار زیادی شیرین، یه بار زیادی بی‌مزه، و یه بار سیاهِ سیاه مثل جوهر."
+   },
+   "start": 68.464,
+   "end": 76.504,
+   "tokens": [
+    [
+     "后来",
+     "hòu lái",
+     "afterwards; later; newly arrived",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "三次",
+     "sān cì",
+     "three times; (math.) degree three, cubic (equation); third",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "一次",
+     "yī cì",
+     "first time; once; first",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "甜",
+     "tián",
+     "sweet; (fig.) pleasant; endearing; lovely",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一次",
+     "yī cì",
+     "first time; once; first",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "淡",
+     "dàn",
+     "insipid; diluted; weak",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "一次",
+     "yī cì",
+     "first time; once; first",
+     ""
+    ],
+    [
+     "颜色",
+     "yán sè",
+     "color; countenance; appearance",
+     ""
+    ],
+    [
+     "黑",
+     "hēi",
+     "black; dark; sinister",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "像",
+     "xiàng",
+     "to resemble; to be like; to look as if",
+     ""
+    ],
+    [
+     "墨水",
+     "mò shuǐ",
+     "ink",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一个月以后，妈妈来看他们。王明说：“妈，您做一次，我在旁边看。”",
+   "py": "yí gè yuè yǐ hòu, mā ma lái kàn tā men. Wáng Míng shuō: “mā, nín zuò yí cì, wǒ zài páng biān kàn.”",
+   "en": "A month later, his mum comes to visit them. Wang Ming says, \"Mum, you make it once and I'll watch.\"",
+   "tr": {
+    "am": "ከአንድ ወር በኋላ እናቱ ሊጠይቋቸው መጡ። ዋንግ ሚንግ «እማዬ፣ አንድ ጊዜ እርስዎ ይሥሩት፣ እኔ አጠገብዎ ሆኜ አያለሁ» አለ።",
+    "fa": "یه ماه بعد مامانش میاد دیدنشون. وانگ مینگ می‌گه: «مامان، تو بپز، من تماشا می‌کنم.»"
+   },
+   "start": 77.204,
+   "end": 85.028,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to watch; to visit; to call on; to watch out for",
+     ""
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "妈",
+     "mā",
+     "ma; mom; mother",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "一次",
+     "yī cì",
+     "once; first; first time",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "在旁",
+     "zài páng",
+     "alongside; nearby",
+     ""
+    ],
+    [
+     "边",
+     "biān",
+     "side; edge; margin",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to watch; to visit; to call on; to watch out for",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "妈妈做菜的时候，小雨拿着一个小电子秤，站在旁边帮忙。",
+   "py": "mā ma zuò cài de shí hou, Xiǎo yǔ ná zhe yí gè xiǎo diàn zi chèng, zhàn zài páng biān bāng máng.",
+   "en": "While his mum cooks, Xiaoyu stands beside her with a little electronic scale, helping out.",
+   "tr": {
+    "am": "እናቱ ምግቡን ሲሠሩ ሺያውዩ ትንሽ የኤሌክትሪክ ሚዛን ይዛ አጠገባቸው ቆማ ታግዝ ነበር።",
+    "fa": "مامانش که غذا می‌پزه، شیائویو با یه ترازوی الکترونیکی کوچولو کنارش وایساده و کمک می‌کنه."
+   },
+   "start": 85.728,
+   "end": 91.896,
+   "tokens": [
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "做菜",
+     "zuò cài",
+     "to cook; cooking",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "电子",
+     "diàn zǐ",
+     "electronic; electron (particle physics)",
+     ""
+    ],
+    [
+     "秤",
+     "chèng",
+     "steelyard balance; Roman balance",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "在旁",
+     "zài páng",
+     "alongside; nearby",
+     ""
+    ],
+    [
+     "边",
+     "biān",
+     "side; edge; margin",
+     ""
+    ],
+    [
+     "帮忙",
+     "bāng máng",
+     "to help; to lend a hand; to do a favor",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "妈妈每拿起一勺东西，小雨就接过来称一下，记在本子上，再递回去。",
+   "py": "mā ma měi ná qǐ yì sháo dōng xi, Xiǎo yǔ jiù jiē guò lái chēng yí xià, jì zài běn zi shàng, zài dì huí qù.",
+   "en": "Every time his mum picks up a spoonful of something, Xiaoyu takes it, weighs it, writes it down in a notebook and hands it back.",
+   "tr": {
+    "am": "እናቱ አንድ ማንኪያ ነገር ባነሡ ቁጥር ሺያውዩ ተቀብላ ትመዝነዋለች፣ ደብተር ላይ ጽፋም መልሳ ትሰጣቸዋለች።",
+    "fa": "هر بار مامانش یه قاشق چیزی برمی‌داره، شیائویو برمی‌داره، وزنش می‌کنه، تو دفترچه می‌نویسه و برمی‌گردونه."
+   },
+   "start": 92.596,
+   "end": 99.964,
+   "tokens": [
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "每",
+     "měi",
+     "every; each",
+     ""
+    ],
+    [
+     "拿起",
+     "ná qǐ",
+     "to pick up",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "勺",
+     "sháo",
+     "spoon; ladle; abbr. for 公勺, centiliter (unit of volume)",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "接过",
+     "jiē guò",
+     "to take (sth proffered)",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "ever since (as in 自古以来); for the past (amount of time)",
+     ""
+    ],
+    [
+     "称",
+     "chēng",
+     "to weigh; to state; to name",
+     ""
+    ],
+    [
+     "一下",
+     "yī xià",
+     "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "记",
+     "jì",
+     "to note; to record; to memorize",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "本子",
+     "běn zi",
+     "notebook; book",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "再",
+     "zài",
+     "further; beyond this point of time; again; once more; re-",
+     ""
+    ],
+    [
+     "递回",
+     "dì huí",
+     "see 递归",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(of a time etc) last; to be apart from in space or time",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "红烧肉做好了，还是王明小时候吃的那个味道。",
+   "py": "hóng shāo ròu zuò hǎo le, hái shi Wáng Míng xiǎo shí hou chī de nà ge wèi dào.",
+   "en": "The braised pork is ready, and it tastes just the way it did when Wang Ming was little.",
+   "tr": {
+    "am": "ወጡ ደረሰ። ዋንግ ሚንግ በልጅነቱ የሚበላው ያው ጣዕም ነበር።",
+    "fa": "خورشت گوشت آماده می‌شه و طعمش دقیقاً همونیه که وقتی وانگ مینگ کوچیک بود."
+   },
+   "start": 100.664,
+   "end": 105.68,
+   "tokens": [
+    [
+     "红烧肉",
+     "hóng shāo ròu",
+     "red braised pork",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "小时候",
+     "xiǎo shí hou",
+     "in one's childhood",
+     ""
+    ],
+    [
+     "吃的",
+     "chī de",
+     "(coll.) food",
+     ""
+    ],
+    [
+     "那个",
+     "nà ge",
+     "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)",
+     ""
+    ],
+    [
+     "味道",
+     "wèi dao",
+     "flavor; taste",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨把本子给妈妈看：“阿姨，糖二十五克，盐四克，酱油三十克。”",
+   "py": "Xiǎo yǔ bǎ běn zi gěi mā ma kàn: “ā yí, táng èr shí wǔ kè, yán sì kè, jiàng yóu sān shí kè.”",
+   "en": "Xiaoyu shows the notebook to his mum. \"Auntie, twenty-five grams of sugar, four grams of salt, thirty grams of soy sauce.\"",
+   "tr": {
+    "am": "ሺያውዩ ደብተሩን ለእናቱ አሳየቻቸው። «እማማ፣ ስኳር ሃያ አምስት ግራም፣ ጨው አራት ግራም፣ አኩሪ አተር መረቅ ሠላሳ ግራም።»",
+    "fa": "شیائویو دفترچه رو نشون مامانش می‌ده: «خاله، بیست‌وپنج گرم شکر، چهار گرم نمک، سی گرم سس سویا.»"
+   },
+   "start": 106.38,
+   "end": 114.444,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "本子",
+     "běn zi",
+     "notebook; book",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "糖",
+     "táng",
+     "sugar; sweets; candy",
+     ""
+    ],
+    [
+     "二十",
+     "èr shí",
+     "twenty; 20",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "克",
+     "kè",
+     "gram; to be able to; to subdue",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "盐",
+     "yán",
+     "salt",
+     ""
+    ],
+    [
+     "四",
+     "sì",
+     "four; 4",
+     ""
+    ],
+    [
+     "克",
+     "kè",
+     "gram; to be able to; to subdue",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "酱油",
+     "jiàng yóu",
+     "soy sauce",
+     ""
+    ],
+    [
+     "三十",
+     "sān shí",
+     "thirty; 30",
+     ""
+    ],
+    [
+     "克",
+     "kè",
+     "gram; to be able to; to subdue",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "妈妈看了半天，吃惊地说：“我做了三十年红烧肉，今天才知道自己放了多少盐！”",
+   "py": "mā ma kàn le bàn tiān, chī jīng de shuō: “wǒ zuò le sān shí nián hóng shāo ròu, jīn tiān cái zhī dào zì jǐ fàng le duō shao yán!”",
+   "en": "His mum studies it for a while and says in surprise, \"I've been making braised pork for thirty years, and only today do I find out how much salt I put in!\"",
+   "tr": {
+    "am": "እናቱ ለረጅም ጊዜ አይተው በመገረም «ለሠላሳ ዓመት ይህን ወጥ ሠራሁ፣ ምን ያህል ጨው እንደምጨምር ያወቅሁት ዛሬ ነው!» አሉ።",
+    "fa": "مامانش یه مدتی مطالعه‌ش می‌کنه و با تعجب می‌گه: «سی ساله خورشت گوشت می‌پزم و فقط امروز فهمیدم چقدر نمک می‌ریزم!»"
+   },
+   "start": 115.144,
+   "end": 124.096,
+   "tokens": [
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to watch out for; to see; to look at; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "quite a while; half of the day; a long time",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "吃惊",
+     "chī jīng",
+     "to be startled; to be shocked; to be amazed",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "三十",
+     "sān shí",
+     "thirty; 30",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "红烧肉",
+     "hóng shāo ròu",
+     "red braised pork",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "then and only then; (before an expression of quantity) only",
+     ""
+    ],
+    [
+     "知道",
+     "zhī dào",
+     "to know; to become aware of; also pr.",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to let out; to place",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "多少",
+     "duō shao",
+     "how much?; how many?",
+     ""
+    ],
+    [
+     "盐",
+     "yán",
+     "salt",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "第二天，王明照着本子做了一锅。小雨尝了一口，笑着说：“嗯，适量。”",
+   "py": "dì èr tiān, Wáng Míng zhào zhe běn zi zuò le yì guō. Xiǎo yǔ cháng le yì kǒu, xiào zhe shuō: “ń, shì liàng.”",
+   "en": "The next day, Wang Ming makes a pot following the notebook. Xiaoyu tries a bite and smiles. \"Mm. The right amount.\"",
+   "tr": {
+    "am": "በማግሥቱ ዋንግ ሚንግ ደብተሩን ተከትሎ አንድ ድስት ሠራ። ሺያውዩ ቀምሳ እየሳቀች «እም፣ በልኩ» አለች።",
+    "fa": "فردا وانگ مینگ طبق دفترچه یه دیگ می‌پزه. شیائویو یه لقمه می‌چشه و لبخند می‌زنه: «اِم. به اندازه‌ی خودش.»"
+   },
+   "start": 124.796,
+   "end": 132.836,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "照",
+     "zhào",
+     "to shine; to illuminate; according to",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "本子",
+     "běn zi",
+     "notebook; book",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "锅",
+     "guō",
+     "pot; pan; wok; cauldron; pot-shaped thing",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "尝",
+     "cháng",
+     "to taste; to try (food); to experience",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一口",
+     "yī kǒu",
+     "a bite; readily; flatly (deny, admit and so on)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "嗯",
+     "èn",
+     "(nonverbal grunt as interjection); OK, yeah; what?",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "适量",
+     "shì liàng",
+     "appropriate amount",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 395,
+ "first": "王明最爱吃妈妈做的红烧肉，可是妈妈住在老家，他一年只能吃上一两次。",
+ "newWords": [
+  {
+   "w": "盐",
+   "py": "yán",
+   "en": "salt"
+  },
+  {
+   "w": "准确",
+   "py": "zhǔnquè",
+   "en": "accurate"
+  },
+  {
+   "w": "称",
+   "py": "chēng",
+   "en": "call by name"
+  },
+  {
+   "w": "克",
+   "py": "kè",
+   "en": "unit of mass"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h4-08.mp3?v=1791720737"
 }

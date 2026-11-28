@@ -1,1317 +1,1330 @@
 {
-  "id": "h2-17",
-  "level": 2,
-  "no": 17,
-  "title": "猜一猜",
-  "title_py": "cāi yì cāi",
-  "title_en": "Guess the word",
-  "title_tr": {
-    "vi": "Đoán từ",
-    "pt": "Adivinhe a palavra",
-    "es": "Adivina la palabra",
-    "fr": "Devinez !",
-    "am": "ገምቱ",
-    "fa": "کلمه را حدس بزن"
+ "id": "h2-17",
+ "level": 2,
+ "no": 17,
+ "title": "猜一猜",
+ "title_py": "cāi yì cāi",
+ "title_en": "Guess the word",
+ "title_tr": {
+  "vi": "Đoán từ",
+  "pt": "Adivinhe a palavra",
+  "es": "Adivina la palabra",
+  "fr": "Devinez !",
+  "am": "ገምቱ",
+  "fa": "کلمه را حدس بزن"
+ },
+ "topic": "school",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h2-17.jpg",
+ "duration": 72.8,
+ "lines": [
+  {
+   "text": "星期五的汉语课快下课了，李老师说：“我们来玩一个游戏吧！”",
+   "py": "xīng qī wǔ de Hàn yǔ kè kuài xià kè le, Lǐ lǎo shī shuō: “wǒ men lái wán yí gè yóu xì ba!”",
+   "en": "Friday's Chinese class is nearly over, and Teacher Li says, \"Let's play a game!\"",
+   "tr": {
+    "vi": "Giờ tiếng Trung hôm thứ Sáu sắp tan, cô Lý nói: “Chúng ta chơi một trò chơi nhé!”",
+    "pt": "A aula de chinês de sexta-feira está quase acabando, e a professora Li diz: “Vamos fazer uma brincadeira!”",
+    "es": "La clase de chino del viernes ya casi termina, y la profesora Li dice: «¡Vamos a jugar un juego!»",
+    "fr": "Le cours de chinois du vendredi est presque fini, et la professeure Li dit : « On va faire un jeu ! »",
+    "am": "የዓርብ የቻይንኛ ክፍለ ጊዜ ሊያልቅ ሲል መምህርት ሊ «አንድ ጨዋታ እንጫወት!» አለች።",
+    "fa": "جمعه که کلاس چینی داره تموم می‌شه، معلم لی می‌گه: «بیاید یه بازی بازی کنیم!»"
+   },
+   "start": 2.14,
+   "end": 8.284,
+   "tokens": [
+    [
+     "星期五",
+     "xīng qī wǔ",
+     "Friday",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "汉语",
+     "hàn yǔ",
+     "Chinese language",
+     ""
+    ],
+    [
+     "课",
+     "kè",
+     "class; subject; course",
+     ""
+    ],
+    [
+     "快",
+     "kuài",
+     "rapid; quick; speed",
+     ""
+    ],
+    [
+     "下课",
+     "xià kè",
+     "to finish class; to get out of class",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "玩",
+     "wán",
+     "to play; to have fun; to trifle with",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "游戏",
+     "yóu xì",
+     "game; to play",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
   },
-  "topic": "school",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h2-17.jpg",
-  "duration": 72.8,
-  "lines": [
-    {
-      "text": "星期五的汉语课快下课了，李老师说：“我们来玩一个游戏吧！”",
-      "py": "xīng qī wǔ de Hàn yǔ kè kuài xià kè le, Lǐ lǎo shī shuō: “wǒ men lái wán yí gè yóu xì ba!”",
-      "en": "Friday's Chinese class is nearly over, and Teacher Li says, \"Let's play a game!\"",
-      "tr": {
-        "vi": "Giờ tiếng Trung hôm thứ Sáu sắp tan, cô Lý nói: “Chúng ta chơi một trò chơi nhé!”",
-        "pt": "A aula de chinês de sexta-feira está quase acabando, e a professora Li diz: “Vamos fazer uma brincadeira!”",
-        "es": "La clase de chino del viernes ya casi termina, y la profesora Li dice: «¡Vamos a jugar un juego!»",
-        "fr": "Le cours de chinois du vendredi est presque fini, et la professeure Li dit : « On va faire un jeu ! »",
-        "am": "የዓርብ የቻይንኛ ክፍለ ጊዜ ሊያልቅ ሲል መምህርት ሊ «አንድ ጨዋታ እንጫወት!» አለች።"
-      },
-      "start": 2.14,
-      "end": 8.284,
-      "tokens": [
-        [
-          "星期五",
-          "xīng qī wǔ",
-          "Friday",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "汉语",
-          "hàn yǔ",
-          "Chinese language",
-          ""
-        ],
-        [
-          "课",
-          "kè",
-          "class; subject; course",
-          ""
-        ],
-        [
-          "快",
-          "kuài",
-          "rapid; quick; speed",
-          ""
-        ],
-        [
-          "下课",
-          "xià kè",
-          "to finish class; to get out of class",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "玩",
-          "wán",
-          "to play; to have fun; to trifle with",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "游戏",
-          "yóu xì",
-          "game; to play",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“一个同学到前面来，不能说话，只能用手和身体告诉大家一个词。别的同学来猜。”",
-      "py": "“yí gè tóng xué dào qián mian lái, bù néng shuō huà, zhǐ néng yòng shǒu hé shēn tǐ gào su dà jiā yí gè cí. bié de tóng xué lái cāi.”",
-      "en": "\"One student comes to the front. No talking: you can only use your hands and body to show everyone a word. The others guess.\"",
-      "tr": {
-        "vi": "“Một bạn lên phía trước, không được nói, chỉ được dùng tay và cơ thể để diễn tả một từ cho cả lớp. Các bạn khác đoán.”",
-        "pt": "“Um aluno vem aqui na frente. Não pode falar: só pode usar as mãos e o corpo para mostrar uma palavra a todos. Os outros adivinham.”",
-        "es": "«Un compañero pasa al frente. No puede hablar: solo puede usar las manos y el cuerpo para mostrarnos una palabra. Los demás adivinan».",
-        "fr": "« Un élève vient devant. Il n’a pas le droit de parler : il doit montrer un mot avec ses mains et son corps. Les autres devinent. »",
-        "am": "«አንድ ተማሪ ወደ ፊት ይመጣል። መናገር አይችልም፤ በእጁና በሰውነቱ ብቻ አንድ ቃል ያሳያል። ሌሎቹ ተማሪዎች ይገምታሉ።»"
-      },
-      "start": 8.984,
-      "end": 17.048,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "同学",
-          "tóng xué",
-          "fellow student; to study at the same school; classmate",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "前面",
-          "qián miàn",
-          "in front; ahead; preceding",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; ever since (as in 自古以来)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "说话",
-          "shuō huà",
-          "to talk; talk; word",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只能",
-          "zhǐ néng",
-          "can only; to have no other choice; obliged to do sth",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "手",
-          "shǒu",
-          "hand; (formal) to hold",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "身体",
-          "shēn tǐ",
-          "the body; one's health",
-          ""
-        ],
-        [
-          "告诉",
-          "gào su",
-          "to tell; to inform; to let know",
-          ""
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "词",
-          "cí",
-          "word; statement; speech; lyrics",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "别的",
-          "bié de",
-          "other; else",
-          ""
-        ],
-        [
-          "同学",
-          "tóng xué",
-          "fellow student; to study at the same school; classmate",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; ever since (as in 自古以来)",
-          ""
-        ],
-        [
-          "猜",
-          "cāi",
-          "to guess",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "第一个是杰克。李老师小声告诉了他一个词。",
-      "py": "dì yí gè shì Jié kè. Lǐ lǎo shī xiǎo shēng gào su le tā yí gè cí.",
-      "en": "Jack goes first. Teacher Li whispers a word to him.",
-      "tr": {
-        "vi": "Người đầu tiên là Jack. Cô Lý nói thầm cho anh ấy một từ.",
-        "pt": "Jack é o primeiro. A professora Li fala uma palavra baixinho para ele.",
-        "es": "El primero es Jack. La profesora Li le dice una palabra en voz baja.",
-        "fr": "Jack passe en premier. La professeure Li lui souffle un mot tout bas.",
-        "am": "መጀመሪያ ጃክ ወጣ። መምህርት ሊ አንድ ቃል በሹክሹክታ ነገረችው።"
-      },
-      "start": 17.748,
-      "end": 22.74,
-      "tokens": [
-        [
-          "第一",
-          "dì yī",
-          "first; most important; primary; foremost",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "小声",
-          "xiǎo shēng",
-          "(speak) in whispers; in a low voice",
-          ""
-        ],
-        [
-          "告诉",
-          "gào su",
-          "to tell; to inform; to let know",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "词",
-          "cí",
-          "word; statement; speech; lyrics",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克想了想，把两只手放在头上，像两只耳朵。",
-      "py": "Jié kè xiǎng le xiǎng, bǎ liǎng zhī shǒu fàng zài tóu shàng, xiàng liǎng zhī ěr duo.",
-      "en": "Jack thinks for a moment, then puts his hands on his head like two ears.",
-      "tr": {
-        "vi": "Jack nghĩ một chút, rồi đặt hai tay lên đầu, giống như hai cái tai.",
-        "pt": "Jack pensa um pouco e põe as duas mãos na cabeça, como duas orelhas.",
-        "es": "Jack lo piensa un momento y se pone las dos manos en la cabeza, como dos orejas.",
-        "fr": "Jack réfléchit un instant, puis pose ses deux mains sur sa tête, comme deux oreilles.",
-        "am": "ጃክ ትንሽ አሰበና ሁለት እጆቹን እንደ ጆሮ ራሱ ላይ አደረገ።"
-      },
-      "start": 23.44,
-      "end": 28.912,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
-          ""
-        ],
-        [
-          "手",
-          "shǒu",
-          "hand; (formal) to hold",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "头上",
-          "tóu shàng",
-          "overhead; above",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "像",
-          "xiàng",
-          "to be like; to resemble; to look as if",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
-          ""
-        ],
-        [
-          "耳朵",
-          "ěr duo",
-          "ear; handle (on a cup)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜说：“是狗！”",
-      "py": "Ān nà shuō: “shì gǒu!”",
-      "en": "Anna says, \"It's a dog!\"",
-      "tr": {
-        "vi": "Anna nói: “Là con chó!”",
-        "pt": "Anna diz: “É um cachorro!”",
-        "es": "Anna dice: «¡Es un perro!»",
-        "fr": "Anna dit : « C’est un chien ! »",
-        "am": "አና «ውሻ ነው!» አለች።"
-      },
-      "start": 29.612,
-      "end": 31.988,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "狗",
-          "gǒu",
-          "dog",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克看着大家，很着急。",
-      "py": "Jié kè kàn zhe dà jiā, hěn zháo jí.",
-      "en": "Jack looks at everyone, getting anxious.",
-      "tr": {
-        "vi": "Jack nhìn mọi người, rất sốt ruột.",
-        "pt": "Jack olha para todos, aflito.",
-        "es": "Jack mira a todos, cada vez más nervioso.",
-        "fr": "Jack regarde tout le monde, de plus en plus inquiet.",
-        "am": "ጃክ ሁሉንም እያየ ተጨነቀ።"
-      },
-      "start": 32.688,
-      "end": 36,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "着急",
-          "zháo jí",
-          "to worry; to feel anxious",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "最后，他“喵”地叫了一声。",
-      "py": "zuì hòu, tā “miāo” de jiào le yì shēng.",
-      "en": "In the end, he lets out a \"meow\".",
-      "tr": {
-        "vi": "Cuối cùng, anh ấy kêu lên một tiếng “meo”.",
-        "pt": "No fim, ele solta um “miau”.",
-        "es": "Al final, hace «miau».",
-        "fr": "Finalement, il fait « miaou ».",
-        "am": "በመጨረሻ «ሚያው» አለ።"
-      },
-      "start": 36.7,
-      "end": 39.82,
-      "tokens": [
-        [
-          "最后",
-          "zuì hòu",
-          "finally; in the end; final; last; ultimate",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "喵",
-          "miāo",
-          "(onom.) meow; cat's mewing",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to shout; to call; to order",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一声",
-          "yī shēng",
-          "first tone in Mandarin (high, level tone)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "大家都笑了：“是猫！可是你不能出声！”",
-      "py": "dà jiā dōu xiào le: “shì māo! kě shì nǐ bù néng chū shēng!”",
-      "en": "Everyone laughs. \"It's a cat! But you're not allowed to make a sound!\"",
-      "tr": {
-        "vi": "Mọi người đều cười: “Là con mèo! Nhưng cậu không được phát ra tiếng!”",
-        "pt": "Todos riem: “É um gato! Mas você não pode fazer barulho!”",
-        "es": "Todos se ríen: «¡Es un gato! ¡Pero no puedes hacer ruido!»",
-        "fr": "Tout le monde rit : « C’est un chat ! Mais tu n’as pas le droit de faire de bruit ! »",
-        "am": "ሁሉም ሳቁ። «ድመት ነው! ግን ድምፅ ማውጣት አትችልም!»"
-      },
-      "start": 40.52,
-      "end": 45.248,
-      "tokens": [
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "猫",
-          "māo",
-          "cat; (dialect) to hide oneself; (loanword) (coll.) modem",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
-          ""
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "出声",
-          "chū shēng",
-          "to make a sound; to speak; to cry out",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "第二个是山田。她走到前面，一点儿也不笑，看了看大家。",
-      "py": "dì èr gè shì Shān tián. tā zǒu dào qián mian, yì diǎn r yě bú xiào, kàn le kàn dà jiā.",
-      "en": "Yamada goes second. She walks to the front and, without a hint of a smile, looks around at everyone.",
-      "tr": {
-        "vi": "Người thứ hai là Yamada. Cô ấy đi lên phía trước, không cười chút nào, nhìn một lượt mọi người.",
-        "pt": "A segunda é Yamada. Ela vai até a frente e, sem nem sorrir, olha para todos.",
-        "es": "La segunda es Yamada. Pasa al frente sin sonreír para nada y mira a todos.",
-        "fr": "Yamada passe en deuxième. Elle va devant et, sans le moindre sourire, regarde tout le monde.",
-        "am": "ሁለተኛዋ ያማዳ ነበረች። ወደ ፊት ወጣች፤ ምንም ፈገግ ሳትል ሁሉንም ተመለከተች።"
-      },
-      "start": 45.948,
-      "end": 52.116,
-      "tokens": [
-        [
-          "第二",
-          "dì èr",
-          "second; secondary; number two",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "前面",
-          "qián miàn",
-          "in front; ahead; preceding",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她看了看手表，又指了指门，好像在说：“你又迟到了！”",
-      "py": "tā kàn le kàn shǒu biǎo, yòu zhǐ le zhǐ mén, hǎo xiàng zài shuō: “nǐ yòu chí dào le!”",
-      "en": "She looks at her watch, then points at the door, as if to say, \"You're late again!\"",
-      "tr": {
-        "vi": "Cô ấy nhìn đồng hồ, rồi chỉ ra cửa, như muốn nói: “Em lại đến muộn rồi!”",
-        "pt": "Ela olha para o relógio e depois aponta para a porta, como se dissesse: “Você chegou atrasado de novo!”",
-        "es": "Mira su reloj y luego señala la puerta, como diciendo: «¡Otra vez llegaste tarde!»",
-        "fr": "Elle regarde sa montre, puis montre la porte du doigt, comme pour dire : « Tu es encore en retard ! »",
-        "am": "ሰዓቷን አየች፤ ከዚያ በሩን በጣቷ አሳየች፤ «እንደገና ዘገየህ!» የምትል ትመስል ነበር።"
-      },
-      "start": 52.816,
-      "end": 58.768,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to watch; to look after",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to watch; to look after",
-          ""
-        ],
-        [
-          "手表",
-          "shǒu biǎo",
-          "wristwatch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "指",
-          "zhǐ",
-          "to point at or to; finger; to indicate or refer to",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "指",
-          "zhǐ",
-          "to point at or to; finger; to indicate or refer to",
-          ""
-        ],
-        [
-          "门",
-          "mén",
-          "gate; door; doorway; gateway; opening",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "好像",
-          "hǎo xiàng",
-          "as if; to seem like",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "迟到",
-          "chí dào",
-          "to arrive late",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "大家一起大声说：“李老师！”",
-      "py": "dà jiā yì qǐ dà shēng shuō: “Lǐ lǎo shī!”",
-      "en": "Everyone shouts together, \"Teacher Li!\"",
-      "tr": {
-        "vi": "Mọi người cùng hô to: “Cô Lý!”",
-        "pt": "Todos gritam juntos: “É a professora Li!”",
-        "es": "Todos gritan juntos: «¡La profesora Li!»",
-        "fr": "Tout le monde crie en même temps : « Madame Li ! »",
-        "am": "ሁሉም በአንድ ላይ «መምህርት ሊ!» ብለው ጮኹ።"
-      },
-      "start": 59.468,
-      "end": 62.804,
-      "tokens": [
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "一起",
-          "yī qǐ",
-          "together; in company (with); (in) the same place",
-          ""
-        ],
-        [
-          "大声",
-          "dà shēng",
-          "loud voice; in a loud voice; loudly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "李老师笑了：“我上课的时候是这样的吗？”",
-      "py": "Lǐ lǎo shī xiào le: “wǒ shàng kè de shí hou shì zhè yàng de ma?”",
-      "en": "Teacher Li laughs. \"Is that what I'm like in class?\"",
-      "tr": {
-        "vi": "Cô Lý cười: “Lúc dạy cô trông như thế à?”",
-        "pt": "A professora Li ri: “Eu sou assim na aula?”",
-        "es": "La profesora Li se ríe: «¿Así soy yo en clase?»",
-        "fr": "La professeure Li rit : « Je suis comme ça en cours ? »",
-        "am": "መምህርት ሊ ሳቀች። «ሳስተምር እንደዚህ ነኝ እንዴ?»"
-      },
-      "start": 63.504,
-      "end": 68.064,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "上课",
-          "shàng kè",
-          "to go to class; to attend class; to go to teach a class",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "这样",
-          "zhè yàng",
-          "this way; like this; so; (before a noun) this kind of; such",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "同学们都说：“是！太像了！”",
-      "py": "tóng xué men dōu shuō: “shì! tài xiàng le!”",
-      "en": "The students all say, \"Yes! That's exactly you!\"",
-      "tr": {
-        "vi": "Các bạn đều nói: “Vâng! Giống lắm ạ!”",
-        "pt": "Os alunos dizem: “É! Igualzinha!”",
-        "es": "Todos los compañeros dicen: «¡Sí! ¡Es idéntica!»",
-        "fr": "Les élèves répondent tous : « Oui ! C’est tout à fait vous ! »",
-        "am": "ተማሪዎቹ ሁሉ «አዎ! ልክ እርስዎን ነው!» አሉ።"
-      },
-      "start": 68.764,
-      "end": 72.1,
-      "tokens": [
-        [
-          "同学",
-          "tóng xué",
-          "fellow student; to study at the same school; classmate",
-          ""
-        ],
-        [
-          "们",
-          "men",
-          "plural marker for pronouns, and nouns referring to individuals",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "太",
-          "tài",
-          "highest; greatest; too (much)",
-          ""
-        ],
-        [
-          "像",
-          "xiàng",
-          "to resemble; to be like; to look as if",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 206,
-  "first": "星期五的汉语课快下课了，李老师说：“我们来玩一个游戏吧！”",
-  "newWords": [
-    {
-      "w": "游戏",
-      "py": "yóuxì",
-      "en": "game"
-    },
-    {
-      "w": "猜",
-      "py": "cāi",
-      "en": "to guess"
-    },
-    {
-      "w": "耳朵",
-      "py": "ěrduo",
-      "en": "ear"
-    },
-    {
-      "w": "像",
-      "py": "xiàng",
-      "en": "like"
-    },
-    {
-      "w": "迟到",
-      "py": "chídào",
-      "en": "to arrive late"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h2-17.mp3?v=1791720560"
+  {
+   "text": "“一个同学到前面来，不能说话，只能用手和身体告诉大家一个词。别的同学来猜。”",
+   "py": "“yí gè tóng xué dào qián mian lái, bù néng shuō huà, zhǐ néng yòng shǒu hé shēn tǐ gào su dà jiā yí gè cí. bié de tóng xué lái cāi.”",
+   "en": "\"One student comes to the front. No talking: you can only use your hands and body to show everyone a word. The others guess.\"",
+   "tr": {
+    "vi": "“Một bạn lên phía trước, không được nói, chỉ được dùng tay và cơ thể để diễn tả một từ cho cả lớp. Các bạn khác đoán.”",
+    "pt": "“Um aluno vem aqui na frente. Não pode falar: só pode usar as mãos e o corpo para mostrar uma palavra a todos. Os outros adivinham.”",
+    "es": "«Un compañero pasa al frente. No puede hablar: solo puede usar las manos y el cuerpo para mostrarnos una palabra. Los demás adivinan».",
+    "fr": "« Un élève vient devant. Il n’a pas le droit de parler : il doit montrer un mot avec ses mains et son corps. Les autres devinent. »",
+    "am": "«አንድ ተማሪ ወደ ፊት ይመጣል። መናገር አይችልም፤ በእጁና በሰውነቱ ብቻ አንድ ቃል ያሳያል። ሌሎቹ ተማሪዎች ይገምታሉ።»",
+    "fa": "«یکی از شاگردها میاد جلو؛ حق حرف زدن نداره، فقط با دست و بدنش باید یه کلمه رو نشون بده و بقیه حدس بزنن.»"
+   },
+   "start": 8.984,
+   "end": 17.048,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "同学",
+     "tóng xué",
+     "fellow student; to study at the same school; classmate",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "前面",
+     "qián miàn",
+     "in front; ahead; preceding",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; ever since (as in 自古以来)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "说话",
+     "shuō huà",
+     "to talk; talk; word",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只能",
+     "zhǐ néng",
+     "can only; to have no other choice; obliged to do sth",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "手",
+     "shǒu",
+     "hand; (formal) to hold",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "身体",
+     "shēn tǐ",
+     "the body; one's health",
+     ""
+    ],
+    [
+     "告诉",
+     "gào su",
+     "to tell; to inform; to let know",
+     ""
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "词",
+     "cí",
+     "word; statement; speech; lyrics",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "别的",
+     "bié de",
+     "other; else",
+     ""
+    ],
+    [
+     "同学",
+     "tóng xué",
+     "fellow student; to study at the same school; classmate",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; ever since (as in 自古以来)",
+     ""
+    ],
+    [
+     "猜",
+     "cāi",
+     "to guess",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "第一个是杰克。李老师小声告诉了他一个词。",
+   "py": "dì yí gè shì Jié kè. Lǐ lǎo shī xiǎo shēng gào su le tā yí gè cí.",
+   "en": "Jack goes first. Teacher Li whispers a word to him.",
+   "tr": {
+    "vi": "Người đầu tiên là Jack. Cô Lý nói thầm cho anh ấy một từ.",
+    "pt": "Jack é o primeiro. A professora Li fala uma palavra baixinho para ele.",
+    "es": "El primero es Jack. La profesora Li le dice una palabra en voz baja.",
+    "fr": "Jack passe en premier. La professeure Li lui souffle un mot tout bas.",
+    "am": "መጀመሪያ ጃክ ወጣ። መምህርት ሊ አንድ ቃል በሹክሹክታ ነገረችው።",
+    "fa": "اول جک میاد. معلم لی آروم یه کلمه بهش می‌گه."
+   },
+   "start": 17.748,
+   "end": 22.74,
+   "tokens": [
+    [
+     "第一",
+     "dì yī",
+     "first; most important; primary; foremost",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "小声",
+     "xiǎo shēng",
+     "(speak) in whispers; in a low voice",
+     ""
+    ],
+    [
+     "告诉",
+     "gào su",
+     "to tell; to inform; to let know",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "词",
+     "cí",
+     "word; statement; speech; lyrics",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克想了想，把两只手放在头上，像两只耳朵。",
+   "py": "Jié kè xiǎng le xiǎng, bǎ liǎng zhī shǒu fàng zài tóu shàng, xiàng liǎng zhī ěr duo.",
+   "en": "Jack thinks for a moment, then puts his hands on his head like two ears.",
+   "tr": {
+    "vi": "Jack nghĩ một chút, rồi đặt hai tay lên đầu, giống như hai cái tai.",
+    "pt": "Jack pensa um pouco e põe as duas mãos na cabeça, como duas orelhas.",
+    "es": "Jack lo piensa un momento y se pone las dos manos en la cabeza, como dos orejas.",
+    "fr": "Jack réfléchit un instant, puis pose ses deux mains sur sa tête, comme deux oreilles.",
+    "am": "ጃክ ትንሽ አሰበና ሁለት እጆቹን እንደ ጆሮ ራሱ ላይ አደረገ።",
+    "fa": "جک یه لحظه فکر می‌کنه، بعد دو دستش رو می‌ذاره روی سرش، مثل دو تا گوش."
+   },
+   "start": 23.44,
+   "end": 28.912,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
+     ""
+    ],
+    [
+     "手",
+     "shǒu",
+     "hand; (formal) to hold",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "头上",
+     "tóu shàng",
+     "overhead; above",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "像",
+     "xiàng",
+     "to be like; to resemble; to look as if",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
+     ""
+    ],
+    [
+     "耳朵",
+     "ěr duo",
+     "ear; handle (on a cup)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜说：“是狗！”",
+   "py": "Ān nà shuō: “shì gǒu!”",
+   "en": "Anna says, \"It's a dog!\"",
+   "tr": {
+    "vi": "Anna nói: “Là con chó!”",
+    "pt": "Anna diz: “É um cachorro!”",
+    "es": "Anna dice: «¡Es un perro!»",
+    "fr": "Anna dit : « C’est un chien ! »",
+    "am": "አና «ውሻ ነው!» አለች።",
+    "fa": "آنا می‌گه: «سگه!»"
+   },
+   "start": 29.612,
+   "end": 31.988,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "狗",
+     "gǒu",
+     "dog",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克看着大家，很着急。",
+   "py": "Jié kè kàn zhe dà jiā, hěn zháo jí.",
+   "en": "Jack looks at everyone, getting anxious.",
+   "tr": {
+    "vi": "Jack nhìn mọi người, rất sốt ruột.",
+    "pt": "Jack olha para todos, aflito.",
+    "es": "Jack mira a todos, cada vez más nervioso.",
+    "fr": "Jack regarde tout le monde, de plus en plus inquiet.",
+    "am": "ጃክ ሁሉንም እያየ ተጨነቀ።",
+    "fa": "جک به همه نگاه می‌کنه و حسابی بی‌تابه."
+   },
+   "start": 32.688,
+   "end": 36,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "着急",
+     "zháo jí",
+     "to worry; to feel anxious",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "最后，他“喵”地叫了一声。",
+   "py": "zuì hòu, tā “miāo” de jiào le yì shēng.",
+   "en": "In the end, he lets out a \"meow\".",
+   "tr": {
+    "vi": "Cuối cùng, anh ấy kêu lên một tiếng “meo”.",
+    "pt": "No fim, ele solta um “miau”.",
+    "es": "Al final, hace «miau».",
+    "fr": "Finalement, il fait « miaou ».",
+    "am": "በመጨረሻ «ሚያው» አለ።",
+    "fa": "بالاخره یه «میاو» می‌کنه."
+   },
+   "start": 36.7,
+   "end": 39.82,
+   "tokens": [
+    [
+     "最后",
+     "zuì hòu",
+     "finally; in the end; final; last; ultimate",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "喵",
+     "miāo",
+     "(onom.) meow; cat's mewing",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to shout; to call; to order",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一声",
+     "yī shēng",
+     "first tone in Mandarin (high, level tone)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "大家都笑了：“是猫！可是你不能出声！”",
+   "py": "dà jiā dōu xiào le: “shì māo! kě shì nǐ bù néng chū shēng!”",
+   "en": "Everyone laughs. \"It's a cat! But you're not allowed to make a sound!\"",
+   "tr": {
+    "vi": "Mọi người đều cười: “Là con mèo! Nhưng cậu không được phát ra tiếng!”",
+    "pt": "Todos riem: “É um gato! Mas você não pode fazer barulho!”",
+    "es": "Todos se ríen: «¡Es un gato! ¡Pero no puedes hacer ruido!»",
+    "fr": "Tout le monde rit : « C’est un chat ! Mais tu n’as pas le droit de faire de bruit ! »",
+    "am": "ሁሉም ሳቁ። «ድመት ነው! ግን ድምፅ ማውጣት አትችልም!»",
+    "fa": "همه می‌خندن: «گربه‌ست! ولی اجازه صدا دادن نداری!»"
+   },
+   "start": 40.52,
+   "end": 45.248,
+   "tokens": [
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "猫",
+     "māo",
+     "cat; (dialect) to hide oneself; (loanword) (coll.) modem",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
+     ""
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "出声",
+     "chū shēng",
+     "to make a sound; to speak; to cry out",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "第二个是山田。她走到前面，一点儿也不笑，看了看大家。",
+   "py": "dì èr gè shì Shān tián. tā zǒu dào qián mian, yì diǎn r yě bú xiào, kàn le kàn dà jiā.",
+   "en": "Yamada goes second. She walks to the front and, without a hint of a smile, looks around at everyone.",
+   "tr": {
+    "vi": "Người thứ hai là Yamada. Cô ấy đi lên phía trước, không cười chút nào, nhìn một lượt mọi người.",
+    "pt": "A segunda é Yamada. Ela vai até a frente e, sem nem sorrir, olha para todos.",
+    "es": "La segunda es Yamada. Pasa al frente sin sonreír para nada y mira a todos.",
+    "fr": "Yamada passe en deuxième. Elle va devant et, sans le moindre sourire, regarde tout le monde.",
+    "am": "ሁለተኛዋ ያማዳ ነበረች። ወደ ፊት ወጣች፤ ምንም ፈገግ ሳትል ሁሉንም ተመለከተች።",
+    "fa": "دومی یاماداست. می‌ره جلو، بدون حتی یه لبخند، به همه نگاه می‌کنه."
+   },
+   "start": 45.948,
+   "end": 52.116,
+   "tokens": [
+    [
+     "第二",
+     "dì èr",
+     "second; secondary; number two",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "前面",
+     "qián miàn",
+     "in front; ahead; preceding",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她看了看手表，又指了指门，好像在说：“你又迟到了！”",
+   "py": "tā kàn le kàn shǒu biǎo, yòu zhǐ le zhǐ mén, hǎo xiàng zài shuō: “nǐ yòu chí dào le!”",
+   "en": "She looks at her watch, then points at the door, as if to say, \"You're late again!\"",
+   "tr": {
+    "vi": "Cô ấy nhìn đồng hồ, rồi chỉ ra cửa, như muốn nói: “Em lại đến muộn rồi!”",
+    "pt": "Ela olha para o relógio e depois aponta para a porta, como se dissesse: “Você chegou atrasado de novo!”",
+    "es": "Mira su reloj y luego señala la puerta, como diciendo: «¡Otra vez llegaste tarde!»",
+    "fr": "Elle regarde sa montre, puis montre la porte du doigt, comme pour dire : « Tu es encore en retard ! »",
+    "am": "ሰዓቷን አየች፤ ከዚያ በሩን በጣቷ አሳየች፤ «እንደገና ዘገየህ!» የምትል ትመስል ነበር።",
+    "fa": "به ساعتش نگاه می‌کنه، بعد به در اشاره می‌کنه؛ انگار داره می‌گه: «بازم دیر اومدی!»"
+   },
+   "start": 52.816,
+   "end": 58.768,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to watch; to look after",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to watch; to look after",
+     ""
+    ],
+    [
+     "手表",
+     "shǒu biǎo",
+     "wristwatch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "指",
+     "zhǐ",
+     "to point at or to; finger; to indicate or refer to",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "指",
+     "zhǐ",
+     "to point at or to; finger; to indicate or refer to",
+     ""
+    ],
+    [
+     "门",
+     "mén",
+     "gate; door; doorway; gateway; opening",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "好像",
+     "hǎo xiàng",
+     "as if; to seem like",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "迟到",
+     "chí dào",
+     "to arrive late",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "大家一起大声说：“李老师！”",
+   "py": "dà jiā yì qǐ dà shēng shuō: “Lǐ lǎo shī!”",
+   "en": "Everyone shouts together, \"Teacher Li!\"",
+   "tr": {
+    "vi": "Mọi người cùng hô to: “Cô Lý!”",
+    "pt": "Todos gritam juntos: “É a professora Li!”",
+    "es": "Todos gritan juntos: «¡La profesora Li!»",
+    "fr": "Tout le monde crie en même temps : « Madame Li ! »",
+    "am": "ሁሉም በአንድ ላይ «መምህርት ሊ!» ብለው ጮኹ።",
+    "fa": "همه با صدای بلند می‌گن: «معلم لی!»"
+   },
+   "start": 59.468,
+   "end": 62.804,
+   "tokens": [
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "一起",
+     "yī qǐ",
+     "together; in company (with); (in) the same place",
+     ""
+    ],
+    [
+     "大声",
+     "dà shēng",
+     "loud voice; in a loud voice; loudly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "李老师笑了：“我上课的时候是这样的吗？”",
+   "py": "Lǐ lǎo shī xiào le: “wǒ shàng kè de shí hou shì zhè yàng de ma?”",
+   "en": "Teacher Li laughs. \"Is that what I'm like in class?\"",
+   "tr": {
+    "vi": "Cô Lý cười: “Lúc dạy cô trông như thế à?”",
+    "pt": "A professora Li ri: “Eu sou assim na aula?”",
+    "es": "La profesora Li se ríe: «¿Así soy yo en clase?»",
+    "fr": "La professeure Li rit : « Je suis comme ça en cours ? »",
+    "am": "መምህርት ሊ ሳቀች። «ሳስተምር እንደዚህ ነኝ እንዴ?»",
+    "fa": "معلم لی می‌خنده: «من توی کلاس واقعاً این‌طوری‌ام؟»"
+   },
+   "start": 63.504,
+   "end": 68.064,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "上课",
+     "shàng kè",
+     "to go to class; to attend class; to go to teach a class",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "这样",
+     "zhè yàng",
+     "this way; like this; so; (before a noun) this kind of; such",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "同学们都说：“是！太像了！”",
+   "py": "tóng xué men dōu shuō: “shì! tài xiàng le!”",
+   "en": "The students all say, \"Yes! That's exactly you!\"",
+   "tr": {
+    "vi": "Các bạn đều nói: “Vâng! Giống lắm ạ!”",
+    "pt": "Os alunos dizem: “É! Igualzinha!”",
+    "es": "Todos los compañeros dicen: «¡Sí! ¡Es idéntica!»",
+    "fr": "Les élèves répondent tous : « Oui ! C’est tout à fait vous ! »",
+    "am": "ተማሪዎቹ ሁሉ «አዎ! ልክ እርስዎን ነው!» አሉ።",
+    "fa": "همه‌ی شاگردها می‌گن: «آره! دقیقاً خودتی!»"
+   },
+   "start": 68.764,
+   "end": 72.1,
+   "tokens": [
+    [
+     "同学",
+     "tóng xué",
+     "fellow student; to study at the same school; classmate",
+     ""
+    ],
+    [
+     "们",
+     "men",
+     "plural marker for pronouns, and nouns referring to individuals",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "太",
+     "tài",
+     "highest; greatest; too (much)",
+     ""
+    ],
+    [
+     "像",
+     "xiàng",
+     "to resemble; to be like; to look as if",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 206,
+ "first": "星期五的汉语课快下课了，李老师说：“我们来玩一个游戏吧！”",
+ "newWords": [
+  {
+   "w": "游戏",
+   "py": "yóuxì",
+   "en": "game"
+  },
+  {
+   "w": "猜",
+   "py": "cāi",
+   "en": "to guess"
+  },
+  {
+   "w": "耳朵",
+   "py": "ěrduo",
+   "en": "ear"
+  },
+  {
+   "w": "像",
+   "py": "xiàng",
+   "en": "like"
+  },
+  {
+   "w": "迟到",
+   "py": "chídào",
+   "en": "to arrive late"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h2-17.mp3?v=1791720560"
 }

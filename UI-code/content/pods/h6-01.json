@@ -1,2899 +1,2921 @@
 {
-  "id": "h6-01",
-  "level": 6,
-  "no": 1,
-  "title": "停水通知",
-  "title_py": "tíng shuǐ tōng zhī",
-  "title_en": "The water notice",
-  "title_tr": {
-    "am": "የውሃ መቋረጥ ማስታወቂያ",
-    "fa": "اطلاعیه قطعی آب ساختمان"
+ "id": "h6-01",
+ "level": 6,
+ "no": 1,
+ "title": "停水通知",
+ "title_py": "tíng shuǐ tōng zhī",
+ "title_en": "The water notice",
+ "title_tr": {
+  "am": "የውሃ መቋረጥ ማስታወቂያ",
+  "fa": "اطلاعیه قطعی آب ساختمان"
+ },
+ "topic": "daily",
+ "free": true,
+ "cover": "https://media.kanchinese.app/review/stories/h6-01.jpg",
+ "duration": 182.732,
+ "lines": [
+  {
+   "text": "星期一早上，杰克在小区门口看到一张停水通知，上面写着：因管道维修，星期三上午八点至晚上八点停水。",
+   "py": "xīng qī yì zǎo shang, Jié kè zài xiǎo qū mén kǒu kàn dào yì zhāng tíng shuǐ tōng zhī, shàng miàn xiě zhe: yīn guǎn dào wéi xiū, xīng qī sān shàng wǔ bā diǎn zhì wǎn shang bā diǎn tíng shuǐ.",
+   "en": "On Monday morning, Jack sees a notice at the entrance to his housing estate. It says that, due to pipe repairs, the water will be off on Wednesday from 8 a.m. to 8 p.m.",
+   "tr": {
+    "am": "ሰኞ ጠዋት ጃክ በመኖሪያ ግቢው በር ላይ የውሃ መቋረጥ ማስታወቂያ አየ፤ እንዲህ ይላል፦ በቧንቧ ጥገና ምክንያት ረቡዕ ከጠዋት 8:00 እስከ ምሽት 8:00 ውሃ ይቋረጣል።",
+    "fa": "دوشنبه صبح جک جلوی ورودی مجتمع مسکونی‌ش یه اطلاعیه می‌بینه: به‌خاطر تعمیر لوله‌ها، روز چهارشنبه از ساعت هشت صبح تا هشت شب قطع آب دارن."
+   },
+   "start": 2.62,
+   "end": 14.452,
+   "tokens": [
+    [
+     "星期一",
+     "xīng qī yī",
+     "Monday",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "小区",
+     "xiǎo qū",
+     "housing estate; community; neighborhood",
+     ""
+    ],
+    [
+     "门口",
+     "mén kǒu",
+     "doorway; gate",
+     ""
+    ],
+    [
+     "看到",
+     "kàn dào",
+     "to see",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "停水",
+     "tíng shuǐ",
+     "to cut off the water supply; water outage",
+     ""
+    ],
+    [
+     "通知",
+     "tōng zhī",
+     "notice; to notify; to inform",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "上面",
+     "shàng miàn",
+     "on top of; above-mentioned; also pr.",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "因",
+     "yīn",
+     "cause; reason; because",
+     ""
+    ],
+    [
+     "管道",
+     "guǎn dào",
+     "pipeline; tubing; (fig.) channel",
+     ""
+    ],
+    [
+     "维修",
+     "wéi xiū",
+     "maintenance (of equipment); to protect and maintain",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "星期三",
+     "xīng qī sān",
+     "Wednesday",
+     ""
+    ],
+    [
+     "上午",
+     "shàng wǔ",
+     "morning",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to mark with a dot; to check off (on a list)",
+     ""
+    ],
+    [
+     "至",
+     "zhì",
+     "to arrive; most; to",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; night; in the evening",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to mark with a dot; to check off (on a list)",
+     ""
+    ],
+    [
+     "停水",
+     "tíng shuǐ",
+     "to cut off the water supply; water outage",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "daily",
-  "free": true,
-  "cover": "https://media.kanchinese.app/review/stories/h6-01.jpg",
-  "duration": 182.732,
-  "lines": [
-    {
-      "text": "星期一早上，杰克在小区门口看到一张停水通知，上面写着：因管道维修，星期三上午八点至晚上八点停水。",
-      "py": "xīng qī yì zǎo shang, Jié kè zài xiǎo qū mén kǒu kàn dào yì zhāng tíng shuǐ tōng zhī, shàng miàn xiě zhe: yīn guǎn dào wéi xiū, xīng qī sān shàng wǔ bā diǎn zhì wǎn shang bā diǎn tíng shuǐ.",
-      "en": "On Monday morning, Jack sees a notice at the entrance to his housing estate. It says that, due to pipe repairs, the water will be off on Wednesday from 8 a.m. to 8 p.m.",
-      "tr": {
-        "am": "ሰኞ ጠዋት ጃክ በመኖሪያ ግቢው በር ላይ የውሃ መቋረጥ ማስታወቂያ አየ፤ እንዲህ ይላል፦ በቧንቧ ጥገና ምክንያት ረቡዕ ከጠዋት 8:00 እስከ ምሽት 8:00 ውሃ ይቋረጣል።"
-      },
-      "start": 2.62,
-      "end": 14.452,
-      "tokens": [
-        [
-          "星期一",
-          "xīng qī yī",
-          "Monday",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "小区",
-          "xiǎo qū",
-          "housing estate; community; neighborhood",
-          ""
-        ],
-        [
-          "门口",
-          "mén kǒu",
-          "doorway; gate",
-          ""
-        ],
-        [
-          "看到",
-          "kàn dào",
-          "to see",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "停水",
-          "tíng shuǐ",
-          "to cut off the water supply; water outage",
-          ""
-        ],
-        [
-          "通知",
-          "tōng zhī",
-          "notice; to notify; to inform",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "上面",
-          "shàng miàn",
-          "on top of; above-mentioned; also pr.",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "因",
-          "yīn",
-          "cause; reason; because",
-          ""
-        ],
-        [
-          "管道",
-          "guǎn dào",
-          "pipeline; tubing; (fig.) channel",
-          ""
-        ],
-        [
-          "维修",
-          "wéi xiū",
-          "maintenance (of equipment); to protect and maintain",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "星期三",
-          "xīng qī sān",
-          "Wednesday",
-          ""
-        ],
-        [
-          "上午",
-          "shàng wǔ",
-          "morning",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to mark with a dot; to check off (on a list)",
-          ""
-        ],
-        [
-          "至",
-          "zhì",
-          "to arrive; most; to",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; night; in the evening",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to mark with a dot; to check off (on a list)",
-          ""
-        ],
-        [
-          "停水",
-          "tíng shuǐ",
-          "to cut off the water supply; water outage",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克从来没遇到过停水，心里有点儿紧张：一整天没有水，怎么洗脸、做饭、上厕所？",
-      "py": "Jié kè cóng lái méi yù dào guò tíng shuǐ, xīn lǐ yǒu diǎn r jǐn zhāng: yì zhěng tiān méi yǒu shuǐ, zěn me xǐ liǎn, zuò fàn, shàng cè suǒ?",
-      "en": "Jack has never had his water cut off before, and he's a bit worried: a whole day without water — how will he wash, cook or use the toilet?",
-      "tr": {
-        "am": "ጃክ ውሃ ተቋርጦበት አያውቅም፤ ትንሽ ተጨነቀ፦ ቀኑን ሙሉ ውሃ ከሌለ እንዴት ፊቱን ይታጠባል፣ እንዴት ምግብ ያበስላል፣ ሽንት ቤትስ እንዴት ይጠቀማል?"
-      },
-      "start": 15.152,
-      "end": 23.96,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "从来没",
-          "cóng lái méi",
-          "have never; has never",
-          ""
-        ],
-        [
-          "遇到",
-          "yù dào",
-          "to meet; to run into; to come across",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "停水",
-          "tíng shuǐ",
-          "to cut off the water supply; water outage",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "心里",
-          "xīn li",
-          "chest; heart; mind",
-          ""
-        ],
-        [
-          "有点儿",
-          "yǒu diǎn r",
-          "slightly; a little; somewhat",
-          ""
-        ],
-        [
-          "紧张",
-          "jǐn zhāng",
-          "nervous; keyed up; intense",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "整天",
-          "zhěng tiān",
-          "all day long; whole day",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; classifier for washings of a garment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "洗脸",
-          "xǐ liǎn",
-          "to wash the face",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "做饭",
-          "zuò fàn",
-          "to cook; to prepare a meal",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "上厕所",
-          "shàng cè suǒ",
-          "to go to the bathroom",
-          ""
-        ],
-        [
-          "？"
-        ]
-      ]
-    },
-    {
-      "text": "他上网查了查，有人建议：“提前多储存一些水，以防万一。”",
-      "py": "tā shàng wǎng chá le chá, yǒu rén jiàn yì: “tí qián duō chǔ cún yì xiē shuǐ, yǐ fáng wàn yī.”",
-      "en": "He looks it up online, and someone advises: \"Store plenty of water in advance, just in case.\"",
-      "tr": {
-        "am": "በኢንተርኔት ፈለገ፤ አንድ ሰው «ምናልባት ብለህ አስቀድመህ ብዙ ውሃ አጠራቅም» ብሎ መክሯል።"
-      },
-      "start": 24.66,
-      "end": 31.092,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(bound form) other; another; some other (as in 他日 and 他人)",
-          ""
-        ],
-        [
-          "上网",
-          "shàng wǎng",
-          "to go online; to connect to the Internet",
-          ""
-        ],
-        [
-          "查",
-          "chá",
-          "to look up (e.g. a word in a dictionary); to research",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "查",
-          "chá",
-          "to look up (e.g. a word in a dictionary); to research",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; there is someone there; people",
-          ""
-        ],
-        [
-          "建议",
-          "jiàn yì",
-          "to propose; to suggest; to recommend",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "提前",
-          "tí qián",
-          "in advance; to shift to an earlier date",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "储存",
-          "chǔ cún",
-          "to store; stockpile; to stockpile",
-          ""
-        ],
-        [
-          "一些",
-          "yī xiē",
-          "some; a few; a little; (following an adjective) slightly ...er",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "以防万一",
-          "yǐ fáng wàn yī",
-          "to guard against the unexpected (idiom); just in case",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "星期二晚上，杰克把家里能装水的东西都翻了出来：水桶、脸盆、锅、空瓶子，连花瓶都没放过。",
-      "py": "xīng qī èr wǎn shang, Jié kè bǎ jiā lǐ néng zhuāng shuǐ de dōng xi dōu fān le chū lái: shuǐ tǒng, liǎn pén, guō, kōng píng zi, lián huā píng dōu méi fàng guò.",
-      "en": "On Tuesday evening, Jack digs out everything at home that can hold water: buckets, basins, pots, empty bottles — he doesn't even spare the vase.",
-      "tr": {
-        "am": "ማክሰኞ ምሽት ጃክ በቤቱ ውሃ ሊይዝ የሚችለውን ሁሉ አወጣ፦ ባልዲ፣ ሳፋ፣ ድስት፣ ባዶ ጠርሙስ፤ የአበባ ማስቀመጫውን እንኳ አልተወም።"
-      },
-      "start": 31.792,
-      "end": 42.664,
-      "tokens": [
-        [
-          "星期二",
-          "xīng qī èr",
-          "Tuesday",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "家里",
-          "jiā lǐ",
-          "home",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "装",
-          "zhuāng",
-          "adornment; to adorn; dress",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "(used for emphasis) even; all; both; entirely; already",
-          ""
-        ],
-        [
-          "翻",
-          "fān",
-          "to turn over; to flip over; to overturn",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "出来",
-          "chū lái",
-          "to come out; to appear; to arise",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "水桶",
-          "shuǐ tǒng",
-          "bucket",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "脸盆",
-          "liǎn pén",
-          "basin for washing hands and face; washbowl",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "锅",
-          "guō",
-          "pot; pan; wok; cauldron; pot-shaped thing",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "空",
-          "kōng",
-          "empty; air; sky",
-          ""
-        ],
-        [
-          "瓶子",
-          "píng zi",
-          "bottle",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "连",
-          "lián",
-          "(used with 也, 都 etc) even; to link; to join",
-          ""
-        ],
-        [
-          "花瓶",
-          "huā píng",
-          "flower vase",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "(used for emphasis) even; all; both; entirely; already",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "放过",
-          "fàng guò",
-          "to let off; to let slip by; to let sb get away with sth",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他一直忙到半夜，厨房、卫生间、阳台都摆满了，走路都得侧着身子。",
-      "py": "tā yì zhí máng dào bàn yè, chú fáng, wèi shēng jiān, yáng tái dōu bǎi mǎn le, zǒu lù dōu děi cè zhe shēn zi.",
-      "en": "He's busy until midnight, and the kitchen, bathroom and balcony are so full that he has to turn sideways to get past.",
-      "tr": {
-        "am": "እስከ እኩለ ሌሊት ሲደክም ቆየ፤ ወጥ ቤቱ፣ መታጠቢያ ቤቱና በረንዳው በሙሉ ስለሞሉ በጎኑ እየሄደ ማለፍ ነበረበት።"
-      },
-      "start": 43.364,
-      "end": 51.644,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "忙",
-          "máng",
-          "busy; hurriedly; to hurry",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to (a place); until (a time); up to (a point)",
-          ""
-        ],
-        [
-          "半夜",
-          "bàn yè",
-          "midnight; in the middle of the night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "厨房",
-          "chú fáng",
-          "kitchen",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "卫生间",
-          "wèi shēng jiān",
-          "bathroom; toilet; WC",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "阳台",
-          "yáng tái",
-          "balcony; porch",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "摆满",
-          "bǎi mǎn",
-          "to spread over an area",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "走路",
-          "zǒu lù",
-          "(of sb who gets fired or resigns) to leave the job; to get out",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "侧",
-          "cè",
-          "the side; side; to incline towards",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "身子",
-          "shēn zi",
-          "body; pregnancy; health",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "星期三早上八点，他打开水龙头试了试，水还是哗哗地流。",
-      "py": "xīng qī sān zǎo shang bā diǎn, tā dǎ kāi shuǐ lóng tóu shì le shì, shuǐ hái shi huā huā de liú.",
-      "en": "At eight on Wednesday morning, he turns on the tap to check. The water is still gushing out.",
-      "tr": {
-        "am": "ረቡዕ ጠዋት 8:00 ላይ ቧንቧውን ከፍቶ ሞከረ፤ ውሃው አሁንም ይንዶለዶላል።"
-      },
-      "start": 52.344,
-      "end": 58.968,
-      "tokens": [
-        [
-          "星期三",
-          "xīng qī sān",
-          "Wednesday",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to turn on; to open; to show (a ticket)",
-          ""
-        ],
-        [
-          "水龙头",
-          "shuǐ lóng tóu",
-          "tap; faucet",
-          ""
-        ],
-        [
-          "试",
-          "shì",
-          "to test; to try; experiment",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "试",
-          "shì",
-          "to test; to try; experiment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "哗哗",
-          "huā huā",
-          "sound of gurgling water",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "流",
-          "liú",
-          "stream of water or sth resembling one; to flow",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "九点、十点、中午，水一直没停。",
-      "py": "jiǔ diǎn, shí diǎn, zhōng wǔ, shuǐ yì zhí méi tíng.",
-      "en": "Nine o'clock, ten o'clock, noon — the water never stops.",
-      "tr": {
-        "am": "9:00፣ 10:00፣ ቀትር፤ ውሃው ፈጽሞ አልቆመም።"
-      },
-      "start": 59.668,
-      "end": 65.14,
-      "tokens": [
-        [
-          "九",
-          "jiǔ",
-          "nine; 9",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock; classifier for small amounts",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock; classifier for small amounts",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "中午",
-          "zhōng wǔ",
-          "noon; midday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "停",
-          "tíng",
-          "to stop; to halt; to park (a car)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他下楼去问张阿姨，张阿姨听完笑了：“小伙子，你没看清楚吧？通知上写的是二号楼，咱们是三号楼。”",
-      "py": "tā xià lóu qù wèn Zhāng ā yí, Zhāng ā yí tīng wán xiào le: “xiǎo huǒ zi, nǐ méi kàn qīng chu ba? tōng zhī shàng xiě de shì èr hào lóu, zán men shì sān hào lóu.”",
-      "en": "He goes downstairs to ask Auntie Zhang. When she hears the story, she laughs. \"Young man, you didn't read it properly, did you? The notice said Building 2. We're Building 3.\"",
-      "tr": {
-        "am": "ወደ ታች ወርዶ እትዬ ዣንግን ጠየቀ፤ እትዬ ዣንግ ሰምተው ሳቁ፦ «አንተ ልጅ፣ በደንብ አላነበብከውም መሰለኝ? ማስታወቂያው ሕንፃ ቁጥር 2 ነው የሚለው፤ እኛ ሕንፃ ቁጥር 3 ነን።»"
-      },
-      "start": 65.84,
-      "end": 77.696,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "下楼",
-          "xià lóu",
-          "to go downstairs",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "小伙子",
-          "xiǎo huǒ zi",
-          "(coll.) young man; young fellow; lad",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "看清",
-          "kàn qīng",
-          "to see clearly",
-          ""
-        ],
-        [
-          "楚",
-          "chǔ",
-          "distinct; clear; orderly",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "通知",
-          "tōng zhī",
-          "notice; to notify; to inform",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "写",
-          "xiě",
-          "to write",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "二号",
-          "èr hào",
-          "2nd day of the month",
-          ""
-        ],
-        [
-          "楼",
-          "lóu",
-          "house with more than 1 story; storied building; floor",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "咱们",
-          "zán men",
-          "we or us (including both the speaker and the person(s) spoken to)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "号",
-          "hào",
-          "classifier for numbered people or items",
-          ""
-        ],
-        [
-          "楼",
-          "lóu",
-          "house with more than 1 story; storied building; floor",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克看着家里几十盆水，傻了眼：一个晚上的辛苦全白费了。",
-      "py": "Jié kè kàn zhe jiā lǐ jǐ shí pén shuǐ, shǎ le yǎn: yí gè wǎn shang de xīn kǔ quán bái fèi le.",
-      "en": "Jack looks at the dozens of containers of water at home, dumbfounded: a whole night's hard work, all wasted.",
-      "tr": {
-        "am": "ጃክ በቤቱ ያሉትን በአሥሮች የሚቆጠሩ የውሃ ዕቃዎች እያየ ደንግጦ ቀረ፦ የአንድ ሌሊት ድካሙ በሙሉ ከንቱ ሆነ።"
-      },
-      "start": 78.396,
-      "end": 85.764,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "家里",
-          "jiā lǐ",
-          "home",
-          ""
-        ],
-        [
-          "几",
-          "jǐ",
-          "how many; how much; several; a few",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "盆",
-          "pén",
-          "basin; flower pot",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "傻",
-          "shǎ",
-          "foolish",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "眼",
-          "yǎn",
-          "(often used with 一) a look; a glance; eye; small hole",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "辛苦",
-          "xīn kǔ",
-          "hard; to work hard; hardship(s)",
-          ""
-        ],
-        [
-          "全",
-          "quán",
-          "all; whole; entire",
-          ""
-        ],
-        [
-          "白费",
-          "bái fèi",
-          "to waste (one's energy etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这么多水倒了太可惜，他只好每天用盆里的水洗碗、拖地、浇花。",
-      "py": "zhè me duō shuǐ dào le tài kě xī, tā zhǐ hǎo měi tiān yòng pén lǐ de shuǐ xǐ wǎn, tuō de, jiāo huā.",
-      "en": "It seems a shame to pour so much water away, so every day he uses it to wash dishes, mop the floor and water the plants.",
-      "tr": {
-        "am": "ይህን ያህል ውሃ መድፋት ስለቆጨው በየቀኑ በዕቃዎቹ ውስጥ ባለው ውሃ ሳህን አጠበ፣ ወለል ወለወለ፣ አበባ አጠጣ።"
-      },
-      "start": 86.464,
-      "end": 94.048,
-      "tokens": [
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; classifier for washings of a garment",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "可惜",
-          "kě xī",
-          "it is a pity; what a pity; unfortunately",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "只好",
-          "zhǐ hǎo",
-          "to have no other option but to ...; to have to; to be forced to",
-          ""
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "盆",
-          "pén",
-          "basin; flower pot",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; classifier for washings of a garment",
-          ""
-        ],
-        [
-          "洗碗",
-          "xǐ wǎn",
-          "to wash the dishes",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "拖地",
-          "tuō dì",
-          "to mop the floor; (of a gown etc) to trail on the ground",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "浇花",
-          "jiāo huā",
-          "to water the plants; to water the garden",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "用了一个星期，才用掉一半。",
-      "py": "yòng le yí gè xīng qī, cái yòng diào yí bàn.",
-      "en": "After a week, he's used only half of it.",
-      "tr": {
-        "am": "አንድ ሳምንት ተጠቅሞ ያለቀው ግማሹ ብቻ ነበር።"
-      },
-      "start": 94.748,
-      "end": 97.604,
-      "tokens": [
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "星期",
-          "xīng qī",
-          "week; day of the week; Sunday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "才",
-          "cái",
-          "then and only then; (before an expression of quantity) only",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "掉",
-          "diào",
-          "(used after certain verbs to express completion, fulfillment, removal etc)",
-          ""
-        ],
-        [
-          "一半",
-          "yī bàn",
-          "half",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "又过了几天，一个星期六的早上，杰克还在睡觉，就听见楼道里有人在挨家挨户地敲门。",
-      "py": "yòu guò le jǐ tiān, yí gè xīng qī liù de zǎo shang, Jié kè hái zài shuì jiào, jiù tīng jiàn lóu dào lǐ yǒu rén zài āi jiā āi hù de qiāo mén.",
-      "en": "A few days later, one Saturday morning, Jack is still asleep when he hears someone knocking on every door in the corridor.",
-      "tr": {
-        "am": "ከጥቂት ቀናት በኋላ፣ አንድ ቅዳሜ ጠዋት፣ ጃክ ገና ተኝቶ እያለ በኮሪደሩ አንድ ሰው በየቤቱ በር ሲያንኳኳ ሰማ።"
-      },
-      "start": 98.304,
-      "end": 107.544,
-      "tokens": [
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "几天",
-          "jǐ tiān",
-          "several days",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to go to bed; to sleep",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(pattern: 就 ... 也 ...) even if ... still ...",
-          ""
-        ],
-        [
-          "听见",
-          "tīng jiàn",
-          "to hear",
-          ""
-        ],
-        [
-          "楼道",
-          "lóu dào",
-          "corridor; passageway (in storied building)",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; there is someone there; people",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "挨家挨户",
-          "āi jiā āi hù",
-          "to go from house to house",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "敲门",
-          "qiāo mén",
-          "to knock on a door",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "原来，三号楼的水管半夜突然破了，整栋楼临时停水，什么时候能修好还不知道。",
-      "py": "yuán lái, sān hào lóu de shuǐ guǎn bàn yè tū rán pò le, zhěng dòng lóu lín shí tíng shuǐ, shén me shí hou néng xiū hǎo hái bù zhī dào.",
-      "en": "It turns out a water pipe in Building 3 burst in the night, and the whole building's water has been cut off for now. Nobody knows when it will be fixed.",
-      "tr": {
-        "am": "ለካ የሕንፃ ቁጥር 3 የውሃ ቧንቧ በሌሊት ድንገት ፈንድቶ የሕንፃው በሙሉ ውሃ ለጊዜው ተቋርጧል፤ መቼ እንደሚጠገን ገና አይታወቅም።"
-      },
-      "start": 108.244,
-      "end": 116.572,
-      "tokens": [
-        [
-          "原来",
-          "yuán lái",
-          "so, actually, as it turns out; original; former",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "号",
-          "hào",
-          "(literary) to call out; to command",
-          ""
-        ],
-        [
-          "楼",
-          "lóu",
-          "storied building; house with more than 1 story; floor",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "水管",
-          "shuǐ guǎn",
-          "water pipe",
-          ""
-        ],
-        [
-          "半夜",
-          "bàn yè",
-          "in the middle of the night; midnight",
-          ""
-        ],
-        [
-          "突然",
-          "tū rán",
-          "sudden; abrupt; unexpected",
-          ""
-        ],
-        [
-          "破",
-          "pò",
-          "worn out; broken; damaged",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "整",
-          "zhěng",
-          "(bound form) whole; complete; entire; (before a measure word) whole; (before or after number + measure word) exactly",
-          ""
-        ],
-        [
-          "栋",
-          "dòng",
-          "classifier for houses or buildings; ridgepole (old)",
-          ""
-        ],
-        [
-          "楼",
-          "lóu",
-          "storied building; house with more than 1 story; floor",
-          ""
-        ],
-        [
-          "临时",
-          "lín shí",
-          "as the time draws near; at the last moment; temporary",
-          ""
-        ],
-        [
-          "停水",
-          "tíng shuǐ",
-          "to cut off the water supply; water outage",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "什么时候",
-          "shén me shí hou",
-          "when?; at what time?",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "修好",
-          "xiū hǎo",
-          "to repair (sth broken); to restore (sth damaged)",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "不知",
-          "bù zhī",
-          "not to know; unaware; unknowingly",
-          ""
-        ],
-        [
-          "道",
-          "dào",
-          "road; path; (bound form) way; reason; principle",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷拿着一个空茶壶站在他家门口，着急地问：“杰克，你家还有水吗？我连泡茶的水都没有了。”",
-      "py": "Liú yé ye ná zhe yí gè kōng chá hú zhàn zài tā jiā mén kǒu, zháo jí de wèn: “Jié kè, nǐ jiā hái yǒu shuǐ ma? wǒ lián pào chá de shuǐ dōu méi yǒu le.”",
-      "en": "Grandpa Liu is standing at Jack's door with an empty teapot. \"Jack, do you have any water? I haven't even got water for my tea.\"",
-      "tr": {
-        "am": "አያት ሊዩ ባዶ የሻይ ማንቆርቆሪያ ይዘው በሩ ላይ ቆመው በጭንቀት «ጃክ፣ ቤትህ ውሃ አለ? ሻይ የማፈላበት ውሃ እንኳ የለኝም» ብለው ጠየቁ።"
-      },
-      "start": 117.272,
-      "end": 126.992,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "空",
-          "kōng",
-          "empty; air; sky",
-          ""
-        ],
-        [
-          "茶壶",
-          "chá hú",
-          "teapot",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "家门",
-          "jiā mén",
-          "house door; family clan",
-          ""
-        ],
-        [
-          "口",
-          "kǒu",
-          "mouth",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "着急",
-          "zháo jí",
-          "to worry; to feel anxious",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "连",
-          "lián",
-          "(used with 也, 都 etc) even; to link; to join",
-          ""
-        ],
-        [
-          "泡茶",
-          "pào chá",
-          "to make tea",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "(used for emphasis) even; all; both; entirely; already",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; to not have; hasn't",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克一下子清醒了，赶紧把他请进了门。",
-      "py": "Jié kè yí xià zi qīng xǐng le, gǎn jǐn bǎ tā qǐng jìn le mén.",
-      "en": "Jack is suddenly wide awake, and quickly invites him in.",
-      "tr": {
-        "am": "ጃክ ድንገት እንቅልፉ ጠፋ፤ ቶሎ ብሎ ወደ ቤት አስገባቸው።"
-      },
-      "start": 127.692,
-      "end": 132.228,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "all at once; all of a sudden; once; one time",
-          ""
-        ],
-        [
-          "清醒",
-          "qīng xǐng",
-          "awake; clear-headed; sober",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "赶紧",
-          "gǎn jǐn",
-          "hurriedly; without delay",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "请进",
-          "qǐng jìn",
-          "\"please come in\"",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "门",
-          "mén",
-          "gate; door; doorway; gateway; opening",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷看见满屋子的水，眼睛都直了：“你怎么知道今天要停水？”",
-      "py": "Liú yé ye kàn jiàn mǎn wū zi de shuǐ, yǎn jing dōu zhí le: “nǐ zěn me zhī dào jīn tiān yào tíng shuǐ?”",
-      "en": "When Grandpa Liu sees the flat full of water, his eyes nearly pop out. \"How did you know the water would go off today?\"",
-      "tr": {
-        "am": "አያት ሊዩ ቤቱን የሞላውን ውሃ ሲያዩ ዓይናቸው ፈጠጠ፦ «ዛሬ ውሃ እንደሚቋረጥ እንዴት አወቅህ?»"
-      },
-      "start": 132.928,
-      "end": 139.576,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "满",
-          "mǎn",
-          "full; fully; to fill",
-          ""
-        ],
-        [
-          "屋子",
-          "wū zi",
-          "house; room",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "眼睛",
-          "yǎn jing",
-          "eye",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "直",
-          "zhí",
-          "straight; to straighten; fair and reasonable",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "知道",
-          "zhī dào",
-          "to know; to become aware of; also pr.",
-          ""
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "停水",
-          "tíng shuǐ",
-          "to cut off the water supply; water outage",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克不好意思地说：“说来话长。”",
-      "py": "Jié kè bù hǎo yì sī de shuō: “shuō lái huà cháng.”",
-      "en": "Jack says sheepishly, \"It's a long story.\"",
-      "tr": {
-        "am": "ጃክ አፍሮ «ረጅም ታሪክ ነው» አለ።"
-      },
-      "start": 140.276,
-      "end": 144.812,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to feel embarrassed; to find it embarrassing",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "说来话长",
-          "shuō lái huà cháng",
-          "start explaining and it's a long story (idiom); complicated and not easy to express succinctly",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "没过多久，消息就传遍了整栋楼，邻居们提着壶、端着锅，在杰克家门口排起了长队。",
-      "py": "mò guò duō jiǔ, xiāo xi jiù chuán biàn le zhěng dòng lóu, lín jū men tí zhe hú, duān zhe guō, zài Jié kè jiā mén kǒu pái qǐ le cháng duì.",
-      "en": "Before long, word has spread round the whole building, and the neighbours queue outside Jack's door with kettles and pots.",
-      "tr": {
-        "am": "ብዙም ሳይቆይ ወሬው በሕንፃው በሙሉ ተሰራጨ፤ ጎረቤቶች ማንቆርቆሪያና ድስት ይዘው በጃክ በር ላይ ረጅም ሰልፍ ያዙ።"
-      },
-      "start": 145.512,
-      "end": 155.232,
-      "tokens": [
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "过多",
-          "guò duō",
-          "too many; excessive",
-          ""
-        ],
-        [
-          "久",
-          "jiǔ",
-          "(of a period of time) long",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "(piece of) news; information; message",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "传遍",
-          "chuán biàn",
-          "to spread widely",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "整",
-          "zhěng",
-          "(bound form) whole; complete; entire; (before a measure word) whole; (before or after number + measure word) exactly",
-          ""
-        ],
-        [
-          "栋",
-          "dòng",
-          "classifier for houses or buildings; ridgepole (old)",
-          ""
-        ],
-        [
-          "楼",
-          "lóu",
-          "storied building; house with more than 1 story; floor",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "邻居",
-          "lín jū",
-          "neighbor",
-          ""
-        ],
-        [
-          "们",
-          "men",
-          "plural marker for pronouns, and nouns referring to individuals",
-          ""
-        ],
-        [
-          "提",
-          "tí",
-          "to carry (hanging down from the hand); to lift",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "壶",
-          "hú",
-          "pot; classifier for bottled liquid",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "端",
-          "duān",
-          "(bound form) tip; end; extremity; (bound form) aspect; facet",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "锅",
-          "guō",
-          "pot; pan; wok; cauldron; pot-shaped thing",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "(used before a verb to indicate an action in progress)",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "家门",
-          "jiā mén",
-          "house door; family clan",
-          ""
-        ],
-        [
-          "口",
-          "kǒu",
-          "mouth",
-          ""
-        ],
-        [
-          "排",
-          "pái",
-          "to arrange in order; to line up",
-          ""
-        ],
-        [
-          "起",
-          "qǐ",
-          "to rise; to raise; to get up",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "长队",
-          "cháng duì",
-          "queue; line (i.e. of people waiting)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "张阿姨也上楼来了，站在门口帮他维持秩序：“一家一桶，别挤！”",
-      "py": "Zhāng ā yí yě shàng lóu lái le, zhàn zài mén kǒu bāng tā wéi chí zhì xù: “yì jiā yì tǒng, bié jǐ!”",
-      "en": "Auntie Zhang comes up too and stands by the door to keep order. \"One bucket per family. No pushing!\"",
-      "tr": {
-        "am": "እትዬ ዣንግም ወደ ላይ ወጥተው በሩ ላይ ቆመው ሥርዓት አስከበሩ፦ «ለአንድ ቤተሰብ አንድ ባልዲ፤ አትጋፉ!»"
-      },
-      "start": 155.932,
-      "end": 162.82,
-      "tokens": [
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "上楼",
-          "shàng lóu",
-          "to go upstairs",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (between two verbs) in order to",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "门口",
-          "mén kǒu",
-          "doorway; gate",
-          ""
-        ],
-        [
-          "帮",
-          "bāng",
-          "to help; to assist; to support",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "维持",
-          "wéi chí",
-          "to keep; to maintain; to preserve",
-          ""
-        ],
-        [
-          "秩序",
-          "zhì xù",
-          "order; orderliness (in society, in the classroom, on the roads etc)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "一家",
-          "yī jiā",
-          "the whole family; the same family",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "桶",
-          "tǒng",
-          "bucket; (trash) can; barrel (of oil etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "别",
-          "bié",
-          "to stick in; to insert (in order to hinder movement)",
-          ""
-        ],
-        [
-          "挤",
-          "jǐ",
-          "to crowd in; to cram in; to force others aside",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "下午水管修好的时候，杰克的水也正好分完了。",
-      "py": "xià wǔ shuǐ guǎn xiū hǎo de shí hou, Jié kè de shuǐ yě zhèng hǎo fēn wán le.",
-      "en": "By the time the pipe is fixed in the afternoon, Jack's water has just run out.",
-      "tr": {
-        "am": "ከሰዓት በኋላ ቧንቧው ሲጠገን የጃክ ውሃም ልክ አለቀ።"
-      },
-      "start": 163.52,
-      "end": 168.536,
-      "tokens": [
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "水管",
-          "shuǐ guǎn",
-          "water pipe",
-          ""
-        ],
-        [
-          "修好",
-          "xiū hǎo",
-          "to repair (sth broken); to restore (sth damaged)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
-          ""
-        ],
-        [
-          "正好",
-          "zhèng hǎo",
-          "just (in time); just right; just enough",
-          ""
-        ],
-        [
-          "分",
-          "fēn",
-          "minute (unit of time); to divide; to separate",
-          ""
-        ],
-        [
-          "完了",
-          "wán le",
-          "to be finished; to be done for; ruined",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "晚上，邻居们送来了饺子、水果和点心，杰克的桌子上摆得满满的。",
-      "py": "wǎn shang, lín jū men sòng lái le jiǎo zi, shuǐ guǒ hé diǎn xin, Jié kè de zhuō zi shàng bǎi de mǎn mǎn de.",
-      "en": "In the evening, the neighbours bring round dumplings, fruit and snacks, and Jack's table is piled high.",
-      "tr": {
-        "am": "ምሽት ላይ ጎረቤቶች ዱምፕሊንግ፣ ፍራፍሬና ጣፋጭ ምግቦች አመጡለት፤ የጃክ ጠረጴዛ ሙሉ በሙሉ ተሞላ።"
-      },
-      "start": 169.236,
-      "end": 176.604,
-      "tokens": [
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "邻居",
-          "lín jū",
-          "neighbor",
-          ""
-        ],
-        [
-          "们",
-          "men",
-          "plural marker for pronouns, and nouns referring to individuals",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "(after a round number) approximately; to come",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "饺子",
-          "jiǎo zi",
-          "dumpling; pot-sticker",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "水果",
-          "shuǐ guǒ",
-          "fruit",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "点心",
-          "diǎn xin",
-          "light refreshments; pastry; dim sum (in Cantonese cooking)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "桌子",
-          "zhuō zi",
-          "table; desk",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "摆",
-          "bǎi",
-          "to arrange; to exhibit; to move to and fro",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "满满",
-          "mǎn mǎn",
-          "full; closely packed",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷拍拍他的肩膀：“这就叫有备无患。”",
-      "py": "Liú yé ye pāi pāi tā de jiān bǎng: “zhè jiù jiào yǒu bèi wú huàn.”",
-      "en": "Grandpa Liu pats him on the shoulder. \"That's what we call being prepared.\"",
-      "tr": {
-        "am": "አያት ሊዩ ትከሻውን መታ መታ አደረጉ፦ «‹ቀድሞ የተዘጋጀ አይጎዳም› የሚባለው ይህ ነው።»"
-      },
-      "start": 177.304,
-      "end": 182.032,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "拍",
-          "pāi",
-          "to pat; to clap; to slap",
-          ""
-        ],
-        [
-          "拍",
-          "pāi",
-          "to pat; to clap; to slap",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "肩膀",
-          "jiān bǎng",
-          "shoulder",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这就",
-          "zhè jiù",
-          "immediately; at once",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to call; to be called; to shout",
-          ""
-        ],
-        [
-          "有备无患",
-          "yǒu bèi wú huàn",
-          "Preparedness averts peril.",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 568,
-  "first": "星期一早上，杰克在小区门口看到一张停水通知，上面写着：因管道维修，星期三上午八点至晚上八点停水。",
-  "newWords": [
-    {
-      "w": "通知",
-      "py": "tōngzhī",
-      "en": "to notify"
-    },
-    {
-      "w": "储存",
-      "py": "chǔcún",
-      "en": "store for later"
-    },
-    {
-      "w": "维持",
-      "py": "wéichí",
-      "en": "to keep something functioning or stable"
-    },
-    {
-      "w": "秩序",
-      "py": "zhìxù",
-      "en": "organized and predictable arrangement"
-    },
-    {
-      "w": "有备无患",
-      "py": "yǒu bèi wú huàn",
-      "en": "Preparedness averts peril."
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h6-01.mp3?v=1791720579"
+  {
+   "text": "杰克从来没遇到过停水，心里有点儿紧张：一整天没有水，怎么洗脸、做饭、上厕所？",
+   "py": "Jié kè cóng lái méi yù dào guò tíng shuǐ, xīn lǐ yǒu diǎn r jǐn zhāng: yì zhěng tiān méi yǒu shuǐ, zěn me xǐ liǎn, zuò fàn, shàng cè suǒ?",
+   "en": "Jack has never had his water cut off before, and he's a bit worried: a whole day without water — how will he wash, cook or use the toilet?",
+   "tr": {
+    "am": "ጃክ ውሃ ተቋርጦበት አያውቅም፤ ትንሽ ተጨነቀ፦ ቀኑን ሙሉ ውሃ ከሌለ እንዴት ፊቱን ይታጠባል፣ እንዴት ምግብ ያበስላል፣ ሽንት ቤትስ እንዴት ይጠቀማል?",
+    "fa": "جک هیچ‌وقت قطع آب نداشته و یه‌کم نگرانه: یه روز کامل بدون آب؛ چطور بشوره، آشپزی کنه و از سرویس استفاده کنه؟"
+   },
+   "start": 15.152,
+   "end": 23.96,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "从来没",
+     "cóng lái méi",
+     "have never; has never",
+     ""
+    ],
+    [
+     "遇到",
+     "yù dào",
+     "to meet; to run into; to come across",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "停水",
+     "tíng shuǐ",
+     "to cut off the water supply; water outage",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "心里",
+     "xīn li",
+     "chest; heart; mind",
+     ""
+    ],
+    [
+     "有点儿",
+     "yǒu diǎn r",
+     "slightly; a little; somewhat",
+     ""
+    ],
+    [
+     "紧张",
+     "jǐn zhāng",
+     "nervous; keyed up; intense",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "整天",
+     "zhěng tiān",
+     "all day long; whole day",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; classifier for washings of a garment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "洗脸",
+     "xǐ liǎn",
+     "to wash the face",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "做饭",
+     "zuò fàn",
+     "to cook; to prepare a meal",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "上厕所",
+     "shàng cè suǒ",
+     "to go to the bathroom",
+     ""
+    ],
+    [
+     "？"
+    ]
+   ]
+  },
+  {
+   "text": "他上网查了查，有人建议：“提前多储存一些水，以防万一。”",
+   "py": "tā shàng wǎng chá le chá, yǒu rén jiàn yì: “tí qián duō chǔ cún yì xiē shuǐ, yǐ fáng wàn yī.”",
+   "en": "He looks it up online, and someone advises: \"Store plenty of water in advance, just in case.\"",
+   "tr": {
+    "am": "በኢንተርኔት ፈለገ፤ አንድ ሰው «ምናልባት ብለህ አስቀድመህ ብዙ ውሃ አጠራቅም» ብሎ መክሯል።",
+    "fa": "تو اینترنت جستجو می‌کنه؛ یکی پیشنهاد می‌کنه: «از قبل حسابی آب ذخیره کن، احتیاط شرط عقله.»"
+   },
+   "start": 24.66,
+   "end": 31.092,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(bound form) other; another; some other (as in 他日 and 他人)",
+     ""
+    ],
+    [
+     "上网",
+     "shàng wǎng",
+     "to go online; to connect to the Internet",
+     ""
+    ],
+    [
+     "查",
+     "chá",
+     "to look up (e.g. a word in a dictionary); to research",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "查",
+     "chá",
+     "to look up (e.g. a word in a dictionary); to research",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; there is someone there; people",
+     ""
+    ],
+    [
+     "建议",
+     "jiàn yì",
+     "to propose; to suggest; to recommend",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "提前",
+     "tí qián",
+     "in advance; to shift to an earlier date",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "储存",
+     "chǔ cún",
+     "to store; stockpile; to stockpile",
+     ""
+    ],
+    [
+     "一些",
+     "yī xiē",
+     "some; a few; a little; (following an adjective) slightly ...er",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "以防万一",
+     "yǐ fáng wàn yī",
+     "to guard against the unexpected (idiom); just in case",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "星期二晚上，杰克把家里能装水的东西都翻了出来：水桶、脸盆、锅、空瓶子，连花瓶都没放过。",
+   "py": "xīng qī èr wǎn shang, Jié kè bǎ jiā lǐ néng zhuāng shuǐ de dōng xi dōu fān le chū lái: shuǐ tǒng, liǎn pén, guō, kōng píng zi, lián huā píng dōu méi fàng guò.",
+   "en": "On Tuesday evening, Jack digs out everything at home that can hold water: buckets, basins, pots, empty bottles — he doesn't even spare the vase.",
+   "tr": {
+    "am": "ማክሰኞ ምሽት ጃክ በቤቱ ውሃ ሊይዝ የሚችለውን ሁሉ አወጣ፦ ባልዲ፣ ሳፋ፣ ድስት፣ ባዶ ጠርሙስ፤ የአበባ ማስቀመጫውን እንኳ አልተወም።",
+    "fa": "سه‌شنبه عصر جک هر چی تو خونه هست که آب توش جا بشه درمیاره: سطل، تشت، قابلمه، بطری خالی؛ حتی گلدون رو هم بی‌حساب نمی‌ذاره."
+   },
+   "start": 31.792,
+   "end": 42.664,
+   "tokens": [
+    [
+     "星期二",
+     "xīng qī èr",
+     "Tuesday",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "家里",
+     "jiā lǐ",
+     "home",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "装",
+     "zhuāng",
+     "adornment; to adorn; dress",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "(used for emphasis) even; all; both; entirely; already",
+     ""
+    ],
+    [
+     "翻",
+     "fān",
+     "to turn over; to flip over; to overturn",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "出来",
+     "chū lái",
+     "to come out; to appear; to arise",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "水桶",
+     "shuǐ tǒng",
+     "bucket",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "脸盆",
+     "liǎn pén",
+     "basin for washing hands and face; washbowl",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "锅",
+     "guō",
+     "pot; pan; wok; cauldron; pot-shaped thing",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "空",
+     "kōng",
+     "empty; air; sky",
+     ""
+    ],
+    [
+     "瓶子",
+     "píng zi",
+     "bottle",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "连",
+     "lián",
+     "(used with 也, 都 etc) even; to link; to join",
+     ""
+    ],
+    [
+     "花瓶",
+     "huā píng",
+     "flower vase",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "(used for emphasis) even; all; both; entirely; already",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "放过",
+     "fàng guò",
+     "to let off; to let slip by; to let sb get away with sth",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他一直忙到半夜，厨房、卫生间、阳台都摆满了，走路都得侧着身子。",
+   "py": "tā yì zhí máng dào bàn yè, chú fáng, wèi shēng jiān, yáng tái dōu bǎi mǎn le, zǒu lù dōu děi cè zhe shēn zi.",
+   "en": "He's busy until midnight, and the kitchen, bathroom and balcony are so full that he has to turn sideways to get past.",
+   "tr": {
+    "am": "እስከ እኩለ ሌሊት ሲደክም ቆየ፤ ወጥ ቤቱ፣ መታጠቢያ ቤቱና በረንዳው በሙሉ ስለሞሉ በጎኑ እየሄደ ማለፍ ነበረበት።",
+    "fa": "تا نصف شب سرش می‌چرخه؛ آشپزخونه، حمام و بالکن پره و باید کج بشه که رد شه."
+   },
+   "start": 43.364,
+   "end": 51.644,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "忙",
+     "máng",
+     "busy; hurriedly; to hurry",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to (a place); until (a time); up to (a point)",
+     ""
+    ],
+    [
+     "半夜",
+     "bàn yè",
+     "midnight; in the middle of the night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "厨房",
+     "chú fáng",
+     "kitchen",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "卫生间",
+     "wèi shēng jiān",
+     "bathroom; toilet; WC",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "阳台",
+     "yáng tái",
+     "balcony; porch",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "摆满",
+     "bǎi mǎn",
+     "to spread over an area",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "走路",
+     "zǒu lù",
+     "(of sb who gets fired or resigns) to leave the job; to get out",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "侧",
+     "cè",
+     "the side; side; to incline towards",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "身子",
+     "shēn zi",
+     "body; pregnancy; health",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "星期三早上八点，他打开水龙头试了试，水还是哗哗地流。",
+   "py": "xīng qī sān zǎo shang bā diǎn, tā dǎ kāi shuǐ lóng tóu shì le shì, shuǐ hái shi huā huā de liú.",
+   "en": "At eight on Wednesday morning, he turns on the tap to check. The water is still gushing out.",
+   "tr": {
+    "am": "ረቡዕ ጠዋት 8:00 ላይ ቧንቧውን ከፍቶ ሞከረ፤ ውሃው አሁንም ይንዶለዶላል።",
+    "fa": "چهارشنبه ساعت هشت صبح شیر رو باز می‌کنه تا چک کنه؛ آب هنوز با شدت می‌زنه بیرون."
+   },
+   "start": 52.344,
+   "end": 58.968,
+   "tokens": [
+    [
+     "星期三",
+     "xīng qī sān",
+     "Wednesday",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to turn on; to open; to show (a ticket)",
+     ""
+    ],
+    [
+     "水龙头",
+     "shuǐ lóng tóu",
+     "tap; faucet",
+     ""
+    ],
+    [
+     "试",
+     "shì",
+     "to test; to try; experiment",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "试",
+     "shì",
+     "to test; to try; experiment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "哗哗",
+     "huā huā",
+     "sound of gurgling water",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "流",
+     "liú",
+     "stream of water or sth resembling one; to flow",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "九点、十点、中午，水一直没停。",
+   "py": "jiǔ diǎn, shí diǎn, zhōng wǔ, shuǐ yì zhí méi tíng.",
+   "en": "Nine o'clock, ten o'clock, noon — the water never stops.",
+   "tr": {
+    "am": "9:00፣ 10:00፣ ቀትር፤ ውሃው ፈጽሞ አልቆመም።",
+    "fa": "ساعت نه، ساعت ده، ظهر؛ آب بند نمیاد."
+   },
+   "start": 59.668,
+   "end": 65.14,
+   "tokens": [
+    [
+     "九",
+     "jiǔ",
+     "nine; 9",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock; classifier for small amounts",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock; classifier for small amounts",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "中午",
+     "zhōng wǔ",
+     "noon; midday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "停",
+     "tíng",
+     "to stop; to halt; to park (a car)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他下楼去问张阿姨，张阿姨听完笑了：“小伙子，你没看清楚吧？通知上写的是二号楼，咱们是三号楼。”",
+   "py": "tā xià lóu qù wèn Zhāng ā yí, Zhāng ā yí tīng wán xiào le: “xiǎo huǒ zi, nǐ méi kàn qīng chu ba? tōng zhī shàng xiě de shì èr hào lóu, zán men shì sān hào lóu.”",
+   "en": "He goes downstairs to ask Auntie Zhang. When she hears the story, she laughs. \"Young man, you didn't read it properly, did you? The notice said Building 2. We're Building 3.\"",
+   "tr": {
+    "am": "ወደ ታች ወርዶ እትዬ ዣንግን ጠየቀ፤ እትዬ ዣንግ ሰምተው ሳቁ፦ «አንተ ልጅ፣ በደንብ አላነበብከውም መሰለኝ? ማስታወቂያው ሕንፃ ቁጥር 2 ነው የሚለው፤ እኛ ሕንፃ ቁጥር 3 ነን።»",
+    "fa": "می‌ره پایین از خاله ژانگ می‌پرسه. می‌شنوه و می‌خنده: «جوون، اطلاعیه رو خوب نخوندی، نه؟ اطلاعیه می‌گفت ساختمان دو. ما ساختمان سه‌ایم.»"
+   },
+   "start": 65.84,
+   "end": 77.696,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "下楼",
+     "xià lóu",
+     "to go downstairs",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "小伙子",
+     "xiǎo huǒ zi",
+     "(coll.) young man; young fellow; lad",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "看清",
+     "kàn qīng",
+     "to see clearly",
+     ""
+    ],
+    [
+     "楚",
+     "chǔ",
+     "distinct; clear; orderly",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "通知",
+     "tōng zhī",
+     "notice; to notify; to inform",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "写",
+     "xiě",
+     "to write",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "二号",
+     "èr hào",
+     "2nd day of the month",
+     ""
+    ],
+    [
+     "楼",
+     "lóu",
+     "house with more than 1 story; storied building; floor",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "咱们",
+     "zán men",
+     "we or us (including both the speaker and the person(s) spoken to)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "号",
+     "hào",
+     "classifier for numbered people or items",
+     ""
+    ],
+    [
+     "楼",
+     "lóu",
+     "house with more than 1 story; storied building; floor",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克看着家里几十盆水，傻了眼：一个晚上的辛苦全白费了。",
+   "py": "Jié kè kàn zhe jiā lǐ jǐ shí pén shuǐ, shǎ le yǎn: yí gè wǎn shang de xīn kǔ quán bái fèi le.",
+   "en": "Jack looks at the dozens of containers of water at home, dumbfounded: a whole night's hard work, all wasted.",
+   "tr": {
+    "am": "ጃክ በቤቱ ያሉትን በአሥሮች የሚቆጠሩ የውሃ ዕቃዎች እያየ ደንግጦ ቀረ፦ የአንድ ሌሊት ድካሙ በሙሉ ከንቱ ሆነ።",
+    "fa": "جک به ده‌ها ظرف آب تو خونه نگاه می‌کنه و حرفش تو گلو خشک می‌شه: یه شب زحمت، همه بی‌فایده."
+   },
+   "start": 78.396,
+   "end": 85.764,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "家里",
+     "jiā lǐ",
+     "home",
+     ""
+    ],
+    [
+     "几",
+     "jǐ",
+     "how many; how much; several; a few",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "盆",
+     "pén",
+     "basin; flower pot",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "傻",
+     "shǎ",
+     "foolish",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "眼",
+     "yǎn",
+     "(often used with 一) a look; a glance; eye; small hole",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "辛苦",
+     "xīn kǔ",
+     "hard; to work hard; hardship(s)",
+     ""
+    ],
+    [
+     "全",
+     "quán",
+     "all; whole; entire",
+     ""
+    ],
+    [
+     "白费",
+     "bái fèi",
+     "to waste (one's energy etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这么多水倒了太可惜，他只好每天用盆里的水洗碗、拖地、浇花。",
+   "py": "zhè me duō shuǐ dào le tài kě xī, tā zhǐ hǎo měi tiān yòng pén lǐ de shuǐ xǐ wǎn, tuō de, jiāo huā.",
+   "en": "It seems a shame to pour so much water away, so every day he uses it to wash dishes, mop the floor and water the plants.",
+   "tr": {
+    "am": "ይህን ያህል ውሃ መድፋት ስለቆጨው በየቀኑ በዕቃዎቹ ውስጥ ባለው ውሃ ሳህን አጠበ፣ ወለል ወለወለ፣ አበባ አጠጣ።",
+    "fa": "حیفه این‌همه آب بریزه دور؛ پس هر روز ازش برای شستن ظرف‌ها، تی کشیدن کف و آب دادن گل‌ها استفاده می‌کنه."
+   },
+   "start": 86.464,
+   "end": 94.048,
+   "tokens": [
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; classifier for washings of a garment",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "可惜",
+     "kě xī",
+     "it is a pity; what a pity; unfortunately",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "只好",
+     "zhǐ hǎo",
+     "to have no other option but to ...; to have to; to be forced to",
+     ""
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "盆",
+     "pén",
+     "basin; flower pot",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; classifier for washings of a garment",
+     ""
+    ],
+    [
+     "洗碗",
+     "xǐ wǎn",
+     "to wash the dishes",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "拖地",
+     "tuō dì",
+     "to mop the floor; (of a gown etc) to trail on the ground",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "浇花",
+     "jiāo huā",
+     "to water the plants; to water the garden",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "用了一个星期，才用掉一半。",
+   "py": "yòng le yí gè xīng qī, cái yòng diào yí bàn.",
+   "en": "After a week, he's used only half of it.",
+   "tr": {
+    "am": "አንድ ሳምንት ተጠቅሞ ያለቀው ግማሹ ብቻ ነበር።",
+    "fa": "بعد از یه هفته فقط نصفش رو مصرف کرده."
+   },
+   "start": 94.748,
+   "end": 97.604,
+   "tokens": [
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "星期",
+     "xīng qī",
+     "week; day of the week; Sunday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "才",
+     "cái",
+     "then and only then; (before an expression of quantity) only",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "掉",
+     "diào",
+     "(used after certain verbs to express completion, fulfillment, removal etc)",
+     ""
+    ],
+    [
+     "一半",
+     "yī bàn",
+     "half",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "又过了几天，一个星期六的早上，杰克还在睡觉，就听见楼道里有人在挨家挨户地敲门。",
+   "py": "yòu guò le jǐ tiān, yí gè xīng qī liù de zǎo shang, Jié kè hái zài shuì jiào, jiù tīng jiàn lóu dào lǐ yǒu rén zài āi jiā āi hù de qiāo mén.",
+   "en": "A few days later, one Saturday morning, Jack is still asleep when he hears someone knocking on every door in the corridor.",
+   "tr": {
+    "am": "ከጥቂት ቀናት በኋላ፣ አንድ ቅዳሜ ጠዋት፣ ጃክ ገና ተኝቶ እያለ በኮሪደሩ አንድ ሰው በየቤቱ በር ሲያንኳኳ ሰማ።",
+    "fa": "چند روز بعد، یه شنبه صبح جک هنوز خوابه که می‌شنوه یکی در تک‌تک اتاق‌های راهرو رو می‌زنه."
+   },
+   "start": 98.304,
+   "end": 107.544,
+   "tokens": [
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "几天",
+     "jǐ tiān",
+     "several days",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to go to bed; to sleep",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(pattern: 就 ... 也 ...) even if ... still ...",
+     ""
+    ],
+    [
+     "听见",
+     "tīng jiàn",
+     "to hear",
+     ""
+    ],
+    [
+     "楼道",
+     "lóu dào",
+     "corridor; passageway (in storied building)",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; there is someone there; people",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "挨家挨户",
+     "āi jiā āi hù",
+     "to go from house to house",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "敲门",
+     "qiāo mén",
+     "to knock on a door",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "原来，三号楼的水管半夜突然破了，整栋楼临时停水，什么时候能修好还不知道。",
+   "py": "yuán lái, sān hào lóu de shuǐ guǎn bàn yè tū rán pò le, zhěng dòng lóu lín shí tíng shuǐ, shén me shí hou néng xiū hǎo hái bù zhī dào.",
+   "en": "It turns out a water pipe in Building 3 burst in the night, and the whole building's water has been cut off for now. Nobody knows when it will be fixed.",
+   "tr": {
+    "am": "ለካ የሕንፃ ቁጥር 3 የውሃ ቧንቧ በሌሊት ድንገት ፈንድቶ የሕንፃው በሙሉ ውሃ ለጊዜው ተቋርጧል፤ መቼ እንደሚጠገን ገና አይታወቅም።",
+    "fa": "معلوم می‌شه شب گذشته یه لوله آب تو ساختمان سه ترکیده و آب کل ساختمان قطع شده؛ هیچ‌کس هم نمی‌دونه کی درست می‌شه."
+   },
+   "start": 108.244,
+   "end": 116.572,
+   "tokens": [
+    [
+     "原来",
+     "yuán lái",
+     "so, actually, as it turns out; original; former",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "号",
+     "hào",
+     "(literary) to call out; to command",
+     ""
+    ],
+    [
+     "楼",
+     "lóu",
+     "storied building; house with more than 1 story; floor",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "水管",
+     "shuǐ guǎn",
+     "water pipe",
+     ""
+    ],
+    [
+     "半夜",
+     "bàn yè",
+     "in the middle of the night; midnight",
+     ""
+    ],
+    [
+     "突然",
+     "tū rán",
+     "sudden; abrupt; unexpected",
+     ""
+    ],
+    [
+     "破",
+     "pò",
+     "worn out; broken; damaged",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "整",
+     "zhěng",
+     "(bound form) whole; complete; entire; (before a measure word) whole; (before or after number + measure word) exactly",
+     ""
+    ],
+    [
+     "栋",
+     "dòng",
+     "classifier for houses or buildings; ridgepole (old)",
+     ""
+    ],
+    [
+     "楼",
+     "lóu",
+     "storied building; house with more than 1 story; floor",
+     ""
+    ],
+    [
+     "临时",
+     "lín shí",
+     "as the time draws near; at the last moment; temporary",
+     ""
+    ],
+    [
+     "停水",
+     "tíng shuǐ",
+     "to cut off the water supply; water outage",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "什么时候",
+     "shén me shí hou",
+     "when?; at what time?",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "修好",
+     "xiū hǎo",
+     "to repair (sth broken); to restore (sth damaged)",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "不知",
+     "bù zhī",
+     "not to know; unaware; unknowingly",
+     ""
+    ],
+    [
+     "道",
+     "dào",
+     "road; path; (bound form) way; reason; principle",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷拿着一个空茶壶站在他家门口，着急地问：“杰克，你家还有水吗？我连泡茶的水都没有了。”",
+   "py": "Liú yé ye ná zhe yí gè kōng chá hú zhàn zài tā jiā mén kǒu, zháo jí de wèn: “Jié kè, nǐ jiā hái yǒu shuǐ ma? wǒ lián pào chá de shuǐ dōu méi yǒu le.”",
+   "en": "Grandpa Liu is standing at Jack's door with an empty teapot. \"Jack, do you have any water? I haven't even got water for my tea.\"",
+   "tr": {
+    "am": "አያት ሊዩ ባዶ የሻይ ማንቆርቆሪያ ይዘው በሩ ላይ ቆመው በጭንቀት «ጃክ፣ ቤትህ ውሃ አለ? ሻይ የማፈላበት ውሃ እንኳ የለኝም» ብለው ጠየቁ።",
+    "fa": "پدربزرگ لیو با یه کتری خالی پشت در جکه: «جک، آب داری؟ برای چایم هم آب نذاشتم.»"
+   },
+   "start": 117.272,
+   "end": 126.992,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "空",
+     "kōng",
+     "empty; air; sky",
+     ""
+    ],
+    [
+     "茶壶",
+     "chá hú",
+     "teapot",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "家门",
+     "jiā mén",
+     "house door; family clan",
+     ""
+    ],
+    [
+     "口",
+     "kǒu",
+     "mouth",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "着急",
+     "zháo jí",
+     "to worry; to feel anxious",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "连",
+     "lián",
+     "(used with 也, 都 etc) even; to link; to join",
+     ""
+    ],
+    [
+     "泡茶",
+     "pào chá",
+     "to make tea",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "(used for emphasis) even; all; both; entirely; already",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; to not have; hasn't",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克一下子清醒了，赶紧把他请进了门。",
+   "py": "Jié kè yí xià zi qīng xǐng le, gǎn jǐn bǎ tā qǐng jìn le mén.",
+   "en": "Jack is suddenly wide awake, and quickly invites him in.",
+   "tr": {
+    "am": "ጃክ ድንገት እንቅልፉ ጠፋ፤ ቶሎ ብሎ ወደ ቤት አስገባቸው።",
+    "fa": "جک یهو کاملاً بیدار می‌شه و سریع دعوتش می‌کنه بیاد تو."
+   },
+   "start": 127.692,
+   "end": 132.228,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "all at once; all of a sudden; once; one time",
+     ""
+    ],
+    [
+     "清醒",
+     "qīng xǐng",
+     "awake; clear-headed; sober",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "赶紧",
+     "gǎn jǐn",
+     "hurriedly; without delay",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "请进",
+     "qǐng jìn",
+     "\"please come in\"",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "门",
+     "mén",
+     "gate; door; doorway; gateway; opening",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷看见满屋子的水，眼睛都直了：“你怎么知道今天要停水？”",
+   "py": "Liú yé ye kàn jiàn mǎn wū zi de shuǐ, yǎn jing dōu zhí le: “nǐ zěn me zhī dào jīn tiān yào tíng shuǐ?”",
+   "en": "When Grandpa Liu sees the flat full of water, his eyes nearly pop out. \"How did you know the water would go off today?\"",
+   "tr": {
+    "am": "አያት ሊዩ ቤቱን የሞላውን ውሃ ሲያዩ ዓይናቸው ፈጠጠ፦ «ዛሬ ውሃ እንደሚቋረጥ እንዴት አወቅህ?»",
+    "fa": "پدربزرگ لیو که خونه‌ی پر از آب رو می‌بینه، چشم‌هاش داره می‌افته بیرون: «از کجا می‌دونستی امروز آب قطع می‌شه؟»"
+   },
+   "start": 132.928,
+   "end": 139.576,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "满",
+     "mǎn",
+     "full; fully; to fill",
+     ""
+    ],
+    [
+     "屋子",
+     "wū zi",
+     "house; room",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "眼睛",
+     "yǎn jing",
+     "eye",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "直",
+     "zhí",
+     "straight; to straighten; fair and reasonable",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "知道",
+     "zhī dào",
+     "to know; to become aware of; also pr.",
+     ""
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "停水",
+     "tíng shuǐ",
+     "to cut off the water supply; water outage",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克不好意思地说：“说来话长。”",
+   "py": "Jié kè bù hǎo yì sī de shuō: “shuō lái huà cháng.”",
+   "en": "Jack says sheepishly, \"It's a long story.\"",
+   "tr": {
+    "am": "ጃክ አፍሮ «ረጅም ታሪክ ነው» አለ።",
+    "fa": "جک با خجالت می‌گه: «حکایتش طولانیه.»"
+   },
+   "start": 140.276,
+   "end": 144.812,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to feel embarrassed; to find it embarrassing",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "说来话长",
+     "shuō lái huà cháng",
+     "start explaining and it's a long story (idiom); complicated and not easy to express succinctly",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "没过多久，消息就传遍了整栋楼，邻居们提着壶、端着锅，在杰克家门口排起了长队。",
+   "py": "mò guò duō jiǔ, xiāo xi jiù chuán biàn le zhěng dòng lóu, lín jū men tí zhe hú, duān zhe guō, zài Jié kè jiā mén kǒu pái qǐ le cháng duì.",
+   "en": "Before long, word has spread round the whole building, and the neighbours queue outside Jack's door with kettles and pots.",
+   "tr": {
+    "am": "ብዙም ሳይቆይ ወሬው በሕንፃው በሙሉ ተሰራጨ፤ ጎረቤቶች ማንቆርቆሪያና ድስት ይዘው በጃክ በር ላይ ረጅም ሰልፍ ያዙ።",
+    "fa": "خیلی نگذشته خبر تو کل ساختمون پیچیده و همسایه‌ها با کتری و قابلمه پشت در جک صف کشیدن."
+   },
+   "start": 145.512,
+   "end": 155.232,
+   "tokens": [
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "过多",
+     "guò duō",
+     "too many; excessive",
+     ""
+    ],
+    [
+     "久",
+     "jiǔ",
+     "(of a period of time) long",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "(piece of) news; information; message",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "传遍",
+     "chuán biàn",
+     "to spread widely",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "整",
+     "zhěng",
+     "(bound form) whole; complete; entire; (before a measure word) whole; (before or after number + measure word) exactly",
+     ""
+    ],
+    [
+     "栋",
+     "dòng",
+     "classifier for houses or buildings; ridgepole (old)",
+     ""
+    ],
+    [
+     "楼",
+     "lóu",
+     "storied building; house with more than 1 story; floor",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "邻居",
+     "lín jū",
+     "neighbor",
+     ""
+    ],
+    [
+     "们",
+     "men",
+     "plural marker for pronouns, and nouns referring to individuals",
+     ""
+    ],
+    [
+     "提",
+     "tí",
+     "to carry (hanging down from the hand); to lift",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "壶",
+     "hú",
+     "pot; classifier for bottled liquid",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "端",
+     "duān",
+     "(bound form) tip; end; extremity; (bound form) aspect; facet",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "锅",
+     "guō",
+     "pot; pan; wok; cauldron; pot-shaped thing",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "(used before a verb to indicate an action in progress)",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "家门",
+     "jiā mén",
+     "house door; family clan",
+     ""
+    ],
+    [
+     "口",
+     "kǒu",
+     "mouth",
+     ""
+    ],
+    [
+     "排",
+     "pái",
+     "to arrange in order; to line up",
+     ""
+    ],
+    [
+     "起",
+     "qǐ",
+     "to rise; to raise; to get up",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "长队",
+     "cháng duì",
+     "queue; line (i.e. of people waiting)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "张阿姨也上楼来了，站在门口帮他维持秩序：“一家一桶，别挤！”",
+   "py": "Zhāng ā yí yě shàng lóu lái le, zhàn zài mén kǒu bāng tā wéi chí zhì xù: “yì jiā yì tǒng, bié jǐ!”",
+   "en": "Auntie Zhang comes up too and stands by the door to keep order. \"One bucket per family. No pushing!\"",
+   "tr": {
+    "am": "እትዬ ዣንግም ወደ ላይ ወጥተው በሩ ላይ ቆመው ሥርዓት አስከበሩ፦ «ለአንድ ቤተሰብ አንድ ባልዲ፤ አትጋፉ!»",
+    "fa": "خاله ژانگ هم میاد بالا و پشت در می‌ایسته که نظم برقرار کنه: «به هر خونه یه سطل؛ هل ندهید!»"
+   },
+   "start": 155.932,
+   "end": 162.82,
+   "tokens": [
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "上楼",
+     "shàng lóu",
+     "to go upstairs",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (between two verbs) in order to",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "门口",
+     "mén kǒu",
+     "doorway; gate",
+     ""
+    ],
+    [
+     "帮",
+     "bāng",
+     "to help; to assist; to support",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "维持",
+     "wéi chí",
+     "to keep; to maintain; to preserve",
+     ""
+    ],
+    [
+     "秩序",
+     "zhì xù",
+     "order; orderliness (in society, in the classroom, on the roads etc)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "一家",
+     "yī jiā",
+     "the whole family; the same family",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "桶",
+     "tǒng",
+     "bucket; (trash) can; barrel (of oil etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "别",
+     "bié",
+     "to stick in; to insert (in order to hinder movement)",
+     ""
+    ],
+    [
+     "挤",
+     "jǐ",
+     "to crowd in; to cram in; to force others aside",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "下午水管修好的时候，杰克的水也正好分完了。",
+   "py": "xià wǔ shuǐ guǎn xiū hǎo de shí hou, Jié kè de shuǐ yě zhèng hǎo fēn wán le.",
+   "en": "By the time the pipe is fixed in the afternoon, Jack's water has just run out.",
+   "tr": {
+    "am": "ከሰዓት በኋላ ቧንቧው ሲጠገን የጃክ ውሃም ልክ አለቀ።",
+    "fa": "بعدازظهر که لوله درست می‌شه، آب جک هم دقیقاً تموم شده."
+   },
+   "start": 163.52,
+   "end": 168.536,
+   "tokens": [
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "水管",
+     "shuǐ guǎn",
+     "water pipe",
+     ""
+    ],
+    [
+     "修好",
+     "xiū hǎo",
+     "to repair (sth broken); to restore (sth damaged)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+     ""
+    ],
+    [
+     "正好",
+     "zhèng hǎo",
+     "just (in time); just right; just enough",
+     ""
+    ],
+    [
+     "分",
+     "fēn",
+     "minute (unit of time); to divide; to separate",
+     ""
+    ],
+    [
+     "完了",
+     "wán le",
+     "to be finished; to be done for; ruined",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "晚上，邻居们送来了饺子、水果和点心，杰克的桌子上摆得满满的。",
+   "py": "wǎn shang, lín jū men sòng lái le jiǎo zi, shuǐ guǒ hé diǎn xin, Jié kè de zhuō zi shàng bǎi de mǎn mǎn de.",
+   "en": "In the evening, the neighbours bring round dumplings, fruit and snacks, and Jack's table is piled high.",
+   "tr": {
+    "am": "ምሽት ላይ ጎረቤቶች ዱምፕሊንግ፣ ፍራፍሬና ጣፋጭ ምግቦች አመጡለት፤ የጃክ ጠረጴዛ ሙሉ በሙሉ ተሞላ።",
+    "fa": "عصر همسایه‌ها راویولی، میوه و خوراکی میارن و میز جک پر می‌شه."
+   },
+   "start": 169.236,
+   "end": 176.604,
+   "tokens": [
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "邻居",
+     "lín jū",
+     "neighbor",
+     ""
+    ],
+    [
+     "们",
+     "men",
+     "plural marker for pronouns, and nouns referring to individuals",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "(after a round number) approximately; to come",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "饺子",
+     "jiǎo zi",
+     "dumpling; pot-sticker",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "水果",
+     "shuǐ guǒ",
+     "fruit",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "点心",
+     "diǎn xin",
+     "light refreshments; pastry; dim sum (in Cantonese cooking)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "桌子",
+     "zhuō zi",
+     "table; desk",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "摆",
+     "bǎi",
+     "to arrange; to exhibit; to move to and fro",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "满满",
+     "mǎn mǎn",
+     "full; closely packed",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷拍拍他的肩膀：“这就叫有备无患。”",
+   "py": "Liú yé ye pāi pāi tā de jiān bǎng: “zhè jiù jiào yǒu bèi wú huàn.”",
+   "en": "Grandpa Liu pats him on the shoulder. \"That's what we call being prepared.\"",
+   "tr": {
+    "am": "አያት ሊዩ ትከሻውን መታ መታ አደረጉ፦ «‹ቀድሞ የተዘጋጀ አይጎዳም› የሚባለው ይህ ነው።»",
+    "fa": "پدربزرگ لیو شونه‌ش رو می‌زنه: «این می‌شه همون آماده بودن برای روز مبادا.»"
+   },
+   "start": 177.304,
+   "end": 182.032,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "拍",
+     "pāi",
+     "to pat; to clap; to slap",
+     ""
+    ],
+    [
+     "拍",
+     "pāi",
+     "to pat; to clap; to slap",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "肩膀",
+     "jiān bǎng",
+     "shoulder",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这就",
+     "zhè jiù",
+     "immediately; at once",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to call; to be called; to shout",
+     ""
+    ],
+    [
+     "有备无患",
+     "yǒu bèi wú huàn",
+     "Preparedness averts peril.",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 568,
+ "first": "星期一早上，杰克在小区门口看到一张停水通知，上面写着：因管道维修，星期三上午八点至晚上八点停水。",
+ "newWords": [
+  {
+   "w": "通知",
+   "py": "tōngzhī",
+   "en": "to notify"
+  },
+  {
+   "w": "储存",
+   "py": "chǔcún",
+   "en": "store for later"
+  },
+  {
+   "w": "维持",
+   "py": "wéichí",
+   "en": "to keep something functioning or stable"
+  },
+  {
+   "w": "秩序",
+   "py": "zhìxù",
+   "en": "organized and predictable arrangement"
+  },
+  {
+   "w": "有备无患",
+   "py": "yǒu bèi wú huàn",
+   "en": "Preparedness averts peril."
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h6-01.mp3?v=1791720579"
 }

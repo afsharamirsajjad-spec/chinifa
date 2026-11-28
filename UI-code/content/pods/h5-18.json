@@ -1,2670 +1,2690 @@
 {
-  "id": "h5-18",
-  "level": 5,
-  "no": 18,
-  "title": "遛鸟",
-  "title_py": "liú niǎo",
-  "title_en": "Taking the bird for a walk",
-  "title_tr": {
-    "am": "ወፍን ማንሸራሸር",
-    "fa": "گردش بردن پرنده در قفس"
+ "id": "h5-18",
+ "level": 5,
+ "no": 18,
+ "title": "遛鸟",
+ "title_py": "liú niǎo",
+ "title_en": "Taking the bird for a walk",
+ "title_tr": {
+  "am": "ወፍን ማንሸራሸር",
+  "fa": "گردش بردن پرنده در قفس"
+ },
+ "topic": "out",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h5-18.jpg",
+ "duration": 150.06,
+ "lines": [
+  {
+   "text": "每天早上六点，杰克出门跑步的时候，都能碰到提着鸟笼去公园的刘爷爷。",
+   "py": "měi tiān zǎo shang liù diǎn, Jié kè chū mén pǎo bù de shí hou, dōu néng pèng dào tí zhe niǎo lóng qù gōng yuán de Liú yé ye.",
+   "en": "Every morning at six, when Jack goes out for his run, he bumps into Grandpa Liu on his way to the park with his birdcage.",
+   "tr": {
+    "am": "በየቀኑ ጠዋት 6:00 ላይ ጃክ ለሩጫ ሲወጣ የወፍ ቤቱን ይዞ ወደ ፓርክ የሚሄደውን አያት ሊዩን ያገኛል።",
+    "fa": "هر صبح ساعت شش، وقتی جک می‌ره بیرون برای دویدنش، به پدربزرگ لیو می‌خوره که سر راه پارک با قفس پرنده‌شه."
+   },
+   "start": 2.14,
+   "end": 9.508,
+   "tokens": [
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "六",
+     "liù",
+     "six; 6",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "出门",
+     "chū mén",
+     "to go out; to leave home; to go on a journey",
+     ""
+    ],
+    [
+     "跑步",
+     "pǎo bù",
+     "to run; to jog; (military) to march at the double",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "碰到",
+     "pèng dào",
+     "to run into; to come across; to meet",
+     ""
+    ],
+    [
+     "提",
+     "tí",
+     "to carry (hanging down from the hand); to lift",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "鸟笼",
+     "niǎo lóng",
+     "birdcage",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "公园",
+     "gōng yuán",
+     "park (for public recreation)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "out",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h5-18.jpg",
-  "duration": 150.06,
-  "lines": [
-    {
-      "text": "每天早上六点，杰克出门跑步的时候，都能碰到提着鸟笼去公园的刘爷爷。",
-      "py": "měi tiān zǎo shang liù diǎn, Jié kè chū mén pǎo bù de shí hou, dōu néng pèng dào tí zhe niǎo lóng qù gōng yuán de Liú yé ye.",
-      "en": "Every morning at six, when Jack goes out for his run, he bumps into Grandpa Liu on his way to the park with his birdcage.",
-      "tr": {
-        "am": "በየቀኑ ጠዋት 6:00 ላይ ጃክ ለሩጫ ሲወጣ የወፍ ቤቱን ይዞ ወደ ፓርክ የሚሄደውን አያት ሊዩን ያገኛል።"
-      },
-      "start": 2.14,
-      "end": 9.508,
-      "tokens": [
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "六",
-          "liù",
-          "six; 6",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "出门",
-          "chū mén",
-          "to go out; to leave home; to go on a journey",
-          ""
-        ],
-        [
-          "跑步",
-          "pǎo bù",
-          "to run; to jog; (military) to march at the double",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "碰到",
-          "pèng dào",
-          "to run into; to come across; to meet",
-          ""
-        ],
-        [
-          "提",
-          "tí",
-          "to carry (hanging down from the hand); to lift",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "鸟笼",
-          "niǎo lóng",
-          "birdcage",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "公园",
-          "gōng yuán",
-          "park (for public recreation)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "鸟笼上盖着一块蓝布，刘爷爷走得很慢，手还一前一后地轻轻摇着笼子。",
-      "py": "niǎo lóng shàng gài zhe yí kuài lán bù, Liú yé ye zǒu de hěn màn, shǒu hái yì qián yí hòu de qīng qīng yáo zhe lóng zi.",
-      "en": "The cage is covered with a blue cloth, and Grandpa Liu walks slowly, gently swinging it back and forth.",
-      "tr": {
-        "am": "በወፍ ቤቱ ላይ ሰማያዊ ጨርቅ ተሸፍኗል። አያት ሊዩ ቀስ ብሎ ይሄዳል፣ ቤቱንም በእጁ ወደ ፊትና ወደ ኋላ በቀስታ ያወዛውዛል።"
-      },
-      "start": 10.208,
-      "end": 18.056,
-      "tokens": [
-        [
-          "鸟笼",
-          "niǎo lóng",
-          "birdcage",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "盖",
-          "gài",
-          "cover; to cover; lid",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一块",
-          "yī kuài",
-          "a piece; a chunk",
-          ""
-        ],
-        [
-          "蓝",
-          "lán",
-          "blue; indigo plant",
-          ""
-        ],
-        [
-          "布",
-          "bù",
-          "cloth; to announce; to spread",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "慢",
-          "màn",
-          "slow",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "手",
-          "shǒu",
-          "hand; (formal) to hold",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "前",
-          "qián",
-          "front; forward; ahead",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "后",
-          "hòu",
-          "back; empress; queen",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "轻轻",
-          "qīng qīng",
-          "lightly; softly",
-          ""
-        ],
-        [
-          "摇",
-          "yáo",
-          "to shake; to rock; to row",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "笼子",
-          "lóng zi",
-          "cage; basket; container",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "有一天，杰克忍不住问：“刘爷爷，您每天带它去哪儿？”",
-      "py": "yǒu yì tiān, Jié kè rěn bu zhù wèn: “Liú yé ye, nín měi tiān dài tā qù nǎ r?”",
-      "en": "One day, Jack can't help asking, \"Grandpa Liu, where do you take it every day?\"",
-      "tr": {
-        "am": "አንድ ቀን ጃክ መጠየቅ አላስቻለውም፦ «አያት ሊዩ፣ በየቀኑ ወዴት ይወስዷታል?»"
-      },
-      "start": 18.756,
-      "end": 25.668,
-      "tokens": [
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "忍不住",
-          "rěn bu zhù",
-          "cannot help; unable to bear",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "to take along; band; belt",
-          ""
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "哪儿",
-          "nǎ r",
-          "where?; wherever; anywhere; somewhere",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“遛鸟啊。”",
-      "py": "“liú niǎo a.”",
-      "en": "\"For a walk.\"",
-      "tr": {
-        "am": "«ላንሸራሽራት ነዋ።»"
-      },
-      "start": 26.368,
-      "end": 28.096,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "遛",
-          "liù",
-          "to walk (an animal); to stroll",
-          ""
-        ],
-        [
-          "鸟",
-          "niǎo",
-          "bird",
-          ""
-        ],
-        [
-          "啊",
-          "a",
-          "modal particle ending sentence, showing affirmation, approval, or consent",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克觉得很好笑：狗需要遛，鸟也需要遛吗？它不是会飞吗？",
-      "py": "Jié kè jué de hěn hǎo xiào: gǒu xū yào liú, niǎo yě xū yào liú ma? tā bú shì huì fēi ma?",
-      "en": "Jack finds this very funny. Dogs need walks, but birds too? Can't they fly?",
-      "tr": {
-        "am": "ጃክ በጣም አሳቀው፦ ውሻ መንሸራሸር ያስፈልገዋል፣ ወፍም ያስፈልጋታል እንዴ? መብረር አትችልም እንዴ?"
-      },
-      "start": 28.796,
-      "end": 35.684,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "好笑",
-          "hǎo xiào",
-          "laughable; funny; ridiculous",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "狗",
-          "gǒu",
-          "dog",
-          ""
-        ],
-        [
-          "需要",
-          "xū yào",
-          "to need; to want; to demand; to require; needs",
-          ""
-        ],
-        [
-          "遛",
-          "liù",
-          "to walk (an animal); to stroll",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "鸟",
-          "niǎo",
-          "bird",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "需要",
-          "xū yào",
-          "to need; to want; to demand; to require; needs",
-          ""
-        ],
-        [
-          "遛",
-          "liù",
-          "to walk (an animal); to stroll",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "不是",
-          "bù shì",
-          "no; is not; not",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "飞",
-          "fēi",
-          "to fly",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷说：“鸟老关在家里会闷，得带它出去见见朋友，听听别的鸟是怎么唱的。你明天跟我去看看就知道了。”",
-      "py": "Liú yé ye shuō: “niǎo lǎo guān zài jiā lǐ huì mèn, de dài tā chū qù jiàn jiàn péng you, tīng tīng bié de niǎo shì zěn me chàng de. nǐ míng tiān gēn wǒ qù kàn kàn jiù zhī dào le.”",
-      "en": "Grandpa Liu says, \"A bird gets bored if it's always shut up at home. You have to take it out to meet its friends and hear how the other birds sing. Come with me tomorrow and you'll see.\"",
-      "tr": {
-        "am": "አያት ሊዩ አለ፦ «ወፍ ሁልጊዜ ቤት ውስጥ ከተዘጋች ይሰለቻታል። ጓደኞቿን እንድታገኝ፣ ሌሎች ወፎች እንዴት እንደሚዘምሩ እንድትሰማ ማውጣት ያስፈልጋል። ነገ ከኔ ጋር መጥተህ እይ፣ ይገባሃል።»"
-      },
-      "start": 36.384,
-      "end": 47.256,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "鸟",
-          "niǎo",
-          "bird",
-          ""
-        ],
-        [
-          "老",
-          "lǎo",
-          "always",
-          ""
-        ],
-        [
-          "关",
-          "guān",
-          "to close; to shut; to turn off",
-          ""
-        ],
-        [
-          "在家",
-          "zài jiā",
-          "to be at home",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "闷",
-          "mēn",
-          "shut indoors; stuffy; to smother",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "to take along; to bear (i.e. to have); band",
-          ""
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "出去",
-          "chū qù",
-          "to go out",
-          ""
-        ],
-        [
-          "见",
-          "jiàn",
-          "to see; to meet; to appear (to be sth)",
-          ""
-        ],
-        [
-          "见",
-          "jiàn",
-          "to see; to meet; to appear (to be sth)",
-          ""
-        ],
-        [
-          "朋友",
-          "péng you",
-          "friend",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "别的",
-          "bié de",
-          "other; else",
-          ""
-        ],
-        [
-          "鸟",
-          "niǎo",
-          "bird",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "唱",
-          "chàng",
-          "to sing; to call loudly; to chant",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "明天",
-          "míng tiān",
-          "tomorrow",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "看看",
-          "kàn kan",
-          "to take a look at; to examine; to survey",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "知道了",
-          "zhī dào le",
-          "OK!; Got it!",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "第二天，杰克跟着刘爷爷来到公园，一下子就被眼前的景象吸引住了。",
-      "py": "dì èr tiān, Jié kè gēn zhe Liú yé ye lái dào gōng yuán, yí xià zi jiù bèi yǎn qián de jǐng xiàng xī yǐn zhù le.",
-      "en": "The next day, Jack goes to the park with Grandpa Liu, and the sight in front of him draws him in at once.",
-      "tr": {
-        "am": "በማግሥቱ ጃክ ከአያት ሊዩ ጋር ወደ ፓርኩ ሄደ፣ ፊቱ ያለው ትዕይንት ወዲያው ሳበው።"
-      },
-      "start": 47.956,
-      "end": 55.348,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "跟着",
-          "gēn zhe",
-          "to follow after; immediately afterwards",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "来到",
-          "lái dào",
-          "to arrive; to come",
-          ""
-        ],
-        [
-          "公园",
-          "gōng yuán",
-          "park (for public recreation)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "once; one time; all at once; all of a sudden",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "被",
-          "bèi",
-          "quilt; to cover (with); (literary) to suffer (a misfortune)",
-          ""
-        ],
-        [
-          "眼前",
-          "yǎn qián",
-          "before one's eyes; now; at present",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "景象",
-          "jǐng xiàng",
-          "sight (to behold); scene",
-          ""
-        ],
-        [
-          "吸引",
-          "xī yǐn",
-          "to attract; to appeal to; to fascinate",
-          ""
-        ],
-        [
-          "住",
-          "zhù",
-          "to live; to reside; to stay; to stop; to cease",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小树林里挂着几十个鸟笼，一群老人坐在树下喝茶、聊天，鸟儿们在笼子里唱得热闹极了。",
-      "py": "xiǎo shù lín lǐ guà zhe jǐ shí gè niǎo lóng, yì qún lǎo rén zuò zài shù xià hē chá, liáo tiān, niǎo r men zài lóng zi lǐ chàng de rè nao jí le.",
-      "en": "Dozens of birdcages hang in a little wood. A group of old men sit under the trees drinking tea and chatting, while the birds sing away in their cages.",
-      "tr": {
-        "am": "በትንሹ ጫካ ውስጥ በአሥሮች የሚቆጠሩ የወፍ ቤቶች ተሰቅለዋል። ብዙ አዛውንቶች ከዛፍ ሥር ተቀምጠው ሻይ እየጠጡ ያወራሉ፣ ወፎቹም በቤታቸው ውስጥ በደመቀ ሁኔታ ይዘምራሉ።"
-      },
-      "start": 56.048,
-      "end": 66.272,
-      "tokens": [
-        [
-          "小树林",
-          "xiǎo shù lín",
-          "grove",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "挂",
-          "guà",
-          "to hang; to suspend (from a hook etc)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "几",
-          "jǐ",
-          "how many; how much; several; a few",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "鸟笼",
-          "niǎo lóng",
-          "birdcage",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "single; one; a (article)",
-          ""
-        ],
-        [
-          "群",
-          "qún",
-          "group; crowd; flock, herd, pack etc",
-          ""
-        ],
-        [
-          "老人",
-          "lǎo rén",
-          "old man or woman; the elderly",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "树",
-          "shù",
-          "tree; to cultivate; to set up",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "喝茶",
-          "hē chá",
-          "to drink tea; to get engaged; to have a serious conversation",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "聊天",
-          "liáo tiān",
-          "to chat; to gossip",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "鸟儿",
-          "niǎo r",
-          "bird",
-          ""
-        ],
-        [
-          "们",
-          "men",
-          "plural marker for pronouns, and nouns referring to individuals",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "笼子",
-          "lóng zi",
-          "cage; basket; container",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "唱",
-          "chàng",
-          "to sing; to call loudly; to chant",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "热闹",
-          "rè nao",
-          "bustling with noise and excitement; lively",
-          ""
-        ],
-        [
-          "极了",
-          "jí le",
-          "extremely; exceedingly",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷把笼子挂上树枝，拿开蓝布，小绿鸟马上跳了几下，叫了起来。",
-      "py": "Liú yé ye bǎ lóng zi guà shàng shù zhī, ná kāi lán bù, xiǎo lǜ niǎo mǎ shàng tiào le jǐ xià, jiào le qǐ lái.",
-      "en": "Grandpa Liu hangs his cage on a branch and takes off the cloth. The little green bird hops about and starts to sing.",
-      "tr": {
-        "am": "አያት ሊዩ ቤቱን በቅርንጫፍ ላይ ሰቀለው፣ ሰማያዊውን ጨርቅ ገለጠው፣ ትንሿ አረንጓዴ ወፍ ወዲያው ጥቂት ጊዜ ዘላ መጮኽ ጀመረች።"
-      },
-      "start": 66.972,
-      "end": 74.34,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "笼子",
-          "lóng zi",
-          "cage; basket; container",
-          ""
-        ],
-        [
-          "挂",
-          "guà",
-          "to hang; to suspend (from a hook etc)",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "树枝",
-          "shù zhī",
-          "branch; twig",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "拿",
-          "ná",
-          "to take; to hold; to seize",
-          ""
-        ],
-        [
-          "开",
-          "kāi",
-          "(of ships, vehicles, troops etc) to start",
-          ""
-        ],
-        [
-          "蓝",
-          "lán",
-          "blue; indigo plant",
-          ""
-        ],
-        [
-          "布",
-          "bù",
-          "cloth; to announce; to spread",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "绿",
-          "lǜ",
-          "green",
-          ""
-        ],
-        [
-          "鸟",
-          "niǎo",
-          "bird",
-          ""
-        ],
-        [
-          "马上",
-          "mǎ shàng",
-          "at once; right away; immediately",
-          ""
-        ],
-        [
-          "跳",
-          "tiào",
-          "to jump; to hop; to skip over",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "几",
-          "jǐ",
-          "how many; how much; several; a few",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "measure word to show the frequency of an action; down",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "叫",
-          "jiào",
-          "to shout; to call; to order",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一位老人说：“老刘，你这只鸟最近学得不错啊。”",
-      "py": "yī wèi lǎo rén shuō: “lǎo liú, nǐ zhè zhī niǎo zuì jìn xué de bú cuò a.”",
-      "en": "One of the old men says, \"Old Liu, that bird of yours has been learning well lately.\"",
-      "tr": {
-        "am": "አንድ አዛውንት አለ፦ «ላኦ ሊዩ፣ ይህች ወፍህ በቅርቡ በደንብ ተምራለች።»"
-      },
-      "start": 75.04,
-      "end": 80.056,
-      "tokens": [
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "老人",
-          "lǎo rén",
-          "old man or woman; the elderly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "老",
-          "lǎo",
-          "old (of people)",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
-          ""
-        ],
-        [
-          "鸟",
-          "niǎo",
-          "bird",
-          ""
-        ],
-        [
-          "最近",
-          "zuì jìn",
-          "recently; soon; nearest",
-          ""
-        ],
-        [
-          "学",
-          "xué",
-          "to learn; to study; to imitate",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "不错",
-          "bù cuò",
-          "correct; right; not bad",
-          ""
-        ],
-        [
-          "啊",
-          "a",
-          "modal particle ending sentence, showing affirmation, approval, or consent",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷得意地说：“它最会模仿了，听见什么学什么，最近又学会了一个新的。”",
-      "py": "Liú yé ye de yì de shuō: “tā zuì huì mó fǎng le, tīng jiàn shén me xué shén me, zuì jìn yòu xué huì le yí gè xīn de.”",
-      "en": "Grandpa Liu says proudly, \"It's brilliant at copying. Whatever it hears, it learns. It's just picked up something new.\"",
-      "tr": {
-        "am": "አያት ሊዩ እየተኩራራ አለ፦ «በጣም ጎበዝ አስመሳይ ናት፣ የሰማችውን ሁሉ ትማራለች፣ በቅርቡ ደግሞ አንድ አዲስ ነገር ተምራለች።»"
-      },
-      "start": 80.756,
-      "end": 88.58,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "得意",
-          "dé yì",
-          "proud of oneself; pleased with oneself; complacent",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "最",
-          "zuì",
-          "(before an adjective or verb) to the highest degree; (the) most ...; -est",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "模仿",
-          "mó fǎng",
-          "to copy; to imitate; to emulate",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "听见",
-          "tīng jiàn",
-          "to hear",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "学",
-          "xué",
-          "to learn; to study; to imitate",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "最近",
-          "zuì jìn",
-          "recently; soon; nearest",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "学会",
-          "xué huì",
-          "to learn; to master",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "新",
-          "xīn",
-          "new; newly; meso- (chemistry)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "话还没说完，树上就传来了一阵“叮铃铃、叮铃铃”的声音。",
-      "py": "huà hái méi shuō wán, shù shàng jiù chuán lái le yí zhèn “dīng líng líng, dīng líng líng” de shēng yīn.",
-      "en": "Before he's finished, a sound comes from the tree: \"Ring-ring! Ring-ring!\"",
-      "tr": {
-        "am": "ገና ሳይጨርስ ከዛፉ ላይ «ቅርርር፣ ቅርርር» የሚል ድምፅ ተሰማ።"
-      },
-      "start": 89.28,
-      "end": 94.944,
-      "tokens": [
-        [
-          "话",
-          "huà",
-          "dialect; language; spoken words",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "树",
-          "shù",
-          "tree; to cultivate; to set up",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "传来",
-          "chuán lái",
-          "(of a sound) to come through; to be heard",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一阵",
-          "yī zhèn",
-          "a burst; a fit; a peal",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "叮铃",
-          "dīng líng",
-          "jingle",
-          ""
-        ],
-        [
-          "铃",
-          "líng",
-          "(small) bell",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "叮铃",
-          "dīng líng",
-          "jingle",
-          ""
-        ],
-        [
-          "铃",
-          "líng",
-          "(small) bell",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "声音",
-          "shēng yīn",
-          "sound; voice",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "树下的老人们纷纷掏出手机，有的低头看，有的“喂、喂”了半天。",
-      "py": "shù xià de lǎo rén men fēn fēn tāo chū shǒu jī, yǒu de dī tóu kàn, yǒu de “wèi, wèi” le bàn tiān.",
-      "en": "The old men under the tree all pull out their phones. Some look at the screen, and some keep saying, \"Hello? Hello?\"",
-      "tr": {
-        "am": "ከዛፉ ሥር ያሉት አዛውንቶች ሁሉ ስልካቸውን አወጡ፣ አንዳንዶቹ ስክሪኑን አዩ፣ አንዳንዶቹ ደግሞ ለረጅም ጊዜ «ሄሎ፣ ሄሎ» አሉ።"
-      },
-      "start": 95.644,
-      "end": 102.748,
-      "tokens": [
-        [
-          "树",
-          "shù",
-          "tree; to cultivate; to set up",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "老人",
-          "lǎo rén",
-          "old man or woman; the elderly",
-          ""
-        ],
-        [
-          "们",
-          "men",
-          "plural marker for pronouns, and nouns referring to individuals",
-          ""
-        ],
-        [
-          "纷纷",
-          "fēn fēn",
-          "one after another; in succession; one by one",
-          ""
-        ],
-        [
-          "掏出",
-          "tāo chū",
-          "to fish out; to take out (from a pocket, bag etc)",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有的",
-          "yǒu de",
-          "(there are) some (who are...); some (exist)",
-          ""
-        ],
-        [
-          "低头",
-          "dī tóu",
-          "to bow the head; to yield; to give in",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to watch out for",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有的",
-          "yǒu de",
-          "(there are) some (who are...); some (exist)",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "喂",
-          "wèi",
-          "hey; to feed (an animal, baby, invalid etc); to feed",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "喂",
-          "wèi",
-          "hey; to feed (an animal, baby, invalid etc); to feed",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "half of the day; a long time; quite a while",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "连杰克也下意识地摸了摸口袋。",
-      "py": "lián Jié kè yě xià yì shí de mō le mō kǒu dài.",
-      "en": "Even Jack reaches for his pocket without thinking.",
-      "tr": {
-        "am": "ጃክም እንኳ ሳያስበው ኪሱን ዳሰሰ።"
-      },
-      "start": 103.448,
-      "end": 106.784,
-      "tokens": [
-        [
-          "连",
-          "lián",
-          "(used with 也, 都 etc) even; to link; to join",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
-          ""
-        ],
-        [
-          "下意识",
-          "xià yì shí",
-          "subconscious mind",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "摸",
-          "mō",
-          "to feel with the hand; to touch; to stroke",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "摸",
-          "mō",
-          "to feel with the hand; to touch; to stroke",
-          ""
-        ],
-        [
-          "口袋",
-          "kǒu dài",
-          "pocket; bag; sack",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "可是，谁的手机都没响。",
-      "py": "kě shì, shéi de shǒu jī dōu méi xiǎng.",
-      "en": "But nobody's phone is ringing.",
-      "tr": {
-        "am": "ግን የማንም ስልክ አልጮኸም።"
-      },
-      "start": 107.484,
-      "end": 111.276,
-      "tokens": [
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "谁",
-          "shéi",
-          "who; also pr.",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "响",
-          "xiǎng",
-          "to ring; echo; sound",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "大家抬起头，只见那只小绿鸟正歪着脑袋，又“叮铃铃”地叫了一遍。",
-      "py": "dà jiā tái qǐ tóu, zhǐ jiàn nà zhī xiǎo lǜ niǎo zhèng wāi zhe nǎo dai, yòu “dīng líng líng” de jiào le yí biàn.",
-      "en": "They all look up and see the little green bird with its head on one side. \"Ring-ring!\" it goes again.",
-      "tr": {
-        "am": "ሁሉም ቀና ብለው ሲያዩ ትንሿ አረንጓዴ ወፍ ራሷን ዘንበል አድርጋ እንደገና «ቅርርር» አለች።"
-      },
-      "start": 111.976,
-      "end": 118.864,
-      "tokens": [
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "抬起",
-          "tái qǐ",
-          "to lift up",
-          ""
-        ],
-        [
-          "头",
-          "tóu",
-          "head; side; hair style",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只见",
-          "zhǐ jiàn",
-          "to see (the same thing) over and over again",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "绿",
-          "lǜ",
-          "green",
-          ""
-        ],
-        [
-          "鸟",
-          "niǎo",
-          "bird",
-          ""
-        ],
-        [
-          "正",
-          "zhèng",
-          "straight; upright; proper",
-          ""
-        ],
-        [
-          "歪",
-          "wāi",
-          "(coll.) to lie on one's side; askew; at a crooked angle",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "脑袋",
-          "nǎo dai",
-          "head; skull; brains",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "叮铃",
-          "dīng líng",
-          "jingle",
-          ""
-        ],
-        [
-          "铃",
-          "líng",
-          "(small) bell",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to shout; to call; to order",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一遍",
-          "yī biàn",
-          "one time (all the way through); once through",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷不好意思地笑了：“我那个老手机的铃声，它听了一个月，就学会了。”",
-      "py": "Liú yé ye bù hǎo yì sī de xiào le: “wǒ nà ge lǎo shǒu jī de líng shēng, tā tīng le yí gè yuè, jiù xué huì le.”",
-      "en": "Grandpa Liu gives an embarrassed smile. \"It's the ringtone on my old phone. It listened for a month and learned it.\"",
-      "tr": {
-        "am": "አያት ሊዩ አፍሮ ሳቀ፦ «የድሮው ስልኬ የጥሪ ድምፅ ነው፣ ለአንድ ወር ሰምታ ተማረችው።»"
-      },
-      "start": 119.564,
-      "end": 126.644,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to feel embarrassed; to find it embarrassing",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "那个",
-          "nà ge",
-          "that one; that thing; that (as opposed to this)",
-          ""
-        ],
-        [
-          "老手",
-          "lǎo shǒu",
-          "an old hand at sth; experienced person",
-          ""
-        ],
-        [
-          "机",
-          "jī",
-          "(bound form) machine; mechanism; (bound form) aircraft",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "铃声",
-          "líng shēng",
-          "ring; ringtone; bell stroke",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就学",
-          "jiù xué",
-          "to attend school",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "大家都笑了，一位老人说：“老刘，以后你连手机都不用带了，带着它就行。”",
-      "py": "dà jiā dōu xiào le, yí wèi lǎo rén shuō: “lǎo liú, yǐ hòu nǐ lián shǒu jī dōu bú yòng dài le, dài zhe tā jiù xíng.”",
-      "en": "Everyone laughs, and one of the old men says, \"Old Liu, you won't even need to carry a phone now. Just bring the bird.\"",
-      "tr": {
-        "am": "ሁሉም ሳቁ፣ አንድ አዛውንትም አለ፦ «ላኦ ሊዩ፣ ከአሁን በኋላ ስልክ መያዝ እንኳ አያስፈልግህም፣ እሷን ይዘህ መምጣት በቂ ነው።»"
-      },
-      "start": 127.344,
-      "end": 135.864,
-      "tokens": [
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "(used for emphasis) even; all; both; entirely; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "老人",
-          "lǎo rén",
-          "old man or woman; the elderly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "老",
-          "lǎo",
-          "old (of people)",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "连手",
-          "lián shǒu",
-          "concerted action; to collude (in dishonesty)",
-          ""
-        ],
-        [
-          "机",
-          "jī",
-          "(bound form) machine; mechanism; (bound form) aircraft",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "(used for emphasis) even; all; both; entirely; already",
-          ""
-        ],
-        [
-          "不用",
-          "bù yòng",
-          "need not",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "to carry; to bring; band",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "带",
-          "dài",
-          "to carry; to bring; band",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "行",
-          "xíng",
-          "(bound form) to walk; to go; to travel",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "就在这时，又是一阵“叮铃铃”。",
-      "py": "jiù zài zhè shí, yòu shì yí zhèn “dīng líng líng”.",
-      "en": "Just then, there's another \"Ring-ring!\"",
-      "tr": {
-        "am": "ልክ በዚህ ጊዜ እንደገና «ቅርርር» ተሰማ።"
-      },
-      "start": 136.564,
-      "end": 139.9,
-      "tokens": [
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "一阵",
-          "yī zhèn",
-          "a burst; a fit; a peal",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "叮铃",
-          "dīng líng",
-          "jingle",
-          ""
-        ],
-        [
-          "铃",
-          "líng",
-          "(small) bell",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这回谁也没动，大家都笑眯眯地看着那只鸟——可是这一次，响的是杰克的手机。",
-      "py": "zhè huí shéi yě méi dòng, dà jiā dōu xiào mī mī de kàn zhe nà zhī niǎo—— kě shì zhè yí cì, xiǎng de shì Jié kè de shǒu jī.",
-      "en": "This time nobody moves. They all smile up at the bird. But this time, it's Jack's phone that's ringing.",
-      "tr": {
-        "am": "በዚህ ጊዜ ማንም አልተንቀሳቀሰም፣ ሁሉም ፈገግ እያሉ ወደ ወፏ አዩ — በዚህ ጊዜ ግን የጮኸው የጃክ ስልክ ነበር።"
-      },
-      "start": 140.6,
-      "end": 149.36,
-      "tokens": [
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "classifier for occurrences or times",
-          ""
-        ],
-        [
-          "谁",
-          "shéi",
-          "who; also pr.",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "动",
-          "dòng",
-          "(of sth) to move; to set in movement; to displace",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "笑眯眯",
-          "xiào mī mī",
-          "all smiles; beaming",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
-          ""
-        ],
-        [
-          "鸟",
-          "niǎo",
-          "bird",
-          ""
-        ],
-        [
-          "—"
-        ],
-        [
-          "—"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "一次",
-          "yī cì",
-          "first time; first; once",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "响",
-          "xiǎng",
-          "to ring; echo; sound",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 480,
-  "first": "每天早上六点，杰克出门跑步的时候，都能碰到提着鸟笼去公园的刘爷爷。",
-  "newWords": [
-    {
-      "w": "模仿",
-      "py": "mófǎng",
-      "en": "to copy someone’s behavior"
-    },
-    {
-      "w": "吸引",
-      "py": "xīyǐn",
-      "en": "to attract"
-    },
-    {
-      "w": "歪",
-      "py": "wāi",
-      "en": "not straight"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h5-18.mp3?v=1791721052"
+  {
+   "text": "鸟笼上盖着一块蓝布，刘爷爷走得很慢，手还一前一后地轻轻摇着笼子。",
+   "py": "niǎo lóng shàng gài zhe yí kuài lán bù, Liú yé ye zǒu de hěn màn, shǒu hái yì qián yí hòu de qīng qīng yáo zhe lóng zi.",
+   "en": "The cage is covered with a blue cloth, and Grandpa Liu walks slowly, gently swinging it back and forth.",
+   "tr": {
+    "am": "በወፍ ቤቱ ላይ ሰማያዊ ጨርቅ ተሸፍኗል። አያት ሊዩ ቀስ ብሎ ይሄዳል፣ ቤቱንም በእጁ ወደ ፊትና ወደ ኋላ በቀስታ ያወዛውዛል።",
+    "fa": "قفس با یه پارچه‌ی آبی پوشیده شده و پدربزرگ لیو آروم راه می‌ره و ملایامت جلو و عقب تکونش می‌ده."
+   },
+   "start": 10.208,
+   "end": 18.056,
+   "tokens": [
+    [
+     "鸟笼",
+     "niǎo lóng",
+     "birdcage",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "盖",
+     "gài",
+     "cover; to cover; lid",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一块",
+     "yī kuài",
+     "a piece; a chunk",
+     ""
+    ],
+    [
+     "蓝",
+     "lán",
+     "blue; indigo plant",
+     ""
+    ],
+    [
+     "布",
+     "bù",
+     "cloth; to announce; to spread",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "慢",
+     "màn",
+     "slow",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "手",
+     "shǒu",
+     "hand; (formal) to hold",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "前",
+     "qián",
+     "front; forward; ahead",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "后",
+     "hòu",
+     "back; empress; queen",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "轻轻",
+     "qīng qīng",
+     "lightly; softly",
+     ""
+    ],
+    [
+     "摇",
+     "yáo",
+     "to shake; to rock; to row",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "笼子",
+     "lóng zi",
+     "cage; basket; container",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "有一天，杰克忍不住问：“刘爷爷，您每天带它去哪儿？”",
+   "py": "yǒu yì tiān, Jié kè rěn bu zhù wèn: “Liú yé ye, nín měi tiān dài tā qù nǎ r?”",
+   "en": "One day, Jack can't help asking, \"Grandpa Liu, where do you take it every day?\"",
+   "tr": {
+    "am": "አንድ ቀን ጃክ መጠየቅ አላስቻለውም፦ «አያት ሊዩ፣ በየቀኑ ወዴት ይወስዷታል?»",
+    "fa": "یه روز، جک نمی‌تونه نپرسه: «پدربزرگ لیو، هر روزشو کجا می‌بری؟»"
+   },
+   "start": 18.756,
+   "end": 25.668,
+   "tokens": [
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "忍不住",
+     "rěn bu zhù",
+     "cannot help; unable to bear",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "to take along; band; belt",
+     ""
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "哪儿",
+     "nǎ r",
+     "where?; wherever; anywhere; somewhere",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“遛鸟啊。”",
+   "py": "“liú niǎo a.”",
+   "en": "\"For a walk.\"",
+   "tr": {
+    "am": "«ላንሸራሽራት ነዋ።»",
+    "fa": "«قدم زدن.»"
+   },
+   "start": 26.368,
+   "end": 28.096,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "遛",
+     "liù",
+     "to walk (an animal); to stroll",
+     ""
+    ],
+    [
+     "鸟",
+     "niǎo",
+     "bird",
+     ""
+    ],
+    [
+     "啊",
+     "a",
+     "modal particle ending sentence, showing affirmation, approval, or consent",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克觉得很好笑：狗需要遛，鸟也需要遛吗？它不是会飞吗？",
+   "py": "Jié kè jué de hěn hǎo xiào: gǒu xū yào liú, niǎo yě xū yào liú ma? tā bú shì huì fēi ma?",
+   "en": "Jack finds this very funny. Dogs need walks, but birds too? Can't they fly?",
+   "tr": {
+    "am": "ጃክ በጣም አሳቀው፦ ውሻ መንሸራሸር ያስፈልገዋል፣ ወፍም ያስፈልጋታል እንዴ? መብረር አትችልም እንዴ?",
+    "fa": "جک این خیلی بامزه‌ست براش. سگ‌ها به قدم زدن نیاز دارن، ولی پرنده‌ها هم؟ نمی‌تونن پرواز کنن؟"
+   },
+   "start": 28.796,
+   "end": 35.684,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "好笑",
+     "hǎo xiào",
+     "laughable; funny; ridiculous",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "狗",
+     "gǒu",
+     "dog",
+     ""
+    ],
+    [
+     "需要",
+     "xū yào",
+     "to need; to want; to demand; to require; needs",
+     ""
+    ],
+    [
+     "遛",
+     "liù",
+     "to walk (an animal); to stroll",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "鸟",
+     "niǎo",
+     "bird",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "需要",
+     "xū yào",
+     "to need; to want; to demand; to require; needs",
+     ""
+    ],
+    [
+     "遛",
+     "liù",
+     "to walk (an animal); to stroll",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "不是",
+     "bù shì",
+     "no; is not; not",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "飞",
+     "fēi",
+     "to fly",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷说：“鸟老关在家里会闷，得带它出去见见朋友，听听别的鸟是怎么唱的。你明天跟我去看看就知道了。”",
+   "py": "Liú yé ye shuō: “niǎo lǎo guān zài jiā lǐ huì mèn, de dài tā chū qù jiàn jiàn péng you, tīng tīng bié de niǎo shì zěn me chàng de. nǐ míng tiān gēn wǒ qù kàn kàn jiù zhī dào le.”",
+   "en": "Grandpa Liu says, \"A bird gets bored if it's always shut up at home. You have to take it out to meet its friends and hear how the other birds sing. Come with me tomorrow and you'll see.\"",
+   "tr": {
+    "am": "አያት ሊዩ አለ፦ «ወፍ ሁልጊዜ ቤት ውስጥ ከተዘጋች ይሰለቻታል። ጓደኞቿን እንድታገኝ፣ ሌሎች ወፎች እንዴት እንደሚዘምሩ እንድትሰማ ማውጣት ያስፈልጋል። ነገ ከኔ ጋር መጥተህ እይ፣ ይገባሃል።»",
+    "fa": "پدربزرگ لیو می‌گه: «پرنده خسته می‌شه اگه همیشه بسته توی خونه باشه. باید ببریش بیرون که دوست‌هاش رو ببینه و بشنوه بقیه پرنده‌ها چطور می‌خونن. فردا با من بیا و می‌بینی.»"
+   },
+   "start": 36.384,
+   "end": 47.256,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "鸟",
+     "niǎo",
+     "bird",
+     ""
+    ],
+    [
+     "老",
+     "lǎo",
+     "always",
+     ""
+    ],
+    [
+     "关",
+     "guān",
+     "to close; to shut; to turn off",
+     ""
+    ],
+    [
+     "在家",
+     "zài jiā",
+     "to be at home",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "闷",
+     "mēn",
+     "shut indoors; stuffy; to smother",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "to take along; to bear (i.e. to have); band",
+     ""
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "出去",
+     "chū qù",
+     "to go out",
+     ""
+    ],
+    [
+     "见",
+     "jiàn",
+     "to see; to meet; to appear (to be sth)",
+     ""
+    ],
+    [
+     "见",
+     "jiàn",
+     "to see; to meet; to appear (to be sth)",
+     ""
+    ],
+    [
+     "朋友",
+     "péng you",
+     "friend",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "别的",
+     "bié de",
+     "other; else",
+     ""
+    ],
+    [
+     "鸟",
+     "niǎo",
+     "bird",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "唱",
+     "chàng",
+     "to sing; to call loudly; to chant",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "明天",
+     "míng tiān",
+     "tomorrow",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "看看",
+     "kàn kan",
+     "to take a look at; to examine; to survey",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "知道了",
+     "zhī dào le",
+     "OK!; Got it!",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "第二天，杰克跟着刘爷爷来到公园，一下子就被眼前的景象吸引住了。",
+   "py": "dì èr tiān, Jié kè gēn zhe Liú yé ye lái dào gōng yuán, yí xià zi jiù bèi yǎn qián de jǐng xiàng xī yǐn zhù le.",
+   "en": "The next day, Jack goes to the park with Grandpa Liu, and the sight in front of him draws him in at once.",
+   "tr": {
+    "am": "በማግሥቱ ጃክ ከአያት ሊዩ ጋር ወደ ፓርኩ ሄደ፣ ፊቱ ያለው ትዕይንት ወዲያው ሳበው።",
+    "fa": "فردا، جک با پدربزرگ لیو می‌ره پارک و منظره‌ی جلوش همون دم جذبش می‌کنه."
+   },
+   "start": 47.956,
+   "end": 55.348,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "跟着",
+     "gēn zhe",
+     "to follow after; immediately afterwards",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "来到",
+     "lái dào",
+     "to arrive; to come",
+     ""
+    ],
+    [
+     "公园",
+     "gōng yuán",
+     "park (for public recreation)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "once; one time; all at once; all of a sudden",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "被",
+     "bèi",
+     "quilt; to cover (with); (literary) to suffer (a misfortune)",
+     ""
+    ],
+    [
+     "眼前",
+     "yǎn qián",
+     "before one's eyes; now; at present",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "景象",
+     "jǐng xiàng",
+     "sight (to behold); scene",
+     ""
+    ],
+    [
+     "吸引",
+     "xī yǐn",
+     "to attract; to appeal to; to fascinate",
+     ""
+    ],
+    [
+     "住",
+     "zhù",
+     "to live; to reside; to stay; to stop; to cease",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小树林里挂着几十个鸟笼，一群老人坐在树下喝茶、聊天，鸟儿们在笼子里唱得热闹极了。",
+   "py": "xiǎo shù lín lǐ guà zhe jǐ shí gè niǎo lóng, yì qún lǎo rén zuò zài shù xià hē chá, liáo tiān, niǎo r men zài lóng zi lǐ chàng de rè nao jí le.",
+   "en": "Dozens of birdcages hang in a little wood. A group of old men sit under the trees drinking tea and chatting, while the birds sing away in their cages.",
+   "tr": {
+    "am": "በትንሹ ጫካ ውስጥ በአሥሮች የሚቆጠሩ የወፍ ቤቶች ተሰቅለዋል። ብዙ አዛውንቶች ከዛፍ ሥር ተቀምጠው ሻይ እየጠጡ ያወራሉ፣ ወፎቹም በቤታቸው ውስጥ በደመቀ ሁኔታ ይዘምራሉ።",
+    "fa": "ده‌ها قفس پرنده توی یه جنگل کوچولو آویزونن. یه دسته پیرمرد زیر درخت‌ها می‌شینن چای می‌خورن و گپ می‌زنن، در حالی که پرنده‌ها توی قفس‌هاشون هی می‌خونن."
+   },
+   "start": 56.048,
+   "end": 66.272,
+   "tokens": [
+    [
+     "小树林",
+     "xiǎo shù lín",
+     "grove",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "挂",
+     "guà",
+     "to hang; to suspend (from a hook etc)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "几",
+     "jǐ",
+     "how many; how much; several; a few",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "鸟笼",
+     "niǎo lóng",
+     "birdcage",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "single; one; a (article)",
+     ""
+    ],
+    [
+     "群",
+     "qún",
+     "group; crowd; flock, herd, pack etc",
+     ""
+    ],
+    [
+     "老人",
+     "lǎo rén",
+     "old man or woman; the elderly",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "树",
+     "shù",
+     "tree; to cultivate; to set up",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "喝茶",
+     "hē chá",
+     "to drink tea; to get engaged; to have a serious conversation",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "聊天",
+     "liáo tiān",
+     "to chat; to gossip",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "鸟儿",
+     "niǎo r",
+     "bird",
+     ""
+    ],
+    [
+     "们",
+     "men",
+     "plural marker for pronouns, and nouns referring to individuals",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "笼子",
+     "lóng zi",
+     "cage; basket; container",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "唱",
+     "chàng",
+     "to sing; to call loudly; to chant",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "热闹",
+     "rè nao",
+     "bustling with noise and excitement; lively",
+     ""
+    ],
+    [
+     "极了",
+     "jí le",
+     "extremely; exceedingly",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷把笼子挂上树枝，拿开蓝布，小绿鸟马上跳了几下，叫了起来。",
+   "py": "Liú yé ye bǎ lóng zi guà shàng shù zhī, ná kāi lán bù, xiǎo lǜ niǎo mǎ shàng tiào le jǐ xià, jiào le qǐ lái.",
+   "en": "Grandpa Liu hangs his cage on a branch and takes off the cloth. The little green bird hops about and starts to sing.",
+   "tr": {
+    "am": "አያት ሊዩ ቤቱን በቅርንጫፍ ላይ ሰቀለው፣ ሰማያዊውን ጨርቅ ገለጠው፣ ትንሿ አረንጓዴ ወፍ ወዲያው ጥቂት ጊዜ ዘላ መጮኽ ጀመረች።",
+    "fa": "پدربزرگ لیو قفسش رو روی یه شاخه آویزون می‌کنه و پارچه رو برمی‌داره. پرنده‌ی کوچولوی سبز می‌پره بالا و پایین و شروع می‌کنه به آواز خوندن."
+   },
+   "start": 66.972,
+   "end": 74.34,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "笼子",
+     "lóng zi",
+     "cage; basket; container",
+     ""
+    ],
+    [
+     "挂",
+     "guà",
+     "to hang; to suspend (from a hook etc)",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "树枝",
+     "shù zhī",
+     "branch; twig",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "拿",
+     "ná",
+     "to take; to hold; to seize",
+     ""
+    ],
+    [
+     "开",
+     "kāi",
+     "(of ships, vehicles, troops etc) to start",
+     ""
+    ],
+    [
+     "蓝",
+     "lán",
+     "blue; indigo plant",
+     ""
+    ],
+    [
+     "布",
+     "bù",
+     "cloth; to announce; to spread",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "绿",
+     "lǜ",
+     "green",
+     ""
+    ],
+    [
+     "鸟",
+     "niǎo",
+     "bird",
+     ""
+    ],
+    [
+     "马上",
+     "mǎ shàng",
+     "at once; right away; immediately",
+     ""
+    ],
+    [
+     "跳",
+     "tiào",
+     "to jump; to hop; to skip over",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "几",
+     "jǐ",
+     "how many; how much; several; a few",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "measure word to show the frequency of an action; down",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "叫",
+     "jiào",
+     "to shout; to call; to order",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一位老人说：“老刘，你这只鸟最近学得不错啊。”",
+   "py": "yī wèi lǎo rén shuō: “lǎo liú, nǐ zhè zhī niǎo zuì jìn xué de bú cuò a.”",
+   "en": "One of the old men says, \"Old Liu, that bird of yours has been learning well lately.\"",
+   "tr": {
+    "am": "አንድ አዛውንት አለ፦ «ላኦ ሊዩ፣ ይህች ወፍህ በቅርቡ በደንብ ተምራለች።»",
+    "fa": "یکی از پیرمرد‌ها می‌گه: «لیوی پیر، پرنده‌ت این اواخر خوب یاد می‌گیره.»"
+   },
+   "start": 75.04,
+   "end": 80.056,
+   "tokens": [
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "老人",
+     "lǎo rén",
+     "old man or woman; the elderly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "老",
+     "lǎo",
+     "old (of people)",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
+     ""
+    ],
+    [
+     "鸟",
+     "niǎo",
+     "bird",
+     ""
+    ],
+    [
+     "最近",
+     "zuì jìn",
+     "recently; soon; nearest",
+     ""
+    ],
+    [
+     "学",
+     "xué",
+     "to learn; to study; to imitate",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "不错",
+     "bù cuò",
+     "correct; right; not bad",
+     ""
+    ],
+    [
+     "啊",
+     "a",
+     "modal particle ending sentence, showing affirmation, approval, or consent",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷得意地说：“它最会模仿了，听见什么学什么，最近又学会了一个新的。”",
+   "py": "Liú yé ye de yì de shuō: “tā zuì huì mó fǎng le, tīng jiàn shén me xué shén me, zuì jìn yòu xué huì le yí gè xīn de.”",
+   "en": "Grandpa Liu says proudly, \"It's brilliant at copying. Whatever it hears, it learns. It's just picked up something new.\"",
+   "tr": {
+    "am": "አያት ሊዩ እየተኩራራ አለ፦ «በጣም ጎበዝ አስመሳይ ናት፣ የሰማችውን ሁሉ ትማራለች፣ በቅርቡ ደግሞ አንድ አዲስ ነገር ተምራለች።»",
+    "fa": "پدربزرگ لیو با غرور می‌گه: «توی کپی کردن عالیه. هر چی می‌شنوه یاد می‌گیره. همین الان یه چیز جدید یاد گرفته.»"
+   },
+   "start": 80.756,
+   "end": 88.58,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "得意",
+     "dé yì",
+     "proud of oneself; pleased with oneself; complacent",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "最",
+     "zuì",
+     "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "模仿",
+     "mó fǎng",
+     "to copy; to imitate; to emulate",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "听见",
+     "tīng jiàn",
+     "to hear",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "学",
+     "xué",
+     "to learn; to study; to imitate",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "最近",
+     "zuì jìn",
+     "recently; soon; nearest",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "学会",
+     "xué huì",
+     "to learn; to master",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "新",
+     "xīn",
+     "new; newly; meso- (chemistry)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "话还没说完，树上就传来了一阵“叮铃铃、叮铃铃”的声音。",
+   "py": "huà hái méi shuō wán, shù shàng jiù chuán lái le yí zhèn “dīng líng líng, dīng líng líng” de shēng yīn.",
+   "en": "Before he's finished, a sound comes from the tree: \"Ring-ring! Ring-ring!\"",
+   "tr": {
+    "am": "ገና ሳይጨርስ ከዛፉ ላይ «ቅርርር፣ ቅርርር» የሚል ድምፅ ተሰማ።",
+    "fa": "تازه جمله‌ش تموم نشده که یه صدا از درخت میاد: «دینگ‌دینگ! دینگ‌دینگ!»"
+   },
+   "start": 89.28,
+   "end": 94.944,
+   "tokens": [
+    [
+     "话",
+     "huà",
+     "dialect; language; spoken words",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "树",
+     "shù",
+     "tree; to cultivate; to set up",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "传来",
+     "chuán lái",
+     "(of a sound) to come through; to be heard",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一阵",
+     "yī zhèn",
+     "a burst; a fit; a peal",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "叮铃",
+     "dīng líng",
+     "jingle",
+     ""
+    ],
+    [
+     "铃",
+     "líng",
+     "(small) bell",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "叮铃",
+     "dīng líng",
+     "jingle",
+     ""
+    ],
+    [
+     "铃",
+     "líng",
+     "(small) bell",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "声音",
+     "shēng yīn",
+     "sound; voice",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "树下的老人们纷纷掏出手机，有的低头看，有的“喂、喂”了半天。",
+   "py": "shù xià de lǎo rén men fēn fēn tāo chū shǒu jī, yǒu de dī tóu kàn, yǒu de “wèi, wèi” le bàn tiān.",
+   "en": "The old men under the tree all pull out their phones. Some look at the screen, and some keep saying, \"Hello? Hello?\"",
+   "tr": {
+    "am": "ከዛፉ ሥር ያሉት አዛውንቶች ሁሉ ስልካቸውን አወጡ፣ አንዳንዶቹ ስክሪኑን አዩ፣ አንዳንዶቹ ደግሞ ለረጅም ጊዜ «ሄሎ፣ ሄሎ» አሉ።",
+    "fa": "پیرمرد‌های زیر درخت همه گوشی‌هاشون رو درمیارن. بعضی‌ها به صفحه نگاه می‌کنن و بعضی‌ها هی می‌گن: «بله؟ بله؟»"
+   },
+   "start": 95.644,
+   "end": 102.748,
+   "tokens": [
+    [
+     "树",
+     "shù",
+     "tree; to cultivate; to set up",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "老人",
+     "lǎo rén",
+     "old man or woman; the elderly",
+     ""
+    ],
+    [
+     "们",
+     "men",
+     "plural marker for pronouns, and nouns referring to individuals",
+     ""
+    ],
+    [
+     "纷纷",
+     "fēn fēn",
+     "one after another; in succession; one by one",
+     ""
+    ],
+    [
+     "掏出",
+     "tāo chū",
+     "to fish out; to take out (from a pocket, bag etc)",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有的",
+     "yǒu de",
+     "(there are) some (who are...); some (exist)",
+     ""
+    ],
+    [
+     "低头",
+     "dī tóu",
+     "to bow the head; to yield; to give in",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to watch out for",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有的",
+     "yǒu de",
+     "(there are) some (who are...); some (exist)",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "喂",
+     "wèi",
+     "hey; to feed (an animal, baby, invalid etc); to feed",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "喂",
+     "wèi",
+     "hey; to feed (an animal, baby, invalid etc); to feed",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "half of the day; a long time; quite a while",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "连杰克也下意识地摸了摸口袋。",
+   "py": "lián Jié kè yě xià yì shí de mō le mō kǒu dài.",
+   "en": "Even Jack reaches for his pocket without thinking.",
+   "tr": {
+    "am": "ጃክም እንኳ ሳያስበው ኪሱን ዳሰሰ።",
+    "fa": "حتی جک بی‌فکر دستش می‌ره سمت جیبش."
+   },
+   "start": 103.448,
+   "end": 106.784,
+   "tokens": [
+    [
+     "连",
+     "lián",
+     "(used with 也, 都 etc) even; to link; to join",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+     ""
+    ],
+    [
+     "下意识",
+     "xià yì shí",
+     "subconscious mind",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "摸",
+     "mō",
+     "to feel with the hand; to touch; to stroke",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "摸",
+     "mō",
+     "to feel with the hand; to touch; to stroke",
+     ""
+    ],
+    [
+     "口袋",
+     "kǒu dài",
+     "pocket; bag; sack",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "可是，谁的手机都没响。",
+   "py": "kě shì, shéi de shǒu jī dōu méi xiǎng.",
+   "en": "But nobody's phone is ringing.",
+   "tr": {
+    "am": "ግን የማንም ስልክ አልጮኸም።",
+    "fa": "ولی گوشی هیچ‌کسی زنگ نمی‌خوره."
+   },
+   "start": 107.484,
+   "end": 111.276,
+   "tokens": [
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "谁",
+     "shéi",
+     "who; also pr.",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "响",
+     "xiǎng",
+     "to ring; echo; sound",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "大家抬起头，只见那只小绿鸟正歪着脑袋，又“叮铃铃”地叫了一遍。",
+   "py": "dà jiā tái qǐ tóu, zhǐ jiàn nà zhī xiǎo lǜ niǎo zhèng wāi zhe nǎo dai, yòu “dīng líng líng” de jiào le yí biàn.",
+   "en": "They all look up and see the little green bird with its head on one side. \"Ring-ring!\" it goes again.",
+   "tr": {
+    "am": "ሁሉም ቀና ብለው ሲያዩ ትንሿ አረንጓዴ ወፍ ራሷን ዘንበል አድርጋ እንደገና «ቅርርር» አለች።",
+    "fa": "همه بالا نگاه می‌کنن و می‌بینن پرنده‌ی کوچولوی سبز با سرش یه طرفه. «دینگ‌دینگ!» باز هم می‌خونه."
+   },
+   "start": 111.976,
+   "end": 118.864,
+   "tokens": [
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "抬起",
+     "tái qǐ",
+     "to lift up",
+     ""
+    ],
+    [
+     "头",
+     "tóu",
+     "head; side; hair style",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只见",
+     "zhǐ jiàn",
+     "to see (the same thing) over and over again",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "绿",
+     "lǜ",
+     "green",
+     ""
+    ],
+    [
+     "鸟",
+     "niǎo",
+     "bird",
+     ""
+    ],
+    [
+     "正",
+     "zhèng",
+     "straight; upright; proper",
+     ""
+    ],
+    [
+     "歪",
+     "wāi",
+     "(coll.) to lie on one's side; askew; at a crooked angle",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "脑袋",
+     "nǎo dai",
+     "head; skull; brains",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "叮铃",
+     "dīng líng",
+     "jingle",
+     ""
+    ],
+    [
+     "铃",
+     "líng",
+     "(small) bell",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to shout; to call; to order",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一遍",
+     "yī biàn",
+     "one time (all the way through); once through",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷不好意思地笑了：“我那个老手机的铃声，它听了一个月，就学会了。”",
+   "py": "Liú yé ye bù hǎo yì sī de xiào le: “wǒ nà ge lǎo shǒu jī de líng shēng, tā tīng le yí gè yuè, jiù xué huì le.”",
+   "en": "Grandpa Liu gives an embarrassed smile. \"It's the ringtone on my old phone. It listened for a month and learned it.\"",
+   "tr": {
+    "am": "አያት ሊዩ አፍሮ ሳቀ፦ «የድሮው ስልኬ የጥሪ ድምፅ ነው፣ ለአንድ ወር ሰምታ ተማረችው።»",
+    "fa": "پدربزرگ لیو با خجالت لبخند می‌زنه: «مال زنگ گوشی قدیمی منه. یه ماه گوش داد و یاد گرفت.»"
+   },
+   "start": 119.564,
+   "end": 126.644,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to feel embarrassed; to find it embarrassing",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "那个",
+     "nà ge",
+     "that one; that thing; that (as opposed to this)",
+     ""
+    ],
+    [
+     "老手",
+     "lǎo shǒu",
+     "an old hand at sth; experienced person",
+     ""
+    ],
+    [
+     "机",
+     "jī",
+     "(bound form) machine; mechanism; (bound form) aircraft",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "铃声",
+     "líng shēng",
+     "ring; ringtone; bell stroke",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就学",
+     "jiù xué",
+     "to attend school",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "大家都笑了，一位老人说：“老刘，以后你连手机都不用带了，带着它就行。”",
+   "py": "dà jiā dōu xiào le, yí wèi lǎo rén shuō: “lǎo liú, yǐ hòu nǐ lián shǒu jī dōu bú yòng dài le, dài zhe tā jiù xíng.”",
+   "en": "Everyone laughs, and one of the old men says, \"Old Liu, you won't even need to carry a phone now. Just bring the bird.\"",
+   "tr": {
+    "am": "ሁሉም ሳቁ፣ አንድ አዛውንትም አለ፦ «ላኦ ሊዩ፣ ከአሁን በኋላ ስልክ መያዝ እንኳ አያስፈልግህም፣ እሷን ይዘህ መምጣት በቂ ነው።»",
+    "fa": "همه می‌خندن و یکی از پیرمرد‌ها می‌گه: «لیوی پیر، حالا حتی لازم نیست گوشی با خودت ببری. فقط پرنده رو بیار.»"
+   },
+   "start": 127.344,
+   "end": 135.864,
+   "tokens": [
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "(used for emphasis) even; all; both; entirely; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "老人",
+     "lǎo rén",
+     "old man or woman; the elderly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "老",
+     "lǎo",
+     "old (of people)",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "连手",
+     "lián shǒu",
+     "concerted action; to collude (in dishonesty)",
+     ""
+    ],
+    [
+     "机",
+     "jī",
+     "(bound form) machine; mechanism; (bound form) aircraft",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "(used for emphasis) even; all; both; entirely; already",
+     ""
+    ],
+    [
+     "不用",
+     "bù yòng",
+     "need not",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "to carry; to bring; band",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "带",
+     "dài",
+     "to carry; to bring; band",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "行",
+     "xíng",
+     "(bound form) to walk; to go; to travel",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "就在这时，又是一阵“叮铃铃”。",
+   "py": "jiù zài zhè shí, yòu shì yí zhèn “dīng líng líng”.",
+   "en": "Just then, there's another \"Ring-ring!\"",
+   "tr": {
+    "am": "ልክ በዚህ ጊዜ እንደገና «ቅርርር» ተሰማ።",
+    "fa": "همین موقع، یه «دینگ‌دینگ!» دیگه‌ای میاد."
+   },
+   "start": 136.564,
+   "end": 139.9,
+   "tokens": [
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "一阵",
+     "yī zhèn",
+     "a burst; a fit; a peal",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "叮铃",
+     "dīng líng",
+     "jingle",
+     ""
+    ],
+    [
+     "铃",
+     "líng",
+     "(small) bell",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这回谁也没动，大家都笑眯眯地看着那只鸟——可是这一次，响的是杰克的手机。",
+   "py": "zhè huí shéi yě méi dòng, dà jiā dōu xiào mī mī de kàn zhe nà zhī niǎo—— kě shì zhè yí cì, xiǎng de shì Jié kè de shǒu jī.",
+   "en": "This time nobody moves. They all smile up at the bird. But this time, it's Jack's phone that's ringing.",
+   "tr": {
+    "am": "በዚህ ጊዜ ማንም አልተንቀሳቀሰም፣ ሁሉም ፈገግ እያሉ ወደ ወፏ አዩ — በዚህ ጊዜ ግን የጮኸው የጃክ ስልክ ነበር።",
+    "fa": "این بار هیچ‌کس تکون نمی‌خوره. همه با لبخند به پرنده نگاه می‌کنن. ولی این بار، گوشی جکه که زنگ می‌خوره."
+   },
+   "start": 140.6,
+   "end": 149.36,
+   "tokens": [
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "classifier for occurrences or times",
+     ""
+    ],
+    [
+     "谁",
+     "shéi",
+     "who; also pr.",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "动",
+     "dòng",
+     "(of sth) to move; to set in movement; to displace",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "笑眯眯",
+     "xiào mī mī",
+     "all smiles; beaming",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
+     ""
+    ],
+    [
+     "鸟",
+     "niǎo",
+     "bird",
+     ""
+    ],
+    [
+     "—"
+    ],
+    [
+     "—"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "一次",
+     "yī cì",
+     "first time; first; once",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "响",
+     "xiǎng",
+     "to ring; echo; sound",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 480,
+ "first": "每天早上六点，杰克出门跑步的时候，都能碰到提着鸟笼去公园的刘爷爷。",
+ "newWords": [
+  {
+   "w": "模仿",
+   "py": "mófǎng",
+   "en": "to copy someone’s behavior"
+  },
+  {
+   "w": "吸引",
+   "py": "xīyǐn",
+   "en": "to attract"
+  },
+  {
+   "w": "歪",
+   "py": "wāi",
+   "en": "not straight"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h5-18.mp3?v=1791721052"
 }

@@ -1,2527 +1,2547 @@
 {
-  "id": "h6-19",
-  "level": 6,
-  "no": 19,
-  "title": "4D电影",
-  "title_py": "4D diàn yǐng",
-  "title_en": "The 4D film",
-  "title_tr": {
-    "am": "4D ፊልም",
-    "fa": "تماشای فیلم در سینمای چهاربعدی"
+ "id": "h6-19",
+ "level": 6,
+ "no": 19,
+ "title": "4D电影",
+ "title_py": "4D diàn yǐng",
+ "title_en": "The 4D film",
+ "title_tr": {
+  "am": "4D ፊልም",
+  "fa": "تماشای فیلم در سینمای چهاربعدی"
+ },
+ "topic": "out",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h6-19.jpg",
+ "duration": 145.188,
+ "lines": [
+  {
+   "text": "暑假结束了，为了感谢张阿姨让他在超市打工，李强请她去看电影。",
+   "py": "shǔ jià jié shù le, wèi le gǎn xiè Zhāng ā yí ràng tā zài chāo shì dǎ gōng, Lǐ Qiáng qǐng tā qù kàn diàn yǐng.",
+   "en": "The summer holidays are over, and to thank Auntie Zhang for giving him a job in her supermarket, Li Qiang takes her to the cinema.",
+   "tr": {
+    "am": "የበጋ ዕረፍት አለቀ፤ ሊ ቺያንግ እትዬ ዣንግ በሱፐርማርኬታቸው ሥራ ስለሰጡት ለማመስገን ፊልም ጋበዛቸው።",
+    "fa": "تعطیلات تابستون تموم شده و لی چیانگ برای تشکر از خاله ژانگ که بهش تو سوپرمارکتش کار داده، می‌بره‌ش سینما."
+   },
+   "start": 2.404,
+   "end": 9.988,
+   "tokens": [
+    [
+     "暑假",
+     "shǔ jià",
+     "summer vacation",
+     ""
+    ],
+    [
+     "结束",
+     "jié shù",
+     "to end; to finish; to conclude",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "为了",
+     "wèi le",
+     "for; for the purpose of; in order to",
+     ""
+    ],
+    [
+     "感谢",
+     "gǎn xiè",
+     "to thank; to be grateful",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "让",
+     "ràng",
+     "to yield; to permit; to let sb do sth",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "超市",
+     "chāo shì",
+     "supermarket (abbr. for 超级市场)",
+     ""
+    ],
+    [
+     "打工",
+     "dǎ gōng",
+     "to work a temporary or casual job",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "请",
+     "qǐng",
+     "to ask; to invite; please (do sth)",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "电影",
+     "diàn yǐng",
+     "movie; film",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "out",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h6-19.jpg",
-  "duration": 145.188,
-  "lines": [
-    {
-      "text": "暑假结束了，为了感谢张阿姨让他在超市打工，李强请她去看电影。",
-      "py": "shǔ jià jié shù le, wèi le gǎn xiè Zhāng ā yí ràng tā zài chāo shì dǎ gōng, Lǐ Qiáng qǐng tā qù kàn diàn yǐng.",
-      "en": "The summer holidays are over, and to thank Auntie Zhang for giving him a job in her supermarket, Li Qiang takes her to the cinema.",
-      "tr": {
-        "am": "የበጋ ዕረፍት አለቀ፤ ሊ ቺያንግ እትዬ ዣንግ በሱፐርማርኬታቸው ሥራ ስለሰጡት ለማመስገን ፊልም ጋበዛቸው።"
-      },
-      "start": 2.404,
-      "end": 9.988,
-      "tokens": [
-        [
-          "暑假",
-          "shǔ jià",
-          "summer vacation",
-          ""
-        ],
-        [
-          "结束",
-          "jié shù",
-          "to end; to finish; to conclude",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "为了",
-          "wèi le",
-          "for; for the purpose of; in order to",
-          ""
-        ],
-        [
-          "感谢",
-          "gǎn xiè",
-          "to thank; to be grateful",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "让",
-          "ràng",
-          "to yield; to permit; to let sb do sth",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "超市",
-          "chāo shì",
-          "supermarket (abbr. for 超级市场)",
-          ""
-        ],
-        [
-          "打工",
-          "dǎ gōng",
-          "to work a temporary or casual job",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "请",
-          "qǐng",
-          "to ask; to invite; please (do sth)",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "电影",
-          "diàn yǐng",
-          "movie; film",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他特意选了一部4D电影，讲的是一群人在海上冒险的故事。",
-      "py": "tā tè yì xuǎn le yí bù4D diàn yǐng, jiǎng de shì yì qún rén zài hǎi shàng mào xiǎn de gù shi.",
-      "en": "He picks a 4D film specially: it's about a group of people having an adventure at sea.",
-      "tr": {
-        "am": "በተለይ የ4D ፊልም መረጠ፤ ስለ አንድ የሰዎች ቡድን የባሕር ላይ ጀብዱ የሚተርክ ነው።"
-      },
-      "start": 10.688,
-      "end": 16.856,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "特意",
-          "tè yì",
-          "specially; intentionally",
-          ""
-        ],
-        [
-          "选",
-          "xuǎn",
-          "to pick; to choose; to select",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "部",
-          "bù",
-          "classifier for works of literature, films, machines etc",
-          ""
-        ],
-        [
-          "4"
-        ],
-        [
-          "D"
-        ],
-        [
-          "电影",
-          "diàn yǐng",
-          "movie; film",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "讲",
-          "jiǎng",
-          "to be particular about; to speak; to explain",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "群",
-          "qún",
-          "group; crowd; flock, herd, pack etc",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "海上",
-          "hǎi shàng",
-          "maritime",
-          ""
-        ],
-        [
-          "冒险",
-          "mào xiǎn",
-          "adventure; to take risks; to take chances",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "故事",
-          "gù shi",
-          "narrative; story; tale",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "张阿姨已经二十多年没进过电影院了，她以为4D就是比3D多一个D。",
-      "py": "Zhāng ā yí yǐ jīng èr shí duō nián méi jìn guò diàn yǐng yuàn le, tā yǐ wéi4D jiù shì bǐ3D duō yí gèD.",
-      "en": "Auntie Zhang hasn't set foot in a cinema for over twenty years, and she thinks 4D is just 3D with one more D.",
-      "tr": {
-        "am": "እትዬ ዣንግ ሲኒማ ቤት ከገቡ ከሃያ ዓመት በላይ ሆኗቸዋል፤ 4D ማለት ከ3D አንድ D የሚበልጥ ብቻ መስሏቸው ነበር።"
-      },
-      "start": 17.556,
-      "end": 24.636,
-      "tokens": [
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "二十多",
-          "èr shí duō",
-          "over 20",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "进",
-          "jìn",
-          "to go forward; to advance; to go in",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "电影院",
-          "diàn yǐng yuàn",
-          "cinema; movie theater",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "以为",
-          "yǐ wéi",
-          "to think; to believe (often with the implication that the belief is mistaken – unless referring to one's own current belief)",
-          ""
-        ],
-        [
-          "4"
-        ],
-        [
-          "D"
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "only; simply; just; exactly; precisely",
-          ""
-        ],
-        [
-          "比",
-          "bǐ",
-          "(followed by a noun and adjective) more {adj.} than {noun}",
-          ""
-        ],
-        [
-          "3"
-        ],
-        [
-          "D"
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "D"
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李强解释说：“4D电影，座位会动，还会喷水、吹风，让人有身临其境的感觉。”",
-      "py": "Lǐ Qiáng jiě shì shuō: “4D diàn yǐng, zuò wèi huì dòng, hái huì pēn shuǐ, chuī fēng, ràng rén yǒu shēn lín qí jìng de gǎn jué.”",
-      "en": "Li Qiang explains, \"In a 4D film, the seats move, and they spray water and blow wind at you. It feels like you're really there.\"",
-      "tr": {
-        "am": "ሊ ቺያንግ አስረዳ፦ «በ4D ፊልም ወንበሩ ይንቀሳቀሳል፤ ውሃም ይረጫል፣ ነፋስም ይነፋል፤ እዚያው ያሉ ያህል ይሰማዎታል።»"
-      },
-      "start": 25.336,
-      "end": 33.592,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "解释",
-          "jiě shì",
-          "to explain; explanation; to interpret",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to explain; to comment; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "4"
-        ],
-        [
-          "D"
-        ],
-        [
-          "电影",
-          "diàn yǐng",
-          "movie; film",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "座位",
-          "zuò wèi",
-          "seat",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "to be likely to; to be sure to",
-          ""
-        ],
-        [
-          "动",
-          "dòng",
-          "(of sth) to move; to set in movement; to displace",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "to be likely to; to be sure to",
-          ""
-        ],
-        [
-          "喷",
-          "pēn",
-          "to spout; to spurt; to spray; to puff",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "吹风",
-          "chuī fēng",
-          "to let the wind blow on oneself; to be exposed to the wind; to air out (a room); to blow air (e.g. to dry one's hair)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "让",
-          "ràng",
-          "to make sb (feel sad etc)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "身临其境",
-          "shēn lín qí jìng",
-          "to actually *be* there (as opposed to reading about it etc)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "感觉",
-          "gǎn jué",
-          "to feel; to perceive; feeling; impression; sensation",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "张阿姨不以为然：“电影就是电影，还能把人弄湿了？”",
-      "py": "Zhāng ā yí bù yǐ wéi rán: “diàn yǐng jiù shì diàn yǐng, hái néng bǎ rén nòng shī le?”",
-      "en": "Auntie Zhang isn't impressed. \"A film's a film. How can it get you wet?\"",
-      "tr": {
-        "am": "እትዬ ዣንግ አላመኑም፦ «ፊልም ፊልም ነው፤ ሰውን እንዴት ያርሳል?»"
-      },
-      "start": 34.292,
-      "end": 39.5,
-      "tokens": [
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "不以为然",
-          "bù yǐ wéi rán",
-          "not to accept as correct (idiom); to object; to disapprove",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "电影",
-          "diàn yǐng",
-          "movie; film",
-          ""
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "exactly; precisely; only; simply; just",
-          ""
-        ],
-        [
-          "电影",
-          "diàn yǐng",
-          "movie; film",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "弄",
-          "nòng",
-          "to do; to manage; to handle",
-          ""
-        ],
-        [
-          "湿",
-          "shī",
-          "wet; moist",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "电影开始了，一艘大船在风浪里航行，他们的座位也跟着摇了起来。",
-      "py": "diàn yǐng kāi shǐ le, yì sōu dà chuán zài fēng làng lǐ háng xíng, tā men de zuò wèi yě gēn zhe yáo le qǐ lái.",
-      "en": "The film starts. A big ship sails through wind and waves, and their seats start rocking along with it.",
-      "tr": {
-        "am": "ፊልሙ ጀመረ፤ አንድ ትልቅ መርከብ በማዕበል ውስጥ ሲጓዝ የእነሱም ወንበር አብሮ መወዛወዝ ጀመረ።"
-      },
-      "start": 40.2,
-      "end": 47.592,
-      "tokens": [
-        [
-          "电影",
-          "diàn yǐng",
-          "movie; film",
-          ""
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "艘",
-          "sōu",
-          "classifier for ships; Taiwan pr.",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "船",
-          "chuán",
-          "ship; boat; vessel",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "风浪",
-          "fēng làng",
-          "wind and waves; rough waters; (fig.) hardship",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "航行",
-          "háng xíng",
-          "to sail; to fly; to navigate",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "座位",
-          "zuò wèi",
-          "seat",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "跟着",
-          "gēn zhe",
-          "to follow after; immediately afterwards",
-          ""
-        ],
-        [
-          "摇",
-          "yáo",
-          "to rock; to shake; to row",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "张阿姨吓得紧紧抓住扶手：“哎哟，这椅子怎么晃起来了？”",
-      "py": "Zhāng ā yí xià de jǐn jǐn zhuā zhù fú shǒu: “āi yō, zhè yǐ zi zěn me huǎng qǐ lái le?”",
-      "en": "Auntie Zhang is so startled she grips the armrests. \"Oh my goodness, why is this chair moving?\"",
-      "tr": {
-        "am": "እትዬ ዣንግ ደንግጠው የእጅ መደገፊያውን አጥብቀው ያዙ፦ «ውይ፣ ይሄ ወንበር ለምን ይነቃነቃል?»"
-      },
-      "start": 48.292,
-      "end": 53.98,
-      "tokens": [
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "吓",
-          "xià",
-          "to frighten; to scare",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "紧紧",
-          "jǐn jǐn",
-          "closely; tightly",
-          ""
-        ],
-        [
-          "抓住",
-          "zhuā zhù",
-          "to grab hold of; to capture",
-          ""
-        ],
-        [
-          "扶手",
-          "fú shǒu",
-          "armrest; handrail",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "哎哟",
-          "āi yō",
-          "hey; ow; ouch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "椅子",
-          "yǐ zi",
-          "chair",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "why?; how?; what?",
-          ""
-        ],
-        [
-          "晃",
-          "huàng",
-          "to sway; to shake; to wander about",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "一个大浪打过来，前面的座位喷出一股细细的水雾，正好喷在她的脸上。",
-      "py": "yí gè dà làng dǎ guò lái, qián mian de zuò wèi pēn chū yì gǔ xì xì de shuǐ wù, zhèng hǎo pēn zài tā de liǎn shàng.",
-      "en": "A huge wave crashes in, and the seat in front sprays out a fine mist of water, right into her face.",
-      "tr": {
-        "am": "አንድ ትልቅ ማዕበል ሲመታ ከፊት ያለው ወንበር ቀጭን የውሃ ጭጋግ ረጨ፤ ልክ ፊታቸው ላይ አረፈ።"
-      },
-      "start": 54.68,
-      "end": 62.048,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "大浪",
-          "dà làng",
-          "billow; surge",
-          ""
-        ],
-        [
-          "打",
-          "dǎ",
-          "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
-          ""
-        ],
-        [
-          "过来",
-          "guò lái",
-          "to come over; to manage; to handle",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "前面",
-          "qián miàn",
-          "in front; ahead; preceding",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "座位",
-          "zuò wèi",
-          "seat",
-          ""
-        ],
-        [
-          "喷出",
-          "pēn chū",
-          "spray; to puff out; to spurt out",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "股",
-          "gǔ",
-          "classifier for long winding things like ropes, rivers etc",
-          ""
-        ],
-        [
-          "细细",
-          "xì xì",
-          "attentive; careful",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "水雾",
-          "shuǐ wù",
-          "mist",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "正好",
-          "zhèng hǎo",
-          "just right; just (in time); just enough",
-          ""
-        ],
-        [
-          "喷",
-          "pēn",
-          "to spout; to spurt; to spray; to puff",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "脸",
-          "liǎn",
-          "face",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "张阿姨“啊”地叫了一声，周围的人都笑了起来。",
-      "py": "Zhāng ā yí “a” de jiào le yì shēng, zhōu wéi de rén dōu xiào le qǐ lái.",
-      "en": "Auntie Zhang lets out a yelp, and everyone around them laughs.",
-      "tr": {
-        "am": "እትዬ ዣንግ «ኡኡ!» ብለው ጮኹ፤ በዙሪያቸው ያሉት ሁሉ ሳቁ።"
-      },
-      "start": 62.748,
-      "end": 67.5,
-      "tokens": [
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "啊",
-          "a",
-          "modal particle ending sentence, showing affirmation, approval, or consent",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to shout; to call; to order",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一声",
-          "yī shēng",
-          "first tone in Mandarin (high, level tone)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周围",
-          "zhōu wéi",
-          "environs; surroundings; periphery",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "接着，又是刮风，又是打雷，座位一会儿往前冲，一会儿往后倒。",
-      "py": "jiē zhe, yòu shì guā fēng, yòu shì dǎ léi, zuò wèi yí huì r wǎng qián chōng, yí huì r wǎng hòu dào.",
-      "en": "After that comes wind and then thunder, and the seats lurch forward one moment and tip back the next.",
-      "tr": {
-        "am": "ቀጥሎም ነፋስ ነፈሰ፣ ነጎድጓድ ጮኸ፤ ወንበሮቹ አንዴ ወደ ፊት ይወረወራሉ፣ አንዴ ወደ ኋላ ይዘቀዘቃሉ።"
-      },
-      "start": 68.2,
-      "end": 75.304,
-      "tokens": [
-        [
-          "接着",
-          "jiē zhe",
-          "then; after that; to catch and hold on",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "刮风",
-          "guā fēng",
-          "to be windy",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "打雷",
-          "dǎ léi",
-          "to rumble with thunder; clap of thunder",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "座位",
-          "zuò wèi",
-          "seat",
-          ""
-        ],
-        [
-          "一会儿",
-          "yī huì r",
-          "a moment; in a moment; a while",
-          ""
-        ],
-        [
-          "往前",
-          "wǎng qián",
-          "ahead; forward; in the future; (in) the past",
-          ""
-        ],
-        [
-          "冲",
-          "chōng",
-          "(of water) to dash against; to mix with water; to infuse",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一会儿",
-          "yī huì r",
-          "a moment; in a moment; a while",
-          ""
-        ],
-        [
-          "往后",
-          "wǎng hòu",
-          "time to come; from now on; in the future",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to invert; to place upside down or frontside back",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李强以为张阿姨受不了了，小声问她：“阿姨，要不咱们出去吧？”",
-      "py": "Lǐ Qiáng yǐ wéi Zhāng ā yí shòu bù liǎo liǎo, xiǎo shēng wèn tā: “ā yí, yào bù zán men chū qù ba?”",
-      "en": "Li Qiang thinks Auntie Zhang has had enough, and whispers, \"Auntie, shall we go out?\"",
-      "tr": {
-        "am": "ሊ ቺያንግ እትዬ ዣንግ የሰለቻቸው መስሎት በለሆሳስ «እትዬ፣ እንውጣ እንዴ?» ብሎ ጠየቃቸው።"
-      },
-      "start": 76.004,
-      "end": 82.916,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "以为",
-          "yǐ wéi",
-          "to think; to believe (often with the implication that the belief is mistaken – unless referring to one's own current belief)",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "受不了",
-          "shòu bù liǎo",
-          "unbearable; unable to endure; can't stand",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小声",
-          "xiǎo shēng",
-          "(speak) in whispers; in a low voice",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "要不",
-          "yào bù",
-          "otherwise; or else; how about...?",
-          ""
-        ],
-        [
-          "咱们",
-          "zán men",
-          "we or us (including both the speaker and the person(s) spoken to)",
-          ""
-        ],
-        [
-          "出去",
-          "chū qù",
-          "to go out",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "没想到张阿姨摆摆手：“不走！好看！”",
-      "py": "méi xiǎng dào Zhāng ā yí bǎi bǎi shǒu: “bù zǒu! hǎo kàn!”",
-      "en": "To his surprise, Auntie Zhang waves him away. \"We're not leaving! It's great!\"",
-      "tr": {
-        "am": "ሳይጠበቅ እትዬ ዣንግ እጃቸውን አወዛወዙ፦ «አንወጣም! ደስ ይላል!»"
-      },
-      "start": 83.616,
-      "end": 87.912,
-      "tokens": [
-        [
-          "没想到",
-          "méi xiǎng dào",
-          "didn't expect",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "摆",
-          "bǎi",
-          "to arrange; to exhibit; to move to and fro",
-          ""
-        ],
-        [
-          "摆手",
-          "bǎi shǒu",
-          "to wave one's hand",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to go away; away (in compound verbs, such as 撤走); to walk",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "好看",
-          "hǎo kàn",
-          "good-looking; nice-looking",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "后来，电影里的船遇上了一场大暴雨。",
-      "py": "hòu lái, diàn yǐng lǐ de chuán yù shàng le yì cháng dà bào yǔ.",
-      "en": "Later on, the ship in the film runs into a terrible storm.",
-      "tr": {
-        "am": "በኋላ በፊልሙ ውስጥ ያለው መርከብ ኃይለኛ ዝናብ ገጠመው።"
-      },
-      "start": 88.612,
-      "end": 92.884,
-      "tokens": [
-        [
-          "后来",
-          "hòu lái",
-          "afterwards; later; newly arrived",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "电影",
-          "diàn yǐng",
-          "movie; film",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "船",
-          "chuán",
-          "ship; boat; vessel",
-          ""
-        ],
-        [
-          "遇上",
-          "yù shàng",
-          "to come across (sb); to run into",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "场",
-          "cháng",
-          "classifier for events and happenings: spell, episode, bout",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "暴雨",
-          "bào yǔ",
-          "torrential rain; rainstorm",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李强转头一看，差点儿笑出声来：张阿姨不知道什么时候从包里拿出了一把小伞，撑在了头上。",
-      "py": "Lǐ Qiáng zhuǎn tóu yí kàn, chà diǎn r xiào chū shēng lái: Zhāng ā yí bù zhī dào shén me shí hou cóng bāo lǐ ná chū le yì bǎ xiǎo sǎn, chēng zài le tóu shàng.",
-      "en": "Li Qiang turns to look and nearly laughs out loud: at some point, Auntie Zhang has taken a little umbrella out of her bag and opened it over her head.",
-      "tr": {
-        "am": "ሊ ቺያንግ ዞር ብሎ ሲያይ ሳቁ ሊያመልጠው ትንሽ ቀረው፦ እትዬ ዣንግ መቼ እንደሆነ ሳይታወቅ ከቦርሳቸው ትንሽ ጃንጥላ አውጥተው ጭንቅላታቸው ላይ ዘርግተው ነበር።"
-      },
-      "start": 93.584,
-      "end": 102.536,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "转头",
-          "zhuǎn tóu",
-          "to turn one's head; U-turn; to change direction",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to watch out for",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "差点儿",
-          "chà diǎn r",
-          "erhua variant of 差点",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "出声",
-          "chū shēng",
-          "to cry out; to make a sound; to speak",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "不知",
-          "bù zhī",
-          "not to know; unaware; unknowingly",
-          ""
-        ],
-        [
-          "道",
-          "dào",
-          "road; path; (bound form) way; reason; principle",
-          ""
-        ],
-        [
-          "什么时候",
-          "shén me shí hou",
-          "when?; at what time?",
-          ""
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "to take charge of; bag; to cover",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier: handful, bundle, bunch",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "撑",
-          "chēng",
-          "to open or unfurl; to fill to bursting point; to support",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "头上",
-          "tóu shàng",
-          "overhead; above",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她一边躲着“雨”，一边目不转睛地盯着屏幕。",
-      "py": "tā yì biān duǒ zhe “yǔ”, yì biān mù bù zhuǎn jīng de dīng zhe píng mù.",
-      "en": "She dodges the \"rain\" with her eyes glued to the screen.",
-      "tr": {
-        "am": "«ዝናቡን» እየተከላከሉ ዓይናቸውን ከስክሪኑ ሳይነቅሉ ያያሉ።"
-      },
-      "start": 103.236,
-      "end": 107.964,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "躲",
-          "duǒ",
-          "to dodge; to hide; to avoid",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "雨",
-          "yǔ",
-          "rain",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "，"
-        ],
-        [
-          "一边",
-          "yī biān",
-          "one side; either side; on the one hand",
-          ""
-        ],
-        [
-          "目不转睛",
-          "mù bù zhuǎn jīng",
-          "unable to take one's eyes off (idiom); to gaze steadily",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "盯",
-          "dīng",
-          "to watch attentively; to fix one's attention on; to stare at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "屏幕",
-          "píng mù",
-          "screen (TV, computer or movie)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "电影结束了，张阿姨还意犹未尽，在门口站了半天才走。",
-      "py": "diàn yǐng jié shù le, Zhāng ā yí hái yì yóu wèi jǐn, zài mén kǒu zhàn le bàn tiān cái zǒu.",
-      "en": "When the film ends, Auntie Zhang still wants more, and she stands by the exit for ages before she leaves.",
-      "tr": {
-        "am": "ፊልሙ ሲያልቅ እትዬ ዣንግ ገና አልጠገቡም ነበር፤ በሩ ላይ ለረጅም ጊዜ ቆመው ቆይተው ነው የሄዱት።"
-      },
-      "start": 108.664,
-      "end": 114.808,
-      "tokens": [
-        [
-          "电影",
-          "diàn yǐng",
-          "movie; film",
-          ""
-        ],
-        [
-          "结束",
-          "jié shù",
-          "to end; to finish; to conclude",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "意犹未尽",
-          "yì yóu wèi jìn",
-          "to wish to continue sth; to have not fully expressed oneself",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "(used before a verb to indicate an action in progress)",
-          ""
-        ],
-        [
-          "门口",
-          "mén kǒu",
-          "doorway; gate",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "half of the day; a long time; quite a while",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "(before an expression of quantity) only",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to leave; to walk; to go",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李强问她：“阿姨，您怎么还带了伞？”",
-      "py": "Lǐ Qiáng wèn tā: “ā yí, nín zěn me hái dài le sǎn?”",
-      "en": "Li Qiang asks her, \"Auntie, why did you bring an umbrella?\"",
-      "tr": {
-        "am": "ሊ ቺያንግ «እትዬ፣ ለምን ጃንጥላ ይዘው መጡ?» ብሎ ጠየቃቸው።"
-      },
-      "start": 115.508,
-      "end": 119.78,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "why?; how?; what?",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "to bring; band; belt",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "伞",
-          "sǎn",
-          "umbrella; parasol; damask silk",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "张阿姨得意地说：“你不是说会喷水吗？我开了十几年超市，什么时候没准备过？”",
-      "py": "Zhāng ā yí de yì de shuō: “nǐ bú shì shuō huì pēn shuǐ ma? wǒ kāi le shí jǐ nián chāo shì, shén me shí hou méi zhǔn bèi guò?”",
-      "en": "Auntie Zhang says proudly, \"Didn't you say they'd spray water? I've run a supermarket for over ten years. When have I ever not been prepared?\"",
-      "tr": {
-        "am": "እትዬ ዣንግ በኩራት «ውሃ ይረጫል አላልክም? ከአሥር ዓመት በላይ ሱፐርማርኬት ሳስተዳድር መቼ ሳልዘጋጅ ቀርቼ አውቃለሁ?» አሉ።"
-      },
-      "start": 120.48,
-      "end": 128.784,
-      "tokens": [
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "得意",
-          "dé yì",
-          "proud of oneself; pleased with oneself; complacent",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "不是",
-          "bù shì",
-          "no; is not; not",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "喷",
-          "pēn",
-          "to spout; to spurt; to spray; to puff",
-          ""
-        ],
-        [
-          "水",
-          "shuǐ",
-          "water; (after a name) ... River",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "开",
-          "kāi",
-          "to turn on; to put in operation; to operate; to run",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "十几",
-          "shí jǐ",
-          "more than ten; a dozen or more",
-          ""
-        ],
-        [
-          "年",
-          "nián",
-          "year; grain; harvest (old)",
-          ""
-        ],
-        [
-          "超市",
-          "chāo shì",
-          "supermarket (abbr. for 超级市场)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "什么时候",
-          "shén me shí hou",
-          "when?; at what time?",
-          ""
-        ],
-        [
-          "没准",
-          "méi zhǔn",
-          "not sure; maybe",
-          ""
-        ],
-        [
-          "备",
-          "bèi",
-          "(bound form) to prepare; to equip",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "第二个星期，张阿姨自己买了票，又去看了一遍，这次她带的是雨衣。",
-      "py": "dì èr gè xīng qī, Zhāng ā yí zì jǐ mǎi le piào, yòu qù kàn le yí biàn, zhè cì tā dài de shì yǔ yī.",
-      "en": "The following week, Auntie Zhang buys herself a ticket and goes to see it again. This time she takes a raincoat.",
-      "tr": {
-        "am": "በሚቀጥለው ሳምንት እትዬ ዣንግ ራሳቸው ትኬት ገዝተው እንደገና አዩት፤ በዚህ ጊዜ የዝናብ ልብስ ይዘው ሄዱ።"
-      },
-      "start": 129.484,
-      "end": 136.876,
-      "tokens": [
-        [
-          "第二",
-          "dì èr",
-          "second; number two; next",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "星期",
-          "xīng qī",
-          "week; day of the week; Sunday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "张",
-          "zhāng",
-          "to open up; to spread; sheet of paper",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "maternal aunt; step-mother; childcare worker",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "票",
-          "piào",
-          "ticket; ballot; banknote",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(of a time etc) last; to be apart from in space or time",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一遍",
-          "yī biàn",
-          "one time (all the way through); once through",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "次",
-          "cì",
-          "classifier for enumerated events: time",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "带",
-          "dài",
-          "to take along; band; belt",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "雨衣",
-          "yǔ yī",
-          "raincoat",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李强问她怎么又去了，她说：“上次光顾着躲雨了，故事都没看明白。”",
-      "py": "Lǐ Qiáng wèn tā zěn me yòu qù le, tā shuō: “shàng cì guāng gù zhe duǒ yǔ le, gù shi dōu méi kàn míng bai.”",
-      "en": "When Li Qiang asks why she went again, she says, \"Last time I was so busy dodging the rain, I didn't follow the story.\"",
-      "tr": {
-        "am": "ሊ ቺያንግ ለምን እንደገና እንደሄዱ ሲጠይቃቸው «ባለፈው ጊዜ ዝናቡን በመከላከል ብቻ ተጠምጄ ታሪኩ እንኳ አልገባኝም» አሉ።"
-      },
-      "start": 137.576,
-      "end": 144.488,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "why?; how?; what?",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(of a time etc) last; to be apart from in space or time",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "上次",
-          "shàng cì",
-          "last time",
-          ""
-        ],
-        [
-          "光顾",
-          "guāng gù",
-          "to visit (as a customer)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "躲雨",
-          "duǒ yǔ",
-          "to take shelter from the rain",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "故事",
-          "gù shi",
-          "narrative; story; tale",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "明白",
-          "míng bai",
-          "clear; obvious; unequivocal; sensible; reasonable",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 468,
-  "first": "暑假结束了，为了感谢张阿姨让他在超市打工，李强请她去看电影。",
-  "newWords": [
-    {
-      "w": "身临其境",
-      "py": "shēn lín qí jìng",
-      "en": "(idiom) to experience it for oneself"
-    },
-    {
-      "w": "不以为然",
-      "py": "bù yǐ wéi rán",
-      "en": "not to accept as correct (idiom)"
-    },
-    {
-      "w": "扶手",
-      "py": "fú shǒu",
-      "en": "handrail"
-    },
-    {
-      "w": "目不转睛",
-      "py": "mù bù zhuǎn jīng",
-      "en": "unable to take one's eyes off (idiom)"
-    },
-    {
-      "w": "意犹未尽",
-      "py": "yì yóu wèi jìn",
-      "en": "to wish to continue sth"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h6-19.mp3?v=1791721125"
+  {
+   "text": "他特意选了一部4D电影，讲的是一群人在海上冒险的故事。",
+   "py": "tā tè yì xuǎn le yí bù4D diàn yǐng, jiǎng de shì yì qún rén zài hǎi shàng mào xiǎn de gù shi.",
+   "en": "He picks a 4D film specially: it's about a group of people having an adventure at sea.",
+   "tr": {
+    "am": "በተለይ የ4D ፊልም መረጠ፤ ስለ አንድ የሰዎች ቡድን የባሕር ላይ ጀብዱ የሚተርክ ነው።",
+    "fa": "مخصوصاً یه فیلم چهاربعدی انتخاب می‌کنه: درباره گروهی که تو دریا ماجراجویی می‌کنن."
+   },
+   "start": 10.688,
+   "end": 16.856,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "特意",
+     "tè yì",
+     "specially; intentionally",
+     ""
+    ],
+    [
+     "选",
+     "xuǎn",
+     "to pick; to choose; to select",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "部",
+     "bù",
+     "classifier for works of literature, films, machines etc",
+     ""
+    ],
+    [
+     "4"
+    ],
+    [
+     "D"
+    ],
+    [
+     "电影",
+     "diàn yǐng",
+     "movie; film",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "讲",
+     "jiǎng",
+     "to be particular about; to speak; to explain",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "群",
+     "qún",
+     "group; crowd; flock, herd, pack etc",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "海上",
+     "hǎi shàng",
+     "maritime",
+     ""
+    ],
+    [
+     "冒险",
+     "mào xiǎn",
+     "adventure; to take risks; to take chances",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "故事",
+     "gù shi",
+     "narrative; story; tale",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "张阿姨已经二十多年没进过电影院了，她以为4D就是比3D多一个D。",
+   "py": "Zhāng ā yí yǐ jīng èr shí duō nián méi jìn guò diàn yǐng yuàn le, tā yǐ wéi4D jiù shì bǐ3D duō yí gèD.",
+   "en": "Auntie Zhang hasn't set foot in a cinema for over twenty years, and she thinks 4D is just 3D with one more D.",
+   "tr": {
+    "am": "እትዬ ዣንግ ሲኒማ ቤት ከገቡ ከሃያ ዓመት በላይ ሆኗቸዋል፤ 4D ማለት ከ3D አንድ D የሚበልጥ ብቻ መስሏቸው ነበር።",
+    "fa": "خاله ژانگ بیش از بیست ساله پا به سینما نذاشته و فکر می‌کنه چهاربعدی یعنی سه‌بعدی با یه دِی بیشتر."
+   },
+   "start": 17.556,
+   "end": 24.636,
+   "tokens": [
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "二十多",
+     "èr shí duō",
+     "over 20",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "进",
+     "jìn",
+     "to go forward; to advance; to go in",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "电影院",
+     "diàn yǐng yuàn",
+     "cinema; movie theater",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "以为",
+     "yǐ wéi",
+     "to think; to believe (often with the implication that the belief is mistaken – unless referring to one's own current belief)",
+     ""
+    ],
+    [
+     "4"
+    ],
+    [
+     "D"
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "only; simply; just; exactly; precisely",
+     ""
+    ],
+    [
+     "比",
+     "bǐ",
+     "(followed by a noun and adjective) more {adj.} than {noun}",
+     ""
+    ],
+    [
+     "3"
+    ],
+    [
+     "D"
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "D"
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李强解释说：“4D电影，座位会动，还会喷水、吹风，让人有身临其境的感觉。”",
+   "py": "Lǐ Qiáng jiě shì shuō: “4D diàn yǐng, zuò wèi huì dòng, hái huì pēn shuǐ, chuī fēng, ràng rén yǒu shēn lín qí jìng de gǎn jué.”",
+   "en": "Li Qiang explains, \"In a 4D film, the seats move, and they spray water and blow wind at you. It feels like you're really there.\"",
+   "tr": {
+    "am": "ሊ ቺያንግ አስረዳ፦ «በ4D ፊልም ወንበሩ ይንቀሳቀሳል፤ ውሃም ይረጫል፣ ነፋስም ይነፋል፤ እዚያው ያሉ ያህል ይሰማዎታል።»",
+    "fa": "لی چیانگ توضیح می‌ده: «تو فیلم چهاربعدی، صندلی‌ها حرکت می‌کنن، آب می‌پاشن و باد می‌زنن بهت. حس می‌شه واقعاً اون‌جایی.»"
+   },
+   "start": 25.336,
+   "end": 33.592,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "解释",
+     "jiě shì",
+     "to explain; explanation; to interpret",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to explain; to comment; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "4"
+    ],
+    [
+     "D"
+    ],
+    [
+     "电影",
+     "diàn yǐng",
+     "movie; film",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "座位",
+     "zuò wèi",
+     "seat",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "to be likely to; to be sure to",
+     ""
+    ],
+    [
+     "动",
+     "dòng",
+     "(of sth) to move; to set in movement; to displace",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "to be likely to; to be sure to",
+     ""
+    ],
+    [
+     "喷",
+     "pēn",
+     "to spout; to spurt; to spray; to puff",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "吹风",
+     "chuī fēng",
+     "to let the wind blow on oneself; to be exposed to the wind; to air out (a room); to blow air (e.g. to dry one's hair)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "让",
+     "ràng",
+     "to make sb (feel sad etc)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "身临其境",
+     "shēn lín qí jìng",
+     "to actually *be* there (as opposed to reading about it etc)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "感觉",
+     "gǎn jué",
+     "to feel; to perceive; feeling; impression; sensation",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "张阿姨不以为然：“电影就是电影，还能把人弄湿了？”",
+   "py": "Zhāng ā yí bù yǐ wéi rán: “diàn yǐng jiù shì diàn yǐng, hái néng bǎ rén nòng shī le?”",
+   "en": "Auntie Zhang isn't impressed. \"A film's a film. How can it get you wet?\"",
+   "tr": {
+    "am": "እትዬ ዣንግ አላመኑም፦ «ፊልም ፊልም ነው፤ ሰውን እንዴት ያርሳል?»",
+    "fa": "خاله ژانگ اصلاً جذب نمی‌شه: «فیلم دیگه فیلمه؛ چطور ممکنه خیس شه آدم؟»"
+   },
+   "start": 34.292,
+   "end": 39.5,
+   "tokens": [
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "不以为然",
+     "bù yǐ wéi rán",
+     "not to accept as correct (idiom); to object; to disapprove",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "电影",
+     "diàn yǐng",
+     "movie; film",
+     ""
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "exactly; precisely; only; simply; just",
+     ""
+    ],
+    [
+     "电影",
+     "diàn yǐng",
+     "movie; film",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "弄",
+     "nòng",
+     "to do; to manage; to handle",
+     ""
+    ],
+    [
+     "湿",
+     "shī",
+     "wet; moist",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "电影开始了，一艘大船在风浪里航行，他们的座位也跟着摇了起来。",
+   "py": "diàn yǐng kāi shǐ le, yì sōu dà chuán zài fēng làng lǐ háng xíng, tā men de zuò wèi yě gēn zhe yáo le qǐ lái.",
+   "en": "The film starts. A big ship sails through wind and waves, and their seats start rocking along with it.",
+   "tr": {
+    "am": "ፊልሙ ጀመረ፤ አንድ ትልቅ መርከብ በማዕበል ውስጥ ሲጓዝ የእነሱም ወንበር አብሮ መወዛወዝ ጀመረ።",
+    "fa": "فیلم شروع می‌شه. یه کشتی بزرگ از میان باد و موج رد می‌شه و صندلی‌هاشون هم همراهش تکون می‌خورن."
+   },
+   "start": 40.2,
+   "end": 47.592,
+   "tokens": [
+    [
+     "电影",
+     "diàn yǐng",
+     "movie; film",
+     ""
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "艘",
+     "sōu",
+     "classifier for ships; Taiwan pr.",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "船",
+     "chuán",
+     "ship; boat; vessel",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "风浪",
+     "fēng làng",
+     "wind and waves; rough waters; (fig.) hardship",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "航行",
+     "háng xíng",
+     "to sail; to fly; to navigate",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "座位",
+     "zuò wèi",
+     "seat",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "跟着",
+     "gēn zhe",
+     "to follow after; immediately afterwards",
+     ""
+    ],
+    [
+     "摇",
+     "yáo",
+     "to rock; to shake; to row",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "张阿姨吓得紧紧抓住扶手：“哎哟，这椅子怎么晃起来了？”",
+   "py": "Zhāng ā yí xià de jǐn jǐn zhuā zhù fú shǒu: “āi yō, zhè yǐ zi zěn me huǎng qǐ lái le?”",
+   "en": "Auntie Zhang is so startled she grips the armrests. \"Oh my goodness, why is this chair moving?\"",
+   "tr": {
+    "am": "እትዬ ዣንግ ደንግጠው የእጅ መደገፊያውን አጥብቀው ያዙ፦ «ውይ፣ ይሄ ወንበር ለምን ይነቃነቃል?»",
+    "fa": "خاله ژانگ حسابی جا می‌خوره و می‌چسبه به دسته صندلی: «ای وای خدا، چرا این صندلی حرکت می‌کنه؟»"
+   },
+   "start": 48.292,
+   "end": 53.98,
+   "tokens": [
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "吓",
+     "xià",
+     "to frighten; to scare",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "紧紧",
+     "jǐn jǐn",
+     "closely; tightly",
+     ""
+    ],
+    [
+     "抓住",
+     "zhuā zhù",
+     "to grab hold of; to capture",
+     ""
+    ],
+    [
+     "扶手",
+     "fú shǒu",
+     "armrest; handrail",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "哎哟",
+     "āi yō",
+     "hey; ow; ouch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "椅子",
+     "yǐ zi",
+     "chair",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "why?; how?; what?",
+     ""
+    ],
+    [
+     "晃",
+     "huàng",
+     "to sway; to shake; to wander about",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "一个大浪打过来，前面的座位喷出一股细细的水雾，正好喷在她的脸上。",
+   "py": "yí gè dà làng dǎ guò lái, qián mian de zuò wèi pēn chū yì gǔ xì xì de shuǐ wù, zhèng hǎo pēn zài tā de liǎn shàng.",
+   "en": "A huge wave crashes in, and the seat in front sprays out a fine mist of water, right into her face.",
+   "tr": {
+    "am": "አንድ ትልቅ ማዕበል ሲመታ ከፊት ያለው ወንበር ቀጭን የውሃ ጭጋግ ረጨ፤ ልክ ፊታቸው ላይ አረፈ።",
+    "fa": "یه موج غول‌پیکر می‌خوره به کشتی و صندلی جلویی یه ذرات آب نازک می‌پاشه، درست تو صورتش."
+   },
+   "start": 54.68,
+   "end": 62.048,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "大浪",
+     "dà làng",
+     "billow; surge",
+     ""
+    ],
+    [
+     "打",
+     "dǎ",
+     "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
+     ""
+    ],
+    [
+     "过来",
+     "guò lái",
+     "to come over; to manage; to handle",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "前面",
+     "qián miàn",
+     "in front; ahead; preceding",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "座位",
+     "zuò wèi",
+     "seat",
+     ""
+    ],
+    [
+     "喷出",
+     "pēn chū",
+     "spray; to puff out; to spurt out",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "股",
+     "gǔ",
+     "classifier for long winding things like ropes, rivers etc",
+     ""
+    ],
+    [
+     "细细",
+     "xì xì",
+     "attentive; careful",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "水雾",
+     "shuǐ wù",
+     "mist",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "正好",
+     "zhèng hǎo",
+     "just right; just (in time); just enough",
+     ""
+    ],
+    [
+     "喷",
+     "pēn",
+     "to spout; to spurt; to spray; to puff",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "脸",
+     "liǎn",
+     "face",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "张阿姨“啊”地叫了一声，周围的人都笑了起来。",
+   "py": "Zhāng ā yí “a” de jiào le yì shēng, zhōu wéi de rén dōu xiào le qǐ lái.",
+   "en": "Auntie Zhang lets out a yelp, and everyone around them laughs.",
+   "tr": {
+    "am": "እትዬ ዣንግ «ኡኡ!» ብለው ጮኹ፤ በዙሪያቸው ያሉት ሁሉ ሳቁ።",
+    "fa": "خاله ژانگ یه جیغ کوچیک می‌زنه و اطرافیان همه می‌خندن."
+   },
+   "start": 62.748,
+   "end": 67.5,
+   "tokens": [
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "啊",
+     "a",
+     "modal particle ending sentence, showing affirmation, approval, or consent",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to shout; to call; to order",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一声",
+     "yī shēng",
+     "first tone in Mandarin (high, level tone)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周围",
+     "zhōu wéi",
+     "environs; surroundings; periphery",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "接着，又是刮风，又是打雷，座位一会儿往前冲，一会儿往后倒。",
+   "py": "jiē zhe, yòu shì guā fēng, yòu shì dǎ léi, zuò wèi yí huì r wǎng qián chōng, yí huì r wǎng hòu dào.",
+   "en": "After that comes wind and then thunder, and the seats lurch forward one moment and tip back the next.",
+   "tr": {
+    "am": "ቀጥሎም ነፋስ ነፈሰ፣ ነጎድጓድ ጮኸ፤ ወንበሮቹ አንዴ ወደ ፊት ይወረወራሉ፣ አንዴ ወደ ኋላ ይዘቀዘቃሉ።",
+    "fa": "بعد باد میاد و بعد رعد و برق و صندلی‌ها یه لحظه جلو می‌رن، یه لحظه برمی‌گردن عقب."
+   },
+   "start": 68.2,
+   "end": 75.304,
+   "tokens": [
+    [
+     "接着",
+     "jiē zhe",
+     "then; after that; to catch and hold on",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "刮风",
+     "guā fēng",
+     "to be windy",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "打雷",
+     "dǎ léi",
+     "to rumble with thunder; clap of thunder",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "座位",
+     "zuò wèi",
+     "seat",
+     ""
+    ],
+    [
+     "一会儿",
+     "yī huì r",
+     "a moment; in a moment; a while",
+     ""
+    ],
+    [
+     "往前",
+     "wǎng qián",
+     "ahead; forward; in the future; (in) the past",
+     ""
+    ],
+    [
+     "冲",
+     "chōng",
+     "(of water) to dash against; to mix with water; to infuse",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一会儿",
+     "yī huì r",
+     "a moment; in a moment; a while",
+     ""
+    ],
+    [
+     "往后",
+     "wǎng hòu",
+     "time to come; from now on; in the future",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to invert; to place upside down or frontside back",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李强以为张阿姨受不了了，小声问她：“阿姨，要不咱们出去吧？”",
+   "py": "Lǐ Qiáng yǐ wéi Zhāng ā yí shòu bù liǎo liǎo, xiǎo shēng wèn tā: “ā yí, yào bù zán men chū qù ba?”",
+   "en": "Li Qiang thinks Auntie Zhang has had enough, and whispers, \"Auntie, shall we go out?\"",
+   "tr": {
+    "am": "ሊ ቺያንግ እትዬ ዣንግ የሰለቻቸው መስሎት በለሆሳስ «እትዬ፣ እንውጣ እንዴ?» ብሎ ጠየቃቸው።",
+    "fa": "لی چیانگ فکر می‌کنه خاله ژانگ حسابی اذیت شده و زمزمه‌وار می‌پرسه: «خاله، بریم بیرون؟»"
+   },
+   "start": 76.004,
+   "end": 82.916,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "以为",
+     "yǐ wéi",
+     "to think; to believe (often with the implication that the belief is mistaken – unless referring to one's own current belief)",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "受不了",
+     "shòu bù liǎo",
+     "unbearable; unable to endure; can't stand",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小声",
+     "xiǎo shēng",
+     "(speak) in whispers; in a low voice",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "要不",
+     "yào bù",
+     "otherwise; or else; how about...?",
+     ""
+    ],
+    [
+     "咱们",
+     "zán men",
+     "we or us (including both the speaker and the person(s) spoken to)",
+     ""
+    ],
+    [
+     "出去",
+     "chū qù",
+     "to go out",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "没想到张阿姨摆摆手：“不走！好看！”",
+   "py": "méi xiǎng dào Zhāng ā yí bǎi bǎi shǒu: “bù zǒu! hǎo kàn!”",
+   "en": "To his surprise, Auntie Zhang waves him away. \"We're not leaving! It's great!\"",
+   "tr": {
+    "am": "ሳይጠበቅ እትዬ ዣንግ እጃቸውን አወዛወዙ፦ «አንወጣም! ደስ ይላል!»",
+    "fa": "برخلاف انتظارش خاله ژانگ اون رو می‌پرونه: «کجا می‌ریم؟ عالیه همین‌جا!»"
+   },
+   "start": 83.616,
+   "end": 87.912,
+   "tokens": [
+    [
+     "没想到",
+     "méi xiǎng dào",
+     "didn't expect",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "摆",
+     "bǎi",
+     "to arrange; to exhibit; to move to and fro",
+     ""
+    ],
+    [
+     "摆手",
+     "bǎi shǒu",
+     "to wave one's hand",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to go away; away (in compound verbs, such as 撤走); to walk",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "好看",
+     "hǎo kàn",
+     "good-looking; nice-looking",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "后来，电影里的船遇上了一场大暴雨。",
+   "py": "hòu lái, diàn yǐng lǐ de chuán yù shàng le yì cháng dà bào yǔ.",
+   "en": "Later on, the ship in the film runs into a terrible storm.",
+   "tr": {
+    "am": "በኋላ በፊልሙ ውስጥ ያለው መርከብ ኃይለኛ ዝናብ ገጠመው።",
+    "fa": "بعداً کشتی تو فیلم به یه توفان وحشتناک برمی‌خوره."
+   },
+   "start": 88.612,
+   "end": 92.884,
+   "tokens": [
+    [
+     "后来",
+     "hòu lái",
+     "afterwards; later; newly arrived",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "电影",
+     "diàn yǐng",
+     "movie; film",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "船",
+     "chuán",
+     "ship; boat; vessel",
+     ""
+    ],
+    [
+     "遇上",
+     "yù shàng",
+     "to come across (sb); to run into",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "场",
+     "cháng",
+     "classifier for events and happenings: spell, episode, bout",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "暴雨",
+     "bào yǔ",
+     "torrential rain; rainstorm",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李强转头一看，差点儿笑出声来：张阿姨不知道什么时候从包里拿出了一把小伞，撑在了头上。",
+   "py": "Lǐ Qiáng zhuǎn tóu yí kàn, chà diǎn r xiào chū shēng lái: Zhāng ā yí bù zhī dào shén me shí hou cóng bāo lǐ ná chū le yì bǎ xiǎo sǎn, chēng zài le tóu shàng.",
+   "en": "Li Qiang turns to look and nearly laughs out loud: at some point, Auntie Zhang has taken a little umbrella out of her bag and opened it over her head.",
+   "tr": {
+    "am": "ሊ ቺያንግ ዞር ብሎ ሲያይ ሳቁ ሊያመልጠው ትንሽ ቀረው፦ እትዬ ዣንግ መቼ እንደሆነ ሳይታወቅ ከቦርሳቸው ትንሽ ጃንጥላ አውጥተው ጭንቅላታቸው ላይ ዘርግተው ነበር።",
+    "fa": "لی چیانگ برمی‌گرده نگاه کنه و نزدیک باشه صداش در بره از خنده: یه وقتی خاله ژانگ یه چتر کوچیک از کیفش درآورده و بالای سرش باز کرده."
+   },
+   "start": 93.584,
+   "end": 102.536,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "转头",
+     "zhuǎn tóu",
+     "to turn one's head; U-turn; to change direction",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to watch out for",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "差点儿",
+     "chà diǎn r",
+     "erhua variant of 差点",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "出声",
+     "chū shēng",
+     "to cry out; to make a sound; to speak",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "不知",
+     "bù zhī",
+     "not to know; unaware; unknowingly",
+     ""
+    ],
+    [
+     "道",
+     "dào",
+     "road; path; (bound form) way; reason; principle",
+     ""
+    ],
+    [
+     "什么时候",
+     "shén me shí hou",
+     "when?; at what time?",
+     ""
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "to take charge of; bag; to cover",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier: handful, bundle, bunch",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "撑",
+     "chēng",
+     "to open or unfurl; to fill to bursting point; to support",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "头上",
+     "tóu shàng",
+     "overhead; above",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她一边躲着“雨”，一边目不转睛地盯着屏幕。",
+   "py": "tā yì biān duǒ zhe “yǔ”, yì biān mù bù zhuǎn jīng de dīng zhe píng mù.",
+   "en": "She dodges the \"rain\" with her eyes glued to the screen.",
+   "tr": {
+    "am": "«ዝናቡን» እየተከላከሉ ዓይናቸውን ከስክሪኑ ሳይነቅሉ ያያሉ።",
+    "fa": "از 'بارون' فرار می‌کنه؛ چشمش هم چسبیده به پرده."
+   },
+   "start": 103.236,
+   "end": 107.964,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "躲",
+     "duǒ",
+     "to dodge; to hide; to avoid",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "雨",
+     "yǔ",
+     "rain",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "，"
+    ],
+    [
+     "一边",
+     "yī biān",
+     "one side; either side; on the one hand",
+     ""
+    ],
+    [
+     "目不转睛",
+     "mù bù zhuǎn jīng",
+     "unable to take one's eyes off (idiom); to gaze steadily",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "盯",
+     "dīng",
+     "to watch attentively; to fix one's attention on; to stare at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "屏幕",
+     "píng mù",
+     "screen (TV, computer or movie)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "电影结束了，张阿姨还意犹未尽，在门口站了半天才走。",
+   "py": "diàn yǐng jié shù le, Zhāng ā yí hái yì yóu wèi jǐn, zài mén kǒu zhàn le bàn tiān cái zǒu.",
+   "en": "When the film ends, Auntie Zhang still wants more, and she stands by the exit for ages before she leaves.",
+   "tr": {
+    "am": "ፊልሙ ሲያልቅ እትዬ ዣንግ ገና አልጠገቡም ነበር፤ በሩ ላይ ለረጅም ጊዜ ቆመው ቆይተው ነው የሄዱት።",
+    "fa": "فیلم که تموم می‌شه خاله ژانگ هنوز هوسش تموم نشده و مدت‌های طولانی کنار خروجی می‌ایسته بعد می‌ره."
+   },
+   "start": 108.664,
+   "end": 114.808,
+   "tokens": [
+    [
+     "电影",
+     "diàn yǐng",
+     "movie; film",
+     ""
+    ],
+    [
+     "结束",
+     "jié shù",
+     "to end; to finish; to conclude",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "意犹未尽",
+     "yì yóu wèi jìn",
+     "to wish to continue sth; to have not fully expressed oneself",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "(used before a verb to indicate an action in progress)",
+     ""
+    ],
+    [
+     "门口",
+     "mén kǒu",
+     "doorway; gate",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "half of the day; a long time; quite a while",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "(before an expression of quantity) only",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to leave; to walk; to go",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李强问她：“阿姨，您怎么还带了伞？”",
+   "py": "Lǐ Qiáng wèn tā: “ā yí, nín zěn me hái dài le sǎn?”",
+   "en": "Li Qiang asks her, \"Auntie, why did you bring an umbrella?\"",
+   "tr": {
+    "am": "ሊ ቺያንግ «እትዬ፣ ለምን ጃንጥላ ይዘው መጡ?» ብሎ ጠየቃቸው።",
+    "fa": "لی چیانگ می‌پرسه: «خاله، چرا چتر با خودت آوردی؟»"
+   },
+   "start": 115.508,
+   "end": 119.78,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "why?; how?; what?",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "to bring; band; belt",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "伞",
+     "sǎn",
+     "umbrella; parasol; damask silk",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "张阿姨得意地说：“你不是说会喷水吗？我开了十几年超市，什么时候没准备过？”",
+   "py": "Zhāng ā yí de yì de shuō: “nǐ bú shì shuō huì pēn shuǐ ma? wǒ kāi le shí jǐ nián chāo shì, shén me shí hou méi zhǔn bèi guò?”",
+   "en": "Auntie Zhang says proudly, \"Didn't you say they'd spray water? I've run a supermarket for over ten years. When have I ever not been prepared?\"",
+   "tr": {
+    "am": "እትዬ ዣንግ በኩራት «ውሃ ይረጫል አላልክም? ከአሥር ዓመት በላይ ሱፐርማርኬት ሳስተዳድር መቼ ሳልዘጋጅ ቀርቼ አውቃለሁ?» አሉ።",
+    "fa": "خاله ژانگ با غرور می‌گه: «نگفتی آب می‌پاشن؟ من بیش از ده سال سوپرمارکت دارم؛ کی پیش آمده که بی‌دست‌وبازکار باشم؟»"
+   },
+   "start": 120.48,
+   "end": 128.784,
+   "tokens": [
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "得意",
+     "dé yì",
+     "proud of oneself; pleased with oneself; complacent",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "不是",
+     "bù shì",
+     "no; is not; not",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "喷",
+     "pēn",
+     "to spout; to spurt; to spray; to puff",
+     ""
+    ],
+    [
+     "水",
+     "shuǐ",
+     "water; (after a name) ... River",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "开",
+     "kāi",
+     "to turn on; to put in operation; to operate; to run",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "十几",
+     "shí jǐ",
+     "more than ten; a dozen or more",
+     ""
+    ],
+    [
+     "年",
+     "nián",
+     "year; grain; harvest (old)",
+     ""
+    ],
+    [
+     "超市",
+     "chāo shì",
+     "supermarket (abbr. for 超级市场)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "什么时候",
+     "shén me shí hou",
+     "when?; at what time?",
+     ""
+    ],
+    [
+     "没准",
+     "méi zhǔn",
+     "not sure; maybe",
+     ""
+    ],
+    [
+     "备",
+     "bèi",
+     "(bound form) to prepare; to equip",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "第二个星期，张阿姨自己买了票，又去看了一遍，这次她带的是雨衣。",
+   "py": "dì èr gè xīng qī, Zhāng ā yí zì jǐ mǎi le piào, yòu qù kàn le yí biàn, zhè cì tā dài de shì yǔ yī.",
+   "en": "The following week, Auntie Zhang buys herself a ticket and goes to see it again. This time she takes a raincoat.",
+   "tr": {
+    "am": "በሚቀጥለው ሳምንት እትዬ ዣንግ ራሳቸው ትኬት ገዝተው እንደገና አዩት፤ በዚህ ጊዜ የዝናብ ልብስ ይዘው ሄዱ።",
+    "fa": "هفته بعد خاله ژانگ خودش بلیط می‌خره و دوباره می‌ره ببینتش. این‌بار بارانی می‌بره."
+   },
+   "start": 129.484,
+   "end": 136.876,
+   "tokens": [
+    [
+     "第二",
+     "dì èr",
+     "second; number two; next",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "星期",
+     "xīng qī",
+     "week; day of the week; Sunday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "张",
+     "zhāng",
+     "to open up; to spread; sheet of paper",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "maternal aunt; step-mother; childcare worker",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "票",
+     "piào",
+     "ticket; ballot; banknote",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(of a time etc) last; to be apart from in space or time",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一遍",
+     "yī biàn",
+     "one time (all the way through); once through",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "次",
+     "cì",
+     "classifier for enumerated events: time",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "带",
+     "dài",
+     "to take along; band; belt",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "雨衣",
+     "yǔ yī",
+     "raincoat",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李强问她怎么又去了，她说：“上次光顾着躲雨了，故事都没看明白。”",
+   "py": "Lǐ Qiáng wèn tā zěn me yòu qù le, tā shuō: “shàng cì guāng gù zhe duǒ yǔ le, gù shi dōu méi kàn míng bai.”",
+   "en": "When Li Qiang asks why she went again, she says, \"Last time I was so busy dodging the rain, I didn't follow the story.\"",
+   "tr": {
+    "am": "ሊ ቺያንግ ለምን እንደገና እንደሄዱ ሲጠይቃቸው «ባለፈው ጊዜ ዝናቡን በመከላከል ብቻ ተጠምጄ ታሪኩ እንኳ አልገባኝም» አሉ።",
+    "fa": "وقتی لی چیانگ می‌پرسه چرا دوباره رفتی، می‌گه: «دفع قبل انقدر مشغول فرار از بارون بودم که به قصه نرسیدم.»"
+   },
+   "start": 137.576,
+   "end": 144.488,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "why?; how?; what?",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(of a time etc) last; to be apart from in space or time",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "上次",
+     "shàng cì",
+     "last time",
+     ""
+    ],
+    [
+     "光顾",
+     "guāng gù",
+     "to visit (as a customer)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "躲雨",
+     "duǒ yǔ",
+     "to take shelter from the rain",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "故事",
+     "gù shi",
+     "narrative; story; tale",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "明白",
+     "míng bai",
+     "clear; obvious; unequivocal; sensible; reasonable",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 468,
+ "first": "暑假结束了，为了感谢张阿姨让他在超市打工，李强请她去看电影。",
+ "newWords": [
+  {
+   "w": "身临其境",
+   "py": "shēn lín qí jìng",
+   "en": "(idiom) to experience it for oneself"
+  },
+  {
+   "w": "不以为然",
+   "py": "bù yǐ wéi rán",
+   "en": "not to accept as correct (idiom)"
+  },
+  {
+   "w": "扶手",
+   "py": "fú shǒu",
+   "en": "handrail"
+  },
+  {
+   "w": "目不转睛",
+   "py": "mù bù zhuǎn jīng",
+   "en": "unable to take one's eyes off (idiom)"
+  },
+  {
+   "w": "意犹未尽",
+   "py": "yì yóu wèi jìn",
+   "en": "to wish to continue sth"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h6-19.mp3?v=1791721125"
 }

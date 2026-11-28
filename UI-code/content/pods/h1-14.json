@@ -1,655 +1,664 @@
 {
-  "id": "h1-14",
-  "level": 1,
-  "no": 14,
-  "title": "我会说一点儿",
-  "title_py": "wǒ huì shuō yì diǎn r",
-  "title_en": "I can speak a little",
-  "title_tr": {
-    "vi": "Tôi nói được một chút",
-    "pt": "Eu falo um pouco",
-    "es": "Hablo un poco",
-    "fr": "Je parle un peu chinois",
-    "am": "ትንሽ እናገራለሁ",
-    "fa": "کمی بلدم صحبت کنم"
+ "id": "h1-14",
+ "level": 1,
+ "no": 14,
+ "title": "我会说一点儿",
+ "title_py": "wǒ huì shuō yì diǎn r",
+ "title_en": "I can speak a little",
+ "title_tr": {
+  "vi": "Tôi nói được một chút",
+  "pt": "Eu falo um pouco",
+  "es": "Hablo un poco",
+  "fr": "Je parle un peu chinois",
+  "am": "ትንሽ እናገራለሁ",
+  "fa": "کمی بلدم صحبت کنم"
+ },
+ "topic": "school",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-14.jpg",
+ "duration": 38.536,
+ "lines": [
+  {
+   "text": "今天，杰克来学校学习汉语。",
+   "py": "jīn tiān, Jié kè lái xué xiào xué xí Hàn yǔ.",
+   "en": "Today Jack comes to school to study Chinese.",
+   "tr": {
+    "vi": "Hôm nay, Jack đến trường học tiếng Trung.",
+    "pt": "Hoje o Jack vem à escola estudar chinês.",
+    "es": "Hoy Jack viene a la escuela a estudiar chino.",
+    "fr": "Aujourd'hui, Jack vient à l'école pour apprendre le chinois.",
+    "am": "ዛሬ ጃክ ቻይንኛ ለመማር ትምህርት ቤት መጣ።",
+    "fa": "امروز جک می‌آید مدرسه تا چینی یاد بگیرد."
+   },
+   "start": 2.62,
+   "end": 6.22,
+   "tokens": [
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "学校",
+     "xué xiào",
+     "school",
+     ""
+    ],
+    [
+     "学习",
+     "xué xí",
+     "to learn; to study",
+     ""
+    ],
+    [
+     "汉语",
+     "hàn yǔ",
+     "Chinese language",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "school",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-14.jpg",
-  "duration": 38.536,
-  "lines": [
-    {
-      "text": "今天，杰克来学校学习汉语。",
-      "py": "jīn tiān, Jié kè lái xué xiào xué xí Hàn yǔ.",
-      "en": "Today Jack comes to school to study Chinese.",
-      "tr": {
-        "vi": "Hôm nay, Jack đến trường học tiếng Trung.",
-        "pt": "Hoje o Jack vem à escola estudar chinês.",
-        "es": "Hoy Jack viene a la escuela a estudiar chino.",
-        "fr": "Aujourd'hui, Jack vient à l'école pour apprendre le chinois.",
-        "am": "ዛሬ ጃክ ቻይንኛ ለመማር ትምህርት ቤት መጣ።"
-      },
-      "start": 2.62,
-      "end": 6.22,
-      "tokens": [
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "学校",
-          "xué xiào",
-          "school",
-          ""
-        ],
-        [
-          "学习",
-          "xué xí",
-          "to learn; to study",
-          ""
-        ],
-        [
-          "汉语",
-          "hàn yǔ",
-          "Chinese language",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李老师说：“杰克，你会说汉语吗？”",
-      "py": "Lǐ lǎo shī shuō: “Jié kè, nǐ huì shuō Hàn yǔ ma?”",
-      "en": "Teacher Li says, \"Jack, can you speak Chinese?\"",
-      "tr": {
-        "vi": "Cô Lý nói: “Jack, em có biết nói tiếng Trung không?”",
-        "pt": "A professora Li diz: “Jack, você fala chinês?”",
-        "es": "La profesora Li dice: «Jack, ¿sabes hablar chino?»",
-        "fr": "La professeure Li dit : « Jack, tu parles chinois ? »",
-        "am": "መምህርት ሊ «ጃክ፣ ቻይንኛ መናገር ትችላለህ?» አለች።"
-      },
-      "start": 6.92,
-      "end": 11.456,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "汉语",
-          "hàn yǔ",
-          "Chinese language",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“我会说一点儿。”",
-      "py": "Jié kè shuō: “wǒ huì shuō yì diǎn r.”",
-      "en": "Jack says, \"I can speak a little.\"",
-      "tr": {
-        "vi": "Jack nói: “Em biết nói một chút ạ.”",
-        "pt": "O Jack diz: “Falo um pouco.”",
-        "es": "Jack dice: «Hablo un poco».",
-        "fr": "Jack dit : « Je parle un peu. »",
-        "am": "ጃክ «ትንሽ እናገራለሁ» አለ።"
-      },
-      "start": 12.156,
-      "end": 15.012,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“很好！你会说什么？”",
-      "py": "“hěn hǎo! nǐ huì shuō shén me?”",
-      "en": "\"Very good! What can you say?\"",
-      "tr": {
-        "vi": "“Tốt lắm! Em nói được gì?”",
-        "pt": "“Muito bem! O que você sabe dizer?”",
-        "es": "«¡Muy bien! ¿Qué sabes decir?»",
-        "fr": "« Très bien ! Qu'est-ce que tu sais dire ? »",
-        "am": "«በጣም ጥሩ! ምን ማለት ትችላለህ?»"
-      },
-      "start": 15.712,
-      "end": 18.376,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; (before a verb) good to; appropriate; proper",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "会",
-          "huì",
-          "can; to have the skill; to know how to",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克想了想：“你好、谢谢、再见……”",
-      "py": "Jié kè xiǎng le xiǎng: “nǐ hǎo, xiè xie, zài jiàn……”",
-      "en": "Jack thinks for a moment. \"Hello, thank you, goodbye...\"",
-      "tr": {
-        "vi": "Jack nghĩ một lát: “Xin chào, cảm ơn, tạm biệt...”",
-        "pt": "O Jack pensa um pouco: “Olá, obrigado, tchau...”",
-        "es": "Jack piensa un momento: «Hola, gracias, adiós…»",
-        "fr": "Jack réfléchit : « Bonjour, merci, au revoir… »",
-        "am": "ጃክ ትንሽ አሰበ። «ሰላም፣ አመሰግናለሁ፣ ደህና ሁኑ…»"
-      },
-      "start": 19.076,
-      "end": 24.284,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你好",
-          "nǐ hǎo",
-          "hello; hi",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "再见",
-          "zài jiàn",
-          "goodbye; see you again later",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“还有呢？”",
-      "py": "“hái yǒu ne?”",
-      "en": "\"What else?\"",
-      "tr": {
-        "vi": "“Còn gì nữa?”",
-        "pt": "“E o que mais?”",
-        "es": "«¿Y qué más?»",
-        "fr": "« Et quoi d'autre ? »",
-        "am": "«ሌላስ?»"
-      },
-      "start": 24.984,
-      "end": 26.424,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "呢",
-          "ne",
-          "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“还有‘多少钱’和‘太贵了’！”",
-      "py": "“hái yǒu ‘duō shao qián’ hé ‘tài guì le’!”",
-      "en": "\"And 'How much is it?' and 'That's too expensive!'\"",
-      "tr": {
-        "vi": "“Còn ‘bao nhiêu tiền’ và ‘đắt quá’ ạ!”",
-        "pt": "“E também ‘quanto custa?’ e ‘está muito caro!’”",
-        "es": "«¡Y “¿cuánto cuesta?” y “¡qué caro!”!»",
-        "fr": "« Et aussi \"C'est combien ?\" et \"C'est trop cher !\" »",
-        "am": "«ደግሞ ‹ስንት ነው?› እና ‹በጣም ውድ ነው!›»"
-      },
-      "start": 27.124,
-      "end": 29.98,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "‘"
-        ],
-        [
-          "多少",
-          "duō shao",
-          "how much?; how many?",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "coin; money; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "‘"
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "贵",
-          "guì",
-          "expensive; (bound form) highly valued; precious",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "’"
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "大家都笑了。",
-      "py": "dà jiā dōu xiào le.",
-      "en": "Everyone laughs.",
-      "tr": {
-        "vi": "Cả lớp đều cười.",
-        "pt": "Todo mundo ri.",
-        "es": "Todos se ríen.",
-        "fr": "Tout le monde rit.",
-        "am": "ሁሉም ሳቁ።"
-      },
-      "start": 30.68,
-      "end": 32.384,
-      "tokens": [
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李老师说：“很好！明天你能去商店买东西了！”",
-      "py": "Lǐ lǎo shī shuō: “hěn hǎo! míng tiān nǐ néng qù shāng diàn mǎi dōng xi le!”",
-      "en": "Teacher Li says, \"Very good! Tomorrow you can go shopping!\"",
-      "tr": {
-        "vi": "Cô Lý nói: “Tốt lắm! Mai em đi cửa hàng mua đồ được rồi!”",
-        "pt": "A professora Li diz: “Muito bem! Amanhã você já pode ir fazer compras!”",
-        "es": "La profesora Li dice: «¡Muy bien! ¡Mañana ya puedes ir a comprar a la tienda!»",
-        "fr": "La professeure Li dit : « Très bien ! Demain, tu pourras aller faire les courses ! »",
-        "am": "መምህርት ሊ «በጣም ጥሩ! ነገ ሱቅ ሄደህ መገበያየት ትችላለህ!» አለች።"
-      },
-      "start": 33.084,
-      "end": 37.836,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; (before a verb) good to; appropriate; proper",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "明天",
-          "míng tiān",
-          "tomorrow",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "商店",
-          "shāng diàn",
-          "store; shop",
-          ""
-        ],
-        [
-          "买东西",
-          "mǎi dōng xi",
-          "to do one's shopping",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 84,
-  "first": "今天，杰克来学校学习汉语。",
-  "newWords": [
-    {
-      "w": "还",
-      "py": "hái",
-      "en": "still"
-    },
-    {
-      "w": "贵",
-      "py": "guì",
-      "en": "expensive"
-    },
-    {
-      "w": "笑",
-      "py": "xiào",
-      "en": "to smile"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-14.mp3?v=1791720548"
+  {
+   "text": "李老师说：“杰克，你会说汉语吗？”",
+   "py": "Lǐ lǎo shī shuō: “Jié kè, nǐ huì shuō Hàn yǔ ma?”",
+   "en": "Teacher Li says, \"Jack, can you speak Chinese?\"",
+   "tr": {
+    "vi": "Cô Lý nói: “Jack, em có biết nói tiếng Trung không?”",
+    "pt": "A professora Li diz: “Jack, você fala chinês?”",
+    "es": "La profesora Li dice: «Jack, ¿sabes hablar chino?»",
+    "fr": "La professeure Li dit : « Jack, tu parles chinois ? »",
+    "am": "መምህርት ሊ «ጃክ፣ ቻይንኛ መናገር ትችላለህ?» አለች።",
+    "fa": "معلم لی می‌گوید: «جک، می‌تونی چینی حرف بزنی؟»"
+   },
+   "start": 6.92,
+   "end": 11.456,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "汉语",
+     "hàn yǔ",
+     "Chinese language",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克说：“我会说一点儿。”",
+   "py": "Jié kè shuō: “wǒ huì shuō yì diǎn r.”",
+   "en": "Jack says, \"I can speak a little.\"",
+   "tr": {
+    "vi": "Jack nói: “Em biết nói một chút ạ.”",
+    "pt": "O Jack diz: “Falo um pouco.”",
+    "es": "Jack dice: «Hablo un poco».",
+    "fr": "Jack dit : « Je parle un peu. »",
+    "am": "ጃክ «ትንሽ እናገራለሁ» አለ።",
+    "fa": "جک می‌گوید: «یه کم بلدم.»"
+   },
+   "start": 12.156,
+   "end": 15.012,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“很好！你会说什么？”",
+   "py": "“hěn hǎo! nǐ huì shuō shén me?”",
+   "en": "\"Very good! What can you say?\"",
+   "tr": {
+    "vi": "“Tốt lắm! Em nói được gì?”",
+    "pt": "“Muito bem! O que você sabe dizer?”",
+    "es": "«¡Muy bien! ¿Qué sabes decir?»",
+    "fr": "« Très bien ! Qu'est-ce que tu sais dire ? »",
+    "am": "«በጣም ጥሩ! ምን ማለት ትችላለህ?»",
+    "fa": "«عالیه! چی بلدی بگی؟»"
+   },
+   "start": 15.712,
+   "end": 18.376,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; (before a verb) good to; appropriate; proper",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "会",
+     "huì",
+     "can; to have the skill; to know how to",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克想了想：“你好、谢谢、再见……”",
+   "py": "Jié kè xiǎng le xiǎng: “nǐ hǎo, xiè xie, zài jiàn……”",
+   "en": "Jack thinks for a moment. \"Hello, thank you, goodbye...\"",
+   "tr": {
+    "vi": "Jack nghĩ một lát: “Xin chào, cảm ơn, tạm biệt...”",
+    "pt": "O Jack pensa um pouco: “Olá, obrigado, tchau...”",
+    "es": "Jack piensa un momento: «Hola, gracias, adiós…»",
+    "fr": "Jack réfléchit : « Bonjour, merci, au revoir… »",
+    "am": "ጃክ ትንሽ አሰበ። «ሰላም፣ አመሰግናለሁ፣ ደህና ሁኑ…»",
+    "fa": "جک یک لحظه فکر می‌کند: «سلام، ممنون، خداحافظ…»"
+   },
+   "start": 19.076,
+   "end": 24.284,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你好",
+     "nǐ hǎo",
+     "hello; hi",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "再见",
+     "zài jiàn",
+     "goodbye; see you again later",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“还有呢？”",
+   "py": "“hái yǒu ne?”",
+   "en": "\"What else?\"",
+   "tr": {
+    "vi": "“Còn gì nữa?”",
+    "pt": "“E o que mais?”",
+    "es": "«¿Y qué más?»",
+    "fr": "« Et quoi d'autre ? »",
+    "am": "«ሌላስ?»",
+    "fa": "«بعدش چی؟»"
+   },
+   "start": 24.984,
+   "end": 26.424,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "呢",
+     "ne",
+     "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“还有‘多少钱’和‘太贵了’！”",
+   "py": "“hái yǒu ‘duō shao qián’ hé ‘tài guì le’!”",
+   "en": "\"And 'How much is it?' and 'That's too expensive!'\"",
+   "tr": {
+    "vi": "“Còn ‘bao nhiêu tiền’ và ‘đắt quá’ ạ!”",
+    "pt": "“E também ‘quanto custa?’ e ‘está muito caro!’”",
+    "es": "«¡Y “¿cuánto cuesta?” y “¡qué caro!”!»",
+    "fr": "« Et aussi \"C'est combien ?\" et \"C'est trop cher !\" »",
+    "am": "«ደግሞ ‹ስንት ነው?› እና ‹በጣም ውድ ነው!›»",
+    "fa": "«بعدش هم «چنده؟» و «خیلی گرونه»!»"
+   },
+   "start": 27.124,
+   "end": 29.98,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "‘"
+    ],
+    [
+     "多少",
+     "duō shao",
+     "how much?; how many?",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "coin; money; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "‘"
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "贵",
+     "guì",
+     "expensive; (bound form) highly valued; precious",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "’"
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "大家都笑了。",
+   "py": "dà jiā dōu xiào le.",
+   "en": "Everyone laughs.",
+   "tr": {
+    "vi": "Cả lớp đều cười.",
+    "pt": "Todo mundo ri.",
+    "es": "Todos se ríen.",
+    "fr": "Tout le monde rit.",
+    "am": "ሁሉም ሳቁ።",
+    "fa": "همه می‌خندند."
+   },
+   "start": 30.68,
+   "end": 32.384,
+   "tokens": [
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李老师说：“很好！明天你能去商店买东西了！”",
+   "py": "Lǐ lǎo shī shuō: “hěn hǎo! míng tiān nǐ néng qù shāng diàn mǎi dōng xi le!”",
+   "en": "Teacher Li says, \"Very good! Tomorrow you can go shopping!\"",
+   "tr": {
+    "vi": "Cô Lý nói: “Tốt lắm! Mai em đi cửa hàng mua đồ được rồi!”",
+    "pt": "A professora Li diz: “Muito bem! Amanhã você já pode ir fazer compras!”",
+    "es": "La profesora Li dice: «¡Muy bien! ¡Mañana ya puedes ir a comprar a la tienda!»",
+    "fr": "La professeure Li dit : « Très bien ! Demain, tu pourras aller faire les courses ! »",
+    "am": "መምህርት ሊ «በጣም ጥሩ! ነገ ሱቅ ሄደህ መገበያየት ትችላለህ!» አለች።",
+    "fa": "معلم لی می‌گوید: «خیلی خوبه! فردا می‌تونی بری مغازه خرید کنی!»"
+   },
+   "start": 33.084,
+   "end": 37.836,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; (before a verb) good to; appropriate; proper",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "明天",
+     "míng tiān",
+     "tomorrow",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "商店",
+     "shāng diàn",
+     "store; shop",
+     ""
+    ],
+    [
+     "买东西",
+     "mǎi dōng xi",
+     "to do one's shopping",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 84,
+ "first": "今天，杰克来学校学习汉语。",
+ "newWords": [
+  {
+   "w": "还",
+   "py": "hái",
+   "en": "still"
+  },
+  {
+   "w": "贵",
+   "py": "guì",
+   "en": "expensive"
+  },
+  {
+   "w": "笑",
+   "py": "xiào",
+   "en": "to smile"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-14.mp3?v=1791720548"
 }

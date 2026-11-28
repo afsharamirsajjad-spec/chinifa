@@ -1,2117 +1,2135 @@
 {
-  "id": "h4-05",
-  "level": 4,
-  "no": 5,
-  "title": "垃圾分类",
-  "title_py": "lā jī fēn lèi",
-  "title_en": "Sorting the rubbish",
-  "title_tr": {
-    "am": "ቆሻሻ መለየት",
-    "fa": "تفکیک زباله‌ها"
+ "id": "h4-05",
+ "level": 4,
+ "no": 5,
+ "title": "垃圾分类",
+ "title_py": "lā jī fēn lèi",
+ "title_en": "Sorting the rubbish",
+ "title_tr": {
+  "am": "ቆሻሻ መለየት",
+  "fa": "تفکیک زباله‌ها"
+ },
+ "topic": "daily",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h4-05.jpg",
+ "duration": 127.492,
+ "lines": [
+  {
+   "text": "从这个月起，杰克住的小区开始垃圾分类了。",
+   "py": "cóng zhè ge yuè qǐ, Jié kè zhù de xiǎo qū kāi shǐ lā jī fēn lèi le.",
+   "en": "From this month on, Jack's housing compound is sorting its rubbish.",
+   "tr": {
+    "am": "ከዚህ ወር ጀምሮ ጃክ የሚኖርበት የመኖሪያ ግቢ ቆሻሻ መለየት ጀመረ።",
+    "fa": "از این ماه به بعد، مجتمعِ مسکونی جک داره زباله‌ها رو تفکیک می‌کنه."
+   },
+   "start": 2.62,
+   "end": 7.348,
+   "tokens": [
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "起",
+     "qǐ",
+     "to rise; to raise; to get up",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "住",
+     "zhù",
+     "to live; to reside; to stay; to stop; to cease",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "小区",
+     "xiǎo qū",
+     "housing estate; community; neighborhood",
+     ""
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "垃圾分类",
+     "lā jī fēn lèi",
+     "waste sorting; waste separation",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "daily",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h4-05.jpg",
-  "duration": 127.492,
-  "lines": [
-    {
-      "text": "从这个月起，杰克住的小区开始垃圾分类了。",
-      "py": "cóng zhè ge yuè qǐ, Jié kè zhù de xiǎo qū kāi shǐ lā jī fēn lèi le.",
-      "en": "From this month on, Jack's housing compound is sorting its rubbish.",
-      "tr": {
-        "am": "ከዚህ ወር ጀምሮ ጃክ የሚኖርበት የመኖሪያ ግቢ ቆሻሻ መለየት ጀመረ።"
-      },
-      "start": 2.62,
-      "end": 7.348,
-      "tokens": [
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "起",
-          "qǐ",
-          "to rise; to raise; to get up",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "住",
-          "zhù",
-          "to live; to reside; to stay; to stop; to cease",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "小区",
-          "xiǎo qū",
-          "housing estate; community; neighborhood",
-          ""
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "垃圾分类",
-          "lā jī fēn lèi",
-          "waste sorting; waste separation",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "楼下的垃圾桶变成了四个：可回收物、有害垃圾、湿垃圾和干垃圾。",
-      "py": "lóu xià de lā jī tǒng biàn chéng le sì gè: kě huí shōu wù, yǒu hài lā jī, shī lā jī hé gān lā jī.",
-      "en": "There are now four bins downstairs: recyclables, hazardous waste, wet waste and dry waste.",
-      "tr": {
-        "am": "ከሕንፃው ሥር ያሉት የቆሻሻ ገንዳዎች አራት ሆኑ። እንደገና ጥቅም ላይ የሚውሉ፣ አደገኛ ቆሻሻ፣ እርጥብ ቆሻሻ እና ደረቅ ቆሻሻ።"
-      },
-      "start": 8.048,
-      "end": 16.088,
-      "tokens": [
-        [
-          "楼下",
-          "lóu xià",
-          "downstairs",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "垃圾桶",
-          "lā jī tǒng",
-          "rubbish bin; trash can; garbage can",
-          ""
-        ],
-        [
-          "变成",
-          "biàn chéng",
-          "to change into; to turn into; to become",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "四",
-          "sì",
-          "four; 4",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "可回收",
-          "kě huí shōu",
-          "recyclable",
-          ""
-        ],
-        [
-          "物",
-          "wù",
-          "(bound form) thing",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "有害",
-          "yǒu hài",
-          "destructive; harmful; damaging",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "湿",
-          "shī",
-          "wet; moist",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "干",
-          "gān",
-          "dry; dried food; empty; hollow",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "每天晚上七点到九点，刘爷爷都穿着红色的马甲，站在垃圾桶旁边当志愿者。",
-      "py": "měi tiān wǎn shang qī diǎn dào jiǔ diǎn, Liú yé ye dōu chuān zhe hóng sè de mǎ jiǎ, zhàn zài lā jī tǒng páng biān dāng zhì yuàn zhě.",
-      "en": "Every evening from seven to nine, Grandpa Liu stands by the bins in a red vest as a volunteer.",
-      "tr": {
-        "am": "በየምሽቱ ከ7:00 እስከ 9:00 አያት ሊዩ ቀይ ሰደርያ ለብሰው በቆሻሻ ገንዳዎቹ አጠገብ በበጎ ፈቃደኝነት ይቆማሉ።"
-      },
-      "start": 16.788,
-      "end": 24.852,
-      "tokens": [
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "九",
-          "jiǔ",
-          "nine; 9",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "(used for emphasis) even; all; both; entirely; already",
-          ""
-        ],
-        [
-          "穿着",
-          "chuān zhuó",
-          "attire; clothes; dress",
-          ""
-        ],
-        [
-          "红色",
-          "hóng sè",
-          "red (color); revolutionary",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "马甲",
-          "mǎ jiǎ",
-          "vest (dialect); corset; sockpuppet (Internet slang)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "垃圾桶",
-          "lā jī tǒng",
-          "rubbish bin; trash can; garbage can",
-          ""
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "当",
-          "dāng",
-          "(onom.) dong; ding dong (bell); to be",
-          ""
-        ],
-        [
-          "志愿者",
-          "zhì yuàn zhě",
-          "volunteer",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "第一天晚上，杰克提着一大袋垃圾下楼，直接扔进了离他最近的桶。",
-      "py": "dì yī tiān wǎn shang, Jié kè tí zhe yí dà dài lā jī xià lóu, zhí jiē rēng jìn le lí tā zuì jìn de tǒng.",
-      "en": "On the first evening, Jack carries a big bag of rubbish downstairs and throws it straight into the nearest bin.",
-      "tr": {
-        "am": "በመጀመሪያው ምሽት ጃክ አንድ ትልቅ ከረጢት ቆሻሻ ይዞ ወረደ፣ በቀጥታም ለእሱ ቅርብ በሆነው ገንዳ ውስጥ ጣለው።"
-      },
-      "start": 25.552,
-      "end": 32.464,
-      "tokens": [
-        [
-          "第一",
-          "dì yī",
-          "first; most important; primary; foremost",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "提",
-          "tí",
-          "to carry (hanging down from the hand); to lift",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "袋",
-          "dài",
-          "bag; pouch; sack",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "下楼",
-          "xià lóu",
-          "to go downstairs",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "直接",
-          "zhí jiē",
-          "straightforward; direct (opposite: indirect 间接); immediate",
-          ""
-        ],
-        [
-          "扔",
-          "rēng",
-          "to throw; to throw away",
-          ""
-        ],
-        [
-          "进",
-          "jìn",
-          "to go forward; to advance; to go in",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "离",
-          "lí",
-          "to leave; to part from; to be away from",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "最近",
-          "zuì jìn",
-          "nearest; recently; soon",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "桶",
-          "tǒng",
-          "bucket; (trash) can; barrel (of oil etc)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“等一下！”刘爷爷把袋子拿了出来，“小伙子，得先分类。”",
-      "py": "“děng yí xià!” Liú yé ye bǎ dài zi ná le chū lái, “xiǎo huǒ zi, de xiān fēn lèi.”",
-      "en": "\"Hang on!\" Grandpa Liu lifts the bag back out. \"Young man, you have to sort it first.\"",
-      "tr": {
-        "am": "«ቆይ!» አያት ሊዩ ከረጢቱን አወጡት። «አንተ ወጣት፣ መጀመሪያ መለየት አለብህ።»"
-      },
-      "start": 33.164,
-      "end": 39.788,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "等一下",
-          "děng yī xià",
-          "to wait a moment; later; in awhile",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "袋子",
-          "dài zi",
-          "bag",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "出来",
-          "chū lái",
-          "to come out; to appear; to arise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "“"
-        ],
-        [
-          "小伙子",
-          "xiǎo huǒ zi",
-          "(coll.) young man; young fellow; lad",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "分类",
-          "fēn lèi",
-          "to classify",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷一样一样地教他：剩菜、果皮是湿垃圾，用过的纸巾是干垃圾，旧的充电电池是有害垃圾。",
-      "py": "Liú yé ye yí yàng yí yàng de jiāo tā: shèng cài, guǒ pí shì shī lā jī, yòng guò de zhǐ jīn shì gān lā jī, jiù de chōng diàn diàn chí shì yǒu hài lā jī.",
-      "en": "Grandpa Liu teaches him item by item: leftovers and fruit peel are wet waste, used tissues are dry waste, and old rechargeable batteries are hazardous waste.",
-      "tr": {
-        "am": "አያት ሊዩ አንድ በአንድ አስተማሩት። የተረፈ ምግብና የፍራፍሬ ልጣጭ እርጥብ ቆሻሻ ነው፣ ያገለገለ ሶፍት ደረቅ ቆሻሻ ነው፣ አሮጌ ቻርጅ የሚደረግ ባትሪ ደግሞ አደገኛ ቆሻሻ ነው።"
-      },
-      "start": 40.488,
-      "end": 51.816,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "一样",
-          "yī yàng",
-          "same; like; equal to",
-          ""
-        ],
-        [
-          "一样",
-          "yī yàng",
-          "same; like; equal to",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "教",
-          "jiāo",
-          "to teach; to instruct",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "剩菜",
-          "shèng cài",
-          "leftovers (food)",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "果皮",
-          "guǒ pí",
-          "(fruit) peel",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "湿",
-          "shī",
-          "wet; moist",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "纸巾",
-          "zhǐ jīn",
-          "facial tissue; paper towel; napkin",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "干",
-          "gān",
-          "dry; dried food; empty; hollow",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "旧",
-          "jiù",
-          "old; opposite: new 新; former",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "充电",
-          "chōng diàn",
-          "to recharge (a battery)",
-          ""
-        ],
-        [
-          "电池",
-          "diàn chí",
-          "battery; electric cell",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "有害",
-          "yǒu hài",
-          "destructive; harmful; damaging",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克听得头都大了：“那大骨头呢？”",
-      "py": "Jié kè tīng de tóu dōu dà le: “nà dà gǔ tou ne?”",
-      "en": "Jack's head is spinning. \"What about a big bone, then?\"",
-      "tr": {
-        "am": "ጃክ ሲሰማ ራሱ ዞረበት። «ታዲያ ትልቅ አጥንትስ?»"
-      },
-      "start": 52.516,
-      "end": 56.572,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "头",
-          "tóu",
-          "head; hair style; the top",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "骨头",
-          "gǔ tou",
-          "bone; moral character; bitterness",
-          ""
-        ],
-        [
-          "呢",
-          "ne",
-          "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“大骨头太硬，是干垃圾；小骨头才是湿垃圾。”",
-      "py": "“dà gǔ tou tài yìng, shì gān lā jī; xiǎo gǔ tou cái shì shī lā jī.”",
-      "en": "\"Big bones are too hard, so they're dry waste. Only small bones are wet waste.\"",
-      "tr": {
-        "am": "«ትልቅ አጥንት በጣም ጠንካራ ስለሆነ ደረቅ ቆሻሻ ነው። እርጥብ ቆሻሻ የሆነው ትንሽ አጥንት ብቻ ነው።»"
-      },
-      "start": 57.272,
-      "end": 62.48,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "骨头",
-          "gǔ tou",
-          "bone; moral character; bitterness",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "硬",
-          "yìng",
-          "hard; stiff; solid; (fig.) strong; firm",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "干",
-          "gān",
-          "dry; dried food; empty; hollow",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "；"
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "骨头",
-          "gǔ tou",
-          "bone; moral character; bitterness",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "then and only then; (before an expression of quantity) only",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "湿",
-          "shī",
-          "wet; moist",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克拿出手机，把刘爷爷说的全记了下来。",
-      "py": "Jié kè ná chū shǒu jī, bǎ Liú yé ye shuō de quán jì le xià lái.",
-      "en": "Jack takes out his phone and notes down everything Grandpa Liu says.",
-      "tr": {
-        "am": "ጃክ ስልኩን አውጥቶ አያት ሊዩ ያሉትን ሁሉ ጻፈ።"
-      },
-      "start": 63.18,
-      "end": 67.932,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "全",
-          "quán",
-          "every; all; whole",
-          ""
-        ],
-        [
-          "记",
-          "jì",
-          "to note; to record; to memorize",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "下来",
-          "xià lai",
-          "to come down",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "最难的是一杯没喝完的奶茶：奶茶要倒掉，珍珠是湿垃圾，杯子是干垃圾。",
-      "py": "zuì nán de shì yì bēi méi hē wán de nǎi chá: nǎi chá yào dào diào, zhēn zhū shì shī lā jī, bēi zi shì gān lā jī.",
-      "en": "The hardest is a half-finished milk tea: the tea gets poured away, the pearls are wet waste, and the cup is dry waste.",
-      "tr": {
-        "am": "ከሁሉ የከበደው ያልተጠጣ የወተት ሻይ ነበር። ሻዩ ይደፋል፣ የታፒዮካ ኳሶቹ እርጥብ ቆሻሻ ናቸው፣ ኩባያው ደግሞ ደረቅ ቆሻሻ ነው።"
-      },
-      "start": 68.632,
-      "end": 76.504,
-      "tokens": [
-        [
-          "最",
-          "zuì",
-          "(before an adjective or verb) to the highest degree; (the) most ...; -est",
-          ""
-        ],
-        [
-          "难",
-          "nán",
-          "difficult (to...); problem; difficulty",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "杯",
-          "bēi",
-          "classifier for certain containers of liquids: glass, cup",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "奶茶",
-          "nǎi chá",
-          "milk tea",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "奶茶",
-          "nǎi chá",
-          "milk tea",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to pour out",
-          ""
-        ],
-        [
-          "掉",
-          "diào",
-          "to fall; to drop; to lag behind",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "珍珠",
-          "zhēn zhū",
-          "pearl; (fig.) teardrop; tear",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "湿",
-          "shī",
-          "wet; moist",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "干",
-          "gān",
-          "dry; dried food; empty; hollow",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克每天晚上都认真地分，有不懂的就去问刘爷爷。",
-      "py": "Jié kè měi tiān wǎn shang dōu rèn zhēn de fēn, yǒu bù dǒng de jiù qù wèn Liú yé ye.",
-      "en": "Every evening, Jack sorts his rubbish carefully, and whenever he isn't sure, he asks Grandpa Liu.",
-      "tr": {
-        "am": "ጃክ በየምሽቱ በጥንቃቄ ይለያል፣ ያልገባውን ነገር አያት ሊዩን ይጠይቃል።"
-      },
-      "start": 77.204,
-      "end": 82.892,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "(used for emphasis) even; all; both; entirely; already",
-          ""
-        ],
-        [
-          "认真",
-          "rèn zhēn",
-          "conscientious; earnest; serious",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "分",
-          "fēn",
-          "to divide; to separate; to distribute; to allocate",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "懂",
-          "dǒng",
-          "to understand; to comprehend",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(pattern: 就 ... 也 ...) even if ... still ...",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一个月以后，他已经不用看手机了。",
-      "py": "yí gè yuè yǐ hòu, tā yǐ jīng bú yòng kàn shǒu jī le.",
-      "en": "A month later, he doesn't need to check his phone any more.",
-      "tr": {
-        "am": "ከአንድ ወር በኋላ ስልኩን ማየት አላስፈለገውም።"
-      },
-      "start": 83.592,
-      "end": 87.192,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "不用",
-          "bù yòng",
-          "need not",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "有一天晚上，刘爷爷感冒了，没有下楼。",
-      "py": "yǒu yì tiān wǎn shang, Liú yé ye gǎn mào le, méi yǒu xià lóu.",
-      "en": "One evening, Grandpa Liu has a cold and doesn't come down.",
-      "tr": {
-        "am": "አንድ ምሽት አያት ሊዩ ጉንፋን ይዟቸው ወደ ታች አልወረዱም።"
-      },
-      "start": 87.892,
-      "end": 92.188,
-      "tokens": [
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "感冒",
-          "gǎn mào",
-          "to catch cold; (common) cold",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "doesn't exist; haven't; hasn't",
-          ""
-        ],
-        [
-          "下楼",
-          "xià lóu",
-          "to go downstairs",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克看见几个邻居站在垃圾桶前不知道怎么办，就走过去帮忙。",
-      "py": "Jié kè kàn jiàn jǐ gè lín jū zhàn zài lā jī tǒng qián bù zhī dào zěn me bàn, jiù zǒu guò qù bāng máng.",
-      "en": "Jack sees several neighbours standing in front of the bins, not sure what to do, so he goes over to help.",
-      "tr": {
-        "am": "ጃክ ጥቂት ጎረቤቶች በቆሻሻ ገንዳዎቹ ፊት ቆመው ምን እንደሚያደርጉ ሲቸገሩ አይቶ ሊረዳቸው ሄደ።"
-      },
-      "start": 92.888,
-      "end": 99.296,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "几个",
-          "jǐ ge",
-          "several; a few; how many",
-          ""
-        ],
-        [
-          "邻居",
-          "lín jū",
-          "neighbor",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "垃圾桶",
-          "lā jī tǒng",
-          "rubbish bin; trash can; garbage can",
-          ""
-        ],
-        [
-          "前",
-          "qián",
-          "front; forward; ahead",
-          ""
-        ],
-        [
-          "不知",
-          "bù zhī",
-          "not to know; unaware; unknowingly",
-          ""
-        ],
-        [
-          "道",
-          "dào",
-          "road; path; (bound form) way; reason; principle",
-          ""
-        ],
-        [
-          "怎么办",
-          "zěn me bàn",
-          "what's to be done",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "走过",
-          "zǒu guò",
-          "to walk past; to pass by",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "帮忙",
-          "bāng máng",
-          "to help; to lend a hand; to do a favor",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“这个是湿垃圾，那个是干垃圾，电池放这个红色的桶。”",
-      "py": "“zhè ge shì shī lā jī, nà ge shì gān lā jī, diàn chí fàng zhè ge hóng sè de tǒng.”",
-      "en": "\"This is wet waste, that's dry waste, and the battery goes in this red bin.\"",
-      "tr": {
-        "am": "«ይሄ እርጥብ ቆሻሻ ነው፣ ያ ደረቅ ቆሻሻ ነው፣ ባትሪው ደግሞ በዚህ ቀይ ገንዳ ውስጥ ይገባል።»"
-      },
-      "start": 99.996,
-      "end": 105.66,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "湿",
-          "shī",
-          "wet; moist",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那个",
-          "nà ge",
-          "that one; that thing; that (as opposed to this)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "干",
-          "gān",
-          "dry; dried food; empty; hollow",
-          ""
-        ],
-        [
-          "垃圾",
-          "lā jī",
-          "trash; refuse; garbage",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "电池",
-          "diàn chí",
-          "battery; electric cell",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to place; to release",
-          ""
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "红色",
-          "hóng sè",
-          "red (color); revolutionary",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "桶",
-          "tǒng",
-          "bucket; (trash) can; barrel (of oil etc)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "一位阿姨奇怪地问：“你一个外国人，怎么比我们还清楚？”",
-      "py": "yī wèi ā yí qí guài de wèn: “nǐ yí gè wài guó rén, zěn me bǐ wǒ men hái qīng chu?”",
-      "en": "A woman asks, puzzled, \"You're a foreigner—how come you know better than we do?\"",
-      "tr": {
-        "am": "አንዲት ሴት ተገርመው «አንተ የውጭ ሰው ሆነህ እንዴት ከእኛ በላይ ታውቃለህ?» ብለው ጠየቁ።"
-      },
-      "start": 106.36,
-      "end": 112.312,
-      "tokens": [
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "阿姨",
-          "ā yí",
-          "woman of similar age to one's parents (term of address used by child)",
-          ""
-        ],
-        [
-          "奇怪",
-          "qí guài",
-          "strange; odd; to marvel",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "外国人",
-          "wài guó rén",
-          "foreigner",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "比",
-          "bǐ",
-          "(followed by a noun and adjective) more {adj.} than {noun}",
-          ""
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "还清",
-          "huán qīng",
-          "to pay back in full; to redeem a debt",
-          ""
-        ],
-        [
-          "楚",
-          "chǔ",
-          "distinct; clear; orderly",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克笑着说：“因为我的老师是刘爷爷。”",
-      "py": "Jié kè xiào zhe shuō: “yīn wèi wǒ de lǎo shī shì Liú yé ye.”",
-      "en": "Jack smiles. \"Because my teacher is Grandpa Liu.\"",
-      "tr": {
-        "am": "ጃክ እየሳቀ «ምክንያቱም መምህሬ አያት ሊዩ ናቸው» አለ።"
-      },
-      "start": 113.012,
-      "end": 117.284,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "因为",
-          "yīn wèi",
-          "because; owing to; on account of",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "过了两天，刘爷爷的感冒好了。他下楼一看，垃圾桶旁边多了一个穿红马甲的志愿者。",
-      "py": "guò le liǎng tiān, Liú yé ye de gǎn mào hǎo le. tā xià lóu yí kàn, lā jī tǒng páng biān duō le yí gè chuān hóng mǎ jiǎ de zhì yuàn zhě.",
-      "en": "Two days later, Grandpa Liu is over his cold. When he comes downstairs, there's an extra volunteer in a red vest by the bins.",
-      "tr": {
-        "am": "ከሁለት ቀን በኋላ የአያት ሊዩ ጉንፋን ለቀቃቸው። ወደ ታች ወርደው ሲያዩ በቆሻሻ ገንዳዎቹ አጠገብ ቀይ ሰደርያ የለበሰ ሌላ በጎ ፈቃደኛ ተጨምሯል።"
-      },
-      "start": 117.984,
-      "end": 126.792,
-      "tokens": [
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "感冒",
-          "gǎn mào",
-          "to catch cold; (common) cold",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "(of two people) close; on intimate terms; good",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "下楼",
-          "xià lóu",
-          "to go downstairs",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "垃圾桶",
-          "lā jī tǒng",
-          "rubbish bin; trash can; garbage can",
-          ""
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "穿",
-          "chuān",
-          "to bore through; to pierce; to perforate",
-          ""
-        ],
-        [
-          "红马甲",
-          "hóng mǎ jiǎ",
-          "red waistcoat; (stock market) floor trader; floor broker",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "志愿者",
-          "zhì yuàn zhě",
-          "volunteer",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 404,
-  "first": "从这个月起，杰克住的小区开始垃圾分类了。",
-  "newWords": [
-    {
-      "w": "志愿者",
-      "py": "zhìyuànzhě",
-      "en": "unpaid helper"
-    },
-    {
-      "w": "电池",
-      "py": "diànchí",
-      "en": "device that stores electrical energy"
-    },
-    {
-      "w": "硬",
-      "py": "yìng",
-      "en": "not easily bent or compressed"
-    },
-    {
-      "w": "骨头",
-      "py": "gǔtou",
-      "en": "animal body framework"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h4-05.mp3?v=1791720666"
+  {
+   "text": "楼下的垃圾桶变成了四个：可回收物、有害垃圾、湿垃圾和干垃圾。",
+   "py": "lóu xià de lā jī tǒng biàn chéng le sì gè: kě huí shōu wù, yǒu hài lā jī, shī lā jī hé gān lā jī.",
+   "en": "There are now four bins downstairs: recyclables, hazardous waste, wet waste and dry waste.",
+   "tr": {
+    "am": "ከሕንፃው ሥር ያሉት የቆሻሻ ገንዳዎች አራት ሆኑ። እንደገና ጥቅም ላይ የሚውሉ፣ አደገኛ ቆሻሻ፣ እርጥብ ቆሻሻ እና ደረቅ ቆሻሻ።",
+    "fa": "حالا اون پایین چهار تا سطل هست: قابل بازیافت، خطرناک، زباله‌ی تر و زباله‌ی خشک."
+   },
+   "start": 8.048,
+   "end": 16.088,
+   "tokens": [
+    [
+     "楼下",
+     "lóu xià",
+     "downstairs",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "垃圾桶",
+     "lā jī tǒng",
+     "rubbish bin; trash can; garbage can",
+     ""
+    ],
+    [
+     "变成",
+     "biàn chéng",
+     "to change into; to turn into; to become",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "四",
+     "sì",
+     "four; 4",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "可回收",
+     "kě huí shōu",
+     "recyclable",
+     ""
+    ],
+    [
+     "物",
+     "wù",
+     "(bound form) thing",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "有害",
+     "yǒu hài",
+     "destructive; harmful; damaging",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "湿",
+     "shī",
+     "wet; moist",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "干",
+     "gān",
+     "dry; dried food; empty; hollow",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "每天晚上七点到九点，刘爷爷都穿着红色的马甲，站在垃圾桶旁边当志愿者。",
+   "py": "měi tiān wǎn shang qī diǎn dào jiǔ diǎn, Liú yé ye dōu chuān zhe hóng sè de mǎ jiǎ, zhàn zài lā jī tǒng páng biān dāng zhì yuàn zhě.",
+   "en": "Every evening from seven to nine, Grandpa Liu stands by the bins in a red vest as a volunteer.",
+   "tr": {
+    "am": "በየምሽቱ ከ7:00 እስከ 9:00 አያት ሊዩ ቀይ ሰደርያ ለብሰው በቆሻሻ ገንዳዎቹ አጠገብ በበጎ ፈቃደኝነት ይቆማሉ።",
+    "fa": "هر عصر از ساعت هفت تا نه، پدربزرگ لیو با یه جلیقه‌ی قرمز کنار سطل‌ها به‌عنوان داوطلب می‌ایسته."
+   },
+   "start": 16.788,
+   "end": 24.852,
+   "tokens": [
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "九",
+     "jiǔ",
+     "nine; 9",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "(used for emphasis) even; all; both; entirely; already",
+     ""
+    ],
+    [
+     "穿着",
+     "chuān zhuó",
+     "attire; clothes; dress",
+     ""
+    ],
+    [
+     "红色",
+     "hóng sè",
+     "red (color); revolutionary",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "马甲",
+     "mǎ jiǎ",
+     "vest (dialect); corset; sockpuppet (Internet slang)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "垃圾桶",
+     "lā jī tǒng",
+     "rubbish bin; trash can; garbage can",
+     ""
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "当",
+     "dāng",
+     "(onom.) dong; ding dong (bell); to be",
+     ""
+    ],
+    [
+     "志愿者",
+     "zhì yuàn zhě",
+     "volunteer",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "第一天晚上，杰克提着一大袋垃圾下楼，直接扔进了离他最近的桶。",
+   "py": "dì yī tiān wǎn shang, Jié kè tí zhe yí dà dài lā jī xià lóu, zhí jiē rēng jìn le lí tā zuì jìn de tǒng.",
+   "en": "On the first evening, Jack carries a big bag of rubbish downstairs and throws it straight into the nearest bin.",
+   "tr": {
+    "am": "በመጀመሪያው ምሽት ጃክ አንድ ትልቅ ከረጢት ቆሻሻ ይዞ ወረደ፣ በቀጥታም ለእሱ ቅርብ በሆነው ገንዳ ውስጥ ጣለው።",
+    "fa": "شب اول، جک یه کیسه‌ی بزرگ زباله می‌کشه پایین و مستقیم می‌ندازهش تو نزدیک‌ترین سطل."
+   },
+   "start": 25.552,
+   "end": 32.464,
+   "tokens": [
+    [
+     "第一",
+     "dì yī",
+     "first; most important; primary; foremost",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "提",
+     "tí",
+     "to carry (hanging down from the hand); to lift",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "袋",
+     "dài",
+     "bag; pouch; sack",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "下楼",
+     "xià lóu",
+     "to go downstairs",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "直接",
+     "zhí jiē",
+     "straightforward; direct (opposite: indirect 间接); immediate",
+     ""
+    ],
+    [
+     "扔",
+     "rēng",
+     "to throw; to throw away",
+     ""
+    ],
+    [
+     "进",
+     "jìn",
+     "to go forward; to advance; to go in",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "离",
+     "lí",
+     "to leave; to part from; to be away from",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "最近",
+     "zuì jìn",
+     "nearest; recently; soon",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "桶",
+     "tǒng",
+     "bucket; (trash) can; barrel (of oil etc)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“等一下！”刘爷爷把袋子拿了出来，“小伙子，得先分类。”",
+   "py": "“děng yí xià!” Liú yé ye bǎ dài zi ná le chū lái, “xiǎo huǒ zi, de xiān fēn lèi.”",
+   "en": "\"Hang on!\" Grandpa Liu lifts the bag back out. \"Young man, you have to sort it first.\"",
+   "tr": {
+    "am": "«ቆይ!» አያት ሊዩ ከረጢቱን አወጡት። «አንተ ወጣት፣ መጀመሪያ መለየት አለብህ።»",
+    "fa": "«اِ اِ!» پدربزرگ لیو کیسه رو دوباره درمیاره: «پسرم، اول باید تفکیکش کنی.»"
+   },
+   "start": 33.164,
+   "end": 39.788,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "等一下",
+     "děng yī xià",
+     "to wait a moment; later; in awhile",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "袋子",
+     "dài zi",
+     "bag",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "出来",
+     "chū lái",
+     "to come out; to appear; to arise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "“"
+    ],
+    [
+     "小伙子",
+     "xiǎo huǒ zi",
+     "(coll.) young man; young fellow; lad",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "分类",
+     "fēn lèi",
+     "to classify",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷一样一样地教他：剩菜、果皮是湿垃圾，用过的纸巾是干垃圾，旧的充电电池是有害垃圾。",
+   "py": "Liú yé ye yí yàng yí yàng de jiāo tā: shèng cài, guǒ pí shì shī lā jī, yòng guò de zhǐ jīn shì gān lā jī, jiù de chōng diàn diàn chí shì yǒu hài lā jī.",
+   "en": "Grandpa Liu teaches him item by item: leftovers and fruit peel are wet waste, used tissues are dry waste, and old rechargeable batteries are hazardous waste.",
+   "tr": {
+    "am": "አያት ሊዩ አንድ በአንድ አስተማሩት። የተረፈ ምግብና የፍራፍሬ ልጣጭ እርጥብ ቆሻሻ ነው፣ ያገለገለ ሶፍት ደረቅ ቆሻሻ ነው፣ አሮጌ ቻርጅ የሚደረግ ባትሪ ደግሞ አደገኛ ቆሻሻ ነው።",
+    "fa": "پدربزرگ لیو آیتم‌به‌آیتم بهش یاد می‌ده: پس‌غذاها و پوست میوه‌ها زباله‌ی ترن، دستمال‌کاغذی‌های مصرف‌شده زباله‌ی خشکن، و باتری‌های شارژیِ قدیمی پسماندِ خطرناکن."
+   },
+   "start": 40.488,
+   "end": 51.816,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "一样",
+     "yī yàng",
+     "same; like; equal to",
+     ""
+    ],
+    [
+     "一样",
+     "yī yàng",
+     "same; like; equal to",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "教",
+     "jiāo",
+     "to teach; to instruct",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "剩菜",
+     "shèng cài",
+     "leftovers (food)",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "果皮",
+     "guǒ pí",
+     "(fruit) peel",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "湿",
+     "shī",
+     "wet; moist",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "纸巾",
+     "zhǐ jīn",
+     "facial tissue; paper towel; napkin",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "干",
+     "gān",
+     "dry; dried food; empty; hollow",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "旧",
+     "jiù",
+     "old; opposite: new 新; former",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "充电",
+     "chōng diàn",
+     "to recharge (a battery)",
+     ""
+    ],
+    [
+     "电池",
+     "diàn chí",
+     "battery; electric cell",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "有害",
+     "yǒu hài",
+     "destructive; harmful; damaging",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克听得头都大了：“那大骨头呢？”",
+   "py": "Jié kè tīng de tóu dōu dà le: “nà dà gǔ tou ne?”",
+   "en": "Jack's head is spinning. \"What about a big bone, then?\"",
+   "tr": {
+    "am": "ጃክ ሲሰማ ራሱ ዞረበት። «ታዲያ ትልቅ አጥንትስ?»",
+    "fa": "سرِ جک گیج می‌شه: «خب یه استخونِ بزرگ چی؟»"
+   },
+   "start": 52.516,
+   "end": 56.572,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "头",
+     "tóu",
+     "head; hair style; the top",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "骨头",
+     "gǔ tou",
+     "bone; moral character; bitterness",
+     ""
+    ],
+    [
+     "呢",
+     "ne",
+     "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“大骨头太硬，是干垃圾；小骨头才是湿垃圾。”",
+   "py": "“dà gǔ tou tài yìng, shì gān lā jī; xiǎo gǔ tou cái shì shī lā jī.”",
+   "en": "\"Big bones are too hard, so they're dry waste. Only small bones are wet waste.\"",
+   "tr": {
+    "am": "«ትልቅ አጥንት በጣም ጠንካራ ስለሆነ ደረቅ ቆሻሻ ነው። እርጥብ ቆሻሻ የሆነው ትንሽ አጥንት ብቻ ነው።»",
+    "fa": "«استخونِ بزرگ انقدر سخته که می‌شه زباله‌ی خشک. فقط استخونای کوچیک زباله‌ی ترن.»"
+   },
+   "start": 57.272,
+   "end": 62.48,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "骨头",
+     "gǔ tou",
+     "bone; moral character; bitterness",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "硬",
+     "yìng",
+     "hard; stiff; solid; (fig.) strong; firm",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "干",
+     "gān",
+     "dry; dried food; empty; hollow",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "；"
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "骨头",
+     "gǔ tou",
+     "bone; moral character; bitterness",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "then and only then; (before an expression of quantity) only",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "湿",
+     "shī",
+     "wet; moist",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克拿出手机，把刘爷爷说的全记了下来。",
+   "py": "Jié kè ná chū shǒu jī, bǎ Liú yé ye shuō de quán jì le xià lái.",
+   "en": "Jack takes out his phone and notes down everything Grandpa Liu says.",
+   "tr": {
+    "am": "ጃክ ስልኩን አውጥቶ አያት ሊዩ ያሉትን ሁሉ ጻፈ።",
+    "fa": "جک گوشیشو درمیاره و همه‌چیزِ پدربزرگ لیو رو یادداشت می‌کنه."
+   },
+   "start": 63.18,
+   "end": 67.932,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "全",
+     "quán",
+     "every; all; whole",
+     ""
+    ],
+    [
+     "记",
+     "jì",
+     "to note; to record; to memorize",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "下来",
+     "xià lai",
+     "to come down",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "最难的是一杯没喝完的奶茶：奶茶要倒掉，珍珠是湿垃圾，杯子是干垃圾。",
+   "py": "zuì nán de shì yì bēi méi hē wán de nǎi chá: nǎi chá yào dào diào, zhēn zhū shì shī lā jī, bēi zi shì gān lā jī.",
+   "en": "The hardest is a half-finished milk tea: the tea gets poured away, the pearls are wet waste, and the cup is dry waste.",
+   "tr": {
+    "am": "ከሁሉ የከበደው ያልተጠጣ የወተት ሻይ ነበር። ሻዩ ይደፋል፣ የታፒዮካ ኳሶቹ እርጥብ ቆሻሻ ናቸው፣ ኩባያው ደግሞ ደረቅ ቆሻሻ ነው።",
+    "fa": "سخت‌ترینش یه چای‌شیرِ نصفه‌ست: چایو می‌ریزی دور، مرواریدها زباله‌ی ترن و لیوان زباله‌ی خشک."
+   },
+   "start": 68.632,
+   "end": 76.504,
+   "tokens": [
+    [
+     "最",
+     "zuì",
+     "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+     ""
+    ],
+    [
+     "难",
+     "nán",
+     "difficult (to...); problem; difficulty",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "杯",
+     "bēi",
+     "classifier for certain containers of liquids: glass, cup",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "奶茶",
+     "nǎi chá",
+     "milk tea",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "奶茶",
+     "nǎi chá",
+     "milk tea",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to pour out",
+     ""
+    ],
+    [
+     "掉",
+     "diào",
+     "to fall; to drop; to lag behind",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "珍珠",
+     "zhēn zhū",
+     "pearl; (fig.) teardrop; tear",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "湿",
+     "shī",
+     "wet; moist",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "干",
+     "gān",
+     "dry; dried food; empty; hollow",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克每天晚上都认真地分，有不懂的就去问刘爷爷。",
+   "py": "Jié kè měi tiān wǎn shang dōu rèn zhēn de fēn, yǒu bù dǒng de jiù qù wèn Liú yé ye.",
+   "en": "Every evening, Jack sorts his rubbish carefully, and whenever he isn't sure, he asks Grandpa Liu.",
+   "tr": {
+    "am": "ጃክ በየምሽቱ በጥንቃቄ ይለያል፣ ያልገባውን ነገር አያት ሊዩን ይጠይቃል።",
+    "fa": "هر عصر جک با دقت زباله‌هاشو تفکیک می‌کنه و هر وقت مطمئن نیست، از پدربزرگ لیو می‌پرسه."
+   },
+   "start": 77.204,
+   "end": 82.892,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "(used for emphasis) even; all; both; entirely; already",
+     ""
+    ],
+    [
+     "认真",
+     "rèn zhēn",
+     "conscientious; earnest; serious",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "分",
+     "fēn",
+     "to divide; to separate; to distribute; to allocate",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "懂",
+     "dǒng",
+     "to understand; to comprehend",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(pattern: 就 ... 也 ...) even if ... still ...",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一个月以后，他已经不用看手机了。",
+   "py": "yí gè yuè yǐ hòu, tā yǐ jīng bú yòng kàn shǒu jī le.",
+   "en": "A month later, he doesn't need to check his phone any more.",
+   "tr": {
+    "am": "ከአንድ ወር በኋላ ስልኩን ማየት አላስፈለገውም።",
+    "fa": "یه ماه بعد، دیگه لازم نیست گوشیشو چک کنه."
+   },
+   "start": 83.592,
+   "end": 87.192,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "不用",
+     "bù yòng",
+     "need not",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "有一天晚上，刘爷爷感冒了，没有下楼。",
+   "py": "yǒu yì tiān wǎn shang, Liú yé ye gǎn mào le, méi yǒu xià lóu.",
+   "en": "One evening, Grandpa Liu has a cold and doesn't come down.",
+   "tr": {
+    "am": "አንድ ምሽት አያት ሊዩ ጉንፋን ይዟቸው ወደ ታች አልወረዱም።",
+    "fa": "یه عصر، پدربزرگ لیو سرما می‌خوره و نمیاد پایین."
+   },
+   "start": 87.892,
+   "end": 92.188,
+   "tokens": [
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "感冒",
+     "gǎn mào",
+     "to catch cold; (common) cold",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "doesn't exist; haven't; hasn't",
+     ""
+    ],
+    [
+     "下楼",
+     "xià lóu",
+     "to go downstairs",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克看见几个邻居站在垃圾桶前不知道怎么办，就走过去帮忙。",
+   "py": "Jié kè kàn jiàn jǐ gè lín jū zhàn zài lā jī tǒng qián bù zhī dào zěn me bàn, jiù zǒu guò qù bāng máng.",
+   "en": "Jack sees several neighbours standing in front of the bins, not sure what to do, so he goes over to help.",
+   "tr": {
+    "am": "ጃክ ጥቂት ጎረቤቶች በቆሻሻ ገንዳዎቹ ፊት ቆመው ምን እንደሚያደርጉ ሲቸገሩ አይቶ ሊረዳቸው ሄደ።",
+    "fa": "جک چند تا همسایه رو می‌بینه که جلوی سطل‌ها وایسادن و نمی‌دونن چی‌کار کنن، پس می‌ره کمکشون."
+   },
+   "start": 92.888,
+   "end": 99.296,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "几个",
+     "jǐ ge",
+     "several; a few; how many",
+     ""
+    ],
+    [
+     "邻居",
+     "lín jū",
+     "neighbor",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "垃圾桶",
+     "lā jī tǒng",
+     "rubbish bin; trash can; garbage can",
+     ""
+    ],
+    [
+     "前",
+     "qián",
+     "front; forward; ahead",
+     ""
+    ],
+    [
+     "不知",
+     "bù zhī",
+     "not to know; unaware; unknowingly",
+     ""
+    ],
+    [
+     "道",
+     "dào",
+     "road; path; (bound form) way; reason; principle",
+     ""
+    ],
+    [
+     "怎么办",
+     "zěn me bàn",
+     "what's to be done",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "走过",
+     "zǒu guò",
+     "to walk past; to pass by",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "帮忙",
+     "bāng máng",
+     "to help; to lend a hand; to do a favor",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“这个是湿垃圾，那个是干垃圾，电池放这个红色的桶。”",
+   "py": "“zhè ge shì shī lā jī, nà ge shì gān lā jī, diàn chí fàng zhè ge hóng sè de tǒng.”",
+   "en": "\"This is wet waste, that's dry waste, and the battery goes in this red bin.\"",
+   "tr": {
+    "am": "«ይሄ እርጥብ ቆሻሻ ነው፣ ያ ደረቅ ቆሻሻ ነው፣ ባትሪው ደግሞ በዚህ ቀይ ገንዳ ውስጥ ይገባል።»",
+    "fa": "«این زباله‌ی تره، اون خشکه، و باتری می‌ره تو این سطلِ قرمز.»"
+   },
+   "start": 99.996,
+   "end": 105.66,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "湿",
+     "shī",
+     "wet; moist",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那个",
+     "nà ge",
+     "that one; that thing; that (as opposed to this)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "干",
+     "gān",
+     "dry; dried food; empty; hollow",
+     ""
+    ],
+    [
+     "垃圾",
+     "lā jī",
+     "trash; refuse; garbage",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "电池",
+     "diàn chí",
+     "battery; electric cell",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to place; to release",
+     ""
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "红色",
+     "hóng sè",
+     "red (color); revolutionary",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "桶",
+     "tǒng",
+     "bucket; (trash) can; barrel (of oil etc)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "一位阿姨奇怪地问：“你一个外国人，怎么比我们还清楚？”",
+   "py": "yī wèi ā yí qí guài de wèn: “nǐ yí gè wài guó rén, zěn me bǐ wǒ men hái qīng chu?”",
+   "en": "A woman asks, puzzled, \"You're a foreigner—how come you know better than we do?\"",
+   "tr": {
+    "am": "አንዲት ሴት ተገርመው «አንተ የውጭ ሰው ሆነህ እንዴት ከእኛ በላይ ታውቃለህ?» ብለው ጠየቁ።",
+    "fa": "یه خانم گیج می‌پرسه: «تو خارجیه؛ چطوری بهتر از ما بلدی؟»"
+   },
+   "start": 106.36,
+   "end": 112.312,
+   "tokens": [
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "阿姨",
+     "ā yí",
+     "woman of similar age to one's parents (term of address used by child)",
+     ""
+    ],
+    [
+     "奇怪",
+     "qí guài",
+     "strange; odd; to marvel",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "外国人",
+     "wài guó rén",
+     "foreigner",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "比",
+     "bǐ",
+     "(followed by a noun and adjective) more {adj.} than {noun}",
+     ""
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "还清",
+     "huán qīng",
+     "to pay back in full; to redeem a debt",
+     ""
+    ],
+    [
+     "楚",
+     "chǔ",
+     "distinct; clear; orderly",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克笑着说：“因为我的老师是刘爷爷。”",
+   "py": "Jié kè xiào zhe shuō: “yīn wèi wǒ de lǎo shī shì Liú yé ye.”",
+   "en": "Jack smiles. \"Because my teacher is Grandpa Liu.\"",
+   "tr": {
+    "am": "ጃክ እየሳቀ «ምክንያቱም መምህሬ አያት ሊዩ ናቸው» አለ።",
+    "fa": "جک لبخند می‌زنه: «چون معلمِ من پدربزرگ لیوئه.»"
+   },
+   "start": 113.012,
+   "end": 117.284,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "因为",
+     "yīn wèi",
+     "because; owing to; on account of",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "过了两天，刘爷爷的感冒好了。他下楼一看，垃圾桶旁边多了一个穿红马甲的志愿者。",
+   "py": "guò le liǎng tiān, Liú yé ye de gǎn mào hǎo le. tā xià lóu yí kàn, lā jī tǒng páng biān duō le yí gè chuān hóng mǎ jiǎ de zhì yuàn zhě.",
+   "en": "Two days later, Grandpa Liu is over his cold. When he comes downstairs, there's an extra volunteer in a red vest by the bins.",
+   "tr": {
+    "am": "ከሁለት ቀን በኋላ የአያት ሊዩ ጉንፋን ለቀቃቸው። ወደ ታች ወርደው ሲያዩ በቆሻሻ ገንዳዎቹ አጠገብ ቀይ ሰደርያ የለበሰ ሌላ በጎ ፈቃደኛ ተጨምሯል።",
+    "fa": "دو روز بعد، سرماخوردگی پدربزرگ لیو خوب می‌شه. وقتی میاد پایین، کنار سطل‌ها یه داوطلبِ اضافه با جلیقه‌ی قرمزه."
+   },
+   "start": 117.984,
+   "end": 126.792,
+   "tokens": [
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "感冒",
+     "gǎn mào",
+     "to catch cold; (common) cold",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "(of two people) close; on intimate terms; good",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "下楼",
+     "xià lóu",
+     "to go downstairs",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "垃圾桶",
+     "lā jī tǒng",
+     "rubbish bin; trash can; garbage can",
+     ""
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "穿",
+     "chuān",
+     "to bore through; to pierce; to perforate",
+     ""
+    ],
+    [
+     "红马甲",
+     "hóng mǎ jiǎ",
+     "red waistcoat; (stock market) floor trader; floor broker",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "志愿者",
+     "zhì yuàn zhě",
+     "volunteer",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 404,
+ "first": "从这个月起，杰克住的小区开始垃圾分类了。",
+ "newWords": [
+  {
+   "w": "志愿者",
+   "py": "zhìyuànzhě",
+   "en": "unpaid helper"
+  },
+  {
+   "w": "电池",
+   "py": "diànchí",
+   "en": "device that stores electrical energy"
+  },
+  {
+   "w": "硬",
+   "py": "yìng",
+   "en": "not easily bent or compressed"
+  },
+  {
+   "w": "骨头",
+   "py": "gǔtou",
+   "en": "animal body framework"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h4-05.mp3?v=1791720666"
 }

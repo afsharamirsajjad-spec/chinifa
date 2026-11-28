@@ -1,1825 +1,1841 @@
 {
-  "id": "h3-28",
-  "level": 3,
-  "no": 28,
-  "title": "坐过站了",
-  "title_py": "zuò guò zhàn le",
-  "title_en": "Past our stop",
-  "title_tr": {
-    "vi": "Đi quá trạm",
-    "pt": "Passamos do ponto",
-    "es": "Nos pasamos de parada",
-    "fr": "On a raté notre arrêt",
-    "am": "ፌርማታችንን አለፍን",
-    "fa": "رد شدن از ایستگاه مقصد"
+ "id": "h3-28",
+ "level": 3,
+ "no": 28,
+ "title": "坐过站了",
+ "title_py": "zuò guò zhàn le",
+ "title_en": "Past our stop",
+ "title_tr": {
+  "vi": "Đi quá trạm",
+  "pt": "Passamos do ponto",
+  "es": "Nos pasamos de parada",
+  "fr": "On a raté notre arrêt",
+  "am": "ፌርማታችንን አለፍን",
+  "fa": "رد شدن از ایستگاه مقصد"
+ },
+ "topic": "out",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h3-28.jpg",
+ "duration": 108.548,
+ "lines": [
+  {
+   "text": "星期天，李老师请安娜去她家吃饭。",
+   "py": "xīng qī tiān, Lǐ lǎo shī qǐng Ān nà qù tā jiā chī fàn.",
+   "en": "On Sunday, Teacher Li invites Anna to her home for dinner.",
+   "tr": {
+    "vi": "Chủ nhật, cô Lý mời Anna đến nhà ăn cơm.",
+    "pt": "No domingo, a professora Li convida Anna para comer na casa dela.",
+    "es": "El domingo, la profesora Li invita a Anna a comer a su casa.",
+    "fr": "Dimanche, la professeure Li invite Anna à dîner chez elle.",
+    "am": "እሑድ መምህርት ሊ አናን ቤቷ ምግብ ጋበዘቻት።",
+    "fa": "یکشنبه، معلم لی آنا رو دعوت می‌کنه خونه‌ش بره شام بخوره."
+   },
+   "start": 2.404,
+   "end": 6.94,
+   "tokens": [
+    [
+     "星期天",
+     "xīng qī tiān",
+     "Sunday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "请安",
+     "qǐng ān",
+     "to pay respects; to wish good health",
+     ""
+    ],
+    [
+     "娜",
+     "nà",
+     "used esp. in female names such as Anna 安娜 or Diana 黛安娜",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "out",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h3-28.jpg",
-  "duration": 108.548,
-  "lines": [
-    {
-      "text": "星期天，李老师请安娜去她家吃饭。",
-      "py": "xīng qī tiān, Lǐ lǎo shī qǐng Ān nà qù tā jiā chī fàn.",
-      "en": "On Sunday, Teacher Li invites Anna to her home for dinner.",
-      "tr": {
-        "vi": "Chủ nhật, cô Lý mời Anna đến nhà ăn cơm.",
-        "pt": "No domingo, a professora Li convida Anna para comer na casa dela.",
-        "es": "El domingo, la profesora Li invita a Anna a comer a su casa.",
-        "fr": "Dimanche, la professeure Li invite Anna à dîner chez elle.",
-        "am": "እሑድ መምህርት ሊ አናን ቤቷ ምግብ ጋበዘቻት።"
-      },
-      "start": 2.404,
-      "end": 6.94,
-      "tokens": [
-        [
-          "星期天",
-          "xīng qī tiān",
-          "Sunday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "请安",
-          "qǐng ān",
-          "to pay respects; to wish good health",
-          ""
-        ],
-        [
-          "娜",
-          "nà",
-          "used esp. in female names such as Anna 安娜 or Diana 黛安娜",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这是安娜第一次一个人坐公共汽车，她很担心坐过站。",
-      "py": "zhè shì Ān nà dì yī cì yí gè rén zuò gōng gòng qì chē, tā hěn dān xīn zuò guò zhàn.",
-      "en": "It's the first time Anna has taken a bus on her own, and she's worried about missing her stop.",
-      "tr": {
-        "vi": "Đây là lần đầu tiên Anna đi xe buýt một mình, cô ấy rất sợ đi quá bến.",
-        "pt": "É a primeira vez que Anna pega ônibus sozinha, e ela está com medo de passar do ponto.",
-        "es": "Es la primera vez que Anna toma el autobús sola, y le preocupa pasarse de parada.",
-        "fr": "C’est la première fois qu’Anna prend le bus toute seule, et elle a peur de rater son arrêt.",
-        "am": "አና ብቻዋን አውቶቡስ ስትሳፈር የመጀመሪያዋ ነው፤ ፌርማታዋን እንዳታልፍ በጣም ተጨንቃለች።"
-      },
-      "start": 7.64,
-      "end": 12.872,
-      "tokens": [
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "第一次",
-          "dì yī cì",
-          "the first time; for the first time",
-          ""
-        ],
-        [
-          "一个人",
-          "yī gè rén",
-          "by oneself (without assistance); alone (without company)",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to take a seat; to take (a bus, airplane etc); to sit",
-          ""
-        ],
-        [
-          "公共汽车",
-          "gōng gòng qì chē",
-          "bus",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "担心",
-          "dān xīn",
-          "worried; anxious; uneasy",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to take a seat; to take (a bus, airplane etc); to sit",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stop; station; to stand",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她旁边坐着一位头发白白的老奶奶。",
-      "py": "tā páng biān zuò zhe yí wèi tóu fa bái bái de lǎo nǎi nai.",
-      "en": "Beside her sits an old woman with snow-white hair.",
-      "tr": {
-        "vi": "Ngồi bên cạnh cô ấy là một bà cụ tóc bạc trắng.",
-        "pt": "Ao lado dela está sentada uma velhinha de cabelos bem brancos.",
-        "es": "A su lado va sentada una señora mayor de pelo muy blanco.",
-        "fr": "À côté d’elle est assise une vieille dame aux cheveux tout blancs.",
-        "am": "አጠገቧ ፀጉራቸው ነጭ የሆነ አንዲት አሮጊት ተቀምጠው ነበር።"
-      },
-      "start": 13.572,
-      "end": 17.364,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "头发",
-          "tóu fa",
-          "hair (on the head)",
-          ""
-        ],
-        [
-          "白白",
-          "bái bái",
-          "white; in vain; to no purpose",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "老奶奶",
-          "lǎo nǎi nai",
-          "respectful form of address for an old woman",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜问：“奶奶，您知道花园路站还有多远吗？”",
-      "py": "Ān nà wèn: “nǎi nai, nín zhī dào huā yuán lù zhàn hái yǒu duō yuǎn ma?”",
-      "en": "Anna asks, \"Excuse me, do you know how far it is to Garden Road?\"",
-      "tr": {
-        "vi": "Anna hỏi: “Bà ơi, bà có biết còn bao xa nữa thì đến bến đường Hoa Viên không ạ?”",
-        "pt": "Anna pergunta: “Com licença, a senhora sabe se ainda falta muito para o ponto da Rua do Jardim?”",
-        "es": "Anna pregunta: «Disculpe, señora, ¿sabe cuánto falta para la parada Calle del Jardín?».",
-        "fr": "Anna demande : « Madame, vous savez si l’arrêt rue des Jardins est encore loin ? »",
-        "am": "አና «አያቴ፣ የአትክልት መንገድ ፌርማታ ምን ያህል ይርቃል?» ብላ ጠየቀች።"
-      },
-      "start": 18.064,
-      "end": 23.08,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "奶奶",
-          "nǎi nai",
-          "(informal) grandma (paternal grandmother)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "知道",
-          "zhī dào",
-          "to know; to become aware of; also pr.",
-          ""
-        ],
-        [
-          "花园",
-          "huā yuán",
-          "garden (for flowers, ornamental plants etc); (landscaped) park; yard with decorative plants",
-          ""
-        ],
-        [
-          "路",
-          "lù",
-          "road; journey; route",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "station; to stand; to halt",
-          ""
-        ],
-        [
-          "还有",
-          "hái yǒu",
-          "there still remain(s); there is (or are) still; in addition",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "how (to what extent); many; much; more; a lot of",
-          ""
-        ],
-        [
-          "远",
-          "yuǎn",
-          "far; (intensifier in a comparison) by far; distant",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "奶奶笑着说：“我也在那儿下。别担心，到了我叫你。”",
-      "py": "nǎi nai xiào zhe shuō: “wǒ yě zài nà r xià. bié dān xīn, dào le wǒ jiào nǐ.”",
-      "en": "The old woman smiles. \"I'm getting off there too. Don't worry, I'll tell you when we get there.\"",
-      "tr": {
-        "vi": "Bà cười nói: “Bà cũng xuống ở đó. Đừng lo, đến nơi bà gọi cháu.”",
-        "pt": "A velhinha sorri: “Eu também desço lá. Não se preocupe, quando chegarmos eu aviso você.”",
-        "es": "La señora sonríe: «Yo también me bajo ahí. No te preocupes, te aviso cuando lleguemos».",
-        "fr": "La vieille dame dit en souriant : « Je descends là aussi. Ne t’inquiète pas, je te dirai quand on y sera. »",
-        "am": "አሮጊቷ ፈገግ ብለው «እኔም እዚያ ነው የምወርደው። አትጨነቂ፤ ስንደርስ እነግርሻለሁ» አሉ።"
-      },
-      "start": 23.78,
-      "end": 30.404,
-      "tokens": [
-        [
-          "奶奶",
-          "nǎi nai",
-          "(informal) grandma (paternal grandmother)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "在那儿",
-          "zài na r",
-          "(adverbial expression indicating that the attention of the subject of the verb is focused on what they are doing, not distracted by anything else)",
-          ""
-        ],
-        [
-          "下",
-          "xià",
-          "down; downwards; below",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "别",
-          "bié",
-          "don't ...!; to leave; to part (from)",
-          ""
-        ],
-        [
-          "担心",
-          "dān xīn",
-          "to worry; anxious; worried",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to shout; to call; to order",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "一路上，奶奶问了她很多问题：从哪儿来，学了多长时间汉语，喜欢吃什么中国菜。",
-      "py": "yī lù shàng, nǎi nai wèn le tā hěn duō wèn tí: cóng nǎ r lái, xué le duō cháng shí jiān Hàn yǔ, xǐ huan chī shén me Zhōng guó cài.",
-      "en": "All the way, the old woman asks her lots of questions: where she's from, how long she's been learning Chinese, which Chinese food she likes.",
-      "tr": {
-        "vi": "Suốt dọc đường, bà hỏi Anna rất nhiều câu: từ đâu đến, học tiếng Trung bao lâu rồi, thích ăn món Trung Quốc nào.",
-        "pt": "O caminho todo, a velhinha faz muitas perguntas: de onde ela é, há quanto tempo estuda chinês, de que comida chinesa gosta.",
-        "es": "Durante todo el camino, la señora le hace muchas preguntas: de dónde es, cuánto tiempo lleva estudiando chino, qué comida china le gusta.",
-        "fr": "Pendant tout le trajet, la vieille dame lui pose plein de questions : d’où elle vient, depuis combien de temps elle apprend le chinois, quels plats chinois elle aime.",
-        "am": "በመንገዱ ሁሉ አሮጊቷ ብዙ ጥያቄዎችን ጠየቋት፤ ከየት እንደመጣች፣ ቻይንኛ ምን ያህል ጊዜ እንደተማረች፣ የትኛውን የቻይና ምግብ እንደምትወድ።"
-      },
-      "start": 31.104,
-      "end": 39.888,
-      "tokens": [
-        [
-          "一路上",
-          "yī lù shàng",
-          "along the way; the whole way; (fig.) the whole time",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "奶奶",
-          "nǎi nai",
-          "(informal) grandma (paternal grandmother)",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "how (to what extent); many; much; more; a lot of",
-          ""
-        ],
-        [
-          "问题",
-          "wèn tí",
-          "question; problem; issue",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "哪儿",
-          "nǎ r",
-          "where?; wherever; anywhere; somewhere",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "学",
-          "xué",
-          "to learn; to study; to imitate",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "how (to what extent); many; much; more; a lot of",
-          ""
-        ],
-        [
-          "长",
-          "cháng",
-          "long; (bound form) length; (bound form) strong point; forte",
-          ""
-        ],
-        [
-          "时间",
-          "shí jiān",
-          "(concept of) time; (duration of) time; (point in) time",
-          ""
-        ],
-        [
-          "汉语",
-          "hàn yǔ",
-          "Chinese language",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "喜欢",
-          "xǐ huan",
-          "to like; to be fond of",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "中国菜",
-          "zhōng guó cài",
-          "Chinese cuisine",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "两个人聊得很高兴，可是聊着聊着，奶奶就睡着了。",
-      "py": "liǎng gè rén liáo de hěn gāo xìng, kě shì liáo zhe liáo zhe, nǎi nai jiù shuì zháo le.",
-      "en": "They chat away happily, but before long, the old woman falls asleep.",
-      "tr": {
-        "vi": "Hai người nói chuyện rất vui, nhưng nói một hồi thì bà ngủ thiếp đi.",
-        "pt": "As duas conversam animadas, mas, de tanto conversar, a velhinha acaba pegando no sono.",
-        "es": "Conversan muy contentas, pero, al rato, la señora se queda dormida.",
-        "fr": "Elles bavardent joyeusement, mais au bout d’un moment, la vieille dame s’endort.",
-        "am": "ሁለቱም በደስታ ተጨዋወቱ፤ ግን እያወሩ አሮጊቷን እንቅልፍ ወሰዳቸው።"
-      },
-      "start": 40.588,
-      "end": 46.06,
-      "tokens": [
-        [
-          "两",
-          "liǎng",
-          "tael, unit of weight equal to 50 grams (modern) or 1⁄16 of a catty 斤 (old)",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "聊",
-          "liáo",
-          "(coll.) to chat; (literary) temporarily; for a while",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "聊",
-          "liáo",
-          "(coll.) to chat; (literary) temporarily; for a while",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "聊",
-          "liáo",
-          "(coll.) to chat; (literary) temporarily; for a while",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "奶奶",
-          "nǎi nai",
-          "(informal) grandma (paternal grandmother)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "睡着",
-          "shuì zháo",
-          "to fall asleep",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜不好意思叫醒她，只好一直等着。",
-      "py": "Ān nà bù hǎo yì sī jiào xǐng tā, zhǐ hǎo yì zhí děng zhe.",
-      "en": "Anna doesn't like to wake her, so she just keeps waiting.",
-      "tr": {
-        "vi": "Anna ngại đánh thức bà, đành ngồi chờ mãi.",
-        "pt": "Anna fica sem graça de acordá-la e continua esperando.",
-        "es": "A Anna le da pena despertarla, así que sigue esperando.",
-        "fr": "Anna n’ose pas la réveiller, alors elle attend.",
-        "am": "አና ልትቀሰቅሳቸው አፈረች፤ ስለዚህ መጠበቁን ቀጠለች።"
-      },
-      "start": 46.76,
-      "end": 51.032,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "不好意思",
-          "bù hǎo yì si",
-          "to feel embarrassed; to find it embarrassing",
-          ""
-        ],
-        [
-          "叫醒",
-          "jiào xǐng",
-          "to awaken; to wake sb up; to rouse",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只好",
-          "zhǐ hǎo",
-          "to have no other option but to ...; to have to; to be forced to",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "过了很久，车上的人越来越少，司机说：“最后一站到了！”",
-      "py": "guò le hěn jiǔ, chē shàng de rén yuè lái yuè shǎo, sī jī shuō: “zuì hòu yí zhàn dào le!”",
-      "en": "A long time later, with fewer and fewer people on the bus, the driver calls out, \"Last stop!\"",
-      "tr": {
-        "vi": "Rất lâu sau, người trên xe càng lúc càng ít, bác tài nói: “Đến bến cuối rồi!”",
-        "pt": "Muito tempo depois, com cada vez menos gente no ônibus, o motorista anuncia: “Ponto final!”",
-        "es": "Mucho tiempo después, cuando ya casi no queda gente en el autobús, el conductor dice: «¡Última parada!».",
-        "fr": "Longtemps après, il y a de moins en moins de monde dans le bus, et le chauffeur annonce : « Terminus ! »",
-        "am": "ብዙ ጊዜ አለፈ፤ አውቶቡሱ ውስጥ ያለው ሰው እየቀነሰ ሄደ፤ ሹፌሩ «የመጨረሻው ፌርማታ ደረስን!» አለ።"
-      },
-      "start": 51.732,
-      "end": 59.076,
-      "tokens": [
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "久",
-          "jiǔ",
-          "(of a period of time) long",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "车",
-          "chē",
-          "car; vehicle; machine",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "越来越",
-          "yuè lái yuè",
-          "more and more",
-          ""
-        ],
-        [
-          "少",
-          "shǎo",
-          "to stop (doing sth); few; less",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "司机",
-          "sī jī",
-          "chauffeur; driver",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "最后",
-          "zuì hòu",
-          "final; last; ultimate; finally; in the end",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stop; station; to stand",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "奶奶醒了，往窗外一看：“哎呀，我们坐过站了！”",
-      "py": "nǎi nai xǐng le, wǎng chuāng wài yí kàn: “āi yā, wǒ men zuò guò zhàn le!”",
-      "en": "The old woman wakes up and looks out of the window. \"Oh dear, we've missed our stop!\"",
-      "tr": {
-        "vi": "Bà tỉnh dậy, nhìn ra ngoài cửa sổ: “Ôi chao, chúng ta đi quá bến rồi!”",
-        "pt": "A velhinha acorda e olha pela janela: “Ai, meu Deus, passamos do ponto!”",
-        "es": "La señora se despierta y mira por la ventana: «¡Ay, nos pasamos de parada!».",
-        "fr": "La vieille dame se réveille et regarde par la fenêtre : « Oh là là, on a raté notre arrêt ! »",
-        "am": "አሮጊቷ ነቅተው በመስኮት አዩ። «ወይኔ፣ ፌርማታችንን አለፍን!»"
-      },
-      "start": 59.776,
-      "end": 65.464,
-      "tokens": [
-        [
-          "奶奶",
-          "nǎi nai",
-          "(informal) grandma (paternal grandmother)",
-          ""
-        ],
-        [
-          "醒",
-          "xǐng",
-          "to wake up; to be awake; to become aware",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "往",
-          "wǎng",
-          "to go (in a direction); to; towards",
-          ""
-        ],
-        [
-          "窗",
-          "chuāng",
-          "window",
-          ""
-        ],
-        [
-          "外",
-          "wài",
-          "outside; in addition; foreign",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to watch out for",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "哎呀",
-          "āi yā",
-          "interjection of wonder, shock or admiration",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stop; station; to stand",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "两个人只好下车，在路边等车坐回去。",
-      "py": "liǎng gè rén zhǐ hǎo xià chē, zài lù biān děng chē zuò huí qù.",
-      "en": "They have no choice but to get off and wait by the road for a bus back.",
-      "tr": {
-        "vi": "Hai người đành xuống xe, đứng bên đường đợi xe đi ngược về.",
-        "pt": "Sem outro jeito, as duas descem e esperam na beira da rua um ônibus de volta.",
-        "es": "No les queda más remedio que bajarse y esperar a un lado de la calle un autobús de regreso.",
-        "fr": "Elles n’ont pas d’autre choix que de descendre et d’attendre au bord de la route un bus pour revenir.",
-        "am": "ሁለቱም ወርደው የመመለሻ አውቶቡስ መንገድ ዳር ጠበቁ።"
-      },
-      "start": 66.164,
-      "end": 70.412,
-      "tokens": [
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个人",
-          "gè rén",
-          "an individual; oneself; (attributive) personal; one's own",
-          ""
-        ],
-        [
-          "只好",
-          "zhǐ hǎo",
-          "to have no other option but to ...; to have to; to be forced to",
-          ""
-        ],
-        [
-          "下车",
-          "xià chē",
-          "to get off or out of (a bus, train, car etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "路边",
-          "lù biān",
-          "curb; roadside; wayside",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "车",
-          "chē",
-          "car; vehicle; machine",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to take (a bus, airplane etc); to sit; to take a seat",
-          ""
-        ],
-        [
-          "回去",
-          "huí qu",
-          "to go back; to return",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这时候，安娜的手机响了。是李老师：“安娜，你到哪儿了？我妈妈也还没到，我有点儿担心。”",
-      "py": "zhè shí hou, Ān nà de shǒu jī xiǎng le. shì Lǐ lǎo shī: “Ān nà, nǐ dào nǎ r le? wǒ mā ma yě hái méi dào, wǒ yǒu diǎn r dān xīn.”",
-      "en": "Just then, Anna's phone rings. It's Teacher Li: \"Anna, where are you? My mum hasn't arrived yet either, and I'm a bit worried.\"",
-      "tr": {
-        "vi": "Đúng lúc đó, điện thoại của Anna đổ chuông. Là cô Lý: “Anna, em đến đâu rồi? Mẹ cô cũng chưa đến, cô hơi lo.”",
-        "pt": "Nesse momento, o celular de Anna toca. É a professora Li: “Anna, onde você está? Minha mãe também ainda não chegou, estou um pouco preocupada.”",
-        "es": "En ese momento suena el celular de Anna. Es la profesora Li: «Anna, ¿dónde estás? Mi mamá tampoco ha llegado y estoy un poco preocupada».",
-        "fr": "À ce moment-là, le téléphone d’Anna sonne. C’est la professeure Li : « Anna, tu es où ? Ma mère n’est pas encore arrivée non plus, je suis un peu inquiète. »",
-        "am": "በዚያን ጊዜ የአና ስልክ ጮኸ። መምህርት ሊ ነበረች። «አና፣ የት ደረስሽ? እናቴም ገና አልደረሰችም፤ ትንሽ ተጨንቄያለሁ።»"
-      },
-      "start": 71.112,
-      "end": 80.64,
-      "tokens": [
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "候",
-          "hòu",
-          "to wait; to inquire after; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "响",
-          "xiǎng",
-          "to ring; echo; sound",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "哪儿",
-          "nǎ r",
-          "where?; wherever; anywhere; somewhere",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "yet; still; still in progress",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "有点儿",
-          "yǒu diǎn r",
-          "slightly; a little; somewhat",
-          ""
-        ],
-        [
-          "担心",
-          "dān xīn",
-          "worried; anxious; uneasy",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "奶奶听见了，问：“你的老师姓李？她家是不是在花园路？”",
-      "py": "nǎi nai tīng jiàn le, wèn: “nǐ de lǎo shī xìng lǐ? tā jiā shì bú shì zài huā yuán lù?”",
-      "en": "The old woman hears this and asks, \"Your teacher's name is Li? Does she live on Garden Road?\"",
-      "tr": {
-        "vi": "Bà nghe thấy, hỏi: “Cô giáo của cháu họ Lý à? Nhà cô ấy có phải ở đường Hoa Viên không?”",
-        "pt": "A velhinha ouve e pergunta: “Sua professora se chama Li? Ela mora na Rua do Jardim?”",
-        "es": "La señora lo oye y pregunta: «¿Tu profesora se apellida Li? ¿Vive en la Calle del Jardín?».",
-        "fr": "La vieille dame entend et demande : « Ta professeure s’appelle Li ? Elle habite rue des Jardins ? »",
-        "am": "አሮጊቷ ሰምተው «መምህርትሽ ሊ ናት? ቤቷ የአትክልት መንገድ ላይ ነው?» ብለው ጠየቁ።"
-      },
-      "start": 81.34,
-      "end": 88.708,
-      "tokens": [
-        [
-          "奶奶",
-          "nǎi nai",
-          "(informal) grandma (paternal grandmother)",
-          ""
-        ],
-        [
-          "听见",
-          "tīng jiàn",
-          "to hear",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "姓",
-          "xìng",
-          "family name; surname; to be surnamed ...",
-          ""
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "home; family; (polite) my (sister, uncle etc)",
-          ""
-        ],
-        [
-          "是不是",
-          "shì bu shì",
-          "is or is not (used to form yes-no questions)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "花园",
-          "huā yuán",
-          "garden (for flowers, ornamental plants etc); (landscaped) park; yard with decorative plants",
-          ""
-        ],
-        [
-          "路",
-          "lù",
-          "road; journey; route",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "安娜点点头，奶奶拿过手机就说：“别着急，是妈妈！我跟你的学生在一起呢！”",
-      "py": "Ān nà diǎn diǎn tóu, nǎi nai ná guò shǒu jī jiù shuō: “bié zháo jí, shì mā ma! wǒ gēn nǐ de xué sheng zài yì qǐ ne!”",
-      "en": "Anna nods, and the old woman takes the phone and says, \"Don't worry, it's Mum! I'm with your student!\"",
-      "tr": {
-        "vi": "Anna gật đầu, bà cầm lấy điện thoại nói luôn: “Đừng sốt ruột, mẹ đây! Mẹ đang ở cùng học trò của con này!”",
-        "pt": "Anna faz que sim, e a velhinha pega o celular e diz: “Calma, é a mamãe! Estou aqui com a sua aluna!”",
-        "es": "Anna asiente, y la señora toma el celular y dice: «¡No te preocupes, soy mamá! ¡Estoy con tu alumna!».",
-        "fr": "Anna hoche la tête, et la vieille dame prend le téléphone et dit : « Ne t’en fais pas, c’est maman ! Je suis avec ton élève ! »",
-        "am": "አና ራሷን ነቀነቀች፤ አሮጊቷ ስልኩን ተቀብለው «አትጨነቂ፤ እናትሽ ነኝ! ከተማሪሽ ጋር ነኝ!» አሉ።"
-      },
-      "start": 89.408,
-      "end": 97.928,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "点点",
-          "diǎn diǎn",
-          "point; speck",
-          ""
-        ],
-        [
-          "头",
-          "tóu",
-          "head; hair style; the top",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "奶奶",
-          "nǎi nai",
-          "(informal) grandma (paternal grandmother)",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to take; to hold; to seize",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "别",
-          "bié",
-          "don't ...!; to leave; to part (from)",
-          ""
-        ],
-        [
-          "着急",
-          "zháo jí",
-          "to worry; to feel anxious",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "(of a woman) to marry sb; heel; to follow closely",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "学生",
-          "xué sheng",
-          "student; schoolchild",
-          ""
-        ],
-        [
-          "在一起",
-          "zài yī qǐ",
-          "together",
-          ""
-        ],
-        [
-          "呢",
-          "ne",
-          "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "那天，她们晚到了一个小时。",
-      "py": "nà tiān, tā men wǎn dào le yí gè xiǎo shí.",
-      "en": "That day, they arrive an hour late.",
-      "tr": {
-        "vi": "Hôm đó, họ đến muộn một tiếng.",
-        "pt": "Naquele dia, elas chegam uma hora atrasadas.",
-        "es": "Ese día llegan una hora tarde.",
-        "fr": "Ce jour-là, elles arrivent avec une heure de retard.",
-        "am": "በዚያ ቀን አንድ ሰዓት ዘግይተው ደረሱ።"
-      },
-      "start": 98.628,
-      "end": 101.94,
-      "tokens": [
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她们",
-          "tā men",
-          "they; them (females)",
-          ""
-        ],
-        [
-          "晚",
-          "wǎn",
-          "late; evening; night",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李老师笑着说：“下次，我去车站接你们两个！”",
-      "py": "Lǐ lǎo shī xiào zhe shuō: “xià cì, wǒ qù chē zhàn jiē nǐ men liǎng gè!”",
-      "en": "Teacher Li laughs. \"Next time, I'll meet the two of you at the bus stop!\"",
-      "tr": {
-        "vi": "Cô Lý cười nói: “Lần sau, cô ra bến xe đón cả hai người!”",
-        "pt": "A professora Li ri: “Da próxima vez, eu vou buscar vocês duas no ponto!”",
-        "es": "La profesora Li dice riendo: «¡La próxima vez voy a buscarlas a las dos a la parada!».",
-        "fr": "La professeure Li dit en riant : « La prochaine fois, je viendrai vous chercher toutes les deux à l’arrêt ! »",
-        "am": "መምህርት ሊ እየሳቀች «በሚቀጥለው ጊዜ ሁለታችሁንም ፌርማታ ድረስ መጥቼ እቀበላችኋለሁ!» አለች።"
-      },
-      "start": 102.64,
-      "end": 107.848,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "下次",
-          "xià cì",
-          "next time",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(of a time etc) last; to be apart from in space or time",
-          ""
-        ],
-        [
-          "车站",
-          "chē zhàn",
-          "bus stop; rail station",
-          ""
-        ],
-        [
-          "接",
-          "jiē",
-          "to meet or welcome sb; to receive; to answer (the phone)",
-          ""
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 319,
-  "first": "星期天，李老师请安娜去她家吃饭。",
-  "newWords": [
-    {
-      "w": "坐过站",
-      "py": "zuò guò zhàn",
-      "en": "to miss your stop"
-    },
-    {
-      "w": "睡着",
-      "py": "shuìzháo",
-      "en": "to fall asleep"
-    },
-    {
-      "w": "醒",
-      "py": "xǐng",
-      "en": "to wake up"
-    },
-    {
-      "w": "聊",
-      "py": "liáo",
-      "en": "(coll.) to chat"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-28.mp3?v=1791720795"
+  {
+   "text": "这是安娜第一次一个人坐公共汽车，她很担心坐过站。",
+   "py": "zhè shì Ān nà dì yī cì yí gè rén zuò gōng gòng qì chē, tā hěn dān xīn zuò guò zhàn.",
+   "en": "It's the first time Anna has taken a bus on her own, and she's worried about missing her stop.",
+   "tr": {
+    "vi": "Đây là lần đầu tiên Anna đi xe buýt một mình, cô ấy rất sợ đi quá bến.",
+    "pt": "É a primeira vez que Anna pega ônibus sozinha, e ela está com medo de passar do ponto.",
+    "es": "Es la primera vez que Anna toma el autobús sola, y le preocupa pasarse de parada.",
+    "fr": "C’est la première fois qu’Anna prend le bus toute seule, et elle a peur de rater son arrêt.",
+    "am": "አና ብቻዋን አውቶቡስ ስትሳፈር የመጀመሪያዋ ነው፤ ፌርማታዋን እንዳታልፍ በጣም ተጨንቃለች።",
+    "fa": "اولین باره آنا تنهایی اتوبوس می‌گیره و نگرانه که ایستاده‌شو از دست بده."
+   },
+   "start": 7.64,
+   "end": 12.872,
+   "tokens": [
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "第一次",
+     "dì yī cì",
+     "the first time; for the first time",
+     ""
+    ],
+    [
+     "一个人",
+     "yī gè rén",
+     "by oneself (without assistance); alone (without company)",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to take a seat; to take (a bus, airplane etc); to sit",
+     ""
+    ],
+    [
+     "公共汽车",
+     "gōng gòng qì chē",
+     "bus",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "担心",
+     "dān xīn",
+     "worried; anxious; uneasy",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to take a seat; to take (a bus, airplane etc); to sit",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stop; station; to stand",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "她旁边坐着一位头发白白的老奶奶。",
+   "py": "tā páng biān zuò zhe yí wèi tóu fa bái bái de lǎo nǎi nai.",
+   "en": "Beside her sits an old woman with snow-white hair.",
+   "tr": {
+    "vi": "Ngồi bên cạnh cô ấy là một bà cụ tóc bạc trắng.",
+    "pt": "Ao lado dela está sentada uma velhinha de cabelos bem brancos.",
+    "es": "A su lado va sentada una señora mayor de pelo muy blanco.",
+    "fr": "À côté d’elle est assise une vieille dame aux cheveux tout blancs.",
+    "am": "አጠገቧ ፀጉራቸው ነጭ የሆነ አንዲት አሮጊት ተቀምጠው ነበር።",
+    "fa": "کنارش یه پیرزن با موهای سفیدِ برفی نشسته."
+   },
+   "start": 13.572,
+   "end": 17.364,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "头发",
+     "tóu fa",
+     "hair (on the head)",
+     ""
+    ],
+    [
+     "白白",
+     "bái bái",
+     "white; in vain; to no purpose",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "老奶奶",
+     "lǎo nǎi nai",
+     "respectful form of address for an old woman",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜问：“奶奶，您知道花园路站还有多远吗？”",
+   "py": "Ān nà wèn: “nǎi nai, nín zhī dào huā yuán lù zhàn hái yǒu duō yuǎn ma?”",
+   "en": "Anna asks, \"Excuse me, do you know how far it is to Garden Road?\"",
+   "tr": {
+    "vi": "Anna hỏi: “Bà ơi, bà có biết còn bao xa nữa thì đến bến đường Hoa Viên không ạ?”",
+    "pt": "Anna pergunta: “Com licença, a senhora sabe se ainda falta muito para o ponto da Rua do Jardim?”",
+    "es": "Anna pregunta: «Disculpe, señora, ¿sabe cuánto falta para la parada Calle del Jardín?».",
+    "fr": "Anna demande : « Madame, vous savez si l’arrêt rue des Jardins est encore loin ? »",
+    "am": "አና «አያቴ፣ የአትክልት መንገድ ፌርማታ ምን ያህል ይርቃል?» ብላ ጠየቀች።",
+    "fa": "آنا می‌پرسه: «ببخشید، تا خیابانِ باغ چقدر راه مونده؟»"
+   },
+   "start": 18.064,
+   "end": 23.08,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "奶奶",
+     "nǎi nai",
+     "(informal) grandma (paternal grandmother)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "知道",
+     "zhī dào",
+     "to know; to become aware of; also pr.",
+     ""
+    ],
+    [
+     "花园",
+     "huā yuán",
+     "garden (for flowers, ornamental plants etc); (landscaped) park; yard with decorative plants",
+     ""
+    ],
+    [
+     "路",
+     "lù",
+     "road; journey; route",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "station; to stand; to halt",
+     ""
+    ],
+    [
+     "还有",
+     "hái yǒu",
+     "there still remain(s); there is (or are) still; in addition",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "how (to what extent); many; much; more; a lot of",
+     ""
+    ],
+    [
+     "远",
+     "yuǎn",
+     "far; (intensifier in a comparison) by far; distant",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "奶奶笑着说：“我也在那儿下。别担心，到了我叫你。”",
+   "py": "nǎi nai xiào zhe shuō: “wǒ yě zài nà r xià. bié dān xīn, dào le wǒ jiào nǐ.”",
+   "en": "The old woman smiles. \"I'm getting off there too. Don't worry, I'll tell you when we get there.\"",
+   "tr": {
+    "vi": "Bà cười nói: “Bà cũng xuống ở đó. Đừng lo, đến nơi bà gọi cháu.”",
+    "pt": "A velhinha sorri: “Eu também desço lá. Não se preocupe, quando chegarmos eu aviso você.”",
+    "es": "La señora sonríe: «Yo también me bajo ahí. No te preocupes, te aviso cuando lleguemos».",
+    "fr": "La vieille dame dit en souriant : « Je descends là aussi. Ne t’inquiète pas, je te dirai quand on y sera. »",
+    "am": "አሮጊቷ ፈገግ ብለው «እኔም እዚያ ነው የምወርደው። አትጨነቂ፤ ስንደርስ እነግርሻለሁ» አሉ።",
+    "fa": "پیرزن لبخند می‌زنه: «منم اونجا پیاده می‌شم. نگران نباش، خودم بهت می‌گم کی رسیدیم.»"
+   },
+   "start": 23.78,
+   "end": 30.404,
+   "tokens": [
+    [
+     "奶奶",
+     "nǎi nai",
+     "(informal) grandma (paternal grandmother)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "在那儿",
+     "zài na r",
+     "(adverbial expression indicating that the attention of the subject of the verb is focused on what they are doing, not distracted by anything else)",
+     ""
+    ],
+    [
+     "下",
+     "xià",
+     "down; downwards; below",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "别",
+     "bié",
+     "don't ...!; to leave; to part (from)",
+     ""
+    ],
+    [
+     "担心",
+     "dān xīn",
+     "to worry; anxious; worried",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to shout; to call; to order",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "一路上，奶奶问了她很多问题：从哪儿来，学了多长时间汉语，喜欢吃什么中国菜。",
+   "py": "yī lù shàng, nǎi nai wèn le tā hěn duō wèn tí: cóng nǎ r lái, xué le duō cháng shí jiān Hàn yǔ, xǐ huan chī shén me Zhōng guó cài.",
+   "en": "All the way, the old woman asks her lots of questions: where she's from, how long she's been learning Chinese, which Chinese food she likes.",
+   "tr": {
+    "vi": "Suốt dọc đường, bà hỏi Anna rất nhiều câu: từ đâu đến, học tiếng Trung bao lâu rồi, thích ăn món Trung Quốc nào.",
+    "pt": "O caminho todo, a velhinha faz muitas perguntas: de onde ela é, há quanto tempo estuda chinês, de que comida chinesa gosta.",
+    "es": "Durante todo el camino, la señora le hace muchas preguntas: de dónde es, cuánto tiempo lleva estudiando chino, qué comida china le gusta.",
+    "fr": "Pendant tout le trajet, la vieille dame lui pose plein de questions : d’où elle vient, depuis combien de temps elle apprend le chinois, quels plats chinois elle aime.",
+    "am": "በመንገዱ ሁሉ አሮጊቷ ብዙ ጥያቄዎችን ጠየቋት፤ ከየት እንደመጣች፣ ቻይንኛ ምን ያህል ጊዜ እንደተማረች፣ የትኛውን የቻይና ምግብ እንደምትወድ።",
+    "fa": "تمام مسیر، پیرزن ازش کلی سؤال می‌پرسه: از کجایی، چقدره چینی یاد می‌گیری، چه غذای چینی دوست داری."
+   },
+   "start": 31.104,
+   "end": 39.888,
+   "tokens": [
+    [
+     "一路上",
+     "yī lù shàng",
+     "along the way; the whole way; (fig.) the whole time",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "奶奶",
+     "nǎi nai",
+     "(informal) grandma (paternal grandmother)",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "how (to what extent); many; much; more; a lot of",
+     ""
+    ],
+    [
+     "问题",
+     "wèn tí",
+     "question; problem; issue",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "哪儿",
+     "nǎ r",
+     "where?; wherever; anywhere; somewhere",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "学",
+     "xué",
+     "to learn; to study; to imitate",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "how (to what extent); many; much; more; a lot of",
+     ""
+    ],
+    [
+     "长",
+     "cháng",
+     "long; (bound form) length; (bound form) strong point; forte",
+     ""
+    ],
+    [
+     "时间",
+     "shí jiān",
+     "(concept of) time; (duration of) time; (point in) time",
+     ""
+    ],
+    [
+     "汉语",
+     "hàn yǔ",
+     "Chinese language",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "喜欢",
+     "xǐ huan",
+     "to like; to be fond of",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "中国菜",
+     "zhōng guó cài",
+     "Chinese cuisine",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "两个人聊得很高兴，可是聊着聊着，奶奶就睡着了。",
+   "py": "liǎng gè rén liáo de hěn gāo xìng, kě shì liáo zhe liáo zhe, nǎi nai jiù shuì zháo le.",
+   "en": "They chat away happily, but before long, the old woman falls asleep.",
+   "tr": {
+    "vi": "Hai người nói chuyện rất vui, nhưng nói một hồi thì bà ngủ thiếp đi.",
+    "pt": "As duas conversam animadas, mas, de tanto conversar, a velhinha acaba pegando no sono.",
+    "es": "Conversan muy contentas, pero, al rato, la señora se queda dormida.",
+    "fr": "Elles bavardent joyeusement, mais au bout d’un moment, la vieille dame s’endort.",
+    "am": "ሁለቱም በደስታ ተጨዋወቱ፤ ግን እያወሩ አሮጊቷን እንቅልፍ ወሰዳቸው።",
+    "fa": "با خوشی گپ می‌زنن، ولی طولی نمی‌کشه که پیرزن خوابش می‌بره."
+   },
+   "start": 40.588,
+   "end": 46.06,
+   "tokens": [
+    [
+     "两",
+     "liǎng",
+     "tael, unit of weight equal to 50 grams (modern) or 1⁄16 of a catty 斤 (old)",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "聊",
+     "liáo",
+     "(coll.) to chat; (literary) temporarily; for a while",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "聊",
+     "liáo",
+     "(coll.) to chat; (literary) temporarily; for a while",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "聊",
+     "liáo",
+     "(coll.) to chat; (literary) temporarily; for a while",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "奶奶",
+     "nǎi nai",
+     "(informal) grandma (paternal grandmother)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "睡着",
+     "shuì zháo",
+     "to fall asleep",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜不好意思叫醒她，只好一直等着。",
+   "py": "Ān nà bù hǎo yì sī jiào xǐng tā, zhǐ hǎo yì zhí děng zhe.",
+   "en": "Anna doesn't like to wake her, so she just keeps waiting.",
+   "tr": {
+    "vi": "Anna ngại đánh thức bà, đành ngồi chờ mãi.",
+    "pt": "Anna fica sem graça de acordá-la e continua esperando.",
+    "es": "A Anna le da pena despertarla, así que sigue esperando.",
+    "fr": "Anna n’ose pas la réveiller, alors elle attend.",
+    "am": "አና ልትቀሰቅሳቸው አፈረች፤ ስለዚህ መጠበቁን ቀጠለች።",
+    "fa": "آنا دوست نداره بیدارش کنه، پس فقط همچنان صبر می‌کنه."
+   },
+   "start": 46.76,
+   "end": 51.032,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "不好意思",
+     "bù hǎo yì si",
+     "to feel embarrassed; to find it embarrassing",
+     ""
+    ],
+    [
+     "叫醒",
+     "jiào xǐng",
+     "to awaken; to wake sb up; to rouse",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只好",
+     "zhǐ hǎo",
+     "to have no other option but to ...; to have to; to be forced to",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "过了很久，车上的人越来越少，司机说：“最后一站到了！”",
+   "py": "guò le hěn jiǔ, chē shàng de rén yuè lái yuè shǎo, sī jī shuō: “zuì hòu yí zhàn dào le!”",
+   "en": "A long time later, with fewer and fewer people on the bus, the driver calls out, \"Last stop!\"",
+   "tr": {
+    "vi": "Rất lâu sau, người trên xe càng lúc càng ít, bác tài nói: “Đến bến cuối rồi!”",
+    "pt": "Muito tempo depois, com cada vez menos gente no ônibus, o motorista anuncia: “Ponto final!”",
+    "es": "Mucho tiempo después, cuando ya casi no queda gente en el autobús, el conductor dice: «¡Última parada!».",
+    "fr": "Longtemps après, il y a de moins en moins de monde dans le bus, et le chauffeur annonce : « Terminus ! »",
+    "am": "ብዙ ጊዜ አለፈ፤ አውቶቡሱ ውስጥ ያለው ሰው እየቀነሰ ሄደ፤ ሹፌሩ «የመጨረሻው ፌርማታ ደረስን!» አለ።",
+    "fa": "مدت‌ها بعد، آدم‌های اتوبوس کم‌کم کم شدن و راننده صدا می‌زنه: «ایستگاه آخر!»"
+   },
+   "start": 51.732,
+   "end": 59.076,
+   "tokens": [
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "久",
+     "jiǔ",
+     "(of a period of time) long",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "车",
+     "chē",
+     "car; vehicle; machine",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "越来越",
+     "yuè lái yuè",
+     "more and more",
+     ""
+    ],
+    [
+     "少",
+     "shǎo",
+     "to stop (doing sth); few; less",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "司机",
+     "sī jī",
+     "chauffeur; driver",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "最后",
+     "zuì hòu",
+     "final; last; ultimate; finally; in the end",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stop; station; to stand",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "奶奶醒了，往窗外一看：“哎呀，我们坐过站了！”",
+   "py": "nǎi nai xǐng le, wǎng chuāng wài yí kàn: “āi yā, wǒ men zuò guò zhàn le!”",
+   "en": "The old woman wakes up and looks out of the window. \"Oh dear, we've missed our stop!\"",
+   "tr": {
+    "vi": "Bà tỉnh dậy, nhìn ra ngoài cửa sổ: “Ôi chao, chúng ta đi quá bến rồi!”",
+    "pt": "A velhinha acorda e olha pela janela: “Ai, meu Deus, passamos do ponto!”",
+    "es": "La señora se despierta y mira por la ventana: «¡Ay, nos pasamos de parada!».",
+    "fr": "La vieille dame se réveille et regarde par la fenêtre : « Oh là là, on a raté notre arrêt ! »",
+    "am": "አሮጊቷ ነቅተው በመስኮት አዩ። «ወይኔ፣ ፌርማታችንን አለፍን!»",
+    "fa": "پیرزن بیدار می‌شه و از پشت پنجره نگاه می‌کنه: «وای، ایستاده‌مونو از دست دادیم!»"
+   },
+   "start": 59.776,
+   "end": 65.464,
+   "tokens": [
+    [
+     "奶奶",
+     "nǎi nai",
+     "(informal) grandma (paternal grandmother)",
+     ""
+    ],
+    [
+     "醒",
+     "xǐng",
+     "to wake up; to be awake; to become aware",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "往",
+     "wǎng",
+     "to go (in a direction); to; towards",
+     ""
+    ],
+    [
+     "窗",
+     "chuāng",
+     "window",
+     ""
+    ],
+    [
+     "外",
+     "wài",
+     "outside; in addition; foreign",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to watch out for",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "哎呀",
+     "āi yā",
+     "interjection of wonder, shock or admiration",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stop; station; to stand",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "两个人只好下车，在路边等车坐回去。",
+   "py": "liǎng gè rén zhǐ hǎo xià chē, zài lù biān děng chē zuò huí qù.",
+   "en": "They have no choice but to get off and wait by the road for a bus back.",
+   "tr": {
+    "vi": "Hai người đành xuống xe, đứng bên đường đợi xe đi ngược về.",
+    "pt": "Sem outro jeito, as duas descem e esperam na beira da rua um ônibus de volta.",
+    "es": "No les queda más remedio que bajarse y esperar a un lado de la calle un autobús de regreso.",
+    "fr": "Elles n’ont pas d’autre choix que de descendre et d’attendre au bord de la route un bus pour revenir.",
+    "am": "ሁለቱም ወርደው የመመለሻ አውቶቡስ መንገድ ዳር ጠበቁ።",
+    "fa": "چاره‌ای ندارن جز اینکه پیاده شن و کنار جاده منتظر یه اتوبوسِ برگشتی بمونن."
+   },
+   "start": 66.164,
+   "end": 70.412,
+   "tokens": [
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个人",
+     "gè rén",
+     "an individual; oneself; (attributive) personal; one's own",
+     ""
+    ],
+    [
+     "只好",
+     "zhǐ hǎo",
+     "to have no other option but to ...; to have to; to be forced to",
+     ""
+    ],
+    [
+     "下车",
+     "xià chē",
+     "to get off or out of (a bus, train, car etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "路边",
+     "lù biān",
+     "curb; roadside; wayside",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "车",
+     "chē",
+     "car; vehicle; machine",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to take (a bus, airplane etc); to sit; to take a seat",
+     ""
+    ],
+    [
+     "回去",
+     "huí qu",
+     "to go back; to return",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这时候，安娜的手机响了。是李老师：“安娜，你到哪儿了？我妈妈也还没到，我有点儿担心。”",
+   "py": "zhè shí hou, Ān nà de shǒu jī xiǎng le. shì Lǐ lǎo shī: “Ān nà, nǐ dào nǎ r le? wǒ mā ma yě hái méi dào, wǒ yǒu diǎn r dān xīn.”",
+   "en": "Just then, Anna's phone rings. It's Teacher Li: \"Anna, where are you? My mum hasn't arrived yet either, and I'm a bit worried.\"",
+   "tr": {
+    "vi": "Đúng lúc đó, điện thoại của Anna đổ chuông. Là cô Lý: “Anna, em đến đâu rồi? Mẹ cô cũng chưa đến, cô hơi lo.”",
+    "pt": "Nesse momento, o celular de Anna toca. É a professora Li: “Anna, onde você está? Minha mãe também ainda não chegou, estou um pouco preocupada.”",
+    "es": "En ese momento suena el celular de Anna. Es la profesora Li: «Anna, ¿dónde estás? Mi mamá tampoco ha llegado y estoy un poco preocupada».",
+    "fr": "À ce moment-là, le téléphone d’Anna sonne. C’est la professeure Li : « Anna, tu es où ? Ma mère n’est pas encore arrivée non plus, je suis un peu inquiète. »",
+    "am": "በዚያን ጊዜ የአና ስልክ ጮኸ። መምህርት ሊ ነበረች። «አና፣ የት ደረስሽ? እናቴም ገና አልደረሰችም፤ ትንሽ ተጨንቄያለሁ።»",
+    "fa": "همین موقع گوشی آنا زنگ می‌خوره. معلم لی‌ئه: «آنا، کجایی؟ مامانم هم هنوز نرسیده و من یه کم نگرانم.»"
+   },
+   "start": 71.112,
+   "end": 80.64,
+   "tokens": [
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "候",
+     "hòu",
+     "to wait; to inquire after; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "响",
+     "xiǎng",
+     "to ring; echo; sound",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "哪儿",
+     "nǎ r",
+     "where?; wherever; anywhere; somewhere",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "yet; still; still in progress",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "有点儿",
+     "yǒu diǎn r",
+     "slightly; a little; somewhat",
+     ""
+    ],
+    [
+     "担心",
+     "dān xīn",
+     "worried; anxious; uneasy",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "奶奶听见了，问：“你的老师姓李？她家是不是在花园路？”",
+   "py": "nǎi nai tīng jiàn le, wèn: “nǐ de lǎo shī xìng lǐ? tā jiā shì bú shì zài huā yuán lù?”",
+   "en": "The old woman hears this and asks, \"Your teacher's name is Li? Does she live on Garden Road?\"",
+   "tr": {
+    "vi": "Bà nghe thấy, hỏi: “Cô giáo của cháu họ Lý à? Nhà cô ấy có phải ở đường Hoa Viên không?”",
+    "pt": "A velhinha ouve e pergunta: “Sua professora se chama Li? Ela mora na Rua do Jardim?”",
+    "es": "La señora lo oye y pregunta: «¿Tu profesora se apellida Li? ¿Vive en la Calle del Jardín?».",
+    "fr": "La vieille dame entend et demande : « Ta professeure s’appelle Li ? Elle habite rue des Jardins ? »",
+    "am": "አሮጊቷ ሰምተው «መምህርትሽ ሊ ናት? ቤቷ የአትክልት መንገድ ላይ ነው?» ብለው ጠየቁ።",
+    "fa": "پیرزن اینو می‌شنوه و می‌پرسه: «اسم معلمت لی‌ئه؟ تو خیابان باغ زندگی می‌کنه؟»"
+   },
+   "start": 81.34,
+   "end": 88.708,
+   "tokens": [
+    [
+     "奶奶",
+     "nǎi nai",
+     "(informal) grandma (paternal grandmother)",
+     ""
+    ],
+    [
+     "听见",
+     "tīng jiàn",
+     "to hear",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "姓",
+     "xìng",
+     "family name; surname; to be surnamed ...",
+     ""
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "home; family; (polite) my (sister, uncle etc)",
+     ""
+    ],
+    [
+     "是不是",
+     "shì bu shì",
+     "is or is not (used to form yes-no questions)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "花园",
+     "huā yuán",
+     "garden (for flowers, ornamental plants etc); (landscaped) park; yard with decorative plants",
+     ""
+    ],
+    [
+     "路",
+     "lù",
+     "road; journey; route",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "安娜点点头，奶奶拿过手机就说：“别着急，是妈妈！我跟你的学生在一起呢！”",
+   "py": "Ān nà diǎn diǎn tóu, nǎi nai ná guò shǒu jī jiù shuō: “bié zháo jí, shì mā ma! wǒ gēn nǐ de xué sheng zài yì qǐ ne!”",
+   "en": "Anna nods, and the old woman takes the phone and says, \"Don't worry, it's Mum! I'm with your student!\"",
+   "tr": {
+    "vi": "Anna gật đầu, bà cầm lấy điện thoại nói luôn: “Đừng sốt ruột, mẹ đây! Mẹ đang ở cùng học trò của con này!”",
+    "pt": "Anna faz que sim, e a velhinha pega o celular e diz: “Calma, é a mamãe! Estou aqui com a sua aluna!”",
+    "es": "Anna asiente, y la señora toma el celular y dice: «¡No te preocupes, soy mamá! ¡Estoy con tu alumna!».",
+    "fr": "Anna hoche la tête, et la vieille dame prend le téléphone et dit : « Ne t’en fais pas, c’est maman ! Je suis avec ton élève ! »",
+    "am": "አና ራሷን ነቀነቀች፤ አሮጊቷ ስልኩን ተቀብለው «አትጨነቂ፤ እናትሽ ነኝ! ከተማሪሽ ጋር ነኝ!» አሉ።",
+    "fa": "آنا سر تکون می‌ده و پیرزن گوشیرو می‌گیره و می‌گه: «نگران نباش، مامانم! با شاگردت هستم!»"
+   },
+   "start": 89.408,
+   "end": 97.928,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "点点",
+     "diǎn diǎn",
+     "point; speck",
+     ""
+    ],
+    [
+     "头",
+     "tóu",
+     "head; hair style; the top",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "奶奶",
+     "nǎi nai",
+     "(informal) grandma (paternal grandmother)",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to take; to hold; to seize",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "别",
+     "bié",
+     "don't ...!; to leave; to part (from)",
+     ""
+    ],
+    [
+     "着急",
+     "zháo jí",
+     "to worry; to feel anxious",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "(of a woman) to marry sb; heel; to follow closely",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "学生",
+     "xué sheng",
+     "student; schoolchild",
+     ""
+    ],
+    [
+     "在一起",
+     "zài yī qǐ",
+     "together",
+     ""
+    ],
+    [
+     "呢",
+     "ne",
+     "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "那天，她们晚到了一个小时。",
+   "py": "nà tiān, tā men wǎn dào le yí gè xiǎo shí.",
+   "en": "That day, they arrive an hour late.",
+   "tr": {
+    "vi": "Hôm đó, họ đến muộn một tiếng.",
+    "pt": "Naquele dia, elas chegam uma hora atrasadas.",
+    "es": "Ese día llegan una hora tarde.",
+    "fr": "Ce jour-là, elles arrivent avec une heure de retard.",
+    "am": "በዚያ ቀን አንድ ሰዓት ዘግይተው ደረሱ።",
+    "fa": "اون روز یه ساعت دیر می‌رسن."
+   },
+   "start": 98.628,
+   "end": 101.94,
+   "tokens": [
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她们",
+     "tā men",
+     "they; them (females)",
+     ""
+    ],
+    [
+     "晚",
+     "wǎn",
+     "late; evening; night",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李老师笑着说：“下次，我去车站接你们两个！”",
+   "py": "Lǐ lǎo shī xiào zhe shuō: “xià cì, wǒ qù chē zhàn jiē nǐ men liǎng gè!”",
+   "en": "Teacher Li laughs. \"Next time, I'll meet the two of you at the bus stop!\"",
+   "tr": {
+    "vi": "Cô Lý cười nói: “Lần sau, cô ra bến xe đón cả hai người!”",
+    "pt": "A professora Li ri: “Da próxima vez, eu vou buscar vocês duas no ponto!”",
+    "es": "La profesora Li dice riendo: «¡La próxima vez voy a buscarlas a las dos a la parada!».",
+    "fr": "La professeure Li dit en riant : « La prochaine fois, je viendrai vous chercher toutes les deux à l’arrêt ! »",
+    "am": "መምህርት ሊ እየሳቀች «በሚቀጥለው ጊዜ ሁለታችሁንም ፌርማታ ድረስ መጥቼ እቀበላችኋለሁ!» አለች።",
+    "fa": "معلم لی می‌خنده: «دفعه‌ی بعد، خودم می‌رم ایستگاه اتوبوس استقبال‌تون رو می‌کنم!»"
+   },
+   "start": 102.64,
+   "end": 107.848,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "下次",
+     "xià cì",
+     "next time",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(of a time etc) last; to be apart from in space or time",
+     ""
+    ],
+    [
+     "车站",
+     "chē zhàn",
+     "bus stop; rail station",
+     ""
+    ],
+    [
+     "接",
+     "jiē",
+     "to meet or welcome sb; to receive; to answer (the phone)",
+     ""
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 319,
+ "first": "星期天，李老师请安娜去她家吃饭。",
+ "newWords": [
+  {
+   "w": "坐过站",
+   "py": "zuò guò zhàn",
+   "en": "to miss your stop"
+  },
+  {
+   "w": "睡着",
+   "py": "shuìzháo",
+   "en": "to fall asleep"
+  },
+  {
+   "w": "醒",
+   "py": "xǐng",
+   "en": "to wake up"
+  },
+  {
+   "w": "聊",
+   "py": "liáo",
+   "en": "(coll.) to chat"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-28.mp3?v=1791720795"
 }

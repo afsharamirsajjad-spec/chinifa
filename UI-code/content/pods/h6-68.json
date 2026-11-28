@@ -1,2825 +1,2845 @@
 {
-  "id": "h6-68",
-  "level": 6,
-  "no": 68,
-  "title": "两种盖子",
-  "title_py": "liǎng zhǒng gài zi",
-  "title_en": "Two kinds of lid",
-  "title_tr": {
-    "am": "ሁለት ዓይነት ክዳን",
-    "fa": "دو نوع درپوش متفاوت بطری"
+ "id": "h6-68",
+ "level": 6,
+ "no": 68,
+ "title": "两种盖子",
+ "title_py": "liǎng zhǒng gài zi",
+ "title_en": "Two kinds of lid",
+ "title_tr": {
+  "am": "ሁለት ዓይነት ክዳን",
+  "fa": "دو نوع درپوش متفاوت بطری"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_factory",
+ "cover": "https://media.kanchinese.app/review/stories/h6-68.jpg",
+ "duration": 165.54,
+ "lines": [
+  {
+   "text": "公司订的一万个保温杯做好了，杰克去工厂验货，准备检查完就发货。",
+   "py": "gōng sī dìng de yí wàn gè bǎo wēn bēi zuò hǎo le, Jié kè qù gōng chǎng yàn huò, zhǔn bèi jiǎn chá wán jiù fā huò.",
+   "en": "The ten thousand vacuum flasks the company ordered are ready, and Jack goes to the factory to inspect them, planning to ship them as soon as he's checked.",
+   "tr": {
+    "am": "ድርጅቱ ያዘዛቸው አሥር ሺህ ቴርሞስ ኩባያዎች ተሠርተው አልቀዋል፣ ጃክም ዕቃውን ለመመርመር ወደ ፋብሪካው ሄደ፣ መርምሮ እንደጨረሰ ሊልካቸው አስቧል።",
+    "fa": "ده هزار فلاسک خلایی که شرکت سفارش داده آماده‌ست و جک می‌ره کارخونه بازرسی کنه و قصد داره همین‌که چک شد بفرسته."
+   },
+   "start": 2.62,
+   "end": 9.724,
+   "tokens": [
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "订",
+     "dìng",
+     "to order; to agree; to conclude",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "as soon as; one; single",
+     ""
+    ],
+    [
+     "万",
+     "wàn",
+     "ten thousand; a great number",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "保温杯",
+     "bǎo wēn bēi",
+     "thermal insulation cup (or bottle)",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "工厂",
+     "gōng chǎng",
+     "factory",
+     ""
+    ],
+    [
+     "验货",
+     "yàn huò",
+     "inspection of goods",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "准备",
+     "zhǔn bèi",
+     "preparation; to prepare; to intend",
+     ""
+    ],
+    [
+     "检查",
+     "jiǎn chá",
+     "inspection; to inspect; to examine",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a clause of action) as soon as; immediately after",
+     ""
+    ],
+    [
+     "发货",
+     "fā huò",
+     "to dispatch; to send out goods",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_factory",
-  "cover": "https://media.kanchinese.app/review/stories/h6-68.jpg",
-  "duration": 165.54,
-  "lines": [
-    {
-      "text": "公司订的一万个保温杯做好了，杰克去工厂验货，准备检查完就发货。",
-      "py": "gōng sī dìng de yí wàn gè bǎo wēn bēi zuò hǎo le, Jié kè qù gōng chǎng yàn huò, zhǔn bèi jiǎn chá wán jiù fā huò.",
-      "en": "The ten thousand vacuum flasks the company ordered are ready, and Jack goes to the factory to inspect them, planning to ship them as soon as he's checked.",
-      "tr": {
-        "am": "ድርጅቱ ያዘዛቸው አሥር ሺህ ቴርሞስ ኩባያዎች ተሠርተው አልቀዋል፣ ጃክም ዕቃውን ለመመርመር ወደ ፋብሪካው ሄደ፣ መርምሮ እንደጨረሰ ሊልካቸው አስቧል።"
-      },
-      "start": 2.62,
-      "end": 9.724,
-      "tokens": [
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "订",
-          "dìng",
-          "to order; to agree; to conclude",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "as soon as; one; single",
-          ""
-        ],
-        [
-          "万",
-          "wàn",
-          "ten thousand; a great number",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "保温杯",
-          "bǎo wēn bēi",
-          "thermal insulation cup (or bottle)",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "工厂",
-          "gōng chǎng",
-          "factory",
-          ""
-        ],
-        [
-          "验货",
-          "yàn huò",
-          "inspection of goods",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "准备",
-          "zhǔn bèi",
-          "preparation; to prepare; to intend",
-          ""
-        ],
-        [
-          "检查",
-          "jiǎn chá",
-          "inspection; to inspect; to examine",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a clause of action) as soon as; immediately after",
-          ""
-        ],
-        [
-          "发货",
-          "fā huò",
-          "to dispatch; to send out goods",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他随手拿起一个，拧了拧盖子，心一下子凉了：盖子太松，一倒过来就往外漏水。",
-      "py": "tā suí shǒu ná qǐ yí gè, níng le níng gài zi, xīn yí xià zi liáng le: gài zi tài sōng, yí dào guò lái jiù wǎng wài lòu shuǐ.",
-      "en": "He picks one up at random, twists the lid, and his heart sinks: the lid is too loose, and when he turns the flask upside down, water leaks out.",
-      "tr": {
-        "am": "በዘፈቀደ አንዱን አንሥቶ ክዳኑን አጠበቀ፣ ልቡ ድንገት ቀዘቀዘ፦ ክዳኑ በጣም ልቅ ነው፣ ሲገለበጥ ውኃው ወደ ውጭ ያፈሳል።"
-      },
-      "start": 10.424,
-      "end": 19.688,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "随手",
-          "suí shǒu",
-          "conveniently; without extra trouble; while doing it",
-          ""
-        ],
-        [
-          "拿起",
-          "ná qǐ",
-          "to pick up",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "拧",
-          "níng",
-          "to pinch; wring",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "拧",
-          "níng",
-          "to pinch; wring",
-          ""
-        ],
-        [
-          "盖子",
-          "gài zi",
-          "lid; cover; shell",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "心",
-          "xīn",
-          "heart; mind; intention",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "once; one time; (following a verb) for a moment; briefly",
-          ""
-        ],
-        [
-          "凉",
-          "liáng",
-          "cool; cold",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "盖子",
-          "gài zi",
-          "lid; cover; shell",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "松",
-          "sōng",
-          "loose; to loosen; pine",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "倒",
-          "dào",
-          "to invert; to place upside down or frontside back",
-          ""
-        ],
-        [
-          "过来",
-          "guò lái",
-          "to come over; to manage; to handle",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "往外",
-          "wǎng wài",
-          "out; outbound; departing",
-          ""
-        ],
-        [
-          "漏水",
-          "lòu shuǐ",
-          "(of pipes, ceilings, roofs etc) to leak water; to have a water leak",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他又拿了十几个，个个都一样。",
-      "py": "tā yòu ná le shí jǐ gè, gè gè dōu yí yàng.",
-      "en": "He tries a dozen more, and they're all the same.",
-      "tr": {
-        "am": "ሌሎች ከአሥር በላይ አንሥቶ ሞከረ፣ ሁሉም ተመሳሳይ ናቸው።"
-      },
-      "start": 20.388,
-      "end": 23.988,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "十几",
-          "shí jǐ",
-          "more than ten; a dozen or more",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "个个",
-          "gè gè",
-          "each one individually; each and every",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "一样",
-          "yī yàng",
-          "same; the same as; like",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克把车间主任叫了过来，语气很重：“这样的货，我们不能收。”",
-      "py": "Jié kè bǎ chē jiān zhǔ rèn jiào le guò lái, yǔ qì hěn zhòng: “zhè yàng de huò, wǒ men bù néng shōu.”",
-      "en": "Jack calls the workshop supervisor over and speaks sternly. \"We can't accept goods like these.\"",
-      "tr": {
-        "am": "ጃክ የወርክሾፑን ኃላፊ ጠርቶ በጠንካራ ድምፅ አለ፦ «እንዲህ ያለውን ዕቃ መቀበል አንችልም።»"
-      },
-      "start": 24.688,
-      "end": 31.312,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "车间",
-          "chē jiān",
-          "workshop",
-          ""
-        ],
-        [
-          "主任",
-          "zhǔ rèn",
-          "director; head",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to call; to shout; to order",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "过来",
-          "guò lái",
-          "to come over; to manage; to handle",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "语气",
-          "yǔ qì",
-          "tone; manner of speaking; mood",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "重",
-          "zhòng",
-          "heavy; serious; to attach importance to",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这样",
-          "zhè yàng",
-          "this way; like this; so; (before a noun) this kind of; such",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "货",
-          "huò",
-          "goods; money; commodity",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "收",
-          "shōu",
-          "to accept; to receive; to collect",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "车间主任是个五十来岁的男人，不慌不忙地拿出一张图纸：“我们完全是按照图纸做的，尺寸一点儿都没错。”",
-      "py": "chē jiān zhǔ rèn shì gè wǔ shí lái suì de nán rén, bù huāng bù máng de ná chū yì zhāng tú zhǐ: “wǒ men wán quán shì àn zhào tú zhǐ zuò de, chǐ cùn yì diǎn r dōu méi cuò.”",
-      "en": "The supervisor, a man in his fifties, calmly takes out a drawing. \"We made them exactly to the drawing. The measurements are spot on.\"",
-      "tr": {
-        "am": "የወርክሾፑ ኃላፊ ሃምሳ ዓመት ገደማ የሆነው ሰው ነበር፣ ሳይደናገጥ አንድ ንድፍ አወጣ፦ «ሙሉ በሙሉ በንድፉ መሠረት ነው የሠራነው፣ መጠኑ ትንሽ እንኳ አልተሳሳተም።»"
-      },
-      "start": 32.012,
-      "end": 42.188,
-      "tokens": [
-        [
-          "车间",
-          "chē jiān",
-          "workshop",
-          ""
-        ],
-        [
-          "主任",
-          "zhǔ rèn",
-          "director; head",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "五十",
-          "wǔ shí",
-          "fifty",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "岁",
-          "suì",
-          "years old; classifier for years (of age); year",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "男人",
-          "nán rén",
-          "a man; a male; men",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不慌不忙",
-          "bù huāng bù máng",
-          "(idiom) calm; unhurried; composed",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "图纸",
-          "tú zhǐ",
-          "drawing; blueprint; design plans",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "完全",
-          "wán quán",
-          "complete; whole; totally; entirely",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "按照",
-          "àn zhào",
-          "according to; in accordance with; on the basis of",
-          ""
-        ],
-        [
-          "图纸",
-          "tú zhǐ",
-          "drawing; blueprint; design plans",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "尺寸",
-          "chǐ cun",
-          "size; dimensions; measurements (esp. of clothes)",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "没错",
-          "méi cuò",
-          "that's right; sure!; rest assured!",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克拿过图纸，仔细一看，脸色变了。",
-      "py": "Jié kè ná guò tú zhǐ, zǐ xì yí kàn, liǎn sè biàn le.",
-      "en": "Jack takes the drawing, looks closely, and his face changes.",
-      "tr": {
-        "am": "ጃክ ንድፉን ወስዶ በጥንቃቄ ሲያየው ፊቱ ተለወጠ።"
-      },
-      "start": 42.888,
-      "end": 47.424,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to take; to hold; to seize",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "图纸",
-          "tú zhǐ",
-          "drawing; blueprint; design plans",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "仔细",
-          "zǐ xì",
-          "to be careful; to look out; careful; attentive; cautious",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "脸色",
-          "liǎn sè",
-          "look; complexion",
-          ""
-        ],
-        [
-          "变",
-          "biàn",
-          "to change; to become different; to transform",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杯子的图纸是新型号的，盖子的图纸却是去年老型号的，两个型号的杯口差了两毫米。",
-      "py": "bēi zi de tú zhǐ shì xīn xíng hào de, gài zi de tú zhǐ què shì qù nián lǎo xíng hào de, liǎng gè xíng hào de bēi kǒu chà le liǎng háo mǐ.",
-      "en": "The drawing for the flask is the new model, but the drawing for the lid is last year's old model, and the two models' openings differ by two millimetres.",
-      "tr": {
-        "am": "የኩባያው ንድፍ የአዲሱ ሞዴል ነው፣ የክዳኑ ንድፍ ግን የባለፈው ዓመት የአሮጌው ሞዴል ነው፣ የሁለቱ ሞዴሎች የአፍ ስፋት በሁለት ሚሊ ሜትር ይለያያል።"
-      },
-      "start": 48.124,
-      "end": 57.124,
-      "tokens": [
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "图纸",
-          "tú zhǐ",
-          "drawing; blueprint; design plans",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "新型",
-          "xīn xíng",
-          "new type; new kind",
-          ""
-        ],
-        [
-          "号",
-          "hào",
-          "(literary) to call out; to command",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "盖子",
-          "gài zi",
-          "lid; cover; shell",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "图纸",
-          "tú zhǐ",
-          "drawing; blueprint; design plans",
-          ""
-        ],
-        [
-          "却是",
-          "què shì",
-          "nevertheless; actually; the fact is ...",
-          ""
-        ],
-        [
-          "去年",
-          "qù nián",
-          "last year",
-          ""
-        ],
-        [
-          "老",
-          "lǎo",
-          "old (of people)",
-          ""
-        ],
-        [
-          "型号",
-          "xíng hào",
-          "model (particular version of a manufactured article)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "两",
-          "liǎng",
-          "two",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "型号",
-          "xíng hào",
-          "model (particular version of a manufactured article)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "杯",
-          "bēi",
-          "cup; trophy cup",
-          ""
-        ],
-        [
-          "口",
-          "kǒu",
-          "mouth",
-          ""
-        ],
-        [
-          "差",
-          "chà",
-          "different; wrong; mistaken; to fall short; to lack",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two",
-          ""
-        ],
-        [
-          "毫米",
-          "háo mǐ",
-          "millimeter",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这两张图纸，都是他自己发给工厂的。",
-      "py": "zhè liǎng zhāng tú zhǐ, dōu shì tā zì jǐ fā gěi gōng chǎng de.",
-      "en": "Both drawings were sent to the factory by Jack himself.",
-      "tr": {
-        "am": "እነዚህን ሁለት ንድፎች ወደ ፋብሪካው የላከው ራሱ ጃክ ነበር።"
-      },
-      "start": 57.824,
-      "end": 61.904,
-      "tokens": [
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "both; two; some",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "图纸",
-          "tú zhǐ",
-          "drawing; blueprint; design plans",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "发给",
-          "fā gěi",
-          "to issue; to grant; to distribute",
-          ""
-        ],
-        [
-          "工厂",
-          "gōng chǎng",
-          "factory",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used at the end of a declarative sentence for emphasis)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克一下子冒出了冷汗：一万个盖子全部返工，至少要两个星期，可是客户的交货期就在下个星期。",
-      "py": "Jié kè yí xià zi mào chū le lěng hàn: yí wàn gè gài zi quán bù fǎn gōng, zhì shǎo yào liǎng gè xīng qī, kě shì kè hù de jiāo huò qī jiù zài xià gè xīng qī.",
-      "en": "Jack breaks out in a cold sweat: reworking ten thousand lids would take at least two weeks, but the client's delivery date is next week.",
-      "tr": {
-        "am": "ጃክ ድንገት ቀዝቃዛ ላብ አላበው፦ አሥር ሺህ ክዳኖችን በሙሉ እንደገና ለመሥራት ቢያንስ ሁለት ሳምንት ያስፈልጋል፣ የደንበኛው የማስረከቢያ ቀን ግን በሚቀጥለው ሳምንት ነው።"
-      },
-      "start": 62.604,
-      "end": 73.932,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "一下子",
-          "yī xià zi",
-          "once; one time; (following a verb) for a moment; briefly",
-          ""
-        ],
-        [
-          "冒",
-          "mào",
-          "to emit; to give off; to send out (or up, forth)",
-          ""
-        ],
-        [
-          "出",
-          "chū",
-          "to go out; to come out; to arise; to occur",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "冷汗",
-          "lěng hàn",
-          "cold sweat",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "万",
-          "wàn",
-          "ten thousand; a great number",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "盖子",
-          "gài zi",
-          "cover; lid; shell",
-          ""
-        ],
-        [
-          "全部",
-          "quán bù",
-          "whole; all",
-          ""
-        ],
-        [
-          "返工",
-          "fǎn gōng",
-          "to do poorly done work over again",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "至少",
-          "zhì shǎo",
-          "at least; (to say the) least",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "星期",
-          "xīng qī",
-          "week; day of the week; Sunday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "交货期",
-          "jiāo huò qī",
-          "delivery time (time between ordering goods and receiving the delivery)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "在下",
-          "zài xià",
-          "under; myself (humble)",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "星期",
-          "xīng qī",
-          "week; day of the week; Sunday",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他站在车间里，不知道该怎么跟周经理交代。",
-      "py": "tā zhàn zài chē jiān lǐ, bù zhī dào gāi zěn me gēn Zhōu jīng lǐ jiāo dài.",
-      "en": "He stands in the workshop, not knowing how he's going to explain this to Manager Zhou.",
-      "tr": {
-        "am": "ወርክሾፑ ውስጥ ቆሞ ለሥራ አስኪያጅ ጆው እንዴት እንደሚያስረዳ አላወቀም።"
-      },
-      "start": 74.632,
-      "end": 79.168,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "车间",
-          "chē jiān",
-          "workshop",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不知",
-          "bù zhī",
-          "not to know; unaware; unknowingly",
-          ""
-        ],
-        [
-          "道",
-          "dào",
-          "road; path; (bound form) way; reason; principle",
-          ""
-        ],
-        [
-          "该",
-          "gāi",
-          "should; ought to; probably",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "how?; what?; why?",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "交代",
-          "jiāo dài",
-          "to explain; to give an account; to brief",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "车间主任看了他一会儿，转身走进库房，搬出来一个大纸箱。",
-      "py": "chē jiān zhǔ rèn kàn le tā yí huì r, zhuǎn shēn zǒu jìn kù fáng, bān chū lái yí gè dà zhǐ xiāng.",
-      "en": "The supervisor watches him for a moment, then turns, goes into the storeroom and carries out a big cardboard box.",
-      "tr": {
-        "am": "የወርክሾፑ ኃላፊ ለጥቂት ጊዜ ተመለከተውና ዞሮ ወደ መጋዘኑ ገባ፣ አንድ ትልቅ ካርቶን ተሸክሞ ወጣ።"
-      },
-      "start": 79.868,
-      "end": 86.276,
-      "tokens": [
-        [
-          "车间",
-          "chē jiān",
-          "workshop",
-          ""
-        ],
-        [
-          "主任",
-          "zhǔ rèn",
-          "director; head",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to watch; to watch out for; to see; to look at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一会儿",
-          "yī huì r",
-          "a moment; in a moment; a while",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "转身",
-          "zhuǎn shēn",
-          "(of a person) to turn round; to face about",
-          ""
-        ],
-        [
-          "走进",
-          "zǒu jìn",
-          "to enter; to step into",
-          ""
-        ],
-        [
-          "库房",
-          "kù fáng",
-          "storeroom; warehouse",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "搬",
-          "bān",
-          "to move (i.e. relocate oneself)",
-          ""
-        ],
-        [
-          "出来",
-          "chū lái",
-          "to come out; to appear; to arise",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "纸箱",
-          "zhǐ xiāng",
-          "cardboard box; carton",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "箱子里装满了盖子，跟新杯子正好配套。",
-      "py": "xiāng zi lǐ zhuāng mǎn le gài zi, gēn xīn bēi zi zhèng hǎo pèi tào.",
-      "en": "It's full of lids — and they fit the new flasks perfectly.",
-      "tr": {
-        "am": "ካርቶኑ በክዳኖች ተሞልቷል፣ ከአዲሶቹ ኩባያዎች ጋር ልክ ይገጥማሉ።"
-      },
-      "start": 86.976,
-      "end": 91.512,
-      "tokens": [
-        [
-          "箱子",
-          "xiāng zi",
-          "suitcase; chest; box",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "装满",
-          "zhuāng mǎn",
-          "to fill up",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "盖子",
-          "gài zi",
-          "cover; lid; shell",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "新",
-          "xīn",
-          "new; newly; meso- (chemistry)",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "正好",
-          "zhèng hǎo",
-          "just (in time); just right; just enough",
-          ""
-        ],
-        [
-          "配套",
-          "pèi tào",
-          "to form a complete set; compatible; matching",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "车间主任说：“两个月前做样品的时候，我就觉得不对劲：新杯子配老盖子，哪有这么做的？”",
-      "py": "chē jiān zhǔ rèn shuō: “liǎng gè yuè qián zuò yàng pǐn de shí hou, wǒ jiù jué de bú duì jìn: xīn bēi zi pèi lǎo gài zi, nǎ yǒu zhè me zuò de?”",
-      "en": "The supervisor says, \"Two months ago, when we made the samples, I felt something was off: a new flask with an old lid — who does that?\"",
-      "tr": {
-        "am": "የወርክሾፑ ኃላፊ እንዲህ አለ፦ «ከሁለት ወር በፊት ናሙናውን ስንሠራ የሆነ ነገር ልክ አልመሰለኝም፦ አዲስ ኩባያ ከአሮጌ ክዳን ጋር፣ እንዲህ የሚያደርግ ማን አለ?»"
-      },
-      "start": 92.212,
-      "end": 102.196,
-      "tokens": [
-        [
-          "车间",
-          "chē jiān",
-          "workshop",
-          ""
-        ],
-        [
-          "主任",
-          "zhǔ rèn",
-          "director; head",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; some",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; moon; monthly",
-          ""
-        ],
-        [
-          "前",
-          "qián",
-          "ago; front; forward",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "样品",
-          "yàng pǐn",
-          "sample; specimen",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "不对劲",
-          "bù duì jìn",
-          "not in good condition; wrong; fishy",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "新",
-          "xīn",
-          "new; newly; meso- (chemistry)",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "配",
-          "pèi",
-          "to join; to fit; to mate",
-          ""
-        ],
-        [
-          "老",
-          "lǎo",
-          "old (of people)",
-          ""
-        ],
-        [
-          "盖子",
-          "gài zi",
-          "lid; cover; shell",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "哪",
-          "nǎ",
-          "how; which",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我给你们发过一封邮件问，没人回。我想，以防万一，就按新型号也做了一万个。”",
-      "py": "“wǒ gěi nǐ men fā guò yì fēng yóu jiàn wèn, méi rén huí. wǒ xiǎng, yǐ fáng wàn yí, jiù àn xīn xíng hào yě zuò le yí wàn gè.”",
-      "en": "\"I emailed you to ask, and nobody replied. So I thought, just in case, I'd make ten thousand for the new model as well.\"",
-      "tr": {
-        "am": "«ለመጠየቅ ኢሜይል ልኬላችሁ ነበር፣ ማንም አልመለሰም። ስለዚህ ምናልባት ብዬ ለአዲሱ ሞዴልም አሥር ሺህ ሠራሁ።»"
-      },
-      "start": 102.896,
-      "end": 110.96,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to make a bundle of money; to send out",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "封",
-          "fēng",
-          "classifier for sealed objects, esp. letters; to confer",
-          ""
-        ],
-        [
-          "邮件",
-          "yóu jiàn",
-          "email; mail; post",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "以防万一",
-          "yǐ fáng wàn yī",
-          "to guard against the unexpected (idiom); just in case",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "按",
-          "àn",
-          "(of an editor or author) to make a comment; to press",
-          ""
-        ],
-        [
-          "新型",
-          "xīn xíng",
-          "new type; new kind",
-          ""
-        ],
-        [
-          "号",
-          "hào",
-          "(literary) to call out; to command",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "万",
-          "wàn",
-          "ten thousand; a great number",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克打开邮箱一找，那封邮件果然在，标题是“盖子尺寸是否有误？”，他当成了广告，一直没打开。",
-      "py": "Jié kè dǎ kāi yóu xiāng yì zhǎo, nà fēng yóu jiàn guǒ rán zài, biāo tí shì “gài zi chǐ cùn shì fǒu yǒu wù?”, tā dàng chéng le guǎng gào, yì zhí méi dǎ kāi.",
-      "en": "Jack searches his inbox, and sure enough, there's the email, with the subject \"Is the lid size wrong?\" He'd taken it for an advert and never opened it.",
-      "tr": {
-        "am": "ጃክ የኢሜይል ሳጥኑን ከፍቶ ሲፈልግ ያ ኢሜይል በእርግጥም ነበር፣ ርዕሱም «የክዳኑ መጠን ተሳስቷል?» የሚል ነው፣ ማስታወቂያ መስሎት ከፍቶት አያውቅም ነበር።"
-      },
-      "start": 111.66,
-      "end": 122.052,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "邮箱",
-          "yóu xiāng",
-          "email; email inbox; mailbox",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "找",
-          "zhǎo",
-          "to try to find; to look for; to call on sb",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "封",
-          "fēng",
-          "classifier for sealed objects, esp. letters; to confer",
-          ""
-        ],
-        [
-          "邮件",
-          "yóu jiàn",
-          "email; mail; post",
-          ""
-        ],
-        [
-          "果然",
-          "guǒ rán",
-          "sure enough; really; as expected",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "标题",
-          "biāo tí",
-          "subject; title; heading",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "盖子",
-          "gài zi",
-          "lid; cover; shell",
-          ""
-        ],
-        [
-          "尺寸",
-          "chǐ cun",
-          "size; dimensions; measurements (esp. of clothes)",
-          ""
-        ],
-        [
-          "是否",
-          "shì fǒu",
-          "whether (or not); if; is or isn't",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "误",
-          "wù",
-          "mistake; error; to miss",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "当成",
-          "dàng chéng",
-          "to consider as; to take to be",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "广告",
-          "guǎng gào",
-          "to advertise; advertisement; a commercial",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他又惭愧又感激：“多做的这一万个盖子，成本我们来出。”",
-      "py": "tā yòu cán kuì yòu gǎn jī: “duō zuò de zhè yí wàn gè gài zi, chéng běn wǒ men lái chū.”",
-      "en": "Ashamed and grateful at once, he says, \"We'll cover the cost of the extra ten thousand lids.\"",
-      "tr": {
-        "am": "አፈረም፣ አመሰገነም፦ «በትርፍ የተሠሩትን እነዚህን አሥር ሺህ ክዳኖች ወጪ እኛ እንሸፍናለን።»"
-      },
-      "start": 122.752,
-      "end": 129.184,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "惭愧",
-          "cán kuì",
-          "ashamed",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "感激",
-          "gǎn jī",
-          "to be grateful; to appreciate; thankful",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "万",
-          "wàn",
-          "ten thousand; a great number",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "盖子",
-          "gài zi",
-          "cover; lid; shell",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "成本",
-          "chéng běn",
-          "(manufacturing, production etc) costs",
-          ""
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "出",
-          "chū",
-          "to go out; to come out; to arise; to occur",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "车间主任摆摆手：“老型号的盖子也浪费不了。你们去年那批杯子，以后总有客户要换盖子的。”",
-      "py": "chē jiān zhǔ rèn bǎi bǎi shǒu: “lǎo xíng hào de gài zi yě làng fèi bù liǎo. nǐ men qù nián nà pī bēi zi, yǐ hòu zǒng yǒu kè hù yào huàn gài zi de.”",
-      "en": "The supervisor waves it away. \"The old lids won't go to waste either. Sooner or later, customers with last year's flasks will want replacement lids.\"",
-      "tr": {
-        "am": "የወርክሾፑ ኃላፊ እጁን አወዛወዘ፦ «የአሮጌው ሞዴል ክዳኖችም አይባክኑም። የባለፈው ዓመት ኩባያዎቻችሁን የገዙ ደንበኞች ውሎ አድሮ ክዳን መቀየር ይፈልጋሉ።»"
-      },
-      "start": 129.884,
-      "end": 139.316,
-      "tokens": [
-        [
-          "车间",
-          "chē jiān",
-          "workshop",
-          ""
-        ],
-        [
-          "主任",
-          "zhǔ rèn",
-          "director; head",
-          ""
-        ],
-        [
-          "摆",
-          "bǎi",
-          "to arrange; to exhibit; to move to and fro",
-          ""
-        ],
-        [
-          "摆手",
-          "bǎi shǒu",
-          "to wave one's hand",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "老",
-          "lǎo",
-          "old (of people)",
-          ""
-        ],
-        [
-          "型号",
-          "xíng hào",
-          "model (particular version of a manufactured article)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "盖子",
-          "gài zi",
-          "cover; lid; shell",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "浪费",
-          "làng fèi",
-          "to waste; to squander",
-          ""
-        ],
-        [
-          "不了",
-          "bù le",
-          "no thanks (used to politely but informally decline)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "去年",
-          "qù nián",
-          "last year",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "批",
-          "pī",
-          "classifier for batches, lots, military flights; to ascertain",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "总有",
-          "zǒng yǒu",
-          "inevitably there will be",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "换",
-          "huàn",
-          "to exchange; to change (clothes etc); to substitute",
-          ""
-        ],
-        [
-          "盖子",
-          "gài zi",
-          "cover; lid; shell",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "货按时发了出去，客户什么也不知道，只觉得这批杯子的盖子拧起来特别顺。",
-      "py": "huò àn shí fā le chū qù, kè hù shén me yě bù zhī dào, zhǐ jué de zhè pī bēi zi de gài zi níng qǐ lái tè bié shùn.",
-      "en": "The goods go out on time. The client knows nothing about it and only thinks the lids on this batch screw on especially smoothly.",
-      "tr": {
-        "am": "ዕቃው በሰዓቱ ተላከ፣ ደንበኛው ምንም አላወቀም፣ የዚህ ዙር ኩባያዎች ክዳን በጣም በቀላሉ እንደሚጠብቅ ብቻ ተሰማው።"
-      },
-      "start": 140.016,
-      "end": 147.096,
-      "tokens": [
-        [
-          "货",
-          "huò",
-          "goods; money; commodity",
-          ""
-        ],
-        [
-          "按时",
-          "àn shí",
-          "on time; before deadline; on schedule",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "出去",
-          "chū qù",
-          "to go out",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不知",
-          "bù zhī",
-          "not to know; unaware; unknowingly",
-          ""
-        ],
-        [
-          "道",
-          "dào",
-          "classifier for long thin things (rivers, cracks, shadows etc), barriers (walls, doors etc), questions (in an exam etc), commands, courses in a meal, steps in a process",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "觉得",
-          "jué de",
-          "to think that ...; to feel that ...",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "批",
-          "pī",
-          "classifier for batches, lots, military flights; to ascertain",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "盖子",
-          "gài zi",
-          "cover; lid; shell",
-          ""
-        ],
-        [
-          "拧",
-          "níng",
-          "to pinch; wring",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "特别",
-          "tè bié",
-          "very; especially; particularly; unusual; special",
-          ""
-        ],
-        [
-          "顺",
-          "shùn",
-          "to obey; to follow; to arrange",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "回北京以后，杰克做的第一件事，是把那家工厂的邮箱设成了“重要联系人”。",
-      "py": "huí Běi jīng yǐ hòu, Jié kè zuò de dì yī jiàn shì, shì bǎ nà jiā gōng chǎng de yóu xiāng shè chéng le “zhòng yào lián xì rén”.",
-      "en": "Back in Beijing, the first thing Jack does is mark the factory's email address as an \"important contact\".",
-      "tr": {
-        "am": "ወደ ቤጂንግ ከተመለሰ በኋላ ጃክ መጀመሪያ ያደረገው የዚያን ፋብሪካ ኢሜይል አድራሻ «አስፈላጊ ግንኙነት» ብሎ መመዝገብ ነበር።"
-      },
-      "start": 147.796,
-      "end": 155.164,
-      "tokens": [
-        [
-          "回",
-          "huí",
-          "to go back; to return; to turn back; to turn around",
-          ""
-        ],
-        [
-          "北京",
-          "běi jīng",
-          "Beijing municipality, capital of the People's Republic of China (short name 京)",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "(of a thing) to serve as; to be used for",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "第一",
-          "dì yī",
-          "first; most important; primary; foremost",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "thing; matter; item",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "classifier for things with handles; to hold; to grasp",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(pronoun) that (referring to persons, things or situations)",
-          ""
-        ],
-        [
-          "家",
-          "jiā",
-          "classifier for families or businesses; home; family",
-          ""
-        ],
-        [
-          "工厂",
-          "gōng chǎng",
-          "factory",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "邮箱",
-          "yóu xiāng",
-          "email; email inbox; mailbox",
-          ""
-        ],
-        [
-          "设",
-          "shè",
-          "to set up; to put in place; (math.) given; suppose; if",
-          ""
-        ],
-        [
-          "成了",
-          "chéng le",
-          "to be done; to be ready; that's enough!",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "重要",
-          "zhòng yào",
-          "important; significant; major",
-          ""
-        ],
-        [
-          "联系人",
-          "lián xì rén",
-          "contact person",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "第二件事，是在电脑旁边贴了一张便利贴：“发图纸以前，先问自己一句：哪有这么做的？”",
-      "py": "dì èr jiàn shì, shì zài diàn nǎo páng biān tiē le yì zhāng biàn lì tiē: “fā tú zhǐ yǐ qián, xiān wèn zì jǐ yí jù: nǎ yǒu zhè me zuò de?”",
-      "en": "The second is to stick a note beside his computer: \"Before sending a drawing, ask yourself: who does that?\"",
-      "tr": {
-        "am": "ሁለተኛው ደግሞ በኮምፒውተሩ አጠገብ ተለጣፊ ማስታወሻ መለጠፍ ነበር፦ «ንድፍ ከመላክህ በፊት ራስህን ጠይቅ፦ እንዲህ የሚያደርግ ማን አለ?»"
-      },
-      "start": 155.864,
-      "end": 164.84,
-      "tokens": [
-        [
-          "第二",
-          "dì èr",
-          "second; secondary; number two",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "matter; thing; item",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "(used before a verb to indicate an action in progress)",
-          ""
-        ],
-        [
-          "电脑",
-          "diàn nǎo",
-          "computer",
-          ""
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "贴",
-          "tiē",
-          "to stick; sticker; classifier for sticking plaster: strip",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "便利贴",
-          "biàn lì tiē",
-          "sticky note",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "图纸",
-          "tú zhǐ",
-          "drawing; blueprint; design plans",
-          ""
-        ],
-        [
-          "以前",
-          "yǐ qián",
-          "before; formerly; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "一句",
-          "yī jù",
-          "a line of verse; a sentence",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "哪",
-          "nǎ",
-          "how; which",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 557,
-  "first": "公司订的一万个保温杯做好了，杰克去工厂验货，准备检查完就发货。",
-  "newWords": [
-    {
-      "w": "验货",
-      "py": "yàn huò",
-      "en": "inspection of goods"
-    },
-    {
-      "w": "型号",
-      "py": "xíng hào",
-      "en": "model (particular version of a manufactured article)"
-    },
-    {
-      "w": "图纸",
-      "py": "tú zhǐ",
-      "en": "blueprint"
-    },
-    {
-      "w": "返工",
-      "py": "fǎn gōng",
-      "en": "to do poorly done work over again"
-    },
-    {
-      "w": "以防万一",
-      "py": "yǐ fáng wàn yī",
-      "en": "to guard against the unexpected (idiom)"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h6-68.mp3?v=1791722664"
+  {
+   "text": "他随手拿起一个，拧了拧盖子，心一下子凉了：盖子太松，一倒过来就往外漏水。",
+   "py": "tā suí shǒu ná qǐ yí gè, níng le níng gài zi, xīn yí xià zi liáng le: gài zi tài sōng, yí dào guò lái jiù wǎng wài lòu shuǐ.",
+   "en": "He picks one up at random, twists the lid, and his heart sinks: the lid is too loose, and when he turns the flask upside down, water leaks out.",
+   "tr": {
+    "am": "በዘፈቀደ አንዱን አንሥቶ ክዳኑን አጠበቀ፣ ልቡ ድንገት ቀዘቀዘ፦ ክዳኑ በጣም ልቅ ነው፣ ሲገለበጥ ውኃው ወደ ውጭ ያፈሳል።",
+    "fa": "یکی رو تصادفی برمی‌داره، درش رو می‌پیچونه و دلش می‌لرزه: در زیادی شله و وقتی فلاسک رو سر و ته می‌کنه، آب چکه می‌کنه بیرون."
+   },
+   "start": 10.424,
+   "end": 19.688,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "随手",
+     "suí shǒu",
+     "conveniently; without extra trouble; while doing it",
+     ""
+    ],
+    [
+     "拿起",
+     "ná qǐ",
+     "to pick up",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "拧",
+     "níng",
+     "to pinch; wring",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "拧",
+     "níng",
+     "to pinch; wring",
+     ""
+    ],
+    [
+     "盖子",
+     "gài zi",
+     "lid; cover; shell",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "心",
+     "xīn",
+     "heart; mind; intention",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "once; one time; (following a verb) for a moment; briefly",
+     ""
+    ],
+    [
+     "凉",
+     "liáng",
+     "cool; cold",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "盖子",
+     "gài zi",
+     "lid; cover; shell",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "松",
+     "sōng",
+     "loose; to loosen; pine",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "倒",
+     "dào",
+     "to invert; to place upside down or frontside back",
+     ""
+    ],
+    [
+     "过来",
+     "guò lái",
+     "to come over; to manage; to handle",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "往外",
+     "wǎng wài",
+     "out; outbound; departing",
+     ""
+    ],
+    [
+     "漏水",
+     "lòu shuǐ",
+     "(of pipes, ceilings, roofs etc) to leak water; to have a water leak",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他又拿了十几个，个个都一样。",
+   "py": "tā yòu ná le shí jǐ gè, gè gè dōu yí yàng.",
+   "en": "He tries a dozen more, and they're all the same.",
+   "tr": {
+    "am": "ሌሎች ከአሥር በላይ አንሥቶ ሞከረ፣ ሁሉም ተመሳሳይ ናቸው።",
+    "fa": "ده‌تای دیگه هم برمی‌داره؛ همه‌شون مثل هم‌ان."
+   },
+   "start": 20.388,
+   "end": 23.988,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "十几",
+     "shí jǐ",
+     "more than ten; a dozen or more",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "个个",
+     "gè gè",
+     "each one individually; each and every",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "一样",
+     "yī yàng",
+     "same; the same as; like",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克把车间主任叫了过来，语气很重：“这样的货，我们不能收。”",
+   "py": "Jié kè bǎ chē jiān zhǔ rèn jiào le guò lái, yǔ qì hěn zhòng: “zhè yàng de huò, wǒ men bù néng shōu.”",
+   "en": "Jack calls the workshop supervisor over and speaks sternly. \"We can't accept goods like these.\"",
+   "tr": {
+    "am": "ጃክ የወርክሾፑን ኃላፊ ጠርቶ በጠንካራ ድምፅ አለ፦ «እንዲህ ያለውን ዕቃ መቀበል አንችልም።»",
+    "fa": "جک سرپرست کارگاه رو صدا می‌کنه و با لحن جدی می‌گه: «چنین جنسی رو نمی‌تونیم تحویل بگیریم.»"
+   },
+   "start": 24.688,
+   "end": 31.312,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "车间",
+     "chē jiān",
+     "workshop",
+     ""
+    ],
+    [
+     "主任",
+     "zhǔ rèn",
+     "director; head",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to call; to shout; to order",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "过来",
+     "guò lái",
+     "to come over; to manage; to handle",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "语气",
+     "yǔ qì",
+     "tone; manner of speaking; mood",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "重",
+     "zhòng",
+     "heavy; serious; to attach importance to",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这样",
+     "zhè yàng",
+     "this way; like this; so; (before a noun) this kind of; such",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "货",
+     "huò",
+     "goods; money; commodity",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "收",
+     "shōu",
+     "to accept; to receive; to collect",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "车间主任是个五十来岁的男人，不慌不忙地拿出一张图纸：“我们完全是按照图纸做的，尺寸一点儿都没错。”",
+   "py": "chē jiān zhǔ rèn shì gè wǔ shí lái suì de nán rén, bù huāng bù máng de ná chū yì zhāng tú zhǐ: “wǒ men wán quán shì àn zhào tú zhǐ zuò de, chǐ cùn yì diǎn r dōu méi cuò.”",
+   "en": "The supervisor, a man in his fifties, calmly takes out a drawing. \"We made them exactly to the drawing. The measurements are spot on.\"",
+   "tr": {
+    "am": "የወርክሾፑ ኃላፊ ሃምሳ ዓመት ገደማ የሆነው ሰው ነበር፣ ሳይደናገጥ አንድ ንድፍ አወጣ፦ «ሙሉ በሙሉ በንድፉ መሠረት ነው የሠራነው፣ መጠኑ ትንሽ እንኳ አልተሳሳተም።»",
+    "fa": "سرپرست کارگاه، آقای پنجاه‌ساله‌ایه که بی‌هیچ عجله‌ای یه نقشه درمیاره: «دقیقاً طبق نقشه ساخته‌شده؛ حتی یه میلی‌متر هم خطا نداره.»"
+   },
+   "start": 32.012,
+   "end": 42.188,
+   "tokens": [
+    [
+     "车间",
+     "chē jiān",
+     "workshop",
+     ""
+    ],
+    [
+     "主任",
+     "zhǔ rèn",
+     "director; head",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "五十",
+     "wǔ shí",
+     "fifty",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "岁",
+     "suì",
+     "years old; classifier for years (of age); year",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "男人",
+     "nán rén",
+     "a man; a male; men",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不慌不忙",
+     "bù huāng bù máng",
+     "(idiom) calm; unhurried; composed",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "图纸",
+     "tú zhǐ",
+     "drawing; blueprint; design plans",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "完全",
+     "wán quán",
+     "complete; whole; totally; entirely",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "按照",
+     "àn zhào",
+     "according to; in accordance with; on the basis of",
+     ""
+    ],
+    [
+     "图纸",
+     "tú zhǐ",
+     "drawing; blueprint; design plans",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "尺寸",
+     "chǐ cun",
+     "size; dimensions; measurements (esp. of clothes)",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "没错",
+     "méi cuò",
+     "that's right; sure!; rest assured!",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克拿过图纸，仔细一看，脸色变了。",
+   "py": "Jié kè ná guò tú zhǐ, zǐ xì yí kàn, liǎn sè biàn le.",
+   "en": "Jack takes the drawing, looks closely, and his face changes.",
+   "tr": {
+    "am": "ጃክ ንድፉን ወስዶ በጥንቃቄ ሲያየው ፊቱ ተለወጠ።",
+    "fa": "جک نقشه رو می‌گیره و دقیق نگاه می‌کنه؛ رنگ صورتش عوض می‌شه."
+   },
+   "start": 42.888,
+   "end": 47.424,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to take; to hold; to seize",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "图纸",
+     "tú zhǐ",
+     "drawing; blueprint; design plans",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "仔细",
+     "zǐ xì",
+     "to be careful; to look out; careful; attentive; cautious",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "脸色",
+     "liǎn sè",
+     "look; complexion",
+     ""
+    ],
+    [
+     "变",
+     "biàn",
+     "to change; to become different; to transform",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杯子的图纸是新型号的，盖子的图纸却是去年老型号的，两个型号的杯口差了两毫米。",
+   "py": "bēi zi de tú zhǐ shì xīn xíng hào de, gài zi de tú zhǐ què shì qù nián lǎo xíng hào de, liǎng gè xíng hào de bēi kǒu chà le liǎng háo mǐ.",
+   "en": "The drawing for the flask is the new model, but the drawing for the lid is last year's old model, and the two models' openings differ by two millimetres.",
+   "tr": {
+    "am": "የኩባያው ንድፍ የአዲሱ ሞዴል ነው፣ የክዳኑ ንድፍ ግን የባለፈው ዓመት የአሮጌው ሞዴል ነው፣ የሁለቱ ሞዴሎች የአፍ ስፋት በሁለት ሚሊ ሜትር ይለያያል።",
+    "fa": "نقشه‌ی فلاسک مدل جدیده ولی نقشه‌ی درش مدل پارسالـه؛ دهانه‌ی این دو مدل دو میلی‌متر با هم فرق داره."
+   },
+   "start": 48.124,
+   "end": 57.124,
+   "tokens": [
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "图纸",
+     "tú zhǐ",
+     "drawing; blueprint; design plans",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "新型",
+     "xīn xíng",
+     "new type; new kind",
+     ""
+    ],
+    [
+     "号",
+     "hào",
+     "(literary) to call out; to command",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "盖子",
+     "gài zi",
+     "lid; cover; shell",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "图纸",
+     "tú zhǐ",
+     "drawing; blueprint; design plans",
+     ""
+    ],
+    [
+     "却是",
+     "què shì",
+     "nevertheless; actually; the fact is ...",
+     ""
+    ],
+    [
+     "去年",
+     "qù nián",
+     "last year",
+     ""
+    ],
+    [
+     "老",
+     "lǎo",
+     "old (of people)",
+     ""
+    ],
+    [
+     "型号",
+     "xíng hào",
+     "model (particular version of a manufactured article)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "两",
+     "liǎng",
+     "two",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "型号",
+     "xíng hào",
+     "model (particular version of a manufactured article)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "杯",
+     "bēi",
+     "cup; trophy cup",
+     ""
+    ],
+    [
+     "口",
+     "kǒu",
+     "mouth",
+     ""
+    ],
+    [
+     "差",
+     "chà",
+     "different; wrong; mistaken; to fall short; to lack",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two",
+     ""
+    ],
+    [
+     "毫米",
+     "háo mǐ",
+     "millimeter",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这两张图纸，都是他自己发给工厂的。",
+   "py": "zhè liǎng zhāng tú zhǐ, dōu shì tā zì jǐ fā gěi gōng chǎng de.",
+   "en": "Both drawings were sent to the factory by Jack himself.",
+   "tr": {
+    "am": "እነዚህን ሁለት ንድፎች ወደ ፋብሪካው የላከው ራሱ ጃክ ነበር።",
+    "fa": "هر دو نقشه رو خود جک برای کارخانه فرستاده بود."
+   },
+   "start": 57.824,
+   "end": 61.904,
+   "tokens": [
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "both; two; some",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "图纸",
+     "tú zhǐ",
+     "drawing; blueprint; design plans",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "发给",
+     "fā gěi",
+     "to issue; to grant; to distribute",
+     ""
+    ],
+    [
+     "工厂",
+     "gōng chǎng",
+     "factory",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used at the end of a declarative sentence for emphasis)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克一下子冒出了冷汗：一万个盖子全部返工，至少要两个星期，可是客户的交货期就在下个星期。",
+   "py": "Jié kè yí xià zi mào chū le lěng hàn: yí wàn gè gài zi quán bù fǎn gōng, zhì shǎo yào liǎng gè xīng qī, kě shì kè hù de jiāo huò qī jiù zài xià gè xīng qī.",
+   "en": "Jack breaks out in a cold sweat: reworking ten thousand lids would take at least two weeks, but the client's delivery date is next week.",
+   "tr": {
+    "am": "ጃክ ድንገት ቀዝቃዛ ላብ አላበው፦ አሥር ሺህ ክዳኖችን በሙሉ እንደገና ለመሥራት ቢያንስ ሁለት ሳምንት ያስፈልጋል፣ የደንበኛው የማስረከቢያ ቀን ግን በሚቀጥለው ሳምንት ነው።",
+    "fa": "یهو عرق سرد روی جک می‌ریزه: کار دوباره‌ی ده هزار درش حداقل دو هفته طول می‌کشه، ولی موعد تحویل به مشتری هفته‌ی دیگه‌ست."
+   },
+   "start": 62.604,
+   "end": 73.932,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "一下子",
+     "yī xià zi",
+     "once; one time; (following a verb) for a moment; briefly",
+     ""
+    ],
+    [
+     "冒",
+     "mào",
+     "to emit; to give off; to send out (or up, forth)",
+     ""
+    ],
+    [
+     "出",
+     "chū",
+     "to go out; to come out; to arise; to occur",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "冷汗",
+     "lěng hàn",
+     "cold sweat",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "万",
+     "wàn",
+     "ten thousand; a great number",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "盖子",
+     "gài zi",
+     "cover; lid; shell",
+     ""
+    ],
+    [
+     "全部",
+     "quán bù",
+     "whole; all",
+     ""
+    ],
+    [
+     "返工",
+     "fǎn gōng",
+     "to do poorly done work over again",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "至少",
+     "zhì shǎo",
+     "at least; (to say the) least",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "星期",
+     "xīng qī",
+     "week; day of the week; Sunday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "交货期",
+     "jiāo huò qī",
+     "delivery time (time between ordering goods and receiving the delivery)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "在下",
+     "zài xià",
+     "under; myself (humble)",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "星期",
+     "xīng qī",
+     "week; day of the week; Sunday",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他站在车间里，不知道该怎么跟周经理交代。",
+   "py": "tā zhàn zài chē jiān lǐ, bù zhī dào gāi zěn me gēn Zhōu jīng lǐ jiāo dài.",
+   "en": "He stands in the workshop, not knowing how he's going to explain this to Manager Zhou.",
+   "tr": {
+    "am": "ወርክሾፑ ውስጥ ቆሞ ለሥራ አስኪያጅ ጆው እንዴት እንደሚያስረዳ አላወቀም።",
+    "fa": " وسط کارگاه وایساده و نمی‌دونه چ‌طوری باید به مدیر جو توضیح بده."
+   },
+   "start": 74.632,
+   "end": 79.168,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "车间",
+     "chē jiān",
+     "workshop",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不知",
+     "bù zhī",
+     "not to know; unaware; unknowingly",
+     ""
+    ],
+    [
+     "道",
+     "dào",
+     "road; path; (bound form) way; reason; principle",
+     ""
+    ],
+    [
+     "该",
+     "gāi",
+     "should; ought to; probably",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "how?; what?; why?",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "交代",
+     "jiāo dài",
+     "to explain; to give an account; to brief",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "车间主任看了他一会儿，转身走进库房，搬出来一个大纸箱。",
+   "py": "chē jiān zhǔ rèn kàn le tā yí huì r, zhuǎn shēn zǒu jìn kù fáng, bān chū lái yí gè dà zhǐ xiāng.",
+   "en": "The supervisor watches him for a moment, then turns, goes into the storeroom and carries out a big cardboard box.",
+   "tr": {
+    "am": "የወርክሾፑ ኃላፊ ለጥቂት ጊዜ ተመለከተውና ዞሮ ወደ መጋዘኑ ገባ፣ አንድ ትልቅ ካርቶን ተሸክሞ ወጣ።",
+    "fa": "سرپرست کارگاه یه لحظه نگاهش می‌کنه، بعد برمی‌گرده توی انبار و یه کارتن مقوایی بزرگ میاره بیرون."
+   },
+   "start": 79.868,
+   "end": 86.276,
+   "tokens": [
+    [
+     "车间",
+     "chē jiān",
+     "workshop",
+     ""
+    ],
+    [
+     "主任",
+     "zhǔ rèn",
+     "director; head",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to watch; to watch out for; to see; to look at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一会儿",
+     "yī huì r",
+     "a moment; in a moment; a while",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "转身",
+     "zhuǎn shēn",
+     "(of a person) to turn round; to face about",
+     ""
+    ],
+    [
+     "走进",
+     "zǒu jìn",
+     "to enter; to step into",
+     ""
+    ],
+    [
+     "库房",
+     "kù fáng",
+     "storeroom; warehouse",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "搬",
+     "bān",
+     "to move (i.e. relocate oneself)",
+     ""
+    ],
+    [
+     "出来",
+     "chū lái",
+     "to come out; to appear; to arise",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "纸箱",
+     "zhǐ xiāng",
+     "cardboard box; carton",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "箱子里装满了盖子，跟新杯子正好配套。",
+   "py": "xiāng zi lǐ zhuāng mǎn le gài zi, gēn xīn bēi zi zhèng hǎo pèi tào.",
+   "en": "It's full of lids — and they fit the new flasks perfectly.",
+   "tr": {
+    "am": "ካርቶኑ በክዳኖች ተሞልቷል፣ ከአዲሶቹ ኩባያዎች ጋር ልክ ይገጥማሉ።",
+    "fa": "کارتن پر از درشه؛ دقیقاً به درد فلاسک‌های جدید می‌خوره."
+   },
+   "start": 86.976,
+   "end": 91.512,
+   "tokens": [
+    [
+     "箱子",
+     "xiāng zi",
+     "suitcase; chest; box",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "装满",
+     "zhuāng mǎn",
+     "to fill up",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "盖子",
+     "gài zi",
+     "cover; lid; shell",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "新",
+     "xīn",
+     "new; newly; meso- (chemistry)",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "正好",
+     "zhèng hǎo",
+     "just (in time); just right; just enough",
+     ""
+    ],
+    [
+     "配套",
+     "pèi tào",
+     "to form a complete set; compatible; matching",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "车间主任说：“两个月前做样品的时候，我就觉得不对劲：新杯子配老盖子，哪有这么做的？”",
+   "py": "chē jiān zhǔ rèn shuō: “liǎng gè yuè qián zuò yàng pǐn de shí hou, wǒ jiù jué de bú duì jìn: xīn bēi zi pèi lǎo gài zi, nǎ yǒu zhè me zuò de?”",
+   "en": "The supervisor says, \"Two months ago, when we made the samples, I felt something was off: a new flask with an old lid — who does that?\"",
+   "tr": {
+    "am": "የወርክሾፑ ኃላፊ እንዲህ አለ፦ «ከሁለት ወር በፊት ናሙናውን ስንሠራ የሆነ ነገር ልክ አልመሰለኝም፦ አዲስ ኩባያ ከአሮጌ ክዳን ጋር፣ እንዲህ የሚያደርግ ማን አለ?»",
+    "fa": "سرپرست کارگاه می‌گه: «دو ماه پیش وقت نمونه‌سازی، این شک و شبهه رو داشتم: فلاسک جدید با در قدیم، کی همچین کاری می‌کنه؟»"
+   },
+   "start": 92.212,
+   "end": 102.196,
+   "tokens": [
+    [
+     "车间",
+     "chē jiān",
+     "workshop",
+     ""
+    ],
+    [
+     "主任",
+     "zhǔ rèn",
+     "director; head",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; some",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; moon; monthly",
+     ""
+    ],
+    [
+     "前",
+     "qián",
+     "ago; front; forward",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "样品",
+     "yàng pǐn",
+     "sample; specimen",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "不对劲",
+     "bù duì jìn",
+     "not in good condition; wrong; fishy",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "新",
+     "xīn",
+     "new; newly; meso- (chemistry)",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "配",
+     "pèi",
+     "to join; to fit; to mate",
+     ""
+    ],
+    [
+     "老",
+     "lǎo",
+     "old (of people)",
+     ""
+    ],
+    [
+     "盖子",
+     "gài zi",
+     "lid; cover; shell",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "哪",
+     "nǎ",
+     "how; which",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我给你们发过一封邮件问，没人回。我想，以防万一，就按新型号也做了一万个。”",
+   "py": "“wǒ gěi nǐ men fā guò yì fēng yóu jiàn wèn, méi rén huí. wǒ xiǎng, yǐ fáng wàn yí, jiù àn xīn xíng hào yě zuò le yí wàn gè.”",
+   "en": "\"I emailed you to ask, and nobody replied. So I thought, just in case, I'd make ten thousand for the new model as well.\"",
+   "tr": {
+    "am": "«ለመጠየቅ ኢሜይል ልኬላችሁ ነበር፣ ማንም አልመለሰም። ስለዚህ ምናልባት ብዬ ለአዲሱ ሞዴልም አሥር ሺህ ሠራሁ።»",
+    "fa": "«بهتون هم ایمیل زدم و پرسیدم؛ هیچ‌کی جواب نداد. گفتم برای احتیاط، از مدل جدید هم ده‌هزار تا بسازم.»"
+   },
+   "start": 102.896,
+   "end": 110.96,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to make a bundle of money; to send out",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "封",
+     "fēng",
+     "classifier for sealed objects, esp. letters; to confer",
+     ""
+    ],
+    [
+     "邮件",
+     "yóu jiàn",
+     "email; mail; post",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "以防万一",
+     "yǐ fáng wàn yī",
+     "to guard against the unexpected (idiom); just in case",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "按",
+     "àn",
+     "(of an editor or author) to make a comment; to press",
+     ""
+    ],
+    [
+     "新型",
+     "xīn xíng",
+     "new type; new kind",
+     ""
+    ],
+    [
+     "号",
+     "hào",
+     "(literary) to call out; to command",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "万",
+     "wàn",
+     "ten thousand; a great number",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克打开邮箱一找，那封邮件果然在，标题是“盖子尺寸是否有误？”，他当成了广告，一直没打开。",
+   "py": "Jié kè dǎ kāi yóu xiāng yì zhǎo, nà fēng yóu jiàn guǒ rán zài, biāo tí shì “gài zi chǐ cùn shì fǒu yǒu wù?”, tā dàng chéng le guǎng gào, yì zhí méi dǎ kāi.",
+   "en": "Jack searches his inbox, and sure enough, there's the email, with the subject \"Is the lid size wrong?\" He'd taken it for an advert and never opened it.",
+   "tr": {
+    "am": "ጃክ የኢሜይል ሳጥኑን ከፍቶ ሲፈልግ ያ ኢሜይል በእርግጥም ነበር፣ ርዕሱም «የክዳኑ መጠን ተሳስቷል?» የሚል ነው፣ ማስታወቂያ መስሎት ከፍቶት አያውቅም ነበር።",
+    "fa": "جک توی ایمیلش جست‌وجو می‌کنه؛ ایمیل اونجاست، با موضوع «آیا سایز در اشتباهه؟». اون رو تبلیغ فرض کرده بود و بازش نکرده بود."
+   },
+   "start": 111.66,
+   "end": 122.052,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "邮箱",
+     "yóu xiāng",
+     "email; email inbox; mailbox",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "找",
+     "zhǎo",
+     "to try to find; to look for; to call on sb",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "封",
+     "fēng",
+     "classifier for sealed objects, esp. letters; to confer",
+     ""
+    ],
+    [
+     "邮件",
+     "yóu jiàn",
+     "email; mail; post",
+     ""
+    ],
+    [
+     "果然",
+     "guǒ rán",
+     "sure enough; really; as expected",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "标题",
+     "biāo tí",
+     "subject; title; heading",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "盖子",
+     "gài zi",
+     "lid; cover; shell",
+     ""
+    ],
+    [
+     "尺寸",
+     "chǐ cun",
+     "size; dimensions; measurements (esp. of clothes)",
+     ""
+    ],
+    [
+     "是否",
+     "shì fǒu",
+     "whether (or not); if; is or isn't",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "误",
+     "wù",
+     "mistake; error; to miss",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "当成",
+     "dàng chéng",
+     "to consider as; to take to be",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "广告",
+     "guǎng gào",
+     "to advertise; advertisement; a commercial",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他又惭愧又感激：“多做的这一万个盖子，成本我们来出。”",
+   "py": "tā yòu cán kuì yòu gǎn jī: “duō zuò de zhè yí wàn gè gài zi, chéng běn wǒ men lái chū.”",
+   "en": "Ashamed and grateful at once, he says, \"We'll cover the cost of the extra ten thousand lids.\"",
+   "tr": {
+    "am": "አፈረም፣ አመሰገነም፦ «በትርፍ የተሠሩትን እነዚህን አሥር ሺህ ክዳኖች ወጪ እኛ እንሸፍናለን።»",
+    "fa": "هم شرمساره هم ممنون: «هزینه‌ی اون ده‌هزار در اضافه رو ما می‌دیم.»"
+   },
+   "start": 122.752,
+   "end": 129.184,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "惭愧",
+     "cán kuì",
+     "ashamed",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "感激",
+     "gǎn jī",
+     "to be grateful; to appreciate; thankful",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "万",
+     "wàn",
+     "ten thousand; a great number",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "盖子",
+     "gài zi",
+     "cover; lid; shell",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "成本",
+     "chéng běn",
+     "(manufacturing, production etc) costs",
+     ""
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "出",
+     "chū",
+     "to go out; to come out; to arise; to occur",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "车间主任摆摆手：“老型号的盖子也浪费不了。你们去年那批杯子，以后总有客户要换盖子的。”",
+   "py": "chē jiān zhǔ rèn bǎi bǎi shǒu: “lǎo xíng hào de gài zi yě làng fèi bù liǎo. nǐ men qù nián nà pī bēi zi, yǐ hòu zǒng yǒu kè hù yào huàn gài zi de.”",
+   "en": "The supervisor waves it away. \"The old lids won't go to waste either. Sooner or later, customers with last year's flasks will want replacement lids.\"",
+   "tr": {
+    "am": "የወርክሾፑ ኃላፊ እጁን አወዛወዘ፦ «የአሮጌው ሞዴል ክዳኖችም አይባክኑም። የባለፈው ዓመት ኩባያዎቻችሁን የገዙ ደንበኞች ውሎ አድሮ ክዳን መቀየር ይፈልጋሉ።»",
+    "fa": "سرپرست کارگاه دستش رو تکون می‌ده: «درهای مدل قدیم هم هدر نمی‌ره. مشتری‌های فلاسک‌های پارسال شما بالاخره یه روزی در می‌خوان عوض کنن.»"
+   },
+   "start": 129.884,
+   "end": 139.316,
+   "tokens": [
+    [
+     "车间",
+     "chē jiān",
+     "workshop",
+     ""
+    ],
+    [
+     "主任",
+     "zhǔ rèn",
+     "director; head",
+     ""
+    ],
+    [
+     "摆",
+     "bǎi",
+     "to arrange; to exhibit; to move to and fro",
+     ""
+    ],
+    [
+     "摆手",
+     "bǎi shǒu",
+     "to wave one's hand",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "老",
+     "lǎo",
+     "old (of people)",
+     ""
+    ],
+    [
+     "型号",
+     "xíng hào",
+     "model (particular version of a manufactured article)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "盖子",
+     "gài zi",
+     "cover; lid; shell",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "浪费",
+     "làng fèi",
+     "to waste; to squander",
+     ""
+    ],
+    [
+     "不了",
+     "bù le",
+     "no thanks (used to politely but informally decline)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "去年",
+     "qù nián",
+     "last year",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "批",
+     "pī",
+     "classifier for batches, lots, military flights; to ascertain",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "总有",
+     "zǒng yǒu",
+     "inevitably there will be",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "换",
+     "huàn",
+     "to exchange; to change (clothes etc); to substitute",
+     ""
+    ],
+    [
+     "盖子",
+     "gài zi",
+     "cover; lid; shell",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "货按时发了出去，客户什么也不知道，只觉得这批杯子的盖子拧起来特别顺。",
+   "py": "huò àn shí fā le chū qù, kè hù shén me yě bù zhī dào, zhǐ jué de zhè pī bēi zi de gài zi níng qǐ lái tè bié shùn.",
+   "en": "The goods go out on time. The client knows nothing about it and only thinks the lids on this batch screw on especially smoothly.",
+   "tr": {
+    "am": "ዕቃው በሰዓቱ ተላከ፣ ደንበኛው ምንም አላወቀም፣ የዚህ ዙር ኩባያዎች ክዳን በጣም በቀላሉ እንደሚጠብቅ ብቻ ተሰማው።",
+    "fa": "کالا سر موعد ارسال می‌شه؛ مشتری هیچی نمی‌دونه و فقط فکر می‌کنه در همین محموله به‌خصوص روون می‌چرخه."
+   },
+   "start": 140.016,
+   "end": 147.096,
+   "tokens": [
+    [
+     "货",
+     "huò",
+     "goods; money; commodity",
+     ""
+    ],
+    [
+     "按时",
+     "àn shí",
+     "on time; before deadline; on schedule",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "出去",
+     "chū qù",
+     "to go out",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不知",
+     "bù zhī",
+     "not to know; unaware; unknowingly",
+     ""
+    ],
+    [
+     "道",
+     "dào",
+     "classifier for long thin things (rivers, cracks, shadows etc), barriers (walls, doors etc), questions (in an exam etc), commands, courses in a meal, steps in a process",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "觉得",
+     "jué de",
+     "to think that ...; to feel that ...",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "批",
+     "pī",
+     "classifier for batches, lots, military flights; to ascertain",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "盖子",
+     "gài zi",
+     "cover; lid; shell",
+     ""
+    ],
+    [
+     "拧",
+     "níng",
+     "to pinch; wring",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "特别",
+     "tè bié",
+     "very; especially; particularly; unusual; special",
+     ""
+    ],
+    [
+     "顺",
+     "shùn",
+     "to obey; to follow; to arrange",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "回北京以后，杰克做的第一件事，是把那家工厂的邮箱设成了“重要联系人”。",
+   "py": "huí Běi jīng yǐ hòu, Jié kè zuò de dì yī jiàn shì, shì bǎ nà jiā gōng chǎng de yóu xiāng shè chéng le “zhòng yào lián xì rén”.",
+   "en": "Back in Beijing, the first thing Jack does is mark the factory's email address as an \"important contact\".",
+   "tr": {
+    "am": "ወደ ቤጂንግ ከተመለሰ በኋላ ጃክ መጀመሪያ ያደረገው የዚያን ፋብሪካ ኢሜይል አድራሻ «አስፈላጊ ግንኙነት» ብሎ መመዝገብ ነበር።",
+    "fa": "بعد از برگشتن به پکن، اولین کاری که جک می‌کنه اینه که ایمیل اون کارخانه رو توی گروه «مخاطب‌های مهم» بذاره."
+   },
+   "start": 147.796,
+   "end": 155.164,
+   "tokens": [
+    [
+     "回",
+     "huí",
+     "to go back; to return; to turn back; to turn around",
+     ""
+    ],
+    [
+     "北京",
+     "běi jīng",
+     "Beijing municipality, capital of the People's Republic of China (short name 京)",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "(of a thing) to serve as; to be used for",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "第一",
+     "dì yī",
+     "first; most important; primary; foremost",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "thing; matter; item",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "classifier for things with handles; to hold; to grasp",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(pronoun) that (referring to persons, things or situations)",
+     ""
+    ],
+    [
+     "家",
+     "jiā",
+     "classifier for families or businesses; home; family",
+     ""
+    ],
+    [
+     "工厂",
+     "gōng chǎng",
+     "factory",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "邮箱",
+     "yóu xiāng",
+     "email; email inbox; mailbox",
+     ""
+    ],
+    [
+     "设",
+     "shè",
+     "to set up; to put in place; (math.) given; suppose; if",
+     ""
+    ],
+    [
+     "成了",
+     "chéng le",
+     "to be done; to be ready; that's enough!",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "重要",
+     "zhòng yào",
+     "important; significant; major",
+     ""
+    ],
+    [
+     "联系人",
+     "lián xì rén",
+     "contact person",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "第二件事，是在电脑旁边贴了一张便利贴：“发图纸以前，先问自己一句：哪有这么做的？”",
+   "py": "dì èr jiàn shì, shì zài diàn nǎo páng biān tiē le yì zhāng biàn lì tiē: “fā tú zhǐ yǐ qián, xiān wèn zì jǐ yí jù: nǎ yǒu zhè me zuò de?”",
+   "en": "The second is to stick a note beside his computer: \"Before sending a drawing, ask yourself: who does that?\"",
+   "tr": {
+    "am": "ሁለተኛው ደግሞ በኮምፒውተሩ አጠገብ ተለጣፊ ማስታወሻ መለጠፍ ነበር፦ «ንድፍ ከመላክህ በፊት ራስህን ጠይቅ፦ እንዲህ የሚያደርግ ማን አለ?»",
+    "fa": "کار دومش اینه که کنار کامپیوترش یه برگه یادداشت بچسبونه: «قبل از فرستادن نقشه، از خودت بپرس: کی همچین کاری می‌کنه؟»"
+   },
+   "start": 155.864,
+   "end": 164.84,
+   "tokens": [
+    [
+     "第二",
+     "dì èr",
+     "second; secondary; number two",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "matter; thing; item",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "(used before a verb to indicate an action in progress)",
+     ""
+    ],
+    [
+     "电脑",
+     "diàn nǎo",
+     "computer",
+     ""
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "贴",
+     "tiē",
+     "to stick; sticker; classifier for sticking plaster: strip",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "便利贴",
+     "biàn lì tiē",
+     "sticky note",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "图纸",
+     "tú zhǐ",
+     "drawing; blueprint; design plans",
+     ""
+    ],
+    [
+     "以前",
+     "yǐ qián",
+     "before; formerly; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "一句",
+     "yī jù",
+     "a line of verse; a sentence",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "哪",
+     "nǎ",
+     "how; which",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 557,
+ "first": "公司订的一万个保温杯做好了，杰克去工厂验货，准备检查完就发货。",
+ "newWords": [
+  {
+   "w": "验货",
+   "py": "yàn huò",
+   "en": "inspection of goods"
+  },
+  {
+   "w": "型号",
+   "py": "xíng hào",
+   "en": "model (particular version of a manufactured article)"
+  },
+  {
+   "w": "图纸",
+   "py": "tú zhǐ",
+   "en": "blueprint"
+  },
+  {
+   "w": "返工",
+   "py": "fǎn gōng",
+   "en": "to do poorly done work over again"
+  },
+  {
+   "w": "以防万一",
+   "py": "yǐ fáng wàn yī",
+   "en": "to guard against the unexpected (idiom)"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h6-68.mp3?v=1791722664"
 }

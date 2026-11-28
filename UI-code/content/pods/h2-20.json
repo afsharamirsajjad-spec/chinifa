@@ -1,1306 +1,1320 @@
 {
-  "id": "h2-20",
-  "level": 2,
-  "no": 20,
-  "title": "看熊猫",
-  "title_py": "kàn xióng māo",
-  "title_en": "Seeing the panda",
-  "title_tr": {
-    "vi": "Đi xem gấu trúc",
-    "pt": "Vendo o panda",
-    "es": "A ver al panda",
-    "fr": "Voir le panda",
-    "am": "ፓንዳ ማየት",
-    "fa": "دیدن خرس پاندا"
+ "id": "h2-20",
+ "level": 2,
+ "no": 20,
+ "title": "看熊猫",
+ "title_py": "kàn xióng māo",
+ "title_en": "Seeing the panda",
+ "title_tr": {
+  "vi": "Đi xem gấu trúc",
+  "pt": "Vendo o panda",
+  "es": "A ver al panda",
+  "fr": "Voir le panda",
+  "am": "ፓንዳ ማየት",
+  "fa": "دیدن خرس پاندا"
+ },
+ "topic": "out",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h2-20.jpg",
+ "duration": 72.756,
+ "lines": [
+  {
+   "text": "李强还没看过真的熊猫。",
+   "py": "Lǐ Qiáng hái méi kàn guò zhēn de xióng māo.",
+   "en": "Li Qiang has never seen a real panda.",
+   "tr": {
+    "vi": "Lý Cường chưa từng thấy gấu trúc thật.",
+    "pt": "Li Qiang nunca viu um panda de verdade.",
+    "es": "Li Qiang nunca ha visto un panda de verdad.",
+    "fr": "Li Qiang n’a encore jamais vu de vrai panda.",
+    "am": "ሊ ቺያንግ እውነተኛ ፓንዳ አይቶ አያውቅም።",
+    "fa": "لی چیانگ تا حالا پاندای واقعی ندیده بود."
+   },
+   "start": 2.14,
+   "end": 4.78,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "真的",
+     "zhēn de",
+     "really; truly; indeed; real; true; genuine; (math.) proper",
+     ""
+    ],
+    [
+     "熊猫",
+     "xióng māo",
+     "panda",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "out",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h2-20.jpg",
-  "duration": 72.756,
-  "lines": [
-    {
-      "text": "李强还没看过真的熊猫。",
-      "py": "Lǐ Qiáng hái méi kàn guò zhēn de xióng māo.",
-      "en": "Li Qiang has never seen a real panda.",
-      "tr": {
-        "vi": "Lý Cường chưa từng thấy gấu trúc thật.",
-        "pt": "Li Qiang nunca viu um panda de verdade.",
-        "es": "Li Qiang nunca ha visto un panda de verdad.",
-        "fr": "Li Qiang n’a encore jamais vu de vrai panda.",
-        "am": "ሊ ቺያንግ እውነተኛ ፓንዳ አይቶ አያውቅም።"
-      },
-      "start": 2.14,
-      "end": 4.78,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "真的",
-          "zhēn de",
-          "really; truly; indeed; real; true; genuine; (math.) proper",
-          ""
-        ],
-        [
-          "熊猫",
-          "xióng māo",
-          "panda",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "星期天，小雨和他一起去动物园。",
-      "py": "xīng qī tiān, Xiǎo yǔ hé tā yì qǐ qù dòng wù yuán.",
-      "en": "On Sunday, Xiaoyu goes to the zoo with him.",
-      "tr": {
-        "vi": "Chủ nhật, Tiểu Vũ cùng cậu ấy đi sở thú.",
-        "pt": "No domingo, Xiaoyu vai ao zoológico com ele.",
-        "es": "El domingo, Xiaoyu va con él al zoológico.",
-        "fr": "Dimanche, Xiaoyu va au zoo avec lui.",
-        "am": "እሑድ ሺያውዩ ከእሱ ጋር ወደ እንስሳት መናፈሻ ሄደች።"
-      },
-      "start": 5.48,
-      "end": 9.752,
-      "tokens": [
-        [
-          "星期天",
-          "xīng qī tiān",
-          "Sunday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一起",
-          "yī qǐ",
-          "(in) the same place; together; in company (with)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "动物园",
-          "dòng wù yuán",
-          "zoo",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "那天看熊猫的人很多，他们等了半个小时才进去。",
-      "py": "nà tiān kàn xióng māo de rén hěn duō, tā men děng le bàn gè xiǎo shí cái jìn qù.",
-      "en": "Lots of people are there to see the pandas that day, and they wait half an hour to get in.",
-      "tr": {
-        "vi": "Hôm đó có rất nhiều người đến xem gấu trúc, họ đợi nửa tiếng mới vào được.",
-        "pt": "Naquele dia, tem muita gente para ver os pandas, e eles esperam meia hora para entrar.",
-        "es": "Ese día hay mucha gente viendo a los pandas, y esperan media hora para poder entrar.",
-        "fr": "Ce jour-là, il y a beaucoup de monde pour voir les pandas, et ils attendent une demi-heure avant d’entrer.",
-        "am": "በዚያ ቀን ፓንዳ ለማየት የመጣው ሰው ብዙ ነበር፤ ግማሽ ሰዓት ጠብቀው ገቡ።"
-      },
-      "start": 10.452,
-      "end": 15.204,
-      "tokens": [
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "熊猫",
-          "xióng māo",
-          "panda",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "半个",
-          "bàn ge",
-          "half of sth",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "才",
-          "cái",
-          "ability; talent; sb of a certain type; a capable individual",
-          ""
-        ],
-        [
-          "进去",
-          "jìn qù",
-          "to go in",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "可是熊猫一直在睡觉，一动也不动。",
-      "py": "kě shì xióng māo yì zhí zài shuì jiào, yí dòng yě bú dòng.",
-      "en": "But the panda just keeps sleeping and doesn't move at all.",
-      "tr": {
-        "vi": "Nhưng con gấu trúc cứ ngủ mãi, không nhúc nhích chút nào.",
-        "pt": "Mas o panda fica dormindo o tempo todo, sem se mexer.",
-        "es": "Pero el panda no deja de dormir y no se mueve para nada.",
-        "fr": "Mais le panda dort sans arrêt et ne bouge pas du tout.",
-        "am": "ፓንዳው ግን ተኝቶ ነበር፤ ፈጽሞ አይንቀሳቀስም።"
-      },
-      "start": 15.904,
-      "end": 19.72,
-      "tokens": [
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "熊猫",
-          "xióng māo",
-          "panda",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "continuously; always; all the way through",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to sleep; to go to bed",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "动",
-          "dòng",
-          "(of sth) to move; to set in movement; to displace",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不动",
-          "bù dòng",
-          "motionless",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李强说：“没关系，我们等它醒。”",
-      "py": "Lǐ Qiáng shuō: “méi guān xi, wǒ men děng tā xǐng.”",
-      "en": "Li Qiang says, \"That's OK. We'll wait for it to wake up.\"",
-      "tr": {
-        "vi": "Lý Cường nói: “Không sao, chúng ta đợi nó dậy.”",
-        "pt": "Li Qiang diz: “Não tem problema. A gente espera ele acordar.”",
-        "es": "Li Qiang dice: «No pasa nada. Esperamos a que se despierte».",
-        "fr": "Li Qiang dit : « Ce n’est pas grave, on va attendre qu’il se réveille. »",
-        "am": "ሊ ቺያንግ «ችግር የለም፤ እስኪነቃ እንጠብቃለን» አለ።"
-      },
-      "start": 20.42,
-      "end": 24.02,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "没关系",
-          "méi guān xi",
-          "it doesn't matter",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "醒",
-          "xǐng",
-          "to wake up; to be awake; to become aware",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "他们在旁边的椅子上坐着等。",
-      "py": "tā men zài páng biān de yǐ zi shàng zuò zhe děng.",
-      "en": "They sit on a bench nearby and wait.",
-      "tr": {
-        "vi": "Họ ngồi trên chiếc ghế dài bên cạnh để đợi.",
-        "pt": "Eles se sentam num banco ali perto e esperam.",
-        "es": "Se sientan a esperar en una banca cercana.",
-        "fr": "Ils s’assoient sur un banc à côté pour attendre.",
-        "am": "አጠገቡ ባለው ወንበር ላይ ተቀምጠው ጠበቁ።"
-      },
-      "start": 24.72,
-      "end": 27.576,
-      "tokens": [
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "在旁",
-          "zài páng",
-          "nearby; alongside",
-          ""
-        ],
-        [
-          "边",
-          "biān",
-          "side; edge; margin",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "椅子",
-          "yǐ zi",
-          "chair",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "一个小时过去了，熊猫还在睡。",
-      "py": "yí gè xiǎo shí guò qù le, xióng māo hái zài shuì.",
-      "en": "An hour goes by, and the panda is still asleep.",
-      "tr": {
-        "vi": "Một tiếng trôi qua, gấu trúc vẫn đang ngủ.",
-        "pt": "Passa uma hora, e o panda continua dormindo.",
-        "es": "Pasa una hora, y el panda sigue dormido.",
-        "fr": "Une heure passe, et le panda dort toujours.",
-        "am": "አንድ ሰዓት አለፈ፤ ፓንዳው አሁንም ተኝቷል።"
-      },
-      "start": 28.276,
-      "end": 32.068,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "过去",
-          "guò qù",
-          "(in the) past; former; previous; to go over; to pass by",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "熊猫",
-          "xióng māo",
-          "panda",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "睡",
-          "shuì",
-          "to sleep; to lie down",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "天气很热，李强也累了，坐着坐着就睡着了。",
-      "py": "tiān qì hěn rè, Lǐ Qiáng yě lèi le, zuò zhe zuò zhe jiù shuì zháo le.",
-      "en": "It's hot, and Li Qiang is tired too. Sitting there, he drifts off to sleep.",
-      "tr": {
-        "vi": "Trời rất nóng, Lý Cường cũng mệt, ngồi một lúc thì ngủ thiếp đi.",
-        "pt": "Está muito calor, e Li Qiang também está cansado. Sentado ali, ele acaba pegando no sono.",
-        "es": "Hace mucho calor, y Li Qiang también está cansado. Ahí sentado, se queda dormido.",
-        "fr": "Il fait chaud, et Li Qiang est fatigué lui aussi. À force d’attendre assis, il finit par s’endormir.",
-        "am": "አየሩ በጣም ሞቃት ነበር፤ ሊ ቺያንግም ደክሞት ነበር፤ ተቀምጦ እንዳለ እንቅልፍ ወሰደው።"
-      },
-      "start": 32.768,
-      "end": 38.216,
-      "tokens": [
-        [
-          "天气",
-          "tiān qì",
-          "weather",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "热",
-          "rè",
-          "hot (of weather); to warm up; to heat up",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "累",
-          "lèi",
-          "tired; weary; to strain",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "睡着",
-          "shuì zháo",
-          "to fall asleep",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这时候，熊猫醒了！它坐了起来，开始吃东西。",
-      "py": "zhè shí hou, xióng māo xǐng le! tā zuò le qǐ lái, kāi shǐ chī dōng xi.",
-      "en": "Just then, the panda wakes up! It sits up and starts eating.",
-      "tr": {
-        "vi": "Đúng lúc đó, gấu trúc thức dậy! Nó ngồi dậy và bắt đầu ăn.",
-        "pt": "Nesse momento, o panda acorda! Ele se senta e começa a comer.",
-        "es": "En ese momento, ¡el panda se despierta! Se sienta y empieza a comer.",
-        "fr": "À ce moment-là, le panda se réveille ! Il s’assoit et commence à manger.",
-        "am": "በዚያን ጊዜ ፓንዳው ነቃ! ቀና ብሎ ተቀመጠና መብላት ጀመረ።"
-      },
-      "start": 38.916,
-      "end": 44.604,
-      "tokens": [
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "候",
-          "hòu",
-          "to wait; to inquire after; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "熊猫",
-          "xióng māo",
-          "panda",
-          ""
-        ],
-        [
-          "醒",
-          "xǐng",
-          "to wake up; to be awake; to become aware",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨用手机照了很多照片。",
-      "py": "Xiǎo yǔ yòng shǒu jī zhào le hěn duō zhào piàn.",
-      "en": "Xiaoyu takes lots of photos with her phone.",
-      "tr": {
-        "vi": "Tiểu Vũ dùng điện thoại chụp rất nhiều ảnh.",
-        "pt": "Xiaoyu tira muitas fotos com o celular.",
-        "es": "Xiaoyu toma muchas fotos con el celular.",
-        "fr": "Xiaoyu prend plein de photos avec son téléphone.",
-        "am": "ሺያውዩ በስልኳ ብዙ ፎቶ አነሳች።"
-      },
-      "start": 45.304,
-      "end": 48.616,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "用",
-          "yòng",
-          "to use; to make use of; to employ; (coverb) with; using",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "照",
-          "zhào",
-          "to take (a photo); photo; to shine",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "二十分钟以后，熊猫又睡了。这时候，李强醒了。",
-      "py": "èr shí fēn zhōng yǐ hòu, xióng māo yòu shuì le. zhè shí hou, Lǐ Qiáng xǐng le.",
-      "en": "Twenty minutes later, the panda goes back to sleep. Just then, Li Qiang wakes up.",
-      "tr": {
-        "vi": "Hai mươi phút sau, gấu trúc lại ngủ. Đúng lúc đó, Lý Cường tỉnh dậy.",
-        "pt": "Vinte minutos depois, o panda volta a dormir. Nesse momento, Li Qiang acorda.",
-        "es": "Veinte minutos después, el panda se vuelve a dormir. Justo entonces, Li Qiang se despierta.",
-        "fr": "Vingt minutes plus tard, le panda se rendort. C’est alors que Li Qiang se réveille.",
-        "am": "ከሃያ ደቂቃ በኋላ ፓንዳው እንደገና ተኛ። በዚያን ጊዜ ሊ ቺያንግ ነቃ።"
-      },
-      "start": 49.316,
-      "end": 55.004,
-      "tokens": [
-        [
-          "二十",
-          "èr shí",
-          "twenty; 20",
-          ""
-        ],
-        [
-          "分钟",
-          "fēn zhōng",
-          "minute",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "熊猫",
-          "xióng māo",
-          "panda",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "睡",
-          "shuì",
-          "to sleep; to lie down",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "这时",
-          "zhè shí",
-          "at this time; at this moment",
-          ""
-        ],
-        [
-          "候",
-          "hòu",
-          "to wait; to inquire after; to watch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "醒",
-          "xǐng",
-          "to wake up; to be awake; to become aware",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他问：“熊猫醒了吗？”",
-      "py": "tā wèn: “xióng māo xǐng le ma?”",
-      "en": "He asks, \"Has the panda woken up yet?\"",
-      "tr": {
-        "vi": "Cậu ấy hỏi: “Gấu trúc dậy chưa?”",
-        "pt": "Ele pergunta: “O panda já acordou?”",
-        "es": "Pregunta: «¿Ya se despertó el panda?»",
-        "fr": "Il demande : « Le panda s’est réveillé ? »",
-        "am": "«ፓንዳው ነቃ?» ብሎ ጠየቀ።"
-      },
-      "start": 55.704,
-      "end": 58.56,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "熊猫",
-          "xióng māo",
-          "panda",
-          ""
-        ],
-        [
-          "醒",
-          "xǐng",
-          "to wake up; to be awake; to become aware",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨给他看手机里的照片：“它醒的时候，你在睡觉；你醒了，它又睡了！”",
-      "py": "Xiǎo yǔ gěi tā kàn shǒu jī lǐ de zhào piàn: “tā xǐng de shí hou, nǐ zài shuì jiào; nǐ xǐng le, tā yòu shuì le!”",
-      "en": "Xiaoyu shows him the photos on her phone. \"When it was awake, you were asleep. Now you're awake, it's asleep again!\"",
-      "tr": {
-        "vi": "Tiểu Vũ cho cậu xem ảnh trong điện thoại: “Lúc nó thức thì cậu ngủ; cậu dậy rồi thì nó lại ngủ!”",
-        "pt": "Xiaoyu mostra as fotos no celular: “Quando ele estava acordado, você estava dormindo. Agora que você acordou, ele voltou a dormir!”",
-        "es": "Xiaoyu le muestra las fotos del celular: «Cuando él estaba despierto, tú estabas dormido. ¡Y ahora que te despertaste, él se volvió a dormir!»",
-        "fr": "Xiaoyu lui montre les photos sur son téléphone : « Quand il était réveillé, tu dormais ; maintenant que tu es réveillé, il s’est rendormi ! »",
-        "am": "ሺያውዩ በስልኳ ያሉትን ፎቶዎች አሳየችው። «እሱ ሲነቃ አንተ ተኝተህ ነበር፤ አንተ ስትነቃ እሱ እንደገና ተኛ!»"
-      },
-      "start": 59.26,
-      "end": 66.82,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "醒",
-          "xǐng",
-          "to be awake; to wake up; to become aware",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to go to bed; to sleep",
-          ""
-        ],
-        [
-          "；"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "醒",
-          "xǐng",
-          "to be awake; to wake up; to become aware",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "它",
-          "tā",
-          "it; it (pronoun for an animal)",
-          ""
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "睡",
-          "shuì",
-          "to sleep; to lie down",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "李强笑了：“我跟熊猫一样，都爱睡觉！”",
-      "py": "Lǐ Qiáng xiào le: “wǒ gēn xióng māo yí yàng, dōu ài shuì jiào!”",
-      "en": "Li Qiang laughs. \"The panda and I are the same. We both love sleeping!\"",
-      "tr": {
-        "vi": "Lý Cường cười: “Mình giống gấu trúc, đều mê ngủ!”",
-        "pt": "Li Qiang ri: “Eu sou igual ao panda. Nós dois adoramos dormir!”",
-        "es": "Li Qiang se ríe: «¡El panda y yo somos iguales, a los dos nos encanta dormir!»",
-        "fr": "Li Qiang rit : « Le panda et moi, on est pareils : on adore dormir ! »",
-        "am": "ሊ ቺያንግ ሳቀ። «እኔና ፓንዳው አንድ ነን፤ ሁለታችንም እንቅልፍ እንወዳለን!»"
-      },
-      "start": 67.52,
-      "end": 72.056,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "强",
-          "jiàng",
-          "stubborn; unyielding",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "熊猫",
-          "xióng māo",
-          "panda",
-          ""
-        ],
-        [
-          "一样",
-          "yī yàng",
-          "same; the same as; like",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "爱",
-          "ài",
-          "to love; to be fond of; to like; affection",
-          ""
-        ],
-        [
-          "睡觉",
-          "shuì jiào",
-          "to sleep; to go to bed",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 203,
-  "first": "李强还没看过真的熊猫。",
-  "newWords": [
-    {
-      "w": "熊猫",
-      "py": "xióngmāo",
-      "en": "panda"
-    },
-    {
-      "w": "动物园",
-      "py": "dòngwùyuán",
-      "en": "zoo"
-    },
-    {
-      "w": "醒",
-      "py": "xǐng",
-      "en": "to wake up"
-    },
-    {
-      "w": "照片",
-      "py": "zhàopiàn",
-      "en": "photo"
-    },
-    {
-      "w": "睡着",
-      "py": "shuìzháo",
-      "en": "to fall asleep"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h2-20.mp3?v=1791720563"
+  {
+   "text": "星期天，小雨和他一起去动物园。",
+   "py": "xīng qī tiān, Xiǎo yǔ hé tā yì qǐ qù dòng wù yuán.",
+   "en": "On Sunday, Xiaoyu goes to the zoo with him.",
+   "tr": {
+    "vi": "Chủ nhật, Tiểu Vũ cùng cậu ấy đi sở thú.",
+    "pt": "No domingo, Xiaoyu vai ao zoológico com ele.",
+    "es": "El domingo, Xiaoyu va con él al zoológico.",
+    "fr": "Dimanche, Xiaoyu va au zoo avec lui.",
+    "am": "እሑድ ሺያውዩ ከእሱ ጋር ወደ እንስሳት መናፈሻ ሄደች።",
+    "fa": "یکشنبه شیائویو با هم می‌رن باغ وحش."
+   },
+   "start": 5.48,
+   "end": 9.752,
+   "tokens": [
+    [
+     "星期天",
+     "xīng qī tiān",
+     "Sunday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一起",
+     "yī qǐ",
+     "(in) the same place; together; in company (with)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "动物园",
+     "dòng wù yuán",
+     "zoo",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "那天看熊猫的人很多，他们等了半个小时才进去。",
+   "py": "nà tiān kàn xióng māo de rén hěn duō, tā men děng le bàn gè xiǎo shí cái jìn qù.",
+   "en": "Lots of people are there to see the pandas that day, and they wait half an hour to get in.",
+   "tr": {
+    "vi": "Hôm đó có rất nhiều người đến xem gấu trúc, họ đợi nửa tiếng mới vào được.",
+    "pt": "Naquele dia, tem muita gente para ver os pandas, e eles esperam meia hora para entrar.",
+    "es": "Ese día hay mucha gente viendo a los pandas, y esperan media hora para poder entrar.",
+    "fr": "Ce jour-là, il y a beaucoup de monde pour voir les pandas, et ils attendent une demi-heure avant d’entrer.",
+    "am": "በዚያ ቀን ፓንዳ ለማየት የመጣው ሰው ብዙ ነበር፤ ግማሽ ሰዓት ጠብቀው ገቡ።",
+    "fa": "اون روز کلی آدم اومده پاندا ببینه و نیم ساعت معطل می‌شن تا برن تو."
+   },
+   "start": 10.452,
+   "end": 15.204,
+   "tokens": [
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "熊猫",
+     "xióng māo",
+     "panda",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "半个",
+     "bàn ge",
+     "half of sth",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "才",
+     "cái",
+     "ability; talent; sb of a certain type; a capable individual",
+     ""
+    ],
+    [
+     "进去",
+     "jìn qù",
+     "to go in",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "可是熊猫一直在睡觉，一动也不动。",
+   "py": "kě shì xióng māo yì zhí zài shuì jiào, yí dòng yě bú dòng.",
+   "en": "But the panda just keeps sleeping and doesn't move at all.",
+   "tr": {
+    "vi": "Nhưng con gấu trúc cứ ngủ mãi, không nhúc nhích chút nào.",
+    "pt": "Mas o panda fica dormindo o tempo todo, sem se mexer.",
+    "es": "Pero el panda no deja de dormir y no se mueve para nada.",
+    "fr": "Mais le panda dort sans arrêt et ne bouge pas du tout.",
+    "am": "ፓንዳው ግን ተኝቶ ነበር፤ ፈጽሞ አይንቀሳቀስም።",
+    "fa": "ولی پاندا مدام می‌خوابه و تکون هم نمی‌خوره."
+   },
+   "start": 15.904,
+   "end": 19.72,
+   "tokens": [
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "熊猫",
+     "xióng māo",
+     "panda",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "continuously; always; all the way through",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to sleep; to go to bed",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "动",
+     "dòng",
+     "(of sth) to move; to set in movement; to displace",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不动",
+     "bù dòng",
+     "motionless",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李强说：“没关系，我们等它醒。”",
+   "py": "Lǐ Qiáng shuō: “méi guān xi, wǒ men děng tā xǐng.”",
+   "en": "Li Qiang says, \"That's OK. We'll wait for it to wake up.\"",
+   "tr": {
+    "vi": "Lý Cường nói: “Không sao, chúng ta đợi nó dậy.”",
+    "pt": "Li Qiang diz: “Não tem problema. A gente espera ele acordar.”",
+    "es": "Li Qiang dice: «No pasa nada. Esperamos a que se despierte».",
+    "fr": "Li Qiang dit : « Ce n’est pas grave, on va attendre qu’il se réveille. »",
+    "am": "ሊ ቺያንግ «ችግር የለም፤ እስኪነቃ እንጠብቃለን» አለ።",
+    "fa": "لی چیانگ می‌گه: «اشکالی نداره؛ صبر می‌کنیم بیدار شه.»"
+   },
+   "start": 20.42,
+   "end": 24.02,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "没关系",
+     "méi guān xi",
+     "it doesn't matter",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "醒",
+     "xǐng",
+     "to wake up; to be awake; to become aware",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "他们在旁边的椅子上坐着等。",
+   "py": "tā men zài páng biān de yǐ zi shàng zuò zhe děng.",
+   "en": "They sit on a bench nearby and wait.",
+   "tr": {
+    "vi": "Họ ngồi trên chiếc ghế dài bên cạnh để đợi.",
+    "pt": "Eles se sentam num banco ali perto e esperam.",
+    "es": "Se sientan a esperar en una banca cercana.",
+    "fr": "Ils s’assoient sur un banc à côté pour attendre.",
+    "am": "አጠገቡ ባለው ወንበር ላይ ተቀምጠው ጠበቁ።",
+    "fa": "روی نیمکت کناری می‌شینن و منتظر می‌مونن."
+   },
+   "start": 24.72,
+   "end": 27.576,
+   "tokens": [
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "在旁",
+     "zài páng",
+     "nearby; alongside",
+     ""
+    ],
+    [
+     "边",
+     "biān",
+     "side; edge; margin",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "椅子",
+     "yǐ zi",
+     "chair",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "一个小时过去了，熊猫还在睡。",
+   "py": "yí gè xiǎo shí guò qù le, xióng māo hái zài shuì.",
+   "en": "An hour goes by, and the panda is still asleep.",
+   "tr": {
+    "vi": "Một tiếng trôi qua, gấu trúc vẫn đang ngủ.",
+    "pt": "Passa uma hora, e o panda continua dormindo.",
+    "es": "Pasa una hora, y el panda sigue dormido.",
+    "fr": "Une heure passe, et le panda dort toujours.",
+    "am": "አንድ ሰዓት አለፈ፤ ፓንዳው አሁንም ተኝቷል።",
+    "fa": "یه ساعت می‌گذره و پاندا هنوز خوابه."
+   },
+   "start": 28.276,
+   "end": 32.068,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "过去",
+     "guò qù",
+     "(in the) past; former; previous; to go over; to pass by",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "熊猫",
+     "xióng māo",
+     "panda",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "睡",
+     "shuì",
+     "to sleep; to lie down",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "天气很热，李强也累了，坐着坐着就睡着了。",
+   "py": "tiān qì hěn rè, Lǐ Qiáng yě lèi le, zuò zhe zuò zhe jiù shuì zháo le.",
+   "en": "It's hot, and Li Qiang is tired too. Sitting there, he drifts off to sleep.",
+   "tr": {
+    "vi": "Trời rất nóng, Lý Cường cũng mệt, ngồi một lúc thì ngủ thiếp đi.",
+    "pt": "Está muito calor, e Li Qiang também está cansado. Sentado ali, ele acaba pegando no sono.",
+    "es": "Hace mucho calor, y Li Qiang también está cansado. Ahí sentado, se queda dormido.",
+    "fr": "Il fait chaud, et Li Qiang est fatigué lui aussi. À force d’attendre assis, il finit par s’endormir.",
+    "am": "አየሩ በጣም ሞቃት ነበር፤ ሊ ቺያንግም ደክሞት ነበር፤ ተቀምጦ እንዳለ እንቅልፍ ወሰደው።",
+    "fa": "هوا گرمه و لی چیانگم خسته‌ست؛ همون‌جا که نشسته خوابش می‌بره."
+   },
+   "start": 32.768,
+   "end": 38.216,
+   "tokens": [
+    [
+     "天气",
+     "tiān qì",
+     "weather",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "热",
+     "rè",
+     "hot (of weather); to warm up; to heat up",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "累",
+     "lèi",
+     "tired; weary; to strain",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "睡着",
+     "shuì zháo",
+     "to fall asleep",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这时候，熊猫醒了！它坐了起来，开始吃东西。",
+   "py": "zhè shí hou, xióng māo xǐng le! tā zuò le qǐ lái, kāi shǐ chī dōng xi.",
+   "en": "Just then, the panda wakes up! It sits up and starts eating.",
+   "tr": {
+    "vi": "Đúng lúc đó, gấu trúc thức dậy! Nó ngồi dậy và bắt đầu ăn.",
+    "pt": "Nesse momento, o panda acorda! Ele se senta e começa a comer.",
+    "es": "En ese momento, ¡el panda se despierta! Se sienta y empieza a comer.",
+    "fr": "À ce moment-là, le panda se réveille ! Il s’assoit et commence à manger.",
+    "am": "በዚያን ጊዜ ፓንዳው ነቃ! ቀና ብሎ ተቀመጠና መብላት ጀመረ።",
+    "fa": "در همین حین پاندا بیدار می‌شه! می‌شینه و شروع می‌کنه به غذا خوردن."
+   },
+   "start": 38.916,
+   "end": 44.604,
+   "tokens": [
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "候",
+     "hòu",
+     "to wait; to inquire after; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "熊猫",
+     "xióng māo",
+     "panda",
+     ""
+    ],
+    [
+     "醒",
+     "xǐng",
+     "to wake up; to be awake; to become aware",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨用手机照了很多照片。",
+   "py": "Xiǎo yǔ yòng shǒu jī zhào le hěn duō zhào piàn.",
+   "en": "Xiaoyu takes lots of photos with her phone.",
+   "tr": {
+    "vi": "Tiểu Vũ dùng điện thoại chụp rất nhiều ảnh.",
+    "pt": "Xiaoyu tira muitas fotos com o celular.",
+    "es": "Xiaoyu toma muchas fotos con el celular.",
+    "fr": "Xiaoyu prend plein de photos avec son téléphone.",
+    "am": "ሺያውዩ በስልኳ ብዙ ፎቶ አነሳች።",
+    "fa": "شیائویو با گوشی‌ش کلی عکس می‌گیره."
+   },
+   "start": 45.304,
+   "end": 48.616,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "用",
+     "yòng",
+     "to use; to make use of; to employ; (coverb) with; using",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "照",
+     "zhào",
+     "to take (a photo); photo; to shine",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "二十分钟以后，熊猫又睡了。这时候，李强醒了。",
+   "py": "èr shí fēn zhōng yǐ hòu, xióng māo yòu shuì le. zhè shí hou, Lǐ Qiáng xǐng le.",
+   "en": "Twenty minutes later, the panda goes back to sleep. Just then, Li Qiang wakes up.",
+   "tr": {
+    "vi": "Hai mươi phút sau, gấu trúc lại ngủ. Đúng lúc đó, Lý Cường tỉnh dậy.",
+    "pt": "Vinte minutos depois, o panda volta a dormir. Nesse momento, Li Qiang acorda.",
+    "es": "Veinte minutos después, el panda se vuelve a dormir. Justo entonces, Li Qiang se despierta.",
+    "fr": "Vingt minutes plus tard, le panda se rendort. C’est alors que Li Qiang se réveille.",
+    "am": "ከሃያ ደቂቃ በኋላ ፓንዳው እንደገና ተኛ። በዚያን ጊዜ ሊ ቺያንግ ነቃ።",
+    "fa": "بیست دقیقه بعد پاندا دوباره می‌خوابه. همان لحظه لی چیانگ بیدار می‌شه."
+   },
+   "start": 49.316,
+   "end": 55.004,
+   "tokens": [
+    [
+     "二十",
+     "èr shí",
+     "twenty; 20",
+     ""
+    ],
+    [
+     "分钟",
+     "fēn zhōng",
+     "minute",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "熊猫",
+     "xióng māo",
+     "panda",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "睡",
+     "shuì",
+     "to sleep; to lie down",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "这时",
+     "zhè shí",
+     "at this time; at this moment",
+     ""
+    ],
+    [
+     "候",
+     "hòu",
+     "to wait; to inquire after; to watch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "醒",
+     "xǐng",
+     "to wake up; to be awake; to become aware",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他问：“熊猫醒了吗？”",
+   "py": "tā wèn: “xióng māo xǐng le ma?”",
+   "en": "He asks, \"Has the panda woken up yet?\"",
+   "tr": {
+    "vi": "Cậu ấy hỏi: “Gấu trúc dậy chưa?”",
+    "pt": "Ele pergunta: “O panda já acordou?”",
+    "es": "Pregunta: «¿Ya se despertó el panda?»",
+    "fr": "Il demande : « Le panda s’est réveillé ? »",
+    "am": "«ፓንዳው ነቃ?» ብሎ ጠየቀ።",
+    "fa": "می‌پرسه: «پاندا بیدار شد؟»"
+   },
+   "start": 55.704,
+   "end": 58.56,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "熊猫",
+     "xióng māo",
+     "panda",
+     ""
+    ],
+    [
+     "醒",
+     "xǐng",
+     "to wake up; to be awake; to become aware",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨给他看手机里的照片：“它醒的时候，你在睡觉；你醒了，它又睡了！”",
+   "py": "Xiǎo yǔ gěi tā kàn shǒu jī lǐ de zhào piàn: “tā xǐng de shí hou, nǐ zài shuì jiào; nǐ xǐng le, tā yòu shuì le!”",
+   "en": "Xiaoyu shows him the photos on her phone. \"When it was awake, you were asleep. Now you're awake, it's asleep again!\"",
+   "tr": {
+    "vi": "Tiểu Vũ cho cậu xem ảnh trong điện thoại: “Lúc nó thức thì cậu ngủ; cậu dậy rồi thì nó lại ngủ!”",
+    "pt": "Xiaoyu mostra as fotos no celular: “Quando ele estava acordado, você estava dormindo. Agora que você acordou, ele voltou a dormir!”",
+    "es": "Xiaoyu le muestra las fotos del celular: «Cuando él estaba despierto, tú estabas dormido. ¡Y ahora que te despertaste, él se volvió a dormir!»",
+    "fr": "Xiaoyu lui montre les photos sur son téléphone : « Quand il était réveillé, tu dormais ; maintenant que tu es réveillé, il s’est rendormi ! »",
+    "am": "ሺያውዩ በስልኳ ያሉትን ፎቶዎች አሳየችው። «እሱ ሲነቃ አንተ ተኝተህ ነበር፤ አንተ ስትነቃ እሱ እንደገና ተኛ!»",
+    "fa": "شیائویو عکس‌های گوشی رو نشونش می‌ده: «وقتی بیدار بود، تو خواب بودی؛ حالا که تو بیدار شدی، اون دوباره خوابیده!»"
+   },
+   "start": 59.26,
+   "end": 66.82,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "醒",
+     "xǐng",
+     "to be awake; to wake up; to become aware",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to go to bed; to sleep",
+     ""
+    ],
+    [
+     "；"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "醒",
+     "xǐng",
+     "to be awake; to wake up; to become aware",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "它",
+     "tā",
+     "it; it (pronoun for an animal)",
+     ""
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "睡",
+     "shuì",
+     "to sleep; to lie down",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "李强笑了：“我跟熊猫一样，都爱睡觉！”",
+   "py": "Lǐ Qiáng xiào le: “wǒ gēn xióng māo yí yàng, dōu ài shuì jiào!”",
+   "en": "Li Qiang laughs. \"The panda and I are the same. We both love sleeping!\"",
+   "tr": {
+    "vi": "Lý Cường cười: “Mình giống gấu trúc, đều mê ngủ!”",
+    "pt": "Li Qiang ri: “Eu sou igual ao panda. Nós dois adoramos dormir!”",
+    "es": "Li Qiang se ríe: «¡El panda y yo somos iguales, a los dos nos encanta dormir!»",
+    "fr": "Li Qiang rit : « Le panda et moi, on est pareils : on adore dormir ! »",
+    "am": "ሊ ቺያንግ ሳቀ። «እኔና ፓንዳው አንድ ነን፤ ሁለታችንም እንቅልፍ እንወዳለን!»",
+    "fa": "لی چیانگ می‌خنده: «من و پاندا شبیه همیم؛ هر دو عاشق خوابیم!»"
+   },
+   "start": 67.52,
+   "end": 72.056,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "强",
+     "jiàng",
+     "stubborn; unyielding",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "熊猫",
+     "xióng māo",
+     "panda",
+     ""
+    ],
+    [
+     "一样",
+     "yī yàng",
+     "same; the same as; like",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "爱",
+     "ài",
+     "to love; to be fond of; to like; affection",
+     ""
+    ],
+    [
+     "睡觉",
+     "shuì jiào",
+     "to sleep; to go to bed",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 203,
+ "first": "李强还没看过真的熊猫。",
+ "newWords": [
+  {
+   "w": "熊猫",
+   "py": "xióngmāo",
+   "en": "panda"
+  },
+  {
+   "w": "动物园",
+   "py": "dòngwùyuán",
+   "en": "zoo"
+  },
+  {
+   "w": "醒",
+   "py": "xǐng",
+   "en": "to wake up"
+  },
+  {
+   "w": "照片",
+   "py": "zhàopiàn",
+   "en": "photo"
+  },
+  {
+   "w": "睡着",
+   "py": "shuìzháo",
+   "en": "to fall asleep"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h2-20.mp3?v=1791720563"
 }

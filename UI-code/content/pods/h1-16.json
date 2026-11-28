@@ -1,619 +1,627 @@
 {
-  "id": "h1-16",
-  "level": 1,
-  "no": 16,
-  "title": "买衣服",
-  "title_py": "mǎi yī fu",
-  "title_en": "Buying clothes",
-  "title_tr": {
-    "vi": "Mua quần áo",
-    "pt": "Comprando roupa",
-    "es": "Comprar ropa",
-    "fr": "Acheter des vêtements",
-    "am": "ልብስ መግዛት",
-    "fa": "خرید لباس"
+ "id": "h1-16",
+ "level": 1,
+ "no": 16,
+ "title": "买衣服",
+ "title_py": "mǎi yī fu",
+ "title_en": "Buying clothes",
+ "title_tr": {
+  "vi": "Mua quần áo",
+  "pt": "Comprando roupa",
+  "es": "Comprar ropa",
+  "fr": "Acheter des vêtements",
+  "am": "ልብስ መግዛት",
+  "fa": "خرید لباس"
+ },
+ "topic": "shop",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-16.jpg",
+ "duration": 35.892,
+ "lines": [
+  {
+   "text": "星期六，杰克去商店买衣服。",
+   "py": "xīng qī liù, Jié kè qù shāng diàn mǎi yī fu.",
+   "en": "On Saturday, Jack goes to a shop to buy some clothes.",
+   "tr": {
+    "vi": "Thứ Bảy, Jack đến cửa hàng mua quần áo.",
+    "pt": "No sábado, o Jack vai a uma loja comprar roupa.",
+    "es": "El sábado, Jack va a una tienda a comprar ropa.",
+    "fr": "Samedi, Jack va acheter des vêtements dans un magasin.",
+    "am": "ቅዳሜ ጃክ ልብስ ሊገዛ ወደ ሱቅ ሄደ።",
+    "fa": "جمعه، جک می‌رود مغازه تا لباس بخرد."
+   },
+   "start": 2.404,
+   "end": 5.98,
+   "tokens": [
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "商店",
+     "shāng diàn",
+     "store; shop",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "shop",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-16.jpg",
-  "duration": 35.892,
-  "lines": [
-    {
-      "text": "星期六，杰克去商店买衣服。",
-      "py": "xīng qī liù, Jié kè qù shāng diàn mǎi yī fu.",
-      "en": "On Saturday, Jack goes to a shop to buy some clothes.",
-      "tr": {
-        "vi": "Thứ Bảy, Jack đến cửa hàng mua quần áo.",
-        "pt": "No sábado, o Jack vai a uma loja comprar roupa.",
-        "es": "El sábado, Jack va a una tienda a comprar ropa.",
-        "fr": "Samedi, Jack va acheter des vêtements dans un magasin.",
-        "am": "ቅዳሜ ጃክ ልብስ ሊገዛ ወደ ሱቅ ሄደ።"
-      },
-      "start": 2.404,
-      "end": 5.98,
-      "tokens": [
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "商店",
-          "shāng diàn",
-          "store; shop",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "商店里有很多衣服，都很漂亮。",
-      "py": "shāng diàn lǐ yǒu hěn duō yī fu, dōu hěn piào liang.",
-      "en": "The shop has lots of clothes, and they're all very nice.",
-      "tr": {
-        "vi": "Trong cửa hàng có rất nhiều quần áo, cái nào cũng đẹp.",
-        "pt": "A loja tem muitas roupas, e todas são muito bonitas.",
-        "es": "La tienda tiene mucha ropa, y toda es muy bonita.",
-        "fr": "Dans le magasin, il y a beaucoup de vêtements, tous très beaux.",
-        "am": "ሱቁ ውስጥ ብዙ ልብሶች ነበሩ፤ ሁሉም ያምራሉ።"
-      },
-      "start": 6.68,
-      "end": 10.016,
-      "tokens": [
-        [
-          "商店",
-          "shāng diàn",
-          "store; shop",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "漂亮",
-          "piào liang",
-          "pretty; beautiful",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克穿上一件，太大了。",
-      "py": "Jié kè chuān shàng yí jiàn, tài dà le.",
-      "en": "Jack tries one on. It's too big.",
-      "tr": {
-        "vi": "Jack mặc thử một chiếc, to quá.",
-        "pt": "O Jack experimenta uma peça. É grande demais.",
-        "es": "Jack se prueba una prenda. Le queda muy grande.",
-        "fr": "Jack en essaie un : il est trop grand.",
-        "am": "ጃክ አንዱን ለበሰ፤ በጣም ትልቅ ነበር።"
-      },
-      "start": 10.716,
-      "end": 14.316,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "穿上",
-          "chuān shang",
-          "to put on (clothes etc)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他穿上那件，太小了。",
-      "py": "tā chuān shàng nà jiàn, tài xiǎo le.",
-      "en": "He tries on that one. It's too small.",
-      "tr": {
-        "vi": "Anh ấy mặc thử chiếc kia, nhỏ quá.",
-        "pt": "Ele experimenta aquela. É pequena demais.",
-        "es": "Se prueba aquella. Le queda muy pequeña.",
-        "fr": "Il essaie celui-là : il est trop petit.",
-        "am": "ያኛውን ለበሰ፤ በጣም ትንሽ ነበር።"
-      },
-      "start": 15.016,
-      "end": 17.896,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "穿上",
-          "chuān shang",
-          "to put on (clothes etc)",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "太",
-          "tài",
-          "too (much); highest; greatest",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他看见椅子上有一件衣服。",
-      "py": "tā kàn jiàn yǐ zi shàng yǒu yí jiàn yī fu.",
-      "en": "He sees a jacket on a chair.",
-      "tr": {
-        "vi": "Anh ấy thấy trên ghế có một chiếc áo.",
-        "pt": "Ele vê uma peça de roupa numa cadeira.",
-        "es": "Ve una chaqueta sobre una silla.",
-        "fr": "Il voit une veste sur une chaise.",
-        "am": "ወንበር ላይ አንድ ልብስ አየ።"
-      },
-      "start": 18.596,
-      "end": 21.476,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "看见",
-          "kàn jiàn",
-          "to see; to catch sight of",
-          ""
-        ],
-        [
-          "椅子",
-          "yǐ zi",
-          "chair",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他穿上了，不大不小，很好看！",
-      "py": "tā chuān shàng le, bú dà bù xiǎo, hěn hǎo kàn!",
-      "en": "He puts it on. It's not too big and not too small. It looks great!",
-      "tr": {
-        "vi": "Anh ấy mặc vào, không to không nhỏ, rất đẹp!",
-        "pt": "Ele veste. Não é grande nem pequena, fica ótima!",
-        "es": "Se la pone. Ni grande ni pequeña. ¡Le queda muy bien!",
-        "fr": "Il la met : ni trop grande, ni trop petite. Elle lui va très bien !",
-        "am": "ለበሰው፤ ትልቅም ትንሽም አይደለም፤ በጣም ያምራል!"
-      },
-      "start": 22.176,
-      "end": 25.968,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "穿上",
-          "chuān shang",
-          "to put on (clothes etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不大",
-          "bù dà",
-          "not very (clear, far away etc); not too",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "小",
-          "xiǎo",
-          "small; tiny; few",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "好看",
-          "hǎo kàn",
-          "good-looking; nice-looking",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“这件很好！多少钱？”",
-      "py": "Jié kè shuō: “zhè jiàn hěn hǎo! duō shao qián?”",
-      "en": "Jack says, \"This one's great! How much is it?\"",
-      "tr": {
-        "vi": "Jack nói: “Chiếc này đẹp quá! Bao nhiêu tiền?”",
-        "pt": "O Jack diz: “Esta é ótima! Quanto custa?”",
-        "es": "Jack dice: «¡Esta está muy bien! ¿Cuánto cuesta?»",
-        "fr": "Jack dit : « Celle-ci est parfaite ! Elle coûte combien ? »",
-        "am": "ጃክ «ይሄ በጣም ጥሩ ነው! ስንት ነው?» አለ።"
-      },
-      "start": 26.668,
-      "end": 30.46,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "多少",
-          "duō shao",
-          "how much?; how many?",
-          ""
-        ],
-        [
-          "钱",
-          "qián",
-          "coin; money; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "服务员笑了：“先生，这是您的衣服！”",
-      "py": "fú wù yuán xiào le: “xiān sheng, zhè shì nín de yī fu!”",
-      "en": "The shop assistant laughs. \"Sir, that one's yours!\"",
-      "tr": {
-        "vi": "Nhân viên cười: “Thưa anh, đây là áo của anh mà!”",
-        "pt": "A vendedora ri: “Senhor, esta é a sua!”",
-        "es": "El dependiente se ríe: «¡Señor, esa es su chaqueta!»",
-        "fr": "La vendeuse rit : « Monsieur, c'est la vôtre ! »",
-        "am": "ሻጩ ሳቀ። «ጌታዬ፣ ይሄ የእርስዎ ልብስ ነው!»"
-      },
-      "start": 31.16,
-      "end": 35.192,
-      "tokens": [
-        [
-          "服务员",
-          "fú wù yuán",
-          "waiter; waitress; attendant",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "先生",
-          "xiān sheng",
-          "gentleman; sir; mister (Mr.); teacher; husband",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "衣服",
-          "yī fu",
-          "clothes",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 85,
-  "first": "星期六，杰克去商店买衣服。",
-  "newWords": [
-    {
-      "w": "件",
-      "py": "jiàn",
-      "en": "measure word for clothes/items"
-    },
-    {
-      "w": "穿",
-      "py": "chuān",
-      "en": "to wear"
-    },
-    {
-      "w": "服务员",
-      "py": "fúwùyuán",
-      "en": "waiter"
-    },
-    {
-      "w": "您",
-      "py": "nín",
-      "en": "you"
-    },
-    {
-      "w": "笑",
-      "py": "xiào",
-      "en": "to smile"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-16.mp3?v=1791720549"
+  {
+   "text": "商店里有很多衣服，都很漂亮。",
+   "py": "shāng diàn lǐ yǒu hěn duō yī fu, dōu hěn piào liang.",
+   "en": "The shop has lots of clothes, and they're all very nice.",
+   "tr": {
+    "vi": "Trong cửa hàng có rất nhiều quần áo, cái nào cũng đẹp.",
+    "pt": "A loja tem muitas roupas, e todas são muito bonitas.",
+    "es": "La tienda tiene mucha ropa, y toda es muy bonita.",
+    "fr": "Dans le magasin, il y a beaucoup de vêtements, tous très beaux.",
+    "am": "ሱቁ ውስጥ ብዙ ልብሶች ነበሩ፤ ሁሉም ያምራሉ።",
+    "fa": "توی مغازه کلی لباس هست و همه‌شان هم خیلی قشنگ‌اند."
+   },
+   "start": 6.68,
+   "end": 10.016,
+   "tokens": [
+    [
+     "商店",
+     "shāng diàn",
+     "store; shop",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "漂亮",
+     "piào liang",
+     "pretty; beautiful",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克穿上一件，太大了。",
+   "py": "Jié kè chuān shàng yí jiàn, tài dà le.",
+   "en": "Jack tries one on. It's too big.",
+   "tr": {
+    "vi": "Jack mặc thử một chiếc, to quá.",
+    "pt": "O Jack experimenta uma peça. É grande demais.",
+    "es": "Jack se prueba una prenda. Le queda muy grande.",
+    "fr": "Jack en essaie un : il est trop grand.",
+    "am": "ጃክ አንዱን ለበሰ፤ በጣም ትልቅ ነበር።",
+    "fa": "جک یکی را پرو می‌کند؛ خیلی گشاده است."
+   },
+   "start": 10.716,
+   "end": 14.316,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "穿上",
+     "chuān shang",
+     "to put on (clothes etc)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他穿上那件，太小了。",
+   "py": "tā chuān shàng nà jiàn, tài xiǎo le.",
+   "en": "He tries on that one. It's too small.",
+   "tr": {
+    "vi": "Anh ấy mặc thử chiếc kia, nhỏ quá.",
+    "pt": "Ele experimenta aquela. É pequena demais.",
+    "es": "Se prueba aquella. Le queda muy pequeña.",
+    "fr": "Il essaie celui-là : il est trop petit.",
+    "am": "ያኛውን ለበሰ፤ በጣም ትንሽ ነበር።",
+    "fa": "اون یکی را پرو می‌کند؛ خیلی تنگه."
+   },
+   "start": 15.016,
+   "end": 17.896,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "穿上",
+     "chuān shang",
+     "to put on (clothes etc)",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "太",
+     "tài",
+     "too (much); highest; greatest",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他看见椅子上有一件衣服。",
+   "py": "tā kàn jiàn yǐ zi shàng yǒu yí jiàn yī fu.",
+   "en": "He sees a jacket on a chair.",
+   "tr": {
+    "vi": "Anh ấy thấy trên ghế có một chiếc áo.",
+    "pt": "Ele vê uma peça de roupa numa cadeira.",
+    "es": "Ve una chaqueta sobre una silla.",
+    "fr": "Il voit une veste sur une chaise.",
+    "am": "ወንበር ላይ አንድ ልብስ አየ።",
+    "fa": "روی صندلی یک کت می‌بیند."
+   },
+   "start": 18.596,
+   "end": 21.476,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "看见",
+     "kàn jiàn",
+     "to see; to catch sight of",
+     ""
+    ],
+    [
+     "椅子",
+     "yǐ zi",
+     "chair",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他穿上了，不大不小，很好看！",
+   "py": "tā chuān shàng le, bú dà bù xiǎo, hěn hǎo kàn!",
+   "en": "He puts it on. It's not too big and not too small. It looks great!",
+   "tr": {
+    "vi": "Anh ấy mặc vào, không to không nhỏ, rất đẹp!",
+    "pt": "Ele veste. Não é grande nem pequena, fica ótima!",
+    "es": "Se la pone. Ni grande ni pequeña. ¡Le queda muy bien!",
+    "fr": "Il la met : ni trop grande, ni trop petite. Elle lui va très bien !",
+    "am": "ለበሰው፤ ትልቅም ትንሽም አይደለም፤ በጣም ያምራል!",
+    "fa": "می‌پوشدش؛ نه گشاده است نه تنگ. خیلی هم قشنگ شده!"
+   },
+   "start": 22.176,
+   "end": 25.968,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "穿上",
+     "chuān shang",
+     "to put on (clothes etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不大",
+     "bù dà",
+     "not very (clear, far away etc); not too",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "小",
+     "xiǎo",
+     "small; tiny; few",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "好看",
+     "hǎo kàn",
+     "good-looking; nice-looking",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  },
+  {
+   "text": "杰克说：“这件很好！多少钱？”",
+   "py": "Jié kè shuō: “zhè jiàn hěn hǎo! duō shao qián?”",
+   "en": "Jack says, \"This one's great! How much is it?\"",
+   "tr": {
+    "vi": "Jack nói: “Chiếc này đẹp quá! Bao nhiêu tiền?”",
+    "pt": "O Jack diz: “Esta é ótima! Quanto custa?”",
+    "es": "Jack dice: «¡Esta está muy bien! ¿Cuánto cuesta?»",
+    "fr": "Jack dit : « Celle-ci est parfaite ! Elle coûte combien ? »",
+    "am": "ጃክ «ይሄ በጣም ጥሩ ነው! ስንት ነው?» አለ።",
+    "fa": "جک می‌گوید: «این خیلی خوبه! چنده؟»"
+   },
+   "start": 26.668,
+   "end": 30.46,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "多少",
+     "duō shao",
+     "how much?; how many?",
+     ""
+    ],
+    [
+     "钱",
+     "qián",
+     "coin; money; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "服务员笑了：“先生，这是您的衣服！”",
+   "py": "fú wù yuán xiào le: “xiān sheng, zhè shì nín de yī fu!”",
+   "en": "The shop assistant laughs. \"Sir, that one's yours!\"",
+   "tr": {
+    "vi": "Nhân viên cười: “Thưa anh, đây là áo của anh mà!”",
+    "pt": "A vendedora ri: “Senhor, esta é a sua!”",
+    "es": "El dependiente se ríe: «¡Señor, esa es su chaqueta!»",
+    "fr": "La vendeuse rit : « Monsieur, c'est la vôtre ! »",
+    "am": "ሻጩ ሳቀ። «ጌታዬ፣ ይሄ የእርስዎ ልብስ ነው!»",
+    "fa": "فروشنده می‌خندد: «آقا، این مال خود شماست!»"
+   },
+   "start": 31.16,
+   "end": 35.192,
+   "tokens": [
+    [
+     "服务员",
+     "fú wù yuán",
+     "waiter; waitress; attendant",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "先生",
+     "xiān sheng",
+     "gentleman; sir; mister (Mr.); teacher; husband",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "衣服",
+     "yī fu",
+     "clothes",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 85,
+ "first": "星期六，杰克去商店买衣服。",
+ "newWords": [
+  {
+   "w": "件",
+   "py": "jiàn",
+   "en": "measure word for clothes/items"
+  },
+  {
+   "w": "穿",
+   "py": "chuān",
+   "en": "to wear"
+  },
+  {
+   "w": "服务员",
+   "py": "fúwùyuán",
+   "en": "waiter"
+  },
+  {
+   "w": "您",
+   "py": "nín",
+   "en": "you"
+  },
+  {
+   "w": "笑",
+   "py": "xiào",
+   "en": "to smile"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-16.mp3?v=1791720549"
 }

@@ -1,1356 +1,1370 @@
 {
-  "id": "h2-79",
-  "level": 2,
-  "no": 79,
-  "title": "不见不散",
-  "title_py": "bú jiàn bú sàn",
-  "title_en": "See you there, no matter what",
-  "title_tr": {
-    "vi": "Không gặp không về",
-    "pt": "Lá sem falta",
-    "es": "Ahí nos vemos, sin falta",
-    "fr": "On se retrouve là-bas, quoi qu'il arrive",
-    "am": "ሳላይህ አልሄድም",
-    "fa": "تا نبینمت نمی‌روم (قرار سرجایش است)"
+ "id": "h2-79",
+ "level": 2,
+ "no": 79,
+ "title": "不见不散",
+ "title_py": "bú jiàn bú sàn",
+ "title_en": "See you there, no matter what",
+ "title_tr": {
+  "vi": "Không gặp không về",
+  "pt": "Lá sem falta",
+  "es": "Ahí nos vemos, sin falta",
+  "fr": "On se retrouve là-bas, quoi qu'il arrive",
+  "am": "ሳላይህ አልሄድም",
+  "fa": "تا نبینمت نمی‌روم (قرار سرجایش است)"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_comms",
+ "cover": "https://media.kanchinese.app/review/stories/h2-79.jpg",
+ "duration": 78.324,
+ "lines": [
+  {
+   "text": "杰克和一位新客户在微信上说好，星期五下午三点在一家咖啡馆见面。",
+   "py": "Jié kè hé yí wèi xīn kè hù zài wēi xìn shàng shuō hǎo, xīng qī wǔ xià wǔ sān diǎn zài yì jiā kā fēi guǎn jiàn miàn.",
+   "en": "Jack and a new client agree on WeChat to meet at a café at three on Friday afternoon.",
+   "tr": {
+    "vi": "Jack và một khách hàng mới hẹn nhau trên WeChat, ba giờ chiều thứ Sáu gặp ở một quán cà phê.",
+    "pt": "Jack e um cliente novo combinam pelo WeChat de se encontrar numa cafeteria às três da tarde de sexta.",
+    "es": "Jack y un cliente nuevo quedan por WeChat en verse el viernes a las tres de la tarde en una cafetería.",
+    "fr": "Sur WeChat, Jack et un nouveau client se donnent rendez-vous vendredi à trois heures de l’après-midi, dans un café.",
+    "am": "ጃክ እና አንድ አዲስ ደንበኛ ዓርብ ከሰዓት 3:00 ላይ በአንድ ካፌ ለመገናኘት በዊቻት ተስማሙ።",
+    "fa": "جک با یه مشتری جدید تو وی‌چت قرار می‌ذاره که جمعه ساعت سه عصر یه کافه همدیگه رو ببینن."
+   },
+   "start": 2.14,
+   "end": 9.508,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "位",
+     "wèi",
+     "classifier for people (honorific)",
+     ""
+    ],
+    [
+     "新",
+     "xīn",
+     "new; newly; meso- (chemistry)",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "微信",
+     "wēi xìn",
+     "Weixin or WeChat (mobile text and voice messaging service developed by Tencent 腾讯)",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "说好",
+     "shuō hǎo",
+     "to come to an agreement; to complete negotiations",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "星期五",
+     "xīng qī wǔ",
+     "Friday",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "to nod (one's head) in agreement; to beckon by moving (one's hand) up and down",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "一家",
+     "yī jiā",
+     "the whole family; the same family",
+     ""
+    ],
+    [
+     "咖啡馆",
+     "kā fēi guǎn",
+     "café; coffee shop",
+     ""
+    ],
+    [
+     "见面",
+     "jiàn miàn",
+     "to meet; to see each other",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_comms",
-  "cover": "https://media.kanchinese.app/review/stories/h2-79.jpg",
-  "duration": 78.324,
-  "lines": [
-    {
-      "text": "杰克和一位新客户在微信上说好，星期五下午三点在一家咖啡馆见面。",
-      "py": "Jié kè hé yí wèi xīn kè hù zài wēi xìn shàng shuō hǎo, xīng qī wǔ xià wǔ sān diǎn zài yì jiā kā fēi guǎn jiàn miàn.",
-      "en": "Jack and a new client agree on WeChat to meet at a café at three on Friday afternoon.",
-      "tr": {
-        "vi": "Jack và một khách hàng mới hẹn nhau trên WeChat, ba giờ chiều thứ Sáu gặp ở một quán cà phê.",
-        "pt": "Jack e um cliente novo combinam pelo WeChat de se encontrar numa cafeteria às três da tarde de sexta.",
-        "es": "Jack y un cliente nuevo quedan por WeChat en verse el viernes a las tres de la tarde en una cafetería.",
-        "fr": "Sur WeChat, Jack et un nouveau client se donnent rendez-vous vendredi à trois heures de l’après-midi, dans un café.",
-        "am": "ጃክ እና አንድ አዲስ ደንበኛ ዓርብ ከሰዓት 3:00 ላይ በአንድ ካፌ ለመገናኘት በዊቻት ተስማሙ።"
-      },
-      "start": 2.14,
-      "end": 9.508,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "位",
-          "wèi",
-          "classifier for people (honorific)",
-          ""
-        ],
-        [
-          "新",
-          "xīn",
-          "new; newly; meso- (chemistry)",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "微信",
-          "wēi xìn",
-          "Weixin or WeChat (mobile text and voice messaging service developed by Tencent 腾讯)",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "说好",
-          "shuō hǎo",
-          "to come to an agreement; to complete negotiations",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "星期五",
-          "xīng qī wǔ",
-          "Friday",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "to nod (one's head) in agreement; to beckon by moving (one's hand) up and down",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "一家",
-          "yī jiā",
-          "the whole family; the same family",
-          ""
-        ],
-        [
-          "咖啡馆",
-          "kā fēi guǎn",
-          "café; coffee shop",
-          ""
-        ],
-        [
-          "见面",
-          "jiàn miàn",
-          "to meet; to see each other",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "客户最后发来四个字：“不见不散。”",
-      "py": "kè hù zuì hòu fā lái sì gè zì: “bú jiàn bú sàn.”",
-      "en": "The client's last message is a four-character phrase: \"See you there, no matter what.\"",
-      "tr": {
-        "vi": "Tin nhắn cuối cùng của khách hàng là bốn chữ: “Không gặp không về.”",
-        "pt": "A última mensagem do cliente é uma expressão de quatro caracteres: “不见不散” (“a gente se vê lá, sem falta”).",
-        "es": "El último mensaje del cliente son cuatro caracteres: «Nos vemos allí, sin falta» (不见不散, bú jiàn bú sàn).",
-        "fr": "Le dernier message du client, ce sont quatre caractères : « Rendez-vous là-bas, sans faute. »",
-        "am": "ደንበኛው በመጨረሻ «不见不散» የሚሉ አራት ሆሄያትን ላከ።"
-      },
-      "start": 10.208,
-      "end": 14,
-      "tokens": [
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "最后",
-          "zuì hòu",
-          "final; last; ultimate; finally; in the end",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "四",
-          "sì",
-          "four; 4",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "字",
-          "zì",
-          "character; letter; symbol",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "不见不散",
-          "bù jiàn bù sàn",
-          "lit. Even if we don't see each other, don't give up and leave (idiom)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克不认识这个说法，就去问小雨。",
-      "py": "Jié kè bú rèn shi zhè ge shuō fǎ, jiù qù wèn Xiǎo yǔ.",
-      "en": "Jack doesn't know this expression, so he goes to ask Xiaoyu.",
-      "tr": {
-        "vi": "Jack không biết cách nói này, liền đi hỏi Tiểu Vũ.",
-        "pt": "Jack não conhece essa expressão e vai perguntar à Xiaoyu.",
-        "es": "Jack no conoce esa expresión, así que va a preguntarle a Xiaoyu.",
-        "fr": "Jack ne connaît pas cette expression, alors il va demander à Xiaoyu.",
-        "am": "ጃክ ይሄን አባባል አያውቀውም ነበር፤ ሺያውዩን ሄዶ ጠየቃት።"
-      },
-      "start": 14.7,
-      "end": 18.3,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "认识",
-          "rèn shi",
-          "to know; knowledge; to recognize",
-          ""
-        ],
-        [
-          "这个",
-          "zhè ge",
-          "(pronoun) this; (adjective) this",
-          ""
-        ],
-        [
-          "说法",
-          "shuō fa",
-          "way of speaking; wording; formulation",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨说：“意思是，见不到你，我就不走。”",
-      "py": "Xiǎo yǔ shuō: “yì si shì, jiàn bú dào nǐ, wǒ jiù bù zǒu.”",
-      "en": "Xiaoyu says, \"It means, 'If I don't see you, I won't leave.'\"",
-      "tr": {
-        "vi": "Tiểu Vũ nói: “Nghĩa là, không gặp được anh thì tôi không về.”",
-        "pt": "A Xiaoyu diz: “Quer dizer: se eu não encontrar você, não vou embora.”",
-        "es": "Xiaoyu dice: «Significa: “Si no te veo, no me voy”».",
-        "fr": "Xiaoyu dit : « Ça veut dire : si je ne te vois pas, je ne pars pas. »",
-        "am": "ሺያውዩ «‹ሳላይህ አልሄድም› ማለት ነው» አለች።"
-      },
-      "start": 19,
-      "end": 23.752,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "意思",
-          "yì si",
-          "idea; opinion; meaning",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "见",
-          "jiàn",
-          "to see; to meet; to appear (to be sth)",
-          ""
-        ],
-        [
-          "不到",
-          "bù dào",
-          "not to arrive; not reaching; insufficient",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to leave; to walk; to go",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克笑了：“这句话真好听。”",
-      "py": "Jié kè xiào le: “zhè jù huà zhēn hǎo tīng.”",
-      "en": "Jack smiles. \"What a lovely thing to say.\"",
-      "tr": {
-        "vi": "Jack cười: “Câu này nghe hay thật.”",
-        "pt": "Jack sorri: “Que frase bonita.”",
-        "es": "Jack sonríe: «Qué bonito suena eso».",
-        "fr": "Jack sourit : « C’est vraiment joli, cette phrase. »",
-        "am": "ጃክ ፈገግ አለ። «እንዴት ደስ የሚል አባባል ነው።»"
-      },
-      "start": 24.452,
-      "end": 28.244,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "句",
-          "jù",
-          "classifier for phrases or lines of verse; sentence; clause",
-          ""
-        ],
-        [
-          "话",
-          "huà",
-          "what sb said; dialect; language",
-          ""
-        ],
-        [
-          "真",
-          "zhēn",
-          "really; truly; indeed",
-          ""
-        ],
-        [
-          "好听",
-          "hǎo tīng",
-          "pleasant to hear",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "星期五下午两点，杰克坐地铁去咖啡馆。",
-      "py": "xīng qī wǔ xià wǔ liǎng diǎn, Jié kè zuò dì tiě qù kā fēi guǎn.",
-      "en": "At two on Friday afternoon, Jack takes the subway to the café.",
-      "tr": {
-        "vi": "Hai giờ chiều thứ Sáu, Jack đi tàu điện ngầm đến quán cà phê.",
-        "pt": "Às duas da tarde de sexta, Jack pega o metrô para a cafeteria.",
-        "es": "El viernes a las dos de la tarde, Jack toma el metro para ir a la cafetería.",
-        "fr": "Vendredi à deux heures de l’après-midi, Jack prend le métro pour aller au café.",
-        "am": "ዓርብ ከሰዓት 2:00 ላይ ጃክ በምድር ባቡር ወደ ካፌው ሄደ።"
-      },
-      "start": 28.944,
-      "end": 33.936,
-      "tokens": [
-        [
-          "星期五",
-          "xīng qī wǔ",
-          "Friday",
-          ""
-        ],
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to take a seat; to take (a bus, airplane etc); to sit",
-          ""
-        ],
-        [
-          "地铁",
-          "dì tiě",
-          "underground railway; subway; subway train",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(when used either before or after a verb) to go in order to do sth",
-          ""
-        ],
-        [
-          "咖啡馆",
-          "kā fēi guǎn",
-          "café; coffee shop",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "可是地铁在路上出了问题，停了一个多小时。",
-      "py": "kě shì dì tiě zài lù shàng chū le wèn tí, tíng le yí gè duō xiǎo shí.",
-      "en": "But the train has a problem on the way and is stuck for more than an hour.",
-      "tr": {
-        "vi": "Nhưng tàu điện ngầm gặp sự cố giữa đường, dừng hơn một tiếng.",
-        "pt": "Mas o metrô tem um problema no caminho e fica parado mais de uma hora.",
-        "es": "Pero el metro tiene un problema en el camino y se queda parado más de una hora.",
-        "fr": "Mais en route, le métro a un problème et reste arrêté plus d’une heure.",
-        "am": "ግን ባቡሩ መንገድ ላይ ችግር ገጥሞት ከአንድ ሰዓት በላይ ቆመ።"
-      },
-      "start": 34.636,
-      "end": 39.172,
-      "tokens": [
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "地铁",
-          "dì tiě",
-          "subway train; underground railway; subway",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "路上",
-          "lù shang",
-          "on the way; en route; on the road",
-          ""
-        ],
-        [
-          "出",
-          "chū",
-          "to go out; to come out; to arise; to occur",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "问题",
-          "wèn tí",
-          "problem; question; issue",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "停",
-          "tíng",
-          "to stop; to halt; to park (a car)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他的手机也没电了，不能给客户发消息。",
-      "py": "tā de shǒu jī yě méi diàn le, bù néng gěi kè hù fā xiāo xi.",
-      "en": "His phone's battery has died too, so he can't message the client.",
-      "tr": {
-        "vi": "Điện thoại của anh cũng hết pin, không thể nhắn tin cho khách hàng.",
-        "pt": "A bateria do celular dele também acabou, e ele não consegue mandar mensagem para o cliente.",
-        "es": "Además, a su teléfono se le acabó la batería, así que no puede escribirle al cliente.",
-        "fr": "En plus, son téléphone n’a plus de batterie, il ne peut pas envoyer de message au client.",
-        "am": "የስልኩ ባትሪም አልቆ ስለነበር ለደንበኛው መልእክት መላክ አልቻለም።"
-      },
-      "start": 39.872,
-      "end": 43.928,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "手机",
-          "shǒu jī",
-          "cell phone; mobile phone",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "没电",
-          "méi diàn",
-          "discharged; flat; dead (of batteries)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不能",
-          "bù néng",
-          "cannot; must not; should not",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "发",
-          "fā",
-          "to send out; to show (one's feeling); to issue",
-          ""
-        ],
-        [
-          "消息",
-          "xiāo xi",
-          "message; (piece of) news; information",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "四点半，杰克终于跑进了咖啡馆。",
-      "py": "sì diǎn bàn, Jié kè zhōng yú pǎo jìn le kā fēi guǎn.",
-      "en": "At half past four, Jack finally runs into the café.",
-      "tr": {
-        "vi": "Bốn giờ rưỡi, cuối cùng Jack cũng chạy vào quán cà phê.",
-        "pt": "Às quatro e meia, Jack finalmente entra correndo na cafeteria.",
-        "es": "A las cuatro y media, Jack por fin entra corriendo en la cafetería.",
-        "fr": "À quatre heures et demie, Jack entre enfin en courant dans le café.",
-        "am": "4:30 ላይ ጃክ በመጨረሻ እየሮጠ ካፌው ገባ።"
-      },
-      "start": 44.628,
-      "end": 48.684,
-      "tokens": [
-        [
-          "四",
-          "sì",
-          "four; 4",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "半",
-          "bàn",
-          "half; (after a number) and a half; semi-",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "finally; at last; in the end",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "to run; to run away; to escape",
-          ""
-        ],
-        [
-          "进",
-          "jìn",
-          "to go forward; to advance; to go in",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "咖啡馆",
-          "kā fēi guǎn",
-          "café; coffee shop",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "客户还坐在窗户旁边，桌子上已经有三个空杯子了。",
-      "py": "kè hù hái zuò zài chuāng hu páng biān, zhuō zi shàng yǐ jīng yǒu sān gè kōng bēi zi le.",
-      "en": "The client is still sitting by the window, and there are already three empty cups on his table.",
-      "tr": {
-        "vi": "Khách hàng vẫn ngồi cạnh cửa sổ, trên bàn đã có ba cái cốc rỗng.",
-        "pt": "O cliente ainda está sentado perto da janela, e já há três xícaras vazias na mesa dele.",
-        "es": "El cliente sigue sentado junto a la ventana, y en su mesa ya hay tres tazas vacías.",
-        "fr": "Le client est toujours assis près de la fenêtre, et il y a déjà trois tasses vides sur sa table.",
-        "am": "ደንበኛው አሁንም በመስኮቱ አጠገብ ተቀምጧል፤ ጠረጴዛው ላይ ሦስት ባዶ ስኒዎች ነበሩ።"
-      },
-      "start": 49.384,
-      "end": 54.592,
-      "tokens": [
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "窗户",
-          "chuāng hu",
-          "window",
-          ""
-        ],
-        [
-          "旁边",
-          "páng biān",
-          "side; adjacent place",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "桌子",
-          "zhuō zi",
-          "table; desk",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "已经",
-          "yǐ jīng",
-          "already",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "空",
-          "kōng",
-          "empty; air; sky",
-          ""
-        ],
-        [
-          "杯子",
-          "bēi zi",
-          "cup; glass",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“真对不起！您怎么还在这儿？”",
-      "py": "Jié kè shuō: “zhēn duì bu qǐ! nín zěn me hái zài zhè r?”",
-      "en": "Jack says, \"I'm so sorry! Why are you still here?\"",
-      "tr": {
-        "vi": "Jack nói: “Thật xin lỗi anh! Sao anh vẫn còn ở đây?”",
-        "pt": "Jack diz: “Mil desculpas! Por que o senhor ainda está aqui?”",
-        "es": "Jack dice: «¡Lo siento muchísimo! ¿Cómo es que todavía está aquí?».",
-        "fr": "Jack dit : « Je suis vraiment désolé ! Comment ça se fait que vous soyez encore là ? »",
-        "am": "ጃክ «በጣም ይቅርታ! ለምን እስካሁን እዚህ ቆዩ?» አለ።"
-      },
-      "start": 55.292,
-      "end": 59.348,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "真",
-          "zhēn",
-          "really; truly; indeed",
-          ""
-        ],
-        [
-          "对不起",
-          "duì bu qǐ",
-          "I'm sorry; excuse me; I beg your pardon",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "您",
-          "nín",
-          "you (courteous, as opposed to informal 你)",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "why?; how?; what?",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "这儿",
-          "zhè r",
-          "here",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "客户笑了：“我不是说了吗？不见不散。”",
-      "py": "kè hù xiào le: “wǒ bú shì shuō le ma? bú jiàn bú sàn.”",
-      "en": "The client smiles. \"Didn't I tell you? See you there, no matter what.\"",
-      "tr": {
-        "vi": "Khách hàng cười: “Tôi đã nói rồi mà: không gặp không về.”",
-        "pt": "O cliente sorri: “Eu não disse? Sem ver você, eu não ia embora.”",
-        "es": "El cliente sonríe: «¿No se lo dije? Nos vemos allí, sin falta».",
-        "fr": "Le client sourit : « Je ne vous l’avais pas dit ? Rendez-vous là-bas, sans faute. »",
-        "am": "ደንበኛው ፈገግ አለ። «አልነገርኩህም? ሳላይህ አልሄድም።»"
-      },
-      "start": 60.048,
-      "end": 64.8,
-      "tokens": [
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "不是",
-          "bù shì",
-          "no; is not; not",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "吗",
-          "ma",
-          "(question particle for \"yes-no\" questions)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "不见不散",
-          "bù jiàn bù sàn",
-          "lit. Even if we don't see each other, don't give up and leave (idiom)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "那天他们谈得很好。走的时候，杰克说：“下次我早一个小时出门。”",
-      "py": "nà tiān tā men tán de hěn hǎo. zǒu de shí hou, Jié kè shuō: “xià cì wǒ zǎo yí gè xiǎo shí chū mén.”",
-      "en": "They have a very good talk that day. As they leave, Jack says, \"Next time, I'll leave an hour earlier.\"",
-      "tr": {
-        "vi": "Hôm đó họ bàn bạc rất suôn sẻ. Lúc ra về, Jack nói: “Lần sau tôi sẽ ra khỏi nhà sớm hơn một tiếng.”",
-        "pt": "Naquele dia, a conversa deles vai muito bem. Na saída, Jack diz: “Da próxima vez, saio uma hora mais cedo.”",
-        "es": "Ese día conversan muy bien. Al despedirse, Jack dice: «La próxima vez salgo una hora antes».",
-        "fr": "Ce jour-là, la discussion se passe très bien. En partant, Jack dit : « La prochaine fois, je partirai une heure plus tôt. »",
-        "am": "በዚያ ቀን ጥሩ ውይይት አደረጉ። ሲሄዱ ጃክ «በሚቀጥለው ጊዜ አንድ ሰዓት ቀደም ብዬ እወጣለሁ» አለ።"
-      },
-      "start": 65.5,
-      "end": 72.388,
-      "tokens": [
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "谈",
-          "tán",
-          "to talk; to speak; to converse",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; (before a verb) good to; appropriate; proper",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "走",
-          "zǒu",
-          "to leave; to walk; to go",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "下次",
-          "xià cì",
-          "next time",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "早",
-          "zǎo",
-          "Good morning!; early; morning",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "小时",
-          "xiǎo shí",
-          "hour",
-          ""
-        ],
-        [
-          "出门",
-          "chū mén",
-          "to leave home; to go out; to go on a journey",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "客户笑着说：“好，那我少喝两杯咖啡。”",
-      "py": "kè hù xiào zhe shuō: “hǎo, nà wǒ shǎo hē liǎng bēi kā fēi.”",
-      "en": "The client laughs. \"Good. Then I'll drink two fewer coffees.\"",
-      "tr": {
-        "vi": "Khách hàng cười nói: “Được, vậy tôi sẽ uống ít đi hai cốc cà phê.”",
-        "pt": "O cliente diz rindo: “Ótimo. Então eu tomo dois cafés a menos.”",
-        "es": "El cliente dice riendo: «Bien. Entonces yo tomo dos cafés menos».",
-        "fr": "Le client dit en riant : « D’accord, alors je boirai deux cafés de moins. »",
-        "am": "ደንበኛው እየሳቀ «ጥሩ፤ እንግዲያው እኔ ሁለት ስኒ ቡና እቀንሳለሁ» አለ።"
-      },
-      "start": 73.088,
-      "end": 77.624,
-      "tokens": [
-        [
-          "客户",
-          "kè hù",
-          "client; customer",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; (before a verb) good to",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "少",
-          "shǎo",
-          "few; less; to lack",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "杯",
-          "bēi",
-          "classifier for certain containers of liquids: glass, cup",
-          ""
-        ],
-        [
-          "咖啡",
-          "kā fēi",
-          "(loanword) coffee",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 231,
-  "first": "杰克和一位新客户在微信上说好，星期五下午三点在一家咖啡馆见面。",
-  "newWords": [
-    {
-      "w": "不见不散",
-      "py": "bù jiàn bù sàn",
-      "en": "lit. Even if we don't see each other, don't give up and leave (idiom)"
-    },
-    {
-      "w": "见面",
-      "py": "jiànmiàn",
-      "en": "to meet"
-    },
-    {
-      "w": "咖啡馆",
-      "py": "kā fēi guǎn",
-      "en": "café"
-    },
-    {
-      "w": "窗户",
-      "py": "chuānghu",
-      "en": "window"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h2-79.mp3?v=1791721583"
+  {
+   "text": "客户最后发来四个字：“不见不散。”",
+   "py": "kè hù zuì hòu fā lái sì gè zì: “bú jiàn bú sàn.”",
+   "en": "The client's last message is a four-character phrase: \"See you there, no matter what.\"",
+   "tr": {
+    "vi": "Tin nhắn cuối cùng của khách hàng là bốn chữ: “Không gặp không về.”",
+    "pt": "A última mensagem do cliente é uma expressão de quatro caracteres: “不见不散” (“a gente se vê lá, sem falta”).",
+    "es": "El último mensaje del cliente son cuatro caracteres: «Nos vemos allí, sin falta» (不见不散, bú jiàn bú sàn).",
+    "fr": "Le dernier message du client, ce sont quatre caractères : « Rendez-vous là-bas, sans faute. »",
+    "am": "ደንበኛው በመጨረሻ «不见不散» የሚሉ አራት ሆሄያትን ላከ።",
+    "fa": "آخرین پیام مشتری یه اصطلاحِ چینیِ چهار کاراکتریه که یعنی: «حتماً می‌بینیمت.»"
+   },
+   "start": 10.208,
+   "end": 14,
+   "tokens": [
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "最后",
+     "zuì hòu",
+     "final; last; ultimate; finally; in the end",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "四",
+     "sì",
+     "four; 4",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "字",
+     "zì",
+     "character; letter; symbol",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "不见不散",
+     "bù jiàn bù sàn",
+     "lit. Even if we don't see each other, don't give up and leave (idiom)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克不认识这个说法，就去问小雨。",
+   "py": "Jié kè bú rèn shi zhè ge shuō fǎ, jiù qù wèn Xiǎo yǔ.",
+   "en": "Jack doesn't know this expression, so he goes to ask Xiaoyu.",
+   "tr": {
+    "vi": "Jack không biết cách nói này, liền đi hỏi Tiểu Vũ.",
+    "pt": "Jack não conhece essa expressão e vai perguntar à Xiaoyu.",
+    "es": "Jack no conoce esa expresión, así que va a preguntarle a Xiaoyu.",
+    "fr": "Jack ne connaît pas cette expression, alors il va demander à Xiaoyu.",
+    "am": "ጃክ ይሄን አባባል አያውቀውም ነበር፤ ሺያውዩን ሄዶ ጠየቃት።",
+    "fa": "جک این اصطلاحو نمی‌شناسه، پس می‌ره از شیائویو می‌پرسه."
+   },
+   "start": 14.7,
+   "end": 18.3,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "认识",
+     "rèn shi",
+     "to know; knowledge; to recognize",
+     ""
+    ],
+    [
+     "这个",
+     "zhè ge",
+     "(pronoun) this; (adjective) this",
+     ""
+    ],
+    [
+     "说法",
+     "shuō fa",
+     "way of speaking; wording; formulation",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨说：“意思是，见不到你，我就不走。”",
+   "py": "Xiǎo yǔ shuō: “yì si shì, jiàn bú dào nǐ, wǒ jiù bù zǒu.”",
+   "en": "Xiaoyu says, \"It means, 'If I don't see you, I won't leave.'\"",
+   "tr": {
+    "vi": "Tiểu Vũ nói: “Nghĩa là, không gặp được anh thì tôi không về.”",
+    "pt": "A Xiaoyu diz: “Quer dizer: se eu não encontrar você, não vou embora.”",
+    "es": "Xiaoyu dice: «Significa: “Si no te veo, no me voy”».",
+    "fr": "Xiaoyu dit : « Ça veut dire : si je ne te vois pas, je ne pars pas. »",
+    "am": "ሺያውዩ «‹ሳላይህ አልሄድም› ማለት ነው» አለች።",
+    "fa": "شیائویو می‌گه: «یعنی \"اگه همدیگه رو نبینیم، جایی نمی‌رم.\"»"
+   },
+   "start": 19,
+   "end": 23.752,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "意思",
+     "yì si",
+     "idea; opinion; meaning",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "见",
+     "jiàn",
+     "to see; to meet; to appear (to be sth)",
+     ""
+    ],
+    [
+     "不到",
+     "bù dào",
+     "not to arrive; not reaching; insufficient",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to leave; to walk; to go",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克笑了：“这句话真好听。”",
+   "py": "Jié kè xiào le: “zhè jù huà zhēn hǎo tīng.”",
+   "en": "Jack smiles. \"What a lovely thing to say.\"",
+   "tr": {
+    "vi": "Jack cười: “Câu này nghe hay thật.”",
+    "pt": "Jack sorri: “Que frase bonita.”",
+    "es": "Jack sonríe: «Qué bonito suena eso».",
+    "fr": "Jack sourit : « C’est vraiment joli, cette phrase. »",
+    "am": "ጃክ ፈገግ አለ። «እንዴት ደስ የሚል አባባል ነው።»",
+    "fa": "جک لبخند می‌زنه: «چه جمله‌ی قشنگی.»"
+   },
+   "start": 24.452,
+   "end": 28.244,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "句",
+     "jù",
+     "classifier for phrases or lines of verse; sentence; clause",
+     ""
+    ],
+    [
+     "话",
+     "huà",
+     "what sb said; dialect; language",
+     ""
+    ],
+    [
+     "真",
+     "zhēn",
+     "really; truly; indeed",
+     ""
+    ],
+    [
+     "好听",
+     "hǎo tīng",
+     "pleasant to hear",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "星期五下午两点，杰克坐地铁去咖啡馆。",
+   "py": "xīng qī wǔ xià wǔ liǎng diǎn, Jié kè zuò dì tiě qù kā fēi guǎn.",
+   "en": "At two on Friday afternoon, Jack takes the subway to the café.",
+   "tr": {
+    "vi": "Hai giờ chiều thứ Sáu, Jack đi tàu điện ngầm đến quán cà phê.",
+    "pt": "Às duas da tarde de sexta, Jack pega o metrô para a cafeteria.",
+    "es": "El viernes a las dos de la tarde, Jack toma el metro para ir a la cafetería.",
+    "fr": "Vendredi à deux heures de l’après-midi, Jack prend le métro pour aller au café.",
+    "am": "ዓርብ ከሰዓት 2:00 ላይ ጃክ በምድር ባቡር ወደ ካፌው ሄደ።",
+    "fa": "ساعت دو جمعه، جک با مترو می‌ره سمت کافه."
+   },
+   "start": 28.944,
+   "end": 33.936,
+   "tokens": [
+    [
+     "星期五",
+     "xīng qī wǔ",
+     "Friday",
+     ""
+    ],
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to take a seat; to take (a bus, airplane etc); to sit",
+     ""
+    ],
+    [
+     "地铁",
+     "dì tiě",
+     "underground railway; subway; subway train",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(when used either before or after a verb) to go in order to do sth",
+     ""
+    ],
+    [
+     "咖啡馆",
+     "kā fēi guǎn",
+     "café; coffee shop",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "可是地铁在路上出了问题，停了一个多小时。",
+   "py": "kě shì dì tiě zài lù shàng chū le wèn tí, tíng le yí gè duō xiǎo shí.",
+   "en": "But the train has a problem on the way and is stuck for more than an hour.",
+   "tr": {
+    "vi": "Nhưng tàu điện ngầm gặp sự cố giữa đường, dừng hơn một tiếng.",
+    "pt": "Mas o metrô tem um problema no caminho e fica parado mais de uma hora.",
+    "es": "Pero el metro tiene un problema en el camino y se queda parado más de una hora.",
+    "fr": "Mais en route, le métro a un problème et reste arrêté plus d’une heure.",
+    "am": "ግን ባቡሩ መንገድ ላይ ችግር ገጥሞት ከአንድ ሰዓት በላይ ቆመ።",
+    "fa": "ولی قطار تو راه یه مشکلی براش پیش میاد و بیش از یه ساعت می‌مونه سر جاش."
+   },
+   "start": 34.636,
+   "end": 39.172,
+   "tokens": [
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "地铁",
+     "dì tiě",
+     "subway train; underground railway; subway",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "路上",
+     "lù shang",
+     "on the way; en route; on the road",
+     ""
+    ],
+    [
+     "出",
+     "chū",
+     "to go out; to come out; to arise; to occur",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "问题",
+     "wèn tí",
+     "problem; question; issue",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "停",
+     "tíng",
+     "to stop; to halt; to park (a car)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他的手机也没电了，不能给客户发消息。",
+   "py": "tā de shǒu jī yě méi diàn le, bù néng gěi kè hù fā xiāo xi.",
+   "en": "His phone's battery has died too, so he can't message the client.",
+   "tr": {
+    "vi": "Điện thoại của anh cũng hết pin, không thể nhắn tin cho khách hàng.",
+    "pt": "A bateria do celular dele também acabou, e ele não consegue mandar mensagem para o cliente.",
+    "es": "Además, a su teléfono se le acabó la batería, así que no puede escribirle al cliente.",
+    "fr": "En plus, son téléphone n’a plus de batterie, il ne peut pas envoyer de message au client.",
+    "am": "የስልኩ ባትሪም አልቆ ስለነበር ለደንበኛው መልእክት መላክ አልቻለም።",
+    "fa": "باتری گوشی‌شم خالی شده و نمی‌تونه به مشتری پیام بده."
+   },
+   "start": 39.872,
+   "end": 43.928,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "手机",
+     "shǒu jī",
+     "cell phone; mobile phone",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "没电",
+     "méi diàn",
+     "discharged; flat; dead (of batteries)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不能",
+     "bù néng",
+     "cannot; must not; should not",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "发",
+     "fā",
+     "to send out; to show (one's feeling); to issue",
+     ""
+    ],
+    [
+     "消息",
+     "xiāo xi",
+     "message; (piece of) news; information",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "四点半，杰克终于跑进了咖啡馆。",
+   "py": "sì diǎn bàn, Jié kè zhōng yú pǎo jìn le kā fēi guǎn.",
+   "en": "At half past four, Jack finally runs into the café.",
+   "tr": {
+    "vi": "Bốn giờ rưỡi, cuối cùng Jack cũng chạy vào quán cà phê.",
+    "pt": "Às quatro e meia, Jack finalmente entra correndo na cafeteria.",
+    "es": "A las cuatro y media, Jack por fin entra corriendo en la cafetería.",
+    "fr": "À quatre heures et demie, Jack entre enfin en courant dans le café.",
+    "am": "4:30 ላይ ጃክ በመጨረሻ እየሮጠ ካፌው ገባ።",
+    "fa": "ساعت چهار و نیم، جک بالاخره نفس‌زنان می‌رسه تو کافه."
+   },
+   "start": 44.628,
+   "end": 48.684,
+   "tokens": [
+    [
+     "四",
+     "sì",
+     "four; 4",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "半",
+     "bàn",
+     "half; (after a number) and a half; semi-",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "finally; at last; in the end",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "to run; to run away; to escape",
+     ""
+    ],
+    [
+     "进",
+     "jìn",
+     "to go forward; to advance; to go in",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "咖啡馆",
+     "kā fēi guǎn",
+     "café; coffee shop",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "客户还坐在窗户旁边，桌子上已经有三个空杯子了。",
+   "py": "kè hù hái zuò zài chuāng hu páng biān, zhuō zi shàng yǐ jīng yǒu sān gè kōng bēi zi le.",
+   "en": "The client is still sitting by the window, and there are already three empty cups on his table.",
+   "tr": {
+    "vi": "Khách hàng vẫn ngồi cạnh cửa sổ, trên bàn đã có ba cái cốc rỗng.",
+    "pt": "O cliente ainda está sentado perto da janela, e já há três xícaras vazias na mesa dele.",
+    "es": "El cliente sigue sentado junto a la ventana, y en su mesa ya hay tres tazas vacías.",
+    "fr": "Le client est toujours assis près de la fenêtre, et il y a déjà trois tasses vides sur sa table.",
+    "am": "ደንበኛው አሁንም በመስኮቱ አጠገብ ተቀምጧል፤ ጠረጴዛው ላይ ሦስት ባዶ ስኒዎች ነበሩ።",
+    "fa": "مشتری هنوز کنار پنجره نشسته و رو میزش سه تا فنجون خالی هست."
+   },
+   "start": 49.384,
+   "end": 54.592,
+   "tokens": [
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "窗户",
+     "chuāng hu",
+     "window",
+     ""
+    ],
+    [
+     "旁边",
+     "páng biān",
+     "side; adjacent place",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "桌子",
+     "zhuō zi",
+     "table; desk",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "已经",
+     "yǐ jīng",
+     "already",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "空",
+     "kōng",
+     "empty; air; sky",
+     ""
+    ],
+    [
+     "杯子",
+     "bēi zi",
+     "cup; glass",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克说：“真对不起！您怎么还在这儿？”",
+   "py": "Jié kè shuō: “zhēn duì bu qǐ! nín zěn me hái zài zhè r?”",
+   "en": "Jack says, \"I'm so sorry! Why are you still here?\"",
+   "tr": {
+    "vi": "Jack nói: “Thật xin lỗi anh! Sao anh vẫn còn ở đây?”",
+    "pt": "Jack diz: “Mil desculpas! Por que o senhor ainda está aqui?”",
+    "es": "Jack dice: «¡Lo siento muchísimo! ¿Cómo es que todavía está aquí?».",
+    "fr": "Jack dit : « Je suis vraiment désolé ! Comment ça se fait que vous soyez encore là ? »",
+    "am": "ጃክ «በጣም ይቅርታ! ለምን እስካሁን እዚህ ቆዩ?» አለ።",
+    "fa": "جک می‌گه: «خیلی ببخشید! چرا هنوز اونجایی؟»"
+   },
+   "start": 55.292,
+   "end": 59.348,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "真",
+     "zhēn",
+     "really; truly; indeed",
+     ""
+    ],
+    [
+     "对不起",
+     "duì bu qǐ",
+     "I'm sorry; excuse me; I beg your pardon",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "您",
+     "nín",
+     "you (courteous, as opposed to informal 你)",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "why?; how?; what?",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "这儿",
+     "zhè r",
+     "here",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "客户笑了：“我不是说了吗？不见不散。”",
+   "py": "kè hù xiào le: “wǒ bú shì shuō le ma? bú jiàn bú sàn.”",
+   "en": "The client smiles. \"Didn't I tell you? See you there, no matter what.\"",
+   "tr": {
+    "vi": "Khách hàng cười: “Tôi đã nói rồi mà: không gặp không về.”",
+    "pt": "O cliente sorri: “Eu não disse? Sem ver você, eu não ia embora.”",
+    "es": "El cliente sonríe: «¿No se lo dije? Nos vemos allí, sin falta».",
+    "fr": "Le client sourit : « Je ne vous l’avais pas dit ? Rendez-vous là-bas, sans faute. »",
+    "am": "ደንበኛው ፈገግ አለ። «አልነገርኩህም? ሳላይህ አልሄድም።»",
+    "fa": "مشتری لبخند می‌زنه: «مگه نگفتم؟ اگه نبینیمت، نمی‌رم.»"
+   },
+   "start": 60.048,
+   "end": 64.8,
+   "tokens": [
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "不是",
+     "bù shì",
+     "no; is not; not",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "吗",
+     "ma",
+     "(question particle for \"yes-no\" questions)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "不见不散",
+     "bù jiàn bù sàn",
+     "lit. Even if we don't see each other, don't give up and leave (idiom)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "那天他们谈得很好。走的时候，杰克说：“下次我早一个小时出门。”",
+   "py": "nà tiān tā men tán de hěn hǎo. zǒu de shí hou, Jié kè shuō: “xià cì wǒ zǎo yí gè xiǎo shí chū mén.”",
+   "en": "They have a very good talk that day. As they leave, Jack says, \"Next time, I'll leave an hour earlier.\"",
+   "tr": {
+    "vi": "Hôm đó họ bàn bạc rất suôn sẻ. Lúc ra về, Jack nói: “Lần sau tôi sẽ ra khỏi nhà sớm hơn một tiếng.”",
+    "pt": "Naquele dia, a conversa deles vai muito bem. Na saída, Jack diz: “Da próxima vez, saio uma hora mais cedo.”",
+    "es": "Ese día conversan muy bien. Al despedirse, Jack dice: «La próxima vez salgo una hora antes».",
+    "fr": "Ce jour-là, la discussion se passe très bien. En partant, Jack dit : « La prochaine fois, je partirai une heure plus tôt. »",
+    "am": "በዚያ ቀን ጥሩ ውይይት አደረጉ። ሲሄዱ ጃክ «በሚቀጥለው ጊዜ አንድ ሰዓት ቀደም ብዬ እወጣለሁ» አለ።",
+    "fa": "اون روز حسابی خوب حرف می‌زنن. موقع رفتن، جک می‌گه: «دفعه‌ی بعد یه ساعت زودتر راه می‌افتم.»"
+   },
+   "start": 65.5,
+   "end": 72.388,
+   "tokens": [
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "谈",
+     "tán",
+     "to talk; to speak; to converse",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; (before a verb) good to; appropriate; proper",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "走",
+     "zǒu",
+     "to leave; to walk; to go",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "下次",
+     "xià cì",
+     "next time",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "早",
+     "zǎo",
+     "Good morning!; early; morning",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "小时",
+     "xiǎo shí",
+     "hour",
+     ""
+    ],
+    [
+     "出门",
+     "chū mén",
+     "to leave home; to go out; to go on a journey",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "客户笑着说：“好，那我少喝两杯咖啡。”",
+   "py": "kè hù xiào zhe shuō: “hǎo, nà wǒ shǎo hē liǎng bēi kā fēi.”",
+   "en": "The client laughs. \"Good. Then I'll drink two fewer coffees.\"",
+   "tr": {
+    "vi": "Khách hàng cười nói: “Được, vậy tôi sẽ uống ít đi hai cốc cà phê.”",
+    "pt": "O cliente diz rindo: “Ótimo. Então eu tomo dois cafés a menos.”",
+    "es": "El cliente dice riendo: «Bien. Entonces yo tomo dos cafés menos».",
+    "fr": "Le client dit en riant : « D’accord, alors je boirai deux cafés de moins. »",
+    "am": "ደንበኛው እየሳቀ «ጥሩ፤ እንግዲያው እኔ ሁለት ስኒ ቡና እቀንሳለሁ» አለ።",
+    "fa": "مشتری می‌خنده: «خوبه. منم دو تا فنجون چایِ کمتر می‌خورم.»"
+   },
+   "start": 73.088,
+   "end": 77.624,
+   "tokens": [
+    [
+     "客户",
+     "kè hù",
+     "client; customer",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; (before a verb) good to",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "少",
+     "shǎo",
+     "few; less; to lack",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "杯",
+     "bēi",
+     "classifier for certain containers of liquids: glass, cup",
+     ""
+    ],
+    [
+     "咖啡",
+     "kā fēi",
+     "(loanword) coffee",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 231,
+ "first": "杰克和一位新客户在微信上说好，星期五下午三点在一家咖啡馆见面。",
+ "newWords": [
+  {
+   "w": "不见不散",
+   "py": "bù jiàn bù sàn",
+   "en": "lit. Even if we don't see each other, don't give up and leave (idiom)"
+  },
+  {
+   "w": "见面",
+   "py": "jiànmiàn",
+   "en": "to meet"
+  },
+  {
+   "w": "咖啡馆",
+   "py": "kā fēi guǎn",
+   "en": "café"
+  },
+  {
+   "w": "窗户",
+   "py": "chuānghu",
+   "en": "window"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h2-79.mp3?v=1791721583"
 }

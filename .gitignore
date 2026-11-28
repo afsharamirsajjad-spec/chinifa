@@ -96,3 +96,9 @@ UI-code/*.png
 
 .vercel
 .env*
+
+# Build tool artifacts & runtime data (never commit)
+graphify-out/
+.graphify*
+.zcode/
+database/server/data/

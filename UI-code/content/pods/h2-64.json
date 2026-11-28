@@ -1,1385 +1,1398 @@
 {
-  "id": "h2-64",
-  "level": 2,
-  "no": 64,
-  "title": "夜班的汤",
-  "title_py": "yè bān de tāng",
-  "title_en": "The night-shift soup",
-  "title_tr": {
-    "vi": "Bát canh ca đêm",
-    "pt": "A sopa do turno da noite",
-    "es": "La sopa del turno de noche",
-    "fr": "La soupe de l'équipe de nuit",
-    "am": "የሌሊት ፈረቃ ሾርባ",
-    "fa": "سوپ شیفت شب"
+ "id": "h2-64",
+ "level": 2,
+ "no": 64,
+ "title": "夜班的汤",
+ "title_py": "yè bān de tāng",
+ "title_en": "The night-shift soup",
+ "title_tr": {
+  "vi": "Bát canh ca đêm",
+  "pt": "A sopa do turno da noite",
+  "es": "La sopa del turno de noche",
+  "fr": "La soupe de l'équipe de nuit",
+  "am": "የሌሊት ፈረቃ ሾርባ",
+  "fa": "سوپ شیفت شب"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_factory",
+ "cover": "https://media.kanchinese.app/review/stories/h2-64.jpg",
+ "duration": 83.6,
+ "lines": [
+  {
+   "text": "王明的公司在印度尼西亚有一个工厂，他去那儿工作一个月。",
+   "py": "Wáng Míng de gōng sī zài yìn dù ní xī yà yǒu yí gè gōng chǎng, tā qù nà r gōng zuò yí gè yuè.",
+   "en": "Wang Ming's company has a factory in Indonesia, and he goes there to work for a month.",
+   "tr": {
+    "vi": "Công ty của Vương Minh có một nhà máy ở Indonesia, anh sang đó làm việc một tháng.",
+    "pt": "A empresa do Wang Ming tem uma fábrica na Indonésia, e ele vai trabalhar lá por um mês.",
+    "es": "La empresa de Wang Ming tiene una fábrica en Indonesia, y él va a trabajar allá un mes.",
+    "fr": "L'entreprise de Wang Ming a une usine en Indonésie, et il y va pour travailler un mois.",
+    "am": "የዋንግ ሚንግ ድርጅት ኢንዶኔዥያ ውስጥ ፋብሪካ አለው፤ እዚያ ለአንድ ወር ሊሠራ ሄደ።",
+    "fa": "شرکت وانگ مینگ تو اندونزی یه کارخونه داره و اون می‌ره یه ماه اونجا کار کنه."
+   },
+   "start": 2.404,
+   "end": 8.356,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "印度尼西亚",
+     "yìn dù ní xī yà",
+     "Indonesia",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "工厂",
+     "gōng chǎng",
+     "factory",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "那儿",
+     "nà r",
+     "there",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_factory",
-  "cover": "https://media.kanchinese.app/review/stories/h2-64.jpg",
-  "duration": 83.6,
-  "lines": [
-    {
-      "text": "王明的公司在印度尼西亚有一个工厂，他去那儿工作一个月。",
-      "py": "Wáng Míng de gōng sī zài yìn dù ní xī yà yǒu yí gè gōng chǎng, tā qù nà r gōng zuò yí gè yuè.",
-      "en": "Wang Ming's company has a factory in Indonesia, and he goes there to work for a month.",
-      "tr": {
-        "vi": "Công ty của Vương Minh có một nhà máy ở Indonesia, anh sang đó làm việc một tháng.",
-        "pt": "A empresa do Wang Ming tem uma fábrica na Indonésia, e ele vai trabalhar lá por um mês.",
-        "es": "La empresa de Wang Ming tiene una fábrica en Indonesia, y él va a trabajar allá un mes.",
-        "fr": "L'entreprise de Wang Ming a une usine en Indonésie, et il y va pour travailler un mois.",
-        "am": "የዋንግ ሚንግ ድርጅት ኢንዶኔዥያ ውስጥ ፋብሪካ አለው፤ እዚያ ለአንድ ወር ሊሠራ ሄደ።"
-      },
-      "start": 2.404,
-      "end": 8.356,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "印度尼西亚",
-          "yìn dù ní xī yà",
-          "Indonesia",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "工厂",
-          "gōng chǎng",
-          "factory",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "那儿",
-          "nà r",
-          "there",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "工厂白天有人工作，晚上也有人工作。夜班的工人要一直工作到第二天早上。",
-      "py": "gōng chǎng bái tiān yǒu rén gōng zuò, wǎn shang yě yǒu rén gōng zuò. yè bān de gōng rén yào yì zhí gōng zuò dào dì èr tiān zǎo shang.",
-      "en": "The factory works by day and by night. The night-shift workers keep going until the next morning.",
-      "tr": {
-        "vi": "Nhà máy ban ngày có người làm, ban đêm cũng có người làm. Công nhân ca đêm phải làm liền đến sáng hôm sau.",
-        "pt": "Na fábrica tem gente trabalhando de dia e também de noite. Os operários do turno da noite trabalham até a manhã seguinte.",
-        "es": "En la fábrica se trabaja de día y también de noche. Los del turno de noche trabajan hasta la mañana siguiente.",
-        "fr": "À l'usine, on travaille le jour et aussi la nuit. Les ouvriers de nuit travaillent jusqu'au lendemain matin.",
-        "am": "ፋብሪካው ቀንም ማታም ይሠራል። የሌሊት ፈረቃ ሠራተኞች እስከ ማግስቱ ጠዋት ይሠራሉ።"
-      },
-      "start": 9.056,
-      "end": 17.12,
-      "tokens": [
-        [
-          "工厂",
-          "gōng chǎng",
-          "factory",
-          ""
-        ],
-        [
-          "白天",
-          "bái tiān",
-          "during the day; day; daytime",
-          ""
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; people; anyone",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; people; anyone",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "夜班",
-          "yè bān",
-          "night shift",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "工人",
-          "gōng rén",
-          "worker",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to (a place); until (a time); up to (a point)",
-          ""
-        ],
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "工厂的负责人是个中国人。每天夜里两点，他都会做一大锅汤，给夜班的工人喝。",
-      "py": "gōng chǎng de fù zé rén shì gè Zhōng guó rén. měi tiān yè lǐ liǎng diǎn, tā dōu huì zuò yí dà guō tāng, gěi yè bān de gōng rén hē.",
-      "en": "The man in charge of the factory is Chinese. Every night at two o'clock, he makes a big pot of soup for the night shift.",
-      "tr": {
-        "vi": "Người phụ trách nhà máy là người Trung Quốc. Đêm nào đến hai giờ, ông cũng nấu một nồi canh lớn cho công nhân ca đêm.",
-        "pt": "O responsável da fábrica é chinês. Toda noite, às duas da manhã, ele faz uma panela grande de sopa para os operários do turno da noite.",
-        "es": "El encargado de la fábrica es chino. Todas las noches a las dos, prepara una olla grande de sopa para los trabajadores del turno de noche.",
-        "fr": "Le responsable de l'usine est chinois. Chaque nuit, à deux heures, il fait une grande marmite de soupe pour les ouvriers de nuit.",
-        "am": "የፋብሪካው ኃላፊ ቻይናዊ ነው። በየቀኑ ሌሊት 2:00 ላይ ለሌሊት ፈረቃ ሠራተኞች አንድ ትልቅ ድስት ሾርባ ይሠራል።"
-      },
-      "start": 17.82,
-      "end": 25.884,
-      "tokens": [
-        [
-          "工厂",
-          "gōng chǎng",
-          "factory",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "负责人",
-          "fù zé rén",
-          "person in charge",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "个中",
-          "gè zhōng",
-          "therein; in this",
-          ""
-        ],
-        [
-          "国人",
-          "guó rén",
-          "compatriots (literary); fellow countrymen",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "夜里",
-          "yè li",
-          "during the night; at night; nighttime",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "dot stroke in Chinese characters; (after a number) o'clock",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "都会",
-          "dū huì",
-          "city; metropolis",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "\"one\" radical in Chinese characters (Kangxi radical 1); one",
-          ""
-        ],
-        [
-          "大锅",
-          "dà guō",
-          "a big wok; cauldron",
-          ""
-        ],
-        [
-          "汤",
-          "tāng",
-          "soup; hot or boiling water; decoction of medicinal herbs",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "夜班",
-          "yè bān",
-          "night shift",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "工人",
-          "gōng rén",
-          "worker",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他说：“夜里工作很累，喝点儿热汤就好了。”",
-      "py": "tā shuō: “yè lǐ gōng zuò hěn lèi, hē diǎn r rè tāng jiù hǎo le.”",
-      "en": "He says, \"Working at night is tiring. A bit of hot soup helps.\"",
-      "tr": {
-        "vi": "Ông nói: “Làm đêm mệt lắm, uống chút canh nóng là đỡ ngay.”",
-        "pt": "Ele diz: “Trabalhar à noite cansa muito. Uma sopinha quente ajuda.”",
-        "es": "Él dice: «Trabajar de noche cansa mucho. Con un poco de sopa caliente uno se siente mejor».",
-        "fr": "Il dit : « Travailler la nuit, c'est fatigant. Un peu de soupe chaude, et ça va mieux. »",
-        "am": "«ሌሊት መሥራት ያደክማል፤ ትንሽ ትኩስ ሾርባ ይረዳል» ይላል።"
-      },
-      "start": 26.584,
-      "end": 31.36,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "夜里",
-          "yè li",
-          "during the night; at night; nighttime",
-          ""
-        ],
-        [
-          "工作",
-          "gōng zuò",
-          "to work; work; (of a machine) to operate",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "累",
-          "lèi",
-          "to work hard; tired; weary",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "点儿",
-          "diǎn r",
-          "erhua variant of 点",
-          ""
-        ],
-        [
-          "热",
-          "rè",
-          "hot (of weather); to warm up; to heat up",
-          ""
-        ],
-        [
-          "汤",
-          "tāng",
-          "soup; hot or boiling water; decoction of medicinal herbs",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明也常常夜里去工厂，跟大家一起喝汤。",
-      "py": "Wáng Míng yě cháng cháng yè lǐ qù gōng chǎng, gēn dà jiā yì qǐ hē tāng.",
-      "en": "Wang Ming often goes to the factory at night too, and has soup with everyone.",
-      "tr": {
-        "vi": "Vương Minh cũng hay đến nhà máy vào ban đêm, cùng mọi người ăn canh.",
-        "pt": "O Wang Ming também vai muitas vezes à fábrica de noite e toma sopa com todo mundo.",
-        "es": "Wang Ming también va a menudo a la fábrica de noche a tomar sopa con todos.",
-        "fr": "Wang Ming va souvent à l'usine la nuit, lui aussi, et boit de la soupe avec tout le monde.",
-        "am": "ዋንግ ሚንግም ብዙ ጊዜ ሌሊት ወደ ፋብሪካው ሄዶ ከሁሉም ጋር ሾርባ ይጠጣል።"
-      },
-      "start": 32.06,
-      "end": 36.116,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "常常",
-          "cháng cháng",
-          "frequently; often",
-          ""
-        ],
-        [
-          "夜里",
-          "yè li",
-          "during the night; at night; nighttime",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "工厂",
-          "gōng chǎng",
-          "factory",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "一起",
-          "yī qǐ",
-          "(in) the same place; together; in company (with)",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "汤",
-          "tāng",
-          "soup; water in which sth has been boiled",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "有一天，负责人感冒了，还发烧，只好在房间里休息。",
-      "py": "yǒu yì tiān, fù zé rén gǎn mào le, hái fā shāo, zhǐ hǎo zài fáng jiān lǐ xiū xi.",
-      "en": "One day, the manager catches a cold and has a fever, so he has to rest in his room.",
-      "tr": {
-        "vi": "Có một hôm, người phụ trách bị cảm, lại còn sốt, đành phải nằm nghỉ trong phòng.",
-        "pt": "Um dia, o responsável pega um resfriado, fica com febre e precisa descansar no quarto.",
-        "es": "Un día, el encargado se resfría y además tiene fiebre, así que tiene que quedarse a descansar en su cuarto.",
-        "fr": "Un jour, le responsable attrape un rhume et a de la fièvre, alors il doit se reposer dans sa chambre.",
-        "am": "አንድ ቀን ኃላፊው ጉንፋን ያዘው፤ ትኩሳትም ነበረው፤ ስለዚህ ክፍሉ ውስጥ ማረፍ ነበረበት።"
-      },
-      "start": 36.816,
-      "end": 43.464,
-      "tokens": [
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "负责人",
-          "fù zé rén",
-          "person in charge",
-          ""
-        ],
-        [
-          "感冒",
-          "gǎn mào",
-          "to catch cold; (common) cold",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "发烧",
-          "fā shāo",
-          "to have a high temperature (from illness); to have a fever",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "只好",
-          "zhǐ hǎo",
-          "to have no other option but to ...; to have to; to be forced to",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "房间",
-          "fáng jiān",
-          "room",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "休息",
-          "xiū xi",
-          "rest; to rest",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明想：“今天晚上，没有人做汤了。”",
-      "py": "Wáng Míng xiǎng: “jīn tiān wǎn shang, méi yǒu rén zuò tāng le.”",
-      "en": "Wang Ming thinks, \"Tonight, there won't be anyone to make the soup.\"",
-      "tr": {
-        "vi": "Vương Minh nghĩ: “Tối nay chẳng có ai nấu canh rồi.”",
-        "pt": "O Wang Ming pensa: “Hoje à noite não vai ter ninguém para fazer a sopa.”",
-        "es": "Wang Ming piensa: «Esta noche no va a haber quien haga la sopa».",
-        "fr": "Wang Ming pense : « Ce soir, il n'y aura personne pour faire la soupe. »",
-        "am": "ዋንግ ሚንግ «ዛሬ ማታ ሾርባ የሚሠራ ሰው የለም» ብሎ አሰበ።"
-      },
-      "start": 44.164,
-      "end": 48.916,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; night; in the evening",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "汤",
-          "tāng",
-          "soup; hot or boiling water; decoction of medicinal herbs",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "可是夜里两点，几个工人来了，手里拿着一个大锅。",
-      "py": "kě shì yè lǐ liǎng diǎn, jǐ gè gōng rén lái le, shǒu lǐ ná zhe yí gè dà guō.",
-      "en": "But at two in the morning, a few workers turn up, carrying a big pot.",
-      "tr": {
-        "vi": "Nhưng đến hai giờ đêm, mấy công nhân đến, tay bưng một nồi lớn.",
-        "pt": "Mas às duas da manhã chegam alguns operários carregando uma panela grande.",
-        "es": "Pero a las dos de la madrugada llegan varios trabajadores cargando una olla grande.",
-        "fr": "Mais à deux heures du matin, quelques ouvriers arrivent avec une grande marmite.",
-        "am": "ግን ሌሊት 2:00 ላይ ጥቂት ሠራተኞች ትልቅ ድስት ይዘው መጡ።"
-      },
-      "start": 49.616,
-      "end": 55.088,
-      "tokens": [
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "夜里",
-          "yè li",
-          "during the night; at night; nighttime",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; a few; both",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "几个",
-          "jǐ ge",
-          "a few; several; how many",
-          ""
-        ],
-        [
-          "工人",
-          "gōng rén",
-          "worker",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "(between two verbs) in order to; to come",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "手里",
-          "shǒu lǐ",
-          "in hand; (a situation is) in sb's hands",
-          ""
-        ],
-        [
-          "拿",
-          "ná",
-          "to hold; to seize; to catch",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "大锅",
-          "dà guō",
-          "a big wok; cauldron",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他们自己没喝，先把汤送到了负责人的房间。",
-      "py": "tā men zì jǐ méi hē, xiān bǎ tāng sòng dào le fù zé rén de fáng jiān.",
-      "en": "They don't drink any themselves. First, they take the soup to the manager's room.",
-      "tr": {
-        "vi": "Họ chưa ăn, mà mang canh đến phòng người phụ trách trước.",
-        "pt": "Eles mesmos não tomam; primeiro levam a sopa ao quarto do responsável.",
-        "es": "Ellos no toman nada todavía: primero le llevan la sopa al cuarto del encargado.",
-        "fr": "Ils n'en boivent pas eux-mêmes : d'abord, ils apportent la soupe dans la chambre du responsable.",
-        "am": "ራሳቸው አልጠጡም፤ መጀመሪያ ሾርባውን ወደ ኃላፊው ክፍል ወሰዱ።"
-      },
-      "start": 55.788,
-      "end": 60.78,
-      "tokens": [
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "先",
-          "xiān",
-          "beforehand; first; earlier; at first; originally",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "汤",
-          "tāng",
-          "soup; hot or boiling water; decoction of medicinal herbs",
-          ""
-        ],
-        [
-          "送",
-          "sòng",
-          "to send; to deliver; to transmit; to give (as a present)",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "负责人",
-          "fù zé rén",
-          "person in charge",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "房间",
-          "fáng jiān",
-          "room",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "这是印度尼西亚的做法，有一点儿辣，也特别香。",
-      "py": "zhè shì yìn dù ní xī yà de zuò fǎ, yǒu yì diǎn r là, yě tè bié xiāng.",
-      "en": "It's made the Indonesian way, a little spicy and wonderfully fragrant.",
-      "tr": {
-        "vi": "Đây là canh nấu theo kiểu Indonesia, hơi cay một chút, mà thơm vô cùng.",
-        "pt": "É feita do jeito indonésio, um pouco picante e com um cheiro delicioso.",
-        "es": "Está hecha al estilo de Indonesia, un poco picante y con un aroma delicioso.",
-        "fr": "C'est une soupe à l'indonésienne, un peu épicée et très parfumée.",
-        "am": "በኢንዶኔዥያ አሠራር የተሠራ ነበር፤ ትንሽ ያቃጥላል፤ መዓዛውም በጣም ጥሩ ነው።"
-      },
-      "start": 61.48,
-      "end": 66.232,
-      "tokens": [
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "印度尼西亚",
-          "yìn dù ní xī yà",
-          "Indonesia",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "做法",
-          "zuò fǎ",
-          "way of handling sth; method for making; work method",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "有一点儿",
-          "yǒu yī diǎn r",
-          "a little; a bit",
-          ""
-        ],
-        [
-          "辣",
-          "là",
-          "hot (spicy); pungent",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "特别",
-          "tè bié",
-          "unusual; special; very; especially; particularly",
-          ""
-        ],
-        [
-          "香",
-          "xiāng",
-          "fragrant; sweet smelling; aromatic",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "负责人喝了一大碗：“比我做的还好喝！”",
-      "py": "fù zé rén hē le yí dà wǎn: “bǐ wǒ zuò de hái hǎo hē!”",
-      "en": "The manager drinks a big bowlful. \"It's even better than mine!\"",
-      "tr": {
-        "vi": "Người phụ trách ăn một bát to: “Còn ngon hơn canh tôi nấu!”",
-        "pt": "O responsável toma uma tigela grande: “Está ainda melhor que a minha!”",
-        "es": "El encargado se toma un tazón grande: «¡Está todavía más rica que la mía!».",
-        "fr": "Le responsable en boit un grand bol : « Elle est encore meilleure que la mienne ! »",
-        "am": "ኃላፊው አንድ ትልቅ ሳህን ጠጣ። «ከእኔው ሾርባ ይበልጣል!»"
-      },
-      "start": 66.932,
-      "end": 71.948,
-      "tokens": [
-        [
-          "负责人",
-          "fù zé rén",
-          "person in charge",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "碗",
-          "wǎn",
-          "bowl; cup",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "比",
-          "bǐ",
-          "(followed by a noun and adjective) more {adj.} than {noun}",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "还好",
-          "hái hǎo",
-          "not bad; pretty good; fortunately; luckily",
-          ""
-        ],
-        [
-          "喝",
-          "hē",
-          "to drink",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "第二天，他的感冒好多了。",
-      "py": "dì èr tiān, tā de gǎn mào hǎo duō le.",
-      "en": "The next day, his cold is much better.",
-      "tr": {
-        "vi": "Hôm sau, ông đã đỡ cảm nhiều.",
-        "pt": "No dia seguinte, o resfriado dele está bem melhor.",
-        "es": "Al día siguiente, ya está mucho mejor del resfriado.",
-        "fr": "Le lendemain, son rhume va beaucoup mieux.",
-        "am": "በማግስቱ ጉንፋኑ በጣም ተሻለው።"
-      },
-      "start": 72.648,
-      "end": 75.768,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "感冒",
-          "gǎn mào",
-          "to catch cold; (common) cold",
-          ""
-        ],
-        [
-          "好多",
-          "hǎo duō",
-          "much better; many; quite a lot",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "从那天起，夜班的汤一天是中国的，一天是印度尼西亚的。",
-      "py": "cóng nà tiān qǐ, yè bān de tāng yì tiān shì Zhōng guó de, yì tiān shì yìn dù ní xī yà de.",
-      "en": "From that day on, the night-shift soup is Chinese one day and Indonesian the next.",
-      "tr": {
-        "vi": "Từ hôm đó, canh ca đêm cứ một hôm kiểu Trung Quốc, một hôm kiểu Indonesia.",
-        "pt": "A partir daquele dia, a sopa do turno da noite é chinesa num dia e indonésia no outro.",
-        "es": "Desde ese día, la sopa del turno de noche es un día china y al otro día indonesia.",
-        "fr": "À partir de ce jour-là, la soupe de nuit est chinoise un jour, et indonésienne le lendemain.",
-        "am": "ከዚያ ቀን ጀምሮ የሌሊት ፈረቃው ሾርባ አንድ ቀን የቻይና፣ አንድ ቀን የኢንዶኔዥያ ሆነ።"
-      },
-      "start": 76.468,
-      "end": 82.9,
-      "tokens": [
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "起",
-          "qǐ",
-          "to rise; to raise; to get up",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "夜班",
-          "yè bān",
-          "night shift",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "汤",
-          "tāng",
-          "soup; hot or boiling water; decoction of medicinal herbs",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "\"one\" radical in Chinese characters (Kangxi radical 1); one",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "中国",
-          "zhōng guó",
-          "China",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "\"one\" radical in Chinese characters (Kangxi radical 1); one",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "印度尼西亚",
-          "yìn dù ní xī yà",
-          "Indonesia",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 259,
-  "first": "王明的公司在印度尼西亚有一个工厂，他去那儿工作一个月。",
-  "newWords": [
-    {
-      "w": "汤",
-      "py": "tāng",
-      "en": "soup"
-    },
-    {
-      "w": "感冒",
-      "py": "gǎnmào",
-      "en": "to catch cold"
-    },
-    {
-      "w": "发烧",
-      "py": "fāshāo",
-      "en": "have a fever"
-    },
-    {
-      "w": "香",
-      "py": "xiāng",
-      "en": "fragrant"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h2-64.mp3?v=1791721315"
+  {
+   "text": "工厂白天有人工作，晚上也有人工作。夜班的工人要一直工作到第二天早上。",
+   "py": "gōng chǎng bái tiān yǒu rén gōng zuò, wǎn shang yě yǒu rén gōng zuò. yè bān de gōng rén yào yì zhí gōng zuò dào dì èr tiān zǎo shang.",
+   "en": "The factory works by day and by night. The night-shift workers keep going until the next morning.",
+   "tr": {
+    "vi": "Nhà máy ban ngày có người làm, ban đêm cũng có người làm. Công nhân ca đêm phải làm liền đến sáng hôm sau.",
+    "pt": "Na fábrica tem gente trabalhando de dia e também de noite. Os operários do turno da noite trabalham até a manhã seguinte.",
+    "es": "En la fábrica se trabaja de día y también de noche. Los del turno de noche trabajan hasta la mañana siguiente.",
+    "fr": "À l'usine, on travaille le jour et aussi la nuit. Les ouvriers de nuit travaillent jusqu'au lendemain matin.",
+    "am": "ፋብሪካው ቀንም ማታም ይሠራል። የሌሊት ፈረቃ ሠራተኞች እስከ ማግስቱ ጠዋት ይሠራሉ።",
+    "fa": "کارخونه شب و روز کار می‌کنه. کارگرهای شیفت شب تا صبح روز بعد ادامه می‌دن."
+   },
+   "start": 9.056,
+   "end": 17.12,
+   "tokens": [
+    [
+     "工厂",
+     "gōng chǎng",
+     "factory",
+     ""
+    ],
+    [
+     "白天",
+     "bái tiān",
+     "during the day; day; daytime",
+     ""
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; people; anyone",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; people; anyone",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "夜班",
+     "yè bān",
+     "night shift",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "工人",
+     "gōng rén",
+     "worker",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to (a place); until (a time); up to (a point)",
+     ""
+    ],
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "工厂的负责人是个中国人。每天夜里两点，他都会做一大锅汤，给夜班的工人喝。",
+   "py": "gōng chǎng de fù zé rén shì gè Zhōng guó rén. měi tiān yè lǐ liǎng diǎn, tā dōu huì zuò yí dà guō tāng, gěi yè bān de gōng rén hē.",
+   "en": "The man in charge of the factory is Chinese. Every night at two o'clock, he makes a big pot of soup for the night shift.",
+   "tr": {
+    "vi": "Người phụ trách nhà máy là người Trung Quốc. Đêm nào đến hai giờ, ông cũng nấu một nồi canh lớn cho công nhân ca đêm.",
+    "pt": "O responsável da fábrica é chinês. Toda noite, às duas da manhã, ele faz uma panela grande de sopa para os operários do turno da noite.",
+    "es": "El encargado de la fábrica es chino. Todas las noches a las dos, prepara una olla grande de sopa para los trabajadores del turno de noche.",
+    "fr": "Le responsable de l'usine est chinois. Chaque nuit, à deux heures, il fait une grande marmite de soupe pour les ouvriers de nuit.",
+    "am": "የፋብሪካው ኃላፊ ቻይናዊ ነው። በየቀኑ ሌሊት 2:00 ላይ ለሌሊት ፈረቃ ሠራተኞች አንድ ትልቅ ድስት ሾርባ ይሠራል።",
+    "fa": "مسئول کارخونه یه مرد چینی‌ئه. هر شب ساعت دو، برای شیفت شب یه دیگ بزرگ سوپ می‌پزه."
+   },
+   "start": 17.82,
+   "end": 25.884,
+   "tokens": [
+    [
+     "工厂",
+     "gōng chǎng",
+     "factory",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "负责人",
+     "fù zé rén",
+     "person in charge",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "个中",
+     "gè zhōng",
+     "therein; in this",
+     ""
+    ],
+    [
+     "国人",
+     "guó rén",
+     "compatriots (literary); fellow countrymen",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "夜里",
+     "yè li",
+     "during the night; at night; nighttime",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "dot stroke in Chinese characters; (after a number) o'clock",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "都会",
+     "dū huì",
+     "city; metropolis",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "\"one\" radical in Chinese characters (Kangxi radical 1); one",
+     ""
+    ],
+    [
+     "大锅",
+     "dà guō",
+     "a big wok; cauldron",
+     ""
+    ],
+    [
+     "汤",
+     "tāng",
+     "soup; hot or boiling water; decoction of medicinal herbs",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "夜班",
+     "yè bān",
+     "night shift",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "工人",
+     "gōng rén",
+     "worker",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他说：“夜里工作很累，喝点儿热汤就好了。”",
+   "py": "tā shuō: “yè lǐ gōng zuò hěn lèi, hē diǎn r rè tāng jiù hǎo le.”",
+   "en": "He says, \"Working at night is tiring. A bit of hot soup helps.\"",
+   "tr": {
+    "vi": "Ông nói: “Làm đêm mệt lắm, uống chút canh nóng là đỡ ngay.”",
+    "pt": "Ele diz: “Trabalhar à noite cansa muito. Uma sopinha quente ajuda.”",
+    "es": "Él dice: «Trabajar de noche cansa mucho. Con un poco de sopa caliente uno se siente mejor».",
+    "fr": "Il dit : « Travailler la nuit, c'est fatigant. Un peu de soupe chaude, et ça va mieux. »",
+    "am": "«ሌሊት መሥራት ያደክማል፤ ትንሽ ትኩስ ሾርባ ይረዳል» ይላል።",
+    "fa": "می‌گه: «شب کار کردن خسته‌کننده‌ست. یه سوپ داغِ نُش آدمو جان می‌ده.»"
+   },
+   "start": 26.584,
+   "end": 31.36,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "夜里",
+     "yè li",
+     "during the night; at night; nighttime",
+     ""
+    ],
+    [
+     "工作",
+     "gōng zuò",
+     "to work; work; (of a machine) to operate",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "累",
+     "lèi",
+     "to work hard; tired; weary",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "点儿",
+     "diǎn r",
+     "erhua variant of 点",
+     ""
+    ],
+    [
+     "热",
+     "rè",
+     "hot (of weather); to warm up; to heat up",
+     ""
+    ],
+    [
+     "汤",
+     "tāng",
+     "soup; hot or boiling water; decoction of medicinal herbs",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明也常常夜里去工厂，跟大家一起喝汤。",
+   "py": "Wáng Míng yě cháng cháng yè lǐ qù gōng chǎng, gēn dà jiā yì qǐ hē tāng.",
+   "en": "Wang Ming often goes to the factory at night too, and has soup with everyone.",
+   "tr": {
+    "vi": "Vương Minh cũng hay đến nhà máy vào ban đêm, cùng mọi người ăn canh.",
+    "pt": "O Wang Ming também vai muitas vezes à fábrica de noite e toma sopa com todo mundo.",
+    "es": "Wang Ming también va a menudo a la fábrica de noche a tomar sopa con todos.",
+    "fr": "Wang Ming va souvent à l'usine la nuit, lui aussi, et boit de la soupe avec tout le monde.",
+    "am": "ዋንግ ሚንግም ብዙ ጊዜ ሌሊት ወደ ፋብሪካው ሄዶ ከሁሉም ጋር ሾርባ ይጠጣል።",
+    "fa": "وانگ مینگ هم اغلب شب‌ها می‌ره کارخونه و با همه سوپ می‌خوره."
+   },
+   "start": 32.06,
+   "end": 36.116,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "常常",
+     "cháng cháng",
+     "frequently; often",
+     ""
+    ],
+    [
+     "夜里",
+     "yè li",
+     "during the night; at night; nighttime",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "工厂",
+     "gōng chǎng",
+     "factory",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "一起",
+     "yī qǐ",
+     "(in) the same place; together; in company (with)",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "汤",
+     "tāng",
+     "soup; water in which sth has been boiled",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "有一天，负责人感冒了，还发烧，只好在房间里休息。",
+   "py": "yǒu yì tiān, fù zé rén gǎn mào le, hái fā shāo, zhǐ hǎo zài fáng jiān lǐ xiū xi.",
+   "en": "One day, the manager catches a cold and has a fever, so he has to rest in his room.",
+   "tr": {
+    "vi": "Có một hôm, người phụ trách bị cảm, lại còn sốt, đành phải nằm nghỉ trong phòng.",
+    "pt": "Um dia, o responsável pega um resfriado, fica com febre e precisa descansar no quarto.",
+    "es": "Un día, el encargado se resfría y además tiene fiebre, así que tiene que quedarse a descansar en su cuarto.",
+    "fr": "Un jour, le responsable attrape un rhume et a de la fièvre, alors il doit se reposer dans sa chambre.",
+    "am": "አንድ ቀን ኃላፊው ጉንፋን ያዘው፤ ትኩሳትም ነበረው፤ ስለዚህ ክፍሉ ውስጥ ማረፍ ነበረበት።",
+    "fa": "یه روز، مدیر سرما می‌خوره و تب می‌کنه؛ مجبور می‌شه تو اتاقش استراحت کنه."
+   },
+   "start": 36.816,
+   "end": 43.464,
+   "tokens": [
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "负责人",
+     "fù zé rén",
+     "person in charge",
+     ""
+    ],
+    [
+     "感冒",
+     "gǎn mào",
+     "to catch cold; (common) cold",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "发烧",
+     "fā shāo",
+     "to have a high temperature (from illness); to have a fever",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "只好",
+     "zhǐ hǎo",
+     "to have no other option but to ...; to have to; to be forced to",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "房间",
+     "fáng jiān",
+     "room",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "休息",
+     "xiū xi",
+     "rest; to rest",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明想：“今天晚上，没有人做汤了。”",
+   "py": "Wáng Míng xiǎng: “jīn tiān wǎn shang, méi yǒu rén zuò tāng le.”",
+   "en": "Wang Ming thinks, \"Tonight, there won't be anyone to make the soup.\"",
+   "tr": {
+    "vi": "Vương Minh nghĩ: “Tối nay chẳng có ai nấu canh rồi.”",
+    "pt": "O Wang Ming pensa: “Hoje à noite não vai ter ninguém para fazer a sopa.”",
+    "es": "Wang Ming piensa: «Esta noche no va a haber quien haga la sopa».",
+    "fr": "Wang Ming pense : « Ce soir, il n'y aura personne pour faire la soupe. »",
+    "am": "ዋንግ ሚንግ «ዛሬ ማታ ሾርባ የሚሠራ ሰው የለም» ብሎ አሰበ።",
+    "fa": "وانگ مینگ فکر می‌کنه: «امشب دیگه هیچ‌کی سوپ درست نمی‌کنه.»"
+   },
+   "start": 44.164,
+   "end": 48.916,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; night; in the evening",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "汤",
+     "tāng",
+     "soup; hot or boiling water; decoction of medicinal herbs",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "可是夜里两点，几个工人来了，手里拿着一个大锅。",
+   "py": "kě shì yè lǐ liǎng diǎn, jǐ gè gōng rén lái le, shǒu lǐ ná zhe yí gè dà guō.",
+   "en": "But at two in the morning, a few workers turn up, carrying a big pot.",
+   "tr": {
+    "vi": "Nhưng đến hai giờ đêm, mấy công nhân đến, tay bưng một nồi lớn.",
+    "pt": "Mas às duas da manhã chegam alguns operários carregando uma panela grande.",
+    "es": "Pero a las dos de la madrugada llegan varios trabajadores cargando una olla grande.",
+    "fr": "Mais à deux heures du matin, quelques ouvriers arrivent avec une grande marmite.",
+    "am": "ግን ሌሊት 2:00 ላይ ጥቂት ሠራተኞች ትልቅ ድስት ይዘው መጡ።",
+    "fa": "ولی ساعت دو نصفه‌شب، چند تا کارگر با یه دیگ بزرگ می‌رسن."
+   },
+   "start": 49.616,
+   "end": 55.088,
+   "tokens": [
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "夜里",
+     "yè li",
+     "during the night; at night; nighttime",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; a few; both",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "几个",
+     "jǐ ge",
+     "a few; several; how many",
+     ""
+    ],
+    [
+     "工人",
+     "gōng rén",
+     "worker",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "(between two verbs) in order to; to come",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "手里",
+     "shǒu lǐ",
+     "in hand; (a situation is) in sb's hands",
+     ""
+    ],
+    [
+     "拿",
+     "ná",
+     "to hold; to seize; to catch",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "大锅",
+     "dà guō",
+     "a big wok; cauldron",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他们自己没喝，先把汤送到了负责人的房间。",
+   "py": "tā men zì jǐ méi hē, xiān bǎ tāng sòng dào le fù zé rén de fáng jiān.",
+   "en": "They don't drink any themselves. First, they take the soup to the manager's room.",
+   "tr": {
+    "vi": "Họ chưa ăn, mà mang canh đến phòng người phụ trách trước.",
+    "pt": "Eles mesmos não tomam; primeiro levam a sopa ao quarto do responsável.",
+    "es": "Ellos no toman nada todavía: primero le llevan la sopa al cuarto del encargado.",
+    "fr": "Ils n'en boivent pas eux-mêmes : d'abord, ils apportent la soupe dans la chambre du responsable.",
+    "am": "ራሳቸው አልጠጡም፤ መጀመሪያ ሾርባውን ወደ ኃላፊው ክፍል ወሰዱ።",
+    "fa": "خودشون هیچی نمی‌خورن؛ اول سوپو می‌برن اتاق مدیر."
+   },
+   "start": 55.788,
+   "end": 60.78,
+   "tokens": [
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "先",
+     "xiān",
+     "beforehand; first; earlier; at first; originally",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "汤",
+     "tāng",
+     "soup; hot or boiling water; decoction of medicinal herbs",
+     ""
+    ],
+    [
+     "送",
+     "sòng",
+     "to send; to deliver; to transmit; to give (as a present)",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "负责人",
+     "fù zé rén",
+     "person in charge",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "房间",
+     "fáng jiān",
+     "room",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "这是印度尼西亚的做法，有一点儿辣，也特别香。",
+   "py": "zhè shì yìn dù ní xī yà de zuò fǎ, yǒu yì diǎn r là, yě tè bié xiāng.",
+   "en": "It's made the Indonesian way, a little spicy and wonderfully fragrant.",
+   "tr": {
+    "vi": "Đây là canh nấu theo kiểu Indonesia, hơi cay một chút, mà thơm vô cùng.",
+    "pt": "É feita do jeito indonésio, um pouco picante e com um cheiro delicioso.",
+    "es": "Está hecha al estilo de Indonesia, un poco picante y con un aroma delicioso.",
+    "fr": "C'est une soupe à l'indonésienne, un peu épicée et très parfumée.",
+    "am": "በኢንዶኔዥያ አሠራር የተሠራ ነበር፤ ትንሽ ያቃጥላል፤ መዓዛውም በጣም ጥሩ ነው።",
+    "fa": "به روش اندونزیایی پخته؛ یه کم تُنده و عطرش حسابی دل‌چسبه."
+   },
+   "start": 61.48,
+   "end": 66.232,
+   "tokens": [
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "印度尼西亚",
+     "yìn dù ní xī yà",
+     "Indonesia",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "做法",
+     "zuò fǎ",
+     "way of handling sth; method for making; work method",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "有一点儿",
+     "yǒu yī diǎn r",
+     "a little; a bit",
+     ""
+    ],
+    [
+     "辣",
+     "là",
+     "hot (spicy); pungent",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "特别",
+     "tè bié",
+     "unusual; special; very; especially; particularly",
+     ""
+    ],
+    [
+     "香",
+     "xiāng",
+     "fragrant; sweet smelling; aromatic",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "负责人喝了一大碗：“比我做的还好喝！”",
+   "py": "fù zé rén hē le yí dà wǎn: “bǐ wǒ zuò de hái hǎo hē!”",
+   "en": "The manager drinks a big bowlful. \"It's even better than mine!\"",
+   "tr": {
+    "vi": "Người phụ trách ăn một bát to: “Còn ngon hơn canh tôi nấu!”",
+    "pt": "O responsável toma uma tigela grande: “Está ainda melhor que a minha!”",
+    "es": "El encargado se toma un tazón grande: «¡Está todavía más rica que la mía!».",
+    "fr": "Le responsable en boit un grand bol : « Elle est encore meilleure que la mienne ! »",
+    "am": "ኃላፊው አንድ ትልቅ ሳህን ጠጣ። «ከእኔው ሾርባ ይበልጣል!»",
+    "fa": "مدیر یه کاسه‌ی بزرگ می‌خوره: «حتی از سوپ خودم خوش‌مزه‌تره!»"
+   },
+   "start": 66.932,
+   "end": 71.948,
+   "tokens": [
+    [
+     "负责人",
+     "fù zé rén",
+     "person in charge",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "碗",
+     "wǎn",
+     "bowl; cup",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "比",
+     "bǐ",
+     "(followed by a noun and adjective) more {adj.} than {noun}",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "还好",
+     "hái hǎo",
+     "not bad; pretty good; fortunately; luckily",
+     ""
+    ],
+    [
+     "喝",
+     "hē",
+     "to drink",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "第二天，他的感冒好多了。",
+   "py": "dì èr tiān, tā de gǎn mào hǎo duō le.",
+   "en": "The next day, his cold is much better.",
+   "tr": {
+    "vi": "Hôm sau, ông đã đỡ cảm nhiều.",
+    "pt": "No dia seguinte, o resfriado dele está bem melhor.",
+    "es": "Al día siguiente, ya está mucho mejor del resfriado.",
+    "fr": "Le lendemain, son rhume va beaucoup mieux.",
+    "am": "በማግስቱ ጉንፋኑ በጣም ተሻለው።",
+    "fa": "فرداش، سرماخوردگیش خیلی بهتر می‌شه."
+   },
+   "start": 72.648,
+   "end": 75.768,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "感冒",
+     "gǎn mào",
+     "to catch cold; (common) cold",
+     ""
+    ],
+    [
+     "好多",
+     "hǎo duō",
+     "much better; many; quite a lot",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "从那天起，夜班的汤一天是中国的，一天是印度尼西亚的。",
+   "py": "cóng nà tiān qǐ, yè bān de tāng yì tiān shì Zhōng guó de, yì tiān shì yìn dù ní xī yà de.",
+   "en": "From that day on, the night-shift soup is Chinese one day and Indonesian the next.",
+   "tr": {
+    "vi": "Từ hôm đó, canh ca đêm cứ một hôm kiểu Trung Quốc, một hôm kiểu Indonesia.",
+    "pt": "A partir daquele dia, a sopa do turno da noite é chinesa num dia e indonésia no outro.",
+    "es": "Desde ese día, la sopa del turno de noche es un día china y al otro día indonesia.",
+    "fr": "À partir de ce jour-là, la soupe de nuit est chinoise un jour, et indonésienne le lendemain.",
+    "am": "ከዚያ ቀን ጀምሮ የሌሊት ፈረቃው ሾርባ አንድ ቀን የቻይና፣ አንድ ቀን የኢንዶኔዥያ ሆነ።",
+    "fa": "از اون روز به بعد، سوپِ شیفت شب یه شب چینی‌ئه و شب بعدش اندونزیایی."
+   },
+   "start": 76.468,
+   "end": 82.9,
+   "tokens": [
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "起",
+     "qǐ",
+     "to rise; to raise; to get up",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "夜班",
+     "yè bān",
+     "night shift",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "汤",
+     "tāng",
+     "soup; hot or boiling water; decoction of medicinal herbs",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "\"one\" radical in Chinese characters (Kangxi radical 1); one",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "中国",
+     "zhōng guó",
+     "China",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "\"one\" radical in Chinese characters (Kangxi radical 1); one",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "印度尼西亚",
+     "yìn dù ní xī yà",
+     "Indonesia",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 259,
+ "first": "王明的公司在印度尼西亚有一个工厂，他去那儿工作一个月。",
+ "newWords": [
+  {
+   "w": "汤",
+   "py": "tāng",
+   "en": "soup"
+  },
+  {
+   "w": "感冒",
+   "py": "gǎnmào",
+   "en": "to catch cold"
+  },
+  {
+   "w": "发烧",
+   "py": "fāshāo",
+   "en": "have a fever"
+  },
+  {
+   "w": "香",
+   "py": "xiāng",
+   "en": "fragrant"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h2-64.mp3?v=1791721315"
 }

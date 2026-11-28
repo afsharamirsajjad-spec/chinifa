@@ -1,739 +1,747 @@
 {
-  "id": "h1-42",
-  "level": 1,
-  "no": 42,
-  "title": "红包",
-  "title_py": "hóng bāo",
-  "title_en": "The red envelope",
-  "title_tr": {
-    "vi": "Bao lì xì",
-    "pt": "O envelope vermelho",
-    "es": "El sobre rojo",
-    "fr": "L'enveloppe rouge",
-    "am": "ቀዩ ፖስታ",
-    "fa": "دانشجوی زبان چینی"
+ "id": "h1-42",
+ "level": 1,
+ "no": 42,
+ "title": "红包",
+ "title_py": "hóng bāo",
+ "title_en": "The red envelope",
+ "title_tr": {
+  "vi": "Bao lì xì",
+  "pt": "O envelope vermelho",
+  "es": "El sobre rojo",
+  "fr": "L'enveloppe rouge",
+  "am": "ቀዩ ፖስታ",
+  "fa": "دانشجوی زبان چینی"
+ },
+ "topic": "festival",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h1-42.jpg",
+ "duration": 44.46,
+ "lines": [
+  {
+   "text": "今天是春节。杰克去看刘爷爷。",
+   "py": "jīn tiān shì chūn jié. Jié kè qù kàn Liú yé ye.",
+   "en": "Today is Spring Festival. Jack goes to see Grandpa Liu.",
+   "tr": {
+    "vi": "Hôm nay là Tết Nguyên đán. Jack đến thăm ông Lưu.",
+    "pt": "Hoje é a Festa da Primavera. O Jack vai visitar o vovô Liu.",
+    "es": "Hoy es la Fiesta de la Primavera. Jack va a ver al abuelo Liu.",
+    "fr": "Aujourd'hui, c'est la fête du Printemps. Jack va voir papi Liu.",
+    "am": "ዛሬ የቻይና አዲስ ዓመት ነው። ጃክ አያት ሊዩን ሊጠይቅ ሄደ።",
+    "fa": "امروز جشن بهاره است. جک می‌رود دیدن پدربزرگ لیو."
+   },
+   "start": 2.62,
+   "end": 6.892,
+   "tokens": [
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "春节",
+     "chūn jié",
+     "Spring Festival (Chinese New Year)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "festival",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h1-42.jpg",
-  "duration": 44.46,
-  "lines": [
-    {
-      "text": "今天是春节。杰克去看刘爷爷。",
-      "py": "jīn tiān shì chūn jié. Jié kè qù kàn Liú yé ye.",
-      "en": "Today is Spring Festival. Jack goes to see Grandpa Liu.",
-      "tr": {
-        "vi": "Hôm nay là Tết Nguyên đán. Jack đến thăm ông Lưu.",
-        "pt": "Hoje é a Festa da Primavera. O Jack vai visitar o vovô Liu.",
-        "es": "Hoy es la Fiesta de la Primavera. Jack va a ver al abuelo Liu.",
-        "fr": "Aujourd'hui, c'est la fête du Printemps. Jack va voir papi Liu.",
-        "am": "ዛሬ የቻይና አዲስ ዓመት ነው። ጃክ አያት ሊዩን ሊጠይቅ ሄደ።"
-      },
-      "start": 2.62,
-      "end": 6.892,
-      "tokens": [
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "春节",
-          "chūn jié",
-          "Spring Festival (Chinese New Year)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“刘爷爷，新年好！”",
-      "py": "Jié kè shuō: “Liú yé ye, xīn nián hǎo!”",
-      "en": "Jack says, \"Happy New Year, Grandpa Liu!\"",
-      "tr": {
-        "vi": "Jack nói: “Ông Lưu ơi, chúc mừng năm mới ạ!”",
-        "pt": "O Jack diz: “Feliz Ano-Novo, vovô Liu!”",
-        "es": "Jack dice: «¡Feliz Año Nuevo, abuelo Liu!»",
-        "fr": "Jack dit : « Papi Liu, bonne année ! »",
-        "am": "ጃክ «አያት ሊዩ፣ መልካም አዲስ ዓመት!» አለ።"
-      },
-      "start": 7.592,
-      "end": 11.192,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "新年",
-          "xīn nián",
-          "New Year",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷很高兴：“新年好！来，这是你的红包。”",
-      "py": "Liú yé ye hěn gāo xìng: “xīn nián hǎo! lái, zhè shì nǐ de hóng bāo.”",
-      "en": "Grandpa Liu is delighted. \"Happy New Year! Here, this red envelope is for you.\"",
-      "tr": {
-        "vi": "Ông Lưu rất vui: “Chúc mừng năm mới! Nào, đây là bao lì xì của cháu.”",
-        "pt": "O vovô Liu fica muito contente: “Feliz Ano-Novo! Tome, este envelope vermelho é para você.”",
-        "es": "El abuelo Liu está muy contento: «¡Feliz Año Nuevo! Toma, este sobre rojo es para ti».",
-        "fr": "Papi Liu est très content : « Bonne année ! Tiens, voilà ton enveloppe rouge. »",
-        "am": "አያት ሊዩ በጣም ተደሰቱ። «መልካም አዲስ ዓመት! ና፣ ይሄ ያንተ ቀይ ፖስታ ነው።»"
-      },
-      "start": 11.892,
-      "end": 16.884,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "新年",
-          "xīn nián",
-          "New Year",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "good; appropriate; proper; all right!",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "红包",
-          "hóng bāo",
-          "money wrapped in red as a gift; bonus payment; kickback",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克说：“红包？我不是孩子，我二十五岁了！”",
-      "py": "Jié kè shuō: “hóng bāo? wǒ bú shì hái zi, wǒ èr shí wǔ suì le!”",
-      "en": "Jack says, \"A red envelope? I'm not a child. I'm twenty-five!\"",
-      "tr": {
-        "vi": "Jack nói: “Lì xì ạ? Cháu không phải trẻ con, cháu hai mươi lăm tuổi rồi!”",
-        "pt": "O Jack diz: “Envelope vermelho? Eu não sou criança, já tenho vinte e cinco anos!”",
-        "es": "Jack dice: «¿Un sobre rojo? ¡No soy un niño, ya tengo veinticinco años!»",
-        "fr": "Jack dit : « Une enveloppe rouge ? Je ne suis pas un enfant, j'ai vingt-cinq ans ! »",
-        "am": "ጃክ «ቀይ ፖስታ? እኔ ልጅ አይደለሁም፤ ሃያ አምስት ዓመቴ ነው!» አለ።"
-      },
-      "start": 17.584,
-      "end": 23.056,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "红包",
-          "hóng bāo",
-          "money wrapped in red as a gift; bonus payment; kickback",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "不是",
-          "bù shì",
-          "no; is not; not",
-          ""
-        ],
-        [
-          "孩子",
-          "hái zi",
-          "child",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "二十",
-          "èr shí",
-          "twenty; 20",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "岁",
-          "suì",
-          "classifier for years (of age); years old; year",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "刘爷爷笑了：“我八十岁了。你二十五岁……你是孩子！”",
-      "py": "Liú yé ye xiào le: “wǒ bā shí suì le. nǐ èr shí wǔ suì…… nǐ shì hái zi!”",
-      "en": "Grandpa Liu laughs. \"I'm eighty. You're twenty-five... you're a child!\"",
-      "tr": {
-        "vi": "Ông Lưu cười: “Ông tám mươi tuổi rồi. Cháu hai mươi lăm... cháu là trẻ con!”",
-        "pt": "O vovô Liu ri: “Eu tenho oitenta. Você tem vinte e cinco... você é criança!”",
-        "es": "El abuelo Liu se ríe: «Yo tengo ochenta. Tú tienes veinticinco… ¡eres un niño!»",
-        "fr": "Papi Liu rit : « Moi, j'ai quatre-vingts ans. Toi, tu as vingt-cinq ans… tu es un enfant ! »",
-        "am": "አያት ሊዩ ሳቁ። «እኔ ሰማንያ ዓመቴ ነው። አንተ ሃያ አምስት… ልጅ ነህ!»"
-      },
-      "start": 23.756,
-      "end": 29.708,
-      "tokens": [
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "八十",
-          "bā shí",
-          "eighty; 80",
-          ""
-        ],
-        [
-          "岁",
-          "suì",
-          "classifier for years (of age); years old; year",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "二十",
-          "èr shí",
-          "twenty; 20",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "岁",
-          "suì",
-          "classifier for years (of age); years old; year",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "孩子",
-          "hái zi",
-          "child",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克笑了：“谢谢刘爷爷！”",
-      "py": "Jié kè xiào le: “xiè xie Liú yé ye!”",
-      "en": "Jack laughs. \"Thank you, Grandpa Liu!\"",
-      "tr": {
-        "vi": "Jack cười: “Cháu cảm ơn ông Lưu!”",
-        "pt": "O Jack ri: “Obrigado, vovô Liu!”",
-        "es": "Jack se ríe: «¡Gracias, abuelo Liu!»",
-        "fr": "Jack rit : « Merci, papi Liu ! »",
-        "am": "ጃክ ሳቀ። «አመሰግናለሁ አያት ሊዩ!»"
-      },
-      "start": 30.408,
-      "end": 33.528,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "谢谢",
-          "xiè xie",
-          "to thank; thanks; thank you",
-          ""
-        ],
-        [
-          "刘",
-          "liú",
-          "(classical) a type of battle-ax; to kill; to slaughter",
-          ""
-        ],
-        [
-          "爷爷",
-          "yé ye",
-          "(coll.) paternal grandfather; grandpa",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "下午，杰克和妈妈打电话。",
-      "py": "xià wǔ, Jié kè hé mā ma dǎ diàn huà.",
-      "en": "In the afternoon, Jack phones his mum.",
-      "tr": {
-        "vi": "Buổi chiều, Jack gọi điện cho mẹ.",
-        "pt": "À tarde, o Jack fala com a mãe por telefone.",
-        "es": "En la tarde, Jack habla por teléfono con su mamá.",
-        "fr": "L'après-midi, Jack téléphone à sa mère.",
-        "am": "ከሰዓት ጃክ ከእናቱ ጋር በስልክ አወራ።"
-      },
-      "start": 34.228,
-      "end": 37.564,
-      "tokens": [
-        [
-          "下午",
-          "xià wǔ",
-          "afternoon; p.m.",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "和",
-          "hé",
-          "(joining two nouns) and; together with; with; (math.) sum",
-          ""
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“妈妈，今天我有红包了！在中国，我是孩子！”",
-      "py": "“mā ma, jīn tiān wǒ yǒu hóng bāo le! zài Zhōng guó, wǒ shì hái zi!”",
-      "en": "\"Mum, I got a red envelope today! In China, I'm a kid!\"",
-      "tr": {
-        "vi": "“Mẹ ơi, hôm nay con được lì xì! Ở Trung Quốc, con là trẻ con!”",
-        "pt": "“Mãe, hoje eu ganhei um envelope vermelho! Na China, eu sou criança!”",
-        "es": "«Mamá, ¡hoy me dieron un sobre rojo! ¡En China soy un niño!»",
-        "fr": "« Maman, aujourd'hui, j'ai eu une enveloppe rouge ! En Chine, je suis un enfant ! »",
-        "am": "«እማዬ፣ ዛሬ ቀይ ፖስታ ተሰጠኝ! ቻይና ውስጥ እኔ ልጅ ነኝ!»"
-      },
-      "start": 38.264,
-      "end": 43.76,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "妈妈",
-          "mā ma",
-          "mama; mommy; mother",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "红包",
-          "hóng bāo",
-          "money wrapped in red as a gift; bonus payment; kickback",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "中国",
-          "zhōng guó",
-          "China",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "孩子",
-          "hái zi",
-          "child",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 107,
-  "first": "今天是春节。杰克去看刘爷爷。",
-  "newWords": [
-    {
-      "w": "春节",
-      "py": "Chūnjié",
-      "en": "Spring Festival; Chinese New Year"
-    },
-    {
-      "w": "新年",
-      "py": "xīnnián",
-      "en": "New Year"
-    },
-    {
-      "w": "红包",
-      "py": "hóngbāo",
-      "en": "red envelope (money given as a gift)"
-    },
-    {
-      "w": "孩子",
-      "py": "háizi",
-      "en": "child"
-    },
-    {
-      "w": "笑",
-      "py": "xiào",
-      "en": "to smile"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h1-42.mp3?v=1791720781"
+  {
+   "text": "杰克说：“刘爷爷，新年好！”",
+   "py": "Jié kè shuō: “Liú yé ye, xīn nián hǎo!”",
+   "en": "Jack says, \"Happy New Year, Grandpa Liu!\"",
+   "tr": {
+    "vi": "Jack nói: “Ông Lưu ơi, chúc mừng năm mới ạ!”",
+    "pt": "O Jack diz: “Feliz Ano-Novo, vovô Liu!”",
+    "es": "Jack dice: «¡Feliz Año Nuevo, abuelo Liu!»",
+    "fr": "Jack dit : « Papi Liu, bonne année ! »",
+    "am": "ጃክ «አያት ሊዩ፣ መልካም አዲስ ዓመት!» አለ።",
+    "fa": "جک می‌گوید: «پدربزرگ لیو، سال نو مبارک!»"
+   },
+   "start": 7.592,
+   "end": 11.192,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "新年",
+     "xīn nián",
+     "New Year",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷很高兴：“新年好！来，这是你的红包。”",
+   "py": "Liú yé ye hěn gāo xìng: “xīn nián hǎo! lái, zhè shì nǐ de hóng bāo.”",
+   "en": "Grandpa Liu is delighted. \"Happy New Year! Here, this red envelope is for you.\"",
+   "tr": {
+    "vi": "Ông Lưu rất vui: “Chúc mừng năm mới! Nào, đây là bao lì xì của cháu.”",
+    "pt": "O vovô Liu fica muito contente: “Feliz Ano-Novo! Tome, este envelope vermelho é para você.”",
+    "es": "El abuelo Liu está muy contento: «¡Feliz Año Nuevo! Toma, este sobre rojo es para ti».",
+    "fr": "Papi Liu est très content : « Bonne année ! Tiens, voilà ton enveloppe rouge. »",
+    "am": "አያት ሊዩ በጣም ተደሰቱ። «መልካም አዲስ ዓመት! ና፣ ይሄ ያንተ ቀይ ፖስታ ነው።»",
+    "fa": "پدربزرگ لیو خیلی خوشحال می‌شود: «سال نو مبارک! بفرما، این پاکت قرمز مال تو.»"
+   },
+   "start": 11.892,
+   "end": 16.884,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "新年",
+     "xīn nián",
+     "New Year",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "good; appropriate; proper; all right!",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "红包",
+     "hóng bāo",
+     "money wrapped in red as a gift; bonus payment; kickback",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克说：“红包？我不是孩子，我二十五岁了！”",
+   "py": "Jié kè shuō: “hóng bāo? wǒ bú shì hái zi, wǒ èr shí wǔ suì le!”",
+   "en": "Jack says, \"A red envelope? I'm not a child. I'm twenty-five!\"",
+   "tr": {
+    "vi": "Jack nói: “Lì xì ạ? Cháu không phải trẻ con, cháu hai mươi lăm tuổi rồi!”",
+    "pt": "O Jack diz: “Envelope vermelho? Eu não sou criança, já tenho vinte e cinco anos!”",
+    "es": "Jack dice: «¿Un sobre rojo? ¡No soy un niño, ya tengo veinticinco años!»",
+    "fr": "Jack dit : « Une enveloppe rouge ? Je ne suis pas un enfant, j'ai vingt-cinq ans ! »",
+    "am": "ጃክ «ቀይ ፖስታ? እኔ ልጅ አይደለሁም፤ ሃያ አምስት ዓመቴ ነው!» አለ።",
+    "fa": "جک می‌گوید: «پاکت قرمز؟ من که بچه نیستم؛ بیست و پنج سالمه!»"
+   },
+   "start": 17.584,
+   "end": 23.056,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "红包",
+     "hóng bāo",
+     "money wrapped in red as a gift; bonus payment; kickback",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "不是",
+     "bù shì",
+     "no; is not; not",
+     ""
+    ],
+    [
+     "孩子",
+     "hái zi",
+     "child",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "二十",
+     "èr shí",
+     "twenty; 20",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "岁",
+     "suì",
+     "classifier for years (of age); years old; year",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "刘爷爷笑了：“我八十岁了。你二十五岁……你是孩子！”",
+   "py": "Liú yé ye xiào le: “wǒ bā shí suì le. nǐ èr shí wǔ suì…… nǐ shì hái zi!”",
+   "en": "Grandpa Liu laughs. \"I'm eighty. You're twenty-five... you're a child!\"",
+   "tr": {
+    "vi": "Ông Lưu cười: “Ông tám mươi tuổi rồi. Cháu hai mươi lăm... cháu là trẻ con!”",
+    "pt": "O vovô Liu ri: “Eu tenho oitenta. Você tem vinte e cinco... você é criança!”",
+    "es": "El abuelo Liu se ríe: «Yo tengo ochenta. Tú tienes veinticinco… ¡eres un niño!»",
+    "fr": "Papi Liu rit : « Moi, j'ai quatre-vingts ans. Toi, tu as vingt-cinq ans… tu es un enfant ! »",
+    "am": "አያት ሊዩ ሳቁ። «እኔ ሰማንያ ዓመቴ ነው። አንተ ሃያ አምስት… ልጅ ነህ!»",
+    "fa": "پدربزرگ لیو می‌خندد: «من هشتاد سالمه. تو بیست و پنج ساله… تو بچه‌ای!»"
+   },
+   "start": 23.756,
+   "end": 29.708,
+   "tokens": [
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "八十",
+     "bā shí",
+     "eighty; 80",
+     ""
+    ],
+    [
+     "岁",
+     "suì",
+     "classifier for years (of age); years old; year",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "二十",
+     "èr shí",
+     "twenty; 20",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "岁",
+     "suì",
+     "classifier for years (of age); years old; year",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "孩子",
+     "hái zi",
+     "child",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克笑了：“谢谢刘爷爷！”",
+   "py": "Jié kè xiào le: “xiè xie Liú yé ye!”",
+   "en": "Jack laughs. \"Thank you, Grandpa Liu!\"",
+   "tr": {
+    "vi": "Jack cười: “Cháu cảm ơn ông Lưu!”",
+    "pt": "O Jack ri: “Obrigado, vovô Liu!”",
+    "es": "Jack se ríe: «¡Gracias, abuelo Liu!»",
+    "fr": "Jack rit : « Merci, papi Liu ! »",
+    "am": "ጃክ ሳቀ። «አመሰግናለሁ አያት ሊዩ!»",
+    "fa": "جک می‌خندد: «ممنون پدربزرگ لیو!»"
+   },
+   "start": 30.408,
+   "end": 33.528,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "谢谢",
+     "xiè xie",
+     "to thank; thanks; thank you",
+     ""
+    ],
+    [
+     "刘",
+     "liú",
+     "(classical) a type of battle-ax; to kill; to slaughter",
+     ""
+    ],
+    [
+     "爷爷",
+     "yé ye",
+     "(coll.) paternal grandfather; grandpa",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "下午，杰克和妈妈打电话。",
+   "py": "xià wǔ, Jié kè hé mā ma dǎ diàn huà.",
+   "en": "In the afternoon, Jack phones his mum.",
+   "tr": {
+    "vi": "Buổi chiều, Jack gọi điện cho mẹ.",
+    "pt": "À tarde, o Jack fala com a mãe por telefone.",
+    "es": "En la tarde, Jack habla por teléfono con su mamá.",
+    "fr": "L'après-midi, Jack téléphone à sa mère.",
+    "am": "ከሰዓት ጃክ ከእናቱ ጋር በስልክ አወራ።",
+    "fa": "بعدازظهر جک به مامانش تلفن می‌زند."
+   },
+   "start": 34.228,
+   "end": 37.564,
+   "tokens": [
+    [
+     "下午",
+     "xià wǔ",
+     "afternoon; p.m.",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "和",
+     "hé",
+     "(joining two nouns) and; together with; with; (math.) sum",
+     ""
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“妈妈，今天我有红包了！在中国，我是孩子！”",
+   "py": "“mā ma, jīn tiān wǒ yǒu hóng bāo le! zài Zhōng guó, wǒ shì hái zi!”",
+   "en": "\"Mum, I got a red envelope today! In China, I'm a kid!\"",
+   "tr": {
+    "vi": "“Mẹ ơi, hôm nay con được lì xì! Ở Trung Quốc, con là trẻ con!”",
+    "pt": "“Mãe, hoje eu ganhei um envelope vermelho! Na China, eu sou criança!”",
+    "es": "«Mamá, ¡hoy me dieron un sobre rojo! ¡En China soy un niño!»",
+    "fr": "« Maman, aujourd'hui, j'ai eu une enveloppe rouge ! En Chine, je suis un enfant ! »",
+    "am": "«እማዬ፣ ዛሬ ቀይ ፖስታ ተሰጠኝ! ቻይና ውስጥ እኔ ልጅ ነኝ!»",
+    "fa": "«مامان، امروز پاکت قرمز گرفتم! توی چین من هنوز بچه‌ام!»"
+   },
+   "start": 38.264,
+   "end": 43.76,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "妈妈",
+     "mā ma",
+     "mama; mommy; mother",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "红包",
+     "hóng bāo",
+     "money wrapped in red as a gift; bonus payment; kickback",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "中国",
+     "zhōng guó",
+     "China",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "孩子",
+     "hái zi",
+     "child",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 107,
+ "first": "今天是春节。杰克去看刘爷爷。",
+ "newWords": [
+  {
+   "w": "春节",
+   "py": "Chūnjié",
+   "en": "Spring Festival; Chinese New Year"
+  },
+  {
+   "w": "新年",
+   "py": "xīnnián",
+   "en": "New Year"
+  },
+  {
+   "w": "红包",
+   "py": "hóngbāo",
+   "en": "red envelope (money given as a gift)"
+  },
+  {
+   "w": "孩子",
+   "py": "háizi",
+   "en": "child"
+  },
+  {
+   "w": "笑",
+   "py": "xiào",
+   "en": "to smile"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h1-42.mp3?v=1791720781"
 }

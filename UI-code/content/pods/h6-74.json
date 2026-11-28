@@ -1,2963 +1,2983 @@
 {
-  "id": "h6-74",
-  "level": 6,
-  "no": 74,
-  "title": "鸿门宴",
-  "title_py": "hóng mén yàn",
-  "title_en": "The Hongmen Banquet",
-  "title_tr": {
-    "am": "የሆንግመን ግብዣ",
-    "fa": "ضیافت هُنگ‌مِن (مهمانی پرخطر)"
+ "id": "h6-74",
+ "level": 6,
+ "no": 74,
+ "title": "鸿门宴",
+ "title_py": "hóng mén yàn",
+ "title_en": "The Hongmen Banquet",
+ "title_tr": {
+  "am": "የሆንግመን ግብዣ",
+  "fa": "ضیافت هُنگ‌مِن (مهمانی پرخطر)"
+ },
+ "topic": "work",
+ "free": false,
+ "sub": "w_dining",
+ "cover": "https://media.kanchinese.app/review/stories/h6-74.jpg",
+ "duration": 182.652,
+ "lines": [
+  {
+   "text": "下个月，公司要跟一家供应商谈明年的价格，谈判还没开始，供应商的老板就打来电话，要请杰克吃饭。",
+   "py": "xià gè yuè, gōng sī yào gēn yì jiā gōng yìng shāng tán míng nián de jià gé, tán pàn hái méi kāi shǐ, gōng yìng shāng de lǎo bǎn jiù dǎ lái diàn huà, yào qǐng Jié kè chī fàn.",
+   "en": "Next month the company is due to negotiate next year's prices with a supplier, and before talks have even begun, the supplier's owner rings to invite Jack to dinner.",
+   "tr": {
+    "am": "በሚቀጥለው ወር ድርጅቱ ከአንድ አቅራቢ ጋር ስለ ሚቀጥለው ዓመት ዋጋ ሊደራደር ነው፣ ድርድሩ ገና ሳይጀመር የአቅራቢው ባለቤት ጃክን ራት ሊጋብዝ ደወለ።",
+    "fa": "ماه بعد قراره شرکت با یه تأمین‌کننده درباره قیمت‌های سال بعد صحبت کنه؛ مذاکره شروع نشده که صاحب تأمین‌کننده زنگ می‌زنه و جک رو به شام دعوت می‌کنه."
+   },
+   "start": 2.404,
+   "end": 12.604,
+   "tokens": [
+    [
+     "下个月",
+     "xià gè yuè",
+     "next month",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "公司",
+     "gōng sī",
+     "company; firm; corporation",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "一家",
+     "yī jiā",
+     "the whole family; the same family",
+     ""
+    ],
+    [
+     "供应商",
+     "gōng yìng shāng",
+     "supplier",
+     ""
+    ],
+    [
+     "谈",
+     "tán",
+     "to talk; to speak; to converse",
+     ""
+    ],
+    [
+     "明年",
+     "míng nián",
+     "next year",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "价格",
+     "jià gé",
+     "price",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "谈判",
+     "tán pàn",
+     "to negotiate; talks; negotiation",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "even more; even; still",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "供应商",
+     "gōng yìng shāng",
+     "supplier",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(pattern: 就 ... 也 ...) even if ... still ...",
+     ""
+    ],
+    [
+     "打",
+     "dǎ",
+     "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
+     ""
+    ],
+    [
+     "来电",
+     "lái diàn",
+     "to have an instant attraction to sb",
+     ""
+    ],
+    [
+     "话",
+     "huà",
+     "talk; dialect; language",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "请",
+     "qǐng",
+     "to invite; to ask; please (do sth)",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "work",
-  "free": false,
-  "sub": "w_dining",
-  "cover": "https://media.kanchinese.app/review/stories/h6-74.jpg",
-  "duration": 182.652,
-  "lines": [
-    {
-      "text": "下个月，公司要跟一家供应商谈明年的价格，谈判还没开始，供应商的老板就打来电话，要请杰克吃饭。",
-      "py": "xià gè yuè, gōng sī yào gēn yì jiā gōng yìng shāng tán míng nián de jià gé, tán pàn hái méi kāi shǐ, gōng yìng shāng de lǎo bǎn jiù dǎ lái diàn huà, yào qǐng Jié kè chī fàn.",
-      "en": "Next month the company is due to negotiate next year's prices with a supplier, and before talks have even begun, the supplier's owner rings to invite Jack to dinner.",
-      "tr": {
-        "am": "በሚቀጥለው ወር ድርጅቱ ከአንድ አቅራቢ ጋር ስለ ሚቀጥለው ዓመት ዋጋ ሊደራደር ነው፣ ድርድሩ ገና ሳይጀመር የአቅራቢው ባለቤት ጃክን ራት ሊጋብዝ ደወለ።"
-      },
-      "start": 2.404,
-      "end": 12.604,
-      "tokens": [
-        [
-          "下个月",
-          "xià gè yuè",
-          "next month",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "公司",
-          "gōng sī",
-          "company; firm; corporation",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "一家",
-          "yī jiā",
-          "the whole family; the same family",
-          ""
-        ],
-        [
-          "供应商",
-          "gōng yìng shāng",
-          "supplier",
-          ""
-        ],
-        [
-          "谈",
-          "tán",
-          "to talk; to speak; to converse",
-          ""
-        ],
-        [
-          "明年",
-          "míng nián",
-          "next year",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "价格",
-          "jià gé",
-          "price",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "谈判",
-          "tán pàn",
-          "to negotiate; talks; negotiation",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "even more; even; still",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "供应商",
-          "gōng yìng shāng",
-          "supplier",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(pattern: 就 ... 也 ...) even if ... still ...",
-          ""
-        ],
-        [
-          "打",
-          "dǎ",
-          "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
-          ""
-        ],
-        [
-          "来电",
-          "lái diàn",
-          "to have an instant attraction to sb",
-          ""
-        ],
-        [
-          "话",
-          "huà",
-          "talk; dialect; language",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "请",
-          "qǐng",
-          "to invite; to ask; please (do sth)",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "地点是北京最贵的一家粤菜馆，而且只请他一个人。",
-      "py": "dì diǎn shì Běi jīng zuì guì de yì jiā yuè cài guǎn, ér qiě zhǐ qǐng tā yí gè rén.",
-      "en": "The venue is the most expensive Cantonese restaurant in Beijing, and he's the only one invited.",
-      "tr": {
-        "am": "ቦታው በቤጂንግ እጅግ ውድ የሆነው የካንቶን ምግብ ቤት ነው፣ ደግሞም የተጋበዘው እሱ ብቻ ነው።"
-      },
-      "start": 13.304,
-      "end": 18.8,
-      "tokens": [
-        [
-          "地点",
-          "dì diǎn",
-          "venue; place; site",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "北京",
-          "běi jīng",
-          "Beijing municipality, capital of the People's Republic of China (short name 京)",
-          ""
-        ],
-        [
-          "最",
-          "zuì",
-          "(before an adjective or verb) to the highest degree; (the) most ...; -est",
-          ""
-        ],
-        [
-          "贵",
-          "guì",
-          "expensive; (bound form) highly valued; precious",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "一家",
-          "yī jiā",
-          "the whole family; the same family",
-          ""
-        ],
-        [
-          "粤菜",
-          "yuè cài",
-          "Cantonese cuisine",
-          ""
-        ],
-        [
-          "馆",
-          "guǎn",
-          "building; shop; term for certain service establishments",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "而且",
-          "ér qiě",
-          "(not only ...) but also; moreover; in addition; furthermore",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "请",
-          "qǐng",
-          "to invite; to ask; please (do sth)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一个人",
-          "yī gè rén",
-          "by oneself (without assistance); alone (without company)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨听了，脸色都变了：“这是鸿门宴啊！”",
-      "py": "Xiǎo yǔ tīng le, liǎn sè dōu biàn le: “zhè shì hóng mén yàn a!”",
-      "en": "When Xiaoyu hears, her face changes. \"That's a Hongmen Banquet!\"",
-      "tr": {
-        "am": "ሺያውዩ ስትሰማ ፊቷ ተለወጠ፦ «ይህ የሆንግመን ግብዣ ነው እኮ!»"
-      },
-      "start": 19.5,
-      "end": 24.708,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "脸色",
-          "liǎn sè",
-          "complexion; look",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "变",
-          "biàn",
-          "to change; to become different; to transform",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "鸿门宴",
-          "hóng mén yàn",
-          "Hongmen feast",
-          ""
-        ],
-        [
-          "啊",
-          "a",
-          "modal particle ending sentence, showing affirmation, approval, or consent",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "她给杰克讲了鸿门宴的故事：两千多年前，项羽请刘邦吃饭，宴席上有人舞剑，其实是想找机会杀了刘邦。",
-      "py": "tā gěi Jié kè jiǎng le hóng mén yàn de gù shi: liǎng qiān duō nián qián, xiàng yǔ qǐng liú bāng chī fàn, yàn xí shàng yǒu rén wǔ jiàn, qí shí shì xiǎng zhǎo jī huì shā le liú bāng.",
-      "en": "She tells Jack the story: over two thousand years ago, Xiang Yu invited Liu Bang to a feast, and someone performed a sword dance there that was really a chance to kill Liu Bang.",
-      "tr": {
-        "am": "ለጃክ የሆንግመን ግብዣን ታሪክ ነገረችው፦ ከሁለት ሺህ ዓመት በፊት ሺያንግ ዩ ሊዩ ባንግን ለግብዣ ጠራው፣ በግብዣው ላይ አንድ ሰው የሰይፍ ዳንስ አቀረበ፣ በእውነቱ ግን ሊዩ ባንግን ለመግደል አጋጣሚ እየፈለገ ነበር።"
-      },
-      "start": 25.408,
-      "end": 37.024,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "讲",
-          "jiǎng",
-          "to speak; to explain; to negotiate",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "鸿门宴",
-          "hóng mén yàn",
-          "Hongmen feast",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "故事",
-          "gù shi",
-          "narrative; story; tale",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; some; both",
-          ""
-        ],
-        [
-          "千",
-          "qiān",
-          "thousand",
-          ""
-        ],
-        [
-          "多年",
-          "duō nián",
-          "many years; for many years; longstanding",
-          ""
-        ],
-        [
-          "前",
-          "qián",
-          "ago; front; forward",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "项羽",
-          "xiàng yǔ",
-          "Xiang Yu the Conqueror (232-202 BC), warlord defeated by first Han emperor",
-          ""
-        ],
-        [
-          "请",
-          "qǐng",
-          "to invite; to ask; please (do sth)",
-          ""
-        ],
-        [
-          "刘邦",
-          "liú bāng",
-          "Liu Bang (256 or 247-195 BC), bandit leader who became first Han emperor Han Gaozu 汉高祖 (reigned 202-195 BC)",
-          ""
-        ],
-        [
-          "吃饭",
-          "chī fàn",
-          "to have a meal; to eat; to make a living",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "宴席",
-          "yàn xí",
-          "banquet; feast",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "有人",
-          "yǒu rén",
-          "someone; there is someone there; people",
-          ""
-        ],
-        [
-          "舞剑",
-          "wǔ jiàn",
-          "to perform a sword-dance",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "其实",
-          "qí shí",
-          "actually; in fact; really",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "找机会",
-          "zhǎo jī huì",
-          "to look for an opportunity",
-          ""
-        ],
-        [
-          "杀",
-          "shā",
-          "to kill; to slay; to murder; to attack; to weaken; to reduce",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "刘邦",
-          "liú bāng",
-          "Liu Bang (256 or 247-195 BC), bandit leader who became first Han emperor Han Gaozu 汉高祖 (reigned 202-195 BC)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "“现在说一顿饭是鸿门宴，就是说请客的人别有用心。”",
-      "py": "“xiàn zài shuō yí dùn fàn shì hóng mén yàn, jiù shì shuō qǐng kè de rén bié yǒu yòng xīn.”",
-      "en": "\"Nowadays, if you call a meal a Hongmen Banquet, you mean the host has an ulterior motive.\"",
-      "tr": {
-        "am": "«ዛሬ አንድን ግብዣ የሆንግመን ግብዣ ማለት ጋባዡ የተደበቀ ዓላማ አለው ማለት ነው።»"
-      },
-      "start": 37.724,
-      "end": 43.412,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "现在",
-          "xiàn zài",
-          "now; at present; currently",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "顿",
-          "dùn",
-          "classifier for meals, beatings, scoldings etc: time, bout, spell, meal",
-          ""
-        ],
-        [
-          "饭",
-          "fàn",
-          "meal; cooked rice; (loanword) fan",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "鸿门宴",
-          "hóng mén yàn",
-          "Hongmen feast",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就是说",
-          "jiù shì shuō",
-          "in other words; that is",
-          ""
-        ],
-        [
-          "请客",
-          "qǐng kè",
-          "to give a dinner party; to entertain guests",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "别有用心",
-          "bié yǒu yòng xīn",
-          "to have an ulterior motive (idiom)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克越听越紧张：对方一定是想在饭桌上让他提前答应明年的价格。",
-      "py": "Jié kè yuè tīng yuè jǐn zhāng: duì fāng yí dìng shì xiǎng zài fàn zhuō shàng ràng tā tí qián dā ying míng nián de jià gé.",
-      "en": "The more Jack hears, the more nervous he gets: the other side must want to get him to agree next year's prices over dinner.",
-      "tr": {
-        "am": "ጃክ በሰማ ቁጥር ይበልጥ ተጨነቀ፦ ሌላው ወገን በማዕድ ላይ የሚቀጥለውን ዓመት ዋጋ አስቀድሞ እንዲቀበል ማድረግ እንደሚፈልግ እርግጥ ነው።"
-      },
-      "start": 44.112,
-      "end": 51.216,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "to climb over; the more... the more; to exceed",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "to climb over; the more... the more; to exceed",
-          ""
-        ],
-        [
-          "紧张",
-          "jǐn zhāng",
-          "nervous; keyed up; intense",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "对方",
-          "duì fāng",
-          "the other person; the other side; the other party",
-          ""
-        ],
-        [
-          "一定",
-          "yī dìng",
-          "surely; certainly; definitely; fixed; settled",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "饭桌",
-          "fàn zhuō",
-          "dining table",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "to climb; to get onto; to go up",
-          ""
-        ],
-        [
-          "让",
-          "ràng",
-          "to yield; to permit; to let sb do sth",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "提前",
-          "tí qián",
-          "to shift to an earlier date; to do sth ahead of time",
-          ""
-        ],
-        [
-          "答应",
-          "dā ying",
-          "to answer positively; to agree; to accept; to promise",
-          ""
-        ],
-        [
-          "明年",
-          "míng nián",
-          "next year",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "价格",
-          "jià gé",
-          "price",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他去问周经理，周经理想了想：“去吧。人家请了，不去不礼貌。不过记住，饭桌上什么都别答应。”",
-      "py": "tā qù wèn Zhōu jīng lǐ, Zhōu jīng lǐ xiǎng le xiǎng: “qù ba. rén jia qǐng le, bú qù bù lǐ mào. bú guò jì zhù, fàn zhuō shàng shén me dōu bié dā ying.”",
-      "en": "He asks Manager Zhou, and she thinks for a moment. \"Go. They've invited you, and it would be rude not to. But remember: agree to nothing at the table.\"",
-      "tr": {
-        "am": "ሥራ አስኪያጅ ጆውን ሲጠይቃት ትንሽ አሰበች፦ «ሂድ። ጋብዘውሃል፣ አለመሄድ ጨዋነት አይደለም። ግን አስታውስ፣ በማዕድ ላይ ምንም ነገር እሺ አትበል።»"
-      },
-      "start": 51.916,
-      "end": 61.828,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "周",
-          "zhōu",
-          "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
-          ""
-        ],
-        [
-          "经理",
-          "jīng lǐ",
-          "manager; director",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "人家",
-          "rén jia",
-          "he, she or they; other people; sb else",
-          ""
-        ],
-        [
-          "请",
-          "qǐng",
-          "to invite; to ask; please (do sth)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "礼貌",
-          "lǐ mào",
-          "courtesy; politeness; manners; courteous; polite",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "不过",
-          "bù guò",
-          "but; only; merely",
-          ""
-        ],
-        [
-          "记住",
-          "jì zhu",
-          "to remember; to bear in mind; to learn by heart",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "饭桌",
-          "fàn zhuō",
-          "dining table",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "什么",
-          "shén me",
-          "what?; something; anything",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "别",
-          "bié",
-          "to leave; to part (from)",
-          ""
-        ],
-        [
-          "答应",
-          "dā ying",
-          "to answer positively; to agree; to accept; to promise",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "赴宴那天，杰克把能说的话、不能说的话，在心里过了一遍又一遍。",
-      "py": "fù yàn nà tiān, Jié kè bǎ néng shuō de huà, bù néng shuō de huà, zài xīn lǐ guò le yí biàn yòu yí biàn.",
-      "en": "On the evening of the dinner, Jack runs over in his head, again and again, what he can say and what he mustn't.",
-      "tr": {
-        "am": "በግብዣው ዕለት ጃክ መናገር የሚችለውንና የማይችለውን በልቡ ደጋግሞ ከለሰ።"
-      },
-      "start": 62.528,
-      "end": 69.632,
-      "tokens": [
-        [
-          "赴宴",
-          "fù yàn",
-          "to attend a banquet",
-          ""
-        ],
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "能",
-          "néng",
-          "can; to be able to; might possibly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "的话",
-          "de huà",
-          "if (coming after a conditional clause)",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "不能",
-          "bù néng",
-          "must not; cannot; should not",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "的话",
-          "de huà",
-          "if (coming after a conditional clause)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "心里",
-          "xīn li",
-          "chest; heart; mind",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一遍又一遍",
-          "yī biàn yòu yī biàn",
-          "over and over",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "老板五十多岁，非常热情，菜一道一道地上：清蒸石斑、烧鹅、燕窝……可是他一句也不提价格。",
-      "py": "lǎo bǎn wǔ shí duō suì, fēi cháng rè qíng, cài yí dào yí dào dì shàng: qīng zhēng shí bān, shāo é, yàn wō…… kě shì tā yí jù yě bù tí jià gé.",
-      "en": "The owner, in his fifties, is extremely warm, and the dishes keep coming: steamed grouper, roast goose, bird's nest soup... but he doesn't mention prices once.",
-      "tr": {
-        "am": "ባለቤቱ ከሃምሳ ዓመት በላይ የሆነው፣ በጣም ሞቅ ያለ ሰው ነበር፣ ምግቡ አንዱ ሌላውን ተከትሎ ቀረበ፦ በእንፋሎት የበሰለ ዓሣ፣ የተጠበሰ ዝይ፣ የወፍ ጎጆ ሾርባ… ግን ስለ ዋጋ አንድ ቃል እንኳ አላነሣም።"
-      },
-      "start": 70.332,
-      "end": 81.468,
-      "tokens": [
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "五十",
-          "wǔ shí",
-          "fifty",
-          ""
-        ],
-        [
-          "多",
-          "duō",
-          "many; much; more; a lot of; too many; in excess",
-          ""
-        ],
-        [
-          "岁",
-          "suì",
-          "years old; classifier for years (of age); year",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "非常",
-          "fēi cháng",
-          "very; really; unusual; extraordinary",
-          ""
-        ],
-        [
-          "热情",
-          "rè qíng",
-          "cordial; enthusiastic; passion",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "菜",
-          "cài",
-          "dish (of food); vegetable; greens",
-          ""
-        ],
-        [
-          "一道",
-          "yī dào",
-          "together",
-          ""
-        ],
-        [
-          "一道",
-          "yī dào",
-          "together",
-          ""
-        ],
-        [
-          "地上",
-          "dì shang",
-          "on the ground; on the floor",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "清蒸",
-          "qīng zhēng",
-          "steamed in broth",
-          ""
-        ],
-        [
-          "石",
-          "dàn",
-          "dry measure for grain equal to ten dou 斗; one hundred liters",
-          ""
-        ],
-        [
-          "斑",
-          "bān",
-          "spot; colored patch; stripe",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "烧",
-          "shāo",
-          "to burn; to set on fire",
-          ""
-        ],
-        [
-          "鹅",
-          "é",
-          "goose",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "燕窝",
-          "yàn wō",
-          "edible bird's nest",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一句",
-          "yī jù",
-          "a line of verse; a sentence",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "提价",
-          "tí jià",
-          "to raise the price",
-          ""
-        ],
-        [
-          "格",
-          "gé",
-          "square; lattice; grid; frame",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "杰克的心一直悬着：越是不提，越说明后面有大事。",
-      "py": "Jié kè de xīn yì zhí xuán zhe: yuè shì bù tí, yuè shuō míng hòu mian yǒu dà shì.",
-      "en": "Jack is on tenterhooks the whole time: the longer the man doesn't mention it, the bigger whatever's coming must be.",
-      "tr": {
-        "am": "የጃክ ልብ ሁልጊዜ ተንጠልጥሎ ነበር፦ ባላነሣው ቁጥር ከኋላ ትልቅ ነገር እንዳለ ያሳያል።"
-      },
-      "start": 82.168,
-      "end": 88.36,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "心",
-          "xīn",
-          "heart; mind; intention",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "straight (in a straight line)",
-          ""
-        ],
-        [
-          "悬",
-          "xuán",
-          "to hang or suspend; to worry; public announcement",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "越",
-          "yuè",
-          "to exceed; to climb over; to surpass",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "提",
-          "tí",
-          "to mention; to carry (hanging down from the hand); to lift",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "越",
-          "yuè",
-          "to exceed; to climb over; to surpass",
-          ""
-        ],
-        [
-          "说明",
-          "shuō míng",
-          "to explain; to illustrate; to indicate",
-          ""
-        ],
-        [
-          "后面",
-          "hòu mian",
-          "the back; the rear; the last bit",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "大事",
-          "dà shì",
-          "major event; major political event (war or change of regime)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "甜品上来的时候，老板终于放下筷子，清了清嗓子：“杰克，其实我今天请你，是有一件事想求你。”",
-      "py": "tián pǐn shàng lái de shí hou, lǎo bǎn zhōng yú fàng xià kuài zi, qīng le qīng sǎng zi: “Jié kè, qí shí wǒ jīn tiān qǐng nǐ, shì yǒu yí jiàn shì xiǎng qiú nǐ.”",
-      "en": "When the dessert arrives, the owner finally puts down his chopsticks and clears his throat. \"Jack, the truth is, I've invited you tonight because there's something I want to ask of you.\"",
-      "tr": {
-        "am": "ጣፋጩ ሲቀርብ ባለቤቱ በመጨረሻ ቾፕስቲኩን አስቀምጦ ጉሮሮውን አጸዳ፦ «ጃክ፣ እውነቱን ለመናገር ዛሬ የጋበዝኩህ አንድ ነገር ልለምንህ ፈልጌ ነው።»"
-      },
-      "start": 89.06,
-      "end": 99.452,
-      "tokens": [
-        [
-          "甜品",
-          "tián pǐn",
-          "dessert",
-          ""
-        ],
-        [
-          "上来",
-          "shàng lái",
-          "to come up; to approach",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "时候",
-          "shí hou",
-          "time; length of time; moment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "finally; at last; in the end",
-          ""
-        ],
-        [
-          "放下",
-          "fàng xià",
-          "to lay down; to put down",
-          ""
-        ],
-        [
-          "筷子",
-          "kuài zi",
-          "chopsticks",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "清",
-          "qīng",
-          "(of water etc) clear; clean; clear; distinct",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "清嗓子",
-          "qīng sǎng zi",
-          "to clear one's throat",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "其实",
-          "qí shí",
-          "actually; in fact; really",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "今天",
-          "jīn tiān",
-          "today; the present time; now",
-          ""
-        ],
-        [
-          "请",
-          "qǐng",
-          "to ask; to invite; please (do sth)",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "matter; thing; item",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "求",
-          "qiú",
-          "to seek; to look for; to request",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "来了！杰克坐直了身子，在桌子底下攥紧了拳头。",
-      "py": "lái le! Jié kè zuò zhí le shēn zi, zài zhuō zi dǐ xià zuàn jǐn le quán tou.",
-      "en": "Here it comes! Jack sits up straight and clenches his fists under the table.",
-      "tr": {
-        "am": "መጣ! ጃክ ቀጥ ብሎ ተቀመጠ፣ ከጠረጴዛው ሥር ቡጢውን አጥብቆ ጨበጠ።"
-      },
-      "start": 100.152,
-      "end": 105.624,
-      "tokens": [
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "坐",
-          "zuò",
-          "to sit; to take a seat; to take (a bus, airplane etc)",
-          ""
-        ],
-        [
-          "直",
-          "zhí",
-          "straight; to straighten; straightforward",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "身子",
-          "shēn zi",
-          "body; pregnancy; health",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "桌子",
-          "zhuō zi",
-          "table; desk",
-          ""
-        ],
-        [
-          "底下",
-          "dǐ xia",
-          "the location below sth; afterwards",
-          ""
-        ],
-        [
-          "攥",
-          "zuàn",
-          "(coll.) to hold; to grip; to grasp",
-          ""
-        ],
-        [
-          "紧",
-          "jǐn",
-          "tight; strict; close at hand",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "拳头",
-          "quán tou",
-          "fist",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "老板从包里拿出一张照片，上面是一个十几岁的男孩：“这是我儿子，明年要申请英国的大学，可是英语口语太差了。”",
-      "py": "lǎo bǎn cóng bāo lǐ ná chū yì zhāng zhào piàn, shàng miàn shì yí gè shí jǐ suì de nán hái: “zhè shì wǒ ér zi, míng nián yào shēn qǐng yīng guó de dà xué, kě shì yīng yǔ kǒu yǔ tài chà le.”",
-      "en": "The owner takes a photo out of his bag: a teenage boy. \"This is my son. He's applying to British universities next year, but his spoken English is terrible.\"",
-      "tr": {
-        "am": "ባለቤቱ ከቦርሳው አንድ ፎቶ አወጣ፣ በላዩ ላይ አንድ ጎረምሳ ልጅ ነበር፦ «ይህ ልጄ ነው፣ በሚቀጥለው ዓመት በእንግሊዝ ዩኒቨርሲቲዎች ሊያመለክት ነው፣ ግን የእንግሊዝኛ ንግግሩ በጣም ደካማ ነው።»"
-      },
-      "start": 106.324,
-      "end": 118.156,
-      "tokens": [
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "包",
-          "bāo",
-          "to take charge of; bag; to cover",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "拿出",
-          "ná chū",
-          "to take out; to put out; to provide",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "照片",
-          "zhào piàn",
-          "photograph",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "上面",
-          "shàng miàn",
-          "on top of; above-mentioned; also pr.",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "十几",
-          "shí jǐ",
-          "more than ten; a dozen or more",
-          ""
-        ],
-        [
-          "岁",
-          "suì",
-          "classifier for years (of age); years old; year",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "男孩",
-          "nán hái",
-          "boy",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "儿子",
-          "ér zi",
-          "son",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "明年",
-          "míng nián",
-          "next year",
-          ""
-        ],
-        [
-          "要",
-          "yào",
-          "to want; to need; to ask for; will; shall; about to",
-          ""
-        ],
-        [
-          "申请",
-          "shēn qǐng",
-          "to apply for sth; application form",
-          ""
-        ],
-        [
-          "英国",
-          "yīng guó",
-          "United Kingdom (UK); Britain",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "大学",
-          "dà xué",
-          "university; college",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "英语",
-          "yīng yǔ",
-          "English (language)",
-          ""
-        ],
-        [
-          "口语",
-          "kǒu yǔ",
-          "spoken language; colloquial speech; vernacular language",
-          ""
-        ],
-        [
-          "太",
-          "tài",
-          "highest; greatest; too (much)",
-          ""
-        ],
-        [
-          "差",
-          "chà",
-          "different; wrong; mistaken; to fall short; to lack",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我给他找了好几个老师，他都不喜欢。上次他在展会上见过你，回家说：‘那个英国人说话真有意思。’”",
-      "py": "“wǒ gěi tā zhǎo le hǎo jǐ gè lǎo shī, tā dōu bù xǐ huan. shàng cì tā zài zhǎn huì shàng jiàn guò nǐ, huí jiā shuō: ‘nà ge yīng guó rén shuō huà zhēn yǒu yì si. ’”",
-      "en": "\"I've found him several teachers, and he doesn't like any of them. He saw you at a trade fair once, and when he got home he said, 'That British guy is really interesting to listen to.'\"",
-      "tr": {
-        "am": "«ብዙ አስተማሪዎች ፈልጌለታለሁ፣ አንዳቸውንም አልወደደም። ባለፈው ጊዜ በአንድ ኤግዚቢሽን ላይ አይቶህ ቤት ሲመለስ ‹ያ እንግሊዛዊ ሲያወራ በጣም ደስ ይላል› አለ።»"
-      },
-      "start": 118.856,
-      "end": 128.768,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "找",
-          "zhǎo",
-          "to try to find; to look for; to call on sb",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "好几",
-          "hǎo jǐ",
-          "several; quite a few",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "喜欢",
-          "xǐ huan",
-          "to like; to be fond of",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "上次",
-          "shàng cì",
-          "last time",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "展会",
-          "zhǎn huì",
-          "exhibition event; expo; trade fair",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "见",
-          "jiàn",
-          "to see; to meet; to appear (to be sth)",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "回家",
-          "huí jiā",
-          "to return home",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "‘"
-        ],
-        [
-          "那个",
-          "nà ge",
-          "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)",
-          ""
-        ],
-        [
-          "英国人",
-          "yīng guó rén",
-          "British person; British people",
-          ""
-        ],
-        [
-          "说话",
-          "shuō huà",
-          "to speak; to say; to talk",
-          ""
-        ],
-        [
-          "真",
-          "zhēn",
-          "really; real; truly",
-          ""
-        ],
-        [
-          "有意思",
-          "yǒu yì si",
-          "interesting; meaningful; enjoyable",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "’"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“所以我想问问，你周末有没有时间，跟他聊聊天，学费我照付。”",
-      "py": "“suǒ yǐ wǒ xiǎng wèn wèn, nǐ zhōu mò yǒu méi yǒu shí jiān, gēn tā liáo liáo tiān, xué fèi wǒ zhào fù.”",
-      "en": "\"So I wanted to ask if you'd have time at the weekends to chat with him. I'll pay whatever you charge.\"",
-      "tr": {
-        "am": "«ስለዚህ ቅዳሜና እሁድ ጊዜ ካለህ ከእሱ ጋር እንድታወራ ልጠይቅህ ፈልጌ ነው፣ ክፍያውን እከፍላለሁ።»"
-      },
-      "start": 129.468,
-      "end": 136.116,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "所以",
-          "suǒ yǐ",
-          "therefore; as a result; so",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "问",
-          "wèn",
-          "to ask; to inquire",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "周末",
-          "zhōu mò",
-          "weekend",
-          ""
-        ],
-        [
-          "有没有",
-          "yǒu méi yǒu",
-          "(before a noun) Do (you, they etc) have ...?",
-          ""
-        ],
-        [
-          "时间",
-          "shí jiān",
-          "(concept of) time; (duration of) time; (point in) time",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "聊",
-          "liáo",
-          "(coll.) to chat; (literary) temporarily; for a while",
-          ""
-        ],
-        [
-          "聊天",
-          "liáo tiān",
-          "to chat; to gossip",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "学费",
-          "xué fèi",
-          "tuition fee; tuition",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "照付",
-          "zhào fù",
-          "to pay as charged",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "杰克愣了半天，才把拳头松开，长长地出了一口气：原来是虚惊一场。",
-      "py": "Jié kè lèng le bàn tiān, cái bǎ quán tou sōng kāi, cháng cháng de chū le yì kǒu qì: yuán lái shì xū jīng yì cháng.",
-      "en": "Jack stares for a long moment before unclenching his fists and letting out a long breath: it was a false alarm.",
-      "tr": {
-        "am": "ጃክ ለረጅም ጊዜ ፈዝዞ ቆየ፣ ከዚያም ቡጢውን ፈታ፣ ረጅም ትንፋሽ ተነፈሰ፦ ለካ ከንቱ ፍርሃት ነበር።"
-      },
-      "start": 136.816,
-      "end": 145.576,
-      "tokens": [
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "愣",
-          "lèng",
-          "to stare blankly; to look distracted; distracted",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "a long time; half of the day; quite a while",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "才",
-          "cái",
-          "(before an expression of quantity) only",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "(used to put the object before the verb: 把 + {noun} + {verb})",
-          ""
-        ],
-        [
-          "拳头",
-          "quán tou",
-          "fist",
-          ""
-        ],
-        [
-          "松开",
-          "sōng kāi",
-          "to release; to let go; to loosen",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "长",
-          "cháng",
-          "long; (bound form) length; (bound form) strong point; forte",
-          ""
-        ],
-        [
-          "长",
-          "cháng",
-          "long; (bound form) length; (bound form) strong point; forte",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct",
-          ""
-        ],
-        [
-          "出",
-          "chū",
-          "to go out; to come out; to arise; to occur",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一口气",
-          "yī kǒu qì",
-          "one breath; in one breath; at a stretch",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "原来",
-          "yuán lái",
-          "so, actually, as it turns out; original; former",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "虚惊一场",
-          "xū jīng yī chǎng",
-          "(idiom) a false alarm; a scare that turns out to be nothing",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他笑着说：“钱就不用了。不过有个条件：明年的价格，我们在会议室里谈，不在饭桌上谈。”",
-      "py": "tā xiào zhe shuō: “qián jiù bú yòng le. bú guò yǒu gè tiáo jiàn: míng nián de jià gé, wǒ men zài huì yì shì lǐ tán, bú zài fàn zhuō shàng tán.”",
-      "en": "He smiles. \"No need to pay. But on one condition: next year's prices, we discuss in the meeting room, not at the dinner table.\"",
-      "tr": {
-        "am": "በፈገግታ አለ፦ «ገንዘብ አያስፈልግም። ግን አንድ ቅድመ ሁኔታ አለ፦ የሚቀጥለውን ዓመት ዋጋ የምንነጋገረው በስብሰባ ክፍል ውስጥ እንጂ በማዕድ ላይ አይደለም።»"
-      },
-      "start": 146.276,
-      "end": 156.188,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "钱",
-          "qián",
-          "coin; money; unit of weight, one tenth of a tael 两",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
-          ""
-        ],
-        [
-          "不用",
-          "bù yòng",
-          "need not",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "不过",
-          "bù guò",
-          "but; only; merely",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "条件",
-          "tiáo jiàn",
-          "condition; circumstance; term; factor",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "明年",
-          "míng nián",
-          "next year",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "价格",
-          "jià gé",
-          "price",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我们",
-          "wǒ men",
-          "we; us; ourselves; our",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "会议室",
-          "huì yì shì",
-          "meeting room; conference room",
-          ""
-        ],
-        [
-          "里",
-          "lǐ",
-          "lining; interior; inside",
-          ""
-        ],
-        [
-          "谈",
-          "tán",
-          "to discuss; to speak; to talk",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "不在",
-          "bù zài",
-          "not to be present; to be out; (euphemism) to pass away",
-          ""
-        ],
-        [
-          "饭桌",
-          "fàn zhuō",
-          "dining table",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "谈",
-          "tán",
-          "to discuss; to speak; to talk",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "老板哈哈大笑：“一言为定！”",
-      "py": "lǎo bǎn hā hā dà xiào: “yì yán wéi dìng!”",
-      "en": "The owner roars with laughter. \"It's a deal!\"",
-      "tr": {
-        "am": "ባለቤቱ በሳቅ ፈነዳ፦ «ቃል ነው!»"
-      },
-      "start": 156.888,
-      "end": 160.224,
-      "tokens": [
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "哈哈大笑",
-          "hā hā dà xiào",
-          "to laugh heartily; to burst into loud laughter",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "一言为定",
-          "yī yán wéi dìng",
-          "(idiom) it's a deal; that's settled then",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "第二天，杰克把这件事讲给小雨听，小雨听完说：“这哪儿是鸿门宴，这是拜师宴。”",
-      "py": "dì èr tiān, Jié kè bǎ zhè jiàn shì jiǎng gěi Xiǎo yǔ tīng, Xiǎo yǔ tīng wán shuō: “zhè nǎ r shì hóng mén yàn, zhè shì bài shī yàn.”",
-      "en": "The next day, Jack tells Xiaoyu the story, and when she's heard it she says, \"That wasn't a Hongmen Banquet. That was a feast to take on a teacher.\"",
-      "tr": {
-        "am": "በማግስቱ ጃክ ይህን ለሺያውዩ ነገራት፣ ሺያውዩም ሰምታ እንዲህ አለች፦ «ይሄ የሆንግመን ግብዣ አይደለም፣ መምህር የመያዝ ግብዣ ነው።»"
-      },
-      "start": 160.924,
-      "end": 169.9,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "matter; thing; item",
-          ""
-        ],
-        [
-          "讲",
-          "jiǎng",
-          "to speak; to explain; to negotiate",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "听",
-          "tīng",
-          "to listen to; to hear; to heed; to obey",
-          ""
-        ],
-        [
-          "完",
-          "wán",
-          "to finish; to be over; whole",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to scold; to tell off; to speak; to talk; to say",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "哪儿",
-          "nǎ r",
-          "where?; wherever; anywhere; somewhere",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "鸿门宴",
-          "hóng mén yàn",
-          "Hongmen feast",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "拜师",
-          "bài shī",
-          "to formally become an apprentice to a master",
-          ""
-        ],
-        [
-          "宴",
-          "yàn",
-          "(bound form) to entertain at a banquet",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "一个月以后，价格谈判开始了，老板寸步不让，比谁都难谈；可是每个星期六，他儿子的英语都有一点儿进步。",
-      "py": "yí gè yuè yǐ hòu, jià gé tán pàn kāi shǐ le, lǎo bǎn cùn bù bú ràng, bǐ shéi dōu nán tán; kě shì měi gè xīng qī liù, tā ér zi de yīng yǔ dōu yǒu yì diǎn r jìn bù.",
-      "en": "A month later, the price negotiations begin, and the owner gives no ground at all — he's the toughest of anyone; but every Saturday, his son's English gets a little better.",
-      "tr": {
-        "am": "ከአንድ ወር በኋላ የዋጋ ድርድሩ ተጀመረ፣ ባለቤቱ አንድ እርምጃ እንኳ ወደ ኋላ አላለም፣ ከማንም በላይ ከባድ ተደራዳሪ ነበር፣ ግን በየቅዳሜው የልጁ እንግሊዝኛ ትንሽ ትንሽ ይሻሻል ነበር።"
-      },
-      "start": 170.6,
-      "end": 181.952,
-      "tokens": [
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "价格",
-          "jià gé",
-          "price",
-          ""
-        ],
-        [
-          "谈判",
-          "tán pàn",
-          "negotiation; to negotiate; talks",
-          ""
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "老板",
-          "lǎo bǎn",
-          "boss; business proprietor; Robam (brand)",
-          ""
-        ],
-        [
-          "寸步不让",
-          "cùn bù bù ràng",
-          "(idiom) not to yield an inch",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "比",
-          "bǐ",
-          "to compare",
-          ""
-        ],
-        [
-          "谁",
-          "shéi",
-          "who; also pr.",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "难",
-          "nán",
-          "difficult (to...); problem; difficulty",
-          ""
-        ],
-        [
-          "谈",
-          "tán",
-          "to speak; to talk; to converse",
-          ""
-        ],
-        [
-          "；"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "每个",
-          "měi gè",
-          "each; every",
-          ""
-        ],
-        [
-          "星期六",
-          "xīng qī liù",
-          "Saturday",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "儿子",
-          "ér zi",
-          "son",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "英语",
-          "yīng yǔ",
-          "English (language)",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "有一点儿",
-          "yǒu yī diǎn r",
-          "a little; a bit",
-          ""
-        ],
-        [
-          "进步",
-          "jìn bù",
-          "progress; improvement; to improve; to progress",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 595,
-  "first": "下个月，公司要跟一家供应商谈明年的价格，谈判还没开始，供应商的老板就打来电话，要请杰克吃饭。",
-  "newWords": [
-    {
-      "w": "鸿门宴",
-      "py": "hóng mén yàn",
-      "en": "Hongmen feast"
-    },
-    {
-      "w": "赴宴",
-      "py": "fù yàn",
-      "en": "to attend a banquet"
-    },
-    {
-      "w": "别有用心",
-      "py": "bié yǒu yòng xīn",
-      "en": "to have an ulterior motive (idiom)"
-    },
-    {
-      "w": "虚惊一场",
-      "py": "xū jīng yī chǎng",
-      "en": "(idiom) a false alarm"
-    },
-    {
-      "w": "一言为定",
-      "py": "yī yán wéi dìng",
-      "en": "(idiom) it's a deal"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h6-74.mp3?v=1791722866"
+  {
+   "text": "地点是北京最贵的一家粤菜馆，而且只请他一个人。",
+   "py": "dì diǎn shì Běi jīng zuì guì de yì jiā yuè cài guǎn, ér qiě zhǐ qǐng tā yí gè rén.",
+   "en": "The venue is the most expensive Cantonese restaurant in Beijing, and he's the only one invited.",
+   "tr": {
+    "am": "ቦታው በቤጂንግ እጅግ ውድ የሆነው የካንቶን ምግብ ቤት ነው፣ ደግሞም የተጋበዘው እሱ ብቻ ነው።",
+    "fa": "محل، بهترین و گرون‌ترین رستوران غذای کانتونی پکنه؛ به‌علاوه فقط خودش رو دعوت کرده."
+   },
+   "start": 13.304,
+   "end": 18.8,
+   "tokens": [
+    [
+     "地点",
+     "dì diǎn",
+     "venue; place; site",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "北京",
+     "běi jīng",
+     "Beijing municipality, capital of the People's Republic of China (short name 京)",
+     ""
+    ],
+    [
+     "最",
+     "zuì",
+     "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+     ""
+    ],
+    [
+     "贵",
+     "guì",
+     "expensive; (bound form) highly valued; precious",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "一家",
+     "yī jiā",
+     "the whole family; the same family",
+     ""
+    ],
+    [
+     "粤菜",
+     "yuè cài",
+     "Cantonese cuisine",
+     ""
+    ],
+    [
+     "馆",
+     "guǎn",
+     "building; shop; term for certain service establishments",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "而且",
+     "ér qiě",
+     "(not only ...) but also; moreover; in addition; furthermore",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "请",
+     "qǐng",
+     "to invite; to ask; please (do sth)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一个人",
+     "yī gè rén",
+     "by oneself (without assistance); alone (without company)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨听了，脸色都变了：“这是鸿门宴啊！”",
+   "py": "Xiǎo yǔ tīng le, liǎn sè dōu biàn le: “zhè shì hóng mén yàn a!”",
+   "en": "When Xiaoyu hears, her face changes. \"That's a Hongmen Banquet!\"",
+   "tr": {
+    "am": "ሺያውዩ ስትሰማ ፊቷ ተለወጠ፦ «ይህ የሆንግመን ግብዣ ነው እኮ!»",
+    "fa": "شیائویو که می‌شنوه رنگ صورتش عوض می‌شه: «این می‌شه ضیافت هونگمن!»"
+   },
+   "start": 19.5,
+   "end": 24.708,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "脸色",
+     "liǎn sè",
+     "complexion; look",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "变",
+     "biàn",
+     "to change; to become different; to transform",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "鸿门宴",
+     "hóng mén yàn",
+     "Hongmen feast",
+     ""
+    ],
+    [
+     "啊",
+     "a",
+     "modal particle ending sentence, showing affirmation, approval, or consent",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "她给杰克讲了鸿门宴的故事：两千多年前，项羽请刘邦吃饭，宴席上有人舞剑，其实是想找机会杀了刘邦。",
+   "py": "tā gěi Jié kè jiǎng le hóng mén yàn de gù shi: liǎng qiān duō nián qián, xiàng yǔ qǐng liú bāng chī fàn, yàn xí shàng yǒu rén wǔ jiàn, qí shí shì xiǎng zhǎo jī huì shā le liú bāng.",
+   "en": "She tells Jack the story: over two thousand years ago, Xiang Yu invited Liu Bang to a feast, and someone performed a sword dance there that was really a chance to kill Liu Bang.",
+   "tr": {
+    "am": "ለጃክ የሆንግመን ግብዣን ታሪክ ነገረችው፦ ከሁለት ሺህ ዓመት በፊት ሺያንግ ዩ ሊዩ ባንግን ለግብዣ ጠራው፣ በግብዣው ላይ አንድ ሰው የሰይፍ ዳንስ አቀረበ፣ በእውነቱ ግን ሊዩ ባንግን ለመግደል አጋጣሚ እየፈለገ ነበር።",
+    "fa": "داستان ضیافت هونگمن رو براش تعریف می‌کنه: بیش از دو هزار سال پیش، شینگ یو لیو بانگ رو به شام دعوت کرد؛ توی ضیافت یکی شمشیر بازی می‌کرد که در واقع دنبال فرصت کشتن لیو بانگ بود."
+   },
+   "start": 25.408,
+   "end": 37.024,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "讲",
+     "jiǎng",
+     "to speak; to explain; to negotiate",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "鸿门宴",
+     "hóng mén yàn",
+     "Hongmen feast",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "故事",
+     "gù shi",
+     "narrative; story; tale",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; some; both",
+     ""
+    ],
+    [
+     "千",
+     "qiān",
+     "thousand",
+     ""
+    ],
+    [
+     "多年",
+     "duō nián",
+     "many years; for many years; longstanding",
+     ""
+    ],
+    [
+     "前",
+     "qián",
+     "ago; front; forward",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "项羽",
+     "xiàng yǔ",
+     "Xiang Yu the Conqueror (232-202 BC), warlord defeated by first Han emperor",
+     ""
+    ],
+    [
+     "请",
+     "qǐng",
+     "to invite; to ask; please (do sth)",
+     ""
+    ],
+    [
+     "刘邦",
+     "liú bāng",
+     "Liu Bang (256 or 247-195 BC), bandit leader who became first Han emperor Han Gaozu 汉高祖 (reigned 202-195 BC)",
+     ""
+    ],
+    [
+     "吃饭",
+     "chī fàn",
+     "to have a meal; to eat; to make a living",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "宴席",
+     "yàn xí",
+     "banquet; feast",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "有人",
+     "yǒu rén",
+     "someone; there is someone there; people",
+     ""
+    ],
+    [
+     "舞剑",
+     "wǔ jiàn",
+     "to perform a sword-dance",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "其实",
+     "qí shí",
+     "actually; in fact; really",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "找机会",
+     "zhǎo jī huì",
+     "to look for an opportunity",
+     ""
+    ],
+    [
+     "杀",
+     "shā",
+     "to kill; to slay; to murder; to attack; to weaken; to reduce",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "刘邦",
+     "liú bāng",
+     "Liu Bang (256 or 247-195 BC), bandit leader who became first Han emperor Han Gaozu 汉高祖 (reigned 202-195 BC)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "“现在说一顿饭是鸿门宴，就是说请客的人别有用心。”",
+   "py": "“xiàn zài shuō yí dùn fàn shì hóng mén yàn, jiù shì shuō qǐng kè de rén bié yǒu yòng xīn.”",
+   "en": "\"Nowadays, if you call a meal a Hongmen Banquet, you mean the host has an ulterior motive.\"",
+   "tr": {
+    "am": "«ዛሬ አንድን ግብዣ የሆንግመን ግብዣ ማለት ጋባዡ የተደበቀ ዓላማ አለው ማለት ነው።»",
+    "fa": "«امروز وقتی می‌گن یه شام «ضیافت هونگمن»ـه، یعنی دعوت‌کننده هدف دیگه‌ای پشت سرش داره.»"
+   },
+   "start": 37.724,
+   "end": 43.412,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "现在",
+     "xiàn zài",
+     "now; at present; currently",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "顿",
+     "dùn",
+     "classifier for meals, beatings, scoldings etc: time, bout, spell, meal",
+     ""
+    ],
+    [
+     "饭",
+     "fàn",
+     "meal; cooked rice; (loanword) fan",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "鸿门宴",
+     "hóng mén yàn",
+     "Hongmen feast",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就是说",
+     "jiù shì shuō",
+     "in other words; that is",
+     ""
+    ],
+    [
+     "请客",
+     "qǐng kè",
+     "to give a dinner party; to entertain guests",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "别有用心",
+     "bié yǒu yòng xīn",
+     "to have an ulterior motive (idiom)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克越听越紧张：对方一定是想在饭桌上让他提前答应明年的价格。",
+   "py": "Jié kè yuè tīng yuè jǐn zhāng: duì fāng yí dìng shì xiǎng zài fàn zhuō shàng ràng tā tí qián dā ying míng nián de jià gé.",
+   "en": "The more Jack hears, the more nervous he gets: the other side must want to get him to agree next year's prices over dinner.",
+   "tr": {
+    "am": "ጃክ በሰማ ቁጥር ይበልጥ ተጨነቀ፦ ሌላው ወገን በማዕድ ላይ የሚቀጥለውን ዓመት ዋጋ አስቀድሞ እንዲቀበል ማድረግ እንደሚፈልግ እርግጥ ነው።",
+    "fa": "جک هر چی گوش می‌ده بیشتر استرس می‌گیره: حتماً می‌خوان سر میز غذا قیمتی سال بعد رو ازش بگیرن."
+   },
+   "start": 44.112,
+   "end": 51.216,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "to climb over; the more... the more; to exceed",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "to climb over; the more... the more; to exceed",
+     ""
+    ],
+    [
+     "紧张",
+     "jǐn zhāng",
+     "nervous; keyed up; intense",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "对方",
+     "duì fāng",
+     "the other person; the other side; the other party",
+     ""
+    ],
+    [
+     "一定",
+     "yī dìng",
+     "surely; certainly; definitely; fixed; settled",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "饭桌",
+     "fàn zhuō",
+     "dining table",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "to climb; to get onto; to go up",
+     ""
+    ],
+    [
+     "让",
+     "ràng",
+     "to yield; to permit; to let sb do sth",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "提前",
+     "tí qián",
+     "to shift to an earlier date; to do sth ahead of time",
+     ""
+    ],
+    [
+     "答应",
+     "dā ying",
+     "to answer positively; to agree; to accept; to promise",
+     ""
+    ],
+    [
+     "明年",
+     "míng nián",
+     "next year",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "价格",
+     "jià gé",
+     "price",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他去问周经理，周经理想了想：“去吧。人家请了，不去不礼貌。不过记住，饭桌上什么都别答应。”",
+   "py": "tā qù wèn Zhōu jīng lǐ, Zhōu jīng lǐ xiǎng le xiǎng: “qù ba. rén jia qǐng le, bú qù bù lǐ mào. bú guò jì zhù, fàn zhuō shàng shén me dōu bié dā ying.”",
+   "en": "He asks Manager Zhou, and she thinks for a moment. \"Go. They've invited you, and it would be rude not to. But remember: agree to nothing at the table.\"",
+   "tr": {
+    "am": "ሥራ አስኪያጅ ጆውን ሲጠይቃት ትንሽ አሰበች፦ «ሂድ። ጋብዘውሃል፣ አለመሄድ ጨዋነት አይደለም። ግን አስታውስ፣ በማዕድ ላይ ምንም ነገር እሺ አትበል።»",
+    "fa": "می‌ره از مدیر جو می‌پرسه؛ مدیر جو یه لحظه فکر می‌کنه: «برو. دعوت کردن و نرفتن بی‌ادبیه. ولی یادت باشه، سر میز غذا هیچ قولی نده.»"
+   },
+   "start": 51.916,
+   "end": 61.828,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "周",
+     "zhōu",
+     "Zhou Dynasty (1046–256 BC); to make a circuit; to circle",
+     ""
+    ],
+    [
+     "经理",
+     "jīng lǐ",
+     "manager; director",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "人家",
+     "rén jia",
+     "he, she or they; other people; sb else",
+     ""
+    ],
+    [
+     "请",
+     "qǐng",
+     "to invite; to ask; please (do sth)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "礼貌",
+     "lǐ mào",
+     "courtesy; politeness; manners; courteous; polite",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "不过",
+     "bù guò",
+     "but; only; merely",
+     ""
+    ],
+    [
+     "记住",
+     "jì zhu",
+     "to remember; to bear in mind; to learn by heart",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "饭桌",
+     "fàn zhuō",
+     "dining table",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "什么",
+     "shén me",
+     "what?; something; anything",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "别",
+     "bié",
+     "to leave; to part (from)",
+     ""
+    ],
+    [
+     "答应",
+     "dā ying",
+     "to answer positively; to agree; to accept; to promise",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "赴宴那天，杰克把能说的话、不能说的话，在心里过了一遍又一遍。",
+   "py": "fù yàn nà tiān, Jié kè bǎ néng shuō de huà, bù néng shuō de huà, zài xīn lǐ guò le yí biàn yòu yí biàn.",
+   "en": "On the evening of the dinner, Jack runs over in his head, again and again, what he can say and what he mustn't.",
+   "tr": {
+    "am": "በግብዣው ዕለት ጃክ መናገር የሚችለውንና የማይችለውን በልቡ ደጋግሞ ከለሰ።",
+    "fa": "شب ضیافت، جک جمله‌هایی که می‌تونه بگه و نباید بگه رو بارها و بارها توی ذهنش مرور می‌کنه."
+   },
+   "start": 62.528,
+   "end": 69.632,
+   "tokens": [
+    [
+     "赴宴",
+     "fù yàn",
+     "to attend a banquet",
+     ""
+    ],
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "能",
+     "néng",
+     "can; to be able to; might possibly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "的话",
+     "de huà",
+     "if (coming after a conditional clause)",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "不能",
+     "bù néng",
+     "must not; cannot; should not",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "的话",
+     "de huà",
+     "if (coming after a conditional clause)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "心里",
+     "xīn li",
+     "chest; heart; mind",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一遍又一遍",
+     "yī biàn yòu yī biàn",
+     "over and over",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "老板五十多岁，非常热情，菜一道一道地上：清蒸石斑、烧鹅、燕窝……可是他一句也不提价格。",
+   "py": "lǎo bǎn wǔ shí duō suì, fēi cháng rè qíng, cài yí dào yí dào dì shàng: qīng zhēng shí bān, shāo é, yàn wō…… kě shì tā yí jù yě bù tí jià gé.",
+   "en": "The owner, in his fifties, is extremely warm, and the dishes keep coming: steamed grouper, roast goose, bird's nest soup... but he doesn't mention prices once.",
+   "tr": {
+    "am": "ባለቤቱ ከሃምሳ ዓመት በላይ የሆነው፣ በጣም ሞቅ ያለ ሰው ነበር፣ ምግቡ አንዱ ሌላውን ተከትሎ ቀረበ፦ በእንፋሎት የበሰለ ዓሣ፣ የተጠበሰ ዝይ፣ የወፍ ጎጆ ሾርባ… ግን ስለ ዋጋ አንድ ቃል እንኳ አላነሣም።",
+    "fa": "صاحب رستوران آقای پنجاه‌ساله‌ای خیلی گرمه و غذاها یکی‌یکی میان: فیش سنگاپور بخارپز، غاز بریان، لانه‌پرستو… ولی حتی یه بار هم قیمت رو پیش نمی‌کشه."
+   },
+   "start": 70.332,
+   "end": 81.468,
+   "tokens": [
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "五十",
+     "wǔ shí",
+     "fifty",
+     ""
+    ],
+    [
+     "多",
+     "duō",
+     "many; much; more; a lot of; too many; in excess",
+     ""
+    ],
+    [
+     "岁",
+     "suì",
+     "years old; classifier for years (of age); year",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "非常",
+     "fēi cháng",
+     "very; really; unusual; extraordinary",
+     ""
+    ],
+    [
+     "热情",
+     "rè qíng",
+     "cordial; enthusiastic; passion",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "菜",
+     "cài",
+     "dish (of food); vegetable; greens",
+     ""
+    ],
+    [
+     "一道",
+     "yī dào",
+     "together",
+     ""
+    ],
+    [
+     "一道",
+     "yī dào",
+     "together",
+     ""
+    ],
+    [
+     "地上",
+     "dì shang",
+     "on the ground; on the floor",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "清蒸",
+     "qīng zhēng",
+     "steamed in broth",
+     ""
+    ],
+    [
+     "石",
+     "dàn",
+     "dry measure for grain equal to ten dou 斗; one hundred liters",
+     ""
+    ],
+    [
+     "斑",
+     "bān",
+     "spot; colored patch; stripe",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "烧",
+     "shāo",
+     "to burn; to set on fire",
+     ""
+    ],
+    [
+     "鹅",
+     "é",
+     "goose",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "燕窝",
+     "yàn wō",
+     "edible bird's nest",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一句",
+     "yī jù",
+     "a line of verse; a sentence",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "提价",
+     "tí jià",
+     "to raise the price",
+     ""
+    ],
+    [
+     "格",
+     "gé",
+     "square; lattice; grid; frame",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "杰克的心一直悬着：越是不提，越说明后面有大事。",
+   "py": "Jié kè de xīn yì zhí xuán zhe: yuè shì bù tí, yuè shuō míng hòu mian yǒu dà shì.",
+   "en": "Jack is on tenterhooks the whole time: the longer the man doesn't mention it, the bigger whatever's coming must be.",
+   "tr": {
+    "am": "የጃክ ልብ ሁልጊዜ ተንጠልጥሎ ነበር፦ ባላነሣው ቁጥር ከኋላ ትልቅ ነገር እንዳለ ያሳያል።",
+    "fa": "دل جک همیشه نگرانه: هر چی دیرتر بگه، یعنی کار بزرگ‌تری هم داره."
+   },
+   "start": 82.168,
+   "end": 88.36,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "心",
+     "xīn",
+     "heart; mind; intention",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "straight (in a straight line)",
+     ""
+    ],
+    [
+     "悬",
+     "xuán",
+     "to hang or suspend; to worry; public announcement",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "越",
+     "yuè",
+     "to exceed; to climb over; to surpass",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "提",
+     "tí",
+     "to mention; to carry (hanging down from the hand); to lift",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "越",
+     "yuè",
+     "to exceed; to climb over; to surpass",
+     ""
+    ],
+    [
+     "说明",
+     "shuō míng",
+     "to explain; to illustrate; to indicate",
+     ""
+    ],
+    [
+     "后面",
+     "hòu mian",
+     "the back; the rear; the last bit",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "大事",
+     "dà shì",
+     "major event; major political event (war or change of regime)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "甜品上来的时候，老板终于放下筷子，清了清嗓子：“杰克，其实我今天请你，是有一件事想求你。”",
+   "py": "tián pǐn shàng lái de shí hou, lǎo bǎn zhōng yú fàng xià kuài zi, qīng le qīng sǎng zi: “Jié kè, qí shí wǒ jīn tiān qǐng nǐ, shì yǒu yí jiàn shì xiǎng qiú nǐ.”",
+   "en": "When the dessert arrives, the owner finally puts down his chopsticks and clears his throat. \"Jack, the truth is, I've invited you tonight because there's something I want to ask of you.\"",
+   "tr": {
+    "am": "ጣፋጩ ሲቀርብ ባለቤቱ በመጨረሻ ቾፕስቲኩን አስቀምጦ ጉሮሮውን አጸዳ፦ «ጃክ፣ እውነቱን ለመናገር ዛሬ የጋበዝኩህ አንድ ነገር ልለምንህ ፈልጌ ነው።»",
+    "fa": "وقتی دسر میاد، بالاخره چاپستیک رو می‌ذاره، گلوش رو صاف می‌کنه و می‌گه: «جک، راستش امروز دعوتت کردم چون یه خواهشی ازت دارم.»"
+   },
+   "start": 89.06,
+   "end": 99.452,
+   "tokens": [
+    [
+     "甜品",
+     "tián pǐn",
+     "dessert",
+     ""
+    ],
+    [
+     "上来",
+     "shàng lái",
+     "to come up; to approach",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "时候",
+     "shí hou",
+     "time; length of time; moment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "finally; at last; in the end",
+     ""
+    ],
+    [
+     "放下",
+     "fàng xià",
+     "to lay down; to put down",
+     ""
+    ],
+    [
+     "筷子",
+     "kuài zi",
+     "chopsticks",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "清",
+     "qīng",
+     "(of water etc) clear; clean; clear; distinct",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "清嗓子",
+     "qīng sǎng zi",
+     "to clear one's throat",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "其实",
+     "qí shí",
+     "actually; in fact; really",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "今天",
+     "jīn tiān",
+     "today; the present time; now",
+     ""
+    ],
+    [
+     "请",
+     "qǐng",
+     "to ask; to invite; please (do sth)",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "matter; thing; item",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "求",
+     "qiú",
+     "to seek; to look for; to request",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "来了！杰克坐直了身子，在桌子底下攥紧了拳头。",
+   "py": "lái le! Jié kè zuò zhí le shēn zi, zài zhuō zi dǐ xià zuàn jǐn le quán tou.",
+   "en": "Here it comes! Jack sits up straight and clenches his fists under the table.",
+   "tr": {
+    "am": "መጣ! ጃክ ቀጥ ብሎ ተቀመጠ፣ ከጠረጴዛው ሥር ቡጢውን አጥብቆ ጨበጠ።",
+    "fa": "رسید! جک صاف می‌شینه و زیر میز مشت‌هاش رو محکم می‌بنده."
+   },
+   "start": 100.152,
+   "end": 105.624,
+   "tokens": [
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "坐",
+     "zuò",
+     "to sit; to take a seat; to take (a bus, airplane etc)",
+     ""
+    ],
+    [
+     "直",
+     "zhí",
+     "straight; to straighten; straightforward",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "身子",
+     "shēn zi",
+     "body; pregnancy; health",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "桌子",
+     "zhuō zi",
+     "table; desk",
+     ""
+    ],
+    [
+     "底下",
+     "dǐ xia",
+     "the location below sth; afterwards",
+     ""
+    ],
+    [
+     "攥",
+     "zuàn",
+     "(coll.) to hold; to grip; to grasp",
+     ""
+    ],
+    [
+     "紧",
+     "jǐn",
+     "tight; strict; close at hand",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "拳头",
+     "quán tou",
+     "fist",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "老板从包里拿出一张照片，上面是一个十几岁的男孩：“这是我儿子，明年要申请英国的大学，可是英语口语太差了。”",
+   "py": "lǎo bǎn cóng bāo lǐ ná chū yì zhāng zhào piàn, shàng miàn shì yí gè shí jǐ suì de nán hái: “zhè shì wǒ ér zi, míng nián yào shēn qǐng yīng guó de dà xué, kě shì yīng yǔ kǒu yǔ tài chà le.”",
+   "en": "The owner takes a photo out of his bag: a teenage boy. \"This is my son. He's applying to British universities next year, but his spoken English is terrible.\"",
+   "tr": {
+    "am": "ባለቤቱ ከቦርሳው አንድ ፎቶ አወጣ፣ በላዩ ላይ አንድ ጎረምሳ ልጅ ነበር፦ «ይህ ልጄ ነው፣ በሚቀጥለው ዓመት በእንግሊዝ ዩኒቨርሲቲዎች ሊያመለክት ነው፣ ግን የእንግሊዝኛ ንግግሩ በጣም ደካማ ነው።»",
+    "fa": "صاحب رستوران از کیفش یه عکس درمیاره؛ توش پسری نوجوونه: «این پسر منه؛ سال بعد برای دانشگاه‌های انگلستان اپلای می‌کنه ولی انگلیسی مکالمه‌ش خیلی ضعیفه.»"
+   },
+   "start": 106.324,
+   "end": 118.156,
+   "tokens": [
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "包",
+     "bāo",
+     "to take charge of; bag; to cover",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "拿出",
+     "ná chū",
+     "to take out; to put out; to provide",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "照片",
+     "zhào piàn",
+     "photograph",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "上面",
+     "shàng miàn",
+     "on top of; above-mentioned; also pr.",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "十几",
+     "shí jǐ",
+     "more than ten; a dozen or more",
+     ""
+    ],
+    [
+     "岁",
+     "suì",
+     "classifier for years (of age); years old; year",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "男孩",
+     "nán hái",
+     "boy",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "儿子",
+     "ér zi",
+     "son",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "明年",
+     "míng nián",
+     "next year",
+     ""
+    ],
+    [
+     "要",
+     "yào",
+     "to want; to need; to ask for; will; shall; about to",
+     ""
+    ],
+    [
+     "申请",
+     "shēn qǐng",
+     "to apply for sth; application form",
+     ""
+    ],
+    [
+     "英国",
+     "yīng guó",
+     "United Kingdom (UK); Britain",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "大学",
+     "dà xué",
+     "university; college",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "英语",
+     "yīng yǔ",
+     "English (language)",
+     ""
+    ],
+    [
+     "口语",
+     "kǒu yǔ",
+     "spoken language; colloquial speech; vernacular language",
+     ""
+    ],
+    [
+     "太",
+     "tài",
+     "highest; greatest; too (much)",
+     ""
+    ],
+    [
+     "差",
+     "chà",
+     "different; wrong; mistaken; to fall short; to lack",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我给他找了好几个老师，他都不喜欢。上次他在展会上见过你，回家说：‘那个英国人说话真有意思。’”",
+   "py": "“wǒ gěi tā zhǎo le hǎo jǐ gè lǎo shī, tā dōu bù xǐ huan. shàng cì tā zài zhǎn huì shàng jiàn guò nǐ, huí jiā shuō: ‘nà ge yīng guó rén shuō huà zhēn yǒu yì si. ’”",
+   "en": "\"I've found him several teachers, and he doesn't like any of them. He saw you at a trade fair once, and when he got home he said, 'That British guy is really interesting to listen to.'\"",
+   "tr": {
+    "am": "«ብዙ አስተማሪዎች ፈልጌለታለሁ፣ አንዳቸውንም አልወደደም። ባለፈው ጊዜ በአንድ ኤግዚቢሽን ላይ አይቶህ ቤት ሲመለስ ‹ያ እንግሊዛዊ ሲያወራ በጣም ደስ ይላል› አለ።»",
+    "fa": "«چند تا معلم براش پیدا کردم ولی هیچ‌کدوم رو قبول نداره. یه بار توی نمایشگاه تو رو دیده بود؛ برگشته خونه گفته: «اون انگلیسی حرفش چه جالبـه.»»"
+   },
+   "start": 118.856,
+   "end": 128.768,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "找",
+     "zhǎo",
+     "to try to find; to look for; to call on sb",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "好几",
+     "hǎo jǐ",
+     "several; quite a few",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "喜欢",
+     "xǐ huan",
+     "to like; to be fond of",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "上次",
+     "shàng cì",
+     "last time",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "展会",
+     "zhǎn huì",
+     "exhibition event; expo; trade fair",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "见",
+     "jiàn",
+     "to see; to meet; to appear (to be sth)",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "回家",
+     "huí jiā",
+     "to return home",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "‘"
+    ],
+    [
+     "那个",
+     "nà ge",
+     "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)",
+     ""
+    ],
+    [
+     "英国人",
+     "yīng guó rén",
+     "British person; British people",
+     ""
+    ],
+    [
+     "说话",
+     "shuō huà",
+     "to speak; to say; to talk",
+     ""
+    ],
+    [
+     "真",
+     "zhēn",
+     "really; real; truly",
+     ""
+    ],
+    [
+     "有意思",
+     "yǒu yì si",
+     "interesting; meaningful; enjoyable",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "’"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“所以我想问问，你周末有没有时间，跟他聊聊天，学费我照付。”",
+   "py": "“suǒ yǐ wǒ xiǎng wèn wèn, nǐ zhōu mò yǒu méi yǒu shí jiān, gēn tā liáo liáo tiān, xué fèi wǒ zhào fù.”",
+   "en": "\"So I wanted to ask if you'd have time at the weekends to chat with him. I'll pay whatever you charge.\"",
+   "tr": {
+    "am": "«ስለዚህ ቅዳሜና እሁድ ጊዜ ካለህ ከእሱ ጋር እንድታወራ ልጠይቅህ ፈልጌ ነው፣ ክፍያውን እከፍላለሁ።»",
+    "fa": "«پرسیدم ببینم آخر هفته وقت داری باهاش گپ بزنه؟ حق‌الزحمه‌ش رو هم من می‌دم.»"
+   },
+   "start": 129.468,
+   "end": 136.116,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "所以",
+     "suǒ yǐ",
+     "therefore; as a result; so",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "问",
+     "wèn",
+     "to ask; to inquire",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "周末",
+     "zhōu mò",
+     "weekend",
+     ""
+    ],
+    [
+     "有没有",
+     "yǒu méi yǒu",
+     "(before a noun) Do (you, they etc) have ...?",
+     ""
+    ],
+    [
+     "时间",
+     "shí jiān",
+     "(concept of) time; (duration of) time; (point in) time",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "聊",
+     "liáo",
+     "(coll.) to chat; (literary) temporarily; for a while",
+     ""
+    ],
+    [
+     "聊天",
+     "liáo tiān",
+     "to chat; to gossip",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "学费",
+     "xué fèi",
+     "tuition fee; tuition",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "照付",
+     "zhào fù",
+     "to pay as charged",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "杰克愣了半天，才把拳头松开，长长地出了一口气：原来是虚惊一场。",
+   "py": "Jié kè lèng le bàn tiān, cái bǎ quán tou sōng kāi, cháng cháng de chū le yì kǒu qì: yuán lái shì xū jīng yì cháng.",
+   "en": "Jack stares for a long moment before unclenching his fists and letting out a long breath: it was a false alarm.",
+   "tr": {
+    "am": "ጃክ ለረጅም ጊዜ ፈዝዞ ቆየ፣ ከዚያም ቡጢውን ፈታ፣ ረጅም ትንፋሽ ተነፈሰ፦ ለካ ከንቱ ፍርሃት ነበር።",
+    "fa": "جک خیلی طول مات می‌مونه، بعد مشتش رو باز می‌کنه و یه نفس عمیق می‌کشه: ترسش بی‌دلیل بود."
+   },
+   "start": 136.816,
+   "end": 145.576,
+   "tokens": [
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "愣",
+     "lèng",
+     "to stare blankly; to look distracted; distracted",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "a long time; half of the day; quite a while",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "才",
+     "cái",
+     "(before an expression of quantity) only",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "(used to put the object before the verb: 把 + {noun} + {verb})",
+     ""
+    ],
+    [
+     "拳头",
+     "quán tou",
+     "fist",
+     ""
+    ],
+    [
+     "松开",
+     "sōng kāi",
+     "to release; to let go; to loosen",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "长",
+     "cháng",
+     "long; (bound form) length; (bound form) strong point; forte",
+     ""
+    ],
+    [
+     "长",
+     "cháng",
+     "long; (bound form) length; (bound form) strong point; forte",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct",
+     ""
+    ],
+    [
+     "出",
+     "chū",
+     "to go out; to come out; to arise; to occur",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一口气",
+     "yī kǒu qì",
+     "one breath; in one breath; at a stretch",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "原来",
+     "yuán lái",
+     "so, actually, as it turns out; original; former",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "虚惊一场",
+     "xū jīng yī chǎng",
+     "(idiom) a false alarm; a scare that turns out to be nothing",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他笑着说：“钱就不用了。不过有个条件：明年的价格，我们在会议室里谈，不在饭桌上谈。”",
+   "py": "tā xiào zhe shuō: “qián jiù bú yòng le. bú guò yǒu gè tiáo jiàn: míng nián de jià gé, wǒ men zài huì yì shì lǐ tán, bú zài fàn zhuō shàng tán.”",
+   "en": "He smiles. \"No need to pay. But on one condition: next year's prices, we discuss in the meeting room, not at the dinner table.\"",
+   "tr": {
+    "am": "በፈገግታ አለ፦ «ገንዘብ አያስፈልግም። ግን አንድ ቅድመ ሁኔታ አለ፦ የሚቀጥለውን ዓመት ዋጋ የምንነጋገረው በስብሰባ ክፍል ውስጥ እንጂ በማዕድ ላይ አይደለም።»",
+    "fa": "با لبخند می‌گه: «پول رو بی‌خیال. فقط یه شرط داره: قیمت‌های سال بعد رو توی اتاق جلسه حرف می‌زنیم، نه سر میز غذا.»"
+   },
+   "start": 146.276,
+   "end": 156.188,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "钱",
+     "qián",
+     "coin; money; unit of weight, one tenth of a tael 两",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+     ""
+    ],
+    [
+     "不用",
+     "bù yòng",
+     "need not",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "不过",
+     "bù guò",
+     "but; only; merely",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "条件",
+     "tiáo jiàn",
+     "condition; circumstance; term; factor",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "明年",
+     "míng nián",
+     "next year",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "价格",
+     "jià gé",
+     "price",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我们",
+     "wǒ men",
+     "we; us; ourselves; our",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "会议室",
+     "huì yì shì",
+     "meeting room; conference room",
+     ""
+    ],
+    [
+     "里",
+     "lǐ",
+     "lining; interior; inside",
+     ""
+    ],
+    [
+     "谈",
+     "tán",
+     "to discuss; to speak; to talk",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "不在",
+     "bù zài",
+     "not to be present; to be out; (euphemism) to pass away",
+     ""
+    ],
+    [
+     "饭桌",
+     "fàn zhuō",
+     "dining table",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "谈",
+     "tán",
+     "to discuss; to speak; to talk",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "老板哈哈大笑：“一言为定！”",
+   "py": "lǎo bǎn hā hā dà xiào: “yì yán wéi dìng!”",
+   "en": "The owner roars with laughter. \"It's a deal!\"",
+   "tr": {
+    "am": "ባለቤቱ በሳቅ ፈነዳ፦ «ቃል ነው!»",
+    "fa": "صاحب رستوران از ته دل می‌خنده: «قول دادیم!»"
+   },
+   "start": 156.888,
+   "end": 160.224,
+   "tokens": [
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "哈哈大笑",
+     "hā hā dà xiào",
+     "to laugh heartily; to burst into loud laughter",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "一言为定",
+     "yī yán wéi dìng",
+     "(idiom) it's a deal; that's settled then",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "第二天，杰克把这件事讲给小雨听，小雨听完说：“这哪儿是鸿门宴，这是拜师宴。”",
+   "py": "dì èr tiān, Jié kè bǎ zhè jiàn shì jiǎng gěi Xiǎo yǔ tīng, Xiǎo yǔ tīng wán shuō: “zhè nǎ r shì hóng mén yàn, zhè shì bài shī yàn.”",
+   "en": "The next day, Jack tells Xiaoyu the story, and when she's heard it she says, \"That wasn't a Hongmen Banquet. That was a feast to take on a teacher.\"",
+   "tr": {
+    "am": "በማግስቱ ጃክ ይህን ለሺያውዩ ነገራት፣ ሺያውዩም ሰምታ እንዲህ አለች፦ «ይሄ የሆንግመን ግብዣ አይደለም፣ መምህር የመያዝ ግብዣ ነው።»",
+    "fa": "فردا جک ماجرا رو برا شیائویو تعریف می‌کنه و شیائویو بعد شنیدنش می‌گه: «اونا ضیافت هونگمن نبود؛ ضیافت شاگردـه شد.»"
+   },
+   "start": 160.924,
+   "end": 169.9,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "matter; thing; item",
+     ""
+    ],
+    [
+     "讲",
+     "jiǎng",
+     "to speak; to explain; to negotiate",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "听",
+     "tīng",
+     "to listen to; to hear; to heed; to obey",
+     ""
+    ],
+    [
+     "完",
+     "wán",
+     "to finish; to be over; whole",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to scold; to tell off; to speak; to talk; to say",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "哪儿",
+     "nǎ r",
+     "where?; wherever; anywhere; somewhere",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "鸿门宴",
+     "hóng mén yàn",
+     "Hongmen feast",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "拜师",
+     "bài shī",
+     "to formally become an apprentice to a master",
+     ""
+    ],
+    [
+     "宴",
+     "yàn",
+     "(bound form) to entertain at a banquet",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "一个月以后，价格谈判开始了，老板寸步不让，比谁都难谈；可是每个星期六，他儿子的英语都有一点儿进步。",
+   "py": "yí gè yuè yǐ hòu, jià gé tán pàn kāi shǐ le, lǎo bǎn cùn bù bú ràng, bǐ shéi dōu nán tán; kě shì měi gè xīng qī liù, tā ér zi de yīng yǔ dōu yǒu yì diǎn r jìn bù.",
+   "en": "A month later, the price negotiations begin, and the owner gives no ground at all — he's the toughest of anyone; but every Saturday, his son's English gets a little better.",
+   "tr": {
+    "am": "ከአንድ ወር በኋላ የዋጋ ድርድሩ ተጀመረ፣ ባለቤቱ አንድ እርምጃ እንኳ ወደ ኋላ አላለም፣ ከማንም በላይ ከባድ ተደራዳሪ ነበር፣ ግን በየቅዳሜው የልጁ እንግሊዝኛ ትንሽ ትንሽ ይሻሻል ነበር።",
+    "fa": "یک ماه بعد مذاکرات قیمت شروع می‌شه و صاحب کار حتی یه قدم هم برنمی‌گرده؛ از همه سختی‌گیرتره؛ ولی هر شنبه انگلیسی پسرش یه ذره بهتر می‌شه."
+   },
+   "start": 170.6,
+   "end": 181.952,
+   "tokens": [
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "价格",
+     "jià gé",
+     "price",
+     ""
+    ],
+    [
+     "谈判",
+     "tán pàn",
+     "negotiation; to negotiate; talks",
+     ""
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "老板",
+     "lǎo bǎn",
+     "boss; business proprietor; Robam (brand)",
+     ""
+    ],
+    [
+     "寸步不让",
+     "cùn bù bù ràng",
+     "(idiom) not to yield an inch",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "比",
+     "bǐ",
+     "to compare",
+     ""
+    ],
+    [
+     "谁",
+     "shéi",
+     "who; also pr.",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "难",
+     "nán",
+     "difficult (to...); problem; difficulty",
+     ""
+    ],
+    [
+     "谈",
+     "tán",
+     "to speak; to talk; to converse",
+     ""
+    ],
+    [
+     "；"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "每个",
+     "měi gè",
+     "each; every",
+     ""
+    ],
+    [
+     "星期六",
+     "xīng qī liù",
+     "Saturday",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "儿子",
+     "ér zi",
+     "son",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "英语",
+     "yīng yǔ",
+     "English (language)",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "有一点儿",
+     "yǒu yī diǎn r",
+     "a little; a bit",
+     ""
+    ],
+    [
+     "进步",
+     "jìn bù",
+     "progress; improvement; to improve; to progress",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 595,
+ "first": "下个月，公司要跟一家供应商谈明年的价格，谈判还没开始，供应商的老板就打来电话，要请杰克吃饭。",
+ "newWords": [
+  {
+   "w": "鸿门宴",
+   "py": "hóng mén yàn",
+   "en": "Hongmen feast"
+  },
+  {
+   "w": "赴宴",
+   "py": "fù yàn",
+   "en": "to attend a banquet"
+  },
+  {
+   "w": "别有用心",
+   "py": "bié yǒu yòng xīn",
+   "en": "to have an ulterior motive (idiom)"
+  },
+  {
+   "w": "虚惊一场",
+   "py": "xū jīng yī chǎng",
+   "en": "(idiom) a false alarm"
+  },
+  {
+   "w": "一言为定",
+   "py": "yī yán wéi dìng",
+   "en": "(idiom) it's a deal"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h6-74.mp3?v=1791722866"
 }

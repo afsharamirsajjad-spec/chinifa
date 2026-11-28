@@ -1,2698 +1,2718 @@
 {
-  "id": "h6-36",
-  "level": 6,
-  "no": 36,
-  "title": "会说谎的体重秤",
-  "title_py": "huì shuō huǎng de tǐ zhòng chèng",
-  "title_en": "The scales that lied",
-  "title_tr": {
-    "am": "የሚዋሸው ሚዛን",
-    "fa": "ترازویی که وزن را کمتر نشان می‌داد!"
+ "id": "h6-36",
+ "level": 6,
+ "no": 36,
+ "title": "会说谎的体重秤",
+ "title_py": "huì shuō huǎng de tǐ zhòng chèng",
+ "title_en": "The scales that lied",
+ "title_tr": {
+  "am": "የሚዋሸው ሚዛን",
+  "fa": "ترازویی که وزن را کمتر نشان می‌داد!"
+ },
+ "topic": "health",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h6-36.jpg",
+ "duration": 166.332,
+ "lines": [
+  {
+   "text": "小雨决定减肥，目标是两个月瘦五公斤。",
+   "py": "Xiǎo yǔ jué dìng jiǎn féi, mù biāo shì liǎng gè yuè shòu wǔ gōng jīn.",
+   "en": "Xiaoyu decides to lose weight. Her target is five kilos in two months.",
+   "tr": {
+    "am": "ሺያውዩ ክብደት ለመቀነስ ወሰነች፣ ግቧም በሁለት ወር አምስት ኪሎ መቀነስ ነው።",
+    "fa": "شیائویو تصمیم می‌گیره وزن کم کنه. هدفش پنج کیلو تو دو ماهه."
+   },
+   "start": 3.076,
+   "end": 7.612,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "决定",
+     "jué dìng",
+     "to decide; to determine; to make up one's mind; decision",
+     ""
+    ],
+    [
+     "减肥",
+     "jiǎn féi",
+     "to lose weight",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "目标",
+     "mù biāo",
+     "target; goal; objective",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; moon; monthly",
+     ""
+    ],
+    [
+     "瘦",
+     "shòu",
+     "to lose weight; thin; (of clothing) tight",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "公斤",
+     "gōng jīn",
+     "kilogram (kg)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "health",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h6-36.jpg",
-  "duration": 166.332,
-  "lines": [
-    {
-      "text": "小雨决定减肥，目标是两个月瘦五公斤。",
-      "py": "Xiǎo yǔ jué dìng jiǎn féi, mù biāo shì liǎng gè yuè shòu wǔ gōng jīn.",
-      "en": "Xiaoyu decides to lose weight. Her target is five kilos in two months.",
-      "tr": {
-        "am": "ሺያውዩ ክብደት ለመቀነስ ወሰነች፣ ግቧም በሁለት ወር አምስት ኪሎ መቀነስ ነው።"
-      },
-      "start": 3.076,
-      "end": 7.612,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "决定",
-          "jué dìng",
-          "to decide; to determine; to make up one's mind; decision",
-          ""
-        ],
-        [
-          "减肥",
-          "jiǎn féi",
-          "to lose weight",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "目标",
-          "mù biāo",
-          "target; goal; objective",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; moon; monthly",
-          ""
-        ],
-        [
-          "瘦",
-          "shòu",
-          "to lose weight; thin; (of clothing) tight",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "公斤",
-          "gōng jīn",
-          "kilogram (kg)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "她每天晚上去跑步，晚饭只吃一点儿水果，每天早上第一件事，就是站到体重秤上。",
-      "py": "tā měi tiān wǎn shang qù pǎo bù, wǎn fàn zhǐ chī yì diǎn r shuǐ guǒ, měi tiān zǎo shang dì yī jiàn shì, jiù shì zhàn dào tǐ zhòng chèng shàng.",
-      "en": "She goes running every evening, has only a little fruit for dinner, and the first thing she does every morning is step on the scales.",
-      "tr": {
-        "am": "በየምሽቱ ትሮጣለች፣ ለራት ጥቂት ፍራፍሬ ብቻ ትበላለች፣ በየጠዋቱ የመጀመሪያ ሥራዋ ሚዛኑ ላይ መቆም ነው።"
-      },
-      "start": 8.312,
-      "end": 17.096,
-      "tokens": [
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "跑步",
-          "pǎo bù",
-          "to run; to jog; (military) to march at the double",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "晚饭",
-          "wǎn fàn",
-          "evening meal; dinner; supper",
-          ""
-        ],
-        [
-          "只",
-          "zhī",
-          "grain that has begun to ripen",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "水果",
-          "shuǐ guǒ",
-          "fruit",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "每天",
-          "měi tiān",
-          "every day",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "第一",
-          "dì yī",
-          "first; most important; primary; foremost",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "thing; matter; item",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就是",
-          "jiù shì",
-          "only; simply; just",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "station; to stand; to halt",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "体重秤",
-          "tǐ zhòng chèng",
-          "scale for measuring body weight; bathroom scale",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "first (of multiple parts)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "可是一个星期过去了，秤上的数字一点儿也没变。",
-      "py": "kě shì yí gè xīng qī guò qù le, chèng shàng de shù zì yì diǎn r yě méi biàn.",
-      "en": "But after a week, the number on the scales hasn't changed at all.",
-      "tr": {
-        "am": "ግን አንድ ሳምንት አለፈ፣ ሚዛኑ ላይ ያለው ቁጥር ጭራሽ አልተቀየረም።"
-      },
-      "start": 17.796,
-      "end": 22.812,
-      "tokens": [
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "the whole (afternoon, summer vacation etc); a; an; one",
-          ""
-        ],
-        [
-          "星期",
-          "xīng qī",
-          "week; day of the week; Sunday",
-          ""
-        ],
-        [
-          "过去",
-          "guò qù",
-          "(in the) past; former; previous; to go over; to pass by",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "秤",
-          "chèng",
-          "steelyard balance; Roman balance",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after an attribute when it modifies a noun)",
-          ""
-        ],
-        [
-          "数字",
-          "shù zì",
-          "number; numeral; digit",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "变",
-          "biàn",
-          "to change; to become different; to transform",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨很灰心：“这么辛苦，一斤都没瘦，我还是放弃吧。”",
-      "py": "Xiǎo yǔ hěn huī xīn: “zhè me xīn kǔ, yì jīn dōu méi shòu, wǒ hái shi fàng qì ba.”",
-      "en": "Xiaoyu is very discouraged. \"All that effort, and not even half a kilo. I might as well give up.\"",
-      "tr": {
-        "am": "ሺያውዩ ተስፋ ቆረጠች፦ «ይህን ያህል ለፍቼ ግማሽ ኪሎ እንኳ አልቀነስኩም፣ ብተወው ይሻላል።»"
-      },
-      "start": 23.512,
-      "end": 31.096,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "灰心",
-          "huī xīn",
-          "to be discouraged; to lose heart",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "辛苦",
-          "xīn kǔ",
-          "exhausting; hard; tough",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "斤",
-          "jīn",
-          "catty; (PRC) weight equal to 500 g",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; (not) at all",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "瘦",
-          "shòu",
-          "thin; to lose weight; (of clothing) tight",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "放弃",
-          "fàng qì",
-          "to renounce; to abandon; to give up",
-          ""
-        ],
-        [
-          "吧",
-          "ba",
-          "(modal particle indicating suggestion or surmise); ...right?",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明看她这么难过，心里也不好受。那天晚上，他趁小雨睡着了，悄悄地把体重秤调轻了一点儿。",
-      "py": "Wáng Míng kàn tā zhè me nán guò, xīn lǐ yě bù hǎo shòu. nà tiān wǎn shang, tā chèn Xiǎo yǔ shuì zháo le, qiāo qiāo de bǎ tǐ zhòng chèng diào qīng le yì diǎn r.",
-      "en": "Seeing her so down, Wang Ming feels bad too. That night, while she's asleep, he quietly adjusts the scales so they read a little lighter.",
-      "tr": {
-        "am": "ዋንግ ሚንግ እንዲህ ስታዝን አይቶ እሱም ከፋው። በዚያ ምሽት ሺያውዩ ስትተኛ ሚዛኑን በድብቅ ትንሽ ቀለል አድርጎ እንዲያሳይ አስተካከለው።"
-      },
-      "start": 31.796,
-      "end": 41.684,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to read; to feel (that); to see; to look at",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "这么",
-          "zhè me",
-          "so much; this much; how much?",
-          ""
-        ],
-        [
-          "难过",
-          "nán guò",
-          "to feel sad; to feel unwell; (of life) to be difficult",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "心里",
-          "xīn li",
-          "chest; heart; mind",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "不好受",
-          "bù hǎo shòu",
-          "unpleasant; hard to take",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "night; evening; in the evening",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "趁",
-          "chèn",
-          "to avail oneself of; to take advantage of",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "睡着",
-          "shuì zháo",
-          "to fall asleep",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "悄悄",
-          "qiāo qiāo",
-          "quiet; making little or no noise; surreptitious; stealthy",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "体重秤",
-          "tǐ zhòng chèng",
-          "scale for measuring body weight; bathroom scale",
-          ""
-        ],
-        [
-          "调",
-          "diào",
-          "to transfer; to move (troops or cadres); to investigate",
-          ""
-        ],
-        [
-          "轻",
-          "qīng",
-          "light; easy; gentle",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "第二天早上，小雨一站上去，就高兴得叫了起来：“少了半公斤！”",
-      "py": "dì èr tiān zǎo shang, Xiǎo yǔ yí zhàn shàng qù, jiù gāo xìng de jiào le qǐ lái: “shǎo le bàn gōng jīn!”",
-      "en": "The next morning, the moment Xiaoyu steps on, she shrieks with joy. \"Half a kilo less!\"",
-      "tr": {
-        "am": "በማግስቱ ጠዋት ሺያውዩ ሚዛኑ ላይ እንደቆመች በደስታ ጮኸች፦ «ግማሽ ኪሎ ቀንሷል!»"
-      },
-      "start": 42.384,
-      "end": 49.272,
-      "tokens": [
-        [
-          "第二天",
-          "dì èr tiān",
-          "next day; the morrow",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "station; to stand; to halt",
-          ""
-        ],
-        [
-          "上去",
-          "shàng qù",
-          "to go up",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "高兴",
-          "gāo xìng",
-          "happy; glad; willing (to do sth)",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "叫",
-          "jiào",
-          "to shout; to call; to order",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "起来",
-          "qǐ lai",
-          "to stand up; to get up; also pr.",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "少",
-          "shǎo",
-          "less; few; to lack",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "半",
-          "bàn",
-          "half; (after a number) and a half; semi-",
-          ""
-        ],
-        [
-          "公斤",
-          "gōng jīn",
-          "kilogram (kg)",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "从那以后，王明每隔几天就偷偷调一次，小雨的“体重”也一天比一天轻。",
-      "py": "cóng nà yǐ hòu, Wáng Míng měi gé jǐ tiān jiù tōu tōu diào yí cì, Xiǎo yǔ de “tǐ zhòng” yě yì tiān bǐ yì tiān qīng.",
-      "en": "From then on, every few days Wang Ming secretly adjusts them again, and Xiaoyu's \"weight\" goes down day by day.",
-      "tr": {
-        "am": "ከዚያ ወዲህ ዋንግ ሚንግ በየጥቂት ቀናት በድብቅ ያስተካክለዋል፣ የሺያውዩ «ክብደት»ም ከቀን ወደ ቀን ቀነሰ።"
-      },
-      "start": 49.972,
-      "end": 57.556,
-      "tokens": [
-        [
-          "从",
-          "cóng",
-          "(used before a negative) ever; from; through; via",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "after; later; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "每隔",
-          "měi gé",
-          "every (so often); at intervals of",
-          ""
-        ],
-        [
-          "几天",
-          "jǐ tiān",
-          "several days",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "偷偷",
-          "tōu tōu",
-          "secretly; stealthily; covertly",
-          ""
-        ],
-        [
-          "调",
-          "diào",
-          "to transfer; to move (troops or cadres); to investigate",
-          ""
-        ],
-        [
-          "一次",
-          "yī cì",
-          "first; first time; once",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "体重",
-          "tǐ zhòng",
-          "body weight",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "比",
-          "bǐ",
-          "to compare",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "天",
-          "tiān",
-          "day; sky; heaven",
-          ""
-        ],
-        [
-          "轻",
-          "qīng",
-          "light; easy; gentle",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨越减越有信心，跑步从三公里加到了五公里，还学会了做少油少盐的菜。",
-      "py": "Xiǎo yǔ yuè jiǎn yuè yǒu xìn xīn, pǎo bù cóng sān gōng lǐ jiā dào le wǔ gōng lǐ, hái xué huì le zuò shǎo yóu shǎo yán de cài.",
-      "en": "The more she loses, the more confident she gets. She goes from running three kilometres to five, and learns to cook with less oil and salt.",
-      "tr": {
-        "am": "ሺያውዩ በቀነሰች ቁጥር በራሷ ይበልጥ ተማመነች፣ ሩጫዋን ከሦስት ኪሎ ሜትር ወደ አምስት ኪሎ ሜትር ጨመረች፣ ዘይትና ጨው የቀነሰ ምግብ ማብሰልም ተማረች።"
-      },
-      "start": 58.256,
-      "end": 67.04,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "the more... the more; to exceed; to climb over",
-          ""
-        ],
-        [
-          "减",
-          "jiǎn",
-          "to lower; to decrease; to reduce",
-          ""
-        ],
-        [
-          "越",
-          "yuè",
-          "the more... the more; to exceed; to climb over",
-          ""
-        ],
-        [
-          "有",
-          "yǒu",
-          "to have; there is",
-          ""
-        ],
-        [
-          "信心",
-          "xìn xīn",
-          "confidence; faith (in sb or sth)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "跑步",
-          "pǎo bù",
-          "to run; to jog; (military) to march at the double",
-          ""
-        ],
-        [
-          "从",
-          "cóng",
-          "from; through; via; (bound form) to follow",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "公里",
-          "gōng lǐ",
-          "kilometer",
-          ""
-        ],
-        [
-          "加",
-          "jiā",
-          "to add; (math.) plus; to increase; to augment",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "公里",
-          "gōng lǐ",
-          "kilometer",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "还",
-          "hái",
-          "still more; even more; still",
-          ""
-        ],
-        [
-          "学会",
-          "xué huì",
-          "to learn; to master",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "做",
-          "zuò",
-          "to make; to produce; to write; to compose",
-          ""
-        ],
-        [
-          "少",
-          "shǎo",
-          "less; few; to lack",
-          ""
-        ],
-        [
-          "油",
-          "yóu",
-          "oil; to apply tung oil, paint or varnish; fat",
-          ""
-        ],
-        [
-          "少",
-          "shǎo",
-          "less; few; to lack",
-          ""
-        ],
-        [
-          "盐",
-          "yán",
-          "salt",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "菜",
-          "cài",
-          "vegetable; greens; dish (of food)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "两个月以后，秤上的数字整整少了五公斤。小雨开心得不得了。",
-      "py": "liǎng gè yuè yǐ hòu, chèng shàng de shù zì zhěng zhěng shǎo le wǔ gōng jīn. Xiǎo yǔ kāi xīn de bù dé liǎo.",
-      "en": "Two months later, the number on the scales is a full five kilos lower. Xiaoyu is over the moon.",
-      "tr": {
-        "am": "ከሁለት ወር በኋላ ሚዛኑ ላይ ያለው ቁጥር ሙሉ አምስት ኪሎ ቀነሰ። ሺያውዩ እጅግ በጣም ተደሰተች።"
-      },
-      "start": 67.74,
-      "end": 74.628,
-      "tokens": [
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "moon; month; monthly",
-          ""
-        ],
-        [
-          "以后",
-          "yǐ hòu",
-          "later; later on; after",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "秤",
-          "chèng",
-          "steelyard balance; Roman balance",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "数字",
-          "shù zì",
-          "number; numeral; digit",
-          ""
-        ],
-        [
-          "整整",
-          "zhěng zhěng",
-          "full; whole",
-          ""
-        ],
-        [
-          "少",
-          "shǎo",
-          "few; less; to lack",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "公斤",
-          "gōng jīn",
-          "kilogram (kg)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "开心",
-          "kāi xīn",
-          "to feel happy; to rejoice; to have a great time",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "不得了",
-          "bù dé liǎo",
-          "desperately serious; disastrous; extremely",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明却越来越心虚：要是她知道了真相，会不会更伤心？",
-      "py": "Wáng Míng què yuè lái yuè xīn xū: yào shi tā zhī dào le zhēn xiàng, huì bú huì gèng shāng xīn?",
-      "en": "Wang Ming, though, feels guiltier and guiltier. If she finds out the truth, will she be even more upset?",
-      "tr": {
-        "am": "ዋንግ ሚንግ ግን ይበልጥ ኅሊናው እየወቀሰው ሄደ፦ እውነቱን ብታውቅ የበለጠ ታዝን ይሆን?"
-      },
-      "start": 75.328,
-      "end": 81.76,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "却",
-          "què",
-          "even though; but; yet",
-          ""
-        ],
-        [
-          "越来越",
-          "yuè lái yuè",
-          "more and more",
-          ""
-        ],
-        [
-          "心虚",
-          "xīn xū",
-          "lacking in confidence; diffident",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "要是",
-          "yào shi",
-          "(coll.) if",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "知道了",
-          "zhī dào le",
-          "OK!; Got it!",
-          ""
-        ],
-        [
-          "真相",
-          "zhēn xiàng",
-          "the truth about sth; the actual facts",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "会不会",
-          "huì bù huì",
-          "(posing a question: whether sb, something) can or cannot?",
-          ""
-        ],
-        [
-          "更",
-          "gèng",
-          "more; even more; still more",
-          ""
-        ],
-        [
-          "伤心",
-          "shāng xīn",
-          "to feel deeply hurt; to grieve; to be broken-hearted",
-          ""
-        ],
-        [
-          "？"
-        ]
-      ]
-    },
-    {
-      "text": "这天，小雨去医院体检，王明一整天都坐立不安。",
-      "py": "zhè tiān, Xiǎo yǔ qù yī yuàn tǐ jiǎn, Wáng Míng yì zhěng tiān dōu zuò lì bù ān.",
-      "en": "One day Xiaoyu goes to the hospital for a check-up, and Wang Ming is on edge all day.",
-      "tr": {
-        "am": "አንድ ቀን ሺያውዩ ለምርመራ ወደ ሆስፒታል ሄደች፣ ዋንግ ሚንግ ቀኑን ሙሉ መቀመጥም መቆምም አቃተው።"
-      },
-      "start": 82.46,
-      "end": 87.932,
-      "tokens": [
-        [
-          "这天",
-          "zhè tiān",
-          "this day",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "to go; to go to (a place); (of a time etc) last",
-          ""
-        ],
-        [
-          "医院",
-          "yī yuàn",
-          "hospital",
-          ""
-        ],
-        [
-          "体检",
-          "tǐ jiǎn",
-          "abbr. for 体格检查",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "整天",
-          "zhěng tiān",
-          "all day long; whole day",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "坐立不安",
-          "zuò lì bù ān",
-          "lit. agitated sitting or standing (idiom); restless; fidgety",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "晚上，小雨回来了，脸上的表情很奇怪。",
-      "py": "wǎn shang, Xiǎo yǔ huí lái le, liǎn shàng de biǎo qíng hěn qí guài.",
-      "en": "In the evening Xiaoyu comes home with a strange look on her face.",
-      "tr": {
-        "am": "ማታ ሺያውዩ ተመለሰች፣ ፊቷ ላይ እንግዳ ገጽታ ነበር።"
-      },
-      "start": 88.632,
-      "end": 93.864,
-      "tokens": [
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "回来",
-          "huí lai",
-          "to return; to come back",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "脸",
-          "liǎn",
-          "face",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "表情",
-          "biǎo qíng",
-          "(facial) expression; to express one's feelings",
-          ""
-        ],
-        [
-          "很",
-          "hěn",
-          "very; quite",
-          ""
-        ],
-        [
-          "奇怪",
-          "qí guài",
-          "strange; odd; to marvel",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "王明终于忍不住了：“小雨，对不起，家里的秤……是我调过的。”",
-      "py": "Wáng Míng zhōng yú rěn bu zhù le: “Xiǎo yǔ, duì bu qǐ, jiā lǐ de chèng…… shì wǒ diào guò de.”",
-      "en": "Wang Ming can't hold it in any longer. \"Xiaoyu, I'm sorry. The scales at home... I've been fiddling with them.\"",
-      "tr": {
-        "am": "ዋንግ ሚንግ በመጨረሻ መቻል አቃተው፦ «ሺያውዩ፣ ይቅርታ፣ የቤቱ ሚዛን… እኔ ነኝ ያስተካከልኩት።»"
-      },
-      "start": 94.564,
-      "end": 102.412,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "at last; in the end; finally",
-          ""
-        ],
-        [
-          "忍不住",
-          "rěn bu zhù",
-          "cannot help; unable to bear",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "对不起",
-          "duì bu qǐ",
-          "I'm sorry; excuse me; I beg your pardon",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "家里",
-          "jiā lǐ",
-          "home",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "秤",
-          "chèng",
-          "steelyard balance; Roman balance",
-          ""
-        ],
-        [
-          "…"
-        ],
-        [
-          "…"
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "调",
-          "diào",
-          "to transfer; to move (troops or cadres); to investigate",
-          ""
-        ],
-        [
-          "过",
-          "guo",
-          "(experienced action marker)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨看了他一眼：“我知道。医院的秤说，我瘦了三公斤。”",
-      "py": "Xiǎo yǔ kàn le tā yì yǎn: “wǒ zhī dào. yī yuàn de chèng shuō, wǒ shòu le sān gōng jīn.”",
-      "en": "Xiaoyu glances at him. \"I know. The hospital scales say I've lost three kilos.\"",
-      "tr": {
-        "am": "ሺያውዩ አንድ ጊዜ አየችው፦ «አውቃለሁ። የሆስፒታሉ ሚዛን ሦስት ኪሎ እንደቀነስኩ ያሳያል።»"
-      },
-      "start": 103.112,
-      "end": 110,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to read; to watch",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "一眼",
-          "yī yǎn",
-          "a glance; a quick look; a glimpse",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "知道",
-          "zhī dào",
-          "to know; to become aware of; also pr.",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "医院",
-          "yī yuàn",
-          "hospital",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "秤",
-          "chèng",
-          "steelyard balance; Roman balance",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "瘦",
-          "shòu",
-          "thin; to lose weight; (of clothing) tight",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "三",
-          "sān",
-          "three; 3",
-          ""
-        ],
-        [
-          "公斤",
-          "gōng jīn",
-          "kilogram (kg)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“陈医生说，一个月瘦一点五公斤，速度正合适，又健康，又不容易反弹。”",
-      "py": "“Chén yī shēng shuō, yí gè yuè shòu yì diǎn wǔ gōng jīn, sù dù zhèng hé shì, yòu jiàn kāng, yòu bù róng yì fǎn tán.”",
-      "en": "\"Dr Chen says a kilo and a half a month is just the right speed. It's healthy, and the weight is less likely to come back.\"",
-      "tr": {
-        "am": "«ዶክተር ቼን በወር አንድ ተኩል ኪሎ መቀነስ ልክ ተስማሚ ፍጥነት ነው አሉ፣ ጤናማም ነው፣ ክብደቱም በቀላሉ አይመለስም።»"
-      },
-      "start": 110.7,
-      "end": 118.524,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "陈",
-          "chén",
-          "Chen (c. 1045 – 479 BC), a Zhou dynasty state",
-          ""
-        ],
-        [
-          "医生",
-          "yī shēng",
-          "doctor; medical practitioner",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; monthly; moon",
-          ""
-        ],
-        [
-          "瘦",
-          "shòu",
-          "to lose weight; thin; (of clothing) tight",
-          ""
-        ],
-        [
-          "一点",
-          "yī diǎn",
-          "a bit; a little bit",
-          ""
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "公斤",
-          "gōng jīn",
-          "kilogram (kg)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "速度",
-          "sù dù",
-          "speed; rate; velocity; (music) tempo",
-          ""
-        ],
-        [
-          "正",
-          "zhèng",
-          "just (at that time); right (in that place); straight",
-          ""
-        ],
-        [
-          "合适",
-          "hé shì",
-          "suitable; fitting; appropriate",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "健康",
-          "jiàn kāng",
-          "health; healthy",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "又",
-          "yòu",
-          "(once) again; also; both... and...",
-          ""
-        ],
-        [
-          "不容",
-          "bù róng",
-          "must not; cannot; to not allow",
-          ""
-        ],
-        [
-          "易",
-          "yì",
-          "easy; amiable; to change",
-          ""
-        ],
-        [
-          "反弹",
-          "fǎn tán",
-          "to bounce back; backlash; to bounce",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明松了一口气：“那太好了！那你刚才的表情怎么那么奇怪？”",
-      "py": "Wáng Míng sōng le yì kǒu qì: “nà tài hǎo le! nà nǐ gāng cái de biǎo qíng zěn me nà me qí guài?”",
-      "en": "Wang Ming breathes a sigh of relief. \"That's great! Then why did you look so strange just now?\"",
-      "tr": {
-        "am": "ዋንግ ሚንግ እፎይ አለ፦ «በጣም ጥሩ! ታዲያ አሁን ፊትሽ ለምን እንደዚያ እንግዳ ሆነ?»"
-      },
-      "start": 119.224,
-      "end": 126.112,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "松",
-          "sōng",
-          "pine; loose; to loosen",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "一口气",
-          "yī kǒu qì",
-          "one breath; in one breath; at a stretch",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "太好了",
-          "tài hǎo le",
-          "very good",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "那",
-          "nà",
-          "then (in that case); (specifier) that; the; those",
-          ""
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "刚才",
-          "gāng cái",
-          "just now; just now; a moment ago",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "表情",
-          "biǎo qíng",
-          "(facial) expression; to express one's feelings",
-          ""
-        ],
-        [
-          "怎么",
-          "zěn me",
-          "why?; how?; what?",
-          ""
-        ],
-        [
-          "那么",
-          "nà me",
-          "then; in that case; like that; in that way; to that extent",
-          ""
-        ],
-        [
-          "奇怪",
-          "qí guài",
-          "strange; odd; to marvel",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "小雨说：“因为我在回来的路上想明白了一件事。这两个月，你也天天站到那台秤上，你的数字一直没变，对不对？”",
-      "py": "Xiǎo yǔ shuō: “yīn wèi wǒ zài huí lái de lù shàng xiǎng míng bai le yí jiàn shì. zhè liǎng gè yuè, nǐ yě tiān tiān zhàn dào nà tái chèng shàng, nǐ de shù zì yì zhí méi biàn, duì bú duì?”",
-      "en": "Xiaoyu says, \"Because on the way home, something dawned on me. These two months, you've stood on those scales every day too, and your number hasn't changed at all, has it?\"",
-      "tr": {
-        "am": "ሺያውዩ እንዲህ አለች፦ «ምክንያቱም ወደ ቤት ስመለስ አንድ ነገር ገባኝ። በእነዚህ ሁለት ወራት አንተም በየቀኑ ያንን ሚዛን ላይ ቆመሃል፣ ያንተ ቁጥር ግን ፈጽሞ አልተቀየረም፣ አይደል?»"
-      },
-      "start": 126.812,
-      "end": 138.62,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "因为",
-          "yīn wèi",
-          "because; owing to; on account of",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "回来",
-          "huí lai",
-          "to return; to come back",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "路上",
-          "lù shang",
-          "on the way; en route; on the road",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "明白",
-          "míng bai",
-          "clear; obvious; unequivocal; sensible; reasonable",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(modal particle indicating change of state, situation now)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout",
-          ""
-        ],
-        [
-          "件",
-          "jiàn",
-          "classifier for events, things, clothes etc; item; component",
-          ""
-        ],
-        [
-          "事",
-          "shì",
-          "matter; thing; item",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "这",
-          "zhè",
-          "(pronoun) this; these",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; some; both",
-          ""
-        ],
-        [
-          "个",
-          "gè",
-          "(classifier used before a noun that has no specific classifier)",
-          ""
-        ],
-        [
-          "月",
-          "yuè",
-          "month; moon; monthly",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "天天",
-          "tiān tiān",
-          "every day",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "station; to stand; to halt",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "台秤",
-          "tái chèng",
-          "platform scale; (dialect) counter scale; bench scale",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "数字",
-          "shù zì",
-          "number; numeral; digit",
-          ""
-        ],
-        [
-          "一直",
-          "yī zhí",
-          "continuously; always; all the way through",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "变",
-          "biàn",
-          "to change; to become different; to transform",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "对不对",
-          "duì bù duì",
-          "right or wrong?; Is it right?; OK, yes? (colloquial)",
-          ""
-        ],
-        [
-          "？"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "王明点点头，接着就反应过来了：秤被他调轻了两公斤，他的数字却一点儿没变，也就是说，他自己胖了两公斤。",
-      "py": "Wáng Míng diǎn diǎn tóu, jiē zhe jiù fǎn yìng guò lái le: chèng bèi tā diào qīng le liǎng gōng jīn, tā de shù zì què yì diǎn r méi biàn, yě jiù shì shuō, tā zì jǐ pàng le liǎng gōng jīn.",
-      "en": "Wang Ming nods, and then it hits him: he set the scales two kilos light, yet his own number hasn't moved. In other words, he's put on two kilos himself.",
-      "tr": {
-        "am": "ዋንግ ሚንግ ራሱን በአዎንታ ነቀነቀ፣ ወዲያውም ገባው፦ ሚዛኑን ሁለት ኪሎ ቀለል አድርጎ አስተካክሎታል፣ የእሱ ቁጥር ግን አልተቀየረም፣ ይህ ማለት እሱ ራሱ ሁለት ኪሎ ጨምሯል ማለት ነው።"
-      },
-      "start": 139.32,
-      "end": 150.912,
-      "tokens": [
-        [
-          "王明",
-          "wáng míng",
-          "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
-          ""
-        ],
-        [
-          "点点",
-          "diǎn diǎn",
-          "point; speck",
-          ""
-        ],
-        [
-          "头",
-          "tóu",
-          "head; hair style; the top",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "接着",
-          "jiē zhe",
-          "then; to catch and hold on; to continue",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "反应",
-          "fǎn yìng",
-          "to react; to respond; reaction",
-          ""
-        ],
-        [
-          "过来",
-          "guò lái",
-          "to come over; to manage; to handle",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "秤",
-          "chèng",
-          "steelyard balance; Roman balance",
-          ""
-        ],
-        [
-          "被",
-          "bèi",
-          "(since c. 2009) (sarcastic or jocular) used to indicate that the following word should be regarded as being in air quotes (as in 被旅游 to \"go on a trip\")",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "调",
-          "diào",
-          "to move (troops or cadres); to transfer; to investigate",
-          ""
-        ],
-        [
-          "轻",
-          "qīng",
-          "light; small in number; easy",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "公斤",
-          "gōng jīn",
-          "kilogram (kg)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "数字",
-          "shù zì",
-          "number; numeral; digit",
-          ""
-        ],
-        [
-          "却",
-          "què",
-          "yet; but; however",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "没",
-          "méi",
-          "(negative prefix for verbs) have not; not",
-          ""
-        ],
-        [
-          "变",
-          "biàn",
-          "to change; to become different; to transform",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "也就是说",
-          "yě jiù shì shuō",
-          "in other words; that is to say; so",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "胖",
-          "pàng",
-          "fat; plump",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "两",
-          "liǎng",
-          "two; both; some",
-          ""
-        ],
-        [
-          "公斤",
-          "gōng jīn",
-          "kilogram (kg)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他看了看茶几上那一大堆空零食袋——都是小雨不吃了、他替她吃掉的。",
-      "py": "tā kàn le kàn chá jī shàng nà yí dà duī kōng líng shí dài—— dōu shì Xiǎo yǔ bù chī le, tā tì tā chī diào de.",
-      "en": "He looks at the big pile of empty snack bags on the coffee table: all the snacks Xiaoyu gave up, which he ate for her.",
-      "tr": {
-        "am": "በሻይ ጠረጴዛው ላይ ያለውን ትልቅ የባዶ መክሰስ ፓኬት ክምር ተመለከተ — ሁሉም ሺያውዩ መብላት ያቆመቻቸውና እሱ በእሷ ፋንታ የበላቸው ናቸው።"
-      },
-      "start": 151.612,
-      "end": 158.5,
-      "tokens": [
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "看",
-          "kàn",
-          "to see; to look at; to look after; to read",
-          ""
-        ],
-        [
-          "茶几",
-          "chá jī",
-          "small side table; coffee table",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "那",
-          "nà",
-          "(specifier) that; the; those",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "堆",
-          "duī",
-          "to pile up; pile; to heap up",
-          ""
-        ],
-        [
-          "空",
-          "kōng",
-          "empty; air; sky",
-          ""
-        ],
-        [
-          "零食",
-          "líng shí",
-          "snack; nibbles",
-          ""
-        ],
-        [
-          "袋",
-          "dài",
-          "pouch; bag; sack",
-          ""
-        ],
-        [
-          "—"
-        ],
-        [
-          "—"
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "不",
-          "bù",
-          "no; not so; (bound form) not; un-",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "、"
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "替",
-          "tì",
-          "to substitute for; to take the place of; to replace",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "吃掉",
-          "chī diào",
-          "to eat up; to consume",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "小雨笑着把跑鞋递给他：“明天晚上，五公里，你跟我一起跑。”",
-      "py": "Xiǎo yǔ xiào zhe bǎ pǎo xié dì gěi tā: “míng tiān wǎn shang, wǔ gōng lǐ, nǐ gēn wǒ yì qǐ pǎo.”",
-      "en": "Xiaoyu laughs and hands him his running shoes. \"Tomorrow evening, five kilometres. You're running with me.\"",
-      "tr": {
-        "am": "ሺያውዩ እየሳቀች የሩጫ ጫማውን ሰጠችው፦ «ነገ ማታ፣ አምስት ኪሎ ሜትር፣ ከእኔ ጋር ትሮጣለህ።»"
-      },
-      "start": 159.2,
-      "end": 165.632,
-      "tokens": [
-        [
-          "小雨",
-          "xiǎo yǔ",
-          "light rain; drizzle",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "跑鞋",
-          "pǎo xié",
-          "running shoes",
-          ""
-        ],
-        [
-          "递给",
-          "dì gěi",
-          "to hand it (i.e. the aforementioned item) to (sb)",
-          ""
-        ],
-        [
-          "他",
-          "tā",
-          "(third-person singular) (since the early 20th century, usu. male) he; him; his",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "明天",
-          "míng tiān",
-          "tomorrow",
-          ""
-        ],
-        [
-          "晚上",
-          "wǎn shang",
-          "evening; in the evening; night",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "五",
-          "wǔ",
-          "five; 5",
-          ""
-        ],
-        [
-          "公里",
-          "gōng lǐ",
-          "kilometer",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "你",
-          "nǐ",
-          "you (informal, as opposed to courteous 您)",
-          ""
-        ],
-        [
-          "跟",
-          "gēn",
-          "heel; to follow closely; to go with",
-          ""
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "一起",
-          "yī qǐ",
-          "(in) the same place; together; in company (with)",
-          ""
-        ],
-        [
-          "跑",
-          "pǎo",
-          "to run; to run away; to escape",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    }
-  ],
-  "chars": 524,
-  "first": "小雨决定减肥，目标是两个月瘦五公斤。",
-  "newWords": [
-    {
-      "w": "减肥",
-      "py": "jiǎnféi",
-      "en": "to lose weight"
-    },
-    {
-      "w": "灰心",
-      "py": "huīxīn",
-      "en": "lose motivation or hope"
-    },
-    {
-      "w": "真相",
-      "py": "zhēnxiàng",
-      "en": "actual facts"
-    },
-    {
-      "w": "坐立不安",
-      "py": "zuò lì bù ān",
-      "en": "lit. agitated sitting or standing (idiom)"
-    },
-    {
-      "w": "反弹",
-      "py": "fǎn tán",
-      "en": "to bounce"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h6-36.mp3?v=1791721661"
+  {
+   "text": "她每天晚上去跑步，晚饭只吃一点儿水果，每天早上第一件事，就是站到体重秤上。",
+   "py": "tā měi tiān wǎn shang qù pǎo bù, wǎn fàn zhǐ chī yì diǎn r shuǐ guǒ, měi tiān zǎo shang dì yī jiàn shì, jiù shì zhàn dào tǐ zhòng chèng shàng.",
+   "en": "She goes running every evening, has only a little fruit for dinner, and the first thing she does every morning is step on the scales.",
+   "tr": {
+    "am": "በየምሽቱ ትሮጣለች፣ ለራት ጥቂት ፍራፍሬ ብቻ ትበላለች፣ በየጠዋቱ የመጀመሪያ ሥራዋ ሚዛኑ ላይ መቆም ነው።",
+    "fa": "هر عصر می‌ره دویدن، برای شام فقط یه‌کم میوه می‌خوره و هر روز صبح اولین کاری که می‌کنه اینه که روی ترازو می‌ایسته."
+   },
+   "start": 8.312,
+   "end": 17.096,
+   "tokens": [
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "跑步",
+     "pǎo bù",
+     "to run; to jog; (military) to march at the double",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "晚饭",
+     "wǎn fàn",
+     "evening meal; dinner; supper",
+     ""
+    ],
+    [
+     "只",
+     "zhī",
+     "grain that has begun to ripen",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "水果",
+     "shuǐ guǒ",
+     "fruit",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "每天",
+     "měi tiān",
+     "every day",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "第一",
+     "dì yī",
+     "first; most important; primary; foremost",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "thing; matter; item",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就是",
+     "jiù shì",
+     "only; simply; just",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "station; to stand; to halt",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "体重秤",
+     "tǐ zhòng chèng",
+     "scale for measuring body weight; bathroom scale",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "first (of multiple parts)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "可是一个星期过去了，秤上的数字一点儿也没变。",
+   "py": "kě shì yí gè xīng qī guò qù le, chèng shàng de shù zì yì diǎn r yě méi biàn.",
+   "en": "But after a week, the number on the scales hasn't changed at all.",
+   "tr": {
+    "am": "ግን አንድ ሳምንት አለፈ፣ ሚዛኑ ላይ ያለው ቁጥር ጭራሽ አልተቀየረም።",
+    "fa": "ولی بعد از یه هفته عدد روی ترازو اصلاً تکون نمی‌خوره."
+   },
+   "start": 17.796,
+   "end": 22.812,
+   "tokens": [
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "the whole (afternoon, summer vacation etc); a; an; one",
+     ""
+    ],
+    [
+     "星期",
+     "xīng qī",
+     "week; day of the week; Sunday",
+     ""
+    ],
+    [
+     "过去",
+     "guò qù",
+     "(in the) past; former; previous; to go over; to pass by",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "秤",
+     "chèng",
+     "steelyard balance; Roman balance",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after an attribute when it modifies a noun)",
+     ""
+    ],
+    [
+     "数字",
+     "shù zì",
+     "number; numeral; digit",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "变",
+     "biàn",
+     "to change; to become different; to transform",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨很灰心：“这么辛苦，一斤都没瘦，我还是放弃吧。”",
+   "py": "Xiǎo yǔ hěn huī xīn: “zhè me xīn kǔ, yì jīn dōu méi shòu, wǒ hái shi fàng qì ba.”",
+   "en": "Xiaoyu is very discouraged. \"All that effort, and not even half a kilo. I might as well give up.\"",
+   "tr": {
+    "am": "ሺያውዩ ተስፋ ቆረጠች፦ «ይህን ያህል ለፍቼ ግማሽ ኪሎ እንኳ አልቀነስኩም፣ ብተወው ይሻላል።»",
+    "fa": "شیائویو حسابی دلسرد می‌شه: «انقدر زحمت کشیدم و حتی نیم کیلو هم نه. بذار بیخیال شم بهتره.»"
+   },
+   "start": 23.512,
+   "end": 31.096,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "灰心",
+     "huī xīn",
+     "to be discouraged; to lose heart",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "辛苦",
+     "xīn kǔ",
+     "exhausting; hard; tough",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "斤",
+     "jīn",
+     "catty; (PRC) weight equal to 500 g",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; (not) at all",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "瘦",
+     "shòu",
+     "thin; to lose weight; (of clothing) tight",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "放弃",
+     "fàng qì",
+     "to renounce; to abandon; to give up",
+     ""
+    ],
+    [
+     "吧",
+     "ba",
+     "(modal particle indicating suggestion or surmise); ...right?",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明看她这么难过，心里也不好受。那天晚上，他趁小雨睡着了，悄悄地把体重秤调轻了一点儿。",
+   "py": "Wáng Míng kàn tā zhè me nán guò, xīn lǐ yě bù hǎo shòu. nà tiān wǎn shang, tā chèn Xiǎo yǔ shuì zháo le, qiāo qiāo de bǎ tǐ zhòng chèng diào qīng le yì diǎn r.",
+   "en": "Seeing her so down, Wang Ming feels bad too. That night, while she's asleep, he quietly adjusts the scales so they read a little lighter.",
+   "tr": {
+    "am": "ዋንግ ሚንግ እንዲህ ስታዝን አይቶ እሱም ከፋው። በዚያ ምሽት ሺያውዩ ስትተኛ ሚዛኑን በድብቅ ትንሽ ቀለል አድርጎ እንዲያሳይ አስተካከለው።",
+    "fa": "می‌بینه‌ش این‌قدر ناامیده و وانگ مینگ خودش هم دلش تنگ می‌شه. همون شب وقتی خوابه، پنهونی ترازو رو جوری تنظیم می‌کنه که یه‌کم کمتر نشون بده."
+   },
+   "start": 31.796,
+   "end": 41.684,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to read; to feel (that); to see; to look at",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "这么",
+     "zhè me",
+     "so much; this much; how much?",
+     ""
+    ],
+    [
+     "难过",
+     "nán guò",
+     "to feel sad; to feel unwell; (of life) to be difficult",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "心里",
+     "xīn li",
+     "chest; heart; mind",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "不好受",
+     "bù hǎo shòu",
+     "unpleasant; hard to take",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "night; evening; in the evening",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "趁",
+     "chèn",
+     "to avail oneself of; to take advantage of",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "睡着",
+     "shuì zháo",
+     "to fall asleep",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "悄悄",
+     "qiāo qiāo",
+     "quiet; making little or no noise; surreptitious; stealthy",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "体重秤",
+     "tǐ zhòng chèng",
+     "scale for measuring body weight; bathroom scale",
+     ""
+    ],
+    [
+     "调",
+     "diào",
+     "to transfer; to move (troops or cadres); to investigate",
+     ""
+    ],
+    [
+     "轻",
+     "qīng",
+     "light; easy; gentle",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "第二天早上，小雨一站上去，就高兴得叫了起来：“少了半公斤！”",
+   "py": "dì èr tiān zǎo shang, Xiǎo yǔ yí zhàn shàng qù, jiù gāo xìng de jiào le qǐ lái: “shǎo le bàn gōng jīn!”",
+   "en": "The next morning, the moment Xiaoyu steps on, she shrieks with joy. \"Half a kilo less!\"",
+   "tr": {
+    "am": "በማግስቱ ጠዋት ሺያውዩ ሚዛኑ ላይ እንደቆመች በደስታ ጮኸች፦ «ግማሽ ኪሎ ቀንሷል!»",
+    "fa": "فرداش صبح تا شیائویو می‌ایسته روش، از خوشحالی جیغ می‌زنه: «نیم کیلو کم شد!»"
+   },
+   "start": 42.384,
+   "end": 49.272,
+   "tokens": [
+    [
+     "第二天",
+     "dì èr tiān",
+     "next day; the morrow",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "station; to stand; to halt",
+     ""
+    ],
+    [
+     "上去",
+     "shàng qù",
+     "to go up",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "高兴",
+     "gāo xìng",
+     "happy; glad; willing (to do sth)",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "叫",
+     "jiào",
+     "to shout; to call; to order",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "起来",
+     "qǐ lai",
+     "to stand up; to get up; also pr.",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "少",
+     "shǎo",
+     "less; few; to lack",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "半",
+     "bàn",
+     "half; (after a number) and a half; semi-",
+     ""
+    ],
+    [
+     "公斤",
+     "gōng jīn",
+     "kilogram (kg)",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "从那以后，王明每隔几天就偷偷调一次，小雨的“体重”也一天比一天轻。",
+   "py": "cóng nà yǐ hòu, Wáng Míng měi gé jǐ tiān jiù tōu tōu diào yí cì, Xiǎo yǔ de “tǐ zhòng” yě yì tiān bǐ yì tiān qīng.",
+   "en": "From then on, every few days Wang Ming secretly adjusts them again, and Xiaoyu's \"weight\" goes down day by day.",
+   "tr": {
+    "am": "ከዚያ ወዲህ ዋንግ ሚንግ በየጥቂት ቀናት በድብቅ ያስተካክለዋል፣ የሺያውዩ «ክብደት»ም ከቀን ወደ ቀን ቀነሰ።",
+    "fa": "از اون به بعد هر چند روز وانگ مینگ پنهونی دوباره تنظیمش می‌کنه و «وزن» شیائویو روزبه‌روز پایین میاد."
+   },
+   "start": 49.972,
+   "end": 57.556,
+   "tokens": [
+    [
+     "从",
+     "cóng",
+     "(used before a negative) ever; from; through; via",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "after; later; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "每隔",
+     "měi gé",
+     "every (so often); at intervals of",
+     ""
+    ],
+    [
+     "几天",
+     "jǐ tiān",
+     "several days",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "偷偷",
+     "tōu tōu",
+     "secretly; stealthily; covertly",
+     ""
+    ],
+    [
+     "调",
+     "diào",
+     "to transfer; to move (troops or cadres); to investigate",
+     ""
+    ],
+    [
+     "一次",
+     "yī cì",
+     "first; first time; once",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "体重",
+     "tǐ zhòng",
+     "body weight",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "比",
+     "bǐ",
+     "to compare",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "天",
+     "tiān",
+     "day; sky; heaven",
+     ""
+    ],
+    [
+     "轻",
+     "qīng",
+     "light; easy; gentle",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨越减越有信心，跑步从三公里加到了五公里，还学会了做少油少盐的菜。",
+   "py": "Xiǎo yǔ yuè jiǎn yuè yǒu xìn xīn, pǎo bù cóng sān gōng lǐ jiā dào le wǔ gōng lǐ, hái xué huì le zuò shǎo yóu shǎo yán de cài.",
+   "en": "The more she loses, the more confident she gets. She goes from running three kilometres to five, and learns to cook with less oil and salt.",
+   "tr": {
+    "am": "ሺያውዩ በቀነሰች ቁጥር በራሷ ይበልጥ ተማመነች፣ ሩጫዋን ከሦስት ኪሎ ሜትር ወደ አምስት ኪሎ ሜትር ጨመረች፣ ዘይትና ጨው የቀነሰ ምግብ ማብሰልም ተማረች።",
+    "fa": "هرچی بیشتر وزن می‌ندازه اعتماد به نفسش بیشتر می‌شه؛ از دویدن سه کیلومتر می‌رسه به پنج و یاد می‌گیره با روغن و نمک کمتر آشپزی کنه."
+   },
+   "start": 58.256,
+   "end": 67.04,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "the more... the more; to exceed; to climb over",
+     ""
+    ],
+    [
+     "减",
+     "jiǎn",
+     "to lower; to decrease; to reduce",
+     ""
+    ],
+    [
+     "越",
+     "yuè",
+     "the more... the more; to exceed; to climb over",
+     ""
+    ],
+    [
+     "有",
+     "yǒu",
+     "to have; there is",
+     ""
+    ],
+    [
+     "信心",
+     "xìn xīn",
+     "confidence; faith (in sb or sth)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "跑步",
+     "pǎo bù",
+     "to run; to jog; (military) to march at the double",
+     ""
+    ],
+    [
+     "从",
+     "cóng",
+     "from; through; via; (bound form) to follow",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "公里",
+     "gōng lǐ",
+     "kilometer",
+     ""
+    ],
+    [
+     "加",
+     "jiā",
+     "to add; (math.) plus; to increase; to augment",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "公里",
+     "gōng lǐ",
+     "kilometer",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "还",
+     "hái",
+     "still more; even more; still",
+     ""
+    ],
+    [
+     "学会",
+     "xué huì",
+     "to learn; to master",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "做",
+     "zuò",
+     "to make; to produce; to write; to compose",
+     ""
+    ],
+    [
+     "少",
+     "shǎo",
+     "less; few; to lack",
+     ""
+    ],
+    [
+     "油",
+     "yóu",
+     "oil; to apply tung oil, paint or varnish; fat",
+     ""
+    ],
+    [
+     "少",
+     "shǎo",
+     "less; few; to lack",
+     ""
+    ],
+    [
+     "盐",
+     "yán",
+     "salt",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "菜",
+     "cài",
+     "vegetable; greens; dish (of food)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "两个月以后，秤上的数字整整少了五公斤。小雨开心得不得了。",
+   "py": "liǎng gè yuè yǐ hòu, chèng shàng de shù zì zhěng zhěng shǎo le wǔ gōng jīn. Xiǎo yǔ kāi xīn de bù dé liǎo.",
+   "en": "Two months later, the number on the scales is a full five kilos lower. Xiaoyu is over the moon.",
+   "tr": {
+    "am": "ከሁለት ወር በኋላ ሚዛኑ ላይ ያለው ቁጥር ሙሉ አምስት ኪሎ ቀነሰ። ሺያውዩ እጅግ በጣም ተደሰተች።",
+    "fa": "دو ماه بعد عدد روی ترازو پنج کیلو کامل پایین‌تره. شیائویو از خوشحالی نمی‌دونه چی‌کار کنه."
+   },
+   "start": 67.74,
+   "end": 74.628,
+   "tokens": [
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "moon; month; monthly",
+     ""
+    ],
+    [
+     "以后",
+     "yǐ hòu",
+     "later; later on; after",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "秤",
+     "chèng",
+     "steelyard balance; Roman balance",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "数字",
+     "shù zì",
+     "number; numeral; digit",
+     ""
+    ],
+    [
+     "整整",
+     "zhěng zhěng",
+     "full; whole",
+     ""
+    ],
+    [
+     "少",
+     "shǎo",
+     "few; less; to lack",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "公斤",
+     "gōng jīn",
+     "kilogram (kg)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "开心",
+     "kāi xīn",
+     "to feel happy; to rejoice; to have a great time",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "不得了",
+     "bù dé liǎo",
+     "desperately serious; disastrous; extremely",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明却越来越心虚：要是她知道了真相，会不会更伤心？",
+   "py": "Wáng Míng què yuè lái yuè xīn xū: yào shi tā zhī dào le zhēn xiàng, huì bú huì gèng shāng xīn?",
+   "en": "Wang Ming, though, feels guiltier and guiltier. If she finds out the truth, will she be even more upset?",
+   "tr": {
+    "am": "ዋንግ ሚንግ ግን ይበልጥ ኅሊናው እየወቀሰው ሄደ፦ እውነቱን ብታውቅ የበለጠ ታዝን ይሆን?",
+    "fa": "ولی وانگ مینگ هر روز بیشتر عذاب وجدان می‌گیره. اگه بفهمه راست چیه، نمی‌شه بیشتر ناراحت شه؟"
+   },
+   "start": 75.328,
+   "end": 81.76,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "却",
+     "què",
+     "even though; but; yet",
+     ""
+    ],
+    [
+     "越来越",
+     "yuè lái yuè",
+     "more and more",
+     ""
+    ],
+    [
+     "心虚",
+     "xīn xū",
+     "lacking in confidence; diffident",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "要是",
+     "yào shi",
+     "(coll.) if",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "知道了",
+     "zhī dào le",
+     "OK!; Got it!",
+     ""
+    ],
+    [
+     "真相",
+     "zhēn xiàng",
+     "the truth about sth; the actual facts",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "会不会",
+     "huì bù huì",
+     "(posing a question: whether sb, something) can or cannot?",
+     ""
+    ],
+    [
+     "更",
+     "gèng",
+     "more; even more; still more",
+     ""
+    ],
+    [
+     "伤心",
+     "shāng xīn",
+     "to feel deeply hurt; to grieve; to be broken-hearted",
+     ""
+    ],
+    [
+     "？"
+    ]
+   ]
+  },
+  {
+   "text": "这天，小雨去医院体检，王明一整天都坐立不安。",
+   "py": "zhè tiān, Xiǎo yǔ qù yī yuàn tǐ jiǎn, Wáng Míng yì zhěng tiān dōu zuò lì bù ān.",
+   "en": "One day Xiaoyu goes to the hospital for a check-up, and Wang Ming is on edge all day.",
+   "tr": {
+    "am": "አንድ ቀን ሺያውዩ ለምርመራ ወደ ሆስፒታል ሄደች፣ ዋንግ ሚንግ ቀኑን ሙሉ መቀመጥም መቆምም አቃተው።",
+    "fa": "یه روز شیائویو می‌ره بیمارستان چکاپ و وانگ مینگ کل روز اضطراب داره."
+   },
+   "start": 82.46,
+   "end": 87.932,
+   "tokens": [
+    [
+     "这天",
+     "zhè tiān",
+     "this day",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "to go; to go to (a place); (of a time etc) last",
+     ""
+    ],
+    [
+     "医院",
+     "yī yuàn",
+     "hospital",
+     ""
+    ],
+    [
+     "体检",
+     "tǐ jiǎn",
+     "abbr. for 体格检查",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "整天",
+     "zhěng tiān",
+     "all day long; whole day",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "坐立不安",
+     "zuò lì bù ān",
+     "lit. agitated sitting or standing (idiom); restless; fidgety",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "晚上，小雨回来了，脸上的表情很奇怪。",
+   "py": "wǎn shang, Xiǎo yǔ huí lái le, liǎn shàng de biǎo qíng hěn qí guài.",
+   "en": "In the evening Xiaoyu comes home with a strange look on her face.",
+   "tr": {
+    "am": "ማታ ሺያውዩ ተመለሰች፣ ፊቷ ላይ እንግዳ ገጽታ ነበር።",
+    "fa": "عصر شیائویو با یه چهره‌ی عجیب میاد خونه."
+   },
+   "start": 88.632,
+   "end": 93.864,
+   "tokens": [
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "回来",
+     "huí lai",
+     "to return; to come back",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "脸",
+     "liǎn",
+     "face",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "表情",
+     "biǎo qíng",
+     "(facial) expression; to express one's feelings",
+     ""
+    ],
+    [
+     "很",
+     "hěn",
+     "very; quite",
+     ""
+    ],
+    [
+     "奇怪",
+     "qí guài",
+     "strange; odd; to marvel",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "王明终于忍不住了：“小雨，对不起，家里的秤……是我调过的。”",
+   "py": "Wáng Míng zhōng yú rěn bu zhù le: “Xiǎo yǔ, duì bu qǐ, jiā lǐ de chèng…… shì wǒ diào guò de.”",
+   "en": "Wang Ming can't hold it in any longer. \"Xiaoyu, I'm sorry. The scales at home... I've been fiddling with them.\"",
+   "tr": {
+    "am": "ዋንግ ሚንግ በመጨረሻ መቻል አቃተው፦ «ሺያውዩ፣ ይቅርታ፣ የቤቱ ሚዛን… እኔ ነኝ ያስተካከልኩት።»",
+    "fa": "وانگ مینگ دیگه طاقت نمیاره: «شیائویو، متأسفم. ترازوی خونه... منم دارم باهاش بازی می‌کنم.»"
+   },
+   "start": 94.564,
+   "end": 102.412,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "at last; in the end; finally",
+     ""
+    ],
+    [
+     "忍不住",
+     "rěn bu zhù",
+     "cannot help; unable to bear",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "对不起",
+     "duì bu qǐ",
+     "I'm sorry; excuse me; I beg your pardon",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "家里",
+     "jiā lǐ",
+     "home",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "秤",
+     "chèng",
+     "steelyard balance; Roman balance",
+     ""
+    ],
+    [
+     "…"
+    ],
+    [
+     "…"
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "调",
+     "diào",
+     "to transfer; to move (troops or cadres); to investigate",
+     ""
+    ],
+    [
+     "过",
+     "guo",
+     "(experienced action marker)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨看了他一眼：“我知道。医院的秤说，我瘦了三公斤。”",
+   "py": "Xiǎo yǔ kàn le tā yì yǎn: “wǒ zhī dào. yī yuàn de chèng shuō, wǒ shòu le sān gōng jīn.”",
+   "en": "Xiaoyu glances at him. \"I know. The hospital scales say I've lost three kilos.\"",
+   "tr": {
+    "am": "ሺያውዩ አንድ ጊዜ አየችው፦ «አውቃለሁ። የሆስፒታሉ ሚዛን ሦስት ኪሎ እንደቀነስኩ ያሳያል።»",
+    "fa": "شیائویو یه نگاه بهش می‌ندازه: «می‌دونم. ترازوی بیمارستان می‌گه سه کیلو کم کردم.»"
+   },
+   "start": 103.112,
+   "end": 110,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to read; to watch",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "一眼",
+     "yī yǎn",
+     "a glance; a quick look; a glimpse",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "知道",
+     "zhī dào",
+     "to know; to become aware of; also pr.",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "医院",
+     "yī yuàn",
+     "hospital",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "秤",
+     "chèng",
+     "steelyard balance; Roman balance",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "瘦",
+     "shòu",
+     "thin; to lose weight; (of clothing) tight",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "三",
+     "sān",
+     "three; 3",
+     ""
+    ],
+    [
+     "公斤",
+     "gōng jīn",
+     "kilogram (kg)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“陈医生说，一个月瘦一点五公斤，速度正合适，又健康，又不容易反弹。”",
+   "py": "“Chén yī shēng shuō, yí gè yuè shòu yì diǎn wǔ gōng jīn, sù dù zhèng hé shì, yòu jiàn kāng, yòu bù róng yì fǎn tán.”",
+   "en": "\"Dr Chen says a kilo and a half a month is just the right speed. It's healthy, and the weight is less likely to come back.\"",
+   "tr": {
+    "am": "«ዶክተር ቼን በወር አንድ ተኩል ኪሎ መቀነስ ልክ ተስማሚ ፍጥነት ነው አሉ፣ ጤናማም ነው፣ ክብደቱም በቀላሉ አይመለስም።»",
+    "fa": "«دکتر چن می‌گه یه کیلو و نیم تو ماه دقیقاً سرعت درستیه. هم سالمه هم احتمال برگشتن وزن کمتره.»"
+   },
+   "start": 110.7,
+   "end": 118.524,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "陈",
+     "chén",
+     "Chen (c. 1045 – 479 BC), a Zhou dynasty state",
+     ""
+    ],
+    [
+     "医生",
+     "yī shēng",
+     "doctor; medical practitioner",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; monthly; moon",
+     ""
+    ],
+    [
+     "瘦",
+     "shòu",
+     "to lose weight; thin; (of clothing) tight",
+     ""
+    ],
+    [
+     "一点",
+     "yī diǎn",
+     "a bit; a little bit",
+     ""
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "公斤",
+     "gōng jīn",
+     "kilogram (kg)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "速度",
+     "sù dù",
+     "speed; rate; velocity; (music) tempo",
+     ""
+    ],
+    [
+     "正",
+     "zhèng",
+     "just (at that time); right (in that place); straight",
+     ""
+    ],
+    [
+     "合适",
+     "hé shì",
+     "suitable; fitting; appropriate",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "健康",
+     "jiàn kāng",
+     "health; healthy",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "又",
+     "yòu",
+     "(once) again; also; both... and...",
+     ""
+    ],
+    [
+     "不容",
+     "bù róng",
+     "must not; cannot; to not allow",
+     ""
+    ],
+    [
+     "易",
+     "yì",
+     "easy; amiable; to change",
+     ""
+    ],
+    [
+     "反弹",
+     "fǎn tán",
+     "to bounce back; backlash; to bounce",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明松了一口气：“那太好了！那你刚才的表情怎么那么奇怪？”",
+   "py": "Wáng Míng sōng le yì kǒu qì: “nà tài hǎo le! nà nǐ gāng cái de biǎo qíng zěn me nà me qí guài?”",
+   "en": "Wang Ming breathes a sigh of relief. \"That's great! Then why did you look so strange just now?\"",
+   "tr": {
+    "am": "ዋንግ ሚንግ እፎይ አለ፦ «በጣም ጥሩ! ታዲያ አሁን ፊትሽ ለምን እንደዚያ እንግዳ ሆነ?»",
+    "fa": "وانگ مینگ نفس راحت می‌کشه: «چه عالی! پس چرا الان انقدر عجیب نگاهم کردی؟»"
+   },
+   "start": 119.224,
+   "end": 126.112,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "松",
+     "sōng",
+     "pine; loose; to loosen",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "一口气",
+     "yī kǒu qì",
+     "one breath; in one breath; at a stretch",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "太好了",
+     "tài hǎo le",
+     "very good",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "那",
+     "nà",
+     "then (in that case); (specifier) that; the; those",
+     ""
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "刚才",
+     "gāng cái",
+     "just now; just now; a moment ago",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "表情",
+     "biǎo qíng",
+     "(facial) expression; to express one's feelings",
+     ""
+    ],
+    [
+     "怎么",
+     "zěn me",
+     "why?; how?; what?",
+     ""
+    ],
+    [
+     "那么",
+     "nà me",
+     "then; in that case; like that; in that way; to that extent",
+     ""
+    ],
+    [
+     "奇怪",
+     "qí guài",
+     "strange; odd; to marvel",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "小雨说：“因为我在回来的路上想明白了一件事。这两个月，你也天天站到那台秤上，你的数字一直没变，对不对？”",
+   "py": "Xiǎo yǔ shuō: “yīn wèi wǒ zài huí lái de lù shàng xiǎng míng bai le yí jiàn shì. zhè liǎng gè yuè, nǐ yě tiān tiān zhàn dào nà tái chèng shàng, nǐ de shù zì yì zhí méi biàn, duì bú duì?”",
+   "en": "Xiaoyu says, \"Because on the way home, something dawned on me. These two months, you've stood on those scales every day too, and your number hasn't changed at all, has it?\"",
+   "tr": {
+    "am": "ሺያውዩ እንዲህ አለች፦ «ምክንያቱም ወደ ቤት ስመለስ አንድ ነገር ገባኝ። በእነዚህ ሁለት ወራት አንተም በየቀኑ ያንን ሚዛን ላይ ቆመሃል፣ ያንተ ቁጥር ግን ፈጽሞ አልተቀየረም፣ አይደል?»",
+    "fa": "شیائویو می‌گه: «چون راه خونه یه چیزی برام معلوم شد. این دو ماه تو هم هر روز روی اون ترازو می‌ایستی و عددت اصلاً تکون نخورد، نه؟»"
+   },
+   "start": 126.812,
+   "end": 138.62,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "因为",
+     "yīn wèi",
+     "because; owing to; on account of",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "回来",
+     "huí lai",
+     "to return; to come back",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "路上",
+     "lù shang",
+     "on the way; en route; on the road",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "明白",
+     "míng bai",
+     "clear; obvious; unequivocal; sensible; reasonable",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(modal particle indicating change of state, situation now)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout",
+     ""
+    ],
+    [
+     "件",
+     "jiàn",
+     "classifier for events, things, clothes etc; item; component",
+     ""
+    ],
+    [
+     "事",
+     "shì",
+     "matter; thing; item",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "这",
+     "zhè",
+     "(pronoun) this; these",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; some; both",
+     ""
+    ],
+    [
+     "个",
+     "gè",
+     "(classifier used before a noun that has no specific classifier)",
+     ""
+    ],
+    [
+     "月",
+     "yuè",
+     "month; moon; monthly",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "天天",
+     "tiān tiān",
+     "every day",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "station; to stand; to halt",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "台秤",
+     "tái chèng",
+     "platform scale; (dialect) counter scale; bench scale",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "数字",
+     "shù zì",
+     "number; numeral; digit",
+     ""
+    ],
+    [
+     "一直",
+     "yī zhí",
+     "continuously; always; all the way through",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "变",
+     "biàn",
+     "to change; to become different; to transform",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "对不对",
+     "duì bù duì",
+     "right or wrong?; Is it right?; OK, yes? (colloquial)",
+     ""
+    ],
+    [
+     "？"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "王明点点头，接着就反应过来了：秤被他调轻了两公斤，他的数字却一点儿没变，也就是说，他自己胖了两公斤。",
+   "py": "Wáng Míng diǎn diǎn tóu, jiē zhe jiù fǎn yìng guò lái le: chèng bèi tā diào qīng le liǎng gōng jīn, tā de shù zì què yì diǎn r méi biàn, yě jiù shì shuō, tā zì jǐ pàng le liǎng gōng jīn.",
+   "en": "Wang Ming nods, and then it hits him: he set the scales two kilos light, yet his own number hasn't moved. In other words, he's put on two kilos himself.",
+   "tr": {
+    "am": "ዋንግ ሚንግ ራሱን በአዎንታ ነቀነቀ፣ ወዲያውም ገባው፦ ሚዛኑን ሁለት ኪሎ ቀለል አድርጎ አስተካክሎታል፣ የእሱ ቁጥር ግን አልተቀየረም፣ ይህ ማለት እሱ ራሱ ሁለት ኪሎ ጨምሯል ማለት ነው።",
+    "fa": "وانگ مینگ سر تکان می‌ده و بعدش حسابی می‌گیره: ترازو رو دو کیلو کمتر تنظیم کرده بود و عدد خودش تکون نخورد؛ یعنی خودش دو کیلو بیشتر وزن اورده."
+   },
+   "start": 139.32,
+   "end": 150.912,
+   "tokens": [
+    [
+     "王明",
+     "wáng míng",
+     "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956",
+     ""
+    ],
+    [
+     "点点",
+     "diǎn diǎn",
+     "point; speck",
+     ""
+    ],
+    [
+     "头",
+     "tóu",
+     "head; hair style; the top",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "接着",
+     "jiē zhe",
+     "then; to catch and hold on; to continue",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "反应",
+     "fǎn yìng",
+     "to react; to respond; reaction",
+     ""
+    ],
+    [
+     "过来",
+     "guò lái",
+     "to come over; to manage; to handle",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "秤",
+     "chèng",
+     "steelyard balance; Roman balance",
+     ""
+    ],
+    [
+     "被",
+     "bèi",
+     "(since c. 2009) (sarcastic or jocular) used to indicate that the following word should be regarded as being in air quotes (as in 被旅游 to \"go on a trip\")",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "调",
+     "diào",
+     "to move (troops or cadres); to transfer; to investigate",
+     ""
+    ],
+    [
+     "轻",
+     "qīng",
+     "light; small in number; easy",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "公斤",
+     "gōng jīn",
+     "kilogram (kg)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "数字",
+     "shù zì",
+     "number; numeral; digit",
+     ""
+    ],
+    [
+     "却",
+     "què",
+     "yet; but; however",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "没",
+     "méi",
+     "(negative prefix for verbs) have not; not",
+     ""
+    ],
+    [
+     "变",
+     "biàn",
+     "to change; to become different; to transform",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "也就是说",
+     "yě jiù shì shuō",
+     "in other words; that is to say; so",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "胖",
+     "pàng",
+     "fat; plump",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "两",
+     "liǎng",
+     "two; both; some",
+     ""
+    ],
+    [
+     "公斤",
+     "gōng jīn",
+     "kilogram (kg)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他看了看茶几上那一大堆空零食袋——都是小雨不吃了、他替她吃掉的。",
+   "py": "tā kàn le kàn chá jī shàng nà yí dà duī kōng líng shí dài—— dōu shì Xiǎo yǔ bù chī le, tā tì tā chī diào de.",
+   "en": "He looks at the big pile of empty snack bags on the coffee table: all the snacks Xiaoyu gave up, which he ate for her.",
+   "tr": {
+    "am": "በሻይ ጠረጴዛው ላይ ያለውን ትልቅ የባዶ መክሰስ ፓኬት ክምር ተመለከተ — ሁሉም ሺያውዩ መብላት ያቆመቻቸውና እሱ በእሷ ፋንታ የበላቸው ናቸው።",
+    "fa": "به کوه کیسه‌های خالی خوراکی روی میز کنار مبل نگاه می‌کنه: همه‌ی خوراکی‌هایی که شیائویو دست کشید، و اون به جای اون خورد."
+   },
+   "start": 151.612,
+   "end": 158.5,
+   "tokens": [
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "看",
+     "kàn",
+     "to see; to look at; to look after; to read",
+     ""
+    ],
+    [
+     "茶几",
+     "chá jī",
+     "small side table; coffee table",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "那",
+     "nà",
+     "(specifier) that; the; those",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "堆",
+     "duī",
+     "to pile up; pile; to heap up",
+     ""
+    ],
+    [
+     "空",
+     "kōng",
+     "empty; air; sky",
+     ""
+    ],
+    [
+     "零食",
+     "líng shí",
+     "snack; nibbles",
+     ""
+    ],
+    [
+     "袋",
+     "dài",
+     "pouch; bag; sack",
+     ""
+    ],
+    [
+     "—"
+    ],
+    [
+     "—"
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "不",
+     "bù",
+     "no; not so; (bound form) not; un-",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "、"
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "替",
+     "tì",
+     "to substitute for; to take the place of; to replace",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "吃掉",
+     "chī diào",
+     "to eat up; to consume",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "小雨笑着把跑鞋递给他：“明天晚上，五公里，你跟我一起跑。”",
+   "py": "Xiǎo yǔ xiào zhe bǎ pǎo xié dì gěi tā: “míng tiān wǎn shang, wǔ gōng lǐ, nǐ gēn wǒ yì qǐ pǎo.”",
+   "en": "Xiaoyu laughs and hands him his running shoes. \"Tomorrow evening, five kilometres. You're running with me.\"",
+   "tr": {
+    "am": "ሺያውዩ እየሳቀች የሩጫ ጫማውን ሰጠችው፦ «ነገ ማታ፣ አምስት ኪሎ ሜትር፣ ከእኔ ጋር ትሮጣለህ።»",
+    "fa": "شیائویو می‌خنده و کفش‌های دویدنش رو می‌ده دستش: «فردا عصر، پنج کیلومتر. تو هم با من می‌دوی.»"
+   },
+   "start": 159.2,
+   "end": 165.632,
+   "tokens": [
+    [
+     "小雨",
+     "xiǎo yǔ",
+     "light rain; drizzle",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "跑鞋",
+     "pǎo xié",
+     "running shoes",
+     ""
+    ],
+    [
+     "递给",
+     "dì gěi",
+     "to hand it (i.e. the aforementioned item) to (sb)",
+     ""
+    ],
+    [
+     "他",
+     "tā",
+     "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "明天",
+     "míng tiān",
+     "tomorrow",
+     ""
+    ],
+    [
+     "晚上",
+     "wǎn shang",
+     "evening; in the evening; night",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "五",
+     "wǔ",
+     "five; 5",
+     ""
+    ],
+    [
+     "公里",
+     "gōng lǐ",
+     "kilometer",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "你",
+     "nǐ",
+     "you (informal, as opposed to courteous 您)",
+     ""
+    ],
+    [
+     "跟",
+     "gēn",
+     "heel; to follow closely; to go with",
+     ""
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "一起",
+     "yī qǐ",
+     "(in) the same place; together; in company (with)",
+     ""
+    ],
+    [
+     "跑",
+     "pǎo",
+     "to run; to run away; to escape",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  }
+ ],
+ "chars": 524,
+ "first": "小雨决定减肥，目标是两个月瘦五公斤。",
+ "newWords": [
+  {
+   "w": "减肥",
+   "py": "jiǎnféi",
+   "en": "to lose weight"
+  },
+  {
+   "w": "灰心",
+   "py": "huīxīn",
+   "en": "lose motivation or hope"
+  },
+  {
+   "w": "真相",
+   "py": "zhēnxiàng",
+   "en": "actual facts"
+  },
+  {
+   "w": "坐立不安",
+   "py": "zuò lì bù ān",
+   "en": "lit. agitated sitting or standing (idiom)"
+  },
+  {
+   "w": "反弹",
+   "py": "fǎn tán",
+   "en": "to bounce"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h6-36.mp3?v=1791721661"
 }

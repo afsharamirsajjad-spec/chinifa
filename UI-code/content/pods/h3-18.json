@@ -1,1712 +1,1727 @@
 {
-  "id": "h3-18",
-  "level": 3,
-  "no": 18,
-  "title": "两个蛋糕",
-  "title_py": "liǎng gè dàn gāo",
-  "title_en": "Two cakes",
-  "title_tr": {
-    "vi": "Hai chiếc bánh kem",
-    "pt": "Dois bolos",
-    "es": "Dos pasteles",
-    "fr": "Deux gâteaux",
-    "am": "ሁለት ኬክ",
-    "fa": "دو عدد کیک"
+ "id": "h3-18",
+ "level": 3,
+ "no": 18,
+ "title": "两个蛋糕",
+ "title_py": "liǎng gè dàn gāo",
+ "title_en": "Two cakes",
+ "title_tr": {
+  "vi": "Hai chiếc bánh kem",
+  "pt": "Dois bolos",
+  "es": "Dos pasteles",
+  "fr": "Deux gâteaux",
+  "am": "ሁለት ኬክ",
+  "fa": "دو عدد کیک"
+ },
+ "topic": "festival",
+ "free": false,
+ "cover": "https://media.kanchinese.app/review/stories/h3-18.jpg",
+ "duration": 98.536,
+ "lines": [
+  {
+   "text": "九月十号是中国的教师节，同学们想给李老师一个惊喜。",
+   "py": "jiǔ yuè shí hào shì Zhōng guó de jiào shī jié, tóng xué men xiǎng gěi Lǐ lǎo shī yí gè jīng xǐ.",
+   "en": "The tenth of September is Teachers' Day in China, and the class wants to give Teacher Li a surprise.",
+   "tr": {
+    "vi": "Ngày 10 tháng 9 là Ngày Nhà giáo của Trung Quốc, các bạn trong lớp muốn tạo cho cô Lý một bất ngờ.",
+    "pt": "Dez de setembro é o Dia do Professor na China, e a turma quer fazer uma surpresa para a professora Li.",
+    "es": "El 10 de septiembre es el Día del Maestro en China, y los alumnos quieren darle una sorpresa a la profesora Li.",
+    "fr": "Le 10 septembre, c’est la fête des enseignants en Chine, et les élèves veulent faire une surprise à la professeure Li.",
+    "am": "ሴፕቴምበር 10 የቻይና የመምህራን ቀን ነው፤ ተማሪዎቹ መምህርት ሊን ሊያስደንቋት ፈለጉ።",
+    "fa": "دهم سپتامبر تو چین روز معلمه و کلاس می‌خواد یه سورپرایزی به معلم لی بده."
+   },
+   "start": 2.62,
+   "end": 8.308,
+   "tokens": [
+    [
+     "九月",
+     "jiǔ yuè",
+     "September; ninth month (of the lunar year)",
+     ""
+    ],
+    [
+     "十",
+     "shí",
+     "ten; 10",
+     ""
+    ],
+    [
+     "号",
+     "hào",
+     "classifier for numbered people or items",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "中国",
+     "zhōng guó",
+     "China",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "教师节",
+     "jiào shī jié",
+     "Teachers' Day (September 10th in PRC and Confucius's birthday, September 28th in Taiwan)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "同学",
+     "tóng xué",
+     "classmate; to study at the same school; fellow student",
+     ""
+    ],
+    [
+     "们",
+     "men",
+     "plural marker for pronouns, and nouns referring to individuals",
+     ""
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to desire; to want (to); to think (about)",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to give; to; for",
+     ""
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "惊喜",
+     "jīng xǐ",
+     "nice surprise; to be pleasantly surprised",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
   },
-  "topic": "festival",
-  "free": false,
-  "cover": "https://media.kanchinese.app/review/stories/h3-18.jpg",
-  "duration": 98.536,
-  "lines": [
-    {
-      "text": "九月十号是中国的教师节，同学们想给李老师一个惊喜。",
-      "py": "jiǔ yuè shí hào shì Zhōng guó de jiào shī jié, tóng xué men xiǎng gěi Lǐ lǎo shī yí gè jīng xǐ.",
-      "en": "The tenth of September is Teachers' Day in China, and the class wants to give Teacher Li a surprise.",
-      "tr": {
-        "vi": "Ngày 10 tháng 9 là Ngày Nhà giáo của Trung Quốc, các bạn trong lớp muốn tạo cho cô Lý một bất ngờ.",
-        "pt": "Dez de setembro é o Dia do Professor na China, e a turma quer fazer uma surpresa para a professora Li.",
-        "es": "El 10 de septiembre es el Día del Maestro en China, y los alumnos quieren darle una sorpresa a la profesora Li.",
-        "fr": "Le 10 septembre, c’est la fête des enseignants en Chine, et les élèves veulent faire une surprise à la professeure Li.",
-        "am": "ሴፕቴምበር 10 የቻይና የመምህራን ቀን ነው፤ ተማሪዎቹ መምህርት ሊን ሊያስደንቋት ፈለጉ።"
-      },
-      "start": 2.62,
-      "end": 8.308,
-      "tokens": [
-        [
-          "九月",
-          "jiǔ yuè",
-          "September; ninth month (of the lunar year)",
-          ""
-        ],
-        [
-          "十",
-          "shí",
-          "ten; 10",
-          ""
-        ],
-        [
-          "号",
-          "hào",
-          "classifier for numbered people or items",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "中国",
-          "zhōng guó",
-          "China",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "教师节",
-          "jiào shī jié",
-          "Teachers' Day (September 10th in PRC and Confucius's birthday, September 28th in Taiwan)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "同学",
-          "tóng xué",
-          "classmate; to study at the same school; fellow student",
-          ""
-        ],
-        [
-          "们",
-          "men",
-          "plural marker for pronouns, and nouns referring to individuals",
-          ""
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to desire; to want (to); to think (about)",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to give; to; for",
-          ""
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "惊喜",
-          "jīng xǐ",
-          "nice surprise; to be pleasantly surprised",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜买了一个大蛋糕，山田画了一张卡片，杰克买了花。",
-      "py": "Ān nà mǎi le yí gè dà dàn gāo, Shān tián huà le yì zhāng kǎ piàn, Jié kè mǎi le huā.",
-      "en": "Anna buys a big cake, Yamada draws a card, and Jack buys flowers.",
-      "tr": {
-        "vi": "Anna mua một chiếc bánh kem to, Yamada vẽ một tấm thiệp, Jack mua hoa.",
-        "pt": "A Anna compra um bolo grande, a Yamada desenha um cartão, e Jack compra flores.",
-        "es": "Anna compra un pastel grande, Yamada dibuja una tarjeta y Jack compra flores.",
-        "fr": "Anna achète un grand gâteau, Yamada dessine une carte, et Jack achète des fleurs.",
-        "am": "አና ትልቅ ኬክ ገዛች፤ ያማዳ ካርድ ሣለች፤ ጃክ አበባ ገዛ።"
-      },
-      "start": 9.008,
-      "end": 14.96,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "蛋糕",
-          "dàn gāo",
-          "cake",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "山田",
-          "shān tián",
-          "Yamada (Japanese surname)",
-          ""
-        ],
-        [
-          "画",
-          "huà",
-          "to draw; to paint; to draw (a line); picture; painting",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "one; single; a (article)",
-          ""
-        ],
-        [
-          "张",
-          "zhāng",
-          "classifier for flat objects, sheet; classifier for votes",
-          ""
-        ],
-        [
-          "卡片",
-          "kǎ piàn",
-          "card",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "杰克",
-          "jié kè",
-          "Jack (name)",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "花",
-          "huā",
-          "flower; blossom; fancy pattern",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他们打算早一点儿到教室，把东西都准备好，等李老师一进来，就一起说“节日快乐”。",
-      "py": "tā men dǎ suàn zǎo yì diǎn r dào jiào shì, bǎ dōng xi dōu zhǔn bèi hǎo, děng Lǐ lǎo shī yí jìn lái, jiù yì qǐ shuō “jié rì kuài lè”.",
-      "en": "They plan to get to the classroom early, get everything ready, and the moment Teacher Li walks in, say \"Happy Teachers' Day\" all together.",
-      "tr": {
-        "vi": "Họ định đến lớp sớm một chút, chuẩn bị sẵn mọi thứ, đợi cô Lý vừa bước vào là cùng nói “Chúc mừng Ngày Nhà giáo”.",
-        "pt": "Eles planejam chegar cedo à sala, deixar tudo pronto e, assim que a professora Li entrar, dizer todos juntos: “Feliz Dia do Professor!”",
-        "es": "Piensan llegar temprano al salón, prepararlo todo y, en cuanto entre la profesora Li, decirle todos juntos: «¡Feliz Día del Maestro!».",
-        "fr": "Ils prévoient d’arriver en classe un peu plus tôt, de tout préparer et, dès que la professeure Li entrera, de dire tous ensemble « Bonne fête des enseignants ».",
-        "am": "ቀደም ብለው ወደ ክፍል ሄደው ሁሉን ነገር አዘጋጅተው መምህርት ሊ እንደገባች በአንድ ላይ «መልካም በዓል» ሊሉ አቀዱ።"
-      },
-      "start": 15.66,
-      "end": 24.156,
-      "tokens": [
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "打算",
-          "dǎ suàn",
-          "to plan; plan; to intend",
-          ""
-        ],
-        [
-          "早",
-          "zǎo",
-          "early; morning; Good morning!",
-          ""
-        ],
-        [
-          "一点儿",
-          "yī diǎn r",
-          "a little",
-          ""
-        ],
-        [
-          "到",
-          "dào",
-          "to reach; to arrive; to leave for; to go to",
-          ""
-        ],
-        [
-          "教室",
-          "jiào shì",
-          "classroom",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "把",
-          "bǎ",
-          "to hold; to grasp",
-          ""
-        ],
-        [
-          "东西",
-          "dōng xi",
-          "thing; stuff; person",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "准备",
-          "zhǔn bèi",
-          "preparation; to prepare; to intend",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "all right!; good; appropriate; proper",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "等",
-          "děng",
-          "(bound form) class; rank; grade; to wait for; to await",
-          ""
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "entire; whole; all; throughout; one; single",
-          ""
-        ],
-        [
-          "进来",
-          "jìn lái",
-          "to come in",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "一起",
-          "yī qǐ",
-          "together; in company (with); (in) the same place",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "“"
-        ],
-        [
-          "节日",
-          "jié rì",
-          "holiday; festival",
-          ""
-        ],
-        [
-          "快乐",
-          "kuài lè",
-          "happy; joyful",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "那天早上，大家七点半就到了。",
-      "py": "nà tiān zǎo shang, dà jiā qī diǎn bàn jiù dào le.",
-      "en": "That morning, everyone is there by half past seven.",
-      "tr": {
-        "vi": "Sáng hôm đó, bảy giờ rưỡi mọi người đã có mặt.",
-        "pt": "Naquela manhã, todos já estão lá às sete e meia.",
-        "es": "Esa mañana, todos llegan a las siete y media.",
-        "fr": "Ce matin-là, tout le monde est là dès sept heures et demie.",
-        "am": "በዚያ ቀን ጠዋት ሁሉም 7:30 ላይ ደረሱ።"
-      },
-      "start": 24.856,
-      "end": 28.192,
-      "tokens": [
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "早上",
-          "zǎo shang",
-          "early morning",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "七",
-          "qī",
-          "seven; 7",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "半",
-          "bàn",
-          "half; (after a number) and a half; semi-",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "他们把蛋糕放在老师的桌子上，关上灯，安静地等着。",
-      "py": "tā men bǎ dàn gāo fàng zài lǎo shī de zhuō zi shàng, guān shàng dēng, ān jìng de děng zhe.",
-      "en": "They put the cake on the teacher's desk, turn off the lights, and wait quietly.",
-      "tr": {
-        "vi": "Họ đặt bánh kem lên bàn giáo viên, tắt đèn, rồi lặng lẽ chờ đợi.",
-        "pt": "Eles colocam o bolo na mesa da professora, apagam a luz e esperam em silêncio.",
-        "es": "Ponen el pastel en el escritorio de la profesora, apagan la luz y esperan en silencio.",
-        "fr": "Ils posent le gâteau sur le bureau de la professeure, éteignent la lumière et attendent en silence.",
-        "am": "ኬኩን የመምህሯ ጠረጴዛ ላይ አስቀመጡ፤ መብራቱን አጥፍተው ጸጥ ብለው ጠበቁ።"
-      },
-      "start": 28.892,
-      "end": 34.58,
-      "tokens": [
-        [
-          "他们",
-          "tā men",
-          "they; them",
-          ""
-        ],
-        [
-          "把",
-          "bǎ",
-          "(used to put the object before the verb: 把 + {noun} + {verb})",
-          ""
-        ],
-        [
-          "蛋糕",
-          "dàn gāo",
-          "cake",
-          ""
-        ],
-        [
-          "放",
-          "fàng",
-          "to put; to set off (fireworks); to place",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "桌子",
-          "zhuō zi",
-          "desk; table",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "(bound form) up; upper; above; previous",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "关上",
-          "guān shàng",
-          "to turn off (light, electrical equipment etc)",
-          ""
-        ],
-        [
-          "灯",
-          "dēng",
-          "light; lamp; lantern",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "安静",
-          "ān jìng",
-          "quiet; peaceful; calm",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "等",
-          "děng",
-          "to wait for; to await; by the time; when; till",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "八点到了，李老师没有来。八点十分，她还是没有来。",
-      "py": "bā diǎn dào le, Lǐ lǎo shī méi yǒu lái. bā diǎn shí fēn, tā hái shi méi yǒu lái.",
-      "en": "Eight o'clock comes, and Teacher Li isn't there. At ten past eight, she still hasn't come.",
-      "tr": {
-        "vi": "Tám giờ rồi, cô Lý không đến. Tám giờ mười, cô vẫn chưa đến.",
-        "pt": "São oito horas, e a professora Li não chega. Às oito e dez, ela ainda não chegou.",
-        "es": "Dan las ocho y la profesora Li no llega. A las ocho y diez, todavía no ha llegado.",
-        "fr": "Huit heures arrivent, et la professeure Li n’est pas venue. À huit heures dix, elle n’est toujours pas là.",
-        "am": "8:00 ሆነ፤ መምህርት ሊ አልመጣችም። 8:10 ሆነ፤ አሁንም አልመጣችም።"
-      },
-      "start": 35.28,
-      "end": 41.688,
-      "tokens": [
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock; classifier for small amounts",
-          ""
-        ],
-        [
-          "到了",
-          "dào liǎo",
-          "at last; finally; in the end",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "hasn't; haven't; doesn't exist",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; for the past (amount of time)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "(after a number) o'clock; classifier for small amounts",
-          ""
-        ],
-        [
-          "十分",
-          "shí fēn",
-          "to divide into ten equal parts; very; completely",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "还是",
-          "hái shi",
-          "still (as before); had better; unexpectedly",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "hasn't; haven't; doesn't exist",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; for the past (amount of time)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "李老师从来不迟到，大家都开始担心了。",
-      "py": "Lǐ lǎo shī cóng lái bù chí dào, dà jiā dōu kāi shǐ dān xīn le.",
-      "en": "Teacher Li is never late, and everyone starts to worry.",
-      "tr": {
-        "vi": "Cô Lý chưa bao giờ đến muộn, mọi người bắt đầu lo lắng.",
-        "pt": "A professora Li nunca se atrasa, e todos começam a ficar preocupados.",
-        "es": "La profesora Li nunca llega tarde, y todos empiezan a preocuparse.",
-        "fr": "La professeure Li n’est jamais en retard, et tout le monde commence à s’inquiéter.",
-        "am": "መምህርት ሊ ዘግይታ አታውቅም፤ ሁሉም መጨነቅ ጀመሩ።"
-      },
-      "start": 42.388,
-      "end": 46.66,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "从来不",
-          "cóng lái bù",
-          "never",
-          ""
-        ],
-        [
-          "迟到",
-          "chí dào",
-          "to arrive late",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (used for emphasis) even; already",
-          ""
-        ],
-        [
-          "开始",
-          "kāi shǐ",
-          "to begin; to start; beginning; start",
-          ""
-        ],
-        [
-          "担心",
-          "dān xīn",
-          "to worry; anxious; worried",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "安娜给她打电话，可是没有人接。",
-      "py": "Ān nà gěi tā dǎ diàn huà, kě shì méi yǒu rén jiē.",
-      "en": "Anna phones her, but nobody answers.",
-      "tr": {
-        "vi": "Anna gọi điện cho cô, nhưng không ai nghe máy.",
-        "pt": "A Anna liga para ela, mas ninguém atende.",
-        "es": "Anna la llama, pero nadie contesta.",
-        "fr": "Anna l’appelle, mais personne ne répond.",
-        "am": "አና ደወለችላት፤ ግን ማንም አላነሳም።"
-      },
-      "start": 47.36,
-      "end": 50.96,
-      "tokens": [
-        [
-          "安娜",
-          "ān nà",
-          "Anna (name)",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "打电话",
-          "dǎ diàn huà",
-          "to make a telephone call",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "可是",
-          "kě shì",
-          "but; however; (used for emphasis) indeed",
-          ""
-        ],
-        [
-          "没有",
-          "méi yǒu",
-          "haven't; hasn't; doesn't exist",
-          ""
-        ],
-        [
-          "人",
-          "rén",
-          "person; people",
-          ""
-        ],
-        [
-          "接",
-          "jiē",
-          "to answer (the phone); to receive; to meet or welcome sb",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "八点二十，门终于开了，李老师抱着一个大盒子，急急忙忙地走了进来。",
-      "py": "bā diǎn èr shí, mén zhōng yú kāi le, Lǐ lǎo shī bào zhe yí gè dà hé zi, jí jí máng máng de zǒu le jìn lái.",
-      "en": "At twenty past eight, the door finally opens, and Teacher Li hurries in carrying a big box.",
-      "tr": {
-        "vi": "Tám giờ hai mươi, cuối cùng cửa cũng mở, cô Lý ôm một chiếc hộp to, vội vội vàng vàng bước vào.",
-        "pt": "Às oito e vinte, a porta finalmente se abre, e a professora Li entra correndo, com uma caixa grande nos braços.",
-        "es": "A las ocho y veinte, por fin se abre la puerta, y la profesora Li entra a toda prisa con una caja grande en los brazos.",
-        "fr": "À huit heures vingt, la porte s’ouvre enfin, et la professeure Li entre en vitesse, une grande boîte dans les bras.",
-        "am": "8:20 ላይ በሩ በመጨረሻ ተከፈተ፤ መምህርት ሊ ትልቅ ሣጥን አቅፋ እየተቻኮለች ገባች።"
-      },
-      "start": 51.66,
-      "end": 59.22,
-      "tokens": [
-        [
-          "八",
-          "bā",
-          "eight",
-          ""
-        ],
-        [
-          "点",
-          "diǎn",
-          "classifier for small amounts; to touch briefly; to tap",
-          ""
-        ],
-        [
-          "二十",
-          "èr shí",
-          "twenty; 20",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "门",
-          "mén",
-          "gate; door; doorway; gateway; opening",
-          ""
-        ],
-        [
-          "终于",
-          "zhōng yú",
-          "finally; at last; in the end",
-          ""
-        ],
-        [
-          "开",
-          "kāi",
-          "to open (transitive or intransitive)",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "抱",
-          "bào",
-          "to carry (in one's arms); to hold; to hug",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "盒子",
-          "hé zi",
-          "box; case",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "急急忙忙",
-          "jí jí máng máng",
-          "hurriedly",
-          ""
-        ],
-        [
-          "地",
-          "de",
-          "-ly",
-          ""
-        ],
-        [
-          "走",
-          "zǒu",
-          "to walk; to go; to run",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "进来",
-          "jìn lái",
-          "to come in",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "灯一开，大家一起大声说：“李老师，节日快乐！”",
-      "py": "dēng yì kāi, dà jiā yì qǐ dà shēng shuō: “Lǐ lǎo shī, jié rì kuài lè!”",
-      "en": "The lights go on, and everyone calls out together, \"Happy Teachers' Day, Teacher Li!\"",
-      "tr": {
-        "vi": "Đèn vừa bật, mọi người cùng nói lớn: “Cô Lý ơi, chúc mừng Ngày Nhà giáo!”",
-        "pt": "A luz acende, e todos dizem bem alto: “Feliz Dia do Professor, professora Li!”",
-        "es": "Se enciende la luz y todos dicen en voz alta: «¡Feliz Día del Maestro, profesora Li!».",
-        "fr": "La lumière s’allume, et tout le monde crie ensemble : « Madame Li, bonne fête des enseignants ! »",
-        "am": "መብራቱ እንደበራ ሁሉም በአንድ ድምፅ «መምህርት ሊ፣ መልካም በዓል!» አሉ።"
-      },
-      "start": 59.92,
-      "end": 64.936,
-      "tokens": [
-        [
-          "灯",
-          "dēng",
-          "light; lamp; lantern",
-          ""
-        ],
-        [
-          "一",
-          "yī",
-          "also pr. for greater clarity when spelling out numbers digit by digit",
-          ""
-        ],
-        [
-          "开",
-          "kāi",
-          "to write out (a prescription, check, invoice etc)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "一起",
-          "yī qǐ",
-          "together; in company (with); (in) the same place",
-          ""
-        ],
-        [
-          "大声",
-          "dà shēng",
-          "loud voice; in a loud voice; loudly",
-          ""
-        ],
-        [
-          "说",
-          "shuō",
-          "to speak; to talk; to say; to explain; to comment",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "节日",
-          "jié rì",
-          "holiday; festival",
-          ""
-        ],
-        [
-          "快乐",
-          "kuài lè",
-          "happy; joyful",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "李老师站在门口，吃惊得半天说不出话来。",
-      "py": "Lǐ lǎo shī zhàn zài mén kǒu, chī jīng de bàn tiān shuō bù chū huà lái.",
-      "en": "Teacher Li stands in the doorway, so surprised that for a while she can't say a word.",
-      "tr": {
-        "vi": "Cô Lý đứng ở cửa, ngạc nhiên đến mức hồi lâu không nói nên lời.",
-        "pt": "A professora Li fica parada na porta, tão surpresa que por um tempo não consegue dizer nada.",
-        "es": "La profesora Li se queda en la puerta, tan sorprendida que durante un rato no puede decir nada.",
-        "fr": "La professeure Li reste sur le pas de la porte, tellement surprise qu’elle ne peut rien dire pendant un long moment.",
-        "am": "መምህርት ሊ በሩ ላይ ቆማ በመገረም ለረጅም ጊዜ መናገር አቃታት።"
-      },
-      "start": 65.636,
-      "end": 70.388,
-      "tokens": [
-        [
-          "李",
-          "lǐ",
-          "plum",
-          ""
-        ],
-        [
-          "老师",
-          "lǎo shī",
-          "teacher",
-          ""
-        ],
-        [
-          "站",
-          "zhàn",
-          "to stand; station; to halt",
-          ""
-        ],
-        [
-          "在",
-          "zài",
-          "to exist; to be alive; (of sb or sth) to be (located) at",
-          ""
-        ],
-        [
-          "门口",
-          "mén kǒu",
-          "doorway; gate",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "吃惊",
-          "chī jīng",
-          "to be startled; to be shocked; to be amazed",
-          ""
-        ],
-        [
-          "得",
-          "de",
-          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
-          ""
-        ],
-        [
-          "半天",
-          "bàn tiān",
-          "quite a while; half of the day; a long time",
-          ""
-        ],
-        [
-          "说不出话来",
-          "shuō bù chū huà lái",
-          "speechless",
-          ""
-        ],
-        [
-          "。"
-        ]
-      ]
-    },
-    {
-      "text": "然后，她笑着打开了自己的盒子，里面也是一个大蛋糕！",
-      "py": "rán hòu, tā xiào zhe dǎ kāi le zì jǐ de hé zi, lǐ miàn yě shì yí gè dà dàn gāo!",
-      "en": "Then she smiles and opens her own box. Inside is another big cake!",
-      "tr": {
-        "vi": "Sau đó, cô cười, mở chiếc hộp của mình ra, bên trong cũng là một chiếc bánh kem to!",
-        "pt": "Depois, ela sorri e abre a caixa dela. Lá dentro também tem um bolo grande!",
-        "es": "Luego sonríe y abre su caja: ¡adentro también hay un pastel grande!",
-        "fr": "Puis elle sourit et ouvre sa propre boîte : dedans, il y a aussi un grand gâteau !",
-        "am": "ከዚያ ፈገግ ብላ የራሷን ሣጥን ከፈተች፤ ውስጡም ትልቅ ኬክ ነበር!"
-      },
-      "start": 71.088,
-      "end": 77.256,
-      "tokens": [
-        [
-          "然后",
-          "rán hòu",
-          "then; after that; afterwards",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "她",
-          "tā",
-          "she",
-          ""
-        ],
-        [
-          "笑",
-          "xiào",
-          "to laugh; to smile; to laugh at",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "打开",
-          "dǎ kāi",
-          "to open; to show (a ticket); to turn on",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "自己",
-          "zì jǐ",
-          "oneself; (attributive) one's own",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "盒子",
-          "hé zi",
-          "box; case",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "里面",
-          "lǐ miàn",
-          "inside; interior; also pr.",
-          ""
-        ],
-        [
-          "也",
-          "yě",
-          "also; too; as well; (not ...) either",
-          ""
-        ],
-        [
-          "是",
-          "shì",
-          "to be (followed by substantives only); correct; right; true",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "大",
-          "dà",
-          "big; large; great; older (than another person)",
-          ""
-        ],
-        [
-          "蛋糕",
-          "dàn gāo",
-          "cake",
-          ""
-        ],
-        [
-          "！"
-        ]
-      ]
-    },
-    {
-      "text": "“你们上次考试都考得很好，我一早就去买了蛋糕，想给你们一个惊喜。路上堵车，所以来晚了。”",
-      "py": "“nǐ men shàng cì kǎo shì dōu kǎo de hěn hǎo, wǒ yì zǎo jiù qù mǎi le dàn gāo, xiǎng gěi nǐ men yí gè jīng xǐ. lù shàng dǔ chē, suǒ yǐ lái wǎn le.”",
-      "en": "\"You all did really well in the last exam, so I went to buy a cake first thing this morning to surprise you. The traffic was bad, so I'm late.\"",
-      "tr": {
-        "vi": "“Lần thi trước các em đều làm bài rất tốt, sáng sớm cô đã đi mua bánh kem, muốn tạo cho các em một bất ngờ. Đường bị tắc, nên cô đến muộn.”",
-        "pt": "“Vocês foram muito bem na última prova, então logo cedo eu fui comprar um bolo para fazer uma surpresa para vocês. O trânsito estava ruim, por isso me atrasei.”",
-        "es": "«Les fue muy bien en el último examen, así que fui temprano a comprar un pastel para darles una sorpresa. Había mucho tráfico, por eso llegué tarde».",
-        "fr": "« Vous avez tous très bien réussi le dernier examen, alors je suis allée acheter un gâteau tôt ce matin pour vous faire une surprise. Il y avait des bouchons, c’est pour ça que je suis en retard. »",
-        "am": "«ባለፈው ፈተና ሁላችሁም ጥሩ ውጤት አመጣችሁ፤ ላስደንቃችሁ ብዬ ማለዳ ኬክ ልገዛ ሄድኩ። መንገዱ ተጨናንቆ ስለነበር ዘገየሁ።»"
-      },
-      "start": 77.956,
-      "end": 86.956,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "上次",
-          "shàng cì",
-          "last time",
-          ""
-        ],
-        [
-          "考试",
-          "kǎo shì",
-          "to take an exam; exam",
-          ""
-        ],
-        [
-          "都",
-          "dōu",
-          "all; both; entirely; (not) at all; (used for emphasis) even",
-          ""
-        ],
-        [
-          "考",
-          "kǎo",
-          "to take an exam; to examine; to take an entrance exam for",
-          ""
-        ],
-        [
-          "得很",
-          "de hěn",
-          "(after an adjective) very",
-          ""
-        ],
-        [
-          "好",
-          "hǎo",
-          "all right!; good; appropriate; proper",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "一早",
-          "yī zǎo",
-          "early in the morning; at dawn",
-          ""
-        ],
-        [
-          "就",
-          "jiù",
-          "(after a suppositional clause) in that case; then",
-          ""
-        ],
-        [
-          "去",
-          "qù",
-          "(of a time etc) last; to go; to go to (a place)",
-          ""
-        ],
-        [
-          "买",
-          "mǎi",
-          "to buy; to purchase",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "蛋糕",
-          "dàn gāo",
-          "cake",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "想",
-          "xiǎng",
-          "to think (about); to think of; to devise",
-          ""
-        ],
-        [
-          "给",
-          "gěi",
-          "to; for; for the benefit of",
-          ""
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "惊喜",
-          "jīng xǐ",
-          "nice surprise; to be pleasantly surprised",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "路上",
-          "lù shang",
-          "on the road; on the way; en route",
-          ""
-        ],
-        [
-          "堵车",
-          "dǔ chē",
-          "traffic jam; (of traffic) to get congested",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "所以",
-          "suǒ yǐ",
-          "therefore; as a result; so",
-          ""
-        ],
-        [
-          "来",
-          "lái",
-          "to come; (used as a substitute for a more specific verb)",
-          ""
-        ],
-        [
-          "晚",
-          "wǎn",
-          "late; evening; night",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "。"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "“我还以为你们不知道中国的教师节呢！”",
-      "py": "“wǒ hái yǐ wéi nǐ men bù zhī dào Zhōng guó de jiào shī jié ne!”",
-      "en": "\"And I thought you didn't know about Teachers' Day in China!\"",
-      "tr": {
-        "vi": "“Cô còn tưởng các em không biết Ngày Nhà giáo của Trung Quốc chứ!”",
-        "pt": "“E eu achando que vocês não sabiam do Dia do Professor na China!”",
-        "es": "«¡Y yo que pensaba que no sabían del Día del Maestro en China!».",
-        "fr": "« Et moi qui croyais que vous ne connaissiez pas la fête des enseignants en Chine ! »",
-        "am": "«የቻይናን የመምህራን ቀን የማታውቁ መስሎኝ ነበር!»"
-      },
-      "start": 87.656,
-      "end": 90.992,
-      "tokens": [
-        [
-          "“"
-        ],
-        [
-          "我",
-          "wǒ",
-          "I; me; my",
-          ""
-        ],
-        [
-          "还",
-          "hái",
-          "still; still in progress; still more",
-          ""
-        ],
-        [
-          "以为",
-          "yǐ wéi",
-          "to think; to believe (often with the implication that the belief is mistaken – unless referring to one's own current belief)",
-          ""
-        ],
-        [
-          "你们",
-          "nǐ men",
-          "you (plural)",
-          ""
-        ],
-        [
-          "不知",
-          "bù zhī",
-          "not to know; unaware; unknowingly",
-          ""
-        ],
-        [
-          "道",
-          "dào",
-          "road; path; (bound form) way; reason; principle",
-          ""
-        ],
-        [
-          "中国",
-          "zhōng guó",
-          "China",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "of; ~'s (possessive particle)",
-          ""
-        ],
-        [
-          "教师节",
-          "jiào shī jié",
-          "Teachers' Day (September 10th in PRC and Confucius's birthday, September 28th in Taiwan)",
-          ""
-        ],
-        [
-          "呢",
-          "ne",
-          "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
-          ""
-        ],
-        [
-          "！"
-        ],
-        [
-          "”"
-        ]
-      ]
-    },
-    {
-      "text": "那天的汉语课上，大家吃着蛋糕，学了一个新词：“惊喜”。",
-      "py": "nà tiān de Hàn yǔ kè shàng, dà jiā chī zhe dàn gāo, xué le yí gè xīn cí: “jīng xǐ”.",
-      "en": "In Chinese class that day, everyone eats cake and learns a new word: \"surprise\".",
-      "tr": {
-        "vi": "Trong giờ tiếng Trung hôm đó, mọi người vừa ăn bánh kem vừa học một từ mới: “bất ngờ”.",
-        "pt": "Na aula de chinês daquele dia, todos comem bolo e aprendem uma palavra nova: 惊喜, “surpresa”.",
-        "es": "En la clase de chino de ese día, todos comen pastel y aprenden una palabra nueva: 惊喜 (jīngxǐ), «sorpresa».",
-        "fr": "Ce jour-là, en cours de chinois, tout le monde mange du gâteau et apprend un nouveau mot : 惊喜, « surprise ».",
-        "am": "በዚያ ቀን የቻይንኛ ክፍለ ጊዜ ሁሉም ኬክ እየበሉ አንድ አዲስ ቃል ተማሩ፦ «惊喜»፣ ድንገተኛ ደስታ።"
-      },
-      "start": 91.692,
-      "end": 97.836,
-      "tokens": [
-        [
-          "那天",
-          "nà tiān",
-          "that day; the other day",
-          ""
-        ],
-        [
-          "的",
-          "de",
-          "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
-          ""
-        ],
-        [
-          "汉语",
-          "hàn yǔ",
-          "Chinese language",
-          ""
-        ],
-        [
-          "课",
-          "kè",
-          "class; subject; course",
-          ""
-        ],
-        [
-          "上",
-          "shàng",
-          "to attend (class or university)",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "大家",
-          "dà jiā",
-          "everyone; influential family; great expert",
-          ""
-        ],
-        [
-          "吃",
-          "chī",
-          "to eat; to consume; to eat at (a cafeteria etc)",
-          ""
-        ],
-        [
-          "着",
-          "zhe",
-          "aspect particle indicating action in progress or ongoing state",
-          ""
-        ],
-        [
-          "蛋糕",
-          "dàn gāo",
-          "cake",
-          ""
-        ],
-        [
-          "，"
-        ],
-        [
-          "学",
-          "xué",
-          "to learn; to study; to imitate",
-          ""
-        ],
-        [
-          "了",
-          "le",
-          "(completed action marker)",
-          ""
-        ],
-        [
-          "一个",
-          "yī ge",
-          "a; an; one; the whole (afternoon, summer vacation etc)",
-          ""
-        ],
-        [
-          "新词",
-          "xīn cí",
-          "new expression; neologism",
-          ""
-        ],
-        [
-          "："
-        ],
-        [
-          "“"
-        ],
-        [
-          "惊喜",
-          "jīng xǐ",
-          "nice surprise; to be pleasantly surprised",
-          ""
-        ],
-        [
-          "”"
-        ],
-        [
-          "。"
-        ]
-      ]
-    }
-  ],
-  "chars": 318,
-  "first": "九月十号是中国的教师节，同学们想给李老师一个惊喜。",
-  "newWords": [
-    {
-      "w": "教师节",
-      "py": "Jiàoshī Jié",
-      "en": "Teachers' Day"
-    },
-    {
-      "w": "惊喜",
-      "py": "jīngxǐ",
-      "en": "surprise"
-    },
-    {
-      "w": "卡片",
-      "py": "kǎpiàn",
-      "en": "card"
-    },
-    {
-      "w": "从来",
-      "py": "cónglái",
-      "en": "always"
-    },
-    {
-      "w": "以为",
-      "py": "yǐwéi",
-      "en": "to think mistakenly"
-    }
-  ],
-  "story": true,
-  "audio": "https://media.kanchinese.app/review/stories/h3-18.mp3?v=1791720627"
+  {
+   "text": "安娜买了一个大蛋糕，山田画了一张卡片，杰克买了花。",
+   "py": "Ān nà mǎi le yí gè dà dàn gāo, Shān tián huà le yì zhāng kǎ piàn, Jié kè mǎi le huā.",
+   "en": "Anna buys a big cake, Yamada draws a card, and Jack buys flowers.",
+   "tr": {
+    "vi": "Anna mua một chiếc bánh kem to, Yamada vẽ một tấm thiệp, Jack mua hoa.",
+    "pt": "A Anna compra um bolo grande, a Yamada desenha um cartão, e Jack compra flores.",
+    "es": "Anna compra un pastel grande, Yamada dibuja una tarjeta y Jack compra flores.",
+    "fr": "Anna achète un grand gâteau, Yamada dessine une carte, et Jack achète des fleurs.",
+    "am": "አና ትልቅ ኬክ ገዛች፤ ያማዳ ካርድ ሣለች፤ ጃክ አበባ ገዛ።",
+    "fa": "آنا یه کیک بزرگ می‌خره، یامادا یه کارت می‌کشه و جک گل می‌خره."
+   },
+   "start": 9.008,
+   "end": 14.96,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "蛋糕",
+     "dàn gāo",
+     "cake",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "山田",
+     "shān tián",
+     "Yamada (Japanese surname)",
+     ""
+    ],
+    [
+     "画",
+     "huà",
+     "to draw; to paint; to draw (a line); picture; painting",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "one; single; a (article)",
+     ""
+    ],
+    [
+     "张",
+     "zhāng",
+     "classifier for flat objects, sheet; classifier for votes",
+     ""
+    ],
+    [
+     "卡片",
+     "kǎ piàn",
+     "card",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "杰克",
+     "jié kè",
+     "Jack (name)",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "花",
+     "huā",
+     "flower; blossom; fancy pattern",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他们打算早一点儿到教室，把东西都准备好，等李老师一进来，就一起说“节日快乐”。",
+   "py": "tā men dǎ suàn zǎo yì diǎn r dào jiào shì, bǎ dōng xi dōu zhǔn bèi hǎo, děng Lǐ lǎo shī yí jìn lái, jiù yì qǐ shuō “jié rì kuài lè”.",
+   "en": "They plan to get to the classroom early, get everything ready, and the moment Teacher Li walks in, say \"Happy Teachers' Day\" all together.",
+   "tr": {
+    "vi": "Họ định đến lớp sớm một chút, chuẩn bị sẵn mọi thứ, đợi cô Lý vừa bước vào là cùng nói “Chúc mừng Ngày Nhà giáo”.",
+    "pt": "Eles planejam chegar cedo à sala, deixar tudo pronto e, assim que a professora Li entrar, dizer todos juntos: “Feliz Dia do Professor!”",
+    "es": "Piensan llegar temprano al salón, prepararlo todo y, en cuanto entre la profesora Li, decirle todos juntos: «¡Feliz Día del Maestro!».",
+    "fr": "Ils prévoient d’arriver en classe un peu plus tôt, de tout préparer et, dès que la professeure Li entrera, de dire tous ensemble « Bonne fête des enseignants ».",
+    "am": "ቀደም ብለው ወደ ክፍል ሄደው ሁሉን ነገር አዘጋጅተው መምህርት ሊ እንደገባች በአንድ ላይ «መልካም በዓል» ሊሉ አቀዱ።",
+    "fa": "برنامه‌شون اینه زود برن کلاس، همه‌چیزو آماده کنن و تازه معلم لی که پا می‌شه تو، همه با هم بگن \"روز معلم مبارک\"."
+   },
+   "start": 15.66,
+   "end": 24.156,
+   "tokens": [
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "打算",
+     "dǎ suàn",
+     "to plan; plan; to intend",
+     ""
+    ],
+    [
+     "早",
+     "zǎo",
+     "early; morning; Good morning!",
+     ""
+    ],
+    [
+     "一点儿",
+     "yī diǎn r",
+     "a little",
+     ""
+    ],
+    [
+     "到",
+     "dào",
+     "to reach; to arrive; to leave for; to go to",
+     ""
+    ],
+    [
+     "教室",
+     "jiào shì",
+     "classroom",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "把",
+     "bǎ",
+     "to hold; to grasp",
+     ""
+    ],
+    [
+     "东西",
+     "dōng xi",
+     "thing; stuff; person",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "准备",
+     "zhǔn bèi",
+     "preparation; to prepare; to intend",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "all right!; good; appropriate; proper",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "等",
+     "děng",
+     "(bound form) class; rank; grade; to wait for; to await",
+     ""
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "entire; whole; all; throughout; one; single",
+     ""
+    ],
+    [
+     "进来",
+     "jìn lái",
+     "to come in",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "一起",
+     "yī qǐ",
+     "together; in company (with); (in) the same place",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "“"
+    ],
+    [
+     "节日",
+     "jié rì",
+     "holiday; festival",
+     ""
+    ],
+    [
+     "快乐",
+     "kuài lè",
+     "happy; joyful",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "那天早上，大家七点半就到了。",
+   "py": "nà tiān zǎo shang, dà jiā qī diǎn bàn jiù dào le.",
+   "en": "That morning, everyone is there by half past seven.",
+   "tr": {
+    "vi": "Sáng hôm đó, bảy giờ rưỡi mọi người đã có mặt.",
+    "pt": "Naquela manhã, todos já estão lá às sete e meia.",
+    "es": "Esa mañana, todos llegan a las siete y media.",
+    "fr": "Ce matin-là, tout le monde est là dès sept heures et demie.",
+    "am": "በዚያ ቀን ጠዋት ሁሉም 7:30 ላይ ደረሱ።",
+    "fa": "اون صبح همه تا ساعت هفت و نیم می‌رسن."
+   },
+   "start": 24.856,
+   "end": 28.192,
+   "tokens": [
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "早上",
+     "zǎo shang",
+     "early morning",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "七",
+     "qī",
+     "seven; 7",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "半",
+     "bàn",
+     "half; (after a number) and a half; semi-",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "他们把蛋糕放在老师的桌子上，关上灯，安静地等着。",
+   "py": "tā men bǎ dàn gāo fàng zài lǎo shī de zhuō zi shàng, guān shàng dēng, ān jìng de děng zhe.",
+   "en": "They put the cake on the teacher's desk, turn off the lights, and wait quietly.",
+   "tr": {
+    "vi": "Họ đặt bánh kem lên bàn giáo viên, tắt đèn, rồi lặng lẽ chờ đợi.",
+    "pt": "Eles colocam o bolo na mesa da professora, apagam a luz e esperam em silêncio.",
+    "es": "Ponen el pastel en el escritorio de la profesora, apagan la luz y esperan en silencio.",
+    "fr": "Ils posent le gâteau sur le bureau de la professeure, éteignent la lumière et attendent en silence.",
+    "am": "ኬኩን የመምህሯ ጠረጴዛ ላይ አስቀመጡ፤ መብራቱን አጥፍተው ጸጥ ብለው ጠበቁ።",
+    "fa": "کیکو می‌ذارن رو میز معلم، چراغ‌ها رو خاموش می‌کنن و آروم منتظر می‌مونن."
+   },
+   "start": 28.892,
+   "end": 34.58,
+   "tokens": [
+    [
+     "他们",
+     "tā men",
+     "they; them",
+     ""
+    ],
+    [
+     "把",
+     "bǎ",
+     "(used to put the object before the verb: 把 + {noun} + {verb})",
+     ""
+    ],
+    [
+     "蛋糕",
+     "dàn gāo",
+     "cake",
+     ""
+    ],
+    [
+     "放",
+     "fàng",
+     "to put; to set off (fireworks); to place",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "桌子",
+     "zhuō zi",
+     "desk; table",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "(bound form) up; upper; above; previous",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "关上",
+     "guān shàng",
+     "to turn off (light, electrical equipment etc)",
+     ""
+    ],
+    [
+     "灯",
+     "dēng",
+     "light; lamp; lantern",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "安静",
+     "ān jìng",
+     "quiet; peaceful; calm",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "等",
+     "děng",
+     "to wait for; to await; by the time; when; till",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "八点到了，李老师没有来。八点十分，她还是没有来。",
+   "py": "bā diǎn dào le, Lǐ lǎo shī méi yǒu lái. bā diǎn shí fēn, tā hái shi méi yǒu lái.",
+   "en": "Eight o'clock comes, and Teacher Li isn't there. At ten past eight, she still hasn't come.",
+   "tr": {
+    "vi": "Tám giờ rồi, cô Lý không đến. Tám giờ mười, cô vẫn chưa đến.",
+    "pt": "São oito horas, e a professora Li não chega. Às oito e dez, ela ainda não chegou.",
+    "es": "Dan las ocho y la profesora Li no llega. A las ocho y diez, todavía no ha llegado.",
+    "fr": "Huit heures arrivent, et la professeure Li n’est pas venue. À huit heures dix, elle n’est toujours pas là.",
+    "am": "8:00 ሆነ፤ መምህርት ሊ አልመጣችም። 8:10 ሆነ፤ አሁንም አልመጣችም።",
+    "fa": "ساعت هشت می‌شه و معلم لی نیست. ساعت هشت و ده هم هنوز نیومده."
+   },
+   "start": 35.28,
+   "end": 41.688,
+   "tokens": [
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock; classifier for small amounts",
+     ""
+    ],
+    [
+     "到了",
+     "dào liǎo",
+     "at last; finally; in the end",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "hasn't; haven't; doesn't exist",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; for the past (amount of time)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "(after a number) o'clock; classifier for small amounts",
+     ""
+    ],
+    [
+     "十分",
+     "shí fēn",
+     "to divide into ten equal parts; very; completely",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "还是",
+     "hái shi",
+     "still (as before); had better; unexpectedly",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "hasn't; haven't; doesn't exist",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; for the past (amount of time)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "李老师从来不迟到，大家都开始担心了。",
+   "py": "Lǐ lǎo shī cóng lái bù chí dào, dà jiā dōu kāi shǐ dān xīn le.",
+   "en": "Teacher Li is never late, and everyone starts to worry.",
+   "tr": {
+    "vi": "Cô Lý chưa bao giờ đến muộn, mọi người bắt đầu lo lắng.",
+    "pt": "A professora Li nunca se atrasa, e todos começam a ficar preocupados.",
+    "es": "La profesora Li nunca llega tarde, y todos empiezan a preocuparse.",
+    "fr": "La professeure Li n’est jamais en retard, et tout le monde commence à s’inquiéter.",
+    "am": "መምህርት ሊ ዘግይታ አታውቅም፤ ሁሉም መጨነቅ ጀመሩ።",
+    "fa": "معلم لی هیچ‌وقت دیر نمی‌کنه و همه شروع می‌کنن به نگرانی."
+   },
+   "start": 42.388,
+   "end": 46.66,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "从来不",
+     "cóng lái bù",
+     "never",
+     ""
+    ],
+    [
+     "迟到",
+     "chí dào",
+     "to arrive late",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (used for emphasis) even; already",
+     ""
+    ],
+    [
+     "开始",
+     "kāi shǐ",
+     "to begin; to start; beginning; start",
+     ""
+    ],
+    [
+     "担心",
+     "dān xīn",
+     "to worry; anxious; worried",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "安娜给她打电话，可是没有人接。",
+   "py": "Ān nà gěi tā dǎ diàn huà, kě shì méi yǒu rén jiē.",
+   "en": "Anna phones her, but nobody answers.",
+   "tr": {
+    "vi": "Anna gọi điện cho cô, nhưng không ai nghe máy.",
+    "pt": "A Anna liga para ela, mas ninguém atende.",
+    "es": "Anna la llama, pero nadie contesta.",
+    "fr": "Anna l’appelle, mais personne ne répond.",
+    "am": "አና ደወለችላት፤ ግን ማንም አላነሳም።",
+    "fa": "آنا بهش زنگ می‌زنه ولی هیچ‌کی جواب نمی‌ده."
+   },
+   "start": 47.36,
+   "end": 50.96,
+   "tokens": [
+    [
+     "安娜",
+     "ān nà",
+     "Anna (name)",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "打电话",
+     "dǎ diàn huà",
+     "to make a telephone call",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "可是",
+     "kě shì",
+     "but; however; (used for emphasis) indeed",
+     ""
+    ],
+    [
+     "没有",
+     "méi yǒu",
+     "haven't; hasn't; doesn't exist",
+     ""
+    ],
+    [
+     "人",
+     "rén",
+     "person; people",
+     ""
+    ],
+    [
+     "接",
+     "jiē",
+     "to answer (the phone); to receive; to meet or welcome sb",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "八点二十，门终于开了，李老师抱着一个大盒子，急急忙忙地走了进来。",
+   "py": "bā diǎn èr shí, mén zhōng yú kāi le, Lǐ lǎo shī bào zhe yí gè dà hé zi, jí jí máng máng de zǒu le jìn lái.",
+   "en": "At twenty past eight, the door finally opens, and Teacher Li hurries in carrying a big box.",
+   "tr": {
+    "vi": "Tám giờ hai mươi, cuối cùng cửa cũng mở, cô Lý ôm một chiếc hộp to, vội vội vàng vàng bước vào.",
+    "pt": "Às oito e vinte, a porta finalmente se abre, e a professora Li entra correndo, com uma caixa grande nos braços.",
+    "es": "A las ocho y veinte, por fin se abre la puerta, y la profesora Li entra a toda prisa con una caja grande en los brazos.",
+    "fr": "À huit heures vingt, la porte s’ouvre enfin, et la professeure Li entre en vitesse, une grande boîte dans les bras.",
+    "am": "8:20 ላይ በሩ በመጨረሻ ተከፈተ፤ መምህርት ሊ ትልቅ ሣጥን አቅፋ እየተቻኮለች ገባች።",
+    "fa": "ساعت هشت و بیست، بالاخره در باز می‌شه و معلم لی با یه جعبه‌ی بزرگ عجله‌عجله میاد تو."
+   },
+   "start": 51.66,
+   "end": 59.22,
+   "tokens": [
+    [
+     "八",
+     "bā",
+     "eight",
+     ""
+    ],
+    [
+     "点",
+     "diǎn",
+     "classifier for small amounts; to touch briefly; to tap",
+     ""
+    ],
+    [
+     "二十",
+     "èr shí",
+     "twenty; 20",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "门",
+     "mén",
+     "gate; door; doorway; gateway; opening",
+     ""
+    ],
+    [
+     "终于",
+     "zhōng yú",
+     "finally; at last; in the end",
+     ""
+    ],
+    [
+     "开",
+     "kāi",
+     "to open (transitive or intransitive)",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "抱",
+     "bào",
+     "to carry (in one's arms); to hold; to hug",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "盒子",
+     "hé zi",
+     "box; case",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "急急忙忙",
+     "jí jí máng máng",
+     "hurriedly",
+     ""
+    ],
+    [
+     "地",
+     "de",
+     "-ly",
+     ""
+    ],
+    [
+     "走",
+     "zǒu",
+     "to walk; to go; to run",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "进来",
+     "jìn lái",
+     "to come in",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "灯一开，大家一起大声说：“李老师，节日快乐！”",
+   "py": "dēng yì kāi, dà jiā yì qǐ dà shēng shuō: “Lǐ lǎo shī, jié rì kuài lè!”",
+   "en": "The lights go on, and everyone calls out together, \"Happy Teachers' Day, Teacher Li!\"",
+   "tr": {
+    "vi": "Đèn vừa bật, mọi người cùng nói lớn: “Cô Lý ơi, chúc mừng Ngày Nhà giáo!”",
+    "pt": "A luz acende, e todos dizem bem alto: “Feliz Dia do Professor, professora Li!”",
+    "es": "Se enciende la luz y todos dicen en voz alta: «¡Feliz Día del Maestro, profesora Li!».",
+    "fr": "La lumière s’allume, et tout le monde crie ensemble : « Madame Li, bonne fête des enseignants ! »",
+    "am": "መብራቱ እንደበራ ሁሉም በአንድ ድምፅ «መምህርት ሊ፣ መልካም በዓል!» አሉ።",
+    "fa": "چراغ‌ها روشن می‌شن و همه با هم داد می‌زنن: «روز معلم مبارک، معلم لی!»"
+   },
+   "start": 59.92,
+   "end": 64.936,
+   "tokens": [
+    [
+     "灯",
+     "dēng",
+     "light; lamp; lantern",
+     ""
+    ],
+    [
+     "一",
+     "yī",
+     "also pr. for greater clarity when spelling out numbers digit by digit",
+     ""
+    ],
+    [
+     "开",
+     "kāi",
+     "to write out (a prescription, check, invoice etc)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "一起",
+     "yī qǐ",
+     "together; in company (with); (in) the same place",
+     ""
+    ],
+    [
+     "大声",
+     "dà shēng",
+     "loud voice; in a loud voice; loudly",
+     ""
+    ],
+    [
+     "说",
+     "shuō",
+     "to speak; to talk; to say; to explain; to comment",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "节日",
+     "jié rì",
+     "holiday; festival",
+     ""
+    ],
+    [
+     "快乐",
+     "kuài lè",
+     "happy; joyful",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "李老师站在门口，吃惊得半天说不出话来。",
+   "py": "Lǐ lǎo shī zhàn zài mén kǒu, chī jīng de bàn tiān shuō bù chū huà lái.",
+   "en": "Teacher Li stands in the doorway, so surprised that for a while she can't say a word.",
+   "tr": {
+    "vi": "Cô Lý đứng ở cửa, ngạc nhiên đến mức hồi lâu không nói nên lời.",
+    "pt": "A professora Li fica parada na porta, tão surpresa que por um tempo não consegue dizer nada.",
+    "es": "La profesora Li se queda en la puerta, tan sorprendida que durante un rato no puede decir nada.",
+    "fr": "La professeure Li reste sur le pas de la porte, tellement surprise qu’elle ne peut rien dire pendant un long moment.",
+    "am": "መምህርት ሊ በሩ ላይ ቆማ በመገረም ለረጅም ጊዜ መናገር አቃታት።",
+    "fa": "معلم لی پشت در می‌ایسته؛ انقدر تعجب می‌کنه که یه مدت نمی‌تونه حرف بزنه."
+   },
+   "start": 65.636,
+   "end": 70.388,
+   "tokens": [
+    [
+     "李",
+     "lǐ",
+     "plum",
+     ""
+    ],
+    [
+     "老师",
+     "lǎo shī",
+     "teacher",
+     ""
+    ],
+    [
+     "站",
+     "zhàn",
+     "to stand; station; to halt",
+     ""
+    ],
+    [
+     "在",
+     "zài",
+     "to exist; to be alive; (of sb or sth) to be (located) at",
+     ""
+    ],
+    [
+     "门口",
+     "mén kǒu",
+     "doorway; gate",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "吃惊",
+     "chī jīng",
+     "to be startled; to be shocked; to be amazed",
+     ""
+    ],
+    [
+     "得",
+     "de",
+     "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+     ""
+    ],
+    [
+     "半天",
+     "bàn tiān",
+     "quite a while; half of the day; a long time",
+     ""
+    ],
+    [
+     "说不出话来",
+     "shuō bù chū huà lái",
+     "speechless",
+     ""
+    ],
+    [
+     "。"
+    ]
+   ]
+  },
+  {
+   "text": "然后，她笑着打开了自己的盒子，里面也是一个大蛋糕！",
+   "py": "rán hòu, tā xiào zhe dǎ kāi le zì jǐ de hé zi, lǐ miàn yě shì yí gè dà dàn gāo!",
+   "en": "Then she smiles and opens her own box. Inside is another big cake!",
+   "tr": {
+    "vi": "Sau đó, cô cười, mở chiếc hộp của mình ra, bên trong cũng là một chiếc bánh kem to!",
+    "pt": "Depois, ela sorri e abre a caixa dela. Lá dentro também tem um bolo grande!",
+    "es": "Luego sonríe y abre su caja: ¡adentro también hay un pastel grande!",
+    "fr": "Puis elle sourit et ouvre sa propre boîte : dedans, il y a aussi un grand gâteau !",
+    "am": "ከዚያ ፈገግ ብላ የራሷን ሣጥን ከፈተች፤ ውስጡም ትልቅ ኬክ ነበር!",
+    "fa": "بعد لبخند می‌زنه و جعبه‌ی خودشو باز می‌کنه؛ توش یه کیک بزرگ دیگه‌ست!"
+   },
+   "start": 71.088,
+   "end": 77.256,
+   "tokens": [
+    [
+     "然后",
+     "rán hòu",
+     "then; after that; afterwards",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "她",
+     "tā",
+     "she",
+     ""
+    ],
+    [
+     "笑",
+     "xiào",
+     "to laugh; to smile; to laugh at",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "打开",
+     "dǎ kāi",
+     "to open; to show (a ticket); to turn on",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "自己",
+     "zì jǐ",
+     "oneself; (attributive) one's own",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "盒子",
+     "hé zi",
+     "box; case",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "里面",
+     "lǐ miàn",
+     "inside; interior; also pr.",
+     ""
+    ],
+    [
+     "也",
+     "yě",
+     "also; too; as well; (not ...) either",
+     ""
+    ],
+    [
+     "是",
+     "shì",
+     "to be (followed by substantives only); correct; right; true",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "大",
+     "dà",
+     "big; large; great; older (than another person)",
+     ""
+    ],
+    [
+     "蛋糕",
+     "dàn gāo",
+     "cake",
+     ""
+    ],
+    [
+     "！"
+    ]
+   ]
+  },
+  {
+   "text": "“你们上次考试都考得很好，我一早就去买了蛋糕，想给你们一个惊喜。路上堵车，所以来晚了。”",
+   "py": "“nǐ men shàng cì kǎo shì dōu kǎo de hěn hǎo, wǒ yì zǎo jiù qù mǎi le dàn gāo, xiǎng gěi nǐ men yí gè jīng xǐ. lù shàng dǔ chē, suǒ yǐ lái wǎn le.”",
+   "en": "\"You all did really well in the last exam, so I went to buy a cake first thing this morning to surprise you. The traffic was bad, so I'm late.\"",
+   "tr": {
+    "vi": "“Lần thi trước các em đều làm bài rất tốt, sáng sớm cô đã đi mua bánh kem, muốn tạo cho các em một bất ngờ. Đường bị tắc, nên cô đến muộn.”",
+    "pt": "“Vocês foram muito bem na última prova, então logo cedo eu fui comprar um bolo para fazer uma surpresa para vocês. O trânsito estava ruim, por isso me atrasei.”",
+    "es": "«Les fue muy bien en el último examen, así que fui temprano a comprar un pastel para darles una sorpresa. Había mucho tráfico, por eso llegué tarde».",
+    "fr": "« Vous avez tous très bien réussi le dernier examen, alors je suis allée acheter un gâteau tôt ce matin pour vous faire une surprise. Il y avait des bouchons, c’est pour ça que je suis en retard. »",
+    "am": "«ባለፈው ፈተና ሁላችሁም ጥሩ ውጤት አመጣችሁ፤ ላስደንቃችሁ ብዬ ማለዳ ኬክ ልገዛ ሄድኩ። መንገዱ ተጨናንቆ ስለነበር ዘገየሁ።»",
+    "fa": "«تو امتحان اخیر همه‌تون خیلی خوب بودید، برای همین امروز اول صبح رفتم کیک بخرم که سورپرایزتون کنم. ترافیک خیلی بود، برای همین دیر کردم.»"
+   },
+   "start": 77.956,
+   "end": 86.956,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "上次",
+     "shàng cì",
+     "last time",
+     ""
+    ],
+    [
+     "考试",
+     "kǎo shì",
+     "to take an exam; exam",
+     ""
+    ],
+    [
+     "都",
+     "dōu",
+     "all; both; entirely; (not) at all; (used for emphasis) even",
+     ""
+    ],
+    [
+     "考",
+     "kǎo",
+     "to take an exam; to examine; to take an entrance exam for",
+     ""
+    ],
+    [
+     "得很",
+     "de hěn",
+     "(after an adjective) very",
+     ""
+    ],
+    [
+     "好",
+     "hǎo",
+     "all right!; good; appropriate; proper",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "一早",
+     "yī zǎo",
+     "early in the morning; at dawn",
+     ""
+    ],
+    [
+     "就",
+     "jiù",
+     "(after a suppositional clause) in that case; then",
+     ""
+    ],
+    [
+     "去",
+     "qù",
+     "(of a time etc) last; to go; to go to (a place)",
+     ""
+    ],
+    [
+     "买",
+     "mǎi",
+     "to buy; to purchase",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "蛋糕",
+     "dàn gāo",
+     "cake",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "想",
+     "xiǎng",
+     "to think (about); to think of; to devise",
+     ""
+    ],
+    [
+     "给",
+     "gěi",
+     "to; for; for the benefit of",
+     ""
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "惊喜",
+     "jīng xǐ",
+     "nice surprise; to be pleasantly surprised",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "路上",
+     "lù shang",
+     "on the road; on the way; en route",
+     ""
+    ],
+    [
+     "堵车",
+     "dǔ chē",
+     "traffic jam; (of traffic) to get congested",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "所以",
+     "suǒ yǐ",
+     "therefore; as a result; so",
+     ""
+    ],
+    [
+     "来",
+     "lái",
+     "to come; (used as a substitute for a more specific verb)",
+     ""
+    ],
+    [
+     "晚",
+     "wǎn",
+     "late; evening; night",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "。"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "“我还以为你们不知道中国的教师节呢！”",
+   "py": "“wǒ hái yǐ wéi nǐ men bù zhī dào Zhōng guó de jiào shī jié ne!”",
+   "en": "\"And I thought you didn't know about Teachers' Day in China!\"",
+   "tr": {
+    "vi": "“Cô còn tưởng các em không biết Ngày Nhà giáo của Trung Quốc chứ!”",
+    "pt": "“E eu achando que vocês não sabiam do Dia do Professor na China!”",
+    "es": "«¡Y yo que pensaba que no sabían del Día del Maestro en China!».",
+    "fr": "« Et moi qui croyais que vous ne connaissiez pas la fête des enseignants en Chine ! »",
+    "am": "«የቻይናን የመምህራን ቀን የማታውቁ መስሎኝ ነበር!»",
+    "fa": "«و فکر می‌کردم اصلاً خبر ندارید روز معلم تو چینه!»"
+   },
+   "start": 87.656,
+   "end": 90.992,
+   "tokens": [
+    [
+     "“"
+    ],
+    [
+     "我",
+     "wǒ",
+     "I; me; my",
+     ""
+    ],
+    [
+     "还",
+     "hái",
+     "still; still in progress; still more",
+     ""
+    ],
+    [
+     "以为",
+     "yǐ wéi",
+     "to think; to believe (often with the implication that the belief is mistaken – unless referring to one's own current belief)",
+     ""
+    ],
+    [
+     "你们",
+     "nǐ men",
+     "you (plural)",
+     ""
+    ],
+    [
+     "不知",
+     "bù zhī",
+     "not to know; unaware; unknowingly",
+     ""
+    ],
+    [
+     "道",
+     "dào",
+     "road; path; (bound form) way; reason; principle",
+     ""
+    ],
+    [
+     "中国",
+     "zhōng guó",
+     "China",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "of; ~'s (possessive particle)",
+     ""
+    ],
+    [
+     "教师节",
+     "jiào shī jié",
+     "Teachers' Day (September 10th in PRC and Confucius's birthday, September 28th in Taiwan)",
+     ""
+    ],
+    [
+     "呢",
+     "ne",
+     "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+     ""
+    ],
+    [
+     "！"
+    ],
+    [
+     "”"
+    ]
+   ]
+  },
+  {
+   "text": "那天的汉语课上，大家吃着蛋糕，学了一个新词：“惊喜”。",
+   "py": "nà tiān de Hàn yǔ kè shàng, dà jiā chī zhe dàn gāo, xué le yí gè xīn cí: “jīng xǐ”.",
+   "en": "In Chinese class that day, everyone eats cake and learns a new word: \"surprise\".",
+   "tr": {
+    "vi": "Trong giờ tiếng Trung hôm đó, mọi người vừa ăn bánh kem vừa học một từ mới: “bất ngờ”.",
+    "pt": "Na aula de chinês daquele dia, todos comem bolo e aprendem uma palavra nova: 惊喜, “surpresa”.",
+    "es": "En la clase de chino de ese día, todos comen pastel y aprenden una palabra nueva: 惊喜 (jīngxǐ), «sorpresa».",
+    "fr": "Ce jour-là, en cours de chinois, tout le monde mange du gâteau et apprend un nouveau mot : 惊喜, « surprise ».",
+    "am": "በዚያ ቀን የቻይንኛ ክፍለ ጊዜ ሁሉም ኬክ እየበሉ አንድ አዲስ ቃል ተማሩ፦ «惊喜»፣ ድንገተኛ ደስታ።",
+    "fa": "همون روز تو کلاس چینی، همه کیک می‌خورن و یه کلمه‌ی جدید یاد می‌گیرن: \"سورپرایز\"."
+   },
+   "start": 91.692,
+   "end": 97.836,
+   "tokens": [
+    [
+     "那天",
+     "nà tiān",
+     "that day; the other day",
+     ""
+    ],
+    [
+     "的",
+     "de",
+     "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+     ""
+    ],
+    [
+     "汉语",
+     "hàn yǔ",
+     "Chinese language",
+     ""
+    ],
+    [
+     "课",
+     "kè",
+     "class; subject; course",
+     ""
+    ],
+    [
+     "上",
+     "shàng",
+     "to attend (class or university)",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "大家",
+     "dà jiā",
+     "everyone; influential family; great expert",
+     ""
+    ],
+    [
+     "吃",
+     "chī",
+     "to eat; to consume; to eat at (a cafeteria etc)",
+     ""
+    ],
+    [
+     "着",
+     "zhe",
+     "aspect particle indicating action in progress or ongoing state",
+     ""
+    ],
+    [
+     "蛋糕",
+     "dàn gāo",
+     "cake",
+     ""
+    ],
+    [
+     "，"
+    ],
+    [
+     "学",
+     "xué",
+     "to learn; to study; to imitate",
+     ""
+    ],
+    [
+     "了",
+     "le",
+     "(completed action marker)",
+     ""
+    ],
+    [
+     "一个",
+     "yī ge",
+     "a; an; one; the whole (afternoon, summer vacation etc)",
+     ""
+    ],
+    [
+     "新词",
+     "xīn cí",
+     "new expression; neologism",
+     ""
+    ],
+    [
+     "："
+    ],
+    [
+     "“"
+    ],
+    [
+     "惊喜",
+     "jīng xǐ",
+     "nice surprise; to be pleasantly surprised",
+     ""
+    ],
+    [
+     "”"
+    ],
+    [
+     "。"
+    ]
+   ]
+  }
+ ],
+ "chars": 318,
+ "first": "九月十号是中国的教师节，同学们想给李老师一个惊喜。",
+ "newWords": [
+  {
+   "w": "教师节",
+   "py": "Jiàoshī Jié",
+   "en": "Teachers' Day"
+  },
+  {
+   "w": "惊喜",
+   "py": "jīngxǐ",
+   "en": "surprise"
+  },
+  {
+   "w": "卡片",
+   "py": "kǎpiàn",
+   "en": "card"
+  },
+  {
+   "w": "从来",
+   "py": "cónglái",
+   "en": "always"
+  },
+  {
+   "w": "以为",
+   "py": "yǐwéi",
+   "en": "to think mistakenly"
+  }
+ ],
+ "story": true,
+ "audio": "https://media.kanchinese.app/review/stories/h3-18.mp3?v=1791720627"
 }
