@@ -82,11 +82,11 @@ n.myProgress={
         f=e.Progress&&Progress.openShare?'<button class="iconbtn" '+s("rdShare")+' aria-label="'+a(t("rdShare"))+'" style="border:none; background:transparent; cursor:pointer;">'+r("share",18)+"</button>":"";
 
         var headHtml='<div class="mp-nav-bar" style="flex:none; display:flex; align-items:center; justify-content:space-between; padding:calc(var(--sat, 12px) + 12px) 16px 12px; background:var(--card, #fff); border-bottom:1px solid var(--line2, #f1f5f9); direction:rtl;">'+
-          '<div style="display:flex; align-items:center; gap:10px;">'+
-            '<button class="iconbtn" '+s("back")+' aria-label="بازگشت" style="width:38px; height:38px; border-radius:50%; background:var(--sunk, #f1f5f9); display:grid; place-items:center; border:none; cursor:pointer;">'+r("arrow-right",18)+'</button>'+
             '<h1 style="margin:0; font-size:20px; font-weight:800; color:var(--text, #1e293b);">'+a(t("mpTitle"))+'</h1>'+
-          '</div>'+
-          (f||'<div></div>')+
+            '<div style="display:flex; align-items:center; gap:10px;">'+
+              (f||'')+
+              '<button class="iconbtn" '+s("back")+' aria-label="بازگشت" style="width:38px; height:38px; border-radius:50%; background:var(--sunk, #f1f5f9); display:grid; place-items:center; border:none; cursor:pointer;">'+r("arrow-right",18)+'</button>'+
+            '</div>'+
         '</div>';
 
         var streakHtml='<div class="mp-card mp-streak-hero" style="background:linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%); border:1px solid #fed7aa; border-radius:20px; padding:16px 18px; margin-bottom:14px; display:flex; align-items:center; justify-content:space-between; direction:rtl; box-shadow:0 2px 10px rgba(249,115,22,0.06);">'+
