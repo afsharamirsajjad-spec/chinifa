@@ -21,6 +21,7 @@ const {
   verifyPassword,
   getAuthUser,
   stableUserId,
+  getUserStatus,
 } = require("./db");
 
 // Global in-memory OTP cache for rate limiting & fallback verification
@@ -351,6 +352,11 @@ module.exports = async (req, res) => {
         return res.status(405).json({ ok: false, error: "method-not-allowed" });
       }
       const user = await getAuthUser(req);
+      // Blocked accounts cannot use support either
+      const fbStatus = await getUserStatus(user);
+      if (fbStatus === "suspended") {
+        return res.status(403).json({ ok: false, error: "account-suspended", message: "حساب کاربری شما توسط مدیر مسدود شده است." });
+      }
       const fbType = String(body.type || "پیشنهاد").trim().slice(0, 40) || "پیشنهاد";
       const subject = String(body.subject || "").trim().slice(0, 120);
       const msgRaw = String(body.message || body.content || "").trim();
@@ -996,6 +1002,10 @@ module.exports = async (req, res) => {
       if (!user) {
         return res.status(401).json({ error: "no-session", message: "ابتدا وارد حساب کاربری شوید." });
       }
+      const subStatus = await getUserStatus(user);
+      if (subStatus === "suspended") {
+        return res.status(403).json({ error: "account-suspended", message: "حساب کاربری شما توسط مدیر مسدود شده است." });
+      }
 
       const webhookSecret = process.env.PAYMENT_WEBHOOK_SECRET || "";
       const providedSecret = String((req.headers && req.headers["x-payment-secret"]) || body.paymentSecret || "").trim();
@@ -1104,6 +1114,9 @@ module.exports = async (req, res) => {
             fullName = uRes.rows[0].full_name || fullName;
             realUsername = String(uRes.rows[0].username || "").toLowerCase();
             proStatus = proStatus || isDbRowPro(uRes.rows[0]);
+          } else {
+            // Account was deleted by the admin; end the session immediately.
+            return res.status(403).json({ ok: false, error: "account-suspended", message: "حساب کاربری دیگر فعال نیست." });
           }
           const kvRes = await pool.query(
             `SELECT value FROM public.chinifa_kv_store WHERE user_id = $1 OR ($2 <> '' AND email = $2) ORDER BY updated_at DESC LIMIT 1`,
@@ -1143,6 +1156,10 @@ module.exports = async (req, res) => {
     if (action === "change-password") {
       const user = await getAuthUser(req);
       if (!user) return res.status(401).json({ error: "no-session" });
+      const pwStatus = await getUserStatus(user);
+      if (pwStatus === "suspended") {
+        return res.status(403).json({ error: "account-suspended", message: "حساب کاربری شما توسط مدیر مسدود شده است." });
+      }
       const newPw = String(body.password || "");
       if (newPw.length < 6) return res.status(400).json({ error: "کلمه عبور باید حداقل ۶ نویسه باشد.", field: "password" });
       await initDb();
@@ -1157,10 +1174,15 @@ module.exports = async (req, res) => {
 
     // ----------------------------------------------------
     // ۹. حذف حساب کاربری: action=delete-account
+    //     Blocked users cannot delete their own account to escape the block.
     // ----------------------------------------------------
     if (action === "delete-account") {
       const user = await getAuthUser(req);
       if (!user) return res.status(401).json({ error: "no-session" });
+      const delStatus = await getUserStatus(user);
+      if (delStatus === "suspended") {
+        return res.status(403).json({ error: "account-suspended", message: "حساب مسدود شده را نمی‌توان حذف کرد؛ با پشتیبانی تماس بگیرید." });
+      }
       await initDb();
       if (pool) {
         await pool.query(`DELETE FROM public.chinifa_kv_store WHERE user_id = $1 OR ($2 <> '' AND email = $2)`, [user.id, user.email || ""]);

@@ -760,6 +760,19 @@ async function syncUserToDb(u){
   });
 }
 
+// Status-only update (block / unblock): never sends the possibly stale
+// xp / streak / currentLesson values from the cached list, so blocking a user
+// cannot silently overwrite their live progress with old numbers.
+async function syncUserStatusToDb(u){
+  return adminApiCall("user-update", "POST", {
+    id: u.id,
+    email: u.email,
+    status: u.status,
+    role: u.role || (u.status === "vip" ? "vip" : "user"),
+    isPro: u.status === "vip" || u.role === "vip"
+  });
+}
+
 async function deleteUserFromDb(u){
   return adminApiCall("user-delete", "POST", { id: u.id, email: u.email });
 }
@@ -969,7 +982,7 @@ async function vUsers(targetId){
         const prev = u.status;
         u.status = u.status === "suspended" ? "active" : "suspended";
         try {
-          await syncUserToDb(u);
+          await syncUserStatusToDb(u);
           await saveUsersData(users);
           toast(`وضعیت کاربر در دیتابیس به ${u.status === 'suspended' ? 'مسدود' : 'فعال'} تغییر یافت`, "ok");
           draw();

@@ -381,6 +381,22 @@ function stableUserId(email) {
   return crypto.createHash("sha256").update(String(email || "").trim().toLowerCase()).digest("hex").slice(0, 32);
 }
 
+// Current admin-controlled status of the session's account:
+//   "active" | "vip" | "suspended" | "missing" (row deleted → account is dead)
+//   null = unknown (DB down) → callers fail open, matching previous behavior.
+async function getUserStatus(user) {
+  if (!pool || !user) return null;
+  try {
+    const r = await pool.query(
+      `SELECT status FROM public.chinifa_users WHERE id = $1 OR ($2 <> '' AND email = $2) LIMIT 1`,
+      [user.id, user.email || ""]
+    );
+    return r.rows[0] ? String(r.rows[0].status || "active") : "missing";
+  } catch (e) {
+    return null;
+  }
+}
+
 module.exports = {
   supabaseAdmin,
   supabaseClient,
@@ -398,6 +414,7 @@ module.exports = {
   verifyPassword,
   getAuthUser,
   stableUserId,
+  getUserStatus,
   getDbDiagnostics: () => ({
     matchedPgKey,
     lastDbError,

@@ -190,8 +190,13 @@ module.exports = async (req, res) => {
           s.value AS store_value,
           s.updated_at AS store_updated_at
         FROM public.chinifa_users u
-        LEFT JOIN public.chinifa_kv_store s
-          ON s.user_id = u.id OR (u.email <> '' AND s.email = u.email)
+        LEFT JOIN LATERAL (
+          SELECT s.value, s.updated_at
+          FROM public.chinifa_kv_store s
+          WHERE s.user_id = u.id OR (u.email <> '' AND s.email = u.email)
+          ORDER BY s.updated_at DESC
+          LIMIT 1
+        ) s ON true
         ORDER BY COALESCE(s.updated_at, u.updated_at, u.created_at) DESC
         LIMIT 500
       `);
@@ -268,7 +273,12 @@ module.exports = async (req, res) => {
              is_pro = $5,
              hsk_level = COALESCE(NULLIF($6, ''), hsk_level),
              full_name = COALESCE(NULLIF($7, ''), full_name),
-             pro_expires_at = CASE WHEN $5 THEN now() + interval '365 days' ELSE NULL END,
+             pro_expires_at = CASE
+               WHEN $5 AND NOT (public.chinifa_users.is_pro AND public.chinifa_users.pro_expires_at > now())
+                 THEN now() + interval '365 days'
+               WHEN NOT $5 THEN NULL
+               ELSE public.chinifa_users.pro_expires_at
+             END,
              updated_at = now()
          WHERE ($1 <> '' AND id = $1) OR ($2 <> '' AND email = $2)
          RETURNING id, email, status, role, is_pro`,
@@ -298,7 +308,8 @@ module.exports = async (req, res) => {
       if (body.streak !== undefined || body.xp !== undefined || body.currentLesson !== undefined) {
         try {
           const kvRes = await pool.query(
-            `SELECT user_id, value FROM public.chinifa_kv_store WHERE user_id = $1 OR ($2 <> '' AND email = $2) LIMIT 1`,
+            `SELECT user_id, value FROM public.chinifa_kv_store WHERE user_id = $1 OR ($2 <> '' AND email = $2)
+             ORDER BY updated_at DESC LIMIT 1`,
             [targetId, targetEmail]
           );
           const curVal = (kvRes.rows[0] && kvRes.rows[0].value && typeof kvRes.rows[0].value === "object")
@@ -306,7 +317,16 @@ module.exports = async (req, res) => {
             : {};
           curVal.level = level;
           curVal.name = name;
-          if (body.streak !== undefined) curVal.streak = Math.max(0, Number(body.streak) || 0);
+          // Stamp the edit time; api/store.js keeps level/name/courseProgress
+          // authoritative for a short window so app pushes can't instantly revert them.
+          curVal.adminAt = Date.now();
+          if (body.streak !== undefined) {
+            curVal.streak = Math.max(0, Number(body.streak) || 0);
+            // Anchor the streak to today so the app's streak merge honors the raised value.
+            if (curVal.streak > 0) {
+              curVal.lastStudy = new Date().toISOString().slice(0, 10);
+            }
+          }
           if (body.xp !== undefined) {
             // Admin types the desired TOTAL XP; store a bonus so the app's own
             // computed XP (Journey.xp()) reaches that number on the client.
@@ -319,16 +339,21 @@ module.exports = async (req, res) => {
             curVal.courseProgress = curVal.courseProgress && typeof curVal.courseProgress === "object" ? curVal.courseProgress : {};
             curVal.courseProgress.hsk1 = Math.max(0, Number(body.currentLesson) || 0);
           }
-          const storeUid = (kvRes.rows[0] && kvRes.rows[0].user_id) || targetId;
-          await pool.query(
-            `INSERT INTO public.chinifa_kv_store (user_id, email, store_key, value, updated_at)
-             VALUES ($1, $2, 'cheh-chin-state', $3, now())
-             ON CONFLICT (user_id) DO UPDATE SET
-               email = COALESCE(NULLIF(EXCLUDED.email, ''), public.chinifa_kv_store.email),
-               value = EXCLUDED.value,
-               updated_at = now()`,
-            [storeUid, targetEmail, JSON.stringify(curVal)]
-          );
+          if (kvRes.rows[0]) {
+            // Some accounts carry more than one KV row (legacy ids); update them
+            // all so the app's "newest row wins" read always sees the edit.
+            await pool.query(
+              `UPDATE public.chinifa_kv_store SET value = $3::jsonb, updated_at = now()
+               WHERE user_id = $1 OR ($2 <> '' AND email = $2)`,
+              [targetId, targetEmail, JSON.stringify(curVal)]
+            );
+          } else {
+            await pool.query(
+              `INSERT INTO public.chinifa_kv_store (user_id, email, store_key, value, updated_at)
+               VALUES ($1, $2, 'cheh-chin-state', $3, now())`,
+              [targetId, targetEmail, JSON.stringify(curVal)]
+            );
+          }
         } catch (e) {
           console.error("[api/admin user-update kv]", e.message);
         }

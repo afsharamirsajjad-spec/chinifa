@@ -1,5 +1,5 @@
 // Chinifa User Learning Progress & State Synchronization API
-const { pool, initDb, getAuthUser, cors, parseBody } = require("./db");
+const { pool, initDb, getAuthUser, getUserStatus, cors, parseBody } = require("./db");
 
 function compactUnitProgsForDb(up) {
   if (!up || typeof up !== "object") return undefined;
@@ -54,6 +54,42 @@ function deriveLevelFromSnapshot(snapshot) {
   return "HSK 1";
 }
 
+// Fields the admin sets from the panel must survive app pushes, otherwise the
+// next sync silently reverts them ("admin edited XP but it changed back").
+//   - xp / xpBonus: admin-owned, always keep the stored value.
+//   - streak: keep the stored value while it is higher than what the app sends
+//     (an admin raise sticks; the app's own growth still flows through).
+//   - level / name / courseProgress: stick for 10 minutes after an admin edit
+//     (curVal.adminAt), long enough for the app to pull them; afterwards the
+//     app owns them again so resets like startOver keep working.
+function applyAdminProtectedFields(prev, snap) {
+  if (!prev || typeof prev !== "object") return snap;
+  if (prev.xpBonus != null) snap.xpBonus = Math.max(0, Number(prev.xpBonus) || 0);
+  if (prev.xp != null) snap.xp = Math.max(0, Number(prev.xp) || 0);
+  if ((Number(prev.streak) || 0) > (Number(snap.streak) || 0)) {
+    snap.streak = Number(prev.streak) || 0;
+    // Keep the most recent activity day so the app's streak merge honors the raised value.
+    const ls = [snap.lastStudy, prev.lastStudy]
+      .filter((x) => typeof x === "string" && /^\d{4}-\d{2}-\d{2}$/.test(x))
+      .sort()
+      .pop();
+    if (ls) snap.lastStudy = ls;
+  }
+  const adminAt = Number(prev.adminAt) || 0;
+  if (adminAt && Date.now() - adminAt < 10 * 60 * 1000) {
+    if (prev.level) snap.level = String(prev.level).slice(0, 32);
+    if (prev.name) snap.name = String(prev.name).slice(0, 80);
+    if (prev.courseProgress && typeof prev.courseProgress === "object") {
+      const cp = snap.courseProgress && typeof snap.courseProgress === "object" ? snap.courseProgress : {};
+      Object.keys(prev.courseProgress).forEach((k) => {
+        cp[k] = Math.max(Number(cp[k]) || 0, Number(prev.courseProgress[k]) || 0);
+      });
+      snap.courseProgress = cp;
+    }
+  }
+  return snap;
+}
+
 module.exports = async (req, res) => {
   cors(req, res);
   if (req.method === "OPTIONS") return res.status(204).end();
@@ -64,14 +100,9 @@ module.exports = async (req, res) => {
 
     await initDb();
     if (pool) {
-      const stRes = await pool.query(
-        `SELECT status FROM public.chinifa_users WHERE id = $1 OR ($2 <> '' AND email = $2) LIMIT 1`,
-        [user.id, user.email || ""]
-      ).catch((e) => {
-        console.error("[api/store status check]", e.message);
-        return { rows: [] };
-      });
-      if (stRes.rows[0] && stRes.rows[0].status === "suspended") {
+      const status = await getUserStatus(user);
+      if (status === "suspended" || status === "missing") {
+        // Blocked accounts (and rows the admin deleted) can neither read nor write.
         return res.status(403).json({ error: "account-suspended" });
       }
     }
@@ -96,12 +127,23 @@ module.exports = async (req, res) => {
     if (req.method === "POST") {
       const body = parseBody(req);
       const snapshot = sanitizeSnapshotForDb(body.value || {});
-      const serialized = JSON.stringify(snapshot);
-      if (serialized.length > 524288) {
+      const serialized0 = JSON.stringify(snapshot);
+      if (serialized0.length > 524288) {
         return res.status(413).json({ error: "payload-too-large", message: "حجم داده‌های همگام‌سازی بیش از حد مجاز است." });
       }
 
       if (!pool) return res.status(200).json({ ok: true, db: false });
+
+      // Re-apply admin-set fields before overwriting the row (see applyAdminProtectedFields)
+      const prevRes = await pool.query(
+        `SELECT value FROM public.chinifa_kv_store WHERE user_id = $1 OR ($2 <> '' AND email = $2) ORDER BY updated_at DESC LIMIT 1`,
+        [user.id, user.email || ""]
+      ).catch((e) => {
+        console.error("[api/store prev read]", e.message);
+        return { rows: [] };
+      });
+      applyAdminProtectedFields(prevRes.rows[0] && prevRes.rows[0].value, snapshot);
+      const serialized = JSON.stringify(snapshot);
 
       await pool.query(
         `INSERT INTO public.chinifa_kv_store (user_id, email, store_key, value, updated_at)
@@ -114,18 +156,19 @@ module.exports = async (req, res) => {
         [user.id, user.email || "", key, serialized]
       );
 
-      // Keep chinifa_users HSK level & name updated (and ensure user row exists)
+      // Keep chinifa_users HSK level & name updated. The row itself must already
+      // exist (created at registration); a missing row means the account was
+      // deleted/blocked, so never recreate it here.
       const level = deriveLevelFromSnapshot(snapshot);
       const name = String(snapshot.name || user.fullName || (user.email ? user.email.split("@")[0] : "")).slice(0, 80);
       if (user.email) {
         await pool.query(
-          `INSERT INTO public.chinifa_users (id, email, full_name, hsk_level)
-           VALUES ($1, $2, $3, $4)
-           ON CONFLICT (email) DO UPDATE SET
-             hsk_level = $4,
-             full_name = COALESCE(NULLIF($3, ''), public.chinifa_users.full_name),
-             updated_at = now()`,
-          [user.id, user.email, name, level]
+          `UPDATE public.chinifa_users
+           SET hsk_level = $3,
+               full_name = COALESCE(NULLIF($4, ''), public.chinifa_users.full_name),
+               updated_at = now()
+           WHERE id = $1 OR ($2 <> '' AND email = $2)`,
+          [user.id, user.email, level, name]
         ).catch((e) => console.error("[api/store user update]", e.message));
       }
 
